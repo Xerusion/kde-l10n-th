@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-09 10:24+0100\n"
+"POT-Creation-Date: 2025-03-18 11:47+0100\n"
 "PO-Revision-Date: 2010-03-27 21:08+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -337,7 +337,14 @@ msgstr "จุดต่อนิ้ว (DPI)"
 msgid "Unspecified"
 msgstr "ยังไม่ระบุ"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:116
+#, kde-format
+msgctxt "Horizontal DPI 'x' Vertical DPI"
+msgid " × "
+msgstr ""
+
+#. +> stable6
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:116
 #, kde-format
 msgctxt "Horizontal DPI 'x' Vertical DPI"
@@ -457,14 +464,14 @@ msgstr "ช่องข้อมูลข้อความใช้ไม่ไ
 
 #. +> trunk6 stable6
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:98
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:237
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:238
 #, kde-format
 msgid "Dimensions"
 msgstr "มิติขนาด"
 
 #. +> trunk6 stable6
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:100
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:244
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:245
 #, kde-format
 msgid "Original:"
 msgstr "ค่าเดิม:"
@@ -472,8 +479,6 @@ msgstr "ค่าเดิม:"
 #. +> trunk6 stable6
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:103
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:200
-#: mainWindow/kpMainWindow_StatusBar.cpp:69
-#: mainWindow/kpMainWindow_StatusBar.cpp:179
 #, kde-format
 msgid "%1 x %2"
 msgstr "%1 x %2"
@@ -493,7 +498,7 @@ msgid "&Update"
 msgstr "ป&รับปรุง"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:66
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:67
 #, fuzzy, kde-format
 #| msgid "Resize / Scale"
 msgctxt "@title:window"
@@ -501,38 +506,38 @@ msgid "Resize / Scale"
 msgstr "ปรับมิติขนาด / ปรับย่อ/ขยาย"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:132
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:133
 #, kde-format
 msgid "Ac&t on:"
 msgstr "กระ&ทำบน:"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:137
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:138
 #, kde-format
 msgid "Entire Image"
 msgstr "ทั้งภาพ"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:139
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:140
 #: layers/selections/image/kpAbstractImageSelection.cpp:168
 #, kde-format
 msgid "Selection"
 msgstr "การเลือกพื้นที่"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:142
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:143
 #, kde-format
 msgid "Text Box"
 msgstr "กล่องข้อความ"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:186
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:187
 #, kde-format
 msgid "Operation"
 msgstr "ปฏิบัติการ"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:188
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:189
 #, kde-format
 msgid ""
 "<qt>"
@@ -545,36 +550,44 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:207
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:208
 #, kde-format
 msgid "&Resize"
 msgstr "ป&รับมิติขนาด"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:210
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:211
 #, kde-format
 msgid "&Scale"
 msgstr "ปรับ&ย่อ/ขยาย"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:213
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:214
 #, kde-format
 msgid "S&mooth Scale"
 msgstr "ปรับย่อ/ขย&ายแบบนุ่มนวล"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:239
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:240
 #, kde-format
 msgid "Width:"
 msgstr "ความกว้าง:"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:241
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:242
 #, kde-format
 msgid "Height:"
 msgstr "ความสูง:"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:249
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:257
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:269
+#, kde-format
+msgid "×"
+msgstr ""
+
+#. +> stable6
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:248
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:256
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:268
@@ -582,19 +595,7 @@ msgstr "ความสูง:"
 msgid "x"
 msgstr "x"
 
-#. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:253
-#, kde-format
-msgid "&New:"
-msgstr "ค่าใ&หม่:"
-
-#. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:260
-#, kde-format
-msgid "&Percent:"
-msgstr "&ร้อยละ:"
-
-#. +> trunk6 stable6
+#. +> stable6
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:266
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:275
 #: dialogs/kpColorSimilarityDialog.cpp:53
@@ -603,13 +604,36 @@ msgid "%"
 msgstr "%"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:277
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:254
+#, kde-format
+msgid "&New:"
+msgstr "ค่าใ&หม่:"
+
+#. +> trunk6 stable6
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:261
+#, kde-format
+msgid "&Percent:"
+msgstr "&ร้อยละ:"
+
+#. +> trunk6
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:267
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:276
+#: widgets/imagelib/effects/kpNumInput.cpp:183
+#: widgets/kpDocumentSaveOptionsWidget.cpp:74
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@label:spinbox"
+msgid "%v%"
+msgstr "%1%"
+
+#. +> trunk6 stable6
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:278
 #, kde-format
 msgid "Keep &aspect ratio"
 msgstr "รักษา&สัดส่วนภาพ"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:638
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:639
 #, kde-format
 msgid ""
 "<qt>"
@@ -619,7 +643,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:646
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:647
 #, fuzzy, kde-format
 #| msgid "Resize Text Box?"
 msgctxt "@title:window"
@@ -627,13 +651,13 @@ msgid "Resize Text Box?"
 msgstr "ปรับมิติขนาดกล่องข้อความหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:647
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:648
 #, kde-format
 msgid "R&esize Text Box"
 msgstr "ปรับมิติ&ขนาดกล่องข้อความ"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:650
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:651
 #: mainWindow/kpMainWindow_Tools.cpp:561
 #, kde-format
 msgid ""
@@ -644,7 +668,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:658
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:659
 #: mainWindow/kpMainWindow_Tools.cpp:571
 #, fuzzy, kde-format
 #| msgid "Resize Image?"
@@ -653,14 +677,14 @@ msgid "Resize Image?"
 msgstr "ปรับมิติขนาดภาพหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:659
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:660
 #: mainWindow/kpMainWindow_Tools.cpp:572
 #, kde-format
 msgid "R&esize Image"
 msgstr "ปรับ&มิติขนาดภาพ"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:667
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:668
 #, kde-format
 msgid ""
 "<qt>"
@@ -670,7 +694,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:675
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:676
 #, fuzzy, kde-format
 #| msgid "Scale Image?"
 msgctxt "@title:window"
@@ -678,13 +702,13 @@ msgid "Scale Image?"
 msgstr "ปรับย่อ/ขยายภาพหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:676
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:677
 #, kde-format
 msgid "Scal&e Image"
 msgstr "ปรับย่อ/ขยาย&ภาพ"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:679
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:680
 #, kde-format
 msgid ""
 "<qt>"
@@ -694,7 +718,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:687
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:688
 #, fuzzy, kde-format
 #| msgid "Scale Selection?"
 msgctxt "@title:window"
@@ -702,13 +726,13 @@ msgid "Scale Selection?"
 msgstr "ปรับย่อ/ขยายส่วนที่เลือกหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:688
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:689
 #, kde-format
 msgid "Scal&e Selection"
 msgstr "ปรับย่อ/ขย&ายส่วนที่เลือก"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:696
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:697
 #, kde-format
 msgid ""
 "<qt>"
@@ -718,7 +742,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:704
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:705
 #, fuzzy, kde-format
 #| msgid "Smooth Scale Image?"
 msgctxt "@title:window"
@@ -726,13 +750,13 @@ msgid "Smooth Scale Image?"
 msgstr "ปรับย่อ/ขยายภาพแบบนุ่มนวลหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:705
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:706
 #, kde-format
 msgid "Smooth Scal&e Image"
 msgstr "ปรับย่อ/&ขยายภาพแบบนุ่มนวล"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:708
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:709
 #, kde-format
 msgid ""
 "<qt>"
@@ -742,7 +766,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:716
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:717
 #, fuzzy, kde-format
 #| msgid "Smooth Scale Selection?"
 msgctxt "@title:window"
@@ -750,7 +774,7 @@ msgid "Smooth Scale Selection?"
 msgstr "ปรับย่อ/ขยายส่วนที่เลือกแบบนุ่มนวลหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:717
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:718
 #, kde-format
 msgid "Smooth Scal&e Selection"
 msgstr "ปรับ&ย่อ/ขยายส่วนที่เลือกแบบนุ่มนวล"
@@ -1014,14 +1038,22 @@ msgstr "ความคล้ายกันของสี"
 msgid "&RGB Color Cube Distance"
 msgstr "ระยะห่างของลูกบาศก์สี &RGB"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: dialogs/kpColorSimilarityDialog.cpp:53
+#, fuzzy, kde-format
+#| msgid "Exact Match"
+msgctxt "@label:spinbox"
+msgid "Exact match"
+msgstr "ตรงกันจริงๆ"
+
+#. +> stable6
 #: dialogs/kpColorSimilarityDialog.cpp:54
 #, kde-format
 msgid "Exact Match"
 msgstr "ตรงกันจริงๆ"
 
 #. +> trunk6 stable6
-#: dialogs/kpColorSimilarityDialog.cpp:58
+#: dialogs/kpColorSimilarityDialog.cpp:57
 #, kde-format
 msgid "<a href=\"dummy_to_make_link_clickable\">What is Color Similarity?</a>"
 msgstr "<a href=\"dummy_to_make_link_clickable\">ความคล้ายกันของสีคืออะไร ?</a>"
@@ -2029,25 +2061,38 @@ msgstr "แสดง&พาธ"
 msgid "Draw Anti-Aliased"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: mainWindow/kpMainWindow_StatusBar.cpp:69
+#: mainWindow/kpMainWindow_StatusBar.cpp:155
+#: mainWindow/kpMainWindow_StatusBar.cpp:179
+#, kde-format
+msgid "%1 × %2"
+msgstr ""
+
+#. +> trunk6
+#: mainWindow/kpMainWindow_StatusBar.cpp:121
+#, kde-format
+msgid "%1, %2"
+msgstr ""
+
+#. +> stable6
 #: mainWindow/kpMainWindow_StatusBar.cpp:121
 #, kde-format
 msgid "%1,%2"
 msgstr "%1,%2"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: mainWindow/kpMainWindow_StatusBar.cpp:123
+#, fuzzy, kde-format
+#| msgid "%1,%2 - %3,%4"
+msgid "%1, %2 — %3, %4"
+msgstr "%1,%2 - %3,%4"
+
+#. +> stable6
 #: mainWindow/kpMainWindow_StatusBar.cpp:123
 #, kde-format
 msgid "%1,%2 - %3,%4"
 msgstr "%1,%2 - %3,%4"
-
-#. +> trunk6 stable6
-#: mainWindow/kpMainWindow_StatusBar.cpp:155
-#: widgets/toolbars/options/kpToolWidgetEraserSize.cpp:76
-#: widgets/toolbars/options/kpToolWidgetSpraycanSize.cpp:66
-#, kde-format
-msgid "%1x%2"
-msgstr "%1x%2"
 
 #. +> trunk6 stable6
 #: mainWindow/kpMainWindow_StatusBar.cpp:200
@@ -2702,7 +2747,14 @@ msgstr "ข้อความ: ขีดฆ่าข้อความ (เส�
 msgid "Unzoomed Mode - Thumbnail"
 msgstr "โหมดไม่มีการปรับระยะดูย่อ/ดูขยาย - ภาพตัวอย่างขนาดเล็ก"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: views/kpZoomedThumbnailView.cpp:38
+#, fuzzy, kde-format
+#| msgid "%1% - Thumbnail"
+msgid "%1% — Thumbnail"
+msgstr "%1% - ภาพตัวอย่างขนาดเล็ก"
+
+#. +> stable6
 #: views/kpZoomedThumbnailView.cpp:38
 #, kde-format
 msgid "%1% - Thumbnail"
@@ -2804,7 +2856,20 @@ msgstr ""
 "<p>หากต้องการปรับแต่งค่า ให้คลิกที่กล่องลูกบาศก์สี</p>"
 "</qt>"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:199
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Color Similarity: %1%</p>"
+#| "<p align=\"center\">Click to configure.</p>"
+msgid ""
+"<p>Color similarity: %1%</p>"
+"<p align=\"center\">Click to configure.</p>"
+msgstr ""
+"<p>ความคล้ายกันของสี: %1%</p>"
+"<p align=\"center\">คลิกเพื่อปรับแต่ง</p>"
+
+#. +> stable6
 #: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:199
 #, kde-format
 msgid ""
@@ -2814,7 +2879,20 @@ msgstr ""
 "<p>ความคล้ายกันของสี: %1%</p>"
 "<p align=\"center\">คลิกเพื่อปรับแต่ง</p>"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:204
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Color Similarity: Exact Match</p>"
+#| "<p align=\"center\">Click to configure.</p>"
+msgid ""
+"<p>Color similarity: Exact match</p>"
+"<p align=\"center\">Click to configure.</p>"
+msgstr ""
+"<p>ความคล้ายกันของสี: ตรงกันจริงๆ</p>"
+"<p align=\"center\">คลิกเพื่อปรับแต่ง</p>"
+
+#. +> stable6
 #: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:204
 #, kde-format
 msgid ""
@@ -3025,49 +3103,49 @@ msgstr ""
 "</qt>"
 
 #. +> trunk6 stable6
-#: widgets/kpDocumentSaveOptionsWidget.cpp:61
+#: widgets/kpDocumentSaveOptionsWidget.cpp:62
 #, kde-format
 msgid "Convert &to:"
 msgstr "แปลงเป็&น:"
 
 #. +> trunk6 stable6
-#: widgets/kpDocumentSaveOptionsWidget.cpp:66
+#: widgets/kpDocumentSaveOptionsWidget.cpp:67
 #, kde-format
 msgid "Quali&ty:"
 msgstr "คุณ&ภาพ:"
 
 #. +> trunk6 stable6
-#: widgets/kpDocumentSaveOptionsWidget.cpp:74
+#: widgets/kpDocumentSaveOptionsWidget.cpp:76
 #, kde-format
 msgid "&Preview"
 msgstr "แส&ดงตัวอย่าง"
 
 #. +> trunk6 stable6
-#: widgets/kpDocumentSaveOptionsWidget.cpp:171
+#: widgets/kpDocumentSaveOptionsWidget.cpp:173
 #, kde-format
 msgid "Monochrome"
 msgstr "ภาพโทนสีเดียว"
 
 #. +> trunk6 stable6
-#: widgets/kpDocumentSaveOptionsWidget.cpp:172
+#: widgets/kpDocumentSaveOptionsWidget.cpp:174
 #, kde-format
 msgid "Monochrome (Dithered)"
 msgstr "ภาพโทนสีเดียว (Dithered)"
 
 #. +> trunk6 stable6
-#: widgets/kpDocumentSaveOptionsWidget.cpp:175
+#: widgets/kpDocumentSaveOptionsWidget.cpp:177
 #, kde-format
 msgid "256 Color"
 msgstr "256 สี"
 
 #. +> trunk6 stable6
-#: widgets/kpDocumentSaveOptionsWidget.cpp:176
+#: widgets/kpDocumentSaveOptionsWidget.cpp:178
 #, kde-format
 msgid "256 Color (Dithered)"
 msgstr "256 สี (Dithered)"
 
 #. +> trunk6 stable6
-#: widgets/kpDocumentSaveOptionsWidget.cpp:180
+#: widgets/kpDocumentSaveOptionsWidget.cpp:182
 #, kde-format
 msgid "24-bit Color"
 msgstr "บิทสี 24 บิท"
@@ -3178,6 +3256,13 @@ msgstr "เฉียงเอียงซ้าย"
 #, kde-format
 msgid "%1x%2 %3"
 msgstr "%1x%2 %3"
+
+#. +> trunk6 stable6
+#: widgets/toolbars/options/kpToolWidgetEraserSize.cpp:76
+#: widgets/toolbars/options/kpToolWidgetSpraycanSize.cpp:66
+#, kde-format
+msgid "%1x%2"
+msgstr "%1x%2"
 
 #. +> trunk6 stable6
 #: widgets/toolbars/options/kpToolWidgetFillStyle.cpp:87
