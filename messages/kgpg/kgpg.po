@@ -1,0 +1,4852 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kgpg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-08-11 11:59+0200\n"
+"PO-Revision-Date: 2025-03-17 14:54+0700\n"
+"Last-Translator: Thai Translator <none>\n"
+"Language-Team: Thai <kde-i18n-docs@kde.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: adduid.ui:17
+#, kde-format
+msgid "Name (minimum 5 characters):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_EmailSorting)
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. +> trunk6 stable6
+#: adduid.ui:30 conf_ui2.ui:242 newkey.ui:68
+#, kde-format
+msgid "Email:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. +> trunk6 stable6
+#: adduid.ui:43
+#, kde-format
+msgid "Comment (optional):"
+msgstr ""
+
+#. +> trunk6 stable6
+#: caff.cpp:84
+#, kde-format
+msgid "This function is not available on this system. The symbolic link to the private GnuPG keys cannot be created."
+msgstr ""
+
+#. +> trunk6 stable6
+#: caff.cpp:155 caff.cpp:173
+#, kde-format
+msgctxt "%1 is the key id, %2 is the name and comment of the key or uid"
+msgid "%1: %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: caff.cpp:158 caff.cpp:176
+#, kde-format
+msgctxt "%1 is the key id, %2 is the name and comment of the key or uid, %3 is the email address of the uid"
+msgid "%1: %2 &lt;%3&gt;"
+msgstr ""
+
+#. +> trunk6 stable6
+#: caff.cpp:161
+#, kde-format
+msgid "No mail was sent for the following user id because it belongs to a key without encryption capability:"
+msgid_plural "No mail was sent for the following user ids because they belong to keys without encryption capability:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: caff.cpp:179
+#, kde-format
+msgid "No mail was sent for the following user id because it was already signed:"
+msgid_plural "No mail was sent for the following user ids because they were already signed:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: caff.cpp:312
+#, kde-format
+msgctxt "Email template placeholder for key id"
+msgid "KEYID"
+msgstr ""
+
+#. +> trunk6 stable6
+#: caff.cpp:313
+#, kde-format
+msgctxt "Email template placeholder for key id"
+msgid "UIDNAME"
+msgstr ""
+
+#. +> trunk6 stable6
+#: caff.cpp:346
+#, kde-format
+msgctxt "%1 is 64 bit key id (in hex), text is used as email subject"
+msgid "Your key %1"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_4_2)
+#. +> trunk6 stable6
+#: conf_decryption.ui:52
+#, kde-format
+msgid ""
+"<qt><b>Custom Decryption Command:</b><br />"
+"\n"
+"<p>This option allows the user to specify a custom command to be executed by GPG when decryption occurs. (This is recommended for advanced users only).</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#. +> trunk6 stable6
+#: conf_decryption.ui:55
+#, kde-format
+msgid "Custom decryption command:"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Encryption)
+#. i18n: ectx: property (text), widget (QCheckBox, capEncrypt)
+#. +> trunk6 stable6
+#: conf_encryption.ui:15 kgpgkeygenerate.ui:205 kgpgoptions.cpp:106
+#, kde-format
+msgid "Encryption"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AsciiArmor)
+#. +> trunk6 stable6
+#: conf_encryption.ui:31
+#, kde-format
+msgid ""
+"<qt><b>ASCII armored encryption:</b> <br />"
+" \n"
+"<p>Checking this option outputs all encrypted files in a format that can be opened by a text editor and as such the output is suitable for placing in the body of an e-mail message.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AsciiArmor)
+#. +> trunk6 stable6
+#: conf_encryption.ui:34 selectpublickeydialog.cpp:104
+#, kde-format
+msgid "ASCII armored encryption"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PgpExtension)
+#. +> trunk6 stable6
+#: conf_encryption.ui:42
+#, kde-format
+msgid ""
+"<qt><b>Use *.pgp extension for encrypted files:</b><br />"
+"\n"
+"<p>Checking this option will append a .pgp extension to all encrypted files instead of a .gpg extension. This option will maintain compatibility with users of PGP (Pretty Good Privacy) software.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PgpExtension)
+#. +> trunk6 stable6
+#: conf_encryption.ui:45
+#, kde-format
+msgid "Use *.pgp extension for encrypted files"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AllowCustomEncryptionOptions)
+#. +> trunk6 stable6
+#: conf_encryption.ui:69
+#, kde-format
+msgid ""
+"<qt><b>Custom encryption command:</b><br />"
+"\n"
+"<p>When activated, an entry field will be shown in the key selection dialog, enabling you to enter a custom command for encryption. This option is recommended for experienced users only.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowCustomEncryptionOptions)
+#. +> trunk6 stable6
+#: conf_encryption.ui:72
+#, kde-format
+msgid "Custom encryption command:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, encrypt_to_always)
+#. +> trunk6 stable6
+#: conf_encryption.ui:113
+#, kde-format
+msgid ""
+"<qt><b>Always encrypt with:</b><br />"
+"\n"
+"<p>This ensures all files/messages will also be encrypted with the chosen key. However, if the \"Encrypt files with:\" option is selected that chosen key will override the \"Always encrypt with:\" selection.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, encrypt_to_always)
+#. +> trunk6 stable6
+#: conf_encryption.ui:116
+#, kde-format
+msgid "Always encrypt with:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EncryptFilesTo)
+#. +> trunk6 stable6
+#: conf_encryption.ui:124
+#, kde-format
+msgid ""
+"<qt><b>Encrypt files with:</b><br />"
+"\n"
+"<p>Checking this option and selecting a key will force any file encryption operation to use the selected key. KGpg will not query for a recipient and the default key will be bypassed.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EncryptFilesTo)
+#. +> trunk6 stable6
+#: conf_encryption.ui:127
+#, kde-format
+msgid "Encrypt files with:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AllowUntrustedKeys)
+#. +> trunk6 stable6
+#: conf_encryption.ui:135
+#, kde-format
+msgid ""
+"<qt><b>Allow encryption with untrusted keys:</b><br />"
+"\n"
+"<p>When importing a public key, the key is usually marked as untrusted and as such cannot be used unless it is signed by the default key (thus making it 'trusted'). Checking this box enables any key to be used even if it is untrusted.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowUntrustedKeys)
+#. +> trunk6 stable6
+#: conf_encryption.ui:138 selectpublickeydialog.cpp:110
+#, kde-format
+msgid "Allow encryption with untrusted keys"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AllowUntrustedGroupMembers)
+#. +> trunk6 stable6
+#: conf_encryption.ui:145
+#, kde-format
+msgid ""
+"<qt><b>Allow untrusted keys as members of key groups:</b><br />"
+"<p>A key group allows simple encryption to multiple recipients at once. Similar to the <em>Allow encryption with untrusted keys</em> option this allows untrusted keys to become member of a key group.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowUntrustedGroupMembers)
+#. +> trunk6 stable6
+#: conf_encryption.ui:148
+#, kde-format
+msgid "Allow untrusted keys as members of key groups"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HideUserID)
+#. +> trunk6 stable6
+#: conf_encryption.ui:156
+#, kde-format
+msgid ""
+"<qt><b>Hide user ID:</b><br />"
+" \n"
+"<p>Checking this option will remove the keyid of the recipient from all encrypted packets. The advantage: traffic analysis of the encrypted packets cannot be performed as easily because the recipient is unknown. The disadvantage: the receiver of the encrypted packets is forced to try all secret keys before being able to decrypt the packets. This can be a lengthy process depending on the number of secret keys the receiver holds.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideUserID)
+#. +> trunk6 stable6
+#: conf_encryption.ui:159 selectpublickeydialog.cpp:119
+#, kde-format
+msgid "Hide user id"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PgpCompatibility)
+#. +> trunk6 stable6
+#: conf_encryption.ui:167
+#, kde-format
+msgid ""
+"<qt><b>PGP 6 compatibility:</b><br />"
+" \n"
+"<p>Checking this option forces GnuPG to output encrypted packets that are as compliant with PGP (Pretty Good Privacy) 6 standards as possible thus allowing GnuPG users to inter operate with PGP 6 users.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PgpCompatibility)
+#. +> trunk6 stable6
+#: conf_encryption.ui:170
+#, kde-format
+msgid "PGP 6 compatibility"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, GPGConf)
+#. +> trunk6 stable6
+#: conf_gpg.ui:16
+#, kde-format
+msgid ""
+"<qt><b>Global Settings:</b><br />"
+"\n"
+"<p></p>"
+"\n"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#. +> trunk6 stable6
+#: conf_gpg.ui:22
+#, kde-format
+msgid "GnuPG Home"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_5_2)
+#. +> trunk6 stable6
+#: conf_gpg.ui:30
+#, kde-format
+msgid ""
+"<b>Home Location</b>"
+"<p>This is the directory where GnuPG stores its configuration and the keyrings. If you have not changed it this is usually <em>~/.gnupg/</em></p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5_2)
+#. +> trunk6 stable6
+#: conf_gpg.ui:33
+#, kde-format
+msgid "Home location:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_5_2_2)
+#. +> trunk6 stable6
+#: conf_gpg.ui:43
+#, kde-format
+msgid ""
+"<b>Configuration File</b>"
+"<p>This is the name of the configuration file in the directory specified above. The default is <em>gnupg.conf</em> while older versions of GnuPG used <em>options</em>.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5_2_2)
+#. +> trunk6 stable6
+#: conf_gpg.ui:46
+#, kde-format
+msgid "Configuration file:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, changeHome)
+#. +> trunk6 stable6
+#: conf_gpg.ui:96
+#, kde-format
+msgid "Change..."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#. +> trunk6 stable6
+#: conf_gpg.ui:108 kgpgfirstassistant.cpp:117
+#, kde-format
+msgid "GnuPG Binary"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_6_2)
+#. +> trunk6 stable6
+#: conf_gpg.ui:114
+#, kde-format
+msgid ""
+"<b>Program path</b>"
+"<p>This is the program that will be called for all GnuPG operations. The default of <em>gpg</em> will work on most systems.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_6_2)
+#. +> trunk6 stable6
+#: conf_gpg.ui:117
+#, kde-format
+msgid "Program path:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, use_agent)
+#. +> trunk6 stable6
+#: conf_gpg.ui:157
+#, kde-format
+msgid ""
+"<b>Use GnuPG agent</b>"
+"<p>The GnuPG agent stores the passwords for your secret keys in memory for a limited amount of time. If you use your secret key again while it is cached you do not have to enter it again. This is less secure than typing it every time.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, use_agent)
+#. +> trunk6 stable6
+#: conf_gpg.ui:160
+#, kde-format
+msgid "Use GnuPG agent"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabGlobal)
+#. +> trunk6 stable6
+#: conf_misc.ui:24
+#, kde-format
+msgid "Global Settings"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoStart)
+#. +> trunk6 stable6
+#: conf_misc.ui:33
+#, kde-format
+msgid ""
+"<qt><b>Start KGpg automatically at KDE startup:</b><br />"
+"\n"
+"<p>If checked KGpg will start automatically each time that KDE starts up.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoStart)
+#. +> trunk6 stable6
+#: conf_misc.ui:36
+#, kde-format
+msgid "Start KGpg automatically at login"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseMouseSelection)
+#. +> trunk6 stable6
+#: conf_misc.ui:53
+#, kde-format
+msgid ""
+"<qt><b>Use mouse selection instead of clipboard:</b><br />"
+"\n"
+"<p>If checked, clipboard operations in KGpg will use the selection clipboard, that means highlighting a text to copy, and middle button (or right+left together) to paste. If this option is not checked, the clipboard will work with Key shortcuts (Ctrl-c, Ctrl-v).</p>"
+"</qt> "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseMouseSelection)
+#. +> trunk6 stable6
+#: conf_misc.ui:56
+#, kde-format
+msgid "Use mouse selection instead of clipboard"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_RemoteFileWarn)
+#. +> trunk6 stable6
+#: conf_misc.ui:70
+#, kde-format
+msgid ""
+"<qt><b>Display warning before creating temporary files:</b><br />"
+"\n"
+"<p></p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RemoteFileWarn)
+#. +> trunk6 stable6
+#: conf_misc.ui:74
+#, kde-format
+msgid ""
+"Display warning before creating temporary files\n"
+"(only occurs on remote files operations)"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabApplet)
+#. +> trunk6 stable6
+#: conf_misc.ui:97
+#, kde-format
+msgid "Applet && Menus"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox11)
+#. +> trunk6 stable6
+#: conf_misc.ui:103
+#, kde-format
+msgid "Konqueror Service Menus"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: conf_misc.ui:119
+#, kde-format
+msgid ""
+"<qt><b>Sign file service menu:</b><br />"
+"\n"
+"<p></p>"
+"\n"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: conf_misc.ui:122
+#, kde-format
+msgid "Sign file service menu:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SignMenu)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_DecryptMenu)
+#. +> trunk6 stable6
+#: conf_misc.ui:139 conf_misc.ui:178 keysmanager.cpp:296
+#, kde-format
+msgid "Disable"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SignMenu)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_DecryptMenu)
+#. +> trunk6 stable6
+#: conf_misc.ui:144 conf_misc.ui:183
+#, kde-format
+msgid "Enable with All Files"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_3)
+#. +> trunk6 stable6
+#: conf_misc.ui:164
+#, kde-format
+msgid ""
+"<qt><b>Decrypt file service menu:</b><br />"
+"\n"
+"<p></p>"
+"\n"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#. +> trunk6 stable6
+#: conf_misc.ui:167
+#, kde-format
+msgid "Decrypt file service menu:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_DecryptMenu)
+#. +> trunk6 stable6
+#: conf_misc.ui:188
+#, kde-format
+msgid "Enable with Encrypted Files"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#. +> trunk6 stable6
+#: conf_misc.ui:201
+#, kde-format
+msgid "System Tray Applet"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowSystray)
+#. +> trunk6 stable6
+#: conf_misc.ui:208
+#, kde-format
+msgid ""
+"<qt><b>Show system tray icon:</b><br />"
+"\n"
+"<p>If checked KGpg will minimize to an icon in the system tray.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSystray)
+#. +> trunk6 stable6
+#: conf_misc.ui:211
+#, kde-format
+msgid "Show system tray icon"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. +> trunk6 stable6
+#: conf_misc.ui:223
+#, kde-format
+msgid "Left mouse click opens:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LeftClick)
+#. +> trunk6 stable6
+#: conf_misc.ui:240
+#, kde-format
+msgid "Key Manager"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LeftClick)
+#. i18n: ectx: attribute (title), widget (QWidget, tabEditor)
+#. +> trunk6 stable6
+#: conf_misc.ui:245 conf_misc.ui:272 editor/kgpgeditor.cpp:504
+#, kde-format
+msgid "Editor"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: conf_misc.ui:280
+#, kde-format
+msgid "Recent files"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabSigning)
+#. +> trunk6 stable6
+#: conf_misc.ui:306
+#, kde-format
+msgid "Key Signing"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: conf_misc.ui:314
+#, kde-format
+msgid "Here you can define how User Ids that do not contain an email address (like Photo Ids) are sent to the key owner. You can choose to either send them with every other User Id you signed, only with the first Id you signed or to not send them at all."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: conf_misc.ui:317
+#, kde-format
+msgid "Mailing of User Ids without Email Addresses"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MailUats)
+#. +> trunk6 stable6
+#: conf_misc.ui:325
+#, kde-format
+msgid "Send with every Email"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MailUats)
+#. +> trunk6 stable6
+#: conf_misc.ui:330
+#, kde-format
+msgid "Send only with first Email"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MailUats)
+#. +> trunk6 stable6
+#: conf_misc.ui:335
+#, kde-format
+msgid "Do not send"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: conf_misc.ui:345
+#, kde-format
+msgid "Email template"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KTextEdit, EmailTemplateEdit)
+#. +> trunk6 stable6
+#: conf_misc.ui:353
+#, no-c-format, kde-format
+msgid ""
+"This is the text of the email sent by the \"Sign and Mail User ID\" action.\n"
+"\n"
+"The placeholders surrounded by the percent signs (like %KEYID%) will be replaced with the corresponding text for every single mail."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#. +> trunk6 stable6
+#: conf_servers.ui:25
+#, kde-format
+msgid ""
+"<b>INFORMATION</b>:\n"
+"Only the default server will be stored in GnuPG's configuration file,\n"
+"all others will be stored for use by KGpg only."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseProxy)
+#. +> trunk6 stable6
+#: conf_servers.ui:35
+#, kde-format
+msgid "Honor HTTP proxy when available"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, server_default)
+#. +> trunk6 stable6
+#: conf_servers.ui:49
+#, kde-format
+msgid "&Set as Default"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, server_add)
+#. +> trunk6 stable6
+#: conf_servers.ui:56
+#, kde-format
+msgid "&Add..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, server_del)
+#. +> trunk6 stable6
+#: conf_servers.ui:66
+#, kde-format
+msgid "&Delete"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, server_edit)
+#. +> trunk6 stable6
+#: conf_servers.ui:73
+#, kde-format
+msgid "&Edit..."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. +> trunk6 stable6
+#: conf_ui2.ui:32
+#, kde-format
+msgid "Key Colors"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_trustUltimate)
+#. +> trunk6 stable6
+#: conf_ui2.ui:42
+#, kde-format
+msgid "Ultimately trusted keys:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_trustTrusted)
+#. +> trunk6 stable6
+#: conf_ui2.ui:52
+#, kde-format
+msgid "Trusted keys:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_trustMarginally)
+#. +> trunk6 stable6
+#: conf_ui2.ui:62
+#, kde-format
+msgid "Marginally trusted keys:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_trustExpired)
+#. +> trunk6 stable6
+#: conf_ui2.ui:72
+#, kde-format
+msgid "Expired keys:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_trustRevoked)
+#. +> trunk6 stable6
+#: conf_ui2.ui:82
+#, kde-format
+msgid "Revoked keys:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_trustUnknown)
+#. +> trunk6 stable6
+#: conf_ui2.ui:92
+#, kde-format
+msgid "Unknown keys:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_trustDisabled)
+#. +> trunk6 stable6
+#: conf_ui2.ui:102
+#, kde-format
+msgid "Disabled keys:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#. +> trunk6 stable6
+#: conf_ui2.ui:225
+#, kde-format
+msgid "Editor Font"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabKeyList)
+#. +> trunk6 stable6
+#: conf_ui2.ui:230
+#, kde-format
+msgid "Key List"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxSorting)
+#. +> trunk6 stable6
+#: conf_ui2.ui:236
+#, kde-format
+msgid "Sort Order"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_EmailSorting)
+#. +> trunk6 stable6
+#: conf_ui2.ui:253 kgpgoptions.cpp:100
+#, kde-format
+msgid "Left to right, account first"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_EmailSorting)
+#. +> trunk6 stable6
+#: conf_ui2.ui:258 kgpgoptions.cpp:101
+#, kde-format
+msgid "Right to left, TLD first"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_EmailSorting)
+#. +> trunk6 stable6
+#: conf_ui2.ui:263 kgpgoptions.cpp:102
+#, kde-format
+msgid "Right to left, domain first"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_EmailSorting)
+#. +> trunk6 stable6
+#: conf_ui2.ui:268 kgpgoptions.cpp:103
+#, kde-format
+msgid "Right to left, FQDN first"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:45
+#, kde-format
+msgctxt "Encryption algorithm"
+msgid "RSA"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:47
+#, kde-format
+msgctxt "Encryption algorithm"
+msgid "DSA"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:49
+#, kde-format
+msgctxt "Encryption algorithm"
+msgid "ElGamal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:51
+#, kde-format
+msgctxt "Encryption algorithm"
+msgid "DSA & ElGamal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:53
+#, kde-format
+msgctxt "Encryption algorithm RSA, Signing algorithm RSA"
+msgid "RSA & RSA"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:55
+#, kde-format
+msgctxt "Encryption algorithm"
+msgid "ECC"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:57
+#, kde-format
+msgctxt "Signing algorithm"
+msgid "ECDSA"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:59
+#, kde-format
+msgctxt "Encryption algorithm"
+msgid "ECDH"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:61
+#, kde-format
+msgctxt "Signing algorithm"
+msgid "EdDSA"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:64
+#, kde-format
+msgctxt "Unknown algorithm"
+msgid "Unknown"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:72
+#, kde-format
+msgid "I do not know"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:74
+#, kde-format
+msgid "I do NOT trust"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:76
+#, kde-format
+msgid "Marginally"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:78
+#, kde-format
+msgid "Fully"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:80
+#, kde-format
+msgid "Ultimately"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:83
+#, kde-format
+msgctxt "Unknown trust in key owner"
+msgid "Unknown"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:91
+#, kde-format
+msgctxt "Invalid key"
+msgid "Invalid"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:93
+#, kde-format
+msgctxt "Disabled key"
+msgid "Disabled"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:95
+#, kde-format
+msgid "Revoked"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:97 model/groupeditproxymodel.cpp:95
+#, kde-format
+msgctxt "Expired key"
+msgid "Expired"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:99
+#, kde-format
+msgctxt "Undefined key trust"
+msgid "Undefined"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:101
+#, kde-format
+msgctxt "No trust in key"
+msgid "None"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:103
+#, kde-format
+msgctxt "Marginal trust in key"
+msgid "Marginal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:105
+#, kde-format
+msgctxt "Full trust in key"
+msgid "Full"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:107
+#, kde-format
+msgctxt "Ultimate trust in key"
+msgid "Ultimate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:110
+#, kde-format
+msgctxt "Unknown trust in key"
+msgid "Unknown"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:119
+#, kde-format
+msgctxt "key capability"
+msgid "Signature"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:121
+#, kde-format
+msgctxt "key capability"
+msgid "Encryption"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:123
+#, kde-format
+msgctxt "key capability"
+msgid "Authentication"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:125
+#, kde-format
+msgctxt "key capability"
+msgid "Certification"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/convert.cpp:127
+#, kde-format
+msgctxt "used to join a list of key types, e.g. 'encryption, signature'"
+msgid ", "
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/KGpgGroupNode.cpp:154
+#, kde-format
+msgid "1 key"
+msgid_plural "%1 keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: core/KGpgKeyNode.cpp:72
+#, kde-format
+msgctxt "size of signing key / size of encryption key"
+msgid "%1 / %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/KGpgKeyNode.cpp:156 core/KGpgSignableNode.cpp:31
+#, kde-format
+msgid "1 signature"
+msgid_plural "%1 signatures"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: core/KGpgNode.cpp:43
+#, kde-format
+msgctxt "Name of uid (comment)"
+msgid "%1 (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/KGpgRefNode.cpp:115 transactions/kgpgtransaction.cpp:277
+#, kde-format
+msgid "[No user id found]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/KGpgSignNode.cpp:75
+#, kde-format
+msgid "%1 [local signature]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/KGpgSubkeyNode.cpp:70
+#, kde-format
+msgid "%1 subkey"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/KGpgUatNode.cpp:90
+#, kde-format
+msgid "Photo id"
+msgstr ""
+
+#. +> trunk6 stable6
+#: detailedconsole.cpp:23
+#, kde-format
+msgid "Info"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:91 editor/kgpgeditor.cpp:241
+#: editor/kgpgeditor.cpp:727 editor/kgpgeditor.cpp:756
+#, kde-format
+msgid "Untitled"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:187
+#, kde-format
+msgid "&Encrypt File..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:191
+#, kde-format
+msgid "&Decrypt File..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:195
+#, kde-format
+msgid "&Open Key Manager"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:198
+#, kde-format
+msgid "&Generate Signature..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:202
+#, kde-format
+msgid "&Verify Signature..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:205
+#, kde-format
+msgid "&Check MD5 Sum..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:208
+#, kde-format
+msgid "&Unicode (utf-8) Encoding"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:214
+#, kde-format
+msgid "En&crypt"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:218
+#, kde-format
+msgid "&Decrypt"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:222
+#, kde-format
+msgid "S&ign/Verify"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:245
+#, kde-format
+msgid ""
+"The document \"%1\" has changed.\n"
+"Do you want to save it?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:246
+#, kde-format
+msgid "Close the document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:292
+#, kde-format
+msgid "The document could not been saved, as the selected codec is not supported."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:301 editor/kgpgeditor.cpp:318
+#, kde-format
+msgid "The document could not be saved, please check your permissions and disk space."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:343 editor/kgpgeditor.cpp:354 keyexport.cpp:37
+#, kde-format
+msgid "Overwrite existing file %1?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:468
+#, kde-format
+msgid "Open File to Encode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:468 editor/kgpgeditor.cpp:477
+#: editor/kgpgeditor.cpp:612 editor/kgpgeditor.cpp:650
+#: editor/kgpgeditor.cpp:684
+#, kde-format
+msgid "*|All Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:477
+#, kde-format
+msgid "Open File to Decode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:491
+#, kde-format
+msgid "Decrypt File To"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:502 keyexport.cpp:20
+#, kde-format
+msgid "Save File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:528 kgpgexternalactions.cpp:204
+#: kgpgexternalactions.cpp:363 transactions/kgpgtransactionprivate.cpp:107
+#, kde-format
+msgid "File Already Exists"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:612
+#, kde-format
+msgid "Open File to Sign"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:650 editor/kgpgeditor.cpp:684
+#, kde-format
+msgid "Open File to Verify"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:697 editor/kgpgtextedit.cpp:342
+#, kde-format
+msgid ""
+"<qt><b>Missing signature:</b><br />"
+"Key id: %1<br />"
+"<br />"
+"Do you want to import this key from a keyserver?</qt>"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_import)
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:698 keyserver.ui:33 keytreeview.cpp:158
+#, kde-format
+msgid "Import"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgeditor.cpp:698 keytreeview.cpp:159
+#, kde-format
+msgid "Do Not Import"
+msgstr ""
+
+#. i18n: ectx: Menu (view)
+#. +> trunk6 stable6
+#: editor/kgpgeditor.rc:13 keysmanager.rc:25
+#, kde-format
+msgid "&View"
+msgstr ""
+
+#. i18n: ectx: Menu (signature)
+#. +> trunk6 stable6
+#: editor/kgpgeditor.rc:18
+#, kde-format
+msgid "Si&gnature"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgmd5widget.cpp:29
+#, kde-format
+msgid "MD5 Checksum"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgmd5widget.cpp:38
+#, kde-format
+msgid "Compare MD5 with Clipboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgmd5widget.cpp:53
+#, kde-format
+msgid "MD5 sum for <b>%1</b> is:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgmd5widget.cpp:66
+#, kde-format
+msgid "<b>Unknown status</b>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgmd5widget.cpp:90
+#, kde-format
+msgid "Clipboard content is not a MD5 sum."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgmd5widget.cpp:94
+#, kde-format
+msgid "<b>Correct checksum</b>, file is ok."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgmd5widget.cpp:100
+#, kde-format
+msgid "<b>Wrong checksum, <em>file corrupted</em></b>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:85
+#, kde-format
+msgid ""
+"<qt><b>Remote file dropped</b>.<br />"
+"The remote file will now be copied to a temporary file to process requested operation. This temporary file will be deleted after operation.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:94
+#, kde-format
+msgid "Could not download file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:130
+#, kde-format
+msgid ""
+"<qt>This file is a <b>public</b> key.<br />"
+"Do you want to import it instead of opening it in editor?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:133
+#, kde-format
+msgid ""
+"<qt>This file is a <b>private</b> key.<br />"
+"Do you want to import it instead of opening it in editor?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:138
+#, kde-format
+msgid "Key file dropped on Editor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:138
+#, kde-format
+msgctxt "@action:button"
+msgid "Yes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:138
+#, kde-format
+msgctxt "@action:button"
+msgid "No"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:261 kgpgexternalactions.cpp:403
+#, kde-format
+msgid "Decryption failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:276 foldercompressjob.cpp:132
+#, kde-format
+msgid "The encryption failed with error code %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:277 foldercompressjob.cpp:133
+#, kde-format
+msgid "Encryption failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:290
+#, kde-format
+msgid "Signing not possible: bad passphrase or missing key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:325 kgpgexternalactions.cpp:282
+#, kde-format
+msgctxt "Caption of message box"
+msgid "Verification Finished"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, Buttonimport)
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:331 keyserver.ui:145 keyservers.cpp:201
+#, kde-format
+msgid "&Import"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:333
+#, kde-format
+msgid "Import key in your list"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:337
+#, kde-format
+msgid "Do &Not Import"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:339
+#, kde-format
+msgid "Will not import this key in your list"
+msgstr ""
+
+#. +> trunk6 stable6
+#: editor/kgpgtextedit.cpp:342
+#, kde-format
+msgid "Missing Key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: foldercompressjob.cpp:36
+#, kde-format
+msgid "Processing folder compression and encryption"
+msgstr ""
+
+#. +> trunk6 stable6
+#: foldercompressjob.cpp:63 foldercompressjob.cpp:114
+#: foldercompressjob.cpp:133 foldercompressjob.cpp:135
+#: transactions/kgpgtransactionjob.cpp:59
+#, kde-format
+msgctxt "State of operation as in status"
+msgid "State"
+msgstr ""
+
+#. +> trunk6 stable6
+#: foldercompressjob.cpp:63 transactions/kgpgtransactionjob.cpp:32
+#, kde-format
+msgctxt "Job is started up"
+msgid "Startup"
+msgstr ""
+
+#. +> trunk6 stable6
+#: foldercompressjob.cpp:96
+#, kde-format
+msgid "Unable to create temporary file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: foldercompressjob.cpp:115 transactions/kgpgencrypt.cpp:92
+#, kde-format
+msgctxt "Status message 'Encrypting <filename>' (operation starts)"
+msgid "Encrypting %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: foldercompressjob.cpp:136 transactions/kgpgencrypt.cpp:95
+#, kde-format
+msgctxt "Status message 'Encrypted <filename>' (operation was completed)"
+msgid "Encrypted %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: foldercompressjob.cpp:167
+#, kde-format
+msgid "Zip"
+msgstr ""
+
+#. +> trunk6 stable6
+#: foldercompressjob.cpp:168
+#, kde-format
+msgid "Tar/Gzip"
+msgstr ""
+
+#. +> trunk6 stable6
+#: foldercompressjob.cpp:169
+#, kde-format
+msgid "Tar/Bzip2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: foldercompressjob.cpp:170
+#, kde-format
+msgid "Tar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: foldercompressjob.cpp:171
+#, kde-format
+msgid "Tar/XZ"
+msgstr ""
+
+#. +> trunk6 stable6
+#: groupedit.cpp:30
+#, kde-format
+msgid "Available Keys"
+msgstr ""
+
+#. +> trunk6 stable6
+#: groupedit.cpp:33
+#, kde-format
+msgid "Available Trusted Keys"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, filterEditLabel)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: groupedit.ui:38 keysmanager.cpp:418 searchres.ui:29
+#, kde-format
+msgid "Search:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel1)
+#. +> trunk6 stable6
+#: groupedit.ui:84
+#, kde-format
+msgid "Keys in the Group"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, KeyExport)
+#. +> trunk6 stable6
+#: keyexport.ui:26
+#, kde-format
+msgid "Public Key Export"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkMail)
+#. +> trunk6 stable6
+#: keyexport.ui:41
+#, kde-format
+msgctxt "Export a key via email"
+msgid "E&mail"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkClipboard)
+#. +> trunk6 stable6
+#: keyexport.ui:48 sourceselect.ui:35
+#, kde-format
+msgid "C&lipboard"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, checkServer)
+#. +> trunk6 stable6
+#: keyexport.ui:58
+#, kde-format
+msgid "You must define at least one keyserver in settings before you can export to one."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkServer)
+#. +> trunk6 stable6
+#: keyexport.ui:61
+#, kde-format
+msgid "&Key server:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkFile)
+#. +> trunk6 stable6
+#: keyexport.ui:75 sourceselect.ui:44
+#, kde-format
+msgid "File:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup3)
+#. +> trunk6 stable6
+#: keyexport.ui:95
+#, kde-format
+msgid "Export Settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkAttrAll)
+#. +> trunk6 stable6
+#: keyexport.ui:101
+#, kde-format
+msgid "E&xport everything"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkAttrPhoto)
+#. +> trunk6 stable6
+#: keyexport.ui:111
+#, kde-format
+msgid "Do &not export attributes (photo ids)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkAttrClean)
+#. +> trunk6 stable6
+#: keyexport.ui:118
+#, kde-format
+msgctxt "@option:radio Exports the smallest key possible. Maps to export-minimal option of gpg"
+msgid "Clean key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyinfodialog.cpp:175
+#, kde-format
+msgid ""
+"<qt>The requested key is not present in the keyring anymore.<br />"
+"Perhaps it was deleted by another application</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyinfodialog.cpp:175
+#, kde-format
+msgid "Key not found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyinfodialog.cpp:189
+#, kde-format
+msgctxt "no email address"
+msgid "none"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyinfodialog.cpp:214
+#, kde-format
+msgid "<qt>The left part is the algorithm used by the <b>signature</b> key. The right part is the algorithm used by the <b>encryption</b> key.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyinfodialog.cpp:217
+#, kde-format
+msgctxt "Unlimited key lifetime"
+msgid "Unlimited"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyinfodialog.cpp:223
+#, kde-format
+msgid "<qt>The left part is the size of the <b>signature</b> key. The right part is the size of the <b>encryption</b> key.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyinfodialog.cpp:228
+#, kde-format
+msgctxt "no key comment"
+msgid "<em>none</em>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyinfodialog.cpp:314
+#, kde-format
+msgid "Bad old passphrase, the passphrase for the key was not changed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyinfodialog.cpp:314
+#, kde-format
+msgid "Could not change passphrase"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyinfodialog.cpp:319
+#, kde-format
+msgid "KGpg was unable to change the passphrase."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyinfodialog.cpp:368
+#, kde-format
+msgid "Changing key properties failed."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gr_properties)
+#. +> trunk6 stable6
+#: keyinfodialog.cpp:368 kgpgKeyInfo.ui:37
+#, kde-format
+msgid "Key properties"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: keyserver.ui:39
+#, kde-format
+msgid ""
+"<qt><b>Key Server:</b><br />"
+" "
+"<p>A Key Server is a centralized repository of PGP/GnuPG keys connected to the Internet which can be conveniently accessed in order to obtain or deposit keys. Select from the drop down list to specify which key server should be used.</p>"
+" "
+"<p>Often these keys are held by people whom the user has never met and as such the authenticity is dubious at best. Refer to the GnuPG manual covering \"Web-of-Trust\" relationships to find out how GnuPG works around the problem of verifying authenticity.</p>"
+" </qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. +> trunk6 stable6
+#: keyserver.ui:42 keyserver.ui:177
+#, kde-format
+msgid "Key server:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kCBimportks)
+#. +> trunk6 stable6
+#: keyserver.ui:53
+#, kde-format
+msgid ""
+"<b>Key Server Drop Down Dialog:</b>\n"
+"Allows the user to select the Key Server which will be used to import PGP/GnuPG keys into the local keyring."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
+#. +> trunk6 stable6
+#: keyserver.ui:61
+#, kde-format
+msgid ""
+"<qt><b>Text to search or ID of the key to import:</b><br />"
+"\n"
+"<p>There are multiple ways to search for a key, you can use a text or partial text search (example: entering Phil or Zimmerman will bring up all keys in which Phil or Zimmerman shows up) or you can search by the ID's of the key. Key ID's are strings of letters and numbers that uniquely identify a key (example: searching for 0xED7585F4 would bring up the key associated with that ID).</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. +> trunk6 stable6
+#: keyserver.ui:70
+#, kde-format
+msgid "Text to search or ID of the key to import:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cBproxyI)
+#. i18n: ectx: property (text), widget (QCheckBox, cBproxyE)
+#. +> trunk6 stable6
+#: keyserver.ui:92 keyserver.ui:222
+#, kde-format
+msgid "Honor HTTP proxy:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, Buttonsearch)
+#. +> trunk6 stable6
+#: keyserver.ui:135
+#, kde-format
+msgid "&Search"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_export)
+#. +> trunk6 stable6
+#: keyserver.ui:171
+#, kde-format
+msgid "Export"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
+#. +> trunk6 stable6
+#: keyserver.ui:191
+#, kde-format
+msgid ""
+"<qt><b>Key to be exported:</b><br />"
+"\n"
+"<p>This allows the user to specify the key from the drop down list that will be exported to the key server selected.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. +> trunk6 stable6
+#: keyserver.ui:194
+#, kde-format
+msgid "Key to be exported:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, exportAttributes)
+#. +> trunk6 stable6
+#: keyserver.ui:207
+#, kde-format
+msgid "Export attributes (photo id)"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, Buttonexport)
+#. +> trunk6 stable6
+#: keyserver.ui:266
+#, kde-format
+msgid ""
+"<qt><b>Export:</b><br />"
+"\n"
+"<p>Pushing this button will export the specified key to the specified server.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, Buttonexport)
+#. +> trunk6 stable6
+#: keyserver.ui:269
+#, kde-format
+msgid "&Export"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:35
+#, kde-format
+msgid "Key Server"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:92 keyservers.cpp:182
+#, kde-format
+msgid "You must enter a search string."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:104
+#, kde-format
+msgid "You need to configure keyservers before trying to download keys."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:105
+#, kde-format
+msgid "No keyservers defined"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:142
+#, kde-format
+msgctxt "Caption of message box"
+msgid "Key Import Finished"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:170
+#, kde-format
+msgid "Upload to keyserver finished without errors"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:172
+#, kde-format
+msgid "Upload to keyserver failed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:195
+#, kde-format
+msgctxt "Window title"
+msgid "Import Key From Keyserver"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:206
+#, kde-format
+msgid "Connecting to the server..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:312
+#, kde-format
+msgid "You must choose a key."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:372
+#, kde-format
+msgid "No matching keys found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:375
+#, kde-format
+msgid "Found 1 matching key"
+msgid_plural "Found %1 matching keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:378
+#, kde-format
+msgid "Found 1 matching key (not shown)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keyservers.cpp:380
+#, kde-format
+msgid "Found %1 matching keys (%2 shown)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:125
+#, kde-format
+msgid "Key Management"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:132
+#, kde-format
+msgid "&Open Editor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:135
+#, kde-format
+msgid "&Key Server Dialog"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:140 selectpublickeydialog.cpp:154
+#, kde-format
+msgid "&Go to Default Key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:153
+#, kde-format
+msgid "View GnuPG Manual"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:158
+#, kde-format
+msgid "&Refresh List"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:162
+#, kde-format
+msgid "Show &Long Key Id"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:167
+#, kde-format
+msgid "K&ey Properties"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:171
+#, kde-format
+msgid "&Open Key URL"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:175
+#, kde-format
+msgid "Edit Key in &Terminal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:180
+#, kde-format
+msgid "&Generate Key Pair..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:189
+#, kde-format
+msgid "&Import Key..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:194
+#, kde-format
+msgid "Send Ema&il"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:198
+#, kde-format
+msgid "&Create New Contact in Address Book"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:204
+#, kde-format
+msgid "&Edit Group..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:207
+#, kde-format
+msgid "&Delete Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:211
+#, kde-format
+msgid "&Rename Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:220
+#, kde-format
+msgid "Set as De&fault Key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:223
+#, kde-format
+msgid "&Add Photo..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:226
+#, kde-format
+msgid "&Add User Id..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:229
+#, kde-format
+msgid "Export Secret Key..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:232
+#, kde-format
+msgid "Delete Key Pair"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:236
+#, kde-format
+msgid "Revoke Key..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:239
+#, kde-format
+msgid "&Regenerate Public Key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:245
+#, kde-format
+msgid "Set User Id as &Primary"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:249
+#, kde-format
+msgid "&Open Photo"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:253
+#, kde-format
+msgid "&Delete Photo"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:261
+#, kde-format
+msgid "Import &Missing Signatures From Keyserver"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:279 model/kgpgitemmodel.cpp:384
+#, kde-format
+msgid "Trust"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:282 model/kgpgitemmodel.cpp:385
+#, kde-format
+msgid "Size"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:285 model/kgpgitemmodel.cpp:387
+#, kde-format
+msgid "Creation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:288 model/kgpgitemmodel.cpp:386
+#, kde-format
+msgid "Expiration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:292
+#, kde-format
+msgid "&Photo ID's"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:297
+#, kde-format
+msgctxt "small picture"
+msgid "Small"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:298
+#, kde-format
+msgctxt "medium picture"
+msgid "Medium"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:299
+#, kde-format
+msgctxt "large picture"
+msgid "Large"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:303
+#, kde-format
+msgid "Minimum &Trust"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:306
+#, kde-format
+msgctxt "no filter: show all keys"
+msgid "&None"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:307
+#, kde-format
+msgctxt "show only active keys"
+msgid "&Active"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:308
+#, kde-format
+msgctxt "show only keys with at least marginal trust"
+msgid "&Marginal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:309
+#, kde-format
+msgctxt "show only keys with at least full trust"
+msgid "&Full"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:310
+#, kde-format
+msgctxt "show only ultimately trusted keys"
+msgid "&Ultimate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:335
+#, kde-format
+msgid "&Show Only Secret Keys"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:435
+#, kde-format
+msgctxt "Name of the action that gives the focus to the search line"
+msgid "Focus Search Line"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:483
+#, kde-format
+msgid ""
+"Another key generation operation is still in progress.\n"
+"Please wait a moment until this operation is complete."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:484 keysmanager.cpp:522 keysmanager.cpp:570
+#, kde-format
+msgid "Generating new key pair"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:523
+#, kde-format
+msgid "Can not start \"konsole\" application for expert mode."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:562 keysmanager.cpp:2584 keysmanager.cpp:2586
+#, kde-format
+msgctxt "Application ready for user input"
+msgid "Ready"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:574 transactions/kgpggeneratekey.cpp:194
+#, kde-format
+msgid "Bad passphrase. Cannot generate a new key pair."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:577 transactions/kgpggeneratekey.cpp:197
+#, kde-format
+msgid "Aborted by the user. Cannot generate a new key pair."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:580 transactions/kgpggeneratekey.cpp:200
+#, kde-format
+msgid "The email address is not valid. Cannot generate a new key pair."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:583 transactions/kgpggeneratekey.cpp:203
+#, kde-format
+msgid "The name is not accepted by gpg. Cannot generate a new key pair."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, newKey)
+#. +> trunk6 stable6
+#: keysmanager.cpp:589 newkey.ui:14
+#, kde-format
+msgid "New Key Pair Created"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:628
+#, kde-format
+msgid "backup copy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:642 transactions/kgpggeneratekey.cpp:215
+#, kde-format
+msgid "gpg process did not finish. Cannot generate a new key pair."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:736
+#, kde-format
+msgid "You can only refresh primary keys. Please check your selection."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:860
+#, kde-format
+msgid ""
+"Another operation is still in progress.\n"
+"Please wait a moment until this operation is complete."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:861 keysmanager.cpp:866
+#, kde-format
+msgid "Add New User Id"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:906
+#, kde-format
+msgid "The image must be a JPEG file. Remember that the image is stored within your public key, so if you use a very large picture, your key will become very large as well. The size should not exceed 6 KiB. An image size of around 240x288 is a good size to use."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:938
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to delete Photo id <b>%1</b><br/>"
+"from key <b>%2 &lt;%3&gt;</b>?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1076
+#, kde-format
+msgid "Public Key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1079
+#, kde-format
+msgid "Sub Key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1082
+#, kde-format
+msgid "Secret Key Pair"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1085
+#, kde-format
+msgid "Key Group"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, capSign)
+#. +> trunk6 stable6
+#: keysmanager.cpp:1088 kgpgkeygenerate.ui:185
+#, kde-format
+msgid "Signature"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1091
+#, kde-format
+msgid "User ID"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1094
+#, kde-format
+msgid "Revocation Signature"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1097
+#, kde-format
+msgid "Photo ID"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1100
+#, kde-format
+msgid "Orphaned Secret Key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1105
+#, kde-format
+msgid "Group member"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1208
+#, kde-format
+msgid "&Sign User ID ..."
+msgid_plural "&Sign User IDs ..."
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1209
+#, kde-format
+msgid "Sign and &Mail User ID ..."
+msgid_plural "Sign and &Mail User IDs ..."
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1210
+#, kde-format
+msgid "E&xport Public Key..."
+msgid_plural "E&xport Public Keys..."
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1211
+#, kde-format
+msgid "&Refresh Key From Keyserver"
+msgid_plural "&Refresh Keys From Keyserver"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1212
+#, kde-format
+msgid "&Create Group with Selected Key..."
+msgid_plural "&Create Group with Selected Keys..."
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1213
+#, kde-format
+msgid "&Sign Key..."
+msgid_plural "&Sign Keys..."
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1214
+#, kde-format
+msgid "&Delete User ID"
+msgid_plural "&Delete User IDs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1215
+#, kde-format
+msgid "Delete Sign&ature"
+msgid_plural "Delete Sign&atures"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1216
+#, kde-format
+msgid "Import Key From Keyserver"
+msgid_plural "Import Keys From Keyserver"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1217
+#, kde-format
+msgid "&Delete Key"
+msgid_plural "&Delete Keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1340
+#, kde-format
+msgid "Creation of the revocation certificate failed..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1355
+#, kde-format
+msgid ""
+"<qt>Secret keys <b>should not</b> be saved in an unsafe place.<br/>"
+"If someone else can access this file, encryption with this key will be compromised.<br/>"
+"Continue key export?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1367
+#, kde-format
+msgid "Export PRIVATE KEY As"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1367
+#, kde-format
+msgid "*.asc|*.asc Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1385
+#, kde-format
+msgid ""
+"<qt>Your <b>private</b> key \"%1\" was successfully exported to<br/>"
+"%2.<br/>"
+"<b>Do not</b> leave it in an insecure place.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1388
+#, kde-format
+msgid ""
+"Your secret key could not be exported.\n"
+"Check the key."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1490
+#, kde-format
+msgid ""
+"<qt>The public key was successfully exported to<br/>"
+"%2</qt>"
+msgid_plural ""
+"<qt>The %1 public keys were successfully exported to<br/>"
+"%2</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1494 keysmanager.cpp:1509 keysmanager.cpp:1523
+#, kde-format
+msgid ""
+"Your public key could not be exported\n"
+"Check the key."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1632
+#, kde-format
+msgid ""
+"<p>This key is an orphaned secret key (secret key without public key.) It is currently not usable.</p>"
+"<p>Would you like to regenerate the public key?</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1634
+#, kde-format
+msgid "Generate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1634
+#, kde-format
+msgid "Do Not Generate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1664
+#, kde-format
+msgid "<qt>Are you sure you want to delete group <b>%1</b> ?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1665 keysmanager.cpp:2335
+#, kde-format
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1695
+#, kde-format
+msgid "<qt>You cannot create a group containing signatures, subkeys or other groups.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1710 kgpgrevokewidget.cpp:52
+#, kde-format
+msgctxt "<Name> (<Email>) ID: <KeyId>"
+msgid "%1 (%2) ID: %3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1715
+#, kde-format
+msgid "Create New Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1716
+#, kde-format
+msgctxt "Enter the name of the group you are creating now"
+msgid "Enter new group name:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1721
+#, kde-format
+msgid "Following keys are not valid or not trusted and will not be added to the group:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1727
+#, kde-format
+msgid "<qt>No valid or trusted key was selected. The group <b>%1</b> will not be created.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1739
+#, kde-format
+msgid "Group Properties"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1775
+#, kde-format
+msgid "You can only sign primary keys. Please check your selection."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1784
+#, kde-format
+msgid ""
+"<qt>You are about to sign key:<br />"
+"<br />"
+"%1<br />"
+"ID: %2<br />"
+"Fingerprint: <br />"
+"<b>%3</b>.<br />"
+"<br />"
+"You should check the key fingerprint by phoning or meeting the key owner to be sure that someone is not trying to intercept your communications.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1789
+#, kde-format
+msgid ""
+"<qt>You are about to sign key:<br />"
+"<br />"
+"%1 (%2)<br />"
+"ID: %3<br />"
+"Fingerprint: <br />"
+"<b>%4</b>.<br />"
+"<br />"
+"You should check the key fingerprint by phoning or meeting the key owner to be sure that someone is not trying to intercept your communications.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1804 keysmanager.cpp:1888 kgpgfirstassistant.cpp:276
+#: model/keylistproxymodel.cpp:181
+#, kde-format
+msgctxt "Name: ID"
+msgid "%1: %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1806 keysmanager.cpp:1891 kgpgfirstassistant.cpp:278
+#, kde-format
+msgctxt "Name (Email): ID"
+msgid "%1 (%2): %3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1812
+#, kde-format
+msgid ""
+"<qt>You are about to sign the following keys in one pass.<br/>"
+"<b>If you have not carefully checked all fingerprints, the security of your communications may be compromised.</b></qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1854 keysmanager.cpp:2001
+#, kde-format
+msgid "You can only sign user ids and photo ids. Please check your selection."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1868
+#, kde-format
+msgid ""
+"<qt>You are about to sign user id:<br />"
+"<br />"
+"%1<br />"
+"ID: %2<br />"
+"Fingerprint: <br />"
+"<b>%3</b>.<br />"
+"<br />"
+"You should check the key fingerprint by phoning or meeting the key owner to be sure that someone is not trying to intercept your communications.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1872
+#, kde-format
+msgid ""
+"<qt>You are about to sign user id:<br />"
+"<br />"
+"%1 (%2)<br />"
+"ID: %3<br />"
+"Fingerprint: <br />"
+"<b>%4</b>.<br />"
+"<br />"
+"You should check the key fingerprint by phoning or meeting the key owner to be sure that someone is not trying to intercept your communications.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1898
+#, kde-format
+msgid ""
+"<qt>You are about to sign the following user ids in one pass.<br/>"
+"<b>If you have not carefully checked all fingerprints, the security of your communications may be compromised.</b></qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1967
+#, kde-format
+msgid "<qt>Bad passphrase, key <b>%1 (%2)</b> not signed.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1971
+#, kde-format
+msgid "<qt>The key <b>%1 (%2)</b> is already signed.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1976
+#, kde-format
+msgid ""
+"<qt>Signing key <b>%1</b> with key <b>%2</b> failed.<br />"
+"Do you want to try signing the key in console mode?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:1978
+#, kde-format
+msgctxt "@action:button"
+msgid "Sign"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2094
+#, kde-format
+msgid "All signatures for this key are already in your keyring"
+msgid_plural "All signatures for this keys are already in your keyring"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2181
+#, kde-format
+msgid "Edit key manually to delete a self-signature."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2185
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to delete signature<br />"
+"<b>%1</b><br />"
+"from user id <b>%2</b><br />"
+"of key: <b>%3</b>?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2207
+#, kde-format
+msgid "Requested operation was unsuccessful, please edit the key manually."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2291
+#, kde-format
+msgid "<qt>The key you are deleting is a member of the following key group. Do you want to remove it from this group?</qt>"
+msgid_plural "<qt>The key you are deleting is a member of the following key groups. Do you want to remove it from these groups?</qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2295 keysmanager.cpp:2309 keysmanager.cpp:2344
+#: keysmanager.cpp:2359 keysmanager.cpp:2362 keysmanager.cpp:2373
+#: keysmanager.cpp:2387 keysmanager.cpp:2428
+#, kde-format
+msgid "Delete key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2308
+#, kde-format
+msgid ""
+"You are removing the last key from key group %1.<br/>"
+"Do you want to delete the group, too?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2332
+#, kde-format
+msgid ""
+"<p>Delete <b>secret</b> key pair <b>%1</b>?</p>"
+"Deleting this key pair means you will never be able to decrypt files encrypted with this key again."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2343 keysmanager.cpp:2372
+#, kde-format
+msgid ""
+"Another key delete operation is still in progress.\n"
+"Please wait a moment until this operation is complete."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2359
+#, kde-format
+msgid "Key <b>%1</b> deleted."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2362
+#, kde-format
+msgid "Deleting key <b>%1</b> failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2386
+#, kde-format
+msgid "Can not delete key <b>%1</b> while it is edited in terminal."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2427
+#, kde-format
+msgid "You have selected items that are not keys. They can not be deleted with this menu entry."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2452
+#, kde-format
+msgid ""
+"<qt>The following are secret key pairs:<br/>"
+"<b>%1</b><br/>"
+"They will not be deleted.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2462
+#, kde-format
+msgid "<qt><b>Delete the following public key?</b></qt>"
+msgid_plural "<qt><b>Delete the following %1 public keys?</b></qt>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2493 keysmanager.cpp:2569 keysmanager.cpp:2580
+#, kde-format
+msgid "Key Import"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2501
+#, kde-format
+msgid "Open File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2534
+#, kde-format
+msgid ""
+"<qt>The text in the clipboard does not look like a key, but like encrypted text.<br />"
+"Do you want to decrypt it first and then try importing it?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2536
+#, kde-format
+msgid "Import from Clipboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2556
+#, kde-format
+msgid "Importing..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2568
+#, kde-format
+msgid "Key importing failed. Please see the detailed log for more information."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2621
+#, kde-format
+msgid "KGpg - encryption tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2644
+#, kde-format
+msgid "Ke&y Manager"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2647
+#, kde-format
+msgid "&Encrypt Clipboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2650
+#, kde-format
+msgid "&Decrypt Clipboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2653
+#, kde-format
+msgid "&Sign/Verify Clipboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2690 keysmanager.cpp:2789 keysmanager.cpp:2807
+#, kde-format
+msgid "Clipboard is empty."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keysmanager.cpp:2735
+#, kde-format
+msgid "Text successfully encrypted."
+msgstr ""
+
+#. i18n: ectx: Menu (managekeys)
+#. +> trunk6 stable6
+#: keysmanager.rc:6
+#, kde-format
+msgid "&Keys"
+msgstr ""
+
+#. i18n: ectx: Menu (show_details)
+#. +> trunk6 stable6
+#: keysmanager.rc:30
+#, kde-format
+msgid "&Show Details"
+msgstr ""
+
+#. i18n: ectx: Menu (groups)
+#. +> trunk6 stable6
+#: keysmanager.rc:42
+#, kde-format
+msgid "&Groups"
+msgstr ""
+
+#. +> trunk6 stable6
+#: keytreeview.cpp:157
+#, kde-format
+msgid "<p>Do you want to import file <b>%1</b> into your key ring?</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:63
+#, kde-format
+msgid ""
+"GnuPG failed to start.<br />"
+"You must fix the GnuPG error first before running KGpg."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:63
+#, kde-format
+msgid "GnuPG error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:86
+#, kde-format
+msgid ""
+"<qt>The use of <b>GnuPG Agent</b> is enabled in GnuPG's configuration file (%1).<br />"
+"However, the agent does not seem to be running. This could result in problems with signing/decryption.<br />"
+"Please disable GnuPG Agent from KGpg settings, or fix the agent.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:121 kgpg.cpp:128 kgpg.cpp:135 kgpg.cpp:142
+#, kde-format
+msgid "No files given."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:132
+#, kde-format
+msgid "Cannot decrypt and show folder."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:139
+#, kde-format
+msgid "Cannot sign folder."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:146
+#, kde-format
+msgid "Cannot verify folder."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:149
+#, kde-format
+msgid ""
+"Unable to perform requested operation.\n"
+"Please select only one folder, or several files, but do not mix files and folders."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:187
+#, kde-format
+msgid "Encrypt file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:188
+#, kde-format
+msgid "Open key manager"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:189
+#, kde-format
+msgid "Open editor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:190
+#, kde-format
+msgid "Show encrypted file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:191 kgpgoptions.cpp:505
+#, kde-format
+msgid "Sign File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:192
+#, kde-format
+msgid "Verify signature"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.cpp:193
+#, kde-format
+msgid "File to open"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpg.h:22
+msgid ""
+"Hi,\n"
+"\n"
+"please find attached the user id '%UIDNAME%' of your key %KEYID% signed by me. This mail is encrypted with that key to make sure you control both the email address and the key.\n"
+"\n"
+"If you have multiple user ids, I sent the signature for each user id separately to that user id's associated email address. You can import the signatures by running each through `gpg --import` after you have decrypted them with `gpg --decrypt`.\n"
+"\n"
+"If you are using KGpg store the attachment to disk and then import it. Just select `Import Key...` from `Keys` menu and open the file.\n"
+"\n"
+"Note that I did not upload your key to any keyservers. If you want this new signature to be available to others, please upload it yourself. With GnuPG this can be done using gpg --keyserver subkeys.pgp.net --send-key %KEYID%.\n"
+"\n"
+"With KGpg you can right click on the key once you imported all user ids and choose `Export Public Key...`.\n"
+"\n"
+"If you have any questions, don't hesitate to ask.\n"
+msgstr ""
+
+#. i18n: ectx: label, entry (CustomDecrypt), group (Decryption)
+#. +> trunk6 stable6
+#: kgpg.kcfg:13
+#, kde-format
+msgid "Custom decryption command."
+msgstr ""
+
+#. i18n: ectx: label, entry (CustomEncryptionOptions), group (Encryption)
+#. +> trunk6 stable6
+#: kgpg.kcfg:19
+#, kde-format
+msgid "Custom encryption options"
+msgstr ""
+
+#. i18n: ectx: label, entry (AllowCustomEncryptionOptions), group (Encryption)
+#. +> trunk6 stable6
+#: kgpg.kcfg:22
+#, kde-format
+msgid "Allow custom encryption options"
+msgstr ""
+
+#. i18n: ectx: label, entry (FileEncryptionKey), group (Encryption)
+#. +> trunk6 stable6
+#: kgpg.kcfg:26
+#, kde-format
+msgid "File encryption key."
+msgstr ""
+
+#. i18n: ectx: label, entry (EncryptFilesTo), group (Encryption)
+#. +> trunk6 stable6
+#: kgpg.kcfg:29
+#, kde-format
+msgid "Encrypt files"
+msgstr ""
+
+#. i18n: ectx: label, entry (AsciiArmor), group (Encryption)
+#. +> trunk6 stable6
+#: kgpg.kcfg:33
+#, kde-format
+msgid "Use ASCII armored encryption."
+msgstr ""
+
+#. i18n: ectx: label, entry (AllowUntrustedKeys), group (Encryption)
+#. +> trunk6 stable6
+#: kgpg.kcfg:37
+#, kde-format
+msgid "Allow encryption with untrusted keys."
+msgstr ""
+
+#. i18n: ectx: label, entry (AllowUntrustedGroupMembers), group (Encryption)
+#. +> trunk6 stable6
+#: kgpg.kcfg:41
+#, kde-format
+msgid "Allow untrusted keys to become members of key groups."
+msgstr ""
+
+#. i18n: ectx: label, entry (HideUserID), group (Encryption)
+#. +> trunk6 stable6
+#: kgpg.kcfg:45
+#, kde-format
+msgid "Hide the user ID."
+msgstr ""
+
+#. i18n: ectx: label, entry (PgpCompatibility), group (Encryption)
+#. +> trunk6 stable6
+#: kgpg.kcfg:49
+#, kde-format
+msgid "Enable PGP 6 compatibility."
+msgstr ""
+
+#. i18n: ectx: label, entry (PgpExtension), group (Encryption)
+#. +> trunk6 stable6
+#: kgpg.kcfg:53
+#, kde-format
+msgid "Use *.pgp extension for encrypted files."
+msgstr ""
+
+#. i18n: ectx: label, entry (GpgConfigPath), group (GPG Settings)
+#. +> trunk6 stable6
+#: kgpg.kcfg:60
+#, kde-format
+msgid "The path of the gpg configuration file."
+msgstr ""
+
+#. i18n: ectx: label, entry (GpgBinaryPath), group (GPG Settings)
+#. +> trunk6 stable6
+#: kgpg.kcfg:63
+#, kde-format
+msgid "The path of the gpg binary used by KGpg."
+msgstr ""
+
+#. i18n: ectx: label, entry (FirstRun), group (General Options)
+#. +> trunk6 stable6
+#: kgpg.kcfg:79
+#, kde-format
+msgid "Is the first time the application runs."
+msgstr ""
+
+#. i18n: ectx: label, entry (EditorGeometry), group (General Options)
+#. +> trunk6 stable6
+#: kgpg.kcfg:83
+#, kde-format
+msgid "The size of the editor window."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowTrust), group (General Options)
+#. +> trunk6 stable6
+#: kgpg.kcfg:86
+#, kde-format
+msgid "Show the trust value in key manager."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowExpi), group (General Options)
+#. +> trunk6 stable6
+#: kgpg.kcfg:90
+#, kde-format
+msgid "Show the expiration value in key manager."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowSize), group (General Options)
+#. +> trunk6 stable6
+#: kgpg.kcfg:94
+#, kde-format
+msgid "Show the size value in key manager."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowCreat), group (General Options)
+#. +> trunk6 stable6
+#: kgpg.kcfg:98
+#, kde-format
+msgid "Show the creation value in key manager."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowSecret), group (General Options)
+#. +> trunk6 stable6
+#: kgpg.kcfg:102
+#, kde-format
+msgid "Show only secret keys in key manager."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowLongKeyId), group (General Options)
+#. +> trunk6 stable6
+#: kgpg.kcfg:106
+#, kde-format
+msgid "Show long key id in key manager."
+msgstr ""
+
+#. i18n: ectx: label, entry (TrustLevel), group (General Options)
+#. +> trunk6 stable6
+#: kgpg.kcfg:110
+#, kde-format
+msgid "Show only keys with at least that trust level in key manager."
+msgstr ""
+
+#. i18n: ectx: label, entry (UseMouseSelection), group (User Interface)
+#. +> trunk6 stable6
+#: kgpg.kcfg:124
+#, kde-format
+msgid "Use the mouse selection instead of the clipboard."
+msgstr ""
+
+#. i18n: ectx: label, entry (AutoStart), group (User Interface)
+#. +> trunk6 stable6
+#: kgpg.kcfg:128 kgpgfirstassistant.cpp:223
+#, kde-format
+msgid "Start KGpg automatically at KDE startup."
+msgstr ""
+
+#. i18n: ectx: label, entry (RemoteFileWarn), group (User Interface)
+#. +> trunk6 stable6
+#: kgpg.kcfg:132
+#, kde-format
+msgid "Display a warning before creating temporary files during remote file operations."
+msgstr ""
+
+#. i18n: ectx: label, entry (LeftClick), group (User Interface)
+#. +> trunk6 stable6
+#: kgpg.kcfg:136
+#, kde-format
+msgid "Choose default left-click behavior"
+msgstr ""
+
+#. i18n: ectx: label, entry (EncryptedDropEvent), group (User Interface)
+#. +> trunk6 stable6
+#: kgpg.kcfg:143
+#, kde-format
+msgid "Handle encrypted drops"
+msgstr ""
+
+#. i18n: ectx: label, entry (UnencryptedDropEvent), group (User Interface)
+#. +> trunk6 stable6
+#: kgpg.kcfg:151
+#, kde-format
+msgid "Handle unencrypted drops"
+msgstr ""
+
+#. i18n: ectx: label, entry (SignMenu), group (User Interface)
+#. +> trunk6 stable6
+#: kgpg.kcfg:159
+#, kde-format
+msgid "Show the \"sign file\" service menu."
+msgstr ""
+
+#. i18n: ectx: label, entry (DecryptMenu), group (User Interface)
+#. +> trunk6 stable6
+#: kgpg.kcfg:167
+#, kde-format
+msgid "Show the \"decrypt file\" service menu."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowSystray), group (User Interface)
+#. +> trunk6 stable6
+#: kgpg.kcfg:176
+#, kde-format
+msgid "Show the systray icon"
+msgstr ""
+
+#. i18n: ectx: label, entry (RecentFiles), group (User Interface)
+#. +> trunk6 stable6
+#: kgpg.kcfg:180
+#, kde-format
+msgid "The number of recently opened files shown in the editor menu."
+msgstr ""
+
+#. i18n: ectx: label, entry (ColorGood), group (Key Colors)
+#. +> trunk6 stable6
+#: kgpg.kcfg:187
+#, kde-format
+msgid "Color used for trusted keys."
+msgstr ""
+
+#. i18n: ectx: label, entry (ColorRev), group (Key Colors)
+#. +> trunk6 stable6
+#: kgpg.kcfg:191
+#, kde-format
+msgid "Color used for revoked keys."
+msgstr ""
+
+#. i18n: ectx: label, entry (ColorUnknown), group (Key Colors)
+#. +> trunk6 stable6
+#: kgpg.kcfg:195
+#, kde-format
+msgid "Color used for unknown keys."
+msgstr ""
+
+#. i18n: ectx: label, entry (ColorBad), group (Key Colors)
+#. +> trunk6 stable6
+#: kgpg.kcfg:199
+#, kde-format
+msgid "Color used for untrusted keys."
+msgstr ""
+
+#. i18n: ectx: label, entry (ColorUltimate), group (Key Colors)
+#. +> trunk6 stable6
+#: kgpg.kcfg:203
+#, kde-format
+msgid "Color used for ultimately trusted keys."
+msgstr ""
+
+#. i18n: ectx: label, entry (ColorMarginal), group (Key Colors)
+#. +> trunk6 stable6
+#: kgpg.kcfg:207
+#, kde-format
+msgid "Color used for marginally trusted keys."
+msgstr ""
+
+#. i18n: ectx: label, entry (ColorExpired), group (Key Colors)
+#. +> trunk6 stable6
+#: kgpg.kcfg:211
+#, kde-format
+msgid "Color used for expired keys."
+msgstr ""
+
+#. i18n: ectx: label, entry (Font), group (Text Font)
+#. +> trunk6 stable6
+#: kgpg.kcfg:218
+#, kde-format
+msgid "Font"
+msgstr ""
+
+#. i18n: ectx: label, entry (KeyServers), group (Servers)
+#. +> trunk6 stable6
+#: kgpg.kcfg:241
+#, kde-format
+msgid "Key servers used by KGpg. The first server in the list is the default server."
+msgstr ""
+
+#. i18n: ectx: label, entry (InfoServers), group (Servers)
+#. +> trunk6 stable6
+#: kgpg.kcfg:245
+#, kde-format
+msgid "List of URLs that show details and analysis of the given key. The first server in the list is the default server."
+msgstr ""
+
+#. i18n: ectx: label, entry (UseProxy), group (Key Servers)
+#. +> trunk6 stable6
+#: kgpg.kcfg:252
+#, kde-format
+msgid "Use HTTP proxy when available."
+msgstr ""
+
+#. i18n: ectx: label, entry (EmailTemplate), group (Key Signing)
+#. +> trunk6 stable6
+#: kgpg.kcfg:259
+#, kde-format
+msgid "This is the text of the email sent by the \"Sign and Mail User ID\" action."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgexternalactions.cpp:127
+#, kde-format
+msgid "Cannot create temporary file for folder compression."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgexternalactions.cpp:127 kgpgexternalactions.cpp:134
+#, kde-format
+msgid "Temporary File Creation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgexternalactions.cpp:132
+#, kde-format
+msgid ""
+"<qt>KGpg will now create a temporary archive file:<br />"
+"<b>%1</b> to process the encryption. The file will be deleted after the encryption is finished.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgexternalactions.cpp:148
+#, kde-format
+msgid "Compression method for archive:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgexternalactions.cpp:401
+#, kde-format
+msgid "Decryption of this file failed:"
+msgid_plural "Decryption of these files failed:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: kgpgexternalactions.cpp:425
+#, kde-format
+msgid ""
+"<qt>You have not set a path to your GnuPG config file.<br />"
+"This may cause some surprising results in KGpg's execution.<br />"
+"Would you like to start KGpg's assistant to fix this problem?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgexternalactions.cpp:427
+#, kde-format
+msgid "Start Assistant"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgexternalactions.cpp:427
+#, kde-format
+msgid "Do Not Start"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:35
+#, kde-format
+msgid "KGpg Assistant"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:59
+#, kde-format
+msgid "This assistant will first setup some basic configuration options required for KGpg to work properly. Next, it will allow you to create your own key pair, enabling you to encrypt your files and emails."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:67
+#, kde-format
+msgid "Welcome to the KGpg Assistant"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:79
+#, kde-format
+msgid "KGpg needs to know which GnuPG binary to use."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:87 kgpgfirstassistant.cpp:127
+#, kde-format
+msgid "Unless you want to try some unusual settings, just click on the \"next\" button."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:102
+#, kde-format
+msgctxt "search filter name for gpg binary"
+msgid "GnuPG binary"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:103
+#, kde-format
+msgid "All files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:134
+#, kde-format
+msgid "KGpg needs to know where your GnuPG configuration file is stored."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:149
+#, kde-format
+msgid "Path to your GnuPG configuration file:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:163
+#, kde-format
+msgid "Configuration File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:173
+#, kde-format
+msgid "Your default key:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:192
+#, kde-format
+msgid "Default Key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:213
+#, kde-format
+msgid "Generate new key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:227
+#, kde-format
+msgid "Done"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:241
+#, kde-format
+msgid "<qt><b>The GnuPG configuration file was not found</b>. Should KGpg try to create a config file ?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:241
+#, kde-format
+msgid "Create Config"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:241
+#, kde-format
+msgid "Do Not Create"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:249
+#, kde-format
+msgid "<qt><b>The GnuPG configuration file was not found</b>.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:291
+#, kde-format
+msgid "Your GnuPG binary is: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:306 kgpgfirstassistant.cpp:362
+#, kde-format
+msgid "You have GnuPG version: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:309
+#, kde-format
+msgid "Your default key is: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgfirstassistant.cpp:360
+#, kde-format
+msgid ""
+"Your GnuPG version (%1) seems to be too old.<br />"
+"Compatibility with versions before 1.4.0 is no longer guaranteed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpginterface.cpp:269
+#, kde-format
+msgid "An error occurred while scanning your keyring"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgkeygenerate.cpp:48
+#, kde-format
+msgid "&Expert Mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgkeygenerate.cpp:49
+#, kde-format
+msgid "Go to Expert Mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgkeygenerate.cpp:50
+#, kde-format
+msgid "If you go to expert mode, you will use the command line to create your key."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgkeygenerate.cpp:57
+#, kde-format
+msgid "1024"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgkeygenerate.cpp:58
+#, kde-format
+msgid "2048"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgkeygenerate.cpp:59
+#, kde-format
+msgid "4096"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgkeygenerate.cpp:90
+#, kde-format
+msgid "You must give a name."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgkeygenerate.cpp:96
+#, kde-format
+msgid "The name must have at least 5 characters"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgkeygenerate.cpp:102
+#, kde-format
+msgid "The name must not start with a digit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgkeygenerate.cpp:109
+#, kde-format
+msgid "You are about to create a key with no email address"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgkeygenerate.cpp:116
+#, kde-format
+msgid "Email address not valid"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, kgpgKeyGenerate)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:14
+#, kde-format
+msgid "Key Generation"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, vgroup)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:26
+#, kde-format
+msgid "Generate Key Pair"
+msgstr ""
+
+#. i18n: Name of key owner
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:32
+#, kde-format
+msgid "&Name:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, m_kname)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:42
+#, kde-format
+msgid "The name must have a length of at least 5 characters and must not begin with a digit."
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_kname)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:45
+#, kde-format
+msgid "Real name, at least 5 characters, no leading digits"
+msgstr ""
+
+#. i18n: Email address of key owner
+#. i18n: ectx: property (text), widget (QLabel, emailLabel)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:52
+#, kde-format
+msgid "E&mail (optional):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:65
+#, kde-format
+msgid "Commen&t (optional):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, tl_expiration)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:78 kgpgKeyInfo.ui:139
+#, kde-format
+msgid "Expiration:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_keyexp)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:98
+#, kde-format
+msgctxt "Key will not expire"
+msgid "Never"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_keyexp)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:103
+#, kde-format
+msgid "Days"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_keyexp)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:108
+#, kde-format
+msgid "Weeks"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_keyexp)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:113
+#, kde-format
+msgid "Months"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_keyexp)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:118
+#, kde-format
+msgid "Years"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:128
+#, kde-format
+msgid "&Key size:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:141
+#, kde-format
+msgid "&Algorithm:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, tl_caps)
+#. i18n: ectx: property (title), widget (QGroupBox, capabilities)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:160 kgpgKeyInfo.ui:223
+#, kde-format
+msgid "Capabilities"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, capCert)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:172
+#, kde-format
+msgid "Certification is automatically enabled for all keys"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, capCert)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:175
+#, kde-format
+msgid "Certification"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, capAuth)
+#. +> trunk6 stable6
+#: kgpgkeygenerate.ui:195
+#, kde-format
+msgid "Authentication"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, kgpgKeyInfo)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:14
+#, kde-format
+msgid "Kgpg"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, tl_id)
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:85 newkey.ui:92
+#, kde-format
+msgid "Key ID:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, tl_comment)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:102
+#, kde-format
+msgid "Comment:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, tl_creation)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:122
+#, kde-format
+msgid "Creation:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, tl_trust)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:156
+#, kde-format
+msgid "Trust:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, tl_owtrust)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:163
+#, kde-format
+msgid "Owner trust:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, tl_algorithm)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:189
+#, kde-format
+msgid "Algorithm:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, tl_length)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:206
+#, kde-format
+msgid "Length:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gr_photo)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:284
+#, kde-format
+msgid "Photo"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, m_photo)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:304
+#, kde-format
+msgid ""
+"<qt><b>Photo:</b>"
+"<p>A photo can be included with a public key for extra security. The photo can be used as an additional method of authenticating the key. However, it should not be relied upon as the only form of authentication.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_photo)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:313
+#, kde-format
+msgid "No Photo"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_disable)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:350
+#, kde-format
+msgid "Disable key"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_expirationbtn)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:357
+#, kde-format
+msgid "Change Expiration"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_password)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:364
+#, kde-format
+msgid "Change Passphrase"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gr_fingerprint)
+#. +> trunk6 stable6
+#: kgpgKeyInfo.ui:390
+#, kde-format
+msgid "Fingerprint"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:107
+#, kde-format
+msgid "Decryption"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:108
+#, kde-format
+msgid "Appearance"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:109
+#, kde-format
+msgid "GnuPG Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:110
+#, kde-format
+msgid "Key Servers"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:111
+#, kde-format
+msgid "Misc"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:146
+#, kde-format
+msgid "New GnuPG Home Location"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:159
+#, kde-format
+msgid ""
+"No configuration file was found in the selected location.\n"
+"Do you want to create it now?\n"
+"\n"
+"Without a configuration file, neither KGpg nor GnuPG will work properly."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:160
+#, kde-format
+msgid "No Configuration File Found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:161
+#, kde-format
+msgid "Create"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:162
+#, kde-format
+msgid "Ignore"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:176
+#, kde-format
+msgid "Cannot create configuration file. Please check if destination media is mounted and if you have write access."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:199
+#, kde-format
+msgid "Key server URLs may not contain whitespace."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:204
+#, kde-format
+msgid "Key server already in the list."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:213
+#, kde-format
+msgid "Add New Key Server"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:213
+#, kde-format
+msgid "Server URL:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:466 kgpgoptions.cpp:468
+#, kde-format
+msgctxt "no key available"
+msgid "none"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgoptions.cpp:488
+#, kde-format
+msgid "Decrypt File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kgpgrevokewidget.cpp:38
+#, kde-format
+msgid "Create Revocation Certificate"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: kgpgrevokewidget.ui:18
+#, kde-format
+msgid "Create revocation certificate for"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, keyID)
+#. +> trunk6 stable6
+#: kgpgrevokewidget.ui:28
+#, kde-format
+msgid "key id"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. +> trunk6 stable6
+#: kgpgrevokewidget.ui:45
+#, kde-format
+msgid "Reason for revocation:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox1)
+#. +> trunk6 stable6
+#: kgpgrevokewidget.ui:56
+#, kde-format
+msgid "No Reason"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox1)
+#. +> trunk6 stable6
+#: kgpgrevokewidget.ui:61
+#, kde-format
+msgid "Key Has Been Compromised"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox1)
+#. +> trunk6 stable6
+#: kgpgrevokewidget.ui:66
+#, kde-format
+msgid "Key is Superseded"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox1)
+#. +> trunk6 stable6
+#: kgpgrevokewidget.ui:71
+#, kde-format
+msgid "Key is No Longer Used"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. +> trunk6 stable6
+#: kgpgrevokewidget.ui:81
+#, kde-format
+msgid "Description:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbSave)
+#. +> trunk6 stable6
+#: kgpgrevokewidget.ui:96
+#, kde-format
+msgid "Save certificate:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbPrint)
+#. +> trunk6 stable6
+#: kgpgrevokewidget.ui:111
+#, kde-format
+msgid "Print certificate"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbImport)
+#. +> trunk6 stable6
+#: kgpgrevokewidget.ui:121
+#, kde-format
+msgid "Import into keyring"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:26
+#, kde-kuit-format
+msgctxt "@title"
+msgid "<application>KGpg</application>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:28
+#, kde-kuit-format
+msgctxt "@title"
+msgid "KGpg - simple gui for GnuPG"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:30
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "&copy; 2003-2016, The KGpg Developers"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:32
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Rolf Eike Beer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:32
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Jean-Baptiste Mardelle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author and former maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Jimmy Gilles"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:35
+#, kde-kuit-format
+msgctxt "@info:credit"
+msgid "Andrius Štikonas"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:35
+#, kde-format
+msgctxt "@info:credit"
+msgid "KF5 port"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/gpgservermodel.cpp:73
+#, kde-format
+msgctxt "Mark default keyserver in GUI"
+msgid "%1 (Default)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/keylistproxymodel.cpp:176
+#, kde-format
+msgctxt "ID: Name"
+msgid "%1: %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/keylistproxymodel.cpp:178
+#, kde-format
+msgctxt "ID: Name <Email>"
+msgid "%1: %2 <%3>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/keylistproxymodel.cpp:183
+#, kde-format
+msgctxt "Name <Email>: ID"
+msgid "%1 <%2>: %3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/kgpgitemmodel.cpp:179
+#, kde-format
+msgid ""
+"Trust: %1<br>"
+"Owner Trust: %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/kgpgitemmodel.cpp:183
+#, kde-format
+msgid "Trust: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/kgpgitemmodel.cpp:280 model/kgpgitemmodel.cpp:283
+#, kde-format
+msgid "1 Key"
+msgid_plural "%1 Keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: model/kgpgitemmodel.cpp:284
+#, kde-format
+msgid "1 Group"
+msgid_plural "%1 Groups"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: model/kgpgitemmodel.cpp:286
+#, kde-format
+msgctxt "%1 = something like 7 keys, %2 = something like 2 groups"
+msgid "%1, %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/kgpgitemmodel.cpp:382 model/kgpgsearchresultmodel.cpp:417
+#, kde-format
+msgid "Name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/kgpgitemmodel.cpp:383 model/kgpgsearchresultmodel.cpp:419
+#, kde-format
+msgctxt "@title:column Title of a column of emails"
+msgid "Email"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/kgpgitemmodel.cpp:388
+#, kde-format
+msgid "ID"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/kgpgsearchresultmodel.cpp:146
+#, kde-format
+msgctxt "example: ID abc123xy, 1024-bit RSA key, created Jan 12 2009, revoked"
+msgid "ID %1, %2-bit %3 key, created %4, revoked"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/kgpgsearchresultmodel.cpp:151
+#, kde-format
+msgctxt "example: ID abc123xy, 1024-bit RSA key, created Jan 12 2009"
+msgid "ID %1, %2-bit %3 key, created %4"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/kgpgsearchresultmodel.cpp:284
+#, kde-format
+msgid "One Photo ID"
+msgid_plural "%1 Photo IDs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#. +> trunk6 stable6
+#: newkey.ui:20
+#, kde-format
+msgid "New Key Created"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. +> trunk6 stable6
+#: newkey.ui:26
+#, kde-format
+msgid "You have successfully created the following key:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. +> trunk6 stable6
+#: newkey.ui:38
+#, kde-format
+msgid "Name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#. +> trunk6 stable6
+#: newkey.ui:116
+#, kde-format
+msgid "Fingerprint:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, CBdefault)
+#. +> trunk6 stable6
+#: newkey.ui:137
+#, kde-format
+msgid ""
+"<qt><b>Set as your default key:</b><br />"
+"\n"
+"<p>Checking this option sets the newly created key pair as the default key pair.</p>"
+"</qt>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, CBdefault)
+#. +> trunk6 stable6
+#: newkey.ui:140
+#, kde-format
+msgid "Set as your default key"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. +> trunk6 stable6
+#: newkey.ui:152
+#, kde-format
+msgid "Revocation Certificate"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: newkey.ui:158
+#, kde-format
+msgid "It is recommended to save or print a revocation certificate in case your key is compromised."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, CBsave)
+#. +> trunk6 stable6
+#: newkey.ui:170
+#, kde-format
+msgid "Save as:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, CBprint)
+#. +> trunk6 stable6
+#: newkey.ui:186
+#, kde-format
+msgid "Print"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, validFilterCheckbox)
+#. +> trunk6 stable6
+#: searchres.ui:48
+#, kde-format
+msgid "Show only valid keys"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: searchres.ui:73
+#, kde-format
+msgid "Key to import:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectexpirydate.cpp:23
+#, kde-format
+msgid "Choose New Expiration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectexpirydate.cpp:37
+#, kde-format
+msgctxt "Key has unlimited lifetime"
+msgid "Unlimited"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:48 selectpublickeydialog.cpp:266
+#, kde-format
+msgid "&Options"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:61
+#, kde-format
+msgid "Select Public Key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:64
+#, kde-format
+msgid "Select Public Key for %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:67
+#, kde-format
+msgid "Select Public Key for %2 and one more file"
+msgid_plural "Select Public Key for %2 and %1 more files"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:75
+#, kde-format
+msgid "&Search: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:92
+#, kde-format
+msgid "<b>Public keys list</b>: select the key that will be used for encryption."
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:107
+#, kde-format
+msgid "<b>ASCII encryption</b>: makes it possible to open the encrypted file/message in a text editor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:115
+#, kde-format
+msgid "<b>Allow encryption with untrusted keys</b>: when you import a public key, it is usually marked as untrusted and you cannot use it unless you sign it in order to make it 'trusted'. Checking this box enables you to use any key, even if it has not be signed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:122
+#, kde-format
+msgid "<b>Hide user ID</b>: Do not put the keyid into encrypted packets. This option hides the receiver of the message and is a countermeasure against traffic analysis. It may slow down the decryption process because all available secret keys are tried."
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:126
+#, kde-format
+msgid "Symmetrical encryption"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:128
+#, kde-format
+msgid "<b>Symmetrical encryption</b>: encryption does not use keys. You just need to give a password to encrypt/decrypt the file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:142
+#, kde-format
+msgid "Custom option:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectpublickeydialog.cpp:147
+#, kde-format
+msgid "<b>Custom option</b>: for experienced users only, allows you to enter a gpg command line option, like: '--armor'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectsecretkey.cpp:35
+#, kde-format
+msgid "Private Key List"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectsecretkey.cpp:49
+#, kde-format
+msgid "Choose secret key for signing:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectsecretkey.cpp:64
+#, kde-format
+msgid "How carefully have you checked that the key really belongs to the person with whom you wish to communicate:"
+msgid_plural "How carefully have you checked that the %1 keys really belong to the people with whom you wish to communicate:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: selectsecretkey.cpp:71
+#, kde-format
+msgid "I Will Not Answer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectsecretkey.cpp:72
+#, kde-format
+msgid "I Have Not Checked at All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectsecretkey.cpp:73
+#, kde-format
+msgid "I Have Done Casual Checking"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectsecretkey.cpp:74
+#, kde-format
+msgid "I Have Done Very Careful Checking"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectsecretkey.cpp:79
+#, kde-format
+msgid "Local signature (cannot be exported)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selectsecretkey.cpp:83
+#, kde-format
+msgid "Do not sign all user id's (open terminal)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkServer)
+#. +> trunk6 stable6
+#: sourceselect.ui:68
+#, kde-format
+msgid "&Keyserver:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, keyIds)
+#. +> trunk6 stable6
+#: sourceselect.ui:81
+#, kde-format
+msgid "Enter the ids or fingerprints of the keys to import as space separated list."
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgaddphoto.cpp:38
+#, kde-format
+msgid "This image is very large. Use it anyway?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgaddphoto.cpp:38
+#, kde-format
+msgid "Use Anyway"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgaddphoto.cpp:38
+#, kde-format
+msgid "Do Not Use"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgchangepass.cpp:55
+#, kde-format
+msgid "Enter old passphrase for <b>%1</b>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgchangepass.cpp:57
+#, kde-format
+msgid ""
+"<qt>Enter new passphrase for <b>%1</b><br />"
+"If you forget this passphrase all your encrypted files and messages will be inaccessible.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgdecrypt.cpp:110
+#, kde-format
+msgctxt "Status message 'Decrypting <filename>' (operation starts)"
+msgid "Decrypting %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgdecrypt.cpp:113
+#, kde-format
+msgctxt "Status message 'Decrypted <filename>' (operation was completed)"
+msgid "Decrypted %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpggeneratekey.cpp:52
+#, kde-format
+msgid "Generating New Key for %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpggeneratekey.cpp:125
+#, kde-format
+msgid ""
+"<p><b>Enter passphrase for %1 &lt;%2&gt;</b>:<br />"
+"Passphrase should include non alphanumeric characters and random sequences.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpggeneratekey.cpp:128
+#, kde-format
+msgid ""
+"<p><b>Enter passphrase for %1</b>:<br />"
+"Passphrase should include non alphanumeric characters and random sequences.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpggeneratekey.cpp:139
+#, kde-format
+msgid "Generating Key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpggeneratekey.cpp:152
+#, kde-format
+msgid "Generating prime numbers"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpggeneratekey.cpp:154
+#, kde-format
+msgid "Generating DSA key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpggeneratekey.cpp:156
+#, kde-format
+msgid "Generating ElGamal key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpggeneratekey.cpp:158
+#, kde-format
+msgid "Waiting for entropy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpggeneratekey.cpp:163
+#, kde-format
+msgid "The entropy pool ran empty. The key generation process is stalled until enough entropy is present. You can generate entropy e.g. by moving the mouse or typing at the keyboard. The easiest way is by using another application until the key generation continues."
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpggeneratekey.cpp:206
+#, kde-format
+msgid "Key %1 generated"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpggeneraterevoke.cpp:38
+#, kde-format
+msgid "Generating Revocation Certificate for key %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:117
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The import result string has an unsupported format in line %1.<nl/>"
+"Please see the detailed log for more information."
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:121
+#, kde-format
+msgid ""
+"No key imported.<br />"
+"Please see the detailed log for more information."
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:123
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>%1 key processed.</para>"
+msgid_plural "<para>%1 keys processed.</para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:126
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>One key without ID.</para>"
+msgid_plural "<para>%1 keys without ID.</para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:128
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para><emphasis strong='true'>One key imported:</emphasis></para>"
+msgid_plural "<para><emphasis strong='true'>%1 keys imported:</emphasis></para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:130
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>One RSA key imported.</para>"
+msgid_plural "<para>%1 RSA keys imported.</para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:132
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>One key unchanged.</para>"
+msgid_plural "<para>%1 keys unchanged.</para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:134
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>One user ID imported.</para>"
+msgid_plural "<para>%1 user IDs imported.</para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:136
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>One subkey imported.</para>"
+msgid_plural "<para>%1 subkeys imported.</para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:138
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>One signature imported.</para>"
+msgid_plural "<para>%1 signatures imported.</para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:140
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>One revocation certificate imported.</para>"
+msgid_plural "<para>%1 revocation certificates imported.</para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:142
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>One secret key processed.</para>"
+msgid_plural "<para>%1 secret keys processed.</para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:144
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para><emphasis strong='true'>One secret key imported.</emphasis></para>"
+msgid_plural "<para><emphasis strong='true'>%1 secret keys imported.</emphasis></para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:146
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>One secret key unchanged.</para>"
+msgid_plural "<para>%1 secret keys unchanged.</para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:148
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>One secret key not imported.</para>"
+msgid_plural "<para>%1 secret keys not imported.</para>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:151
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para><emphasis strong='true'>You have imported a secret key.</emphasis><nl/>"
+"Please note that imported secret keys are not trusted by default.<nl/>"
+"To fully use this secret key for signing and encryption, you must edit the key (double click on it) and set its trust to Full or Ultimate.</para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:175
+#, kde-kuit-format
+msgctxt "@item ID: Name"
+msgid "%1: %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:177
+#, kde-kuit-format
+msgctxt "@item ID: Name <Email>"
+msgid "%1: %2 <email>%3</email>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:221
+#, kde-format
+msgid "New Key"
+msgid_plural "New Keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:224
+#, kde-format
+msgid "Key with new User Id"
+msgid_plural "Keys with new User Ids"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:227
+#, kde-format
+msgid "Key with new Signatures"
+msgid_plural "Keys with new Signatures"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:230
+#, kde-format
+msgid "Key with new Subkeys"
+msgid_plural "Keys with new Subkeys"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:233
+#, kde-format
+msgid "New Private Key"
+msgid_plural "New Private Keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgimport.cpp:249
+#, kde-format
+msgid "Unchanged Key"
+msgid_plural "Unchanged Keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgkeyservertransaction.cpp:87
+#, kde-format
+msgid "<b>Connecting to the server...</b>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgkeyservertransaction.cpp:88
+#, kde-format
+msgid "Keyserver"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgtransaction.cpp:76 transactions/kgpgtransaction.cpp:268
+#, kde-format
+msgid "Requesting Passphrase"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgtransaction.cpp:199
+#, kde-format
+msgid " or "
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgtransaction.cpp:281
+#, kde-format
+msgid "Enter passphrase for <b>%1</b>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgtransaction.cpp:295
+#, kde-format
+msgid "<p><b>Bad passphrase</b>. You have 1 try left.</p>"
+msgid_plural "<p><b>Bad passphrase</b>. You have %1 tries left.</p>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgtransactionprivate.cpp:82
+#, kde-format
+msgid "Got Passphrase"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgverify.cpp:86
+#, kde-kuit-format
+msgctxt "@info first argument is formatted date, second argument is formatted time"
+msgid "<para>The signature was created at %1 %2</para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgverify.cpp:122
+#, kde-kuit-format
+msgctxt "@info Good signature from: NAME , Key ID: HEXID"
+msgid ""
+"<para>Good signature from:<nl/>"
+"<emphasis strong='true'>%1</emphasis><nl/>"
+"Key ID: %2<nl/>"
+"</para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgverify.cpp:126
+#, kde-kuit-format
+msgctxt "@info Good signature from: NAME <EMAIL>, Key ID: HEXID"
+msgid ""
+"<para>Good signature from:<nl/>"
+"<emphasis strong='true'>%1 <email>%2</email></emphasis><nl/>"
+"Key ID: %3</para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgverify.cpp:139
+#, kde-kuit-format
+msgctxt "@info"
+msgid "No signature found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgverify.cpp:156
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>Good signature from:<nl/>"
+"<emphasis strong='true'>%1</emphasis><nl/>"
+"Key ID: %2<nl/>"
+"</para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgverify.cpp:160
+#, kde-kuit-format
+msgctxt "@info Good signature from: NAME <EMAIL>, Key ID: HEXID"
+msgid ""
+"<para>Good signature from:<nl/>"
+"<emphasis strong='true'>%1 <email>%2</email></emphasis><nl/>"
+"Key ID: %3<nl/>"
+"</para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgverify.cpp:172
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para><emphasis strong='true'>BAD signature</emphasis> from:<nl/>"
+" %1<nl/>"
+"Key ID: %2<nl/>"
+"<nl/>"
+"<emphasis strong='true'>The file is corrupted</emphasis></para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgverify.cpp:175
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>The signature is valid, but the key is untrusted</para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transactions/kgpgverify.cpp:177
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para>The signature is valid, and the key is ultimately trusted</para>"
+msgstr ""
