@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-09 14:54+0100\n"
+"POT-Creation-Date: 2025-03-20 08:24+0100\n"
 "PO-Revision-Date: 2010-03-27 23:01+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -199,14 +199,35 @@ msgstr "สร้าง&รายการใหม่..."
 msgid "New S&eparator"
 msgstr "สร้างเส้นแ&บ่งรายการใหม่"
 
+#. +> trunk6
+#: kmenuedit.cpp:69
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Location"
+msgstr ""
+
+#. +> trunk6
+#: kmenuedit.cpp:72
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Open Containing Folder"
+msgstr ""
+
+#. +> trunk6
+#: kmenuedit.cpp:75
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: kmenuedit.cpp:67
+#: kmenuedit.cpp:79
 #, kde-format
 msgid "&Sort"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kmenuedit.cpp:71
+#: kmenuedit.cpp:83
 #, fuzzy, kde-format
 #| msgid "&Description:"
 msgid "&Sort Selection by Name"
@@ -220,7 +241,7 @@ msgid "&Sort selection by Name"
 msgstr "&คำอธิบาย:"
 
 #. +> trunk6 stable6
-#: kmenuedit.cpp:74
+#: kmenuedit.cpp:86
 #, fuzzy, kde-format
 #| msgid "&Description:"
 msgid "&Sort Selection by Description"
@@ -234,7 +255,7 @@ msgid "&Sort selection by Description"
 msgstr "&คำอธิบาย:"
 
 #. +> trunk6 stable6
-#: kmenuedit.cpp:78
+#: kmenuedit.cpp:90
 #, fuzzy, kde-format
 #| msgid "&Description:"
 msgid "&Sort All by Name"
@@ -247,7 +268,7 @@ msgid "&Sort all by Name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kmenuedit.cpp:81
+#: kmenuedit.cpp:93
 #, fuzzy, kde-format
 #| msgid "&Description:"
 msgid "&Sort All by Description"
@@ -261,43 +282,43 @@ msgid "&Sort all by Description"
 msgstr "&คำอธิบาย:"
 
 #. +> trunk6 stable6 stable5
-#: kmenuedit.cpp:87
+#: kmenuedit.cpp:99
 #, kde-format
 msgid "Move &Up"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kmenuedit.cpp:90
+#: kmenuedit.cpp:102
 #, kde-format
 msgid "Move &Down"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kmenuedit.cpp:98
+#: kmenuedit.cpp:110
 #, kde-format
 msgid "Restore to System Menu"
 msgstr "เรียกคืนไปยังเมนูของระบบ"
 
 #. +> trunk6 stable6 stable5
-#: kmenuedit.cpp:134
+#: kmenuedit.cpp:146
 #, kde-format
 msgid "Search..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kmenuedit.cpp:135
+#: kmenuedit.cpp:147
 #, kde-format
 msgid "Search through the list of applications below"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kmenuedit.cpp:203
+#: kmenuedit.cpp:215
 #, kde-format
 msgid "&Delete"
 msgstr "&ลบทิ้ง"
 
 #. +> trunk6 stable6 stable5
-#: kmenuedit.cpp:228
+#: kmenuedit.cpp:240
 #, kde-format
 msgid ""
 "You have made changes to the menu.\n"
@@ -307,7 +328,7 @@ msgstr ""
 "ต้องการจะจัดเก็บความเปลี่ยนแปลงก่อนหรือไม่ หรือจะยกเลิกมัน ?"
 
 #. +> trunk6 stable6 stable5
-#: kmenuedit.cpp:230
+#: kmenuedit.cpp:242
 #, kde-format
 msgid "Save Menu Changes?"
 msgstr "บันทึกการเปลี่ยนแปลงของเมนูหรือไม่ ?"
@@ -319,16 +340,23 @@ msgstr "บันทึกการเปลี่ยนแปลงของเ
 msgid "&File"
 msgstr "แ&ฟ้ม"
 
+#. i18n: ectx: Menu (file_file_actions)
+#. +> trunk6
+#: kmenueditui.rc:14
+#, kde-format
+msgid "File Act&ions"
+msgstr ""
+
 #. i18n: ectx: Menu (edit)
 #. +> trunk6 stable6 stable5
-#: kmenueditui.rc:17
+#: kmenueditui.rc:23
 #, kde-format
 msgid "&Edit"
 msgstr "แ&ก้ไข"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #. +> trunk6 stable6 stable5
-#: kmenueditui.rc:34
+#: kmenueditui.rc:40
 #, kde-format
 msgid "Main Toolbar"
 msgstr "แถบเครื่องมือหลัก"
@@ -443,31 +471,31 @@ msgid "Show hidden entries"
 msgstr "แสดงรายการที่ถูกซ่อน"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:177
+#: treeview.cpp:180
 #, kde-format
 msgid " [Hidden]"
 msgstr " [ถูกซ่อน]"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1023
+#: treeview.cpp:1037
 #, kde-format
 msgid "New Submenu"
 msgstr "สร้างเมนูย่อยใหม่"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1023
+#: treeview.cpp:1037
 #, kde-format
 msgid "Submenu name:"
 msgstr "ชื่อเมนูย่อย:"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1090
+#: treeview.cpp:1104
 #, kde-format
 msgid "New Item"
 msgstr "สร้างรายการใหม่"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1090
+#: treeview.cpp:1104
 #, kde-format
 msgid "Item name:"
 msgstr "ชื่อรายการ:"
@@ -479,19 +507,19 @@ msgid "All submenus of '%1' will be removed. Do you want to continue?"
 msgstr "เมนูย่อยทั้งหมดของ '%1' จะถูกลบออกไปด้วย คุณต้องการจะทำต่อไปหรือไม่ ?"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1721
+#: treeview.cpp:1791
 #, kde-format
 msgid "Menu changes could not be saved because of the following problem:"
 msgstr "ไม่สามารถจัดเก็บความเปลี่ยนแปลงของเมนูได้ เนื่องจากเกิดข้อผิดพลาดต่อไปนี้:"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1768
+#: treeview.cpp:1838
 #, kde-format
 msgid "Do you want to restore the system menu? Warning: This will remove all custom menus."
 msgstr "คุณต้องการจะเรียกคืนเมนูของระบบกลับเป็นค่าปริยายใช่หรือไม่ ? หากใช่ เมนูที่คุณได้กำหนดเองจะถูกลบออกทั้งหมด"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1769
+#: treeview.cpp:1839
 #, fuzzy, kde-format
 #| msgid "Restore to System Menu"
 msgctxt "@title:window"
