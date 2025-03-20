@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: labplot\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-18 11:48+0100\n"
+"POT-Creation-Date: 2025-03-20 08:26+0100\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -1233,7 +1233,7 @@ msgstr ""
 #. +> trunk6 stable5
 #: src/backend/datasources/filters/AsciiFilter.cpp:201
 #: src/backend/gsl/errors.h:20
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:2126
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:2137
 #: src/frontend/dockwidgets/XYFitCurveDock.cpp:1244
 #, kde-format
 msgid "Success"
@@ -2569,7 +2569,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTableWidget, twLabels)
 #. +> trunk6 stable5
 #: src/backend/datasources/filters/QJsonModel.cpp:133
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1873
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1884
 #: src/frontend/colormaps/ColorMapsWidget.cpp:195
 #: src/frontend/dockwidgets/XYFitCurveDock.cpp:403
 #: src/frontend/matrix/MatrixView.cpp:620
@@ -7868,7 +7868,7 @@ msgstr ""
 #. +> trunk6 stable5
 #: src/backend/nsl/nsl_fit.c:24
 #: src/backend/worksheet/plots/cartesian/CartesianPlot.cpp:495
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1859
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1870
 #: src/frontend/datasources/ImportFileWidget.cpp:1366
 #: src/frontend/dockwidgets/AxisDock.cpp:237
 #: src/frontend/dockwidgets/KDEPlotDock.cpp:172
@@ -11458,104 +11458,111 @@ msgid "%1: set fit options and perform the fit"
 msgstr ""
 
 #. +> trunk6
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1809
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1820
 #, kde-format
 msgctxt "Curve fitting"
 msgid "Fit Results"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1835
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1846
 #, kde-format
 msgid "Nonlinear Fit to X/Y data"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1841
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1852
 #, kde-format
 msgid "MODEL"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1845
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1856
 #, kde-format
 msgid "Degree"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1850
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1861
 #, kde-format
 msgid "Peaks"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1869
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1880
 #, kde-format
 msgid "PARAMETERS"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1874
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1885
 #: src/frontend/dockwidgets/XYFitCurveDock.cpp:403
 #, kde-format
 msgid "Uncertainty"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1875
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1886
+#: src/frontend/dockwidgets/XYFitCurveDock.cpp:403
+#, kde-format
+msgid "Uncertainty, %"
+msgstr ""
+
+#. +> stable5
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1885
 #, kde-format
 msgid "Uncertainty,%"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1876
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1887
 #, kde-format
 msgid "t Statistic"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1878
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1889
 #: src/frontend/dockwidgets/XYFitCurveDock.cpp:403
 #, kde-format
 msgid "Lower"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1879
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1890
 #: src/frontend/dockwidgets/XYFitCurveDock.cpp:403
 #, kde-format
 msgid "Upper"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1941
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1952
 #, kde-format
 msgid "GOODNESS OF FIT"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, twGoodness)
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1943
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1954
 #: src/frontend/ui/dockwidgets/xyfitcurvedockgeneraltab.ui:956
 #, kde-format
 msgid "Sum of squared residuals"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1944
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1955
 #, kde-format
 msgid "Residuals mean square"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1945
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1956
 #, kde-format
 msgid "Root mean square deviation"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, twGoodness)
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1946
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1957
 #: src/frontend/ui/dockwidgets/xyfitcurvedockgeneraltab.ui:986
 #, kde-format
 msgid "Coefficient of determination"
@@ -11563,7 +11570,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QTableWidget, twGoodness)
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1947
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1958
 #: src/frontend/ui/dockwidgets/xyfitcurvedockgeneraltab.ui:996
 #, kde-format
 msgid "Adj. coefficient of determination"
@@ -11572,7 +11579,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, bTest)
 #. i18n: ectx: property (text), widget (QPushButton, bTestConnection)
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1948
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1959
 #: src/frontend/dockwidgets/XYFitCurveDock.cpp:167
 #: src/frontend/ui/datasources/databasemanagerwidget.ui:263
 #: src/frontend/ui/datasources/mqttconnectionmanagerwidget.ui:208
@@ -11581,62 +11588,62 @@ msgid "Test"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1949
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1960
 #, kde-format
 msgid "F-Test"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1951
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1962
 #, kde-format
 msgid "Mean absolute error"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1952
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1963
 #, kde-format
 msgid "Akaike information criterion"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1953
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:1964
 #, kde-format
 msgid "Bayesian information criterion"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:2312
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:2323
 #, kde-format
 msgid "Model has no parameters!"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:2319
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:2330
 #, kde-format
 msgid "Not sufficient weight data points provided!"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:2396
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:2407
 #: src/frontend/dockwidgets/XYFitCurveDock.cpp:365
 #, kde-format
 msgid "No X data available!"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:2403
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:2414
 #, kde-format
 msgid "The number of data points (%1) must be greater than or equal to the number of parameters (%2)!"
 msgstr ""
 
 #. +> trunk6 stable5
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:2410
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:2421
 #, kde-format
 msgid "Fit model not specified!"
 msgstr ""
 
 #. +> trunk6
-#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:3153
+#: src/backend/worksheet/plots/cartesian/XYFitCurve.cpp:3164
 #, kde-format
 msgctxt "Curve Fitting"
 msgid "Fit Results"
@@ -14931,7 +14938,7 @@ msgstr ""
 #: src/frontend/dockwidgets/KDEPlotDock.cpp:375
 #: src/frontend/dockwidgets/LollipopPlotDock.cpp:452
 #: src/frontend/dockwidgets/MatrixDock.cpp:275
-#: src/frontend/dockwidgets/ProcessBehaviorChartDock.cpp:679
+#: src/frontend/dockwidgets/ProcessBehaviorChartDock.cpp:681
 #: src/frontend/dockwidgets/QQPlotDock.cpp:286
 #: src/frontend/dockwidgets/ReferenceLineDock.cpp:228
 #: src/frontend/dockwidgets/RunChartDock.cpp:229
@@ -15598,7 +15605,7 @@ msgstr ""
 
 #. +> trunk6 stable5
 #: src/frontend/dockwidgets/KDEPlotDock.cpp:373
-#: src/frontend/dockwidgets/ProcessBehaviorChartDock.cpp:677
+#: src/frontend/dockwidgets/ProcessBehaviorChartDock.cpp:679
 #: src/frontend/dockwidgets/QQPlotDock.cpp:284
 #: src/frontend/dockwidgets/RunChartDock.cpp:227
 #: src/frontend/dockwidgets/XYCurveDock.cpp:1041
@@ -16276,12 +16283,6 @@ msgstr ""
 #: src/frontend/dockwidgets/XYFitCurveDock.cpp:367
 #, kde-format
 msgid "No Y data available!"
-msgstr ""
-
-#. +> trunk6 stable5
-#: src/frontend/dockwidgets/XYFitCurveDock.cpp:403
-#, kde-format
-msgid "Uncertainty, %"
 msgstr ""
 
 #. +> trunk6 stable5
