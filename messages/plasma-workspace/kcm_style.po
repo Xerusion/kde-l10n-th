@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-09-20 11:50+0200\n"
-"PO-Revision-Date: 2025-03-03 20:07+0700\n"
+"PO-Revision-Date: 2025-03-20 15:32+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
 "Language: th\n"
@@ -18,12 +18,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #. +> trunk6 stable6 stable5
 #: gtkpage.cpp:58
 #, kde-format
 msgid "%1 is not a valid GTK Theme archive."
-msgstr ""
+msgstr "%1 ไม่ใช่ archive ธีม GTK ที่ถูกต้อง"
 
 #. +> trunk6 stable6 stable5
 #: kcmstyle.cpp:163 kcmstyle.cpp:170
@@ -35,7 +36,7 @@ msgstr "เกิดข้อผิดพลาดระหว่างเรี
 #: kcmstyle.cpp:276
 #, kde-format
 msgid "Failed to apply selected style '%1'."
-msgstr ""
+msgstr "ไม่สามารถใช้สไตล์ที่เลือก '%1' ได้"
 
 #. +> trunk6 stable6 stable5
 #: styleconfdialog.cpp:21
@@ -53,15 +54,15 @@ msgstr "แท็บ 1"
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #. +> trunk6 stable6 stable5
 #: stylepreview.ui:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Button"
 msgid "Push Button"
-msgstr "ปุ่ม"
+msgstr "ปุ่มกด"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #. +> trunk6 stable6 stable5
 #: stylepreview.ui:86
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Combobox"
 msgid "Combo box"
 msgstr "กล่องคอมโบ"
@@ -84,7 +85,7 @@ msgstr "ปุ่มวิทยุ"
 #. i18n: ectx: property (format), widget (QProgressBar, progressBar)
 #. +> trunk6 stable6 stable5
 #: stylepreview.ui:128
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "%p%"
 msgstr "%p%"
 
@@ -98,119 +99,119 @@ msgstr "แท็บ 2"
 #. i18n: ectx: label, entry (widgetStyle), group (KDE)
 #. +> trunk6 stable6 stable5
 #: stylesettings.kcfg:9
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:tab"
 #| msgid "&Applications"
 msgid "Application style"
-msgstr "โ&ปรแกรมต่าง ๆ"
+msgstr "แอปพลิเคชันสไตล์"
 
 #. i18n: ectx: label, entry (iconsOnButtons), group (KDE)
 #. +> trunk6 stable6 stable5
 #: stylesettings.kcfg:13
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show icons on buttons:"
 msgid "Show icons on buttons"
-msgstr "แสดงไอคอนบนปุ่มต่าง ๆ :"
+msgstr "แสดงไอคอนบนปุ่ม"
 
 #. i18n: ectx: label, entry (iconsInMenus), group (KDE)
 #. +> trunk6 stable6 stable5
 #: stylesettings.kcfg:17
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show icons on buttons:"
 msgid "Show icons in menus"
-msgstr "แสดงไอคอนบนปุ่มต่าง ๆ :"
+msgstr "แสดงไอคอนในเมนู"
 
 #. i18n: ectx: label, entry (toolButtonStyle), group (Toolbar style)
 #. +> trunk6 stable6 stable5
 #: stylesettings.kcfg:23
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Main toolbar text:"
 msgid "Main toolbar label"
-msgstr "ข้อความของแถบเครื่องมือหลัก:"
+msgstr "ป้ายแถบเครื่องมือหลัก"
 
 #. i18n: ectx: label, entry (toolButtonStyleOtherToolbars), group (Toolbar style)
 #. +> trunk6 stable6 stable5
 #: stylesettings.kcfg:27
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Secondary toolbar text:"
 msgid "Secondary toolbar label"
-msgstr "ข้อความของแถบเครื่องมือรอง:"
+msgstr "ป้ายแถบเครื่องมือรอง"
 
 #. +> trunk6 stable6
 #: ui/EffectSettingsPopup.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Icons and Toolbars"
-msgstr ""
+msgstr "กำหนดค่าไอคอนและแถบเครื่องมือ"
 
 #. +> trunk6 stable6 stable5
 #: ui/EffectSettingsPopup.qml:36
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show icons in menus:"
 msgid "Show icons:"
-msgstr "แสดงไอคอนบนเมนู:"
+msgstr "แสดงไอคอน:"
 
 #. +> trunk6 stable6 stable5
 #: ui/EffectSettingsPopup.qml:37
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Radio button"
 msgid "On buttons"
-msgstr "ปุ่มวิทยุ"
+msgstr "บนปุ่ม"
 
 #. +> trunk6 stable6 stable5
 #: ui/EffectSettingsPopup.qml:48
 #, kde-format
 msgid "In menus"
-msgstr ""
+msgstr "ในเมนู"
 
 #. +> trunk6 stable6 stable5
 #: ui/EffectSettingsPopup.qml:60
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Main toolbar text:"
 msgid "Main toolbar label:"
-msgstr "ข้อความของแถบเครื่องมือหลัก:"
+msgstr "ป้ายแถบเครื่องมือหลัก:"
 
 #. +> trunk6 stable6 stable5
 #: ui/EffectSettingsPopup.qml:62
 #, kde-format
 msgid "None"
-msgstr ""
+msgstr "ไม่มี"
 
 #. +> trunk6 stable6 stable5
 #: ui/EffectSettingsPopup.qml:63
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Text Only"
 msgid "Text only"
-msgstr "แสดงข้อความเท่านั้น"
+msgstr "ข้อความเท่านั้น"
 
 #. +> trunk6 stable6 stable5
 #: ui/EffectSettingsPopup.qml:64
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Text Beside Icons"
 msgid "Beside icons"
-msgstr "แสดงข้อความอยู่ด้านข้างไอคอน"
+msgstr "ข้างไอคอน"
 
 #. +> trunk6 stable6 stable5
 #: ui/EffectSettingsPopup.qml:65
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Text Below Icons"
 msgid "Below icon"
-msgstr "แสดงข้อความอยู่ด้านล่างไอคอน"
+msgstr "ด้านล่างไอคอน"
 
 #. +> trunk6 stable6 stable5
 #: ui/EffectSettingsPopup.qml:80
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Secondary toolbar text:"
 msgid "Secondary toolbar label:"
-msgstr "ข้อความของแถบเครื่องมือรอง:"
+msgstr "ป้ายแถบเครื่องมือรอง:"
 
 #. +> trunk6 stable6 stable5
 #: ui/GtkStylePage.qml:17
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:tab"
 #| msgid "&Applications"
 msgid "GNOME/GTK Application Style"
-msgstr "โ&ปรแกรมต่าง ๆ"
+msgstr "แอปพลิเคชันสไตล์ GNOME/GTK"
 
 #. +> trunk6 stable6 stable5
 #: ui/GtkStylePage.qml:43
@@ -220,70 +221,72 @@ msgstr "ธีม GTK:"
 
 #. +> trunk6 stable6 stable5
 #: ui/GtkStylePage.qml:68
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Preview"
 msgid "Preview…"
-msgstr "แสดงตัวอย่าง"
+msgstr "แสดงตัวอย่าง..."
 
 #. +> trunk6 stable6 stable5
 #: ui/GtkStylePage.qml:87
 #, kde-format
 msgid "Install from File…"
-msgstr ""
+msgstr "ติดตั้งจากไฟล์..."
 
 #. +> trunk6 stable6 stable5
 #: ui/GtkStylePage.qml:92
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:tab"
 #| msgid "&Applications"
 msgid "Get New GNOME/GTK Application Styles…"
-msgstr "โ&ปรแกรมต่าง ๆ"
+msgstr "รับสไตล์แอปพลิเคชัน GNOME/GTK ใหม่…"
 
 #. +> trunk6 stable6 stable5
 #: ui/GtkStylePage.qml:108
 #, kde-format
 msgid "Select GTK Theme Archive"
-msgstr ""
+msgstr "เลือก Archive ธีม GTK"
 
 #. +> trunk6 stable6 stable5
 #: ui/GtkStylePage.qml:110
 #, kde-format
 msgid "GTK Theme Archive (*.tar.xz *.tar.gz *.tar.bz2)"
-msgstr ""
+msgstr "GTK Theme Archive (*.tar.xz *.tar.gz *.tar.bz2)"
 
 #. +> trunk6 stable6
 #: ui/main.qml:55
 #, kde-format
 msgid "Configure Icons and Toolbars…"
-msgstr ""
+msgstr "กำหนดค่าไอคอนและแถบเครื่องมือ…"
 
 #. +> trunk6 stable6 stable5
 #: ui/main.qml:73
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Con&figure..."
 msgid "Configure GNOME/GTK Application Style…"
-msgstr "ปรับแต่ง..."
+msgstr "ปรับแต่งแอปพลิเคชันสไตล์ GNOME/GTK"
 
 #. +> trunk6 stable6 stable5
 #: ui/main.qml:106
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Con&figure..."
 msgid "Configure Style…"
-msgstr "ปรับแต่ง..."
+msgstr "ปรับแต่งสไตล์…"
 
 #. +> stable5
 #: package/contents/ui/main.qml:17
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<h1>Style</h1>"
 #| "This module allows you to modify the visual appearance of user interface elements, such as the widget style and effects."
-msgid "This module allows you to modify the visual appearance of applications' user interface elements."
+msgid ""
+"This module allows you to modify the visual appearance of applications' user i"
+"nterface elements."
 msgstr ""
-"<h1>รูปแบบ</h1>"
-"มอดูลนี้ ให้คุณได้ปรับแต่งรูปแบบต่าง ๆ ของส่วนติดต่อผู้ใช้ เช่นคอนโทรลและลูกเล่นต่าง ๆ"
+"โมดูลนี้ช่วยให้คุณสามารถปรับเปลี่ยนลักษณะที่ปรากฏขององค์ประกอบอินเทอร์เฟซผู้ใช"
+"้ของแอปพลิเคชันได้"
 
 #. +> stable5
 #: package/contents/ui/main.qml:116
 #, kde-format
 msgid "Configure Icons and Toolbars"
-msgstr ""
+msgstr "กำหนดค่าไอคอนและแถบเครื่องมือ"
