@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-17 09:29+0100\n"
+"POT-Creation-Date: 2025-03-19 10:54+0100\n"
 "PO-Revision-Date: 2010-03-28 14:17+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -21148,7 +21148,7 @@ msgstr "คุณสมบัติของภาพประเภท TIFF"
 
 #. +> trunk5
 #: core/dplugins/generic/tools/panorama/wizard/panointropage.cpp:178
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgctxt "@info: tooltip"
 msgid "Selects a JPEG output with 90% compression rate (lossy compression, smaller size)."
 msgstr ""
@@ -21785,7 +21785,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk5
 #: core/dplugins/generic/tools/printcreator/ui/advprintcaptionpage.ui:99
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "\"%r\" :\n"
 "\"%a\" :\n"
@@ -21796,7 +21796,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: core/dplugins/generic/tools/printcreator/ui/advprintcaptionpage.ui:113
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "\"%f\" :\n"
 "\"%t\" :\n"
@@ -30291,7 +30291,7 @@ msgstr "การแปลงขอบเขตสี"
 
 #. +> trunk5
 #: core/libs/album/engine/album.cpp:411
-#: core/libs/database/utils/ifaces/dio.cpp:908
+#: core/libs/database/utils/ifaces/dio.cpp:954
 #, kde-format
 msgid "Trash"
 msgstr ""
@@ -30943,7 +30943,7 @@ msgstr "เมนูเมื่อคลิกขวา"
 
 #. +> trunk5
 #: core/libs/album/treeview/abstractalbumtreeview.cpp:1106
-#: core/libs/database/utils/ifaces/dio.cpp:918
+#: core/libs/database/utils/ifaces/dio.cpp:964
 #, kde-format
 msgid "Empty Trash"
 msgstr ""
@@ -32420,14 +32420,21 @@ msgid "The database is not valid: the \"DBThumbnailsVersion\" setting does not e
 msgstr "ฐานข้อมูลใช้งานไม่ได้: ยังไม่มีการตั้งค่าของ \"DBVersion\" อยู่ ทำให้ไม่สามารถตรวจความถูกต้องของรุ่นของชุดรูปแบบฐานข้อมูลปัจจุบันได้ โปรดลองเริ่มการทำงานด้วยฐานข้อมูลเปล่าดู"
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:349
+#: core/libs/database/utils/ifaces/dio.cpp:356
+#: core/libs/database/utils/ifaces/dio.cpp:377
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "File Conflict"
 msgstr "ชื่อของแฟ้ม"
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:350
+#: core/libs/database/utils/ifaces/dio.cpp:357
+#, kde-format
+msgid "A file operation using the same path is currently in progress. Please wait for the operation to complete and try again."
+msgstr ""
+
+#. +> trunk5
+#: core/libs/database/utils/ifaces/dio.cpp:378
 #, kde-format
 msgid ""
 "Files or folders with the same name already exist in the target folder.\n"
@@ -32441,7 +32448,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:359
+#: core/libs/database/utils/ifaces/dio.cpp:387
 #, fuzzy, kde-format
 #| msgid "Overwrite automatically"
 msgctxt "@action:button"
@@ -32449,7 +32456,7 @@ msgid "Rename Automatically"
 msgstr "ให้เขียนทับโดยอัตโนมัติ"
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:361
+#: core/libs/database/utils/ifaces/dio.cpp:389
 #, fuzzy, kde-format
 #| msgid "Overwrite automatically"
 msgctxt "@action:button"
@@ -32457,7 +32464,7 @@ msgid "Overwrite Automatically"
 msgstr "ให้เขียนทับโดยอัตโนมัติ"
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:363
+#: core/libs/database/utils/ifaces/dio.cpp:391
 #, fuzzy, kde-format
 #| msgid "Overwrite automatically"
 msgctxt "@action:button"
@@ -32465,49 +32472,49 @@ msgid "Skip Automatically"
 msgstr "ให้เขียนทับโดยอัตโนมัติ"
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:872
+#: core/libs/database/utils/ifaces/dio.cpp:918
 #, fuzzy, kde-format
 #| msgid "My Albums"
 msgid "Copy Album"
 msgstr "อัลบั้มของฉัน"
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:877
+#: core/libs/database/utils/ifaces/dio.cpp:923
 #, fuzzy, kde-format
 #| msgid "Add Images..."
 msgid "Copy Images"
 msgstr "เพิ่มภาพต่าง ๆ ..."
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:883
+#: core/libs/database/utils/ifaces/dio.cpp:929
 #, fuzzy, kde-format
 #| msgid "&Copy Here"
 msgid "Copy Files"
 msgstr "&คัดลอกไว้ที่นี่"
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:888
+#: core/libs/database/utils/ifaces/dio.cpp:934
 #, fuzzy, kde-format
 #| msgid "&Move to Album..."
 msgid "Move Album"
 msgstr "&ย้ายไปยังอัลบั้ม..."
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:893
+#: core/libs/database/utils/ifaces/dio.cpp:939
 #, fuzzy, kde-format
 #| msgid "Save Images"
 msgid "Move Images"
 msgstr "บันทึกภาพ"
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:898
+#: core/libs/database/utils/ifaces/dio.cpp:944
 #, fuzzy, kde-format
 #| msgid "Movie Files"
 msgid "Move Files"
 msgstr "แฟ้มภาพยนตร์"
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:903
+#: core/libs/database/utils/ifaces/dio.cpp:949
 #: core/utilities/searchwindow/editablesearchtreeview.cpp:58
 #: core/utilities/setup/metadata/advancedmetadatatab.cpp:433
 #, kde-format
@@ -32515,7 +32522,7 @@ msgid "Delete"
 msgstr "ลบ"
 
 #. +> trunk5
-#: core/libs/database/utils/ifaces/dio.cpp:913
+#: core/libs/database/utils/ifaces/dio.cpp:959
 #, fuzzy, kde-format
 msgid "Restore Trash"
 msgstr "ซ่อมแซมภาพถ่าย"
@@ -40288,7 +40295,7 @@ msgstr "ใต้"
 
 #. +> trunk5
 #: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1084
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 #| msgctxt "Height in meters"
 #| msgid "%L1m"
 msgctxt "@info: Height in meters"
@@ -59744,40 +59751,40 @@ msgid "Cancel"
 msgstr "ยกเลิก"
 
 #. +> trunk5
-#: core/utilities/facemanagement/pipelines/edit/facepipelineedit.cpp:98
+#: core/utilities/facemanagement/pipelines/edit/facepipelineedit.cpp:99
 #, fuzzy, kde-format
 msgid "Confirming face"
 msgstr "หมวด:"
 
 #. +> trunk5
-#: core/utilities/facemanagement/pipelines/edit/facepipelineedit.cpp:120
+#: core/utilities/facemanagement/pipelines/edit/facepipelineedit.cpp:121
 #, fuzzy, kde-format
 #| msgid "Remove Tag"
 msgid "Removing face"
 msgstr "เอาป้ายกำกับออก"
 
 #. +> trunk5
-#: core/utilities/facemanagement/pipelines/edit/facepipelineedit.cpp:134
+#: core/utilities/facemanagement/pipelines/edit/facepipelineedit.cpp:135
 #, fuzzy, kde-format
 #| msgid "Remove Tag"
 msgid "Remove all faces"
 msgstr "เอาป้ายกำกับออก"
 
 #. +> trunk5
-#: core/utilities/facemanagement/pipelines/edit/facepipelineedit.cpp:155
+#: core/utilities/facemanagement/pipelines/edit/facepipelineedit.cpp:156
 #, fuzzy, kde-format
 msgid "Editing face tag"
 msgstr "<b>กำลังทำการปรับปรุงฐานข้อมูลอัตลักษณ์ของภาพ โปรดรอสักครู่...</b>"
 
 #. +> trunk5
-#: core/utilities/facemanagement/pipelines/edit/facepipelineedit.cpp:183
+#: core/utilities/facemanagement/pipelines/edit/facepipelineedit.cpp:184
 #, fuzzy, kde-format
 #| msgid "Remove this Tag"
 msgid "Editing face region"
 msgstr "เอาป้ายกำกับนี้ออก"
 
 #. +> trunk5
-#: core/utilities/facemanagement/pipelines/edit/facepipelineedit.cpp:211
+#: core/utilities/facemanagement/pipelines/edit/facepipelineedit.cpp:218
 #, fuzzy, kde-format
 #| msgid "Manual"
 msgid "Manually adding face"
@@ -65032,7 +65039,7 @@ msgstr ""
 #. i18n: ectx: property (format), widget (QProgressBar, progressBar)
 #. +> trunk5
 #: core/utilities/geolocation/engine/tile/TileCreatorDialog.ui:560
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "%p%"
 msgstr ""
 
