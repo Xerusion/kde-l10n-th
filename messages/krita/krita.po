@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-20 08:25+0100\n"
+"POT-Creation-Date: 2025-03-21 11:15+0100\n"
 "PO-Revision-Date: 2010-05-20 14:01+0700\n"
 "Last-Translator: Phuwanat Sakornsakolpat <narachai@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -14760,7 +14760,7 @@ msgstr "ภาพกลับด้าน"
 #. i18n: context: text @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
 #: krita/kritamenu.action:762
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 msgctxt "action"
 msgid "&Zoom to 100%"
 msgstr "เลือกใหม่"
@@ -14771,7 +14771,7 @@ msgstr "เลือกใหม่"
 #. i18n: context: iconText @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
 #: krita/kritamenu.action:764 krita/kritamenu.action:765
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 msgctxt "action"
 msgid "Zoom to 100%"
 msgstr "เลือกใหม่"
@@ -25640,8 +25640,8 @@ msgstr "คุณสมบัติเครื่องมือ&ปัจจ�
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #. +> trunk5 stable5
 #: libs/resources/KisResourceStorage.h:117
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1924
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1928
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1927
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1931
 #: libs/ui/forms/wdgdisplaysettings.ui:213 libs/ui/KoDocumentInfo.cpp:37
 #: libs/widgets/KisDlgInternalColorSelector.cpp:327
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
@@ -26533,7 +26533,7 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:514
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1948
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1951
 #, fuzzy, kde-format
 #| msgid "Warning"
 msgid "Warning(s):"
@@ -26988,7 +26988,7 @@ msgstr "อ้างอิงข้อความ"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gifReserveTransparent)
 #. +> trunk5 stable5
 #: libs/ui/animation/video_export_options_dialog.ui:347
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>GIF format supports up to 256 colors per frame/image. This option enables transparency at the cost of 1 color, thus only 255 colors will be used for GIFs with this option enabled. Disabling this option gives you the entire 256 colors for your GIF for better quality output.</p>"
@@ -27556,8 +27556,8 @@ msgstr "ละลาย"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #. +> trunk5 stable5
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:40
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2234
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2236
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2237
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2239
 #: libs/ui/forms/wdgcolorsettings.ui:172
 #: libs/ui/forms/wdgdisplaysettings.ui:24
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:444
@@ -27673,8 +27673,8 @@ msgstr "ลบเลเยอร์"
 #. +> trunk5 stable5
 #: libs/ui/animation/VideoImportDialog.ui:34
 #: libs/ui/animation/wdg_animationrenderer.ui:16
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2204
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2206
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2207
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2209
 #: libs/ui/forms/wdgcolorsettings.ui:40
 #: libs/ui/forms/wdggeneralsettings.ui:333
 #: libs/ui/forms/wdgperformancesettings.ui:50 libs/ui/KoDocumentInfoDlg.cpp:91
@@ -28726,8 +28726,8 @@ msgstr "คุณสมบัติเลเยอร์"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1497
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1501
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1584
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1999
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2057 libs/ui/kis_paintop_box.cc:280
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2002
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2060 libs/ui/kis_paintop_box.cc:280
 #: libs/ui/kis_paintop_box.cc:281
 #: libs/ui/widgets/kis_custom_image_widget.cc:99
 #: libs/ui/widgets/KisAutoLevelsWidget.cpp:19
@@ -29208,21 +29208,28 @@ msgid "Software Renderer (very slow)"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1804
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1806
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Direct3D 11 via ANGLE"
 msgstr ""
 
+#. +> trunk5
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1807
+#, fuzzy, kde-format
+msgctxt "canvas renderer"
+msgid "OpenGL via ANGLE"
+msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
+
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1806
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1809
 #, fuzzy, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL ES"
 msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1813
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1816
 #, fuzzy, kde-format
 #| msgid "Unknown"
 msgctxt "canvas renderer"
@@ -29230,164 +29237,164 @@ msgid "Unknown"
 msgstr "ไม่ทราบ"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1833
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1836
 #, fuzzy, kde-format
 msgctxt "canvas renderer"
 msgid "Auto (%1)"
 msgstr "แปรงทาสี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1910
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1913
 #, fuzzy, kde-format
 msgid "Display Id: %1"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1911
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1914
 #, kde-format
 msgid "Display Name: %1 %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1912
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1915
 #, fuzzy, kde-format
 msgid "Min Luminance: %1"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1913
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1916
 #, fuzzy, kde-format
 msgid "Max Luminance: %1"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1914
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1917
 #, kde-format
 msgid "Max Full Frame Luminance: %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1915
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1918
 #, kde-format
 msgid "Red Primary: %1, %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1916
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1919
 #, kde-format
 msgid "Green Primary: %1, %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1917
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1920
 #, kde-format
 msgid "Blue Primary: %1, %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1918
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1921
 #, fuzzy, kde-format
 msgid "White Point: %1, %2"
 msgstr "ตัวเลือกสี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2086
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2089
 #, kde-format
 msgid "<b>Warning:</b> current display doesn't support HDR rendering"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2197
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2200
 #, fuzzy, kde-format
 msgid "Configure Krita"
 msgstr "มุม:"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2214
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2217
 #, fuzzy, kde-format
 msgid "Keyboard Shortcuts"
 msgstr "ส่งออกเอกสารเป็น"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2216
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2219
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:282
 #, fuzzy, kde-format
 msgid "Shortcuts"
 msgstr "ยืนยันการบันทึก"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2226
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2229
 #, fuzzy, kde-format
 msgid "Canvas Input Settings"
 msgstr "ตั้งค่า"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2227
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2230
 #, fuzzy, kde-format
 msgid "Canvas Input"
 msgstr "พื้นที่วาดภาพ"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2244
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2247
 #: plugins/dockers/logdocker/LogDockerDock.cpp:196
 #, kde-format
 msgid "Color Management"
 msgstr "การจัดการสี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2246
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2249
 #, fuzzy, kde-format
 msgctxt "Label of color as in Color Management"
 msgid "Color"
 msgstr "สี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2254
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2256
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2257
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2259
 #, kde-format
 msgid "Performance"
 msgstr "ประสิทธิภาพ"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2264
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2267
 #, fuzzy, kde-format
 msgid "Tablet settings"
 msgstr "ตั้งค่า"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2266
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2269
 #, fuzzy, kde-format
 msgid "Tablet"
 msgstr "น้ำเงิน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2274
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2277
 #, fuzzy, kde-format
 msgid "Canvas-only settings"
 msgstr "ตั้งค่า"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2276
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2279
 #, fuzzy, kde-format
 msgid "Canvas-only"
 msgstr "สี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2284
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2286
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2287
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2289
 #, fuzzy, kde-format
 msgid "Pop-up Palette"
 msgstr "จานสี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2294
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2297
 #, fuzzy, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "ผู้เขียน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2296
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2299
 #: libs/ui/KoDocumentInfoDlg.cpp:114
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
@@ -29395,7 +29402,7 @@ msgid "Author"
 msgstr "ผู้เขียน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2303
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2306
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -31198,7 +31205,7 @@ msgstr "เวลารวมในการแก้ไข:"
 #: plugins/paintops/mypaint/MyPaintSensorPack.cpp:49
 #: plugins/paintops/mypaint/MyPaintSensorPack.cpp:50
 #: plugins/paintops/spray/KisSprayShapeOptionModel.cpp:88
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 msgid "%"
 msgstr "%1%"
 
@@ -33470,7 +33477,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, sliderFrameClonesLimit)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgperformancesettings.ui:296
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>When rendering animation frames (into files or during animation cache regeneration), Krita will make the specified number of copies of your image and will work on them in parallel. Each copy will demand more RAM for its storage (about 20% of the size of you image), so raise this limit only if you have enough RAM installed.</p>"
@@ -33684,7 +33691,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, intRegionOfInterestMargin)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgperformancesettings.ui:507
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>Add extra area to the region of interest to each side of the canvas.</p>"
@@ -62585,7 +62592,7 @@ msgstr "สีพื้น&หน้า"
 #. +> trunk5 stable5
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:82
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:93
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "(0° is active color)"
 msgstr ""
 
@@ -62613,7 +62620,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:116
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:127
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:139
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "(0% is active color)"
 msgstr ""
 
@@ -71645,7 +71652,7 @@ msgstr "เส้นทแยง"
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:982
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:998
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 #| msgid "%1 %"
 msgid " %"
 msgstr "%1%"
