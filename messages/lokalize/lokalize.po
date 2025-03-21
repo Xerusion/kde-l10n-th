@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-11 09:03+0100\n"
+"POT-Creation-Date: 2025-03-21 11:15+0100\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -1076,7 +1076,7 @@ msgstr "ปัจจุบัน: %1"
 #. +> trunk6 stable6
 #: src/editortab.cpp:113 src/editortab.cpp:752
 #: src/filesearch/filesearchtab.cpp:706 src/project/projecttab.cpp:438
-#: src/tm/tmtab.cpp:581
+#: src/tm/tmtab.cpp:583
 #, kde-format
 msgctxt "@info:status message entries"
 msgid "Total: %1"
@@ -1433,7 +1433,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/editortab.cpp:538
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgctxt "@action:inmenu"
 msgid "Fill in all exact suggestions"
 msgstr ""
@@ -3616,7 +3616,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_0)
 #. +> trunk6 stable6
 #: src/prefs/prefs_pology.ui:28
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgctxt "@label:textbox"
 msgid "The Pology command to run in order to check a single entry. Use the following placeholders in order to set-up the commands: %u is the entry number, %f is the file name. For instance: posieve -u %u check-rules %f"
 msgstr ""
@@ -3638,7 +3638,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel4_0)
 #. +> trunk6 stable6
 #: src/prefs/prefs_pology.ui:54
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgctxt "@label:textbox"
 msgid "The Pology command to run in order to check a whole file. This command should include \"-s lokalize\", placeholder %f is the file name. For instance: posieve -s lokalize check-rules %f"
 msgstr ""
@@ -4717,7 +4717,7 @@ msgid "Shell globs (* and ?). Case sensitive."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/tm/tmtab.cpp:583
+#: src/tm/tmtab.cpp:585
 #, fuzzy, kde-format
 #| msgctxt "@info:status message entries"
 #| msgid "Total: %1"
@@ -4726,7 +4726,7 @@ msgid "Total: %1 (%2)"
 msgstr "ทั้งหมด: %1"
 
 #. +> trunk6 stable6
-#: src/tm/tmtab.cpp:607 src/tm/tmview.cpp:621
+#: src/tm/tmtab.cpp:609 src/tm/tmview.cpp:621
 #, kde-format
 msgctxt "@info"
 msgid "The file %1 does not exist, it has been removed from the translation memory."
