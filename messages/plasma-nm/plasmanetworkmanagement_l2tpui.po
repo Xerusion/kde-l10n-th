@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-10 06:52+0200\n"
-"PO-Revision-Date: 2025-03-21 01:49+0700\n"
+"PO-Revision-Date: 2025-03-21 22:43+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
@@ -424,6 +424,10 @@ msgid ""
 "iry.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>การเชื่อมต่อในแต่ละครั้ง (เป็นเซ็ตแพ็คเก็ตผู้ใช้ที่เป็นกุญแจเข้ารหัสและพิสู"
+"จน์ตัวตน) ควรจะนานเท่าไหร จากการเจรจา (negotiation) ไปยังการหมดอายุ</p>"
+"</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, remoteId)
 #. +> trunk6 stable6 stable5
@@ -437,6 +441,13 @@ msgid ""
 "entation for leftid/rightid syntax and identity parsing.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>ไม่บังคับ เซิร์ฟเวอร์ IPsec ควรจะระบุตัวตนอย่างไรสำหรับการพิสูจน์ตัวตน อาจถ"
+"ูกเรียกว่าเป็นรหัสเพียร์ (Peer ID) หรือรหัสเกตเวย์ (Gateway ID) และถูกเรียกว่า"
+" \"rightid\" โดย strongSwan Libreswan Openswan และ FreeS/WAN กรุณาไปอ่านคู่มือ"
+"เอกสาร strongSwan หรือ Libreswan สำหรับไวยากรณ์ leftid/rightid และการวจีวิภาคต"
+"ัวตน</p>"
+"</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbIPComp)
 #. +> trunk6 stable6 stable5
@@ -448,13 +459,17 @@ msgid ""
 " bandwidth, but uses more processing power.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>IPComp บีบอัดแพ็คเก็ตดิบก่อนที่จะเข้ารหัส ตัวเลือกนี้ช่วยให้ใช้อินเทอร์เน็ต"
+"น้อยลงแต่ใช้พลังประมวลผลมากขึ้น</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbIPComp)
 #. +> trunk6 stable6 stable5
 #: l2tpipsec.ui:315
 #, kde-format
 msgid "Use IP compression"
-msgstr ""
+msgstr "ใช้การบีบอัด IP"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbPFS)
 #. +> trunk6 stable6 stable5
@@ -466,13 +481,17 @@ msgid ""
 "n’t support PFS.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>ปิดการส่งต่อความลับที่สมบูรณ์แบบ (perfect forward secrecy) ใช้ตัวเลือกนี้ถ้"
+"าหากเซิร์ฟเวอร์ปลายทางไม่รองรับ PFS เท่านั้น</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbPFS)
 #. +> trunk6 stable6 stable5
 #: l2tpipsec.ui:325
 #, kde-format
 msgid "Disable PFS"
-msgstr ""
+msgstr "ปิด PFS"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbForceEncaps)
 #. +> trunk6 stable6 stable5
@@ -484,117 +503,121 @@ msgid ""
 "T situation is detected might help in such cases.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>ไฟวอลล์บางตัวกั้น ESP การบังคับการใช้งานการห่อหุ้ม UDP (encapsulation) แม้ว"
+"่าไม่สามารถตรวจพบ NAT อาจช่วยได้ในที่นี้</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbForceEncaps)
 #. +> trunk6 stable6 stable5
 #: l2tpipsec.ui:335
 #, kde-format
 msgid "Enforce UDP encapsulation"
-msgstr ""
+msgstr "บังคับใช้การห่อหุ้ม UDP (encapsulation)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk6 stable6 stable5
 #: l2tpipsec.ui:345
 #, kde-format
 msgid "Remote ID:"
-msgstr ""
+msgstr "ID ริโมต:"
 
 #. +> trunk6 stable6 stable5
 #: l2tpipsecwidget.cpp:44
 #, kde-format
 msgid "L2TP IPsec Options"
-msgstr ""
+msgstr "ตัวเลือก L2TP IPsec"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grp_authenfication)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:26
 #, kde-format
 msgid "Authentication"
-msgstr ""
+msgstr "การพิสูจน์ตัวตน"
 
 #. i18n: ectx: property (text), widget (QLabel, lblauth)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:35
 #, kde-format
 msgid "Allow following authentication methods:"
-msgstr ""
+msgstr "อนุญาตให้ใช้วิธีการการพิสูจน์ตัวตนดังนี้:"
 
 #. i18n: ectx: property (toolTip), widget (QListWidget, listWidget)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:45
 #, kde-format
 msgid "Allow/disable authentication methods"
-msgstr ""
+msgstr "อนุญาต/ปิดวิธีการการพิสูจน์ตัวตนดังนี้"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:49
 #, kde-format
 msgid "PAP"
-msgstr ""
+msgstr "PAP"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:57
 #, kde-format
 msgid "CHAP"
-msgstr ""
+msgstr "CHAP"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:65
 #, kde-format
 msgid "MSCHAP"
-msgstr ""
+msgstr "MSCHAP"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:73
 #, kde-format
 msgid "MSCHAPv2"
-msgstr ""
+msgstr "MSCHAPv2"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:81
 #, kde-format
 msgid "EAP"
-msgstr ""
+msgstr "EAP"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grp_cryptoAndCompression)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:95
 #, kde-format
 msgid "Compression"
-msgstr ""
+msgstr "การบีบอัด"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbBSD)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:107
 #, kde-format
 msgid "Allow/disable BSD-Compress compression."
-msgstr ""
+msgstr "อนุญาต/ปิดการบีบอัดแบบ BSD"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbBSD)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:110
 #, kde-format
 msgid "Allow BSD compression"
-msgstr ""
+msgstr "อนุญาตให้ใช้การบีบอัดแบบ BSD"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbdeflate)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:120
 #, kde-format
 msgid "Allow/disable Deflate compression."
-msgstr ""
+msgstr "อนุญาต/ปิดการบีบอัดแบบ Deflate"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbdeflate)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:123
 #, kde-format
 msgid "Allow Deflate compression"
-msgstr ""
+msgstr "อนุญาตให้ใช้การบีบอัดแบบ Deflate"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbTCPheaders)
 #. +> trunk6 stable6 stable5
@@ -605,6 +628,8 @@ msgid ""
 "t\n"
 "and the receive directions."
 msgstr ""
+"อนุญาตให้ใช้การบีบอัด TCP/IP header สไตล์ Van Jacobson ทั้งสองทางระหว่างต้นทาง"
+"และปลายทาง"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbTCPheaders)
 #. +> trunk6 stable6 stable5
@@ -663,14 +688,14 @@ msgstr "ส่งคำขอ LCP echo-requests เพื่อที่จะ�
 #: l2tpppp.ui:192
 #, kde-format
 msgid "Send PPP echo packets"
-msgstr ""
+msgstr "ส่งแพ็คเก็ต PPP echo"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grp_other)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:215
 #, kde-format
 msgid "Other Settings"
-msgstr ""
+msgstr "การตั้งค่าอื่น ๆ"
 
 #. i18n: ectx: property (text), widget (QLabel, lbMRU)
 #. +> trunk6 stable6 stable5
@@ -696,13 +721,17 @@ msgid ""
 "enable this checkbox, select one or more of the MSCHAP authentication\n"
 "methods: MSCHAP or MSCHAPv2."
 msgstr ""
+"หมายเหตุ: การเข้ารหัสแบบ MPPE ใช้ได้กับวิธีการพิสูจน์ตัวตน MSCHAP เท่านั้น ถ้า"
+"\n"
+"อยากจะเปิดตัวเลือกนี้ ให้เลือกระหว่างวิธีการพิสูจน์ตัวตน MSCHAP\n"
+"ดังนี้: MSCHAP หรือ MSCHAPv2"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMPPE)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:260
 #, kde-format
 msgid "Use MPPE Encryption"
-msgstr ""
+msgstr "ใช้การเข้ารหัา MPPE"
 
 #. i18n: ectx: property (text), widget (QLabel, lblMMPEcrypto)
 #. +> trunk6 stable6 stable5
@@ -747,16 +776,17 @@ msgstr "40 บิต"
 msgid ""
 "Allow MPPE to use stateful mode. Stateless mode is still attempted first."
 msgstr ""
+"อนุญาตให้ MPPE ใช้โหมด stateful แต่โหมด stateless จะถูกใช้งานก่อนอยู่ดี"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbstatefulEncryption)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:322
 #, kde-format
 msgid "Use stateful encryption"
-msgstr ""
+msgstr "ใช้การเข้ารหัส stateful"
 
 #. +> trunk6 stable6 stable5
 #: l2tppppwidget.cpp:22
 #, kde-format
 msgid "L2TP PPP Options"
-msgstr ""
+msgstr "ตัวเลือก L2TP PPP"

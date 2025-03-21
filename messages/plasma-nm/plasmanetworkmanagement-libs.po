@@ -1,42 +1,44 @@
+# SPDX-FileCopyrightText: 2025 Diskette Guy <diskette@dailitation.xyz>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-04 10:08+0100\n"
-"PO-Revision-Date: 2025-03-17 14:55+0700\n"
-"Last-Translator: Thai Translator <none>\n"
-"Language-Team: Thai <kde-i18n-docs@kde.org>\n"
+"PO-Revision-Date: 2025-03-21 23:16+0700\n"
+"Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
+"Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #. +> trunk6 stable6
 #: editor/connectioneditorbase.cpp:203
 #, kde-format
 msgctxt "@title:tab General configuration"
 msgid "General"
-msgstr ""
+msgstr "ทั่วไป"
 
 #. +> stable5
 #: editor/connectioneditorbase.cpp:198
 #, kde-format
 msgctxt "General"
 msgid "General configuration"
-msgstr ""
+msgstr "การตั้งค่าทั่วไป"
 
 #. +> trunk6 stable6 stable5
 #: editor/connectioneditorbase.cpp:210 editor/connectioneditorbase.cpp:227
 #, kde-format
 msgid "Wired"
-msgstr ""
+msgstr "แบบสาย"
 
 #. +> trunk6 stable6 stable5
 #: editor/connectioneditorbase.cpp:213
 #, kde-format
 msgid "802.1x Security"
-msgstr ""
+msgstr "ความปลอดภัย 802.1x"
 
 #. +> trunk6 stable6 stable5
 #: editor/connectioneditorbase.cpp:216 editor/settings/bridgewidget.cpp:39
@@ -44,20 +46,20 @@ msgstr ""
 #: models/creatableconnectionsmodel.cpp:173
 #, kde-format
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. +> trunk6 stable6 stable5
 #: editor/connectioneditorbase.cpp:220
 #, kde-format
 msgid "Wi-Fi Security"
-msgstr ""
+msgstr "ความปลอดภัย Wi-Fi"
 
 #. +> trunk6 stable6 stable5
 #: editor/connectioneditorbase.cpp:225 editor/uiutils.cpp:190
 #: models/creatableconnectionsmodel.cpp:135
 #, kde-format
 msgid "DSL"
-msgstr ""
+msgstr "DSL"
 
 #. +> trunk6 stable6 stable5
 #: editor/connectioneditorbase.cpp:230 editor/connectioneditorbase.cpp:233
@@ -345,7 +347,9 @@ msgstr ""
 #, kde-format
 msgid ""
 "<qt>You can find more information about these values here:<br/>"
-"<a href='https://developer.gnome.org/NetworkManager/stable/ch01.html'>https://developer.gnome.org/NetworkManager/stable/ch01.htmlnm-settings-nmcli.html</a></qt>"
+"<a href='https://developer.gnome.org/NetworkManager/stable/ch01.html'>https://"
+"developer.gnome.org/NetworkManager/stable/ch01.htmlnm-settings-nmcli.html</a><"
+"/qt>"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -939,8 +943,10 @@ msgstr ""
 #: editor/settings/ui/connectionwidget.ui:38
 #, kde-format
 msgid ""
-"If the connection is set to autoconnect, connections with higher priority will be preferred. Defaults to 0.\n"
-"The higher number means higher priority. A negative number can be used to indicate priority lower than the default.\n"
+"If the connection is set to autoconnect, connections with higher priority will"
+" be preferred. Defaults to 0.\n"
+"The higher number means higher priority. A negative number can be used to indi"
+"cate priority lower than the default.\n"
 "           "
 msgstr ""
 
@@ -949,8 +955,10 @@ msgstr ""
 #: editor/settings/ui/connectionwidget.ui:38
 #, kde-format
 msgid ""
-"If the connection is set to autoconnect, connections with higher priority will be preferred. Defaults to 0.\n"
-"The higher number means higher priority. An negative number can be used to indicate priority lower than the default.\n"
+"If the connection is set to autoconnect, connections with higher priority will"
+" be preferred. Defaults to 0.\n"
+"The higher number means higher priority. An negative number can be used to ind"
+"icate priority lower than the default.\n"
 "           "
 msgstr ""
 
@@ -972,7 +980,9 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/connectionwidget.ui:67
 #, kde-format
-msgid "Fine-grained permissions editor for this connection. It lets you choose which users can activate/modify/delete this connection."
+msgid ""
+"Fine-grained permissions editor for this connection. It lets you choose which "
+"users can activate/modify/delete this connection."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonPermissions)
@@ -1009,7 +1019,8 @@ msgstr ""
 #: editor/settings/ui/connectionwidget.ui:149
 #, kde-format
 msgid ""
-"NetworkManager indicates to applications whether the connection is metered and therefore\n"
+"NetworkManager indicates to applications whether the connection is metered and"
+" therefore\n"
 "data usage should be restricted."
 msgstr ""
 
@@ -1197,7 +1208,9 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:118 editor/settings/ui/ipv6.ui:76
 #, kde-format
-msgid "Use this field to specify the IP address(es) of one or more DNS servers. Use ',' to separate entries."
+msgid ""
+"Use this field to specify the IP address(es) of one or more DNS servers. Use '"
+",' to separate entries."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsMorePushButton)
@@ -1219,7 +1232,9 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:164 editor/settings/ui/ipv6.ui:270
 #, kde-format
-msgid "Use this field to specify one or more DNS domains to search. Use ',' to separate entries."
+msgid ""
+"Use this field to specify one or more DNS domains to search. Use ',' to separa"
+"te entries."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsSearchMorePushButton)
@@ -1241,8 +1256,10 @@ msgstr ""
 #: editor/settings/ui/ipv4.ui:204
 #, kde-format
 msgid ""
-"Use this field to specify the DHCP client ID which is a string sent to the DHCP server\n"
-"to identify the local machine that the DHCP server may use to customize the DHCP\n"
+"Use this field to specify the DHCP client ID which is a string sent to the DHC"
+"P server\n"
+"to identify the local machine that the DHCP server may use to customize the DH"
+"CP\n"
 "lease and options."
 msgstr ""
 
@@ -1266,7 +1283,8 @@ msgstr ""
 #: editor/widgets/ui/ipv4routes.ui:99 editor/widgets/ui/ipv6routes.ui:39
 #, kde-format
 msgid ""
-"IP addresses identify your computer on the network. Click the \"Add\" button to add\n"
+"IP addresses identify your computer on the network. Click the \"Add\" button t"
+"o add\n"
 "an IP address"
 msgstr ""
 
@@ -1298,7 +1316,8 @@ msgstr ""
 #: editor/settings/ui/ipv6.ui:30
 #, kde-format
 msgid ""
-"When connecting to IPv4-capable networks, allows the connection to complete if\n"
+"When connecting to IPv4-capable networks, allows the connection to complete if"
+"\n"
 "IPv6 configuration fails but IPv4 configuration succeeds"
 msgstr ""
 
@@ -1321,8 +1340,10 @@ msgstr ""
 #: editor/settings/ui/ipv6.ui:190
 #, kde-format
 msgid ""
-"Configure IPv6 Privacy Extensions for SLAAC, described in RFC4941. If enabled, it makes the kernel generate\n"
-"a temporary IPv6 address in addition to the public one generated from MAC address via modified EUI-64."
+"Configure IPv6 Privacy Extensions for SLAAC, described in RFC4941. If enabled,"
+" it makes the kernel generate\n"
+"a temporary IPv6 address in addition to the public one generated from MAC addr"
+"ess via modified EUI-64."
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
@@ -1464,7 +1485,11 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/pppoe.ui:30
 #, kde-format
-msgid "If specified, instruct PPPoE to only initiate sessions with access concentrators that provide the specified service. For most providers, this should be left blank. It is only required if there are multiple access concentrators or a specific service is known to be required."
+msgid ""
+"If specified, instruct PPPoE to only initiate sessions with access concentrato"
+"rs that provide the specified service. For most providers, this should be left"
+" blank. It is only required if there are multiple access concentrators or a sp"
+"ecific service is known to be required."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
@@ -1577,7 +1602,8 @@ msgstr ""
 #: editor/settings/ui/wificonnectionwidget.ui:101
 #, kde-format
 msgid ""
-"This option locks this connection to the Wi-Fi access point (AP) specified by the\n"
+"This option locks this connection to the Wi-Fi access point (AP) specified by "
+"the\n"
 " BSSID entered here. Example: 00:11:22:33:44:55"
 msgstr ""
 
@@ -1593,7 +1619,8 @@ msgstr ""
 #: editor/settings/ui/wificonnectionwidget.ui:137
 #, kde-format
 msgid ""
-"This option locks the connection to the Wi-Fi network associated to the specified band. This setting depends\n"
+"This option locks the connection to the Wi-Fi network associated to the specif"
+"ied band. This setting depends\n"
 " on specific driver capability and may not work with all drivers"
 msgstr ""
 
@@ -1631,7 +1658,8 @@ msgstr ""
 #: editor/settings/ui/wificonnectionwidget.ui:179
 #, kde-format
 msgid ""
-"Wireless channel to use for the Wi-Fi connection. The device will only join (or create for Ad-Hoc networks)\n"
+"Wireless channel to use for the Wi-Fi connection. The device will only join (o"
+"r create for Ad-Hoc networks)\n"
 "a Wi-Fi network on the specified channel"
 msgstr ""
 
@@ -1838,7 +1866,8 @@ msgstr ""
 #: editor/settings/ui/wiredconnectionwidget.ui:106
 #, kde-format
 msgid ""
-"Only transmit packets of the specified size or smaller, breaking larger packets up\n"
+"Only transmit packets of the specified size or smaller, breaking larger packet"
+"s up\n"
 "into multiple Ethernet frames"
 msgstr ""
 
@@ -1860,7 +1889,9 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wiredconnectionwidget.ui:151
 #, kde-format
-msgid "Request that the device use the specified duplex mode. Either \"half\" or \"full\""
+msgid ""
+"Request that the device use the specified duplex mode. Either \"half\" or \"fu"
+"ll\""
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, duplex)
@@ -1889,7 +1920,8 @@ msgstr ""
 #: editor/settings/ui/wiredconnectionwidget.ui:188
 #, kde-format
 msgid ""
-"Device link negotiation. If “Manual” is chosen, “Speed” and “Duplex” values will be forced without checking\n"
+"Device link negotiation. If “Manual” is chosen, “Speed” and “Duplex” values wi"
+"ll be forced without checking\n"
 "the device compatibility. If unsure, leave here “Ignore” or pick “Automatic”."
 msgstr ""
 
@@ -2488,7 +2520,8 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:313
 #, kde-format
-msgctxt "a secondary connection (e.g. VPN) has to be activated first to continue"
+msgctxt ""
+"a secondary connection (e.g. VPN) has to be activated first to continue"
 msgid "Waiting for a secondary connection"
 msgstr ""
 
@@ -3076,50 +3109,56 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:637
 #, kde-format
-msgctxt "Label for last used time for a network connection used in the last hour, as the number of minutes since usage"
+msgctxt ""
+"Label for last used time for a network connection used in the last hour, as th"
+"e number of minutes since usage"
 msgid "Last used one minute ago"
 msgid_plural "Last used %1 minutes ago"
 msgstr[0] ""
-msgstr[1] ""
 
 #. +> stable6 stable5
 #: editor/uiutils.cpp:637
 #, kde-format
-msgctxt "Label for last used time for a network connection used in the last hour, as the number of minutes since usage"
+msgctxt ""
+"Label for last used time for a network connection used in the last hour, as th"
+"e number of minutes since usage"
 msgid "One minute ago"
 msgid_plural "%1 minutes ago"
 msgstr[0] ""
-msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:643
 #, kde-format
-msgctxt "Label for last used time for a network connection used in the last day, as the number of hours since usage"
+msgctxt ""
+"Label for last used time for a network connection used in the last day, as the"
+" number of hours since usage"
 msgid "Last used one hour ago"
 msgid_plural "Last used %1 hours ago"
 msgstr[0] ""
-msgstr[1] ""
 
 #. +> stable6 stable5
 #: editor/uiutils.cpp:643
 #, kde-format
-msgctxt "Label for last used time for a network connection used in the last day, as the number of hours since usage"
+msgctxt ""
+"Label for last used time for a network connection used in the last day, as the"
+" number of hours since usage"
 msgid "One hour ago"
 msgid_plural "%1 hours ago"
 msgstr[0] ""
-msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:648
 #, kde-format
-msgctxt "Label for last used time for a network connection used the previous day"
+msgctxt ""
+"Label for last used time for a network connection used the previous day"
 msgid "Last used yesterday"
 msgstr ""
 
 #. +> stable6 stable5
 #: editor/uiutils.cpp:648
 #, kde-format
-msgctxt "Label for last used time for a network connection used the previous day"
+msgctxt ""
+"Label for last used time for a network connection used the previous day"
 msgid "Yesterday"
 msgstr ""
 
@@ -3132,14 +3171,16 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:656
 #, kde-format
-msgctxt "Label for last used time for a network connection that has never been used"
+msgctxt ""
+"Label for last used time for a network connection that has never been used"
 msgid "Never used"
 msgstr ""
 
 #. +> stable6 stable5
 #: editor/uiutils.cpp:656
 #, kde-format
-msgctxt "Label for last used time for a network connection that has never been used"
+msgctxt ""
+"Label for last used time for a network connection that has never been used"
 msgid "Never"
 msgstr ""
 
@@ -3261,7 +3302,9 @@ msgstr ""
 #: editor/widgets/mobileconnectionwizard.cpp:240
 #, kde-format
 msgctxt "Mobile Connection Wizard"
-msgid "This assistant helps you easily set up a mobile broadband connection to a cellular (3G) network."
+msgid ""
+"This assistant helps you easily set up a mobile broadband connection to a cell"
+"ular (3G) network."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -3397,7 +3440,8 @@ msgstr ""
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid ""
-"Warning: Selecting an incorrect plan may result in billing issues for your broadband account or may prevent connectivity.\n"
+"Warning: Selecting an incorrect plan may result in billing issues for your bro"
+"adband account or may prevent connectivity.\n"
 "\n"
 "If you are unsure of your plan please ask your provider for your plan's APN."
 msgstr ""
@@ -3413,7 +3457,8 @@ msgstr ""
 #: editor/widgets/mobileconnectionwizard.cpp:543
 #, kde-format
 msgctxt "Mobile Connection Wizard"
-msgid "Your mobile broadband connection is configured with the following settings:"
+msgid ""
+"Your mobile broadband connection is configured with the following settings:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -3522,7 +3567,9 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ui/ipv4routes.ui:42 editor/widgets/ui/ipv6routes.ui:130
 #, kde-format
-msgid "If enabled, this connection will never be used as the default network connection"
+msgid ""
+"If enabled, this connection will never be used as the default network connecti"
+"on"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbNeverDefault)
@@ -3552,7 +3599,9 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ui/ipv4routes.ui:136 editor/widgets/ui/ipv6routes.ui:120
 #, kde-format
-msgid "If enabled, automatically configured routes are ignored and only routes specified above are used"
+msgid ""
+"If enabled, automatically configured routes are ignored and only routes specif"
+"ied above are used"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbIgnoreAutoRoutes)
@@ -4136,14 +4185,16 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: networkstatus.cpp:126
 #, kde-format
-msgctxt "A network device is connected, but there is only link-local connectivity"
+msgctxt ""
+"A network device is connected, but there is only link-local connectivity"
 msgid "Connected"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: networkstatus.cpp:129
 #, kde-format
-msgctxt "A network device is connected, but there is only site-local connectivity"
+msgctxt ""
+"A network device is connected, but there is only site-local connectivity"
 msgid "Connected"
 msgstr ""
 
@@ -4178,7 +4229,9 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: networkstatus.cpp:144
 #, kde-format
-msgctxt "A network device is connecting to a network and there is no other available network connection"
+msgctxt ""
+"A network device is connecting to a network and there is no other available ne"
+"twork connection"
 msgid "Connecting"
 msgstr ""
 
