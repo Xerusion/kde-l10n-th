@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-04 10:08+0100\n"
-"PO-Revision-Date: 2025-03-23 02:49+0700\n"
+"PO-Revision-Date: 2025-03-23 04:43+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
@@ -2140,7 +2140,7 @@ msgstr ""
 #: editor/settings/ui/wireguardinterfacewidget.ui:72
 #, kde-format
 msgid "fwmark:"
-msgstr ""
+msgstr "fwmark:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, fwmarkLineEdit)
 #. +> trunk6 stable6 stable5
@@ -2152,6 +2152,10 @@ msgid ""
 "option is disabled. May be specified in hexadecimal by\n"
 "prepending '0x'."
 msgstr ""
+"ไม่จำเป็น\n"
+"fwmark สำหรับแพ็กเก็ตขาออก ถ้าตั้งเป็น 0 หรือปิด\n"
+"ตัวเลือกนี้จะถูกปิด สามารถตั้งเป็นค่าเลขฐานสิบหกได้\n"
+"โดยการใส่ '0x' ก่อนค่านั้น ๆ"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mtuLineEdit)
 #. +> trunk6 stable6 stable5
@@ -2165,13 +2169,18 @@ msgid ""
 "specify an MTU and to override this automatic discovery,\n"
 "this value may be specified explicitly."
 msgstr ""
+"ไม่จำเป็น\n"
+"ถ้าไม่ได้กรอก ค่า MTU จะถูกตั้งอัตโนมัติจากที่อยู่ปลายทาง\n"
+"หรือจากเส้นทางค่าเริ่มต้นของระบบ ซึ่งโดยปกติแล้วเป็น\n"
+"ค่าที่ถูกต้องอยู่แล้ว แต่ยังไงก็ตาม ถ้าหากจะตั้งค่านี้เอง\n"
+"และทำการปิดการตั้งค่าอัตโนมัติ ก็สามารถตั้งค่าได้"
 
 #. i18n: ectx: property (text), widget (QLabel, peerRouteLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wireguardinterfacewidget.ui:108
 #, kde-format
 msgid "Autoroute peers:"
-msgstr ""
+msgstr "เพียร์ autoroute:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, peerRouteCheckBox)
 #. +> trunk6 stable6 stable5
@@ -2181,20 +2190,22 @@ msgid ""
 "Whether to automatically add routes for the AllowedIPs ranges\n"
 "of the peers."
 msgstr ""
+"จะเพิ่มเส้นทางโดยอัตโนมัติสำหรับช่วงระหว่าง IP ที่อนุญาต\n"
+"ของเพียร์"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnPeers)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wireguardinterfacewidget.ui:141
 #, kde-format
 msgid "Peers…"
-msgstr ""
+msgstr "เพียร์..."
 
 #. i18n: ectx: property (text), widget (QLabel, publicKeyLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wireguardpeerwidget.ui:17
 #, kde-format
 msgid "Public key:"
-msgstr ""
+msgstr "กุญแจสาธารณะ:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, publicKeyLineEdit)
 #. +> trunk6 stable6 stable5
@@ -2206,13 +2217,17 @@ msgid ""
 "            from a private key, and usually transmitted \n"
 "            out of band to the author of the configuration file."
 msgstr ""
+"จำเป็น\n"
+"            กุญแจสาธารณะที่ถูกคำนวนโดย wg pubkey \n"
+"            ที่คำนวนมาจากกุญแจส่วนตัว และโดยปกติแล้ว\n"
+"            ไม่ได้เกี่ยวข้องกับผู้เขียนของไฟล์การกำหนดค่า"
 
 #. i18n: ectx: property (text), widget (QLabel, allowedIPsLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wireguardpeerwidget.ui:34
 #, kde-format
 msgid "Allowed IPs:"
-msgstr ""
+msgstr "IP ที่อนุญาต:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, allowedIPsLineEdit)
 #. +> trunk6 stable6 stable5
@@ -2227,13 +2242,19 @@ msgid ""
 "            may be specified for matching all IPv4 addresses, \n"
 "            and ::/0 may be specified for matching all IPv6 addresses."
 msgstr ""
+"จำเป็น\n"
+"            รายการที่แยกโดยใช้เครื่องหมายจุลภาคของที่อยู่ IP (v4 หรือ v6)\n"
+"            ที่มี CIDR masks จากการรับข้อมูลขาเข้าสำหรับเพียร์นี้\n"
+"            และกำหนดการส่งออกข้อมูลขาออก สามารถใช้ 0.0.0.0/0\n"
+"            ในการเลือกที่อยู่ IPv4 ทั้งหมด และ ::/0 ในการเลือก\n"
+"            ที่อยู่ IPv6 ทั้งหมดได้เช่นกัน"
 
 #. i18n: ectx: property (text), widget (QLabel, endpointAddressLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wireguardpeerwidget.ui:55
 #, kde-format
 msgid "Endpoint address:"
-msgstr ""
+msgstr "ที่อยู่ปลายทาง:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, endpointAddressLineEdit)
 #. +> trunk6 stable6 stable5
@@ -2246,13 +2267,18 @@ msgid ""
 "            qualified domain name such as abc.com). If\n"
 "            present, Endpoint port must also be set."
 msgstr ""
+"ไม่จำเป็น\n"
+"            ที่อยู่ปลายทางของการเชื่อมต่อ สามารถเป็น\n"
+"            ที่อยู่ IPv4 ที่อยู่ IPv6 หรือ FQDN (ชื่อโดเมน\n"
+"            ที่มีคุณสมบัติครบถ้วนเช่น abc.com) ถ้าพบ\n"
+"            เจอ ต้องกำหนดค่าพอร์ตที่อยู่ปลายทางด้วย"
 
 #. i18n: ectx: property (text), widget (QLabel, endpointPortLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wireguardpeerwidget.ui:74
 #, kde-format
 msgid "Endpoint port:"
-msgstr ""
+msgstr "พอร์ตที่อยู่ปลายทาง:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, endpointPortLineEdit)
 #. +> trunk6 stable6 stable5
@@ -2263,13 +2289,16 @@ msgid ""
 "            The port number of an endpoint. If present Endpoint\n"
 "            Address must also be set."
 msgstr ""
+"ไม่บังคับ\n"
+"            หมายเลขพอร์ตของปลายทาง ถ้ากรอกไว้ต้องกรอกค่า\n"
+"            ที่อยู่ปลายทางด้วย"
 
 #. i18n: ectx: property (text), widget (QLabel, presharedKeyLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wireguardpeerwidget.ui:91
 #, kde-format
 msgid "Preshared key:"
-msgstr ""
+msgstr "กุญแจที่แลกเปลี่ยนล่วงหน้า:"
 
 #. i18n: ectx: property (toolTip), widget (PasswordField, presharedKeyLineEdit)
 #. +> trunk6 stable6 stable5
@@ -2282,13 +2311,18 @@ msgid ""
 "            cryptography to be mixed into the already existing\n"
 "            public-key cryptography, for post-quantum resistance."
 msgstr ""
+"ไม่บังคับ\n"
+"            ค่ากุญแจที่แลกเปลี่ยนล่วงหน้าที่เป็น base64 ที่ถูก\n"
+"            สร้างโดย wg genpsk ตัวเลือกนี้เพิ่มความปลอดภัย\n"
+"            แบบการเข้ารหัสแบบกุญแจสมมาตรอีกชั้นหนึ่ง\n"
+"            สำหรับใช้เผื่อในโลกอนาคตที่มีเครื่องคณิตกรควอนตัม"
 
 #. i18n: ectx: property (text), widget (QLabel, keepaliveLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wireguardpeerwidget.ui:109
 #, kde-format
 msgid "Persistent keepalive:"
-msgstr ""
+msgstr "การอยู่ต่อเนื่อง (keepalive):"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, keepaliveLineEdit)
 #. +> trunk6 stable6 stable5
@@ -2308,33 +2342,46 @@ msgid ""
 "            when unspecified, this option is off. Most users will not\n"
 "            need this."
 msgstr ""
+"ไม่จำเป็น\n"
+"            ระยะห่างเวลาวินาทีระหว่าง 1 ถึง 65535 ที่จะส่งแพ็กเก็ตว่างเปล่า\n"
+"            ที่ได้รับการรับรองไปยังเพียร์เพื่อที่จะใช้กับไฟวอลล์ stateful หรือ"
+"\n"
+"            การ NAT mapping ให้คงอยู่ตลอด เช่น ถ้าอินเทอร์เฟซแทบไม่ได้\n"
+"            ส่งข้อมูลขาออก แต่อาจได้รับข้อมูลขาเข้าจากเพียร์อื่น และอยู่ใน NAT"
+"\n"
+"            อินเทอร์เฟซอาจจะได้รับประโยชน์จากการมีเวลาการอยู่ต่อเนื่อง (keepal"
+"ive)\n"
+"            เป็นค่า 25 วินาที ถ้าหากตั้งเป็น 0 หรือ \"ปิดใช้งาน\" ตังเลือกนี้จ"
+"ะถูกปิดใช้งาน\n"
+"            ถ้าหากเป็นค่าเริ่มต้นหรือไม่ได้ตั้งไว้ ตัวเลือกนี้จะปิดไว้ ผู้ใช้ส"
+"่วนใหญ่ไม่จำเป็นจะต้องใช้ตัวเลือกนี้"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wireguardtabwidget.ui:24
 #, kde-format
 msgid "Peer 1"
-msgstr ""
+msgstr "เพียร์ 1"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wireguardtabwidget.ui:37
 #, kde-format
 msgid "Add new Peer"
-msgstr ""
+msgstr "เพิ่มเพียร์ใหม่"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wireguardtabwidget.ui:44
 #, kde-format
 msgid "Remove this Peer"
-msgstr ""
+msgstr "ลบเพียร์นี้"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/wificonnectionwidget.cpp:181
 #, kde-format
 msgid "%1 (%2 MHz)"
-msgstr ""
+msgstr "%1 (%2 MHz)"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/wireguardpeerwidget.cpp:71
@@ -2342,250 +2389,250 @@ msgstr ""
 #, kde-format
 msgctxt "@title: window wireguard peers properties"
 msgid "WireGuard peers properties"
-msgstr ""
+msgstr "คุณสมบัติเพียร์ WireGuard"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:128
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:131
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Bluetooth"
-msgstr ""
+msgstr "บลูทูธ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:134
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Infiniband"
-msgstr ""
+msgstr "Infiniband"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:137
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "ADSL"
-msgstr ""
+msgstr "ADSL"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:140
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Virtual (bond)"
-msgstr ""
+msgstr "จำลอง (Bond)"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:143
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Virtual (bridge)"
-msgstr ""
+msgstr "จำลอง (บริดจ์)"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:146
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Virtual (vlan)"
-msgstr ""
+msgstr "จำลอง (วีแลน)"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:149
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Virtual (team)"
-msgstr ""
+msgstr "จำลอง (ทีม)"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:156
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Serial Modem"
-msgstr ""
+msgstr "โมเด็มซีเรียล"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:161
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Mobile Broadband"
-msgstr ""
+msgstr "บอร์ดแบนมือถือ"
 
 #. +> trunk6 stable6
 #: editor/uiutils.cpp:170
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Loopback"
-msgstr ""
+msgstr "วนคืน"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:174
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Wired Ethernet"
-msgstr ""
+msgstr "อีเทอร์เน็ตแบบสาย"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:186
 #, kde-format
 msgid "ADSL"
-msgstr ""
+msgstr "ADSL"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:205
 #, kde-format
 msgid "Mobile broadband"
-msgstr ""
+msgstr "บอร์ดแบนมือถือ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:212
 #, kde-format
 msgid "Olpc mesh"
-msgstr ""
+msgstr "Olpc mesg"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:218 networkstatus.cpp:190
 #, kde-format
 msgid "VPN"
-msgstr ""
+msgstr "VPN"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:222 models/creatableconnectionsmodel.cpp:156
 #, kde-format
 msgid "Wired Ethernet"
-msgstr ""
+msgstr "อีเทอร์เน็ตแบบสาย"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:233
 #, kde-format
 msgid "WireGuard VPN"
-msgstr ""
+msgstr "VPN WireGuard"
 
 #. +> trunk6 stable6
 #: editor/uiutils.cpp:237
 #, kde-format
 msgid "Loopback"
-msgstr ""
+msgstr "วนคืน"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:240
 #, kde-format
 msgid "Unknown connection type"
-msgstr ""
+msgstr "ไม่ทราบชนิดการเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:252
 #, kde-format
 msgid "Wireless Interface (%1)"
-msgstr ""
+msgstr "อินเทอร์เฟซไร้สาย (%1)"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:255
 #, kde-format
 msgid "Wired Interface (%1)"
-msgstr ""
+msgstr "อินเทอร์เฟซแบบสาย (%1)"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:258
 #, kde-format
 msgid "Bluetooth (%1)"
-msgstr ""
+msgstr "บลูทูธ (%1)"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:261
 #, kde-format
 msgid "Modem (%1)"
-msgstr ""
+msgstr "โมเด็ม (%1)"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:264
 #, kde-format
 msgid "ADSL (%1)"
-msgstr ""
+msgstr "ADSL (%1)"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:267
 #, kde-format
 msgid "VLan (%1)"
-msgstr ""
+msgstr "วีแลน (%1)"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:270
 #, kde-format
 msgid "Bridge (%1)"
-msgstr ""
+msgstr "บริดจ์ (%1)"
 
 #. +> trunk6 stable6
 #: editor/uiutils.cpp:273
 #, kde-format
 msgid "Loopback Interface (%1)"
-msgstr ""
+msgstr "อินเทอร์เฟซวนคืน (%1)"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:286
 #, kde-format
 msgctxt "description of unknown network interface state"
 msgid "Unknown"
-msgstr ""
+msgstr "ไม่รู้จัก"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:289
 #, kde-format
 msgctxt "description of unmanaged network interface state"
 msgid "Unmanaged"
-msgstr ""
+msgstr "ไม่ได้จัดการ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:292
 #, kde-format
 msgctxt "description of unavailable network interface state"
 msgid "Unavailable"
-msgstr ""
+msgstr "ไม่สามารถใช้งานได้"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:295
 #, kde-format
 msgctxt "description of unconnected network interface state"
 msgid "Not connected"
-msgstr ""
+msgstr "ไม่ได้เชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:298
 #, kde-format
 msgctxt "description of preparing to connect network interface state"
 msgid "Preparing to connect"
-msgstr ""
+msgstr "เตรียมที่จะเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:301
 #, kde-format
 msgctxt "description of configuring hardware network interface state"
 msgid "Configuring interface"
-msgstr ""
+msgstr "กำลังตั้งค่าอินเทอร์เฟซ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:304
 #, kde-format
 msgctxt "description of waiting for authentication network interface state"
 msgid "Waiting for authorization"
-msgstr ""
+msgstr "กำลังรอการอนุญาต"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:307
 #, kde-format
 msgctxt "network interface doing dhcp request in most cases"
 msgid "Setting network address"
-msgstr ""
+msgstr "กำลังตั้งที่อยู่เครือข่าย"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:310
 #, kde-format
 msgctxt "is other action required to fully connect? captive portals, etc."
 msgid "Checking further connectivity"
-msgstr ""
+msgstr "กำลังตรวจสอบการเชื่อมต่อเพิ่มเติม"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:313
@@ -2593,588 +2640,588 @@ msgstr ""
 msgctxt ""
 "a secondary connection (e.g. VPN) has to be activated first to continue"
 msgid "Waiting for a secondary connection"
-msgstr ""
+msgstr "กำลังรอการเชื่อมต่อครั้งที่สอง"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:317
 #, kde-format
 msgctxt "network interface connected state label"
 msgid "Connected"
-msgstr ""
+msgstr "เชื่อมต่อแล้ว"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:319
 #, kde-format
 msgctxt "network interface connected state label"
 msgid "Connected to %1"
-msgstr ""
+msgstr "เชื่อมต่อไปยัง %1"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:323
 #, kde-format
 msgctxt "network interface disconnecting state label"
 msgid "Deactivating connection"
-msgstr ""
+msgstr "กำลังถอนการเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:326
 #, kde-format
 msgctxt "network interface connection failed state label"
 msgid "Connection Failed"
-msgstr ""
+msgstr "การเชื่อต่อล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:329 editor/uiutils.cpp:363
 #, kde-format
 msgctxt "interface state"
 msgid "Error: Invalid state"
-msgstr ""
+msgstr "ผิดพลาด: สถานะไม่ถูกต้อง"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:339
 #, kde-format
 msgctxt "The state of the VPN connection is unknown"
 msgid "Unknown"
-msgstr ""
+msgstr "ไม่รู้จัก"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:342
 #, kde-format
 msgctxt "The VPN connection is preparing to connect"
 msgid "Preparing to connect"
-msgstr ""
+msgstr "เตรียมที่จะเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:345
 #, kde-format
 msgctxt "The VPN connection needs authorization credentials"
 msgid "Needs authorization"
-msgstr ""
+msgstr "ต้องการได้รับอนุญาตก่อน"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:348
 #, kde-format
 msgctxt "The VPN connection is being established"
 msgid "Connecting"
-msgstr ""
+msgstr "กำลังเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:351
 #, kde-format
 msgctxt "The VPN connection is getting an IP address"
 msgid "Setting network address"
-msgstr ""
+msgstr "กำลังตั้งที่อยู่เครือข่าย"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:354
 #, kde-format
 msgctxt "The VPN connection is active"
 msgid "Activated"
-msgstr ""
+msgstr "เปิดใช้งานแล้ว"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:357
 #, kde-format
 msgctxt "The VPN connection failed"
 msgid "Failed"
-msgstr ""
+msgstr "ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:360
 #, kde-format
 msgctxt "The VPN connection is disconnected"
 msgid "Failed"
-msgstr ""
+msgstr "ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:373
 #, kde-format
 msgctxt "wireless network operation mode"
 msgid "Unknown"
-msgstr ""
+msgstr "ไม่รู้จัก"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:376
 #, kde-format
 msgctxt "wireless network operation mode"
 msgid "Adhoc"
-msgstr ""
+msgstr "เฉพาะกิจ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:379
 #, kde-format
 msgctxt "wireless network operation mode"
 msgid "Infrastructure"
-msgstr ""
+msgstr "โครงสร้างพื้นฐาน"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:382
 #, kde-format
 msgctxt "wireless network operation mode"
 msgid "Access point"
-msgstr ""
+msgstr "แอกเซสพอยต์"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:407
 #, kde-format
 msgctxt "wireless network cipher"
 msgid "Pairwise WEP40"
-msgstr ""
+msgstr "Pairwise WEP40"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:409
 #, kde-format
 msgctxt "wireless network cipher"
 msgid "Pairwise WEP104"
-msgstr ""
+msgstr "Pairwise WEP104"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:411
 #, kde-format
 msgctxt "wireless network cipher"
 msgid "Pairwise TKIP"
-msgstr ""
+msgstr "Pairwise TKIP"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:413
 #, kde-format
 msgctxt "wireless network cipher"
 msgid "Pairwise CCMP"
-msgstr ""
+msgstr "Pairwise CCMP"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:415
 #, kde-format
 msgctxt "wireless network cipher"
 msgid "Group WEP40"
-msgstr ""
+msgstr "กลุ่ม WEP40"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:417
 #, kde-format
 msgctxt "wireless network cipher"
 msgid "Group WEP104"
-msgstr ""
+msgstr "กลุ่ม WEP104"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:419
 #, kde-format
 msgctxt "wireless network cipher"
 msgid "Group TKIP"
-msgstr ""
+msgstr "กลุ่ม TKIP"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:421
 #, kde-format
 msgctxt "wireless network cipher"
 msgid "Group CCMP"
-msgstr ""
+msgstr "กลุ่ม CCMP"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:423
 #, kde-format
 msgctxt "wireless network cipher"
 msgid "PSK"
-msgstr ""
+msgstr "PSK"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:425
 #, kde-format
 msgctxt "wireless network cipher"
 msgid "802.1x"
-msgstr ""
+msgstr "802.1x"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:434
 #, kde-format
 msgctxt "connection speed"
 msgid "%1 Bit/s"
-msgstr ""
+msgstr "%1 บิต/วิ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:436
 #, kde-format
 msgctxt "connection speed"
 msgid "%1 MBit/s"
-msgstr ""
+msgstr "%1 เมบิต/วิ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:438
 #, kde-format
 msgctxt "connection speed"
 msgid "%1 GBit/s"
-msgstr ""
+msgstr "%1 กิบิต/วิ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:462
 #, kde-format
 msgctxt "Wireless connection frequency"
 msgid "%1 GHz"
-msgstr ""
+msgstr "%1 GHz"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:468
 #, kde-format
 msgctxt "Gsm modes (2G/3G/any)"
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:470
 #, kde-format
 msgctxt "Gsm modes (2G/3G/any)"
 msgid "UMTS/HSxPA"
-msgstr ""
+msgstr "UMTS/HSxPA"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:472
 #, kde-format
 msgctxt "Gsm modes (2G/3G/any)"
 msgid "GPRS/EDGE"
-msgstr ""
+msgstr "GPRS/EDGE"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:474
 #, kde-format
 msgctxt "Gsm modes (2G/3G/any)"
 msgid "GSM"
-msgstr ""
+msgstr "GSM"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:476 editor/uiutils.cpp:479
 #, kde-format
 msgctxt "Gsm modes (2G/3G/any)"
 msgid "Any"
-msgstr ""
+msgstr "อันไหนก็ได้"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:486
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "5G NR"
-msgstr ""
+msgstr "5G NR"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:490
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "LTE"
-msgstr ""
+msgstr "LTE"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:492
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "CDMA2000 EVDO revision B"
-msgstr ""
+msgstr "CDMA2000 EVDO revision B"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:494
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "CDMA2000 EVDO revision A"
-msgstr ""
+msgstr "CDMA2000 EVDO revision A"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:496
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "CDMA2000 EVDO revision 0"
-msgstr ""
+msgstr "CDMA2000 EVDO revision 0"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:498
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "CDMA2000 1xRTT"
-msgstr ""
+msgstr "CDMA2000 1xRTT"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:500
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "HSPA+"
-msgstr ""
+msgstr "HSPA+"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:502
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "HSPA"
-msgstr ""
+msgstr "HSPA"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:504
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "HSUPA"
-msgstr ""
+msgstr "HSUPA"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:506
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "HSDPA"
-msgstr ""
+msgstr "HSDPA"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:508
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "UMTS"
-msgstr ""
+msgstr "UMTS"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:510
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "EDGE"
-msgstr ""
+msgstr "EDGE"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:512
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "GPRS"
-msgstr ""
+msgstr "GPRS"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:514
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "Compact GSM"
-msgstr ""
+msgstr "Compact GSM"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:516
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "GSM"
-msgstr ""
+msgstr "GSM"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:518
 #, kde-format
 msgctxt "Analog wireline modem"
 msgid "Analog"
-msgstr ""
+msgstr "อนาล็อก"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:520 editor/uiutils.cpp:525
 #, kde-format
 msgctxt "Unknown cellular access technology"
 msgid "Unknown"
-msgstr ""
+msgstr "ไม่รู้จัก"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:522
 #, kde-format
 msgctxt "Any cellular access technology"
 msgid "Any"
-msgstr ""
+msgstr "อันไหนก็ได้"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:532
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem is unlocked."
-msgstr ""
+msgstr "โมเด็มถูกปลดล็อก"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:534
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "SIM requires the PIN code."
-msgstr ""
+msgstr "SIM ต้องใช้รหัส PIN"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:536
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "SIM requires the PIN2 code."
-msgstr ""
+msgstr "SIM ต้องใช้รหัส PIN2"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:538
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "SIM requires the PUK code."
-msgstr ""
+msgstr "SIM ต้องใช้รหัส PUK"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:540
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "SIM requires the PUK2 code."
-msgstr ""
+msgstr "SIM ต้องใช้รหัส PUK2"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:542
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the service provider PIN code."
-msgstr ""
+msgstr "โมเด็มต้องใช้รหัส PIN ของผู้ให้บริการ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:544
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the service provider PUK code."
-msgstr ""
+msgstr "โมเด็มต้องใช้รหัส PUK ของผู้ให้บริการ"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:546
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the network PIN code."
-msgstr ""
+msgstr "โมเด็มต้องใช้รหัส PIN เครือข่าย"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:548
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the network PUK code."
-msgstr ""
+msgstr "โมเด็มต้องใช้รหัส PUK เครือข่าย"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:550
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the PIN code."
-msgstr ""
+msgstr "โมเด็มต้องใช้รหัส PIN"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:552
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the corporate PIN code."
-msgstr ""
+msgstr "โมเด็มต้องใช้รหัส PIN ของบริษัท"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:554
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the corporate PUK code."
-msgstr ""
+msgstr "โมเด็มต้องใช้รหัส PUK ของบริษัท"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:556
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the PH-FSIM PIN code."
-msgstr ""
+msgstr "โมเด็มต้องใช้รหัส PIN PH-FSIM"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:558
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the PH-FSIM PUK code."
-msgstr ""
+msgstr "โมเด็มต้องใช้รหัส PUK PH-FSIM"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:560
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the network subset PIN code."
-msgstr ""
+msgstr "โมเด็มต้องใช้รหัส PIN เครือข่ายรอง"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:562
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the network subset PUK code."
-msgstr ""
+msgstr "โมเด็มต้องใช้รหัส PUK เครือข่ายรอง"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:565
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Lock reason unknown."
-msgstr ""
+msgstr "ไม่รู้สาเหตุที่ถูกล็อก"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:588
 #, kde-format
 msgctxt "@label no security"
 msgid "Insecure"
-msgstr ""
+msgstr "ไม่ปลอดภัย"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:591
 #, kde-format
 msgctxt "@label WEP security"
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:594
 #, kde-format
 msgctxt "@label LEAP security"
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:597
 #, kde-format
 msgctxt "@label Dynamic WEP security"
 msgid "Dynamic WEP"
-msgstr ""
+msgstr "Dynamic WEP"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:600
 #, kde-format
 msgctxt "@label WPA-PSK security"
 msgid "WPA-PSK"
-msgstr ""
+msgstr "Dynamic WEP"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:603
 #, kde-format
 msgctxt "@label WPA-EAP security"
 msgid "WPA-EAP"
-msgstr ""
+msgstr "WPA-EAP"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:606
 #, kde-format
 msgctxt "@label WPA2-PSK security"
 msgid "WPA2-PSK"
-msgstr ""
+msgstr "WPA2-PSK"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:609
 #, kde-format
 msgctxt "@label WPA2-EAP security"
 msgid "WPA2-EAP"
-msgstr ""
+msgstr "WPA2-EAP"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:612
 #, kde-format
 msgctxt "@label WPA3-SAE security"
 msgid "WPA3-SAE"
-msgstr ""
+msgstr "WPA3-SAE"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:615
 #, kde-format
 msgctxt "@label WPA3-EAP-SUITE-B-192 security"
 msgid "WPA3-EAP-SUITE-B-192"
-msgstr ""
+msgstr "WPA3-EAP-SUITE-B-192"
 
 #. +> trunk6 stable6
 #: editor/uiutils.cpp:618
 #, kde-format
 msgctxt "@label OWE security"
 msgid "Enhanced Open (OWE)"
-msgstr ""
+msgstr "Enhanced Open (OWE)"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:621
 #, kde-format
 msgctxt "@label unknown security"
 msgid "Unknown security type"
-msgstr ""
+msgstr "ไม่รู้จักความปลอดภัยชนิดนี้"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:637
@@ -3184,7 +3231,7 @@ msgctxt ""
 "e number of minutes since usage"
 msgid "Last used one minute ago"
 msgid_plural "Last used %1 minutes ago"
-msgstr[0] ""
+msgstr[0] "ใช้ไปก่อนหน้าเมื่อ %1 นาทีที่แล้ว"
 
 #. +> stable6 stable5
 #: editor/uiutils.cpp:637
@@ -3194,7 +3241,7 @@ msgctxt ""
 "e number of minutes since usage"
 msgid "One minute ago"
 msgid_plural "%1 minutes ago"
-msgstr[0] ""
+msgstr[0] "%1 นาทีที่แล้ว"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:643
@@ -3204,7 +3251,7 @@ msgctxt ""
 " number of hours since usage"
 msgid "Last used one hour ago"
 msgid_plural "Last used %1 hours ago"
-msgstr[0] ""
+msgstr[0] "ใช้ไปก่อนหน้าเมื่อ %1 ชั่วโมงที่แล้ว"
 
 #. +> stable6 stable5
 #: editor/uiutils.cpp:643
@@ -3214,7 +3261,7 @@ msgctxt ""
 " number of hours since usage"
 msgid "One hour ago"
 msgid_plural "%1 hours ago"
-msgstr[0] ""
+msgstr[0] "%1 ชั่วโมงที่แล้ว"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:648
@@ -3222,7 +3269,7 @@ msgstr[0] ""
 msgctxt ""
 "Label for last used time for a network connection used the previous day"
 msgid "Last used yesterday"
-msgstr ""
+msgstr "ใช้ไปก่อนหน้าเมื่อวาน"
 
 #. +> stable6 stable5
 #: editor/uiutils.cpp:648
@@ -3230,13 +3277,13 @@ msgstr ""
 msgctxt ""
 "Label for last used time for a network connection used the previous day"
 msgid "Yesterday"
-msgstr ""
+msgstr "เมื่อวาน"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:650
 #, kde-format
 msgid "Last used on %1"
-msgstr ""
+msgstr "ใช้ไปก่อนหน้าเมื่อ %1"
 
 #. +> trunk6 stable6 stable5
 #: editor/uiutils.cpp:656
@@ -3244,7 +3291,7 @@ msgstr ""
 msgctxt ""
 "Label for last used time for a network connection that has never been used"
 msgid "Never used"
-msgstr ""
+msgstr "ไม่เคยใช้"
 
 #. +> stable6 stable5
 #: editor/uiutils.cpp:656
@@ -3252,45 +3299,45 @@ msgstr ""
 msgctxt ""
 "Label for last used time for a network connection that has never been used"
 msgid "Never"
-msgstr ""
+msgstr "ไม่เคยใช้"
 
 #. +> trunk6 stable6 stable5
 #: editor/vpnuiplugin.cpp:42
 #, kde-format
 msgid "No VPN plugin found for type %1"
-msgstr ""
+msgstr "ไม่พบปลั๊กอิน VPN สำหรับ %1"
 
 #. +> trunk6 stable6 stable5
 #: editor/vpnuiplugin.cpp:99
 #, kde-format
 msgid "Importing this type of VPN is not implemented"
-msgstr ""
+msgstr "ไม่รับรองการนำเข้า VPN ชนิดนี้"
 
 #. +> trunk6 stable6 stable5
 #: editor/vpnuiplugin.cpp:123
 #, kde-format
 msgid "Not implemented"
-msgstr ""
+msgstr "ไม่รับรอง"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/advancedpermissionswidget.cpp:86
 #, kde-format
 msgctxt "@item:intable shortcut for Not Available"
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/advancedpermissionswidget.cpp:87
 #, kde-format
 msgctxt "@info:tooltip real user name is not available"
 msgid "Not Available"
-msgstr ""
+msgstr "ไม่สามารถใช้งานได้"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/bssidcombobox.cpp:122
 #, kde-format
 msgid "First select the SSID"
-msgstr ""
+msgstr "เลือก SSID ก่อน"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/bssidcombobox.cpp:131
@@ -3300,34 +3347,37 @@ msgid ""
 "Frequency: %3 Mhz\n"
 "Channel: %4"
 msgstr ""
+"%1 (%2%)\n"
+"ความถี่: %3 Mhz\n"
+"ช่อง: %4"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ipv4routeswidget.cpp:31
 #, kde-format
 msgctxt "Header text for IPv4 route metric"
 msgid "Metric"
-msgstr ""
+msgstr "เมตริก"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ipv6routeswidget.cpp:28
 #, kde-format
 msgctxt "Header text for IPv6 netmask"
 msgid "Netmask"
-msgstr ""
+msgstr "Netmask"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ipv6routeswidget.cpp:32
 #, kde-format
 msgctxt "Header text for IPv6 route metric"
 msgid "Metric"
-msgstr ""
+msgstr "เมตริก"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:39
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "New Mobile Broadband Connection"
-msgstr ""
+msgstr "การเชื่อมต่อบอร์ดแบนมือถือใหม่"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:135
@@ -3337,21 +3387,21 @@ msgstr ""
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "My plan is not listed…"
-msgstr ""
+msgstr "แพ็กเกจไม่ได้อยู่ในรายการ…"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:138
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Unknown Provider"
-msgstr ""
+msgstr "ผู้ให้บริการที่ไม่รู้จัก"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:146
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Default"
-msgstr ""
+msgstr "ค่าเริ่มต้น"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:183
@@ -3359,14 +3409,14 @@ msgstr ""
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "APN: %1"
-msgstr ""
+msgstr "APN: %1"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:236
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Set up a Mobile Broadband Connection"
-msgstr ""
+msgstr "เริ่มตั้งค่าการเชื่อมต่อบอร์ดแบนมือถือใหม่"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:240
@@ -3376,41 +3426,43 @@ msgid ""
 "This assistant helps you easily set up a mobile broadband connection to a cell"
 "ular (3G) network."
 msgstr ""
+"ตัวช่วยตัวนี้จะช่วยให้เริ่มการตั้งค่าการเชื่อมต่อบอร์ดแบนมือถือไปยังเครือข่ายเ"
+"ซลลูล่าร์ (3G)"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:244
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "You will need the following information:"
-msgstr ""
+msgstr "คุณต้องใช้ข้อมูลดังนี้:"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:248
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Your broadband provider's name"
-msgstr ""
+msgstr "ชื่อผู้ให้บริการบร์อดแบน"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:249
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Your broadband billing plan name"
-msgstr ""
+msgstr "ชื่อแพ็กเกจของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:250
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "(in some cases) Your broadband billing plan APN (Access Point Name)"
-msgstr ""
+msgstr "(ในบางกรณี) ที่อยู่ APN ของแพ็กเกจบอร์ดแบน (Access Point Name)"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:254
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Create a connection for &this mobile broadband device:"
-msgstr ""
+msgstr "สร้างการเชื่อมต่อสำหรับอุปกรณ์&บอร์ดแบนมือถือนี้"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:258
@@ -3418,7 +3470,7 @@ msgstr ""
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Any GSM device"
-msgstr ""
+msgstr "อุปกรณ์ GSM อันไหนก็ได้"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:260
@@ -3426,84 +3478,84 @@ msgstr ""
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Any CDMA device"
-msgstr ""
+msgstr "อุปกรณ์ CDMA อันไหนก็ได้"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:311
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Installed GSM device"
-msgstr ""
+msgstr "อุปกรณ์ GSM ที่ติดตั้งไว้"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:315
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Installed CDMA device"
-msgstr ""
+msgstr "อุปกรณ์ CDMA ที่ติดตั้งไว้"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:400
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Choose your Provider's Country"
-msgstr ""
+msgstr "เลือกประเทศผู้ให้บริการ"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:403
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Country List:"
-msgstr ""
+msgstr "รายการประเทศ:"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:407
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "My country is not listed"
-msgstr ""
+msgstr "ประเทศฉันไม่ได้อยู่ในนี้"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:423
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Choose your Provider"
-msgstr ""
+msgstr "เลือกผู้ให้บริการของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:426
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Select your provider from a &list:"
-msgstr ""
+msgstr "เ&ลือกผู้ให้บริการของคุณจากรายการ:"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:435
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "I cannot find my provider and I wish to enter it &manually:"
-msgstr ""
+msgstr "ฉันไม่สามารถหาผู้ให้บริการของฉันได้ และฉันอยากจะตั้งค่าด้วย&ตนเอง:"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:477
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Choose your Billing Plan"
-msgstr ""
+msgstr "เลือกแพ็กเกจของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:480
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "&Select your plan:"
-msgstr ""
+msgstr "เลือก&แพ็กเกจของคุณ:"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:487
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Selected plan &APN (Access Point Name):"
-msgstr ""
+msgstr "เลือกแพ็ก&เกจ APN (Access Point Name):"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:500
@@ -3515,13 +3567,17 @@ msgid ""
 "\n"
 "If you are unsure of your plan please ask your provider for your plan's APN."
 msgstr ""
+"คำเตือน: ถ้าหากเลือกแพ็กเกจอาจทำให้มีปัญหากับการจ่ายเงินบัญชีบอร์ดแบนของคุณ หร"
+"ืออาจทำให้เชื่อมต่อไม่ได้\n"
+"\n"
+"ถ้าไม่แน่ใจให้ถามผู้ให้บริการบอร์ดแบนสำหรับ APN ของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:540
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Confirm Mobile Broadband Settings"
-msgstr ""
+msgstr "ยืนยันการตั้งค่าบอร์ดแบนมือถือ"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:543
@@ -3529,51 +3585,51 @@ msgstr ""
 msgctxt "Mobile Connection Wizard"
 msgid ""
 "Your mobile broadband connection is configured with the following settings:"
-msgstr ""
+msgstr "การตั้งค่าบอร์ดแบนมือถือของคุณได้ตั้งค่าไว้ดังนี้:"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:547
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Your Provider:"
-msgstr ""
+msgstr "ผู้ให้บริการของคุณ:"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/mobileconnectionwizard.cpp:552
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Your Plan:"
-msgstr ""
+msgstr "แพ็กเกจของคุณ:"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/passwordfield.cpp:32
 #, kde-format
 msgid "Change the visibility of the password"
-msgstr ""
+msgstr "เปลี่ยนการมองเห็นของรหัสผ่าน"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/passwordfield.cpp:41
 #, kde-format
 msgid "Store password for this user only (encrypted)"
-msgstr ""
+msgstr "เก็บรหัสผ่านสำหรับผู้ใช้นี้่เท่านั้น (ถูกเข้ารหัส)"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/passwordfield.cpp:43
 #, kde-format
 msgid "Store password for all users (not encrypted)"
-msgstr ""
+msgstr "เก็บรหัสผ่านสำหรับผู้ใช้ทุกคน (ไม่ได้เข้ารหัส)"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/passwordfield.cpp:45 editor/widgets/passwordfield.cpp:91
 #, kde-format
 msgid "Ask for this password every time"
-msgstr ""
+msgstr "ถามสำหรับรหัสผ่านนี้ตลอด"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/passwordfield.cpp:106
 #, kde-format
 msgid "This password is not required"
-msgstr ""
+msgstr "รหัสผ่านนี้ไม่จำเป็น"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ssidcombobox.cpp:131
@@ -3583,6 +3639,9 @@ msgid ""
 "Security: %3\n"
 "Frequency: %4 Mhz"
 msgstr ""
+"%1 (%2%)\n"
+"ความปลอดภัย: %3\n"
+"คลื่นความถี่: %4 Mhz"
 
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ssidcombobox.cpp:139
@@ -3592,6 +3651,9 @@ msgid ""
 "Security: Insecure\n"
 "Frequency: %3 Mhz"
 msgstr ""
+"%1 (%2%)\n"
+"ความปลอดภัย: ไม่ปลอดภัย\n"
+"คลื่นความถี่: %3 Mhz"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
