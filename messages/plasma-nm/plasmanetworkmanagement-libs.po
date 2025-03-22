@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-04 10:08+0100\n"
-"PO-Revision-Date: 2025-03-22 10:02+0700\n"
+"PO-Revision-Date: 2025-03-22 19:54+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
@@ -351,6 +351,10 @@ msgid ""
 "developer.gnome.org/NetworkManager/stable/ch01.htmlnm-settings-nmcli.html</a><"
 "/qt>"
 msgstr ""
+"<qt>คุณสามารถดูข้อมูลเพิ่มเติมได้ที่:<br/>"
+"<a href='https://developer.gnome.org/NetworkManager/stable/ch01.html'>https://"
+"developer.gnome.org/NetworkManager/stable/ch01.htmlnm-settings-nmcli.html</a><"
+"/qt>"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/ipv4widget.cpp:430
@@ -362,66 +366,66 @@ msgstr "ส่งโฮสต์เนม:"
 #: editor/settings/ipv4widget.cpp:435
 #, kde-format
 msgid "DHCP hostname:"
-msgstr ""
+msgstr "โฮสต์เนม DHCP:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ipv4widget.cpp:440 editor/settings/ui/ipv6.ui:194
 #, kde-format
 msgid "Default"
-msgstr ""
+msgstr "ค่าเริ่มต้น"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/ipv4widget.cpp:441
 #, kde-format
 msgctxt "Milliseconds"
 msgid " ms"
-msgstr ""
+msgstr " ms"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/ipv4widget.cpp:444
 #, kde-format
 msgid "DAD timeout:"
-msgstr ""
+msgstr "DAD timeout:"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/ipv4widget.cpp:465 editor/settings/ipv6widget.cpp:405
 #, kde-format
 msgid "Edit DNS servers"
-msgstr ""
+msgstr "แก้ไขเซิร์ฟเวอร์ DNS"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/ipv4widget.cpp:490 editor/settings/ipv6widget.cpp:430
 #, kde-format
 msgid "Edit DNS search domains"
-msgstr ""
+msgstr "แก้ไขการค้นหาโดเมนเซิร์ฟเวอร์ DNS"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/ipv6widget.cpp:42 editor/widgets/ipv6routeswidget.cpp:26
 #, kde-format
 msgctxt "Header text for IPv6 address"
 msgid "Address"
-msgstr ""
+msgstr "ที่อยู่"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/ipv6widget.cpp:44
 #, kde-format
 msgctxt "Header text for IPv6 prefix"
 msgid "Prefix"
-msgstr ""
+msgstr "Prefix"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/ipv6widget.cpp:46 editor/widgets/ipv6routeswidget.cpp:30
 #, kde-format
 msgctxt "Header text for IPv6 gateway"
 msgid "Gateway"
-msgstr ""
+msgstr "เกตเวย์"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/security802-1x.cpp:507
 #, kde-format
 msgid "Alternative Subject Matches"
-msgstr ""
+msgstr "รายการที่ตรงกันอีก"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/security802-1x.cpp:509
@@ -435,18 +439,25 @@ msgid ""
 "</ul>"
 "</qt>"
 msgstr ""
+"<qt>ช่องนี้ต้องเป็น"
+"<ul>"
+"<li>DNS: &lt;ชื่อ หรือ ที่อยู่ IP&gt;</li>"
+"<li>EMAIL: &lt;email&gt;</li>"
+"<li>URI: &lt;uri, เช่น https://www.kde.org&gt;</li>"
+"</ul>"
+"</qt>"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/security802-1x.cpp:526
 #, kde-format
 msgid "Connect to these servers only"
-msgstr ""
+msgstr "เชื่อมต่อไปยังเซิร์ฟเวอร์พวกนี้เท่านั้น"
 
 #. +> trunk6 stable6 stable5
 #: editor/settings/teamwidget.cpp:219
 #, kde-format
 msgid "Select file to import"
-msgstr ""
+msgstr "เลือกไฟล์ที่จะนำเข้า"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -454,7 +465,7 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:18 editor/settings/ui/wifisecurity.ui:162
 #, kde-format
 msgid "Authentication:"
-msgstr ""
+msgstr "การพิสูจน์ตัวตน:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #. i18n: ectx: property (text), item, widget (KComboBox, peapInnerAuth)
@@ -462,14 +473,14 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:38 editor/settings/ui/802-1x.ui:687
 #, kde-format
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:43
 #, kde-format
 msgid "TLS"
-msgstr ""
+msgstr "TLS"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
@@ -477,35 +488,35 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:48 editor/settings/ui/wifisecurity.ui:43
 #, kde-format
 msgid "LEAP"
-msgstr ""
+msgstr "LEAP"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:53
 #, kde-format
 msgid "PWD"
-msgstr ""
+msgstr "PWD"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:58
 #, kde-format
 msgid "FAST"
-msgstr ""
+msgstr "FAST"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:63
 #, kde-format
 msgid "Tunneled TLS (TTLS)"
-msgstr ""
+msgstr "TLS ที่ทันเนล"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:68
 #, kde-format
 msgid "Protected EAP (PEAP)"
-msgstr ""
+msgstr "EAP ที่ถูกปกป้อง (PEAP)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
@@ -522,7 +533,7 @@ msgstr ""
 #: editor/settings/ui/pppoe.ui:37 editor/settings/ui/wifisecurity.ui:199
 #, kde-format
 msgid "Username:"
-msgstr ""
+msgstr "ชื่อผู้ใช้:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_10)
@@ -540,14 +551,14 @@ msgstr ""
 #: editor/settings/ui/wifisecurity.ui:236
 #, kde-format
 msgid "Password:"
-msgstr ""
+msgstr "รหัสผ่าน:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:117
 #, kde-format
 msgid "Identity:"
-msgstr ""
+msgstr "ตัวตน:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_32)
 #. i18n: ectx: property (text), widget (QLabel, label_30)
@@ -557,14 +568,14 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:730
 #, kde-format
 msgid "Domain:"
-msgstr ""
+msgstr "โดเมน:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:140
 #, kde-format
 msgid "User certificate:"
-msgstr ""
+msgstr "ใบรับรองผู้ใช้:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, label_20)
@@ -574,21 +585,21 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:611
 #, kde-format
 msgid "CA certificate:"
-msgstr ""
+msgstr "ใบรับรอง CA:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_27)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:178
 #, kde-format
 msgid "Subject match:"
-msgstr ""
+msgstr "รายการที่ตรงกัน:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_28)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:195
 #, kde-format
 msgid "Alternative subject matches:"
-msgstr ""
+msgstr "รายการที่ตรงกันอีก:"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnTlsAltSubjectMatches)
 #. i18n: ectx: property (text), widget (QPushButton, btnTlsConnectToServers)
@@ -596,14 +607,14 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:210 editor/settings/ui/802-1x.ui:234
 #, kde-format
 msgid "…"
-msgstr ""
+msgstr "..."
 
 #. i18n: ectx: property (text), widget (QLabel, label_29)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:219
 #, kde-format
 msgid "Connect to these servers:"
-msgstr ""
+msgstr "เชื่อต่อไปยังเซิร์ฟเวอร์พวกนี้:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, privateKeyLabel)
@@ -612,14 +623,14 @@ msgstr ""
 #: editor/settings/ui/wireguardinterfacewidget.ui:41
 #, kde-format
 msgid "Private key:"
-msgstr ""
+msgstr "กุญแจส่วนตัว:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:262
 #, kde-format
 msgid "Private key password:"
-msgstr ""
+msgstr "รหัสผ่านกุญแจส่วนตัว:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #. i18n: ectx: property (text), widget (QLabel, label_19)
@@ -629,42 +640,42 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:598
 #, kde-format
 msgid "Anonymous identity:"
-msgstr ""
+msgstr "ตัวตนที่ไม่ระบุตัวตน:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, fastAllowPacProvisioning)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:364
 #, kde-format
 msgid "Automatic PAC provisioning"
-msgstr ""
+msgstr "การจัดเตรียม PAC โดยอัตโนมัติ"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, pacMethod)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:381
 #, kde-format
 msgid "Anonymous"
-msgstr ""
+msgstr "ไม่ระบุตัวตน"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, pacMethod)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:386
 #, kde-format
 msgid "Authenticated"
-msgstr ""
+msgstr "ได้รับการรับรองความถูกต้องแล้ว"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, pacMethod)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:391
 #, kde-format
 msgid "Both"
-msgstr ""
+msgstr "ทั้งสอง"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:399
 #, kde-format
 msgid "PAC file:"
-msgstr ""
+msgstr "ไฟล์ PAC:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #. i18n: ectx: property (text), widget (QLabel, label_16)
@@ -674,7 +685,7 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:665
 #, kde-format
 msgid "Inner authentication:"
-msgstr ""
+msgstr "การพิสูจน์ตัวตนข้างใน:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, fastInnerAuth)
 #. i18n: ectx: property (text), item, widget (KComboBox, peapInnerAuth)
@@ -682,7 +693,7 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:435 editor/settings/ui/802-1x.ui:692
 #, kde-format
 msgid "GTC"
-msgstr ""
+msgstr "GTC"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mschapv2)
 #. i18n: ectx: property (text), item, widget (KComboBox, fastInnerAuth)
@@ -693,7 +704,7 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:682 editor/settings/ui/ppp.ui:68
 #, kde-format
 msgid "MSCHAPv2"
-msgstr ""
+msgstr "MSCHAPv2"
 
 #. i18n: ectx: property (text), widget (QCheckBox, pap)
 #. i18n: ectx: property (text), item, widget (KComboBox, ttlsInnerAuth)
@@ -701,7 +712,7 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:531 editor/settings/ui/ppp.ui:58
 #, kde-format
 msgid "PAP"
-msgstr ""
+msgstr "PAP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mschap)
 #. i18n: ectx: property (text), item, widget (KComboBox, ttlsInnerAuth)
@@ -709,7 +720,7 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:536 editor/settings/ui/ppp.ui:48
 #, kde-format
 msgid "MSCHAP"
-msgstr ""
+msgstr "MSCHAP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chap)
 #. i18n: ectx: property (text), item, widget (KComboBox, ttlsInnerAuth)
@@ -717,14 +728,14 @@ msgstr ""
 #: editor/settings/ui/802-1x.ui:546 editor/settings/ui/ppp.ui:78
 #, kde-format
 msgid "CHAP"
-msgstr ""
+msgstr "CHAP"
 
 #. i18n: ectx: property (text), widget (QLabel, label_26)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:630
 #, kde-format
 msgid "PEAP version:"
-msgstr ""
+msgstr "เวอร์ชัน PEAP:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
 #. +> trunk6 stable6 stable5
@@ -732,21 +743,21 @@ msgstr ""
 #, kde-format
 msgctxt "PEAP version"
 msgid "Automatic"
-msgstr ""
+msgstr "อัตโนมัติ"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:652
 #, kde-format
 msgid "Version 0"
-msgstr ""
+msgstr "เวอร์ชัน 0"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/802-1x.ui:657
 #, kde-format
 msgid "Version 1"
-msgstr ""
+msgstr "เวอร์ชัน 1"
 
 #. i18n: ectx: property (text), widget (QLabel, interfaceNameLabel)
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -756,14 +767,14 @@ msgstr ""
 #: editor/settings/ui/wireguardinterfacewidget.ui:26
 #, kde-format
 msgid "Interface name:"
-msgstr ""
+msgstr "ชื่ออินเทอร์เฟซ:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bond.ui:34
 #, kde-format
 msgid "Bonded connections:"
-msgstr ""
+msgstr "การเชื่อมต่อที่ผูกมัด:"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
 #. +> trunk6 stable6 stable5
@@ -771,7 +782,7 @@ msgstr ""
 #: editor/settings/ui/team.ui:56
 #, kde-format
 msgid "Add…"
-msgstr ""
+msgstr "เพิ่ม..."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnEdit)
 #. +> trunk6 stable6 stable5
@@ -779,7 +790,7 @@ msgstr ""
 #: editor/settings/ui/team.ui:71
 #, kde-format
 msgid "Edit…"
-msgstr ""
+msgstr "แก้ไข..."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnDelete)
 #. +> trunk6 stable6 stable5
@@ -787,7 +798,7 @@ msgstr ""
 #: editor/settings/ui/team.ui:86
 #, kde-format
 msgid "Delete"
-msgstr ""
+msgstr "ลบ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, modeLabel)
@@ -795,21 +806,21 @@ msgstr ""
 #: editor/settings/ui/bond.ui:110 editor/settings/ui/wificonnectionwidget.ui:43
 #, kde-format
 msgid "Mode:"
-msgstr ""
+msgstr "โหมด:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bond.ui:130
 #, kde-format
 msgid "Link monitoring:"
-msgstr ""
+msgstr "การติดตามการลิงค์:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bond.ui:150
 #, kde-format
 msgid "Monitoring frequency:"
-msgstr ""
+msgstr "ความถี่การติดตาม:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, monitorFreq)
 #. i18n: ectx: property (suffix), widget (QSpinBox, upDelay)
@@ -819,49 +830,49 @@ msgstr ""
 #: editor/settings/ui/bond.ui:222
 #, kde-format
 msgid " ms"
-msgstr ""
+msgstr " ms"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bond.ui:192
 #, kde-format
 msgid "Link up delay:"
-msgstr ""
+msgstr "ความล่าช้าการ link up:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bond.ui:212
 #, kde-format
 msgid "Link down delay:"
-msgstr ""
+msgstr "ความล่าช้าการ link down:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bond.ui:239
 #, kde-format
 msgid "ARP targets:"
-msgstr ""
+msgstr "เป้าหมาย ARP:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, arpTargets)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bond.ui:249
 #, kde-format
 msgid "An IP address or comma-separated list of addresses."
-msgstr ""
+msgstr "ที่อยู่ IP หรือรายการที่อยู่ที่แยกโดยเครื่องหมายจุลภาค"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bridge.ui:31
 #, kde-format
 msgid "Bridged connections:"
-msgstr ""
+msgstr "การเชื่อมต่อแบบบริดจ์:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bridge.ui:107
 #, kde-format
 msgid "Aging time:"
-msgstr ""
+msgstr "เวลาแก่ลง:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, agingTime)
 #. i18n: ectx: property (suffix), widget (QSpinBox, forwardDelay)
@@ -873,70 +884,70 @@ msgstr ""
 #, kde-format
 msgctxt "seconds"
 msgid " s"
-msgstr ""
+msgstr " วิ"
 
 #. i18n: ectx: property (title), widget (QGroupBox, stpGroup)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bridge.ui:136
 #, kde-format
 msgid "Enable STP (Spanning Tree Protocol)"
-msgstr ""
+msgstr "เปิดใช้งาน STP (โพรโทคอล Spanning Tree)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bridge.ui:148
 #, kde-format
 msgid "Priority:"
-msgstr ""
+msgstr "ลำดับความสำคัญ:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bridge.ui:174
 #, kde-format
 msgid "Forward delay:"
-msgstr ""
+msgstr "ความล่าใช้ในการส่งต่อ:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bridge.ui:203
 #, kde-format
 msgid "Hello time:"
-msgstr ""
+msgstr "เวลา Hello:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bridge.ui:232
 #, kde-format
 msgid "Max age:"
-msgstr ""
+msgstr "อายุที่สูงสุด:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bt.ui:21
 #, kde-format
 msgid "Address of the device:"
-msgstr ""
+msgstr "ที่อยู่ของอุปกรณ์:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/bt.ui:41
 #, kde-format
 msgid "Connection type:"
-msgstr ""
+msgstr "ชนิดการเชื่อมต่อ:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/cdma.ui:20 editor/settings/ui/gsm.ui:24
 #, kde-format
 msgid "Number:"
-msgstr ""
+msgstr "เลข:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoconnect)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/connectionwidget.ui:17
 #, kde-format
 msgid "Connect automatically with priority"
-msgstr ""
+msgstr "เชื่อมต่อโดยอัตโนมัติไปก่อน"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, prioritySpin)
 #. +> trunk6 stable6
@@ -949,6 +960,10 @@ msgid ""
 "cate priority lower than the default.\n"
 "           "
 msgstr ""
+"ถ้าการเชื่อมต่อได้ตั้งไว้เป็นการเชื่อมต่อแบบอัตโนมัติ การเชื่อมต่อจะเรียงตามลำ"
+"ดับความสำคัญ โดยค่าเริ่มต้นอยู่ที่ 0\n"
+"ยิ่งสูงจะยิ่งสำคัญ แต่ถ้าหากเป็นตัวเลขติดลบหมายความว่ามีความสำคัญน้อยกว่าค่าเร"
+"ิ่มต้น\n"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, prioritySpin)
 #. +> stable5
@@ -961,20 +976,24 @@ msgid ""
 "icate priority lower than the default.\n"
 "           "
 msgstr ""
+"ถ้าการเชื่อมต่อได้ตั้งไว้เป็นการเชื่อมต่อแบบอัตโนมัติ การเชื่อมต่อจะเรียงตามลำ"
+"ดับความสำคัญ โดยค่าเริ่มต้นอยู่ที่ 0\n"
+"ยิ่งสูงจะยิ่งสำคัญ แต่ถ้าหากเป็นตัวเลขติดลบหมายความว่ามีความสำคัญน้อยกว่าค่าเร"
+"ิ่มต้น\n"
 
 #. i18n: ectx: property (text), widget (QCheckBox, allUsers)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/connectionwidget.ui:48
 #, kde-format
 msgid "All users may connect to this network"
-msgstr ""
+msgstr "ผู้ใช้ทุกคนสามารถเข้าสู่เครือข่ายนี้ได้"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pushButtonPermissions)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/connectionwidget.ui:64
 #, kde-format
 msgid "Edit advanced permissions for this connection"
-msgstr ""
+msgstr "แก้ไขสิทธิขั้นสูงสำหรับการเชื่อมต่อนี้"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pushButtonPermissions)
 #. +> trunk6 stable6 stable5
@@ -984,6 +1003,8 @@ msgid ""
 "Fine-grained permissions editor for this connection. It lets you choose which "
 "users can activate/modify/delete this connection."
 msgstr ""
+"ตัวแก้ไขสิทธิขั้นสูงที่อันเป็นเลิศสำหรับการเชื่อมต่อนี้ สามารถเลือกได้ว่าผู้ใช"
+"้ไหนสามารถ เปิด แก้ไข หรือลบการเชื่อมต่อนี้ได้"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonPermissions)
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
@@ -991,28 +1012,28 @@ msgstr ""
 #: editor/settings/ui/connectionwidget.ui:70 editor/settings/ui/ipv4.ui:306
 #, kde-format
 msgid "Advanced…"
-msgstr ""
+msgstr "ขั้นสูง…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoconnectVpn)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/connectionwidget.ui:80
 #, kde-format
 msgid "Automatically connect to VPN"
-msgstr ""
+msgstr "เชื่อมต่อไปสู่ VPN อัตโนมัติ"
 
 #. i18n: ectx: property (text), widget (QLabel, firewallZoneLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/connectionwidget.ui:100
 #, kde-format
 msgid "Firewall zone:"
-msgstr ""
+msgstr "โซน Firewall"
 
 #. i18n: ectx: property (text), widget (QLabel, meteredLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/connectionwidget.ui:129
 #, kde-format
 msgid "Metered:"
-msgstr ""
+msgstr "ถูกจำกัด:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, metered)
 #. +> trunk6 stable6 stable5
@@ -1023,6 +1044,9 @@ msgid ""
 " therefore\n"
 "data usage should be restricted."
 msgstr ""
+"NetworkManager จะบอกแอปพลิเคชันต่าง ๆ ว่าการเชื่อมต่อนี้ได้ถูกจำกัด และฉะนั้น"
+"\n"
+"ข้อมูลจะถูกจำกัด"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, metered)
 #. +> trunk6 stable6 stable5
@@ -1030,70 +1054,70 @@ msgstr ""
 #, kde-format
 msgctxt "Item in the Metered: list"
 msgid "Automatic"
-msgstr ""
+msgstr "อัตโนมัติ"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, metered)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/connectionwidget.ui:164
 #, kde-format
 msgid "Yes"
-msgstr ""
+msgstr "ใช่"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, metered)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/connectionwidget.ui:169
 #, kde-format
 msgid "No"
-msgstr ""
+msgstr "ไม่"
 
 #. i18n: ectx: property (title), widget (QGroupBox, basicGroup)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/gsm.ui:18
 #, kde-format
 msgid "Basic"
-msgstr ""
+msgstr "พื้นฐาน"
 
 #. i18n: ectx: property (title), widget (QGroupBox, advGroup)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/gsm.ui:84
 #, kde-format
 msgid "Advanced"
-msgstr ""
+msgstr "ขั้นสูง"
 
 #. i18n: ectx: property (text), widget (QCheckBox, roaming)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/gsm.ui:93
 #, kde-format
 msgid "Allow roaming if home network is not available"
-msgstr ""
+msgstr "อนุญาตการใช้โรมมิ่งถ้าไม่มีเครือข่ายถิ่น"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/gsm.ui:100
 #, kde-format
 msgid "APN:"
-msgstr ""
+msgstr "APN:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelNetworkId)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/gsm.ui:110
 #, kde-format
 msgid "Network ID:"
-msgstr ""
+msgstr "ID เครือข่าย"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/gsm.ui:130
 #, kde-format
 msgid "PIN:"
-msgstr ""
+msgstr "PIN:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/infiniband.ui:21
 #, kde-format
 msgid "Transport mode:"
-msgstr ""
+msgstr "โหมด transport:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1103,7 +1127,7 @@ msgstr ""
 #: editor/settings/ui/wiredconnectionwidget.ui:23
 #, kde-format
 msgid "Restrict to device:"
-msgstr ""
+msgstr "จำกัดให้กับอุปกรณ์:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, mtuLabel)
@@ -1115,7 +1139,7 @@ msgstr ""
 #: editor/settings/ui/wireguardinterfacewidget.ui:89
 #, kde-format
 msgid "MTU:"
-msgstr ""
+msgstr "MTU:"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, mtu)
 #. +> trunk6 stable6 stable5
@@ -1125,7 +1149,7 @@ msgstr ""
 #, kde-format
 msgctxt "MTU:"
 msgid "Automatic"
-msgstr ""
+msgstr "อัตโนมัติ"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, mtu)
 #. +> trunk6 stable6 stable5
@@ -1134,7 +1158,7 @@ msgstr ""
 #: editor/settings/ui/wiredconnectionwidget.ui:115
 #, kde-format
 msgid " bytes"
-msgstr ""
+msgstr " ไบต์"
 
 #. i18n: ectx: property (toolTip), widget (QWidget, IPv6Widget)
 #. i18n: ectx: property (toolTip), widget (QWidget, IPv4Widget)
@@ -1142,14 +1166,14 @@ msgstr ""
 #: editor/settings/ui/ipv4.ui:17 editor/settings/ui/ipv6.ui:20
 #, kde-format
 msgid "Advanced IP settings"
-msgstr ""
+msgstr "การตั้งค่า IP ขั้นสูง"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:29 editor/settings/ui/ipv6.ui:49
 #, kde-format
 msgid "Method:"
-msgstr ""
+msgstr "วิธีการ:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #. +> trunk6 stable6 stable5
@@ -1157,21 +1181,21 @@ msgstr ""
 #, kde-format
 msgctxt "Method:"
 msgid "Automatic"
-msgstr ""
+msgstr "อัตโนมัติ"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:54 editor/settings/ui/ipv6.ui:229
 #, kde-format
 msgid "Automatic (Only addresses)"
-msgstr ""
+msgstr "อัตโนมัติ (เฉพาะที่อยู่เท่านั้น)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:59 editor/settings/ui/ipv6.ui:239
 #, kde-format
 msgid "Link-Local"
-msgstr ""
+msgstr "Link-Local"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #. +> trunk6 stable6 stable5
@@ -1179,14 +1203,14 @@ msgstr ""
 #, kde-format
 msgctxt "like in use Manual configuration"
 msgid "Manual"
-msgstr ""
+msgstr "ทำเอง"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:69
 #, kde-format
 msgid "Shared to other computers"
-msgstr ""
+msgstr "แชร์ไปยังคอมพิวเตอร์เครื่องอื่น"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #. +> trunk6 stable6 stable5
@@ -1194,7 +1218,7 @@ msgstr ""
 #, kde-format
 msgctxt "like in this setting is Disabled"
 msgid "Disabled"
-msgstr ""
+msgstr "ถูกปิด"
 
 #. i18n: ectx: property (text), widget (QLabel, dnsLabel)
 #. +> trunk6 stable6 stable5
@@ -1202,7 +1226,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "DNS Servers:"
-msgstr ""
+msgstr "เซิร์ฟเวอร์ DNS:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, dns)
 #. +> trunk6 stable6 stable5
@@ -1212,13 +1236,15 @@ msgid ""
 "Use this field to specify the IP address(es) of one or more DNS servers. Use '"
 ",' to separate entries."
 msgstr ""
+"ใช้ช่องนี้เพื่อที่จะกำหนดที่อยู่ IP ของเซิร์ฟเวอร์ DNS สามารถใช้เครื่องหมายจุล"
+"ภาค ',' ในการแยกรายการได้หากมีหลายอัน"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsMorePushButton)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:125
 #, kde-format
 msgid "Edit DNS the list of servers"
-msgstr ""
+msgstr "แก้ไขรายการเซิร์ฟเวอร์ DNS"
 
 #. i18n: ectx: property (text), widget (QLabel, dnsSearchLabel)
 #. +> trunk6 stable6 stable5
@@ -1226,7 +1252,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "Search Domains:"
-msgstr ""
+msgstr "ค้นหาโดเมน"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, dnsSearch)
 #. +> trunk6 stable6 stable5
@@ -1236,20 +1262,22 @@ msgid ""
 "Use this field to specify one or more DNS domains to search. Use ',' to separa"
 "te entries."
 msgstr ""
+"ใช้ช่องนี้เพื่อที่จะกำหนดโดเมน DNS ที่จะค้นหา สามารถใช้เครื่องหมายจุลภาค ',' ใ"
+"นการแยกรายการได้หากมีหลายอัน"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsSearchMorePushButton)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:171 editor/settings/ui/ipv6.ui:277
 #, kde-format
 msgid "Edit the list of DNS domains being searched"
-msgstr ""
+msgstr "แก้ไขรายการโดเมน DNS ที่จะถูกค้นหา"
 
 #. i18n: ectx: property (text), widget (QLabel, labelDhcpClientId)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:189
 #, kde-format
 msgid "DHCP Client ID:"
-msgstr ""
+msgstr "DHCP Client ID:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, dhcpClientId)
 #. +> trunk6 stable6 stable5
@@ -1262,20 +1290,23 @@ msgid ""
 "CP\n"
 "lease and options."
 msgstr ""
+"ใช้ช่องนี้เพื่อที่จะกำหนด DHCP client ID ที่จะส่งไปยังเซิร์ฟเวอร์ DHCP\n"
+"เพื่อที่จะระบุตัวตนของเครื่อง เผื่อในกรณีที่เซิร์ฟเวอร์ DHCP อาจใช้เพื่อที่จะไ"
+"ปปรับแต่ง DHCP lease และตัวเลือกอื่น ๆ"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:213 editor/settings/ui/ipv6.ui:97
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "ลบ"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:223 editor/settings/ui/ipv6.ui:107
 #, kde-format
 msgid "Add"
-msgstr ""
+msgstr "เพิ่ม"
 
 #. i18n: ectx: property (toolTip), widget (QTableView, tableViewAddresses)
 #. +> trunk6 stable6 stable5
@@ -1287,6 +1318,9 @@ msgid ""
 "o add\n"
 "an IP address"
 msgstr ""
+"ที่อยู่ IP ระบุตัวตนของเครื่องคอมพิวเตอร์ของคุณบนเครือข่าย กดปุ่ม \"เพิ่ม\" เพ"
+"ิ่อที่จะเพิ่ม\n"
+"ที่อยู่ IP"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ipv4RequiredCB)
 #. +> trunk6 stable6 stable5
