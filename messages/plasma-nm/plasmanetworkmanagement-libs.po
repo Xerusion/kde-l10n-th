@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-04 10:08+0100\n"
-"PO-Revision-Date: 2025-03-22 19:54+0700\n"
+"PO-Revision-Date: 2025-03-22 20:56+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
@@ -1330,20 +1330,23 @@ msgid ""
 "Allows the connection to complete if IPv4 configuration fails\n"
 "but IPv6 configuration succeeds"
 msgstr ""
+"อนุญาตให้การเชื่อมต่อได้เชื่อมต่ออย่างเสร็จสิ้น ในกรณีที่การตั้งค่า IPv4 ล้มเห"
+"ลว\n"
+"แต่การตั้งค่า IPv6 บรรลุ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ipv4RequiredCB)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:281
 #, kde-format
 msgid "IPv4 is required for this connection"
-msgstr ""
+msgstr "ต้องใช้ IPv6 ในการเชื่อมต่อนี้"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRoutes)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv4.ui:331 editor/settings/ui/ipv6.ui:316
 #, kde-format
 msgid "Routes…"
-msgstr ""
+msgstr "เส้นทาง..."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ipv6RequiredCB)
 #. +> trunk6 stable6 stable5
@@ -1354,20 +1357,22 @@ msgid ""
 "\n"
 "IPv6 configuration fails but IPv4 configuration succeeds"
 msgstr ""
+"เมื่อเชื่อมต่อไปยังเครือข่ายที่ใช้ IPv4 ได้ อนุญาตให้การเชื่อมต่อสำเร็จถ้า\n"
+"การเชื่อมต่อ IPv6 ล้มเหลว แต่ IPv4 บรรลุ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ipv6RequiredCB)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv6.ui:33
 #, kde-format
 msgid "IPv6 is required for this connection"
-msgstr ""
+msgstr "ต้องใช้ IPv6 ในการเชื่อมต่อนี้"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsMorePushButton)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv6.ui:83
 #, kde-format
 msgid "Edit the list of DNS servers"
-msgstr ""
+msgstr "แก้ไขรายการเซิร์ฟเวอร์ DNS"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, privacyCombo)
 #. +> trunk6 stable6 stable5
@@ -1379,6 +1384,10 @@ msgid ""
 "a temporary IPv6 address in addition to the public one generated from MAC addr"
 "ess via modified EUI-64."
 msgstr ""
+"ตั้งค่าส่วนขยาย IPv6 Privacy Extensions สำหรับ SLAAC ที่ถูกบรรยายไว้ใน RFC4941"
+" ถ้าเปิดตัวเลือกนี้จะทำให้เคอร์เนลสร้าง\n"
+"ที่อยู่ IPv6 ชั่วคราวพร้อมกับ IPv6 สาธารณะที่ได้มาจากที่อยู่ MAC จากการเปลี่ยน"
+"แปลง EUI-64"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
 #. +> trunk6 stable6 stable5
@@ -1386,28 +1395,28 @@ msgstr ""
 #, kde-format
 msgctxt "privacy disabled"
 msgid "Disabled"
-msgstr ""
+msgstr "ถูกปิด"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv6.ui:204
 #, kde-format
 msgid "Enabled (prefer public address)"
-msgstr ""
+msgstr "เปิด (เอาที่อยู่สาธารณะเป็นหลัก)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv6.ui:209
 #, kde-format
 msgid "Enabled (prefer temporary addresses)"
-msgstr ""
+msgstr "เปิด (เอาที่อยู่ชั่วคราวเป็นหลัก)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv6.ui:234
 #, kde-format
 msgid "Automatic (Only DHCP)"
-msgstr ""
+msgstr "อัตโนมัติ (DHCP เท่านั้น)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #. +> trunk6 stable6 stable5
@@ -1415,105 +1424,105 @@ msgstr ""
 #, kde-format
 msgctxt "like in this setting is Disabled"
 msgid "Ignored"
-msgstr ""
+msgstr "เพิกเฉย"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv6.ui:254
 #, kde-format
 msgid "Disabled"
-msgstr ""
+msgstr "ถูกปิด"
 
 #. i18n: ectx: property (text), widget (QLabel, labelPrivacy)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ipv6.ui:331
 #, kde-format
 msgid "Privacy:"
-msgstr ""
+msgstr "ความเป็นส่วนตัว:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, authGroup)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ppp.ui:23
 #, kde-format
 msgid "Authentication"
-msgstr ""
+msgstr "การพิสูจน์ตัวตน"
 
 #. i18n: ectx: property (text), widget (QCheckBox, eap)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ppp.ui:38
 #, kde-format
 msgid "EAP"
-msgstr ""
+msgstr "EAP"
 
 #. i18n: ectx: property (title), widget (QGroupBox, compressionGroup)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ppp.ui:91
 #, kde-format
 msgid "Compression"
-msgstr ""
+msgstr "การบีบอัด"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mppe)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ppp.ui:109
 #, kde-format
 msgid "Use point-to-point encryption (MPPE)"
-msgstr ""
+msgstr "ใช้การเข้ารหัส point-to-point (MPPE)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, bsdComp)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ppp.ui:116
 #, kde-format
 msgid "Use BSD data compression"
-msgstr ""
+msgstr "ใช้การบีบอัดข้อมูลแบบ BSD"
 
 #. i18n: ectx: property (text), widget (QCheckBox, deflateComp)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ppp.ui:126
 #, kde-format
 msgid "Use Deflate data compression"
-msgstr ""
+msgstr "ใช้การบีบอัดข้อมูลแบบ Deflate"
 
 #. i18n: ectx: property (text), widget (QCheckBox, tcpComp)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ppp.ui:136
 #, kde-format
 msgid "Use TCP header compression"
-msgstr ""
+msgstr "ใช้การบีบอัด TCP header"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mppe128)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ppp.ui:152
 #, kde-format
 msgid "Require 128-bit encryption"
-msgstr ""
+msgstr "บังคับใช้การเข้ารหัส 128-bit"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mppeStateful)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ppp.ui:165
 #, kde-format
 msgid "Use stateful MPPE"
-msgstr ""
+msgstr "ใช้การเข้ารหัส stateful MPPE"
 
 #. i18n: ectx: property (title), widget (QGroupBox, echoGroup)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ppp.ui:175
 #, kde-format
 msgid "Echo"
-msgstr ""
+msgstr "Echo"
 
 #. i18n: ectx: property (text), widget (QCheckBox, senddEcho)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/ppp.ui:184
 #, kde-format
 msgid "Send PPP echo packets"
-msgstr ""
+msgstr "ส่งแพ็คเก็ต PPP echo"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/pppoe.ui:20
 #, kde-format
 msgid "Service:"
-msgstr ""
+msgstr "บริการ:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, service)
 #. +> trunk6 stable6 stable5
@@ -1525,111 +1534,115 @@ msgid ""
 " blank. It is only required if there are multiple access concentrators or a sp"
 "ecific service is known to be required."
 msgstr ""
+"ถ้าตั้งค่าไว้ จะเป็นการบอกให้ PPPoE เริ่มการเชื่อมต่อการเข้าถึงไปยัง concentra"
+"tor ที่ให้บริการที่ระบุไว้เท่านั้น ถ้าเป็นผู้บริการส่วนใหญ่นั้นควรจะไม่ตั้งการ"
+"ตั้งค่านี้ ต้องใช้ในกรณีที่มีการเข้าถึง concentrator หลายครั้ง หรือต้องใช้บริก"
+"ารจำเพาะเท่านั้น"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/team.ui:31
 #, kde-format
 msgid "Teamed connections:"
-msgstr ""
+msgstr "การเชื่อมต่อแบบทีม:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/team.ui:113
 #, kde-format
 msgid "JSON config:"
-msgstr ""
+msgstr "การตั้งค่า JSON:"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnImport)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/team.ui:123
 #, kde-format
 msgid "Import configuration from file…"
-msgstr ""
+msgstr "นำเข้าไฟล์การตั้งค่าที่บันทึกไว้…"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/vlan.ui:18
 #, kde-format
 msgid "Parent interface:"
-msgstr ""
+msgstr "ชื่ออินเทอร์เฟซหลัก:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/vlan.ui:41
 #, kde-format
 msgid "VLAN id:"
-msgstr ""
+msgstr "ID วีแลน:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/vlan.ui:64
 #, kde-format
 msgid "VLAN interface name:"
-msgstr ""
+msgstr "ชื่ออินเทอร์เฟซวีแลน:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, reorderHeaders)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/vlan.ui:77
 #, kde-format
 msgid "Output packet headers reordering"
-msgstr ""
+msgstr "การเอาต์พุตการจัดเรียงใหม่ของ header แพกเก็ต"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gvrp)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/vlan.ui:84
 #, kde-format
 msgid "GARP VLAN Registration Protocol"
-msgstr ""
+msgstr "โพรโทคอล GARP VLAN Registration"
 
 #. i18n: ectx: property (text), widget (QCheckBox, gvrp)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/vlan.ui:87
 #, kde-format
 msgid "GVRP"
-msgstr ""
+msgstr "GVRP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, looseBinding)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/vlan.ui:94
 #, kde-format
 msgid "Loose binding"
-msgstr ""
+msgstr "การผูกมัดแบบหลวม"
 
 #. i18n: ectx: property (text), widget (QLabel, SSIDLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:17
 #, kde-format
 msgid "SSID:"
-msgstr ""
+msgstr "SSID:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:63
 #, kde-format
 msgid "Infrastructure"
-msgstr ""
+msgstr "โครงสร้างพื้นฐาน"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:68
 #, kde-format
 msgid "Ad-hoc"
-msgstr ""
+msgstr "เฉพาะกิจ"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:73
 #, kde-format
 msgid "Access Point"
-msgstr ""
+msgstr "แอกเซสพอยต์"
 
 #. i18n: ectx: property (text), widget (QLabel, BSSIDLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:81
 #, kde-format
 msgid "BSSID:"
-msgstr ""
+msgstr "BSSID:"
 
 #. i18n: ectx: property (toolTip), widget (BssidComboBox, BSSIDCombo)
 #. +> trunk6 stable6 stable5
@@ -1640,13 +1653,15 @@ msgid ""
 "the\n"
 " BSSID entered here. Example: 00:11:22:33:44:55"
 msgstr ""
+"ตัวเลือกนี้ล๊อกการเชื่อมต่อนี้ไปยังแอกเซสพอยต์ Wi-Fi ที่กำหนดไว้โดย BBSID ที่ถ"
+"ูกใส่ที่นี้ เช่น 00:11:22:33:44:55"
 
 #. i18n: ectx: property (text), widget (QLabel, bandLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:117
 #, kde-format
 msgid "Band:"
-msgstr ""
+msgstr "ความถี่"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, band)
 #. +> trunk6 stable6 stable5
@@ -1657,6 +1672,9 @@ msgid ""
 "ied band. This setting depends\n"
 " on specific driver capability and may not work with all drivers"
 msgstr ""
+"ตัวเลือกนี้ล๊อกการเชื่อมต่อนี้ไปยังแอกเซสพอยต์ Wi-Fi ที่กำหนดไว้โดยคลื่นความถี"
+"่ ตัวเลือกนี้ขึ้นอยู่กับความสามารถของไดร์เวอร์และอาจจะไม่สามารถใช้งานได้กับไดร"
+"์เวอร์ทุกตัว"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, band)
 #. +> trunk6 stable6 stable5
@@ -1664,28 +1682,28 @@ msgstr ""
 #, kde-format
 msgctxt "Band:"
 msgid "Automatic"
-msgstr ""
+msgstr "อัตโนมัติ"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, band)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:146
 #, kde-format
 msgid "A (5 GHz)"
-msgstr ""
+msgstr "A (5 GHz)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, band)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:151
 #, kde-format
 msgid "B/G (2.4 GHz)"
-msgstr ""
+msgstr "B/G (2.4 GHz)"
 
 #. i18n: ectx: property (text), widget (QLabel, channelLabel)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:159
 #, kde-format
 msgid "Channel:"
-msgstr ""
+msgstr "ช่อง:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, channel)
 #. +> trunk6 stable6 stable5
@@ -1696,6 +1714,8 @@ msgid ""
 "r create for Ad-Hoc networks)\n"
 "a Wi-Fi network on the specified channel"
 msgstr ""
+"ช่องไร้สายที่จพใช้สำหรับการเชื่อมต่อ Wi-Fi อุปกรณ์จะเข้าร่วม (หรือสร้างสำหรับเ"
+"ครือข่ายเฉพาะกิจ) เครือข่าย Wi-Fi บนช่องที่ระบุไว้"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6 stable5
@@ -1703,14 +1723,14 @@ msgstr ""
 #: editor/settings/ui/wiredconnectionwidget.ui:47
 #, kde-format
 msgid "Cloned MAC address:"
-msgstr ""
+msgstr "ที่อยู่ MAC ที่โคลนมา:"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRandomMacAddr)
 #. +> trunk6 stable6 stable5
 #: editor/settings/ui/wificonnectionwidget.ui:240
 #, kde-format
 msgid "Random…"
-msgstr ""
+msgstr "สุ่ม..."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, hiddenNetwork)
@@ -1719,7 +1739,7 @@ msgstr ""
 #: editor/settings/ui/wificonnectionwidget.ui:303
 #, kde-format
 msgid "Mark this if you want to create a connection for a hidden network"
-msgstr ""
+msgstr "กดตรงนี้ถ้าหากท่านอยากสร้างการเชื่อมต่อสำหรับเครือข่ายที่ซ่อนอยู่"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6 stable5
@@ -3562,7 +3582,7 @@ msgstr ""
 #: editor/widgets/ui/advancedpermissionswidget.ui:33
 #, kde-format
 msgid "Available Users"
-msgstr ""
+msgstr "ผู้ใช้ที่มี"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, availUsers)
 #. i18n: ectx: property (text), widget (QTreeWidget, currentUsers)
@@ -3571,7 +3591,7 @@ msgstr ""
 #: editor/widgets/ui/advancedpermissionswidget.ui:213
 #, kde-format
 msgid "Real Name"
-msgstr ""
+msgstr "ชื่อจริง"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, availUsers)
 #. i18n: ectx: property (text), widget (QTreeWidget, currentUsers)
@@ -3581,21 +3601,21 @@ msgstr ""
 #, kde-format
 msgctxt "like in Username for athentication"
 msgid "Username"
-msgstr ""
+msgstr "ชื่อผู้ใช้"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ui/advancedpermissionswidget.ui:160
 #, kde-format
 msgid "Users allowed to activate the connection"
-msgstr ""
+msgstr "ผู้ใช้ที่ถูกอนุญาตให้เปิดการเชื่อมต่อ"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, RoutesIp4Config)
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ui/ipv4routes.ui:20
 #, kde-format
 msgid "Edit IPv4 Routes"
-msgstr ""
+msgstr "แก้ไขเส้นทาง IPv4"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbNeverDefault)
 #. +> trunk6 stable6 stable5
@@ -3604,14 +3624,14 @@ msgstr ""
 msgid ""
 "If enabled, this connection will never be used as the default network connecti"
 "on"
-msgstr ""
+msgstr "ถ้าเปิดไว้อยู่ การเชื่อมต่อนี้จะไม่มีวันถูกใช้เป็นเครือข่ายค่าเริ่มต้น"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbNeverDefault)
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ui/ipv4routes.ui:45 editor/widgets/ui/ipv6routes.ui:133
 #, kde-format
 msgid "Use only for resources on this connection"
-msgstr ""
+msgstr "ใช้สำหรับทรัพยากรในการเชื่อมต่อนี้เท่านั้น"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonRemove)
 #. +> trunk6 stable6 stable5
@@ -3619,7 +3639,7 @@ msgstr ""
 #, kde-format
 msgctxt "Remove a selected row"
 msgid "Remove"
-msgstr ""
+msgstr "ลบ"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonAdd)
 #. +> trunk6 stable6 stable5
@@ -3627,7 +3647,7 @@ msgstr ""
 #, kde-format
 msgctxt "Insert a row"
 msgid "Add"
-msgstr ""
+msgstr "เพิ่ม"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbIgnoreAutoRoutes)
 #. +> trunk6 stable6 stable5
@@ -3637,20 +3657,22 @@ msgid ""
 "If enabled, automatically configured routes are ignored and only routes specif"
 "ied above are used"
 msgstr ""
+"ถ้าหากเปิดอยู่ เส้นทางที่ถูกตั้งค่าโดยอัตโนมัติจะถูกเพิกเฉยและใช้เส้นทางที่ถูก"
+"กำหนดไว้ข้างบน"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbIgnoreAutoRoutes)
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ui/ipv4routes.ui:139 editor/widgets/ui/ipv6routes.ui:123
 #, kde-format
 msgid "Ignore automatically obtained routes"
-msgstr ""
+msgstr "เพิกเฉยเส้นทางที่ได้รับโดยอัตโนมัติ"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, RoutesIp6Config)
 #. +> trunk6 stable6 stable5
 #: editor/widgets/ui/ipv6routes.ui:20
 #, kde-format
 msgid "Edit IPv6 Routes"
-msgstr ""
+msgstr "แก้ไขเส้นทาง IPv6"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonRemove)
 #. +> trunk6 stable6 stable5
@@ -3658,91 +3680,91 @@ msgstr ""
 #, kde-format
 msgctxt "Remove a selected row"
 msgid "R&emove"
-msgstr ""
+msgstr "&ลบ"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:117
 #, kde-format
 msgid "Plasma is missing support for '%1' VPN connections."
-msgstr ""
+msgstr "Plasma ขาดการรับรองการเชื่อมต่อ '%1' VPN"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:120
 #, kde-format
 msgid "Report Bug"
-msgstr ""
+msgstr "รายงานจุดบกพร่อง"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:143
 #, kde-format
 msgid "NetworkManager is missing support for '%1' VPN connections."
-msgstr ""
+msgstr "NetworkManager ขาดการรับรองการเชื่อมต่อ '%1' VPN"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:146
 #, kde-format
 msgid "Install"
-msgstr ""
+msgstr "ติดตั้ง"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:192
 #, kde-format
 msgid "Failed to activate %1"
-msgstr ""
+msgstr "เปิดใช้งาน %1 ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:370 handler.cpp:399
 #, kde-format
 msgid "Failed to add connection %1"
-msgstr ""
+msgstr "การเพิ่มการเชื่อมต่อ %1 ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:377 handler.cpp:408
 #, kde-format
 msgid "Connection %1 has been added"
-msgstr ""
+msgstr "การเชื่อมต่อ %1 ได้ถูกเพิ่ม"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:447
 #, kde-format
 msgid "Failed to add %1"
-msgstr ""
+msgstr "การเพิ่ม %1 ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:487
 #, kde-format
 msgid "Failed to deactivate %1"
-msgstr ""
+msgstr "การปิด %1 ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:621
 #, kde-format
 msgid "Failed to remove %1"
-msgstr ""
+msgstr "การลบ %1 ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:628
 #, kde-format
 msgid "Connection %1 has been removed"
-msgstr ""
+msgstr "การเชื่อมต่อ %1 ได้ถูกลบแล้ว"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:647
 #, kde-format
 msgid "Failed to update connection %1"
-msgstr ""
+msgstr "การอัปเดตเการชื่อมต่อ %1 ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:654
 #, kde-format
 msgid "Connection %1 has been updated"
-msgstr ""
+msgstr "การเชื่อมต่อ %1 ได้ถูกอัปเดต"
 
 #. +> trunk6 stable6 stable5
 #: handler.cpp:838
 #, kde-format
 msgid "Failed to create hotspot %1"
-msgstr ""
+msgstr "การสร้างฮอตสปอต %1 ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:136
@@ -3754,51 +3776,51 @@ msgstr ""
 #: models/creatableconnectionsmodel.cpp:181
 #, kde-format
 msgid "Hardware based connections"
-msgstr ""
+msgstr "การเชื่อมต่อแบบฮาร์ดแวร์"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:137
 #, kde-format
 msgid "Some DSL description"
-msgstr ""
+msgstr "คำอธิบาย DSL"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:144
 #, kde-format
 msgid "Some infiniband description"
-msgstr ""
+msgstr "คำอธิบาย infiniband"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:149
 #, kde-format
 msgid "Mobile Broadband"
-msgstr ""
+msgstr "บอร์ดแบนมือถือ"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:151
 #, kde-format
 msgid "Some mobile broadband description"
-msgstr ""
+msgstr "คำอธิบายเน็ตบรอดแบนด์มือถือ"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:158
 #: models/creatableconnectionsmodel.cpp:165
 #, kde-format
 msgid "Some wired ethernet description"
-msgstr ""
+msgstr "คำอธิบายอีเทอร์เน็ต"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:163
 #, kde-format
 msgid "Wired Ethernet (shared)"
-msgstr ""
+msgstr "อีเทอร์เน็ตแบบสาย (ถูกแชร์)"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:175
 #: models/creatableconnectionsmodel.cpp:182
 #, kde-format
 msgid "Some wi-fi description"
-msgstr ""
+msgstr "คำอธิบาย wi-fi"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:180
@@ -3820,33 +3842,33 @@ msgstr "การเชื่อมต่อเสมือนจริง"
 #: models/creatableconnectionsmodel.cpp:202
 #, kde-format
 msgid "Some bond description"
-msgstr ""
+msgstr "คำอธิบาย bond"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:212
 #, kde-format
 msgid "Some team description"
-msgstr ""
+msgstr "คำอธิบาย team"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:222
 #, kde-format
 msgid "Some vlan description"
-msgstr ""
+msgstr "คำอธิบาย vlan"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:242
 #: models/creatableconnectionsmodel.cpp:255
 #, kde-format
 msgid "VPN connections"
-msgstr ""
+msgstr "การเชื่อมต่อ VPN"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:254
 #: models/creatableconnectionsmodel.cpp:256 networkstatus.cpp:212
 #, kde-format
 msgid "WireGuard"
-msgstr ""
+msgstr "WireGuard"
 
 #. +> trunk6 stable6 stable5
 #: models/creatableconnectionsmodel.cpp:266
@@ -3864,200 +3886,200 @@ msgstr "อื่น ๆ"
 #: models/creatableconnectionsmodel.cpp:268
 #, kde-format
 msgid "Import a saved configuration file"
-msgstr ""
+msgstr "นำเข้าไฟล์การตั้งค่าที่บันทึกไว้"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:42
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Unknown"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็นที่ไม่รู้จัก"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:43
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is ADSL"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็น ADSL"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:44
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Bluetooth"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็นบลูทูธ"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:45
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Bridge"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็นแบบบริดจ์"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:46
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is CDMA"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็น CDMA"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:47
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is GSM"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็น GSM"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:48
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Infiniband"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็น Infiniband"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:49
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is OLPC Mesh"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็น OLPC Mesh"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:50
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is PPOPE"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็น VPN"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:51
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is VLAN"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็น VLAN"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:52
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is VPN"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็น VPN"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:53
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Wimax"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็น Wimax"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:54
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Wired"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็นต่อสาย"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:55
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Wireless"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็นไร้สาย"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:56
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Team"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็นทีม"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:57
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Generic"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็นสามัญ"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:58
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Tunnel"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็นทันเนล"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:59
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is IP Tunnel"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อเป็น IP ทันเนล"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:60
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is WireGuard"
-msgstr ""
+msgstr "ชนิดของการเชื่อมต่อคือ WireGuard"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:585
 #, kde-format
 msgid "IPv4 Address"
-msgstr ""
+msgstr "ที่อยู่ IPv4"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:591
 #, kde-format
 msgid "IPv4 Default Gateway"
-msgstr ""
+msgstr "เกตเวย์ค่าเริ่มต้น IPv4"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:598
 #, kde-format
 msgid "IPv4 Primary Nameserver"
-msgstr ""
+msgstr "เนมเซิร์ฟเวอร์ IPv4 อันแรก"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:602
 #, kde-format
 msgid "IPv4 Secondary Nameserver"
-msgstr ""
+msgstr "เนมเซิร์ฟเวอร์ IPv4 อันที่สอง"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:612
 #, kde-format
 msgid "IPv6 Address"
-msgstr ""
+msgstr "ที่อยู่ IPv6"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:614
 #, kde-format
 msgid "IPv6 ULA Address"
-msgstr ""
+msgstr "ที่อยู่ ULA IPv6"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:620
 #, kde-format
 msgid "IPv6 Default Gateway"
-msgstr ""
+msgstr "เกตเวย์ค่าเริ่มต้น IPv6"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:627
 #, kde-format
 msgid "IPv6 Primary Nameserver"
-msgstr ""
+msgstr "เนมเซิร์ฟเวอร์ IPv6 อันแรก"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:631
 #, kde-format
 msgid "IPv6 Secondary Nameserver"
-msgstr ""
+msgstr "เนมเซิร์ฟเวอร์ IPv6 อันที่สอง"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:640
 #, kde-format
 msgid "Connection speed"
-msgstr ""
+msgstr "ความเร็วของการเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:642 models/networkmodelitem.cpp:667
@@ -4066,38 +4088,38 @@ msgstr ""
 #: models/networkmodelitem.cpp:745 models/networkmodelitem.cpp:753
 #, kde-format
 msgid "MAC Address"
-msgstr ""
+msgstr "ที่อยู่ MAC"
 
 #. +> trunk6 stable6
 #: models/networkmodelitem.cpp:646
 #, kde-format
 msgid "Access Point (SSID)"
-msgstr ""
+msgstr "แอกเซสพอยต์ (SSID)"
 
 #. +> stable5
 #: models/networkmodelitem.cpp:646
 #, kde-format
 msgid "Access point (SSID)"
-msgstr ""
+msgstr "แอกเซสพอยต์ (SSID)"
 
 #. +> trunk6 stable6
 #: models/networkmodelitem.cpp:648
 #, kde-format
 msgid "Signal Strength"
-msgstr ""
+msgstr "ความแข็งแกร่งของสัญญาน"
 
 #. +> stable5
 #: models/networkmodelitem.cpp:648
 #, kde-format
 msgid "Signal strength"
-msgstr ""
+msgstr "ความแข็งแกร่งของสัญญาน"
 
 #. +> trunk6 stable6
 #: models/networkmodelitem.cpp:648
 #, kde-format
 msgctxt "WiFi signal strength percentage indicator"
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #. +> trunk6 stable6
 #: models/networkmodelitem.cpp:650
@@ -4128,7 +4150,7 @@ msgstr "ความถี่"
 #, kde-format
 msgctxt "Frequency (Channel)"
 msgid "%1 (Channel %2)"
-msgstr ""
+msgstr "%1 (ช่อง %2)"
 
 #. +> trunk6 stable6 stable5
 #: models/networkmodelitem.cpp:665
@@ -4158,7 +4180,7 @@ msgstr "คุณภาพสัญญาน"
 #: models/networkmodelitem.cpp:688
 #, kde-format
 msgid "Access Technology"
-msgstr ""
+msgstr "เทคโนโลยีในการเข้าถึง"
 
 #. +> trunk6 stable6
 #: models/networkmodelitem.cpp:693 models/networkmodelitem.cpp:710
@@ -4214,7 +4236,7 @@ msgstr "Adsl"
 #: models/networkmodelitem.cpp:758
 #, kde-format
 msgid "Device"
-msgstr ""
+msgstr "อุปกรณ์"
 
 #. +> trunk6 stable6 stable5
 #: networkstatus.cpp:126
@@ -4267,53 +4289,53 @@ msgctxt ""
 "A network device is connecting to a network and there is no other available ne"
 "twork connection"
 msgid "Connecting"
-msgstr ""
+msgstr "กำลังเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
 #: networkstatus.cpp:218
 #, kde-format
 msgid "Connecting to %1"
-msgstr ""
+msgstr "กำลังเชื่อมต่อไปยัง %1"
 
 #. +> trunk6 stable6 stable5
 #: networkstatus.cpp:222
 #, kde-format
 msgid "Connected to %1 (no connectivity)"
-msgstr ""
+msgstr "เชื่อมต่อไปยัง %1 (ไร้การเชื่อมต่อ)"
 
 #. +> trunk6 stable6 stable5
 #: networkstatus.cpp:225
 #, kde-format
 msgid "Connected to %1 (limited connectivity)"
-msgstr ""
+msgstr "เชื่อมต่อไปยัง %1 (การเชื่อมต่อถูกจำกัด)"
 
 #. +> trunk6 stable6 stable5
 #: networkstatus.cpp:228
 #, kde-format
 msgid "Connected to %1 (log in required)"
-msgstr ""
+msgstr "เชื่อมต่อไปยัง %1 (ต้องลงชื่อเข้าใช้)"
 
 #. +> trunk6 stable6 stable5
 #: networkstatus.cpp:231
 #, kde-format
 msgid "Connected to %1"
-msgstr ""
+msgstr "เชื่อมต่อไปยัง %1"
 
 #. +> trunk6 stable6 stable5
 #: networkstatus.cpp:256
 #, kde-format
 msgid "NetworkManager not running"
-msgstr ""
+msgstr "ไม่ได้เปิด NetworkManager"
 
 #. +> trunk6 stable6 stable5
 #: networkstatus.cpp:261
 #, kde-format
 msgid "NetworkManager 0.9.8 required, found %1."
-msgstr ""
+msgstr "ต้องใช้ NetworkManager 0.9.8 ขึ้นไป แต่พบเจอ %1 แทน"
 
 #. +> trunk6 stable6 stable5
 #: networkstatus.cpp:264
 #, kde-format
 msgctxt "global connection state"
 msgid "Unknown"
-msgstr ""
+msgstr "ไม่รู้จัก"
