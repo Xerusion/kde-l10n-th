@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-10 06:52+0200\n"
-"PO-Revision-Date: 2025-03-23 19:26+0700\n"
+"PO-Revision-Date: 2025-03-24 04:42+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
@@ -33,14 +33,14 @@ msgstr "ชื่อหรือ IP SSLVPN"
 #: l2tp.ui:45
 #, kde-format
 msgid "Authentication type:"
-msgstr "ชนิดการพิสูจน์ตัวตน:"
+msgstr "ชนิดการรับรองความถูกต้อง:"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbAuthType)
 #. +> trunk6 stable6 stable5
 #: l2tp.ui:67 l2tpipsec.ui:68
 #, kde-format
 msgid "Select an authentication mode."
-msgstr "เลือกโหมดการพิสูจน์ตัวตน"
+msgstr "เลือกโหมดการรับรองความถูกต้อง"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbAuthType)
 #. +> trunk6 stable6 stable5
@@ -117,7 +117,7 @@ msgid ""
 msgstr ""
 "<html><head/><body>"
 "<p>ใช่ชื่อโดเมน &lt;domain&gt; ไปที่ชื่อเครื่อง localhost เพื่อ</p>"
-"<p>การพิสูจน์ตัวตน</p>"
+"<p>การรับรองความถูกต้อง</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -269,7 +269,7 @@ msgstr "เปิดทันเนล IPsec ไปยังโฮสต์ L2TP
 #: l2tpipsec.ui:38
 #, kde-format
 msgid "Machine Authentication"
-msgstr "การพิสูจน์ตัวตนเครื่อง"
+msgstr "การรับรองความถูกต้องเครื่อง"
 
 #. i18n: ectx: property (text), widget (QLabel, labelAuthType)
 #. +> trunk6 stable6 stable5
@@ -442,11 +442,11 @@ msgid ""
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>ไม่บังคับ เซิร์ฟเวอร์ IPsec ควรจะระบุตัวตนอย่างไรสำหรับการพิสูจน์ตัวตน อาจถ"
-"ูกเรียกว่าเป็นรหัสเพียร์ (Peer ID) หรือรหัสเกตเวย์ (Gateway ID) และถูกเรียกว่า"
-" \"rightid\" โดย strongSwan Libreswan Openswan และ FreeS/WAN กรุณาไปอ่านคู่มือ"
-"เอกสาร strongSwan หรือ Libreswan สำหรับไวยากรณ์ leftid/rightid และการวจีวิภาคต"
-"ัวตน</p>"
+"<p>ไม่บังคับ เซิร์ฟเวอร์ IPsec ควรจะระบุตัวตนอย่างไรสำหรับการรับรองความถูกต้อง"
+" อาจถูกเรียกว่าเป็นรหัสเพียร์ (Peer ID) หรือรหัสเกตเวย์ (Gateway ID) และถูกเรี"
+"ยกว่า \"rightid\" โดย strongSwan Libreswan Openswan และ FreeS/WAN กรุณาไปอ่านค"
+"ู่มือเอกสาร strongSwan หรือ Libreswan สำหรับไวยากรณ์ leftid/rightid และการวจีว"
+"ิภาคตัวตน</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbIPComp)
@@ -533,21 +533,21 @@ msgstr "ตัวเลือก L2TP IPsec"
 #: l2tpppp.ui:26
 #, kde-format
 msgid "Authentication"
-msgstr "การพิสูจน์ตัวตน"
+msgstr "การรับรองความถูกต้อง"
 
 #. i18n: ectx: property (text), widget (QLabel, lblauth)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:35
 #, kde-format
 msgid "Allow following authentication methods:"
-msgstr "อนุญาตให้ใช้วิธีการการพิสูจน์ตัวตนดังนี้:"
+msgstr "อนุญาตให้ใช้วิธีการการรับรองความถูกต้องดังนี้:"
 
 #. i18n: ectx: property (toolTip), widget (QListWidget, listWidget)
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:45
 #, kde-format
 msgid "Allow/disable authentication methods"
-msgstr "อนุญาต/ปิดวิธีการการพิสูจน์ตัวตนดังนี้"
+msgstr "อนุญาต/ปิดวิธีการการรับรองความถูกต้องดังนี้"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
 #. +> trunk6 stable6 stable5
@@ -721,9 +721,10 @@ msgid ""
 "enable this checkbox, select one or more of the MSCHAP authentication\n"
 "methods: MSCHAP or MSCHAPv2."
 msgstr ""
-"หมายเหตุ: การเข้ารหัสแบบ MPPE ใช้ได้กับวิธีการพิสูจน์ตัวตน MSCHAP เท่านั้น ถ้า"
+"หมายเหตุ: การเข้ารหัสแบบ MPPE ใช้ได้กับวิธีการรับรองความถูกต้อง MSCHAP เท่านั้"
+"น ถ้า"
 "\n"
-"อยากจะเปิดตัวเลือกนี้ ให้เลือกระหว่างวิธีการพิสูจน์ตัวตน MSCHAP\n"
+"อยากจะเปิดตัวเลือกนี้ ให้เลือกระหว่างวิธีการรับรองความถูกต้อง MSCHAP\n"
 "ดังนี้: MSCHAP หรือ MSCHAPv2"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMPPE)

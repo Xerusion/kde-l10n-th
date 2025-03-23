@@ -1,61 +1,63 @@
+# SPDX-FileCopyrightText: 2025 Diskette Guy <diskette@dailitation.xyz>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-11 09:45+0100\n"
-"PO-Revision-Date: 2025-03-17 14:55+0700\n"
-"Last-Translator: Thai Translator <none>\n"
-"Language-Team: Thai <kde-i18n-docs@kde.org>\n"
+"PO-Revision-Date: 2025-03-24 04:39+0700\n"
+"Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
+"Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #. +> trunk6 stable6 stable5
 #: vpnc.cpp:73
 #, kde-format
 msgid "Error decrypting the obfuscated password"
-msgstr ""
+msgstr "การถอดรหัสผิดพลาด"
 
 #. +> trunk6 stable6 stable5
 #: vpnc.cpp:73
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "ข้อผิดพลาด"
 
 #. +> trunk6 stable6 stable5
 #: vpnc.cpp:118
 #, kde-format
 msgid "NetworkManager is missing support for Cisco Compatible VPN"
-msgstr ""
+msgstr "NetworkManager ขาดการรับรองสำหรับ VPN ที่ใช้งานได้กับ Cisco"
 
 #. +> trunk6 stable6 stable5
 #: vpnc.cpp:146
 #, kde-format
 msgid "%1: file could not be created"
-msgstr ""
+msgstr "%1: ไม่สามารถสร้างไฟล์ได้"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
 #: vpnc.ui:18
 #, kde-format
 msgid "Gateway:"
-msgstr ""
+msgstr "เกตเวย์:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, gateway)
 #. +> trunk6 stable6 stable5
 #: vpnc.ui:31
 #, kde-format
 msgid "IP/hostname of IPsec gateway."
-msgstr ""
+msgstr "IP/โฮสต์เนมของเกตเวย์ IPsec"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6 stable5
 #: vpnc.ui:38
 #, kde-format
 msgid "User name:"
-msgstr ""
+msgstr "ชื่อผู้ใช้:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, leUserName)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, user)
@@ -63,14 +65,14 @@ msgstr ""
 #: vpnc.ui:51 vpncauth.ui:97
 #, kde-format
 msgid "User name for the connection."
-msgstr ""
+msgstr "ชื่อผู้ใช้สำหรับการเชื่อมต่อ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk6 stable6 stable5
 #: vpnc.ui:58
 #, kde-format
 msgid "User password:"
-msgstr ""
+msgstr "รหัสผ่านผู้ใช้:"
 
 #. i18n: ectx: property (toolTip), widget (PasswordField, leUserPassword)
 #. i18n: ectx: property (toolTip), widget (PasswordField, userPassword)
@@ -78,7 +80,7 @@ msgstr ""
 #: vpnc.ui:79 vpncauth.ui:58
 #, kde-format
 msgid "User password for the connection."
-msgstr ""
+msgstr "รหัสผ่านผู้ใช้สำหรับการเชื่อมต่อ"
 
 #. i18n: ectx: property (text), widget (QLabel, groupNameLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -86,21 +88,21 @@ msgstr ""
 #: vpnc.ui:91 vpncauth.ui:124
 #, kde-format
 msgid "Group name:"
-msgstr ""
+msgstr "ชื่อกลุ่ม:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, group)
 #. +> trunk6 stable6 stable5
 #: vpnc.ui:104
 #, kde-format
 msgid "Group name"
-msgstr ""
+msgstr "ชื่อกลุ่ม"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6 stable5
 #: vpnc.ui:111
 #, kde-format
 msgid "Group password:"
-msgstr ""
+msgstr "รหัสผ่านกลุ่ม:"
 
 #. i18n: ectx: property (toolTip), widget (PasswordField, leGroupPassword)
 #. i18n: ectx: property (toolTip), widget (PasswordField, groupPassword)
@@ -108,339 +110,344 @@ msgstr ""
 #: vpnc.ui:129 vpncauth.ui:84
 #, kde-format
 msgid "Group password."
-msgstr ""
+msgstr "รหัสผ่านกลุ่ม"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useHybridAuth)
 #. +> trunk6 stable6 stable5
 #: vpnc.ui:141
 #, kde-format
-msgid "Enable hybrid authentication, i.e. use certificate in addition to password."
-msgstr ""
+msgid ""
+"Enable hybrid authentication, i.e. use certificate in addition to password."
+msgstr "เปิดการตรวจสอบสิทธิแบบไฮบริด เช่น ใช้ใบรับรองพร้อมกับรหัสผ่าน"
 
 #. i18n: ectx: property (text), widget (QCheckBox, useHybridAuth)
 #. +> trunk6 stable6 stable5
 #: vpnc.ui:144
 #, kde-format
 msgid "Use hybrid authentication"
-msgstr ""
+msgstr "การรับรองความถูกต้องแบบไฮบริด"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk6 stable6 stable5
 #: vpnc.ui:154
 #, kde-format
 msgid "CA file:"
-msgstr ""
+msgstr "ไฟล์ CA:"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, caFile)
 #. +> trunk6 stable6 stable5
 #: vpnc.ui:167
 #, kde-format
 msgid "CA certificate in PEM format."
-msgstr ""
+msgstr "ใบรับรอง CA ในฟอร์แม็ต PEM"
 
 #. i18n: ectx: property (filter), widget (KUrlRequester, caFile)
 #. +> stable5
 #: vpnc.ui:170
 #, kde-format
 msgid "*.pem *.crt *.cer"
-msgstr ""
+msgstr "*.pem *.crt *.cer"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
 #. +> trunk6 stable6 stable5
 #: vpnc.ui:194
 #, kde-format
 msgid "Advanced…"
-msgstr ""
+msgstr "ขั้นสูง…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:18
 #, kde-format
 msgid "Identification"
-msgstr ""
+msgstr "การแสดงตัว:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:27
 #, kde-format
 msgid "Domain:"
-msgstr ""
+msgstr "โดเมน:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, domain)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:37
 #, kde-format
 msgid "(NT-)Domain name for authentication."
-msgstr ""
+msgstr "ชื่อ (NT-)โดเมน สำหรับการพิสูจน์ตัวตน"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:44
 #, kde-format
 msgid "Vendor:"
-msgstr ""
+msgstr "ผู้ผลิต:"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, vendor)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:60
 #, kde-format
 msgid "Vendor of your IPsec gateway."
-msgstr ""
+msgstr "ผู้ผลิต IPsec เกตเวย์ของคุณ"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:70
 #, kde-format
 msgid "Transport and Security"
-msgstr ""
+msgstr "การรับส่งข้อมูลและความปลอดภัย"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:82
 #, kde-format
 msgid "Encryption method:"
-msgstr ""
+msgstr "วิธีการเข้ารหัส:"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, encryption)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:98
 #, kde-format
 msgid "Encryption method."
-msgstr ""
+msgstr "วิธีการเข้ารหัส"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:105
 #, kde-format
 msgid "NAT traversal:"
-msgstr ""
+msgstr "การส่งผ่าน NAT:"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, nat)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:121
 #, kde-format
 msgid "NAT traversal method to use."
-msgstr ""
+msgstr "วิธีการส่งผ่าน NAT ที่จะใช้"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:128
 #, kde-format
 msgid "IKE DH Group:"
-msgstr ""
+msgstr "กลุ่ม IKE DH:"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, dhGroup)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:144
 #, kde-format
 msgid "Name of the IKE DH group."
-msgstr ""
+msgstr "ชื่อของกลุ่ม IKE DH"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:151
 #, kde-format
 msgid "Perfect Forward Secrecy:"
-msgstr ""
+msgstr "การส่งต่อความลับที่สมบูรณ์แบบ (PFS):"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, pfs)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:167
 #, kde-format
 msgid "Diffie-Hellman group to use for PFS."
-msgstr ""
+msgstr "กลุ่ม Diffie-Hellman ที่จะใช้สำหรับ PFS"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:174
 #, kde-format
 msgid "Local Port:"
-msgstr ""
+msgstr "พอร์ตภายในระบบ:"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, localport)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:190
 #, kde-format
-msgid "Local port to use (0-65535). 0 (default value) means random port. 500 is vpnc's default."
+msgid ""
+"Local port to use (0-65535). 0 (default value) means random port. 500 is vpnc'"
+"s default."
 msgstr ""
+"พอร์ตภายในระบบที่จะใช้งาน (0-65536) ค่าเริ่มต้น (0) จะเป็นการสุ่มตัวเลข 500 เป"
+"็นค่าเริ่มต้นของ vpnc"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, localport)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:193
 #, kde-format
 msgid "Random"
-msgstr ""
+msgstr "สุ่ม"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, deadPeer)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:209
 #, kde-format
 msgid "Disable sending DPD packets (set timeout to 0)."
-msgstr ""
+msgstr "ปิดการส่งแพ็กเก็ต DPD (ตั้งเวลาหมดเป็น 0)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, deadPeer)
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:212
 #, kde-format
 msgid "Disable dead peer detection"
-msgstr ""
+msgstr "ปิดการตรวจจับเพียร์ที่ตายไปแล้ว"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:20
 #, kde-format
 msgid "Advanced VPNC properties"
-msgstr ""
+msgstr "คุณสมบัติ VPNC ขั้นสูง"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:23
 #, kde-format
 msgctxt "VPNC vendor name"
 msgid "Cisco"
-msgstr ""
+msgstr "Cisco"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:24
 #, kde-format
 msgctxt "VPNC vendor name"
 msgid "Netscreen"
-msgstr ""
+msgstr "Netscreen"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:27
 #, kde-format
 msgctxt "VPNC encryption method"
 msgid "Secure (default)"
-msgstr ""
+msgstr "ปลอดภัย (ค่าเริ่มต้น)"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:28
 #, kde-format
 msgctxt "VPNC encryption method"
 msgid "Weak (DES encryption, use with caution)"
-msgstr ""
+msgstr "อ่อนแอ (การเข้ารหัส DES ใช้อย่างระมัดระวัง)"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:29
 #, kde-format
 msgctxt "VPNC encryption method"
 msgid "None (completely insecure)"
-msgstr ""
+msgstr "ไม่มี (ไม่ปลอดภัย)"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:32
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "NAT-T when available (default)"
-msgstr ""
+msgstr "NAT-T ถ้ามี (ค่าเริ่มต้น_"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:33
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "NAT-T always"
-msgstr ""
+msgstr "NAT-T ตลอดไป"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:34
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "Cisco UDP"
-msgstr ""
+msgstr "Cisco UDP"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:35
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "Disabled"
-msgstr ""
+msgstr "ปิดการใช้งาน"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:38
 #, kde-format
 msgctxt "IKE DH group"
 msgid "DH Group 1"
-msgstr ""
+msgstr "กลุ่ม DH 1"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:39
 #, kde-format
 msgctxt "IKE DH group"
 msgid "DH Group 2 (default)"
-msgstr ""
+msgstr "กลุ่ม DH 2 (ค่าเริ่มต้น)"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:40
 #, kde-format
 msgctxt "IKE DH group"
 msgid "DH Group 5"
-msgstr ""
+msgstr "กลุ่ม DH 5"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:43
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "Server (default)"
-msgstr ""
+msgstr "เซิร์ฟเวอร์ (ค่าเริ่มต้น)"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:44
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "None"
-msgstr ""
+msgstr "ไม่มี"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:45
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "DH Group 1"
-msgstr ""
+msgstr "กลุ่ม DH 1"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:46
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "DH Group 2"
-msgstr ""
+msgstr "กลุ่ม DH 2"
 
 #. +> trunk6 stable6 stable5
 #: vpncadvancedwidget.cpp:47
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "DH Group 5"
-msgstr ""
+msgstr "กลุ่ม DH 5"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, VpncAuth)
 #. +> trunk6 stable6 stable5
 #: vpncauth.ui:14
 #, kde-format
 msgid "VPNCAuthentication"
-msgstr ""
+msgstr "VPNCAuthentication"
 
 #. i18n: ectx: property (text), widget (QLabel, userPasswordLabel)
 #. +> trunk6 stable6 stable5
 #: vpncauth.ui:32
 #, kde-format
 msgid "User Password:"
-msgstr ""
+msgstr "รหัสผ่านผู้ใช้:"
 
 #. i18n: ectx: property (text), widget (QLabel, groupPasswordLabel)
 #. +> trunk6 stable6 stable5
 #: vpncauth.ui:45
 #, kde-format
 msgid "Group Password:"
-msgstr ""
+msgstr "รหัสผ่านกลุ่ม:"
 
 #. i18n: ectx: property (text), widget (QLabel, userNameLabel)
 #. +> trunk6 stable6 stable5
 #: vpncauth.ui:104
 #, kde-format
 msgid "Username:"
-msgstr ""
+msgstr "ชื่อผู้ใช้:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, leGroupName)
 #. +> trunk6 stable6 stable5
 #: vpncauth.ui:117
 #, kde-format
 msgid "Group name."
-msgstr ""
+msgstr "ชื่อกลุ่ม"
