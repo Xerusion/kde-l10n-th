@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-16 09:49+0100\n"
+"POT-Creation-Date: 2025-03-23 22:41+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -42,32 +42,39 @@ msgstr ""
 msgid "Send a Location"
 msgstr ""
 
+#. +> trunk6
+#: src/chatbar/ChatBar.qml:120
+#, kde-format
+msgctxt "@action:button"
+msgid "Create a Poll"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/chatbar/ChatBar.qml:122
+#: src/chatbar/ChatBar.qml:136
 #, kde-format
 msgid "Send message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/ChatBar.qml:202
+#: src/chatbar/ChatBar.qml:227
 #, kde-format
 msgid "Send an encrypted message…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/ChatBar.qml:202
+#: src/chatbar/ChatBar.qml:227
 #, kde-format
 msgid "Set an attachment caption…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/ChatBar.qml:202
+#: src/chatbar/ChatBar.qml:227
 #, kde-format
 msgid "Send a message…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/chatbar/ChatBar.qml:361
+#: src/chatbar/ChatBar.qml:386 src/timeline/ChatBarComponent.qml:232
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel reply"
@@ -2295,13 +2302,13 @@ msgid "Space creation failed: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/neochatroom.cpp:1223
+#: src/neochatroom.cpp:1228
 #, kde-format
 msgid "Report sent successfully."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/neochatroom.cpp:1563 src/neochatroom.cpp:1571
+#: src/neochatroom.cpp:1581 src/neochatroom.cpp:1589
 #, kde-format
 msgctxt "'Lat' and 'Lon' as in Latitude and Longitude"
 msgid "Lat: %1, Lon: %2"
@@ -2464,7 +2471,7 @@ msgid "To proceed, accept the verification request on another device."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/AccountMenu.qml:106 src/settings/AccountsPage.qml:88
+#: src/qml/AccountMenu.qml:105 src/settings/AccountsPage.qml:88
 #, kde-format
 msgid "Logout"
 msgstr ""
@@ -3703,6 +3710,83 @@ msgstr ""
 #, kde-format
 msgctxt "@action As in 'edit the state of this room'"
 msgid "Edit state"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/NewPollDialog.qml:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Send"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/NewPollDialog.qml:38
+#, kde-format
+msgctxt "@title: create new poll in the room"
+msgid "Create Poll"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/NewPollDialog.qml:46
+#, kde-format
+msgid "Poll type:"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/NewPollDialog.qml:51
+#, kde-format
+msgid "Open poll"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/NewPollDialog.qml:52
+#, kde-format
+msgid "Closed poll"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/NewPollDialog.qml:57
+#, kde-format
+msgid "Voters can see the result as soon as they have voted"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/NewPollDialog.qml:57
+#, kde-format
+msgid "Results are revealed only after the poll has closed"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/NewPollDialog.qml:61
+#, kde-format
+msgid "Question:"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/NewPollDialog.qml:104
+#, kde-format
+msgctxt "As in first answer option to the poll"
+msgid "Option %1:"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/NewPollDialog.qml:120
+#, kde-format
+msgid "Enter option"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/NewPollDialog.qml:126
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove option"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/NewPollDialog.qml:151
+#, kde-format
+msgctxt "@action:button"
+msgid "Add option"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5986,49 +6070,49 @@ msgid "Encryption"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:92
+#: src/settings/NeoChatSecurityPage.qml:90
 #, kde-format
 msgctxt "@action:button"
 msgid "Import Keys"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:93
+#: src/settings/NeoChatSecurityPage.qml:91
 #, kde-format
 msgctxt "@info"
 msgid "Import encryption keys from a backup."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:99
+#: src/settings/NeoChatSecurityPage.qml:97
 #, kde-format
 msgctxt "@title"
 msgid "Import Keys"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:102
+#: src/settings/NeoChatSecurityPage.qml:100
 #, kde-format
 msgctxt "@info"
 msgid "Keys imported successfully"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:115
+#: src/settings/NeoChatSecurityPage.qml:113
 #, kde-format
 msgctxt "@action:button"
 msgid "Export Keys"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:116
+#: src/settings/NeoChatSecurityPage.qml:114
 #, kde-format
 msgctxt "@info"
 msgid "Export this device's encryption keys."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/NeoChatSecurityPage.qml:122
+#: src/settings/NeoChatSecurityPage.qml:120
 #, kde-format
 msgctxt "@title"
 msgid "Export Keys"
@@ -6754,7 +6838,7 @@ msgid "Complete"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/settings/ThreePIdCard.qml:93 src/timeline/ChatBarComponent.qml:100
+#: src/settings/ThreePIdCard.qml:93 src/timeline/ChatBarComponent.qml:191
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
@@ -6867,15 +6951,22 @@ msgstr ""
 msgid "%1 started a user verification"
 msgstr ""
 
+#. +> trunk6
+#: src/timeline/ChatBarComponent.qml:165
+#, kde-format
+msgctxt "@action:button"
+msgid "Attach an image or file"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/timeline/ChatBarComponent.qml:88
+#: src/timeline/ChatBarComponent.qml:179
 #, kde-format
 msgctxt "@action:button"
 msgid "Confirm edit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/ChatBarComponent.qml:88
+#: src/timeline/ChatBarComponent.qml:179
 #, kde-format
 msgctxt "@action:button"
 msgid "Post message in thread"
@@ -7009,7 +7100,7 @@ msgid "Open Externally"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/PollComponent.qml:70
+#: src/timeline/PollComponent.qml:80
 #, kde-format
 msgid "Based on votes by %1 user"
 msgid_plural "Based on votes by %1 users"
@@ -7017,7 +7108,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: src/timeline/PollComponent.qml:70
+#: src/timeline/PollComponent.qml:80
 #, kde-format
 msgctxt "as in 'this vote has ended'"
 msgid "(Ended)"
