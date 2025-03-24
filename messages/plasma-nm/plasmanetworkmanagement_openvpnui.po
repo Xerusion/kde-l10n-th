@@ -1,92 +1,99 @@
+# SPDX-FileCopyrightText: 2025 Diskette Guy <diskette@dailitation.xyz>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-24 09:46+0100\n"
-"PO-Revision-Date: 2025-03-17 14:55+0700\n"
-"Last-Translator: Thai Translator <none>\n"
-"Language-Team: Thai <kde-i18n-docs@kde.org>\n"
+"PO-Revision-Date: 2025-03-24 04:46+0700\n"
+"Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
+"Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #. +> trunk6 stable6 stable5
 #: openvpn.cpp:183
 #, kde-format
 msgid "NetworkManager is missing support for OpenVPN"
-msgstr ""
+msgstr "NetworkManager ขาดการรับรองการเชื่อมต่อ OpenVPN"
 
 #. +> trunk6 stable6 stable5
 #: openvpn.cpp:208
 #, kde-format
 msgid "Error saving file %1: %2"
-msgstr ""
+msgstr "บันทึกไฟล์ %1 ผิดพลาด: %2"
 
 #. +> trunk6 stable6 stable5
 #: openvpn.cpp:236
 #, kde-format
 msgid "Error copying certificate to %1: %2"
-msgstr ""
+msgstr "การคัดลอกไฟล์ใบรับรอง %1 ผิดพลาด: %2"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:19
 #, kde-format
 msgid "Gateway:"
-msgstr ""
+msgstr "เกตเวย์:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, gateway)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:36
 #, kde-format
 msgid ""
-"Remote gateways(s), with optional port and protocol (e.g. ovpn.corp.com:1234:tcp).\n"
-"You can specify multiple hosts for redundancy (use commas or spaces as delimiters)."
+"Remote gateways(s), with optional port and protocol (e.g. ovpn.corp.com:1234:t"
+"cp).\n"
+"You can specify multiple hosts for redundancy (use commas or spaces as delimit"
+"ers)."
 msgstr ""
+"เกตเวย์ริโมตที่อาจมีพอร์ตและโพรโทคอลก็ได้ (เช่น opvn.corp.com:1234:tcp)\n"
+"คุณสามารถเลือกโฮสต์หลายตัวเพื่อเพิ่มตัวสำรองได้ (ใช้เครื่องหมายจุลภาคหรือเว้นว"
+"รรคเพื่อคั่น)"
 
 #. i18n: ectx: property (text), widget (QLabel, labelConnectionType)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:46
 #, kde-format
 msgid "Connection type:"
-msgstr ""
+msgstr "ชนิดการเชื่อมต่อ:"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbConnectionType)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:68
 #, kde-format
 msgid "Select an authentication mode."
-msgstr ""
+msgstr "เลือกโหมดการรับรองความถูกต้อง"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbConnectionType)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:72
 #, kde-format
 msgid "Certificates (TLS)"
-msgstr ""
+msgstr "ใบรังรอง TLS"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbConnectionType)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:77
 #, kde-format
 msgid "Static Key"
-msgstr ""
+msgstr "กุญแจคงที่"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbConnectionType)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:82
 #, kde-format
 msgid "Password"
-msgstr ""
+msgstr "รหัสผ่าน"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbConnectionType)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:87
 #, kde-format
 msgid "Password with Certificates (TLS)"
-msgstr ""
+msgstr "รหัสผ่านที่มีใบรังรอง TLS"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel8)
@@ -95,7 +102,7 @@ msgstr ""
 #: openvpn.ui:104 openvpn.ui:370 openvpn.ui:468
 #, kde-format
 msgid "CA Certificate:"
-msgstr ""
+msgstr "ใบรับรอง CA:"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, x509CaFile)
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, passCaFile)
@@ -104,7 +111,7 @@ msgstr ""
 #: openvpn.ui:117 openvpn.ui:386 openvpn.ui:481
 #, kde-format
 msgid "Certificate authority (CA) file in .pem format."
-msgstr ""
+msgstr "ไฟล์ใบรับรองผู้ใช้ฟอร์แมต .pem"
 
 #. i18n: ectx: property (filter), widget (KUrlRequester, x509CaFile)
 #. i18n: ectx: property (filter), widget (KUrlRequester, x509Cert)
@@ -117,7 +124,7 @@ msgstr ""
 #: openvpn.ui:520
 #, kde-format
 msgid "*.pem *.crt *.key *.cer *.p12"
-msgstr ""
+msgstr "*.pem *.crt *.key *.cer *.p12"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2_2)
@@ -125,15 +132,18 @@ msgstr ""
 #: openvpn.ui:129 openvpn.ui:493
 #, kde-format
 msgid "User Certificate:"
-msgstr ""
+msgstr "ใบรับรองผู้ใช้:"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, x509Cert)
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, x509PassCert)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:142 openvpn.ui:506
 #, kde-format
-msgid "Local peer's signed certificate in .pem format (signed by CA of CA Certificate)."
+msgid ""
+"Local peer's signed certificate in .pem format (signed by CA of CA Certificate"
+")."
 msgstr ""
+"ใบรับรองเพียร์เครื่องที่ลงนามในฟอร์แมต .pem (ที่ลงนามโดย CA จากใบรับรอง CA)"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
@@ -141,7 +151,7 @@ msgstr ""
 #: openvpn.ui:154 openvpn.ui:518
 #, kde-format
 msgid "Private Key:"
-msgstr ""
+msgstr "กุญแจส่วนตัว:"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, x509Key)
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, x509PassKey)
@@ -149,7 +159,7 @@ msgstr ""
 #: openvpn.ui:167 openvpn.ui:531
 #, kde-format
 msgid "Local peer's private key in .pem format."
-msgstr ""
+msgstr "กุญแจส่วนตัวของเครื่องในฟอร์แมต .pem"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
@@ -157,7 +167,7 @@ msgstr ""
 #: openvpn.ui:179 openvpn.ui:543
 #, kde-format
 msgid "Private Key Password:"
-msgstr ""
+msgstr "รหัสผ่านกุญแจส่วนตัว"
 
 #. i18n: ectx: property (toolTip), widget (PasswordField, x509KeyPassword)
 #. i18n: ectx: property (toolTip), widget (PasswordField, x509PassKeyPassword)
@@ -165,21 +175,21 @@ msgstr ""
 #: openvpn.ui:188 openvpn.ui:552
 #, kde-format
 msgid "Password for private key."
-msgstr ""
+msgstr "รหัสผ่านของกุญแจส่วนตัว"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:217
 #, kde-format
 msgid "Static Key:"
-msgstr ""
+msgstr "กุญแจคงที่:"
 
 #. i18n: ectx: property (filter), widget (KUrlRequester, pskSharedKey)
 #. +> stable5
 #: openvpn.ui:227
 #, kde-format
 msgid "*.key"
-msgstr ""
+msgstr "*.key"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, pskSharedKey)
 #. +> trunk6 stable6 stable5
@@ -187,6 +197,8 @@ msgstr ""
 #, kde-format
 msgid "Pre-shared file for Static Key encryption mode (non-TLS)."
 msgstr ""
+"กุญแจที่แลกเปลี่ยนล่วงหน้า (PSK) สำหรับโหมดเข้ารหัสแบบกุญแจคงที่ (ที่ไม่ใช่ TL"
+"S)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
@@ -194,21 +206,25 @@ msgstr ""
 #: openvpn.ui:242 openvpnadvanced.ui:925
 #, kde-format
 msgid "Key Direction:"
-msgstr ""
+msgstr "ทิศทางกุญแจ:"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbKeyDirection)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:255
 #, kde-format
 msgid "Direction for Static Key encryption mode (non-TLS)."
-msgstr ""
+msgstr "ทิศทางกุญแจสำหรับโหมดเข้ารหัสแบบกุญแจคงที่ (ที่ไม่ใช่ TLS)"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, cmbKeyDirection)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:258
 #, kde-format
-msgid "If key direction is used, it must be the opposite of that used on the VPN peer."
+msgid ""
+"If key direction is used, it must be the opposite of that used on the VPN peer"
+"."
 msgstr ""
+"ถ้าหากใช้ตัวเลือกทิศทางกุญแจ ต้องตั้งให้เป็นทิศทางที่ตรงกันข้ามกับที่ใช้ในเพีย"
+"ร์ VPN"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbKeyDirection)
 #. +> trunk6 stable6 stable5
@@ -216,63 +232,69 @@ msgstr ""
 #, kde-format
 msgctxt "No \"Key Direction\""
 msgid "None"
-msgstr ""
+msgstr "ไม่มี"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbKeyDirection)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:267
 #, kde-format
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbKeyDirection)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:272
 #, kde-format
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:280
 #, kde-format
 msgid "Local IP Address:"
-msgstr ""
+msgstr "ที่อยู่ IP เครื่อง:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, pskLocalIp)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:293
 #, kde-format
 msgid "IP address of the remote VPN endpoint."
-msgstr ""
+msgstr "ที่อยู่ IP เครื่องริโมต VPN ปลายทาง"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel7)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:303
 #, kde-format
 msgid "Remote IP Address:"
-msgstr ""
+msgstr "ที่อยู่ IP ริโมต:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, pskRemoteIp)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:316
 #, kde-format
 msgid "IP address of the local VPN endpoint."
-msgstr ""
+msgstr "ที่อยู่ IP เครื่อง VPN ต้นทาง"
 
 #. i18n: ectx: property (text), widget (QLabel, lblKeyDirection)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:350
 #, kde-format
-msgid "If key direction is used, it must be the opposite of that used on the VPN peer. For example, if the peer uses '1', this connection must use '0'. If you are unsure what value to use, contact your system administrator."
+msgid ""
+"If key direction is used, it must be the opposite of that used on the VPN peer"
+". For example, if the peer uses '1', this connection must use '0'. If you are "
+"unsure what value to use, contact your system administrator."
 msgstr ""
+"ถ้าหากใช้ตัวเลือกทิศทางกุญแจ ต้องตั้งให้เป็นทิศทางที่ตรงกันข้ามกับที่ใช้ในเพีย"
+"ร์ VPN อย่างเช่น ถ้าหากเพียร์ปลายทางใช้ '1' การเชื่อมต่ออันนี้ต้องใช้ '0' ถ้าห"
+"ากไม่แน่ใจว่าตั้งค่าว่าอะไร ให้ติดต่อผู้ดูแลระบบ"
 
 #. i18n: ectx: property (filter), widget (KUrlRequester, passCaFile)
 #. +> stable5
 #: openvpn.ui:381
 #, kde-format
 msgid "*.pem *.crt *.key *.cer"
-msgstr ""
+msgstr "*.pem *.crt *.key *.cer"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel9)
 #. i18n: ectx: property (text), widget (QLabel, textLabel9_2)
@@ -281,7 +303,7 @@ msgstr ""
 #, kde-format
 msgctxt "like in Username for athentication"
 msgid "Username:"
-msgstr ""
+msgstr "ชื่อผู้ใช้:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, passUserName)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, x509PassUsername)
@@ -289,7 +311,7 @@ msgstr ""
 #: openvpn.ui:414 openvpn.ui:577
 #, kde-format
 msgid "Username passed to OpenVPN when prompted for it."
-msgstr ""
+msgstr "ชื่อผู้ใช้ที่ส่งไปยัง OpenVPN เมื่อถูกขอ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -298,7 +320,7 @@ msgstr ""
 #: openvpnauth.cpp:117
 #, kde-format
 msgid "Password:"
-msgstr ""
+msgstr "รหัสผ่าน:"
 
 #. i18n: ectx: property (toolTip), widget (PasswordField, passPassword)
 #. i18n: ectx: property (toolTip), widget (PasswordField, x509PassPassword)
@@ -306,36 +328,40 @@ msgstr ""
 #: openvpn.ui:439 openvpn.ui:599
 #, kde-format
 msgid "Password passed to OpenVPN when prompted for it."
-msgstr ""
+msgstr "ชื่อผู้ใช้ที่ส่งไปยัง OpenVPN เมื่อถูกขอ"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
 #. +> trunk6 stable6 stable5
 #: openvpn.ui:643
 #, kde-format
 msgid "Advanced…"
-msgstr ""
+msgstr "ขั้นสูง…"
 
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:28
 #, kde-format
 msgid "General"
-msgstr ""
+msgstr "ทั่วไป"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkCustomPort)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbCustomPort)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:36 openvpnadvanced.ui:49
 #, kde-format
-msgid "TCP/UDP port number for peer. (Default value when there is no port for gateway)."
+msgid ""
+"TCP/UDP port number for peer. (Default value when there is no port for gateway"
+")."
 msgstr ""
+"เลขพอร์ต TCP/UDP สำหรับเพียร์ (ใช้ค่าเริ่มต้นถ้าหากไม่ได้ตั้งพอร์ตสำหรับเกตเวย"
+"์)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCustomPort)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:39
 #, kde-format
 msgid "Use custom gateway port:"
-msgstr ""
+msgstr "ใช้พอร์ตเกตเวย์ที่กำหนดเอง:"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, sbCustomPort)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, sbMtu)
@@ -345,7 +371,7 @@ msgstr ""
 #, kde-format
 msgctxt "like in use Automatic configuration"
 msgid "Automatic"
-msgstr ""
+msgstr "อัตโนมัติ"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseCustomReneg)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbCustomReneg)
@@ -353,14 +379,14 @@ msgstr ""
 #: openvpnadvanced.ui:72 openvpnadvanced.ui:85
 #, kde-format
 msgid "Renegotiate data channel key after the specified number of seconds."
-msgstr ""
+msgstr "negotiate กุญแจช่องข้อมูลใหม่หลังจากเวลาที่กำหนดไว้เป็นวินาที"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseCustomReneg)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:75
 #, kde-format
 msgid "Use custom renegotiation interval:"
-msgstr ""
+msgstr "ตั้งค่าระยะเวลาสำหรับการ negotiation ใหม่เอง:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseCompression)
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbUseCompression)
@@ -368,49 +394,49 @@ msgstr ""
 #: openvpnadvanced.ui:96 openvpnadvanced.ui:109
 #, kde-format
 msgid "Use compression."
-msgstr ""
+msgstr "ใช้การบีบอัด"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseCompression)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:99
 #, kde-format
 msgid "Use compression"
-msgstr ""
+msgstr "ใช้การบีบอัด"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbUseCompression)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:113
 #, kde-format
 msgid "No"
-msgstr ""
+msgstr "ไม่ใช้"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbUseCompression)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:118
 #, kde-format
 msgid "LZO"
-msgstr ""
+msgstr "LZO"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbUseCompression)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:123
 #, kde-format
 msgid "LZ4"
-msgstr ""
+msgstr "LZ4"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbUseCompression)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:128
 #, kde-format
 msgid "LZ4 v2"
-msgstr ""
+msgstr "LZ4 v2"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbUseCompression)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:133
 #, kde-format
 msgid "Adaptive"
-msgstr ""
+msgstr "เปลี่ยนปรับตัว"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbUseCompression)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, leVirtualDeviceName)
@@ -418,21 +444,21 @@ msgstr ""
 #: openvpnadvanced.ui:138 openvpnadvanced.ui:216
 #, kde-format
 msgid "Automatic"
-msgstr ""
+msgstr "อัตโนมัติ"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseTCP)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:148
 #, kde-format
 msgid "Use TCP for communicating with remote host."
-msgstr ""
+msgstr "ใช้ TCP สำหรับสื่อสารกับโฮสต์ริโมต"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseTCP)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:151
 #, kde-format
 msgid "Use a TCP connection"
-msgstr ""
+msgstr "ใช้การเชื่อมต่อ TCP"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseVirtualDeviceType)
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbDeviceType)
@@ -440,58 +466,62 @@ msgstr ""
 #: openvpnadvanced.ui:160 openvpnadvanced.ui:173
 #, kde-format
 msgid "Explicitly set virtual device type (TUN/TAP)."
-msgstr ""
+msgstr "ตั้งชนิดอุปกรณ์จำลอง (TUN/TAP)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseVirtualDeviceType)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:163
 #, kde-format
 msgid "Set virtual device type:"
-msgstr ""
+msgstr "ตั้งชนิดอุปกรณ์จำลอง:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDeviceType)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:177
 #, kde-format
 msgid "TUN"
-msgstr ""
+msgstr "TUN"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDeviceType)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:182
 #, kde-format
 msgid "TAP"
-msgstr ""
+msgstr "TAP"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseVirtualDeviceName)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, leVirtualDeviceName)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:194 openvpnadvanced.ui:213
 #, kde-format
-msgid "Use custom name for TUN/TAP virtual device (instead of default \"tun\" or \"tap\")."
+msgid ""
+"Use custom name for TUN/TAP virtual device (instead of default \"tun\" or \"ta"
+"p\")."
 msgstr ""
+"ใช้ชื่อที่กำหนดเองสำหรับอุปกรณ์ TUN/TAP (แทนค่าเริ่มต้น \"tun\" หรือ \"tap)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseVirtualDeviceName)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:197
 #, kde-format
 msgid "Set virtual device name:"
-msgstr ""
+msgstr "ตั้งชื่ออุปกรณ์จำลอง:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkMtu)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbMtu)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:227 openvpnadvanced.ui:240
 #, kde-format
-msgid "Take the TUN device MTU to be specified value and derive the link MTU from it."
-msgstr ""
+msgid ""
+"Take the TUN device MTU to be specified value and derive the link MTU from it."
+msgstr "ตั้งค่า MTU ของอุปกรณ์ TUN ให้เป็นค่าอื่นและใช้ค่า MTU จากค่านี้"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMtu)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:230
 #, kde-format
 msgid "Use custom tunnel Maximum Transmission Unit (MTU):"
-msgstr ""
+msgstr "ใช้ค่าหน่วยส่งสัญญาณสูงสุด (MTU) ที่กำหนดเอง:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkCustomFragmentSize)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbCustomFragmentSize)
@@ -499,28 +529,28 @@ msgstr ""
 #: openvpnadvanced.ui:263 openvpnadvanced.ui:276
 #, kde-format
 msgid "Enable internal datagram fragmentation with this maximum size."
-msgstr ""
+msgstr "เปิดใช้การแตกแยกเดตาแกรมภายในสำหรับค่าหน่วยสูงสุดนี้"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCustomFragmentSize)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:266
 #, kde-format
 msgid "Use custom UDP fragment size:"
-msgstr ""
+msgstr "ใช้ขนาดแตกแยก UDP ที่กำหนดเอง"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkMssRestrict)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:294
 #, kde-format
 msgid "Restrict tunnel TCP maximum segment size."
-msgstr ""
+msgstr "จำกัดค่าสูงสุดของขนาดส่วน TCP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMssRestrict)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:297
 #, kde-format
 msgid "Restrict TCP maximum segment size (MSS)"
-msgstr ""
+msgstr "จำกัดค่าสูงสุดของขนาดส่วน TCP (MSS)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkRandRemHosts)
 #. +> trunk6 stable6 stable5
@@ -529,43 +559,47 @@ msgstr ""
 msgid ""
 "Randomize the order of gateways list (remote) as a kind of basic load-\n"
 "balancing measure."
-msgstr ""
+msgstr "สุ่มรายการของเกตเวย์ริโมตเพิ่มเป็นการปรับสมดุลการโหลด"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRandRemHosts)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:308
 #, kde-format
 msgid "Randomize remote hosts"
-msgstr ""
+msgstr "สุ่มโฮสต์ริโมต"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkIpv6TunLink)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:315
 #, kde-format
 msgid "Build a tun link capable of forwarding IPv6 traffic."
-msgstr ""
+msgstr "สร้าง tun link ที่สามารถส่งต่อข้อมูล IPv6"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkIpv6TunLink)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:318
 #, kde-format
 msgid "IPv6 tun link"
-msgstr ""
+msgstr "IPv6 tun link"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkPingInterval)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbPingInterval)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:327 openvpnadvanced.ui:340
 #, kde-format
-msgid "Ping remote over the TCP/UDP control channel if no packets have been sent for at least n seconds."
+msgid ""
+"Ping remote over the TCP/UDP control channel if no packets have been sent for "
+"at least n seconds."
 msgstr ""
+"ปิงริโมตผ่านช่องควบคุม TCP/UDP ถ้าหากไม่มีแพ็กเก็็ตที่ส่งไปในเวลาวินาทีที่ตั้ง"
+"ไว้"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkPingInterval)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:330
 #, kde-format
 msgid "Specify ping interval:"
-msgstr ""
+msgstr "ตั้งค่าระยะเวลาปิง:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkSpecifyExitRestartPing)
 #. i18n: ectx: property (toolTip), widget (QComboBox, cbSpecifyExitRestartPing)
@@ -573,29 +607,33 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:360 openvpnadvanced.ui:373 openvpnadvanced.ui:393
 #, kde-format
-msgid "Exit or restart after n seconds pass without reception of a ping or other packet from remote."
+msgid ""
+"Exit or restart after n seconds pass without reception of a ping or other pack"
+"et from remote."
 msgstr ""
+"ออกหรือเริ่มต้นใหม่หลังจากวินาทีที่ตั้งไว้ถ้าหากไม่ได้รับสัญญานปิงหรือแพ็กเก็ต"
+"อื่นจากริโมต"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSpecifyExitRestartPing)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:363
 #, kde-format
 msgid "Specify exit or restart ping:"
-msgstr ""
+msgstr "ตั้งค่าระยะเวลาออกหรือเริ่มต้นใหม่หลังจากการปิง:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbSpecifyExitRestartPing)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:377
 #, kde-format
 msgid "ping-exit"
-msgstr ""
+msgstr "ปิงออก"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbSpecifyExitRestartPing)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:382
 #, kde-format
 msgid "ping-restart"
-msgstr ""
+msgstr "ปิงเริ่มใหม่"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkAcceptAuthenticatedPackets)
 #. +> trunk6 stable6 stable5
@@ -603,23 +641,38 @@ msgstr ""
 #, kde-format
 msgid ""
 "Allow remote peer to change its IP address and/or port number such as due to\n"
-"DHCP (this is the default if --remote is not used). --float when specified with --remote\n"
+"DHCP (this is the default if --remote is not used). --float when specified wit"
+"h --remote\n"
 "allows an OpenVPN session to initially connect to a peer at a known address,\n"
-"however if packets arrive from a new address and pass all authentication tests, the\n"
-"new address will take control of the session. This is useful when you are connecting\n"
-"to a peer which holds a dynamic address such as a dial-in user or DHCP client.\n"
+"however if packets arrive from a new address and pass all authentication tests"
+", the\n"
+"new address will take control of the session. This is useful when you are conn"
+"ecting\n"
+"to a peer which holds a dynamic address such as a dial-in user or DHCP client."
 "\n"
 "\n"
-"Essentially, --float tells OpenVPN to accept authenticated packets from any address,\n"
+"\n"
+"Essentially, --float tells OpenVPN to accept authenticated packets from any ad"
+"dress,\n"
 "not only the address which was specified in the --remote option."
 msgstr ""
+"อนุญาตให้เพียร์ริโมตเปลี่ยนที่อยู่ IP และ/หรือเลขพอร์ต อาจจะเป็นเพราะ DHCP\n"
+"(ตัวเลือกนี้คือค่าเริ่มต้นถ้าหากไม่ได้ตั้งค่า --remote) ถ้าหากตั้งค่า --float "
+"กับ --remote\n"
+"ในเวลาเดียวกันจะเป็นการอนุญาตให้เซสชัน OpenVPN เชื่อมต่อไปยังที่อยู่เพียร์ที่ร"
+"ู้จักในตอนแรก\n"
+"แต่ถ้าหากแพ็กเก็ตมาจากที่อยู่ใหม่และผ่านการตรวจสอบทุกอย่าง ที่อยู่ใหม่จะชับช่ว"
+"งต่อแทน\n"
+"ที่อยู่เก่าจากเซสชันปัจจุบัน มีประโยชน์ต่อเมมื่อคุณกำลังเชื่อมต่อไปยังเพียร์ที"
+"่ใช้ที่อยู่ไม่คงที่\n"
+"เช่นผู้ใช้ dial-in หรือไคลเอนต์ DHCP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAcceptAuthenticatedPackets)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:423
 #, kde-format
 msgid "Accept authenticated packets from any address (Float)"
-msgstr ""
+msgstr "รับแพ็กเก็ตที่ตรวจสอบความถูกต้องแล้วจากที่อยู่ใดก็ได้ (Float)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkMaxRoutes)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbMaxRoutes)
@@ -627,21 +680,21 @@ msgstr ""
 #: openvpnadvanced.ui:432 openvpnadvanced.ui:445
 #, kde-format
 msgid "Specify the maximum number of routes the server is allowed to specify."
-msgstr ""
+msgstr "ตั้งค่าจำนวนสูงสุดของเส้นทางที่เซิร์ฟเวอร์สามารถกำหนดได้"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMaxRoutes)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:435
 #, kde-format
 msgid "Specify max routes:"
-msgstr ""
+msgstr "ตั้งค่าเส้นทางสูงสุด:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, securityTab)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:474
 #, kde-format
 msgid "Security"
-msgstr ""
+msgstr "ความปลอดภัย"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
 #. i18n: ectx: property (toolTip), widget (QComboBox, cboCipher)
@@ -649,53 +702,65 @@ msgstr ""
 #: openvpnadvanced.ui:483 openvpnadvanced.ui:509
 #, kde-format
 msgid ""
-"Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in Cipher\n"
+"Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in Ciph"
+"er\n"
 "Block Chaining mode)."
 msgstr ""
+"เข้ารหัสแพ็กเก็ตโดยอัลกอริทึมต่าง ๆ ค่าเริ่มต้นคือ BF-CBC (Blowfish in Chipher"
+" Block\n"
+"Chaining mode)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:486
 #, kde-format
 msgid "Cipher:"
-msgstr ""
+msgstr "การเข้ารหัส:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboCipher)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:513
 #, kde-format
 msgid "Obtaining available ciphers…"
-msgstr ""
+msgstr "กำลังหาวิธีการเข้ารหัสที่ใช้ได้..."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseCustomCipherKey)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbCustomCipherKey)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:525 openvpnadvanced.ui:541
 #, kde-format
-msgid "Set cipher key size to a custom value. If unspecified, it defaults to cipher-specific size."
+msgid ""
+"Set cipher key size to a custom value. If unspecified, it defaults to cipher-s"
+"pecific size."
 msgstr ""
+"ตั้งค่าขนาดกุญแจการเข้ารหัสให้เป็นค่าที่กำหนดเอง ถ้าไม่ได้ตั้งจะใช้ค่าเริ่มต้น"
+"ของการเข้ารหัสนั้น ๆ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseCustomCipherKey)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:531
 #, kde-format
 msgid "Use custom size of cipher key:"
-msgstr ""
+msgstr "ใช้ขนาดกุญแจการเข้ารหัสที่กำหนดเอง:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
 #. i18n: ectx: property (toolTip), widget (QComboBox, cboHmac)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:561 openvpnadvanced.ui:583
 #, kde-format
-msgid "Authenticate packets with HMAC using message digest algorithm. The default is SHA1."
+msgid ""
+"Authenticate packets with HMAC using message digest algorithm. The default is "
+"SHA1."
 msgstr ""
+"ตรวจสอบความถูกต้องของแพ็กเก็ตโดยใช้ HMAC กับอัลกอริทึมแยกแยะข้อความ ค่าเริ่มต้"
+"นคือ SHA1"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:564
 #, kde-format
 msgid "HMAC Authentication:"
-msgstr ""
+msgstr "การตรวจสอบความถูกต้อง HMAC:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboHmac)
 #. +> trunk6 stable6 stable5
@@ -703,7 +768,7 @@ msgstr ""
 #, kde-format
 msgctxt "like in use Default configuration"
 msgid "Default"
-msgstr ""
+msgstr "ค่าเริ่มต้น"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboHmac)
 #. i18n: ectx: property (text), item, widget (QComboBox, cboDirection)
@@ -712,70 +777,70 @@ msgstr ""
 #, kde-format
 msgctxt "like in None setting selected"
 msgid "None"
-msgstr ""
+msgstr "ไม่มี"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboHmac)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:597
 #, kde-format
 msgid "MD-4"
-msgstr ""
+msgstr "MD-4"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboHmac)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:602
 #, kde-format
 msgid "MD-5"
-msgstr ""
+msgstr "MD-5"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboHmac)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:607
 #, kde-format
 msgid "SHA-1"
-msgstr ""
+msgstr "SHA-1"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboHmac)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:612
 #, kde-format
 msgid "SHA-224"
-msgstr ""
+msgstr "SHA-224"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboHmac)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:617
 #, kde-format
 msgid "SHA-256"
-msgstr ""
+msgstr "SHA-256"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboHmac)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:622
 #, kde-format
 msgid "SHA-384"
-msgstr ""
+msgstr "SHA-384"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboHmac)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:627
 #, kde-format
 msgid "SHA-512"
-msgstr ""
+msgstr "SHA-512"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboHmac)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:632
 #, kde-format
 msgid "RIPEMD-160"
-msgstr ""
+msgstr "RIPEMD-160"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tlsTab)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:656
 #, kde-format
 msgid "TLS Settings"
-msgstr ""
+msgstr "การตั้งค่า TLS"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblCertCheck)
 #. i18n: ectx: property (toolTip), widget (QComboBox, cbCertCheck)
@@ -790,70 +855,79 @@ msgid ""
 "Matching can either apply to the whole certificate subject (all the fields),\n"
 "or just the Common Name (CN field).\n"
 msgstr ""
+"ยืนยันการตรวจสอบใบรับรองของเซิร์ฟเวอร์\n"
+"\n"
+"เมื่อเปิดตัวเลือกนี้ การเชื่อมต่อจะสำเร็จถ้าหากใบรับรองเซิร์ฟเวอร์ตรงกับคุณสมบ"
+"ัติที่ตั้งไว้เท่านั้น\n"
 
 #. i18n: ectx: property (text), widget (QLabel, lblCertCheck)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:673
 #, kde-format
 msgid "Server Certificate Check:"
-msgstr ""
+msgstr "ตรวจสอบใบรับรองเซิร์ฟเวอร์:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbCertCheck)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:690
 #, kde-format
 msgid "Don't verify certificate identification"
-msgstr ""
+msgstr "อย่ายืนยันการระบุตัวตนใบรับรอง"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbCertCheck)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:695
 #, kde-format
 msgid "Verify whole subject exactly"
-msgstr ""
+msgstr "ยืนยันทั้งหมดตรงเป๊ะ"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbCertCheck)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:700
 #, kde-format
 msgid "Verify name exactly"
-msgstr ""
+msgstr "ยืนยันชื่อตรงเป๊ะ"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbCertCheck)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:705
 #, kde-format
 msgid "Verify name by prefix"
-msgstr ""
+msgstr "ยืนยันชื่อโดยใช้คำหน้าชื่อ"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbCertCheck)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:710
 #, kde-format
 msgid "Verify subject partially (legacy mode, strongly discouraged)"
-msgstr ""
+msgstr "ยืนยันทั้งหมดเป็นส่วนหนึ่ง (โหมดโบราณ ไม่แนะนำเป็นอย่างมาก)"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lbSubjectMatch)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, subjectMatch)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:725 openvpnadvanced.ui:741
 #, kde-format
-msgid "Subject or Common Name to verify server certificate information against."
-msgstr ""
+msgid ""
+"Subject or Common Name to verify server certificate information against."
+msgstr "รายการหรือชื่อที่จะใช้เป็นข้อมูลยืนยันใบรับรองเซิร์ฟเวอร์"
 
 #. i18n: ectx: property (text), widget (QLabel, lbSubjectMatch)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:728
 #, kde-format
 msgid "Subject Match:"
-msgstr ""
+msgstr "รายการที่ตรงกัน:"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, subjectMatch)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:744
 #, kde-format
-msgid "Connect only to servers whose certificate matches the given subject. Example: /CN=myvpn.company.com"
+msgid ""
+"Connect only to servers whose certificate matches the given subject. Example: "
+"/CN=myvpn.company.com"
 msgstr ""
+"เชื่อมต่อไปยังที่เซิร์ฟเวอร์ที่ใบรับรองตรงกับรายการที่ใส่มา เช่น /CN=myvpn.com"
+"pany.com"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkRemoteCertTls)
 #. i18n: ectx: property (toolTip), widget (QLabel, labelRemoteCertTls)
@@ -862,23 +936,27 @@ msgstr ""
 #: openvpnadvanced.ui:757 openvpnadvanced.ui:773 openvpnadvanced.ui:787
 #, kde-format
 msgid ""
-"Require that peer certificate was signed with an explicit key usage and extended\n"
+"Require that peer certificate was signed with an explicit key usage and extend"
+"ed\n"
 "key usage based on RFC3280 TLS rules."
 msgstr ""
+"บังคับให้ใบรับรองเพียร์ต้องลงนามโดยกุญแจที่ระบุการใช้งานอย่างชัดเจนและระบุการใ"
+"ช้งาน\n"
+"อย่างเพิ่มเติมที่กำหมดไว้โดยกฏ TLS ใน RFC3280"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRemoteCertTls)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:760
 #, kde-format
 msgid "Verify peer (server) certificate usage signature"
-msgstr ""
+msgstr "ยืนยันการลงนามการใช้งานใบรับรองของเพียร์ (เซิร์ฟเวอร์)"
 
 #. i18n: ectx: property (text), widget (QLabel, labelRemoteCertTls)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:776
 #, kde-format
 msgid "Remote peer certificate TLS type:"
-msgstr ""
+msgstr "ชนิดใบรับรอง TLS ของเพียร์ริโมต:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbRemoteCertTls)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbNsCertType)
@@ -886,7 +964,7 @@ msgstr ""
 #: openvpnadvanced.ui:791 openvpnadvanced.ui:838
 #, kde-format
 msgid "Server"
-msgstr ""
+msgstr "เซิร์ฟเวอร์"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbRemoteCertTls)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbNsCertType)
@@ -894,7 +972,7 @@ msgstr ""
 #: openvpnadvanced.ui:796 openvpnadvanced.ui:843
 #, kde-format
 msgid "Client"
-msgstr ""
+msgstr "ไคลเอนต์"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkNsCertType)
 #. i18n: ectx: property (toolTip), widget (QLabel, lblNsCertType)
@@ -902,57 +980,60 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:806 openvpnadvanced.ui:821 openvpnadvanced.ui:834
 #, kde-format
-msgid "Require that peer certificate was signed with an explicit nsCertType designation."
+msgid ""
+"Require that peer certificate was signed with an explicit nsCertType designati"
+"on."
 msgstr ""
+"บังคับให้ใบรับรองเพียร์ถูกลงนามโดยใบรับรองที่ระบุ nsCertType อย่างชัดเจน"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkNsCertType)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:809
 #, kde-format
 msgid "Verify peer (server) certificate nsCertType designation"
-msgstr ""
+msgstr "ยืนยันใบรับรองเพียร์ที่ระบุ nsCertType"
 
 #. i18n: ectx: property (text), widget (QLabel, lblNsCertType)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:824
 #, kde-format
 msgid "Remote peer certificate nsCert designation:"
-msgstr ""
+msgstr "ใบรับรองของเพียร์ริโมตที่ระบุ nsCert:"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, useExtraTlsAuth)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:853
 #, kde-format
 msgid "Add an additional layer of HMAC authentication."
-msgstr ""
+msgstr "เพิ่มการรับรองความถูกต้องแบบ HMAC อีกชั้น"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:868
 #, kde-format
 msgid "Mode:"
-msgstr ""
+msgstr "โหมด:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboTLSMode)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:876
 #, kde-format
 msgid "None"
-msgstr ""
+msgstr "ไม่มี"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboTLSMode)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:881
 #, kde-format
 msgid "TLS-Auth"
-msgstr ""
+msgstr "TLS-Auth"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboTLSMode)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:886
 #, kde-format
 msgid "TLS-Crypt"
-msgstr ""
+msgstr "TLS-Crypt"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel4_3)
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, kurlTlsAuthKey)
@@ -960,16 +1041,19 @@ msgstr ""
 #: openvpnadvanced.ui:895 openvpnadvanced.ui:915
 #, kde-format
 msgid ""
-"Add an additional layer of HMAC authentication on top of the TLS control channel\n"
+"Add an additional layer of HMAC authentication on top of the TLS control chann"
+"el\n"
 "to protect against DoS attacks."
 msgstr ""
+"เพิ่มการรับรองความถูกต้องแบบ HMAC อีกชั้นบนช่องควบคุม TLS\n"
+"เพื่อที่จะป้องกันการโจมตี DoS"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4_3)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:898
 #, kde-format
 msgid "Key File:"
-msgstr ""
+msgstr "ไฟล์กุญแจ:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
 #. i18n: ectx: property (toolTip), widget (QComboBox, cboDirection)
@@ -977,28 +1061,28 @@ msgstr ""
 #: openvpnadvanced.ui:922 openvpnadvanced.ui:941
 #, kde-format
 msgid "Direction parameter for static key mode."
-msgstr ""
+msgstr "พารามิเตอร์ทิศทางสำหรับโหมดเข้ารหัสแบบกุญแจคงที่"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboDirection)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:950
 #, kde-format
 msgid "Server (0)"
-msgstr ""
+msgstr "เซิร์ฟเวอร์ (0)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cboDirection)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:955
 #, kde-format
 msgid "Client (1)"
-msgstr ""
+msgstr "ไคลเอนต์ (1)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, proxyTab)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:980
 #, kde-format
 msgid "Proxies"
-msgstr ""
+msgstr "พร็อกซี"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_11)
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbProxyType)
@@ -1006,42 +1090,46 @@ msgstr ""
 #: openvpnadvanced.ui:992 openvpnadvanced.ui:1017
 #, kde-format
 msgid "Proxy type: HTTP or SOCKS"
-msgstr ""
+msgstr "ชนิดพร็อกซี: HTTP หรือ SOCKS"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:995
 #, kde-format
 msgid "Proxy Type:"
-msgstr ""
+msgstr "ชนิดพร็อกซี"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProxyType)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:1021
 #, kde-format
 msgid "Not Required"
-msgstr ""
+msgstr "ไม่บังคับ"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProxyType)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:1026
 #, kde-format
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProxyType)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:1031
 #, kde-format
 msgid "SOCKS"
-msgstr ""
+msgstr "SOCKS"
 
 #. i18n: ectx: property (text), widget (QLabel, lbProxyType)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:1050
 #, kde-format
-msgid "Select this option if your organization requires the use of a proxy server to access the Internet."
+msgid ""
+"Select this option if your organization requires the use of a proxy server to "
+"access the Internet."
 msgstr ""
+"เลือกตัวเลือกนี้ถ้าองค์กรของคุณบังคับใช้เซิร์ฟเวอร์พร็อกซีเพื่อที่จะใช้งานอินเ"
+"ทอร์เน็ต"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_12)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, proxyServerAddress)
@@ -1049,14 +1137,14 @@ msgstr ""
 #: openvpnadvanced.ui:1060 openvpnadvanced.ui:1073
 #, kde-format
 msgid "Connect to remote host through a proxy with this address."
-msgstr ""
+msgstr "เชื่อมต่อไปยังโฮสต์ริโมตผ่านพร็อกซีโดยใช้ที่อยู่นี้"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:1063
 #, kde-format
 msgid "Server Address:"
-msgstr ""
+msgstr "ที่อยู่เซิร์ฟเวอร์:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_13)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, sbProxyPort)
@@ -1064,14 +1152,14 @@ msgstr ""
 #: openvpnadvanced.ui:1083 openvpnadvanced.ui:1102
 #, kde-format
 msgid "Connect to remote host through a proxy with this port."
-msgstr ""
+msgstr "เชื่อมต่อไปยังโฮสต์ริโมตผ่านพร็อกซีโดยใช้พอร์ตนี้"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:1086
 #, kde-format
 msgid "Port:"
-msgstr ""
+msgstr "พอร์ต:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_14)
 #. i18n: ectx: property (toolTip), widget (PasswordField, proxyUsername)
@@ -1079,14 +1167,14 @@ msgstr ""
 #: openvpnadvanced.ui:1112 openvpnadvanced.ui:1125
 #, kde-format
 msgid "HTTP/SOCKS proxy username passed to OpenVPN when prompted for it."
-msgstr ""
+msgstr "ชื่อผู้ใช้พร็อกซี HTTP/SOCKS ที่ส่งไปให้ OpenVPN เมื่อถูกขอ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:1115
 #, kde-format
 msgid "Proxy Username:"
-msgstr ""
+msgstr "ชื่อผู้ใช้พร็อกซี:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_15)
 #. i18n: ectx: property (toolTip), widget (PasswordField, proxyPassword)
@@ -1094,14 +1182,14 @@ msgstr ""
 #: openvpnadvanced.ui:1135 openvpnadvanced.ui:1150
 #, kde-format
 msgid "HTTP/SOCKS proxy password passed to OpenVPN when prompted for it."
-msgstr ""
+msgstr "รหัสผ่านพร็อกซี HTTP/SOCKS ที่ส่งไปให้ OpenVPN เมื่อถูกขอ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:1138 openvpnauth.cpp:84 openvpnauth.cpp:121
 #, kde-format
 msgid "Proxy Password:"
-msgstr ""
+msgstr "รหัสผพร็อกซี"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkProxyRetry)
 #. +> trunk6 stable6 stable5
@@ -1109,74 +1197,75 @@ msgstr ""
 #, kde-format
 msgid "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset."
 msgstr ""
+"ลองไปเรื่อย ๆ ถ้าหากพบข้อผิดพลาด ตัวเลือกนี้จำลองสัญญานเริ่มใหม่ SIGUSR1"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkProxyRetry)
 #. +> trunk6 stable6 stable5
 #: openvpnadvanced.ui:1165
 #, kde-format
 msgid "Retry indefinitely when errors occur"
-msgstr ""
+msgstr "ลองไปเรื่อย ๆ ไม่มีวันจบถ้าหากข้อผิดพลาด"
 
 #. +> trunk6 stable6 stable5
 #: openvpnadvancedwidget.cpp:82
 #, kde-format
 msgctxt "@title: window advanced openvpn properties"
 msgid "Advanced OpenVPN properties"
-msgstr ""
+msgstr "การตั้งค่า OpenVPN ขั้นสูง"
 
 #. +> trunk6 stable6 stable5
 #: openvpnadvancedwidget.cpp:154 openvpnadvancedwidget.cpp:183
 #, kde-format
 msgctxt "@item:inlistbox Item added when OpenVPN cipher lookup failed"
 msgid "OpenVPN cipher lookup failed"
-msgstr ""
+msgstr "การดูวิธีการเข้ารหัสของ OpenVPN ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: openvpnadvancedwidget.cpp:161
 #, kde-format
 msgctxt "@item::inlist Default openvpn cipher item"
 msgid "Default"
-msgstr ""
+msgstr "ค่าเริ่มต้น"
 
 #. +> trunk6 stable6 stable5
 #: openvpnadvancedwidget.cpp:180
 #, kde-format
 msgctxt "@item:inlistbox Item added when OpenVPN cipher lookup failed"
 msgid "No OpenVPN ciphers found"
-msgstr ""
+msgstr "ไม่เจอวิธีการเข้ารหัสของ OpenVPN"
 
 #. +> trunk6 stable6 stable5
 #: openvpnauth.cpp:82 openvpnauth.cpp:114
 #, kde-format
 msgid "Key Password:"
-msgstr ""
+msgstr "รหัสผ่านกุญแจ:"
 
 #. +> trunk6 stable6 stable5
 #: openvpnauth.cpp:95
 #, kde-format
 msgid "OTP"
-msgstr ""
+msgstr "OTP"
 
 #. +> trunk6 stable6 stable5
 #: openvpnauth.cpp:95
 #, kde-format
 msgid "authenticator"
-msgstr ""
+msgstr "ตัวรับรองความถูกต้อง"
 
 #. +> trunk6 stable6 stable5
 #: openvpnauth.cpp:95
 #, kde-format
 msgid "code"
-msgstr ""
+msgstr "โค๊ต"
 
 #. +> trunk6 stable6 stable5
 #: openvpnauth.cpp:95
 #, kde-format
 msgid "token"
-msgstr ""
+msgstr "โทเคน"
 
 #. +> trunk6 stable6 stable5
 #: openvpnauth.cpp:95
 #, kde-format
 msgid "one-time password"
-msgstr ""
+msgstr "รหัสผ่านครั้งเดียว"
