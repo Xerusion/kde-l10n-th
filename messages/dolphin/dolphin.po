@@ -14,19 +14,21 @@
 # SPDX-FileCopyrightText: 2025 SPDX-FileCopyrightText :
 # SPDX-FileCopyrightText: 2025 SPDX-FileCopyrightText :
 # SPDX-FileCopyrightText: 2025 SPDX-FileCopyrightText :
+# SPDX-FileCopyrightText: 2025 Tawan Phumphon <tawanlemon@yahoo.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-18 11:46+0100\n"
-"PO-Revision-Date: 2025-03-17 01:01+0700\n"
-"Last-Translator: อติรุจ วัฒนะมงคล <atirut.wattanamongkol@gmail.com>\n"
+"POT-Creation-Date: 2025-03-09 09:43+0100\n"
+"PO-Revision-Date: 2025-03-18 20:36+0700\n"
+"Last-Translator: Tawan Phumphon <tawan0981@outlook.co.th>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #. +> trunk6 stable6
 #, kde-format
@@ -45,58 +47,62 @@ msgstr "drrider@gmail.com, donga.nb@gmail.com"
 #, kde-format
 msgctxt "@info label above the view explaining the state"
 msgid "Acting as an Administrator — Be careful!"
-msgstr ""
+msgstr "โปรดระวัง! — การทำหน้าที่เป็นผู้ดูแลระบบ"
 
 #. +> trunk6 stable6
 #: admin/bar.cpp:46
 #, kde-format
 msgctxt "@info label above the view explaining the state, keep short"
 msgid "Acting as Admin"
-msgstr ""
+msgstr "ทำหน้าที่เป็นผู้ดูแลระบบ"
 
 #. +> trunk6 stable6
 #: admin/bar.cpp:55
 #, kde-format
 msgctxt "@action:button Finish/Stop/Done acting as an admin"
 msgid "Finish"
-msgstr ""
+msgstr "เสร็จสิ้น"
 
 #. +> trunk6 stable6
 #: admin/bar.cpp:57
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Finish acting as an administrator"
-msgstr ""
+msgstr "เสร็จสิ้นการทำหน้าที่เป็นผู้ดูแลระบบ"
 
 #. +> trunk6 stable6
 #: admin/bar.cpp:140
 #, kde-format
 msgctxt "@action:button shown after acting as admin ended"
 msgid "Act as Administrator Again"
-msgstr ""
+msgstr "ทำหน้าที่เป็นผู้ดูแลระบบอีกครั้ง"
 
 #. +> trunk6 stable6
 #: admin/bar.cpp:148
 #, kde-format
 msgctxt "@info"
 msgid "Administrator authorization has expired."
-msgstr ""
+msgstr "สิทธิ์ของผู้ดูแลระบบหมดอายุแล้ว"
 
 #. +> trunk6 stable6
 #: admin/workerintegration.cpp:33
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Act as Administrator"
-msgstr ""
+msgstr "ทำหน้าที่เป็นผู้ดูแลระบบ"
 
 #. +> trunk6 stable6
 #: admin/workerintegration.cpp:54
 #, kde-kuit-format
 msgctxt "@info:shell"
 msgid ""
-"<application>Dolphin</application> requires <application>%1</application> to manage system-controlled files, but it is not installed.<nl/>"
+"<application>Dolphin</application> requires <application>%1</application> to m"
+"anage system-controlled files, but it is not installed.<nl/>"
 "Press %2 to install <application>%1</application> or %3 to cancel."
 msgstr ""
+"<application>Dolphin</application> กำหนดให้ <application>%1</application> เพื่"
+"อจัดการไฟล์ที่ควบคุมโดยระบบ แต่ไม่ได้ติดตั้ง<nl/>"
+"กด %2 เพือติดตั้ง  <application>%1</application> หรือ %3 เพือยกเลิก"
 
 #. +> trunk6 stable6
 #: admin/workerintegration.cpp:76
@@ -117,26 +123,45 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>Make use of your administrator rights in Dolphin:<numberedlist><numbereditem>Navigate to the file or folder you want to change.</numbereditem><numbereditem>Activate the \"%1\" action either under <interface>Open Menu|More|View</interface> or <interface>Menu Bar|View</interface>.<nl/>"
-"Default shortcut: <shortcut>%2</shortcut></numbereditem><numbereditem>After authorization you can manage files as an administrator.</numbereditem></numberedlist></para>"
+"<para>Make use of your administrator rights in Dolphin:<numberedlist><numbered"
+"item>Navigate to the file or folder you want to change.</numbereditem><numbere"
+"ditem>Activate the \"%1\" action either under <interface>Open Menu|More|View</"
+"interface> or <interface>Menu Bar|View</interface>.<nl/>"
+"Default shortcut: <shortcut>%2</shortcut></numbereditem><numbereditem>After au"
+"thorization you can manage files as an administrator.</numbereditem></numbered"
+"list></para>"
 msgstr ""
+"<para>ใช้สิทธิ์ผู้ดูแลระบบของคุณใน Dolphin:<numberedlist><numbered"
+"item>ไปที่ไฟล์หรือโฟลเดอร์ที่คุณต้องการเปลี่ยนแปลง</numbereditem><numbere"
+"ditem>เปิดใช้งานการดำเนินการ \"%1\" ภายใต้ <interface>เปิดเมนู|เพิ่มเติม|ดู</"
+"interface> หรือ <interface>แถบเมนู|มุมมอง</interface>.<nl/>"
+"ทางลัดเริ่มต้น: <shortcut>%2</shortcut></numbereditem><numbereditem>หลังจากได้"
+"รับอนุญาตแล้ว คุณสามารถจัดการไฟล์ในฐานะผู้ดูแลระบบได้</numbereditem></numbered"
+"list></para>"
 
 #. +> trunk6 stable6
 #: admin/workerintegration.cpp:89
 #, kde-format
 msgctxt "@title:window"
 msgid "How to Administrate"
-msgstr ""
+msgstr "วิธีการบริหารจัดการ"
 
 #. +> trunk6 stable6
 #: admin/workerintegration.cpp:98
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>You are about to use administrator privileges. While acting as an administrator you can change or replace any file or folder on this system. This includes items which are critical for this system to function.</para>"
-"<para>You are able to <emphasis>delete every users' data</emphasis> on this computer and to <emphasis>break this installation beyond repair.</emphasis> Adding just one letter in a folder or file name or its contents can render a system <emphasis>unbootable.</emphasis></para>"
-"<para>There is probably not going to be another warning even if you are about to break this system.</para>"
-"<para>You might want to <emphasis>backup files and folders</emphasis> before proceeding.</para>"
+"<para>You are about to use administrator privileges. While acting as an admini"
+"strator you can change or replace any file or folder on this system. This incl"
+"udes items which are critical for this system to function.</para>"
+"<para>You are able to <emphasis>delete every users' data</emphasis> on this co"
+"mputer and to <emphasis>break this installation beyond repair.</emphasis> Addi"
+"ng just one letter in a folder or file name or its contents can render a syste"
+"m <emphasis>unbootable.</emphasis></para>"
+"<para>There is probably not going to be another warning even if you are about "
+"to break this system.</para>"
+"<para>You might want to <emphasis>backup files and folders</emphasis> before p"
+"roceeding.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -144,21 +169,21 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Risks of Acting as an Administrator"
-msgstr ""
+msgstr "ความเสี่ยงในการทำหน้าที่เป็นผู้ดูแลระบบ"
 
 #. +> trunk6 stable6
 #: admin/workerintegration.cpp:163
 #, kde-format
 msgctxt "@action:button"
 msgid "I Understand and Accept These Risks"
-msgstr ""
+msgstr "ฉันเข้าใจและยอมรับความเสี่ยงเหล่านี้"
 
 #. +> trunk6 stable6
 #: admin/workerintegration.cpp:165
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not warn me about these risks again"
-msgstr ""
+msgstr "อย่าเตือนฉันเกี่ยวกับความเสี่ยงเหล่านี้อีก"
 
 #. +> trunk6 stable6
 #: dolphincontextmenu.cpp:125
@@ -172,13 +197,16 @@ msgstr "เทถังขยะทิ้ง"
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Navigation Bar"
 #| msgid "Replace Location"
-msgctxt "@action:inmenu Restore the selected files that are in the trash to the place they lived at the moment they were trashed. Minimize the length of this string if possible."
+msgctxt ""
+"@action:inmenu Restore the selected files that are in the trash to the place t"
+"hey lived at the moment they were trashed. Minimize the length of this string "
+"if possible."
 msgid "Restore to Former Location"
 msgid_plural "Restore to Former Locations"
 msgstr[0] "แทนที่ตำแหน่ง"
 
 #. +> trunk6 stable6
-#: dolphincontextmenu.cpp:212 dolphinmainwindow.cpp:1724
+#: dolphincontextmenu.cpp:212 dolphinmainwindow.cpp:1723
 #, kde-format
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
@@ -210,141 +238,149 @@ msgstr "เปิดเป็นหน้าต่างใหม่"
 #. +> trunk6 stable6
 #: dolphincontextmenu.cpp:487
 #, kde-format
-msgctxt "@action:inmenu Shortcut, middle click to trigger menu item, keep short"
+msgctxt ""
+"@action:inmenu Shortcut, middle click to trigger menu item, keep short"
 msgid "Middle Click"
-msgstr ""
+msgstr "คลิกตรงกลาง"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:350
+#: dolphinmainwindow.cpp:349
 #, kde-format
 msgctxt "@info:status"
 msgid "Successfully copied."
 msgstr "ทำการคัดลอกเสร็จสมบูรณ์แล้ว"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:353
+#: dolphinmainwindow.cpp:352
 #, kde-format
 msgctxt "@info:status"
 msgid "Successfully moved."
 msgstr "ทำการย้ายเสร็จสมบูรณ์แล้ว"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:356
+#: dolphinmainwindow.cpp:355
 #, kde-format
 msgctxt "@info:status"
 msgid "Successfully linked."
 msgstr "ทำการเชื่อมโยงเสร็จสมบูรณ์แล้ว"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:359
+#: dolphinmainwindow.cpp:358
 #, kde-format
 msgctxt "@info:status"
 msgid "Successfully moved to trash."
 msgstr "ทำการทิ้งลงถังขยะเสร็จสมบูรณ์แล้ว"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:362
+#: dolphinmainwindow.cpp:361
 #, kde-format
 msgctxt "@info:status"
 msgid "Successfully renamed."
 msgstr "ทำการเปลี่ยนชื่อเรียบร้อยแล้ว"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:366
+#: dolphinmainwindow.cpp:365
 #, kde-format
 msgctxt "@info:status"
 msgid "Created folder."
 msgstr "โฟลเดอร์ที่สร้าง"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:441
+#: dolphinmainwindow.cpp:440
 #, kde-format
 msgctxt "@info"
 msgid "Go back"
 msgstr "ย้อนกลับ"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:442
+#: dolphinmainwindow.cpp:441
 #, kde-format
 msgctxt "@info:whatsthis go back"
 msgid "Return to the previously viewed folder."
-msgstr ""
+msgstr "กลับไปยังโฟลเดอร์ที่ดูก่อนหน้านี้"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:448
+#: dolphinmainwindow.cpp:447
 #, kde-format
 msgctxt "@info"
 msgid "Go forward"
 msgstr "ถัดไป"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:449
+#: dolphinmainwindow.cpp:448
 #, kde-kuit-format
 msgctxt "@info:whatsthis go forward"
 msgid "This undoes a <interface>Go|Back</interface> action."
-msgstr ""
+msgstr "นี่จะยกเลิก <interface>ไป|กลับ</interface> การกระทำ."
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:639 dolphinmainwindow.cpp:685
+#: dolphinmainwindow.cpp:638 dolphinmainwindow.cpp:684
 #, kde-format
 msgctxt "@title:window"
 msgid "Confirmation"
 msgstr "การยืนยัน"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:643
+#: dolphinmainwindow.cpp:642
 #, kde-format
 msgctxt "@action:button 'Quit Dolphin' button"
 msgid "&Quit %1"
-msgstr ""
+msgstr "&เลิก %1"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:645
+#: dolphinmainwindow.cpp:644
 #, kde-format
 msgid "C&lose Current Tab"
 msgstr "&ปิดแท็บปัจจุบัน"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:654
+#: dolphinmainwindow.cpp:653
 #, kde-format
-msgid "You have multiple tabs open in this window, are you sure you want to quit?"
-msgstr "คุณได้ทำการเปิดแท็บไว้หลายแท็บในหน้าต่างนี้ แน่ใจหรือว่าต้องการจะออกจากโปรแกรม ?"
+msgid ""
+"You have multiple tabs open in this window, are you sure you want to quit?"
+msgstr ""
+"คุณได้ทำการเปิดแท็บไว้หลายแท็บในหน้าต่างนี้ แน่ใจหรือว่าต้องการจะออกจากโปรแกรม"
+" ?"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:656 dolphinmainwindow.cpp:706
+#: dolphinmainwindow.cpp:655 dolphinmainwindow.cpp:705
 #, kde-format
 msgid "Do not ask again"
 msgstr "ไม่ต้องถามอีก"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:694
+#: dolphinmainwindow.cpp:693
 #, kde-format
 msgid "Show &Terminal Panel"
-msgstr ""
+msgstr "แสดง &แผงเทอร์มินัล"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:704
+#: dolphinmainwindow.cpp:703
 #, fuzzy, kde-format
 #| msgid "You have multiple tabs open in this window, are you sure you want to quit?"
-msgid "The program '%1' is still running in the Terminal panel. Are you sure you want to quit?"
-msgstr "คุณได้ทำการเปิดแท็บไว้หลายแท็บในหน้าต่างนี้ แน่ใจหรือว่าต้องการจะออกจากโปรแกรม ?"
+msgid ""
+"The program '%1' is still running in the Terminal panel. Are you sure you want"
+" to quit?"
+msgstr ""
+"คุณได้ทำการเปิดแท็บไว้หลายแท็บในหน้าต่างนี้ แน่ใจหรือว่าต้องการจะออกจากโปรแกรม"
+" ?"
+
+#. +> trunk6 stable6
+#: dolphinmainwindow.cpp:910
+#, kde-format
+msgctxt "@info"
+msgid "Cannot paste: The clipboard is empty."
+msgstr "ไม่สามารถวางได้: คลิปบอร์ดว่างเปล่า"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:911
 #, kde-format
 msgctxt "@info"
-msgid "Cannot paste: The clipboard is empty."
-msgstr ""
-
-#. +> trunk6 stable6
-#: dolphinmainwindow.cpp:912
-#, kde-format
-msgctxt "@info"
 msgid "Cannot paste: You do not have permission to write into this folder."
-msgstr ""
+msgstr "ไม่สามารถวางได้: คุณไม่มีสิทธิ์ในการเขียนลงในโฟลเดอร์นี้"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1311
+#: dolphinmainwindow.cpp:1310
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Path"
@@ -353,7 +389,7 @@ msgid "Open %1"
 msgstr "ตำแหน่ง"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1320 dolphinmainwindow.cpp:2080
+#: dolphinmainwindow.cpp:1319 dolphinmainwindow.cpp:2079
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Search Toolbar"
@@ -362,14 +398,14 @@ msgid "Open Preferred Search Tool"
 msgstr "แถบเครื่องมือค้นหา"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1360
+#: dolphinmainwindow.cpp:1359
 #, kde-format
 msgid "Are you sure you want to open 1 terminal window?"
 msgid_plural "Are you sure you want to open %1 terminal windows?"
-msgstr[0] ""
+msgstr[0] "คุณแน่ใจว่าต้องการเปิดหรือไม่ %1 หน้าต่างเทอร์มินัล"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1365
+#: dolphinmainwindow.cpp:1364
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Open Terminal"
@@ -379,21 +415,25 @@ msgid_plural "Open %1 Terminals"
 msgstr[0] "เปิดเทอร์มินัล"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1466
+#: dolphinmainwindow.cpp:1465
 #, kde-format
 msgctxt "@info"
-msgid "Cannot create new file: You do not have permission to create items in this folder."
-msgstr ""
+msgid ""
+"Cannot create new file: You do not have permission to create items in this fol"
+"der."
+msgstr "ไม่สามารถสร้างไฟล์ใหม่ได้: คุณไม่มีสิทธิ์สร้างในโฟลเดอร์นี้"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1468
+#: dolphinmainwindow.cpp:1467
 #, kde-format
 msgctxt "@info"
-msgid "Cannot create new folder: You do not have permission to create items in this folder."
-msgstr ""
+msgid ""
+"Cannot create new folder: You do not have permission to create items in this f"
+"older."
+msgstr "ไม่สามารถสร้างโฟลเดอร์ใหม่ได้: คุณไม่มีสิทธิ์สร้างในโฟลเดอร์นี้"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1567
+#: dolphinmainwindow.cpp:1566
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Configure..."
@@ -402,14 +442,14 @@ msgid "Configure"
 msgstr "ปรับแต่ง..."
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1730
+#: dolphinmainwindow.cpp:1729
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "เปิด&หน้าต่างใหม่"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1731
+#: dolphinmainwindow.cpp:1730
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open Path in New Window"
@@ -418,53 +458,59 @@ msgid "Open a new Dolphin window"
 msgstr "เปิดเป็นหน้าต่างใหม่"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1733
+#: dolphinmainwindow.cpp:1732
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
 "This opens a new window just like this one with the current location.<nl/>"
 "You can drag and drop items between windows."
 msgstr ""
+"นี่จะเปิดหน้าต่างใหม่เหมือนกับหน้าต่างนี้พร้อมกับตำแหน่งปัจจุบัน<nl/>"
+"คุณสามารถลากและวางรายการระหว่างหน้าต่างได้"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1740
+#: dolphinmainwindow.cpp:1739
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "เปิดแท็บใหม่"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1742
+#: dolphinmainwindow.cpp:1741
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
 "This opens a new <emphasis>Tab</emphasis> with the current location.<nl/>"
-"Tabs allow you to quickly switch between multiple locations and views within this window. You can drag and drop items between tabs."
+"Tabs allow you to quickly switch between multiple locations and views within t"
+"his window. You can drag and drop items between tabs."
 msgstr ""
+"นี่เป็นการเปิดใหม่ <emphasis>แท็บ</emphasis> พร้อมที่อยู่ปัจจุบัน<nl/> "
+"แท็บช่วยให้คุณสลับไปมาระหว่างตำแหน่งและมุมมองต่างๆ ภายในหน้าต่างนี้ได้อย่างรวด"
+"เร็ว คุณสามารถลากและวางรายการระหว่างแท็บได้"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1751
+#: dolphinmainwindow.cpp:1750
 #, kde-format
 msgctxt "@action:inmenu Add current folder to places"
 msgid "Add to Places"
 msgstr "เพิ่มเข้าที่หลัก ๆ"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1753
+#: dolphinmainwindow.cpp:1752
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "This adds the selected folder to the Places panel."
-msgstr ""
+msgstr "นี่จะเพิ่มโฟลเดอร์ที่เลือกวางในแผง"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1758
+#: dolphinmainwindow.cpp:1757
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "ปิดแท็บ"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1759
+#: dolphinmainwindow.cpp:1758
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu File"
 #| msgid "Close Tab"
@@ -473,44 +519,66 @@ msgid "Close Tab"
 msgstr "ปิดแท็บ"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1761
+#: dolphinmainwindow.cpp:1760
 #, kde-format
 msgctxt "@info:whatsthis"
-msgid "This closes the currently viewed tab. If no more tabs are left, this closes the whole window instead."
+msgid ""
+"This closes the currently viewed tab. If no more tabs are left, this closes th"
+"e whole window instead."
 msgstr ""
+"การดำเนินการนี้จะปิดแท็บที่กำลังดูอยู่ในขณะนี้ หากไม่มีแท็บเหลืออยู่ ระบบจะปิด"
+"หน้าต่างทั้งหมดแทน"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1766
+#: dolphinmainwindow.cpp:1765
 #, kde-format
 msgctxt "@info:whatsthis quit"
 msgid "This closes this window."
-msgstr ""
+msgstr "นี่จะปิดหน้าต่างนี้"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1774
+#: dolphinmainwindow.cpp:1773
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
-msgid "<para><emphasis>Cut, Copy</emphasis> and <emphasis>Paste</emphasis> work between many applications and are among the most used commands. That's why their <emphasis>keyboard shortcuts</emphasis> are prominently placed right next to each other on the keyboard: <shortcut>Ctrl+X</shortcut>, <shortcut>Ctrl+C</shortcut> and <shortcut>Ctrl+V</shortcut>.</para>"
+msgid ""
+"<para><emphasis>Cut, Copy</emphasis> and <emphasis>Paste</emphasis> work betwe"
+"en many applications and are among the most used commands. That's why their <e"
+"mphasis>keyboard shortcuts</emphasis> are prominently placed right next to eac"
+"h other on the keyboard: <shortcut>Ctrl+X</shortcut>, <shortcut>Ctrl+C</shortc"
+"ut> and <shortcut>Ctrl+V</shortcut>.</para>"
 msgstr ""
+"<para><emphasis>ตัด, คัดลอก</emphasis> และ <emphasis>วาง</emphasis> ทำงานระหว่"
+"างแอปพลิเคชันต่างๆ และเป็นหนึ่งในคำสั่งที่ใช้บ่อยที่สุด นั่นเป็นเหตุผลว่าทำไม "
+"<e"
+"mphasis>แป้นพิมพ์ลัด</emphasis> วางไว้อย่างเด่นชัดข้างๆ กันบนแป้นพิมพ์: <short"
+"cut>Ctrl+X</shortcut>, <shortcut>Ctrl+C</shortc"
+"ut> และ <shortcut>Ctrl+V</shortcut>.</para>"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1781
+#: dolphinmainwindow.cpp:1780
 #, kde-format
 msgctxt "@action"
 msgid "Cut…"
-msgstr ""
+msgstr "ตัด..."
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1783
+#: dolphinmainwindow.cpp:1782
 #, kde-kuit-format
 msgctxt "@info:whatsthis cut"
 msgid ""
-"This copies the items in your current selection to the <emphasis>clipboard</emphasis>.<nl/>"
-"Use the <emphasis>Paste</emphasis> action afterwards to copy them from the clipboard to a new location. The items will be removed from their initial location."
+"This copies the items in your current selection to the <emphasis>clipboard</em"
+"phasis>.<nl/>"
+"Use the <emphasis>Paste</emphasis> action afterwards to copy them from the cli"
+"pboard to a new location. The items will be removed from their initial locatio"
+"n."
 msgstr ""
+"นี่จะคัดลอกรายการในการเลือกปัจจุบันของคุณไปยัง <emphasis>คลิปบอร์ด</em"
+"phasis>.<nl/>"
+"ใช้ <emphasis>วาง</emphasis> การดำเนินการในภายหลังเพื่อคัดลอกรายการจากคลิปบอร์"
+"ดไปยังตำแหน่งใหม่ รายการจะถูกลบออกจากตำแหน่งเริ่มต้น"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1790
+#: dolphinmainwindow.cpp:1789
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Copy"
@@ -519,53 +587,69 @@ msgid "Copy…"
 msgstr "คัดลอก"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1792
+#: dolphinmainwindow.cpp:1791
 #, kde-kuit-format
 msgctxt "@info:whatsthis copy"
 msgid ""
-"This copies the items in your current selection to the <emphasis>clipboard</emphasis>.<nl/>"
-"Use the <emphasis>Paste</emphasis> action afterwards to copy them from the clipboard to a new location."
+"This copies the items in your current selection to the <emphasis>clipboard</em"
+"phasis>.<nl/>"
+"Use the <emphasis>Paste</emphasis> action afterwards to copy them from the cli"
+"pboard to a new location."
 msgstr ""
+"นี่จะคัดลอกรายการในการเลือกปัจจุบันของคุณไปยัง <emphasis>คลิปบอร์ด</em"
+"phasis>.<nl/>"
+"ใช้ <emphasis>วาง</emphasis> ดำเนินการภายหลังเพื่อคัดลอกจากคลิปบอร์ดไปยังตำแหน"
+"่งใหม่"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1801
+#: dolphinmainwindow.cpp:1800
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Paste"
 msgstr "วาง"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1803
+#: dolphinmainwindow.cpp:1802
 #, kde-kuit-format
 msgctxt "@info:whatsthis paste"
 msgid ""
-"This copies the items from your <emphasis>clipboard</emphasis> to the currently viewed folder.<nl/>"
-"If the items were added to the clipboard by the <emphasis>Cut</emphasis> action they are removed from their old location."
+"This copies the items from your <emphasis>clipboard</emphasis> to the currentl"
+"y viewed folder.<nl/>"
+"If the items were added to the clipboard by the <emphasis>Cut</emphasis> actio"
+"n they are removed from their old location."
 msgstr ""
+"นี่จะคัดลอกรายการของคุณ <emphasis>คลิปบอร์ด</emphasis> ไปยังโฟลเดอร์ที่กำลังดู"
+"ในปัจจุบัน<nl/>"
+"หากรายการถูกเพิ่มไปยังคลิปบอร์ดโดยการ <emphasis>ตัด</emphasis> การดำเนินการนั้"
+"นจะถูกลบออกจากตำแหน่งเดิม"
+
+#. +> trunk6 stable6
+#: dolphinmainwindow.cpp:1809
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy to Other View"
+msgstr "คัดลอกไปยังมุมมองอื่น"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:1810
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Copy to Other View"
-msgstr ""
-
-#. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1811
-#, kde-format
-msgctxt "@action:inmenu"
 msgid "Copy to Other View…"
-msgstr ""
+msgstr "คัดลอกไปยังมุมมองอื่น"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1813
+#: dolphinmainwindow.cpp:1812
 #, kde-kuit-format
 msgctxt "@info:whatsthis Copy"
-msgid "This copies the selected items from the view in focus to the other view. (Only available while in Split View mode.)"
+msgid ""
+"This copies the selected items from the view in focus to the other view. (Only"
+" available while in Split View mode.)"
 msgstr ""
+"การดำเนินการนี้จะคัดลอกรายการที่เลือกจากมุมมองที่โฟกัสไปยังมุมมองอื่น (ใช้ได้เ"
+"ฉพาะในโหมด Split View เท่านั้น)"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1817
+#: dolphinmainwindow.cpp:1816
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Move to Trash"
@@ -574,7 +658,7 @@ msgid "Copy to Other View"
 msgstr "ทิ้งลงถังขยะ"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1822
+#: dolphinmainwindow.cpp:1821
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Move to Trash"
@@ -583,7 +667,7 @@ msgid "Move to Other View"
 msgstr "ทิ้งลงถังขยะ"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1823
+#: dolphinmainwindow.cpp:1822
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu File"
 #| msgid "Move to Trash"
@@ -592,14 +676,18 @@ msgid "Move to Other View…"
 msgstr "ทิ้งลงถังขยะ"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1825
+#: dolphinmainwindow.cpp:1824
 #, kde-kuit-format
 msgctxt "@info:whatsthis Move"
-msgid "This moves the selected items from the view in focus to the other view. (Only available while in Split View mode.)"
+msgid ""
+"This moves the selected items from the view in focus to the other view. (Only "
+"available while in Split View mode.)"
 msgstr ""
+"การดำเนินการนี้จะย้ายรายการที่เลือกจากมุมมองที่โฟกัสไปยังมุมมองอื่น (ใช้ได้เฉพ"
+"าะในโหมด Split View เท่านั้น)"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1829
+#: dolphinmainwindow.cpp:1828
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Move to Trash"
@@ -608,7 +696,7 @@ msgid "Move to Other View"
 msgstr "ทิ้งลงถังขยะ"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1834
+#: dolphinmainwindow.cpp:1833
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Filter:"
@@ -617,7 +705,7 @@ msgid "Filter…"
 msgstr "กรอง:"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1835
+#: dolphinmainwindow.cpp:1834
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Show Filter Bar"
@@ -626,16 +714,22 @@ msgid "Show Filter Bar"
 msgstr "แสดงแถบตัวกรอง"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1837
+#: dolphinmainwindow.cpp:1836
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"This opens the <emphasis>Filter Bar</emphasis> at the bottom of the window.<nl/>"
-" There you can enter text to filter the files and folders currently displayed. Only those that contain the text in their name will be kept in view."
+"This opens the <emphasis>Filter Bar</emphasis> at the bottom of the window.<nl"
+"/>"
+" There you can enter text to filter the files and folders currently displayed."
+" Only those that contain the text in their name will be kept in view."
 msgstr ""
+"นี่จะเปิด<emphasis>แถบตัวกรอง</emphasis> ที่ด้านล่างของหน้าต่าง<nl"
+"/>"
+" คุณสามารถป้อนข้อความเพื่อกรองไฟล์และโฟลเดอร์ที่แสดงในขณะนั้นได้"
+" จะเก็บไว้เฉพาะส่วนที่มีข้อความอยู่ในชื่อเท่านั้น"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1849
+#: dolphinmainwindow.cpp:1848
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Show Search Bar"
@@ -644,7 +738,7 @@ msgid "Toggle Filter Bar"
 msgstr "แสดงแถบค้นหา"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1850
+#: dolphinmainwindow.cpp:1849
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Filter:"
@@ -653,7 +747,7 @@ msgid "Filter"
 msgstr "กรอง:"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1858 search/dolphinsearchbox.cpp:350
+#: dolphinmainwindow.cpp:1857 search/dolphinsearchbox.cpp:350
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Search"
@@ -661,7 +755,7 @@ msgid "Search…"
 msgstr "ค้นหา"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1859
+#: dolphinmainwindow.cpp:1858
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Show preview of files and folders"
@@ -670,16 +764,19 @@ msgid "Search for files and folders"
 msgstr "แสดงตัวอย่างของแฟ้มและโฟลเดอร์"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1861
+#: dolphinmainwindow.cpp:1860
 #, kde-kuit-format
 msgctxt "@info:whatsthis find"
 msgid ""
-"<para>This helps you find files and folders by opening a <emphasis>search bar</emphasis>. There you can enter search terms and specify settings to find the items you are looking for.</para>"
-"<para>Use this help again on the search bar so we can have a look at it while the settings are explained.</para>"
+"<para>This helps you find files and folders by opening a <emphasis>search bar<"
+"/emphasis>. There you can enter search terms and specify settings to find the "
+"items you are looking for.</para>"
+"<para>Use this help again on the search bar so we can have a look at it while "
+"the settings are explained.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1872
+#: dolphinmainwindow.cpp:1871
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Show Search Bar"
@@ -688,7 +785,7 @@ msgid "Toggle Search Bar"
 msgstr "แสดงแถบค้นหา"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1873
+#: dolphinmainwindow.cpp:1872
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Search"
@@ -698,7 +795,7 @@ msgstr "ค้นหา"
 
 #. i18n: This action toggles a selection mode.
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1881
+#: dolphinmainwindow.cpp:1880
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Select Files and Folders"
@@ -707,7 +804,7 @@ msgstr "เลือกแฟ้มและโฟลเดอร์"
 #. i18n: Opens a selection mode for selecting files/folders.
 #. The text is kept so unspecific because it will be shown on the toolbar where space is at a premium.
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1884
+#: dolphinmainwindow.cpp:1883
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Select"
@@ -716,68 +813,78 @@ msgid "Select"
 msgstr "เลือก"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1887
+#: dolphinmainwindow.cpp:1886
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This application only knows which files or folders should be acted on if they are <emphasis>selected</emphasis> first. Press this to toggle a <emphasis>Selection Mode</emphasis> which makes selecting and deselecting as easy as pressing an item once.</para>"
-"<para>While in this mode, a quick access bar at the bottom shows available actions for the currently selected items.</para>"
+"<para>This application only knows which files or folders should be acted on if"
+" they are <emphasis>selected</emphasis> first. Press this to toggle a <emphasi"
+"s>Selection Mode</emphasis> which makes selecting and deselecting as easy as p"
+"ressing an item once.</para>"
+"<para>While in this mode, a quick access bar at the bottom shows available act"
+"ions for the currently selected items.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1910
+#: dolphinmainwindow.cpp:1909
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "This selects all files and folders in the current location."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1914 dolphinpart.cpp:169
+#: dolphinmainwindow.cpp:1913 dolphinpart.cpp:169
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "กลับค่าการเลือก"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1916
+#: dolphinmainwindow.cpp:1915
 #, kde-kuit-format
 msgctxt "@info:whatsthis invert"
-msgid "This selects all items that you have currently <emphasis>not</emphasis> selected instead."
+msgid ""
+"This selects all items that you have currently <emphasis>not</emphasis> select"
+"ed instead."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1936
+#: dolphinmainwindow.cpp:1935
 #, kde-kuit-format
 msgctxt "@info:whatsthis split"
 msgid ""
-"<para>This presents a second view side-by-side with the current view, so you can see the contents of two folders at once and easily move items between them.</para>"
+"<para>This presents a second view side-by-side with the current view, so you c"
+"an see the contents of two folders at once and easily move items between them."
+"</para>"
 "<para>The view that is not \"in focus\" will be dimmed. </para>"
 "Click this button again to close one of the views."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1951
+#: dolphinmainwindow.cpp:1950
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
-msgid "If the view has been split, this will pop the view in focus out into a new window."
+msgid ""
+"If the view has been split, this will pop the view in focus out into a new win"
+"dow."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1959
+#: dolphinmainwindow.cpp:1958
 #, kde-format
 msgctxt "@action:intoolbar Stash"
 msgid "Stash"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1960
+#: dolphinmainwindow.cpp:1959
 #, kde-format
 msgctxt "@info"
 msgid "Opens the stash virtual directory in a split window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1968
+#: dolphinmainwindow.cpp:1967
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Preview"
@@ -786,68 +893,75 @@ msgid "Refresh view"
 msgstr "แสดงตัวอย่าง"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1970
+#: dolphinmainwindow.cpp:1969
 #, kde-kuit-format
 msgctxt "@info:whatsthis refresh"
 msgid ""
 "<para>This refreshes the folder view.</para>"
-"<para>If the contents of this folder have changed, refreshing will re-scan this folder and show you a newly-updated view of the files and folders contained here.</para>"
-"<para>If the view is split, this refreshes the one that is currently in focus.</para>"
+"<para>If the contents of this folder have changed, refreshing will re-scan thi"
+"s folder and show you a newly-updated view of the files and folders contained "
+"here.</para>"
+"<para>If the view is split, this refreshes the one that is currently in focus."
+"</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1977
+#: dolphinmainwindow.cpp:1976
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "หยุด"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1978
+#: dolphinmainwindow.cpp:1977
 #, kde-format
 msgctxt "@info"
 msgid "Stop loading"
 msgstr "หยุดการโหลด"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1979
+#: dolphinmainwindow.cpp:1978
 #, kde-format
 msgctxt "@info"
 msgid "This stops the loading of the contents of the current folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1984
+#: dolphinmainwindow.cpp:1983
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "ตำแหน่งแบบแก้ไขได้"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1986
+#: dolphinmainwindow.cpp:1985
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"This toggles the <emphasis>Location Bar</emphasis> to be editable so you can directly enter a location you want to go to.<nl/>"
-"You can also switch to editing by clicking to the right of the location and switch back by confirming the edited location."
+"This toggles the <emphasis>Location Bar</emphasis> to be editable so you can d"
+"irectly enter a location you want to go to.<nl/>"
+"You can also switch to editing by clicking to the right of the location and sw"
+"itch back by confirming the edited location."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1994
+#: dolphinmainwindow.cpp:1993
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "แทนที่ตำแหน่ง"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:1999
+#: dolphinmainwindow.cpp:1998
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
-msgid "This switches to editing the location and selects it so you can quickly enter a different location."
+msgid ""
+"This switches to editing the location and selects it so you can quickly enter "
+"a different location."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2029
+#: dolphinmainwindow.cpp:2028
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu File"
 #| msgid "Close Tab"
@@ -856,40 +970,44 @@ msgid "Undo close tab"
 msgstr "ปิดแท็บ"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2030
+#: dolphinmainwindow.cpp:2029
 #, kde-format
 msgctxt "@info:whatsthis undo close tab"
 msgid "This returns you to the previously closed tab."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2038
+#: dolphinmainwindow.cpp:2037
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
 "This undoes the last change you made to files or folders.<nl/>"
-"Such changes include <interface>creating</interface>, <interface>renaming</interface> and <interface>moving</interface> them to a different location or to the <filename>Trash</filename>. <nl/>"
+"Such changes include <interface>creating</interface>, <interface>renaming</int"
+"erface> and <interface>moving</interface> them to a different location or to t"
+"he <filename>Trash</filename>. <nl/>"
 "Any changes that cannot be undone will ask for your confirmation beforehand."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2067
+#: dolphinmainwindow.cpp:2066
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Go to your <filename>Home</filename> folder.<nl/>"
-"Every user account has their own <filename>Home</filename> that contains their personal files, as well as hidden folders for their applications' data and configuration files."
+"Every user account has their own <filename>Home</filename> that contains their"
+" personal files, as well as hidden folders for their applications' data and co"
+"nfiguration files."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2074
+#: dolphinmainwindow.cpp:2073
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "เปรียบเทียบแฟ้ม"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2082
+#: dolphinmainwindow.cpp:2081
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -898,64 +1016,72 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2096
+#: dolphinmainwindow.cpp:2089
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr "เปิดเทอร์มินัล"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2098
+#: dolphinmainwindow.cpp:2091
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This opens a <emphasis>terminal</emphasis> application for the viewed location.</para>"
-"<para>To learn more about terminals use the help features in the terminal application.</para>"
+"<para>This opens a <emphasis>terminal</emphasis> application for the viewed lo"
+"cation.</para>"
+"<para>To learn more about terminals use the help features in the terminal appl"
+"ication.</para>"
 msgstr ""
 
 #. i18n: "Here" refers to the location(s) of the currently selected item(s) or the currently viewed location if nothing is selected.
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2106
+#: dolphinmainwindow.cpp:2099
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Open Terminal Here"
 msgstr "เปิดเทอร์มินัลที่นี่"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2108
+#: dolphinmainwindow.cpp:2101
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This opens <emphasis>terminal</emphasis> applications for the selected items' locations.</para>"
-"<para>To learn more about terminals use the help features in the terminal application.</para>"
+"<para>This opens <emphasis>terminal</emphasis> applications for the selected i"
+"tems' locations.</para>"
+"<para>To learn more about terminals use the help features in the terminal appl"
+"ication.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2116
+#: dolphinmainwindow.cpp:2109
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2126
+#: dolphinmainwindow.cpp:2119
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This switches between having a <emphasis>Menubar</emphasis> and having an <interface>%1</interface> button. Both contain mostly the same actions and configuration options.</para>"
-"<para>The Menubar takes up more space but allows for fast and organized access to all actions an application has to offer.</para>"
-"<para>The %1 button is simpler and small which makes triggering advanced actions more time consuming.</para>"
+"<para>This switches between having a <emphasis>Menubar</emphasis> and having a"
+"n <interface>%1</interface> button. Both contain mostly the same actions and c"
+"onfiguration options.</para>"
+"<para>The Menubar takes up more space but allows for fast and organized access"
+" to all actions an application has to offer.</para>"
+"<para>The %1 button is simpler and small which makes triggering advanced actio"
+"ns more time consuming.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2151
+#: dolphinmainwindow.cpp:2144
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go to Tab %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2164
+#: dolphinmainwindow.cpp:2157
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Activate Next Tab"
@@ -964,7 +1090,7 @@ msgid "Last Tab"
 msgstr "เปิดใช้แท็บถัดไป"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2165
+#: dolphinmainwindow.cpp:2158
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Activate Next Tab"
@@ -973,7 +1099,7 @@ msgid "Go to Last Tab"
 msgstr "เปิดใช้แท็บถัดไป"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2171
+#: dolphinmainwindow.cpp:2164
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "New Tab"
@@ -982,7 +1108,7 @@ msgid "Next Tab"
 msgstr "เปิดแท็บใหม่"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2172
+#: dolphinmainwindow.cpp:2165
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "New Tab"
@@ -991,7 +1117,7 @@ msgid "Go to Next Tab"
 msgstr "เปิดแท็บใหม่"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2178
+#: dolphinmainwindow.cpp:2171
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Activate Previous Tab"
@@ -1000,7 +1126,7 @@ msgid "Previous Tab"
 msgstr "เปิดใช้แท็บก่อนหน้า"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2179
+#: dolphinmainwindow.cpp:2172
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Activate Previous Tab"
@@ -1009,7 +1135,7 @@ msgid "Go to Previous Tab"
 msgstr "เปิดใช้แท็บก่อนหน้า"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2186
+#: dolphinmainwindow.cpp:2179
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -1018,14 +1144,14 @@ msgid "Show Target"
 msgstr "แสดงทูลทิป"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2192
+#: dolphinmainwindow.cpp:2185
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "เปิดเป็นแท็บใหม่"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2197
+#: dolphinmainwindow.cpp:2190
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Open in New Tab"
@@ -1034,14 +1160,14 @@ msgid "Open in New Tabs"
 msgstr "เปิดเป็นแท็บใหม่"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2202
+#: dolphinmainwindow.cpp:2195
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "เปิดเป็นหน้าต่างใหม่"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2207 panels/places/placespanel.cpp:45
+#: dolphinmainwindow.cpp:2200 panels/places/placespanel.cpp:45
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Go"
 #| msgid "App&lications"
@@ -1050,7 +1176,7 @@ msgid "Open in Split View"
 msgstr "โ&ปรแกรม"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2223
+#: dolphinmainwindow.cpp:2216
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Panels"
@@ -1059,7 +1185,7 @@ msgid "Unlock Panels"
 msgstr "แถบพาเนล"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2225
+#: dolphinmainwindow.cpp:2218
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Panels"
@@ -1068,124 +1194,146 @@ msgid "Lock Panels"
 msgstr "แถบพาเนล"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2228
+#: dolphinmainwindow.cpp:2221
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"This switches between having panels <emphasis>locked</emphasis> or <emphasis>unlocked</emphasis>.<nl/>"
-"Unlocked panels can be dragged to the other side of the window and have a close button.<nl/>"
+"This switches between having panels <emphasis>locked</emphasis> or <emphasis>u"
+"nlocked</emphasis>.<nl/>"
+"Unlocked panels can be dragged to the other side of the window and have a clos"
+"e button.<nl/>"
 "Locked panels are embedded more cleanly."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2237
+#: dolphinmainwindow.cpp:2230
 #, kde-format
 msgctxt "@title:window"
 msgid "Information"
 msgstr "ข้อมูล"
 
 #. +> trunk6 stable6
+#: dolphinmainwindow.cpp:2253
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>To show or hide panels like this go to <interface>Menu|Panels</interface"
+"> or <interface>View|Panels</interface>.</para>"
+msgstr ""
+
+#. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2260
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
-msgid "<para>To show or hide panels like this go to <interface>Menu|Panels</interface> or <interface>View|Panels</interface>.</para>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2267
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
 msgid ""
-"<para> This toggles the <emphasis>information</emphasis> panel at the right side of the window.</para>"
-"<para>The panel provides in-depth information about the items your mouse is hovering over or about the selected items. Otherwise it informs you about the currently viewed folder.<nl/>"
+"<para> This toggles the <emphasis>information</emphasis> panel at the right si"
+"de of the window.</para>"
+"<para>The panel provides in-depth information about the items your mouse is ho"
+"vering over or about the selected items. Otherwise it informs you about the cu"
+"rrently viewed folder.<nl/>"
 "For single items a preview of their contents is provided.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2275
+#: dolphinmainwindow.cpp:2268
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This panel provides in-depth information about the items your mouse is hovering over or about the selected items. Otherwise it informs you about the currently viewed folder.<nl/>"
+"<para>This panel provides in-depth information about the items your mouse is h"
+"overing over or about the selected items. Otherwise it informs you about the c"
+"urrently viewed folder.<nl/>"
 "For single items a preview of their contents is provided.</para>"
-"<para>You can configure which and how details are given here by right-clicking.</para>"
+"<para>You can configure which and how details are given here by right-clicking"
+".</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2284
+#: dolphinmainwindow.cpp:2277
 #, kde-format
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "โฟลเดอร์"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2304
+#: dolphinmainwindow.cpp:2297
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"This toggles the <emphasis>folders</emphasis> panel at the left side of the window.<nl/>"
+"This toggles the <emphasis>folders</emphasis> panel at the left side of the wi"
+"ndow.<nl/>"
 "<nl/>"
-"It shows the folders of the <emphasis>file system</emphasis> in a <emphasis>tree view</emphasis>."
+"It shows the folders of the <emphasis>file system</emphasis> in a <emphasis>tr"
+"ee view</emphasis>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2309
+#: dolphinmainwindow.cpp:2302
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This panel shows the folders of the <emphasis>file system</emphasis> in a <emphasis>tree view</emphasis>.</para>"
-"<para>Click a folder to go there. Click the arrow to the left of a folder to see its subfolders. This allows quick switching between any folders.</para>"
+"<para>This panel shows the folders of the <emphasis>file system</emphasis> in "
+"a <emphasis>tree view</emphasis>.</para>"
+"<para>Click a folder to go there. Click the arrow to the left of a folder to s"
+"ee its subfolders. This allows quick switching between any folders.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2319
+#: dolphinmainwindow.cpp:2312
 #, kde-format
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "เทอร์มินัล"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2344
+#: dolphinmainwindow.cpp:2337
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This toggles the <emphasis>terminal</emphasis> panel at the bottom of the window.<nl/>"
-"The location in the terminal will always match the folder view so you can navigate using either.</para>"
-"<para>The terminal panel is not needed for basic computer usage but can be useful for advanced tasks. To learn more about terminals use the help features in a standalone terminal application like Konsole.</para>"
+"<para>This toggles the <emphasis>terminal</emphasis> panel at the bottom of th"
+"e window.<nl/>"
+"The location in the terminal will always match the folder view so you can navi"
+"gate using either.</para>"
+"<para>The terminal panel is not needed for basic computer usage but can be use"
+"ful for advanced tasks. To learn more about terminals use the help features in"
+" a standalone terminal application like Konsole.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2352
+#: dolphinmainwindow.cpp:2345
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This is the <emphasis>terminal</emphasis> panel. It behaves like a normal terminal but will match the location of the folder view so you can navigate using either.</para>"
-"<para>The terminal panel is not needed for basic computer usage but can be useful for advanced tasks. To learn more about terminals use the help features in a standalone terminal application like Konsole.</para>"
+"<para>This is the <emphasis>terminal</emphasis> panel. It behaves like a norma"
+"l terminal but will match the location of the folder view so you can navigate "
+"using either.</para>"
+"<para>The terminal panel is not needed for basic computer usage but can be use"
+"ful for advanced tasks. To learn more about terminals use the help features in"
+" a standalone terminal application like Konsole.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2362 dolphinmainwindow.cpp:2957
+#: dolphinmainwindow.cpp:2355 dolphinmainwindow.cpp:2950
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Focus Terminal Panel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2363
+#: dolphinmainwindow.cpp:2356
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Move keyboard focus to and from the Terminal panel."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2376
+#: dolphinmainwindow.cpp:2369
 #, kde-format
 msgctxt "@title:window"
 msgid "Places"
 msgstr "ที่หลัก ๆ"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2404
+#: dolphinmainwindow.cpp:2397
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Show Hidden Files"
@@ -1194,10 +1342,24 @@ msgid "Show Hidden Places"
 msgstr "แสดงแฟ้มที่ซ่อนไว้"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2408
+#: dolphinmainwindow.cpp:2401
 #, kde-format
 msgctxt "@info:whatsthis"
-msgid "This displays all places in the places panel that have been hidden. They will appear semi-transparent and allow you to uncheck their \"Hide\" property."
+msgid ""
+"This displays all places in the places panel that have been hidden. They will "
+"appear semi-transparent and allow you to uncheck their \"Hide\" property."
+msgstr ""
+
+#. +> trunk6 stable6
+#: dolphinmainwindow.cpp:2413
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This toggles the <emphasis>places</emphasis> panel at the left side of t"
+"he window.</para>"
+"<para>It allows you to go to locations you have bookmarked and to access disk "
+"or media attached to the computer or to the network. It also contains sections"
+" to find recently saved files or files of a certain type.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1205,36 +1367,33 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This toggles the <emphasis>places</emphasis> panel at the left side of the window.</para>"
-"<para>It allows you to go to locations you have bookmarked and to access disk or media attached to the computer or to the network. It also contains sections to find recently saved files or files of a certain type.</para>"
+"<para>This is the <emphasis>Places</emphasis> panel. It allows you to go to lo"
+"cations you have bookmarked and to access disk or media attached to the comput"
+"er or to the network. It also contains sections to find recently saved files o"
+"r files of a certain type.</para>"
+"<para>Click on an entry to go there. Click with the right mouse button instead"
+" to open any entry in a new tab or new window.</para>"
+"<para>New entries can be added by dragging folders onto this panel. Right-clic"
+"k any section or entry to hide it. Right-click an empty space on this panel an"
+"d select <interface>Show Hidden Places</interface> to display it again.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2427
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>This is the <emphasis>Places</emphasis> panel. It allows you to go to locations you have bookmarked and to access disk or media attached to the computer or to the network. It also contains sections to find recently saved files or files of a certain type.</para>"
-"<para>Click on an entry to go there. Click with the right mouse button instead to open any entry in a new tab or new window.</para>"
-"<para>New entries can be added by dragging folders onto this panel. Right-click any section or entry to hide it. Right-click an empty space on this panel and select <interface>Show Hidden Places</interface> to display it again.</para>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2441 dolphinmainwindow.cpp:2975
+#: dolphinmainwindow.cpp:2434 dolphinmainwindow.cpp:2968
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Focus Places Panel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2442
+#: dolphinmainwindow.cpp:2435
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Move keyboard focus to and from the Places panel."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2448
+#: dolphinmainwindow.cpp:2441
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu View"
 #| msgid "Panels"
@@ -1243,107 +1402,120 @@ msgid "Show Panels"
 msgstr "แถบพาเนล"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2517
+#: dolphinmainwindow.cpp:2510
 #, kde-format
 msgctxt "@info"
-msgid "Cannot rename: You do not have permission to rename items in this folder."
+msgid ""
+"Cannot rename: You do not have permission to rename items in this folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2520 dolphinmainwindow.cpp:2537
+#: dolphinmainwindow.cpp:2513 dolphinmainwindow.cpp:2530
 #, kde-format
 msgctxt "@info"
-msgid "Cannot delete: You do not have permission to remove items from this folder."
+msgid ""
+"Cannot delete: You do not have permission to remove items from this folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2522
+#: dolphinmainwindow.cpp:2515
 #, kde-format
 msgctxt "@info"
 msgid "Cannot cut: You do not have permission to move items from this folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2527
+#: dolphinmainwindow.cpp:2520
 #, kde-format
 msgctxt "@info"
-msgid "Cannot duplicate here: You do not have permission to create items in this folder."
+msgid ""
+"Cannot duplicate here: You do not have permission to create items in this fold"
+"er."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2549
+#: dolphinmainwindow.cpp:2542
 #, kde-format
 msgctxt "@info"
 msgid "Cannot copy to other view: No files selected."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2551
+#: dolphinmainwindow.cpp:2544
 #, kde-format
 msgctxt "@info"
 msgid "Cannot move to other view: No files selected."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2570
+#: dolphinmainwindow.cpp:2563
 #, kde-format
 msgctxt "@info"
 msgid "Cannot copy to other view: The other view already contains these items."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2573
+#: dolphinmainwindow.cpp:2566
 #, kde-format
 msgctxt "@info"
 msgid "Cannot move to other view: The other view already contains these items."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2578
+#: dolphinmainwindow.cpp:2571
 #, kde-format
 msgctxt "@info"
-msgid "Cannot copy to other view: You do not have permission to write into the destination folder."
+msgid ""
+"Cannot copy to other view: You do not have permission to write into the destin"
+"ation folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2582
+#: dolphinmainwindow.cpp:2575
 #, kde-format
 msgctxt "@info"
-msgid "Cannot move to other view: You do not have permission to write into the destination folder."
+msgid ""
+"Cannot move to other view: You do not have permission to write into the destin"
+"ation folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2588
+#: dolphinmainwindow.cpp:2581
 #, kde-format
 msgctxt "@info"
-msgid "Cannot move to other view: You do not have permission to move items from this folder."
+msgid ""
+"Cannot move to other view: You do not have permission to move items from this "
+"folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2612
+#: dolphinmainwindow.cpp:2605
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Go to the folder that contains the currently viewed one.</para>"
-"<para>All files and folders are organized in a hierarchical <emphasis>file system</emphasis>. At the top of this hierarchy is a directory that contains all data connected to this computer—the <emphasis>root directory</emphasis>.</para>"
+"<para>All files and folders are organized in a hierarchical <emphasis>file sys"
+"tem</emphasis>. At the top of this hierarchy is a directory that contains all "
+"data connected to this computer—the <emphasis>root directory</emphasis>.</para"
+">"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2703
+#: dolphinmainwindow.cpp:2696
 #, kde-format
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "ปิด"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2704
+#: dolphinmainwindow.cpp:2697
 #, kde-format
 msgctxt "@info"
 msgid "Close left view"
 msgstr "ปิดมุมมองด้านซ้าย"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2706
+#: dolphinmainwindow.cpp:2699
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Close left view"
@@ -1352,35 +1524,35 @@ msgid "Close Left View"
 msgstr "ปิดมุมมองด้านซ้าย"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2708
+#: dolphinmainwindow.cpp:2701
 #, kde-format
 msgctxt "@action:intoolbar Move left view to a new window"
 msgid "Pop out Left View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2709
+#: dolphinmainwindow.cpp:2702
 #, kde-format
 msgctxt "@info"
 msgid "Move left view to a new window"
-msgstr ""
+msgstr "ย้ายมุมมองด้านซ้ายไปยังหน้าต่างใหม่"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2711
+#: dolphinmainwindow.cpp:2704
 #, kde-format
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "ปิด"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2712
+#: dolphinmainwindow.cpp:2705
 #, kde-format
 msgctxt "@info"
 msgid "Close right view"
 msgstr "ปิดมุมมองด้านขวา"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2714
+#: dolphinmainwindow.cpp:2707
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Close right view"
@@ -1389,38 +1561,51 @@ msgid "Close Right View"
 msgstr "ปิดมุมมองด้านขวา"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2716
+#: dolphinmainwindow.cpp:2709
 #, kde-format
 msgctxt "@action:intoolbar Move right view to a new window"
 msgid "Pop out Right View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2717
+#: dolphinmainwindow.cpp:2710
 #, kde-format
 msgctxt "@info"
 msgid "Move right view to a new window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2726
+#: dolphinmainwindow.cpp:2719
 #, kde-format
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "แบ่ง"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2728
+#: dolphinmainwindow.cpp:2721
 #, kde-format
 msgctxt "@info"
 msgid "Split view"
 msgstr "แบ่งมุมมอง"
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2730
+#: dolphinmainwindow.cpp:2723
 #, kde-format
 msgctxt "@action:intoolbar Move view in focus to a new window"
 msgid "Pop out"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dolphinmainwindow.cpp:2777
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This is the <emphasis>Menubar</emphasis>. It provides access to commands"
+" and configuration options. Left-click on any of the menus on this bar to see "
+"its contents.</para>"
+"<para>The Menubar can be hidden by unchecking <interface>Settings|Show Menubar"
+"</interface>. Then most of its contents become available through a <interface>"
+"Menu</interface> button on the <emphasis>Toolbar</emphasis>.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1428,53 +1613,68 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This is the <emphasis>Menubar</emphasis>. It provides access to commands and configuration options. Left-click on any of the menus on this bar to see its contents.</para>"
-"<para>The Menubar can be hidden by unchecking <interface>Settings|Show Menubar</interface>. Then most of its contents become available through a <interface>Menu</interface> button on the <emphasis>Toolbar</emphasis>.</para>"
+"<para>This is the <emphasis>Toolbar</emphasis>. It allows quick access to freq"
+"uently used actions.</para>"
+"<para>It is highly customizable. All items you see in the <interface>Menu</int"
+"erface> or in the <interface>Menubar</interface> can be placed on the Toolbar."
+" Just right-click on it and select <interface>Configure Toolbars…</interface> "
+"or find this action within the <interface>menu</interface>.</para>"
+"<para>The location of the bar and the style of its buttons can also be changed"
+" in the right-click menu. Right-click a button if you want to show or hide its"
+" text.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2791
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>This is the <emphasis>Toolbar</emphasis>. It allows quick access to frequently used actions.</para>"
-"<para>It is highly customizable. All items you see in the <interface>Menu</interface> or in the <interface>Menubar</interface> can be placed on the Toolbar. Just right-click on it and select <interface>Configure Toolbars…</interface> or find this action within the <interface>menu</interface>.</para>"
-"<para>The location of the bar and the style of its buttons can also be changed in the right-click menu. Right-click a button if you want to show or hide its text.</para>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2803
+#: dolphinmainwindow.cpp:2796
 #, kde-kuit-format
 msgctxt "@info:whatsthis main view"
 msgid ""
-"<para>Here you can see the <emphasis>folders</emphasis> and <emphasis>files</emphasis> that are at the location described in the <interface>Location Bar</interface> above. This area is the central part of this application where you navigate to the files you want to use.</para>"
-"<para>For an elaborate and general introduction to this application <link url='https://userbase.kde.org/Dolphin/File_Management#Introduction_to_Dolphin'>click here</link>. This will open an introductory article from the <emphasis>KDE UserBase Wiki</emphasis>.</para>"
-"<para>For brief explanations of all the features of this <emphasis>view</emphasis> <link url='help:/dolphin/dolphin-view.html'>click here</link> instead. This will open a page from the <emphasis>Handbook</emphasis> that covers the basics.</para>"
+"<para>Here you can see the <emphasis>folders</emphasis> and <emphasis>files</e"
+"mphasis> that are at the location described in the <interface>Location Bar</in"
+"terface> above. This area is the central part of this application where you na"
+"vigate to the files you want to use.</para>"
+"<para>For an elaborate and general introduction to this application <link url="
+"'https://userbase.kde.org/Dolphin/File_Management#Introduction_to_Dolphin'>cli"
+"ck here</link>. This will open an introductory article from the <emphasis>KDE "
+"UserBase Wiki</emphasis>.</para>"
+"<para>For brief explanations of all the features of this <emphasis>view</empha"
+"sis> <link url='help:/dolphin/dolphin-view.html'>click here</link> instead. Th"
+"is will open a page from the <emphasis>Handbook</emphasis> that covers the bas"
+"ics.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2819
+#: dolphinmainwindow.cpp:2812
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This opens a window that lists the <emphasis>keyboard shortcuts</emphasis>.<nl/>"
-"There you can set up key combinations to trigger an action when they are pressed simultaneously. All commands in this application can be triggered this way.</para>"
+"<para>This opens a window that lists the <emphasis>keyboard shortcuts</emphasi"
+"s>.<nl/>"
+"There you can set up key combinations to trigger an action when they are press"
+"ed simultaneously. All commands in this application can be triggered this way."
+"</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2825
+#: dolphinmainwindow.cpp:2818
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This opens a window in which you can change which buttons appear on the <emphasis>Toolbar</emphasis>.</para>"
-"<para>All items you see in the <interface>Menu</interface> can also be placed on the Toolbar.</para>"
+"<para>This opens a window in which you can change which buttons appear on the "
+"<emphasis>Toolbar</emphasis>.</para>"
+"<para>All items you see in the <interface>Menu</interface> can also be placed "
+"on the Toolbar.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2829
+#: dolphinmainwindow.cpp:2822
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
-msgid "This opens a window where you can change a multitude of settings for this application. For an explanation of the various settings go to the chapter <emphasis>Configuring Dolphin</emphasis> in <interface>Help|Dolphin Handbook</interface>."
+msgid ""
+"This opens a window where you can change a multitude of settings for this appl"
+"ication. For an explanation of the various settings go to the chapter <emphasi"
+"s>Configuring Dolphin</emphasis> in <interface>Help|Dolphin Handbook</interfac"
+"e>."
 msgstr ""
 
 #. i18n: If the external link isn't available in your language it might make
@@ -1483,84 +1683,108 @@ msgstr ""
 #. know with a reasonable chance you might want to have 2 external links.
 #. The same might be true for any external link you translate.
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2849
+#: dolphinmainwindow.cpp:2842
 #, kde-kuit-format
 msgctxt "@info:whatsthis handbook"
 msgid ""
-"<para>This opens the Handbook for this application. It provides explanations for every part of <emphasis>Dolphin</emphasis>.</para>"
-"<para>If you want more elaborate introductions to the different features of <emphasis>Dolphin</emphasis> <link url='https://userbase.kde.org/Dolphin/File_Management'>click here</link>. It will open the dedicated page in the KDE UserBase Wiki.</para>"
+"<para>This opens the Handbook for this application. It provides explanations f"
+"or every part of <emphasis>Dolphin</emphasis>.</para>"
+"<para>If you want more elaborate introductions to the different features of <e"
+"mphasis>Dolphin</emphasis> <link url='https://userbase.kde.org/Dolphin/File_Ma"
+"nagement'>click here</link>. It will open the dedicated page in the KDE UserBa"
+"se Wiki.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2854
+#: dolphinmainwindow.cpp:2847
 #, kde-kuit-format
 msgctxt "@info:whatsthis whatsthis button"
 msgid ""
-"<para>This is the button that invokes the help feature you are using right now! Click it, then click any component of this application to ask \"What's this?\" about it. The mouse cursor will change appearance if no help is available for a spot.</para>"
-"<para>There are two other ways to get help: The <link url='help:/dolphin/index.html'>Dolphin Handbook</link> and the <link url='https://userbase.kde.org/Dolphin/File_Management'>KDE UserBase Wiki</link>.</para>"
-"<para>The \"What's this?\" help is missing in most other windows so don't get too used to this.</para>"
+"<para>This is the button that invokes the help feature you are using right now"
+"! Click it, then click any component of this application to ask \"What's this?"
+"\" about it. The mouse cursor will change appearance if no help is available f"
+"or a spot.</para>"
+"<para>There are two other ways to get help: The <link url='help:/dolphin/index"
+".html'>Dolphin Handbook</link> and the <link url='https://userbase.kde.org/Dol"
+"phin/File_Management'>KDE UserBase Wiki</link>.</para>"
+"<para>The \"What's this?\" help is missing in most other windows so don't get "
+"too used to this.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2865
+#: dolphinmainwindow.cpp:2858
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This opens a window that will guide you through reporting errors or flaws in this application or in other KDE software.</para>"
-"<para>High-quality bug reports are much appreciated. To learn how to make your bug report as effective as possible <link url='https://community.kde.org/Get_Involved/Bug_Reporting'>click here</link>.</para>"
+"<para>This opens a window that will guide you through reporting errors or flaw"
+"s in this application or in other KDE software.</para>"
+"<para>High-quality bug reports are much appreciated. To learn how to make your"
+" bug report as effective as possible <link url='https://community.kde.org/Get_"
+"Involved/Bug_Reporting'>click here</link>.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2874
+#: dolphinmainwindow.cpp:2867
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>This opens a <emphasis>web page</emphasis> where you can donate to support the continued work on this application and many other projects by the <emphasis>KDE</emphasis> community.</para>"
-"<para>Donating is the easiest and fastest way to efficiently support KDE and its projects. KDE projects are available for free therefore your donation is needed to cover things that require money like servers, contributor meetings, etc.</para>"
-"<para><emphasis>KDE e.V.</emphasis> is the non-profit organization behind the KDE community.</para>"
+"<para>This opens a <emphasis>web page</emphasis> where you can donate to suppo"
+"rt the continued work on this application and many other projects by the <emph"
+"asis>KDE</emphasis> community.</para>"
+"<para>Donating is the easiest and fastest way to efficiently support KDE and i"
+"ts projects. KDE projects are available for free therefore your donation is ne"
+"eded to cover things that require money like servers, contributor meetings, et"
+"c.</para>"
+"<para><emphasis>KDE e.V.</emphasis> is the non-profit organization behind the "
+"KDE community.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2887
+#: dolphinmainwindow.cpp:2880
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
 "With this you can change the language this application uses.<nl/>"
-"You can even set secondary languages which will be used if texts are not available in your preferred language."
+"You can even set secondary languages which will be used if texts are not avail"
+"able in your preferred language."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2892
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid "This opens a window that informs you about the version, license, used libraries and maintainers of this application."
-msgstr ""
-
-#. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2897
+#: dolphinmainwindow.cpp:2885
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"This opens a window with information about <emphasis>KDE</emphasis>. The KDE community are the people behind this free software.<nl/>"
-"If you like using this application but don't know about KDE or want to see a cute dragon have a look!"
+"This opens a window that informs you about the version, license, used librarie"
+"s and maintainers of this application."
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2951 dolphinmainwindow.cpp:2962
+#: dolphinmainwindow.cpp:2890
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This opens a window with information about <emphasis>KDE</emphasis>. The KDE c"
+"ommunity are the people behind this free software.<nl/>"
+"If you like using this application but don't know about KDE or want to see a c"
+"ute dragon have a look!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dolphinmainwindow.cpp:2944 dolphinmainwindow.cpp:2955
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Defocus Terminal Panel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2969
+#: dolphinmainwindow.cpp:2962
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Defocus Terminal Panel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dolphinmainwindow.cpp:2980
+#: dolphinmainwindow.cpp:2973
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Defocus Places Panel"
@@ -1621,7 +1845,9 @@ msgstr ""
 #. +> trunk6 stable6
 #: dolphinpackageinstaller.cpp:108
 #, kde-kuit-format
-msgctxt "@info:shell %1 is package name, %2 is error message, %3 is error e.g. 'ErrorNoNetwork'"
+msgctxt ""
+"@info:shell %1 is package name, %2 is error message, %3 is error e.g. 'ErrorNo"
+"Network'"
 msgid ""
 "Installing <application>%1</application> failed: %2 (%3)<nl/>"
 "Please try installing <application>%1</application> manually instead."
@@ -1904,9 +2130,16 @@ msgstr "แถบเครื่องมือหลัก"
 #, kde-kuit-format
 msgctxt "@info:whatsthis location bar"
 msgid ""
-"<para>This describes the location of the files and folders displayed below.</para>"
-"<para>The name of the currently viewed folder can be read at the very right. To the left of it is the name of the folder that contains it. The whole line is called the <emphasis>path</emphasis> to the current location because following these folders from left to right leads here.</para>"
-"<para>This interactive path is more powerful than one would expect. To learn more about the basic and advanced features of the location bar <link url='help:/dolphin/location-bar.html'>click here</link>. This will open the dedicated page in the Handbook.</para>"
+"<para>This describes the location of the files and folders displayed below.</p"
+"ara>"
+"<para>The name of the currently viewed folder can be read at the very right. T"
+"o the left of it is the name of the folder that contains it. The whole line is"
+" called the <emphasis>path</emphasis> to the current location because followin"
+"g these folders from left to right leads here.</para>"
+"<para>This interactive path is more powerful than one would expect. To learn m"
+"ore about the basic and advanced features of the location bar <link url='help:"
+"/dolphin/location-bar.html'>click here</link>. This will open the dedicated pa"
+"ge in the Handbook.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1921,12 +2154,16 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:whatsthis findbar"
 msgid ""
-"<para>This helps you find files and folders. Enter a <emphasis>search term</emphasis> and specify search settings with the buttons at the bottom:"
+"<para>This helps you find files and folders. Enter a <emphasis>search term</em"
+"phasis> and specify search settings with the buttons at the bottom:"
 "<list>"
-"<item>Filename/Content: Does the item you are looking for contain the search terms within its filename or its contents?<nl/>"
+"<item>Filename/Content: Does the item you are looking for contain the search t"
+"erms within its filename or its contents?<nl/>"
 "The contents of images, audio files and videos will not be searched.</item>"
-"<item>From Here/Everywhere: Do you want to search in this folder and its sub-folders or everywhere?</item>"
-"<item>More Options: Click this to search by media type, access time or rating.</item>"
+"<item>From Here/Everywhere: Do you want to search in this folder and its sub-f"
+"olders or everywhere?</item>"
+"<item>More Options: Click this to search by media type, access time or rating."
+"</item>"
 "<item>More Search Tools: Install other means to find an item.</item>"
 "</list>"
 "</para>"
@@ -2001,7 +2238,8 @@ msgstr "ดอลฟินยังไม่รองรับหน้าเว
 #| msgctxt "@info:status"
 #| msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, default application has been launched"
+msgid ""
+"Protocol not supported by Dolphin, default application has been launched"
 msgstr "ดอลฟินยังไม่รองรับโพรโทคอลนี้ จะทำการเรียกคอนเควอร์เรอร์แทน"
 
 #. +> trunk6 stable6
@@ -2030,7 +2268,8 @@ msgstr ""
 #. +> trunk6 stable6
 #: dolphinviewcontainer.cpp:1033 dolphinviewcontainer.cpp:1036
 #, kde-kuit-format
-msgid "Current location changed, <filename>%1</filename> is no longer accessible."
+msgid ""
+"Current location changed, <filename>%1</filename> is no longer accessible."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2038,7 +2277,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Keep Filter When Changing Folders"
-msgstr ""
+msgstr "เก็บตัวกรองไว้เมื่อเปลี่ยนโฟลเดอร์"
 
 #. +> trunk6 stable6
 #: filterbar/filterbar.cpp:36
@@ -2103,23 +2342,25 @@ msgstr ""
 #. +> trunk6 stable6
 #: kitemviews/accessibility/kitemlistviewaccessible.cpp:268
 #, kde-format
-msgctxt "@info 1 states that the folder is empty and sometimes why, 2 is the full filesystem path"
+msgctxt ""
+"@info 1 states that the folder is empty and sometimes why, 2 is the full files"
+"ystem path"
 msgid "%1 at location %2"
-msgstr ""
+msgstr "%1 ในสถานที่ %2"
 
 #. +> trunk6 stable6
 #: kitemviews/accessibility/kitemlistviewaccessible.cpp:284
 #, kde-format
 msgctxt "@info accessibility, 1 is path"
 msgid "in a grid layout in selection mode in location %1"
-msgstr ""
+msgstr "ในรูปแบบกริดในโหมดการเลือกตำแหน่ง %1"
 
 #. +> trunk6 stable6
 #: kitemviews/accessibility/kitemlistviewaccessible.cpp:286
 #, kde-format
 msgctxt "@info accessibility, 1 is path"
 msgid "in a grid layout in location %1"
-msgstr ""
+msgstr "ในรูปแบบกริดในตำแหน่ง %1"
 
 #. +> trunk6 stable6
 #: kitemviews/accessibility/kitemlistviewaccessible.cpp:290
@@ -2129,7 +2370,8 @@ msgstr ""
 #| msgid_plural "Rename the %1 selected items to:"
 msgctxt "@info accessibility, 2 is path"
 msgid "%1 selected item in a grid layout in selection mode in location %2"
-msgid_plural "%1 selected items in a grid layout in selection mode in location %2"
+msgid_plural ""
+"%1 selected items in a grid layout in selection mode in location %2"
 msgstr[0] "เปลี่ยนชื่อ %1 รายการที่เลือกเป็น:"
 
 #. +> trunk6 stable6
@@ -2138,7 +2380,7 @@ msgstr[0] "เปลี่ยนชื่อ %1 รายการที่เ�
 msgctxt "@info accessibility, 2 is path"
 msgid "%1 selected item in a grid layout in location %2"
 msgid_plural "%1 selected items in a grid layout in location %2"
-msgstr[0] ""
+msgstr[0] "%1 รายการที่เลือกในรูปแบบกริดในตำแหน่ง %2"
 
 #. +> trunk6 stable6
 #: kitemviews/accessibility/kitemlistviewaccessible.cpp:307
@@ -2208,28 +2450,35 @@ msgstr ""
 #. +> trunk6 stable6
 #: kitemviews/kfileitemlisttostring.cpp:26
 #, kde-format
-msgctxt "Textual representation of two files. %1 and %2 are names of files/folders."
+msgctxt ""
+"Textual representation of two files. %1 and %2 are names of files/folders."
 msgid "\"%1\" and \"%2\""
 msgstr ""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemlisttostring.cpp:30
 #, kde-format
-msgctxt "Textual representation of three files. %1, %2 and %3 are names of files/folders."
+msgctxt ""
+"Textual representation of three files. %1, %2 and %3 are names of files/folder"
+"s."
 msgid "\"%1\", \"%2\" and \"%3\""
 msgstr ""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemlisttostring.cpp:37
 #, kde-format
-msgctxt "Textual representation of four files. %1, %2, %3 and %4 are names of files/folders."
+msgctxt ""
+"Textual representation of four files. %1, %2, %3 and %4 are names of files/fol"
+"ders."
 msgid "\"%1\", \"%2\", \"%3\" and \"%4\""
 msgstr ""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemlisttostring.cpp:45
 #, kde-format
-msgctxt "Textual representation of five files. %1, %2, %3, %4 and %5 are names of files/folders."
+msgctxt ""
+"Textual representation of five files. %1, %2, %3, %4 and %5 are names of files"
+"/folders."
 msgid "\"%1\", \"%2\", \"%3\", \"%4\" and \"%5\""
 msgstr ""
 
@@ -2246,17 +2495,20 @@ msgstr[0] "กลับค่าการเลือก"
 #. +> trunk6 stable6
 #: kitemviews/kfileitemlisttostring.cpp:68
 #, kde-format
-msgctxt "Textual representation of selected folders. %1 is the number of folders."
+msgctxt ""
+"Textual representation of selected folders. %1 is the number of folders."
 msgid "One Selected Folder"
 msgid_plural "%1 Selected Folders"
-msgstr[0] ""
+msgstr[0] "%1 โฟลเดอร์ที่เลือก"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemlisttostring.cpp:71
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid "Select Item"
-msgctxt "Textual representation of selected fileitems. %1 is the number of files/folders."
+msgctxt ""
+"Textual representation of selected fileitems. %1 is the number of files/folder"
+"s."
 msgid "One Selected Item"
 msgid_plural "%1 Selected Items"
 msgstr[0] "เลือกรายการ"
@@ -2286,7 +2538,8 @@ msgstr[0] "โฟลเดอร์"
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Rename Item"
-msgctxt "Textual representation of fileitems. %1 is the number of files/folders."
+msgctxt ""
+"Textual representation of fileitems. %1 is the number of files/folders."
 msgid "One Item"
 msgid_plural "%1 Items"
 msgstr[0] "เปลี่ยนชื่อรายการ"
@@ -2307,14 +2560,14 @@ msgstr[0] "เลือกไว้ %1 รายการ"
 #, kde-format
 msgctxt "width × height"
 msgid "%1 × %2"
-msgstr ""
+msgstr "%1 × %2"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2356
 #, kde-format
 msgctxt "@title:group Groups that start with a digit"
 msgid "0 - 9"
-msgstr ""
+msgstr "0 - 9"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2358
@@ -2377,7 +2630,8 @@ msgstr ""
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2458
 #, kde-format
-msgctxt "Can be used to script translation of \"dddd\"with context @title:group Date"
+msgctxt ""
+"Can be used to script translation of \"dddd\"with context @title:group Date"
 msgid "%1"
 msgstr ""
 
@@ -2416,14 +2670,20 @@ msgstr "ต้นเดือน"
 #, fuzzy, kde-format
 #| msgctxt "@title:group Date: %B is full month name in current locale, and %Y is full year number"
 #| msgid "Yesterday (%B, %Y)"
-msgctxt "@title:group Date: MMMM is full month name in current locale, and yyyy is full year number. You must keep the ' don't use any fancy \" or « or similar. The ' is not shown to the user, it's there to mark a part of the text that should not be formatted as a date"
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is full"
+" year number. You must keep the ' don't use any fancy \" or « or similar. The "
+"' is not shown to the user, it's there to mark a part of the text that should "
+"not be formatted as a date"
 msgid "'Yesterday' (MMMM, yyyy)"
 msgstr "เมื่อวานนี้ (%B, %Y)"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2494
 #, kde-format
-msgctxt "Can be used to script translation of \"'Yesterday' (MMMM, yyyy)\" with context @title:group Date"
+msgctxt ""
+"Can be used to script translation of \"'Yesterday' (MMMM, yyyy)\" with context"
+" @title:group Date"
 msgid "%1"
 msgstr ""
 
@@ -2432,14 +2692,18 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "@title:group Date: %B is full month name in current locale, and %Y is full year number"
 #| msgid "Yesterday (%B, %Y)"
-msgctxt "@title:group Date: The week day name: dddd, MMMM is full month name in current locale, and yyyy is full year number."
+msgctxt ""
+"@title:group Date: The week day name: dddd, MMMM is full month name in current"
+" locale, and yyyy is full year number."
 msgid "dddd (MMMM, yyyy)"
 msgstr "เมื่อวานนี้ (%B, %Y)"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2511
 #, kde-format
-msgctxt "Can be used to script translation of \"dddd (MMMM, yyyy)\" with context @title:group Date"
+msgctxt ""
+"Can be used to script translation of \"dddd (MMMM, yyyy)\" with context @title"
+":group Date"
 msgid "%1"
 msgstr ""
 
@@ -2448,14 +2712,20 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "@title:group Date: %B is full month name in current locale, and %Y is full year number"
 #| msgid "Three Weeks Ago (%B, %Y)"
-msgctxt "@title:group Date: MMMM is full month name in current locale, and yyyy is full year number. You must keep the ' don't use any fancy \" or « or similar. The ' is not shown to the user, it's there to mark a part of the text that should not be formatted as a date"
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is full"
+" year number. You must keep the ' don't use any fancy \" or « or similar. The "
+"' is not shown to the user, it's there to mark a part of the text that should "
+"not be formatted as a date"
 msgid "'One Week Ago' (MMMM, yyyy)"
 msgstr "สามสัปดาห์ก่อน (%B, %Y)"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2526
 #, kde-format
-msgctxt "Can be used to script translation of \"'One Week Ago' (MMMM, yyyy)\" with context @title:group Date"
+msgctxt ""
+"Can be used to script translation of \"'One Week Ago' (MMMM, yyyy)\" with cont"
+"ext @title:group Date"
 msgid "%1"
 msgstr ""
 
@@ -2464,14 +2734,20 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "@title:group Date: %B is full month name in current locale, and %Y is full year number"
 #| msgid "Two Weeks Ago (%B, %Y)"
-msgctxt "@title:group Date: MMMM is full month name in current locale, and yyyy is full year number. You must keep the ' don't use any fancy \" or « or similar. The ' is not shown to the user, it's there to mark a part of the text that should not be formatted as a date"
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is full"
+" year number. You must keep the ' don't use any fancy \" or « or similar. The "
+"' is not shown to the user, it's there to mark a part of the text that should "
+"not be formatted as a date"
 msgid "'Two Weeks Ago' (MMMM, yyyy)"
 msgstr "สองสัปดาห์ก่อน (%B, %Y)"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2547
 #, kde-format
-msgctxt "Can be used to script translation of \"'Two Weeks Ago' (MMMM, yyyy)\" with context @title:group Date"
+msgctxt ""
+"Can be used to script translation of \"'Two Weeks Ago' (MMMM, yyyy)\" with con"
+"text @title:group Date"
 msgid "%1"
 msgstr ""
 
@@ -2480,14 +2756,20 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "@title:group Date: %B is full month name in current locale, and %Y is full year number"
 #| msgid "Three Weeks Ago (%B, %Y)"
-msgctxt "@title:group Date: MMMM is full month name in current locale, and yyyy is full year number. You must keep the ' don't use any fancy \" or « or similar. The ' is not shown to the user, it's there to mark a part of the text that should not be formatted as a date"
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is full"
+" year number. You must keep the ' don't use any fancy \" or « or similar. The "
+"' is not shown to the user, it's there to mark a part of the text that should "
+"not be formatted as a date"
 msgid "'Three Weeks Ago' (MMMM, yyyy)"
 msgstr "สามสัปดาห์ก่อน (%B, %Y)"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2568
 #, kde-format
-msgctxt "Can be used to script translation of \"'Three Weeks Ago' (MMMM, yyyy)\" with context @title:group Date"
+msgctxt ""
+"Can be used to script translation of \"'Three Weeks Ago' (MMMM, yyyy)\" with c"
+"ontext @title:group Date"
 msgid "%1"
 msgstr ""
 
@@ -2496,28 +2778,38 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "@title:group Date: %B is full month name in current locale, and %Y is full year number"
 #| msgid "Earlier on %B, %Y"
-msgctxt "@title:group Date: MMMM is full month name in current locale, and yyyy is full year number. You must keep the ' don't use any fancy \" or « or similar. The ' is not shown to the user, it's there to mark a part of the text that should not be formatted as a date"
+msgctxt ""
+"@title:group Date: MMMM is full month name in current locale, and yyyy is full"
+" year number. You must keep the ' don't use any fancy \" or « or similar. The "
+"' is not shown to the user, it's there to mark a part of the text that should "
+"not be formatted as a date"
 msgid "'Earlier on' MMMM, yyyy"
 msgstr "ก่อน %B, %Y"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2589
 #, kde-format
-msgctxt "Can be used to script translation of \"'Earlier on' MMMM, yyyy\" with context @title:group Date"
+msgctxt ""
+"Can be used to script translation of \"'Earlier on' MMMM, yyyy\" with context "
+"@title:group Date"
 msgid "%1"
 msgstr ""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2603
 #, kde-format
-msgctxt "@title:group The month and year: MMMM is full month name in current locale, and yyyy is full year number"
+msgctxt ""
+"@title:group The month and year: MMMM is full month name in current locale, an"
+"d yyyy is full year number"
 msgid "MMMM, yyyy"
 msgstr ""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2607
 #, kde-format
-msgctxt "Can be used to script translation of \"MMMM, yyyy\" with context @title:group Date"
+msgctxt ""
+"Can be used to script translation of \"MMMM, yyyy\" with context @title:group "
+"Date"
 msgid "%1"
 msgstr ""
 
@@ -2835,7 +3127,7 @@ msgstr "อื่น ๆ"
 #: kitemviews/kfileitemmodel.cpp:2804
 msgctxt "@label"
 msgid "File Extension"
-msgstr ""
+msgstr "ส่วนขยายไฟล์"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2805
@@ -2865,8 +3157,12 @@ msgstr "สิทธิ์อนุญาต"
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2808
 msgctxt "@tooltip"
-msgid "The permission format can be changed in settings. Options are Symbolic, Numeric (Octal) or Combined formats"
+msgid ""
+"The permission format can be changed in settings. Options are Symbolic, Numeri"
+"c (Octal) or Combined formats"
 msgstr ""
+"รูปแบบการอนุญาตสามารถเปลี่ยนแปลงได้ในการตั้งค่า ตัวเลือกคือรูปแบบสัญลักษณ์ตัวเ"
+"ลข (octal) หรือรูปแบบรวม"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2809
@@ -2910,7 +3206,9 @@ msgstr[0] ""
 #: main.cpp:61
 #, kde-kuit-format
 msgctxt "@info:shell %1 is a terminal command"
-msgid "Running <application>Dolphin</application> with <command>sudo</command> is discouraged. Please run <icode>%1</icode> instead."
+msgid ""
+"Running <application>Dolphin</application> with <command>sudo</command> is dis"
+"couraged. Please run <icode>%1</icode> instead."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3130,7 +3428,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:shell"
 msgid "Set up Dolphin for administrative tasks."
-msgstr ""
+msgstr "ตั้งค่า Dolphin เพื่อการใช้งานด้านการดูแลระบบ"
 
 #. +> trunk6 stable6
 #: main.cpp:144
@@ -3215,7 +3513,7 @@ msgstr "แสดงแฟ้มที่ซ่อนไว้"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Limit to Home Directory"
-msgstr ""
+msgstr "จำกัดเฉพาะโฟลเดอร์บ้าน"
 
 #. +> trunk6 stable6
 #: panels/folders/treeviewcontextmenu.cpp:122
@@ -3245,7 +3543,7 @@ msgstr "แสดงตัวอย่าง"
 #: panels/information/dolphin_informationpanelsettings.kcfg:14
 #, kde-format
 msgid "Auto-Play media files"
-msgstr ""
+msgstr "เล่นไฟล์สื่ออัตโนมัติ"
 
 #. i18n: ectx: label, entry (showHovered), group (InformationPanel)
 #. +> trunk6 stable6
@@ -3264,21 +3562,21 @@ msgid "Date display format"
 msgstr ""
 
 #. +> trunk6 stable6
-#: panels/information/informationpanel.cpp:156
+#: panels/information/informationpanel.cpp:153
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Preview"
 msgstr "แสดงตัวอย่าง"
 
 #. +> trunk6 stable6
-#: panels/information/informationpanel.cpp:161
+#: panels/information/informationpanel.cpp:158
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Auto-Play media files"
-msgstr ""
+msgstr "เล่นไฟล์สื่ออัตโนมัติ"
 
 #. +> trunk6 stable6
-#: panels/information/informationpanel.cpp:166
+#: panels/information/informationpanel.cpp:163
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Show Filter Bar"
@@ -3287,7 +3585,7 @@ msgid "Show item on hover"
 msgstr "แสดงแถบตัวกรอง"
 
 #. +> trunk6 stable6
-#: panels/information/informationpanel.cpp:171
+#: panels/information/informationpanel.cpp:168
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Configure..."
@@ -3296,7 +3594,7 @@ msgid "Configure…"
 msgstr "ปรับแต่ง..."
 
 #. +> trunk6 stable6
-#: panels/information/informationpanel.cpp:177
+#: panels/information/informationpanel.cpp:174
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Condensed Date"
@@ -3330,7 +3628,7 @@ msgstr "เล่น"
 #: panels/information/phononwidget.cpp:159
 #, kde-format
 msgid "pause"
-msgstr ""
+msgstr "พัก"
 
 #. i18n: ectx: label, entry (IconSize), group (PlacesPanel)
 #. +> trunk6 stable6
@@ -3351,14 +3649,18 @@ msgstr "ปรับแต่ง..."
 #. +> trunk6 stable6
 #: panels/terminal/terminalpanel.cpp:185
 #, kde-format
-msgid "Terminal cannot be shown because Konsole is not installed. Please install it and then reopen the panel."
+msgid ""
+"Terminal cannot be shown because Konsole is not installed. Please install it a"
+"nd then reopen the panel."
 msgstr ""
+"ไม่สามารถแสดงเทอร์มินัลได้เนื่องจาก Konsole ไม่ได้ติดตั้ง โปรดติดตั้งแล้วเปิดใ"
+"หม่อีกครั้ง"
 
 #. +> trunk6 stable6
 #: panels/terminal/terminalpanel.cpp:192
 #, kde-format
 msgid "Install Konsole"
-msgstr ""
+msgstr "ติดตั้ง Konsole"
 
 #. i18n: ectx: label, entry (Location), group (Search)
 #. +> trunk6 stable6
@@ -3538,7 +3840,7 @@ msgstr "กลับค่าการเลือก"
 #, kde-format
 msgctxt "String list separator"
 msgid ", "
-msgstr ""
+msgstr ","
 
 #. +> trunk6 stable6
 #: search/dolphinfacetswidget.cpp:254
@@ -3578,7 +3880,7 @@ msgstr ""
 #, kde-format
 msgctxt "action:button"
 msgid "Save this search to quickly access it again in the future"
-msgstr ""
+msgstr "บันทึกการค้นหานี้เพื่อเข้าถึงได้อย่างรวดเร็วในอนาคต"
 
 #. +> trunk6 stable6
 #: search/dolphinsearchbox.cpp:370
@@ -3635,7 +3937,9 @@ msgstr "ตำแหน่ง"
 #. +> trunk6 stable6
 #: search/dolphinsearchbox.cpp:485
 #, kde-format
-msgctxt "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the user entered."
+msgctxt ""
+"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the user "
+"entered."
 msgid "Query Results from '%1'"
 msgstr "คำค้นผลลัพธ์จาก '%1'"
 
@@ -3765,20 +4069,30 @@ msgstr "ยกเลิก"
 #, kde-format
 msgctxt "@info explaining the next step in a process"
 msgid "Select the files and folders that should be moved to the Trash."
-msgstr ""
+msgstr "เลือกไฟล์และโฟลเดอร์ที่จะย้ายไปยังถังขยะ"
 
 #. +> trunk6 stable6
 #: selectionmode/bottombarcontentscontainer.cpp:401
 #, kde-kuit-format
-msgid "<para>The selected files and folders were added to the Clipboard. Now the <emphasis>Paste</emphasis> action can be used to transfer them from the Clipboard to any other location. They can even be transferred to other applications by using their respective <emphasis>Paste</emphasis> actions.</para>"
+msgid ""
+"<para>The selected files and folders were added to the Clipboard. Now the <emp"
+"hasis>Paste</emphasis> action can be used to transfer them from the Clipboard "
+"to any other location. They can even be transferred to other applications by u"
+"sing their respective <emphasis>Paste</emphasis> actions.</para>"
 msgstr ""
+"<para>ไฟล์และโฟลเดอร์ที่เลือกถูกเพิ่มไปยังคลิปบอร์ด ตอนนี้ <emp"
+"hasis>วาง</emphasis> สามารถใช้แอคชันนี้เพื่อถ่ายโอนข้อมูลจากคลิปบอร์ดไปยังตำแห"
+"น่งอื่นได้ "
+"หรือจะถ่ายโอนไปยังแอปพลิเคชันอื่นก็ได้โดยใช้การกระทำที่เกี่ยวข้อง <emphasis>วา"
+"ง</emphasis> การกระทำ</para>"
 
 #. +> trunk6 stable6
 #: selectionmode/bottombarcontentscontainer.cpp:422
 #, kde-format
-msgctxt "@action A more elaborate and clearly worded version of the Paste action"
+msgctxt ""
+"@action A more elaborate and clearly worded version of the Paste action"
 msgid "Paste from Clipboard"
-msgstr ""
+msgstr "วางจากคลิปบอร์ด"
 
 #. +> trunk6 stable6
 #: selectionmode/bottombarcontentscontainer.cpp:427
@@ -3932,13 +4246,18 @@ msgid ""
 "<list>"
 "<item>Press on a file or folder to select it.</item>"
 "<item>Press on an already selected file or folder to deselect it.</item>"
-"<item>Pressing an empty area does <emphasis>not</emphasis> clear the selection.</item>"
-"<item>Selection rectangles (created by dragging from an empty area) invert the selection status of items within.</item>"
-"<item>Moving with <shortcut>arrow keys</shortcut> does <emphasis>not</emphasis> change the selection.</item>"
-"<item>Pressing <shortcut>%1</shortcut>, <shortcut>%2</shortcut>, or <shortcut>%3</shortcut> toggles the selection.</item>"
+"<item>Pressing an empty area does <emphasis>not</emphasis> clear the selection"
+".</item>"
+"<item>Selection rectangles (created by dragging from an empty area) invert the"
+" selection status of items within.</item>"
+"<item>Moving with <shortcut>arrow keys</shortcut> does <emphasis>not</emphasis"
+"> change the selection.</item>"
+"<item>Pressing <shortcut>%1</shortcut>, <shortcut>%2</shortcut>, or <shortcut>"
+"%3</shortcut> toggles the selection.</item>"
 "</list>"
 "</para>"
-"<para>The available action buttons at the bottom change depending on the current selection.</para>"
+"<para>The available action buttons at the bottom change depending on the curre"
+"nt selection.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3981,15 +4300,19 @@ msgstr "ดาวน์โหลดบริการใหม่ ๆ ..."
 #| msgctxt "@info"
 #| msgid "Dolphin must be restarted to apply the updated version control systems settings."
 msgctxt "@info"
-msgid "Dolphin must be restarted to apply the updated version control system settings."
-msgstr "ดอลฟินจำเป็นจะต้องเริ่มการทำงานใหม่เพื่อปรับใช้การตั้งค่าต่าง ๆ ของระบบควบคุมเวอร์ชันที่ได้ปรับปรุงแก้ไขไป"
+msgid ""
+"Dolphin must be restarted to apply the updated version control system settings"
+"."
+msgstr ""
+"ดอลฟินจำเป็นจะต้องเริ่มการทำงานใหม่เพื่อปรับใช้การตั้งค่าต่าง ๆ ของระบบควบคุมเ"
+"วอร์ชันที่ได้ปรับปรุงแก้ไขไป"
 
 #. +> trunk6 stable6
 #: settings/contextmenu/contextmenusettingspage.cpp:210
 #, kde-format
 msgctxt "@info"
 msgid "Restart now?"
-msgstr ""
+msgstr "เริ่มใหม่อีกครั้งหรือไม่?"
 
 #. +> trunk6 stable6
 #: settings/contextmenu/contextmenusettingspage.cpp:245
@@ -4054,14 +4377,14 @@ msgstr "ขนาดการแสดงตัวอย่าง"
 #: settings/dolphin_compactmodesettings.kcfg:27
 #, kde-format
 msgid "Maximum text width index (0 means unlimited)"
-msgstr ""
+msgstr "ดัชนีความกว้างข้อความสูงสุด (0 หมายถึงไม่จำกัด)"
 
 #. i18n: ectx: label, entry (DirectorySizeMode), group (ContentDisplay)
 #. +> trunk6 stable6
 #: settings/dolphin_contentdisplaysettings.kcfg:10
 #, kde-format
 msgid "How we display the size of directories"
-msgstr ""
+msgstr "เราแสดงขนาดของไดเรกทอรีอย่างไร"
 
 #. i18n: ectx: label, entry (DirectorySizeMode), group (ContentDisplay)
 #. +> trunk6 stable6
@@ -4084,7 +4407,7 @@ msgstr "แสดงแถบการดูย่อ/ดูขยายใน�
 #: settings/dolphin_contentdisplaysettings.kcfg:19
 #, kde-format
 msgid "Do not show any directory size"
-msgstr ""
+msgstr "ไม่แสดงขนาดไดเร็กทอรีใดๆ"
 
 #. i18n: ectx: label, entry (RecursiveDirectorySizeLimit), group (ContentDisplay)
 #. +> trunk6 stable6
@@ -4098,7 +4421,7 @@ msgstr ""
 #: settings/dolphin_contentdisplaysettings.kcfg:29
 #, kde-format
 msgid "if true we use short relative dates, if not short dates"
-msgstr ""
+msgstr "ถ้าเป็นจริงเราใช้วันที่เกี่ยวข้องกันสั้น หากไม่ใช่ เราจะใช้วันที่สั้น"
 
 #. i18n: ectx: label, entry (UsePermissionsFormat), group (ContentDisplay)
 #. +> trunk6 stable6
@@ -4251,8 +4574,12 @@ msgstr "แสดงแฟ้มที่ซ่อนไว้"
 #: settings/dolphin_directoryviewpropertysettings.kcfg:12
 #, kde-format
 msgctxt "@info:whatsthis"
-msgid "When this option is enabled hidden files, such as those starting with a '.', will be shown in the file view."
-msgstr "เมื่อเปิดใช้งานตัวเลือกนี้ แฟ้มที่ถูกซ่อนไว้ เช่นพวกแฟ้มที่นำหน้าด้วย '.' จะถูกแสดงในมุมมองแสดงแฟ้มด้วย"
+msgid ""
+"When this option is enabled hidden files, such as those starting with a '.', w"
+"ill be shown in the file view."
+msgstr ""
+"เมื่อเปิดใช้งานตัวเลือกนี้ แฟ้มที่ถูกซ่อนไว้ เช่นพวกแฟ้มที่นำหน้าด้วย '.' จะถู"
+"กแสดงในมุมมองแสดงแฟ้มด้วย"
 
 #. i18n: ectx: label, entry (Version), group (Dolphin)
 #. +> trunk6 stable6
@@ -4283,8 +4610,12 @@ msgstr "แบบมุมมอง"
 #: settings/dolphin_directoryviewpropertysettings.kcfg:26
 #, kde-format
 msgctxt "@info:whatsthis"
-msgid "This option controls the style of the view. Currently supported values include icons (0), details (1) and column (2) views."
-msgstr "ตัวเลือกนี้จะควบคุมรูปแบบของมุมมอง ซึ่งขณะนี้ ค่าที่รองรับคือ มุมมองไอคอน(0), รายละเอียด(1) และแบบคอลัมน์(2)"
+msgid ""
+"This option controls the style of the view. Currently supported values include"
+" icons (0), details (1) and column (2) views."
+msgstr ""
+"ตัวเลือกนี้จะควบคุมรูปแบบของมุมมอง ซึ่งขณะนี้ ค่าที่รองรับคือ มุมมองไอคอน(0), "
+"รายละเอียด(1) และแบบคอลัมน์(2)"
 
 #. i18n: ectx: label, entry (PreviewsShown), group (Dolphin)
 #. +> trunk6 stable6
@@ -4301,7 +4632,9 @@ msgstr "แสดงตัวอย่าง"
 #: settings/dolphin_directoryviewpropertysettings.kcfg:32
 #, kde-format
 msgctxt "@info:whatsthis"
-msgid "When this option is enabled, a preview of the file content is shown as an icon."
+msgid ""
+"When this option is enabled, a preview of the file content is shown as an icon"
+"."
 msgstr "เมื่อเปิดใช้ตัวเลือกนี้ จะมีการแสดงตัวอย่างของเนื้อหาแฟ้มเป็นภาพไอคอน"
 
 #. i18n: ectx: label, entry (GroupedSorting), group (Dolphin)
@@ -4321,7 +4654,8 @@ msgstr "จัดเรียงตามหมวดหมู่"
 #| msgctxt "@info:whatsthis"
 #| msgid "When this option is enabled, the sorted items are summarized by their category."
 msgctxt "@info:whatsthis"
-msgid "When this option is enabled, the sorted items are categorized into groups."
+msgid ""
+"When this option is enabled, the sorted items are categorized into groups."
 msgstr "เมื่อเปิดใช้งานตัวเลือกนี้ รายการที่จัดเรียงจะถูกสรุปรวมตามหมวดหมู่"
 
 #. i18n: ectx: label, entry (SortRole), group (Dolphin)
@@ -4339,8 +4673,12 @@ msgstr "จัดเรียงแฟ้มตาม"
 #| msgctxt "@info:whatsthis"
 #| msgid "This option defines which attribute (name, size, date, etc.) sorting is performed on."
 msgctxt "@info:whatsthis"
-msgid "This option defines which attribute (text, size, date, etc.) sorting is performed on."
-msgstr "ตัวเลือกนี้จะกำหนดว่าจะใช้ลักษณะเฉพาะ (ชื่อ, ขนาด, วันที่, ฯลฯ) ตัวใด ในการจัดเรียงลำดับ"
+msgid ""
+"This option defines which attribute (text, size, date, etc.) sorting is perfor"
+"med on."
+msgstr ""
+"ตัวเลือกนี้จะกำหนดว่าจะใช้ลักษณะเฉพาะ (ชื่อ, ขนาด, วันที่, ฯลฯ) ตัวใด ในการจัด"
+"เรียงลำดับ"
 
 #. i18n: ectx: label, entry (SortOrder), group (Dolphin)
 #. +> trunk6 stable6
@@ -4462,22 +4800,34 @@ msgstr "ควรให้แสดงพาธสมบูรณ์ภายใ
 #. +> trunk6 stable6
 #: settings/dolphin_generalsettings.kcfg:41
 #, kde-format
-msgid "Should an externally called folder open in a new tab in an existing Dolphin instance"
+msgid ""
+"Should an externally called folder open in a new tab in an existing Dolphin in"
+"stance"
 msgstr ""
 
 #. i18n: ectx: label, entry (Version), group (General)
 #. +> trunk6 stable6
 #: settings/dolphin_generalsettings.kcfg:45
 #, kde-format
-msgid "Internal config version of Dolphin, mainly Used to determine whether an updated version of Dolphin is running, so as to migrate config entries that were removed/renamed ...etc"
+msgid ""
+"Internal config version of Dolphin, mainly Used to determine whether an update"
+"d version of Dolphin is running, so as to migrate config entries that were rem"
+"oved/renamed ...etc"
 msgstr ""
+"เวอร์ชันการกำหนดค่าภายในของ Dolphin ส่วนใหญ่ใช้เพื่อตรวจสอบว่าเวอร์ชันอัปเดตขอ"
+"ง Dolphin "
+"กำลังทำงานอยู่หรือไม่ เพื่อที่จะย้ายรายการการกำหนดค่าที่ถูกลบ/เปลี่ยนชื่อ ... "
+"เป็นต้น"
 
 #. i18n: ectx: label, entry (ModifiedStartupSettings), group (General)
 #. +> trunk6 stable6
 #: settings/dolphin_generalsettings.kcfg:49
 #, kde-format
-msgid "Have the startup settings been modified (internal setting not shown in the UI)"
-msgstr "การตั้งค่าตอนเริ่มระบบได้ถูกเปลี่ยนแปลงหรือไม่ (การตั้งค่าภายในจะไม่แสดงในส่วนติดต่อผู้ใช้)"
+msgid ""
+"Have the startup settings been modified (internal setting not shown in the UI)"
+msgstr ""
+"การตั้งค่าตอนเริ่มระบบได้ถูกเปลี่ยนแปลงหรือไม่ (การตั้งค่าภายในจะไม่แสดงในส่วน"
+"ติดต่อผู้ใช้)"
 
 #. i18n: ectx: label, entry (HomeUrl), group (General)
 #. +> trunk6 stable6
@@ -4536,7 +4886,9 @@ msgstr "ให้ถามยืนยันก่อนทำการปิด
 #: settings/dolphin_generalsettings.kcfg:82
 #, fuzzy, kde-format
 #| msgid "Ask for confirmation when closing windows with multiple tabs."
-msgid "Ask for confirmation when closing windows with a program that is still running in the Terminal panel."
+msgid ""
+"Ask for confirmation when closing windows with a program that is still running"
+" in the Terminal panel."
 msgstr "ให้ถามยืนยันก่อนทำการปิดหน้าต่างที่เปิดแท็บไว้หลายแท็บ"
 
 #. i18n: ectx: label, entry (RenameInline), group (General)
@@ -4558,15 +4910,18 @@ msgstr "แสดงการสลับการเลือก"
 #. +> trunk6 stable6
 #: settings/dolphin_generalsettings.kcfg:94
 #, kde-format
-msgid "Show a bar for easy pasting after a cut or copy was done using the selection mode bottom bar."
+msgid ""
+"Show a bar for easy pasting after a cut or copy was done using the selection m"
+"ode bottom bar."
 msgstr ""
+"แสดงแถบสำหรับวางได้ง่ายหลังจากตัดหรือคัดลอกโดยใช้แถบด้านล่างของโหมดการเลือก"
 
 #. i18n: ectx: label, entry (UseTabForSwitchingSplitView), group (General)
 #. +> trunk6 stable6
 #: settings/dolphin_generalsettings.kcfg:98
 #, kde-format
 msgid "Use tab for switching between right and left view"
-msgstr ""
+msgstr "ใช้แท็บเพื่อสลับระหว่างมุมมองด้านขวาและด้านซ้าย"
 
 #. i18n: ectx: label, entry (CloseActiveSplitView), group (General)
 #. +> trunk6 stable6
@@ -4580,7 +4935,7 @@ msgstr ""
 #: settings/dolphin_generalsettings.kcfg:106
 #, kde-format
 msgid "New tab will be open after last one"
-msgstr ""
+msgstr "แท็บใหม่จะเปิดหลังจากแท็บสุดท้าย"
 
 #. i18n: ectx: label, entry (ShowToolTips), group (General)
 #. +> trunk6 stable6
@@ -4639,7 +4994,8 @@ msgstr ""
 #. +> trunk6 stable6
 #: settings/dolphin_generalsettings.kcfg:148
 #, kde-format
-msgid "Choose Natural, Case Sensitive, or Case Insensitive order of sorting the items"
+msgid ""
+"Choose Natural, Case Sensitive, or Case Insensitive order of sorting the items"
 msgstr ""
 
 #. i18n: ectx: label, entry (HideXTrashFile), group (General)
@@ -4647,7 +5003,7 @@ msgstr ""
 #: settings/dolphin_generalsettings.kcfg:153
 #, kde-format
 msgid "Also hide files with application/x-trash mimetype"
-msgstr ""
+msgstr "ซ่อนไฟล์ด้วยประเภท mime ของแอปพลิเคชัน/x-trash ด้วย"
 
 #. i18n: ectx: label, entry (ConfirmOpenManyFolders), group (Notification Messages)
 #. +> trunk6 stable6
@@ -4740,7 +5096,8 @@ msgstr ""
 #. +> trunk6 stable6
 #: settings/dolphinsettingsdialog.cpp:168
 #, kde-format
-msgid "You have unsaved changes. Do you want to apply the changes or discard them?"
+msgid ""
+"You have unsaved changes. Do you want to apply the changes or discard them?"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4831,7 +5188,7 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check Ask for confirmation in Dolphin when"
 msgid "Switching to act as an administrator"
-msgstr ""
+msgstr "สลับไปทำหน้าที่เป็นผู้ดูแลระบบ"
 
 #. +> trunk6 stable6
 #: settings/interface/confirmationssettingspage.cpp:69
@@ -5011,7 +5368,9 @@ msgstr ""
 #. +> trunk6 stable6
 #: settings/interface/folderstabssettingspage.cpp:139
 #, kde-format
-msgid "When unchecked, the opposite view will be closed. The Close icon always illustrates which view (left or right) will be closed."
+msgid ""
+"When unchecked, the opposite view will be closed. The Close icon always illust"
+"rates which view (left or right) will be closed."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5035,7 +5394,9 @@ msgstr "มุมมองแบบแยก"
 #: settings/interface/folderstabssettingspage.cpp:290
 #, kde-format
 msgctxt "@info"
-msgid "The location for the home folder is invalid or does not exist, it will not be applied."
+msgid ""
+"The location for the home folder is invalid or does not exist, it will not be "
+"applied."
 msgstr "ตำแหน่งของพื้นที่ส่วนตัวไม่ถูกต้องหรือไม่มีอยู่และจะไม่มีผลในการใช้งาน"
 
 #. +> trunk6 stable6
@@ -5097,7 +5458,7 @@ msgstr "แสดงตัวอย่าง"
 #, kde-format
 msgctxt "@option:check"
 msgid "Auto-play media files"
-msgstr ""
+msgstr "เล่นไฟล์สื่ออัตโนมัติ"
 
 #. +> trunk6 stable6
 #: settings/interface/panelsettingspage.cpp:36
@@ -5135,8 +5496,12 @@ msgstr "ข้อมูล"
 #: settings/interface/panelsettingspage.cpp:52
 #, kde-format
 msgctxt "@info"
-msgid "Panel settings are also available through their context menu. Open it by pressing the right mouse button on a panel."
+msgid ""
+"Panel settings are also available through their context menu. Open it by press"
+"ing the right mouse button on a panel."
 msgstr ""
+"การตั้งค่าแผงข้อมูลยังสามารถเข้าถึงได้ผ่านเมนูบริบท เปิดโดยกดปุ่มเมาส์ขวาบนแผง"
+"ข้อมูล"
 
 #. +> trunk6 stable6
 #: settings/interface/previewssettingspage.cpp:46
@@ -5164,7 +5529,9 @@ msgstr "แสดงตัวอย่าง"
 #: settings/interface/previewssettingspage.cpp:68
 #: settings/interface/previewssettingspage.cpp:81
 #, kde-format
-msgctxt "used as a prefix in a spinbox showing e.g. 'Show previews for [files below 3 MiB]'"
+msgctxt ""
+"used as a prefix in a spinbox showing e.g. 'Show previews for [files below 3 M"
+"iB]'"
 msgid "files below "
 msgstr ""
 
@@ -5174,7 +5541,7 @@ msgstr ""
 #, kde-format
 msgctxt "Mebibytes; used as a suffix in a spinbox showing e.g. '3 MiB'"
 msgid " MiB"
-msgstr ""
+msgstr "MiB"
 
 #. +> trunk6 stable6
 #: settings/interface/previewssettingspage.cpp:71
@@ -5206,8 +5573,10 @@ msgstr "แสดงตัวอย่างของแฟ้มและโฟ
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>Creating <emphasis>previews</emphasis> for remote folders is very intensive in terms of network resource usage.</para>"
-"<para>Disable this if navigating remote folders in Dolphin is slow or when accessing storage over metered connections.</para>"
+"<para>Creating <emphasis>previews</emphasis> for remote folders is very intens"
+"ive in terms of network resource usage.</para>"
+"<para>Disable this if navigating remote folders in Dolphin is slow or when acc"
+"essing storage over metered connections.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5487,8 +5856,12 @@ msgstr "ใช้คุณสมบัติของมุมมองทั่
 #: settings/viewmodes/generalviewsettingspage.cpp:37
 #, kde-format
 msgctxt "@info"
-msgid "Some special views like search, recent files, or trash will still use a custom display style."
+msgid ""
+"Some special views like search, recent files, or trash will still use a custom"
+" display style."
 msgstr ""
+"มุมมองพิเศษบางอย่างเช่น การค้นหา ไฟล์ล่าสุด หรือถังขยะ จะยังคงใช้รูปแบบการแสดง"
+"แบบกำหนดเอง"
 
 #. +> trunk6 stable6
 #: settings/viewmodes/generalviewsettingspage.cpp:42
@@ -5503,7 +5876,9 @@ msgstr "จดจำคุณสมบัติของมุมมองแย
 #: settings/viewmodes/generalviewsettingspage.cpp:44
 #, kde-format
 msgctxt "@info"
-msgid "Dolphin will add file system metadata to folders you change view properties for. If that is not possible, a hidden .directory file is created instead."
+msgid ""
+"Dolphin will add file system metadata to folders you change view properties fo"
+"r. If that is not possible, a hidden .directory file is created instead."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5584,16 +5959,22 @@ msgstr ""
 #. +> trunk6 stable6
 #: settings/viewmodes/generalviewsettingspage.cpp:91
 #, kde-format
-msgctxt "@info:tooltip %1 are the file patterns for mimetype application/x-trash"
-msgid "Backup files are the files whose mime-type is application/x-trash, patterns: %1"
+msgctxt ""
+"@info:tooltip %1 are the file patterns for mimetype application/x-trash"
+msgid ""
+"Backup files are the files whose mime-type is application/x-trash, patterns: %"
+"1"
 msgstr ""
+"ไฟล์สำรองข้อมูลคือไฟล์ที่มีประเภท MIME เป็น application/x-trash, patterns: %1"
 
 #. +> trunk6 stable6
 #: settings/viewmodes/generalviewsettingspage.cpp:124
 #, kde-format
-msgctxt "Accessible description for combobox with actions of double click view background setting"
+msgctxt ""
+"Accessible description for combobox with actions of double click view backgrou"
+"nd setting"
 msgid "Action to trigger when double clicking view background"
-msgstr ""
+msgstr "การดำเนินการที่จะเรียกใช้เมื่อดับเบิลคลิกดูพื้นหลัง"
 
 #. i18n: Completes the sentence "Double-click triggers [Nothing]".
 #. +> trunk6 stable6
@@ -5601,7 +5982,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Nothing"
-msgstr ""
+msgstr "ไม่มีอะไร"
 
 #. +> trunk6 stable6
 #: settings/viewmodes/generalviewsettingspage.cpp:127
@@ -5630,14 +6011,16 @@ msgstr "ดับเบิลคลิกเพื่อเปิดแฟ้ม
 #, kde-format
 msgctxt "@title:group"
 msgid "Background: "
-msgstr ""
+msgstr "พื้นหลัง:"
 
 #. +> trunk6 stable6
 #: settings/viewmodes/generalviewsettingspage.cpp:164
 #, kde-format
-msgctxt "Accessible description for custom command text field of double click view background setting"
+msgctxt ""
+"Accessible description for custom command text field of double click view back"
+"ground setting"
 msgid "Enter custom command to trigger when double clicking view background"
-msgstr ""
+msgstr "ป้อนคำสั่งกำหนดเองเพื่อเรียกใช้งานเมื่อดับเบิลคลิกดูพื้นหลัง"
 
 #. +> trunk6 stable6
 #: settings/viewmodes/generalviewsettingspage.cpp:165
@@ -5650,7 +6033,8 @@ msgstr ""
 #: settings/viewmodes/generalviewsettingspage.cpp:169
 #, kde-format
 msgctxt "@label"
-msgid "Use {path} to get the path of the current folder. Example: dolphin {path}"
+msgid ""
+"Use {path} to get the path of the current folder. Example: dolphin {path}"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5744,42 +6128,42 @@ msgstr "ความกว้างของรายการ"
 #, kde-format
 msgctxt "@item:inlistbox Maximum lines"
 msgid "Unlimited"
-msgstr ""
+msgstr "ไม่จำกัด"
 
 #. +> trunk6 stable6
 #: settings/viewmodes/viewsettingstab.cpp:75
 #, kde-format
 msgctxt "@item:inlistbox Maximum lines"
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. +> trunk6 stable6
 #: settings/viewmodes/viewsettingstab.cpp:76
 #, kde-format
 msgctxt "@item:inlistbox Maximum lines"
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #. +> trunk6 stable6
 #: settings/viewmodes/viewsettingstab.cpp:77
 #, kde-format
 msgctxt "@item:inlistbox Maximum lines"
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #. +> trunk6 stable6
 #: settings/viewmodes/viewsettingstab.cpp:78
 #, kde-format
 msgctxt "@item:inlistbox Maximum lines"
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #. +> trunk6 stable6
 #: settings/viewmodes/viewsettingstab.cpp:79
 #, kde-format
 msgctxt "@item:inlistbox Maximum lines"
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #. +> trunk6 stable6
 #: settings/viewmodes/viewsettingstab.cpp:80
@@ -5795,7 +6179,7 @@ msgstr "ขนาดแฟ้มที่ใหญ่ที่สุด:"
 #, kde-format
 msgctxt "@item:inlistbox Maximum width"
 msgid "Unlimited"
-msgstr ""
+msgstr "ไม่จำกัด"
 
 #. +> trunk6 stable6
 #: settings/viewmodes/viewsettingstab.cpp:86
@@ -5888,7 +6272,7 @@ msgstr[0] "ขนาด: %1 พิกเซล"
 #, kde-format
 msgctxt "@title:window"
 msgid "View Display Style"
-msgstr ""
+msgstr "ดูรูปแบบการแสดงผล"
 
 #. +> trunk6 stable6
 #: settings/viewpropertiesdialog.cpp:72
@@ -5975,7 +6359,7 @@ msgstr "ข้อมูลเพิ่มเติม"
 #: settings/viewpropertiesdialog.cpp:132
 #, kde-format
 msgid "Choose what to see on each file or folder:"
-msgstr ""
+msgstr "เลือกสิ่งที่ต้องการดูในแต่ละไฟล์หรือโฟลเดอร์:"
 
 #. +> trunk6 stable6
 #: settings/viewpropertiesdialog.cpp:142
@@ -6027,7 +6411,7 @@ msgstr "โฟลเดอร์ทั้งหมด"
 #, kde-format
 msgctxt "@title:group"
 msgid "Apply to:"
-msgstr ""
+msgstr "นำไปใช้กับ:"
 
 #. +> trunk6 stable6
 #: settings/viewpropertiesdialog.cpp:183
@@ -6042,15 +6426,22 @@ msgstr "ใช้เป็นค่าปริยายสำหรับโฟ
 #: settings/viewpropertiesdialog.cpp:335
 #, kde-format
 msgctxt "@info"
-msgid "The view properties of all sub-folders will be changed. Do you want to continue?"
-msgstr "คุณสมบัติมุมมองของโฟลเดอร์ย่อยทั้งหมดจะถูกเปลี่ยนแปลง คุณยังต้องการจะทำต่อไปหรือไม่ ?"
+msgid ""
+"The view properties of all sub-folders will be changed. Do you want to continu"
+"e?"
+msgstr ""
+"คุณสมบัติมุมมองของโฟลเดอร์ย่อยทั้งหมดจะถูกเปลี่ยนแปลง คุณยังต้องการจะทำต่อไปหร"
+"ือไม่ ?"
 
 #. +> trunk6 stable6
 #: settings/viewpropertiesdialog.cpp:365
 #, kde-format
 msgctxt "@info"
-msgid "The view properties of all folders will be changed. Do you want to continue?"
-msgstr "คุณสมบัติมุมมองของโฟลเดอร์ทั้งหมดจะถูกเปลี่ยนแปลง คุณยังต้องการจะทำต่อไปหรือไม่ ?"
+msgid ""
+"The view properties of all folders will be changed. Do you want to continue?"
+msgstr ""
+"คุณสมบัติมุมมองของโฟลเดอร์ทั้งหมดจะถูกเปลี่ยนแปลง คุณยังต้องการจะทำต่อไปหรือไม"
+"่ ?"
 
 #. +> trunk6 stable6
 #: settings/viewpropsprogressinfo.cpp:33
@@ -6078,20 +6469,20 @@ msgstr "โฟลเดอร์: %1"
 #, kde-format
 msgctxt "Used as a noun, i.e. 'Here is the zoom level:'"
 msgid "Zoom:"
-msgstr ""
+msgstr "ขยาย:"
 
 #. +> trunk6 stable6
 #: statusbar/dolphinstatusbar.cpp:64
 #, kde-format
 msgid "Zoom"
-msgstr ""
+msgstr "ขยาย"
 
 #. +> trunk6 stable6
 #: statusbar/dolphinstatusbar.cpp:65
 #, kde-format
 msgctxt "Description for zoom-slider (accessibility)"
 msgid "Sets the size of the file icons."
-msgstr ""
+msgstr "กำหนดขนาดไอคอนของไฟล์"
 
 #. +> trunk6 stable6
 #: statusbar/dolphinstatusbar.cpp:86
@@ -6115,11 +6506,15 @@ msgstr "หยุดการโหลด"
 #, kde-kuit-format
 msgctxt "@info:whatsthis Statusbar"
 msgid ""
-"<para>This is the <emphasis>Statusbar</emphasis>. It contains three elements by default (left to right):"
+"<para>This is the <emphasis>Statusbar</emphasis>. It contains three elements b"
+"y default (left to right):"
 "<list>"
-"<item>A <emphasis>text field</emphasis> that displays the size of selected items. If only one item is selected the name and type is shown as well.</item>"
-"<item>A <emphasis>zoom slider</emphasis> that allows you to adjust the size of the icons in the view.</item>"
-"<item><emphasis>Space information</emphasis> about the current storage device.</item>"
+"<item>A <emphasis>text field</emphasis> that displays the size of selected ite"
+"ms. If only one item is selected the name and type is shown as well.</item>"
+"<item>A <emphasis>zoom slider</emphasis> that allows you to adjust the size of"
+" the icons in the view.</item>"
+"<item><emphasis>Space information</emphasis> about the current storage device."
+"</item>"
 "</list>"
 "</para>"
 msgstr ""
@@ -6135,39 +6530,39 @@ msgstr "แสดงแถบเลื่อนการดูย่อ/ดู�
 #: statusbar/statusbarspaceinfo.cpp:145
 #, kde-format
 msgid "Disk Usage Statistics - current folder"
-msgstr ""
+msgstr "สถิติการใช้งานดิสก์ - โฟลเดอร์ปัจจุบัน"
 
 #. +> trunk6 stable6
 #: statusbar/statusbarspaceinfo.cpp:156
 #, kde-format
 msgid "Disk Usage Statistics - current device"
-msgstr ""
+msgstr "สถิติการใช้งานดิสก์ - อุปกรณ์ปัจจุบัน"
 
 #. +> trunk6 stable6
 #: statusbar/statusbarspaceinfo.cpp:169
 #, kde-format
 msgid "Disk Usage Statistics - all devices"
-msgstr ""
+msgstr "สถิติการใช้งานดิสก์ - อุปกรณ์ทั้งหมด"
 
 #. +> trunk6 stable6
 #: statusbar/statusbarspaceinfo.cpp:182
 #, kde-format
 msgid "KDiskFree"
-msgstr ""
+msgstr "KDiskFree"
 
 #. +> trunk6 stable6
 #: statusbar/statusbarspaceinfo.cpp:208
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<application>Filelight</application> installed successfully."
-msgstr ""
+msgstr "ติดตั้ง <application>Filelight</application> สำเร็จแล้ว."
 
 #. +> trunk6 stable6
 #: statusbar/statusbarspaceinfo.cpp:216
 #, kde-format
 msgctxt "@info:status"
 msgid "Installing Filelight…"
-msgstr ""
+msgstr "กำลังติดตั้ง Filelight…"
 
 #. +> trunk6 stable6
 #: statusbar/statusbarspaceinfo.cpp:243
@@ -6197,7 +6592,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Free Up Disk Space"
-msgstr ""
+msgstr "เพิ่มพื้นที่ว่างในดิสก์"
 
 #. i18n: The new line ("<nl/>") tag is only there to format this text visually pleasing, i.e. to avoid having one very long line.
 #. +> trunk6 stable6
@@ -6214,19 +6609,19 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Install Filelight…"
-msgstr ""
+msgstr "ติดตั้ง Filelight…"
 
 #. +> trunk6 stable6
 #: trash/dolphintrash.cpp:73
 #, kde-format
 msgid "Trash Emptied"
-msgstr ""
+msgstr "ถังขยะถูกทิ้ง"
 
 #. +> trunk6 stable6
 #: trash/dolphintrash.cpp:74
 #, kde-format
 msgid "The Trash was emptied."
-msgstr ""
+msgstr "ถังขยะถูกเททิ้งแล้ว"
 
 #. +> trunk6 stable6
 #: userfeedback/placesdatasource.cpp:25
@@ -6242,7 +6637,7 @@ msgstr "ที่หลัก ๆ"
 #, kde-format
 msgctxt "description of kuserfeedback data source provided by dolphin"
 msgid "Count of available Network Shares"
-msgstr ""
+msgstr "จำนวนการแชร์เครือข่ายที่พร้อมใช้งาน"
 
 #. +> trunk6 stable6
 #: userfeedback/settingsdatasource.cpp:24
@@ -6258,7 +6653,7 @@ msgstr "การ&ตั้งค่า"
 #, kde-format
 msgctxt "description of kuserfeedback data source provided by dolphin"
 msgid "A subset of Dolphin settings."
-msgstr ""
+msgstr "ชุดย่อยของการตั้งค่า Dolphin"
 
 #. +> trunk6 stable6
 #: views/dolphinremoteencoding.cpp:39
@@ -6342,14 +6737,14 @@ msgstr "จัดเรียงโฟลเดอร์ก่อน"
 #, kde-format
 msgctxt "<filename> copy"
 msgid "%1 copy"
-msgstr ""
+msgstr "%1 คัดลอก"
 
 #. +> trunk6 stable6
 #: views/dolphinview.cpp:1105
 #, kde-format
 msgid "Are you sure you want to open 1 item?"
 msgid_plural "Are you sure you want to open %1 items?"
-msgstr[0] ""
+msgstr[0] "%1 คุณแน่ใจว่าต้องการเปิดรายการนี้หรือไม่?"
 
 #. +> trunk6 stable6
 #: views/dolphinview.cpp:1110
@@ -6415,6 +6810,8 @@ msgid ""
 "Adding a dot to the beginning of this file's name will hide it from view.\n"
 "Do you still want to rename it?"
 msgstr ""
+"การเพิ่มจุดที่จุดเริ่มต้นของชื่อไฟล์จะทำให้ไฟล์ไม่ปรากฏให้เห็น\n"
+"คุณยังต้องการเปลี่ยนชื่ออยู่ไหม?"
 
 #. +> trunk6 stable6
 #: views/dolphinview.cpp:2036
@@ -6423,6 +6820,8 @@ msgid ""
 "Adding a dot to the beginning of this folder's name will hide it from view.\n"
 "Do you still want to rename it?"
 msgstr ""
+"การเพิ่มจุดที่จุดเริ่มต้นของชื่อโฟลเดอร์นี้จะซ่อนโฟลเดอร์นั้นไม่ปรากฏให้เห็น\n"
+"คุณยังต้องการเปลี่ยนชื่ออยู่ไหม?"
 
 #. +> trunk6 stable6
 #: views/dolphinview.cpp:2038
@@ -6496,13 +6895,13 @@ msgstr "ตำแหน่งว่างเปล่า"
 #: views/dolphinview.cpp:2397
 #, kde-format
 msgid "No tags"
-msgstr ""
+msgstr "ไม่มีแท็ก"
 
 #. +> trunk6 stable6
 #: views/dolphinview.cpp:2400
 #, kde-format
 msgid "No files tagged with \"%1\""
-msgstr ""
+msgstr "ไม่มีไฟล์ที่ติดแท็กด้วย \"%1\""
 
 #. +> trunk6 stable6
 #: views/dolphinview.cpp:2404
@@ -6515,19 +6914,19 @@ msgstr "แท็บที่ถูกปิดไปล่าสุด"
 #: views/dolphinview.cpp:2406
 #, kde-format
 msgid "No shared folders found"
-msgstr ""
+msgstr "ไม่พบโฟลเดอร์ที่แชร์"
 
 #. +> trunk6 stable6
 #: views/dolphinview.cpp:2408
 #, kde-format
 msgid "No relevant network resources found"
-msgstr ""
+msgstr "ไม่พบทรัพยากรเครือข่ายที่เกี่ยวข้อง"
 
 #. +> trunk6 stable6
 #: views/dolphinview.cpp:2410
 #, kde-format
 msgid "No MTP-compatible devices found"
-msgstr ""
+msgstr "ไม่พบอุปกรณ์ที่รองรับ MTP"
 
 #. +> trunk6 stable6
 #: views/dolphinview.cpp:2412
@@ -6541,7 +6940,7 @@ msgstr "ไม่พบรายการใด ๆ"
 #: views/dolphinview.cpp:2414
 #, kde-format
 msgid "No Bluetooth devices found"
-msgstr ""
+msgstr "ไม่พบอุปกรณ์บลูทูธ"
 
 #. +> trunk6 stable6
 #: views/dolphinview.cpp:2416
@@ -6575,24 +6974,38 @@ msgstr "สร้างโฟลเดอร์..."
 msgctxt "@info:whatsthis"
 msgid ""
 "This renames the items in your current selection.<nl/>"
-"Renaming multiple items at once results in their new names differing only in a number."
+"Renaming multiple items at once results in their new names differing only in a"
+" number."
 msgstr ""
+"การดำเนินการนี้จะเปลี่ยนชื่อรายการในการเลือกปัจจุบันของคุณ<nl/> "
+"การเปลี่ยนชื่อรายการหลายรายการในครั้งเดียวส่งผลให้ชื่อใหม่ของรายการแตกต่างกันเ"
+"พียงตัวเลขเท่านั้น"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:109
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"This moves the items in your current selection to the <filename>Trash</filename>.<nl/>"
-"The trash is a temporary storage location where items can be deleted later if disk space is needed."
+"This moves the items in your current selection to the <filename>Trash</filenam"
+"e>.<nl/>"
+"The trash is a temporary storage location where items can be deleted later if "
+"disk space is needed."
 msgstr ""
+"นี่จะย้ายรายการในการเลือกปัจจุบันของคุณไปยัง <filename>ถังขยะ</filenam"
+"e>.<nl/>"
+"ถังขยะคือตำแหน่งจัดเก็บชั่วคราวที่สามารถลบรายการต่างๆ ได้ในภายหลังหากต้องการพื"
+"้นที่ดิสก์"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:122
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
-msgid "This deletes the items in your current selection permanently. They cannot be recovered by normal means."
+msgid ""
+"This deletes the items in your current selection permanently. They cannot be r"
+"ecovered by normal means."
 msgstr ""
+"การดำเนินการนี้จะลบรายการในการเลือกปัจจุบันของคุณอย่างถาวร และไม่สามารถกู้คืนไ"
+"ด้ด้วยวิธีปกติ"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:132
@@ -6606,7 +7019,7 @@ msgstr "ลบทิ้ง (ใช้ปุ่มพิมพ์ลัดเพ�
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Duplicate Here"
-msgstr ""
+msgstr "ทำซ้ำที่นี่"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:146
@@ -6620,10 +7033,17 @@ msgstr "คุณสมบัติ"
 #, kde-kuit-format
 msgctxt "@info:whatsthis properties"
 msgid ""
-"This shows a complete list of properties of the currently selected items in a new window.<nl/>"
-"If nothing is selected the window will be about the currently viewed folder instead.<nl/>"
-"You can configure advanced options there like managing read- and write-permissions."
+"This shows a complete list of properties of the currently selected items in a "
+"new window.<nl/>"
+"If nothing is selected the window will be about the currently viewed folder in"
+"stead.<nl/>"
+"You can configure advanced options there like managing read- and write-permiss"
+"ions."
 msgstr ""
+"นี่แสดงรายการคุณสมบัติทั้งหมดของรายการที่เลือกในปัจจุบันในหน้าต่างใหม่<nl/> "
+"หากไม่ได้เลือกอะไรเลย หน้าต่างจะแสดงเกี่ยวกับโฟลเดอร์ที่กำลังดูอยู่ในปัจจุบัน<"
+"nl/> "
+"คุณสามารถกำหนดค่าตัวเลือกขั้นสูงได้ เช่น การจัดการสิทธิ์การอ่านและการเขียน"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:158
@@ -6637,7 +7057,7 @@ msgstr "คัดลอกตำแหน่ง"
 #, kde-format
 msgctxt "@info:whatsthis copy_location"
 msgid "This will copy the path of the first selected item into the clipboard."
-msgstr ""
+msgstr "นี่จะเป็นการคัดลอกเส้นทางแรกที่เลือกไว้ไปยังคลิปบอร์ด"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:167
@@ -6662,7 +7082,7 @@ msgstr "ลบทิ้ง"
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Duplicate Here…"
-msgstr ""
+msgstr "ทำซ้ำที่นี่…"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:170
@@ -6677,8 +7097,11 @@ msgstr "ตำแหน่ง"
 #, kde-kuit-format
 msgctxt "@info:whatsthis Icons view mode"
 msgid ""
-"<para>This switches to a view mode that focuses on the folder and file icons. This mode makes it easy to distinguish folders from files and to detect items with distinctive <emphasis>file types</emphasis>.</para>"
-"<para> This mode is handy to browse through pictures when the <interface>Preview</interface> option is enabled.</para>"
+"<para>This switches to a view mode that focuses on the folder and file icons. "
+"This mode makes it easy to distinguish folders from files and to detect items "
+"with distinctive <emphasis>file types</emphasis>.</para>"
+"<para> This mode is handy to browse through pictures when the <interface>Previ"
+"ew</interface> option is enabled.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -6686,7 +7109,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:whatsthis Compact view mode"
 msgid ""
-"<para>This switches to a compact view mode that lists the folders and files in columns with the names beside the icons.</para>"
+"<para>This switches to a compact view mode that lists the folders and files in"
+" columns with the names beside the icons.</para>"
 "<para>This helps to give you an overview in folders with many items.</para>"
 msgstr ""
 
@@ -6695,9 +7119,14 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:whatsthis Details view mode"
 msgid ""
-"<para>This switches to a list view mode that focuses on folder and file details.</para>"
-"<para>Click on a detail in the column header to sort the items by it. Click again to sort the other way around. To select which details should be displayed click the header with the right mouse button.</para>"
-"<para>You can view the contents of a folder without leaving the current location by clicking the region to the left of it. This way you can view the contents of multiple folders in the same list.</para>"
+"<para>This switches to a list view mode that focuses on folder and file detail"
+"s.</para>"
+"<para>Click on a detail in the column header to sort the items by it. Click ag"
+"ain to sort the other way around. To select which details should be displayed "
+"click the header with the right mouse button.</para>"
+"<para>You can view the contents of a folder without leaving the current locati"
+"on by clicking the region to the left of it. This way you can view the content"
+"s of multiple folders in the same list.</para>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -6721,14 +7150,14 @@ msgstr ""
 #, kde-format
 msgctxt "@info:whatsthis zoom in"
 msgid "This increases the icon size."
-msgstr ""
+msgstr "นี่จะเพิ่มขนาดไอคอน"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:244
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Reset Zoom Level"
-msgstr ""
+msgstr "รีเซ็ตระดับการซูม"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:245
@@ -6742,21 +7171,21 @@ msgstr "ค่าปริยาย"
 #, kde-format
 msgctxt "@info:whatsthis zoom reset"
 msgid "This resets the icon size to default."
-msgstr ""
+msgstr "การกระทำนี้จะรีเซ็ตขนาดไอคอนเป็นค่าเริ่มต้น"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:252
 #, kde-format
 msgctxt "@info:whatsthis zoom out"
 msgid "This reduces the icon size."
-msgstr ""
+msgstr "นี่จะลดขนาดไอคอน"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:255
 #, kde-format
 msgctxt "@action:inmenu menu of zoom actions"
 msgid "Zoom"
-msgstr ""
+msgstr "ขยาย"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:263
@@ -6778,9 +7207,12 @@ msgstr "แสดงตัวอย่างของแฟ้มและโฟ
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"When this is enabled, the icons are based on the actual file or folder contents.<nl/>"
+"When this is enabled, the icons are based on the actual file or folder content"
+"s.<nl/>"
 "For example the icons of images become scaled down versions of the images."
 msgstr ""
+"เมื่อเปิดใช้งานนี้ ไอคอนจะอิงตามเนื้อหาของไฟล์หรือโฟลเดอร์จริง "
+"ตัวอย่างเช่น ไอคอนของรูปภาพจะกลายเป็นภาพขนาดย่อส่วน"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:275
@@ -6825,7 +7257,7 @@ msgstr "แสดงเป็นกลุ่ม"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "This groups files and folders by their first letter."
-msgstr ""
+msgstr "นี่จะจัดกลุ่มไฟล์และโฟลเดอร์ตามตัวอักษรตัวแรก"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:339
@@ -6841,10 +7273,26 @@ msgstr "แสดงแฟ้มที่ซ่อนไว้"
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>When this is enabled, <emphasis>hidden</emphasis> files and folders are visible. They will be displayed semi-transparent.</para>"
-"<para>Hidden items only differ from normal ones in that their name starts with a dot (\".\"). Typically, there is no need for users to access them, which is why they are hidden.</para>"
-"<para>Items can also be hidden if their names are listed in a text file named \".hidden\". Files with the \"application/x-trash\" MIME type, such as backup files, can also be hidden by enabling that setting in Configure Dolphin > View > General.</para>"
+"<para>When this is enabled, <emphasis>hidden</emphasis> files and folders are "
+"visible. They will be displayed semi-transparent.</para>"
+"<para>Hidden items only differ from normal ones in that their name starts with"
+" a dot (\".\"). Typically, there is no need for users to access them, which is"
+" why they are hidden.</para>"
+"<para>Items can also be hidden if their names are listed in a text file named "
+"\".hidden\". Files with the \"application/x-trash\" MIME type, such as backup "
+"files, can also be hidden by enabling that setting in Configure Dolphin > View"
+" > General.</para>"
 msgstr ""
+"<para>เมื่อเปิดใช้งานนี้ <emphasis>ซ่อน</emphasis> ไฟล์และโฟลเดอร์จะมองเห็นได้"
+"และจะแสดงแบบกึ่งโปร่งใส.</para>"
+"<para>รายการที่ซ่อนอยู่จะแตกต่างจากรายการปกติตรงที่ชื่อของรายการจะขึ้นต้นด้วย"
+"จุด (\".\") โดยปกติแล้วผู้ใช้ไม่จำเป็นต้องเข้าถึงรายการเหล่านี้ ซึ่งเป็นเหตุว่"
+"าทำไมรายการเหล่านี้จึงถูกซ่อนไว้</para>"
+"<para>รายการสามารถซ่อนได้หากชื่อของรายการแสดงอยู่ในไฟล์ข้อความชื่อ"
+"\".hidden\" ไฟล์ที่มีประเภท MIME \"application/x-trash\" เช่น ไฟล์สำรองข้อมูล"
+"ก็สามารถซ่อนได้เช่นกันโดยเปิดใช้งานการตั้งค่าดังกล่าวใน กำหนดค่า Dolphin > มุม"
+"มอง"
+"> ทั่วไป</para>"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:355
@@ -6859,8 +7307,9 @@ msgstr "ปรับแก้คุณสมบัติมุมมอง..."
 #: views/dolphinviewactionhandler.cpp:358
 #, kde-format
 msgctxt "@info:whatsthis"
-msgid "This opens a window in which all folder view properties can be adjusted."
-msgstr ""
+msgid ""
+"This opens a window in which all folder view properties can be adjusted."
+msgstr "นี้จะเปิดหน้าต่างที่สามารถปรับคุณสมบัติมุมมองโฟลเดอร์ทั้งหมดได้"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:656
@@ -6881,7 +7330,7 @@ msgstr "มุมมองแบบไอคอน"
 #, kde-format
 msgctxt "@action:inmenu View Mode"
 msgid "Compact"
-msgstr ""
+msgstr "กระชับ"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:668
@@ -6911,14 +7360,14 @@ msgstr "มุมมองแบบแสดงรายละเอียด"
 #, kde-format
 msgctxt "Sort descending"
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:703
 #, kde-format
 msgctxt "Sort ascending"
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:705
@@ -6995,9 +7444,11 @@ msgstr "เรียงจากน้อยไปมาก"
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:813
 #, kde-format
-msgctxt "@action:inmenu menu with actions like copy, paste, rename. The user's selection is empty when this text is shown."
+msgctxt ""
+"@action:inmenu menu with actions like copy, paste, rename. The user's selectio"
+"n is empty when this text is shown."
 msgid "Actions for Current View"
-msgstr ""
+msgstr "การดำเนินการสำหรับมุมมองปัจจุบัน"
 
 #. i18n: @action:inmenu menu with actions like copy, paste, rename.
 #. %1 is a textual representation of the currently selected files or folders. This can be the name of
@@ -7008,15 +7459,17 @@ msgstr ""
 #: views/dolphinviewactionhandler.cpp:822
 #, kde-format
 msgid "Actions for %1"
-msgstr ""
+msgstr "การดำเนินการสำหรับ %1"
 
 #. +> trunk6 stable6
 #: views/dolphinviewactionhandler.cpp:829
 #, kde-format
-msgctxt "@action:inmenu menu with actions like copy, paste, rename. %1 is the amount of selected files/folders."
+msgctxt ""
+"@action:inmenu menu with actions like copy, paste, rename. %1 is the amount of"
+" selected files/folders."
 msgid "Actions for One Selected Item"
 msgid_plural "Actions for %1 Selected Items"
-msgstr[0] ""
+msgstr[0] "การดำเนินการสำหรับ %1 รายการที่เลือก"
 
 #. +> trunk6 stable6
 #: views/versioncontrol/versioncontrolobserver.cpp:250
