@@ -44068,7 +44068,7 @@ msgstr "แบน"
 #: libs/ui/widgets/KoFillConfigWidget.ui:123
 #, fuzzy, kde-format
 msgid "Mesh Gradient"
-msgstr "ไล่ระดับสี"
+msgstr "ไล่ระดับสี Mesh"
 
 #. i18n: ectx: property (text), widget (QLabel, repeatLabel)
 #. i18n: ectx: property (text), widget (QLabel, labelRepeat)
@@ -71169,7 +71169,7 @@ msgstr ""
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:44
 #, fuzzy, kde-format
 msgid "Opacity [*varies*]: "
-msgstr "ระดับความโปร่งแสง:"
+msgstr "โปร่งใส [*varies*]: "
 
 #. +> trunk5
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:111
@@ -71200,21 +71200,21 @@ msgstr ""
 #, fuzzy, kde-format
 msgctxt "{n} is the number value, % is the percent sign"
 msgid "Opacity: {n}"
-msgstr "ระดับความโปร่งแสง:"
+msgstr "ความทึบ: {n}"
 
 #. +> trunk5
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:122
 #, fuzzy, kde-format
 msgctxt "{n} is the number value, % is the percent sign"
 msgid "Opacity [*varies*]: {n}"
-msgstr "ระดับความโปร่งแสง:"
+msgstr "ความทึบ [*varies*]: {n}"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAnchorLock)
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.ui:195
 #, fuzzy, kde-format
 msgid "Anchor Lock"
-msgstr "ตัวเลือกสี"
+msgstr "ล็อกจุดยึด"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUniformScaling)
 #. +> trunk5 stable5
@@ -71234,7 +71234,7 @@ msgstr ""
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.ui:205
 #, fuzzy, kde-format
 msgid "Scale Styles"
-msgstr "รูปภาพ"
+msgstr "รูปแบบสเกล"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkGlobalCoordinates)
 #. +> trunk5 stable5
@@ -71250,57 +71250,62 @@ msgid ""
 "tions.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>ในโหมด&quot;พิกัดสากล&quot; ช่องความกว้างและความสูงจะแสดงขนาดของกล่องขอบเขตของรูปร่างในพิกัดที่จัดแนวกับรูปภาพ"
+"แม้ว่ารูปร่างจะถูกหมุนหรือมีการดัดใดๆ ก็ตาม</p>"
+"<p>หากปิดใช้งานโหมด&quot;พิกัดสากล&quot; ช่องความกว้างและความสูงจะแสดงขนาด&quot;พื้นเดิม&quot;ของรูปทรงก่อนที่จะมีการดัดใดๆ</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkGlobalCoordinates)
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.ui:221
 #, fuzzy, kde-format
 msgid "Global Coordinates"
-msgstr "การเลือก"
+msgstr "พิกัดสากล"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/defaulttool/DefaultToolTabbedWidget.cpp:25
 #, fuzzy, kde-format
 msgid "Geometry"
-msgstr "ตัวเลือกการไล่ระดับสี"
+msgstr "เรขาคณิต"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/defaulttool/DefaultToolTabbedWidget.cpp:41
 #, kde-format
 msgid "Fill"
-msgstr "การเติม"
+msgstr "เติม"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/defaulttool/ShapeMoveStrategy.cpp:47
 #, kde-format
 msgid "Press Shift to hold x- or y-position."
-msgstr ""
+msgstr "กด Shift เพื่อค้างตำแหน่ง x หรือ y"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/defaulttool/ShapeResizeStrategy.cpp:96
 #, kde-format
 msgid "Press CTRL to resize from center."
-msgstr ""
+msgstr "กด CTRL เพื่อปรับขนาดจากกึ่งกลาง"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/defaulttool/ShapeRotateStrategy.cpp:44
 #, kde-format
 msgid "Press ALT to rotate in 45 degree steps."
-msgstr ""
+msgstr "กด ALT เพื่อหมุนทีละ 45 องศา"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/defaulttool/ShapeRotateStrategy.cpp:103
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rotate"
-msgstr "หมุน &90"
+msgstr "หมุน"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/defaulttool/ShapeShearStrategy.cpp:180
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Shear"
-msgstr "สร้างภาพใหม่"
+msgstr "เฉือน"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/KisReferenceImageCollection.cpp:96
@@ -71308,277 +71313,277 @@ msgstr "สร้างภาพใหม่"
 msgid ""
 "The following reference images could not be loaded:\n"
 "%1"
-msgstr ""
+msgstr "ภาพอ้างอิงต่อไปนี้ไม่สามารถโหลดได้\n%1"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:106
 #, fuzzy, kde-format
 msgid "Select a Reference Image"
-msgstr "พื้นหลัง"
+msgstr "เลือกภาพอ้างอิง"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:153
 #, fuzzy, kde-format
 msgid "Could not load reference image from clipboard"
-msgstr "ลบการเลือก"
+msgstr "ไม่สามารถโหลดภาพอ้างอิงจากคลิปบอร์ดได้"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:183
 #, fuzzy, kde-format
 msgid "Load Reference Images"
-msgstr "ลบรูปภาพ"
+msgstr "โหลดภาพอ้างอิง"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:196
 #, fuzzy, kde-format
 msgid "Could not open '%1'."
-msgstr "ลบการเลือก"
+msgstr "ไม่สามารถเปิด '&1' ได้"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:217
 #, fuzzy, kde-format
 msgid "Could not load reference images from '%1'."
-msgstr "ลบการเลือก"
+msgstr "ไม่สามารถโหลดภาพอ้างอิงจาก '&1' ได้"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:235
 #, fuzzy, kde-format
 msgid "Save Reference Images"
-msgstr "ลบรูปภาพ"
+msgstr "บันทึกภาพอ้างอิง"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:261
 #, fuzzy, kde-format
 msgid "Failed to save reference images."
-msgstr "ลบรูปภาพ"
+msgstr "ล้มเหลวในการบันทึกภาพอ้างอิง"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:336
 #, fuzzy, kde-format
 msgid "Reference Image Actions"
-msgstr "ลบรูปภาพ"
+msgstr "การดำเนินการภาพอ้างอิง"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.h:96
 #, fuzzy, kde-format
 msgid "Reference Images Tool"
-msgstr "ลบรูปภาพ"
+msgstr "เครื่องมือภาพอ้างอิง"
 
 #. +> trunk5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:47
 #, fuzzy, kde-format
 msgctxt "{n} is the number value, % is the percent sign"
 msgid "Opacity [*varies*]: {n}%"
-msgstr "ระดับความโปร่งแสง:"
+msgstr "ความทึบ [*varies*]: {n}%"
 
 #. +> stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:51
 #, fuzzy, kde-format
 msgid "Saturation [*varies*]: "
-msgstr "ความอิ่มสี"
+msgstr "ความอิ่มสี [*varies*]: "
 
 #. +> trunk5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:54
 #, fuzzy, kde-format
 msgctxt "{n} is the number value, % is the percent sign"
 msgid "Saturation: {n}%"
-msgstr "ความอิ่มสี"
+msgstr "ความอิ่มสี: {n}%"
 
 #. +> trunk5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:55
 #, fuzzy, kde-format
 msgctxt "{n} is the number value, % is the percent sign"
 msgid "Saturation [*varies*]: {n}%"
-msgstr "ความอิ่มสี"
+msgstr "ความอิ่มสี [*varies*]: {n}%"
 
 #. +> trunk5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:64
 #, fuzzy, kde-format
 msgid "Delete Selected Reference Images"
-msgstr "ลบรูปภาพ"
+msgstr "ลบภาพอ้างอิงที่เลือกไว้"
 
 #. +> trunk5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:68
 #, fuzzy, kde-format
 msgid "Add Reference Image From File"
-msgstr "ลบรูปภาพ"
+msgstr "เพิ่มภาพอ้างอิงจากไฟล์"
 
 #. +> stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:61
 #, fuzzy, kde-format
 msgid "Add Reference Image"
-msgstr "ลบรูปภาพ"
+msgstr "เพิ่มภาพอ้างอิง"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:72
 #, fuzzy, kde-format
 msgid "Paste Reference Image From System Clipboard"
-msgstr "มุม:"
+msgstr "วางภาพอ้างอิงจากคลิปบอร์ดของระบบ"
 
 #. +> trunk5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:77
 #, fuzzy, kde-format
 msgid "Create Reference Image from Active Layer"
-msgstr "มุม:"
+msgstr "สร้างภาพอ้างอิงจากเลเยอร์ที่กำลังใช้งานอยู่"
 
 #. +> trunk5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:80
 #, fuzzy, kde-format
 msgid "Create Reference Image from Visible Canvas"
-msgstr "มุม:"
+msgstr "สร้างภาพอ้างอิงจากแคนวาสที่มองเห็น"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:83
 #, fuzzy, kde-format
 msgid "Delete all Reference Images"
-msgstr "ลบรูปภาพ"
+msgstr "ลบภาพอ้างอิงทั้งหมด"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:87
 #, fuzzy, kde-format
 msgid "Load Reference Images Set"
-msgstr "ลบรูปภาพ"
+msgstr "โหลดชุดภาพอ้างอิง"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:91
 #, fuzzy, kde-format
 msgid "Export Reference Images Set"
-msgstr "ลบรูปภาพ"
+msgstr "ส่งออกชุดภาพอ้างอิง"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:118
 #, kde-format
 msgid "Embed to .KRA"
-msgstr ""
+msgstr "ฝังไปกับ .KRA"
 
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:119
 #, fuzzy, kde-format
 msgid "Link to Image"
-msgstr "ลบรูปภาพ"
+msgstr "ลิงก์ไปยังภาพ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkKeepAspectRatio)
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:39
 #, fuzzy, kde-format
 msgid "Keep aspect ratio"
-msgstr "รักษาสัดส่วนพ"
+msgstr "รักษาอักตราส่วนภาพ"
 
 #. i18n: ectx: property (text), widget (QLabel, saveLocationLabel)
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:46
 #, fuzzy, kde-format
 msgid "Save Location:"
-msgstr "ความอิ่มสี"
+msgstr "ตำแหน่งที่บันทึก:"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDeleteSelectedImages)
 #. +> trunk5
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:77
 #, fuzzy, kde-format
 msgid "Delete Selected Images"
-msgstr "สร้างเลเยอร์ใหม่"
+msgstr "ลบภาพที่เลือก"
 
 #. i18n: ectx: property (text), widget (QLabel, referenceImageOptionsLabel)
 #. +> trunk5 stable5
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:95
 #, fuzzy, kde-format
 msgid "Add/Select an image to show options"
-msgstr "เครื่องมือการเลือก"
+msgstr "เพิ่ม/เลือกภาพเพื่อแสดงตัวเลือก"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:129
 #, fuzzy, kde-format
 msgid "Add a new reference image:"
-msgstr "ลบรูปภาพ"
+msgstr "เพิ่มภาพอ้างอิงใหม่:"
 
 #. i18n: ectx: property (text), widget (QLabel, label1)
 #. +> trunk5
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:255
 #, fuzzy, kde-format
 msgid "Other options:"
-msgstr "แปรง MyPaint"
+msgstr "ตัวเลือกอื่น:"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. +> trunk5
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:354
 #, fuzzy, kde-format
 msgid "Delete All"
-msgstr "การเลือก"
+msgstr "ลบทั้งหมด"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphicShapeFactory.cpp:15
 #, fuzzy, kde-format
 msgid "A calligraphic shape"
-msgstr "แปรงแบบพ่น"
+msgstr "รูปทรงอักษรวิจิตร"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphicShapeFactory.cpp:17
 #, fuzzy, kde-format
 msgid "Calligraphic Shape"
-msgstr "รูปทรง"
+msgstr "รูปทรงอักษรวิจิตร"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:59
 #, fuzzy, kde-format
 msgid "Save profile as..."
-msgstr "เพิ่มเลเยอร์..."
+msgstr "บันทึกโปรไฟล์เป็น..."
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:65
 #, fuzzy, kde-format
 msgid "Remove profile"
-msgstr "&ลบเลเยอร์"
+msgstr "ลบโปรไฟล์"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:74
 #, fuzzy, kde-format
 msgid "&Follow selected path"
-msgstr "ลบวัตถุ"
+msgstr "&ตามพาธที่เลือกไว้"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:77
 #, fuzzy, kde-format
 msgid "Use tablet &pressure"
-msgstr "ตั้งค่า"
+msgstr "ใช้&แรงกดแท็บเล็ต"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:88
 #, kde-format
 msgid "Thinning:"
-msgstr ""
+msgstr "บาง:"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:97
 #, fuzzy, kde-format
 msgid "Use tablet &angle"
-msgstr "สีเริ่มต้น:"
+msgstr "ใช้&มุมแท็บเล็ต:"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:111
 #, fuzzy, kde-format
 msgid "Fixation:"
-msgstr "การจัดวาง:"
+msgstr ":"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:120
 #, fuzzy, kde-format
 msgid "Caps:"
-msgstr "หัวเส้น"
+msgstr ""
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:129
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:277
 #, fuzzy, kde-format
 msgid "Mass:"
-msgstr "เพิ่มมาสก์"
+msgstr ""
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:138
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:284
 #, fuzzy, kde-format
 msgid "Drag:"
-msgstr "โหมด:"
+msgstr "ลาก:"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:189
@@ -71587,31 +71592,31 @@ msgstr "โหมด:"
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:217
 #, fuzzy, kde-format
 msgid "Current"
-msgstr "ลบวัตถุ"
+msgstr "ปัจจุบัน"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:209
 #, fuzzy, kde-format
 msgid "Profile name"
-msgstr "คุณสมบัติเลเยอร์..."
+msgstr "ชื่อโปรไฟล์"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:210
 #, kde-format
 msgid "Please insert the name by which you want to save this profile:"
-msgstr ""
+msgstr "กรุณากรอกชื่อที่คุณต้องการบันทึกโปรไฟล์นี้:"
 
 #. +> trunk5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:219
 #, kde-format
 msgid "The name you entered is invalid."
-msgstr ""
+msgstr "ชื่อที่คุณกรอกไม่ถูกต้อง"
 
 #. +> stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:219
 #, kde-format
 msgid "Sorry, the name you entered is invalid."
-msgstr ""
+msgstr "ขออภัย ชื่อที่คุณกรอกไม่ถูกต้อง"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:220
@@ -71619,7 +71624,7 @@ msgstr ""
 #| msgid "Invalid value."
 msgctxt "invalid profile name"
 msgid "Invalid name."
-msgstr "ค่าไม่ถูกต้อง"
+msgstr "ชื่อไม่ถูกต้อง"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:228
@@ -71628,7 +71633,7 @@ msgid ""
 "A profile with that name already exists.\n"
 "Do you want to overwrite it?"
 msgstr ""
-"มีเอกสารชื่อนี้อยู่แล้ว\n"
+"มีโปรไฟล์ชื่อนี้อยู่แล้ว\n"
 "คุณต้องการเขียนทับมันหรือไม่ ?"
 
 #. +> trunk5 stable5
@@ -71636,13 +71641,13 @@ msgstr ""
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:389
 #, fuzzy, kde-format
 msgid "Mouse"
-msgstr "ตั้งค่า"
+msgstr "เมาส์"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:377
 #, fuzzy, kde-format
 msgid "Graphics Pen"
-msgstr "ไล่ระดับสี"
+msgstr "ปากกากราฟิก"
 
 #. i18n: context: text @ Action (calligraphy_increase_width), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (calligraphy_increase_width), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -71657,7 +71662,7 @@ msgstr "ไล่ระดับสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Calligraphy: increase width"
-msgstr "รูปทรง"
+msgstr "อักษรวิจิตร: เพิ่มความกว้าง"
 
 #. i18n: context: text @ Action (calligraphy_increase_angle), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (calligraphy_increase_angle), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -71672,7 +71677,7 @@ msgstr "รูปทรง"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Calligraphy: increase angle"
-msgstr "รูปทรง"
+msgstr "อักษรวิจิตร: เพิ่มมุม"
 
 #. i18n: context: text @ Action (calligraphy_decrease_width), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (calligraphy_decrease_width), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -71687,7 +71692,7 @@ msgstr "รูปทรง"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Calligraphy: decrease width"
-msgstr "รูปทรง"
+msgstr "อักษรวิจิตร: ลดความกว้าง"
 
 #. i18n: context: text @ Action (calligraphy_decrease_angle), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (calligraphy_decrease_angle), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -71702,33 +71707,33 @@ msgstr "รูปทรง"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Calligraphy: decrease angle"
-msgstr "รูปทรง"
+msgstr "อักษรวิจิตร: ลดมุม"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:415
 #, fuzzy, kde-format
 msgctxt "Object name of Calligraphy"
 msgid "Calligraphy"
-msgstr "&วงรี"
+msgstr "อักษรวิจิตร"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:416
 #, fuzzy, kde-format
 msgctxt "Tool Option title of Calligraphy"
 msgid "Calligraphy"
-msgstr "&วงรี"
+msgstr "อักษรวิจิตร"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyToolFactory.cpp:20
 #, fuzzy, kde-format
 msgid "Calligraphy"
-msgstr "&วงรี"
+msgstr "อักษรวิจิตร"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:60
 #, fuzzy, kde-format
 msgid "Contiguous Area Selection"
-msgstr "เลือกแบบเส้น&ต่อเนื่อง"
+msgstr "การเลือกพื้นที่ติดต่อเนื่อง"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:111
@@ -71736,21 +71741,21 @@ msgstr "เลือกแบบเส้น&ต่อเนื่อง"
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select Contiguous Area"
-msgstr "การเลือก"
+msgstr "เลือกพื้นที่ติดต่อเนื่อง"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:379
 #, fuzzy, kde-format
 msgctxt "The 'threshold' spinbox prefix in contiguous selection tool options"
 msgid "Threshold: "
-msgstr "เครื่องมือทาสี"
+msgstr "ขอบเขต: "
 
 #. +> stable5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:374
 #, kde-format
 msgctxt "The 'spread' spinbox prefix in contiguous selection tool options"
 msgid "Spread: "
-msgstr ""
+msgstr "กระจาย: "
 
 #. +> trunk5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:387
@@ -71759,7 +71764,7 @@ msgctxt ""
 "The 'spread' spinbox in contiguous selection tool options; {n} is the number v"
 "alue, % is the percent sign"
 msgid "Spread: {n}%"
-msgstr "ระดับความโปร่งแสง:"
+msgstr "กระจาย: {n}%"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:391
@@ -71774,47 +71779,41 @@ msgstr "ใช้การเลือกเป็นขอบเขต"
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:397
 #, kde-format
 msgid "Select regions similar in color to the clicked region"
-msgstr ""
+msgstr "เลือกพื้นที่ที่มีสีใกล้เคียงกับพื้นที่ที่คลิก"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:399
 #, fuzzy, kde-format
 msgid "Select all regions until a specific boundary color"
-msgstr "เติมสีด้วยสีพื้นหลั&ง"
+msgstr "เลือกพื้นที่ทั้งหมดจนกว่าจะได้สีขอบเขตที่ต้องการ"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:402
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:238
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:250
 #, kde-format
-msgid ""
-"Set the color similarity tolerance of the selection. Increasing threshold incr"
-"eases the range of similar colors to be selected."
-msgstr ""
+msgid "Set the color similarity tolerance of the selection. Increasing threshold increases the range of similar colors to be selected."
+msgstr "ตั้งค่าความคลาดเคลื่อนของสีที่คล้ายคลึงกันของการเลือก การเพิ่มขอบเขตจะเพิ่มช่วงของสีที่คล้ายกันที่จะเลือก"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:405
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:253
 #, kde-format
-msgid ""
-"Set the extent of the opaque portion of the selection. Decreasing spread decre"
-"ases opacity of selection areas depending on color similarity."
-msgstr ""
+msgid "Set the extent of the opaque portion of the selection. Decreasing spread decreases opacity of selection areas depending on color similarity."
+msgstr "ตั้งค่าขอบเขตของส่วนที่ทึบของการเลือก การลดการกระจายจะลดความทึบของพื้นที่การเลือกขึ้นอยู่กับความคล้ายคลึงของสี"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:408
 #, kde-format
-msgid ""
-"Set if the contour of the active selection should be treated as a boundary whe"
-"n making a new selection"
-msgstr ""
+msgid "Set if the contour of the active selection should be treated as a boundary when making a new selection"
+msgstr "ตั้งค่าว่าควรปฏิบัติต่อคอนทัวร์ของการเลือกที่ใช้งานอยู่ เป็นขอบเขตเมื่อทำการเลือกใหม่หรือไม่"
 
 #. +> trunk5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:413
 #, fuzzy, kde-format
 msgctxt "The 'close gap' spinbox prefix in contiguous selection tool options"
 msgid "Close Gap: "
-msgstr "สี"
+msgstr "ระยะช่องว่างปิด: "
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:422
@@ -71822,19 +71821,19 @@ msgstr "สี"
 msgctxt ""
 "The 'selection extent' section label in contiguous selection tool options"
 msgid "Selection extent"
-msgstr "การเลือก"
+msgstr "ขอบเขตการเลือก"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.h:97
 #, fuzzy, kde-format
 msgid "Contiguous Selection Tool"
-msgstr "เลือกแบบเส้น&ต่อเนื่อง"
+msgstr "เครื่องมือเลือกติดต่อเนื่อง"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:37
 #, fuzzy, kde-format
 msgid "Elliptical Selection"
-msgstr "เลือกแบบ&วงรี"
+msgstr "การเลือกวงรี"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:48
@@ -71842,19 +71841,19 @@ msgstr "เลือกแบบ&วงรี"
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select Ellipse"
-msgstr "เลือกทั้งหมด"
+msgstr "เลือกวงรี"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_elliptical.h:50
 #, fuzzy, kde-format
 msgid "Elliptical Selection Tool"
-msgstr "เลือกแบบ&วงรี"
+msgstr "เครื่องมือเลือกวงรี"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:51
 #, fuzzy, kde-format
 msgid "Freehand Selection"
-msgstr "การเลือก"
+msgstr "การเลือกแบบอิสระ"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:63
@@ -71862,13 +71861,13 @@ msgstr "การเลือก"
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Freehand Selection"
-msgstr "การเลือก"
+msgstr "การเลือกแบบอิสระ"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_path.cc:28
 #, fuzzy, kde-format
 msgid "Select path"
-msgstr "เครื่องมือการเลือก"
+msgstr "เลือกพาธ"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_path.cc:157
@@ -71876,19 +71875,19 @@ msgstr "เครื่องมือการเลือก"
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select by Bezier Curve"
-msgstr "การเลือก"
+msgstr "เลือกเส้นโค้ง Bézier"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_path.h:88
 #, fuzzy, kde-format
 msgid "Bezier Curve Selection Tool"
-msgstr "เครื่องมือการเลือก"
+msgstr "เครื่องมือการเลือกเส้นโค้ง Bézier"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:41
 #, fuzzy, kde-format
 msgid "Polygonal Selection"
-msgstr "เลือกแบบรูปห&ลายเหลี่ยม"
+msgstr "การเลือกหลายเหลี่ยม"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:54
@@ -71896,19 +71895,19 @@ msgstr "เลือกแบบรูปห&ลายเหลี่ยม"
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select Polygon"
-msgstr "เครื่องมือการเลือก"
+msgstr "เลือกหลายเหลี่ยม"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_polygonal.h:48
 #, fuzzy, kde-format
 msgid "Polygonal Selection Tool"
-msgstr "เลือกแบบรูปห&ลายเหลี่ยม"
+msgstr "เครื่องมือเลือกหลายเหลี่ยม"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:38
 #, fuzzy, kde-format
 msgid "Rectangular Selection"
-msgstr "เลือกแบบรูปสี่เหลี่&ยม"
+msgstr "การเลือกสี่เหลี่ยมพื้นผ้า"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:47
@@ -71916,19 +71915,19 @@ msgstr "เลือกแบบรูปสี่เหลี่&ยม"
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select Rectangle"
-msgstr "สี่เหลี่ยม"
+msgstr "เลือกสี่เหลี่ยมพื้นผ้า"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_rectangular.h:50
 #, fuzzy, kde-format
 msgid "Rectangular Selection Tool"
-msgstr "เลือกแบบรูปสี่เหลี่&ยม"
+msgstr "เครื่องมือเลือกสี่เหลี่ยมผืนผ้า"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:43
 #, fuzzy, kde-format
 msgid "Similar Color Selection"
-msgstr "การเลือก"
+msgstr "เครื่องมือเลือกสีที่คล้ายกัน"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:89
@@ -71936,21 +71935,21 @@ msgstr "การเลือก"
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select Similar Color"
-msgstr "การเลือก"
+msgstr "เลือกสีที่คล้ายกัน"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:234
 #, fuzzy, kde-format
 msgctxt "The 'threshold' spinbox prefix in similar selection tool options"
 msgid "Threshold: "
-msgstr "เครื่องมือทาสี"
+msgstr "ขอบเขต: "
 
 #. +> stable5
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:243
 #, kde-format
 msgctxt "The 'spread' spinbox prefix in similar color selection tool options"
 msgid "Spread: "
-msgstr ""
+msgstr "กระจาย: "
 
 #. +> trunk5
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:246
@@ -71959,7 +71958,7 @@ msgctxt ""
 "The 'spread' spinbox in similar color selection tool options; {n} is the numbe"
 "r value, % is the percent sign"
 msgid "Spread: {n}%"
-msgstr "ระดับความโปร่งแสง:"
+msgstr "กระจาย: {n}%"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:261
@@ -71967,13 +71966,13 @@ msgstr "ระดับความโปร่งแสง:"
 msgctxt ""
 "The 'selection extent' section label in similar selection tool options"
 msgid "Selection extent"
-msgstr "การเลือก"
+msgstr "ขอบเขตการเลือก"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/kis_tool_select_similar.h:59
 #, fuzzy, kde-format
 msgid "Similar Color Selection Tool"
-msgstr "การเลือก"
+msgstr "เครื่องมือเลือกสีที่คล้ายกัน"
 
 #. i18n: context: text @ Action (KisToolSelectContiguous), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KisToolSelectContiguous), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -71988,7 +71987,7 @@ msgstr "การเลือก"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Contiguous Selection Tool"
-msgstr "เลือกแบบเส้น&ต่อเนื่อง"
+msgstr "เครื่องมือเลือกติดต่อเนื่อง"
 
 #. i18n: context: text @ Action (KisToolSelectElliptical), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KisToolSelectElliptical), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -72003,7 +72002,7 @@ msgstr "เลือกแบบเส้น&ต่อเนื่อง"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Elliptical Selection Tool"
-msgstr "เลือกแบบ&วงรี"
+msgstr "เครื่องมือเลือกแบบวงรี"
 
 #. i18n: context: text @ Action (KisToolSelectMagnetic), Actions (tool-shortcuts), ActionCollection (Tools)
 #. +> trunk5 stable5
@@ -72011,7 +72010,7 @@ msgstr "เลือกแบบ&วงรี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Magnetic Selection Tool"
-msgstr "การเลือก"
+msgstr "เครื่องมือเลือกแบบแม่เหล็ก"
 
 #. i18n: context: toolTip @ Action (KisToolSelectMagnetic), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: iconText @ Action (KisToolSelectMagnetic), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -72023,13 +72022,13 @@ msgstr "การเลือก"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Magnetic Curve Selection Tool"
-msgstr "การเลือก"
+msgstr "เครื่องมือเลือกเส้นโค้งแม่เหล็ก"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:51
 #, fuzzy, kde-format
 msgid "Magnetic Selection"
-msgstr "การเลือก"
+msgstr "การเลือกแบบแม่เหล็ก"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:488
@@ -72037,106 +72036,104 @@ msgstr "การเลือก"
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Magnetic Selection"
-msgstr "การเลือก"
+msgstr "การเลือกแบบแม่เหล็ก"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:734
 #, fuzzy, kde-format
 msgctxt "Filter radius in Magnetic Select Tool settings"
 msgid "Filter Radius: "
-msgstr "ลบรูปภาพ"
+msgstr "รัศมีฟิลเตอร์:"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:741
 #, fuzzy, kde-format
 msgctxt "Threshold in Magnetic Selection's Tool options"
 msgid "Threshold: "
-msgstr "เครื่องมือทาสี"
+msgstr "ขอบเขต:"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:749
 #, fuzzy, kde-format
 msgctxt "Search Radius in Magnetic Selection's Tool options"
 msgid "Search Radius: "
-msgstr "ค่า"
+msgstr "รัศมีการค้นหา:"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:758
 #, fuzzy, kde-format
 msgctxt "Anchor Gap in Magnetic Selection's Tool options"
 msgid "Anchor Gap: "
-msgstr "ตัวเลือกสี"
+msgstr "ช่องว่างจุดยึด:"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:762
 #, fuzzy, kde-format
 msgctxt "Complete the selection"
 msgid "Complete"
-msgstr "คุณสมบัติเลเยอร์..."
+msgstr "สำเร็จ"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:767
 #, fuzzy, kde-format
 msgctxt "Discard the selection"
 msgid "Discard"
-msgstr "เพิ่มช่อง"
+msgstr "ละทิ้ง"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:773
 #, kde-format
 msgctxt "@info:tooltip"
-msgid ""
-"Radius of the filter for the detecting edges, might take some time to calculat"
-"e"
-msgstr ""
+msgid "Radius of the filter for the detecting edges, might take some time to calculate"
+msgstr "รัศมีของฟิลเตอร์สำหรับตรวจจับขอบ อาจต้องใช้เวลาในการคำนวณสักพัก"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:777
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Threshold for determining the minimum intensity of the edges"
-msgstr ""
+msgstr "ขอบเขตสำหรับการกำหนดความเข้มข้นขั้นต่ำของขอบ"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:779
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Extra area to be searched"
-msgstr ""
+msgstr "พื้นที่พิเศษที่ต้องค้นหา"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:781
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Gap between 2 anchors in interactive mode"
-msgstr ""
+msgstr "ช่องว่างระหว่างจุดยึด 2 จุดในโหมดโต้ตอบ"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:783
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Complete Selection"
-msgstr "ลบการเลือก"
+msgstr "สำเร็จการเลือก"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:785
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Discard Selection"
-msgstr "แสดงส่วนที่เลือก"
+msgstr "ละทิ้งการเลือก"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:792
 #, fuzzy, kde-format
 msgctxt "The 'path options' section label in magnetic selection's tool options"
 msgid "Path options"
-msgstr "แปรง MyPaint"
+msgstr "ตัวเลือกพาธ"
 
 #. +> trunk5 stable5
 #: plugins/tools/selectiontools/KisToolSelectMagnetic.h:102
 #, fuzzy, kde-format
 msgid "Magnetic Selection Tool"
-msgstr "การเลือก"
+msgstr "เครื่องมือเลือกแบบแม่เหล็ก"
 
 #. i18n: context: text @ Action (KisToolSelectOutline), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KisToolSelectOutline), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -72151,7 +72148,7 @@ msgstr "การเลือก"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Freehand Selection Tool"
-msgstr "เครื่องมือแ&ปรงทาสี"
+msgstr "เครื่องมือเลือกแบบอิสระ"
 
 #. i18n: context: text @ Action (KisToolSelectPath), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KisToolSelectPath), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -72166,7 +72163,7 @@ msgstr "เครื่องมือแ&ปรงทาสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Bezier Curve Selection Tool"
-msgstr "เครื่องมือการเลือก"
+msgstr "เครื่องมือเลือกเส้นโค้ง Bézier"
 
 #. i18n: context: toolTip @ Action (KisToolSelectPolygonal), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: iconText @ Action (KisToolSelectPolygonal), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -72178,7 +72175,7 @@ msgstr "เครื่องมือการเลือก"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Polygonal Selection Tool"
-msgstr "เลือกแบบรูปห&ลายเหลี่ยม"
+msgstr "เครื่องมือเลือกหลายเหลี่ยม"
 
 #. i18n: context: text @ Action (KisToolSelectRectangular), Actions (Rectangular Selection Tool), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KisToolSelectRectangular), Actions (Rectangular Selection Tool), ActionCollection (Tools)
@@ -72193,7 +72190,7 @@ msgstr "เลือกแบบรูปห&ลายเหลี่ยม"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Rectangular Selection Tool"
-msgstr "เลือกแบบรูปสี่เหลี่&ยม"
+msgstr "เครื่องมือเลือกสี่เหลี่ยมผืนผ้า"
 
 #. i18n: context: text @ Action (KisToolSelectSimilar), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KisToolSelectSimilar), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -72208,7 +72205,7 @@ msgstr "เลือกแบบรูปสี่เหลี่&ยม"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Similar Color Selection Tool"
-msgstr "การเลือก"
+msgstr "เครื่องมือเลือกสีที่คล้ายกัน"
 
 #. +> trunk5
 #: plugins/tools/svgtexttool/glyphpalette/GlyphPaletteDialog.cpp:47
@@ -72216,77 +72213,77 @@ msgstr "การเลือก"
 #| msgid "Open palette"
 msgctxt "@title:window"
 msgid "Glyph Palette"
-msgstr "เปิดจานสี"
+msgstr "จานสัญลักษณ์"
 
 #. +> trunk5
 #: plugins/tools/svgtexttool/glyphpalette/GlyphPaletteProxyModel.cpp:43
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "All glyphs"
-msgstr "รูปภาพ"
+msgstr "สัญญลักษณ์ทั้งหมด"
 
 #. +> trunk5
 #: plugins/tools/svgtexttool/SvgInlineSizeChangeCommand.cpp:44
 msgctxt "(qtundo-format)"
 msgid "Adjust text auto wrap"
-msgstr ""
+msgstr "ปรับตัดข้อความอัตโนมัติ"
 
 #. +> trunk5
 #: plugins/tools/svgtexttool/SvgMoveTextCommand.cpp:23
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Move text"
-msgstr "ไม่ได้เลือก"
+msgstr "ย้ายข้อความ"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextChangeCommand.cpp:25
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change SvgTextTool"
-msgstr "เปลี่ยนตัวพิมพ์"
+msgstr "เปลี่ยน SvgTextTool"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:267
 #, fuzzy, kde-format
 msgid "Text Tool"
-msgstr "เครื่องมือเ&ติมสี"
+msgstr "เครื่องมือข้อความ"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:400
 #, fuzzy, kde-format
 msgid "Conversion failed"
-msgstr "เลือกแบบเส้น&ต่อเนื่อง"
+msgstr "การแปลงล้มเหลว"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:651
 #, fuzzy, kde-format
 msgid "Find Text"
-msgstr "ข้อความ"
+msgstr "ค้นหาข้อความ"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:654
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:697
 #, fuzzy, kde-format
 msgid "Find:"
-msgstr "ค้นหา"
+msgstr "ค้นหา:"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:693
 #, kde-format
 msgid "Find and Replace all"
-msgstr ""
+msgstr "ค้นหาและแทนที่ทั้งหมด"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:699
 #, fuzzy, kde-format
 msgid "Replace:"
-msgstr "แทนที่"
+msgstr "แทนที่:"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1207
 #, kde-format
 msgid "You have modified the text. Discard changes?"
-msgstr ""
+msgstr "คุณได้แก้ไขข้อความ ละทิ้งการเปลี่ยนแปลง?"
 
 #. i18n: ectx: attribute (title), widget (QWidget, richTab)
 #. +> trunk5 stable5
@@ -72294,37 +72291,37 @@ msgstr ""
 #: plugins/tools/svgtexttool/WdgSvgTextEditor.ui:28
 #, fuzzy, kde-format
 msgid "Rich text"
-msgstr "ตัวเอียง"
+msgstr "Rich text"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1385
 #, kde-format
 msgid "SVG Source"
-msgstr "ต้นแบบ SVG"
+msgstr "SVG Source"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1532
 #, fuzzy, kde-format
 msgid "Font"
-msgstr "เดือน"
+msgstr "ฟอนต์"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1549
 #, fuzzy, kde-format
 msgid "Text Color"
-msgstr "เครื่องมือเ&ติมสี"
+msgstr "สีข้อความ"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1564
 #, fuzzy, kde-format
 msgid "Sample a Color"
-msgstr "การเลือก"
+msgstr "ดูดสี"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1578
 #, fuzzy, kde-format
 msgid "Line height"
-msgstr "ความสูงพิกเซล"
+msgstr "ความสูงบรรทัด"
 
 #. +> trunk5
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1582
@@ -72340,7 +72337,7 @@ msgstr "ธรรมดา"
 #, fuzzy, kde-format
 msgctxt "line height for text"
 msgid "100%"
-msgstr "  100%"
+msgstr "100%"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, defLetterSpacing)
 #. +> trunk5 stable5
@@ -72348,35 +72345,35 @@ msgstr "  100%"
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:150
 #, fuzzy, kde-format
 msgid "Letter Spacing"
-msgstr "ช่องว่าง:"
+msgstr "ช่องไฟระหว่างอักขระ"
 
 #. +> trunk5
 #: plugins/tools/svgtexttool/SvgTextInsertCommand.cpp:20
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Insert Text"
-msgstr "สี"
+msgstr "แทรกข้อความ"
 
 #. +> trunk5
 #: plugins/tools/svgtexttool/SvgTextInsertRichCommand.cpp:16
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Insert Rich Text"
-msgstr "สี"
+msgstr "แทรก Rich Text"
 
 #. +> trunk5
 #: plugins/tools/svgtexttool/SvgTextMergePropertiesRangeCommand.cpp:25
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Text Properties"
-msgstr "คุณสมบัติเลเยอร์..."
+msgstr "เปลี่ยนแปลงคุณสมบัติข้อความ
 
 #. +> trunk5
 #: plugins/tools/svgtexttool/SvgTextRemoveCommand.cpp:28
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Remove Text"
-msgstr "&ลบเลเยอร์"
+msgstr "ลบข้อความ"
 
 #. i18n: context: text @ Actions (Text Tool), ActionCollection (SVG Tools)
 #. +> trunk5 stable5
@@ -72384,7 +72381,7 @@ msgstr "&ลบเลเยอร์"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "SVG Text Tool"
-msgstr "เครื่องมือเ&ติมสี"
+msgstr "เครื่องมือข้อความ SVG"
 
 #. i18n: context: text @ Action (SvgTextTool), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (SvgTextTool), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72399,7 +72396,7 @@ msgstr "เครื่องมือเ&ติมสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Text Tool"
-msgstr "เครื่องมือเ&ติมสี"
+msgstr "เครื่องมือข้อความ"
 
 #. i18n: context: iconText @ Action (svg_format_textcolor), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Action (svg_format_textcolor), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72411,7 +72408,7 @@ msgstr "เครื่องมือเ&ติมสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Text Color"
-msgstr "เครื่องมือเ&ติมสี"
+msgstr "สีข้อความ"
 
 #. i18n: context: toolTip @ Action (svg_format_textcolor), Actions (Text Tool), ActionCollection (SVG Tools)
 #. +> trunk5 stable5
@@ -72419,7 +72416,7 @@ msgstr "เครื่องมือเ&ติมสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Text Color..."
-msgstr "สีทึ&บ..."
+msgstr "สีข้อความ..."
 
 #. i18n: context: iconText @ Action (svg_background_color), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Action (svg_background_color), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72439,7 +72436,7 @@ msgstr "พื้นหลัง"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Background Color..."
-msgstr "สี&พื้นหลัง"
+msgstr "สีพื้นหลัง..."
 
 #. i18n: context: iconText @ Action (svg_font_size), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_font_size), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72454,7 +72451,7 @@ msgstr "สี&พื้นหลัง"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Font Size"
-msgstr "เครื่องมือทาสี"
+msgstr "ขนาดฟอนต์"
 
 #. i18n: context: iconText @ Action (svg_font), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Action (svg_font), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72466,7 +72463,7 @@ msgstr "เครื่องมือทาสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Font..."
-msgstr "มุม:"
+msgstr "ฟอนต์..."
 
 #. i18n: context: toolTip @ Action (svg_font), Actions (Text Tool), ActionCollection (SVG Tools)
 #. +> trunk5 stable5
@@ -72474,7 +72471,7 @@ msgstr "มุม:"
 #, kde-format
 msgctxt "action"
 msgid "Change character size, font, boldface, italics etc."
-msgstr ""
+msgstr "เปลี่ยนขนาดตัวอักษร แบบอักษร ตัวหนา ตัวเอียง ฯลฯ"
 
 #. i18n: context: whatsThis @ Action (svg_font), Actions (Text Tool), ActionCollection (SVG Tools)
 #. +> trunk5 stable5
@@ -72482,7 +72479,7 @@ msgstr ""
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Change the attributes of the currently selected characters."
-msgstr "สร้างเลเยอร์ใหม่"
+msgstr "เปลี่ยนแปลงแอตทริบิวต์ของอักขระที่เลือกในอยู่"
 
 #. i18n: context: iconText @ Action (svg_insert_special_character), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Action (svg_insert_special_character), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72494,7 +72491,7 @@ msgstr "สร้างเลเยอร์ใหม่"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Special Character..."
-msgstr "แทรกอักขระพิเศษ"
+msgstr "อักขระพิเศษ..."
 
 #. i18n: context: toolTip @ Action (svg_insert_special_character), Actions (Text Tool), ActionCollection (SVG Tools)
 #. +> trunk5 stable5
@@ -72502,7 +72499,7 @@ msgstr "แทรกอักขระพิเศษ"
 #, kde-format
 msgctxt "action"
 msgid "Insert one or more symbols or characters not found on the keyboard"
-msgstr ""
+msgstr "แทรกสัญลักษณ์หรืออักขระหนึ่งตัวหรือมากกว่าที่ไม่พบบนแป้นพิมพ์"
 
 #. i18n: context: whatsThis @ Action (svg_insert_special_character), Actions (Text Tool), ActionCollection (SVG Tools)
 #. +> trunk5 stable5
@@ -72510,7 +72507,7 @@ msgstr ""
 #, kde-format
 msgctxt "action"
 msgid "Insert one or more symbols or characters not found on the keyboard."
-msgstr ""
+msgstr "แทรกสัญลักษณ์หรืออักขระหนึ่งตัวหรือมากกว่าที่ไม่พบบนแป้นพิมพ์"
 
 #. i18n: context: iconText @ Action (svg_align_justified), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_align_justified), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72525,7 +72522,7 @@ msgstr ""
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Align Block"
-msgstr "บันทึกเลเยอร์เป็นรูปภาพ..."
+msgstr "จัดเรียงบล็อก
 
 #. i18n: context: iconText @ Action (svg_align_center), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_align_center), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72540,7 +72537,7 @@ msgstr "บันทึกเลเยอร์เป็นรูปภาพ...
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Align Center"
-msgstr "มุม:"
+msgstr "ชิดกึ่งกลาง"
 
 #. i18n: context: iconText @ Action (svg_decrease_font_size), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_decrease_font_size), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72555,7 +72552,7 @@ msgstr "มุม:"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Decrease Font Size"
-msgstr "ลดขนาดแปรง"
+msgstr "ลดขนาดฟอนต์"
 
 #. i18n: context: iconText @ Action (svg_increase_font_size), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_increase_font_size), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72570,7 +72567,7 @@ msgstr "ลดขนาดแปรง"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Increase Font Size"
-msgstr "เพิ่มขนาดแปรง"
+msgstr "เพิ่มขนาดฟอนต์"
 
 #. i18n: context: iconText @ Action (svg_format_subscript), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_format_subscript), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72585,7 +72582,7 @@ msgstr "เพิ่มขนาดแปรง"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Subscript"
-msgstr "หัวปากกา"
+msgstr "ตัวห้อย"
 
 #. i18n: context: iconText @ Action (svg_format_superscript), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_format_superscript), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72600,7 +72597,7 @@ msgstr "หัวปากกา"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Superscript"
-msgstr "เครื่องมือเ&ลือกสี"
+msgstr "ตัวยก"
 
 #. i18n: context: iconText @ Action (svg_format_underline), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_format_underline), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72615,7 +72612,7 @@ msgstr "เครื่องมือเ&ลือกสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Underline"
-msgstr "ทำดัชนีเทียบสี"
+msgstr "ขีดเส้นใต้"
 
 #. i18n: context: iconText @ Action (svg_format_strike_through), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_format_strike_through), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72630,7 +72627,7 @@ msgstr "ทำดัชนีเทียบสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Strikethrough"
-msgstr "พาดผ่าน:"
+msgstr "ขีดฆ่า"
 
 #. i18n: context: iconText @ Action (svg_weight_bold), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_weight_bold), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72691,7 +72688,7 @@ msgstr "ธรรมดา"
 #, kde-format
 msgctxt "action"
 msgid "Demi"
-msgstr ""
+msgstr "หนานิด"
 
 #. i18n: context: iconText @ Action (svg_weight_black), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_weight_black), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72707,7 +72704,7 @@ msgstr ""
 #| msgid "Black"
 msgctxt "action"
 msgid "Black"
-msgstr "สีดำ"
+msgstr "หนาหนัก"
 
 #. i18n: context: iconText @ Action (svg_weight_light), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_weight_light), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72722,7 +72719,7 @@ msgstr "สีดำ"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Light"
-msgstr "&สูง:"
+msgstr "บาง"
 
 #. i18n: context: iconText @ Action (svg_line_height), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Action (svg_line_height), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72734,7 +72731,7 @@ msgstr "&สูง:"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Line Height"
-msgstr "ความสูงพิกเซล"
+msgstr "ความสูงบรรทัด"
 
 #. i18n: context: toolTip @ Action (svg_line_height), Actions (Text Tool), ActionCollection (SVG Tools)
 #. +> trunk5 stable5
@@ -72742,7 +72739,7 @@ msgstr "ความสูงพิกเซล"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Line Height in em"
-msgstr "ความสูงพิกเซล"
+msgstr "ความสูงบรรทัดในค่า em"
 
 #. i18n: context: toolTip @ Action (svg_settings), Actions (Text Tool), ActionCollection (SVG Tools)
 #. +> trunk5 stable5
@@ -72750,7 +72747,7 @@ msgstr "ความสูงพิกเซล"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Text Editor Settings"
-msgstr "ตั้งค่า"
+msgstr "ตั้งค่าตัวแก้ไขข้อความ"
 
 #. i18n: context: text @ Action (svg_settings), Actions (Text Tool), ActionCollection (SVG Tools)
 #. +> trunk5 stable5
@@ -72758,7 +72755,7 @@ msgstr "ตั้งค่า"
 #, fuzzy, kde-format
 msgctxt "Text Editor Settings label"
 msgid "Settings..."
-msgstr "ตั้งค่า"
+msgstr "ตั้งค่า..."
 
 #. i18n: context: iconText @ Action (svg_sample_color), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Action (svg_sample_color), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72775,7 +72772,7 @@ msgstr "ตั้งค่า"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Color Sampler"
-msgstr "การเลือก"
+msgstr "ดูดสี"
 
 #. i18n: context: iconText @ Action (svg_font_kerning), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: toolTip @ Action (svg_font_kerning), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72791,7 +72788,7 @@ msgstr "การเลือก"
 #| msgid "Warning"
 msgctxt "action"
 msgid "Kerning"
-msgstr "คำเตือน"
+msgstr "ช่องไฟ"
 
 #. i18n: context: iconText @ Action (svg_text_wrapping_legacy), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Action (svg_text_wrapping_legacy), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72803,17 +72800,15 @@ msgstr "คำเตือน"
 #, kde-format
 msgctxt "action"
 msgid "Legacy Hard Wrap"
-msgstr ""
+msgstr "ตัดข้อความแบบฮาร์ดแบบดั้งเดิม"
 
 #. i18n: context: toolTip @ Action (svg_text_wrapping_legacy), Actions (Text Tool), ActionCollection (SVG Tools)
 #. +> trunk5
 #: plugins/tools/svgtexttool/SvgTextTool.action:268
 #, kde-format
 msgctxt "action"
-msgid ""
-"Use legacy hard-wrapping mode (same as Krita 5.1 and earlier). Each lines are "
-"explicitly positioned, but the line height may be slightly inaccurate."
-msgstr ""
+msgid "Use legacy hard-wrapping mode (same as Krita 5.1 and earlier). Each lines are explicitly positioned, but the line height may be slightly inaccurate."
+msgstr "ใช้โหมดการตัดขอความแบบฮาร์ดแบบดั้งเดิม (เช่นเดียวกับ Krita 5.1 และเวอร์ชันก่อนหน้า) แต่ละบรรทัดมีตำแหน่งที่ชัดเจน แต่ความสูงของบรรทัดอาจไม่แม่นยำเล็กน้อย"
 
 #. i18n: context: iconText @ Action (svg_text_wrapping_css_pre), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Action (svg_text_wrapping_css_pre), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72825,7 +72820,7 @@ msgstr ""
 #, kde-format
 msgctxt "action"
 msgid "SVG Hard Wrap"
-msgstr ""
+msgstr "ตัดข้อความ SVG แบบฮาร์ด"
 
 #. i18n: context: toolTip @ Action (svg_text_wrapping_css_pre), Actions (Text Tool), ActionCollection (SVG Tools)
 #. +> trunk5
@@ -72833,7 +72828,7 @@ msgstr ""
 #, kde-format
 msgctxt "action"
 msgid "Use SVG's CSS `white-space: pre` hard-wrapping mode."
-msgstr ""
+msgstr "ใช้โหมดการตัดความแบบฮาร์ด css `white-space: pre` ของ SVG"
 
 #. i18n: context: iconText @ Action (svg_text_wrapping_css_pre_wrap), Actions (Text Tool), ActionCollection (SVG Tools)
 #. i18n: context: text @ Action (svg_text_wrapping_css_pre_wrap), Actions (Text Tool), ActionCollection (SVG Tools)
@@ -72845,55 +72840,53 @@ msgstr ""
 #, kde-format
 msgctxt "action"
 msgid "SVG Auto Wrap with Fixed Width"
-msgstr ""
+msgstr "ตัดข้อความ SVG อัตโนมัติพร้อมความกว้างคงที่"
 
 #. i18n: context: toolTip @ Action (svg_text_wrapping_css_pre_wrap), Actions (Text Tool), ActionCollection (SVG Tools)
 #. +> trunk5
 #: plugins/tools/svgtexttool/SvgTextTool.action:288
 #, kde-format
 msgctxt "action"
-msgid ""
-"Use SVG's CSS `white-space: pre-wrap` wrapping mode, with `inline-size` defini"
-"ng the text width."
-msgstr ""
+msgid "Use SVG's CSS `white-space: pre-wrap` wrapping mode, with `inline-size` defining the text width."
+msgstr "ใช้โหมดการตัดความ CSS `white-space: pre-wrap` ของ SVG โดยที่ `inline-size` กำหนดความกว้างของข้อความ"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/SvgTextTool.cpp:305
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita - Edit Text"
-msgstr "ข้อความ"
+msgstr "Krita - แก้ไขข้อความ"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:33
 #, fuzzy, kde-format
 msgid "&Insert"
-msgstr "เลเยอร์ %1"
+msgstr "&แทรก"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:37
 #, fuzzy, kde-format
 msgid "&Format"
-msgstr "รูปแบบ"
+msgstr "&รูปแบบ"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:45
 #, fuzzy, kde-format
 msgid "&Weight"
-msgstr "&สูง:"
+msgstr "&น้ำหนัก"
 
 #. +> trunk5
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:63
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:107
 #, fuzzy, kde-format
 msgid "Text W&rapping"
-msgstr "ตัวเลือกการไล่ระดับสี"
+msgstr "ตัดข้อความ"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:87
 #, fuzzy, kde-format
 msgid "Font Settings"
-msgstr "ตั้งค่า"
+msgstr "ตั้งค่าฟอนต์"
 
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:96
@@ -72905,14 +72898,14 @@ msgstr "รูปแบบ"
 #: plugins/tools/svgtexttool/SvgTextToolFactory.cpp:19
 #, fuzzy, kde-format
 msgid "SVG Text Tool"
-msgstr "เครื่องมือเ&ติมสี"
+msgstr "เครื่องมือข้อความ SVG"
 
 #. i18n: ectx: attribute (title), widget (QWidget, svgTab)
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/WdgSvgTextEditor.ui:38
 #, kde-format
 msgid "SVG source"
-msgstr "ต้นแบบ SVG"
+msgstr "SVG source"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabSvgTextEdit)
 #. +> trunk5 stable5
@@ -72920,91 +72913,91 @@ msgstr "ต้นแบบ SVG"
 #, fuzzy, kde-format
 #| msgid "HSV"
 msgid "SVG"
-msgstr "HSV"
+msgstr "SVG"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkVertical)
 #. +> stable5
 #: plugins/tools/svgtexttool/WdgSvgTextEditor.ui:81
 #, fuzzy, kde-format
 msgid "Vertical Text Layout"
-msgstr "ค่า"
+msgstr "เค้าโครงข้อความแนวตั้ง"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnEdit)
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:47
 #, fuzzy, kde-format
 msgid "Edit Text"
-msgstr "ข้อความ"
+msgstr "แก้ไขข้อความ"
 
 #. i18n: ectx: property (title), widget (QGroupBox, defsOptions)
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:67
 #, fuzzy, kde-format
 msgid "Create new texts with..."
-msgstr "เปิดเอกสารเปล่า"
+msgstr "สร้างข้อความใหม่ด้วย..."
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, alignLeft)
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:81
 #, fuzzy, kde-format
 msgid "Anchor text to the left."
-msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
+msgstr "ยึดข้อความไว้ทางซ้าย"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, alignCenter)
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:104
 #, fuzzy, kde-format
 msgid "Anchor text to the middle."
-msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
+msgstr "ยึดข้อความไว้ตรงกลาง"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, alignRight)
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:127
 #, fuzzy, kde-format
 msgid "Anchor text to the right."
-msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
+msgstr "ยึดข้อความไว้ทางขวา"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, modeHorizontalTb)
 #. +> trunk5
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:170
 #, kde-format
 msgid "Text flows horizontal, top to bottom."
-msgstr ""
+msgstr "ข้อความไหลในแนวนอนจากบนลงล่าง"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, modeVerticalRl)
 #. +> trunk5
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:196
 #, kde-format
 msgid "Text flows vertical, right to left."
-msgstr ""
+msgstr "ข้อความไหลในแนวตั้งจากขวาไปซ้าย"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, modeVerticalLr)
 #. +> trunk5
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:222
 #, kde-format
 msgid "Text flows vertical, left to right."
-msgstr ""
+msgstr "ข้อความไหลในแนวตั้งจากซ้ายไปขวา"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, directionLtr)
 #. +> trunk5
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:255
 #, fuzzy, kde-format
 msgid "Left to right text direction."
-msgstr "ความอิ่มสี"
+msgstr "ทิศทางข้อความจากซ้ายไปขวา"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, directionRtl)
 #. +> trunk5
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:281
 #, fuzzy, kde-format
 msgid "Right to left text direction."
-msgstr "การเลือก"
+msgstr "ทิศทางข้อความจากขวาไปซ้าย"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnEditSvg)
 #. +> trunk5
 #: plugins/tools/svgtexttool/WdgSvgTextOptionWidget.ui:325
 #, kde-format
 msgid "Edit SVG Source"
-msgstr "&แก้ต้นแบบ SVG"
+msgstr "แก้ไข SVG Source"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnGlyphPalette)
 #. +> trunk5
@@ -73012,14 +73005,14 @@ msgstr "&แก้ต้นแบบ SVG"
 #, fuzzy, kde-format
 #| msgid "Open palette"
 msgid "Glyph Palette"
-msgstr "เปิดจานสี"
+msgstr "จานสีสัญลักษณ์"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> stable5
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:31
 #, kde-format
 msgid "Note: the Rich Text editor only supports a subset of SVG."
-msgstr ""
+msgstr "หมายเหตุ: ตัวแก้ไขแบบ Rich Text รองรับเฉพาะ SVG บางส่วนเท่านั้น"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5 stable5
@@ -73027,35 +73020,35 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Keywords:"
 msgid "Keyword"
-msgstr "คำค้น:"
+msgstr "คำหลัก"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioRichText)
 #. +> stable5
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:41
 #, fuzzy, kde-format
 msgid "Rich Te&xt Only"
-msgstr "ข้อความ"
+msgstr "Rich Te&xt เท่านั้น"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioSvgSource)
 #. +> stable5
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:55
 #, kde-format
 msgid "S&VG Source Only"
-msgstr "&ต้นแบบ SVG เท่านั้น"
+msgstr "S&VG Source เท่านั้น"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:61
 #, fuzzy, kde-format
 msgid "Element"
-msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
+msgstr "เอเลเมนต์"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:89
 #, fuzzy, kde-format
 msgid "Attribute"
-msgstr "เปลี่ยนประเภทของรายการ"
+msgstr "แอตทริบิวต์"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk5 stable5
@@ -73070,35 +73063,35 @@ msgstr "ค่า"
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:173
 #, fuzzy, kde-format
 msgid "Editor text color"
-msgstr "สีปริยาย"
+msgstr "สีอักษรตัวแก้ไข"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:183
 #, fuzzy, kde-format
 msgid "Editor background:"
-msgstr "พื้นหลัง"
+msgstr "พื้นหลังตัวแก้ไข:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. +> stable5
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:25
 #, fuzzy, kde-format
 msgid "Editor Mode"
-msgstr "แก้ไขโหนด"
+msgstr "โหมดแก้ไข"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #. +> trunk5 stable5
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:209
 #, fuzzy, kde-format
 msgid "Fonts"
-msgstr "เดือน"
+msgstr "ฟอนต์"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioBoth)
 #. +> stable5
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:48
 #, kde-format
 msgid "Both"
-msgstr ""
+msgstr "ทั้งคู่"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. +> trunk5 stable5
@@ -73110,6 +73103,10 @@ msgid ""
 " system selected will have all fonts shown.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>แบบอักษรที่เลือกใช้ควรแสดงเป็นระบบการเขียนใด?"
+"หากไม่ได้เลือกระบบการเขียน แบบอักษรทั้งหมดก็จะแสดง</p>"
+"</body></html>"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgToolCrop)
 #. +> trunk5 stable5
@@ -73117,7 +73114,7 @@ msgstr ""
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:18
 #, fuzzy, kde-format
 msgid "Crop"
-msgstr "อัลฟา"
+msgstr "ครอบตัด"
 
 #. i18n: ectx: property (text), widget (QCheckBox, boolCenter)
 #. +> trunk5 stable5
@@ -73125,7 +73122,7 @@ msgstr "อัลฟา"
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:69
 #, fuzzy, kde-format
 msgid "Center"
-msgstr "มุม:"
+msgstr "กลาง"
 
 #. i18n: ectx: property (text), widget (QCheckBox, boolGrow)
 #. +> trunk5 stable5
@@ -73134,32 +73131,32 @@ msgstr "มุม:"
 #, kde-format
 msgctxt "Grow as in crop tool"
 msgid "Grow"
-msgstr ""
+msgstr "โต"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/kis_tool_crop.cc:122
 #, fuzzy, kde-format
 msgid "Lock Width"
-msgstr "ความกว้างพิกเซล"
+msgstr "ล็อกความกว้าง"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/kis_tool_crop.cc:125
 #, fuzzy, kde-format
 msgid "Lock Height"
-msgstr "&สูง:"
+msgstr "ล็อกความสูง"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/kis_tool_crop.cc:128
 #, fuzzy, kde-format
 #| msgid "Rotation: "
 msgid "Lock Ratio"
-msgstr "การหมุน: "
+msgstr "ล็อกอัตราส่วน"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/kis_tool_crop.cc:253
 #, fuzzy, kde-format
 msgid "Crop Tool Actions"
-msgstr "ลบการเลือก"
+msgstr "การดำเนินการของเครื่องมือครอบตัด"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/kis_tool_crop.cc:724
@@ -73175,13 +73172,13 @@ msgstr ""
 msgid ""
 "Width: %1\n"
 "Height: %2"
-msgstr "ความสูงพิกเซล"
+msgstr "กว้าง: %1\nสูง: %2"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/kis_tool_crop.h:215
 #, fuzzy, kde-format
 msgid "Crop Tool"
-msgstr "เครื่องมือเ&ติมสี"
+msgstr "เครื่องมือครอบตัด"
 
 #. i18n: context: text @ Action (KisToolCrop), Actions (tool-shortcuts), ActionCollection (Tools)
 #. +> trunk5 stable5
@@ -73189,7 +73186,7 @@ msgstr "เครื่องมือเ&ติมสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Crop Tool"
-msgstr "เครื่องมือเ&ติมสี"
+msgstr "เครื่องมือครอบตัด"
 
 #. i18n: context: toolTip @ Action (KisToolCrop), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: iconText @ Action (KisToolCrop), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -73201,14 +73198,14 @@ msgstr "เครื่องมือเ&ติมสี"
 #, kde-format
 msgctxt "action"
 msgid "Crop the image to an area"
-msgstr ""
+msgstr "ครอบตัดภาพให้เหลือเฉพาะพื้นที่"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolCenter)
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:66
 #, kde-format
 msgid "Resize keeping center fixed"
-msgstr ""
+msgstr "ปรับขนาดโดยคงศูนย์กลางไว้คงที่"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_vertiPos)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, intY)
@@ -73217,14 +73214,14 @@ msgstr ""
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:139
 #, fuzzy, kde-format
 msgid "Vertical Position"
-msgstr "ค่า"
+msgstr "ตำแหน่งแนวนตั้ง"
 
 #. i18n: ectx: property (text), widget (QLabel, label_vertiPos)
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:79
 #, fuzzy, kde-format
 msgid "&Y:"
-msgstr "X:"
+msgstr "&Y:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_horizPos)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, intX)
@@ -73233,7 +73230,7 @@ msgstr "X:"
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:114
 #, fuzzy, kde-format
 msgid "Horizontal Position"
-msgstr "เส้นทแยง"
+msgstr "ตำแหน่งแนวนอน"
 
 #. i18n: ectx: property (text), widget (QLabel, label_horizPos)
 #. +> trunk5 stable5
@@ -73241,42 +73238,42 @@ msgstr "เส้นทแยง"
 #, fuzzy, kde-format
 #| msgid "X:"
 msgid "&X:"
-msgstr "X:"
+msgstr "&X:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolGrow)
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:152
 #, kde-format
 msgid "Allow growing the image by dragging outside bounds of the image"
-msgstr ""
+msgstr "ให้ขยายภาพได้โดยการลากออกนอกขอบเขตของภาพ"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, lockWidthButton)
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:333
 #, fuzzy, kde-format
 msgid "Lock the width"
-msgstr "ความกว้างพิกเซล"
+msgstr "ล็อกความกว้าง"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, lockHeightButton)
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:346
 #, fuzzy, kde-format
 msgid "Lock the height"
-msgstr "&สูง:"
+msgstr "ล็อกความสูง"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, lockRatioButton)
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:359
 #, fuzzy, kde-format
 msgid "Lock the aspect ratio"
-msgstr "ลวดลาย"
+msgstr "ล็อกอัตราส่วนภาพ"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:405
 #, fuzzy, kde-format
 msgid "Canvas"
-msgstr "พื้นที่วาดภาพ"
+msgstr "แคนวาส"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
 #. +> trunk5 stable5
@@ -73290,14 +73287,14 @@ msgstr "เฟรม"
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:423
 #, fuzzy, kde-format
 msgid "&Crop"
-msgstr "อัลฟา"
+msgstr "&ครอบตัด"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:430
 #, fuzzy, kde-format
 msgid "Applies to:"
-msgstr "ตำแหน่งแฟ้ม:"
+msgstr "นำไปใช้กับ:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
 #. +> trunk5 stable5
@@ -73318,45 +73315,45 @@ msgstr ""
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:456
 #, kde-format
 msgid "Passport photo"
-msgstr ""
+msgstr "ภาพพาสปอร์ต"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5 stable5
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:469
 #, fuzzy, kde-format
 msgid "Decoration:"
-msgstr "ความอิ่มสี"
+msgstr "ตกแต่ง:"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:38
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Dynamic Brush Stroke"
-msgstr "แปรงทาสี"
+msgstr "สโตรกของแปรงแบบไดนามิก"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:293
 #, fuzzy, kde-format
 msgid "Fixed angle:"
-msgstr "สี่เหลี่ยม"
+msgstr "มุมคงที่:"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:314
 #, fuzzy, kde-format
 msgid "Initial width:"
-msgstr "แปรงทาสี"
+msgstr "ความกว้างเริ่มต้น:"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:319
 #, fuzzy, kde-format
 msgid "Width range:"
-msgstr "ละลาย"
+msgstr "พิสัยความกว้าง: "
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_dyna/kis_tool_dyna.h:139
 #, fuzzy, kde-format
 msgid "Dynamic Brush Tool"
-msgstr "เครื่องมือแ&ปรงทาสี"
+msgstr "เครื่องมือแปรงแบบไดนามิก"
 
 #. i18n: context: text @ Action (KisToolEncloseAndFill), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KisToolEncloseAndFill), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -73384,7 +73381,7 @@ msgstr "ล้อมลอบและเติม"
 #, kde-format
 msgctxt "The 'invert' checkbox in enclose and fill tool"
 msgid "Invert"
-msgstr "พลิกกลับ"
+msgstr "กลับ"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:460
@@ -73401,7 +73398,7 @@ msgctxt ""
 "The pattern 'scale' spinbox in enclose and fill tool options; {n} is the numbe"
 "r value, % is the percent sign"
 msgid "Scale: {n}%"
-msgstr "ปรับขนาด: {n}%"
+msgstr "สเกล: {n}%"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:491
@@ -73415,7 +73412,7 @@ msgstr "ขีดจำกัด: "
 #, kde-format
 msgctxt "The 'spread' spinbox prefix in enclose and fill tool options"
 msgid "Spread: "
-msgstr ""
+msgstr "กระจาย: "
 
 #. +> trunk5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:497
@@ -73431,7 +73428,7 @@ msgstr "กระจาย: {n}%"
 #, kde-format
 msgctxt "The 'close gap' spinbox prefix in enclose and fill tool options"
 msgid "Close Gap: "
-msgstr "ปิดช่องว่าง"
+msgstr "ปิดช่องว่าง: "
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:506
@@ -73454,14 +73451,14 @@ msgstr "การจำกัดรอยหยัก"
 #, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in enclose and fill tool options"
 msgid "Grow: "
-msgstr ""
+msgstr "โต: "
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:525
 #, kde-format
 msgctxt "The 'feather' spinbox prefix in enclose and fill tool options"
 msgid "Feather: "
-msgstr "ขนนก: "
+msgstr "ฟุ้ง: "
 
 #. +> stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:444
@@ -73469,14 +73466,14 @@ msgstr "ขนนก: "
 #| msgid "Scale: "
 msgctxt "The pattern 'scale' spinbox prefix in enclose and fill tool options"
 msgid "Scale: "
-msgstr "ปรับขนาด: "
+msgstr "สเกล: "
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:544
 #, kde-format
 msgctxt "The 'reset' button in enclose and fill tool options"
 msgid "Reset"
-msgstr "พลิกกลับ"
+msgstr "รีเซ็ต"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:549
@@ -73494,21 +73491,20 @@ msgstr ""
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:553
 #, kde-format
 msgid "Enable to fill opposite regions instead"
-msgstr ""
+msgstr "เปิดใช้งานเพื่อเติมพื้นที่ตรงข้ามแทน"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:554
 #, kde-format
-msgid ""
-"Enable to also fill shapes that touch the contour of the enclosing region"
-msgstr ""
+msgid "Enable to also fill shapes that touch the contour of the enclosing region"
+msgstr "เปิดใช้งานเพื่อเติมรูปทรงที่สัมผัสกับคอนทัวร์ของพื้นที่ที่ล้อมรอบได้"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:587
 #, kde-format
 msgctxt "The 'enclosing method' section label in enclose and fill tool options"
 msgid "Enclosing method"
-msgstr "วิธีการล้มลอบ"
+msgstr "วิธีการล้อมรอบ"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:594
@@ -73529,14 +73525,14 @@ msgstr "พื้นที่เป้าหมาย"
 #, kde-format
 msgctxt "The 'fill source' section label in enclose and fill tool options"
 msgid "Fill source"
-msgstr "เติมต้นฉบับ"
+msgstr "แหล่งที่ใช้เติม"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:628
 #, kde-format
 msgctxt "The 'fill extent' section label in enclose and fill tool options"
 msgid "Fill extent"
-msgstr "เติมสีเพิ่ม"
+msgstr "ขอบเขตการเติม"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:638
@@ -73550,7 +73546,7 @@ msgstr "การปรับแก้"
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All"
-msgstr ""
+msgstr "ทั้งหมด"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:897
@@ -73571,28 +73567,28 @@ msgstr "ความโปร่งใส"
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Specific color or transparency"
-msgstr "สีที่กำหนดไว้หรือความโปร่งใส"
+msgstr "สีหรือความโปร่งใส ที่กำหนดไว้"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:906
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All, excluding a specific color"
-msgstr "ทั้งหมดยกเว้นสีที่กำหนดไว้"
+msgstr "ทั้งหมด ยกเว้นสีที่กำหนดไว้"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:909
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All, excluding transparency"
-msgstr "ทั้งหมดยกเว้นความโปร่งใส"
+msgstr "ทั้งหมด ยกเว้นความโปร่งใส"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:912
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All, excluding a specific color or transparency"
-msgstr ""
+msgstr "ทั้งหมด ยกเว้นสีหรือความโปร่งใสที่กำหนดไว้"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:915
@@ -73626,108 +73622,102 @@ msgstr "ล้อมลอบและเติมสี"
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Colorize Mask Key Stroke"
-msgstr "สี"
+msgstr "คีย์สโตรกของมาส์กสี"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.h:84
 #, fuzzy, kde-format
 msgid "Colorize Mask Editing Tool"
-msgstr "ไล่ระดับสี"
+msgstr "เครื่องมือแก้ไขมาส์กสี"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:107
 #, fuzzy, kde-format
 #| msgid "Edge Detection"
 msgid "Edge detection: "
-msgstr "ตรวจหาขอบ"
+msgstr "ตรวจหาขอบ: "
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:110
 #, kde-format
 msgctxt "@info:tooltip"
-msgid ""
-"Activate for images with vast solid areas. Set the value to the width of the t"
-"hinnest lines on the image"
-msgstr ""
+msgid "Activate for images with vast solid areas. Set the value to the width of the thinnest lines on the image"
+msgstr "เปิดใช้งานสำหรับภาพที่มีพื้นที่ทึบขนาดใหญ่ ตั้งค่าความกว้างให้เท่ากับเส้นที่บางที่สุดบนภาพ"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:117
 #, kde-format
 msgid "Gap close hint: "
-msgstr ""
+msgstr "ค่าฮินต์ปิดช่องว่าง: "
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:120
 #, kde-format
 msgctxt "@info:tooltip"
-msgid ""
-"The mask will try to close non-closed contours if the gap is smaller than \"Ga"
-"p close hint\" value"
-msgstr ""
+msgid "The mask will try to close non-closed contours if the gap is smaller than \"Gap close hint\" value"
+msgstr "มาส์กจะพยายามปิดส่วนโค้งที่ยังไม่ปิด ถ้าช่องว่างมีขนาดเล็กกว่าค่า\"ฮินต์การปิดช่องว่าง\""
 
 #. +> stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:124
 #, fuzzy, kde-format
 msgid "Clean up: "
-msgstr "น้ำเงิน"
+msgstr "ทำสะอาด: "
 
 #. +> trunk5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:125
 #, fuzzy, kde-format
 msgctxt "{n} is the number value, % is the percent sign"
 msgid "Clean up: {n}%"
-msgstr "น้ำเงิน"
+msgstr "ทำสะอาด: {n}%"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:128
 #, kde-format
 msgctxt "@info:tooltip"
-msgid ""
-"The mask will try to remove parts of the key strokes that are placed outside t"
-"he closed contours. 0% - no effect, 100% - max effect"
-msgstr ""
+msgid "The mask will try to remove parts of the key strokes that are placed outside the closed contours. 0% - no effect, 100% - max effect"
+msgstr "มาส์กจะพยายามสบส่วนของคีย์สโตรกส์ที่วางไว้ภายนอกรูปทรงปิด 0% - ไม่มีผล, 100% - ผลสูงสุด"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAutoUpdates)
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:23
 #, fuzzy, kde-format
 msgid "Auto updates"
-msgstr "ความอิ่มสี"
+msgstr "อัปเดตอัตโนมัติ"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnUpdate)
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:30
 #, fuzzy, kde-format
 msgid "Update"
-msgstr "รีเฟรชพื้นที่วาดภาพ"
+msgstr "อัปเดต"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowKeyStrokes)
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:39
 #, fuzzy, kde-format
 msgid "Edit key strokes"
-msgstr "แบน"
+msgstr "แก้ไขคีย์สโตรก"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowOutput)
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:46
 #, fuzzy, kde-format
 msgid "Show output"
-msgstr "ตัวเลือกการไล่ระดับสี"
+msgstr "แสดงผลลัพธ์"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLimitToDevice)
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:53
 #, fuzzy, kde-format
 msgid "Limit to layer bounds"
-msgstr "ลบเลเยอร์ปัจจุบัน"
+msgstr "จำกัดถึงขอบเขตของเลเยอร์"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:119
 #, fuzzy, kde-format
 msgid "Key Strokes"
-msgstr "ลิงค์"
+msgstr "คีย์สโตรก"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnTransparent)
 #. +> trunk5 stable5
@@ -73735,20 +73725,20 @@ msgstr "ลิงค์"
 #, fuzzy, kde-format
 msgctxt "The label of the button that assigns a selected color as transparent"
 msgid "Transparent"
-msgstr "พื้นหน้าโปร่งใส"
+msgstr "โปร่งใส"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_polygon/kis_tool_polygon.cc:50
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Polygon"
-msgstr "เครื่องมือวาด&ภาพหลายเหลี่ยม"
+msgstr "วาดโพลีกอน"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_polygon/kis_tool_polygon.h:44
 #, kde-format
 msgid "Polygon Tool: Shift-mouseclick ends the polygon."
-msgstr ""
+msgstr "เครื่องมือโพลีกอน: กด Shift ค้างไว้แล้วคลิกเมาส์เพื่อสิ้นสุดโพลีกอน"
 
 #. i18n: context: text @ Action (KisToolPolygon), Actions (tool-shortcuts), ActionCollection (Tools)
 #. +> trunk5 stable5
@@ -73756,7 +73746,7 @@ msgstr ""
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Polygon Tool"
-msgstr "เครื่องมือวาด&ภาพหลายเหลี่ยม"
+msgstr "เครื่องมือโพลีกอน"
 
 #. i18n: context: toolTip @ Action (KisToolPolygon), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: iconText @ Action (KisToolPolygon), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -73768,13 +73758,13 @@ msgstr "เครื่องมือวาด&ภาพหลายเหล�
 #, kde-format
 msgctxt "action"
 msgid "Polygon Tool. Shift-mouseclick ends the polygon."
-msgstr ""
+msgstr "เครื่องมือโพลีกอน กด Shift ค้างไว้แล้วคลิกเมาส์เพื่อสิ้นสุดโพลีกอน"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_polyline/kis_tool_polyline.h:44
 #, kde-format
 msgid "Polyline Tool: Shift-mouseclick ends the polyline."
-msgstr ""
+msgstr "เครื่องมือโพลีไลน์: กด Shift ค้างไว้แล้วคลิกเมาส์เพื่อสิ้นสุดโพลีไลน์"
 
 #. i18n: context: text @ Action (KisToolPolyline), Actions (tool-shortcuts), ActionCollection (Tools)
 #. +> trunk5 stable5
@@ -73782,7 +73772,7 @@ msgstr ""
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Polyline Tool"
-msgstr "เครื่องมือวาด&ภาพหลายเหลี่ยม"
+msgstr "เครื่องมือโพลีไลน์"
 
 #. i18n: context: toolTip @ Action (KisToolPolyline), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: iconText @ Action (KisToolPolyline), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -73794,79 +73784,73 @@ msgstr "เครื่องมือวาด&ภาพหลายเหล�
 #, kde-format
 msgctxt "action"
 msgid "Polyline Tool. Shift-mouseclick ends the polyline."
-msgstr ""
+msgstr "เครื่องมือโพลีไลน์ กด Shift ค้างไว้แล้วคลิกเมาส์เพื่อสิ้นสุดโพลีไลน์"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch.cpp:134
 #, fuzzy, kde-format
 msgid "Select a paint layer to use this tool"
-msgstr "สี่เหลี่ยม"
+msgstr "เลือกเลเยอร์งานวาดเพื่อใช้เครื่องมือนี้"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch.cpp:173
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Smart Patch"
-msgstr "เครื่องมือ&ปากกา"
+msgstr "แพตช์อัจฉริยะ"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch.h:79
 #, fuzzy, kde-format
 msgid "Smart Patch Tool"
-msgstr "เครื่องมือเ&ติมสี"
+msgstr "เครื่องมือแพตช์อัจฉริยะ"
 
 #. i18n: ectx: property (text), widget (QLabel, Fast)
 #. +> trunk5 stable5
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:27
 #, fuzzy, kde-format
 msgid "low/fast"
-msgstr "วันที่"
+msgstr "ต่ำ/เร็ว"
 
 #. i18n: ectx: property (text), widget (QLabel, Accurate)
 #. +> trunk5 stable5
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:50
 #, fuzzy, kde-format
 msgid "high/slow"
-msgstr "&ซ่อน/แสดงเลเยอร์..."
+msgstr "สูง/ช้า"
 
 #. i18n: ectx: property (text), widget (QLabel, Fast_2)
 #. +> trunk5 stable5
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:98
 #, kde-format
 msgid "Accuracy:"
-msgstr ""
+msgstr "ความแม่นยำ:"
 
 #. i18n: ectx: property (text), widget (QLabel, patchRadiusLabel)
 #. +> trunk5 stable5
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:115
 #, fuzzy, kde-format
 msgid "Patch Radius:"
-msgstr "ค่า"
+msgstr "รัศมีแพตช์:"
 
 #. +> trunk5
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:438
 #, kde-format
-msgid ""
-"Krita was built without the support of GNU Scientific Library, so you cannot s"
-"cale the selection with handles. Please compile Krita with GNU Scientific Libr"
-"ary support, or use options widget for editing scale values manually."
-msgstr ""
+msgid "Krita was built without the support of GNU Scientific Library, so you cannot scale the selection with handles. Please compile Krita with GNU Scientific Library support, or use options widget for editing scale values manually."
+msgstr "KKrita ถูกสร้างขึ้นโดยไม่ได้มีการรองรับ GNU Scientific Library ดังนั้นคุณจึงไม่สามารถปรับขนาดการเลือกโดยใช้ตัวจับได้ โปรดคอมไพล์ Krita ที่มีการรองรับ GNU Scientific Library หรือใช้วิดเจ็ตทางเลือกเพื่อแก้ไขค่าสเกลด้วยตนเอง"
 
 #. +> stable5
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:437
 #, kde-format
-msgid ""
-"Sorry, Krita was built without the support of GNU Scientific Library, so you c"
-"annot scale the selection with handles. Please compile Krita with GNU Scientif"
-"ic Library support, or use options widget for editing scale values manually."
-msgstr ""
+msgid "Sorry, Krita was built without the support of GNU Scientific Library, so you cannot scale the selection with handles. Please compile Krita with GNU Scientific Library support, or use options widget for editing scale values manually."
+msgstr "ขออภัย Krita ถูกสร้างขึ้นโดยไม่ได้มีการรองรับ GNU Scientific Library ดังนั้นคุณจึงไม่สามารถปรับขนาดการเลือกโดยใช้ตัวจับได้ โปรดคอมไพล์ Krita ที่มีการรองรับ GNU Scientific Library หรือใช้วิดเจ็ตทางเลือกเพื่อแก้ไขค่าสเกลด้วยตนเอง"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:124
 #, kde-format
 msgctxt "Warp Transform Tab Label"
 msgid "Warp"
-msgstr ""
+msgstr "วาร์ป"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:125
@@ -73880,7 +73864,7 @@ msgstr ""
 #, fuzzy, kde-format
 msgctxt "Mesh Transform Tab Label"
 msgid "Mesh"
-msgstr "แปรงทาสี"
+msgstr "เมช"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:127
@@ -73888,87 +73872,85 @@ msgstr "แปรงทาสี"
 #| msgid "Edit Palette"
 msgctxt "Cage Transform Tab Label"
 msgid "Cage"
-msgstr "แก้ไขจานสี"
+msgstr "กรง"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:128
 #, fuzzy, kde-format
 msgctxt "Free Transform Tab Label"
 msgid "Free"
-msgstr "การเลือก"
+msgstr "อิสระ"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:129
 #, fuzzy, kde-format
 msgctxt "Perspective Transform Tab Label"
 msgid "Perspective"
-msgstr "เครื่องมือ&ย้ายภาพ"
+msgstr "เพอร์สเปกทีฟ"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:132
 #, fuzzy, kde-format
 msgid "Mirror Horizontal"
-msgstr "สะท้อนแนวนอน"
+msgstr "พลิกสะท้อนแนวนอน"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:133
 #, fuzzy, kde-format
 msgid "Mirror Vertical"
-msgstr "สะท้อนแนวตั้ง"
+msgstr "พลิกสะท้อนแนวตั้ง"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:134
 #, fuzzy, kde-format
 msgid "Rotate 90 degrees Clockwise"
-msgstr "&ลบเลเยอร์"
+msgstr "หมุน 90 องศา ตามเข็มนาฬิกา"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:135
 #, fuzzy, kde-format
 msgid "Rotate 90 degrees CounterClockwise"
-msgstr "&ลบเลเยอร์"
+msgstr "หมุน 90 องศา ทวนเข็มนาฬิกา"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:137
 #, fuzzy, kde-format
 msgid "Apply"
-msgstr "เพิ่มมาสก์"
+msgstr "นำไปใช้"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:422
 #, fuzzy, kde-format
 msgid "Transform Tool Actions"
-msgstr "เครื่องมือ&ย้ายภาพ"
+msgstr "การกระทำของเครื่องมือดัด"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:908
 #, fuzzy, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Layer type cannot use the transform tool"
-msgstr "ลบเลเยอร์แล้ว"
+msgstr "ประเภทเลเยอร์ไม่สามารถใช้เครื่องมือดัดได้"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:915
 #, fuzzy, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Layer type cannot use the transform tool. Use transform mask instead."
-msgstr "ลบเลเยอร์แล้ว"
+msgstr "ประเภทเลเยอร์ไม่สามารถใช้เครื่องมือดัดได้ ให้ใช้มาส์กดัดแทน"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:935
 #, kde-format
 msgctxt "floating message in transformation tool"
-msgid ""
-"Layer has children with transform masks. Please disable them before doing tran"
-"sformation."
-msgstr ""
+msgid "Layer has children with transform masks. Please disable them before doing transformation."
+msgstr "เลเยอร์มีลูกที่มีมาส์กดัด โปรดปิดใช้งานก่อนทำการดัด"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:949
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Selections are not used when editing transform masks "
-msgstr ""
+msgstr "การเลือกจะไม่ถูกใช้เมื่อแก้ไขหน้ามาส์กดัด "
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:1034
@@ -73976,141 +73958,135 @@ msgstr ""
 #, fuzzy, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Cannot transform empty layer "
-msgstr "เครื่องมือ&ยางลบ"
+msgstr "ไม่สามารถดัดเลเยอร์ว่างได้ "
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:1060
 #, kde-format
 msgctxt "floating message in transformation tool"
-msgid ""
-"Invisible sublayers will also be transformed. Lock layers if you do not want t"
-"hem to be transformed "
-msgstr ""
+msgid "Invisible sublayers will also be transformed. Lock layers if you do not want them to be transformed "
+msgstr "เลเยอร์ย่อยที่มองไม่เห็นจะถูกดัดเช่นกัน หากคุณไม่ต้องการให้เลเยอร์เหล่านั้นถูกดัดให้ล็อคเลเยอร์ไว้ "
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.h:360
 #, fuzzy, kde-format
 msgid "Transform a layer or a selection"
-msgstr "เปลี่ยนชื่อรูปภาพ..."
+msgstr "ดัดเลเยอร์หรือที่เลือกไว้"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:87
 #, fuzzy, kde-format
 msgid "Default (Affine)"
-msgstr "อยู่เหนือเลเยอร์ปัจจุบัน"
+msgstr "ปริยาย (Affine)"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:88
 #, fuzzy, kde-format
 msgid "Strong (Rigid)"
-msgstr "ลิงค์"
+msgstr "แข็ง (Rigid)"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:89
 #, fuzzy, kde-format
 msgid "Strongest (Similitude)"
-msgstr "&ขาว"
+msgstr "แข็งแกร่งที่สุด (Similitude)"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:217
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Size of the deformation brush"
-msgstr ""
+msgstr "ขนาดของแปรงบิดเบือนรูป"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:224
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Amount of the deformation you get"
-msgstr ""
+msgstr "ปริมาณการบิดเบือนรูปที่คุณได้รับ"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:231
 #, kde-format
 msgctxt "@info:tooltip"
-msgid ""
-"When in non-buildup mode, shows how fast the deformation limit is reached."
-msgstr ""
+msgid "When in non-buildup mode, shows how fast the deformation limit is reached."
+msgstr "เมื่อไม่ได้อยู่โหมด Build Up จะแสดงให้เห็นถึงขีดจำกัดของการบิดเบือนรูปได้เร็วแค่ไหน"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:236
 #, kde-format
 msgctxt "@info:tooltip"
-msgid ""
-"Switch between Build Up and Wash mode of painting. Build Up mode adds deformat"
-"ions one on top of the other without any limits. Wash mode gradually deforms t"
-"he piece to the selected deformation level."
-msgstr ""
+msgid "Switch between Build Up and Wash mode of painting. Build Up mode adds deformations one on top of the other without any limits. Wash mode gradually deforms the piece to the selected deformation level."
+msgstr "สลับไปมาระหว่างโหมด Build Up และ Wash ของการวาดสี โหมด Build Up จะเพิ่มการบิดเบือนแบบซ้อนทับกันกับสิ่งอื่นโดยไม่มีข้อจำกัด โหมด Wash จะค่อยๆ บิดเบือนชิ้นงานจนถึงระดับการบิดเบือนที่เลือก"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:244
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Space between two sequential applications of the deformation"
-msgstr ""
+msgstr "ระยะห่างระหว่างการประยุกต์ใช้การบิดเบือนรูปแบบต่อเนื่องสองครั้ง"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:249
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scale <b>Size</b> value according to current stylus pressure"
-msgstr ""
+msgstr "สเกลค่า<b>ขนาด</b>ตามแรงกดของสไตลัส"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:254
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scale <b>Amount</b> value according to current stylus pressure"
-msgstr ""
+msgstr "สเกลค่า<b>จำนวน</b>ตามแรงกดของสไตลัส"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:259
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reverse direction of the current deformation tool"
-msgstr ""
+msgstr "ย้อนทิศทางของเครื่องมือบิดเบือนรูปที่กำลังใช้อยู่กลับ"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:275
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Move: drag the image along the brush stroke"
-msgstr ""
+msgstr "ย้าย: ลากภาพไปตามรอยแปรง"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:276
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Scale: grow/shrink image under cursor"
-msgstr "ลบการเลือก"
+msgstr "สเกล: ขยาย/หดภาพภายใต้เคอร์เซอร์"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:277
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Rotate: twirl image under cursor"
-msgstr "ลบรูปภาพ"
+msgstr "หมุน: หมุนภาพใต้เคอร์เซอร์"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:278
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Offset: shift the image to the right of the stroke direction"
-msgstr ""
+msgstr "ออฟเซ็ต: เลื่อนภาพไปทางขวาของทิศทางเส้น"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:279
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Undo: erase actions of other tools"
-msgstr ""
+msgstr "ยกเลิก: ลบการกระทำของเครื่องมืออื่นๆ"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:620
 #, kde-format
 msgid "Switch between editing and deforming cage"
-msgstr ""
+msgstr "สลับไปมาระหว่างการแก้ไขและการบิดเบือนกรง"
 
 #. i18n: ectx: property (text), widget (QPushButton, lockUnlockPointsButton)
 #. +> trunk5 stable5
@@ -74118,13 +74094,13 @@ msgstr ""
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1629
 #, fuzzy, kde-format
 msgid "Lock Points"
-msgstr "ตัวเลือกสี"
+msgstr "ล็อกจุด"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:683
 #, fuzzy, kde-format
 msgid "Unlock Points"
-msgstr "ตัวเลือกสี"
+msgstr "ปลดล็อกจุด"
 
 #. i18n: ectx: property (text), widget (QLabel, cageTransformDirections)
 #. +> trunk5 stable5
@@ -74132,7 +74108,7 @@ msgstr "ตัวเลือกสี"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1682
 #, kde-format
 msgid "Create 3 points on the canvas to begin"
-msgstr ""
+msgstr "สร้าง 3 จุดบนแคนวาสเพื่อเริ่มต้น"
 
 #. i18n: context: text @ Action (KisToolTransform), Actions (tool-shortcuts), ActionCollection (Tools)
 #. +> trunk5 stable5
@@ -74140,7 +74116,7 @@ msgstr ""
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Transform Tool"
-msgstr "เครื่องมือ&ย้ายภาพ"
+msgstr "เครื่องมือดัด"
 
 #. i18n: context: toolTip @ Action (KisToolTransform), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: iconText @ Action (KisToolTransform), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74152,7 +74128,7 @@ msgstr "เครื่องมือ&ย้ายภาพ"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Transform a layer or a selection"
-msgstr "เปลี่ยนชื่อรูปภาพ..."
+msgstr "ดัดเลเยอร์หรือที่เลือกไว้..."
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/strokes/inplace_transform_stroke_strategy.cpp:150
@@ -74160,28 +74136,28 @@ msgstr "เปลี่ยนชื่อรูปภาพ..."
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Transform"
-msgstr "เครื่องมือ&ย้ายภาพ"
+msgstr "ดัด"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbPreviewMode)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:76
 #, kde-format
 msgid "Accurate"
-msgstr ""
+msgstr "แม่นยำ"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbPreviewMode)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:81
 #, fuzzy, kde-format
 msgid "Accurate with Instant Preview"
-msgstr "ละลาย"
+msgstr "แม่นยำด้วยการแสดงตัวอย่างทันที"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, freeTransformButton)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:136
 #, kde-format
 msgid "Free"
-msgstr ""
+msgstr "ดัดอิสระ"
 
 #. i18n: ectx: property (text), widget (QToolButton, freeTransformButton)
 #. i18n: ectx: property (text), widget (QLabel, lblTransformType)
@@ -74190,7 +74166,7 @@ msgstr ""
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:304
 #, fuzzy, kde-format
 msgid "Free Transform"
-msgstr "เครื่องมือ&ย้ายภาพ"
+msgstr "ดัดอย่างอิสระ"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, warpButton)
 #. i18n: ectx: property (text), widget (QToolButton, warpButton)
@@ -74209,7 +74185,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Edit Palette"
 msgid "Cage"
-msgstr "แก้ไขจานสี"
+msgstr "กรง"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, liquifyButton)
 #. i18n: ectx: property (text), widget (QToolButton, liquifyButton)
@@ -74227,21 +74203,21 @@ msgstr ""
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:264
 #, kde-format
 msgid "Mesh"
-msgstr ""
+msgstr "เมช"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:370
 #, fuzzy, kde-format
 msgid "&Filter:"
-msgstr "&ขาว"
+msgstr "&ฟิลเตอร์:"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, btnTransformAroundPivotPoint)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:389
 #, kde-format
 msgid "Transform around pivot point (Alt)"
-msgstr ""
+msgstr "ดัดรอบจุดหมุน (Alt)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, freeMoveRadioButton)
 #. +> trunk5 stable5
@@ -74265,7 +74241,7 @@ msgstr "หมุน"
 #, fuzzy, kde-format
 msgctxt "@option:radio Type of transformation"
 msgid "Scale"
-msgstr "ค่า"
+msgstr "สเกล"
 
 #. i18n: ectx: property (text), widget (QRadioButton, freeShearRadioButton)
 #. +> trunk5 stable5
@@ -74273,14 +74249,14 @@ msgstr "ค่า"
 #, fuzzy, kde-format
 msgctxt "@option:radio Type of transformation"
 msgid "Shear"
-msgstr "สร้างภาพใหม่"
+msgstr "เฉือน"
 
 #. i18n: ectx: property (text), widget (QLabel, tooBigLabelWidget)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:711
 #, fuzzy, kde-format
 msgid "off canvas"
-msgstr "ขยายเ&ข้า"
+msgstr "นอกแคนวาส"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_rotateX)
 #. i18n: ectx: property (toolTip), widget (KisAngleSelector, aXBox)
@@ -74289,7 +74265,7 @@ msgstr "ขยายเ&ข้า"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:793
 #, fuzzy, kde-format
 msgid "Rotate around X-Axis"
-msgstr "ลบรูปภาพ"
+msgstr "หมุนรอบแกน X"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_rotateY)
 #. i18n: ectx: property (toolTip), widget (KisAngleSelector, aYBox)
@@ -74298,7 +74274,7 @@ msgstr "ลบรูปภาพ"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:828
 #, fuzzy, kde-format
 msgid "Rotate around Y-Axis"
-msgstr "ลบรูปภาพ"
+msgstr "หมุนรอบแกน Y"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_rotateZ)
 #. i18n: ectx: property (toolTip), widget (KisAngleSelector, aZBox)
@@ -74307,14 +74283,14 @@ msgstr "ลบรูปภาพ"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:872
 #, fuzzy, kde-format
 msgid "Rotate around Z-Axis"
-msgstr "ลบรูปภาพ"
+msgstr "หมุนรอบแกน Z"
 
 #. i18n: ectx: property (text), widget (QLabel, label_rotateZ)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:853
 #, fuzzy, kde-format
 msgid "&z:"
-msgstr "ลิงค์"
+msgstr "&z:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblCameraHeight)
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, cameraHeightBox)
@@ -74323,14 +74299,14 @@ msgstr "ลิงค์"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:916
 #, kde-format
 msgid "Z-coordinate of the camera position over the scene"
-msgstr ""
+msgstr "พิกัด Z ของตำแหน่งกล้องเหนือฉาก"
 
 #. i18n: ectx: property (text), widget (QLabel, lblCameraHeight)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:897
 #, fuzzy, kde-format
 msgid "Camera height:"
-msgstr "&สูง:"
+msgstr "ความสูงกล้อง:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_width)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, scaleXBox)
@@ -74339,7 +74315,7 @@ msgstr "&สูง:"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:979
 #, fuzzy, kde-format
 msgid "Horizontal Scale"
-msgstr "เส้นทแยง"
+msgstr "สเกลแนวนอน"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, scaleXBox)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, scaleYBox)
@@ -74349,7 +74325,7 @@ msgstr "เส้นทแยง"
 #, fuzzy, no-c-format, kde-format
 #| msgid "%1 %"
 msgid " %"
-msgstr "%1%"
+msgstr " %"
 
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, scaleYBox)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_height)
@@ -74358,7 +74334,7 @@ msgstr "%1%"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1017
 #, fuzzy, kde-format
 msgid "Vertical Scale"
-msgstr "ค่า"
+msgstr "สเกลแนวตั้ง"
 
 #. i18n: ectx: property (text), widget (QLabel, label_offsetX)
 #. i18n: ectx: property (text), widget (QLabel, label_shearX)
@@ -74368,7 +74344,7 @@ msgstr "ค่า"
 #, fuzzy, kde-format
 #| msgid "Fax:"
 msgid "x:"
-msgstr "โทรสาร:"
+msgstr "x:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_offsetY)
 #. i18n: ectx: property (text), widget (QLabel, label_shearY)
@@ -74377,14 +74353,14 @@ msgstr "โทรสาร:"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1227
 #, fuzzy, kde-format
 msgid "y:"
-msgstr "ลิงค์"
+msgstr "y:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, shearGroup)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1154
 #, fuzzy, kde-format
 msgid "Shear"
-msgstr "สร้างภาพใหม่"
+msgstr "เฉือน"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_shearX)
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, shearXBox)
@@ -74393,7 +74369,7 @@ msgstr "สร้างภาพใหม่"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1246
 #, fuzzy, kde-format
 msgid "Horizontal Shear"
-msgstr "เส้นทแยง"
+msgstr "เฉือนแนวนอน"
 
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, shearYBox)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_shearY)
@@ -74402,63 +74378,63 @@ msgstr "เส้นทแยง"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1224
 #, fuzzy, kde-format
 msgid "Vertical Shear"
-msgstr "ค่า"
+msgstr "เฉือนแนวตั้ง"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, flipXButton)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1279
 #, fuzzy, kde-format
 msgid "Flip selection horizontally"
-msgstr "เลือกแบบ&อิสระ"
+msgstr "พลิกการเลือกในแนวนอน"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, flipYButton)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1304
 #, fuzzy, kde-format
 msgid "Flip selection vertically"
-msgstr "การเลือก "
+msgstr "พลิกการเลือกในแนวตั้ง "
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, rotateCCWButton)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1345
 #, fuzzy, kde-format
 msgid "Rotate selection counter-clockwise 90 degrees"
-msgstr "&ลบเลเยอร์"
+msgstr "หมุนการเลือกทวนเข็มนาฬิกา 90 องศา"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, rotateCWButton)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1370
 #, kde-format
 msgid "Rotate the selection clockwise 90 degrees"
-msgstr ""
+msgstr "หมุนการเลือกตามเข็มนาฬิกา 90 องศา"
 
 #. i18n: ectx: property (text), widget (QLabel, flexibilityLabel)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1449
 #, kde-format
 msgid "Fle&xibility:"
-msgstr ""
+msgstr "ความ&ยืดหยุ่น:"
 
 #. i18n: ectx: property (text), widget (QLabel, warpTypeLabel)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1478
 #, fuzzy, kde-format
 msgid "Anc&hor Strength:"
-msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
+msgstr "ความแ&กร่งจุดยึด:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1496
 #, fuzzy, kde-format
 msgid "Anchor Points"
-msgstr "ตัวเลือกสี"
+msgstr "จุดยึด"
 
 #. i18n: ectx: property (text), widget (QRadioButton, defaultRadioButton)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1531
 #, kde-format
 msgid "Subdi&vide"
-msgstr "การ&หารลง"
+msgstr "แบ่ง&ย่อย"
 
 #. i18n: ectx: property (text), widget (QRadioButton, customRadioButton)
 #. +> trunk5 stable5
@@ -74472,28 +74448,28 @@ msgstr "&ซ่อน/แสดงเลเยอร์..."
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1622
 #, fuzzy, kde-format
 msgid "Clear Points"
-msgstr "ตัวเลือกสี"
+msgstr "ล้างจุด"
 
 #. i18n: ectx: property (text), widget (QRadioButton, cageAddEditRadio)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1689
 #, fuzzy, kde-format
 msgid "Add/Ed&it Anchor Points"
-msgstr "ตัวเลือกสี"
+msgstr "เพิ่ม/แก้ไขจุด&ยึด"
 
 #. i18n: ectx: property (text), widget (QRadioButton, cageDeformRadio)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1705
 #, fuzzy, kde-format
 msgid "Defor&m Selection"
-msgstr "ลบการเลือก"
+msgstr "เลือกแบบ&บิดเบี้ยว"
 
 #. i18n: ectx: property (text), widget (QLabel, adjustGranularity)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1736
 #, fuzzy, kde-format
 msgid "Adjust Granularity :"
-msgstr "โหมดสี"
+msgstr "ปรับระดับรายละเอียด:"
 
 #. i18n: ectx: property (text), widget (QLabel, previewGranularity)
 #. +> trunk5 stable5
@@ -74501,7 +74477,7 @@ msgstr "โหมดสี"
 #, fuzzy, kde-format
 msgctxt "The Granularity value for Cage Transformation Preview"
 msgid "Preview"
-msgstr "รีเฟรชพื้นที่วาดภาพ"
+msgstr "แสดงตัวอย่าง"
 
 #. i18n: ectx: property (text), widget (QLabel, realGranularity)
 #. +> trunk5 stable5
@@ -74509,7 +74485,7 @@ msgstr "รีเฟรชพื้นที่วาดภาพ"
 #, fuzzy, kde-format
 msgctxt "The Granularity value for Cage Transformation Result"
 msgid "Real"
-msgstr "&สูง:"
+msgstr "จริง"
 
 #. i18n: ectx: property (whatsThis), widget (QFrame, liquifyOptionsLayout)
 #. +> trunk5 stable5
@@ -74528,42 +74504,42 @@ msgstr ""
 #, kde-format
 msgctxt "Amount of transformation"
 msgid "Amount:"
-msgstr "ผลรวม:"
+msgstr "จำนวน:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, buildupModeComboBox)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2106
 #, kde-format
 msgid "Build Up"
-msgstr ""
+msgstr "สร้าง"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2178
 #, fuzzy, kde-format
 msgid "Mesh size"
-msgstr "แปรงทาสี"
+msgstr "ขนาดเมช"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowControlPoints)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2207
 #, fuzzy, kde-format
 msgid "Show handles"
-msgstr "น้ำเงิน"
+msgstr "แสดงตัวจับ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSymmetricalHandles)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2214
 #, kde-format
 msgid "Lock handles symmetrically"
-msgstr ""
+msgstr "ล็อคตัวจับแบบสมมาตร"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScaleHandles)
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2221
 #, kde-format
 msgid "Scale handles proportionally"
-msgstr ""
+msgstr "สเกลตัวจับตามสัดส่วน"
 
 #. i18n: context: text @ Action (KritaShape/KisToolDyna), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KritaShape/KisToolDyna), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74577,7 +74553,7 @@ msgstr ""
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Dynamic Brush Tool"
-msgstr "เครื่องมือแ&ปรงทาสี"
+msgstr "เครื่องมือแปรงแบบไดนามิก"
 
 #. i18n: context: text @ Action (KritaShape/KisToolRectangle), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KritaShape/KisToolRectangle), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74591,7 +74567,7 @@ msgstr "เครื่องมือแ&ปรงทาสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Rectangle Tool"
-msgstr "เครื่องมือวาดสี่เ&หลี่ยม"
+msgstr "เครื่องมือวาดสี่เหลี่ยม"
 
 #. i18n: context: text @ Action (KritaShape/KisToolMultiBrush), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KritaShape/KisToolMultiBrush), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74605,7 +74581,7 @@ msgstr "เครื่องมือวาดสี่เ&หลี่ยม"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Multibrush Tool"
-msgstr "เครื่องมือแ&ปรงทาสี"
+msgstr "เครื่องมือมัลติแปรง"
 
 #. i18n: context: text @ Action (KritaShape/KisToolLazyBrush), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KritaShape/KisToolLazyBrush), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74619,7 +74595,7 @@ msgstr "เครื่องมือแ&ปรงทาสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Colorize Mask Tool"
-msgstr "สี"
+msgstr "เครื่องมือมาสก์ตามสี"
 
 #. i18n: context: text @ Action (KritaShape/KisToolSmartPatch), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KritaShape/KisToolSmartPatch), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74633,7 +74609,7 @@ msgstr "สี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Smart Patch Tool"
-msgstr "เครื่องมือเ&ติมสี"
+msgstr "เครื่องมือแพตช์อัจฉริยะ"
 
 #. i18n: context: text @ Action (PanTool), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (PanTool), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74647,7 +74623,7 @@ msgstr "เครื่องมือเ&ติมสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Pan Tool"
-msgstr "เครื่องมือเ&ติมสี"
+msgstr "เครื่องมือแ&พน"
 
 #. i18n: context: text @ Action (InteractionTool), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (InteractionTool), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74661,7 +74637,7 @@ msgstr "เครื่องมือเ&ติมสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Select Shapes Tool"
-msgstr "การเลือก"
+msgstr "เครื่องมือเลือกรูปทรง"
 
 #. i18n: context: toolTip @ Action (KritaSelected/KisToolColorSampler), Actions (tool-shortcuts), ActionCollection (Tools)
 #. +> trunk5 stable5
@@ -74669,7 +74645,7 @@ msgstr "การเลือก"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Sample a color from the image or current layer"
-msgstr "การเลือก"
+msgstr "ตัวอย่างสีจากภาพหรือเลเยอร์ปัจจุบัน"
 
 #. i18n: context: text @ Action (KritaFill/KisToolFill), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: iconText @ Action (KritaFill/KisToolFill), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74688,7 +74664,7 @@ msgstr "เครื่องมือเติมสี"
 #, kde-format
 msgctxt "action"
 msgid "Fill a contiguous area of color with a color, or fill a selection."
-msgstr ""
+msgstr "เติมสีลงพื้นที่ที่สีติดต่อเนื่องกัน หรือเติมส่วนที่เลือก"
 
 #. i18n: context: text @ Action (KritaShape/KisToolLine), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (KritaShape/KisToolLine), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74730,7 +74706,7 @@ msgstr "เครื่องมือวงรี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Freehand Brush Tool"
-msgstr "เครื่องมือแ&ปรงทาสี"
+msgstr "เครื่องมือแปรงแบบอิสระ"
 
 #. i18n: context: text @ Action (KritaFill/KisToolGradient), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: iconText @ Action (KritaFill/KisToolGradient), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74741,7 +74717,7 @@ msgstr "เครื่องมือแ&ปรงทาสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Gradient Tool"
-msgstr "ไล่ระดับสี"
+msgstr "เครื่องมือไล่ระดับสี"
 
 #. i18n: context: toolTip @ Action (KritaFill/KisToolGradient), Actions (tool-shortcuts), ActionCollection (Tools)
 #. +> trunk5 stable5
@@ -74768,7 +74744,7 @@ msgstr "เครืองมือวัด"
 #, kde-format
 msgctxt "action"
 msgid "Measure the distance between two points"
-msgstr ""
+msgstr "วัดระยะทางระหว่างสองจุด"
 
 #. i18n: context: text @ Action (KritaTransform/KisToolMove), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: iconText @ Action (KritaTransform/KisToolMove), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74815,7 +74791,7 @@ msgstr "อักษรวิจิตร"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Edit Shapes Tool"
-msgstr "เครื่องมือเ&ติมสี"
+msgstr "เครื่องมือแก้ไข&รูปทรง"
 
 #. i18n: context: text @ Action (ZoomTool), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (ZoomTool), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74829,7 +74805,7 @@ msgstr "เครื่องมือเ&ติมสี"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Zoom Tool"
-msgstr "เครื่องมือ&ย่อ/ขยาย"
+msgstr "เครื่องมือ&ซูม"
 
 #. i18n: context: text @ Action (ToolReferenceImages), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (ToolReferenceImages), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -74843,35 +74819,35 @@ msgstr "เครื่องมือ&ย่อ/ขยาย"
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Reference Images Tool"
-msgstr "ลบรูปภาพ"
+msgstr "เครื่องมืออ้างอิงภาพ"
 
 #. +> stable5
 #: libs/ui/input/wintab/kis_screen_size_choice_dialog.cpp:22
 #, kde-format
 msgctxt "Screen rect when choosing Wintab/Qt settings"
 msgid "%1x%2 offset: %3,%4"
-msgstr ""
+msgstr "%1x%2 ออฟเซ็ต: %3,%4"
 
 #. +> stable5
 #: libs/ui/input/wintab/kis_screen_size_choice_dialog.cpp:48
 #, fuzzy, kde-format
 msgctxt "@option:radio"
 msgid "%1 (Wintab)"
-msgstr "คัดลอกจาก"
+msgstr "%1 (Wintab)"
 
 #. +> stable5
 #: libs/ui/input/wintab/kis_screen_size_choice_dialog.cpp:49
 #, fuzzy, kde-format
 msgctxt "@option:radio"
 msgid "%1 (Qt)"
-msgstr "คัดลอกจาก"
+msgstr "%1 (Qt)"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, KisScreenSizeChoiceDialog)
 #. +> stable5
 #: libs/ui/input/wintab/kis_screen_size_choice_dialog.ui:18
 #, fuzzy, kde-format
 msgid "Choose screen resolution"
-msgstr "การเลือก"
+msgstr "เลือกความละเอียดหน้าจอ"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTitleMessage)
 #. +> stable5
@@ -74883,26 +74859,30 @@ msgid ""
 " the screen your tablet is connected to. Please select the right option.</p>"
 "</body></html>"
 msgstr ""
+"<html><head/><body>"
+"<p>ไดรเวอร์สำหรับแท็บเล็ตวาดภาพและ Windows ของคุณไม่ตรงกับขนาดหน้าจอที่แท็บเล็ตของคุณเชื่อมต่ออยู่ โปรดเลือกตัวเลือกที่ถูกต้อง"
+"</p>"
+"</body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioManual)
 #. +> stable5
 #: libs/ui/input/wintab/kis_screen_size_choice_dialog.ui:56
 #, kde-format
 msgid "If both are wrong, enter the size manually:"
-msgstr ""
+msgstr "หากทั้งสองไม่ถูกต้อง ให้ป้อนขนาดด้วยตนเอง:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRememberSetting)
 #. +> stable5
 #: libs/ui/input/wintab/kis_screen_size_choice_dialog.ui:159
 #, kde-format
 msgid "Do not ask again (hold Shift to ask again)"
-msgstr ""
+msgstr "ไม่ต้องถามอีก (กด Shift ค้างไว้เพื่อถามอีกครั้ง)"
 
 #. +> stable5
 #: libs/widgets/KoZoomMode.cpp:14
 #, fuzzy, kde-format
 msgid "Fit View"
-msgstr "วาดภาพ"
+msgstr "พอดีกับมุมมอง"
 
 #. +> stable5
 #: libs/widgets/KoZoomMode.cpp:15
@@ -74915,19 +74895,19 @@ msgstr "พอดีกับความกว้างหน้า"
 #: libs/widgets/KoZoomMode.cpp:17
 #, kde-format
 msgid "Actual Pixels"
-msgstr "พิกเซลจริง"
+msgstr "พิกเซลตามจริง"
 
 #. +> stable5
 #: libs/widgets/KoZoomMode.cpp:21
 #, fuzzy, kde-format
 msgid "Fit Text Width"
-msgstr "พอดีกับความกว้างหน้า"
+msgstr "พอดีกับความกว้างข้อความ"
 
 #. +> stable5
 #: libs/widgets/KoZoomMode.cpp:29
 #, fuzzy, kde-format
 msgid "Fit View Height"
-msgstr "พอดีกับความกว้างหน้า"
+msgstr "พอดีกับความสูงมุมมอง"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:30
@@ -74945,13 +74925,13 @@ msgstr "เปิดเอกสารที่มีอยู่แล้ว"
 #: libs/widgetutils/config/kstandardaction_p.h:31
 #, kde-format
 msgid "Open &Recent"
-msgstr "เปิดที่เ&คยเรียกใช้"
+msgstr "เปิด&ล่าสุด"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:31
 #, kde-format
 msgid "Open a document which was recently opened"
-msgstr "สร้างเอกสารใหม่จากที่เคยเปิดมา"
+msgstr "เปิดเอกสารที่เพิ่งเปิดไป"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:32
@@ -74975,13 +74955,13 @@ msgstr "บันทึกเอกสารเป็นชื่อใหม่
 #: libs/widgetutils/config/kstandardaction_p.h:34
 #, kde-format
 msgid "Re&vert"
-msgstr "&กลับคืน"
+msgstr "&คืนค่า"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:34
 #, kde-format
 msgid "Revert unsaved changes made to document"
-msgstr "กลับคืนการเปลี่ยนแปลงที่ไม่ได้บันทึกกับเอกสาร"
+msgstr "คืนค่าการเปลี่ยนแปลงที่ไม่ได้บันทึกที่กระทำต่อเอกสาร"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:35
@@ -75005,99 +74985,99 @@ msgstr "พิมพ์เอกสาร"
 #: libs/widgetutils/config/kstandardaction_p.h:37
 #, fuzzy, kde-format
 msgid "Print Previe&w"
-msgstr "ตัวอย่างหน้ากระดาษ"
+msgstr "แ&สดงตัวอย่างการพิมพ์"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:37
 #, kde-format
 msgid "Show a print preview of document"
-msgstr ""
+msgstr "แสดงตัวอย่างการพิมพ์ของเอกสาร"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:38
 #, kde-format
 msgid "&Mail..."
-msgstr ""
+msgstr "&เมล..."
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:38
 #, fuzzy, kde-format
 msgid "Send document by mail"
-msgstr "บันทึกเอกสาร"
+msgstr "ส่งเอกสารทางเมล"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:39
 #, kde-format
 msgid "&Quit"
-msgstr ""
+msgstr "&ออก"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:39
 #, fuzzy, kde-format
 msgid "Quit application"
-msgstr "ตำแหน่งแฟ้ม:"
+msgstr "ออกจากแอปพลิเคชัน"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:41
 #, fuzzy, kde-format
 msgid "&Undo"
-msgstr "แดง"
+msgstr "&ยกเลิก"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:41
 #, fuzzy, kde-format
 msgid "Undo last action"
-msgstr "เลเยอร์&ถัดไป"
+msgstr "ยกเลิกการกระทำล่าสุด"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:42
 #, kde-format
 msgid "Re&do"
-msgstr ""
+msgstr "ทำ&ซ้ำ"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:42
 #, fuzzy, kde-format
 msgid "Redo last undone action"
-msgstr "เปลี่ยนอักขระเป็นสัญลักษณ์"
+msgstr "ทำซ้ำการกระทำที่ยกเลิกไปล่าสุด"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:43
 #, kde-format
 msgid "Cu&t"
-msgstr ""
+msgstr "&ตัด"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:43
 #, fuzzy, kde-format
 msgid "Cut selection to clipboard"
-msgstr "ตัดส่วนที่เลือกไปยังเลเยอร์ใหม่"
+msgstr "ตัดส่วนที่เลือกไปยังคลิปบอร์ด"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:44
 #, fuzzy, kde-format
 msgid "&Copy"
-msgstr "บริษัท"
+msgstr "&คัดลอก"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:44
 #, fuzzy, kde-format
 msgid "Copy selection to clipboard"
-msgstr "ทำคำให้สมบูรณ์"
+msgstr "คัดลอกที่เลือกไว้ไปยังคลิปบอร์ด"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:45
 #: libs/widgetutils/config/kstandardaction_p.h:46
 #, fuzzy, kde-format
 msgid "&Paste"
-msgstr "วันที่"
+msgstr "&วาง"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:45
 #: libs/widgetutils/config/kstandardaction_p.h:46
 #, fuzzy, kde-format
 msgid "Paste clipboard content"
-msgstr "มุม:"
+msgstr "วางเนื้อหาของคลิปบอร์ด"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:47
@@ -75109,271 +75089,271 @@ msgstr "&ล้าง"
 #: libs/widgetutils/config/kstandardaction_p.h:48
 #, fuzzy, kde-format
 msgid "Select &All"
-msgstr "เลือกอักขระ"
+msgstr "เลือก&ทั้งหมด"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:49
 #, fuzzy, kde-format
 msgid "Dese&lect"
-msgstr "เลือกอักขระ"
+msgstr "&ยกเลิกการเลือก"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:50
 #, fuzzy, kde-format
 msgid "&Find..."
-msgstr "ค้นหา"
+msgstr "&ค้นหา..."
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:51
 #, fuzzy, kde-format
 msgid "Find &Next"
-msgstr "ข้อความ"
+msgstr "หา&ถัดไป"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:52
 #, fuzzy, kde-format
 msgid "Find Pre&vious"
-msgstr "แสดงตัวอย่าง"
+msgstr "หา&ก่อนหน้า"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:53
 #, fuzzy, kde-format
 msgid "&Replace..."
-msgstr "แทนที่"
+msgstr "แ&ทนที่..."
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:55
 #, fuzzy, kde-format
 msgid "&Actual Size"
-msgstr "พิกเซลที่แท้จริง"
+msgstr "ตรงกับพิกเซล&ตามจริง"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:55
 #, kde-format
 msgid "View document at its actual size"
-msgstr ""
+msgstr "ดูเอกสารในขนาดจริง"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:56
 #, fuzzy, kde-format
 msgid "&Fit to Page"
-msgstr "พอดีกับหน้า"
+msgstr "พอ&ดีกับหน้า"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:56
 #, fuzzy, kde-format
 msgid "Zoom to fit page in window"
-msgstr "พอดีกับหน้า"
+msgstr "ซูมให้พอดีกับหน้าในหน้าต่าง"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:57
 #, fuzzy, kde-format
 msgid "Fit to Page &Width"
-msgstr "พอดีกับความกว้างหน้า"
+msgstr "พอดีกับความ&กว้างหน้า"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:57
 #, fuzzy, kde-format
 msgid "Zoom to fit page width in window"
-msgstr "พอดีกับหน้า"
+msgstr "ซูมให้พอดีกับความกว้างของหน้าในหน้าต่าง"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:58
 #, fuzzy, kde-format
 msgid "Fit to Page &Height"
-msgstr "พอดีกับความกว้างหน้า"
+msgstr "พอดีกับความ&สูงหน้า"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:58
 #, fuzzy, kde-format
 msgid "Zoom to fit page height in window"
-msgstr "พอดีกับหน้า"
+msgstr "ซูมให้พอดีกับความสูงของหน้าในหน้าต่าง"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:59
 #, fuzzy, kde-format
 msgid "Zoom &In"
-msgstr "ขยายขนาด"
+msgstr "ซูม&เข้า"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:60
 #, fuzzy, kde-format
 msgid "Zoom &Out"
-msgstr "ลดขนาด"
+msgstr "ซูม&ออก"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:61
 #, fuzzy, kde-format
 msgid "&Zoom..."
-msgstr "กำหนดเอง..."
+msgstr "&ซูม..."
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:61
 #, fuzzy, kde-format
 msgid "Select zoom level"
-msgstr "เลือกอักขระ"
+msgstr "เลือกระดับการซูม"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:62
 #, fuzzy, kde-format
 msgid "&Redisplay"
-msgstr "ข้อความที่จะค้นหา:"
+msgstr "&แสดงอีกครั้ง"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:62
 #, fuzzy, kde-format
 msgid "Redisplay document"
-msgstr "เปิดเอกสาร"
+msgstr "แสดงเอกสารอีกครั้ง"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:64
 #, fuzzy, kde-format
 msgid "&Up"
-msgstr "รีเฟรชพื้นที่วาดภาพ"
+msgstr "&ขึ้นบน"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:64
 #, kde-format
 msgid "Go up"
-msgstr ""
+msgstr "ขึ้นบน"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:69
 #, fuzzy, kde-format
 msgid "&Previous Page"
-msgstr "หมายเลขหน้า"
+msgstr "หน้า&ก่อนหน้า"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:69
 #, fuzzy, kde-format
 msgid "Go to previous page"
-msgstr "ลบเลเยอร์แล้ว"
+msgstr "ไปหน้าก่อนหน้า"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:70
 #, fuzzy, kde-format
 msgid "&Next Page"
-msgstr "รูปแบบต่อไป:"
+msgstr "หน้า&ถัดไป"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:70
 #, fuzzy, kde-format
 msgid "Go to next page"
-msgstr "ตัวขีดเส้นใต้:"
+msgstr "ไปหน้าถัดไป"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:71
 #, fuzzy, kde-format
 msgid "&Go To..."
-msgstr "ต้นแบบหลักภาพนิ่ง..."
+msgstr "ไ&ปยัง..."
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:72
 #, fuzzy, kde-format
 msgid "&Go to Page..."
-msgstr "ต้นแบบหลักภาพนิ่ง..."
+msgstr "ไปหน้&าที่..."
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:73
 #, fuzzy, kde-format
 msgid "&Go to Line..."
-msgstr "บรรทัดท้ายกระดาษ"
+msgstr "ไปบรร&ทัดที่..."
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:74
 #, fuzzy, kde-format
 msgid "&First Page"
-msgstr "พอดีกับหน้า"
+msgstr "หน้าแ&รก"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:74
 #, fuzzy, kde-format
 msgid "Go to first page"
-msgstr "พอดีกับหน้า"
+msgstr "ไปหน้าแรก"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:75
 #, fuzzy, kde-format
 msgid "&Last Page"
-msgstr "พอดีกับหน้า"
+msgstr "ห&น้าล่าสุด"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:75
 #, fuzzy, kde-format
 msgid "Go to last page"
-msgstr "พอดีกับหน้า"
+msgstr "ไปหน้าล่าสุด"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:76
 #, fuzzy, kde-format
 msgid "&Back"
-msgstr "ลิงค์"
+msgstr "ถอ&ยกลับ"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:76
 #, fuzzy, kde-format
 msgid "Go back in document"
-msgstr "นำเข้าเอกสาร"
+msgstr "ถอยกลับในเอกสาร"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:77
 #, fuzzy, kde-format
 msgid "&Forward"
-msgstr "รูปแบบ:"
+msgstr "&ไปข้างหน้า"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:77
 #, fuzzy, kde-format
 msgid "Go forward in document"
-msgstr "นำเข้าเอกสาร"
+msgstr "ไปข้างหน้าในเอกสาร"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:79
 #, fuzzy, kde-format
 msgid "&Add Bookmark"
-msgstr "เพิ่มคั่นหน้า"
+msgstr "เ&พิ่มคั่นหน้า"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:80
 #, fuzzy, kde-format
 msgid "&Edit Bookmarks..."
-msgstr "เพิ่มคั่นหน้า"
+msgstr "&แก้ไขคั่นหน้า..."
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:82
 #, fuzzy, kde-format
 msgid "&Spelling..."
-msgstr "กำลังบันทึก..."
+msgstr "การ&สะกดคำ..."
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:82
 #, fuzzy, kde-format
 msgid "Check spelling in document"
-msgstr "เปิดเอกสาร"
+msgstr "ตรวจสอบการสะกดคำในเอกสาร"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:84
 #, fuzzy, kde-format
 msgid "Show or hide menubar"
-msgstr "แสดงเส้นกริด"
+msgstr "แสดงหรือซ่อนแถบเมนู"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:85
 #, fuzzy, kde-format
 msgid "Show &Toolbar"
-msgstr "แสดงแถบเครื่องมือ %1"
+msgstr "แสดงแ&ถบเครื่องมือ"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:85
 #, fuzzy, kde-format
 msgid "Show or hide toolbar"
-msgstr "แสดงเส้นกริด"
+msgstr "แสดงหรือซ่อนแถบเครื่องมือ"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:86
 #, fuzzy, kde-format
 msgid "Show or hide statusbar"
-msgstr "แสดงเส้นกริด"
+msgstr "แสดงหรือซ่อนแถบสถานะ"
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:87
@@ -75397,7 +75377,7 @@ msgstr "ตั้งค่าคีย์&ลัด..."
 #: libs/widgetutils/config/kstandardaction_p.h:90
 #, kde-format
 msgid "&Configure %1..."
-msgstr "ตั้งค่า %1..."
+msgstr "ตั้&งค่า %1..."
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:91
@@ -75409,7 +75389,7 @@ msgstr "ตั้งค่าแ&ถบเครื่องมือ"
 #: libs/widgetutils/config/kstandardaction_p.h:92
 #, kde-format
 msgid "Configure &Notifications..."
-msgstr "ตั้งค่าการแจ้งเตือน"
+msgstr "ตั้งค่าการแ&จ้งเตือน..."
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:93
@@ -75445,7 +75425,7 @@ msgstr "&รายงานข้อผิดพลาด..."
 #: libs/widgetutils/config/kstandardaction_p.h:103
 #, kde-format
 msgid "Switch Application &Language..."
-msgstr "เปลี่ยน&ภาษาของโปรแกรม"
+msgstr "เปลี่ยน&ภาษาของแอปพลิเคชัน..."
 
 #. +> stable5
 #: libs/widgetutils/config/kstandardaction_p.h:104
