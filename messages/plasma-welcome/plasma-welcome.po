@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-04 10:08+0100\n"
-"PO-Revision-Date: 2025-03-26 16:07+0700\n"
+"PO-Revision-Date: 2025-03-26 21:59+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
@@ -105,28 +105,26 @@ msgstr "แสดงบันทึกการเปลี่ยนแปลง
 #. +> stable6
 #: src/main.cpp:74
 #, kde-format
-msgid ""
-"Display release notes for the current Plasma release, for beta versions."
-msgstr "แสดงบันทึกการเปลี่ยนแปลงสำหรับเวอร์ชัน Plasma beta"
+msgid "Display release notes for the current Plasma release, for beta versions."
+msgstr "แสดงบันทึกการเปลี่ยนแปลงสำหรับเวอร์ชัน Plasma ปัจจุบัน สำหรับหน้าเบต้า"
 
+# Okay, I have no idea how to put "distro" in without it being lost in translations.
 #. +> trunk6 stable6
 #: src/main.cpp:77
 #, kde-format
 msgid "Display the live page intended for distro live environments."
-msgstr "แสดงหน้าไลฟ์สำหรับสภาพแวดล้อมไลฟ์"
+msgstr "แสดงหน้าไลฟ์สำหรับดิสโทรที่เป็นสภาพแวดล้อมไลฟ์"
 
 #. +> trunk6 stable6
 #: src/main.cpp:80
 #, kde-format
-msgid ""
-"Specify comma-delimited list of page(s) (by internal name) to be displayed."
+msgid "Specify comma-delimited list of page(s) (by internal name) to be displayed."
 msgstr "ใส่รายชื่อหน้าที่จะแสดง (โดยชื่อภายใน) ที่แยกโดยเครื่องหมายจุลภาค"
 
 #. +> stable5
 #: src/main.cpp:80
 #, kde-format
-msgid ""
-"Version number of the Plasma release to display release notes for, e.g. 5.25"
+msgid "Version number of the Plasma release to display release notes for, e.g. 5.25"
 msgstr "เลขเวอร์ชันของ Plasma ที่ใช้แสดงสำหรับบันทึกการเปลี่ยนแปลง เช่น 5.25"
 
 #. +> trunk6 stable6
@@ -153,9 +151,7 @@ msgstr "ไม่มีข้อความผิดพลาด"
 #. +> trunk6 stable6
 #: src/public/controller.cpp:80 src/public/utils.cpp:77
 #, kde-kuit-format
-msgctxt ""
-"@info:progress %1 is the command being run, and %2 is the human-readable error"
-" text returned by the command"
+msgctxt "@info:progress %1 is the command being run, and %2 is the human-readable error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
 msgstr "คำสั่ง <command>%1</command> ล้มเหลว: %2"
 
@@ -176,14 +172,8 @@ msgstr "โมดูลการตั้งค่าไม่สามารถ
 #: src/qml/ContributionCard.qml:18
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"If you find Plasma to be useful, consider getting involved or donating. KDE is"
-" an international volunteer community, not a big company; your contributions m"
-"ake a real difference!"
-msgstr ""
-"ถ้าหากคุณคิดว่า Plasma มีประโยชน์ ลองมีส่วนร่วมหรือบริจาคให้กับ KDE ดูสิ KDE เ"
-"ป็นชุมชนอาสาสมัครนานาชาติและไม่ใช่บริษัทใด ๆ การมีส่วนร่วมของคุณใด ๆ สามารถสร้"
-"างความแตกต่างที่เห็นได้จริง!"
+msgid "If you find Plasma to be useful, consider getting involved or donating. KDE is an international volunteer community, not a big company; your contributions make a real difference!"
+msgstr "ถ้าหากคุณคิดว่า Plasma มีประโยชน์ ลองมีส่วนร่วมหรือบริจาคให้กับ KDE ดูสิ KDE เป็นชุมชนอาสาสมัครนานาชาติและไม่ใช่บริษัทใด ๆ การมีส่วนร่วมของคุณใด ๆ สามารถสร้างความแตกต่างที่เห็นได้จริง!"
 
 #. +> trunk6 stable6 stable5
 #: src/qml/ContributionCard.qml:29
@@ -362,16 +352,9 @@ msgstr "ไม่สามารถโหลดหน้านี้โดย We
 #. +> stable6
 #: src/qml/pages/Discover.qml:21
 #, kde-kuit-format
-msgctxt ""
-"@info:usagetip %1 is 'Discover', the name of KDE's software center app"
-msgid ""
-"The <application>%1</application> app helps you find and install applications,"
-" games, and tools. You can search or browse by category, look at screenshots, "
-"and read reviews to help you find the perfect app."
-msgstr ""
-"แอปพลิเคชัน <application>%1</application> สามารถช่วยให้หาและติดตั้งแอปพลิเคชัน"
-" เกม และเครื่องมือได้ คุณสามารถค้นหาหรือดูตามหมวดหมู่ ดูภาพหน้าจอ และอ่านรีวิว"
-"ได้เพื่อในการหาแอปพลิเคชันที่ดีที่สุด"
+msgctxt "@info:usagetip %1 is 'Discover', the name of KDE's software center app"
+msgid "The <application>%1</application> app helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you find the perfect app."
+msgstr "แอปพลิเคชัน <application>%1</application> สามารถช่วยให้หาและติดตั้งแอปพลิเคชัน เกม และเครื่องมือได้ คุณสามารถค้นหาหรือดูตามหมวดหมู่ ดูภาพหน้าจอ และอ่านรีวิวได้เพื่อในการหาแอปพลิเคชันที่ดีที่สุด"
 
 #. +> trunk6
 #: src/qml/pages/Discover.qml:22
@@ -390,18 +373,13 @@ msgstr "จัดการซอฟต์แวร์"
 #. +> trunk6
 #: src/qml/pages/Discover.qml:23
 #, kde-kuit-format
-msgctxt ""
-"@info:usagetip %1 is 'Discover', the name of KDE's software center app, and %2"
-" is the distro name."
+msgctxt "@info:usagetip %1 is 'Discover', the name of KDE's software center app, and %2 is the distro name."
 msgid ""
-"There’s no need to search the web to download app installers or use a command-"
-"line package manager; KDE’s app store <application>%1</application> does it al"
-"l for you!<nl/>"
+"There’s no need to search the web to download app installers or use a command-line package manager; KDE’s app store <application>%1</application> does it all for you!<nl/>"
 "<nl/>"
 "Click on any of the icons below to give it a try!"
 msgstr ""
-"ไม่ต้องค้นหาบนเว็ปเพื่อในการติดตั้งแอป หรือใช้ตัวจัดการแพ็กเกจแบบบรรทัดคำสั่ง "
-"แอปสโตร์ของ KDE <application>%1</application> ทำให้คุณทั้งหมดอยู่แล้ว!<nl/>"
+"ไม่ต้องค้นหาบนเว็ปเพื่อในการติดตั้งแอป หรือใช้ตัวจัดการแพ็กเกจแบบบรรทัดคำสั่ง แอปสโตร์ของ KDE <application>%1</application> ทำให้คุณทั้งหมดอยู่แล้ว!<nl/>"
 "<nl/>"
 "กดไอคอนใดข้างล่างเพื่อลอง"
 
@@ -423,14 +401,8 @@ msgstr "สนุกไปกับมัน!"
 #: src/qml/pages/Enjoy.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"We hope you love Plasma as much as we loved making it for you! Now it’s time t"
-"o jump right in. Explore its features, install your favorite apps and games, a"
-"nd get busy doing what makes you you!"
-msgstr ""
-"พวกเราหวังว่าคุณชอบ Plasma เท่ากับพวกเราที่ทำมาให้คุณ ตอนนี้ได้ถึงเวลาที่จะกระ"
-"โดดเข้าไปและสำรวจฟีเจอร์มัน ติดตั้งแอปและเกมที่คุณชอบ และทำให้อะไรก็ตามที่เป็น"
-"คุณอยู่ทุกวันนี้"
+msgid "We hope you love Plasma as much as we loved making it for you! Now it’s time to jump right in. Explore its features, install your favorite apps and games, and get busy doing what makes you you!"
+msgstr "พวกเราหวังว่าคุณชอบ Plasma เท่ากับพวกเราที่ทำมาให้คุณ ตอนนี้ได้ถึงเวลาที่จะกระโดดเข้าไปและสำรวจฟีเจอร์มัน ติดตั้งแอปและเกมที่คุณชอบ และทำให้อะไรก็ตามที่เป็นคุณอยู่ทุกวันนี้"
 
 #. +> trunk6 stable6
 #: src/qml/pages/Enjoy.qml:26
@@ -464,8 +436,7 @@ msgstr "สมาชิกต่าง ๆ ที่สนับสนุน"
 #: src/qml/pages/enjoy/Supporters.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"We thank the following supporting members for their recurring donation to KDE:"
+msgid "We thank the following supporting members for their recurring donation to KDE:"
 msgstr "พวกเราขอขอบคุณสมาชิกที่บริจากให้แก่ KDE เป็นประจำ:"
 
 #. +> stable6
@@ -527,9 +498,7 @@ msgstr "ชื่อ"
 #. +> trunk6
 #: src/qml/pages/enjoy/Supporters.qml:78
 #, kde-format
-msgctxt ""
-"@action:inmenu An order to sort a list, referring to the date a user has first"
-" made a donation"
+msgctxt "@action:inmenu An order to sort a list, referring to the date a user has first made a donation"
 msgid "Contribution Date"
 msgstr "วันที่ที่มีส่วนช่วย"
 
@@ -551,12 +520,8 @@ msgstr "ส่งข้อมูลการใช้งานอย่างไ
 #: src/qml/pages/Feedback.qml:16
 #, kde-format
 msgctxt "@info:usagetip"
-msgid ""
-"Our developers will use this anonymous data to improve KDE software. You can c"
-"hoose how much to share in System Settings, and here too."
-msgstr ""
-"ผู้พัฒนาของเราจะใช้ข้อมูลพวกนี้เพื่อการพัฒนาซอฟต์แวร์ KDE ให้ดีขึ้น คุณสามารถเ"
-"ลือกว่าจะส่งข้อมูลไปมากเท่าไหร่ที่นี้ หรือในการตั้งค่า"
+msgid "Our developers will use this anonymous data to improve KDE software. You can choose how much to share in System Settings, and here too."
+msgstr "ผู้พัฒนาของเราจะใช้ข้อมูลพวกนี้เพื่อการพัฒนาซอฟต์แวร์ KDE ให้ดีขึ้น คุณสามารถเลือกว่าจะส่งข้อมูลไปมากเท่าไหร่ที่นี้ หรือในการตั้งค่า"
 
 #. +> trunk6 stable6
 #: src/qml/pages/Live.qml:21
@@ -569,25 +534,15 @@ msgstr "ยินดีต้อนรับสู่ %1!"
 #: src/qml/pages/Live.qml:24
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
-msgid ""
-"Pressing the icon below will begin installing %1. Alternatively, you can close"
-" the window to explore the live environment or continue here to find out about"
-" KDE Plasma."
-msgstr ""
-"กดไอคอนข้างล่างจะเริ่มการติดตั้ง %1 หรือคุณสามารถปิดหน้าต่างนี้เพื่อสำรวจสภาพแ"
-"วดล้อมแบบไลฟ์หรือดำเนินการต่อที่นี่เพื่อทำความรู้จักเกี่ยวกับ KDE Plasma เพิ่ม"
-"เติม"
+msgid "Pressing the icon below will begin installing %1. Alternatively, you can close the window to explore the live environment or continue here to find out about KDE Plasma."
+msgstr "กดไอคอนข้างล่างจะเริ่มการติดตั้ง %1 หรือคุณสามารถปิดหน้าต่างนี้เพื่อสำรวจสภาพแวดล้อมแบบไลฟ์หรือดำเนินการต่อที่นี่เพื่อทำความรู้จักเกี่ยวกับ KDE Plasma เพิ่มเติม"
 
 #. +> trunk6 stable6
 #: src/qml/pages/Live.qml:26
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
-msgid ""
-"You can close the window to explore the live environment or continue here to f"
-"ind out about KDE Plasma."
-msgstr ""
-"คุณสามารถปิดหน้าต่างนี้เพื่อสำรวจสภาพแวดล้อมแบบไลฟ์หรือดำเนินการต่อที่นี่เพื่อ"
-"ทำความรู้จักเกี่ยวกับ KDE Plasma เพิ่มเติม"
+msgid "You can close the window to explore the live environment or continue here to find out about KDE Plasma."
+msgstr "คุณสามารถปิดหน้าต่างนี้เพื่อสำรวจสภาพแวดล้อมแบบไลฟ์หรือดำเนินการต่อที่นี่เพื่อทำความรู้จักเกี่ยวกับ KDE Plasma เพิ่มเติม"
 
 #. +> trunk6 stable6
 #: src/qml/pages/Live.qml:32
@@ -607,16 +562,8 @@ msgstr "เข้าถึงอินเทอร์เน็ต"
 #: src/qml/pages/Network.qml:21
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"You can connect to the internet and manage your network connections with the <"
-"interface>Networks applet</interface>. To access it, click on the <interface>N"
-"etworks</interface> icon in your <interface>System Tray</interface>, which liv"
-"es in the bottom-right corner of the screen."
-msgstr ""
-"คุณสามารถเชื่อมต่อไปยังอินเทอร์เน็ตได้และจัดการการเชื่อมต่อได้โดยใช้<interface"
-">แอปเพล็ตเครือข่าย</interface> ถ้าจะใช้แอปเพล็ตเครือข่าย ให้กดที่ปุ่มไอคอน<int"
-"erface>เครือข่าย</interface>ใยน<interface>ถาดระบบ</interface> ที่อยู่ตรงด้านขว"
-"าล่างของหน้าจอ"
+msgid "You can connect to the internet and manage your network connections with the <interface>Networks applet</interface>. To access it, click on the <interface>Networks</interface> icon in your <interface>System Tray</interface>, which lives in the bottom-right corner of the screen."
+msgstr "คุณสามารถเชื่อมต่อไปยังอินเทอร์เน็ตได้และจัดการการเชื่อมต่อได้โดยใช้<interface>แอปเพล็ตเครือข่าย</interface> ถ้าจะใช้แอปเพล็ตเครือข่าย ให้กดที่ปุ่มไอคอน<interface>เครือข่าย</interface>ใยน<interface>ถาดระบบ</interface> ที่อยู่ตรงด้านขวาล่างของหน้าจอ"
 
 #. +> trunk6 stable6
 #: src/qml/pages/Network.qml:37
@@ -629,11 +576,8 @@ msgstr "ไม่ได้ติดตั้งการรองรับเค
 #: src/qml/pages/Network.qml:38
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the name of the user's distro"
-msgid ""
-"To manage network connections, Plasma requires <icode>plasma-nm</icode> to be "
-"installed. Please report this omission to %1."
-msgstr ""
-"การจัดการเชื่อมต่อต่าง ๆ ต้องติดตั้ง<icode>plasma-nm</icode> กรุณาแจ้งกับ %1"
+msgid "To manage network connections, Plasma requires <icode>plasma-nm</icode> to be installed. Please report this omission to %1."
+msgstr "การจัดการเชื่อมต่อต่าง ๆ ต้องติดตั้ง<icode>plasma-nm</icode> กรุณาแจ้งกับ %1"
 
 #. +> trunk6 stable6
 #: src/qml/pages/Network.qml:208
@@ -653,13 +597,8 @@ msgstr "พร้อมใช้งานแล้ว!"
 #: src/qml/pages/Network.qml:216
 #, kde-format
 msgctxt "@info"
-msgid ""
-"This page is being shown regardless of network connectivity because you are us"
-"ing a development version. To manually preview the different states of the pag"
-"e, you can use the button."
-msgstr ""
-"หน้านี้ได้แสดงขึ้นมาถึงแม้ว่าจะมีหรือไม่มีการเชื่อมต่อเครือข่ายเพราะคุณกำลังใช"
-"้เวอร์ชันที่พัฒนาอยู่ ถ้าจะแสดงตัวอย่างสำหรับ"
+msgid "This page is being shown regardless of network connectivity because you are using a development version. To manually preview the different states of the page, you can use the button."
+msgstr "หน้านี้ได้แสดงขึ้นมาถึงแม้ว่าจะมีหรือไม่มีการเชื่อมต่อเครือข่ายเพราะคุณกำลังใช้เวอร์ชันที่พัฒนาอยู่ ถ้าจะแสดงตัวอย่างสำหรับ"
 
 #. +> trunk6 stable6
 #: src/qml/pages/Network.qml:221
@@ -679,24 +618,15 @@ msgstr "Plasma ได้อัพเดทเป็น %1"
 #: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"Thank you for testing this beta release of Plasma — your feedback is fundament"
-"al to helping us improve it! Please report any and all bugs you find so that w"
-"e can fix them."
-msgstr ""
-"ขอบคุณที่ทดสอบเวอร์ชัน Plasma เบต้านี้ ข้อเสนอแนะของคุณมีประโยชน์มากแก่พวกเรา!"
-" ฉะนั้นขอรบกวนแจ้งข้อผิดพลาดที่พบเห็นในเวอร์ชันนี้ จะได้นำไปแก้พวกมัน"
+msgid "Thank you for testing this beta release of Plasma — your feedback is fundamental to helping us improve it! Please report any and all bugs you find so that we can fix them."
+msgstr "ขอบคุณที่ทดสอบเวอร์ชัน Plasma เบต้านี้ ข้อเสนอแนะของคุณมีประโยชน์มากแก่พวกเรา! ฉะนั้นขอรบกวนแจ้งข้อผิดพลาดที่พบเห็นในเวอร์ชันนี้ จะได้นำไปแก้พวกมัน"
 
 #. +> trunk6 stable6 stable5
 #: src/qml/pages/PlasmaUpdate.qml:22
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"KDE contributors have spent the last four months hard at work on this release."
-" We hope you enjoy using Plasma as much as we enjoyed making it!"
-msgstr ""
-"ผู้ช่วย KDE ได้ใช้เวลาสี่เดือนที่แล้วในการทำเวอร์ชันนี้ขึ้นมา"
-" พวกเราหวังว่าคุณจะสำราญใจกับการใช้ Plasma เท่ากับการที่พวกเราทำมัน"
+msgid "KDE contributors have spent the last four months hard at work on this release. We hope you enjoy using Plasma as much as we enjoyed making it!"
+msgstr "ผู้ช่วย KDE ได้ใช้เวลาสี่เดือนที่แล้วในการทำเวอร์ชันนี้ขึ้นมา พวกเราหวังว่าคุณจะสำราญใจกับการใช้ Plasma เท่ากับการที่พวกเราทำมัน"
 
 #. +> trunk6 stable6
 #: src/qml/pages/PlasmaUpdate.qml:29
@@ -716,9 +646,7 @@ msgstr "ดาวน์โหลดหน้าตัวอย่างของ
 #: src/qml/pages/PlasmaUpdate.qml:155
 #, kde-format
 msgctxt "@info"
-msgid ""
-"The preview has not been automatically downloaded because you are using a mete"
-"red network connection."
+msgid "The preview has not been automatically downloaded because you are using a metered network connection."
 msgstr "ไม่สามารถโหลดหน้าตัวอย่างอัตโนมัติได้เพราะคุณใช้เครือข่ายที่จำกัดอยู่"
 
 #. +> trunk6
@@ -774,12 +702,8 @@ msgstr "โหลดหน้าตัวอย่างอัตโนมัต
 #: src/qml/pages/PlasmaUpdate.qml:236
 #, kde-format
 msgctxt "@info:tooltip"
-msgid ""
-"The preview will be loaded automatically when this page is shown for future Pl"
-"asma updates, except when using a metered network connection."
-msgstr ""
-"หน้าตัวอย่างจะถูกโหลดโดยอัตโนมัติเมื่อมีอัพเดท Plasma ใหม่ ยกเว้นว่าจะใช้การเช"
-"ื่อมต่อเครือข่ายแบบจำกัด"
+msgid "The preview will be loaded automatically when this page is shown for future Plasma updates, except when using a metered network connection."
+msgstr "หน้าตัวอย่างจะถูกโหลดโดยอัตโนมัติเมื่อมีอัพเดท Plasma ใหม่ ยกเว้นว่าจะใช้การเชื่อมต่อเครือข่ายแบบจำกัด"
 
 #. +> trunk6
 #: src/qml/pages/PlasmaUpdate.qml:421
@@ -799,12 +723,8 @@ msgstr "ทรงพลังเมื่อจำเป็น"
 #: src/qml/pages/PowerfulWhenNeeded.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"Plasma is an extremely feature-rich environment, designed to super-charge your"
-" productivity! Here is just a smattering of the things it can do for you:"
-msgstr ""
-"Plasma เป็นสภาพแวดล้อมที่เต็มไปด้วยฟีเจอร์ที่เยอะมาก ๆ ออกแบบมาให้ทุกมีประสิทธ"
-"ิผลอย่างที่สุด นี้่คือรายการตัวอย่างเล็ก ๆ น้อย ๆ ว่า Plasma สามารถทำอะไรได้:"
+msgid "Plasma is an extremely feature-rich environment, designed to super-charge your productivity! Here is just a smattering of the things it can do for you:"
+msgstr "Plasma เป็นสภาพแวดล้อมที่เต็มไปด้วยฟีเจอร์ที่เยอะมาก ๆ ออกแบบมาให้ทุกมีประสิทธิผลอย่างที่สุด นี้่คือรายการตัวอย่างเล็ก ๆ น้อย ๆ ว่า Plasma สามารถทำอะไรได้:"
 
 #. +> trunk6 stable6 stable5
 #: src/qml/pages/PowerfulWhenNeeded.qml:56
@@ -858,9 +778,7 @@ msgstr "กิจกรรม"
 #. +> trunk6 stable6 stable5
 #: src/qml/pages/PowerfulWhenNeeded.qml:91
 #, kde-format
-msgctxt ""
-"@info Caption for Activities button. Note that 'Separate' is being used as an "
-"imperative verb here, not a noun."
+msgctxt "@info Caption for Activities button. Note that 'Separate' is being used as an imperative verb here, not a noun."
 msgid "Separate work, school, or home tasks"
 msgstr "แยกงานต่าง ๆ อย่างทำงาน โรงเรียน หรืองานบ้าน"
 
@@ -910,18 +828,8 @@ msgstr "กิจกรรม"
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"Activities can be used to separate high-level projects or workflows so you can"
-" focus on one at a time. You can have an activity for “Home”, “School”, “Work”"
-", and so on. Each Activity has access to all your files but has its own set of"
-" open apps and windows, recent documents, “Favorite” apps, and desktop widgets"
-"."
-msgstr ""
-"สามารถเรียกใช้ \"กิจกรรม\" เพื่อการแยกโปรเจคหรือเวิร์กโฟลว์ระดับสูง เพื่อนำไปใ"
-"ช้ในการมุ่งเน้นการทำงานหนึ่งงานในเวลาหนึ่งเดียว คุณสามารถสร้างกิจกรรมสำหรับ \""
-"บ้าน\" \"โรงเรียน\" \"ที่ทำงาน\" และ ฯลฯ กิจกรรมแต่ละอันสามารถเข้าถึงไฟล์ทุกอย"
-"่างของคุณได้ แต่มีแอปพลิเคชันและหน้าต่างที่เปิดอยู่ เอกสารที่ใช้ล่าสุด แอปพลิเ"
-"คชันที่ชอบ และวิดเจ็ต เป็นของมันเอง"
+msgid "Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for “Home”, “School”, “Work”, and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, “Favorite” apps, and desktop widgets."
+msgstr "สามารถเรียกใช้ \"กิจกรรม\" เพื่อการแยกโปรเจคหรือเวิร์กโฟลว์ระดับสูง เพื่อนำไปใช้ในการมุ่งเน้นการทำงานหนึ่งงานในเวลาหนึ่งเดียว คุณสามารถสร้างกิจกรรมสำหรับ \"บ้าน\" \"โรงเรียน\" \"ที่ทำงาน\" และ ฯลฯ กิจกรรมแต่ละอันสามารถเข้าถึงไฟล์ทุกอย่างของคุณได้ แต่มีแอปพลิเคชันและหน้าต่างที่เปิดอยู่ เอกสารที่ใช้ล่าสุด แอปพลิเคชันที่ชอบ และวิดเจ็ต เป็นของมันเอง"
 
 #. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:28
@@ -936,14 +844,8 @@ msgstr "เปิดการตั้งค่า..."
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:56
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"To get started, launch <interface>System Settings</interface> and search for “"
-"Activities”. On that page, you can create more Activities. You can then switch"
-" between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
-msgstr ""
-"ถ้าหากจะเริ่มใช้งาน เปิด<interface>การตั้งค่าระบบ</interface> และค้นหา \"กิจกร"
-"รม\" คุณสามารถสร้างกิจกรรมเพิ่มเติมได้ และจากนั้นก็สลับเปลี่ยนมันโดยใช้ปุ่มคีย"
-"์ลัด <shortcut>Meta+Tab</shortcut>"
+msgid "To get started, launch <interface>System Settings</interface> and search for “Activities”. On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Q</shortcut> keyboard shortcut."
+msgstr "ถ้าหากจะเริ่มใช้งาน เปิด<interface>การตั้งค่าระบบ</interface> และค้นหา \"กิจกรรม\" คุณสามารถสร้างกิจกรรมเพิ่มเติมได้ และจากนั้นก็สลับเปลี่ยนมันโดยใช้ปุ่มคีย์ลัด <shortcut>Meta+Tab</shortcut>"
 
 #. +> trunk6 stable6 stable5
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:17
@@ -957,36 +859,29 @@ msgstr "KDE Connect"
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"KDE Connect lets you integrate your phone with your computer in various ways:<"
-"nl/>"
+"KDE Connect lets you integrate your phone with your computer in various ways:<nl/>"
 "<list>"
 "<item>See notifications from your phone on your computer</item>"
 "<item>Reply to text messages from your phone on your computer</item>"
 "<item>Sync your clipboard contents between your computer and your phone</item>"
 "<item>Make a noise on your phone when it’s been misplaced</item>"
-"<item>Copy pictures, videos, and other files from your phone to your computer,"
-" and vice versa</item>"
+"<item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item>"
 "<item>…And much more!</item>"
 "</list>"
 "<nl/>"
-"To get started, launch <interface>System Settings</interface> and search for “"
-"KDE Connect”. On that page, you can pair your phone."
+"To get started, launch <interface>System Settings</interface> and search for “KDE Connect”. On that page, you can pair your phone."
 msgstr ""
-"KDE Connect สามารถทำให้โทรศัพท์ของคุณเชื่อมต่อกับคอมพิวเตอร์ของคุณได้หลายวิธี:"
-"<"
-"nl/>"
+"KDE Connect สามารถทำให้โทรศัพท์ของคุณเชื่อมต่อกับคอมพิวเตอร์ของคุณได้หลายวิธี:<nl/>"
 "<list>"
 "<item>ดูการแจ้งเตือนจากโทรศัพท์บนคอมพิวเตอร์ของคุณ</item>"
 "<item>ตอบข้อความต่าง ๆ บนคอมพิวเตอร์ของคุณ</item>"
 "<item>ซิงค์เนื้อหาคลิปบอร์ดระหว่างคอมพิวเตอร์และโทรศัพท์ของคุณ</item>"
 "<item>ทำให้โทรศัพท์เสียงดังเมื่อคุณทำโทรศัพท์หาย</item>"
-"<item>คัดลอกรูปภาพ วิดีทัศน์ และไฟล์อื่น ๆ จากโทรศัพท์ไปยังคอมพิวเตอร์และในทาง"
-"กลับกัน</item>"
+"<item>คัดลอกรูปภาพ วิดีทัศน์ และไฟล์อื่น ๆ จากโทรศัพท์ไปยังคอมพิวเตอร์และในทางกลับกัน</item>"
 "<item>”...และมากกว่านี้!</item>"
 "</list>"
 "<nl/>"
-"ถ้าหากจะเริ่มใช้งาน เปิด<interface>การตั้งค่าระบบ</interface> และค้นหา \"KDE C"
-"onnect\" คุณสามารถเชื่อมต่อไปยังโทรศัพท์คุณบนหน้านั้นได้"
+"ถ้าหากจะเริ่มใช้งาน เปิด<interface>การตั้งค่าระบบ</interface> และค้นหา \"KDE Connect\" คุณสามารถเชื่อมต่อไปยังโทรศัพท์คุณบนหน้านั้นได้"
 
 #. +> trunk6 stable6 stable5
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
@@ -1000,77 +895,53 @@ msgstr "KRunner"
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"KRunner is Plasma’s exceptionally powerful and versatile search system. It pow"
-"ers the search functionality in the Application Launcher menu and the Overview"
-" screen, and it can be accessed as a standalone search bar using the <shortcut"
-">Alt+Space</shortcut> keyboard shortcut.<nl/>"
+"KRunner is Plasma’s exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut.<nl/>"
 "<nl/>"
-"In addition to finding your files and folders, KRunner can launch apps, search"
-" the web, convert between currencies, calculate math problems, and a lot more."
+"In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more."
 msgstr ""
-"KRunner เป็นระบบค้นหาอเนกประสงค์ของ Plasma ที่มีสมรรถภาพสูง ซึ่งถูกใช้ในเมนูเป"
-"ิดใช้แอปพลิเคชัน และโหมดภาพโดยรวม และสามารถเข้าถึงกล่องค้นหาได้ผ่านคีย์ลัด <sh"
-"ortcut>Alt+เว้นวรรค</shortcut><nl/>"
+"KRunner เป็นระบบค้นหาอเนกประสงค์ของ Plasma ที่มีสมรรถภาพสูง ซึ่งถูกใช้ในเมนูเปิดใช้แอปพลิเคชัน และโหมดภาพโดยรวม และสามารถเข้าถึงกล่องค้นหาได้ผ่านคีย์ลัด <shortcut>Alt+เว้นวรรค</shortcut><nl/>"
 "<nl/>"
-"ทั้งที่สามารถหาไฟล์และโฟลเดอร์ได้ KRunner สามารถเปิดแอปพลิเคชัน ค้นหาบนอินเทอร"
-"์เน็ต แปลงค่าเงิน คำนวนเลขคณิตฯ และอีกมากมายมากว่านี้"
+"ทั้งที่สามารถหาไฟล์และโฟลเดอร์ได้ KRunner สามารถเปิดแอปพลิเคชัน ค้นหาบนอินเทอร์เน็ต แปลงค่าเงิน คำนวนเลขคณิตฯ และอีกมากมายมากว่านี้"
 
 #. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:57
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shor"
-"tcut> keyboard shortcut and click on the question mark icon."
-msgstr ""
-"ถ้าอยากเรียนรู้มากกว่านี้เกี่ยวกับ KRunner ให้เปิด KRunner โดยใช้ปุ่มคีย์ลัด <"
-"shortcut>Alt+เว้นวรรค</shortcut> และกดไอคอนเครื่องหมายคำถาม"
+msgid "To learn more, open the KRunner search bar using the <shortcut>Alt+Space</shortcut> keyboard shortcut and click on the question mark icon."
+msgstr "ถ้าอยากเรียนรู้มากกว่านี้เกี่ยวกับ KRunner ให้เปิด KRunner โดยใช้ปุ่มคีย์ลัด <shortcut>Alt+เว้นวรรค</shortcut> และกดไอคอนเครื่องหมายคำถาม"
 
 #. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:69
 #, kde-format
-msgctxt ""
-"@info:usagetip An example KRunner query, ensure keywords are localized as they"
-" are in the actual runner plugins. If needed, change 'Shanghai' to a city that"
-" on the other side of the world from likely speakers of the language."
+msgctxt "@info:usagetip An example KRunner query, ensure keywords are localized as they are in the actual runner plugins. If needed, change 'Shanghai' to a city that on the other side of the world from likely speakers of the language."
 msgid "time Shanghai"
 msgstr "time Shanghai"
 
 #. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:71
 #, kde-format
-msgctxt ""
-"@info:usagetip An example KRunner query, ensure keywords are localized as they"
-" are in the actual runner plugins."
+msgctxt "@info:usagetip An example KRunner query, ensure keywords are localized as they are in the actual runner plugins."
 msgid "27 / 3"
 msgstr "27 / 3"
 
 #. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:73
 #, kde-format
-msgctxt ""
-"@info:usagetip An example KRunner query, ensure keywords are localized as they"
-" are in the actual runner plugins. If needed, change the currency conversion t"
-"o a likely one for speakers of the language."
+msgctxt "@info:usagetip An example KRunner query, ensure keywords are localized as they are in the actual runner plugins. If needed, change the currency conversion to a likely one for speakers of the language."
 msgid "200 EUR in USD"
 msgstr "200 EUR in USD"
 
 #. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:75
 #, kde-format
-msgctxt ""
-"@info:usagetip An example KRunner query, ensure keywords are localized as they"
-" are in the actual runner plugins. If needed, change the conversion to a likel"
-"y one for speakers of the language."
+msgctxt "@info:usagetip An example KRunner query, ensure keywords are localized as they are in the actual runner plugins. If needed, change the conversion to a likely one for speakers of the language."
 msgid "25 miles in km"
 msgstr "25 miles in km"
 
 #. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:77
 #, kde-format
-msgctxt ""
-"@info:usagetip An addendum to example KRunner queries, intentionally using '.."
-".' as these are the characters a person would type for ellipses"
+msgctxt "@info:usagetip An addendum to example KRunner queries, intentionally using '...' as these are the characters a person would type for ellipses"
 msgid "...and much more!"
 msgstr "...และอื่น ๆ อีกมากมาย!"
 
@@ -1085,30 +956,15 @@ msgstr "โหมดภาพโดยรวม"
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:20
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"Overview is a full-screen overlay that shows all of your open windows, letting"
-" you easily access any of them. It also shows your current Virtual Desktops, a"
-"llowing you to add more, remove some, and switch between them. Finally, it off"
-"ers a KRunner-powered search field that can also filter through open windows."
-msgstr ""
-"โหมดภาพโดยรวมเป็นโหมดเต็มหน้าจอที่แสดงหน้าต่างที่คุณเปิดไว้อยู่ เพื่อให้การเข้"
-"าถึงไปยังหน้าต่างนั้นเข้าถึงง่าย โหมดนี้จะแสดง Virtual Desktop ปัจจุบันและสามา"
-"รถเพิ่ม ลบ และเปลี่ยน Virtual Desktop ได้ และในที่สุดโหมดนี้มีฟังค์ชันค้นหาที่"
-"ใช้ KRunner ที่สามารถกรอกหน้าต่างที่เปิดอยู่ได้ด้วย"
+msgid "Overview is a full-screen overlay that shows all of your open windows, letting you easily access any of them. It also shows your current Virtual Desktops, allowing you to add more, remove some, and switch between them. Finally, it offers a KRunner-powered search field that can also filter through open windows."
+msgstr "โหมดภาพโดยรวมเป็นโหมดเต็มหน้าจอที่แสดงหน้าต่างที่คุณเปิดไว้อยู่ เพื่อให้การเข้าถึงไปยังหน้าต่างนั้นเข้าถึงง่าย โหมดนี้จะแสดง Virtual Desktop ปัจจุบันและสามารถเพิ่ม ลบ และเปลี่ยน Virtual Desktop ได้ และในที่สุดโหมดนี้มีฟังค์ชันค้นหาที่ใช้ KRunner ที่สามารถกรอกหน้าต่างที่เปิดอยู่ได้ด้วย"
 
 #. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/Overview.qml:44
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"You can access Overview using the <shortcut>Meta+W</shortcut> keyboard shortcu"
-"t, or by moving your mouse into the top-left corner of the screen. You can als"
-"o press <shortcut>Meta+G</shortcut> for Grid View, which shows Virtual Desktop"
-"s in a grid."
-msgstr ""
-"คุณสามารถใช้โหมดภาพโดยรวมได้โดยการกดปุ่มคีย์ลัด <shortcut>Meta+W</shortcut> หร"
-"ือโดยการเอาเมาส์ดันไปที่มุมหน้าจอทางด้านซ้าย-บน คุณสามารถดูแบบตารางได้โดยใช้ปุ"
-"่มคีย์ลัด <shortcut>Meta+G</shortcut> และจะแสดงหน้า Virtual Desktop เป็นตาราง"
+msgid "You can access Overview using the <shortcut>Meta+W</shortcut> keyboard shortcut, or by moving your mouse into the top-left corner of the screen. You can also press <shortcut>Meta+G</shortcut> for Grid View, which shows Virtual Desktops in a grid."
+msgstr "คุณสามารถใช้โหมดภาพโดยรวมได้โดยการกดปุ่มคีย์ลัด <shortcut>Meta+W</shortcut> หรือโดยการเอาเมาส์ดันไปที่มุมหน้าจอทางด้านซ้าย-บน คุณสามารถดูแบบตารางได้โดยใช้ปุ่มคีย์ลัด <shortcut>Meta+G</shortcut> และจะแสดงหน้า Virtual Desktop เป็นตาราง"
 
 #. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
@@ -1121,15 +977,8 @@ msgstr "การตั้งค่าระบบ"
 #: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"The System Settings app lets you extensively customize the system to suit your"
-" tastes and preferences. Default apps, wallpapers, visual styles and icons, vi"
-"rtual desktops, power management, 3rd-party add-ons — you’ll find it all there"
-"!"
-msgstr ""
-"แอปพลิเคชันการตั้งค่าระบบช่วยให้คุณดัดแปลงระบบของคุณให้เป็นไปตามใจชอบของคุณ ไม"
-"่ว่าจะเป็นแอปพลิเคชันค่าเริ่มต้น, วอลล์เปเปอร์, สไตล์ของภาพและไอคอน, virtual d"
-"esktop, การจัดการพลังงาน, ส่วนเสริมโดยบุคคลที่สาม, ฯลฯ ก็จะหาเจอได้ที่นั้น"
+msgid "The System Settings app lets you extensively customize the system to suit your tastes and preferences. Default apps, wallpapers, visual styles and icons, virtual desktops, power management, 3rd-party add-ons — you’ll find it all there!"
+msgstr "แอปพลิเคชันการตั้งค่าระบบช่วยให้คุณดัดแปลงระบบของคุณให้เป็นไปตามใจชอบของคุณ ไม่ว่าจะเป็นแอปพลิเคชันค่าเริ่มต้น, วอลล์เปเปอร์, สไตล์ของภาพและไอคอน, virtual desktop, การจัดการพลังงาน, ส่วนเสริมโดยบุคคลที่สาม, ฯลฯ ก็จะหาเจอได้ที่นั้น"
 
 #. +> trunk6 stable6 stable5
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:22
@@ -1142,17 +991,8 @@ msgstr "Plasma Vaults"
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:23
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"Plasma Vaults allows you to create encrypted folders, called <interface>Vaults"
-".</interface> Inside each Vault, you can securely store your passwords, files,"
-" pictures, and documents, safe from prying eyes. Vaults can live inside folder"
-"s that are synced to cloud storage services too, providing extra privacy for t"
-"hat content."
-msgstr ""
-"Plasma Vaults สามารถสร้างโฟลเดอร์ที่เข้ารหัสได้ที่เรียกว่า <interface>Vaults</"
-"interface> ข้างใน Vault แต่ละอัน คุณสามารถเก็บรหัสผ่าน ไฟล์ รูป และเอกสารได้อย"
-"่างปลอดภัย Vaults สามารถอยู่ข้างในโฟลเดอร์ที่ซิงค์ไปยังบริการพื้นที่จัดกับคลาว"
-"ด์ได้ด้วย ทำให้มีความปลอดภัยยิ่งขึ้น"
+msgid "Plasma Vaults allows you to create encrypted folders, called <interface>Vaults.</interface> Inside each Vault, you can securely store your passwords, files, pictures, and documents, safe from prying eyes. Vaults can live inside folders that are synced to cloud storage services too, providing extra privacy for that content."
+msgstr "Plasma Vaults สามารถสร้างโฟลเดอร์ที่เข้ารหัสได้ที่เรียกว่า <interface>Vaults</interface> ข้างใน Vault แต่ละอัน คุณสามารถเก็บรหัสผ่าน ไฟล์ รูป และเอกสารได้อย่างปลอดภัย Vaults สามารถอยู่ข้างในโฟลเดอร์ที่ซิงค์ไปยังบริการพื้นที่จัดกับคลาวด์ได้ด้วย ทำให้มีความปลอดภัยยิ่งขึ้น"
 
 #. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:97
@@ -1185,12 +1025,8 @@ msgstr "เปิดล็อกและเปิด"
 #: src/qml/pages/powerfulwhenneeded/Vaults.qml:133
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"To get started, click the arrow on the <interface>System Tray</interface> to s"
-"how hidden items, and then click the <interface>Vaults</interface> icon."
-msgstr ""
-"ถ้าหากจะเริ่มใช้งาน กดลูกศรที่<interface>ถาดระบบ</interface>เพื่อที่จะแสดงรายก"
-"ารที่ซ่อนอยู่ จากนั้นกดที่ไอคอน <interface>Vaults</interface>"
+msgid "To get started, click the arrow on the <interface>System Tray</interface> to show hidden items, and then click the <interface>Vaults</interface> icon."
+msgstr "ถ้าหากจะเริ่มใช้งาน กดลูกศรที่<interface>ถาดระบบ</interface>เพื่อที่จะแสดงรายการที่ซ่อนอยู่ จากนั้นกดที่ไอคอน <interface>Vaults</interface>"
 
 #. +> trunk6 stable6 stable5
 #: src/qml/pages/SimpleByDefault.qml:22
@@ -1204,109 +1040,62 @@ msgstr "เรียบง่ายเป็นค่าเริ่มต้น
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"Plasma is designed to be simple and usable out of the box. Things are where yo"
-"u would expect, and there is generally no need to configure anything before yo"
-"u can be comfortable and productive.<nl/>"
+"Plasma is designed to be simple and usable out of the box. Things are where you would expect, and there is generally no need to configure anything before you can be comfortable and productive.<nl/>"
 "<nl/>"
-"Below is a visual representation of a typical Plasma Desktop; move the pointer"
-" over or click on something to learn about it!"
+"Below is a visual representation of a typical Plasma Desktop; move the pointer over or click on something to learn about it!"
 msgstr ""
-"Plasma ได้ถูกออกแบบให้ใช้งานง่ายและเปิดมาใช้ได้เลย สิ่งที่คุณคิดว่าอยู่ตรงไหนอ"
-"ยู่ตรงนั้น และไม่ต้องตั้งค่าอะไรก่อนที่จะทำให้ระบบใช้งานได้อย่างสะดวกสบายและมี"
-"ประสิทธิผล<nl/>"
+"Plasma ได้ถูกออกแบบให้ใช้งานง่ายและเปิดมาใช้ได้เลย สิ่งที่คุณคิดว่าอยู่ตรงไหนอยู่ตรงนั้น และไม่ต้องตั้งค่าอะไรก่อนที่จะทำให้ระบบใช้งานได้อย่างสะดวกสบายและมีประสิทธิผล<nl/>"
 "<nl/>"
-"ข้างล่างนี้เป็นตัวอย่างของหน้า Plasma Desktop ทั่วไปของคุณ ลองเอาเมาส์เคอร์เซอ"
-"ร์ของคุณไปชี้หรือคลิ๊กอะไรบางอย่างเพื่อเรียนรู้เกี่ยวกับมันเพิ่มเติม"
+"ข้างล่างนี้เป็นตัวอย่างของหน้า Plasma Desktop ทั่วไปของคุณ ลองเอาเมาส์เคอร์เซอร์ของคุณไปชี้หรือคลิ๊กอะไรบางอย่างเพื่อเรียนรู้เกี่ยวกับมันเพิ่มเติม"
 
 #. +> trunk6 stable6
 #: src/qml/pages/SimpleByDefault.qml:34
 #, kde-kuit-format
 msgctxt "@info"
-msgid ""
-"This is the “Desktop”. It shows files and folders that are contained in your <"
-"filename>Desktop</filename> folder, and can hold widgets. Right-click on it an"
-"d choose <interface>Desktop and Wallpaper…</interface> to configure the appear"
-"ance of the desktop. You can also choose <interface>Enter Edit Mode</interface"
-"> to add, remove or modify widgets."
-msgstr ""
-"นี้คือ \"เดสก์ท็อป\" เป็นที่อยู่ไฟล์และโฟลเดอร์ที่เก็บไว้ในโฟลเดอร์<filename>เ"
-"ดสก์ท็อป</filename>ของคุณ และสามารถใส่วิดเจ็ตได้ด้วย ถ้าหากจะเปลี่ยนวอลล์เปเปอ"
-"ร์กดคลิกขวาที่หน้าเดสก์ท็อปและเลือก<interface>เดสก์ท็อปและวอลล์เปเปอร์…</inter"
-"face> ถ้าจะตกแต่งหน้าเดสก์ท็อปโดยใช้วิดเจ็ตสามารถกดปุ่ม<interface>เข้าโหมดแก้ไ"
-"ข</interface>ได้ด้วย"
+msgid "This is the “Desktop”. It shows files and folders that are contained in your <filename>Desktop</filename> folder, and can hold widgets. Right-click on it and choose <interface>Desktop and Wallpaper…</interface> to configure the appearance of the desktop. You can also choose <interface>Enter Edit Mode</interface> to add, remove or modify widgets."
+msgstr "นี้คือ \"เดสก์ท็อป\" เป็นที่อยู่ไฟล์และโฟลเดอร์ที่เก็บไว้ในโฟลเดอร์<filename>เดสก์ท็อป</filename>ของคุณ และสามารถใส่วิดเจ็ตได้ด้วย ถ้าหากจะเปลี่ยนวอลล์เปเปอร์กดคลิกขวาที่หน้าเดสก์ท็อปและเลือก<interface>เดสก์ท็อปและวอลล์เปเปอร์…</interface> ถ้าจะตกแต่งหน้าเดสก์ท็อปโดยใช้วิดเจ็ตสามารถกดปุ่ม<interface>เข้าโหมดแก้ไข</interface>ได้ด้วย"
 
 #. +> trunk6 stable6
 #: src/qml/pages/SimpleByDefault.qml:37
 #, kde-kuit-format
 msgctxt "@info"
-msgid ""
-"This is a “Panel” — a container to hold widgets. Right-click on it and choose "
-"<interface>Show Panel Configuration</interface> to change how it behaves, whic"
-"h screen edge it lives on, and to add, remove or modify widgets."
-msgstr ""
-"นี้คือ \"แผง\" เป็นอยู่ของวิดเจ็ตต่าง ๆ สามารถกดคลิกขวาที่นั้นและเลือก<interfa"
-"ce>แสดงการตั้งค่าแผง</interface>เพื่อการตั้งค่าแผงนั้น ๆ ว่าอยู่ตรงไหน หรือจะล"
-"บ เพิ่ม และแก้ไขวิดเจ็ตใด ๆ"
+msgid "This is a “Panel” — a container to hold widgets. Right-click on it and choose <interface>Show Panel Configuration</interface> to change how it behaves, which screen edge it lives on, and to add, remove or modify widgets."
+msgstr "นี้คือ \"แผง\" เป็นอยู่ของวิดเจ็ตต่าง ๆ สามารถกดคลิกขวาที่นั้นและเลือก<interface>แสดงการตั้งค่าแผง</interface>เพื่อการตั้งค่าแผงนั้น ๆ ว่าอยู่ตรงไหน หรือจะลบ เพิ่ม และแก้ไขวิดเจ็ตใด ๆ"
 
 #. +> trunk6 stable6
 #: src/qml/pages/SimpleByDefault.qml:40
 #, kde-format
 msgctxt "@info"
-msgid ""
-"This is the “Kickoff” widget, a multipurpose launcher. Here you can launch app"
-"s, shut down or restart the system, access recent files, and more. Click on it"
-" to get started!"
-msgstr ""
-"นี้คือวิดเจ็ต \"เริ่มต้น\" เป็นตัวเปิดใช้แอปพลิเคชันอเนกประสงค์ คุณสามารถเปิดแ"
-"อปพลิเคชันของคุณ ปิดเครื่อง เข้าถึงไฟล์ล่าสุด และอื่น ๆ ได้ที่นี้ ลองกดมันดูสิ"
+msgid "This is the “Kickoff” widget, a multipurpose launcher. Here you can launch apps, shut down or restart the system, access recent files, and more. Click on it to get started!"
+msgstr "นี้คือวิดเจ็ต \"เริ่มต้น\" เป็นตัวเปิดใช้แอปพลิเคชันอเนกประสงค์ คุณสามารถเปิดแอปพลิเคชันของคุณ ปิดเครื่อง เข้าถึงไฟล์ล่าสุด และอื่น ๆ ได้ที่นี้ ลองกดมันดูสิ"
 
 #. +> trunk6 stable6
 #: src/qml/pages/SimpleByDefault.qml:43
 #, kde-format
 msgctxt "@info"
-msgid ""
-"This is the “Task Manager” widget, where you can switch between open apps and "
-"also launch new ones. Drag app icons to re-arrange them."
-msgstr ""
-"นี้คือวิดเจ็ต \"ตัวจัดการงาน\" คุณสามารถใช้วิดเจ็ตนี้ในการเปลี่ยนระหว่างแอปพลิ"
-"เคชันที่เปิดอยู่ เปิดแอปใหม่ และย้ายโดยการลากไอคอนแอป"
+msgid "This is the “Task Manager” widget, where you can switch between open apps and also launch new ones. Drag app icons to re-arrange them."
+msgstr "นี้คือวิดเจ็ต \"ตัวจัดการงาน\" คุณสามารถใช้วิดเจ็ตนี้ในการเปลี่ยนระหว่างแอปพลิเคชันที่เปิดอยู่ เปิดแอปใหม่ และย้ายโดยการลากไอคอนแอป"
 
 #. +> trunk6 stable6
 #: src/qml/pages/SimpleByDefault.qml:46
 #, kde-format
 msgctxt "@info"
-msgid ""
-"This is the “System Tray” widget, which lets you control system functions like"
-" changing the volume and connecting to networks. Items will become visible her"
-"e only when relevant. To see all available items, click the ⌃ arrow next to th"
-"e clock."
-msgstr ""
-"นี้คือวิดเจ็ต \"ถาดระบบ\" สามารถควบคุมฟังก์ชันรพบบต่าง ๆ เช่น ลดหรือเพิ่มระดับ"
-"เสียง หรือเชื่อมต่อไปยังเครือข่ายไร้สาย ไอคอนแต่ละตัวจะแสดงตัวตนเมื่อมีประโยชน"
-"์เท่านั้น ถ้าจะดูไอคอนทั้งหมดกดลูกศร ^ ข้าง ๆ นาฬิกา"
+msgid "This is the “System Tray” widget, which lets you control system functions like changing the volume and connecting to networks. Items will become visible here only when relevant. To see all available items, click the ⌃ arrow next to the clock."
+msgstr "นี้คือวิดเจ็ต \"ถาดระบบ\" สามารถควบคุมฟังก์ชันรพบบต่าง ๆ เช่น ลดหรือเพิ่มระดับเสียง หรือเชื่อมต่อไปยังเครือข่ายไร้สาย ไอคอนแต่ละตัวจะแสดงตัวตนเมื่อมีประโยชน์เท่านั้น ถ้าจะดูไอคอนทั้งหมดกดลูกศร ^ ข้าง ๆ นาฬิกา"
 
 #. +> trunk6 stable6
 #: src/qml/pages/SimpleByDefault.qml:49
 #, kde-format
 msgctxt "@info"
-msgid ""
-"This is the “Digital Clock” widget. Click on it to show a calendar. It can be "
-"also configured to show other timezones and events from your digital calendars"
-"."
-msgstr ""
-"นี้คือวิดเจ็ต \"นาฬิกาดิจิตอล\" สามารถแสดงปฏิทินได้โดยการกดคลิกที่นั้น สามารถต"
-"ั้งให้แสดงกิจกรรมจากปฏิทินและโซนเวลาอื่นได้ด้วย"
+msgid "This is the “Digital Clock” widget. Click on it to show a calendar. It can be also configured to show other timezones and events from your digital calendars."
+msgstr "นี้คือวิดเจ็ต \"นาฬิกาดิจิตอล\" สามารถแสดงปฏิทินได้โดยการกดคลิกที่นั้น สามารถตั้งให้แสดงกิจกรรมจากปฏิทินและโซนเวลาอื่นได้ด้วย"
 
 #. +> trunk6 stable6
 #: src/qml/pages/SimpleByDefault.qml:52
 #, kde-format
 msgctxt "@info"
-msgid ""
-"This is the “Peek at Desktop” widget. Click on it to temporarily hide all open"
-" windows so you can access the desktop. Click on it again to bring them back."
-msgstr ""
-"นี้คือวิดเจ็ต \"ดูหน้าเดสก์ท็อป\" สามารถซ่อนแอปพลิเคชันทั้งหมดที่เปิดอยู่ได้โด"
-"ยการกดคลิกซ้าย และถ้าอยากเรียกแอปพลิเคชันกลับมาก็กดอีกครั้งได้"
+msgid "This is the “Peek at Desktop” widget. Click on it to temporarily hide all open windows so you can access the desktop. Click on it again to bring them back."
+msgstr "นี้คือวิดเจ็ต \"ดูหน้าเดสก์ท็อป\" สามารถซ่อนแอปพลิเคชันทั้งหมดที่เปิดอยู่ได้โดยการกดคลิกซ้าย และถ้าอยากเรียกแอปพลิเคชันกลับมาก็กดอีกครั้งได้"
 
 #. +> stable5
 #: src/contents/ui/pages/Contribute.qml:16
@@ -1320,38 +1109,20 @@ msgstr "มีส่วนร่วม"
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"KDE is not a big company; it's an international volunteer community, and its s"
-"oftware is made by people like you donating their time and passion. You too ca"
-"n help make things better, whether it's through translation, visual design, an"
-"d promotion, or programming and bug triaging.<nl/>"
+"KDE is not a big company; it's an international volunteer community, and its software is made by people like you donating their time and passion. You too can help make things better, whether it's through translation, visual design, and promotion, or programming and bug triaging.<nl/>"
 "<nl/>"
-"By contributing to KDE, you can become part of something special, meet new fri"
-"ends, learn new skills, and make a difference to millions while working with p"
-"eople from around the globe to deliver a stunning free software computing expe"
-"rience."
+"By contributing to KDE, you can become part of something special, meet new friends, learn new skills, and make a difference to millions while working with people from around the globe to deliver a stunning free software computing experience."
 msgstr ""
-"KDE ไม่ใช่บริษัทใหญ่ ๆ ใด ๆ แต่เป็นชุมชนอาสาสมัครนานาชาติ และซอฟต์แวร์ทั้งหมดไ"
-"ด้ถูกสร้างโดยผู้คนอย่างคุณโดยการบริจาคน้ำเหงือไม่ว่าจะเป็นเวลาหรือความรักกับโป"
-"รเจ็คนี้ คุณก็สามารถช่วยให้โปรเจ็คนี้ดีขึ้นได้ไม่ว่าจะเป็นการช่วยแปลภาษา การออ"
-"กแบบภาพ การส่งเสริมสนับสนุน หรือการเขียนโปรแกรมและไล่ตามหาบัคต่าง ๆ<nl/>"
+"KDE ไม่ใช่บริษัทใหญ่ ๆ ใด ๆ แต่เป็นชุมชนอาสาสมัครนานาชาติ และซอฟต์แวร์ทั้งหมดได้ถูกสร้างโดยผู้คนอย่างคุณโดยการบริจาคน้ำเหงือไม่ว่าจะเป็นเวลาหรือความรักกับโปรเจ็คนี้ คุณก็สามารถช่วยให้โปรเจ็คนี้ดีขึ้นได้ไม่ว่าจะเป็นการช่วยแปลภาษา การออกแบบภาพ การส่งเสริมสนับสนุน หรือการเขียนโปรแกรมและไล่ตามหาบัคต่าง ๆ<nl/>"
 "<nl/>"
-"การที่ช่วยเหลือ KDE นั้น คุณสามารถเป็นส่วนหนึ่งในอะไรบางอย่างที่พิเศษ พบเพื่อน"
-"ใหม่ เรียนรู้ทักษะใหม่ และสร้างความแตกต่างให้กับคนเป็นล้าน ๆ ระหว่างที่ทำงานกั"
-"บคนทั่วโลกเพื่อที่จะมอบประสบการณ์ซอฟต์แวร์เวร์ที่เหลือเชื่อ"
+"การที่ช่วยเหลือ KDE นั้น คุณสามารถเป็นส่วนหนึ่งในอะไรบางอย่างที่พิเศษ พบเพื่อนใหม่ เรียนรู้ทักษะใหม่ และสร้างความแตกต่างให้กับคนเป็นล้าน ๆ ระหว่างที่ทำงานกับคนทั่วโลกเพื่อที่จะมอบประสบการณ์ซอฟต์แวร์เวร์ที่เหลือเชื่อ"
 
 #. +> stable5
 #: src/contents/ui/pages/Welcome.qml:16
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"Plasma is a free and open-source desktop environment created by KDE, an intern"
-"ational software community of volunteers. The Plasma desktop environment is si"
-"mple by default for a smooth experience, but powerful when needed to help you "
-"really get things done. We hope you love it!"
-msgstr ""
-"Plasma เป็นสภาพแวดล้อมเดสก์ท็อปเสรีและโอเพนซอร์สสร้างโดยชุมชน KDE ที่เต็มไปด้ว"
-"ยอาสาสมัครนานาชาติ Plasma นั้นออกแบบมาให้เรียบง่ายโดยค่าเริ่มต้นแต่ทรงพลังเมื่"
-"อผู้ใช้ต้องการ ห พวกเราหวังว่าคุณจะชอบมัน!"
+msgid "Plasma is a free and open-source desktop environment created by KDE, an international software community of volunteers. The Plasma desktop environment is simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!"
+msgstr "Plasma เป็นสภาพแวดล้อมเดสก์ท็อปเสรีและโอเพนซอร์สสร้างโดยชุมชน KDE ที่เต็มไปด้วยอาสาสมัครนานาชาติ Plasma นั้นออกแบบมาให้เรียบง่ายโดยค่าเริ่มต้นแต่ทรงพลังเมื่อผู้ใช้ต้องการ ห พวกเราหวังว่าคุณจะชอบมัน!"
 
 #. +> trunk6 stable6
 #: src/qml/pages/Welcome.qml:21
@@ -1367,16 +1138,11 @@ msgctxt "@info:usagetip %1 is custom text supplied by the distro"
 msgid ""
 "%1<nl/>"
 "<nl/>"
-"This operating system is running Plasma, a free and open-source desktop enviro"
-"nment created by KDE, an international software community of volunteers. It is"
-" designed to be simple by default for a smooth experience, but powerful when n"
-"eeded to help you really get things done. We hope you love it!"
+"This operating system is running Plasma, a free and open-source desktop environment created by KDE, an international software community of volunteers. It is designed to be simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!"
 msgstr ""
 "%1<nl/>"
 "<nl/>"
-"ระบบปฏิบัติการนี้กำลังใช้ Plasma อยู่ เป็นสภาพแวดล้อมเดสก์ท็อปเสรีและโอเพนซอร์"
-"สสร้างโดยชุมชน KDE ที่เต็มไปด้วยอาสาสมัครนานาชาติ Plasma นั้นออกแบบมาให้เรียบง"
-"่ายโดยค่าเริ่มต้นแต่ทรงพลังเมื่อผู้ใช้ต้องการ พวกเราหวังว่าคุณจะชอบมัน!"
+"ระบบปฏิบัติการนี้กำลังใช้ Plasma อยู่ เป็นสภาพแวดล้อมเดสก์ท็อปเสรีและโอเพนซอร์สสร้างโดยชุมชน KDE ที่เต็มไปด้วยอาสาสมัครนานาชาติ Plasma นั้นออกแบบมาให้เรียบง่ายโดยค่าเริ่มต้นแต่ทรงพลังเมื่อผู้ใช้ต้องการ พวกเราหวังว่าคุณจะชอบมัน!"
 
 #. +> trunk6 stable6
 #: src/qml/pages/Welcome.qml:24
@@ -1385,15 +1151,8 @@ msgctxt "@info:usagetip %1 is the name of the user's distro"
 msgid ""
 "Welcome to the %1 operating system running KDE Plasma!<nl/>"
 "<nl/>"
-"Plasma is a free and open-source desktop environment created by KDE, an intern"
-"ational software community of volunteers. It is designed to be simple by defau"
-"lt for a smooth experience, but powerful when needed to help you really get th"
-"ings done. We hope you love it!"
-msgstr ""
-"ยินดีต้อนรับสู่ระบบปฏิบัติการ %1 ที่ใช้ KDE Plasma "
-"Plasma เป็นสภาพแวดล้อมเดสก์ท็อปเสรีและโอเพนซอร์สสร้างโดยชุมชน KDE ที่เต็มไปด้ว"
-"ยอาสาสมัครนานาชาติ Plasma นั้นออกแบบมาให้เรียบง่ายโดยค่าเริ่มต้นแต่ทรงพลังเมื่"
-"อผู้ใช้ต้องการ พวกเราหวังว่าคุณจะชอบมัน!"
+"Plasma is a free and open-source desktop environment created by KDE, an international software community of volunteers. It is designed to be simple by default for a smooth experience, but powerful when needed to help you really get things done. We hope you love it!"
+msgstr "ยินดีต้อนรับสู่ระบบปฏิบัติการ %1 ที่ใช้ KDE Plasma Plasma เป็นสภาพแวดล้อมเดสก์ท็อปเสรีและโอเพนซอร์สสร้างโดยชุมชน KDE ที่เต็มไปด้วยอาสาสมัครนานาชาติ Plasma นั้นออกแบบมาให้เรียบง่ายโดยค่าเริ่มต้นแต่ทรงพลังเมื่อผู้ใช้ต้องการ พวกเราหวังว่าคุณจะชอบมัน!"
 
 #. +> trunk6 stable6
 #: src/qml/pages/Welcome.qml:28
@@ -1449,9 +1208,7 @@ msgstr "ยินดีต้อนรับสู่ KDE Plasma!"
 #, kde-kuit-format
 msgctxt "@info:placeholder"
 msgid "Could not load <filename>%1</filename>. Make sure it exists."
-msgstr ""
-"ไม่สามารถโหลด <filename>%1</filename> ได้ กรุณาดูว่าไฟล์นี้มีอยู่ในเครื่องจริง"
-"ไหม"
+msgstr "ไม่สามารถโหลด <filename>%1</filename> ได้ กรุณาดูว่าไฟล์นี้มีอยู่ในเครื่องจริงไหม"
 
 #. +> trunk6 stable6 stable5
 #: src/qml/pages/Welcome.qml:127
@@ -1558,14 +1315,8 @@ msgstr "ช่วยทำ Plasma เวอร์ชั่นถัดไป"
 #: src/qml/pages/plasmaupdate/Update.qml:70
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"The KDE community relies on donations of expertise and funds, and is supported"
-" by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the wider KDE c"
-"ommunity, and you can make a difference by donating today."
-msgstr ""
-"ชุมชน KDE พึ่งพาเงินบริจาคจากกองทุน และถูกจัดการโดยองค์กรไม่แสวงหากำไรจากเยอรม"
-"ัน KDE e.V. การบริจากไปยัง KDE e.V. ทำให้ชุมชน KDE อยู่รอดได้ และคถณสามารถสร้า"
-"งความแตกต่างได้โดยการบริจาควันนี้"
+msgid "The KDE community relies on donations of expertise and funds, and is supported by KDE e.V.—a German nonprofit. Donations to KDE e.V. support the wider KDE community, and you can make a difference by donating today."
+msgstr "ชุมชน KDE พึ่งพาเงินบริจาคจากกองทุน และถูกจัดการโดยองค์กรไม่แสวงหากำไรจากเยอรมัน KDE e.V. การบริจากไปยัง KDE e.V. ทำให้ชุมชน KDE อยู่รอดได้ และคถณสามารถสร้างความแตกต่างได้โดยการบริจาควันนี้"
 
 #. +> stable5
 #: src/contents/ui/main.qml:73
@@ -1593,26 +1344,15 @@ msgstr "เชื่อมต่อบัญชีออนไลน์ของ
 #: src/contents/ui/main.qml:177
 #, kde-format
 msgctxt "@info:usagetip"
-msgid ""
-"This will let you access their content in KDE apps. You can set it up in Syste"
-"m Settings, and here too."
-msgstr ""
-"ตัวเลือกนี้จะเปิดให้คุณเข้าถึงเนื้อหานั้นในแอป KDE ต่าง ๆ คุณสามารถเริ่มตั้งค่"
-"าได้ตรงนี้ หรือที่การตั้งค่าระบบ"
+msgid "This will let you access their content in KDE apps. You can set it up in System Settings, and here too."
+msgstr "ตัวเลือกนี้จะเปิดให้คุณเข้าถึงเนื้อหานั้นในแอป KDE ต่าง ๆ คุณสามารถเริ่มตั้งค่าได้ตรงนี้ หรือที่การตั้งค่าระบบ"
 
 #. +> stable5
 #: src/contents/ui/pages/Discover.qml:19
 #, kde-kuit-format
 msgctxt "@info:usagetip"
-msgid ""
-"The <application>Discover</application> app helps you find and install applica"
-"tions, games, and tools. You can search or browse by category, look at screens"
-"hots, and read reviews to help you find the perfect app."
-msgstr ""
-"แอปพลิเคชัน <application>Discover</application> ช่วยให้คุณหาและติดตั้งแอปพลิเค"
-"ชัน เกม และเครื่องมือต่าง ๆ คุณสามารถค้นหาหรือดูตามหมวดหมู่ ดูภาพหน้าจอ และอ่า"
-"นรีวิว"
-"ได้เพื่อในการหาแอปพลิเคชันที่ดีที่สุด"
+msgid "The <application>Discover</application> app helps you find and install applications, games, and tools. You can search or browse by category, look at screenshots, and read reviews to help you find the perfect app."
+msgstr "แอปพลิเคชัน <application>Discover</application> ช่วยให้คุณหาและติดตั้งแอปพลิเคชัน เกม และเครื่องมือต่าง ๆ คุณสามารถค้นหาหรือดูตามหมวดหมู่ ดูภาพหน้าจอ และอ่านรีวิวได้เพื่อในการหาแอปพลิเคชันที่ดีที่สุด"
 
 #. +> stable5
 #: src/contents/ui/pages/Discover.qml:39
@@ -1640,18 +1380,13 @@ msgstr "สนับสนุนความอิสรภาพของคุ
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"Miraculously, KDE operates on a shoestring budget, relying largely on donation"
-"s of labor and resources. You can help change that!<nl/>"
+"Miraculously, KDE operates on a shoestring budget, relying largely on donations of labor and resources. You can help change that!<nl/>"
 "<nl/>"
-"Financial donations help KDE pay for development sprints, hardware and server "
-"resources, and expanded employment. Donations are tax-deductible in Germany."
+"Financial donations help KDE pay for development sprints, hardware and server resources, and expanded employment. Donations are tax-deductible in Germany."
 msgstr ""
-"KDE นั้นทำงานโดยใช้งบประมาณจำกัดอย่างอัศจรรย์ โดยใช้เงินบริจาคไปใช้กับแรงงานแล"
-"ะทรัพยากร คุณสามารถช่วยเหลือพวกเราได้<nl/>"
+"KDE นั้นทำงานโดยใช้งบประมาณจำกัดอย่างอัศจรรย์ โดยใช้เงินบริจาคไปใช้กับแรงงานและทรัพยากร คุณสามารถช่วยเหลือพวกเราได้<nl/>"
 "<nl/>"
-"การบริจาคนั้นจะช่วยเหลือพวกเราในการจ่ายค่าฮาร์ตแวร์และเซิร์ฟเวอร์ ทรัพยากรอื่น"
-" ๆ และการจ้างงานที่เพิ่มขึ้นซึ่งจะทำให้การพัฒนาเร็วขึ้น การบริจาคสามารถนำไปลดห"
-"ย่อนภาษีได้ในเยอรมนี"
+"การบริจาคนั้นจะช่วยเหลือพวกเราในการจ่ายค่าฮาร์ตแวร์และเซิร์ฟเวอร์ ทรัพยากรอื่น ๆ และการจ้างงานที่เพิ่มขึ้นซึ่งจะทำให้การพัฒนาเร็วขึ้น การบริจาคสามารถนำไปลดหย่อนภาษีได้ในเยอรมนี"
 
 #. +> stable5
 #: src/contents/ui/pages/PlasmaUpdate.qml:22
@@ -1686,22 +1421,13 @@ msgstr "ขยายระบบเพิ่มเติมโดยใช้ส
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"Plasma Vaults allows you to create encrypted folders, called <interface>Vaults"
-".</interface> Inside each Vault, you can securely store your passwords, files,"
-" pictures, and documents, safe from prying eyes. Vaults can live inside folder"
-"s that are synced to cloud storage services too, providing extra privacy for t"
-"hat content.<nl/>"
+"Plasma Vaults allows you to create encrypted folders, called <interface>Vaults.</interface> Inside each Vault, you can securely store your passwords, files, pictures, and documents, safe from prying eyes. Vaults can live inside folders that are synced to cloud storage services too, providing extra privacy for that content.<nl/>"
 "<nl/>"
-"To get started, click the arrow on the <interface>System Tray</interface> to s"
-"how hidden items, and then click the <interface>Vaults</interface> icon."
+"To get started, click the arrow on the <interface>System Tray</interface> to show hidden items, and then click the <interface>Vaults</interface> icon."
 msgstr ""
-"Plasma Vaults สามารถสร้างโฟลเดอร์ที่เข้ารหัสได้ที่เรียกว่า <interface>Vaults</"
-"interface> ข้างใน Vault แต่ละอัน คุณสามารถเก็บรหัสผ่าน ไฟล์ รูป และเอกสารได้อย"
-"่างปลอดภัย Vaults สามารถอยู่ข้างในโฟลเดอร์ที่ซิงค์ไปยังบริการพื้นที่จัดกับคลาว"
-"ด์ได้ด้วย ทำให้มีความปลอดภัยยิ่งขึ้น<nl/>"
+"Plasma Vaults สามารถสร้างโฟลเดอร์ที่เข้ารหัสได้ที่เรียกว่า <interface>Vaults</interface> ข้างใน Vault แต่ละอัน คุณสามารถเก็บรหัสผ่าน ไฟล์ รูป และเอกสารได้อย่างปลอดภัย Vaults สามารถอยู่ข้างในโฟลเดอร์ที่ซิงค์ไปยังบริการพื้นที่จัดกับคลาวด์ได้ด้วย ทำให้มีความปลอดภัยยิ่งขึ้น<nl/>"
 "<nl/>"
-"ถ้าหากจะเริ่มใช้งาน กดลูกศรที่<interface>ถาดระบบ</interface>เพื่อที่จะแสดงรายก"
-"ารที่ซ่อนอยู่ จากนั้นกดที่ไอคอน <interface>Vaults</interface>"
+"ถ้าหากจะเริ่มใช้งาน กดลูกศรที่<interface>ถาดระบบ</interface>เพื่อที่จะแสดงรายการที่ซ่อนอยู่ จากนั้นกดที่ไอคอน <interface>Vaults</interface>"
 
 #. +> stable5
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:130
@@ -1720,25 +1446,13 @@ msgstr "ดูฟีเจอร์เพิ่มเติม"
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"Activities can be used to separate high-level projects or workflows so you can"
-" focus on one at a time. You can have an activity for \"Home\", \"School\", \""
-"Work\", and so on. Each Activity has access to all your files but has its own "
-"set of open apps and windows, recent documents, \"Favorite\" apps, and desktop"
-" widgets.<nl/>"
+"Activities can be used to separate high-level projects or workflows so you can focus on one at a time. You can have an activity for \"Home\", \"School\", \"Work\", and so on. Each Activity has access to all your files but has its own set of open apps and windows, recent documents, \"Favorite\" apps, and desktop widgets.<nl/>"
 "<nl/>"
-"To get started, launch <interface>System Settings</interface> and search for "
-"\"Activities\". On that page, you can create more Activities. You can then swi"
-"tch between them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
+"To get started, launch <interface>System Settings</interface> and search for \"Activities\". On that page, you can create more Activities. You can then switch between them using the <shortcut>Meta+Tab</shortcut> keyboard shortcut."
 msgstr ""
-"สามารถเรียกใช้ \"กิจกรรม\" เพื่อการแยกโปรเจคหรือเวิร์กโฟลว์ระดับสูง เพื่อนำไปใ"
-"ช้ในการมุ่งเน้นการทำงานหนึ่งงานในเวลาหนึ่งเดียว คุณสามารถสร้างกิรกรรมสำหรับ \""
-"บ้าน\" \"โรงเรียน\" \"ที่ทำงาน\" และ ฯลฯ กิจกรรมแต่ละอันสามารถเข้าถึงไฟล์ทุกอย"
-"่างของคุณได้ แต่มีแอปพลิเคชันและหน้าต่างที่เปิดอยู่ เอกสารที่ใช้ล่าสุด แอปพลิเ"
-"คชันที่ชอบ และวิดเจ็ต เป็นของมันเอง<nl/>"
+"สามารถเรียกใช้ \"กิจกรรม\" เพื่อการแยกโปรเจคหรือเวิร์กโฟลว์ระดับสูง เพื่อนำไปใช้ในการมุ่งเน้นการทำงานหนึ่งงานในเวลาหนึ่งเดียว คุณสามารถสร้างกิรกรรมสำหรับ \"บ้าน\" \"โรงเรียน\" \"ที่ทำงาน\" และ ฯลฯ กิจกรรมแต่ละอันสามารถเข้าถึงไฟล์ทุกอย่างของคุณได้ แต่มีแอปพลิเคชันและหน้าต่างที่เปิดอยู่ เอกสารที่ใช้ล่าสุด แอปพลิเคชันที่ชอบ และวิดเจ็ต เป็นของมันเอง<nl/>"
 "<nl/>"
-"ถ้าหากจะเริ่มใช้งาน เปิด<interface>การตั้งค่าระบบ</interface> และค้นหา \"กิจกร"
-"รม\" คุณสามารถสร้างกิจกรรมเพิ่มเติมได้ และจากนั้นก็สลับเปลี่ยนระหว่างกิจกรรมโด"
-"ยใช้ปุ่มคีย์ลัด <shortcut>Meta+Tab</shortcut>"
+"ถ้าหากจะเริ่มใช้งาน เปิด<interface>การตั้งค่าระบบ</interface> และค้นหา \"กิจกรรม\" คุณสามารถสร้างกิจกรรมเพิ่มเติมได้ และจากนั้นก็สลับเปลี่ยนระหว่างกิจกรรมโดยใช้ปุ่มคีย์ลัด <shortcut>Meta+Tab</shortcut>"
 
 #. +> stable5
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:159
@@ -1752,35 +1466,29 @@ msgstr "เปิดหน้ากิจกรรมในการตั้ง
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"KDE Connect lets you integrate your phone with your computer in various ways:<"
-"nl/>"
+"KDE Connect lets you integrate your phone with your computer in various ways:<nl/>"
 "<list>"
 "<item>See notifications from your phone on your computer</item>"
 "<item>Reply to text messages from your phone on your computer</item>"
 "<item>Sync your clipboard contents between your computer and your phone</item>"
 "<item>Make a noise on your phone when it's been misplaced</item>"
-"<item>Copy pictures, videos, and other files from your phone to your computer,"
-" and vice versa</item>"
+"<item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item>"
 "<item>…And much more!</item>"
 "</list>"
 "<nl/>"
-"To get started, launch <interface>System Settings</interface> and search for "
-"\"KDE Connect\". On that page, you can pair your phone."
+"To get started, launch <interface>System Settings</interface> and search for \"KDE Connect\". On that page, you can pair your phone."
 msgstr ""
-"KDE Connect สามารถทำให้โทรศัพท์ของคุณเชื่อมต่อกับคอมพิวเตอร์ของคุณได้หลายวิธี:"
-"<nl/>"
+"KDE Connect สามารถทำให้โทรศัพท์ของคุณเชื่อมต่อกับคอมพิวเตอร์ของคุณได้หลายวิธี:<nl/>"
 "<list>"
 "<item>ดูการแจ้งเตือนจากโทรศัพท์บนคอมพิวเตอร์ของคุณ</item>"
 "<item>ตอบข้อความต่าง ๆ บนคอมพิวเตอร์ของคุณ</item>"
 "<item>ซิงค์เนื้อหาคลิปบอร์ดระหว่างคอมพิวเตอร์และโทรศัพท์ของคุณ</item>"
 "<item>ทำให้โทรศัพท์เสียงดังเมื่อคุณทำโทรศัพท์หาย</item>"
-"<item>คัดลอกรูปภาพ วิดีทัศน์ และไฟล์อื่น ๆ จากโทรศัพท์ไปยังคอมพิวเตอร์และในทาง"
-"กลับกัน</item>"
+"<item>คัดลอกรูปภาพ วิดีทัศน์ และไฟล์อื่น ๆ จากโทรศัพท์ไปยังคอมพิวเตอร์และในทางกลับกัน</item>"
 "<item>...และมากกว่านี้!</item>"
 "</list>"
 "<nl/>"
-"ถ้าหากจะเริ่มใช้งาน เปิด<interface>การตั้งค่าระบบ</interface> และค้นหา \"KDE C"
-"onnect\" คุณสามารถเชื่อมต่อไปยังโทรศัพท์คุณบนหน้านั้นได้"
+"ถ้าหากจะเริ่มใช้งาน เปิด<interface>การตั้งค่าระบบ</interface> และค้นหา \"KDE Connect\" คุณสามารถเชื่อมต่อไปยังโทรศัพท์คุณบนหน้านั้นได้"
 
 #. +> stable5
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:200
@@ -1792,18 +1500,11 @@ msgstr "เปิดหน้า KDE Connect ใน System Settings"
 #. +> stable5
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:217
 #, kde-kuit-format
-msgctxt ""
-"@info:usagetip translators: if needed, change 'Shanghai' to a city that on the"
-" other side of the world from likely speakers of the language"
+msgctxt "@info:usagetip translators: if needed, change 'Shanghai' to a city that on the other side of the world from likely speakers of the language"
 msgid ""
-"KRunner is Plasma's exceptionally powerful and versatile search system. It pow"
-"ers the search functionality in the Application Launcher menu and the Overview"
-" screen, and it can be accessed as a standalone search bar using the <shortcut"
-">Alt+F2</shortcut> keyboard shortcut.<nl/>"
+"KRunner is Plasma's exceptionally powerful and versatile search system. It powers the search functionality in the Application Launcher menu and the Overview screen, and it can be accessed as a standalone search bar using the <shortcut>Alt+F2</shortcut> keyboard shortcut.<nl/>"
 "<nl/>"
-"In addition to finding your files and folders, KRunner can launch apps, search"
-" the web, convert between currencies, calculate math problems, and a lot more."
-" Try typing any of the following into one of those search fields:<nl/>"
+"In addition to finding your files and folders, KRunner can launch apps, search the web, convert between currencies, calculate math problems, and a lot more. Try typing any of the following into one of those search fields:<nl/>"
 "<list>"
 "<item>\"time Shanghai\"</item>"
 "<item>\"27/3\"</item>"
@@ -1812,16 +1513,11 @@ msgid ""
 "<item>…And much more!</item>"
 "</list>"
 "<nl/>"
-"To learn more, open the KRunner search bar using the <shortcut>Alt+F2</shortcu"
-"t> keyboard shortcut and click on the question mark icon."
+"To learn more, open the KRunner search bar using the <shortcut>Alt+F2</shortcut> keyboard shortcut and click on the question mark icon."
 msgstr ""
-"KRunner เป็นระบบค้นหาอเนกประสงค์ของ Plasma ที่มีสมรรถภาพสูง ซึ่งถูกใช้ในเมนู A"
-"pplication Launcher และโหมดภาพโดยรวม และสามารถเข้าถึงกล่องค้นหาได้ผ่านคีย์ลัด "
-"<shortcut>Alt+F2</shortcut><nl/>"
+"KRunner เป็นระบบค้นหาอเนกประสงค์ของ Plasma ที่มีสมรรถภาพสูง ซึ่งถูกใช้ในเมนู Application Launcher และโหมดภาพโดยรวม และสามารถเข้าถึงกล่องค้นหาได้ผ่านคีย์ลัด <shortcut>Alt+F2</shortcut><nl/>"
 "<nl/>"
-"ทั้งที่สามารถหาไฟล์และโฟลเดอร์ KRunner สามารถเปิดแอปพลิเคชัน ค้นหาบนอินเทอร์เน"
-"็ต แปลงค่าเงิน คำนวนเลขคณิตฯ และอีกมากมาย ลองพิมพ์สิ่งพวกนี้ในกล่องค้นหาดูสิ:<"
-"nl/>"
+"ทั้งที่สามารถหาไฟล์และโฟลเดอร์ KRunner สามารถเปิดแอปพลิเคชัน ค้นหาบนอินเทอร์เน็ต แปลงค่าเงิน คำนวนเลขคณิตฯ และอีกมากมาย ลองพิมพ์สิ่งพวกนี้ในกล่องค้นหาดูสิ:<nl/>"
 "<list>"
 "<item>\"time Shanghai\"</item>"
 "<item>\"27/3\"</item>"
@@ -1830,27 +1526,18 @@ msgstr ""
 "<item>…และอีกมากมาย!</item>"
 "</list>"
 "<nl/>"
-"ถ้าอยากเรียนรู้มากกว่านี้เกี่ยวกับ KRunner ให้เปิด KRunner โดยใช้ปุ่มคีย์ลัด <"
-"shortcut>Alt+F2</shortcut> และกดไอคอนเครื่องหมายคำถาม"
+"ถ้าอยากเรียนรู้มากกว่านี้เกี่ยวกับ KRunner ให้เปิด KRunner โดยใช้ปุ่มคีย์ลัด <shortcut>Alt+F2</shortcut> และกดไอคอนเครื่องหมายคำถาม"
 
 #. +> stable5
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:246
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"Overview is a full-screen overlay that shows all of your open windows, letting"
-" you easily access any of them. It also shows your current Virtual Desktops, a"
-"llowing you to add more, remove some, and switch between them. Finally, it off"
-"ers a KRunner-powered search field that can also filter through open windows.<"
-"nl/>"
+"Overview is a full-screen overlay that shows all of your open windows, letting you easily access any of them. It also shows your current Virtual Desktops, allowing you to add more, remove some, and switch between them. Finally, it offers a KRunner-powered search field that can also filter through open windows.<nl/>"
 "<nl/>"
-"You can access Overview using the <shortcut>Meta+W</shortcut> keyboard shortcu"
-"t."
+"You can access Overview using the <shortcut>Meta+W</shortcut> keyboard shortcut."
 msgstr ""
-"โหมดภาพโดยรวมเป็นโหมดเต็มหน้าจอที่แสดงหน้าต่างที่คุณเปิดไว้อยู่ เพื่อให้การเข้"
-"าถึงไปยังหน้าต่างนั้นเข้าถึงง่าย โหมดนี้จะแสดง Virtual Desktop ปัจจุบันและสามา"
-"รถเพิ่ม ลบ และเปลี่ยน Virtual Desktop ได้ และในที่สุดโหมดนี้มีฟังค์ชันค้นหาที่"
-"ใช้ KRunner ที่สามารถกรอกหน้าต่างที่เปิดอยู่ได้ด้วย<nl/>"
+"โหมดภาพโดยรวมเป็นโหมดเต็มหน้าจอที่แสดงหน้าต่างที่คุณเปิดไว้อยู่ เพื่อให้การเข้าถึงไปยังหน้าต่างนั้นเข้าถึงง่าย โหมดนี้จะแสดง Virtual Desktop ปัจจุบันและสามารถเพิ่ม ลบ และเปลี่ยน Virtual Desktop ได้ และในที่สุดโหมดนี้มีฟังค์ชันค้นหาที่ใช้ KRunner ที่สามารถกรอกหน้าต่างที่เปิดอยู่ได้ด้วย<nl/>"
 "<nl/>"
 "คุณสามารถใช้โหมดภาพโดยรวมได้โดยการกดปุ่ม <shortcut>Meta+W</shortcut>"
 
@@ -1866,21 +1553,13 @@ msgstr "รับสิ่งของใหม่ที่ได้รับค
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked "
-"\"Get New [thing]…\". Clicking on them will show you 3rd-party content to exte"
-"nd the system, made by other people like you! In this way, it is often possibl"
-"e to add functionality you want without having to ask KDE developers to implem"
-"ent it themselves.<nl/>"
+"Throughout Plasma, System Settings, and KDE apps, you'll find buttons marked \"Get New [thing]…\". Clicking on them will show you 3rd-party content to extend the system, made by other people like you! In this way, it is often possible to add functionality you want without having to ask KDE developers to implement it themselves.<nl/>"
 "<nl/>"
-"Note that content acquired this way has not been reviewed by your distributor "
-"for functionality or stability."
+"Note that content acquired this way has not been reviewed by your distributor for functionality or stability."
 msgstr ""
-"ทั้งทั่วใน Plasma การตั้งค่าระบบและแอปพลิเคชัน KDE คุณจะเห็นปุ่มที่เขียนว่า \""
-"รับ [สิ่งของ] ใหม่...\" ถ้าหากกดไปแล้วจะเป็นการแสดงเนื้อหาจากบุคคลที่สามที่ถูก"
-"สร้างโดยคน ๆ อื่นเหมือนกับคุณ! เพื่อที่จะขยายระบบให้มากกว่านี้<nl/>"
+"ทั้งทั่วใน Plasma การตั้งค่าระบบและแอปพลิเคชัน KDE คุณจะเห็นปุ่มที่เขียนว่า \"รับ [สิ่งของ] ใหม่...\" ถ้าหากกดไปแล้วจะเป็นการแสดงเนื้อหาจากบุคคลที่สามที่ถูกสร้างโดยคน ๆ อื่นเหมือนกับคุณ! เพื่อที่จะขยายระบบให้มากกว่านี้<nl/>"
 "<nl/>"
-"แต่ขอชี้แจงไว้ก่อนว่าเนื้อหาพวกนี้ไม่ได้ถูกตรวจสอบโดยผู้จัดทำระบบของท่านเพื่อค"
-"วามเสถียรและความหลากหลายของคุณสมบัติ"
+"แต่ขอชี้แจงไว้ก่อนว่าเนื้อหาพวกนี้ไม่ได้ถูกตรวจสอบโดยผู้จัดทำระบบของท่านเพื่อความเสถียรและความหลากหลายของคุณสมบัติ"
 
 #. +> stable5
 #: src/contents/ui/pages/PowerfulWhenNeeded.qml:283
@@ -1894,19 +1573,13 @@ msgstr "แสดงเนื้อหาที่สร้างโดยบุ
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
-"Plasma is designed to be simple and usable out of the box. Things are where yo"
-"u'd expect, and there is generally no need to configure anything before you ca"
-"n be comfortable and productive.<nl/>"
+"Plasma is designed to be simple and usable out of the box. Things are where you'd expect, and there is generally no need to configure anything before you can be comfortable and productive.<nl/>"
 "<nl/>"
-"Should you feel the need to, you'll find what you need in the <application>Sys"
-"tem Settings</application> app."
+"Should you feel the need to, you'll find what you need in the <application>System Settings</application> app."
 msgstr ""
-"Plasma ได้ถูกออกแบบให้ใช้งานง่ายและเปิดมาใช้ได้เลย สิ่งที่คุณคิดว่าอยู่ตรงไหนอ"
-"ยู่ตรงนั้น และไม่ต้องตั้งค่าอะไรก่อนที่จะทำให้ระบบใช้งานได้อย่างสะดวกสบายและมี"
-"ประสิทธิผล<nl/>"
+"Plasma ได้ถูกออกแบบให้ใช้งานง่ายและเปิดมาใช้ได้เลย สิ่งที่คุณคิดว่าอยู่ตรงไหนอยู่ตรงนั้น และไม่ต้องตั้งค่าอะไรก่อนที่จะทำให้ระบบใช้งานได้อย่างสะดวกสบายและมีประสิทธิผล<nl/>"
 "<nl/>"
-"แต่ถ้าหากว่าอยากจะลองไปเล่นกับการตั้งค่าระบบดู ก็สามารถเข้าไปยังแอปพลิเคชัน<ap"
-"plication>การตั้งค่าระบบ</application>ได้"
+"แต่ถ้าหากว่าอยากจะลองไปเล่นกับการตั้งค่าระบบดู ก็สามารถเข้าไปยังแอปพลิเคชัน<application>การตั้งค่าระบบ</application>ได้"
 
 #. +> stable5
 #: src/contents/ui/pages/SimpleByDefault.qml:39
