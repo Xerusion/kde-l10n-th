@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-19 10:54+0100\n"
+"POT-Creation-Date: 2025-03-25 08:00+0100\n"
 "PO-Revision-Date: 2010-03-28 14:17+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -675,7 +675,7 @@ msgstr[0] "ทิ้ง %1 แฟ้มลงถังขยะ"
 #. +> trunk5
 #: core/app/items/utils/contextmenuhelper_actions.cpp:196
 #, fuzzy, kde-format
-msgctxt "@action:inmenu Pluralized"
+msgctxt "@action:inmenu Pluralized, to scan using IQS"
 msgid "Image Quality Scan"
 msgid_plural "Image Quality Scan"
 msgstr[0] "เครื่องมือแก้ไขภาพ"
@@ -2250,7 +2250,7 @@ msgstr "เปลี่ยนชื่อแฟ้มของรายการ
 
 #. +> trunk5
 #: core/app/main/digikamapp_setup.cpp:498
-#: core/utilities/imageeditor/editor/editorwindow.cpp:311
+#: core/utilities/imageeditor/editor/editorwindow.cpp:313
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Pluralized"
 #| msgid "Move to Trash"
@@ -2863,20 +2863,28 @@ msgstr "หมุนภาพ"
 #. +> trunk5
 #: core/app/main/digikamapp_setup.cpp:1066
 #, fuzzy, kde-format
+#| msgid "Auto rotate"
+msgctxt "@action: auto-rotate image"
+msgid "Auto-Rotate"
+msgstr "หมุนภาพ/พลิกภาพโดยอัตโนมัติ"
+
+#. +> trunk5
+#: core/app/main/digikamapp_setup.cpp:1073
+#, fuzzy, kde-format
 #| msgid "&Left Panel"
 msgctxt "@action: rotate image left"
 msgid "Left"
 msgstr "พาเนลด้านซ้า&ย"
 
 #. +> trunk5
-#: core/app/main/digikamapp_setup.cpp:1073
+#: core/app/main/digikamapp_setup.cpp:1080
 #, fuzzy, kde-format
 msgctxt "@action: rotate image right"
 msgid "Right"
 msgstr "สิทธิ์"
 
 #. +> trunk5
-#: core/app/main/digikamapp_setup.cpp:1083
+#: core/app/main/digikamapp_setup.cpp:1090
 #, fuzzy, kde-format
 #| msgid "Flip"
 msgctxt "@action: setup"
@@ -2884,35 +2892,35 @@ msgid "Flip"
 msgstr "พลิกภาพทางแนวตั้ง"
 
 #. +> trunk5
-#: core/app/main/digikamapp_setup.cpp:1087
+#: core/app/main/digikamapp_setup.cpp:1094
 #, fuzzy, kde-format
 msgctxt "@action: setup"
 msgid "Horizontally"
 msgstr "พลิกทางแนวนอน"
 
 #. +> trunk5
-#: core/app/main/digikamapp_setup.cpp:1094
+#: core/app/main/digikamapp_setup.cpp:1101
 #, fuzzy, kde-format
 msgctxt "@action: setup"
 msgid "Vertically"
 msgstr "พลิกทางแนวตั้ง"
 
 #. +> trunk5
-#: core/app/main/digikamapp_setup.cpp:1104
+#: core/app/main/digikamapp_setup.cpp:1111
 #, kde-format
 msgctxt "@action: setup"
 msgid "Auto Rotate/Flip Using Exif Information"
 msgstr ""
 
 #. +> trunk5
-#: core/app/main/digikamapp_setup.cpp:1115
+#: core/app/main/digikamapp_setup.cpp:1122
 #, fuzzy, kde-format
 msgctxt "@info: setup"
 msgid "Loading themes..."
 msgstr "กำลังโหลดชุดตกแต่ง"
 
 #. +> trunk5
-#: core/app/main/digikamapp_setup.cpp:1118
+#: core/app/main/digikamapp_setup.cpp:1125
 #, fuzzy, kde-format
 #| msgid "&Themes"
 msgctxt "@action: setup"
@@ -2920,7 +2928,7 @@ msgid "&Themes"
 msgstr "&ชุดตกแต่ง"
 
 #. +> trunk5
-#: core/app/main/digikamapp_setup.cpp:1134
+#: core/app/main/digikamapp_setup.cpp:1141
 #, fuzzy, kde-format
 msgctxt "@info: setup"
 msgid "Loading tools..."
@@ -3022,7 +3030,7 @@ msgid "The specified camera (\"%1\") is not supported."
 msgstr "ยังไม่รองรับกล้องที่ระบุ (\"%1\")"
 
 #. +> trunk5
-#: core/app/main/digikamapp_tools.cpp:31
+#: core/app/main/digikamapp_tools.cpp:32
 #, fuzzy, kde-format
 #| msgid "Main Toolbar"
 msgctxt "@title Main Tools"
@@ -3030,8 +3038,8 @@ msgid "Main Tools"
 msgstr "แถบเครื่องมือหลัก"
 
 #. +> trunk5
-#: core/app/main/digikamapp_tools.cpp:40
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2641
+#: core/app/main/digikamapp_tools.cpp:41
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2653
 #, fuzzy, kde-format
 #| msgid "Post Processing"
 msgctxt "@title Post Processing Tools"
@@ -3039,8 +3047,8 @@ msgid "Post-Processing"
 msgstr "กำลังประมวลผลหลังการกระทำ"
 
 #. +> trunk5
-#: core/app/main/digikamapp_tools.cpp:60
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2670
+#: core/app/main/digikamapp_tools.cpp:61
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2682
 #, fuzzy, kde-format
 #| msgid "Export"
 msgctxt "@title Export Tools"
@@ -3048,8 +3056,8 @@ msgid "Export"
 msgstr "ส่งออก"
 
 #. +> trunk5
-#: core/app/main/digikamapp_tools.cpp:71
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2681
+#: core/app/main/digikamapp_tools.cpp:72
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2693
 #, fuzzy, kde-format
 #| msgid "Import"
 msgctxt "@title Import Tools"
@@ -7365,6 +7373,29 @@ msgid "<para>This Batch Queue Manager tool can translate alternative language st
 msgstr "เครื่องมือสำหรับเปลี่ยนแปลงเป็นภาพขาวดำ"
 
 #. +> trunk5
+#: core/dplugins/bqm/transform/autorotate/autorotateplugin.cpp:43
+#, fuzzy, kde-format
+#| msgid "Auto rotate"
+msgctxt "@title"
+msgid "Auto-Rotate"
+msgstr "หมุนภาพ/พลิกภาพโดยอัตโนมัติ"
+
+#. +> trunk5
+#: core/dplugins/bqm/transform/autorotate/autorotateplugin.cpp:58
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "AI tool to automatically rotate images"
+msgstr "<p>เปิดใช้ตัวเลือกนี้ เพื่อให้มีการตั้งค่าทิศทางโดยอัตโนมัติ"
+
+#. +> trunk5
+#: core/dplugins/bqm/transform/autorotate/autorotateplugin.cpp:63
+#, fuzzy, kde-kuit-format
+#| msgid "A tool to convert to black and white."
+msgctxt "@info"
+msgid "<para>This Batch Queue Manager tool can automatically detect the correct orientation of an image and rotate the image.</para>"
+msgstr "เครื่องมือสำหรับเปลี่ยนแปลงเป็นภาพขาวดำ"
+
+#. +> trunk5
 #: core/dplugins/bqm/transform/crop/crop.cpp:84
 #, fuzzy, kde-format
 msgid "Auto-Crop"
@@ -7604,7 +7635,7 @@ msgid "<para>This Batch Queue Manager tool can resize images.</para>"
 msgstr "เครื่องมือสำหรับเปลี่ยนแปลงเป็นภาพขาวดำ"
 
 #. +> trunk5
-#: core/dplugins/bqm/transform/rotate/rotate.cpp:79
+#: core/dplugins/bqm/transform/rotate/rotate.cpp:80
 #, fuzzy, kde-format
 #| msgid "Use Exif Orientation"
 msgctxt "@title"
@@ -7612,7 +7643,7 @@ msgid "Use Exif Orientation"
 msgstr "ใช้ค่าการหมุนภาพจากข้อมูลกำกับแบบ Exif"
 
 #. +> trunk5
-#: core/dplugins/bqm/transform/rotate/rotate.cpp:83
+#: core/dplugins/bqm/transform/rotate/rotate.cpp:84
 #, fuzzy, kde-format
 #| msgid "90 degrees"
 msgctxt "@item: angle"
@@ -7620,7 +7651,7 @@ msgid "90 degrees"
 msgstr "90 องศา"
 
 #. +> trunk5
-#: core/dplugins/bqm/transform/rotate/rotate.cpp:84
+#: core/dplugins/bqm/transform/rotate/rotate.cpp:85
 #, fuzzy, kde-format
 #| msgid "180 degrees"
 msgctxt "@item: angle"
@@ -7628,7 +7659,7 @@ msgid "180 degrees"
 msgstr "180 องศา"
 
 #. +> trunk5
-#: core/dplugins/bqm/transform/rotate/rotate.cpp:85
+#: core/dplugins/bqm/transform/rotate/rotate.cpp:86
 #, fuzzy, kde-format
 #| msgid "270 degrees"
 msgctxt "@item: angle"
@@ -7636,7 +7667,7 @@ msgid "270 degrees"
 msgstr "270 องศา"
 
 #. +> trunk5
-#: core/dplugins/bqm/transform/rotate/rotate.cpp:86
+#: core/dplugins/bqm/transform/rotate/rotate.cpp:87
 #, fuzzy, kde-format
 #| msgid "Custom"
 msgctxt "@item: angle"
@@ -7644,7 +7675,7 @@ msgid "Custom"
 msgstr "กำหนดเอง"
 
 #. +> trunk5
-#: core/dplugins/bqm/transform/rotate/rotate.cpp:88
+#: core/dplugins/bqm/transform/rotate/rotate.cpp:89
 #, fuzzy, kde-format
 #| msgid "Angle:"
 msgctxt "@label"
@@ -12446,7 +12477,7 @@ msgstr "สแกนภาพ"
 #. +> trunk5
 #: core/dplugins/generic/import/dscanner/scandialog.cpp:163
 #: core/utilities/geolocation/geoiface/backends/mapbackend.cpp:100
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1826
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1837
 #, fuzzy, kde-format
 #| msgid "New Image File Name"
 msgctxt "@title:window"
@@ -12492,8 +12523,8 @@ msgstr ""
 #. +> trunk5
 #: core/dplugins/generic/import/dscanner/scandialog.cpp:240
 #: core/utilities/geolocation/geoiface/backends/mapbackend.cpp:177
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2300
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2319
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2311
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2330
 #, fuzzy, kde-format
 #| msgid "Overwrite File?"
 msgctxt "@title:window"
@@ -17736,7 +17767,7 @@ msgstr "ปรับแก้:"
 #. +> trunk5
 #: core/dplugins/generic/metadata/timeadjust/timeadjustdialog.cpp:405
 #: core/dplugins/generic/tools/expoblending/blendingdlg/expoblendingdlg.cpp:660
-#: core/utilities/imageeditor/editor/editorwindow.cpp:569
+#: core/utilities/imageeditor/editor/editorwindow.cpp:579
 #, fuzzy, kde-format
 #| msgid "Cancel"
 msgctxt "@action"
@@ -21148,7 +21179,7 @@ msgstr "คุณสมบัติของภาพประเภท TIFF"
 
 #. +> trunk5
 #: core/dplugins/generic/tools/panorama/wizard/panointropage.cpp:178
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgctxt "@info: tooltip"
 msgid "Selects a JPEG output with 90% compression rate (lossy compression, smaller size)."
 msgstr ""
@@ -21785,7 +21816,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk5
 #: core/dplugins/generic/tools/printcreator/ui/advprintcaptionpage.ui:99
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "\"%r\" :\n"
 "\"%a\" :\n"
@@ -21796,7 +21827,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: core/dplugins/generic/tools/printcreator/ui/advprintcaptionpage.ui:113
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "\"%f\" :\n"
 "\"%t\" :\n"
@@ -33514,7 +33545,7 @@ msgstr "ไม่ต้องทำการ&ถามอีก"
 #: core/libs/onlineversion/onlineversiondlg.cpp:194
 #: core/libs/progressmanager/progressview.cpp:197
 #: core/libs/progressmanager/statusbarprogresswidget.cpp:98
-#: core/utilities/setup/downloader/filesdownloader.cpp:163
+#: core/utilities/setup/downloader/filesdownloader.cpp:175
 #, kde-format
 msgctxt "%p is the percent value, % is the percent sign"
 msgid "%p%"
@@ -37940,39 +37971,39 @@ msgid "Warning: ExifTool is not available to post-process metadata. Without Exif
 msgstr ""
 
 #. +> trunk5
-#: core/libs/dnnmodelmanager/dnnmodelmanager.cpp:342
+#: core/libs/dnnmodelmanager/dnnmodelmanager.cpp:347
 #, kde-format
 msgid "YOLOv11 Nano"
 msgstr ""
 
 #. +> trunk5
-#: core/libs/dnnmodelmanager/dnnmodelmanager.cpp:344
+#: core/libs/dnnmodelmanager/dnnmodelmanager.cpp:349
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<p><b>YOLOv11 Nano</b>: small, lightweight neural network offering exceptional speed, but may miss identifying more objects in images. YOLO can detect multiple objects in an image. It is trained to recognize 80 different objects using the COCO dataset.</p>"
 msgstr ""
 
 #. +> trunk5
-#: core/libs/dnnmodelmanager/dnnmodelmanager.cpp:349
+#: core/libs/dnnmodelmanager/dnnmodelmanager.cpp:354
 #, kde-format
 msgid "YOLOv11 XLarge"
 msgstr ""
 
 #. +> trunk5
-#: core/libs/dnnmodelmanager/dnnmodelmanager.cpp:351
+#: core/libs/dnnmodelmanager/dnnmodelmanager.cpp:356
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<p><b>YOLOv11 XLarge</b>: large, robust neural network offering good accuracy. It will detect more objects in images than YOLOv11 Nano, but is slower. YOLO can detect multiple objects in an image. It is trained to recognize 80 different objects using the COCO dataset.</p>"
 msgstr ""
 
 #. +> trunk5
-#: core/libs/dnnmodelmanager/dnnmodelmanager.cpp:356
+#: core/libs/dnnmodelmanager/dnnmodelmanager.cpp:361
 #, kde-format
 msgid "EfficientNet B7"
 msgstr ""
 
 #. +> trunk5
-#: core/libs/dnnmodelmanager/dnnmodelmanager.cpp:358
+#: core/libs/dnnmodelmanager/dnnmodelmanager.cpp:363
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<p><b>EfficientNet B7</b>: large and powerful convoluted neural network. It will detect a single object in an image with high accuracy. EfficientNet B7 was trained to recognize 1,000 different objects using the ImageNet dataset.</p>"
@@ -39267,13 +39298,13 @@ msgid "Process Items"
 msgstr "เอารายการต่าง ๆ ที่ประมวลผลแล้วออก"
 
 #. +> trunk5
-#: core/libs/fileactionmanager/fileworkeriface.cpp:75
+#: core/libs/fileactionmanager/fileworkeriface.cpp:76
 #, kde-format
 msgid "Failed to revise Exif orientation these files:"
 msgstr "ล้มเหลวในการปรับแก้ข้อมูลการหมุนภาพสำหรับแฟ้มต่อไปนี้:"
 
 #. +> trunk5
-#: core/libs/fileactionmanager/fileworkeriface.cpp:357
+#: core/libs/fileactionmanager/fileworkeriface.cpp:366
 #, fuzzy, kde-format
 msgid "Failed to transform these files:"
 msgstr "ล้มเหลวในการปรับแก้ข้อมูลการหมุนภาพสำหรับแฟ้มต่อไปนี้:"
@@ -40295,7 +40326,7 @@ msgstr "ใต้"
 
 #. +> trunk5
 #: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1084
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 #| msgctxt "Height in meters"
 #| msgid "%L1m"
 msgctxt "@info: Height in meters"
@@ -41692,7 +41723,7 @@ msgstr ""
 
 #. +> trunk5
 #: core/libs/onlineversion/onlineversiondlg.cpp:261
-#: core/utilities/setup/downloader/filesdownloader.cpp:148
+#: core/utilities/setup/downloader/filesdownloader.cpp:157
 #, fuzzy, kde-format
 msgid "Download"
 msgstr "ดาวน์โหลด"
@@ -56992,7 +57023,7 @@ msgstr "ลบแฟ้ม"
 
 #. +> trunk5
 #: core/showfoto/main/showfoto_iofiles.cpp:78
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2346
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2357
 #, fuzzy, kde-format
 #| msgid "Error Saving File"
 msgctxt "@title:window"
@@ -59793,7 +59824,7 @@ msgstr "แมนนวล (M)"
 #. +> trunk5
 #: core/utilities/facemanagement/widgets/assignnamewidget_p.cpp:165
 #: core/utilities/facemanagement/widgets/assignnamewidget_p.cpp:195
-#: core/utilities/imageeditor/editor/editorwindow.cpp:563
+#: core/utilities/imageeditor/editor/editorwindow.cpp:573
 #, kde-format
 msgctxt "@action"
 msgid "OK"
@@ -65039,7 +65070,7 @@ msgstr ""
 #. i18n: ectx: property (format), widget (QProgressBar, progressBar)
 #. +> trunk5
 #: core/utilities/geolocation/engine/tile/TileCreatorDialog.ui:560
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "%p%"
 msgstr ""
 
@@ -66887,7 +66918,7 @@ msgid "Try all settings."
 msgstr "ทดลองการตั้งค่าทั้งหมด"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:185
+#: core/utilities/imageeditor/editor/editorwindow.cpp:187
 #, fuzzy, kde-format
 #| msgid "&First"
 msgctxt "@action; go to first item"
@@ -66895,7 +66926,7 @@ msgid "&First"
 msgstr "ภาพแ&รกสุด"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:192
+#: core/utilities/imageeditor/editor/editorwindow.cpp:194
 #, fuzzy, kde-format
 #| msgid "&Last"
 msgctxt "@action; go to last item"
@@ -66903,168 +66934,168 @@ msgid "&Last"
 msgstr "ภาพ&สุดท้าย"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:199
+#: core/utilities/imageeditor/editor/editorwindow.cpp:201
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Open Original"
 msgstr "ภาพต้นฉบับ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:211
+#: core/utilities/imageeditor/editor/editorwindow.cpp:213
 #, fuzzy, kde-format
 msgctxt "@action Save changes to current version"
 msgid "Save Changes"
 msgstr "บันทึกภาพ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:212
+#: core/utilities/imageeditor/editor/editorwindow.cpp:214
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Save the modifications to the current version of the file"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:217
+#: core/utilities/imageeditor/editor/editorwindow.cpp:219
 #, kde-format
 msgctxt "@action Save changes to a newly created version"
 msgid "Save As New Version"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:218
+#: core/utilities/imageeditor/editor/editorwindow.cpp:220
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Save the current modifications to a new version of the file"
 msgstr "บันทึกการเลือกปัจจุบันไปเป็นอัลบั้มเสมือนตัวใหม่"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:224
+#: core/utilities/imageeditor/editor/editorwindow.cpp:226
 #, fuzzy, kde-format
 msgctxt "@action Save changes to a newly created version, specifying the filename and format"
 msgid "Save New Version As..."
 msgstr "&บันทึกเป็น..."
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:225
+#: core/utilities/imageeditor/editor/editorwindow.cpp:227
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Save the current modifications to a new version of the file, specifying the filename and format"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:230
+#: core/utilities/imageeditor/editor/editorwindow.cpp:232
 #, fuzzy, kde-format
 msgctxt "@action Save As New Version...Save in format..."
 msgid "Save in Format"
 msgstr "ประเภทแฟ้ม"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:232
+#: core/utilities/imageeditor/editor/editorwindow.cpp:234
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "JPEG"
 msgstr "LibJPEG"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:233
+#: core/utilities/imageeditor/editor/editorwindow.cpp:235
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "TIFF"
 msgstr "LibTIFF"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:234
+#: core/utilities/imageeditor/editor/editorwindow.cpp:236
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "PNG"
 msgstr "LibPNG"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:235
+#: core/utilities/imageeditor/editor/editorwindow.cpp:237
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "PGF"
 msgstr "LibPGF"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:239
+#: core/utilities/imageeditor/editor/editorwindow.cpp:241
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "JPEG 2000"
 msgstr "ภาพรูปแบบ JPEG 2000"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:245
+#: core/utilities/imageeditor/editor/editorwindow.cpp:247
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "HEIF"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:251
+#: core/utilities/imageeditor/editor/editorwindow.cpp:253
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "JXL"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:256
+#: core/utilities/imageeditor/editor/editorwindow.cpp:258
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "WEBP"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:261
+#: core/utilities/imageeditor/editor/editorwindow.cpp:263
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "AVIF"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:279
+#: core/utilities/imageeditor/editor/editorwindow.cpp:281
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Export"
 msgstr "ส่งออก"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:280
+#: core/utilities/imageeditor/editor/editorwindow.cpp:282
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Save the file in a folder outside your collection"
 msgstr "เลือกโฟลเดอร์ที่ใช้จัดเก็บคลังภาพของคุณ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:289
+#: core/utilities/imageeditor/editor/editorwindow.cpp:291
 #, kde-format
 msgctxt "@action"
 msgid "Discard Changes"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:290
+#: core/utilities/imageeditor/editor/editorwindow.cpp:292
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Discard all current changes to this file"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:303
+#: core/utilities/imageeditor/editor/editorwindow.cpp:305
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Open With Default Application"
 msgstr "เปิดรายการที่เลือกในเครื่องมือแก้ไขภาพ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:304
+#: core/utilities/imageeditor/editor/editorwindow.cpp:306
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Open the item with default assigned application."
 msgstr "เปิดรายการที่เลือกในเครื่องมือแก้ไขภาพ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:327
+#: core/utilities/imageeditor/editor/editorwindow.cpp:329
 #, fuzzy, kde-format
 #| msgid "Undo"
 msgctxt "@action"
@@ -67072,7 +67103,7 @@ msgid "Undo"
 msgstr "เลิกทำ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:356
+#: core/utilities/imageeditor/editor/editorwindow.cpp:358
 #, fuzzy, kde-format
 #| msgid "Redo"
 msgctxt "@action"
@@ -67080,7 +67111,7 @@ msgid "Redo"
 msgstr "ทำซ้ำ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:384
+#: core/utilities/imageeditor/editor/editorwindow.cpp:386
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgctxt "@action: create a selection containing the full image"
@@ -67088,7 +67119,7 @@ msgid "Select All"
 msgstr "เลือกทั้งหมด"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:389
+#: core/utilities/imageeditor/editor/editorwindow.cpp:391
 #, fuzzy, kde-format
 #| msgid "Select None"
 msgctxt "@action"
@@ -67096,7 +67127,7 @@ msgid "Select None"
 msgstr "ไม่เลือกเลย"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:403
+#: core/utilities/imageeditor/editor/editorwindow.cpp:405
 #, fuzzy, kde-format
 #| msgid "Zoom to 100%"
 msgctxt "@action"
@@ -67104,7 +67135,7 @@ msgid "Zoom to 100%"
 msgstr "ปรับขนาดการดูเป็น 100%"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:409
+#: core/utilities/imageeditor/editor/editorwindow.cpp:411
 #, fuzzy, kde-format
 #| msgid "Fit to &Window"
 msgctxt "@action"
@@ -67112,7 +67143,7 @@ msgid "Fit to &Window"
 msgstr "พอดีกับหน้าต่าง"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:416
+#: core/utilities/imageeditor/editor/editorwindow.cpp:418
 #, fuzzy, kde-format
 #| msgid "Fit to &Selection"
 msgctxt "@action"
@@ -67120,7 +67151,7 @@ msgid "Fit to &Selection"
 msgstr "พอดีกับส่วนที่เลือก"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:421
+#: core/utilities/imageeditor/editor/editorwindow.cpp:423
 #, fuzzy, kde-format
 #| msgid "This option can be used to zoom the image to the current selection area."
 msgctxt "@info"
@@ -67128,7 +67159,7 @@ msgid "This option can be used to zoom the image to the current selection area."
 msgstr "ตัวเลือกนี้ สามารถใช้เพื่อย่อหรือขยายขนาดภาพของส่วนพื้นที่ที่เลือก"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:446
+#: core/utilities/imageeditor/editor/editorwindow.cpp:448
 #, fuzzy, kde-format
 #| msgid "Under-Exposure Indicator"
 msgctxt "@action"
@@ -67136,7 +67167,7 @@ msgid "Under-Exposure Indicator"
 msgstr "แสดงตำแหน่งค่าแสงมืดจัด"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:448
+#: core/utilities/imageeditor/editor/editorwindow.cpp:450
 #, fuzzy, kde-format
 #| msgid "Set this option to display black overlaid on the image. This will help you to avoid under-exposing the image."
 msgctxt "@info"
@@ -67144,7 +67175,7 @@ msgid "Set this option to display black overlaid on the image. This will help yo
 msgstr "ตั้งค่าตัวเลือกนี้เพื่อใช้แสดงส่วนค่าสีดำที่มืดจัดบนภาพ ซึ่งจะช่วยให้คุณได้ปรับแก้ภาพที่มืดมากเกินไป"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:456
+#: core/utilities/imageeditor/editor/editorwindow.cpp:458
 #, fuzzy, kde-format
 #| msgid "Over-Exposure Indicator"
 msgctxt "@action"
@@ -67152,7 +67183,7 @@ msgid "Over-Exposure Indicator"
 msgstr "แสดงตำแหน่งค่าแสงสว่างจัด"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:458
+#: core/utilities/imageeditor/editor/editorwindow.cpp:460
 #, fuzzy, kde-format
 #| msgid "Set this option to display white overlaid on the image. This will help you to avoid over-exposing the image."
 msgctxt "@info"
@@ -67160,7 +67191,7 @@ msgid "Set this option to display white overlaid on the image. This will help yo
 msgstr "ตั้งค่าตัวเลือกนี้เพื่อใช้แสดงส่วนค่าสีขาวที่สว่างจัดบนภาพ ซึ่งจะช่วยให้คุณได้ปรับแก้ภาพที่สว่างมากเกินไป"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:466
+#: core/utilities/imageeditor/editor/editorwindow.cpp:468
 #: core/utilities/import/main/importui.cpp:506
 #, fuzzy, kde-format
 #| msgid "Color-Managed View"
@@ -67169,7 +67200,7 @@ msgid "Color-Managed View"
 msgstr "แสดงผลร่วมกับการจัดการระบบสี"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:473
+#: core/utilities/imageeditor/editor/editorwindow.cpp:475
 #, fuzzy, kde-format
 #| msgid "Soft Proofing Options..."
 msgctxt "@action"
@@ -67177,7 +67208,7 @@ msgid "Soft Proofing Options..."
 msgstr "ตัวเลือกต่าง ๆ ของตรวจพรู้ฟ..."
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:478
+#: core/utilities/imageeditor/editor/editorwindow.cpp:480
 #, fuzzy, kde-format
 #| msgid "Soft Proofing View"
 msgctxt "@action"
@@ -67185,14 +67216,14 @@ msgid "Soft Proofing View"
 msgstr "มุมมองตรวจพรู้ฟสี"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:486
+#: core/utilities/imageeditor/editor/editorwindow.cpp:488
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Crop to Selection"
 msgstr "พอดีกับส่วนที่เลือก"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:489
+#: core/utilities/imageeditor/editor/editorwindow.cpp:491
 #, fuzzy, kde-format
 #| msgid "This option can be used to crop the image. Select a region of the image to enable this action."
 msgctxt "@info"
@@ -67200,7 +67231,7 @@ msgid "This option can be used to crop the image. Select a region of the image t
 msgstr "ตัวเลือกนี้ สามารถใช้ในการตัดส่วนของภาพบางส่วนได้ เลือกพื้นที่ของภาพที่คุณต้องการเพื่อให้เรียกใช้การกระทำนี้ได้"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:497
+#: core/utilities/imageeditor/editor/editorwindow.cpp:499
 #, fuzzy, kde-format
 #| msgid "Flip Horizontally"
 msgctxt "@action"
@@ -67208,7 +67239,7 @@ msgid "Flip Horizontally"
 msgstr "พลิกภาพทางแนวนอน"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:505
+#: core/utilities/imageeditor/editor/editorwindow.cpp:507
 #, fuzzy, kde-format
 #| msgid "Flip Vertically"
 msgctxt "@action"
@@ -67216,7 +67247,7 @@ msgid "Flip Vertically"
 msgstr "พลิกภาพทางแนวตั้ง"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:515
+#: core/utilities/imageeditor/editor/editorwindow.cpp:517
 #: core/utilities/import/views/importpreviewview.cpp:188
 #, fuzzy, kde-format
 #| msgid "Rotate Left"
@@ -67225,7 +67256,7 @@ msgid "Rotate Left"
 msgstr "หมุนภาพไปทางซ้าย"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:523
+#: core/utilities/imageeditor/editor/editorwindow.cpp:525
 #: core/utilities/import/views/importpreviewview.cpp:189
 #, fuzzy, kde-format
 #| msgid "Rotate Right"
@@ -67234,7 +67265,15 @@ msgid "Rotate Right"
 msgstr "หมุนภาพไปทางขวา"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:555
+#: core/utilities/imageeditor/editor/editorwindow.cpp:533
+#, fuzzy, kde-format
+#| msgid "Auto rotate"
+msgctxt "@action"
+msgid "Auto-Rotate"
+msgstr "หมุนภาพ/พลิกภาพโดยอัตโนมัติ"
+
+#. +> trunk5
+#: core/utilities/imageeditor/editor/editorwindow.cpp:565
 #: core/utilities/import/main/importui.cpp:551
 #: core/utilities/import/main/importui.cpp:794
 #, fuzzy, kde-format
@@ -67243,7 +67282,7 @@ msgid "Previous Image"
 msgstr "ภาพก่อน"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:585
+#: core/utilities/imageeditor/editor/editorwindow.cpp:595
 #, fuzzy, kde-format
 #| msgid "No selection"
 msgctxt "@label"
@@ -67251,14 +67290,14 @@ msgid "No selection"
 msgstr "ยังไม่มีการเลือกพื้นที่ใด ๆ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:588
+#: core/utilities/imageeditor/editor/editorwindow.cpp:598
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Information about current image selection"
 msgstr "ข้อมูลเกี่ยวกับพื้นที่ส่วนที่เลือกไว้ในปัจจุบัน"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:593
+#: core/utilities/imageeditor/editor/editorwindow.cpp:603
 #, fuzzy, kde-format
 #| msgid "Information about image size"
 msgctxt "@info"
@@ -67266,21 +67305,21 @@ msgid "Information about image size"
 msgstr "ข้อมูลเกี่ยวกับขนาดภาพ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1108
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1119
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Saving Image..."
 msgstr "กำลังโหลดรูปภาพ..."
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1109
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1120
 #, fuzzy, kde-format
 msgctxt "@label"
 msgid "Please wait for the image to be saved..."
 msgstr "โปรดรอระหว่างทำการบันทึกแฟ้มภาพ..."
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1130
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1141
 #, fuzzy, kde-format
 #| msgid ""
 #| "About to overwrite file \"%1\"\n"
@@ -67294,7 +67333,7 @@ msgstr ""
 "คุณแน่ใจหรือไม่ ?"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1135
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1146
 #, fuzzy, kde-format
 #| msgid "Warning"
 msgctxt "@title:window, warning while saving progress"
@@ -67302,7 +67341,7 @@ msgid "Warning"
 msgstr "แจ้งเตือน"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1245
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1256
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -67313,7 +67352,7 @@ msgstr ""
 "คุณต้องการบันทึกมันก่อนหรือไม่ ?"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1396
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1407
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -67324,7 +67363,7 @@ msgstr ""
 "คุณต้องการบันทึกมันก่อนหรือไม่ ?"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1474
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1485
 #, fuzzy, kde-format
 #| msgid "No selection"
 msgctxt "@info"
@@ -67332,7 +67371,7 @@ msgid "No selection"
 msgstr "ยังไม่มีการเลือกพื้นที่ใด ๆ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1494
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1505
 #, fuzzy, kde-format
 #| msgid "Loading: "
 msgctxt "@label"
@@ -67340,7 +67379,7 @@ msgid "Loading:"
 msgstr "กำลังโหลด: "
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1522
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1533
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot display image\n"
@@ -67352,7 +67391,7 @@ msgstr ""
 "\"%1\" ได้"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1564
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1575
 #, fuzzy, kde-format
 #| msgid "Cannot open the specified working space profile (\"%1\"). No color transformation will be applied. Please check the color management configuration in digiKam's setup."
 msgctxt "@info"
@@ -67360,7 +67399,7 @@ msgid "Cannot open the specified working space profile (\"%1\"). No color transf
 msgstr "ไม่สามารถเปิดแฟ้มโพรไฟล์ขอบเขตสีที่กำลังทำงาน (\"%1\") ตามที่ระบุได้ ดังนั้นจะไม่มีการแปลงค่าสีใด ๆ เกิดขึ้น โปรดตรวจสอบ การปรับแต่งการจัดการระบบสีของคุณในการตั้งค่าของดิจิแคม"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1621
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1632
 #, fuzzy, kde-format
 #| msgid "Saving: "
 msgctxt "@label: saving progress on status bar"
@@ -67368,7 +67407,7 @@ msgid "Saving:"
 msgstr "กำลังบันทึก: "
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1643
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1654
 #, fuzzy, kde-format
 #| msgid ""
 #| "Failed to save file\n"
@@ -67388,7 +67427,7 @@ msgstr ""
 "\"%2\""
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1776
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1787
 #, fuzzy, kde-format
 #| msgid "Could not open a temporary file in the folder \"%1\": %2 (%3)"
 msgctxt "@info"
@@ -67396,7 +67435,7 @@ msgid "Could not open a temporary file in the folder \"%1\": %2 (%3)"
 msgstr "ไม่สามารถเปิดแฟ้มชั่วคราวในโฟลเดอร์ \"%1\" ได้: %2 (%3)"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1972
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1983
 #, fuzzy, kde-format
 #| msgid "Unable to determine the format to save the target image with."
 msgctxt "@info"
@@ -67404,21 +67443,21 @@ msgid "Unable to determine the format to save the target image with."
 msgstr "ไม่สามารถจำแนกรูปแบบเพื่อทำการบันทึกไปยังภาพเป้าหมายได้"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1979
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1990
 #, kde-format
 msgctxt "@info"
 msgid "Cannot Save: Found file path \"%1\" is invalid."
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2226
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2237
 #, kde-format
 msgctxt "@info"
 msgid "Cannot save file \"%1\" to the suggested version file name \"%2\""
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2301
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2312
 #, fuzzy, kde-format
 #| msgid "You do not have write permissions for the file named \"%1\". Are you sure you want to overwrite it?"
 msgctxt "@info"
@@ -67428,7 +67467,7 @@ msgstr ""
 "คุณแน่ใจหรือว่าต้องการจะเขียนทับมัน ?"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2320
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2331
 #, fuzzy, kde-format
 #| msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgctxt "@info"
@@ -67438,7 +67477,7 @@ msgstr ""
 "คุณต้องการที่จะเขียนทับมันหรือไม่ ?"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2347
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2358
 #, fuzzy, kde-format
 #| msgid "Failed to overwrite original file"
 msgctxt "@info"
@@ -67446,7 +67485,7 @@ msgid "Failed to overwrite original file"
 msgstr "ล้มเหลวในการเขียนทับแฟ้มต้นฉบับ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2426
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2437
 #, fuzzy, kde-format
 #| msgid "Color-Managed View is enabled."
 msgctxt "@info"
@@ -67454,7 +67493,7 @@ msgid "Color-Managed View is enabled."
 msgstr "การแสดงผลร่วมกับการจัดการระบบสีถูกเปิดใช้งาน"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2430
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2441
 #, fuzzy, kde-format
 #| msgid "Color-Managed View is disabled."
 msgctxt "@info"
@@ -67462,7 +67501,7 @@ msgid "Color-Managed View is disabled."
 msgstr "การแสดงผลร่วมกับการจัดการระบบสีถูกปิดการใช้งาน"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2435
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2446
 #, fuzzy, kde-format
 #| msgid "Color Management is not configured, so the Color-Managed View is not available."
 msgctxt "@info"
@@ -67470,7 +67509,7 @@ msgid "Color Management is not configured, so the Color-Managed View is not avai
 msgstr "การจัดการระบบสียังไม่มีการปรับแต่งค่า ดังนั้นการแสดงผลร่วมกับการจัดการระบบสี จะยังไม่สามารถใช้ได้"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2471
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2482
 #, fuzzy, kde-format
 #| msgid "Under-Exposure indicator is enabled"
 msgctxt "@info"
@@ -67478,7 +67517,7 @@ msgid "Under-Exposure indicator is enabled"
 msgstr "เปิดใช้งานการแสดงตำแหน่งค่าแสงมืดจัด"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2472
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2483
 #, fuzzy, kde-format
 #| msgid "Under-Exposure indicator is disabled"
 msgctxt "@info"
@@ -67486,7 +67525,7 @@ msgid "Under-Exposure indicator is disabled"
 msgstr "ปิดการใช้งานการแสดงตำแหน่งค่าแสงมืดจัด"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2486
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2497
 #, fuzzy, kde-format
 #| msgid "Over-Exposure indicator is enabled"
 msgctxt "@info"
@@ -67494,7 +67533,7 @@ msgid "Over-Exposure indicator is enabled"
 msgstr "เปิดใช้งานการแสดงตำแหน่งค่าแสงสว่างจัด"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2487
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2498
 #, fuzzy, kde-format
 #| msgid "Over-Exposure indicator is disabled"
 msgctxt "@info"
@@ -67502,7 +67541,7 @@ msgid "Over-Exposure indicator is disabled"
 msgstr "ปิดการใช้งานการแสดงตำแหน่งค่าแสงสว่างจัด"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2578
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2589
 #, fuzzy, kde-format
 #| msgid "Transform"
 msgctxt "@title Image Transform"
@@ -67510,7 +67549,7 @@ msgid "Transform"
 msgstr "แปลงภาพ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2597
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2609
 #, fuzzy, kde-format
 #| msgid "Decorate"
 msgctxt "@title Image Decorate"
@@ -67518,14 +67557,14 @@ msgid "Decorate"
 msgstr "ตกแต่งภาพ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2608
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2620
 #, fuzzy, kde-format
 msgctxt "@title Image Effect"
 msgid "Effects"
 msgstr "ทำภาพเบลอ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2619
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2631
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgctxt "@title Image Colors"
@@ -67533,7 +67572,7 @@ msgid "Colors"
 msgstr "สี"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2630
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2642
 #, fuzzy, kde-format
 #| msgid "Enhance"
 msgctxt "@title Image Enhance"
@@ -67541,8 +67580,8 @@ msgid "Enhance"
 msgstr "ปรับแก้ภาพ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2820
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2871
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2832
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2883
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@action"
@@ -67550,7 +67589,7 @@ msgid "Open With"
 msgstr "เปิดด้วย"
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2832
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2844
 #, fuzzy, kde-format
 #| msgid "Other..."
 msgctxt "@action: open with other application"
@@ -67558,7 +67597,7 @@ msgid "Other..."
 msgstr "อื่น ๆ ..."
 
 #. +> trunk5
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2841
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2853
 #, fuzzy, kde-format
 #| msgid "Open With..."
 msgctxt "@action: open with desktop application"
@@ -67685,7 +67724,7 @@ msgid "Assign Labels"
 msgstr "กำหนดเครื่องมือ"
 
 #. +> trunk5
-#: core/utilities/imageeditor/widgets/canvas.cpp:164
+#: core/utilities/imageeditor/widgets/canvas.cpp:165
 #, kde-format
 msgid ""
 "Failed to load image\n"
@@ -74040,48 +74079,61 @@ msgid "Your collection will use this category:"
 msgstr "คลังภาพตัวใหม่ของคุณจะถูกสร้างโดยใช้ชื่อต่อไปนี้:"
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:136
+#: core/utilities/setup/downloader/filesdownloader.cpp:145
 #, fuzzy, kde-format
 #| msgid "Downloading file %1..."
 msgctxt "@title:window"
-msgid "Download Required Files"
+msgid "Download Required Model Files"
 msgstr "กำลังดาวน์โหลดแฟ้ม %1..."
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:158
+#: core/utilities/setup/downloader/filesdownloader.cpp:167
 #, fuzzy, kde-format
 msgid "Use Face Management feature"
 msgstr "กลับค่าการเรียงลำดับ"
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:159
+#: core/utilities/setup/downloader/filesdownloader.cpp:168
 #, kde-format
 msgid "Use Aesthetic Detection feature"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:160
+#: core/utilities/setup/downloader/filesdownloader.cpp:169
 #, fuzzy, kde-format
 #| msgid "Automatic Adjustment"
-msgid "Use Auto Tags Assignment feature"
+msgid "Use AI Auto-Tools features"
 msgstr "ปรับแก้อัตโนมัติ"
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:234
+#: core/utilities/setup/downloader/filesdownloader.cpp:170
+#, fuzzy, kde-format
+#| msgid "Automatic Adjustment"
+msgid "Use AutoTags Assignment feature"
+msgstr "ปรับแก้อัตโนมัติ"
+
+#. +> trunk5
+#: core/utilities/setup/downloader/filesdownloader.cpp:172
+#, kde-format
+msgid "Delete obsolete model files (runs at startup)"
+msgstr ""
+
+#. +> trunk5
+#: core/utilities/setup/downloader/filesdownloader.cpp:259
 #, fuzzy, kde-format
 #| msgid "Downloading file %1..."
-msgid "All files were downloaded successfully."
+msgid "All model files were downloaded successfully."
 msgstr "กำลังดาวน์โหลดแฟ้ม %1..."
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:241
+#: core/utilities/setup/downloader/filesdownloader.cpp:266
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Download Error"
 msgstr "ดาวน์โหลด"
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:242
+#: core/utilities/setup/downloader/filesdownloader.cpp:267
 #, kde-format
 msgid ""
 "An error occurred during the download.\n"
@@ -74094,63 +74146,65 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:250
+#: core/utilities/setup/downloader/filesdownloader.cpp:275
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Try Again"
 msgstr "เพิ่มเกรนของฟิล์ม..."
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:388
+#: core/utilities/setup/downloader/filesdownloader.cpp:413
 #, kde-format
 msgid "Checksum is incorrect."
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:412
+#: core/utilities/setup/downloader/filesdownloader.cpp:437
 #, kde-format
 msgid "File write error."
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:419
+#: core/utilities/setup/downloader/filesdownloader.cpp:444
 #, fuzzy, kde-format
 msgid "File open error."
 msgstr "ส่งออก"
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:434
+#: core/utilities/setup/downloader/filesdownloader.cpp:459
 #, kde-format
 msgid "File on the server is too large."
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:507
+#: core/utilities/setup/downloader/filesdownloader.cpp:541
 #, kde-format
-msgid "<p>For the face management, the red-eye removal tool, and the classification of images according to aesthetics or the automatic assignment of tags to images, digiKam requires some large binary files. You can choose which feature you want to use.</p>"
+msgid ""
+"<p>digiKam relies on large binary model files to power features like face management, image classification based on aesthetics, AI AutoTools such as automatic image rotation, and automatic tag assignment. You have the option to select the specific features you want to enable.</p>"
+"<p><b>Note:</b> The red-eye removal tool requires face management model files.</p>"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:513
+#: core/utilities/setup/downloader/filesdownloader.cpp:547
 #, kde-format
 msgctxt "%1: folder path"
 msgid ""
-"<p>Some of these files were not found. Click “Download” to begin downloading the files you need. You can close this dialog, you will be asked again the next time you start digiKam. Without these files the selected features will not work.</p>"
+"<p>Some required files are missing. Click “Download” to start installing the necessary model files. If you close this dialog you will be prompted again the next time you launch digiKam. The selected features will not function without these files.</p>"
 "<p>The files will be downloaded to \"<i>%1</i>\".</p>"
-"<p><b>After the successful download you have to restart digiKam.</b></p>"
+"<p><b>You must restart digiKam after successfully downloading the files.</b></p>"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:522
+#: core/utilities/setup/downloader/filesdownloader.cpp:555
 #, kde-format
 msgctxt "%1: file counter, %2: disk size with unit"
 msgid "The download requires %1 files with a size of %2."
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/downloader/filesdownloader.cpp:530
+#: core/utilities/setup/downloader/filesdownloader.cpp:563
 #, kde-format
-msgid "All files of the selected features were found."
+msgid "All files for the selected features were found."
 msgstr ""
 
 #. +> trunk5
@@ -77259,6 +77313,12 @@ msgstr "รายการอัลบั้มต่าง ๆ"
 #, fuzzy, kde-format
 msgid "Import Items"
 msgstr "จัดเ&รียงรูปภาพ"
+
+#, fuzzy, kde-format
+#~ msgctxt "@action:inmenu Pluralized"
+#~ msgid "Image Quality Scan"
+#~ msgid_plural "Image Quality Scan"
+#~ msgstr[0] "เครื่องมือแก้ไขภาพ"
 
 #, fuzzy, kde-format
 #~ msgctxt "@label Face Recognition Accuracy"
