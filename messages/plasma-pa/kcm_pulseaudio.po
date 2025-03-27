@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: plasma-pa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-23 22:41+0100\n"
-"PO-Revision-Date: 2025-03-25 07:35+0700\n"
+"PO-Revision-Date: 2025-03-27 08:36+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
@@ -62,7 +62,7 @@ msgstr "การเปิดไฟล์สำหรับการเขีย
 #, kde-format
 msgctxt "@label"
 msgid "Profile:"
-msgstr "โพรไฟล์:"
+msgstr "โปรไฟล์:"
 
 #. +> trunk6 stable6
 #: kcm/ui/ContextBrokenOverlay.qml:25
@@ -185,18 +185,14 @@ msgstr "ต้องใช้โมดูล PulseAudio %1"
 #. +> trunk6 stable6 stable5
 #: kcm/ui/main.qml:100
 #, kde-format
-msgid ""
-"Add virtual output device for simultaneous output on all local sound cards"
-msgstr ""
-"เพิ่มอุปกรณ์เสมือนอาท์พุตเพื่อการเอาต์พุตเสียงทั้งหมดบนการ์ดเสียงในเครื่อง"
+msgid "Add virtual output device for simultaneous output on all local sound cards"
+msgstr "เพิ่มอุปกรณ์เสมือนอาท์พุตเพื่อการเอาต์พุตเสียงทั้งหมดบนการ์ดเสียงในเครื่อง"
 
 #. +> trunk6 stable6 stable5
 #: kcm/ui/main.qml:106
 #, kde-format
-msgid ""
-"Automatically switch all running streams when a new output becomes available"
-msgstr ""
-"เปลี่ยนกระแสข้อมูลเสียงเมื่อมีอุปกรณ์เอาต์พุตใหม่ที่พร้อมใช้งานโดยอัตโนมัติ"
+msgid "Automatically switch all running streams when a new output becomes available"
+msgstr "เปลี่ยนกระแสข้อมูลเสียงเมื่อมีอุปกรณ์เอาต์พุตใหม่ที่พร้อมใช้งานโดยอัตโนมัติ"
 
 #. +> trunk6 stable6 stable5
 #: kcm/ui/main.qml:143 kcm/ui/RenameDevices.qml:205
@@ -231,9 +227,7 @@ msgstr "กระแสข้อมูลอัดเสียง"
 #. +> trunk6 stable6 stable5
 #: kcm/ui/main.qml:309
 #, kde-format
-msgctxt ""
-"%1 is an error string produced by an external component, and probably untransl"
-"ated"
+msgctxt "%1 is an error string produced by an external component, and probably untranslated"
 msgid ""
 "Error trying to play a test sound. \n"
 "The system said: \"%1\""
@@ -333,12 +327,8 @@ msgstr "บันทึก"
 #: kcm/ui/RenameDevices.qml:68
 #, kde-format
 msgctxt "@info"
-msgid ""
-"Saving changes will restart audio services. Apps playing audio will experience"
-" interruptions and may need to be restarted."
-msgstr ""
-"การบันทึกการตั้งค่าจะเป็นการเริ่มต้นบริการเสียงใหม่ แอปพลิเคชันต่าง ๆ ที่เล่นเ"
-"สียงอยู่จะถูกตัดและอาจต้องได้เริ่มใหม่เช่นกัน"
+msgid "Saving changes will restart audio services. Apps playing audio will experience interruptions and may need to be restarted."
+msgstr "การบันทึกการตั้งค่าจะเป็นการเริ่มต้นบริการเสียงใหม่ แอปพลิเคชันต่าง ๆ ที่เล่นเสียงอยู่จะถูกตัดและอาจต้องได้เริ่มใหม่เช่นกัน"
 
 #. +> trunk6 stable6
 #: kcm/ui/RenameDevices.qml:80
@@ -359,7 +349,7 @@ msgstr "โหลดใหม่"
 #, kde-format
 msgctxt "place holder text, %1 is a device name"
 msgid "%1 (click 'Save' to apply)"
-msgstr "%1 (กด \"บันทึก\" เพื่อนำไปใช้)"
+msgstr "%1 (กด 'บันทึก' เพื่อนำไปใช้)"
 
 #. +> trunk6 stable6
 #: kcm/ui/RenameDevices.qml:153
@@ -378,8 +368,7 @@ msgstr "ตั้งค่าใหม่"
 #. +> trunk6 stable6
 #: kcm/ui/RenameDevices.qml:166
 #, kde-format
-msgctxt ""
-"@label placeholder text when we don't know the default value of a device yet"
+msgctxt "@label placeholder text when we don't know the default value of a device yet"
 msgid "DEFAULT"
 msgstr "ค่าเริ่มต้น"
 
@@ -558,36 +547,28 @@ msgstr "อัดเสียงทั้งหมดโดยอุปกรณ
 #. +> trunk6 stable6 stable5
 #: qml/listitemmenu.cpp:354
 #, kde-format
-msgctxt ""
-"Heading for a list of ports of a device (for example built-in laptop speakers "
-"or a plug for headphones)"
+msgctxt "Heading for a list of ports of a device (for example built-in laptop speakers or a plug for headphones)"
 msgid "Ports"
 msgstr "พอร์ต"
 
 #. +> trunk6 stable6 stable5
 #: qml/listitemmenu.cpp:424
 #, kde-format
-msgctxt ""
-"Heading for a list of device profiles (5.1 surround sound, stereo, speakers on"
-"ly, ...)"
+msgctxt "Heading for a list of device profiles (5.1 surround sound, stereo, speakers only, ...)"
 msgid "Profiles"
-msgstr "โพรไฟล์"
+msgstr "โปรไฟล์"
 
 #. +> trunk6 stable6 stable5
 #: qml/listitemmenu.cpp:458
 #, kde-format
-msgctxt ""
-"Heading for a list of possible output devices (speakers, headphones, ...) to c"
-"hoose"
+msgctxt "Heading for a list of possible output devices (speakers, headphones, ...) to choose"
 msgid "Play audio using"
 msgstr "เล่นเสียงโดยใช้"
 
 #. +> trunk6 stable6 stable5
 #: qml/listitemmenu.cpp:460
 #, kde-format
-msgctxt ""
-"Heading for a list of possible input devices (built-in microphone, headset, .."
-".) to choose"
+msgctxt "Heading for a list of possible input devices (built-in microphone, headset, ...) to choose"
 msgid "Record audio using"
 msgstr "อัดเสียงโดยใช้"
 
