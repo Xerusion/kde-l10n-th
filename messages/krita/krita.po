@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-25 08:01+0100\n"
+"POT-Creation-Date: 2025-03-29 10:59+0100\n"
 "PO-Revision-Date: 2010-05-20 14:01+0700\n"
 "Last-Translator: Phuwanat Sakornsakolpat <narachai@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -14760,7 +14760,7 @@ msgstr "ภาพกลับด้าน"
 #. i18n: context: text @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
 #: krita/kritamenu.action:762
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 msgctxt "action"
 msgid "&Zoom to 100%"
 msgstr "เลือกใหม่"
@@ -14771,7 +14771,7 @@ msgstr "เลือกใหม่"
 #. i18n: context: iconText @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
 #: krita/kritamenu.action:764 krita/kritamenu.action:765
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 msgctxt "action"
 msgid "Zoom to 100%"
 msgstr "เลือกใหม่"
@@ -17415,7 +17415,7 @@ msgid "%1 Options"
 msgstr "%1 ตัวเลือก"
 
 #. +> trunk5 stable5
-#: libs/flake/KoToolManager.cpp:570
+#: libs/flake/KoToolManager.cpp:606
 #, kde-format
 msgid "Active tool: %1"
 msgstr "เครื่องมือที่ใช้อยู่: %1"
@@ -22043,15 +22043,15 @@ msgstr "ลิงค์"
 #: plugins/paintops/spray/KisSprayShapeOptionModel.cpp:88
 #: plugins/paintops/spray/KisSprayShapeOptionWidget.cpp:36
 #: plugins/paintops/spray/KisSprayShapeOptionWidget.cpp:40
-#: plugins/tools/basictools/kis_tool_brush.cc:493
+#: plugins/tools/basictools/kis_tool_brush.cc:494
 #: plugins/tools/basictools/kis_tool_fill.cc:582
 #: plugins/tools/basictools/kis_tool_fill.cc:598
 #: plugins/tools/basictools/kis_tool_fill.cc:610
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:51
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:52
-#: plugins/tools/basictools/kis_tool_multihand.cpp:482
-#: plugins/tools/basictools/kis_tool_multihand.cpp:493
-#: plugins/tools/basictools/kis_tool_multihand.cpp:495
+#: plugins/tools/basictools/kis_tool_multihand.cpp:483
+#: plugins/tools/basictools/kis_tool_multihand.cpp:494
+#: plugins/tools/basictools/kis_tool_multihand.cpp:496
 #: plugins/tools/basictools/wdgcolorsampler.ui:186
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:415
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:117
@@ -25347,8 +25347,8 @@ msgstr "รูปภาพ"
 #: libs/ui/KisMainWindow.cpp:1173 libs/ui/KisMainWindow.cpp:1270
 #: libs/ui/KisMainWindow.cpp:1993 libs/ui/KisMainWindow.cpp:2002
 #: libs/ui/KisMainWindow.cpp:2141 libs/ui/KisMainWindow.cpp:2200
-#: libs/ui/KisMainWindow.cpp:2219 libs/ui/KisMainWindow.cpp:2842
-#: libs/ui/KisPart.cpp:579 libs/ui/KisPart.cpp:582
+#: libs/ui/KisMainWindow.cpp:2219 libs/ui/KisMainWindow.cpp:2844
+#: libs/ui/KisPart.cpp:580 libs/ui/KisPart.cpp:583
 #: libs/ui/KisReferenceImage.cpp:176 libs/ui/KisRemoteFileFetcher.cpp:38
 #: libs/ui/KisRemoteFileFetcher.cpp:62 libs/ui/KisRemoteFileFetcher.cpp:89
 #: libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390
@@ -25954,7 +25954,7 @@ msgstr "ลบ"
 
 #. +> trunk5 stable5
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:340
-#: libs/ui/KisMainWindow.cpp:2639
+#: libs/ui/KisMainWindow.cpp:2641
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:404
 #, fuzzy, kde-format
 msgctxt "@title:window"
@@ -26378,7 +26378,7 @@ msgstr "ลบการเลือก"
 #. +> trunk5 stable5
 #: libs/ui/actions/kis_selection_action_factories.cpp:635
 #: libs/ui/actions/kis_selection_action_factories.cpp:694
-#: plugins/tools/tool_polyline/kis_tool_polyline.cc:54
+#: plugins/tools/tool_polyline/kis_tool_polyline.cc:55
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
@@ -26988,7 +26988,7 @@ msgstr "อ้างอิงข้อความ"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gifReserveTransparent)
 #. +> trunk5 stable5
 #: libs/ui/animation/video_export_options_dialog.ui:347
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>GIF format supports up to 256 colors per frame/image. This option enables transparency at the cost of 1 color, thus only 255 colors will be used for GIFs with this option enabled. Disabling this option gives you the entire 256 colors for your GIF for better quality output.</p>"
@@ -28809,7 +28809,7 @@ msgid "Enter new style name"
 msgstr "เติมชื่อกลุ่ม"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:278 libs/ui/KisMainWindow.cpp:2650
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:278 libs/ui/KisMainWindow.cpp:2652
 #, fuzzy, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -31205,7 +31205,7 @@ msgstr "เวลารวมในการแก้ไข:"
 #: plugins/paintops/mypaint/MyPaintSensorPack.cpp:49
 #: plugins/paintops/mypaint/MyPaintSensorPack.cpp:50
 #: plugins/paintops/spray/KisSprayShapeOptionModel.cpp:88
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 msgid "%"
 msgstr "%1%"
 
@@ -33477,7 +33477,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, sliderFrameClonesLimit)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgperformancesettings.ui:296
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>When rendering animation frames (into files or during animation cache regeneration), Krita will make the specified number of copies of your image and will work on them in parallel. Each copy will demand more RAM for its storage (about 20% of the size of you image), so raise this limit only if you have enough RAM installed.</p>"
@@ -33691,7 +33691,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, intRegionOfInterestMargin)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgperformancesettings.ui:507
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Add extra area to the region of interest to each side of the canvas.</p>"
@@ -36694,8 +36694,8 @@ msgid "Brush composite"
 msgstr "แปรงทาสี"
 
 #. +> trunk5 stable5
-#: libs/ui/kis_paintop_box.cc:1344 libs/ui/kis_paintop_box.cc:1366
-#: libs/ui/kis_paintop_box.cc:1380
+#: libs/ui/kis_paintop_box.cc:1339 libs/ui/kis_paintop_box.cc:1361
+#: libs/ui/kis_paintop_box.cc:1375
 #, fuzzy, kde-format
 msgid ""
 "%1\n"
@@ -38181,62 +38181,62 @@ msgid "Failed to create new document. Animation import aborted."
 msgstr "สร้างเลเยอร์ใหม่"
 
 #. +> trunk5 stable5
-#: libs/ui/KisMainWindow.cpp:2630
+#: libs/ui/KisMainWindow.cpp:2632
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "เครื่องมือเ&ลือกสี"
 
 #. +> trunk5 stable5
-#: libs/ui/KisMainWindow.cpp:2645
+#: libs/ui/KisMainWindow.cpp:2647
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "เครื่องมือเ&ลือกสี"
 
 #. +> trunk5 stable5
-#: libs/ui/KisMainWindow.cpp:2649
+#: libs/ui/KisMainWindow.cpp:2651
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "เครื่องมือเ&ลือกสี"
 
 #. +> trunk5 stable5
-#: libs/ui/KisMainWindow.cpp:2693
+#: libs/ui/KisMainWindow.cpp:2695
 #, fuzzy, kde-format
 #| msgid "%1 %"
 msgid "&%1 %2"
 msgstr "%1%"
 
 #. +> trunk5 stable5
-#: libs/ui/KisMainWindow.cpp:2696
+#: libs/ui/KisMainWindow.cpp:2698
 #, fuzzy, kde-format
 #| msgid "%1 %"
 msgid "%1 %2"
 msgstr "%1%"
 
 #. +> trunk5 stable5
-#: libs/ui/KisMainWindow.cpp:2865
+#: libs/ui/KisMainWindow.cpp:2867
 #, kde-format
 msgid "The Krita LittleCMS color management plugin is not installed. Krita will quit now."
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/KisMainWindow.cpp:2881
+#: libs/ui/KisMainWindow.cpp:2883
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "การติดตั้งมีข้อผิดพลาด"
 
 #. +> trunk5 stable5
-#: libs/ui/KisMainWindow.cpp:2991
+#: libs/ui/KisMainWindow.cpp:2993
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/KisMainWindow.cpp:3050
+#: libs/ui/KisMainWindow.cpp:3052
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -38392,7 +38392,7 @@ msgid "New Group %1"
 msgstr "ธรรมดา"
 
 #. +> trunk5 stable5
-#: libs/ui/KisPart.cpp:579
+#: libs/ui/KisPart.cpp:580
 #, fuzzy, kde-format
 msgid ""
 "Could not create document from template\n"
@@ -38400,7 +38400,7 @@ msgid ""
 msgstr "ไม่สามารถสร้างแฟ้มเพื่อทำการบันทึกได้"
 
 #. +> trunk5 stable5
-#: libs/ui/KisPart.cpp:582
+#: libs/ui/KisPart.cpp:583
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not open %1\n"
@@ -38706,39 +38706,39 @@ msgid "Gamut Warnings turned off."
 msgstr "คำเตือน"
 
 #. +> trunk5 stable5
-#: libs/ui/KisViewManager.cpp:789
+#: libs/ui/KisViewManager.cpp:796
 #, fuzzy, kde-format
 msgid "Active Author Profile"
 msgstr "คุณสมบัติเลเยอร์..."
 
 #. +> trunk5 stable5
-#: libs/ui/KisViewManager.cpp:919
+#: libs/ui/KisViewManager.cpp:926
 #, fuzzy, kde-format
 msgid "%1 (Copy)"
 msgstr "คัดลอกจาก"
 
 #. +> trunk5 stable5
-#: libs/ui/KisViewManager.cpp:1075 libs/ui/KisViewManager.cpp:1159
+#: libs/ui/KisViewManager.cpp:1082 libs/ui/KisViewManager.cpp:1166
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/KisViewManager.cpp:1075
+#: libs/ui/KisViewManager.cpp:1082
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr "วาดภาพ"
 
 #. +> trunk5 stable5
-#: libs/ui/KisViewManager.cpp:1159
+#: libs/ui/KisViewManager.cpp:1166
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr "วาดภาพ"
 
 #. +> trunk5 stable5
-#: libs/ui/KisViewManager.cpp:1416
+#: libs/ui/KisViewManager.cpp:1423
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -38746,14 +38746,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/KisViewManager.cpp:1475
+#: libs/ui/KisViewManager.cpp:1482
 #, fuzzy, kde-format
 msgctxt "@title:window resource folder"
 msgid "Open Resource Folder"
 msgstr "รูปภาพ"
 
 #. +> trunk5 stable5
-#: libs/ui/KisViewManager.cpp:1479
+#: libs/ui/KisViewManager.cpp:1486
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -38771,21 +38771,21 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/KisViewManager.cpp:1494
+#: libs/ui/KisViewManager.cpp:1501
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &user AppData"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/KisViewManager.cpp:1495
+#: libs/ui/KisViewManager.cpp:1502
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &private app location"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/KisViewManager.cpp:1608 libs/ui/KisViewManager.cpp:1626
+#: libs/ui/KisViewManager.cpp:1615 libs/ui/KisViewManager.cpp:1633
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -40026,9 +40026,9 @@ msgstr ""
 #: libs/ui/tool/kis_tool_polyline_base.cpp:123
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:164
 #: libs/ui/tool/KisToolOutlineBase.cpp:169
-#: plugins/tools/basictools/kis_tool_line.cc:211
-#: plugins/tools/basictools/kis_tool_path.cc:90
-#: plugins/tools/basictools/kis_tool_pencil.cc:63
+#: plugins/tools/basictools/kis_tool_line.cc:213
+#: plugins/tools/basictools/kis_tool_path.cc:91
+#: plugins/tools/basictools/kis_tool_pencil.cc:64
 #: plugins/tools/tool_enclose_and_fill/subtools/KisPathEnclosingProducer.cpp:130
 #: plugins/tools/tool_enclose_and_fill/subtools/KisToolBasicBrushBase.cpp:71
 #, kde-format
@@ -40036,7 +40036,7 @@ msgid "The MyPaint Brush Engine is not available for this colorspace"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/tool/kis_tool_paint.cc:591
+#: libs/ui/tool/kis_tool_paint.cc:572
 #, fuzzy, kde-format
 msgid "Brush Size: %1 px"
 msgstr "แปรงทาสี"
@@ -40060,8 +40060,8 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:294
-#: plugins/tools/basictools/kis_tool_line.cc:293
-#: plugins/tools/basictools/kis_tool_multihand.cpp:546
+#: plugins/tools/basictools/kis_tool_line.cc:295
+#: plugins/tools/basictools/kis_tool_multihand.cpp:547
 #, kde-format
 msgid ""
 "X: %1 px\n"
@@ -45406,25 +45406,25 @@ msgid "AutoKey Duplicate"
 msgstr "เลเยอร์&ถัดไป"
 
 #. +> trunk5 stable5
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:532
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:537
 #, kde-format
 msgid "Enable to preserve playback timing."
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:540
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:547
 #, kde-format
 msgid "Effective FPS:\t%1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:541
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:548
 #, kde-format
 msgid "Real FPS:\t%1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:542
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:549
 #, kde-format
 msgid "Frames dropped:\t%1%"
 msgstr ""
@@ -62683,7 +62683,7 @@ msgstr "สีพื้น&หน้า"
 #. +> trunk5 stable5
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:82
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:93
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "(0° is active color)"
 msgstr ""
 
@@ -62711,7 +62711,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:116
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:127
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:139
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "(0% is active color)"
 msgstr ""
 
@@ -67369,13 +67369,13 @@ msgid "Distance:"
 msgstr "ละลาย"
 
 #. +> trunk5
-#: plugins/tools/basictools/kis_tool_brush.cc:215
+#: plugins/tools/basictools/kis_tool_brush.cc:216
 #, fuzzy, kde-format
 msgid "Sample Count at Max Speed:"
 msgstr "ค่า"
 
 #. +> trunk5
-#: plugins/tools/basictools/kis_tool_brush.cc:225
+#: plugins/tools/basictools/kis_tool_brush.cc:226
 #, fuzzy, kde-format
 msgid "Sample Count at Min Speed:"
 msgstr "ค่า"
@@ -67387,19 +67387,19 @@ msgid "Sample count:"
 msgstr "ค่า"
 
 #. +> trunk5
-#: plugins/tools/basictools/kis_tool_brush.cc:235
+#: plugins/tools/basictools/kis_tool_brush.cc:236
 #, fuzzy, kde-format
 msgid "Distance at Max Speed:"
 msgstr "ละลาย"
 
 #. +> trunk5
-#: plugins/tools/basictools/kis_tool_brush.cc:245
+#: plugins/tools/basictools/kis_tool_brush.cc:246
 #, fuzzy, kde-format
 msgid "Distance at Min Speed:"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:414
+#: plugins/tools/basictools/kis_tool_brush.cc:415
 #, fuzzy, kde-format
 #| msgid "None"
 msgctxt "@item:inlistbox Brush Smoothing"
@@ -67407,141 +67407,141 @@ msgid "None"
 msgstr "ไม่มี"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:415
+#: plugins/tools/basictools/kis_tool_brush.cc:416
 #, fuzzy, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Basic"
 msgstr "ดำ"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:416
+#: plugins/tools/basictools/kis_tool_brush.cc:417
 #, fuzzy, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Weighted"
 msgstr "&สูง:"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:417
+#: plugins/tools/basictools/kis_tool_brush.cc:418
 #, fuzzy, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Stabilizer"
 msgstr "ค่า"
 
 #. +> trunk5
-#: plugins/tools/basictools/kis_tool_brush.cc:418
+#: plugins/tools/basictools/kis_tool_brush.cc:419
 #, fuzzy, kde-format
 msgctxt "@item:inlistbox Brush Smoothing"
 msgid "Pixel"
 msgstr "รูปภาพ"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:420
+#: plugins/tools/basictools/kis_tool_brush.cc:421
 #, fuzzy, kde-format
 msgid "Brush Smoothing:"
 msgstr "ตั้งค่า"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:481
+#: plugins/tools/basictools/kis_tool_brush.cc:482
 #, fuzzy, kde-format
 msgid "Delay:"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:486
+#: plugins/tools/basictools/kis_tool_brush.cc:487
 #, kde-format
 msgid "Delay the brush stroke to make the line smoother"
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:490
+#: plugins/tools/basictools/kis_tool_brush.cc:491
 #, kde-format
 msgid "Radius where the brush is blocked"
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:497
+#: plugins/tools/basictools/kis_tool_brush.cc:498
 #, fuzzy, kde-format
 msgid "Finish line:"
 msgstr "เครื่องมือวาด&ภาพหลายเหลี่ยม"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:509
+#: plugins/tools/basictools/kis_tool_brush.cc:510
 #, fuzzy, kde-format
 msgid "Stabilize Sensors:"
 msgstr "ค่า"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:517
+#: plugins/tools/basictools/kis_tool_brush.cc:518
 #, fuzzy, kde-format
 msgid "Stroke Ending:"
 msgstr "ลิงค์"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:523
+#: plugins/tools/basictools/kis_tool_brush.cc:524
 #, fuzzy, kde-format
 msgid "Smooth Pressure"
 msgstr "ตั้งค่า"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:529
+#: plugins/tools/basictools/kis_tool_brush.cc:530
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scalable distance takes zoom level into account and makes the distance be visually constant whatever zoom level is chosen"
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:534
+#: plugins/tools/basictools/kis_tool_brush.cc:535
 #, fuzzy, kde-format
 msgid "Scalable Distance"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:549
-#: plugins/tools/basictools/kis_tool_line.cc:110
+#: plugins/tools/basictools/kis_tool_brush.cc:550
+#: plugins/tools/basictools/kis_tool_line.cc:112
 #, fuzzy, kde-format
 msgid "Snap to Assistants"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:551
+#: plugins/tools/basictools/kis_tool_brush.cc:552
 #, kde-format
 msgid "You need to add Assistants before this tool will work."
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:556
+#: plugins/tools/basictools/kis_tool_brush.cc:557
 #, fuzzy, kde-format
 msgid "Assistant Magnetism"
 msgstr "ม่วงแดง"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:562
+#: plugins/tools/basictools/kis_tool_brush.cc:563
 #, fuzzy, kde-format
 msgid "Magnetism:"
 msgstr "ม่วงแดง"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:565
+#: plugins/tools/basictools/kis_tool_brush.cc:566
 #, fuzzy, kde-format
 msgid "Snap to Single Line"
 msgstr "สร้างภาพใหม่"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:568
+#: plugins/tools/basictools/kis_tool_brush.cc:569
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Make it only snap to a single assistant line, prevents snapping mess while using the infinite assistants."
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:573
-#: plugins/tools/basictools/kis_tool_line.cc:113
+#: plugins/tools/basictools/kis_tool_brush.cc:574
+#: plugins/tools/basictools/kis_tool_line.cc:115
 #, fuzzy, kde-format
 msgid "Snap Eraser"
 msgstr "ยางลบ"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_brush.cc:576
+#: plugins/tools/basictools/kis_tool_brush.cc:577
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enable snapping when using erasers"
@@ -67567,7 +67567,7 @@ msgid "Color Sampler Tool"
 msgstr "การเลือก"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_ellipse.cc:63
+#: plugins/tools/basictools/kis_tool_ellipse.cc:64
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Ellipse"
@@ -67909,7 +67909,7 @@ msgid "Dither"
 msgstr "เลเยอร์"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_gradient.h:107
+#: plugins/tools/basictools/kis_tool_gradient.h:106
 #, fuzzy, kde-format
 msgid "Gradient Tool"
 msgstr "ไล่ระดับสี"
@@ -67922,31 +67922,31 @@ msgid "Draw Line"
 msgstr "&ซ่อน/แสดงเลเยอร์..."
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_line.cc:101
+#: plugins/tools/basictools/kis_tool_line.cc:103
 #, fuzzy, kde-format
 msgid "Use sensors"
 msgstr "สี"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_line.cc:104
+#: plugins/tools/basictools/kis_tool_line.cc:106
 #, fuzzy, kde-format
 msgid "Show Preview"
 msgstr "รีเฟรชพื้นที่วาดภาพ"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_line.cc:107
+#: plugins/tools/basictools/kis_tool_line.cc:109
 #, fuzzy, kde-format
 msgid "Show Guideline"
 msgstr "แสดงเส้นกริด"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_line.cc:445
+#: plugins/tools/basictools/kis_tool_line.cc:447
 #, fuzzy, kde-format
 msgid "Length: %1 px"
 msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_line.cc:463
+#: plugins/tools/basictools/kis_tool_line.cc:465
 #, kde-format
 msgid "Alt+Drag will move the origin of the currently displayed line around, Shift+Drag will force you to draw straight lines"
 msgstr ""
@@ -68001,57 +68001,57 @@ msgid "Move Tool"
 msgstr "ลบการเลือก"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_multihand.cpp:50
+#: plugins/tools/basictools/kis_tool_multihand.cpp:51
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Multibrush Stroke"
 msgstr "แปรงทาสี"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_multihand.cpp:450
+#: plugins/tools/basictools/kis_tool_multihand.cpp:451
 #, fuzzy, kde-format
 msgid "Symmetry"
 msgstr "ตัวเลือกการไล่ระดับสี"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_multihand.cpp:451
+#: plugins/tools/basictools/kis_tool_multihand.cpp:452
 #, fuzzy, kde-format
 msgctxt "Label of Mirror in Multihand brush tool options"
 msgid "Mirror"
 msgstr "ภาพกลับด้าน"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_multihand.cpp:452
+#: plugins/tools/basictools/kis_tool_multihand.cpp:453
 #, fuzzy, kde-format
 msgid "Translate"
 msgstr "สี่เหลี่ยม"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_multihand.cpp:453
+#: plugins/tools/basictools/kis_tool_multihand.cpp:454
 #, kde-format
 msgid "Snowflake"
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_multihand.cpp:454
+#: plugins/tools/basictools/kis_tool_multihand.cpp:455
 #, fuzzy, kde-format
 msgid "Copy Translate"
 msgstr "สี่เหลี่ยม"
 
 #. +> trunk5
-#: plugins/tools/basictools/kis_tool_multihand.cpp:455
+#: plugins/tools/basictools/kis_tool_multihand.cpp:456
 #, fuzzy, kde-format
 msgid "Copy Translate at Intervals"
 msgstr "สี่เหลี่ยม"
 
 #. +> trunk5
-#: plugins/tools/basictools/kis_tool_multihand.cpp:566
+#: plugins/tools/basictools/kis_tool_multihand.cpp:567
 #, kde-format
 msgid "Multibrush Tool does not support more than %1 brushes; use a larger interval."
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_multihand.h:97
+#: plugins/tools/basictools/kis_tool_multihand.h:99
 #, fuzzy, kde-format
 msgid "Multibrush Tool"
 msgstr "เครื่องมือแ&ปรงทาสี"
@@ -68063,7 +68063,7 @@ msgid "Pan Tool"
 msgstr "เครื่องมือเ&ติมสี"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_path.cc:142
+#: plugins/tools/basictools/kis_tool_path.cc:145
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Bezier Curve"
@@ -68076,7 +68076,7 @@ msgid "Bezier Curve Tool: Shift-mouseclick ends the curve."
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_pencil.cc:130
+#: plugins/tools/basictools/kis_tool_pencil.cc:133
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Freehand Path"
@@ -68089,7 +68089,7 @@ msgid "Freehand Path Tool"
 msgstr "เครื่องมือแ&ปรงทาสี"
 
 #. +> trunk5 stable5
-#: plugins/tools/basictools/kis_tool_rectangle.cc:65
+#: plugins/tools/basictools/kis_tool_rectangle.cc:66
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Rectangle"
@@ -69012,14 +69012,14 @@ msgstr "หัวเส้น"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:129
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:277
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:278
 #, fuzzy, kde-format
 msgid "Mass:"
 msgstr "เพิ่มมาสก์"
 
 #. +> trunk5 stable5
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:138
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:284
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:285
 #, fuzzy, kde-format
 msgid "Drag:"
 msgstr "โหมด:"
@@ -70758,19 +70758,19 @@ msgid "Dynamic Brush Stroke"
 msgstr "แปรงทาสี"
 
 #. +> trunk5 stable5
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:293
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:294
 #, fuzzy, kde-format
 msgid "Fixed angle:"
 msgstr "สี่เหลี่ยม"
 
 #. +> trunk5 stable5
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:314
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:315
 #, fuzzy, kde-format
 msgid "Initial width:"
 msgstr "แปรงทาสี"
 
 #. +> trunk5 stable5
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:319
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:320
 #, fuzzy, kde-format
 msgid "Width range:"
 msgstr "ละลาย"
@@ -71149,7 +71149,7 @@ msgid "Transparent"
 msgstr "พื้นหน้าโปร่งใส"
 
 #. +> trunk5 stable5
-#: plugins/tools/tool_polygon/kis_tool_polygon.cc:50
+#: plugins/tools/tool_polygon/kis_tool_polygon.cc:51
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Polygon"
@@ -71743,7 +71743,7 @@ msgstr "เส้นทแยง"
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:982
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:998
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 #| msgid "%1 %"
 msgid " %"
 msgstr "%1%"

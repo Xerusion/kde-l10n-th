@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-25 08:01+0100\n"
+"POT-Creation-Date: 2025-03-29 10:59+0100\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -44,6 +44,13 @@ msgid "Configure Mistral IA"
 msgstr ""
 
 #. +> trunk6
+#: plugins/ollama/ollamacomboboxwidget.cpp:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reload Model"
+msgstr ""
+
+#. +> trunk6
 #: plugins/ollama/ollamaconfiguredialog.cpp:16
 #, kde-format
 msgctxt "@title:window"
@@ -51,27 +58,54 @@ msgid "Configure Ollama"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamaconfigurewidget.cpp:29
+#: plugins/ollama/ollamaconfigurewidget.cpp:39
 #, kde-format
 msgid "Server Url:"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamaconfigurewidget.cpp:33
+#: plugins/ollama/ollamaconfigurewidget.cpp:43
 #, kde-format
 msgid "Model:"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamaconfigurewidget.cpp:36
+#: plugins/ollama/ollamaconfigurewidget.cpp:46
 #, kde-format
 msgid "Prompt:"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamaconfigurewidget.cpp:37
+#: plugins/ollama/ollamaconfigurewidget.cpp:47
 #, kde-format
 msgid "No system prompt"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/ollamamanager.cpp:46
+#, kde-format
+msgid "Failed to connect to interface at %1: %2"
+msgstr ""
+
+#. i18n: ectx: label, entry (ServerUrl), group (Ollama)
+#. +> trunk6
+#: plugins/ollama/ollamasettings.kcfg:14
+#, kde-format
+msgid "The URL to the Ollama instance"
+msgstr ""
+
+#. i18n: ectx: label, entry (SystemPrompt), group (LLM)
+#. +> trunk6
+#: plugins/ollama/ollamasettings.kcfg:20
+#, kde-format
+msgid "The system prompt for the LLM"
+msgstr ""
+
+#. i18n: ectx: label, entry (Model), group (LLM)
+#. +> trunk6
+#: plugins/ollama/ollamasettings.kcfg:32
+#, kde-format
+msgid "The model used to generate responses"
 msgstr ""
 
 #. +> trunk6
@@ -92,6 +126,12 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Conversation"
+msgstr ""
+
+#. +> trunk6
+#: widgets/textautogeneratenotworkingwidget.cpp:22
+#, kde-format
+msgid "Configure..."
 msgstr ""
 
 #. +> trunk6

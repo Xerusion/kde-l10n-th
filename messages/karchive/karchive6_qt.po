@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karchive6_qt\n"
-"POT-Creation-Date: 2025-03-25 08:00+0100\n"
+"POT-Creation-Date: 2025-03-28 08:43+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -12,141 +12,147 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2326
+#: k7zip.cpp:2498
 msgctxt "K7Zip|"
 msgid "Could not get underlying device"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2334
+#: k7zip.cpp:2506
 msgctxt "K7Zip|"
 msgid "Read header failed"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2340
+#: k7zip.cpp:2512
 msgctxt "K7Zip|"
 msgid "Check signature failed"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2363
+#: k7zip.cpp:2535
 msgctxt "K7Zip|"
 msgid "Bad CRC"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2372
+#: k7zip.cpp:2544
 msgctxt "K7Zip|"
 msgid "Next header size is too big"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2377
+#: k7zip.cpp:2549
 msgctxt "K7Zip|"
 msgid "Next header size is less than zero"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2388
+#: k7zip.cpp:2560
 #, qt-format
 msgctxt "K7Zip|"
 msgid "Failed read next header size; should read %1, read %2"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2400
+#: k7zip.cpp:2573
 msgctxt "K7Zip|"
 msgid "Bad next header CRC"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2408
+#: k7zip.cpp:2581
 msgctxt "K7Zip|"
 msgid "Error in header"
 msgstr ""
 
+#. +> trunk6
+#: k7zip.cpp:2599 k7zip.cpp:2632
+msgctxt "K7Zip|"
+msgid "Password needed for this archive"
+msgstr ""
+
 #. +> trunk6 trunk5
-#: k7zip.cpp:2427
+#: k7zip.cpp:2605
 msgctxt "K7Zip|"
 msgid "Wrong header type"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2437 k7zip.cpp:2443
+#: k7zip.cpp:2615 k7zip.cpp:2621
 msgctxt "K7Zip|"
 msgid "Not implemented"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2449
+#: k7zip.cpp:2627
 msgctxt "K7Zip|"
 msgid "Error while reading main streams information"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2467
+#: k7zip.cpp:2651
 msgctxt "K7Zip|"
 msgid "Error while reading header"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2527
+#: k7zip.cpp:2711
 msgctxt "K7Zip|"
 msgid "Error reading modification time"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2573
+#: k7zip.cpp:2757
 msgctxt "K7Zip|"
 msgid "Error reading MTime"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2580
+#: k7zip.cpp:2764
 msgctxt "K7Zip|"
 msgid "Invalid"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2602
+#: k7zip.cpp:2786
 #, qt-format
 msgctxt "K7Zip|"
 msgid "Read size failed (checkRecordsSize: %1, d->pos - ppp: %2, size: %3)"
 msgstr ""
 
 #. +> trunk6
-#: k7zip.cpp:2641
+#: k7zip.cpp:2825
 msgctxt "K7Zip|"
 msgid "contents"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2825
+#: k7zip.cpp:3010
 msgctxt "K7Zip|"
 msgid "Write error"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2855
+#: k7zip.cpp:3040
 msgctxt "K7Zip|"
 msgid "Failed while encoding header"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2899
+#: k7zip.cpp:3084
 msgctxt "K7Zip|"
 msgid "No file currently selected"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2923 k7zip.cpp:2973 k7zip.cpp:3015
+#: k7zip.cpp:3108 k7zip.cpp:3158 k7zip.cpp:3198
 msgctxt "K7Zip|"
 msgid "Application error: 7-Zip file must be open before being written into"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: k7zip.cpp:2929 k7zip.cpp:3021
+#: k7zip.cpp:3114 k7zip.cpp:3204
 msgctxt "K7Zip|"
 msgid "Application error: attempted to write into non-writable 7-Zip file"
 msgstr ""
@@ -228,42 +234,42 @@ msgid "Archive already closed"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: karchive.cpp:268
+#: karchive.cpp:266
 #, qt-format
 msgctxt "KArchive|"
 msgid "%1 doesn't exist or is not a regular file."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: karchive.cpp:274
+#: karchive.cpp:272
 #, qt-format
 msgctxt "KArchive|"
 msgid "Failed accessing the file %1 for adding to the archive. The error was: %2"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: karchive.cpp:320
+#: karchive.cpp:318
 #, qt-format
 msgctxt "KArchive|"
 msgid "Couldn't open file %1: %2"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: karchive.cpp:354
+#: karchive.cpp:352
 #, qt-format
 msgctxt "KArchive|"
 msgid "Directory %1 does not exist"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: karchive.cpp:428
+#: karchive.cpp:426
 #, qt-format
 msgctxt "KArchive|"
 msgid "Writing failed: %1"
 msgstr ""
 
 #. +> trunk6
-#: karchive_p.h:56
+#: karchive_p.h:55
 msgctxt "QIODevice|"
 msgid "Unknown error"
 msgstr ""
@@ -333,54 +339,54 @@ msgid "Could not read tar header"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:586 ktar.cpp:601
+#: ktar.cpp:587 ktar.cpp:602
 #, qt-format
 msgctxt "KTar|"
 msgid "Failed to write back temp file: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:647
+#: ktar.cpp:648
 #, qt-format
 msgctxt "KTar|"
 msgid "Couldn't write alignment: %1"
 msgstr ""
 
 #. +> trunk6
-#: ktar.cpp:749 ktar.cpp:759
+#: ktar.cpp:750 ktar.cpp:760
 #, qt-format
 msgctxt "KTar|"
 msgid "Couldn't write long link: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:780 ktar.cpp:863 ktar.cpp:932
+#: ktar.cpp:781 ktar.cpp:864 ktar.cpp:933
 msgctxt "KTar|"
 msgid "Application error: TAR file must be open before being written into"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:786
+#: ktar.cpp:787
 msgctxt "KTar|"
 msgid "Application error: attempted to write into non-writable 7-Zip file"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:793
+#: ktar.cpp:794
 #, qt-format
 msgctxt "KTar|"
 msgid "Application limitation: Can not add file larger than %1 bytes"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:847
+#: ktar.cpp:848
 #, qt-format
 msgctxt "KTar|"
 msgid "Failed to write header: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:869 ktar.cpp:938
+#: ktar.cpp:870 ktar.cpp:939
 msgctxt "KTar|"
 msgid "Application error: attempted to write into non-writable TAR file"
 msgstr ""
@@ -453,97 +459,97 @@ msgid "Invalid ZIP file, found empty entry name"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:763
+#: kzip.cpp:764
 #, qt-format
 msgctxt "KZip|"
 msgid "File %1 is in folder %2, but %3 is actually a file."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:774
+#: kzip.cpp:775
 msgctxt "KZip|"
 msgid "Could not seek to next entry"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:787 kzip.cpp:797
+#: kzip.cpp:788 kzip.cpp:798
 msgctxt "KZip|"
 msgid "Invalid ZIP file. Unexpected end of file."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:820
+#: kzip.cpp:821
 #, qt-format
 msgctxt "KZip|"
 msgid "Invalid ZIP file. Unrecognized header at offset %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:848
+#: kzip.cpp:849
 #, qt-format
 msgctxt "KZip|"
 msgid "Could not seek to next file header: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:874 kzip.cpp:968
+#: kzip.cpp:875 kzip.cpp:969
 #, qt-format
 msgctxt "KZip|"
 msgid "Could not write file header: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1015
+#: kzip.cpp:1016
 #, qt-format
 msgctxt "KZip|"
 msgid "Could not write central dir record: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1051
+#: kzip.cpp:1052
 msgctxt "KZip|"
 msgid "Application error: ZIP file must be open before being written into"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1057
+#: kzip.cpp:1058
 msgctxt "KZip|"
 msgid "Application error: attempted to write into non-writable ZIP file"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1063
+#: kzip.cpp:1064
 msgctxt "KZip|"
 msgid "Cannot create a device. Disk full?"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1069
+#: kzip.cpp:1070
 msgctxt "KZip|"
 msgid "Cannot seek in ZIP file. Disk full?"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1213
+#: kzip.cpp:1214
 msgctxt "KZip|"
 msgid "Could not write to the archive. Disk full?"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1232
+#: kzip.cpp:1233
 #, qt-format
 msgctxt "KZip|"
 msgid "Could not open compression device: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1319
+#: kzip.cpp:1320
 msgctxt "KZip|"
 msgid "No file or device"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1332
+#: kzip.cpp:1333
 #, qt-format
 msgctxt "KZip|"
 msgid "Error writing data: %1"
