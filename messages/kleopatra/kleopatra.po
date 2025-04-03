@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-18 11:47+0100\n"
+"POT-Creation-Date: 2025-03-28 08:44+0100\n"
 "PO-Revision-Date: 2008-07-21 16:42+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -4409,8 +4409,8 @@ msgid "handout_group-feature_gnupg_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/conf/groupsconfigwidget.cpp:142 src/dialogs/editgroupdialog.cpp:192
-#: src/dialogs/editgroupdialog.cpp:281
+#: src/conf/groupsconfigwidget.cpp:142 src/dialogs/debugdialog.cpp:131
+#: src/dialogs/editgroupdialog.cpp:192 src/dialogs/editgroupdialog.cpp:281
 #, fuzzy, kde-format
 #| msgid "&Search:"
 msgctxt "@label"
@@ -5743,7 +5743,14 @@ msgctxt "@action:button"
 msgid "Show Email"
 msgstr "แสดงรายละเอียด"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/crypto/gui/resultpage.cpp:62
+#, kde-format
+msgctxt "@option:check"
+msgid "Close window automatically on success"
+msgstr ""
+
+#. +> stable6
 #: src/crypto/gui/resultpage.cpp:62
 #, kde-format
 msgid "Keep open after operation completed"
@@ -6159,7 +6166,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/crypto/gui/signencryptfilesdialog.cpp:500
-#: src/dialogs/signencryptclipboarddialog.cpp:178
+#: src/dialogs/signencryptclipboarddialog.cpp:197
 #, fuzzy, kde-format
 #| msgid "Result"
 msgctxt "@title"
@@ -6174,7 +6181,7 @@ msgid "Status and progress of the crypto operations is shown here."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:510
+#: src/crypto/gui/signencryptfilesdialog.cpp:521
 #, fuzzy, kde-format
 #| msgid "Sign and encrypt (OpenPGP only)"
 msgctxt "@title"
@@ -6182,7 +6189,7 @@ msgid "Sign / Encrypt Files"
 msgstr "เซ็นและเข้ารหัส (OpenPGP เท่านั้น)"
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:518
+#: src/crypto/gui/signencryptfilesdialog.cpp:529
 #, fuzzy, kde-format
 #| msgid "Sign and encrypt (OpenPGP only)"
 msgctxt "@title:dialog"
@@ -6190,9 +6197,9 @@ msgid "Sign / Encrypt Files"
 msgstr "เซ็นและเข้ารหัส (OpenPGP เท่านั้น)"
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:540
+#: src/crypto/gui/signencryptfilesdialog.cpp:551
 #: src/dialogs/selftestdialog.cpp:447
-#: src/dialogs/signencryptclipboarddialog.cpp:132
+#: src/dialogs/signencryptclipboarddialog.cpp:151
 #, fuzzy, kde-format
 #| msgid "Continue"
 msgctxt "@action:button"
@@ -6200,7 +6207,7 @@ msgid "Continue"
 msgstr "ทำต่อไป"
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:550
+#: src/crypto/gui/signencryptfilesdialog.cpp:561
 #, fuzzy, kde-format
 #| msgid "Result"
 msgctxt "@title:dialog"
@@ -6208,16 +6215,16 @@ msgid "Results"
 msgstr "ผลการทดสอบ"
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:551
-#: src/dialogs/signencryptclipboarddialog.cpp:192
+#: src/crypto/gui/signencryptfilesdialog.cpp:562
+#: src/dialogs/signencryptclipboarddialog.cpp:211
 #, kde-format
 msgctxt "@action:button"
 msgid "Finish"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:561
-#: src/dialogs/signencryptclipboarddialog.cpp:144
+#: src/crypto/gui/signencryptfilesdialog.cpp:572
+#: src/dialogs/signencryptclipboarddialog.cpp:163
 #, fuzzy, kde-format
 #| msgid "Signer:"
 msgctxt "@action:button"
@@ -6225,8 +6232,8 @@ msgid "Sign"
 msgstr "ผู้เซ็น:"
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:564
-#: src/dialogs/signencryptclipboarddialog.cpp:147
+#: src/crypto/gui/signencryptfilesdialog.cpp:575
+#: src/dialogs/signencryptclipboarddialog.cpp:166
 #, fuzzy, kde-format
 #| msgid "Encrypt only"
 msgctxt "@action:button"
@@ -6234,8 +6241,8 @@ msgid "Encrypt"
 msgstr "เข้ารหัสเท่านั้น"
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:567
-#: src/dialogs/signencryptclipboarddialog.cpp:150
+#: src/crypto/gui/signencryptfilesdialog.cpp:578
+#: src/dialogs/signencryptclipboarddialog.cpp:169
 #, fuzzy, kde-format
 #| msgid "Encrypt only"
 msgctxt "@action:button"
@@ -6243,8 +6250,8 @@ msgid "Sign / Encrypt"
 msgstr "เข้ารหัสเท่านั้น"
 
 #. +> trunk6 stable6
-#: src/crypto/gui/signencryptfilesdialog.cpp:581
-#: src/dialogs/signencryptclipboarddialog.cpp:164
+#: src/crypto/gui/signencryptfilesdialog.cpp:592
+#: src/dialogs/signencryptclipboarddialog.cpp:183
 #, fuzzy, kde-format
 #| msgid "&Next"
 msgctxt "@action:button"
@@ -8066,7 +8073,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/debugdialog.cpp:64
+#: src/dialogs/debugdialog.cpp:66
 #, fuzzy, kde-format
 #| msgid "Select Certificate File"
 msgctxt "@title:window"
@@ -8074,14 +8081,59 @@ msgid "GnuPG Configuration Overview"
 msgstr "เลือกแฟ้มของใบรับรอง"
 
 #. +> trunk6 stable6
-#: src/dialogs/debugdialog.cpp:99
+#: src/dialogs/debugdialog.cpp:101
 #, kde-format
 msgctxt "@action:button"
 msgid "Run Command"
 msgstr ""
 
+#. +> trunk6
+#: src/dialogs/debugdialog.cpp:132
+#, fuzzy, kde-format
+#| msgid "Select Certificate File"
+msgctxt "@info:tooltip"
+msgid "Search in output"
+msgstr "เลือกแฟ้มของใบรับรอง"
+
 #. +> trunk6 stable6
-#: src/dialogs/debugdialog.cpp:128
+#: src/dialogs/debugdialog.cpp:133 src/view/searchbar.cpp:131
+#, fuzzy, kde-format
+#| msgid "User-ID"
+msgctxt "@info:placeholder"
+msgid "Enter search term"
+msgstr "หมายเลขผู้ใช้"
+
+#. +> trunk6
+#: src/dialogs/debugdialog.cpp:151
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Jump to next match"
+msgstr ""
+
+#. +> trunk6
+#: src/dialogs/debugdialog.cpp:152
+#, fuzzy, kde-format
+#| msgid "&Next"
+msgctxt "@action:button"
+msgid "Find Next"
+msgstr "&ถัดไป"
+
+#. +> trunk6
+#: src/dialogs/debugdialog.cpp:157
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Jump to previous match"
+msgstr ""
+
+#. +> trunk6
+#: src/dialogs/debugdialog.cpp:158
+#, kde-format
+msgctxt "@action:button"
+msgid "Find Previous"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/dialogs/debugdialog.cpp:171
 #, fuzzy, kde-format
 #| msgid "Clipboard"
 msgctxt "@action:button"
@@ -8089,7 +8141,7 @@ msgid "Copy to Clipboard"
 msgstr "คลิปบอร์ด"
 
 #. +> trunk6 stable6
-#: src/dialogs/debugdialog.cpp:134
+#: src/dialogs/debugdialog.cpp:177
 #, fuzzy, kde-format
 #| msgid "Select File"
 msgctxt "@action:button"
@@ -8097,7 +8149,7 @@ msgid "Save to File"
 msgstr "เลือกแฟ้ม"
 
 #. +> trunk6 stable6
-#: src/dialogs/debugdialog.cpp:168
+#: src/dialogs/debugdialog.cpp:211
 #, kde-format
 msgctxt "@info"
 msgid "Exit code: %1"
@@ -8901,7 +8953,7 @@ msgid "(optional) Set Initial PIN (SigG)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/dialogs/signencryptclipboarddialog.cpp:100
+#: src/dialogs/signencryptclipboarddialog.cpp:101
 #, fuzzy, kde-format
 #| msgid "Encrypt only"
 msgctxt "@title:dialog"
@@ -8909,7 +8961,7 @@ msgid "Sign/Encrypt Clipboard"
 msgstr "เข้ารหัสเท่านั้น"
 
 #. +> trunk6 stable6
-#: src/dialogs/signencryptclipboarddialog.cpp:104
+#: src/dialogs/signencryptclipboarddialog.cpp:105
 #, fuzzy, kde-format
 #| msgid "Encrypt only"
 msgctxt "@title"
@@ -8917,7 +8969,7 @@ msgid "Sign/Encrypt Clipboard"
 msgstr "เข้ารหัสเท่านั้น"
 
 #. +> trunk6 stable6
-#: src/dialogs/signencryptclipboarddialog.cpp:206
+#: src/dialogs/signencryptclipboarddialog.cpp:225
 #, kde-format
 msgctxt "@info"
 msgid "The clipboard does not contain text."
@@ -10135,44 +10187,52 @@ msgstr ""
 msgid "Allow custom debug commands"
 msgstr ""
 
+#. i18n: ectx: label, entry (ShowResultsAfterSignEncrypt), group (General)
+#. +> trunk6
+#: src/kcfg/settings.kcfg:263
+#, fuzzy, kde-format
+#| msgid "Sign and encrypt (OpenPGP only)"
+msgid "Show results after signing and encrypting files"
+msgstr "เซ็นและเข้ารหัส (OpenPGP เท่านั้น)"
+
 #. i18n: ectx: label, entry (ShowValidity), group (Tooltip)
 #. +> trunk6 stable6
-#: src/kcfg/settings.kcfg:265
+#: src/kcfg/settings.kcfg:269
 #, kde-format
 msgid "Show certificate validity"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ShowValidity), group (Tooltip)
 #. +> trunk6 stable6
-#: src/kcfg/settings.kcfg:266
+#: src/kcfg/settings.kcfg:270
 #, kde-format
 msgid "Show validity information for certificates in tooltip, such as whether the certificate is expired or revoked."
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowOwnerInformation), group (Tooltip)
 #. +> trunk6 stable6
-#: src/kcfg/settings.kcfg:270
+#: src/kcfg/settings.kcfg:274
 #, kde-format
 msgid "Show certificate owner information"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ShowOwnerInformation), group (Tooltip)
 #. +> trunk6 stable6
-#: src/kcfg/settings.kcfg:271
+#: src/kcfg/settings.kcfg:275
 #, kde-format
 msgid "Show owner information for certificates in tooltip, such as User IDs, subject and issuers."
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowCertificateDetails), group (Tooltip)
 #. +> trunk6 stable6
-#: src/kcfg/settings.kcfg:275
+#: src/kcfg/settings.kcfg:279
 #, kde-format
 msgid "Show certificate details"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ShowCertificateDetails), group (Tooltip)
 #. +> trunk6 stable6
-#: src/kcfg/settings.kcfg:276
+#: src/kcfg/settings.kcfg:280
 #, kde-format
 msgid "Show more certificate details, such as fingerprint, key length and expiration dates"
 msgstr ""
@@ -10448,7 +10508,7 @@ msgid "Prohibited"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:143
+#: src/main.cpp:146
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -10458,14 +10518,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:147
+#: src/main.cpp:150
 #, kde-format
 msgctxt "@title"
 msgid "GpgME Too Old"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:169
+#: src/main.cpp:172
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -10474,27 +10534,27 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:173
+#: src/main.cpp:176
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Are you sure that you want to continue?</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:174
+#: src/main.cpp:177
 #, kde-format
 msgctxt "@title"
 msgid "Running as Administrator"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:243
+#: src/main.cpp:246
 #, kde-format
 msgid "GPG UI Server Error"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:247
+#: src/main.cpp:250
 #, kde-format
 msgctxt "This error message is only shown on Windows when the socket to communicate with Windows Explorer could not be created. This often times means that the whole installation is buggy. e.g. GnuPG is not installed at all."
 msgid ""
@@ -10505,7 +10565,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:277
+#: src/main.cpp:280
 #, kde-format
 msgid "Invalid arguments: %1"
 msgstr ""
@@ -10648,146 +10708,146 @@ msgid "Show certificate overview"
 msgstr "ประเภทของใบรับรอง"
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:661
+#: src/mainwindow.cpp:667
 #, kde-format
 msgctxt "@action"
 msgid "Set Focus to Quick Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:673
+#: src/mainwindow.cpp:679
 #, kde-format
 msgid "Gpg4win Compendium"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:677
+#: src/mainwindow.cpp:683
 #, kde-format
 msgctxt "The Gpg4win compendium is only availableat this point (24.7.2017) in german and english.Please check with Gpg4win before translating this filename."
 msgid "gpg4win-compendium-en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:688
+#: src/mainwindow.cpp:694
 #, kde-format
 msgid "&Quick Guide Encrypt and Sign"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:689
+#: src/mainwindow.cpp:695
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "encrypt_and_sign_gnupgvsd_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:698
+#: src/mainwindow.cpp:704
 #, fuzzy, kde-format
 #| msgid "Certificate Import Failed"
 msgid "Certificate &Groups"
 msgstr "การนำเข้าใบรับรองล้มเหลว"
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:699
+#: src/mainwindow.cpp:705
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "groupfeature_gnupgvsd_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:708
+#: src/mainwindow.cpp:714
 #, fuzzy, kde-format
 #| msgid "Encryption Options"
 msgid "&Mail Encryption in Outlook"
 msgstr "ตัวเลือกการเข้ารหัส"
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:709
+#: src/mainwindow.cpp:715
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages. Only shown on Windows."
 msgid "gpgol_outlook_addin_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:719
+#: src/mainwindow.cpp:725
 #, fuzzy, kde-format
 #| msgid "&Certificates"
 msgid "&Certification Management"
 msgstr "ใ&บรับรอง"
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:720
+#: src/mainwindow.cpp:726
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "certification_management_gnupgvsd_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:728
+#: src/mainwindow.cpp:734
 #, fuzzy, kde-format
 #| msgid "Select File"
 msgid "&Smartcard Setup"
 msgstr "เลือกแฟ้ม"
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:729
+#: src/mainwindow.cpp:735
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "smartcard_setup_gnupgvsd_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:736
+#: src/mainwindow.cpp:742
 #, kde-format
 msgid "GnuPG Command&line"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:746
+#: src/mainwindow.cpp:752
 #, kde-format
 msgid "Manual for VS-NfD Approval"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:747
+#: src/mainwindow.cpp:753
 #, kde-format
 msgctxt "Only available in German and English. Keep the English file name for other languages."
 msgid "handbuch_zulassung_gnupgvsd_en.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:755
+#: src/mainwindow.cpp:761
 #, kde-format
 msgid "SecOps for VS-NfD Approval"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:756
+#: src/mainwindow.cpp:762
 #, kde-format
 msgctxt "Only available in German and English. Keep the English file name for other languages."
 msgid "BSI-VSA-10867_ENG_secops.pdf"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:781
+#: src/mainwindow.cpp:787
 #, kde-format
 msgid "There are still some background operations ongoing. These will be terminated when closing the window. Proceed?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:784
+#: src/mainwindow.cpp:790
 #, kde-format
 msgid "Ongoing Background Tasks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:915
+#: src/mainwindow.cpp:921
 #, kde-format
 msgid "&Password-based Encryption"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:916
+#: src/mainwindow.cpp:922
 #, kde-format
 msgctxt "Only available in German and English. Leave to English for other languages."
 msgid "symmetric_encryption_gnupgvsd_en.pdf"
@@ -13390,14 +13450,6 @@ msgstr "เข้ารหัสเท่านั้น"
 msgctxt "@action:button"
 msgid "Sign / Encrypt Notepad"
 msgstr "เข้ารหัสเท่านั้น"
-
-#. +> trunk6 stable6
-#: src/view/searchbar.cpp:131
-#, fuzzy, kde-format
-#| msgid "User-ID"
-msgctxt "@info:placeholder"
-msgid "Enter search term"
-msgstr "หมายเลขผู้ใช้"
 
 #. +> trunk6 stable6
 #: src/view/searchbar.cpp:132

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-25 08:01+0100\n"
+"POT-Creation-Date: 2025-03-29 10:59+0100\n"
 "PO-Revision-Date: 2025-03-01 14:53+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -31,50 +31,50 @@ msgid "Your emails"
 msgstr "donga.nb@gmail.com"
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:432
+#: backends/wayland/wayland_output.cpp:425
 #, kde-format
 msgid "Press right control to ungrab pointer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:434
+#: backends/wayland/wayland_output.cpp:427
 #, kde-format
 msgid "Press right control key to grab pointer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:438
+#: backends/wayland/wayland_output.cpp:431
 #, kde-format
 msgctxt "Title of nested KWin Wayland with Wayland socket identifier as argument"
 msgid "KDE Wayland Compositor %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:441
+#: backends/wayland/wayland_output.cpp:434
 #, kde-format
 msgid "- Output disabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:443
+#: backends/wayland/wayland_output.cpp:436
 #, kde-format
 msgid "- Output dimmed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/x11/x11_windowed_backend.cpp:498
+#: backends/x11/x11_windowed_backend.cpp:497
 #, kde-format
 msgid "Press right control to ungrab input"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/x11/x11_windowed_backend.cpp:498
+#: backends/x11/x11_windowed_backend.cpp:497
 #, kde-format
 msgid "Press right control key to grab input"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/x11/x11_windowed_backend.cpp:499
+#: backends/x11/x11_windowed_backend.cpp:498
 #, kde-format
 msgid "KDE Wayland Compositor"
 msgstr ""
@@ -1961,6 +1961,15 @@ msgctxt "@action shortcut"
 msgid "Disable Active Input Capture"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: plugins/fadedesktop/package/contents/ui/config.ui:17
+#: plugins/magiclamp/magiclamp_config.ui:17
+#, kde-format
+msgid "Animation duration:"
+msgstr "ช่วงเวลาเคลื่อนไหว:"
+
 #. i18n: ectx: property (text), widget (QLabel, label_Duration)
 #. +> trunk6 stable6
 #: plugins/glide/glide_config.ui:19
@@ -2373,13 +2382,6 @@ msgstr "เรียกใช้งานหน้าต่าง (%1)"
 #, kde-format
 msgid "Fade to black (fullscreen splash screens only)"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. +> trunk6 stable6
-#: plugins/magiclamp/magiclamp_config.ui:17
-#, kde-format
-msgid "Animation duration:"
-msgstr "ช่วงเวลาเคลื่อนไหว:"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_AnimationDuration)
 #. +> trunk6 stable6
@@ -3091,7 +3093,7 @@ msgstr "ความทึบแสง"
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Opacity)
 #. +> trunk6 stable6
 #: plugins/thumbnailaside/thumbnailaside_config.ui:87
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid " %"
 msgstr " %"
 
@@ -3147,12 +3149,6 @@ msgstr "ลอย"
 #: plugins/tileseditor/qml/TileDelegate.qml:191
 #, kde-format
 msgid "Delete"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: plugins/touchpadshortcuts/touchpadshortcuts.cpp:30
-#, kde-format
-msgid "Touchpad"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5356,14 +5352,14 @@ msgid "The driver rejected the output configuration"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: window.cpp:3229
+#: window.cpp:3224
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: workspace.cpp:1630
+#: workspace.cpp:1622
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""
@@ -5422,6 +5418,12 @@ msgstr "ส่วนขยายของ X (XComposite และ XDamage) ไ�
 #| msgid "GLX/OpenGL and XRender/XFixes are not available."
 msgid "GLX/OpenGL is not available."
 msgstr "ไม่พบส่วนขยาย GLX/OpenGL และ XRender/XFixes"
+
+#. +> stable6 stable5
+#: input.cpp:3334
+#, kde-format
+msgid "Touchpad"
+msgstr ""
 
 #. +> stable6 stable5
 #: main_x11.cpp:66

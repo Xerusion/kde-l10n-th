@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-23 22:41+0100\n"
+"POT-Creation-Date: 2025-03-29 10:59+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -2390,6 +2390,13 @@ msgstr ""
 msgid "Open NeoChat"
 msgstr ""
 
+#. +> trunk6
+#: src/pollhandler.cpp:316
+#, kde-format
+msgctxt "%1 is the poll answer that had the most votes"
+msgid "The poll has ended. Top answer: %1"
+msgstr ""
+
 #. +> trunk6 stable6
 #: src/qml/AccountMenu.qml:22 src/settings/AccountEditorPage.qml:119
 #, kde-format
@@ -3320,8 +3327,14 @@ msgstr ""
 msgid "Reply in Thread"
 msgstr ""
 
+#. +> trunk6
+#: src/qml/HoverActions.qml:158
+#, kde-format
+msgid "End Poll"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/qml/HoverLinkIndicator.qml:24
+#: src/qml/HoverLinkIndicator.qml:25
 #, kde-format
 msgctxt "@info screenreader"
 msgid "The currently selected link"
@@ -3595,7 +3608,7 @@ msgid "Session Verification"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/Main.qml:318 src/qml/ShareAction.qml:68
+#: src/qml/Main.qml:322 src/qml/ShareAction.qml:68
 #, kde-format
 msgctxt "@title"
 msgid "Share"
@@ -7067,7 +7080,7 @@ msgid "Send to KDE Itinerary"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/LinkPreviewComponent.qml:131
+#: src/timeline/LinkPreviewComponent.qml:133
 #: src/timeline/LinkPreviewLoadComponent.qml:76
 #, kde-format
 msgctxt "As in remove the link preview so it's no longer shown"
@@ -7075,13 +7088,13 @@ msgid "Remove preview"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/LinkPreviewComponent.qml:149
+#: src/timeline/LinkPreviewComponent.qml:151
 #, kde-format
 msgid "Shrink preview"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/timeline/LinkPreviewComponent.qml:149
+#: src/timeline/LinkPreviewComponent.qml:151
 #, kde-format
 msgid "Expand preview"
 msgstr ""
@@ -7099,8 +7112,15 @@ msgctxt "@action:button Open the location in an external program"
 msgid "Open Externally"
 msgstr ""
 
+#. +> trunk6
+#: src/timeline/PollComponent.qml:115
+#, kde-format
+msgid "%1 Vote"
+msgid_plural "%1 Votes"
+msgstr[0] ""
+
 #. +> trunk6 stable6
-#: src/timeline/PollComponent.qml:80
+#: src/timeline/PollComponent.qml:131
 #, kde-format
 msgid "Based on votes by %1 user"
 msgid_plural "Based on votes by %1 users"
@@ -7108,7 +7128,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: src/timeline/PollComponent.qml:80
+#: src/timeline/PollComponent.qml:131
 #, kde-format
 msgctxt "as in 'this vote has ended'"
 msgid "(Ended)"

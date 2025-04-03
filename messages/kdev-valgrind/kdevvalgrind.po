@@ -389,7 +389,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_branchSim)
 #. +> trunk5
 #: tools/cachegrind/cachegrind_configpage.ui:36
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Enables or disables collection of branch instruction and misprediction counts. By default this is disabled as it slows Cachegrind down by approximately 25%. Note that you cannot specify <span style=\" font-family:'Monospace'; font-weight:600; font-style:italic;\">--cache-sim=no</span> and <span style=\" font-family:'Monospace'; font-weight:600; font-style:italic;\">--branch-sim=no</span> together, as that would leave Cachegrind with no information to collect.</p>"
@@ -1195,7 +1195,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_peakInaccuracy)
 #. +> trunk5
 #: tools/massif/massif_configpage.ui:136
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Massif does not necessarily record the actual global memory allocation peak; by default it records a peak only when the global memory allocation size exceeds the previous peak by at least 1.0%. This is because there can be many local allocation peaks along the way, and doing a detailed snapshot for every one would be expensive and wasteful, as all but one of them will be later discarded. This inaccuracy can be changed (even to 0.0%) via this option, but Massif will run drastically slower as the number approaches zero.</p>"
@@ -1612,7 +1612,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_expensiveDefinednessChecks)
 #. +> trunk5
 #: tools/memcheck/memcheck_configpage.ui:193
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Controls whether Memcheck should employ more precise but also more expensive (time consuming) algorithms when checking the definedness of a value. The default setting is not to do that and it is usually sufficient. However, for highly optimised code valgrind may sometimes incorrectly complain. Invoking valgrind with <span style=\" font-family:'Monospace'; font-weight:600; font-style:italic;\">--expensive-definedness-checks=yes</span> helps but comes at a performance cost. Runtime degradation of 25% have been observed but the extra cost depends a lot on the application at hand.</p>"
