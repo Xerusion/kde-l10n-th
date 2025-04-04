@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-28 08:43+0100\n"
+"POT-Creation-Date: 2025-04-03 10:39+0200\n"
 "PO-Revision-Date: 2010-03-28 14:17+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -248,7 +248,7 @@ msgstr "%1 %2"
 #: core/app/dragdrop/albumdragdrop.cpp:226
 #: core/app/dragdrop/albumdragdrop.cpp:353
 #: core/app/dragdrop/importdragdrop.cpp:119
-#: core/app/dragdrop/itemdragdrop.cpp:147 core/app/dragdrop/tagdragdrop.cpp:80
+#: core/app/dragdrop/itemdragdrop.cpp:147 core/app/dragdrop/tagdragdrop.cpp:81
 #, kde-format
 msgid "&Move Here"
 msgstr "ย้าย&มาไว้ที่นี่"
@@ -272,9 +272,9 @@ msgstr "&คัดลอกไว้ที่นี่"
 #: core/app/dragdrop/importdragdrop.cpp:55
 #: core/app/dragdrop/importdragdrop.cpp:184
 #: core/app/dragdrop/itemdragdrop.cpp:83
-#: core/app/dragdrop/itemdragdrop.cpp:775 core/app/dragdrop/tagdragdrop.cpp:83
-#: core/app/dragdrop/tagdragdrop.cpp:233 core/app/dragdrop/tagdragdrop.cpp:282
-#: core/app/dragdrop/tagdragdrop.cpp:397
+#: core/app/dragdrop/itemdragdrop.cpp:775 core/app/dragdrop/tagdragdrop.cpp:84
+#: core/app/dragdrop/tagdragdrop.cpp:234 core/app/dragdrop/tagdragdrop.cpp:283
+#: core/app/dragdrop/tagdragdrop.cpp:398
 #, kde-format
 msgid "C&ancel"
 msgstr "&ยกเลิก"
@@ -393,27 +393,27 @@ msgid "Importing"
 msgstr "นำเข้า"
 
 #. +> trunk5
-#: core/app/dragdrop/tagdragdrop.cpp:81
+#: core/app/dragdrop/tagdragdrop.cpp:82
 #, fuzzy, kde-format
 #| msgid "&Move Here"
 msgid "M&erge Here"
 msgstr "ย้าย&มาไว้ที่นี่"
 
 #. +> trunk5
-#: core/app/dragdrop/tagdragdrop.cpp:231 core/app/dragdrop/tagdragdrop.cpp:393
+#: core/app/dragdrop/tagdragdrop.cpp:232 core/app/dragdrop/tagdragdrop.cpp:394
 #, kde-format
 msgid "Set as Tag Thumbnail"
 msgstr "ตั้งเป็นภาพตัวอย่างของป้ายกำกับ"
 
 #. +> trunk5
-#: core/app/dragdrop/tagdragdrop.cpp:276
+#: core/app/dragdrop/tagdragdrop.cpp:277
 #, kde-format
 msgid "Change face name from '%2' to '%3'"
 msgid_plural "Change face names from '%2' to '%3'"
 msgstr[0] ""
 
 #. +> trunk5
-#: core/app/dragdrop/tagdragdrop.cpp:388
+#: core/app/dragdrop/tagdragdrop.cpp:389
 #, fuzzy, kde-format
 msgid "Assign Tag(s) '%1' to Items"
 msgstr "กำหนดป้ายกำกับ '%1' ไปยังรายการ"
@@ -1561,38 +1561,38 @@ msgid "<i>Binary Data</i>"
 msgstr "<i>ไม่มีข้อมูล</i>"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:77
+#: core/app/main/digikamapp.cpp:78
 #, kde-format
 msgid "Initializing..."
 msgstr "กำลังเริ่มการทำงาน..."
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:158 core/showfoto/main/showfoto.cpp:110
+#: core/app/main/digikamapp.cpp:160 core/showfoto/main/showfoto.cpp:110
 #, fuzzy, kde-format
 msgid "Load Plugins..."
 msgstr "กำลังโหลดส่วนเสริม Kipi"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:182 core/showfoto/main/showfoto.cpp:92
+#: core/app/main/digikamapp.cpp:184 core/showfoto/main/showfoto.cpp:92
 #, fuzzy, kde-format
 msgid "Checking ICC repository..."
 msgstr "กำลังตรวจสอบห้องเก็บโพรไฟล์สี ICC"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:196
+#: core/app/main/digikamapp.cpp:198
 #, fuzzy, kde-format
 msgid "Clean up Database..."
 msgstr "กำลังอ่านฐานข้อมูล"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:218
+#: core/app/main/digikamapp.cpp:220
 #, fuzzy, kde-format
 #| msgid "Parsing all albums"
 msgid "Loading albums..."
 msgstr "กำลังวิเคราะห์อัลบั้มทั้งหมด"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:371
+#: core/app/main/digikamapp.cpp:376
 #, kde-format
 msgid ""
 "<p>The ICC profiles folder seems to be invalid.</p>"
@@ -1603,7 +1603,7 @@ msgstr ""
 "<p>หากคุณต้องการจะตั้งค่ามันเดี๋ยวนี้ ให้เลือกที่ปุ่ม \"ใช่\" หากไม่ต้องการ ให้เลือกที่ปุ่ม \"ไม่ใช่\" ในกรณีนี้ คุณสมบัติ \"การจัดการระบบสี\" จะถูกปิดการทำงาน จนกว่าคุณจะแก้ปัญหานี้ให้เรียบร้อยเสียก่อน</p>"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:427
+#: core/app/main/digikamapp.cpp:432
 #, kde-format
 msgid ""
 "ExifTool is not available in your digiKam installation or is not working correctly. Go to the digiKam settings and check the availability of the ExifTool binary file in the metadata section.\n"
@@ -1611,28 +1611,28 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:715 core/app/views/stack/trashview.cpp:509
+#: core/app/main/digikamapp.cpp:720 core/app/views/stack/trashview.cpp:509
 #, fuzzy, kde-format
 msgid "No item selected (%1 item)"
 msgid_plural "No item selected (%1 items)"
 msgstr[0] "ยังไม่มีการเลือกรายการใด ๆ"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:721
+#: core/app/main/digikamapp.cpp:726
 #, fuzzy, kde-format
 msgid "No item selected (%1 [%2] item)"
 msgid_plural "No item selected (%1 [%2] items)"
 msgstr[0] "ยังไม่มีการเลือกรายการใด ๆ"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:726
+#: core/app/main/digikamapp.cpp:731
 #, fuzzy, kde-format
 msgid "No item selected (%1 item. With grouped items: %2)"
 msgid_plural "No item selected (%1 items. With grouped items: %2)"
 msgstr[0] "ยังไม่มีการเลือกรายการใด ๆ"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:737
+#: core/app/main/digikamapp.cpp:742
 #, fuzzy, kde-format
 #| msgid "%2/%1 item selected"
 #| msgid_plural "%2/%1 items selected"
@@ -1641,7 +1641,7 @@ msgid_plural "%1/%2 items selected (%3/%4)"
 msgstr[0] "เลือกไว้ %2/%1 รายการ"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:750
+#: core/app/main/digikamapp.cpp:755
 #, fuzzy, kde-format
 #| msgid "%2/%1 item selected"
 #| msgid_plural "%2/%1 items selected"
@@ -1650,14 +1650,14 @@ msgid_plural "%1/%2 [%3] items selected (%4/%5)"
 msgstr[0] "เลือกไว้ %2/%1 รายการ"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:758
+#: core/app/main/digikamapp.cpp:763
 #, fuzzy, kde-format
 msgid "1/%2 item selected. Total with grouped items: %3"
 msgid_plural "%1/%2 items selected. Total with grouped items: %3"
 msgstr[0] "ยังไม่มีการเลือกรายการใด ๆ"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:766
+#: core/app/main/digikamapp.cpp:771
 #, fuzzy, kde-format
 #| msgid "%2/%1 item selected"
 #| msgid_plural "%2/%1 items selected"
@@ -1666,33 +1666,33 @@ msgid_plural "%1/%2 [%3/%4] items selected (%5/%6)"
 msgstr[0] "เลือกไว้ %2/%1 รายการ"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:775
+#: core/app/main/digikamapp.cpp:780
 #, fuzzy, kde-format
 msgid "1/%2 item selected. With grouped items: %3/%4"
 msgid_plural "%1/%2 items selected. With grouped items: %3/%4"
 msgstr[0] "ยังไม่มีการเลือกรายการใด ๆ"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:806
+#: core/app/main/digikamapp.cpp:811
 #, kde-format
 msgid " (%1 of %2)"
 msgstr " (ภาพที่ %1 จาก %2 ภาพ)"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:820
+#: core/app/main/digikamapp.cpp:825
 #, fuzzy, kde-format
 #| msgid " (%1 of %2)"
 msgid " (%1 of %2 [%3] )"
 msgstr " (ภาพที่ %1 จาก %2 ภาพ)"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:824
+#: core/app/main/digikamapp.cpp:829
 #, kde-format
 msgid " (%1 of %2. Total with grouped items: %3)"
 msgstr ""
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:835
+#: core/app/main/digikamapp.cpp:840
 #, fuzzy, kde-format
 #| msgid "1 item"
 #| msgid_plural "%1 items"
@@ -1701,7 +1701,7 @@ msgid_plural "%1 items hidden"
 msgstr[0] "%1 รายการ"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:887
+#: core/app/main/digikamapp.cpp:892
 #, fuzzy, kde-format
 #| msgid "Write Metadata to Image"
 #| msgid_plural "Write Metadata to Selected Images"
@@ -1710,7 +1710,7 @@ msgid_plural "Write Metadata to Selected Files"
 msgstr[0] "เขียนข้อมูลกำกับไปยังภาพต่าง ๆ ที่เลือกไว้"
 
 #. +> trunk5
-#: core/app/main/digikamapp.cpp:889
+#: core/app/main/digikamapp.cpp:894
 #, fuzzy, kde-format
 #| msgid "Reread Metadata From Image"
 #| msgid_plural "Reread Metadata From Selected Images"
@@ -3524,7 +3524,7 @@ msgstr ""
 #. +> trunk5
 #: core/app/views/sidebar/peoplesidebarwidget.cpp:245
 #, kde-format
-msgid "Face recognition is aborted, because there are no identities to recognize. Please add new identities."
+msgid "Face scan was aborted, because there are no identities to recognize. Please add new identities."
 msgstr ""
 
 #. +> trunk5
@@ -3760,21 +3760,6 @@ msgstr "การค้นหาผ่านแผนที่"
 #, kde-format
 msgid "Last Search"
 msgstr "การค้นหาล่าสุด"
-
-#. +> trunk5
-#: core/app/views/stack/itemiconview_search.cpp:67
-#: core/app/views/stack/itemiconview_search.cpp:109
-#, fuzzy, kde-format
-#| msgid "File size"
-msgid "FacesEngine"
-msgstr "ขนาดของแฟ้ม"
-
-#. +> trunk5
-#: core/app/views/stack/itemiconview_search.cpp:69
-#: core/app/views/stack/itemiconview_search.cpp:111
-#, kde-format
-msgid "A face recognition task is already running. Only one task can be running at a time. Please wait until it is finished."
-msgstr ""
 
 #. +> trunk5
 #: core/app/views/stack/itemiconview_views.cpp:127
@@ -12613,7 +12598,7 @@ msgstr "พลิกด้านแนวนอน"
 #: core/dplugins/generic/tools/printcreator/ui/advprintcustomlayout.ui:388
 #: core/utilities/facemanagement/dialogs/facetrainingupgradedlg.cpp:81
 #: core/utilities/imageeditor/editor/editortoolsettings.cpp:179
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:72
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:74
 #: core/utilities/searchwindow/searchutilities.cpp:643
 #, kde-format
 msgid "OK"
@@ -21179,7 +21164,7 @@ msgstr "คุณสมบัติของภาพประเภท TIFF"
 
 #. +> trunk5
 #: core/dplugins/generic/tools/panorama/wizard/panointropage.cpp:178
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgctxt "@info: tooltip"
 msgid "Selects a JPEG output with 90% compression rate (lossy compression, smaller size)."
 msgstr ""
@@ -21816,7 +21801,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk5
 #: core/dplugins/generic/tools/printcreator/ui/advprintcaptionpage.ui:99
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "\"%r\" :\n"
 "\"%a\" :\n"
@@ -21827,7 +21812,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5
 #: core/dplugins/generic/tools/printcreator/ui/advprintcaptionpage.ui:113
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "\"%f\" :\n"
 "\"%t\" :\n"
@@ -25010,7 +24995,7 @@ msgstr "นำเสนอภาพ"
 
 #. +> trunk5
 #: core/dplugins/generic/view/slideshow/slideshowplugin.cpp:168
-#: core/libs/settings/applicationsettings_miscs.cpp:438
+#: core/libs/settings/applicationsettings_miscs.cpp:448
 #, kde-format
 msgid "Slideshow"
 msgstr "นำเสนอภาพ"
@@ -40326,7 +40311,7 @@ msgstr "ใต้"
 
 #. +> trunk5
 #: core/libs/metadataengine/dmetadata/dmetadata_generic.cpp:1084
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 #| msgctxt "Height in meters"
 #| msgid "%L1m"
 msgctxt "@info: Height in meters"
@@ -42524,7 +42509,7 @@ msgstr "คุณสมบัติ"
 
 #. +> trunk5
 #: core/libs/properties/import/importitempropertiessidebar.cpp:78
-#: core/libs/settings/applicationsettings_miscs.cpp:423
+#: core/libs/settings/applicationsettings_miscs.cpp:433
 #: core/showfoto/setup/showfotosetup.cpp:111
 #, kde-format
 msgid "Metadata"
@@ -44349,19 +44334,19 @@ msgid "Arriflex Camera Raw Image Format"
 msgstr "แฟ้มรูปแบบ TIFF - Tagged Image File Format (รุ่น 5.0)"
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:392
+#: core/libs/settings/applicationsettings_miscs.cpp:402
 #, kde-format
 msgid "Do you want to do this operation on all group items?"
 msgstr ""
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:394
+#: core/libs/settings/applicationsettings_miscs.cpp:404
 #, fuzzy, kde-format
 msgid "Remember choice for this operation"
 msgstr "ข้อมูลกล้อง"
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:428
+#: core/libs/settings/applicationsettings_miscs.cpp:438
 #: core/utilities/lighttable/lighttablewindow.cpp:51
 #: core/utilities/lighttable/lighttablewindow_tools.cpp:33
 #, kde-format
@@ -44369,7 +44354,7 @@ msgid "Light Table"
 msgstr "โต๊ะฉายแสง"
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:433
+#: core/libs/settings/applicationsettings_miscs.cpp:443
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:50
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:195
 #, kde-format
@@ -44377,64 +44362,64 @@ msgid "Batch Queue Manager"
 msgstr "จัดการคิวประมวลผลกลุ่มภาพ"
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:443
+#: core/libs/settings/applicationsettings_miscs.cpp:453
 #, fuzzy, kde-format
 #| msgid "File Renaming"
 msgid "Renaming"
 msgstr "การเปลี่ยนชื่อแฟ้ม"
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:448
+#: core/libs/settings/applicationsettings_miscs.cpp:458
 #, fuzzy, kde-format
 msgid "Import/Export tools"
 msgstr "ลวดลายต้นสน"
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:453
+#: core/libs/settings/applicationsettings_miscs.cpp:463
 #, kde-format
 msgid "Tools (editor, panorama, stack blending, calendar, external program)"
 msgstr ""
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:470
+#: core/libs/settings/applicationsettings_miscs.cpp:480
 #, kde-format
 msgid "Operations related to metadata, labels, ratings, tags, geolocation and rotation"
 msgstr ""
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:475
+#: core/libs/settings/applicationsettings_miscs.cpp:485
 #, fuzzy, kde-format
 #| msgid "Add to Light Table"
 msgid "Adding items to the Light Table"
 msgstr "เพิ่มไปยังโต๊ะฉายแสง"
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:480
+#: core/libs/settings/applicationsettings_miscs.cpp:490
 #, fuzzy, kde-format
 #| msgid "Batch Queue Manager"
 msgid "Adding items to the Batch Queue Manager"
 msgstr "จัดการคิวประมวลผลกลุ่มภาพ"
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:485
+#: core/libs/settings/applicationsettings_miscs.cpp:495
 #, kde-format
 msgid "Opening items in the Slideshow"
 msgstr ""
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:490
+#: core/libs/settings/applicationsettings_miscs.cpp:500
 #, fuzzy, kde-format
 msgid "Renaming items"
 msgstr "ตัวเลือกการเปลี่ยนชื่อแฟ้ม"
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:495
+#: core/libs/settings/applicationsettings_miscs.cpp:505
 #, kde-format
 msgid "Passing items to import/export tools"
 msgstr ""
 
 #. +> trunk5
-#: core/libs/settings/applicationsettings_miscs.cpp:500
+#: core/libs/settings/applicationsettings_miscs.cpp:510
 #, kde-format
 msgid "Several tools including the editor, panorama, stack blending, calendar, html gallery and opening with external programs"
 msgstr ""
@@ -44549,7 +44534,7 @@ msgstr "ค้นหาใน:"
 #. +> trunk5
 #: core/libs/tags/autoassignment/autotagsengine.cpp:250
 #: core/utilities/maintenance/tools/duplicates/duplicatesfinder.cpp:170
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:436
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:556
 #: core/utilities/maintenance/tools/imgqsort/imagequalitysorter.cpp:173
 #: core/utilities/maintenance/tools/metaremover/metadataremover.cpp:237
 #: core/utilities/maintenance/tools/metasync/metadatasynchronizer.cpp:218
@@ -57464,7 +57449,7 @@ msgstr "เปิดใช้ตัวเลือกนี้ เพื่อ�
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:153
-#: core/utilities/setup/misc/setupmisc.cpp:93
+#: core/utilities/setup/misc/setupmisc.cpp:97
 #, kde-format
 msgid "Scroll current item to center of thumbbar"
 msgstr ""
@@ -57483,21 +57468,21 @@ msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:165
-#: core/utilities/setup/misc/setupmisc.cpp:115
+#: core/utilities/setup/misc/setupmisc.cpp:119
 #, fuzzy, kde-format
 msgid "Updates"
 msgstr "ปรับปรุง"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:169
-#: core/utilities/setup/misc/setupmisc.cpp:119
+#: core/utilities/setup/misc/setupmisc.cpp:123
 #, fuzzy, kde-format
 msgid "Check for new version:"
 msgstr "&บันทึกเป็น..."
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:171
-#: core/utilities/setup/misc/setupmisc.cpp:121
+#: core/utilities/setup/misc/setupmisc.cpp:125
 #, fuzzy, kde-format
 #| msgid "Only For Active Tab"
 msgid "Only For Stable Releases"
@@ -57505,7 +57490,7 @@ msgstr "กับแท็บที่กำลังใช้งานอยู
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:172
-#: core/utilities/setup/misc/setupmisc.cpp:122
+#: core/utilities/setup/misc/setupmisc.cpp:126
 #, fuzzy, kde-format
 #| msgctxt "Content type"
 #| msgid "Press Release"
@@ -57514,7 +57499,7 @@ msgstr "สื่อสิ่งพิมพ์"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:173
-#: core/utilities/setup/misc/setupmisc.cpp:123
+#: core/utilities/setup/misc/setupmisc.cpp:127
 #, kde-format
 msgid ""
 "Set this option to configure which kind of new versions must be check for updates.\n"
@@ -57525,14 +57510,14 @@ msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:178
-#: core/utilities/setup/misc/setupmisc.cpp:128
+#: core/utilities/setup/misc/setupmisc.cpp:132
 #, kde-format
 msgid "Use Version With Debug Symbols"
 msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:179
-#: core/utilities/setup/misc/setupmisc.cpp:129
+#: core/utilities/setup/misc/setupmisc.cpp:133
 #, kde-format
 msgid ""
 "If this option is enabled, a version including debug symbols will be used for updates.\n"
@@ -57541,21 +57526,21 @@ msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:184
-#: core/utilities/setup/misc/setupmisc.cpp:134
+#: core/utilities/setup/misc/setupmisc.cpp:138
 #, kde-format
 msgid "Last check: %1"
 msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:185
-#: core/utilities/setup/misc/setupmisc.cpp:135
+#: core/utilities/setup/misc/setupmisc.cpp:139
 #, fuzzy, kde-format
 msgid "Check now..."
 msgstr "&บันทึกเป็น..."
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:213
-#: core/utilities/setup/misc/setupmisc.cpp:191
+#: core/utilities/setup/misc/setupmisc.cpp:199
 #, fuzzy, kde-format
 #| msgid "Behavior"
 msgctxt "@title:tab"
@@ -57564,7 +57549,7 @@ msgstr "พฤติกรรม"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:220
-#: core/utilities/setup/misc/setupmisc.cpp:198
+#: core/utilities/setup/misc/setupmisc.cpp:206
 #, kde-format
 msgid "&Show splash screen at startup"
 msgstr "แ&สดงหน้าต่างเริ่มการทำงาน"
@@ -57578,21 +57563,21 @@ msgstr "ลบค่าที่เลือกไว้ออกจากรา
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:224
-#: core/utilities/setup/misc/setupmisc.cpp:203
+#: core/utilities/setup/misc/setupmisc.cpp:211
 #, kde-format
 msgid "Sidebar tab title:"
 msgstr "แสดงข้อความของแท็บในถาดข้าง:"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:226
-#: core/utilities/setup/misc/setupmisc.cpp:205
+#: core/utilities/setup/misc/setupmisc.cpp:213
 #, kde-format
 msgid "Only For Active Tab"
 msgstr "กับแท็บที่กำลังใช้งานอยู่เท่านั้น"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:227
-#: core/utilities/setup/misc/setupmisc.cpp:206
+#: core/utilities/setup/misc/setupmisc.cpp:214
 #, kde-format
 msgid "For All Tabs"
 msgstr "กับแท็บทั้งหมด"
@@ -57605,35 +57590,35 @@ msgstr "เปิดใช้ตัวเลือกนี้ เพื่อ�
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:231
-#: core/utilities/setup/misc/setupmisc.cpp:211
+#: core/utilities/setup/misc/setupmisc.cpp:219
 #, kde-format
 msgid "Widget style:"
 msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:233
-#: core/utilities/setup/misc/setupmisc.cpp:213
+#: core/utilities/setup/misc/setupmisc.cpp:221
 #, fuzzy, kde-format
 msgid "Set this option to choose the default window decoration and looks."
 msgstr "เปิดใช้ตัวเลือกนี้ เพื่อให้มีการแสดงคลังอัลบั้มด้วย"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:257
-#: core/utilities/setup/misc/setupmisc.cpp:236
+#: core/utilities/setup/misc/setupmisc.cpp:244
 #, kde-format
 msgid "Icon theme (changes after restart):"
 msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:259
-#: core/utilities/setup/misc/setupmisc.cpp:238
+#: core/utilities/setup/misc/setupmisc.cpp:246
 #, fuzzy, kde-format
 msgid "Set this option to choose the default icon theme."
 msgstr "เปิดใช้ตัวเลือกนี้ เพื่อให้มีการแสดงคลังอัลบั้มด้วย"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:263
-#: core/utilities/setup/misc/setupmisc.cpp:242
+#: core/utilities/setup/misc/setupmisc.cpp:250
 #, fuzzy, kde-format
 #| msgid "Kuwait"
 msgctxt "icon theme"
@@ -57642,7 +57627,7 @@ msgstr "คูเวต"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:264
-#: core/utilities/setup/misc/setupmisc.cpp:243
+#: core/utilities/setup/misc/setupmisc.cpp:251
 #, kde-format
 msgctxt "icon theme"
 msgid "Breeze"
@@ -57650,7 +57635,7 @@ msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:265
-#: core/utilities/setup/misc/setupmisc.cpp:244
+#: core/utilities/setup/misc/setupmisc.cpp:252
 #, kde-format
 msgctxt "icon theme"
 msgid "Breeze Dark"
@@ -57658,7 +57643,7 @@ msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:266
-#: core/utilities/setup/misc/setupmisc.cpp:245
+#: core/utilities/setup/misc/setupmisc.cpp:253
 #, kde-format
 msgctxt "icon theme"
 msgid "Faenza"
@@ -57666,7 +57651,7 @@ msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:267
-#: core/utilities/setup/misc/setupmisc.cpp:246
+#: core/utilities/setup/misc/setupmisc.cpp:254
 #, fuzzy, kde-format
 #| msgid "Luminance"
 msgctxt "icon theme"
@@ -57675,7 +57660,7 @@ msgstr "ลูมิแนนซ์"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:268
-#: core/utilities/setup/misc/setupmisc.cpp:247
+#: core/utilities/setup/misc/setupmisc.cpp:255
 #, kde-format
 msgctxt "icon theme"
 msgid "Humanity"
@@ -57683,7 +57668,7 @@ msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:269
-#: core/utilities/setup/misc/setupmisc.cpp:248
+#: core/utilities/setup/misc/setupmisc.cpp:256
 #, kde-format
 msgctxt "icon theme"
 msgid "Oxygen"
@@ -57691,14 +57676,14 @@ msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:294
-#: core/utilities/setup/misc/setupmisc.cpp:272
+#: core/utilities/setup/misc/setupmisc.cpp:280
 #, kde-format
 msgid "Use Icon Theme From System"
 msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:301
-#: core/utilities/setup/misc/setupmisc.cpp:279
+#: core/utilities/setup/misc/setupmisc.cpp:287
 #, fuzzy, kde-format
 #| msgid "Sublocation:"
 msgid "Application font:"
@@ -57706,7 +57691,7 @@ msgstr "สถานที่ย่อย:"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:302
-#: core/utilities/setup/misc/setupmisc.cpp:280
+#: core/utilities/setup/misc/setupmisc.cpp:288
 #, fuzzy, kde-format
 #| msgid "Select here the font used to display text in tooltips."
 msgid "Select here the font used to display text in whole application."
@@ -57714,7 +57699,7 @@ msgstr "ตั้งค่าแบบอักษรที่จะใช้ใ
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:316
-#: core/utilities/setup/misc/setupmisc.cpp:295
+#: core/utilities/setup/misc/setupmisc.cpp:303
 #, fuzzy, kde-format
 #| msgid "Reference:"
 msgctxt "@title:tab"
@@ -57723,7 +57708,7 @@ msgstr "อ้างอิง:"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:324
-#: core/utilities/setup/misc/setupmisc.cpp:362
+#: core/utilities/setup/misc/setupmisc.cpp:370
 #, kde-format
 msgctxt "@title:tab"
 msgid "Spellcheck"
@@ -57731,7 +57716,7 @@ msgstr ""
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:330
-#: core/utilities/setup/misc/setupmisc.cpp:368
+#: core/utilities/setup/misc/setupmisc.cpp:376
 #, fuzzy, kde-format
 #| msgid "Location"
 msgctxt "@title:tab"
@@ -57740,7 +57725,7 @@ msgstr "สถานที่"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:336
-#: core/utilities/setup/misc/setupmisc.cpp:374
+#: core/utilities/setup/misc/setupmisc.cpp:382
 #, fuzzy, kde-format
 #| msgid "System Font"
 msgctxt "@title:tab"
@@ -57749,7 +57734,7 @@ msgstr "แบบอักษรของระบบ"
 
 #. +> trunk5
 #: core/showfoto/setup/showfotosetupmisc.cpp:370
-#: core/utilities/setup/misc/setupmisc.cpp:407
+#: core/utilities/setup/misc/setupmisc.cpp:415
 #, kde-format
 msgid ""
 "Check for new version option will verify the pre-releases.\n"
@@ -65070,7 +65055,7 @@ msgstr ""
 #. i18n: ectx: property (format), widget (QProgressBar, progressBar)
 #. +> trunk5
 #: core/utilities/geolocation/engine/tile/TileCreatorDialog.ui:560
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "%p%"
 msgstr ""
 
@@ -70047,7 +70032,7 @@ msgstr ""
 
 #. i18n
 #. +> trunk5
-#: core/utilities/maintenance/manager/maintenancemngr.cpp:395
+#: core/utilities/maintenance/manager/maintenancemngr.cpp:405
 #, fuzzy, kde-format
 msgid ""
 "All operations are done.\n"
@@ -70055,7 +70040,7 @@ msgid ""
 msgstr "กลับค่าการเรียงลำดับ"
 
 #. +> trunk5
-#: core/utilities/maintenance/manager/maintenancemngr.cpp:396
+#: core/utilities/maintenance/manager/maintenancemngr.cpp:406
 #, fuzzy, kde-format
 msgid "digiKam Maintenance"
 msgstr "มุมหลัก:"
@@ -70246,92 +70231,98 @@ msgid "Duplicate found: %1"
 msgstr "ภาพซ้ำ"
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:216
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:211
+#, kde-format
+msgid "A face scan is already running. Only one face task can be running at a time. Please wait until it is finished."
+msgstr ""
+
+#. +> trunk5
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:336
 #, fuzzy, kde-format
 msgid "Scan for faces in album: %1"
 msgstr "ค้นหาใน:"
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:220
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:340
 #, fuzzy, kde-format
 msgid "Scan for faces in %1 albums"
 msgstr "ค้นหาใน:"
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:227
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:347
 #, fuzzy, kde-format
 #| msgid "Scan for New Images"
 msgid "Scan for faces in image: %1"
 msgstr "ตรวจค้นหารูปภาพใหม่ ๆ"
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:231
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:351
 #, fuzzy, kde-format
 #| msgid "Scan for New Images"
 msgid "Scan for faces in %1 images"
 msgstr "ตรวจค้นหารูปภาพใหม่ ๆ"
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:236
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:356
 #, fuzzy, kde-format
 msgid "Updating faces database"
 msgstr "<b>กำลังทำการปรับปรุงฐานข้อมูลอัตลักษณ์ของภาพ โปรดรอสักครู่...</b>"
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:257
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:285
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:367
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:377
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:405
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:487
 #, kde-format
 msgid "Error starting face detection."
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:388
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:508
 #, fuzzy, kde-format
 msgid "Items scanned for faces: %1\n"
 msgstr "ค้นหาใน:"
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:392
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:512
 #, fuzzy, kde-format
 msgid "Item scanned for faces: %1\n"
 msgstr "ค้นหาใน:"
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:397
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:517
 #, fuzzy, kde-format
 #| msgid "Images found in %1"
 msgid "Faces found: %1"
 msgstr "พบภาพใน %1"
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:401
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:521
 #, fuzzy, kde-format
 #| msgid "Images found in %1"
 msgid "Face found: %1"
 msgstr "พบภาพใน %1"
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:435
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:555
 #, fuzzy, kde-format
 msgid "Face Scanning: %1\n"
 msgstr "ค้นหาใน:"
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:442
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:562
 #, fuzzy, kde-format
 #| msgid "No flash"
 msgid "Found %1 face."
 msgstr "ไม่ใช้แฟลช"
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:446
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:566
 #, kde-format
 msgid "Found %1 faces."
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:452
+#: core/utilities/maintenance/tools/facesmanagement/facesengine.cpp:572
 #, fuzzy, kde-format
 msgid "Recognized: %1"
 msgstr "ขนาด:"
@@ -75694,74 +75685,74 @@ msgid "&Password:"
 msgstr "หมวดหมู่ของอัลบั้ม"
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:38
+#: core/utilities/setup/misc/setupmisc.cpp:39
 #, fuzzy, kde-format
 msgid "Get album date source:"
 msgstr "แสดงหมวดหมู่ของอัลบั้ม"
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:40
+#: core/utilities/setup/misc/setupmisc.cpp:41
 #, kde-format
 msgctxt "method to get the album date"
 msgid "From The Newest Item Date"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:41
+#: core/utilities/setup/misc/setupmisc.cpp:42
 #, kde-format
 msgctxt "method to get the album date"
 msgid "From The Oldest Item Date"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:42
+#: core/utilities/setup/misc/setupmisc.cpp:43
 #, kde-format
 msgctxt "method to get the album date"
 msgid "From The Average Date"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:43
+#: core/utilities/setup/misc/setupmisc.cpp:44
 #, kde-format
 msgctxt "method to get the album date"
 msgid "From The Folder Date"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:44
+#: core/utilities/setup/misc/setupmisc.cpp:45
 #, fuzzy, kde-format
 msgctxt "method to get the album date"
 msgid "No Change Of Date"
 msgstr "เปลี่ยนตัวพิมพ์ของอักษร: "
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:45
+#: core/utilities/setup/misc/setupmisc.cpp:46
 #, kde-format
 msgid "The album date is adjusted depending on the option set when new items are found during scanning."
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:49
+#: core/utilities/setup/misc/setupmisc.cpp:50
 #, kde-format
 msgid "String comparison type:"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:51
+#: core/utilities/setup/misc/setupmisc.cpp:52
 #, fuzzy, kde-format
 msgctxt "method to compare strings"
 msgid "Natural"
 msgstr "ธรรมชาติ"
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:52
+#: core/utilities/setup/misc/setupmisc.cpp:53
 #, fuzzy, kde-format
 msgctxt "method to compare strings"
 msgid "Normal"
 msgstr "ปกติ"
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:53
+#: core/utilities/setup/misc/setupmisc.cpp:54
 #, kde-format
 msgid ""
 "<qt>Sets the way in which strings are compared inside digiKam. This eg. influences the sorting of the tree views.<br/>"
@@ -75770,32 +75761,32 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:63
+#: core/utilities/setup/misc/setupmisc.cpp:64
 #, fuzzy, kde-format
 msgid "Confirm when moving items to the &trash"
 msgstr "ถามยืนยันเมื่อมีการสั่งทิ้งแฟ้มลง&ถังขยะ"
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:64
+#: core/utilities/setup/misc/setupmisc.cpp:65
 #, fuzzy, kde-format
 msgid "Confirm when permanently deleting items"
 msgstr "ถามยืนยันเมื่อมีการสั่งลบแฟ้มออกไปอย่างถาวร"
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:65
+#: core/utilities/setup/misc/setupmisc.cpp:66
 #, fuzzy, kde-format
 msgid "Do not confirm when applying changes in the &right sidebar"
 msgstr "ไม่ต้องทำการถามยืนยัน เมื่อปรับใช้ความปลี่ยนแปลงจากค่าในแถบปรับแต่งด้าน&ขวา"
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:66
+#: core/utilities/setup/misc/setupmisc.cpp:67
 #, fuzzy, kde-format
 #| msgid "&Scan for new items at startup (makes startup slower.)"
 msgid "&Scan for new items at startup (makes startup slower)"
 msgstr "ตรวจค้&นหารายการใหม่ ๆ เมื่อเริ่มการทำงาน (จะทำให้การเริ่มการทำงานช้าลง)"
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:67
+#: core/utilities/setup/misc/setupmisc.cpp:68
 #, kde-format
 msgid ""
 "Set this option to force digiKam to scan all collections for new items to\n"
@@ -75809,13 +75800,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:75
+#: core/utilities/setup/misc/setupmisc.cpp:76
 #, kde-format
 msgid "Fast scan (detects new, deleted and renamed items)"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:76
+#: core/utilities/setup/misc/setupmisc.cpp:77
 #, kde-format
 msgid ""
 "Set this option to significantly speed up the scan. New items, deleted and also\n"
@@ -75824,19 +75815,33 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:82
+#: core/utilities/setup/misc/setupmisc.cpp:83
 #, kde-format
 msgid "Detect faces in newly added images"
 msgstr ""
 
 #. +> trunk5
 #: core/utilities/setup/misc/setupmisc.cpp:84
+#, fuzzy, kde-format
+msgid "Background face recognition scan"
+msgstr "สี&พื้นหลัง:"
+
+#. +> trunk5
+#: core/utilities/setup/misc/setupmisc.cpp:85
+#, kde-format
+msgid ""
+"Set this option to automatically start a background face recognition scan\n"
+"when a new face is tagged. This will make the tagging process easier."
+msgstr ""
+
+#. +> trunk5
+#: core/utilities/setup/misc/setupmisc.cpp:88
 #, kde-format
 msgid "Remove obsolete core database objects (makes startup slower)"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:85
+#: core/utilities/setup/misc/setupmisc.cpp:89
 #, kde-format
 msgid ""
 "Set this option to force digiKam to clean up the core database from obsolete item entries.\n"
@@ -75847,62 +75852,62 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:91
+#: core/utilities/setup/misc/setupmisc.cpp:95
 #, kde-format
 msgid "Initially select the first item in the album"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:92
+#: core/utilities/setup/misc/setupmisc.cpp:96
 #, kde-format
 msgid "Expand current tree item with a single mouse click"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:94
+#: core/utilities/setup/misc/setupmisc.cpp:98
 #, kde-format
 msgid "Show only face tags for assigning names in people sidebar"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:100
+#: core/utilities/setup/misc/setupmisc.cpp:104
 #, kde-format
 msgid "Lower bound for minimum similarity:"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:106
+#: core/utilities/setup/misc/setupmisc.cpp:110
 #, kde-format
 msgid "Select here the lower bound of the minimum similarity threshold for fuzzy and duplicates searches. The default value is 40. Selecting a lower value than 40 can make the search <b>really</b> slow."
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:199
+#: core/utilities/setup/misc/setupmisc.cpp:207
 #, fuzzy, kde-format
 #| msgid "Remove the current selected value from the list"
 msgid "Use native file dialogs from system"
 msgstr "ลบค่าที่เลือกไว้ออกจากรายการ"
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:200
+#: core/utilities/setup/misc/setupmisc.cpp:208
 #, fuzzy, kde-format
 msgid "Draw frames around grouped items"
 msgstr "จัดก&ลุ่มรูปภาพ"
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:207
+#: core/utilities/setup/misc/setupmisc.cpp:215
 #, kde-format
 msgid "Set this option to configure how sidebar tab titles are visible. Use \"Only For Active Tab\" option if you use a small screen resolution as with a laptop computer."
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:302
+#: core/utilities/setup/misc/setupmisc.cpp:310
 #, kde-format
 msgid "Perform the following operations on all group members:"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:303
+#: core/utilities/setup/misc/setupmisc.cpp:311
 #, kde-format
 msgid ""
 "When images are grouped the following operations<br/>"
@@ -75913,7 +75918,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:309
+#: core/utilities/setup/misc/setupmisc.cpp:317
 #, fuzzy, kde-format
 #| msgid "No"
 msgctxt "@label: grouped image ops"
@@ -75921,7 +75926,7 @@ msgid "No"
 msgstr "ไม่ใช่"
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:310
+#: core/utilities/setup/misc/setupmisc.cpp:318
 #, fuzzy, kde-format
 #| msgid "Yes"
 msgctxt "@label: grouped image ops"
@@ -75929,14 +75934,14 @@ msgid "Yes"
 msgstr "ใช่"
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:311
+#: core/utilities/setup/misc/setupmisc.cpp:319
 #, kde-format
 msgctxt "@label: grouped image ops"
 msgid "Ask"
 msgstr ""
 
 #. +> trunk5
-#: core/utilities/setup/misc/setupmisc.cpp:354
+#: core/utilities/setup/misc/setupmisc.cpp:362
 #, fuzzy, kde-format
 msgctxt "@title:tab"
 msgid "Grouping"
@@ -77313,6 +77318,11 @@ msgstr "รายการอัลบั้มต่าง ๆ"
 #, fuzzy, kde-format
 msgid "Import Items"
 msgstr "จัดเ&รียงรูปภาพ"
+
+#, fuzzy, kde-format
+#~| msgid "File size"
+#~ msgid "FacesEngine"
+#~ msgstr "ขนาดของแฟ้ม"
 
 #, fuzzy, kde-format
 #~ msgctxt "@action:inmenu Pluralized"
