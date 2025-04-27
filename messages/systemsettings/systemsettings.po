@@ -5,43 +5,45 @@
 # Thanomsub Noppaburana <donga.nb@gmail.com>, 2008, 2010.
 # SPDX-FileCopyrightText: 2025 Pongsakorn S. <kde@xerusion.me>
 #
+# SPDX-FileCopyrightText: 2025 Diskette Guy <diskette@dailitation.xyz>
 msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-04 10:08+0100\n"
-"PO-Revision-Date: 2025-03-03 20:19+0700\n"
-"Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
-"Language-Team: Thai\n"
+"PO-Revision-Date: 2025-04-03 21:42+0700\n"
+"Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
+"Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #. +> trunk6 stable6 stable5
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "สหชาติ อนุกูลกิจ, ถนอมทรัพย์ นพบูรณ์"
+msgstr "สหชาติ อนุกูลกิจ, ถนอมทรัพย์ นพบูรณ์, Pongsakorn S., Diskette Guy"
 
 #. +> trunk6 stable6 stable5
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "drrider@gmail.com, donga.nb@gmail.com"
+msgstr "drrider@gmail.com, donga.nb@gmail.com, kde@xerusion.me, diskette@dailitation.xyz"
 
 #. +> trunk6 stable6 stable5
 #: app/ExternalAppModule.cpp:26
 #, kde-format
 msgid "%1 is an external application and has been automatically launched"
-msgstr "โปรแกรม %1 เป็นโปรแกรมภายนอก และจะถูกเรียกใช้งานโดยอัตโนมัติ"
+msgstr "แอปพลิเคชัน %1 เป็นแอปพลิเคชันภายนอก และได้ถูกเรียกใช้งานโดยอัตโนมัติ"
 
 #. +> trunk6 stable6 stable5
 #: app/ExternalAppModule.cpp:27
 #, kde-format
 msgid "Relaunch %1"
-msgstr "เรียกให้ %1 ทำงานใหม่"
+msgstr "เปิด %1 ใหม่"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ExternalModule)
 #. +> trunk6 stable6 stable5
@@ -54,7 +56,7 @@ msgstr "กล่องโต้ตอบ"
 #: app/main.cpp:54 app/SettingsBase.cpp:53
 #, kde-format
 msgid "Info Center"
-msgstr "ศูนย์ข้อมูล"
+msgstr "ศูนย์ข้อมูลระบบ"
 
 #. +> trunk6 stable6 stable5
 #: app/main.cpp:56
@@ -66,14 +68,14 @@ msgstr "ศูนย์รวมข้อมูลระบบที่สะด
 #: app/main.cpp:58 app/main.cpp:69
 #, kde-format
 msgid "(c) 2009, Ben Cooksley"
-msgstr "สงวนลิขสิทธิ์ (c) 2552, Ben Cooksley"
+msgstr "(c) 2009, Ben Cooksley"
 
 #. +> trunk6 stable6 stable5
 #: app/main.cpp:65 app/qml/IntroPage.qml:51 app/SettingsBase.cpp:56
 #: runner/systemsettingsrunner.cpp:112
 #, kde-format
 msgid "System Settings"
-msgstr "ตั้งค่าระบบ"
+msgstr "การตั้งค่าระบบ"
 
 #. +> trunk6 stable6 stable5
 #: app/main.cpp:67
@@ -127,19 +129,19 @@ msgstr "Will Stephenson"
 #: app/main.cpp:83
 #, kde-format
 msgid "Internal module representation, internal module model"
-msgstr "ตัวแทนของมอดูลภายใน, โมเดลของมอดูลภายใน"
+msgstr "ตัวแทนของโมดูลภายใน โมเดลของโมดูลภายใน"
 
 #. +> trunk6 stable6 stable5
 #: app/main.cpp:91
 #, kde-format
 msgid "List all possible modules"
-msgstr "รายชื่อโมดูลที่เป็นไปได้ทั้งหมด"
+msgstr "รายการโมดูลที่เป็นไปได้ทั้งหมด"
 
 #. +> trunk6 stable6 stable5
 #: app/main.cpp:92 app/main.cpp:153
 #, kde-format
 msgid "Configuration module to open"
-msgstr "ปรับแต่งมอดูลที่จะเปิด"
+msgstr "ปรับแต่งโมดูลที่จะเปิด"
 
 #. +> trunk6 stable6 stable5
 #: app/main.cpp:93 app/main.cpp:154
@@ -151,7 +153,7 @@ msgstr "อาร์กิวเมนต์สำหรับโมดูล"
 #: app/main.cpp:101
 #, kde-format
 msgid "The following modules are available:"
-msgstr "มีโมดูลต่อไปนี้:"
+msgstr "มีโมดูลที่ใช้งานได้ต่อไปนี้:"
 
 #. +> trunk6 stable6 stable5
 #: app/main.cpp:119
@@ -163,7 +165,7 @@ msgstr "ไม่มีคําอธิบาย"
 #: app/ModuleView.cpp:184
 #, kde-format
 msgid "Reset all current changes to previous values"
-msgstr "ปรับค่าต่าง ๆ ที่เปลี่ยนแปลงไปให้กลับคืนสู่ค่าก่อนหน้า"
+msgstr "กลับคืนค่าต่าง ๆ ที่เปลี่ยนแปลงสู่ค่าก่อนหน้า"
 
 #. +> trunk6 stable6
 #: app/ModuleView.cpp:362
@@ -172,8 +174,8 @@ msgid ""
 "The current page has unsaved changes.\n"
 "Apply the changes or discard them?"
 msgstr ""
-"หน้าปัจจุบันมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก \n"
-"ใช้การเปลี่ยนแปลงนั้นหรือยกเลิกการเปลี่ยนแปลงนั้น?"
+"หน้าปัจจุบันมีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก\n"
+"ปรับใช้การเปลี่ยนแปลงหรือย้อนการเปลี่ยนแปลงที่ตั้งไว้?"
 
 #. +> trunk6 stable6 stable5
 #: app/ModuleView.cpp:367
@@ -211,7 +213,7 @@ msgstr "ค้นหา"
 #: app/SettingsBase.cpp:136
 #, kde-format
 msgid "Highlight Changed Settings"
-msgstr "ไฮไลท์การตั้งค่าที่เปลี่ยนไป"
+msgstr "เน้นการตั้งค่าที่เปลี่ยนไป"
 
 #. +> trunk6 stable6 stable5
 #: app/SettingsBase.cpp:147
@@ -221,16 +223,16 @@ msgstr "รายงานข้อบกพร่องในหน้าปั
 
 #. +> stable5
 #: app/SettingsBase.cpp:157
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Icon View"
 msgid "Switch to Icon View"
-msgstr "มุมมองไอคอน"
+msgstr "เปลี่ยนเป็นมุมมองไอคอน"
 
 #. +> stable5
 #: app/SettingsBase.cpp:164
 #, kde-format
 msgid "Switch to Sidebar View"
-msgstr ""
+msgstr "เปลี่ยนเป็นมุมมองแถบข้าง"
 
 #. +> stable5
 #: app/SettingsBase.cpp:211
@@ -242,7 +244,7 @@ msgstr "ช่วยเหลือ"
 #: app/SettingsBase.cpp:368
 #, kde-format
 msgid "System Settings was unable to find any views, and hence has nothing to display."
-msgstr "ตั้งค่าระบบ ไม่พบมุมมองใด ๆ เลย ดังนั้นจึงไม่สามารถแสดงอะไรให้เห็นได้"
+msgstr "การตั้งค่าระบบไม่พบมุมมองใด ๆ ดังนั้นจึงไม่สามารถแสดงอะไรให้เห็นได้"
 
 #. +> stable5
 #: app/SettingsBase.cpp:369
@@ -298,16 +300,16 @@ msgstr "ชื่อภายในสำหรับใช้กับมุม
 #: app/systemsettingsui.rc:15
 #, kde-format
 msgid "About System Settings"
-msgstr "เกี่ยวกับ ตั้งค่าระบบ"
+msgstr "เกี่ยวกับการตั้งค่าระบบ"
 
 #. +> stable5
 #: app/ToolTips/tooltipmanager.cpp:188
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<i>Contains 1 item</i>"
 #| msgid_plural "<i>Contains %1 items</i>"
 msgid "Contains 1 item"
 msgid_plural "Contains %1 items"
-msgstr[0] "<i>มีอยู่ %1 รายการ</i>"
+msgstr[0] "มีอยู่ %1 รายการ"
 
 #. +> stable5
 #: core/ModuleView.cpp:331
@@ -316,8 +318,8 @@ msgid ""
 "The settings of the current module have changed.\n"
 "Do you want to apply the changes or discard them?"
 msgstr ""
-"มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึกในมอดูลที่ใช้งานอยู่\n"
-"คุณต้องการที่จะนำการเปลี่ยนแปลงไปใช้งาน หรือทิ้งไป ?"
+"มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึกในโมดูลที่ใช้งานอยู่\n"
+"คุณต้องการที่จะนำการเปลี่ยนแปลงไปใช้งาน หรือทิ้งการเปลี่ยนแปลง?"
 
 #. +> stable5
 #: icons/IconMode.cpp:54
@@ -329,14 +331,14 @@ msgstr "มุมมองไอคอน"
 #: icons/IconMode.cpp:56
 #, kde-format
 msgid "Provides a categorized icons view of control modules."
-msgstr "แสดงมอดูลควบคุมในรูปแบบไอคอนที่จัดเป็นหมวดหมู่"
+msgstr "แสดงโมดูลควบคุมในรูปแบบไอคอนที่จัดเป็นหมวดหมู่"
 
 #. +> stable5
 #: icons/IconMode.cpp:63
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Apply Settings"
 msgid "All Settings"
-msgstr "ปรับใช้ค่าที่ตั้งไว้"
+msgstr "การตั้งค่าทั้งหมด"
 
 #. +> stable5
 #: icons/IconMode.cpp:64
@@ -348,23 +350,23 @@ msgstr "ปุ่มพิมพ์ลัด: %1"
 #: sidebar/package/contents/ui/CategoriesPage.qml:56
 #, kde-format
 msgid "Show intro page"
-msgstr ""
+msgstr "แสดงหน้าเริ่มต้น"
 
 #. +> stable5
 #: sidebar/SidebarMode.cpp:166
 #, kde-format
 msgid "Sidebar View"
-msgstr ""
+msgstr "มุมมองแถบด้านข้าง"
 
 #. +> stable5
 #: sidebar/SidebarMode.cpp:168
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Provides a categorized icons view of control modules."
 msgid "Provides a categorized sidebar for control modules."
-msgstr "แสดงมอดูลควบคุมในรูปแบบไอคอนที่จัดเป็นหมวดหมู่"
+msgstr "แสดงโมดูลควบคุมในรูปแบบแถบข้าง"
 
 #. +> stable5
 #: sidebar/SidebarMode.cpp:170
 #, kde-format
 msgid "(c) 2017, Marco Martin"
-msgstr ""
+msgstr "(c) 2017, Marco Martin"
