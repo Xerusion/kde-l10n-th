@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kclock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-01 10:12+0200\n"
+"POT-Creation-Date: 2025-04-14 09:07+0200\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -25,13 +25,13 @@ msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6
-#: alarm.cpp:73 alarm.h:51
+#: alarm.cpp:72 alarm.h:51
 #, kde-format
 msgid "Alarm"
 msgstr ""
 
 #. +> trunk6
-#: alarm.cpp:77 timer.cpp:67
+#: alarm.cpp:76 timer.cpp:68
 #, kde-format
 msgctxt "@action:button"
 msgid "Dismiss"
@@ -44,13 +44,13 @@ msgid "View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: alarm.cpp:80
+#: alarm.cpp:79
 #, kde-format
 msgid "Dismiss"
 msgstr ""
 
 #. +> trunk6 stable6
-#: alarm.cpp:83
+#: alarm.cpp:82
 #, kde-format
 msgid "Snooze"
 msgstr ""
@@ -63,105 +63,105 @@ msgid "Alarm: <shortcut>%1 %2</shortcut>"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:78
+#: kclockrunner.cpp:69
 #, kde-format
 msgctxt "@action:button Add 1 minute to timer"
 msgid "+1 Minute"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:79
+#: kclockrunner.cpp:70
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset Timer"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:86
+#: kclockrunner.cpp:77
 #, kde-format
 msgctxt "Note this is a KRunner keyword"
 msgid "timer"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:103
+#: kclockrunner.cpp:94
 #, kde-format
 msgctxt "Timer running or paused (remaining time)"
 msgid "%1 (%2 Remaining)"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:105
+#: kclockrunner.cpp:96
 #, kde-format
 msgctxt "Timer not running (timer length)"
 msgid "%1 (%2)"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:116
+#: kclockrunner.cpp:107
 #, kde-format
 msgctxt "KRunner category"
 msgid "Timer"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:120
+#: kclockrunner.cpp:111
 #, kde-format
 msgctxt "@action"
 msgid "Pause"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:122
+#: kclockrunner.cpp:113
 #, kde-format
 msgctxt "@action"
 msgid "Resume"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:124
+#: kclockrunner.cpp:115
 #, kde-format
 msgctxt "@action"
 msgid "Start Timer"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:139
+#: kclockrunner.cpp:130
 #, kde-format
 msgctxt "Note this is a KRunner keyword"
 msgid "alarm"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:161
+#: kclockrunner.cpp:152
 #, kde-format
 msgctxt "Alarm name (time)"
 msgid "%1 (%2)"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:171
+#: kclockrunner.cpp:162
 #, kde-format
 msgctxt "KRunner category"
 msgid "Alarm"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:175
+#: kclockrunner.cpp:166
 #, kde-format
 msgctxt "@action Dismiss Alarm"
 msgid "Dismiss"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:178
+#: kclockrunner.cpp:169
 #, kde-format
 msgctxt "Disable timer (rings in time)"
 msgid "Disable (Rings in %1)"
 msgstr ""
 
 #. +> trunk6
-#: kclockrunner.cpp:180
+#: kclockrunner.cpp:171
 #, kde-format
 msgctxt "@action Enable Alarm"
 msgid "Enable"
@@ -191,16 +191,71 @@ msgstr ""
 msgid "Han Young"
 msgstr ""
 
-#. +> trunk6 stable6
-#: timer.cpp:62
+#. +> trunk6
+#: main.cpp:51
 #, kde-format
-msgid "Timer complete"
+msgid "Kai Uwe Broulik"
+msgstr ""
+
+#. +> trunk6
+#: main.cpp:51
+#, kde-format
+msgctxt "Author"
+msgid "Desktop Integration"
 msgstr ""
 
 #. +> trunk6 stable6
 #: timer.cpp:63
 #, kde-format
+msgid "Timer complete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: timer.cpp:64
+#, kde-format
 msgid "Your timer %1 has finished!"
+msgstr ""
+
+#. +> trunk6
+#: timermodel.cpp:242
+#, kde-format
+msgctxt "@action:button Open kclock app"
+msgid "Open Clock"
+msgstr ""
+
+#. +> trunk6
+#: timermodel.cpp:247
+#, kde-format
+msgctxt "@action:button Add minute to timer"
+msgid "+1 Minute"
+msgstr ""
+
+#. +> trunk6
+#: timermodel.cpp:250
+#, kde-format
+msgctxt "@action:button Reset timer"
+msgid "Reset"
+msgstr ""
+
+#. +> trunk6
+#: timermodel.cpp:253 timermodel.cpp:278
+#, kde-format
+msgctxt "@action:button Pause timer"
+msgid "Pause"
+msgstr ""
+
+#. +> trunk6
+#: timermodel.cpp:271
+#, kde-format
+msgctxt "@title:notification Timer name (paused)"
+msgid "%1 (Paused)"
+msgstr ""
+
+#. +> trunk6
+#: timermodel.cpp:280
+#, kde-format
+msgctxt "@action:button Resume timer"
+msgid "Resume"
 msgstr ""
 
 #. +> trunk6 stable6

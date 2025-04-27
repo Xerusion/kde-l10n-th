@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-03 10:41+0200\n"
+"POT-Creation-Date: 2025-04-27 13:55+0200\n"
 "PO-Revision-Date: 2025-03-01 14:53+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -31,32 +31,32 @@ msgid "Your emails"
 msgstr "donga.nb@gmail.com"
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:425
+#: backends/wayland/wayland_output.cpp:462
 #, kde-format
 msgid "Press right control to ungrab pointer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:427
+#: backends/wayland/wayland_output.cpp:464
 #, kde-format
 msgid "Press right control key to grab pointer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:431
+#: backends/wayland/wayland_output.cpp:468
 #, kde-format
 msgctxt "Title of nested KWin Wayland with Wayland socket identifier as argument"
 msgid "KDE Wayland Compositor %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:434
+#: backends/wayland/wayland_output.cpp:471
 #, kde-format
 msgid "- Output disabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:436
+#: backends/wayland/wayland_output.cpp:473
 #, kde-format
 msgid "- Output dimmed"
 msgstr ""
@@ -80,7 +80,7 @@ msgid "KDE Wayland Compositor"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: compositor.cpp:460
+#: compositor.cpp:457
 #, kde-format
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""
@@ -1521,25 +1521,13 @@ msgstr "เครื่องมือช่วยทำงานของ KWin"
 msgid "This helper utility is not supposed to be called directly."
 msgstr "ไม่รองรับการเรียกใช้เครื่องมือช่วยทำงานนี้โดยตรงได้"
 
-#. +> trunk6 stable6
-#: helpers/killer/killer.cpp:234
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<para><application>%1</application> is not responding. Do you want to terminate this application?</para>"
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> trunk6
 #: helpers/killer/killer.cpp:236
 #, kde-kuit-format
-msgctxt "@info \"window title\" of application name is not responding."
-msgid "<para>\"%1\" of <application>%2</application> is not responding. Do you want to terminate this application?</para>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: helpers/killer/killer.cpp:239
-#, kde-kuit-format
 msgctxt "@info"
-msgid "<para><emphasis strong='true'>Terminating this application will close all of its windows. Any unsaved data will be lost.</emphasis></para>"
+msgid ""
+"<para><application>%1</application> is not responding. Do you want to terminate this application?</para>"
+"<para><emphasis strong='true'>Terminating this application will close all of its windows. Any unsaved data will be lost.</emphasis></para>"
 msgstr ""
 
 #. +> stable5
@@ -1551,8 +1539,38 @@ msgid ""
 "<para><warning>Terminating the application will close all of its child windows. Any unsaved data will be lost.</warning></para>"
 msgstr ""
 
+#. +> stable6
+#: helpers/killer/killer.cpp:234
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para><application>%1</application> is not responding. Do you want to terminate this application?</para>"
+msgstr ""
+
+#. +> stable6
+#: helpers/killer/killer.cpp:239
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para><emphasis strong='true'>Terminating this application will close all of its windows. Any unsaved data will be lost.</emphasis></para>"
+msgstr ""
+
+#. +> trunk6
+#: helpers/killer/killer.cpp:240
+#, kde-kuit-format
+msgctxt "@info \"window title\" of application name is not responding."
+msgid ""
+"<para>\"%1\" of <application>%2</application> is not responding. Do you want to terminate this application?</para>"
+"<para><emphasis strong='true'>Terminating this application will close all of its windows. Any unsaved data will be lost.</emphasis></para>"
+msgstr ""
+
+#. +> stable6
+#: helpers/killer/killer.cpp:236
+#, kde-kuit-format
+msgctxt "@info \"window title\" of application name is not responding."
+msgid "<para>\"%1\" of <application>%2</application> is not responding. Do you want to terminate this application?</para>"
+msgstr ""
+
 #. +> trunk6 stable6
-#: helpers/killer/killer.cpp:241
+#: helpers/killer/killer.cpp:244
 #, fuzzy, kde-format
 #| msgid "Terminate"
 msgctxt "@action:button Terminate app"
@@ -1560,28 +1578,28 @@ msgid "&Terminate %1"
 msgstr "บังคับจบการทำงาน"
 
 #. +> trunk6 stable6
-#: helpers/killer/killer.cpp:242
+#: helpers/killer/killer.cpp:245
 #, kde-format
 msgctxt "@action:button Wait for frozen app to maybe respond again"
 msgid "&Wait Longer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: helpers/killer/killer.cpp:250
+#: helpers/killer/killer.cpp:253
 #, kde-format
 msgctxt "@title:window"
 msgid "Not Responding"
 msgstr ""
 
 #. +> trunk6 stable6
-#: helpers/killer/killer.cpp:266
+#: helpers/killer/killer.cpp:269
 #, kde-format
 msgctxt "@info"
 msgid "Process ID: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: helpers/killer/killer.cpp:268
+#: helpers/killer/killer.cpp:271
 #, kde-format
 msgctxt "@info"
 msgid "Host name: %1"
@@ -1762,98 +1780,104 @@ msgstr ""
 msgid "The height for windowed mode. Default height is 768."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: main_wayland.cpp:320
+#, kde-format
+msgid "Whether or not to make windowed mode fullscreen"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main_wayland.cpp:324
 #, kde-format
 msgid "The scale for windowed mode. Default value is 1."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:325
+#: main_wayland.cpp:329
 #, kde-format
 msgid "The number of windows to open as outputs in windowed mode. Default value is 1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:330
+#: main_wayland.cpp:334
 #, kde-format
 msgid "Wayland socket to use for incoming connections. This can be combined with --socket to name the socket"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:334
+#: main_wayland.cpp:338
 #, kde-format
 msgid "XWayland socket to use for Xwayland's incoming connections. This can be set multiple times"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:338
+#: main_wayland.cpp:342
 #, kde-format
 msgid "Name of the xwayland display that has been pre-set up"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:342
+#: main_wayland.cpp:346
 #, kde-format
 msgid "Name of the xauthority file "
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:346
+#: main_wayland.cpp:350
 #, kde-format
 msgid "Exits this instance so it can be restarted by kwin_wayland_wrapper."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:348
+#: main_wayland.cpp:352
 #, kde-format
 msgid "Render through drm node."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:349
+#: main_wayland.cpp:353
 #, kde-format
 msgid "Extract locale information from locale1 rather than the user's configuration"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:375
+#: main_wayland.cpp:380
 #, kde-format
 msgid "Input method that KWin starts."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:381
+#: main_wayland.cpp:386
 #, kde-format
 msgid "Starts the session in locked mode."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:385
+#: main_wayland.cpp:390
 #, kde-format
 msgid "Starts the session without lock screen support."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:390
+#: main_wayland.cpp:395
 #, kde-format
 msgid "Starts the session without global shortcuts support."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:395
+#: main_wayland.cpp:400
 #, kde-format
 msgid "Disable KActivities integration."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:400
+#: main_wayland.cpp:405
 #, kde-format
 msgid "Exit after the session application, which is started by KWin, closed."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:405
+#: main_wayland.cpp:410
 #, kde-format
 msgid "Applications to start once Wayland and Xwayland server are started"
 msgstr ""
@@ -4416,7 +4440,7 @@ msgid "No open windows"
 msgstr "หน้าต่างต่าง ๆ"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:338
+#: tabbox/tabbox.cpp:333
 msgid "Walk Through Windows"
 msgstr "วนสลับหน้าต่าง"
 
@@ -4431,7 +4455,7 @@ msgid "Walk Through Desktop List"
 msgstr "วนสลับในรายการพื้นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:339
+#: tabbox/tabbox.cpp:334
 msgid "Walk Through Windows (Reverse)"
 msgstr "วนสลับหน้าต่าง (ย้อนกลับ)"
 
@@ -4446,45 +4470,45 @@ msgid "Walk Through Desktop List (Reverse)"
 msgstr "วนสลับในรายการพื้นที่ทำงาน (ย้อนกลับ)"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:340
+#: tabbox/tabbox.cpp:335
 msgid "Walk Through Windows Alternative"
 msgstr "ทางเลือกอื่นของการวนสลับหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:341
+#: tabbox/tabbox.cpp:336
 msgid "Walk Through Windows Alternative (Reverse)"
 msgstr "ทางเลือกอื่นของการวนสลับหน้าต่าง (ย้อนกลับ)"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:342
+#: tabbox/tabbox.cpp:337
 #, fuzzy
 #| msgid "Walk Through Windows Alternative"
 msgid "Walk Through Windows of Current Application"
 msgstr "ทางเลือกอื่นของการวนสลับหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:343
+#: tabbox/tabbox.cpp:338
 #, fuzzy
 #| msgid "Walk Through Windows Alternative (Reverse)"
 msgid "Walk Through Windows of Current Application (Reverse)"
 msgstr "ทางเลือกอื่นของการวนสลับหน้าต่าง (ย้อนกลับ)"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:344
+#: tabbox/tabbox.cpp:339
 #, fuzzy
 #| msgid "Walk Through Windows Alternative"
 msgid "Walk Through Windows of Current Application Alternative"
 msgstr "ทางเลือกอื่นของการวนสลับหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:345
+#: tabbox/tabbox.cpp:340
 #, fuzzy
 #| msgid "Walk Through Windows Alternative (Reverse)"
 msgid "Walk Through Windows of Current Application Alternative (Reverse)"
 msgstr "ทางเลือกอื่นของการวนสลับหน้าต่าง (ย้อนกลับ)"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabboxhandler.cpp:249
+#: tabbox/tabboxhandler.cpp:223
 #, kde-format
 msgid ""
 "The Window Switcher installation is broken, resources are missing.\n"
@@ -4492,19 +4516,19 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tablet_input.cpp:104
+#: tablet_input.cpp:112
 #, kde-format
 msgid "Move the tablet to the next output"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tablet_input.cpp:177
+#: tablet_input.cpp:192
 #, kde-format
 msgid "Tablet moved to %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tablet_input.cpp:177
+#: tablet_input.cpp:192
 #, kde-format
 msgid "Tablets switched outputs"
 msgstr ""
@@ -5267,7 +5291,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/edid.cpp:326
+#: utils/edid.cpp:327
 #, kde-format
 msgid "unknown"
 msgstr ""
@@ -5322,44 +5346,44 @@ msgid "Switch to Desktop %1"
 msgstr "สลับไปยังพื้นที่ทำงาน 1"
 
 #. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:433
+#: wayland/outputmanagement_v2.cpp:444
 #, kde-format
 msgid "One of the relevant outputs is no longer available"
 msgstr ""
 
 #. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:451
+#: wayland/outputmanagement_v2.cpp:462
 #, kde-format
 msgid "Disabling all outputs through configuration changes is not allowed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:461
+#: wayland/outputmanagement_v2.cpp:472
 #, kde-format
 msgid "The provided output order doesn't contain all outputs"
 msgstr ""
 
 #. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:479
+#: wayland/outputmanagement_v2.cpp:490
 #, kde-format
 msgid "The provided output order is invalid"
 msgstr ""
 
 #. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:497
+#: wayland/outputmanagement_v2.cpp:508
 #, kde-format
 msgid "The driver rejected the output configuration"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: window.cpp:3261
+#: window.cpp:3247
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: workspace.cpp:1622
+#: workspace.cpp:1615
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""
@@ -5420,7 +5444,7 @@ msgid "GLX/OpenGL is not available."
 msgstr "ไม่พบส่วนขยาย GLX/OpenGL และ XRender/XFixes"
 
 #. +> stable6 stable5
-#: input.cpp:3334
+#: input.cpp:3342
 #, kde-format
 msgid "Touchpad"
 msgstr ""

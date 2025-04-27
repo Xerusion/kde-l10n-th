@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mauikit-imagetools\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-28 08:44+0100\n"
+"POT-Creation-Date: 2025-04-16 16:19+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,9 +13,125 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6
-#: src/code/moduleinfo.cpp:20
+#: src/code/moduleinfo.cpp:21
 #, kde-format
 msgid "Image tools components for editing, viewing and navigating."
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/ImageEditor.qml:34
+#, kde-format
+msgid "Are you sure you wanna cancel all the edits?"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/ImageEditor.qml:52
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/ImageEditor.qml:171
+#: src/controls.6/linux/ImageEditor.qml:47
+#, kde-format
+msgid "Color"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/ImageEditor.qml:180
+#: src/controls.6/linux/ImageEditor.qml:54
+#, kde-format
+msgid "Transform"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/ImageEditor.qml:189
+#: src/controls.6/linux/ImageEditor.qml:61
+#, kde-format
+msgid "Layer"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/ImageEditor.qml:198
+#, kde-format
+msgid "Filters"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/private/ColourBar.qml:77
+#, kde-format
+msgctxt "@action:button Change image brightness"
+msgid "Brightness"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/private/ColourBar.qml:106
+#, kde-format
+msgctxt "@action:button Change image saturation"
+msgid "Saturation"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/private/ColourBar.qml:135
+#, kde-format
+msgctxt "@action:button Change image contrast"
+msgid "Contrast"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/private/ColourBar.qml:162
+#, kde-format
+msgctxt "@action:button Change image blur"
+msgid "Blur"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/private/ColourBar.qml:189
+#, kde-format
+msgctxt "@action:button Change image hue"
+msgid "Hue"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/private/ColourBar.qml:215
+#, kde-format
+msgctxt "@action:button Change image sharpness"
+msgid "Sharpness"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/private/ColourBar.qml:241
+#, kde-format
+msgctxt "@action:button Change image gamma"
+msgid "Gamma"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/private/ColourBar.qml:267
+#, kde-format
+msgctxt "@action:button Change image threshold"
+msgid "Threshold"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/private/TransformationBar.qml:30
+#, kde-format
+msgctxt "@action:button Mirror an image vertically"
+msgid "Flip"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/private/TransformationBar.qml:38
+#, kde-format
+msgctxt "@action:button Mirror an image horizontally"
+msgid "Mirror"
+msgstr ""
+
+#. +> trunk6
+#: src/code/modules/editor/src/controls/private/TransformationBar.qml:50
+#, kde-format
+msgctxt "@action:button Rotate an image 90°"
+msgid "Rotate 90°"
 msgstr ""
 
 #. +> trunk6
@@ -167,99 +283,4 @@ msgstr ""
 #: src/controls.6/ImageInfoDialog.qml:398
 #, kde-format
 msgid "Remove GPS info"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/linux/ImageEditor.qml:47
-#, kde-format
-msgid "Color"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/linux/ImageEditor.qml:54
-#, kde-format
-msgid "Transform"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/linux/ImageEditor.qml:61
-#, kde-format
-msgid "Layer"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/private/ColourBar.qml:57
-#, kde-format
-msgctxt "@action:button Crop an image"
-msgid "Saturation"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/private/ColourBar.qml:66
-#, kde-format
-msgctxt "@action:button Rotate an image"
-msgid "Contrast"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/private/ColourBar.qml:75
-#, kde-format
-msgctxt "@action:button Rotate an image"
-msgid "Exposure"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/private/ColourBar.qml:84
-#, kde-format
-msgctxt "@action:button Rotate an image"
-msgid "Highlights"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/private/ColourBar.qml:93
-#, kde-format
-msgctxt "@action:button Rotate an image"
-msgid "Shadows"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/private/ColourBar.qml:103
-#, kde-format
-msgctxt "@action:button Rotate an image"
-msgid "Brightness"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/private/TransformationBar.qml:32
-#, kde-format
-msgctxt "@action:button Mirror an image vertically"
-msgid "Flip"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/private/TransformationBar.qml:40
-#, kde-format
-msgctxt "@action:button Mirror an image horizontally"
-msgid "Mirror"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/private/TransformationBar.qml:52
-#, kde-format
-msgctxt "@action:button Rotate an image 90°"
-msgid "Rotate 90°"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/private/TransformationBar.qml:109
-#, kde-format
-msgctxt "@action:button Crop an image"
-msgid "Crop"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/private/TransformationBar.qml:117
-#, kde-format
-msgctxt "@action:button Rotate an image"
-msgid "Rotate"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-16 10:26+0100\n"
+"POT-Creation-Date: 2025-04-27 13:55+0200\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -63,7 +63,6 @@ msgstr "นาฬิกาแบบเข็ม"
 #: applets/systemmonitor/diskusage/metadata.json
 #: applets/systemmonitor/net/metadata.json
 #: applets/systemmonitor/systemmonitor/package/metadata.json
-#: applets/systemtray/container/package/metadata.json
 #: applets/systemtray/package/metadata.json wallpapers/color/metadata.json
 #: wallpapers/image/imagepackage/metadata.json
 #: wallpapers/image/slideshowpackage/metadata.json
@@ -110,7 +109,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: applets/calendar/package/metadata.json
-#: applets/mediacontroller/package/metadata.json
+#: applets/mediacontroller/metadata.json
 #: runners/recentdocuments/plasma-runner-recentdocuments.json
 msgctxt "Authors Name"
 msgid "Sebastian Kügler"
@@ -275,7 +274,7 @@ msgid "Aleix Pol Gonzalez"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/mediacontroller/package/metadata.json
+#: applets/mediacontroller/metadata.json
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Multimedia Player"
@@ -284,21 +283,12 @@ msgid "Media Player"
 msgstr "โปรแกรมเล่นมัลติมีเดีย"
 
 #. +> trunk6 stable6
-#: applets/mediacontroller/package/metadata.json
+#: applets/mediacontroller/metadata.json
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Multimedia Player"
 msgctxt "Description"
 msgid "Media player controls"
-msgstr "โปรแกรมเล่นมัลติมีเดีย"
-
-#. +> stable5
-#: applets/mediacontroller/package/metadata.json
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Multimedia Player"
-msgctxt "Description"
-msgid "Media Player Controls"
 msgstr "โปรแกรมเล่นมัลติมีเดีย"
 
 #. +> trunk6 stable6 stable5
@@ -480,14 +470,13 @@ msgid "Displays a configurable chart of a system monitor sensor"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/systemtray/container/package/metadata.json
 #: applets/systemtray/package/metadata.json
 msgctxt "Name"
 msgid "System Tray"
 msgstr "ถาดระบบ"
 
 #. +> trunk6 stable6 stable5
-#: applets/systemtray/container/package/metadata.json
+#: applets/systemtray/package/metadata.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Access hidden applications minimized in the system tray"
@@ -1729,6 +1718,15 @@ msgstr "แสดงสถานะพลังงานของแบตเต
 msgctxt "Authors Name"
 msgid "Sebastian Kügler, Kai Uwe Broulik"
 msgstr ""
+
+#. +> stable5
+#: applets/mediacontroller/package/metadata.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Multimedia Player"
+msgctxt "Description"
+msgid "Media Player Controls"
+msgstr "โปรแกรมเล่นมัลติมีเดีย"
 
 #. +> stable5
 #: dataengines/activities/plasma-dataengine-activities.json

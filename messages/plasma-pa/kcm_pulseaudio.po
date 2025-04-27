@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-pa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-23 22:41+0100\n"
+"POT-Creation-Date: 2025-04-27 13:55+0200\n"
 "PO-Revision-Date: 2025-03-27 08:36+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -93,7 +93,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #. +> trunk6 stable6
-#: kcm/ui/DeviceListItem.qml:57 kded/audioshortcutsservice.cpp:205
+#: kcm/ui/DeviceListItem.qml:57 kded/audioshortcutsservice.cpp:220
 #, kde-format
 msgid "Device name not found"
 msgstr "ไม่พบชื่ออุปกรณ์"
@@ -439,8 +439,17 @@ msgstr "ระดับการตรวจจับไมโครโฟน"
 msgid "Mute state"
 msgstr "สถานะปิดเสียง"
 
+#. +> trunk6
+#: kcm/ui/VolumeControlsConfig.qml:98
+#, fuzzy, kde-format
+#| msgctxt "List of apps is using mic"
+#| msgid "%1 are using the microphone"
+msgctxt "Show OSD when"
+msgid "Application starts using muted microphone"
+msgstr "%1 กำลังใช้ไมโครโฟนอยู่"
+
 #. +> trunk6 stable6 stable5
-#: kcm/ui/VolumeControlsConfig.qml:99
+#: kcm/ui/VolumeControlsConfig.qml:105
 #, kde-format
 msgid "Default output device"
 msgstr "อุปกรณ์เอาต์พุตค่าเริ่มต้น"
@@ -460,77 +469,85 @@ msgid "100%"
 msgstr "100%"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:61
+#: kded/audioshortcutsservice.cpp:76
 #, kde-format
 msgid "Increase Volume"
 msgstr "เพิ่มระดับเสียง"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:76
+#: kded/audioshortcutsservice.cpp:91
 #, kde-format
 msgid "Decrease Volume"
 msgstr "ลดระดับเสียง"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:91
+#: kded/audioshortcutsservice.cpp:106
 #, kde-format
 msgid "Increase Volume by 1%"
 msgstr "เพิ่มระดับเสียงเป็น 1%"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:106
+#: kded/audioshortcutsservice.cpp:121
 #, kde-format
 msgid "Decrease Volume by 1%"
 msgstr "ลดระดับเสียงเป็น 1%"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:121
+#: kded/audioshortcutsservice.cpp:136
 #, kde-format
 msgid "Increase Microphone Volume"
 msgstr "เพิ่มระดับเสียงไมโครโฟน"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:135
+#: kded/audioshortcutsservice.cpp:150
 #, kde-format
 msgid "Decrease Microphone Volume"
 msgstr "ลดระดับเสียงไมโครโฟน"
 
 #. +> trunk6 stable6 stable5
-#: kded/audioshortcutsservice.cpp:149 qml/microphoneindicator.cpp:106
+#: kded/audioshortcutsservice.cpp:164 qml/microphoneindicator.cpp:106
 #, kde-format
 msgid "Mute"
 msgstr "ปิดเสียง"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:162
+#: kded/audioshortcutsservice.cpp:177
 #, kde-format
 msgid "Mute Microphone"
 msgstr "ปิดเสียงไมโครโฟน"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:176
+#: kded/audioshortcutsservice.cpp:191
 #, kde-format
 msgid "Audio Volume"
 msgstr "ระดับเสียง"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:194
+#: kded/audioshortcutsservice.cpp:209
 #, kde-format
 msgid "No such device"
 msgstr "ไม่มีอุปกรณ์ดังกล่าว"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:240
+#: kded/audioshortcutsservice.cpp:255
 #, kde-format
 msgid "No output device"
 msgstr "ไม่มีอุปกรณ์เอาต์พุต"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:261 kded/audioshortcutsservice.cpp:281
+#: kded/audioshortcutsservice.cpp:276 kded/audioshortcutsservice.cpp:296
 #, kde-format
 msgctxt "Device name (Battery percent)"
 msgid "%1 (%2% Battery)"
 msgstr "%1 (%2% แบตเตอรี)"
+
+#. +> trunk6
+#: kded/mutedmicrophonereminder.cpp:131
+#, fuzzy, kde-format
+#| msgid "Mute"
+msgctxt "Microphone name: is currently muted (osd, keep short)"
+msgid "%1: Muted"
+msgstr "ปิดเสียง"
 
 #. +> trunk6 stable6 stable5
 #: qml/listitemmenu.cpp:320

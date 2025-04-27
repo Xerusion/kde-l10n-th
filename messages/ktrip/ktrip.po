@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-03 10:41+0200\n"
+"POT-Creation-Date: 2025-04-27 13:55+0200\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -25,31 +25,31 @@ msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:71
+#: main.cpp:76
 #, kde-format
 msgid "KTrip"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:73
+#: main.cpp:78
 #, kde-format
 msgid "Public transport assistant"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:75
+#: main.cpp:80
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:76
+#: main.cpp:81
 #, kde-format
 msgid "Nicolas Fella"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/BackendPage.qml:19 qml/Main.qml:53
+#: qml/BackendPage.qml:19 qml/Main.qml:59
 #, kde-format
 msgid "Providers"
 msgstr ""
@@ -67,22 +67,28 @@ msgid "Save"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/BackendPage.qml:106
+#: qml/BackendPage.qml:107 qml/BackendPage.qml:119
 #, kde-format
 msgid "Global"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/BackendPage.qml:108
+#: qml/BackendPage.qml:109
 #, kde-format
 msgid "🇪🇺 European Union"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/BackendPage.qml:111
+#: qml/BackendPage.qml:112
 #, kde-format
 msgctxt "emoji flag, country name"
 msgid "%1 %2"
+msgstr ""
+
+#. +> trunk6
+#: qml/BackendPage.qml:121
+#, kde-format
+msgid "European Union"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -161,12 +167,6 @@ msgstr[1] ""
 msgid "No connections found"
 msgstr ""
 
-#. +> trunk6
-#: qml/CountryComboBox.qml:49
-#, kde-format
-msgid "Select country"
-msgstr ""
-
 #. +> trunk6 stable6
 #: qml/DeparturesPage.qml:21
 #, kde-format
@@ -225,19 +225,19 @@ msgid "Still fetching results…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/Main.qml:30
+#: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/Main.qml:40
+#: qml/Main.qml:46
 #, kde-format
 msgid "Departures"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/Main.qml:58
+#: qml/Main.qml:64
 #, kde-format
 msgid "About KTrip"
 msgstr ""
@@ -283,7 +283,7 @@ msgid "Configure providers"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:62 qml/QueryPage.qml:89
+#: qml/QueryPage.qml:62 qml/QueryPage.qml:93
 #, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
@@ -296,7 +296,7 @@ msgid "Departure date:"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:73 qml/QueryPage.qml:104
+#: qml/QueryPage.qml:75 qml/QueryPage.qml:108
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
@@ -309,7 +309,7 @@ msgid "Departure time:"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:88
+#: qml/QueryPage.qml:92
 #, kde-format
 msgctxt "departure train station"
 msgid "From:"
@@ -322,7 +322,7 @@ msgid "From:"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:103
+#: qml/QueryPage.qml:107
 #, kde-format
 msgctxt "arrival train station"
 msgid "To:"
@@ -335,41 +335,41 @@ msgid "To:"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:125
+#: qml/QueryPage.qml:129
 #, kde-format
 msgid "Swap departure and arrival"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:140
+#: qml/QueryPage.qml:144
 #, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:143
+#: qml/QueryPage.qml:147
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:156
+#: qml/QueryPage.qml:160
 #, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:156
+#: qml/QueryPage.qml:160
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:167
+#: qml/QueryPage.qml:171
 #, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
@@ -397,173 +397,83 @@ msgid "Pick Destination"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:216
+#: qml/QueryPage.qml:220
 #, kde-format
 msgid "Mode of transportation"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:222
+#: qml/QueryPage.qml:226
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:223
+#: qml/QueryPage.qml:227
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:232
+#: qml/QueryPage.qml:236
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:233
+#: qml/QueryPage.qml:237
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:242
+#: qml/QueryPage.qml:246
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:243
+#: qml/QueryPage.qml:247
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:252
+#: qml/QueryPage.qml:256
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:253
+#: qml/QueryPage.qml:257
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:262
+#: qml/QueryPage.qml:266
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:263
+#: qml/QueryPage.qml:267
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr ""
 
-#. +> trunk6
-#: qml/StopPickerPage.qml:29
-#, kde-format
-msgid "Clear History"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:30
-#, kde-format
-msgid "Do you really want to remove all previously searched locations?"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:34
-#, kde-format
-msgid "Remove"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:49
-#, kde-format
-msgid "Clear history"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:60
-#, kde-format
-msgid "Sort by name"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:67
-#, kde-format
-msgid "Most recently used"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:74
-#, kde-format
-msgid "Most often used"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:169 qml/StopPickerPage.qml:231
-#, kde-format
-msgctxt "location name, locality, region, country"
-msgid "%1, %2, %3, %4"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:171 qml/StopPickerPage.qml:233
-#, kde-format
-msgctxt "location name, locality, country"
-msgid "%1, %2, %3"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:173 qml/StopPickerPage.qml:235
-#, kde-format
-msgctxt "location name, region, country"
-msgid "%1, %2, %3"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:189 qml/StopPickerPage.qml:254
-#, kde-format
-msgctxt "locality, region, country"
-msgid "%1, %2, %3"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:191 qml/StopPickerPage.qml:256
-#, kde-format
-msgctxt "locality, country"
-msgid "%1, %2"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:193 qml/StopPickerPage.qml:258
-#, kde-format
-msgctxt "region, country"
-msgid "%1, %2"
-msgstr ""
-
-#. +> trunk6
-#: qml/StopPickerPage.qml:204
-#, kde-format
-msgid "Remove history entry"
-msgstr ""
-
-#. +> trunk6 stable6
-#: qml/StopPickerPage.qml:295
+#. +> stable6
+#: qml/LocationQueryPage.qml:53
 #, kde-format
 msgid "No locations found"
 msgstr ""

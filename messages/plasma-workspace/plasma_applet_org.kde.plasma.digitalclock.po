@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-08 09:13+0100\n"
+"POT-Creation-Date: 2025-04-27 13:55+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -390,19 +390,19 @@ msgid "Choose a Font"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configCalendar.qml:41
+#: package/contents/ui/configCalendar.qml:48
 #, kde-format
 msgid "General:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configCalendar.qml:42
+#: package/contents/ui/configCalendar.qml:49
 #, kde-format
 msgid "Show week numbers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/configCalendar.qml:49
+#: package/contents/ui/configCalendar.qml:56
 #, kde-format
 msgctxt "@label:listbox"
 msgid "First day of week:"
@@ -415,32 +415,20 @@ msgid "First day of week:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/configCalendar.qml:55
+#: package/contents/ui/configCalendar.qml:62
 #, kde-format
 msgctxt "@item:inlistbox first day of week option"
 msgid "Use region defaults"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configCalendar.qml:72
+#: package/contents/ui/configCalendar.qml:79
 #, kde-format
 msgid "Available Plugins:"
 msgstr ""
 
-#. +> trunk6
-#: package/contents/ui/configTimeZones.qml:59
-#, kde-format
-msgid "Cancel"
-msgstr ""
-
-#. +> trunk6
-#: package/contents/ui/configTimeZones.qml:66
-#, kde-format
-msgid "Add Selected Time Zone"
-msgstr ""
-
-#. +> trunk6 stable6
-#: package/contents/ui/configTimeZones.qml:98
+#. +> stable6
+#: package/contents/ui/configTimeZones.qml:42
 #, kde-format
 msgid "Tip: if you travel frequently, add your home time zone to this list. It will only appear when you change the systemwide time zone to something else."
 msgstr ""
@@ -452,7 +440,19 @@ msgid "Tip: if you travel frequently, add another entry for your home time zone 
 msgstr ""
 
 #. +> trunk6
-#: package/contents/ui/configTimeZones.qml:115
+#: package/contents/ui/configTimeZones.qml:60
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6
+#: package/contents/ui/configTimeZones.qml:67
+#, kde-format
+msgid "Add Selected Time Zone"
+msgstr ""
+
+#. +> trunk6
+#: package/contents/ui/configTimeZones.qml:84
 #, kde-format
 msgid "Add Time Zone…"
 msgstr ""
@@ -476,13 +476,13 @@ msgid "Add More Timezones"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configTimeZones.qml:156
+#: package/contents/ui/configTimeZones.qml:143
 #, kde-format
 msgid "Clock is currently using this time zone"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/configTimeZones.qml:158
+#: package/contents/ui/configTimeZones.qml:145
 #, kde-format
 msgctxt "@label This list item shows a time zone city name that is identical to the local time zone's city, and will be hidden in the time zone display in the plasmoid's popup"
 msgid "Hidden while this is the local time zone's city"
@@ -496,27 +496,33 @@ msgid "Hidden while this is the local time zone's city"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configTimeZones.qml:188
+#: package/contents/ui/configTimeZones.qml:175
 #, kde-format
 msgid "Switch Systemwide Time Zone…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configTimeZones.qml:200
+#: package/contents/ui/configTimeZones.qml:187
 #, kde-format
 msgid "Remove this time zone"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configTimeZones.qml:212
+#: package/contents/ui/configTimeZones.qml:199
 #, kde-format
 msgid "Systemwide Time Zone"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configTimeZones.qml:212
+#: package/contents/ui/configTimeZones.qml:199
 #, kde-format
 msgid "Additional Time Zones"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configTimeZones.qml:212
+#, kde-format
+msgid "Add more time zones to display all of them in the applet's pop-up, or use one of them for the clock itself"
 msgstr ""
 
 #. +> stable6
@@ -531,14 +537,15 @@ msgstr ""
 msgid "At least one time zone needs to be enabled. Your local timezone was enabled automatically."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: package/contents/ui/configTimeZones.qml:225
 #, kde-format
-msgid "Add more time zones to display all of them in the applet's pop-up, or use one of them for the clock itself"
+msgctxt "@info:usagetip shown below listview"
+msgid "Tip: Add your home time zone to this list to see the time there even when you're traveling. It will not be shown twice while at home."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configTimeZones.qml:239
+#: package/contents/ui/configTimeZones.qml:235
 #, kde-format
 msgid "Switch displayed time zone by scrolling over clock applet"
 msgstr ""

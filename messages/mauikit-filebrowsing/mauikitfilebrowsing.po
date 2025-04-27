@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mauikit-filebrowsing\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-07 10:47+0100\n"
+"POT-Creation-Date: 2025-04-23 09:03+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -25,7 +25,7 @@ msgid "This place seems to be empty"
 msgstr ""
 
 #. +> trunk6
-#: src/code/fmlist.cpp:82 src/code/fmlist.cpp:214 src/code/fmlist.cpp:730
+#: src/code/fmlist.cpp:82 src/code/fmlist.cpp:214 src/code/fmlist.cpp:753
 #: src/controls.6/FileDialog.qml:252
 #, kde-format
 msgid "Error"
@@ -50,7 +50,7 @@ msgid "Almost ready!"
 msgstr ""
 
 #. +> trunk6
-#: src/code/fmlist.cpp:730
+#: src/code/fmlist.cpp:753
 #, kde-format
 msgid "No path to perform the search"
 msgstr ""
@@ -322,31 +322,20 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/FileBrowser.qml:477 src/controls.6/FileBrowser.qml:904
-#: src/controls.6/FileDialog.qml:205
-#: src/controls.6/private/BrowserView.qml:367 src/controls.6/TagsDialog.qml:100
+#: src/controls.6/FileBrowser.qml:477 src/controls.6/FileBrowser.qml:902
+#: src/controls.6/FileDialog.qml:205 src/controls.6/OpenWithDialog.qml:80
+#: src/controls.6/private/BrowserView.qml:367 src/controls.6/TagsDialog.qml:102
 #, kde-format
 msgid "Cancel"
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/FileBrowser.qml:483 src/controls.6/TagsDialog.qml:163
+#: src/controls.6/FileBrowser.qml:483 src/controls.6/TagsDialog.qml:165
 #, kde-format
 msgid "Delete"
 msgstr ""
 
-#. +> trunk6
-#: src/controls.6/FileBrowser.qml:525
-#, kde-format
-msgid "New folder"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/FileBrowser.qml:525
-#, kde-format
-msgid "New file"
-msgstr ""
-
+#. i18nd("mauikitfilebrowsing", "New folder") : i18nd("mauikitfilebrowsing", "New file")
 #. +> trunk6
 #: src/controls.6/FileBrowser.qml:526
 #, kde-format
@@ -371,59 +360,54 @@ msgstr ""
 msgid "File"
 msgstr ""
 
-#. +> trunk6
-#: src/controls.6/FileBrowser.qml:583
-#, kde-format
-msgid "Rename"
-msgstr ""
-
+#. i18nd("mauikitfilebrowsing", "Rename")
 #. +> trunk6
 #: src/controls.6/FileBrowser.qml:584
 #, kde-format
-msgid "Change the name of a file or folder. Write a new name and click Rename to apply the change."
+msgid "Enter the new name for the file."
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/FileBrowser.qml:593
+#: src/controls.6/FileBrowser.qml:590
 #, kde-format
 msgid "New name"
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/FileBrowser.qml:852
+#: src/controls.6/FileBrowser.qml:850
 #: src/controls.6/private/BrowserView.qml:329
 #, kde-format
 msgid "Copy Here"
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/FileBrowser.qml:865
+#: src/controls.6/FileBrowser.qml:863
 #: src/controls.6/private/BrowserView.qml:341
 #, kde-format
 msgid "Move Here"
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/FileBrowser.qml:878
+#: src/controls.6/FileBrowser.qml:876
 #: src/controls.6/private/BrowserView.qml:353
 #, kde-format
 msgid "Link Here"
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/FileBrowser.qml:891
+#: src/controls.6/FileBrowser.qml:889
 #, kde-format
 msgid "Open Here"
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/FileBrowser.qml:1299
+#: src/controls.6/FileBrowser.qml:1297
 #, kde-format
 msgid "Search: %1"
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/FileDialog.qml:211 src/controls.6/TagsDialog.qml:94
+#: src/controls.6/FileDialog.qml:211 src/controls.6/TagsDialog.qml:96
 #, kde-format
 msgid "Save"
 msgstr ""
@@ -527,13 +511,20 @@ msgid "Create new tags to organize your files. You can create multiple tags sepa
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/OpenWithDialog.qml:74
+#: src/controls.6/OpenWithDialog.qml:75
 #, kde-format
 msgid "Open with"
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/PlacesListBrowser.qml:117 src/controls.6/TagsDialog.qml:157
+#: src/controls.6/OpenWithDialog.qml:109 src/controls.6/TagsDialog.qml:216
+#, kde-format
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] ""
+
+#. +> trunk6
+#: src/controls.6/PlacesListBrowser.qml:117 src/controls.6/TagsDialog.qml:159
 #, kde-format
 msgid "Edit"
 msgstr ""
@@ -600,49 +591,37 @@ msgid "Add tags..."
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/TagsDialog.qml:112
+#: src/controls.6/TagsDialog.qml:114
 #, kde-format
 msgid "Filter or add a new tag"
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/TagsDialog.qml:139
+#: src/controls.6/TagsDialog.qml:141
 #, kde-format
 msgid "Delete %1"
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/TagsDialog.qml:140
+#: src/controls.6/TagsDialog.qml:142
 #, kde-format
 msgid "Are you sure you want to delete this tag? This action can not be undone."
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/TagsDialog.qml:186
+#: src/controls.6/TagsDialog.qml:188
 #, kde-format
 msgid "No Tags!"
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/TagsDialog.qml:187
+#: src/controls.6/TagsDialog.qml:189
 #, kde-format
 msgid "Create new tags to organize your files."
 msgstr ""
 
 #. +> trunk6
-#: src/controls.6/TagsDialog.qml:263
-#, kde-format
-msgid "Tagging %1 files"
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/TagsDialog.qml:264
-#, kde-format
-msgid "Add new tags for the selected files."
-msgstr ""
-
-#. +> trunk6
-#: src/controls.6/TagsDialog.qml:331
+#: src/controls.6/TagsDialog.qml:291
 #, kde-format
 msgid "No tags yet."
 msgstr ""

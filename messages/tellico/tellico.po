@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tellico\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-13 10:25+0100\n"
+"POT-Creation-Date: 2025-04-22 15:26+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -187,7 +187,7 @@ msgid "Collection Size"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/charts/collectionsizereport.cpp:90 src/mainwindow.cpp:1613
+#: src/charts/collectionsizereport.cpp:90 src/mainwindow.cpp:1614
 #, kde-format
 msgid "Total entries: %1"
 msgstr ""
@@ -224,13 +224,13 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/charts/yeardistributionreport.cpp:68
-#: src/charts/yeardistributionreport.cpp:132
+#: src/charts/yeardistributionreport.cpp:134
 #, kde-format
 msgid "Year Distribution"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/charts/yeardistributionreport.cpp:157
+#: src/charts/yeardistributionreport.cpp:159
 #, kde-format
 msgctxt "Distinct number of items"
 msgid "Count"
@@ -249,7 +249,7 @@ msgid "My Collection"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/collection.cpp:887 src/core/tellico_strings.cpp:48 src/document.cpp:530
+#: src/collection.cpp:866 src/core/tellico_strings.cpp:48 src/document.cpp:530
 #: src/field.cpp:290 src/field.cpp:303 src/field.cpp:308
 #: src/translators/filereaderbook.cpp:82
 #: src/translators/filereadervideo.cpp:129
@@ -715,43 +715,43 @@ msgid "Value"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/collectionfieldsdialog.cpp:921
+#: src/collectionfieldsdialog.cpp:922
 #, kde-format
 msgid "A field with this title already exists. Please enter a different title."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/collectionfieldsdialog.cpp:928
+#: src/collectionfieldsdialog.cpp:929
 #, kde-format
 msgid "<qt>The category may not be empty. Please enter a category.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/collectionfieldsdialog.cpp:936
+#: src/collectionfieldsdialog.cpp:937
 #, kde-format
 msgid "<qt>A field may not be in the same category as a <em>Paragraph</em>, <em>Table</em> or <em>Image</em> field. Please enter a different category.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/collectionfieldsdialog.cpp:944
+#: src/collectionfieldsdialog.cpp:945
 #, kde-format
 msgid "A field's title may not be the same as an existing category. Please enter a different title."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/collectionfieldsdialog.cpp:956
+#: src/collectionfieldsdialog.cpp:957
 #, kde-format
 msgid "The range for a rating field must be between 1 and 10, and the lower bound must be less than the higher bound. Please enter different low and high properties."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/collectionfieldsdialog.cpp:971
+#: src/collectionfieldsdialog.cpp:972
 #, kde-format
 msgid "Tables are limited to a maximum of ten columns."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/collectionfieldsdialog.cpp:977
+#: src/collectionfieldsdialog.cpp:978
 #, kde-format
 msgid "A field with a derived value must have a value template."
 msgstr ""
@@ -798,7 +798,7 @@ msgstr ""
 #: src/fetch/googlebookfetcher.cpp:259 src/fetch/igdbfetcher.cpp:361
 #: src/fetch/imdbfetcher.cpp:441 src/fetch/itunesfetcher.cpp:244
 #: src/fetch/kinopoiskfetcher.cpp:275 src/fetch/kinoteatrfetcher.cpp:237
-#: src/fetch/metronfetcher.cpp:245 src/fetch/mobygamesfetcher.cpp:456
+#: src/fetch/metronfetcher.cpp:246 src/fetch/mobygamesfetcher.cpp:456
 #: src/fetch/moviemeterfetcher.cpp:219 src/fetch/moviemeterfetcher.cpp:224
 #: src/fetch/numistafetcher.cpp:344 src/fetch/numistafetcher.cpp:359
 #: src/fetch/omdbfetcher.cpp:250 src/fetch/openlibraryfetcher.cpp:277
@@ -2812,7 +2812,7 @@ msgid "&Print field headers"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/configdialog.cpp:358 src/translators/htmlexporter.cpp:509
+#: src/configdialog.cpp:358 src/translators/htmlexporter.cpp:557
 #, kde-format
 msgid "If checked, the field names will be printed as table headers."
 msgstr ""
@@ -2830,7 +2830,7 @@ msgid "&Group the entries"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/configdialog.cpp:368 src/translators/htmlexporter.cpp:514
+#: src/configdialog.cpp:368 src/translators/htmlexporter.cpp:562
 #, kde-format
 msgid "If checked, the entries will be grouped by the selected field."
 msgstr ""
@@ -2875,7 +2875,7 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: src/configdialog.cpp:430 src/fetch/execexternalfetcher.cpp:355
 #: src/fetch/gcstarpluginfetcher.cpp:406 src/fetch/multifetcher.cpp:229
-#: src/translators/csvimporter.cpp:218
+#: src/translators/csvimporter.cpp:219
 #: src/translators/filelistingimporter.cpp:177
 #, kde-format
 msgid "Collection &type:"
@@ -3098,8 +3098,8 @@ msgid "Template Packages"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/configdialog.cpp:1166 src/importdialog.cpp:441 src/mainwindow.cpp:1247
-#: src/mainwindow.cpp:1418 src/reportdialog.cpp:422 src/reportdialog.cpp:437
+#: src/configdialog.cpp:1166 src/importdialog.cpp:441 src/mainwindow.cpp:1248
+#: src/mainwindow.cpp:1419 src/reportdialog.cpp:422 src/reportdialog.cpp:437
 #: src/translators/bibtexexporter.cpp:65
 #: src/translators/bibtexmlexporter.cpp:51 src/translators/csvexporter.cpp:64
 #: src/translators/gcstarexporter.cpp:62 src/translators/htmlexporter.cpp:101
@@ -3395,7 +3395,7 @@ msgid "Hide All Columns"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/document.cpp:212 src/mainwindow.cpp:1362
+#: src/document.cpp:212 src/mainwindow.cpp:1363
 #, kde-format
 msgid "Saving file..."
 msgstr ""
@@ -3465,7 +3465,7 @@ msgid "Save Entry"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/entryeditdialog.cpp:662 src/mainwindow.cpp:1151
+#: src/entryeditdialog.cpp:662 src/mainwindow.cpp:1152
 #, kde-format
 msgid "Unsaved Changes"
 msgstr ""
@@ -3555,7 +3555,7 @@ msgid "Tellico is unable to locate the default entry stylesheet."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/entryview.cpp:291 src/mainwindow.cpp:1766
+#: src/entryview.cpp:291 src/mainwindow.cpp:1770
 #, kde-format
 msgid "Please check your installation."
 msgstr ""
@@ -3905,7 +3905,7 @@ msgstr ""
 #: src/fetch/ibsfetcher.cpp:300 src/fetch/igdbfetcher.cpp:161
 #: src/fetch/isbndbfetcher.cpp:298 src/fetch/itunesfetcher.cpp:368
 #: src/fetch/kinofetcher.cpp:365 src/fetch/kinopoiskfetcher.cpp:267
-#: src/fetch/kinoteatrfetcher.cpp:374 src/fetch/metronfetcher.cpp:332
+#: src/fetch/kinoteatrfetcher.cpp:374 src/fetch/metronfetcher.cpp:333
 #: src/fetch/mobygamesfetcher.cpp:344 src/fetch/moviemeterfetcher.cpp:166
 #: src/fetch/numistafetcher.cpp:286 src/fetch/numistafetcher.cpp:294
 #: src/fetch/omdbfetcher.cpp:181 src/fetch/thegamesdbfetcher.cpp:171
@@ -4034,7 +4034,7 @@ msgstr ""
 #: src/fetch/googlescholarfetcher.cpp:278 src/fetch/hathitrustfetcher.cpp:313
 #: src/fetch/ibsfetcher.cpp:403 src/fetch/igdbfetcher.cpp:606
 #: src/fetch/isfdbfetcher.cpp:158 src/fetch/kinofetcher.cpp:403
-#: src/fetch/kinoteatrfetcher.cpp:513 src/fetch/metronfetcher.cpp:438
+#: src/fetch/kinoteatrfetcher.cpp:513 src/fetch/metronfetcher.cpp:439
 #: src/fetch/mrlookupfetcher.cpp:230 src/fetch/musicbrainzfetcher.cpp:394
 #: src/fetch/openlibraryfetcher.cpp:464 src/fetch/springerfetcher.cpp:187
 #: src/fetch/tvmazefetcher.cpp:373 src/fetch/upcitemdbfetcher.cpp:479
@@ -4056,7 +4056,7 @@ msgid "Bedetheque Link"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/fetch/bedethequefetcher.cpp:433 src/fetch/metronfetcher.cpp:431
+#: src/fetch/bedethequefetcher.cpp:433 src/fetch/metronfetcher.cpp:432
 #: src/field.cpp:312
 #, kde-format
 msgid "ISBN#"
@@ -4685,25 +4685,25 @@ msgid "Kino-Teatr Link"
 msgstr ""
 
 #. +> trunk6
-#: src/fetch/metronfetcher.cpp:184
+#: src/fetch/metronfetcher.cpp:185
 #, kde-format
 msgid "The rate limit has been exceeded."
 msgstr ""
 
 #. +> trunk6
-#: src/fetch/metronfetcher.cpp:244 src/fetch/metronfetcher.cpp:430
+#: src/fetch/metronfetcher.cpp:245 src/fetch/metronfetcher.cpp:431
 #, kde-format
 msgid "Metron Link"
 msgstr ""
 
 #. +> trunk6
-#: src/fetch/metronfetcher.cpp:396
+#: src/fetch/metronfetcher.cpp:397
 #, kde-format
 msgid "Please enter your Metron username and password"
 msgstr ""
 
 #. +> trunk6
-#: src/fetch/metronfetcher.cpp:401
+#: src/fetch/metronfetcher.cpp:402
 #, kde-format
 msgid "Registration is required to use this data source."
 msgstr ""
@@ -5514,8 +5514,8 @@ msgid "Group"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/groupview.cpp:425 src/mainwindow.cpp:1079 src/mainwindow.cpp:1701
-#: src/mainwindow.cpp:1735 src/translators/htmlexporter.cpp:338
+#: src/groupview.cpp:425 src/mainwindow.cpp:1079 src/mainwindow.cpp:1702
+#: src/mainwindow.cpp:1739 src/translators/htmlexporter.cpp:386
 #, kde-format
 msgid "People"
 msgstr ""
@@ -5564,95 +5564,95 @@ msgid "Any Field"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:234 src/gui/filterrulewidget.cpp:242
-#: src/gui/filterrulewidget.cpp:256 src/gui/filterrulewidget.cpp:262
+#: src/gui/filterrulewidget.cpp:235 src/gui/filterrulewidget.cpp:243
+#: src/gui/filterrulewidget.cpp:257 src/gui/filterrulewidget.cpp:263
 #, kde-format
 msgid "equals"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:235 src/gui/filterrulewidget.cpp:243
-#: src/gui/filterrulewidget.cpp:257 src/gui/filterrulewidget.cpp:263
+#: src/gui/filterrulewidget.cpp:236 src/gui/filterrulewidget.cpp:244
+#: src/gui/filterrulewidget.cpp:258 src/gui/filterrulewidget.cpp:264
 #, kde-format
 msgid "does not equal"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:236 src/gui/filterrulewidget.cpp:244
-#: src/gui/filterrulewidget.cpp:264
-#, kde-format
-msgid "matches regular expression"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/gui/filterrulewidget.cpp:237 src/gui/filterrulewidget.cpp:245
 #: src/gui/filterrulewidget.cpp:265
 #, kde-format
+msgid "matches regular expression"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: src/gui/filterrulewidget.cpp:238 src/gui/filterrulewidget.cpp:246
+#: src/gui/filterrulewidget.cpp:266
+#, kde-format
 msgid "does not match regular expression"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:238
+#: src/gui/filterrulewidget.cpp:239
 #, kde-format
 msgctxt "is before a date"
 msgid "is before"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:239
+#: src/gui/filterrulewidget.cpp:240
 #, kde-format
 msgctxt "is after a date"
 msgid "is after"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:246
+#: src/gui/filterrulewidget.cpp:247
 #, kde-format
 msgctxt "is less than a number"
 msgid "is less than"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:247
+#: src/gui/filterrulewidget.cpp:248
 #, kde-format
 msgctxt "is greater than a number"
 msgid "is greater than"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:250
+#: src/gui/filterrulewidget.cpp:251
 #, kde-format
 msgid "image size equals"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:251
+#: src/gui/filterrulewidget.cpp:252
 #, kde-format
 msgid "image size does not equal"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:252
+#: src/gui/filterrulewidget.cpp:253
 #, kde-format
 msgctxt "image size is less than a number"
 msgid "image size is less than"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:253
+#: src/gui/filterrulewidget.cpp:254
 #, kde-format
 msgctxt "image size is greater than a number"
 msgid "image size is greater than"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:260
+#: src/gui/filterrulewidget.cpp:261
 #, kde-format
 msgid "contains"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/gui/filterrulewidget.cpp:261
+#: src/gui/filterrulewidget.cpp:262
 #, kde-format
 msgid "does not contain"
 msgstr ""
@@ -5861,7 +5861,7 @@ msgid "&Import"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/importdialog.cpp:372 src/mainwindow.cpp:1243 src/mainwindow.cpp:1416
+#: src/importdialog.cpp:372 src/mainwindow.cpp:1244 src/mainwindow.cpp:1417
 #: src/translators/tellicozipexporter.cpp:54
 #, kde-format
 msgid "Tellico Files"
@@ -5869,7 +5869,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/importdialog.cpp:373 src/importdialog.cpp:391 src/importdialog.cpp:420
-#: src/mainwindow.cpp:1245 src/translators/tellicoxmlexporter.cpp:71
+#: src/mainwindow.cpp:1246 src/translators/tellicoxmlexporter.cpp:71
 #, kde-format
 msgid "XML Files"
 msgstr ""
@@ -7213,7 +7213,7 @@ msgid "More information can be found in the <a href=\"help:/tellico\">documentat
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1149
+#: src/mainwindow.cpp:1150
 #, kde-format
 msgid ""
 "The current file has been modified.\n"
@@ -7221,25 +7221,25 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1185 src/mainwindow.cpp:1219
+#: src/mainwindow.cpp:1186 src/mainwindow.cpp:1220
 #, kde-format
 msgid "Creating new collection..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1240 src/mainwindow.cpp:1263 src/mainwindow.cpp:1281
+#: src/mainwindow.cpp:1241 src/mainwindow.cpp:1264 src/mainwindow.cpp:1282
 #, kde-format
 msgid "Opening file..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1251
+#: src/mainwindow.cpp:1252
 #, kde-format
 msgid "Open File"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1373
+#: src/mainwindow.cpp:1374
 #, kde-format
 msgid ""
 "<qt>"
@@ -7249,67 +7249,67 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1378
+#: src/mainwindow.cpp:1379
 #, kde-format
 msgid "Save Images Separately"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1379
+#: src/mainwindow.cpp:1380
 #, kde-format
 msgid "Save Images in File"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1414
+#: src/mainwindow.cpp:1415
 #, kde-format
 msgid "Saving file with a new filename..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1423
+#: src/mainwindow.cpp:1424
 #, kde-format
 msgid "Save As"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1489
+#: src/mainwindow.cpp:1490
 #, kde-format
 msgid "Printing..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1493
+#: src/mainwindow.cpp:1494
 #, kde-format
 msgid "The collection is currently being filtered to show a limited subset of the entries. Only the visible entries will be printed. Continue?"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1518
+#: src/mainwindow.cpp:1519
 #, kde-format
 msgid "Exiting..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1620
+#: src/mainwindow.cpp:1621
 #, kde-format
 msgid "(%1 filtered; %2 selected)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1623
+#: src/mainwindow.cpp:1624
 #, kde-format
 msgid "(%1 filtered)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1626
+#: src/mainwindow.cpp:1627
 #, kde-format
 msgid "(%1 selected)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1765 src/translators/boardgamegeekimporter.cpp:98
+#: src/mainwindow.cpp:1769 src/translators/boardgamegeekimporter.cpp:98
 #: src/translators/gcstarimporter.cpp:252
 #: src/translators/goodreadsimporter.cpp:111
 #: src/translators/xsltimporter.cpp:93
@@ -7318,103 +7318,103 @@ msgid "Tellico encountered an error in XSLT processing."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1883
+#: src/mainwindow.cpp:1887
 #, kde-format
 msgid "Importing data..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1894
+#: src/mainwindow.cpp:1898
 #, kde-format
 msgid "Import File"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1907
+#: src/mainwindow.cpp:1911
 #, kde-format
 msgid "Import Directory"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1931
+#: src/mainwindow.cpp:1935
 #, kde-format
 msgid "Exporting data..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1954
+#: src/mainwindow.cpp:1958
 #, kde-format
 msgid "Export As"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1982
+#: src/mainwindow.cpp:1986
 #, kde-format
 msgid "String Macros"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1983
+#: src/mainwindow.cpp:1987
 #, kde-format
 msgid "Macro"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:1983
+#: src/mainwindow.cpp:1987
 #, kde-format
 msgid "String"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:2069
+#: src/mainwindow.cpp:2073
 #, kde-format
 msgid "Creating citations..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:2179
+#: src/mainwindow.cpp:2183
 #, kde-format
 msgid "Filters"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:2180
+#: src/mainwindow.cpp:2184
 #, kde-format
 msgid "<qt>The <i>Filter View</i> shows the entries which meet certain filter rules.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:2203
+#: src/mainwindow.cpp:2207
 #, kde-format
 msgid "Loans"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:2204
+#: src/mainwindow.cpp:2208
 #, kde-format
 msgid "<qt>The <i>Loan View</i> shows a list of all the people who have borrowed items from your collection.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:2292
+#: src/mainwindow.cpp:2296
 #, kde-format
 msgid "Some images are not saved in the configured location. The current file must be saved and the images will be transferred to the new location."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:2336
+#: src/mainwindow.cpp:2340
 #, kde-format
 msgid "Update entry data from %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/mainwindow.cpp:2355
+#: src/mainwindow.cpp:2359
 #, kde-format
 msgid "Tellico can only import one file of this type at a time. Only %1 will be imported."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:2534
+#: src/mainwindow.cpp:2538
 #, kde-format
 msgctxt "@title:window"
 msgid "Tellico Log"
@@ -7850,7 +7850,7 @@ msgid "CSV"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvexporter.cpp:139 src/translators/csvimporter.cpp:213
+#: src/translators/csvexporter.cpp:139 src/translators/csvimporter.cpp:214
 #, kde-format
 msgid "CSV Options"
 msgstr ""
@@ -7874,7 +7874,7 @@ msgid "Delimiter"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvexporter.cpp:150 src/translators/csvimporter.cpp:241
+#: src/translators/csvexporter.cpp:150 src/translators/csvimporter.cpp:242
 #, kde-format
 msgid "In addition to a comma, other characters may be used as a delimiter, separating each value in the file."
 msgstr ""
@@ -7886,7 +7886,7 @@ msgid "Comma"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvexporter.cpp:156 src/translators/csvimporter.cpp:248
+#: src/translators/csvexporter.cpp:156 src/translators/csvimporter.cpp:249
 #, kde-format
 msgid "Use a comma as the delimiter."
 msgstr ""
@@ -7898,7 +7898,7 @@ msgid "Semicolon"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvexporter.cpp:161 src/translators/csvimporter.cpp:253
+#: src/translators/csvexporter.cpp:161 src/translators/csvimporter.cpp:254
 #, kde-format
 msgid "Use a semi-colon as the delimiter."
 msgstr ""
@@ -7910,7 +7910,7 @@ msgid "Tab"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvexporter.cpp:166 src/translators/csvimporter.cpp:258
+#: src/translators/csvexporter.cpp:166 src/translators/csvimporter.cpp:259
 #, kde-format
 msgid "Use a tab as the delimiter."
 msgstr ""
@@ -7923,134 +7923,134 @@ msgid "Other"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvexporter.cpp:171 src/translators/csvimporter.cpp:263
+#: src/translators/csvexporter.cpp:171 src/translators/csvimporter.cpp:264
 #, kde-format
 msgid "Use a custom string as the delimiter."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvexporter.cpp:176 src/translators/csvimporter.cpp:270
+#: src/translators/csvexporter.cpp:176 src/translators/csvimporter.cpp:271
 #, kde-format
 msgid "A custom string, such as a colon, may be used as a delimiter."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvexporter.cpp:193 src/translators/csvimporter.cpp:289
+#: src/translators/csvexporter.cpp:193 src/translators/csvimporter.cpp:290
 #, kde-format
 msgid "Table column delimiter:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvexporter.cpp:198 src/translators/csvimporter.cpp:288
+#: src/translators/csvexporter.cpp:198 src/translators/csvimporter.cpp:289
 #, kde-format
 msgid "The column delimiter separates values in each column of a <i>Table</i> field."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvexporter.cpp:202 src/translators/csvimporter.cpp:300
+#: src/translators/csvexporter.cpp:202 src/translators/csvimporter.cpp:301
 #, kde-format
 msgid "Table row delimiter:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvexporter.cpp:207 src/translators/csvimporter.cpp:299
+#: src/translators/csvexporter.cpp:207 src/translators/csvimporter.cpp:300
 #, kde-format
 msgid "The row delimiter separates values in each row of a <i>Table</i> field."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:223
+#: src/translators/csvimporter.cpp:224
 #: src/translators/filelistingimporter.cpp:176
 #, kde-format
 msgid "Select the type of collection being imported."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:227
+#: src/translators/csvimporter.cpp:228
 #, kde-format
 msgid "&First row contains field titles"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:228
+#: src/translators/csvimporter.cpp:229
 #, kde-format
 msgid "If checked, the first row is used as field titles."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:240
+#: src/translators/csvimporter.cpp:241
 #, kde-format
 msgid "Delimiter:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:246
+#: src/translators/csvimporter.cpp:247
 #, kde-format
 msgid "&Comma"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:252
+#: src/translators/csvimporter.cpp:253
 #, kde-format
 msgid "&Semicolon"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:257
+#: src/translators/csvimporter.cpp:258
 #, kde-format
 msgid "Ta&b"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:262
+#: src/translators/csvimporter.cpp:263
 #, kde-format
 msgid "Ot&her:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:319
+#: src/translators/csvimporter.cpp:320
 #, kde-format
 msgid "The table shows up to the first five lines of the CSV file."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:326
+#: src/translators/csvimporter.cpp:327
 #, kde-format
 msgid "<qt>Set each column to correspond to a field in the collection by choosing a column, selecting the field, then clicking the <i>Assign Field</i> button.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:328
+#: src/translators/csvimporter.cpp:329
 #, kde-format
 msgid "Co&lumn:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:341
+#: src/translators/csvimporter.cpp:342
 #, kde-format
 msgid "&Data field in this column:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:355
+#: src/translators/csvimporter.cpp:356
 #, kde-format
 msgid "&Assign Field"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:394
+#: src/translators/csvimporter.cpp:395
 #, kde-format
 msgid "At least one column must be assigned to a field. Only assigned columns will be imported."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:591
+#: src/translators/csvimporter.cpp:592
 #, kde-format
 msgid "Review"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/csvimporter.cpp:684
+#: src/translators/csvimporter.cpp:685
 #, kde-format
 msgid "<New Field>"
 msgstr ""
@@ -8184,37 +8184,37 @@ msgid "HTML"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/htmlexporter.cpp:342
+#: src/translators/htmlexporter.cpp:391
 #, kde-format
 msgid "(grouped by %1)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/htmlexporter.cpp:505
+#: src/translators/htmlexporter.cpp:553
 #, kde-format
 msgid "HTML Options"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/htmlexporter.cpp:508
+#: src/translators/htmlexporter.cpp:556
 #, kde-format
 msgid "Print field headers"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/htmlexporter.cpp:513
+#: src/translators/htmlexporter.cpp:561
 #, kde-format
 msgid "Group the entries"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/htmlexporter.cpp:518
+#: src/translators/htmlexporter.cpp:566
 #, kde-format
 msgid "Export individual entry files"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/htmlexporter.cpp:519
+#: src/translators/htmlexporter.cpp:567
 #, kde-format
 msgid "If checked, individual files will be created for each entry."
 msgstr ""
@@ -8465,7 +8465,7 @@ msgid "This template is meant for video collections only."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: xslt/report-templates/Loan_View.xsl:202 xslt/tellico2html.xsl:413
+#: xslt/report-templates/Loan_View.xsl:202 xslt/tellico2html.xsl:415
 #, kde-format
 msgid "Generated by Tellico"
 msgstr ""

@@ -70,8 +70,7 @@ msgstr "ชื่อผู้ใช้:"
 #, kde-format
 msgid ""
 "<html><head/><body>"
-"<p>Set the name used for authenticating the local system to the peer to &lt;na"
-"me&gt;.</p>"
+"<p>Set the name used for authenticating the local system to the peer to &lt;name&gt;.</p>"
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
@@ -135,8 +134,7 @@ msgstr "ใบรับรอง CA:"
 #, kde-format
 msgid ""
 "<html><head/><body>"
-"<p>Certificate authority (CA) file in .pem, .der, .crt, .cer or .p12 formats.<"
-"/p>"
+"<p>Certificate authority (CA) file in .pem, .der, .crt, .cer or .p12 formats.</p>"
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
@@ -352,13 +350,11 @@ msgstr "อัลกอริทึม Phase2:"
 #, kde-format
 msgid ""
 "<html><head/><body>"
-"<p>Optional. A list of proposals for ESP - Quick Mode. The format is “enc-inte"
-"g,enc-integ, …”.</p>"
+"<p>Optional. A list of proposals for ESP - Quick Mode. The format is “enc-integ,enc-integ, …”.</p>"
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>ไม่บังคับ รายการข้อเสนอสำหรับ ESP - Quick Mode ฟอร์แมตคือ “enc-integ,enc-in"
-"teg, …”.</p>"
+"<p>ไม่บังคับ รายการข้อเสนอสำหรับ ESP - Quick Mode ฟอร์แมตคือ “enc-integ,enc-integ, …”.</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QTimeEdit, ikelifetime)
@@ -367,13 +363,11 @@ msgstr ""
 #, kde-format
 msgid ""
 "<html><head/><body>"
-"<p>How long the keying channel of a connection should last before being renego"
-"tiated.</p>"
+"<p>How long the keying channel of a connection should last before being renegotiated.</p>"
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>การใช้ช่องกุญแจ (keying channel) สำหรับแต่ละการเชื่อมต่อควรจะนานเท่าไหร่ก่อ"
-"นที่จะโดนการเจรจาใหม่ (re-negotiation)</p>"
+"<p>การใช้ช่องกุญแจ (keying channel) สำหรับแต่ละการเชื่อมต่อควรจะนานเท่าไหร่ก่อนที่จะโดนการเจรจาใหม่ (re-negotiation)</p>"
 "</body></html>"
 
 #. i18n: ectx: property (displayFormat), widget (QTimeEdit, ikelifetime)
@@ -397,13 +391,11 @@ msgstr "อายุการใช้งาน Phase1:"
 #, kde-format
 msgid ""
 "<html><head/><body>"
-"<p>Optional. A list of proposals for IKE - Main Mode. The format is “enc-integ"
-"-group,enc-integ-group, …”.</p>"
+"<p>Optional. A list of proposals for IKE - Main Mode. The format is “enc-integ-group,enc-integ-group, …”.</p>"
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>ไม่บังคับ รายการข้อเสนอสำหรับ IKE - Main Mode ฟอร์แมตคือ “enc-integ-group,e"
-"nc-integ-group, …”</p>"
+"<p>ไม่บังคับ รายการข้อเสนอสำหรับ IKE - Main Mode ฟอร์แมตคือ “enc-integ-group,enc-integ-group, …”</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbSalifetime)
@@ -419,14 +411,11 @@ msgstr "อายุการใช้งาน Phase2:"
 #, kde-format
 msgid ""
 "<html><head/><body>"
-"<p>How long a particular instance of a connection (a set of encryption/authent"
-"ication keys for user packets) should last, from successful negotiation to exp"
-"iry.</p>"
+"<p>How long a particular instance of a connection (a set of encryption/authentication keys for user packets) should last, from successful negotiation to expiry.</p>"
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>การเชื่อมต่อในแต่ละครั้ง (เป็นเซ็ตแพ็คเก็ตผู้ใช้ที่เป็นกุญแจเข้ารหัสและพิสู"
-"จน์ตัวตน) ควรจะนานเท่าไหร จากการเจรจา (negotiation) ไปยังการหมดอายุ</p>"
+"<p>การเชื่อมต่อในแต่ละครั้ง (เป็นเซ็ตแพ็คเก็ตผู้ใช้ที่เป็นกุญแจเข้ารหัสและพิสูจน์ตัวตน) ควรจะนานเท่าไหร จากการเจรจา (negotiation) ไปยังการหมดอายุ</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, remoteId)
@@ -435,18 +424,11 @@ msgstr ""
 #, kde-format
 msgid ""
 "<html><head/><body>"
-"<p>Optional. How the IPsec server should be identified for authentication. Som"
-"etimes referred to as Peer ID or Gateway ID, also referred to as rightid by st"
-"rongSwan, Libreswan, Openswan and FreeS/WAN. See strongSwan or Libreswan docum"
-"entation for leftid/rightid syntax and identity parsing.</p>"
+"<p>Optional. How the IPsec server should be identified for authentication. Sometimes referred to as Peer ID or Gateway ID, also referred to as rightid by strongSwan, Libreswan, Openswan and FreeS/WAN. See strongSwan or Libreswan documentation for leftid/rightid syntax and identity parsing.</p>"
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>ไม่บังคับ เซิร์ฟเวอร์ IPsec ควรจะระบุตัวตนอย่างไรสำหรับการรับรองความถูกต้อง"
-" อาจถูกเรียกว่าเป็นรหัสเพียร์ (Peer ID) หรือรหัสเกตเวย์ (Gateway ID) และถูกเรี"
-"ยกว่า \"rightid\" โดย strongSwan Libreswan Openswan และ FreeS/WAN กรุณาไปอ่านค"
-"ู่มือเอกสาร strongSwan หรือ Libreswan สำหรับไวยากรณ์ leftid/rightid และการวจีว"
-"ิภาคตัวตน</p>"
+"<p>ไม่บังคับ เซิร์ฟเวอร์ IPsec ควรจะระบุตัวตนอย่างไรสำหรับการรับรองความถูกต้อง อาจถูกเรียกว่าเป็นรหัสเพียร์ (Peer ID) หรือรหัสเกตเวย์ (Gateway ID) และถูกเรียกว่า \"rightid\" โดย strongSwan Libreswan Openswan และ FreeS/WAN กรุณาไปอ่านคู่มือเอกสาร strongSwan หรือ Libreswan สำหรับไวยากรณ์ leftid/rightid และการวจีวิภาคตัวตน</p>"
 "</body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbIPComp)
@@ -455,13 +437,11 @@ msgstr ""
 #, kde-format
 msgid ""
 "<html><head/><body>"
-"<p>IPComp compresses raw IP packets before they get encrypted. This saves some"
-" bandwidth, but uses more processing power.</p>"
+"<p>IPComp compresses raw IP packets before they get encrypted. This saves some bandwidth, but uses more processing power.</p>"
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>IPComp บีบอัดแพ็คเก็ตดิบก่อนที่จะเข้ารหัส ตัวเลือกนี้ช่วยให้ใช้อินเทอร์เน็ต"
-"น้อยลงแต่ใช้พลังประมวลผลมากขึ้น</p>"
+"<p>IPComp บีบอัดแพ็คเก็ตดิบก่อนที่จะเข้ารหัส ตัวเลือกนี้ช่วยให้ใช้อินเทอร์เน็ตน้อยลงแต่ใช้พลังประมวลผลมากขึ้น</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbIPComp)
@@ -477,13 +457,11 @@ msgstr "ใช้การบีบอัด IP"
 #, kde-format
 msgid ""
 "<html><head/><body>"
-"<p>Disable perfect forward secrecy. Enable this option only if the server does"
-"n’t support PFS.</p>"
+"<p>Disable perfect forward secrecy. Enable this option only if the server doesn’t support PFS.</p>"
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>ปิดการส่งต่อความลับที่สมบูรณ์แบบ (perfect forward secrecy) ใช้ตัวเลือกนี้ถ้"
-"าหากเซิร์ฟเวอร์ปลายทางไม่รองรับ PFS เท่านั้น</p>"
+"<p>ปิดการส่งต่อความลับที่สมบูรณ์แบบ (perfect forward secrecy) ใช้ตัวเลือกนี้ถ้าหากเซิร์ฟเวอร์ปลายทางไม่รองรับ PFS เท่านั้น</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbPFS)
@@ -499,13 +477,11 @@ msgstr "ปิด PFS"
 #, kde-format
 msgid ""
 "<html><head/><body>"
-"<p>Some firewalls block ESP traffic. Enforcing UDP encapsulation even if no NA"
-"T situation is detected might help in such cases.</p>"
+"<p>Some firewalls block ESP traffic. Enforcing UDP encapsulation even if no NAT situation is detected might help in such cases.</p>"
 "</body></html>"
 msgstr ""
 "<html><head/><body>"
-"<p>ไฟวอลล์บางตัวกั้น ESP การบังคับการใช้งานการห่อหุ้ม UDP (encapsulation) แม้ว"
-"่าไม่สามารถตรวจพบ NAT อาจช่วยได้ในที่นี้</p>"
+"<p>ไฟวอลล์บางตัวกั้น ESP การบังคับการใช้งานการห่อหุ้ม UDP (encapsulation) แม้ว่าไม่สามารถตรวจพบ NAT อาจช่วยได้ในที่นี้</p>"
 "</body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbForceEncaps)
@@ -624,12 +600,9 @@ msgstr "อนุญาตให้ใช้การบีบอัดแบบ
 #: l2tpppp.ui:134
 #, kde-format
 msgid ""
-"Allow/disable Van Jacobson style TCP/IP header compression in both the transmi"
-"t\n"
+"Allow/disable Van Jacobson style TCP/IP header compression in both the transmit\n"
 "and the receive directions."
-msgstr ""
-"อนุญาตให้ใช้การบีบอัด TCP/IP header สไตล์ Van Jacobson ทั้งสองทางระหว่างต้นทาง"
-"และปลายทาง"
+msgstr "อนุญาตให้ใช้การบีบอัด TCP/IP header สไตล์ Van Jacobson ทั้งสองทางระหว่างต้นทางและปลายทาง"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbTCPheaders)
 #. +> trunk6 stable6 stable5
@@ -645,8 +618,7 @@ msgstr "อนุญาตให้ใช้การบีบอัด TCP head
 msgid ""
 "Allow protocol field compression negotiation in both the receive and the\n"
 " transmit directions."
-msgstr ""
-"อนุญาตให้โพรโทคอล field compression negotiation ทั้งสองทางการรับและการส่ง"
+msgstr "อนุญาตให้โพรโทคอล field compression negotiation ทั้งสองทางการรับและการส่ง"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbCompressionNegotiation)
 #. +> trunk6 stable6 stable5
@@ -716,14 +688,11 @@ msgstr "MTU:"
 #: l2tpppp.ui:257
 #, kde-format
 msgid ""
-"Note: MPPE encryption is only available with MSCHAP authentication methods. To"
-"\n"
+"Note: MPPE encryption is only available with MSCHAP authentication methods. To\n"
 "enable this checkbox, select one or more of the MSCHAP authentication\n"
 "methods: MSCHAP or MSCHAPv2."
 msgstr ""
-"หมายเหตุ: การเข้ารหัสแบบ MPPE ใช้ได้กับวิธีการรับรองความถูกต้อง MSCHAP เท่านั้"
-"น ถ้า"
-"\n"
+"หมายเหตุ: การเข้ารหัสแบบ MPPE ใช้ได้กับวิธีการรับรองความถูกต้อง MSCHAP เท่านั้น ถ้า\n"
 "อยากจะเปิดตัวเลือกนี้ ให้เลือกระหว่างวิธีการรับรองความถูกต้อง MSCHAP\n"
 "ดังนี้: MSCHAP หรือ MSCHAPv2"
 
@@ -774,10 +743,8 @@ msgstr "40 บิต"
 #. +> trunk6 stable6 stable5
 #: l2tpppp.ui:319
 #, kde-format
-msgid ""
-"Allow MPPE to use stateful mode. Stateless mode is still attempted first."
-msgstr ""
-"อนุญาตให้ MPPE ใช้โหมด stateful แต่โหมด stateless จะถูกใช้งานก่อนอยู่ดี"
+msgid "Allow MPPE to use stateful mode. Stateless mode is still attempted first."
+msgstr "อนุญาตให้ MPPE ใช้โหมด stateful แต่โหมด stateless จะถูกใช้งานก่อนอยู่ดี"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbstatefulEncryption)
 #. +> trunk6 stable6 stable5

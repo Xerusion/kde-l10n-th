@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-19 10:56+0100\n"
+"POT-Creation-Date: 2025-04-27 13:55+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -820,6 +820,13 @@ msgctxt "@title:group"
 msgid "Screenshot Settings"
 msgstr ""
 
+#. +> trunk6
+#: src/Gui/CaptureOverlay.qml:130
+#, kde-format
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr ""
+
 #. +> trunk6 stable6
 #: src/Gui/CaptureSettingsColumn.qml:16 src/Gui/RecordingSettingsColumn.qml:16
 #, kde-format
@@ -1039,37 +1046,6 @@ msgstr ""
 #, kde-format
 msgctxt "@action"
 msgid "Help"
-msgstr ""
-
-#. +> trunk6
-#: src/Gui/ImageCaptureOverlay.qml:130
-#, kde-format
-msgctxt "@info basic crop tool explanation"
-msgid "Click and drag to make a selection."
-msgstr ""
-
-#. +> stable6
-#: src/Gui/ImageView.qml:162
-#, kde-format
-msgid "Screenshot"
-msgstr ""
-
-#. +> stable6
-#: src/Gui/ImageView.qml:167
-#, kde-format
-msgid "Recording"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/Gui/ImageView.qml:199
-#, kde-format
-msgid "Zoom:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/Gui/ImageView.qml:213
-#, kde-format
-msgid "Image Zoom"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1631,7 +1607,7 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, qualitySpinner)
 #. +> trunk6 stable6
 #: src/Gui/SettingsDialog/ImageSaveOptions.ui:62
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "%"
 msgstr ""
 
@@ -2356,6 +2332,18 @@ msgid "Redo"
 msgstr ""
 
 #. +> trunk6 stable6
+#: src/Gui/ViewerPage.qml:199
+#, kde-format
+msgid "Zoom:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/Gui/ViewerPage.qml:213
+#, kde-format
+msgid "Image Zoom"
+msgstr ""
+
+#. +> trunk6 stable6
 #: src/Main.cpp:44
 #, kde-format
 msgid "Spectacle"
@@ -2468,91 +2456,91 @@ msgid "KWin Screencasting is not available."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:169
+#: src/Platforms/VideoPlatformWayland.cpp:173
 #, kde-format
 msgctxt "@info:shell"
 msgid "Failed to record: File URL is not a local file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:259
+#: src/Platforms/VideoPlatformWayland.cpp:263
 #, kde-format
 msgctxt "@info"
 msgid "The stream closed because the target screen changed in a way that disrupted the recording."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:261
+#: src/Platforms/VideoPlatformWayland.cpp:265
 #, kde-format
 msgctxt "@info"
 msgid "The stream closed because the target window changed in a way that disrupted the recording."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:263
+#: src/Platforms/VideoPlatformWayland.cpp:267
 #, kde-format
 msgctxt "@info"
 msgid "The stream closed because a screen containing the target region changed in a way that disrupted the recording."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:277
+#: src/Platforms/VideoPlatformWayland.cpp:281
 #, kde-format
 msgctxt "@info:shell"
 msgid "Failed to record: Temporary file URL is not a local file (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:288
+#: src/Platforms/VideoPlatformWayland.cpp:291
 #, kde-format
 msgctxt "@info:shell"
 msgid "Failed to record: Output file URL is not a local file (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:335
+#: src/Platforms/VideoPlatformWayland.cpp:344
 #, kde-format
 msgctxt "@info:shell"
 msgid "Failed to record: Unable to create folder (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:363
+#: src/Platforms/VideoPlatformWayland.cpp:372
 #, kde-format
 msgctxt "@info:shell"
 msgid "Screen recording canceled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:365
+#: src/Platforms/VideoPlatformWayland.cpp:374
 #, kde-format
 msgctxt "@info:shell"
 msgid "Window recording canceled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:371
+#: src/Platforms/VideoPlatformWayland.cpp:380
 #, kde-format
 msgctxt "@info:shell"
 msgid "Failed to select screen: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:373
+#: src/Platforms/VideoPlatformWayland.cpp:382
 #, kde-format
 msgctxt "@info:shell"
 msgid "Failed to select window: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:401
+#: src/Platforms/VideoPlatformWayland.cpp:410
 #, kde-format
 msgctxt "@info:shell"
 msgid "Failed to select screen: No screen contained the mouse cursor position"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Platforms/VideoPlatformWayland.cpp:408
+#: src/Platforms/VideoPlatformWayland.cpp:417
 #, kde-format
 msgctxt "@info:shell"
 msgid "Failed to select window: No window found"
@@ -2698,8 +2686,38 @@ msgctxt "missing webp support notification message"
 msgid "Please install Qt Image Formats to get animated system tray icons for Spectacle, and then report this packaging issue to your distributor."
 msgstr ""
 
+#. +> trunk6
+#: src/SpectacleCore.cpp:318
+#, kde-format
+msgctxt "recording notification title"
+msgid "Spectacle is Finishing the Recording"
+msgstr ""
+
+#. +> trunk6
+#: src/SpectacleCore.cpp:319
+#, kde-format
+msgctxt "recording notification message"
+msgid "Please wait"
+msgstr ""
+
+#. +> trunk6
+#: src/SpectacleCore.cpp:321
+#, kde-format
+msgctxt "@info:tooltip title for rendering tray icon"
+msgid "Spectacle is Finishing the Recording"
+msgstr ""
+
+#. +> trunk6
+#: src/SpectacleCore.cpp:323
+#, kde-format
+msgctxt "@info:tooltip subtitle for rendering tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to stop rendering early (this will lose data)"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:328
+#: src/SpectacleCore.cpp:339
 #, kde-format
 msgctxt "@info:tooltip subtitle for recording tray icon"
 msgid ""
@@ -2708,72 +2726,72 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:353
+#: src/SpectacleCore.cpp:364
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while attempting to record the screen."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:745
+#: src/SpectacleCore.cpp:756
 #, kde-format
 msgctxt "@info:shell"
 msgid "%1 is not a valid mode for --record"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:980
+#: src/SpectacleCore.cpp:991
 #, kde-format
 msgid "A screenshot was saved as '%1' to '%2' and the file path of the screenshot has been saved to your clipboard."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:984
+#: src/SpectacleCore.cpp:995
 #, kde-format
 msgctxt "Placeholder is filename"
 msgid "A screenshot was saved as '%1' to your Pictures folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:987
+#: src/SpectacleCore.cpp:998
 #, kde-format
 msgid "A screenshot was saved as '%1' to '%2'."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:991
+#: src/SpectacleCore.cpp:1002
 #, kde-format
 msgid "A screenshot was saved to your clipboard."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:996
+#: src/SpectacleCore.cpp:1007
 #, kde-format
 msgid "A recording was saved as '%1' to '%2' and the file path of the recording has been saved to your clipboard."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:998
+#: src/SpectacleCore.cpp:1009
 #, kde-format
 msgctxt "Placeholder is filename"
 msgid "A recording was saved as '%1' to your Videos folder."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1000
+#: src/SpectacleCore.cpp:1011
 #, kde-format
 msgid "A recording was saved as '%1' to '%2'."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1011
+#: src/SpectacleCore.cpp:1022
 #, kde-format
 msgctxt "Open the screenshot we just saved"
 msgid "Open"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/SpectacleCore.cpp:1025
+#: src/SpectacleCore.cpp:1036
 #, kde-format
 msgid "Annotate"
 msgstr ""
@@ -2804,6 +2822,18 @@ msgstr ""
 #, kde-format
 msgctxt "@item:inlistbox Container/encoder"
 msgid "GIF (compatible, but inefficient)"
+msgstr ""
+
+#. +> stable6
+#: src/Gui/ImageView.qml:162
+#, kde-format
+msgid "Screenshot"
+msgstr ""
+
+#. +> stable6
+#: src/Gui/ImageView.qml:167
+#, kde-format
+msgid "Recording"
 msgstr ""
 
 #. +> stable6

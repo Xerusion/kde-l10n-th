@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-18 11:48+0100\n"
+"POT-Creation-Date: 2025-04-16 16:19+0200\n"
 "PO-Revision-Date: 2010-02-26 14:38+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -28,132 +28,6 @@ msgstr "ถนอมทรัพย์ นพบูรณ์"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "donga.nb@gmail.com"
-
-#. +> trunk6 trunk5
-#: backend/backendpersisthandler.cpp:489
-#, kde-format
-msgid "<qt>Error when attempting to initialize OpenPGP while attempting to save the wallet <b>%1</b>. Error code is <b>%2</b>. Please fix your system configuration, then try again.</qt>"
-msgstr ""
-
-#. +> trunk6 trunk5
-#: backend/backendpersisthandler.cpp:501
-#, kde-format
-msgid "<qt>Error when attempting to initialize OpenPGP while attempting to save the wallet <b>%1</b>. Please fix your system configuration, then try again.</qt>"
-msgstr ""
-
-#. +> trunk6 trunk5
-#: backend/backendpersisthandler.cpp:555
-#, kde-format
-msgid "<qt>Encryption error while attempting to save the wallet <b>%1</b>. Error code is <b>%2 (%3)</b>. Please fix your system configuration, then try again. This error may occur if you are not using a full trust GPG key. Please ensure you have the secret key for the key you are using.</qt>"
-msgstr ""
-
-#. +> trunk6 trunk5
-#: backend/backendpersisthandler.cpp:572
-#, kde-format
-msgid "<qt>File handling error while attempting to save the wallet <b>%1</b>. Error was <b>%2</b>. Please fix your system configuration, then try again.</qt>"
-msgstr ""
-
-#. +> trunk6 trunk5
-#: backend/backendpersisthandler.cpp:594
-#, kde-format
-msgid "<qt>Error when attempting to initialize OpenPGP while attempting to open the wallet <b>%1</b>. Error code is <b>%2</b>. Please fix your system configuration, then try again.</qt>"
-msgstr ""
-
-#. +> trunk6 trunk5
-#: backend/backendpersisthandler.cpp:616
-#, kde-format
-msgid "<qt>Error when attempting to initialize OpenPGP while attempting to open the wallet <b>%1</b>. Please fix your system configuration, then try again.</qt>"
-msgstr ""
-
-#. +> trunk6 trunk5
-#: backend/backendpersisthandler.cpp:629
-#, kde-format
-msgid "Retry"
-msgstr ""
-
-#. +> trunk6 trunk5
-#: backend/backendpersisthandler.cpp:634
-#, kde-format
-msgid ""
-"<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If you're using a SmartCard, please ensure it's inserted then try again.<br>"
-"<br>"
-"GPG error was <b>%2</b></qt>"
-msgstr ""
-
-#. +> trunk6 trunk5
-#: backend/backendpersisthandler.cpp:638
-#, kde-format
-msgid "kwalletd GPG backend"
-msgstr ""
-
-#. +> trunk6 trunk5
-#: backend/backendpersisthandler.cpp:684
-#, kde-format
-msgid "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was encrypted using the GPG Key ID <b>%2</b> but this key was not found on your system.</qt>"
-msgstr ""
-
-#. +> trunk6 trunk5
-#: backend/kwalletbackend.cc:272
-#, kde-format
-msgid "Already open."
-msgstr "ถูกเปิดอยู่แล้ว"
-
-#. +> trunk6 trunk5
-#: backend/kwalletbackend.cc:274
-#, kde-format
-msgid "Error opening file."
-msgstr "การเปิดแฟ้มผิดพลาด"
-
-#. +> trunk6 trunk5
-#: backend/kwalletbackend.cc:276
-#, kde-format
-msgid "Not a wallet file."
-msgstr "ไม่ใช่แฟ้มของ wallet"
-
-#. +> trunk6 trunk5
-#: backend/kwalletbackend.cc:278
-#, kde-format
-msgid "Unsupported file format revision."
-msgstr "รูปแบบแฟ้มรุ่นใหม่ยังไม่ถูกรองรับ"
-
-#. +> trunk6 trunk5
-#: backend/kwalletbackend.cc:282
-#, kde-format
-msgid "Unknown encryption scheme."
-msgstr "ไม่ทราบรูปแบบการเข้ารหัส"
-
-#. +> trunk6 trunk5
-#: backend/kwalletbackend.cc:284
-#, kde-format
-msgid "Corrupt file?"
-msgstr "แฟ้มเสียหายหรือไม่ ?"
-
-#. +> trunk6 trunk5
-#: backend/kwalletbackend.cc:286
-#, kde-format
-msgid "Error validating wallet integrity. Possibly corrupted."
-msgstr "เกิดข้อผิดพลาดในการตรวจสอบการรวมกับ wallet ซึ่งอาจเป็นเพราะแฟ้มเสียหายก็ได้"
-
-#. +> trunk6 trunk5
-#: backend/kwalletbackend.cc:290
-#, kde-format
-msgid "Read error - possibly incorrect password."
-msgstr "การอ่านผิดพลาด - รหัสผ่านอาจจะไม่ถูกต้อง"
-
-#. +> trunk6 trunk5
-#: backend/kwalletbackend.cc:292
-#, kde-format
-msgid "Decryption error."
-msgstr "ผิดพลาดในการถอดรหัส"
-
-#. +> trunk6 trunk5
-#: backend/kwalletbackend.cc:472
-#, kde-format
-msgid ""
-"Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
-"RC <b>%2</b>\n"
-"SF <b>%3</b>. Please file a BUG report using this information to bugs.kde.org"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, _allowOnce)
 #. +> trunk6 trunk5
@@ -283,55 +157,55 @@ msgid "Use GPG encryption, for better protection"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:624
+#: ksecretd.cpp:619
 #, kde-format
 msgid "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the password for this wallet below.</qt>"
 msgstr "<qt>KDE ได้ทำการร้องขอที่จะเปิดกระเป๋าคุมข้อมูล '<b>%1</b>' โปรดป้อนรหัสผ่านสำหรับกระเป๋าคุมข้อมูลนี้ที่ด้านล่าง</qt>"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:628
+#: ksecretd.cpp:623
 #, kde-format
 msgid "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</b>'. Please enter the password for this wallet below.</qt>"
 msgstr "<qt>โปรแกรม '<b>%1</b>' ได้ร้องขอที่จะเปิดกระเป๋าคุมข้อมูล '<b>%2</b>' โปรดป้อนรหัสผ่านสำหรับกระเป๋าคุมข้อมูลนี้ที่ด้านล่าง</qt>"
 
 #. i18n( "&Open" ), "wallet-open"));
 #. +> trunk6 trunk5
-#: kwalletd.cpp:639 kwalletd.cpp:748 kwalletd.cpp:852 kwalletd.cpp:965
-#: kwalletd.cpp:988 kwalletd.cpp:999 kwalletd.cpp:1004 kwalletd.cpp:1594
-#: main.cpp:167 main.cpp:169
+#: ksecretd.cpp:634 ksecretd.cpp:743 ksecretd.cpp:847 ksecretd.cpp:960
+#: ksecretd.cpp:983 ksecretd.cpp:994 ksecretd.cpp:999 ksecretd.cpp:1589
+#: main.cpp:160 main.cpp:162
 #, kde-format
 msgid "KDE Wallet Service"
 msgstr "บริการกระเป๋าคุมข้อมูลของ KDE"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:654
+#: ksecretd.cpp:649
 #, fuzzy, kde-format
 #| msgid "<b>KDE</b> has requested to open a wallet (%1)."
 msgid "An application has requested to open a wallet (%1)."
 msgstr "<b>KDE</b> ได้ร้องขอใช้งานกระเป๋าคุมข้อมูล (%1)"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:655
+#: ksecretd.cpp:650
 #, kde-format
 msgctxt "Text of a button for switching to the (unnamed) application requesting a password"
 msgid "Switch there"
 msgstr "สลับมาที่นี่"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:657
+#: ksecretd.cpp:652
 #, kde-format
 msgid "<b>%1</b> has requested to open a wallet (%2)."
 msgstr "โปรแกรม '<b>%1</b>' ได้ร้องขอใช้งานกระเป๋าคุมข้อมูล (%2)"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:659
+#: ksecretd.cpp:654
 #, kde-format
 msgctxt "Text of a button for switching to the application requesting a password"
 msgid "Switch to %1"
 msgstr "สลับไปยัง %1"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:676 kwalletd.cpp:758
+#: ksecretd.cpp:671 ksecretd.cpp:753
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />"
@@ -341,73 +215,73 @@ msgstr ""
 "(รหัสความผิดพลาด %2: %3)</qt>"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:724
+#: ksecretd.cpp:719
 #, kde-format
 msgid "KDE has requested to open the wallet. This is used to store sensitive data in a secure fashion. Please enter a password to use with this wallet or click cancel to deny the application's request."
 msgstr "KDE ได้ทำการร้องขอที่จะเปิดกระเป๋าคุมข้อมูล ซึ่งใช้สำหรับเก็บข้อมูลสำคัญไว้อย่างปลอดภัย โปรดป้อนรหัสผ่านเพื่อใช้งานกระเป๋าคุมข้อมูลนี้ หรือคลิกที่ ยกเลิก เพื่อปฏิเสธการร้องขอของโปรแกรม"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:729
+#: ksecretd.cpp:724
 #, kde-format
 msgid "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This is used to store sensitive data in a secure fashion. Please enter a password to use with this wallet or click cancel to deny the application's request.</qt>"
 msgstr "<qt>โปรแกรม '<b>%1</b>' ได้ร้องขอที่จะเปิดกระเป๋าคุมข้อมูล ซึ่งใช้สำหรับเก็บข้อมูลที่มีความสำคัญไว้อย่างปลอดภัย โปรดป้อนรหัสผ่านเพื่อใช้งานกระเป๋าคุมข้อมูลนี้ หรือคลิกที่ ยกเลิก เพื่อปฏิเสธการร้องขอของโปรแกรม</qt>"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:737
+#: ksecretd.cpp:732
 #, kde-format
 msgid "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please choose a password for this wallet, or cancel to deny the application's request.</qt>"
 msgstr "<qt>KDE ได้ร้องขอให้มีการสร้างกระเป๋าคุมข้อมูลอันใหม่ ชื่อ '<b>%1</b>' โปรดเลือกรหัสอ่านสำหรับกระเป๋าคุมข้อมูลนี้ หรือคลิกยกเลิก เพื่อปฏิเสธการร้องขอของโปรแกรม</qt>"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:742
+#: ksecretd.cpp:737
 #, kde-format
 msgid "<qt>The application '<b>%1</b>' has requested to create a new wallet named '<b>%2</b>'. Please choose a password for this wallet, or cancel to deny the application's request.</qt>"
 msgstr "<qt>โปรแกรม '<b>%1</b>' ได้ร้องขอให้มีการสร้างกระเป๋าคุมข้อมูลตัวใหม่ ชื่อ '<b>%2</b>' โปรดเลือกรหัสผ่านสำหรับกระเป๋าคุมข้อมูลนี้ หรือคลิก ยกเลิกเพื่อปฏิเสธการร้องขอของโปรแกรม</qt>"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:854
+#: ksecretd.cpp:849
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>KDE ได้ร้องขอใช้งานกระเป๋าคุมข้อมูล '<b>%1</b>'</qt>"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:856
+#: ksecretd.cpp:851
 #, kde-format
 msgid "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>%2</b>'.</qt>"
 msgstr "<qt>โปรแกรม '<b>%1</b>' ได้ร้องขอใช้งานกระเป๋าคุมข้อมูล '<b>%2</b>'</qt>"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:964
+#: ksecretd.cpp:959
 #, kde-format
 msgid "Unable to open wallet. The wallet must be opened in order to change the password."
 msgstr "ไม่สามารถเปิดใช้งานกระเป๋าคุมข้อมูลได้ โดยกระเป๋าคุมข้อมูล จะถูกเปิดใช้งานก็ต่อเมื่อมีคำสั่งให้ทำการเปลี่ยนรหัสผ่าน"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:980
+#: ksecretd.cpp:975
 #, kde-format
 msgid "<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use <b>GPG</b> tools (such as <b>kleopatra</b>) to change the passphrase associated to that key.</qt>"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:987
+#: ksecretd.cpp:982
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>โปรดเลือกรหัสผ่านใหม่สำหรับใช้กับกระเป๋าคุมข้อมูล '<b>%1</b>'</qt>"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:999
+#: ksecretd.cpp:994
 #, kde-format
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr "รหัสผ่านไม่เปลี่ยนแปลง เนื่องจากเกิดข้อผิดพลาดในการเข้ารหัสกระเป๋าคุมข้อมูลอีกครั้ง"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:1004
+#: ksecretd.cpp:999
 #, kde-format
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "ข้อมูลอาจมีการสูญหาย เนื่องจากข้อผิดพลาดในการเปิดกระเป๋าคุมข้อมูลอีกครั้ง"
 
 #. +> trunk6 trunk5
-#: kwalletd.cpp:1593
+#: ksecretd.cpp:1588
 #, kde-format
 msgid "There have been repeated failed attempts to gain access to a wallet. An application may be misbehaving."
 msgstr "มีความล้มเหลวในการเข้าถึงกระเป๋าคุมข้อมูลเกิดขึ้นซ้ำ ๆ โปรแกรมอาจมีความผิดปกติ"
@@ -561,20 +435,26 @@ msgstr "โปรแกรมต่าง ๆ อาจจะพยายาม�
 msgid "What kind of encryption do you wish?"
 msgstr ""
 
-#. +> trunk6 trunk5
-#: main.cpp:171
+#. +> trunk6
+#: main.cpp:164
+#, kde-format
+msgid "(C) 2002-2025, The KDE Developers"
+msgstr ""
+
+#. +> trunk5
+#: main.cpp:173
 #, kde-format
 msgid "(C) 2002-2013, The KDE Developers"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: main.cpp:172
+#: main.cpp:165
 #, kde-format
 msgid "Valentin Rusu"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:172
+#: main.cpp:165
 #, fuzzy, kde-format
 #| msgid "Former maintainer"
 msgid "Former Maintainer, GPG backend support"
@@ -587,38 +467,164 @@ msgid "Maintainer, GPG backend support"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: main.cpp:173
+#: main.cpp:166
 #, kde-format
 msgid "Michael Leupold"
 msgstr "Michael Leupold"
 
 #. +> trunk6 trunk5
-#: main.cpp:173
+#: main.cpp:166
 #, fuzzy, kde-format
 #| msgid "Former maintainer"
 msgid "Former Maintainer"
 msgstr "ผู้ดูแลคนก่อน"
 
 #. +> trunk6 trunk5
-#: main.cpp:174
+#: main.cpp:167
 #, kde-format
 msgid "George Staikos"
 msgstr "George Staikos"
 
 #. +> trunk6 trunk5
-#: main.cpp:174
+#: main.cpp:167
 #, kde-format
 msgid "Former maintainer"
 msgstr "ผู้ดูแลคนก่อน"
 
 #. +> trunk6 trunk5
-#: main.cpp:175
+#: main.cpp:168
 #, kde-format
 msgid "Thiago Maceira"
 msgstr "Thiago Maceira"
 
 #. +> trunk6 trunk5
-#: main.cpp:175
+#: main.cpp:168
 #, kde-format
 msgid "D-Bus Interface"
 msgstr "ส่วนเชื่อมต่อ D-Bus"
+
+#. +> trunk5
+#: backend/backendpersisthandler.cpp:489
+#, kde-format
+msgid "<qt>Error when attempting to initialize OpenPGP while attempting to save the wallet <b>%1</b>. Error code is <b>%2</b>. Please fix your system configuration, then try again.</qt>"
+msgstr ""
+
+#. +> trunk5
+#: backend/backendpersisthandler.cpp:501
+#, kde-format
+msgid "<qt>Error when attempting to initialize OpenPGP while attempting to save the wallet <b>%1</b>. Please fix your system configuration, then try again.</qt>"
+msgstr ""
+
+#. +> trunk5
+#: backend/backendpersisthandler.cpp:555
+#, kde-format
+msgid "<qt>Encryption error while attempting to save the wallet <b>%1</b>. Error code is <b>%2 (%3)</b>. Please fix your system configuration, then try again. This error may occur if you are not using a full trust GPG key. Please ensure you have the secret key for the key you are using.</qt>"
+msgstr ""
+
+#. +> trunk5
+#: backend/backendpersisthandler.cpp:572
+#, kde-format
+msgid "<qt>File handling error while attempting to save the wallet <b>%1</b>. Error was <b>%2</b>. Please fix your system configuration, then try again.</qt>"
+msgstr ""
+
+#. +> trunk5
+#: backend/backendpersisthandler.cpp:594
+#, kde-format
+msgid "<qt>Error when attempting to initialize OpenPGP while attempting to open the wallet <b>%1</b>. Error code is <b>%2</b>. Please fix your system configuration, then try again.</qt>"
+msgstr ""
+
+#. +> trunk5
+#: backend/backendpersisthandler.cpp:616
+#, kde-format
+msgid "<qt>Error when attempting to initialize OpenPGP while attempting to open the wallet <b>%1</b>. Please fix your system configuration, then try again.</qt>"
+msgstr ""
+
+#. +> trunk5
+#: backend/backendpersisthandler.cpp:629
+#, kde-format
+msgid "Retry"
+msgstr ""
+
+#. +> trunk5
+#: backend/backendpersisthandler.cpp:634
+#, kde-format
+msgid ""
+"<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If you're using a SmartCard, please ensure it's inserted then try again.<br>"
+"<br>"
+"GPG error was <b>%2</b></qt>"
+msgstr ""
+
+#. +> trunk5
+#: backend/backendpersisthandler.cpp:638
+#, kde-format
+msgid "kwalletd GPG backend"
+msgstr ""
+
+#. +> trunk5
+#: backend/backendpersisthandler.cpp:684
+#, kde-format
+msgid "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was encrypted using the GPG Key ID <b>%2</b> but this key was not found on your system.</qt>"
+msgstr ""
+
+#. +> trunk5
+#: backend/kwalletbackend.cc:266
+#, kde-format
+msgid "Already open."
+msgstr "ถูกเปิดอยู่แล้ว"
+
+#. +> trunk5
+#: backend/kwalletbackend.cc:268
+#, kde-format
+msgid "Error opening file."
+msgstr "การเปิดแฟ้มผิดพลาด"
+
+#. +> trunk5
+#: backend/kwalletbackend.cc:270
+#, kde-format
+msgid "Not a wallet file."
+msgstr "ไม่ใช่แฟ้มของ wallet"
+
+#. +> trunk5
+#: backend/kwalletbackend.cc:272
+#, kde-format
+msgid "Unsupported file format revision."
+msgstr "รูปแบบแฟ้มรุ่นใหม่ยังไม่ถูกรองรับ"
+
+#. +> trunk5
+#: backend/kwalletbackend.cc:276
+#, kde-format
+msgid "Unknown encryption scheme."
+msgstr "ไม่ทราบรูปแบบการเข้ารหัส"
+
+#. +> trunk5
+#: backend/kwalletbackend.cc:278
+#, kde-format
+msgid "Corrupt file?"
+msgstr "แฟ้มเสียหายหรือไม่ ?"
+
+#. +> trunk5
+#: backend/kwalletbackend.cc:280
+#, kde-format
+msgid "Error validating wallet integrity. Possibly corrupted."
+msgstr "เกิดข้อผิดพลาดในการตรวจสอบการรวมกับ wallet ซึ่งอาจเป็นเพราะแฟ้มเสียหายก็ได้"
+
+#. +> trunk5
+#: backend/kwalletbackend.cc:284
+#, kde-format
+msgid "Read error - possibly incorrect password."
+msgstr "การอ่านผิดพลาด - รหัสผ่านอาจจะไม่ถูกต้อง"
+
+#. +> trunk5
+#: backend/kwalletbackend.cc:286
+#, kde-format
+msgid "Decryption error."
+msgstr "ผิดพลาดในการถอดรหัส"
+
+#. +> trunk5
+#: backend/kwalletbackend.cc:462
+#, kde-format
+msgid ""
+"Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
+"RC <b>%2</b>\n"
+"SF <b>%3</b>. Please file a BUG report using this information to bugs.kde.org"
+msgstr ""

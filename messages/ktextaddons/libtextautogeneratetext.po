@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-03 10:41+0200\n"
+"POT-Creation-Date: 2025-04-27 13:55+0200\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6
-#: core/textautogenerateengineutil.cpp:15 plugins/ollama/ollamaclient.cpp:27
+#: core/textautogenerateengineutil.cpp:15 plugins/ollama/ollamaclient.cpp:28
 #, kde-format
 msgid "Ollama"
 msgstr ""
@@ -44,7 +44,7 @@ msgid "Configure Mistral IA"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamacomboboxwidget.cpp:27
+#: plugins/ollama/ollamacomboboxwidget.cpp:28
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reload Model"
@@ -58,31 +58,31 @@ msgid "Configure Ollama"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamaconfigurewidget.cpp:39
+#: plugins/ollama/ollamaconfigurewidget.cpp:37
 #, kde-format
 msgid "Server Url:"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamaconfigurewidget.cpp:43
+#: plugins/ollama/ollamaconfigurewidget.cpp:41
 #, kde-format
 msgid "Model:"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamaconfigurewidget.cpp:46
+#: plugins/ollama/ollamaconfigurewidget.cpp:44
 #, kde-format
 msgid "Prompt:"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamaconfigurewidget.cpp:47
+#: plugins/ollama/ollamaconfigurewidget.cpp:45
 #, kde-format
 msgid "No system prompt"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamamanager.cpp:46
+#: plugins/ollama/ollamamanager.cpp:64
 #, kde-format
 msgid "Failed to connect to interface at %1: %2"
 msgstr ""
@@ -129,21 +129,90 @@ msgid "Conversation"
 msgstr ""
 
 #. +> trunk6
-#: widgets/textautogenerateheaderwidget.cpp:32
-#: widgets/textautogeneratenotworkingwidget.cpp:29
+#: widgets/textautogenerateheaderwidget.cpp:33
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Configure…"
+msgstr ""
+
+#. +> trunk6
+#: widgets/textautogenerateheaderwidget.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear"
+msgstr ""
+
+#. +> trunk6
+#: widgets/textautogeneratenotworkingwidget.cpp:28
 #, kde-format
 msgid "Configure…"
 msgstr ""
 
 #. +> trunk6
-#: widgets/textautogeneratehistorylistview.cpp:28
+#: widgets/textautogeneratetextlineedit.cpp:16
 #, kde-format
-msgctxt "@action"
-msgid "Remove…"
+msgctxt "@info:placeholder"
+msgid "Enter a message"
 msgstr ""
 
 #. +> trunk6
 #: widgets/textautogeneratetextlineeditwidget.cpp:16
 #, kde-format
 msgid "Send"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/textautogeneratehistorylistview.cpp:37
+#, kde-format
+msgctxt "@action"
+msgid "Modify…"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/textautogeneratehistorylistview.cpp:48
+#, kde-format
+msgctxt "@action"
+msgid "Remove…"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/textautogeneratelistview.cpp:111
+#, kde-format
+msgctxt "@action"
+msgid "Copy Selection"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/textautogeneratelistview.cpp:111
+#, kde-format
+msgctxt "@action"
+msgid "Copy"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/textautogeneratelistview.cpp:119
+#, kde-format
+msgctxt "@action"
+msgid "Select All"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/textautogeneratelistviewdelegate.cpp:320
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/textautogeneratelistviewdelegate.cpp:324
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Edit..."
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/textautogeneratelistviewdelegate.cpp:328
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy"
 msgstr ""
