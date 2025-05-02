@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skrooge\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-11 11:09+0200\n"
+"POT-Creation-Date: 2025-04-29 15:35+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -7444,6 +7444,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1245
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2141
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget.cpp:589
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:211
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget.cpp:678
 #, kde-format
 msgctxt "Noun, a list of items"
@@ -10905,91 +10906,99 @@ msgid "Number of occurrences"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:60
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:61
 #, kde-format
 msgctxt "Noun, alarms"
 msgid "Alarms"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:88
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:89
 #, kde-format
 msgctxt "Verb, action to execute"
 msgid "Execute on all transactions"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:99
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:100
 #, kde-format
 msgctxt "Verb, action to execute"
 msgid "Execute on not checked transactions"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:112
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:113
 #, kde-format
 msgctxt "Verb, action to execute"
 msgid "Execute on imported transactions"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:125
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:126
 #, kde-format
 msgctxt "Verb, action to execute"
 msgid "Execute on not validated transactions"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:193
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:191
+#: plugins/skrooge/skrooge_search/skgsearchpluginwidget.cpp:656
+#, kde-format
+msgctxt "Noun, a list of items"
+msgid "Sub transactions corresponding to rule '%1'"
+msgstr ""
+
+#. +> trunk5
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:263
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Process execution"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:202
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:272
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Process executed"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:205
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:275
 #, kde-format
 msgctxt "Error message"
 msgid "Process execution failed"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:358
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:428
 #, kde-format
 msgctxt "Noun"
 msgid "Search and process"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:368
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:438
 #, kde-format
 msgctxt "Noun"
 msgid "Search and process management"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:380
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:450
 #, kde-format
 msgctxt "Description of a tips"
 msgid "<p>… skrooge can <a href=\"skg://skrooge_search_plugin\">search</a> and automatically process some transactions.</p>"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:381
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:451
 #, kde-format
 msgctxt "Description of a tips"
 msgid "<p>… you can create alarms based on <a href=\"skg://skrooge_search_plugin\">searches</a>.</p>"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:427
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:497
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
@@ -10998,7 +11007,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:431
+#: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:501
 #, kde-format
 msgctxt "Advice on making the best (action)"
 msgid "Open transactions corresponding to this alarm"
@@ -11188,13 +11197,6 @@ msgid "Search update failed"
 msgstr ""
 
 #. +> trunk5
-#: plugins/skrooge/skrooge_search/skgsearchpluginwidget.cpp:656
-#, kde-format
-msgctxt "Noun, a list of items"
-msgid "Sub transactions corresponding to rule '%1'"
-msgstr ""
-
-#. +> trunk5
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget.cpp:723
 #, kde-format
 msgid "%1 transaction found (%2 imported, %3 not yet validated, %4 not checked)."
@@ -11319,6 +11321,13 @@ msgstr ""
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget_pref.ui:59
 #, kde-format
 msgid "minutes"
+msgstr ""
+
+#. i18n: ectx: ToolBar (searchToolBar)
+#. +> trunk5
+#: plugins/skrooge/skrooge_search/skrooge_search.rc:12
+#, kde-format
+msgid "Search Toolbar"
 msgstr ""
 
 #. +> trunk5
@@ -12954,14 +12963,14 @@ msgid "attribute"
 msgstr ""
 
 #. +> trunk5
-#: skgbankgui/skgquerycreator.cpp:45 skgbankgui/skgquerycreator.cpp:113
+#: skgbankgui/skgquerycreator.cpp:45 skgbankgui/skgquerycreator.cpp:116
 #, kde-format
 msgctxt "A tool tip"
 msgid "Switch in advanced mode"
 msgstr ""
 
 #. +> trunk5
-#: skgbankgui/skgquerycreator.cpp:66 skgbasegui/skgfilteredtableview.cpp:216
+#: skgbankgui/skgquerycreator.cpp:69 skgbasegui/skgfilteredtableview.cpp:216
 #: skgbasegui/skghtmlboardwidget.cpp:226
 #, kde-format
 msgctxt "Tooltip"
@@ -12994,35 +13003,35 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: skgbankgui/skgquerycreator.cpp:107
+#: skgbankgui/skgquerycreator.cpp:110
 #, kde-format
 msgctxt "A tool tip"
 msgid "Switch in simple mode"
 msgstr ""
 
 #. +> trunk5
-#: skgbankgui/skgquerycreator.cpp:177
+#: skgbankgui/skgquerycreator.cpp:181
 #, kde-format
 msgctxt "Operator contains"
 msgid "or"
 msgstr ""
 
 #. +> trunk5
-#: skgbankgui/skgquerycreator.cpp:182
+#: skgbankgui/skgquerycreator.cpp:186
 #, kde-format
 msgctxt "Operator contains"
 msgid "but not"
 msgstr ""
 
 #. +> trunk5
-#: skgbankgui/skgquerycreator.cpp:205
+#: skgbankgui/skgquerycreator.cpp:209
 #, kde-format
 msgctxt "Operator contains"
 msgid "Contains"
 msgstr ""
 
 #. +> trunk5
-#: skgbankgui/skgquerycreator.cpp:210
+#: skgbankgui/skgquerycreator.cpp:214
 #, kde-format
 msgctxt "Noun"
 msgid "Regular expression"
@@ -18683,10 +18692,17 @@ msgid "%1 or %2"
 msgstr ""
 
 #. +> trunk5
-#: skgbasemodeler/skgservices.cpp:173 skgbasemodeler/skgservices.cpp:193
+#: skgbasemodeler/skgservices.cpp:173
 #, kde-format
 msgctxt "Logical condition"
 msgid "(%1) and (%2)"
+msgstr ""
+
+#. +> trunk5
+#: skgbasemodeler/skgservices.cpp:193
+#, kde-format
+msgctxt "Logical condition"
+msgid "(%1) or (%2)"
 msgstr ""
 
 #. +> trunk5
@@ -18816,84 +18832,98 @@ msgid "Developer - Google Summer Of Code 2010"
 msgstr ""
 
 #. +> trunk5
-#: skrooge/main.cpp:133 skroogeconvert/main.cpp:69
+#: skrooge/main.cpp:129
+#, kde-format
+msgctxt "Fullname"
+msgid "Mathieu STERN"
+msgstr ""
+
+#. +> trunk5
+#: skrooge/main.cpp:129
+#, kde-format
+msgctxt "A job description"
+msgid "Splash screen photographer"
+msgstr ""
+
+#. +> trunk5
+#: skrooge/main.cpp:131 skroogeconvert/main.cpp:69
 #, kde-format
 msgctxt "The description of the application"
 msgid "The application name is inspired by Charles Dicken's tale <i>A Christmas Carol</i>, where the main character, Ebenezer Scrooge, a grumpy old narrow man, gets visited by three ghosts who change the way he sees the world, in a good way."
 msgstr ""
 
 #. +> trunk5
-#: skrooge/main.cpp:135 skroogeconvert/main.cpp:71
+#: skrooge/main.cpp:133 skroogeconvert/main.cpp:71
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
 #. +> trunk5
-#: skrooge/main.cpp:135 skroogeconvert/main.cpp:71
+#: skrooge/main.cpp:133 skroogeconvert/main.cpp:71
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
 #. +> trunk5
-#: skrooge/main.cpp:140
+#: skrooge/main.cpp:138
 #, kde-format
 msgctxt "Reason of the about/credit"
 msgid "Users helping us to improve this application"
 msgstr ""
 
 #. +> trunk5
-#: skrooge/main.cpp:145
+#: skrooge/main.cpp:143
 #, kde-format
 msgctxt "Application argument"
 msgid "Document to open"
 msgstr ""
 
 #. +> trunk5
-#: skrooge/main.cpp:147
+#: skrooge/main.cpp:145
 #, kde-format
 msgctxt "Application argument"
 msgid "Display environment variables used by this application."
 msgstr ""
 
 #. +> trunk5
-#: skrooge/main.cpp:156
+#: skrooge/main.cpp:154
 #, kde-format
 msgctxt "Help"
 msgid "Environment variables:"
 msgstr ""
 
 #. +> trunk5
-#: skrooge/main.cpp:158
+#: skrooge/main.cpp:156
 #, kde-format
 msgctxt "Help, do not translate x"
 msgid "  %1: To enable traces. x is the level of traces expected. This enables the debug mode too."
 msgstr ""
 
 #. +> trunk5
-#: skrooge/main.cpp:161
+#: skrooge/main.cpp:159
 #, kde-format
 msgctxt "Help"
 msgid "  %1: To enable the profiling. This enables the debug mode too."
 msgstr ""
 
 #. +> trunk5
-#: skrooge/main.cpp:162
+#: skrooge/main.cpp:160
 #, kde-format
 msgctxt "Help do not translate x"
 msgid "  %1: To dump sql order taking more than x ms."
 msgstr ""
 
 #. +> trunk5
-#: skrooge/main.cpp:163
+#: skrooge/main.cpp:161
 #, kde-format
 msgctxt "Help"
 msgid "  %1: To enable the high DPI mode."
 msgstr ""
 
 #. +> trunk5
-#: skrooge/main.cpp:200
+#: skrooge/main.cpp:198
 #, kde-format
 msgctxt "Splash screen message"
 msgid "Loading …"

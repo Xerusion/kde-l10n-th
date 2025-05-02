@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-pix\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-27 13:55+0200\n"
+"POT-Creation-Date: 2025-05-02 11:00+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -103,19 +103,19 @@ msgid "Drag and drop images here."
 msgstr ""
 
 #. +> trunk6
-#: src/main.qml:377
+#: src/main.qml:379
 #, kde-format
 msgid "Tagged"
 msgstr ""
 
 #. +> trunk6
-#: src/main.qml:378
+#: src/main.qml:380
 #, kde-format
 msgid "File was tagged successfully"
 msgstr ""
 
 #. +> trunk6
-#: src/main.qml:430 src/view_models/PixMenu.qml:45
+#: src/main.qml:433 src/view_models/PixMenu.qml:45
 #, kde-format
 msgid "Delete %1 file?"
 msgid_plural "Delete %1 files?"
@@ -123,7 +123,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: src/main.qml:431 src/view_models/PixMenu.qml:46
+#: src/main.qml:434 src/view_models/PixMenu.qml:46
 #, kde-format
 msgid "Are sure you want to delete this file? This action can not be undone."
 msgid_plural "Are sure you want to delete these files? This action can not be undone."
@@ -131,14 +131,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6
-#: src/main.qml:437 src/view_models/PixMenu.qml:53
+#: src/main.qml:440 src/view_models/PixMenu.qml:53
 #, kde-format
 msgid "Cancel"
 msgstr ""
 
 #. +> trunk6
-#: src/main.qml:443 src/view_models/PixMenu.qml:59
-#: src/view_models/PixMenu.qml:240 src/widgets/SelectionBar.qml:113
+#: src/main.qml:446 src/view_models/PixMenu.qml:59
+#: src/view_models/PixMenu.qml:239 src/widgets/SelectionBar.qml:110
 #, kde-format
 msgid "Remove"
 msgstr ""
@@ -277,7 +277,7 @@ msgid "Info"
 msgstr ""
 
 #. +> trunk6
-#: src/view_models/PixMenu.qml:95 src/widgets/SelectionBar.qml:75
+#: src/view_models/PixMenu.qml:95 src/widgets/SelectionBar.qml:73
 #, kde-format
 msgid "Share"
 msgstr ""
@@ -307,31 +307,31 @@ msgid "Add to Album"
 msgstr ""
 
 #. +> trunk6
-#: src/view_models/PixMenu.qml:162
+#: src/view_models/PixMenu.qml:161
 #, kde-format
 msgid "Edit"
 msgstr ""
 
 #. +> trunk6
-#: src/view_models/PixMenu.qml:172
+#: src/view_models/PixMenu.qml:171
 #, kde-format
 msgid "Save as"
 msgstr ""
 
 #. +> trunk6
-#: src/view_models/PixMenu.qml:193
+#: src/view_models/PixMenu.qml:192
 #, kde-format
 msgid "Open with"
 msgstr ""
 
 #. +> trunk6
-#: src/view_models/PixMenu.qml:211
+#: src/view_models/PixMenu.qml:210
 #, kde-format
 msgid "Go to Folder"
 msgstr ""
 
 #. +> trunk6
-#: src/view_models/PixMenu.qml:228
+#: src/view_models/PixMenu.qml:227
 #, kde-format
 msgid "Open Location"
 msgstr ""
@@ -469,13 +469,13 @@ msgid "Tag"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/SelectionBar.qml:87
+#: src/widgets/SelectionBar.qml:85
 #, kde-format
 msgid "Un/Fav"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/SelectionBar.qml:94
+#: src/widgets/SelectionBar.qml:92
 #, kde-format
 msgid "Export"
 msgstr ""
@@ -487,7 +487,7 @@ msgid "Behavior"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/SettingsDialog.qml:20
+#: src/widgets/SettingsDialog.qml:20 src/widgets/views/Viewer/PixViewer.qml:141
 #, kde-format
 msgid "Auto Reload"
 msgstr ""
@@ -733,7 +733,7 @@ msgstr[1] ""
 #. +> trunk6
 #: src/widgets/views/Gallery/GalleryView.qml:20
 #: src/widgets/views/Tags/TagsSidebar.qml:67
-#: src/widgets/views/Viewer/PixViewer.qml:93
+#: src/widgets/views/Viewer/PixViewer.qml:172
 #, kde-format
 msgid "No Pics!"
 msgstr ""
@@ -845,61 +845,91 @@ msgid "Previous"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/views/Viewer/PixViewer.qml:94
+#: src/widgets/views/Viewer/PixViewer.qml:122
+#, kde-format
+msgid "The current image file has been modified or removed externally"
+msgstr ""
+
+#. +> trunk6
+#: src/widgets/views/Viewer/PixViewer.qml:123
+#, kde-format
+msgid "The image was deleted"
+msgstr ""
+
+#. +> trunk6
+#: src/widgets/views/Viewer/PixViewer.qml:123
+#, kde-format
+msgid "The image was modified"
+msgstr ""
+
+#. +> trunk6
+#: src/widgets/views/Viewer/PixViewer.qml:129
+#, kde-format
+msgid "Reload"
+msgstr ""
+
+#. +> trunk6
+#: src/widgets/views/Viewer/PixViewer.qml:156
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#. +> trunk6
+#: src/widgets/views/Viewer/PixViewer.qml:173
 #, kde-format
 msgid "Open an image from your collection"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/views/Viewer/Viewer.qml:85
+#: src/widgets/views/Viewer/Viewer.qml:86
 #, kde-format
 msgid "Text copied!"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/views/Viewer/Viewer.qml:89
+#: src/widgets/views/Viewer/Viewer.qml:90
 #, kde-format
 msgid "Image file copied!"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/views/Viewer/Viewer.qml:105
+#: src/widgets/views/Viewer/Viewer.qml:106
 #, kde-format
 msgid "Call"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/views/Viewer/Viewer.qml:117
+#: src/widgets/views/Viewer/Viewer.qml:118
 #, kde-format
 msgid "Save as Contact"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/views/Viewer/Viewer.qml:124
+#: src/widgets/views/Viewer/Viewer.qml:125
 #, kde-format
 msgid "Message"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/views/Viewer/Viewer.qml:137
+#: src/widgets/views/Viewer/Viewer.qml:138
 #, kde-format
 msgid "Open Link"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/views/Viewer/Viewer.qml:147
+#: src/widgets/views/Viewer/Viewer.qml:148
 #, kde-format
 msgid "Create Event"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/views/Viewer/Viewer.qml:154
+#: src/widgets/views/Viewer/Viewer.qml:155
 #, kde-format
 msgid "Save to Note"
 msgstr ""
 
 #. +> trunk6
-#: src/widgets/views/Viewer/Viewer.qml:161
+#: src/widgets/views/Viewer/Viewer.qml:162
 #, kde-format
 msgid "Search Selected Text on Google..."
 msgstr ""

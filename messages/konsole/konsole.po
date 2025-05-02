@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-13 11:08+0200\n"
+"POT-Creation-Date: 2025-04-30 09:39+0200\n"
 "PO-Revision-Date: 2025-03-17 21:03+0700\n"
 "Last-Translator: Atirut Wattanamongkol <atirut.wattanamongkol@gmailcom>\n"
 "Language-Team: Thai\n"
@@ -4696,17 +4696,26 @@ msgid "Draw intense colors in bold font"
 msgstr "วาดตัวอักษรตัวหนาด้วยสีที่เข้มขึ้น"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useFontLineCharactersButton)
-#. +> trunk6 stable6
+#. +> trunk6
+#: widgets/EditProfileAppearancePage.ui:188
+#, kde-format
+msgctxt "Characters for drawing lines for a frame or box in TUI programs. Not a row of characters."
+msgid "Use the selected font for line characters instead of the builtin code"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, useFontLineCharactersButton)
+#. +> stable6
 #: widgets/EditProfileAppearancePage.ui:188
 #, kde-format
 msgid "Use the selected font for line characters instead of the builtin code"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, useFontLineCharactersButton)
-#. +> trunk6 stable6
+#. +> trunk6
 #: widgets/EditProfileAppearancePage.ui:191
 #, kde-format
-msgid "Use line characters contained in font"
+msgctxt "Characters for drawing lines for a frame or box in TUI programs. Not a row of characters."
+msgid ">Use line characters contained in font"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useFontBrailleCharactersButton)
@@ -4721,6 +4730,13 @@ msgstr ""
 #: widgets/EditProfileAppearancePage.ui:201
 #, kde-format
 msgid "Use unicode Braille characters contained in font"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, useFontLineCharactersButton)
+#. +> stable6
+#: widgets/EditProfileAppearancePage.ui:191
+#, kde-format
+msgid "Use line characters contained in font"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, cursorTab)

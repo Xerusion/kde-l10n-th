@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_comic\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-27 13:55+0200\n"
+"POT-Creation-Date: 2025-05-02 11:00+0200\n"
 "PO-Revision-Date: 2010-03-27 22:05+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6 stable5
-#: comicdata.cpp:87
+#: comicdata.cpp:84
 #, kde-format
 msgctxt "an abbreviation for Number"
 msgid "# %1"
@@ -76,7 +76,7 @@ msgid "Advanced"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/configAdvanced.qml:33
+#: qml/configAdvanced.qml:24
 #, fuzzy, kde-format
 #| msgid "Comic:"
 msgctxt "@label:spinbox"
@@ -84,7 +84,7 @@ msgid "Comic cache:"
 msgstr "การ์ตูน:"
 
 #. +> trunk6 stable6 stable5
-#: qml/configAdvanced.qml:42
+#: qml/configAdvanced.qml:33
 #, kde-format
 msgctxt "@item:valuesuffix spacing to number + unit"
 msgid "strip per comic"
@@ -92,14 +92,14 @@ msgid_plural "strips per comic"
 msgstr[0] ""
 
 #. +> trunk6 stable6 stable5
-#: qml/configAppearance.qml:42
+#: qml/configAppearance.qml:27
 #, kde-format
 msgctxt "Heading for showing various elements of a comic"
 msgid "Show:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/configAppearance.qml:43
+#: qml/configAppearance.qml:28
 #, fuzzy, kde-format
 #| msgid "Show comic title"
 msgctxt "@option:check"
@@ -107,7 +107,7 @@ msgid "Comic title"
 msgstr "แสดงชื่อการ์ตูน"
 
 #. +> trunk6 stable6 stable5
-#: qml/configAppearance.qml:49
+#: qml/configAppearance.qml:33
 #, fuzzy, kde-format
 #| msgid "Show comic identifier"
 msgctxt "@option:check"
@@ -115,7 +115,7 @@ msgid "Comic identifier"
 msgstr "แสดงตัวแสดงตัวของการ์ตูน"
 
 #. +> trunk6 stable6 stable5
-#: qml/configAppearance.qml:55
+#: qml/configAppearance.qml:38
 #, fuzzy, kde-format
 #| msgid "Show comic author"
 msgctxt "@option:check"
@@ -123,7 +123,7 @@ msgid "Comic author"
 msgstr "แสดงผู้เขียนการ์ตูน"
 
 #. +> trunk6 stable6 stable5
-#: qml/configAppearance.qml:61
+#: qml/configAppearance.qml:43
 #, fuzzy, kde-format
 #| msgid "Comic:"
 msgctxt "@option:check"
@@ -131,27 +131,27 @@ msgid "Comic URL"
 msgstr "การ์ตูน:"
 
 #. +> trunk6 stable6 stable5
-#: qml/configAppearance.qml:71
+#: qml/configAppearance.qml:52
 #, kde-format
 msgid "Show navigation buttons:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/configAppearance.qml:72
+#: qml/configAppearance.qml:53
 #, kde-format
 msgctxt "@option:check"
 msgid "Always"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/configAppearance.qml:79
+#: qml/configAppearance.qml:59
 #, kde-format
 msgctxt "@option:check"
 msgid "Only on hover"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/configGeneral.qml:50
+#: qml/configGeneral.qml:38
 #, fuzzy, kde-format
 #| msgid "Comic:"
 msgctxt "@title:group"
@@ -159,7 +159,7 @@ msgid "Comics:"
 msgstr "การ์ตูน:"
 
 #. +> trunk6 stable6 stable5
-#: qml/configGeneral.qml:70
+#: qml/configGeneral.qml:58
 #, fuzzy, kde-format
 #| msgid "&Get New Comics..."
 msgctxt "@action:button"
@@ -167,14 +167,14 @@ msgid "Get New Comics…"
 msgstr "&หาการ์ตูนใหม่ ๆ ..."
 
 #. +> trunk6 stable6 stable5
-#: qml/configGeneral.qml:81
+#: qml/configGeneral.qml:69
 #, kde-format
 msgctxt "@option:check"
 msgid "Middle-click on comic to display at original size"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/configGeneral.qml:90
+#: qml/configGeneral.qml:77
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Check for new comics every:"
@@ -188,7 +188,7 @@ msgid "Check for new plugins every:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/configGeneral.qml:99
+#: qml/configGeneral.qml:85
 #, kde-format
 msgctxt "@item:valuesuffix spacing to number + unit (minutes)"
 msgid "minute"
@@ -204,49 +204,49 @@ msgid_plural "days"
 msgstr[0] ""
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:39
+#: qml/main.qml:54
 #, kde-format
 msgctxt "@action comic strip"
 msgid "&Next Tab with a New Strip"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:46
+#: qml/main.qml:61
 #, kde-format
 msgctxt "@action"
 msgid "Jump to &First Strip"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:52
+#: qml/main.qml:67
 #, kde-format
 msgctxt "@action"
 msgid "Jump to &Current Strip"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:58
+#: qml/main.qml:73
 #, kde-format
 msgctxt "@action"
 msgid "Jump to Strip…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:64
+#: qml/main.qml:79
 #, kde-format
 msgctxt "@action"
 msgid "Visit the Website"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:69
+#: qml/main.qml:84
 #, kde-format
 msgctxt "@action"
 msgid "Visit the Shop &Website"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:77
+#: qml/main.qml:89
 #, fuzzy, kde-format
 #| msgid "&Save Comic As..."
 msgctxt "@action"
@@ -254,20 +254,11 @@ msgid "&Save Comic As…"
 msgstr "&บันทึกหนังสือการ์ตูนเป็น..."
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:83
+#: qml/main.qml:98
 #, kde-format
 msgctxt "@option:check Context menu of comic image"
 msgid "&Actual Size"
 msgstr "ขนาด&จริง"
-
-#. +> trunk6 stable6 stable5
-#: qml/main.qml:91
-#, fuzzy, kde-format
-#| msgctxt "@option:check Context menu of comic image"
-#| msgid "Store current &Position"
-msgctxt "@option:check Context menu of comic image"
-msgid "Store Current &Position"
-msgstr "&จัดเก็บตำแหน่งปัจจุบัน"
 
 #. +> stable6 stable5
 #: comic.cpp:102
@@ -276,18 +267,34 @@ msgctxt "@action:inmenu %1 is the name of a web browser"
 msgid "View in %1"
 msgstr ""
 
+#. +> trunk6 stable6 stable5
+#: qml/main.qml:106
+#, fuzzy, kde-format
+#| msgctxt "@option:check Context menu of comic image"
+#| msgid "Store current &Position"
+msgctxt "@option:check Context menu of comic image"
+msgid "Store Current &Position"
+msgstr "&จัดเก็บตำแหน่งปัจจุบัน"
+
 #. +> trunk6
-#: qml/main.qml:226
+#: qml/main.qml:230
 #, kde-format
 msgctxt "@info placeholdermessage if no comics loaded"
 msgid "No comics configured"
 msgstr ""
 
 #. +> trunk6
-#: qml/main.qml:229
+#: qml/main.qml:233
 #, kde-format
 msgctxt "@action:button helpfulAction opens settings dialog"
 msgid "Choose comic…"
+msgstr ""
+
+#. +> trunk6
+#: qml/main.qml:244
+#, kde-format
+msgctxt "@other filename pattern %1 path %2 comic (provider) name, %3 image id"
+msgid "%1/%2 - %3.png"
 msgstr ""
 
 #. +> trunk6 stable6 stable5

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-27 13:55+0200\n"
+"POT-Creation-Date: 2025-04-28 15:19+0200\n"
 "PO-Revision-Date: 2025-03-20 15:34+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -2305,7 +2305,7 @@ msgid " (Points to %1)"
 msgstr " (ชี้ไปยัง %1)"
 
 #. +> trunk6 trunk5
-#: core/mimetypefinderjob.cpp:57 gui/openurljob.cpp:145
+#: core/mimetypefinderjob.cpp:57 gui/openurljob.cpp:150
 #: widgets/renamedialog.cpp:608
 #, kde-format
 msgid ""
@@ -3754,8 +3754,7 @@ msgid "*|All Files"
 msgstr "*|ทุกแฟ้ม"
 
 #. +> trunk6 trunk5
-#: filewidgets/kfilewidget.cpp:2187 widgets/executablefileopendialog.cpp:44
-#: widgets/kfileitemactions.cpp:742
+#: filewidgets/kfilewidget.cpp:2187 widgets/kfileitemactions.cpp:742
 #, kde-format
 msgid "&Open"
 msgstr "เ&ปิด"
@@ -4146,7 +4145,7 @@ msgstr ""
 "%2"
 
 #. +> trunk6 trunk5
-#: gui/applicationlauncherjob.cpp:291 gui/openurljob.cpp:644
+#: gui/applicationlauncherjob.cpp:291 gui/openurljob.cpp:649
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr "คุณไม่ได้รับการอนุญาตให้เลือกโปรแกรมที่จะเปิดใช้แฟ้มนี้"
@@ -4220,13 +4219,13 @@ msgid "No terminal emulator found"
 msgstr "ไม่พบโปรแกรม terminal emulator"
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:158
+#: gui/openurljob.cpp:163
 #, kde-format
 msgid "Failed to open %1"
 msgstr "ไม่สามารถเปิด %1 ได้"
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:296
+#: gui/openurljob.cpp:301
 #, kde-format
 msgid ""
 "The desktop entry file\n"
@@ -4238,25 +4237,25 @@ msgstr ""
 "เป็นประเภทการเชื่อมโยง แต่ไม่มีส่วน URL=... อยู่"
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:374
+#: gui/openurljob.cpp:379
 #, kde-format
 msgid "The executable file \"%1\" is located on a remote filesystem. For safety reasons it will not be started."
 msgstr "ไฟล์ปฏิบัติการ \"%1\" อยู่บนระบบไฟล์ระยะไกล ด้วยเหตุผลด้านความปลอดภัยจึงไม่เริ่ม"
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:410
+#: gui/openurljob.cpp:415
 #, kde-format
 msgid "For security reasons, launching executables is not allowed in this context."
 msgstr "ด้วยเหตุผลด้านความปลอดภัย การเปิดใช้ไฟล์ปฏิบัติการไม่ได้รับอนุญาตในบริบทนี้"
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:440
+#: gui/openurljob.cpp:445
 #, kde-format
 msgid "The program \"%1\" needs to have executable permission before it can be launched."
 msgstr "โปรแกรม \"%1\" ต้องได้รับอนุญาตก่อนจึงจะเปิดใช้งานได้"
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:451
+#: gui/openurljob.cpp:456
 #, kde-format
 msgid ""
 "Unable to make file \"%1\" executable.\n"
@@ -4266,13 +4265,13 @@ msgstr ""
 "%2."
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:537
+#: gui/openurljob.cpp:542
 #, kde-format
 msgid "The desktop entry file %1 has no Type=... entry."
 msgstr "ภายในแฟ้มพื้นที่ทำงาน %1 ไม่มีส่วน Type=... อยู่"
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:630
+#: gui/openurljob.cpp:635
 #, kde-format
 msgid ""
 "This file is incomplete and should not be opened.\n"
@@ -4282,13 +4281,13 @@ msgstr ""
 "ตรวจสอบแอปพลิเคชันที่เปิดอยู่และพื้นที่การแจ้งเตือนว่ามีงานหรือการดาวน์โหลดใด ๆ ที่กำลังรออยู่หรือไม่"
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:656
+#: gui/openurljob.cpp:661
 #, kde-format
 msgid "Failed to open the file."
 msgstr "ไม่สามารถเปิดไฟล์ได้"
 
 #. +> trunk6 trunk5
-#: gui/openurljob.cpp:690
+#: gui/openurljob.cpp:695
 #, kde-format
 msgid "The program \"%1\" could not be launched."
 msgstr "ไม่สามารถเปิดโปรแกรม \"%1\" ได้"
@@ -5410,23 +5409,56 @@ msgstr "&คัดลอกที่นี่"
 msgid "&Link Here"
 msgstr "&ลิงค์ที่นี่"
 
-#. +> trunk6 trunk5
-#: widgets/executablefileopendialog.cpp:21
-#, kde-format
-msgid "What do you wish to do with this file?"
-msgstr "คุณต้องการทำอะไรกับไฟล์นี้?"
-
-#. +> trunk6 trunk5
-#: widgets/executablefileopendialog.cpp:24
-#, kde-format
-msgid "Do not ask again"
-msgstr "ไม่ต้องถามอีก"
-
-#. +> trunk6 trunk5
+#. +> trunk5
 #: widgets/executablefileopendialog.cpp:34
 #, kde-format
 msgid "&Execute"
 msgstr "&ประมวลผล"
+
+#. +> trunk6
+#: widgets/executablefileopendialog.cpp:72
+#, fuzzy, kde-format
+#| msgid "Launching %1"
+msgctxt "@action:button Launch script"
+msgid "&Launch"
+msgstr "ทำการเรียก %1"
+
+#. +> trunk6 trunk5
+#: widgets/executablefileopendialog.cpp:80
+#, kde-format
+msgid "What do you wish to do with this file?"
+msgstr "คุณต้องการทำอะไรกับไฟล์นี้?"
+
+#. +> trunk6
+#: widgets/executablefileopendialog.cpp:83
+#, fuzzy, kde-format
+#| msgid "&Open"
+msgctxt "@action:button"
+msgid "&Open"
+msgstr "เ&ปิด"
+
+#. +> trunk6
+#: widgets/executablefileopendialog.cpp:85
+#, fuzzy, kde-format
+#| msgid "&Open with %1"
+msgctxt "@action:button"
+msgid "&Open with %1"
+msgstr "เ&ปิดด้วย %1"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6
+#: widgets/executablefileopendialog.ui:26
+#, fuzzy, kde-format
+#| msgid "What do you wish to do with this file?"
+msgid "Would you like to launch this file?"
+msgstr "คุณต้องการทำอะไรกับไฟล์นี้?"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dontAgainCheckBox)
+#. +> trunk6 trunk5
+#: widgets/executablefileopendialog.ui:95
+#, kde-format
+msgid "Do not ask again"
+msgstr "ไม่ต้องถามอีก"
 
 #. +> trunk6 trunk5
 #: widgets/fileundomanager.cpp:123

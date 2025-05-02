@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-10 11:21+0200\n"
+"POT-Creation-Date: 2025-05-02 11:00+0200\n"
 "PO-Revision-Date: 2010-12-18 08:01+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -217,7 +217,7 @@ msgid "<strong>You need to first install the debugger application (%1) then clic
 msgstr "คุณจำเป็นต้องทำการติดตั้งแพกเกจเครื่องมือดีบั๊ก (%1) ก่อน แล้วคลิกที่ปุ่ม <interface>โหลดใหม่อีกคร้ง</interface>"
 
 #. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:378 qml/DeveloperPage.qml:113
+#: backtracewidget.cpp:378 qml/DeveloperPage.qml:126
 #, kde-format
 msgctxt "@title:window"
 msgid "Error during the installation of debug symbols"
@@ -225,7 +225,7 @@ msgstr "เกิดข้อผิดพลาดขึ้นระหว่า
 
 #. i18nc here because that'd close the html tag but we need to append an unordered list of paths
 #. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:409 qml/DeveloperPage.qml:223
+#: backtracewidget.cpp:409 qml/DeveloperPage.qml:239
 #, kde-format
 msgid "The packages containing debug information for the following application and libraries are missing:"
 msgstr "ไม่มีแพกเกจต่าง ๆ ที่มีข้อมูลการดีบั๊กสำหรับโปรแกรมและไลบรารีต่อไปนี้:"
@@ -943,7 +943,7 @@ msgid "Custom settings of the application that may be related"
 msgstr "การตั้งค่าต่าง ๆ ของโปรแกรมด้วยตนเอง ซึ่งอาจจะเกี่ยวพันกับข้อขัดข้อง"
 
 #. +> trunk6 stable6 stable5
-#: qml/ContextPage.qml:85 qml/DeveloperPage.qml:216
+#: qml/ContextPage.qml:85 qml/DeveloperPage.qml:232
 msgctxt "@title"
 msgid "Not Sufficiently Useful"
 msgstr ""
@@ -1044,6 +1044,12 @@ msgctxt "@action:button"
 msgid "Save"
 msgstr ""
 
+#. +> trunk6
+#: qml/DeveloperPage.qml:97
+msgctxt "@info"
+msgid "This backtrace is very limited because there was not enough memory available to generate a full backtrace. You can close some applications and try again."
+msgstr ""
+
 #. +> stable6 stable5
 #: qml/DeveloperPage.qml:130
 #, fuzzy
@@ -1065,8 +1071,17 @@ msgstr ""
 "<p>การติดตามการทำงานย้อนกลับ จะอธิบายได้ว่า มีอะไรเกิดขึ้นบ้างภายในโปรแกรมเมื่อมันทำงานขัดข้อง โดยนักพัฒนาจะสามารถดูย้อนกลับลงไปจนถึงเมื่อโปรแกรมเพื่งเริมทำงานได้ แต่มันอาจจะดูไม่มีประโยชน์สำหรับคุณ แต่ก็จะมีคุณค่ามากเมื่อมีมันไว้เป็นข้อมูล เพื่อใช้ในการรายงานข้อผิดพลาด <br />"
 "การติดตามการทำงานย้อนกลับนั้น โดยทั่วไปแล้วจะถูกใช้ในระหว่างการโต้ตอบกับโปรแกรมในระหว่างทำการดีบั๊ก</p>"
 
+#. +> trunk6 stable6
+#: qml/DeveloperPage.qml:102 qml/main.qml:114
+#, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Retry..."
+msgctxt "@action retry gathering crash data"
+msgid "Retry"
+msgstr "ลองใหม่..."
+
 #. +> trunk6
-#: qml/DeveloperPage.qml:179
+#: qml/DeveloperPage.qml:192
 #, fuzzy
 #| msgctxt "@info/rich"
 #| msgid "You can click the <interface>Install Debug Symbols</interface> button in order to automatically install the missing debugging information packages. If this method does not work: please read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful backtrace; install the needed packages (<link url='%2'>list of files</link>) and click the <interface>Reload</interface> button."
@@ -1102,7 +1117,7 @@ msgid ""
 msgstr "คุณสามารถคลิกที่ปุ่ม <interface>ติดตั้งสัญลักษณ์ต่าง ๆ สำหรับดีบั๊ก</interface> เพื่อให้มีการติดตั้งแพกเกจที่ไม่มีอยู่ของข้อมูลของการดีบั๊ก หากวิธีนี้ยังใช้ไม่ได้อีก: โปรดอ่าน <link url='%1'>จะสร้างรายงานข้อผิดพลาดที่มีประโยชน์ได้อย่างไร</link> เพื่อเรียนรู้ว่าจะหาค่าการติดตามการทำงานย้อนกลับได้อย่างไร จากนั้นให้ทำการติดตั้งแพกเกจต่าง ๆ (<link url='%2'>รายการแฟ้มต่าง ๆ</link>) แล้วคลิกที่ปุม <interface>โหลดใหม่อีกครั้ง</interface>"
 
 #. +> trunk6
-#: qml/DeveloperPage.qml:187
+#: qml/DeveloperPage.qml:200
 #, fuzzy
 #| msgctxt "@info/rich"
 #| msgid "Please read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful backtrace; install the needed packages (<link url='%2'>list of files</link>) and click the <interface>Reload</interface> button."
@@ -1135,7 +1150,7 @@ msgid ""
 msgstr "โปรดอ่าน <link url='%1'>จะสร้างรายงานข้อผิดพลาดที่มีประโยชน์ได้อย่างไร</link> เพื่อเรียนรู้ว่าจะหาค่าการติดตามการทำงานย้อนกลับได้อย่างไร จากนั้นให้ทำการติดตั้งแพกเกจต่าง ๆ (<link url='%2'>รายการแฟ้มต่าง ๆ</link>) แล้วคลิกที่ปุม <interface>โหลดใหม่อีกครั้ง</interface>"
 
 #. +> trunk6
-#: qml/DeveloperPage.qml:194
+#: qml/DeveloperPage.qml:207
 #, fuzzy
 #| msgctxt "@info/rich"
 #| msgid "You could try to regenerate the backtrace by clicking the <interface>Reload</interface> button."
@@ -1144,7 +1159,7 @@ msgid "Try to regenerate the backtrace by clicking the <interface>Reload</interf
 msgstr "คุณสามารถทำการสร้างการติดตามการทำงานย้อนกลับได้ใหม่ โดยคลิกที่ปุ่ม <interface>โหลดใหม่อีกคร้ง</interface>"
 
 #. +> trunk6
-#: qml/DeveloperPage.qml:198
+#: qml/DeveloperPage.qml:211
 #, fuzzy
 #| msgctxt "@info/rich"
 #| msgid "You need to install the debugger package (%1) and click the <interface>Reload</interface> button."
@@ -1160,6 +1175,15 @@ msgstr "คุณจำเป็นต้องทำการติดตั้
 msgctxt "@info/rich"
 msgid "<emphasis strong='true'>You need to first install the debugger application (%1) then click the <interface>Reload</interface> button.</emphasis>"
 msgstr "คุณจำเป็นต้องทำการติดตั้งแพกเกจเครื่องมือดีบั๊ก (%1) ก่อน แล้วคลิกที่ปุ่ม <interface>โหลดใหม่อีกคร้ง</interface>"
+
+#. +> trunk6
+#: qml/DeveloperPage.qml:215
+#, fuzzy
+#| msgctxt "@info/rich"
+#| msgid "You could try to regenerate the backtrace by clicking the <interface>Reload</interface> button."
+msgctxt "@info/rich"
+msgid "The backtrace generation was stopped due to memory pressure. You could try to regenerate the backtrace by clicking the <interface>Reload</interface> button."
+msgstr "คุณสามารถทำการสร้างการติดตามการทำงานย้อนกลับได้ใหม่ โดยคลิกที่ปุ่ม <interface>โหลดใหม่อีกคร้ง</interface>"
 
 #. +> trunk6 stable6
 #: qml/DownloadSymbolsCheckBox.qml:16
@@ -1331,26 +1355,23 @@ msgid ""
 "any side effects.</para>"
 msgstr ""
 
+#. +> trunk6
+#: qml/main.qml:93
+msgctxt "@info"
+msgid "There was not enough memory to gather crash information. You can close some applications to free up memory and try again."
+msgstr ""
+
 #. +> trunk6 stable6
-#: qml/main.qml:94
+#: qml/main.qml:98
 msgctxt "@info"
 msgid "Gathering crash information failed for unknown reasons. You can retry, close the window, or <link url='%1'>view detailed output</link>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/main.qml:97
+#: qml/main.qml:101
 msgctxt "@info"
 msgid "Gathering crash information failed for unknown reasons. You can retry, or close the window."
 msgstr ""
-
-#. +> trunk6 stable6
-#: qml/main.qml:110
-#, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Retry..."
-msgctxt "@action retry gathering crash data"
-msgid "Retry"
-msgstr "ลองใหม่..."
 
 #. +> trunk6
 #: qml/MainPage.qml:12

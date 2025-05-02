@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kdenlive-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-13 10:25+0100\n"
+"POT-Creation-Date: 2025-05-02 11:01+0200\n"
 "PO-Revision-Date: 2025-03-17 14:56+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -11,3 +11,183 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:7
+msgid "We are proud to announce the release of Kdenlive 25.04.0. Here are some highlights of this major release:"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:9
+msgid "Object segmentation"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:10
+msgid "A new plugin based on the <a target=\"_blank\" href=\"https://github.com/facebookresearch/sam2\">SAM2</a> model now allows you to create object masks to remove the background of your videos or apply an effect only to an object. All processing is done locally."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:15
+msgid "Improved audio waveforms in timeline."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:16
+msgid "A nice refactoring was done by [Etienne André](https://etiand.re/posts/2025/01/audio-waveforms-in-kdenlive-technical-upgrades-for-speed-precision-and-better-ux/) to make the audio thumbnails faster and more precise."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:18
+msgid "OpentimelineIO import/export"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:19
+msgid "Darby Johnston rewrote our OpentimelineIO import and export function using the C++ library. Now you can exchange projects with other editing applications that support this open source file format. Please note that effects, filters, and transitions are not exported as each application uses its own standard."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:21
+msgid "Workflow improvements"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:22
+msgid "Among the many small improvements, here are some of the noteworthy changes:"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:24
+msgid "The duration of multiple adjacent clips can be changed in one operation {{< video src-webm=\"multiple-resize.webm\" width=\"846\" height=\"404\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:26
+msgid "Allow vertical zooming of audio waveforms {{< video src-webm=\"audio-zoom.webm\" width=\"841\" height=\"180\" >}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:28
+msgid "Fixed proxy clips workflow for videos with an alpha channel"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:29
+msgid "Added Shift+Click to expand/collapse all effects in the stack"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:30
+msgid "It is now easier to find out which monitor is active as the time code widget now uses a different color"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:31
+msgid "Added a search feature to the project notes, and made standard search shortcut work on all widgets"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:32
+msgid "Fixed UI translations not appearing correctly despite being translated"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:33
+msgid "Kdenlive now remembers the last used LUT files when doing color correction, making it easier to access them"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:34
+msgid "Fixed Render widget hidden behind main window on Mac"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:36
+msgid "Many other improvements made it into this release, and we closed more than 30 reported bugs. Please see the change log below for details."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:38
+msgid "Last minute fixes"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:39
+msgid "Some last minute fixes have been included in our binaries:"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:40
+msgid "Fixed a corruption when copying and pasting sequence clips to another project"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:41
+msgid "Improved the Title Editor's text outline to follow the font curves more closely"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:42
+msgid "Fixed an application freeze when trying to extract the last clip in a track"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:43
+msgid "Made the Auto Save feature less aggressive by increasing the time intervals and fine tuning the triggers in order to prevent a severe lag in large projects"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:45
+msgid "Need help ?"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:46
+msgid "As usual, you will find very useful tips in our [documentation website](https://docs.kdenlive.org). You can also get help and exchange your ideas in our <a target=\"_blank\" href=\"https://matrix.to/#/#kdenlive:kde.org\">users matrix chat room</a>."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:48
+msgid "Get involved"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:49
+msgid "Kdenlive relies on its community, your help is always welcome. You can contribute by :"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:51
+msgid "Helping to identify and <a target=\"_blank\" href=\"https://community.kde.org/Guidelines_and_HOWTOs/Bug_triaging\">triage bugs</a>"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:52
+msgid "Contribute to <a target=\"_blank\" href=\"https://community.kde.org/Get_Involved/translation\">translating</a> Kdenlive in your language"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:53
+msgid "Promote Kdenlive in your local community"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:55
+msgid "You can also support us by considering a [donation](/fund) that will help Kdenlive's development."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:57
+msgid "The work on the OpentimelineIO and audio waveform features was made possible thanks to all the people who contributed to our fundraising, see our [final campaign report](https://kdenlive.org/news/2025/fundraising-final-report/)."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:0
+msgid "Jean-Baptiste Mardelle"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.04.0/index.md:0
+msgid "kdenlive"
+msgstr ""
