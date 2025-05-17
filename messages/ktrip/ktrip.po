@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 15:19+0200\n"
+"POT-Creation-Date: 2025-05-15 11:58+0200\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -23,6 +23,21 @@ msgstr ""
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
+
+#. +> trunk6
+#: localizer.cpp:92
+#, kde-format
+msgctxt "time"
+msgid "Now"
+msgstr ""
+
+#. +> trunk6
+#: localizer.cpp:96
+#, kde-format
+msgctxt "time"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] ""
 
 #. +> trunk6 stable6
 #: main.cpp:76
@@ -161,61 +176,43 @@ msgstr[1] ""
 msgid "No connections found"
 msgstr ""
 
+#. +> trunk6
+#: qml/DeparturesPage.qml:23
+#, kde-format
+msgctxt "@title"
+msgid "Arrivals"
+msgstr ""
+
 #. +> trunk6 stable6
-#: qml/DeparturesPage.qml:21
+#: qml/DeparturesPage.qml:23
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr ""
 
-#. +> trunk6 stable6
-#: qml/DeparturesPage.qml:40
+#. +> stable6
+#: qml/DeparturesPage.qml:37
 #, kde-format
 msgid "%3 %1 (%2)"
 msgstr ""
 
 #. +> trunk6
-#: qml/JourneyQueryPage.qml:31
+#: qml/DeparturesPage.qml:89
 #, kde-format
-msgid "Earlier"
+msgctxt "@info"
+msgid "Platform %1"
 msgstr ""
 
 #. +> trunk6
-#: qml/JourneyQueryPage.qml:37
+#: qml/DeparturesPage.qml:138
 #, kde-format
-msgid "Later"
+msgid "No arrivals found."
 msgstr ""
 
 #. +> trunk6
-#: qml/JourneyQueryPage.qml:84
+#: qml/DeparturesPage.qml:138
 #, kde-format
-msgid "Select"
-msgstr ""
-
-#. +> trunk6
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr ""
-
-#. +> trunk6
-#: qml/JourneyQueryPage.qml:124
-#, kde-format
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr ""
-
-#. +> trunk6
-#: qml/JourneyQueryPage.qml:131
-#, kde-format
-msgid "Data providers:"
-msgstr ""
-
-#. +> trunk6
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
+msgid "No departures found."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -391,76 +388,76 @@ msgid "Pick Destination"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:220
+#: qml/QueryPage.qml:217
 #, kde-format
 msgid "Mode of transportation"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:226
+#: qml/QueryPage.qml:223
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:227
+#: qml/QueryPage.qml:224
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:236
+#: qml/QueryPage.qml:233
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:237
+#: qml/QueryPage.qml:234
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:246
+#: qml/QueryPage.qml:243
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:247
+#: qml/QueryPage.qml:244
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:256
+#: qml/QueryPage.qml:253
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:257
+#: qml/QueryPage.qml:254
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:266
+#: qml/QueryPage.qml:263
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
 msgstr ""
 
 #. +> trunk6
-#: qml/QueryPage.qml:267
+#: qml/QueryPage.qml:264
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"

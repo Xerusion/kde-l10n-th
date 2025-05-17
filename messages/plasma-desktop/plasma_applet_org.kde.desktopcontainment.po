@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-16 16:19+0200\n"
+"POT-Creation-Date: 2025-05-16 12:12+0200\n"
 "PO-Revision-Date: 2010-07-07 15:16+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -418,83 +418,175 @@ msgstr "แสดงตัวอย่าง:"
 msgid "Configure Preview Plugins…"
 msgstr "ตัวเลือกเพิ่มเติมของการแสดงตัวอย่าง..."
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigLocation.qml:80
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigLocation.qml:81
+#, fuzzy, kde-format
+#| msgid "Show a place:"
+msgctxt "@title:group form label for radiobutton group"
+msgid "Show:"
+msgstr "แสดงสถานที่:"
+
+#. +> stable5
+#: package/contents/ui/ConfigLocation.qml:81
 #, kde-format
 msgid "Show:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigLocation.qml:82
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigLocation.qml:83
+#, fuzzy, kde-format
+#| msgid "Show the Desktop folder"
+msgctxt "@option:radio"
+msgid "Desktop folder"
+msgstr "แสดงโฟลเดอร์พื้นที่ทำงาน"
+
+#. +> stable5
+#: package/contents/ui/ConfigLocation.qml:83
 #, fuzzy, kde-format
 #| msgid "Show the Desktop folder"
 msgid "Desktop folder"
 msgstr "แสดงโฟลเดอร์พื้นที่ทำงาน"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigLocation.qml:89
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigLocation.qml:91
+#, kde-format
+msgctxt "@option:radio"
+msgid "Files linked to the current activity"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigLocation.qml:90
 #, kde-format
 msgid "Files linked to the current activity"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigLocation.qml:96
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigLocation.qml:100
+#, kde-format
+msgctxt "@option:radio also label for combobox"
+msgid "Places panel item:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigLocation.qml:97
 #, kde-format
 msgid "Places panel item:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigLocation.qml:129
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigLocation.qml:137
+#, fuzzy, kde-format
+#| msgid "Custom title:"
+msgctxt "@option:radio also label for text field"
+msgid "Custom location:"
+msgstr "หัวเรื่องกำหนดเอง:"
+
+#. +> stable5
+#: package/contents/ui/ConfigLocation.qml:130
 #, fuzzy, kde-format
 #| msgid "Custom title:"
 msgid "Custom location:"
 msgstr "หัวเรื่องกำหนดเอง:"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigLocation.qml:137
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigLocation.qml:145
+#, fuzzy, kde-format
+#| msgid "Type a path or a URL here"
+msgctxt "@info:placeholder custom location"
+msgid "Type path or URL…"
+msgstr "ป้อนพาธหรือที่อยู่ URL ที่นี่"
+
+#. +> stable5
+#: package/contents/ui/ConfigLocation.qml:138
 #, fuzzy, kde-format
 #| msgid "Type a path or a URL here"
 msgid "Type path or URL…"
 msgstr "ป้อนพาธหรือที่อยู่ URL ที่นี่"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigLocation.qml:180
+#. +> stable5
+#: package/contents/ui/ConfigLocation.qml:183
+#, fuzzy, kde-format
+#| msgid "Custom title:"
+msgid "Custom title"
+msgstr "หัวเรื่องกำหนดเอง:"
+
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigLocation.qml:188
+#, fuzzy, kde-format
+#| msgctxt "Music"
+#| msgid "Title:"
+msgctxt "@label:textbox custom widget title"
+msgid "Title:"
+msgstr "ชื่อเพลง:"
+
+#. +> stable5
+#: package/contents/ui/ConfigLocation.qml:181
 #, fuzzy, kde-format
 #| msgctxt "Music"
 #| msgid "Title:"
 msgid "Title:"
 msgstr "ชื่อเพลง:"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigLocation.qml:182
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigLocation.qml:197
+#, kde-format
+msgctxt "@item:inlistbox no title"
+msgid "None"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigLocation.qml:183
 #, kde-format
 msgid "None"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigLocation.qml:182
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigLocation.qml:198
+#, kde-format
+msgctxt "@item:inlistbox default title"
+msgid "Default"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigLocation.qml:183
 #, kde-format
 msgid "Default"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigLocation.qml:182
+#. +> stable5
+#: package/contents/ui/ConfigLocation.qml:198
+#, fuzzy, kde-format
+#| msgid "Enter a customized title"
+msgid "Enter custom title…"
+msgstr "ป้อนชื่อที่จะกำหนดเอง"
+
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigLocation.qml:199
+#, kde-format
+msgctxt "@item:inlistbox full path as title"
+msgid "Full path"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigLocation.qml:183
 #, kde-format
 msgid "Full path"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigLocation.qml:182
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigLocation.qml:200
 #, fuzzy, kde-format
 #| msgid "Custom title:"
-msgid "Custom title"
+msgctxt "@item:inlistbox title from text input field"
+msgid "Custom"
 msgstr "หัวเรื่องกำหนดเอง:"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigLocation.qml:197
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigLocation.qml:209
 #, fuzzy, kde-format
 #| msgid "Enter a customized title"
-msgid "Enter custom title…"
+msgctxt "@info:placeholder custom window title"
+msgid "Enter title…"
 msgstr "ป้อนชื่อที่จะกำหนดเอง"
 
 #. +> trunk6 stable6
@@ -569,47 +661,47 @@ msgid "Select Folder"
 msgstr "เลือกทั้งหมด"
 
 #. +> trunk6 stable6 stable5
-#: plugins/folder/foldermodel.cpp:510
+#: plugins/folder/foldermodel.cpp:503
 #, kde-format
 msgid "&Refresh Desktop"
 msgstr "&ปรับปรุงพื้นที่ทำงานอีกครั้ง"
 
 #. +> trunk6 stable6 stable5
-#: plugins/folder/foldermodel.cpp:510 plugins/folder/foldermodel.cpp:1720
+#: plugins/folder/foldermodel.cpp:503 plugins/folder/foldermodel.cpp:1716
 #, kde-format
 msgid "&Refresh View"
 msgstr "&ปรับปรุงมุมมองอีกครั้ง"
 
 #. +> trunk6 stable6
-#: plugins/folder/foldermodel.cpp:869
+#: plugins/folder/foldermodel.cpp:862
 #, kde-format
 msgctxt "@title:notifications Here 'link' refers to a symbolic link to another file or folder"
 msgid "Link Target Not Found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/folder/foldermodel.cpp:871
+#: plugins/folder/foldermodel.cpp:864
 #, kde-kuit-format
 msgctxt "@info Body text of a system notification"
 msgid "<filename>%1</filename> points to <filename>%2</filename>, but that could not be found. It may have been moved or deleted."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugins/folder/foldermodel.cpp:1729
+#: plugins/folder/foldermodel.cpp:1725
 #, fuzzy, kde-format
 #| msgid "&Empty Trash Bin"
 msgid "&Empty Trash"
 msgstr "&เทถังขยะทิ้ง"
 
-#. +> trunk6
-#: plugins/folder/foldermodel.cpp:1732
+#. +> trunk6 stable6
+#: plugins/folder/foldermodel.cpp:1728
 #, kde-format
 msgctxt "Restore from trash"
 msgid "Restore to Former Location"
 msgstr ""
 
-#. +> stable6 stable5
-#: plugins/folder/foldermodel.cpp:1732
+#. +> stable5
+#: plugins/folder/foldermodel.cpp:1644
 #, fuzzy, kde-format
 #| msgid "&Restore"
 msgctxt "Restore from trash"
@@ -617,40 +709,40 @@ msgid "Restore"
 msgstr "เ&รียกคืน"
 
 #. +> trunk6 stable6 stable5
-#: plugins/folder/foldermodel.cpp:1735
+#: plugins/folder/foldermodel.cpp:1731
 #, kde-format
 msgid "&Open"
 msgstr "เ&ปิด"
 
 #. +> trunk6 stable6
-#: plugins/folder/foldermodel.cpp:1739
+#: plugins/folder/foldermodel.cpp:1735
 #, fuzzy, kde-format
 #| msgid "Show a place:"
 msgctxt "@action:inmenu open file manager showing the target file or folder that this link points to"
 msgid "Show Target"
 msgstr "แสดงสถานที่:"
 
-#. +> trunk6
-#: plugins/folder/foldermodel.cpp:1835
+#. +> trunk6 stable6
+#: plugins/folder/foldermodel.cpp:1831
 #, kde-format
 msgctxt "@action:inmenu Removes the trash icon on the desktop"
 msgid "Remove Trash Icon"
 msgstr ""
 
-#. +> trunk6
-#: plugins/folder/foldermodel.cpp:1838
+#. +> trunk6 stable6
+#: plugins/folder/foldermodel.cpp:1834
 #, kde-format
 msgid "&Move to Trash"
 msgstr "&ทิ้งลงถังขยะ"
 
 #. +> trunk6 stable6 stable5
-#: plugins/folder/foldermodel.cpp:1871
+#: plugins/folder/foldermodel.cpp:1867
 #, kde-format
 msgid "&Paste"
 msgstr "&วาง"
 
 #. +> trunk6 stable6 stable5
-#: plugins/folder/foldermodel.cpp:2022
+#: plugins/folder/foldermodel.cpp:2018
 #, kde-format
 msgid "&Properties"
 msgstr "คุณ&สมบัติ"

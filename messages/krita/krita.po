@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-01 10:22+0200\n"
+"POT-Creation-Date: 2025-05-15 11:58+0200\n"
 "PO-Revision-Date: 2010-05-20 14:01+0700\n"
 "Last-Translator: Phuwanat Sakornsakolpat <narachai@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -14760,7 +14760,7 @@ msgstr "ภาพกลับด้าน"
 #. i18n: context: text @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
 #: krita/kritamenu.action:762
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 msgctxt "action"
 msgid "&Zoom to 100%"
 msgstr "เลือกใหม่"
@@ -14771,7 +14771,7 @@ msgstr "เลือกใหม่"
 #. i18n: context: iconText @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
 #: krita/kritamenu.action:764 krita/kritamenu.action:765
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 msgctxt "action"
 msgid "Zoom to 100%"
 msgstr "เลือกใหม่"
@@ -21536,34 +21536,34 @@ msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
 
 #. +> trunk5
 #: libs/flake/text/KoSvgTextShape.cpp:109
-#: libs/flake/text/KoSvgTextShape.cpp:1662
+#: libs/flake/text/KoSvgTextShape.cpp:1634
 #, kde-format
 msgctxt "Default text for the text shape"
 msgid "Placeholder Text"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/flake/text/KoSvgTextShape.cpp:1641
+#: libs/flake/text/KoSvgTextShape.cpp:1613
 #, fuzzy, kde-format
 msgctxt "Text label in SVG Text Tool"
 msgid "Text"
 msgstr "สี"
 
 #. +> trunk5 stable5
-#: libs/flake/text/KoSvgTextShape.cpp:1643
-#: libs/flake/text/KoSvgTextShape.cpp:1651
+#: libs/flake/text/KoSvgTextShape.cpp:1615
+#: libs/flake/text/KoSvgTextShape.cpp:1623
 #, fuzzy, kde-format
 msgid "SVG Text Shape"
 msgstr "ความแหลม:"
 
 #. +> trunk5 stable5
-#: libs/flake/text/KoSvgTextShape.cpp:1649
+#: libs/flake/text/KoSvgTextShape.cpp:1621
 #, fuzzy, kde-format
 msgid "SVG Text"
 msgstr "สี"
 
 #. +> trunk5 stable5
-#: libs/flake/text/KoSvgTextShape.cpp:1672
+#: libs/flake/text/KoSvgTextShape.cpp:1644
 #, kde-format
 msgctxt "Default text for the text shape"
 msgid "<text>Placeholder Text</text>"
@@ -21769,7 +21769,7 @@ msgstr "ขยาย&ออก"
 #: libs/ui/animation/VideoImportDialog.ui:652
 #: libs/ui/animation/wdg_animationrenderer.ui:77
 #: libs/ui/animation/wdg_animationrenderer.ui:213
-#: libs/ui/forms/wdggeneralsettings.ui:460 libs/ui/forms/wdgnewimage.ui:273
+#: libs/ui/forms/wdggeneralsettings.ui:438 libs/ui/forms/wdgnewimage.ui:273
 #: libs/ui/forms/wdgnewimage.ui:292
 #: libs/ui/layerstyles/wdgBevelAndEmboss.ui:291
 #: libs/ui/layerstyles/wdgBevelAndEmboss.ui:351
@@ -21988,9 +21988,9 @@ msgstr "ลิงค์"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1352
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1355
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1419
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1578
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1587
 #: libs/ui/forms/wdgdisplaysettings.ui:368
-#: libs/ui/forms/wdggeneralsettings.ui:383
+#: libs/ui/forms/wdggeneralsettings.ui:361
 #: libs/ui/forms/wdgrectangleconstraints.ui:59
 #: libs/ui/forms/wdgrectangleconstraints.ui:98
 #: libs/ui/forms/wdgrectangleconstraints.ui:178
@@ -22033,7 +22033,7 @@ msgstr "ลิงค์"
 #: plugins/paintops/hatching/kis_hatching_paintop_settings.cpp:164
 #: plugins/paintops/hatching/KisHatchingOptionsWidget.cpp:27
 #: plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:61
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:175
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:179
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:42
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:44
 #: plugins/paintops/libpaintop/KisDynamicSensorFactoryDistance.cpp:56
@@ -22245,6 +22245,13 @@ msgid "Change Clone Layers"
 msgstr "เปลี่ยนฟิลเตอร์"
 
 #. +> trunk5
+#: libs/image/commands_new/KisImageAnimSettingCommand.cpp:13
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Update Animation Settings"
+msgstr "เลเยอร์"
+
+#. +> trunk5
 #: libs/image/commands_new/KisLayerCollapseCommand.cpp:13
 #, fuzzy, kde-format
 msgctxt "(qtundo-format)"
@@ -22354,7 +22361,7 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: libs/image/kis_base_mask_generator.h:22
-#: libs/ui/dialogs/kis_dlg_preferences.cc:519
+#: libs/ui/dialogs/kis_dlg_preferences.cc:523
 #: libs/ui/kis_bookmarked_configurations_model.cc:54
 #, kde-format
 msgid "Default"
@@ -22769,8 +22776,8 @@ msgstr "ตัวเลือกสี"
 
 #. +> trunk5 stable5
 #: libs/image/kis_layer_properties_icons.cpp:30
-#: libs/resources/KisResourceModel.cpp:141
-#: libs/resources/KisStorageModel.cpp:488
+#: libs/resources/KisResourceModel.cpp:116
+#: libs/resources/KisStorageModel.cpp:473
 #: libs/resources/KisTagResourceModel.cpp:647
 #: plugins/extensions/dbexplorer/DlgDbExplorer.cpp:111
 #, kde-format
@@ -25315,7 +25322,7 @@ msgid "Local Resources"
 msgstr "รูปภาพ"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceCacheDb.cpp:260
+#: libs/resources/KisResourceCacheDb.cpp:353
 #: libs/resourcewidgets/KisStorageChooserWidget.cpp:179
 #: libs/ui/animation/KisAnimationRender.cpp:48
 #: libs/ui/animation/KisAnimationRender.cpp:116
@@ -25332,15 +25339,15 @@ msgstr "รูปภาพ"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:703
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:773
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
-#: libs/ui/dialogs/kis_dlg_preferences.cc:970
+#: libs/ui/dialogs/kis_dlg_preferences.cc:979
 #: libs/ui/input/kis_tablet_debugger.cpp:106 libs/ui/kis_clipboard.cc:728
 #: libs/ui/kis_custom_pattern.cc:126 libs/ui/kis_filter_manager.cc:234
 #: libs/ui/kis_filter_manager.cc:243 libs/ui/kis_layer_manager.cc:312
 #: libs/ui/kis_layer_manager.cc:1018 libs/ui/kis_node_manager.cpp:1314
-#: libs/ui/kis_node_manager.cpp:1377 libs/ui/KisApplication.cpp:1091
-#: libs/ui/KisApplication.cpp:1094 libs/ui/KisApplication.cpp:1110
-#: libs/ui/KisApplication.cpp:1142 libs/ui/KisApplication.cpp:1156
-#: libs/ui/KisApplication.cpp:1184 libs/ui/KisDocument.cpp:1004
+#: libs/ui/kis_node_manager.cpp:1377 libs/ui/KisApplication.cpp:1092
+#: libs/ui/KisApplication.cpp:1095 libs/ui/KisApplication.cpp:1111
+#: libs/ui/KisApplication.cpp:1143 libs/ui/KisApplication.cpp:1157
+#: libs/ui/KisApplication.cpp:1185 libs/ui/KisDocument.cpp:1004
 #: libs/ui/KisDocument.cpp:1019 libs/ui/KisDocument.cpp:1963
 #: libs/ui/KisDocument.cpp:2006 libs/ui/KisDocument.cpp:2017
 #: libs/ui/KisMainWindow.cpp:972 libs/ui/KisMainWindow.cpp:1042
@@ -25398,7 +25405,7 @@ msgid "Krita"
 msgstr "ดินสอสี"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceCacheDb.cpp:260
+#: libs/resources/KisResourceCacheDb.cpp:353
 #, kde-format
 msgid "The resource database scheme has changed. Krita will backup your database and create a new database."
 msgstr ""
@@ -25417,41 +25424,41 @@ msgid "2. The resource location at %1 is not writable."
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceLocator.cpp:821
+#: libs/resources/KisResourceLocator.cpp:816
 #, fuzzy, kde-format
 msgid "Could not add %1 to the database"
 msgstr "ลบการเลือก"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceLocator.cpp:865
-#: libs/resources/KisResourceLocator.cpp:1238
+#: libs/resources/KisResourceLocator.cpp:860
+#: libs/resources/KisResourceLocator.cpp:1221
 #, fuzzy, kde-format
 #| msgid "Could not create the file for saving"
 msgid "Could not remove storage %1 from the database"
 msgstr "ไม่สามารถสร้างแฟ้มเพื่อทำการบันทึกได้"
 
 #. +> trunk5
-#: libs/resources/KisResourceLocator.cpp:978
+#: libs/resources/KisResourceLocator.cpp:973
 #, fuzzy, kde-format
 msgid "Could not synchronize updated font registery with the database"
 msgstr "ไม่สามารถสร้างแฟ้มเพื่อทำการบันทึกได้"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceLocator.cpp:986
+#: libs/resources/KisResourceLocator.cpp:981
 #, kde-format
 msgid "Krita is running for the first time. Initialization will take some time."
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceLocator.cpp:993
+#: libs/resources/KisResourceLocator.cpp:988
 #, fuzzy, kde-format
 #| msgid "Could not create the file for saving"
 msgid "3. Could not create the resource location at %1."
 msgstr "ไม่สามารถสร้างแฟ้มเพื่อทำการบันทึกได้"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceLocator.cpp:1006
-#: libs/resources/KisResourceLocator.cpp:1022
+#: libs/resources/KisResourceLocator.cpp:1001
+#: libs/resources/KisResourceLocator.cpp:1017
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not open %1\n"
@@ -25462,40 +25469,46 @@ msgstr ""
 "เนื่องจาก: %2"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceLocator.cpp:1018
+#: libs/resources/KisResourceLocator.cpp:1013
 #, fuzzy, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "การตั้งค่าใหม่ %1"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceLocator.cpp:1040
-#, fuzzy, kde-format
-msgid "Initializing the resources."
-msgstr "รูปภาพ"
-
-#. +> trunk5 stable5
-#: libs/resources/KisResourceLocator.cpp:1074
+#: libs/resources/KisResourceLocator.cpp:1041
 #, fuzzy, kde-format
 msgid "Temporary Resources"
 msgstr "นำเข้าเอกสาร"
 
 #. +> trunk5
-#: libs/resources/KisResourceLocator.cpp:1080
+#: libs/resources/KisResourceLocator.cpp:1047
 #: libs/resources/KisResourceStorage.h:127
 #, fuzzy, kde-format
 msgid "Font Storage"
 msgstr "เครื่องมือทาสี"
 
+#. +> trunk5
+#: libs/resources/KisResourceLocator.cpp:1170
+#, fuzzy, kde-format
+msgid "Synchronizing the resources."
+msgstr "รูปภาพ"
+
+#. +> stable5
+#: libs/resources/KisResourceLocator.cpp:1032
+#, fuzzy, kde-format
+msgid "Initializing the resources."
+msgstr "รูปภาพ"
+
 #. +> trunk5 stable5
-#: libs/resources/KisResourceLocator.cpp:1214
-#: libs/resources/KisResourceLocator.cpp:1220
+#: libs/resources/KisResourceLocator.cpp:1183
+#: libs/resources/KisResourceLocator.cpp:1191
 #, fuzzy, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr "ไม่สามารถสร้างแฟ้มเพื่อทำการบันทึกได้"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:123
-#: libs/resources/KisStorageModel.cpp:478
+#: libs/resources/KisResourceModel.cpp:98
+#: libs/resources/KisStorageModel.cpp:463
 #: libs/resources/KisTagResourceModel.cpp:629
 #: plugins/extensions/dbexplorer/DlgDbExplorer.cpp:82
 #: plugins/extensions/dbexplorer/DlgDbExplorer.cpp:104
@@ -25505,7 +25518,7 @@ msgid "Id"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:125
+#: libs/resources/KisResourceModel.cpp:100
 #: libs/resources/KisTagResourceModel.cpp:631
 #: plugins/extensions/dbexplorer/DlgDbExplorer.cpp:84
 #, kde-format
@@ -25513,8 +25526,8 @@ msgid "Storage ID"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:127
-#: libs/resources/KisStorageModel.cpp:492
+#: libs/resources/KisResourceModel.cpp:102
+#: libs/resources/KisStorageModel.cpp:477
 #: libs/resources/KisTagResourceModel.cpp:633
 #: plugins/extensions/dbexplorer/DlgDbExplorer.cpp:108
 #: plugins/python/filtermanager/components/filtermanagertreemodel.py:22
@@ -25524,14 +25537,14 @@ msgid "Name"
 msgstr "ชื่อ:"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:129
+#: libs/resources/KisResourceModel.cpp:104
 #: libs/resources/KisTagResourceModel.cpp:635
 #, fuzzy, kde-format
 msgid "File Name"
 msgstr "ลิงค์"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:131
+#: libs/resources/KisResourceModel.cpp:106
 #: libs/resources/KisTagResourceModel.cpp:637
 #, fuzzy, kde-format
 msgid "Tooltip"
@@ -25541,7 +25554,7 @@ msgstr "เครื่องมือ"
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSelectionColorSpace)
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:133
+#: libs/resources/KisResourceModel.cpp:108
 #: libs/resources/KisTagResourceModel.cpp:639
 #: libs/ui/imagesize/imagesize.xmlgui:4
 #: plugins/dockers/widegamutcolorselector/WdgWGSelectorSettings.ui:156
@@ -25555,17 +25568,17 @@ msgid "Image"
 msgstr "รูปภาพ"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:135
+#: libs/resources/KisResourceModel.cpp:110
 #: libs/resources/KisTagResourceModel.cpp:641
 #, fuzzy, kde-format
 msgid "Status"
 msgstr "เพิ่มเลเยอร์..."
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:137
-#: libs/resources/KisStorageModel.cpp:482
+#: libs/resources/KisResourceModel.cpp:112
+#: libs/resources/KisStorageModel.cpp:467
 #: libs/resources/KisTagResourceModel.cpp:643
-#: libs/resourcewidgets/KisIconToolTip.cpp:108
+#: libs/resourcewidgets/KisIconToolTip.cpp:115
 #, fuzzy, kde-format
 #| msgid "Rotation: "
 msgid "Location"
@@ -25573,7 +25586,7 @@ msgstr "การหมุน: "
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:139
+#: libs/resources/KisResourceModel.cpp:114
 #: libs/resources/KisTagResourceModel.cpp:645
 #: plugins/extensions/dbexplorer/WdgDbExplorer.ui:43
 #, fuzzy, kde-format
@@ -25581,7 +25594,7 @@ msgid "Resource Type"
 msgstr "รูปภาพ"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:143
+#: libs/resources/KisResourceModel.cpp:118
 #: libs/resources/KisTagResourceModel.cpp:649
 #: libs/resources/KisTagResourceModel.cpp:679
 #, fuzzy, kde-format
@@ -25589,7 +25602,7 @@ msgid "Storage Active"
 msgstr "นำเข้ารูปภาพ..."
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:145
+#: libs/resources/KisResourceModel.cpp:120
 #: libs/resources/KisTagResourceModel.cpp:651
 #: plugins/extensions/dbexplorer/DlgDbExplorer.cpp:87
 #, kde-format
@@ -25598,7 +25611,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabTags)
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:147
+#: libs/resources/KisResourceModel.cpp:122
 #: libs/resources/KisTagResourceModel.cpp:653
 #: libs/resourcewidgets/KisIconToolTip.cpp:99
 #: plugins/extensions/dbexplorer/WdgDbExplorer.ui:139
@@ -25607,7 +25620,7 @@ msgid "Tags"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:149
+#: libs/resources/KisResourceModel.cpp:124
 #: libs/resources/KisTagResourceModel.cpp:655
 #, fuzzy, kde-format
 #| msgid "Import Image"
@@ -25615,7 +25628,7 @@ msgid "Large Thumbnail"
 msgstr "นำเข้ารูปภาพ"
 
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:151
+#: libs/resources/KisResourceModel.cpp:126
 #: libs/resources/KisTagResourceModel.cpp:657
 #, kde-format
 msgid "Dirty"
@@ -25625,7 +25638,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, metadata)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #. +> trunk5 stable5
-#: libs/resources/KisResourceModel.cpp:153
+#: libs/resources/KisResourceModel.cpp:128
 #: libs/resources/KisTagResourceModel.cpp:659
 #: libs/ui/animation/VideoImportDialog.ui:149
 #: plugins/dockers/logdocker/LogDockerDock.cpp:191
@@ -25636,12 +25649,30 @@ msgstr ""
 msgid "Metadata"
 msgstr "คุณสมบัติเครื่องมือ&ปัจจุบัน..."
 
+#. +> trunk5
+#: libs/resources/KisResourceModel.cpp:130
+#, fuzzy, kde-format
+msgid "Broken Status"
+msgstr "เพิ่มเลเยอร์..."
+
+#. +> trunk5
+#: libs/resources/KisResourceModel.cpp:132
+#, kde-format
+msgid "Broken Status Message"
+msgstr ""
+
+#. +> trunk5
+#: libs/resources/KisResourceQueryMapper.cpp:288
+#, kde-format
+msgid "Some resources are missing:"
+msgstr ""
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab_hsx)
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #. +> trunk5 stable5
 #: libs/resources/KisResourceStorage.h:117
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1927
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1931
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1936
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1940
 #: libs/ui/forms/wdgdisplaysettings.ui:213 libs/ui/KoDocumentInfo.cpp:37
 #: libs/widgets/KisDlgInternalColorSelector.cpp:325
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
@@ -25799,7 +25830,7 @@ msgid "Font Families"
 msgstr "ตระกูล:"
 
 #. +> trunk5 stable5
-#: libs/resources/KisStorageModel.cpp:480
+#: libs/resources/KisStorageModel.cpp:465
 #: libs/widgets/KoConfigAuthorPage.cpp:89
 #: plugins/extensions/dbexplorer/DlgDbExplorer.cpp:105
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:97
@@ -25810,14 +25841,14 @@ msgid "Type"
 msgstr "สี"
 
 #. +> trunk5 stable5
-#: libs/resources/KisStorageModel.cpp:484
+#: libs/resources/KisStorageModel.cpp:469
 #: plugins/extensions/dbexplorer/DlgDbExplorer.cpp:88
 #, fuzzy, kde-format
 msgid "Creation Date"
 msgstr "มุม:"
 
 #. +> trunk5 stable5
-#: libs/resources/KisStorageModel.cpp:486
+#: libs/resources/KisStorageModel.cpp:471
 #, fuzzy, kde-format
 msgid "Preinstalled"
 msgstr "ตัวแปร"
@@ -25825,7 +25856,7 @@ msgstr "ตัวแปร"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. i18n: ectx: property (title), widget (QGroupBox, iconPanel)
 #. +> trunk5 stable5
-#: libs/resources/KisStorageModel.cpp:490
+#: libs/resources/KisStorageModel.cpp:475
 #: plugins/extensions/dbexplorer/DlgDbExplorer.cpp:112
 #: plugins/extensions/dbexplorer/WdgDbExplorer.ui:75
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:163
@@ -25919,8 +25950,15 @@ msgstr "รูปภาพ"
 msgid "Tag File Name"
 msgstr "ลิงค์"
 
+#. +> trunk5
+#: libs/resourcewidgets/KisIconToolTip.cpp:107
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:957
+#, fuzzy, kde-format
+msgid "Resource is broken!"
+msgstr "รูปภาพ"
+
 #. +> trunk5 stable5
-#: libs/resourcewidgets/KisIconToolTip.cpp:105
+#: libs/resourcewidgets/KisIconToolTip.cpp:112
 #, fuzzy, kde-format
 msgctxt "a placeholder name for the default storage of resources"
 msgid "resource folder"
@@ -25955,7 +25993,7 @@ msgstr "ลบ"
 #. +> trunk5 stable5
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:339
 #: libs/ui/KisMainWindow.cpp:2639
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:403
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:407
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -26533,7 +26571,7 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:514
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1951
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1960
 #, fuzzy, kde-format
 #| msgid "Warning"
 msgid "Warning(s):"
@@ -26988,7 +27026,7 @@ msgstr "อ้างอิงข้อความ"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gifReserveTransparent)
 #. +> trunk5 stable5
 #: libs/ui/animation/video_export_options_dialog.ui:347
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>GIF format supports up to 256 colors per frame/image. This option enables transparency at the cost of 1 color, thus only 255 colors will be used for GIFs with this option enabled. Disabling this option gives you the entire 256 colors for your GIF for better quality output.</p>"
@@ -27556,8 +27594,8 @@ msgstr "ละลาย"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #. +> trunk5 stable5
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:40
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2237
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2239
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2246
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2248
 #: libs/ui/forms/wdgcolorsettings.ui:172
 #: libs/ui/forms/wdgdisplaysettings.ui:24
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:444
@@ -27673,10 +27711,10 @@ msgstr "ลบเลเยอร์"
 #. +> trunk5 stable5
 #: libs/ui/animation/VideoImportDialog.ui:34
 #: libs/ui/animation/wdg_animationrenderer.ui:16
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2207
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2209
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2216
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2218
 #: libs/ui/forms/wdgcolorsettings.ui:40
-#: libs/ui/forms/wdggeneralsettings.ui:333
+#: libs/ui/forms/wdggeneralsettings.ui:311
 #: libs/ui/forms/wdgperformancesettings.ui:50 libs/ui/KoDocumentInfoDlg.cpp:91
 #: libs/ui/KoDocumentInfoDlg.cpp:92
 #: plugins/dockers/logdocker/LogDockerDock.cpp:123
@@ -28579,7 +28617,7 @@ msgstr ""
 
 #. +> trunk5
 #: libs/ui/dialogs/kis_dlg_image_properties.cc:109
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1156
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1165
 #, fuzzy, kde-format
 msgctxt "Color conversion intent"
 msgid "Perceptual"
@@ -28587,7 +28625,7 @@ msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
 
 #. +> trunk5
 #: libs/ui/dialogs/kis_dlg_image_properties.cc:110
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1157
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1166
 #, fuzzy, kde-format
 msgctxt "Color conversion intent"
 msgid "Relative Colorimetric"
@@ -28595,7 +28633,7 @@ msgstr "หมุนโหนด"
 
 #. +> trunk5
 #: libs/ui/dialogs/kis_dlg_image_properties.cc:111
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1158
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1167
 #, fuzzy, kde-format
 msgctxt "Color conversion intent"
 msgid "Saturation"
@@ -28603,7 +28641,7 @@ msgstr "ความอิ่มสี"
 
 #. +> trunk5
 #: libs/ui/dialogs/kis_dlg_image_properties.cc:112
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1159
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1168
 #, fuzzy, kde-format
 msgctxt "Color conversion intent"
 msgid "Absolute Colorimetric"
@@ -28611,7 +28649,7 @@ msgstr "หมุนโหนด"
 
 #. +> trunk5
 #: libs/ui/dialogs/kis_dlg_image_properties.cc:116
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1162
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1171
 #, fuzzy, kde-format
 msgctxt "Display Mode"
 msgid "Use global display settings"
@@ -28619,7 +28657,7 @@ msgstr "แปรงทาสี"
 
 #. +> trunk5
 #: libs/ui/dialogs/kis_dlg_image_properties.cc:118
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1163
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1172
 #, kde-format
 msgctxt "Display Mode"
 msgid "Simulate paper white and black"
@@ -28627,7 +28665,7 @@ msgstr ""
 
 #. +> trunk5
 #: libs/ui/dialogs/kis_dlg_image_properties.cc:119
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1164
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1173
 #, fuzzy, kde-format
 msgctxt "Display Mode"
 msgid "Custom"
@@ -28722,12 +28760,12 @@ msgstr "คุณสมบัติเลเยอร์"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1423
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1426
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1429
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1493
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1497
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1501
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1584
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2002
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2060 libs/ui/kis_paintop_box.cc:279
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1502
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1506
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1510
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1593
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2011
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2069 libs/ui/kis_paintop_box.cc:279
 #: libs/ui/kis_paintop_box.cc:280
 #: libs/ui/widgets/kis_custom_image_widget.cc:96
 #: libs/ui/widgets/KisAutoLevelsWidget.cpp:19
@@ -29022,55 +29060,55 @@ msgid "All Supported Files"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:413
+#: libs/ui/dialogs/kis_dlg_preferences.cc:420
 #, kde-format
 msgid "Open default window"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:414
+#: libs/ui/dialogs/kis_dlg_preferences.cc:421
 #, fuzzy, kde-format
 msgid "Load previous session"
 msgstr "ลบเลเยอร์แล้ว"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:415
+#: libs/ui/dialogs/kis_dlg_preferences.cc:422
 #, fuzzy, kde-format
 msgid "Show session manager"
 msgstr "รีเฟรชพื้นที่วาดภาพ"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:484
+#: libs/ui/dialogs/kis_dlg_preferences.cc:488
 #, kde-format
 msgid "You will need to Restart Krita for the changes to take an effect."
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:490
+#: libs/ui/dialogs/kis_dlg_preferences.cc:494
 #, kde-format
 msgid "Saving at a Location picked from the File Picker may slow down the startup!"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:522
+#: libs/ui/dialogs/kis_dlg_preferences.cc:526
 #, fuzzy, kde-format
 msgid "Internal Storage"
 msgstr "มุม:"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:524
+#: libs/ui/dialogs/kis_dlg_preferences.cc:528
 #, kde-format
 msgid "SD-Card"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:562
+#: libs/ui/dialogs/kis_dlg_preferences.cc:566
 #, fuzzy, kde-format
 msgid "Choose Manually"
 msgstr "ม่วงแดง"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:627
+#: libs/ui/dialogs/kis_dlg_preferences.cc:631
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -29088,36 +29126,36 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:958
+#: libs/ui/dialogs/kis_dlg_preferences.cc:967
 #, fuzzy, kde-format
 msgid "Select a Background Image"
 msgstr "พื้นหลัง"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:970
+#: libs/ui/dialogs/kis_dlg_preferences.cc:979
 #: libs/ui/KisTemplateCreateDia.cpp:390
 #, fuzzy, kde-format
 msgid "%1 is not a valid image file!"
 msgstr "รูปภาพ"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:990
+#: libs/ui/dialogs/kis_dlg_preferences.cc:999
 #, kde-format
 msgctxt "@info resource folder"
 msgid "<b>Warning:</b> this location is not writable."
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1114
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1242
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1323
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1123
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1251
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1332
 #, fuzzy, kde-format
 msgctxt "The number of the screen (ordinal) and shortened 'name' of the screen (model + resolution)"
 msgid "Screen %1 (%2):"
 msgstr "จอภาพ"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1202
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1211
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:804
 #: libs/ui/widgets/kis_color_space_selector.cc:197
 #, fuzzy, kde-format
@@ -29125,19 +29163,19 @@ msgid "Install Color Profiles"
 msgstr "คุณสมบัติเลเยอร์..."
 
 #. +> trunk5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1408
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1417
 #, kde-format
 msgid "Tablet Input API (currently active API: \"%1\")"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1422
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1431
 #, kde-format
 msgid "Use tablet driver timestamps for brush speed (may cause severe artifacts when using WinTab tablet API)"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1424
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1433
 #, kde-format
 msgid "Use tablet driver timestamps for brush speed"
 msgstr ""
@@ -29146,7 +29184,7 @@ msgstr ""
 #. and it will be substituted by the number. The text before will be
 #. used as the prefix and the text after as the suffix
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1434
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1443
 #, fuzzy, kde-format
 msgid "Maximum brush speed: {n} px/ms"
 msgid_plural "Maximum brush speed: {n} px/ms"
@@ -29156,28 +29194,28 @@ msgstr[0] "แปรงทาสี"
 #. and it will be substituted by the number. The text before will be
 #. used as the prefix and the text after as the suffix
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1443
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1452
 #, fuzzy, kde-format
 msgid "Brush speed smoothing: {n} sample"
 msgid_plural "Brush speed smoothing: {n} samples"
 msgstr[0] "ตั้งค่า"
 
 #. +> trunk5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1450
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1459
 #, fuzzy, kde-format
 msgid "Pen tilt direction offset: "
 msgstr "ความอิ่มสี"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intSwapSize)
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1547
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1556
 #: libs/ui/forms/wdgperformancesettings.ui:215
 #, kde-format
 msgid " GiB"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1568
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1577
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:59
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:81
 #: libs/ui/dialogs/KisDlgConfigureCumulativeUndo.cpp:93
@@ -29187,48 +29225,48 @@ msgid " sec"
 msgstr "วินาที"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1572
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1581
 #, kde-format
 msgid " fps"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1801
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1810
 #, fuzzy, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL"
 msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1802
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1811
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Software Renderer (very slow)"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1806
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1815
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Direct3D 11 via ANGLE"
 msgstr ""
 
 #. +> trunk5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1807
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1816
 #, fuzzy, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL via ANGLE"
 msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1809
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1818
 #, fuzzy, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL ES"
 msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1816
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1825
 #, fuzzy, kde-format
 #| msgid "Unknown"
 msgctxt "canvas renderer"
@@ -29236,164 +29274,164 @@ msgid "Unknown"
 msgstr "ไม่ทราบ"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1836
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1845
 #, fuzzy, kde-format
 msgctxt "canvas renderer"
 msgid "Auto (%1)"
 msgstr "แปรงทาสี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1913
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1922
 #, fuzzy, kde-format
 msgid "Display Id: %1"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1914
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1923
 #, kde-format
 msgid "Display Name: %1 %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1915
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1924
 #, fuzzy, kde-format
 msgid "Min Luminance: %1"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1916
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1925
 #, fuzzy, kde-format
 msgid "Max Luminance: %1"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1917
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1926
 #, kde-format
 msgid "Max Full Frame Luminance: %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1918
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1927
 #, kde-format
 msgid "Red Primary: %1, %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1919
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1928
 #, kde-format
 msgid "Green Primary: %1, %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1920
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1929
 #, kde-format
 msgid "Blue Primary: %1, %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1921
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1930
 #, fuzzy, kde-format
 msgid "White Point: %1, %2"
 msgstr "ตัวเลือกสี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2089
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2098
 #, kde-format
 msgid "<b>Warning:</b> current display doesn't support HDR rendering"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2200
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2209
 #, fuzzy, kde-format
 msgid "Configure Krita"
 msgstr "มุม:"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2217
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2226
 #, fuzzy, kde-format
 msgid "Keyboard Shortcuts"
 msgstr "ส่งออกเอกสารเป็น"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2219
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2228
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:282
 #, fuzzy, kde-format
 msgid "Shortcuts"
 msgstr "ยืนยันการบันทึก"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2229
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2238
 #, fuzzy, kde-format
 msgid "Canvas Input Settings"
 msgstr "ตั้งค่า"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2230
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2239
 #, fuzzy, kde-format
 msgid "Canvas Input"
 msgstr "พื้นที่วาดภาพ"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2247
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2256
 #: plugins/dockers/logdocker/LogDockerDock.cpp:195
 #, kde-format
 msgid "Color Management"
 msgstr "การจัดการสี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2249
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2258
 #, fuzzy, kde-format
 msgctxt "Label of color as in Color Management"
 msgid "Color"
 msgstr "สี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2257
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2259
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2266
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2268
 #, kde-format
 msgid "Performance"
 msgstr "ประสิทธิภาพ"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2267
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2276
 #, fuzzy, kde-format
 msgid "Tablet settings"
 msgstr "ตั้งค่า"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2269
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2278
 #, fuzzy, kde-format
 msgid "Tablet"
 msgstr "น้ำเงิน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2277
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2286
 #, fuzzy, kde-format
 msgid "Canvas-only settings"
 msgstr "ตั้งค่า"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2279
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2288
 #, fuzzy, kde-format
 msgid "Canvas-only"
 msgstr "สี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2287
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2289
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2296
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2298
 #, fuzzy, kde-format
 msgid "Pop-up Palette"
 msgstr "จานสี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2297
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2306
 #, fuzzy, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "ผู้เขียน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2299
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2308
 #: libs/ui/KoDocumentInfoDlg.cpp:114
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:232
 #, kde-format
@@ -29401,7 +29439,7 @@ msgid "Author"
 msgstr "ผู้เขียน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2306
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2315
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -30467,8 +30505,7 @@ msgstr "โหมดสี"
 #. i18n: ectx: property (title), widget (QGroupBox, grpPasteFrom)
 #. i18n: ectx: property (title), widget (QGroupBox, grpPasteBehaviour)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgcolorsettings.ui:77
-#: libs/ui/forms/wdggeneralsettings.ui:1070
+#: libs/ui/forms/wdgcolorsettings.ui:77 libs/ui/forms/wdggeneralsettings.ui:250
 #, kde-format
 msgid "When Pasting Into Krita From Other Applications"
 msgstr ""
@@ -31204,7 +31241,7 @@ msgstr "เวลารวมในการแก้ไข:"
 #: plugins/paintops/mypaint/MyPaintSensorPack.cpp:49
 #: plugins/paintops/mypaint/MyPaintSensorPack.cpp:50
 #: plugins/paintops/spray/KisSprayShapeOptionModel.cpp:88
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 msgid "%"
 msgstr "%1%"
 
@@ -31240,7 +31277,7 @@ msgstr "ความทึบแสง:"
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgdisplaysettings.ui:513
-#: libs/ui/forms/wdggeneralsettings.ui:1122
+#: libs/ui/forms/wdggeneralsettings.ui:1161
 #, kde-format
 msgid "Miscellaneous"
 msgstr ""
@@ -31527,146 +31564,259 @@ msgstr ""
 msgid "Select a mask in \"Gamut Masks\" docker"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: ectx: attribute (title), widget (QWidget, File)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:49
+#: libs/ui/forms/wdggeneralsettings.ui:52
 #, fuzzy, kde-format
-msgid "Cursor"
+msgid "File Handling"
+msgstr "ตั้งค่า"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_autosaveCheckBox)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:58
+#, fuzzy, kde-format
+msgid "Enable Autosaving"
+msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:67
+#, fuzzy, kde-format
+msgid "Autosave Interval:"
 msgstr "แปรงทาสี"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:61
-#, fuzzy, kde-format
-msgid "Brush Cursor Icon:"
-msgstr "ปลายแปรง"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:83
-#, fuzzy, kde-format
-msgid "Brush Outline Shape:"
-msgstr "แปรงทาสี"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:111
-#, fuzzy, kde-format
-msgid "While painting..."
-msgstr "ระดับความมัวแสง"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_showOutlinePainting)
-#. i18n: ectx: property (text), widget (QCheckBox, m_showEraserOutlinePainting)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:141
-#: libs/ui/forms/wdggeneralsettings.ui:247
-#, fuzzy, kde-format
-msgid "Show outline"
-msgstr "แสดงเส้นกริด"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_changeBrushOutline)
-#. i18n: ectx: property (text), widget (QCheckBox, m_changeEraserBrushOutline)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:148
-#: libs/ui/forms/wdggeneralsettings.ui:254
+#: libs/ui/forms/wdggeneralsettings.ui:74
 #, kde-format
-msgid "Use effective outline size"
+msgctxt "Suffix: “Every x min”"
+msgid " min"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, m_chkSeparateEraserCursor)
+#. i18n: ectx: property (prefix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:77
+#, kde-format
+msgctxt "Prefix: “Every x min”"
+msgid "Every "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkHideAutosaveFiles)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:96
+#, kde-format
+msgid "Unnamed autosave files are hidden by default"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_backupFileCheckBox)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:109
+#, fuzzy, kde-format
+msgid "Create a Backup File on Saving"
+msgstr "สร้างเลเยอร์ใหม่"
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:118
+#, fuzzy, kde-format
+msgid "Backup File Location"
+msgstr "ความอิ่มสี"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:126
+#, kde-format
+msgid "Same Folder as Original File"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:131
+#, fuzzy, kde-format
+msgid "User Folder"
+msgstr "รูปภาพ"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:136
+#, fuzzy, kde-format
+msgid "Temporary File Location"
+msgstr "ความอิ่มสี"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:144
+#, fuzzy, kde-format
+msgid "Backup File Suffix:"
+msgstr "การเลือก"
+
+#. i18n: ectx: property (text), widget (QLineEdit, txtBackupFileSuffix)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:151
+#, kde-format
+msgid "~"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdggeneralsettings.ui:161
+#, fuzzy, kde-format
+msgid "Number of Backup Files Kept:"
+msgstr "จำนวนหน้า"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:181
+#, fuzzy, kde-format
+msgid "KRA File Compression"
+msgstr "คุณสมบัติเลเยอร์..."
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkZip64)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:187
 #, kde-format
-msgid "Use separate settings for eraser"
+msgid ""
+"<html><head/><body>"
+"<p>Only use this option for <span style=\" font-weight:600;\">very</span> large files: larger than 4 GiB on disk.</p>"
+"</body></html>"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_19)
+#. i18n: ectx: property (text), widget (QCheckBox, chkZip64)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:182
-#, fuzzy, kde-format
-msgid "Eraser Cursor Icon:"
-msgstr "ยางลบ"
-
-#. i18n: ectx: property (text), widget (QLabel, label_20)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:195
-#, fuzzy, kde-format
-msgid "Eraser Outline Shape:"
-msgstr "แปรงทาสี"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:232
-#, fuzzy, kde-format
-msgid "While painting with an eraser..."
-msgstr "ระดับความมัวแสง"
-
-#. i18n: ectx: property (text), widget (QLabel, label_21)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:267
+#: libs/ui/forms/wdggeneralsettings.ui:190
 #, kde-format
-msgid "Eraser Outline Color:"
+msgid "Use Zip64 (for very large files: cannot be opened in versions of Krita older than 4.2.0)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkCompressKra)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:303
-#, fuzzy, kde-format
-msgid "Brush Outline Color:"
-msgstr "แปรงทาสี"
+#: libs/ui/forms/wdggeneralsettings.ui:197
+#, kde-format
+msgid "Compress .kra files more (slows loading/saving)"
+msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimKra)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:324
+#: libs/ui/forms/wdggeneralsettings.ui:207
+#, kde-format
+msgid "Trim files before saving"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimFramesImport)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:217
+#, kde-format
+msgid "Trim frames when importing animations"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_22)
+#. +> trunk5
+#: libs/ui/forms/wdggeneralsettings.ui:230
+#, fuzzy, kde-format
+msgid "Default Export Filetype: "
+msgstr "โหมดสี"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Pasting)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:244
+#, fuzzy, kde-format
+msgid "Pasting"
+msgstr "เครื่องมือทาสี"
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnDownload)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:256
+#, kde-format
+msgid "Prefer downloading the original source (this requires Internet access)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblPasteNote)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:263
+#, kde-format
+msgid "Note: This applies to drops in the Info window, the canvas, and paste actions."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblPasteContext)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:270
+#, kde-format
+msgid "Some applications, like Google Chrome, provide multiple formats when pasting or dropping an image."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnLocal)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:277
+#, kde-format
+msgid "Prefer a local copy (if available; metadata may be lost)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnBitmap)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:284
+#, kde-format
+msgid "Paste the attached sRGB bitmap (no filesystem or Internet access required, but metadata will be lost)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnAsk)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:291
+#, kde-format
+msgid "Ask each time"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, Window)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:302
 #, fuzzy, kde-format
 msgid "Window"
 msgstr "ผู้ดูแล"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:339
+#: libs/ui/forms/wdggeneralsettings.ui:317
 #, fuzzy, kde-format
 msgid "Multiple Document Mode:"
 msgstr "เปิดในเอกสารใหม่"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMDIType)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:350
+#: libs/ui/forms/wdggeneralsettings.ui:328
 #, fuzzy, kde-format
 msgid "Subwindows"
 msgstr "ผู้ดูแล"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMDIType)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:355
+#: libs/ui/forms/wdggeneralsettings.ui:333
 #, kde-format
 msgid "Tabs"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkCanvasMessages)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:363
+#: libs/ui/forms/wdggeneralsettings.ui:341
 #, kde-format
 msgid "Show on-canvas popup messages"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblZoomMarginSize)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:370
+#: libs/ui/forms/wdggeneralsettings.ui:348
 #, fuzzy, kde-format
 msgid "Zoom Margin Size:"
 msgstr "การเลือก"
 
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, intZoomMarginSize)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:380
+#: libs/ui/forms/wdggeneralsettings.ui:358
 #, kde-format
 msgid "Spacing between the image and the page when zoomed to fit, in pixels"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, group_subWinMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:408
+#: libs/ui/forms/wdggeneralsettings.ui:386
 #, fuzzy, kde-format
 msgid "Subwindow mode"
 msgstr "ผู้ดูแล"
@@ -31676,7 +31826,7 @@ msgstr "ผู้ดูแล"
 #. i18n: ectx: property (text), widget (QToolButton, m_bnClearLut)
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:467
+#: libs/ui/forms/wdggeneralsettings.ui:445
 #: libs/ui/input/wintab/drawpile_tablettester/tablettest.ui:43
 #: plugins/dockers/lut/wdglut.ui:241
 #: plugins/extensions/pykrita/plugin/krita/sceditor/mainwindow.ui:105
@@ -31687,28 +31837,28 @@ msgstr "ล้าง"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:483
+#: libs/ui/forms/wdggeneralsettings.ui:461
 #, fuzzy, kde-format
 msgid "Background Image (overrides color):"
 msgstr "สี&พื้นหลัง"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:490
+#: libs/ui/forms/wdggeneralsettings.ui:468
 #, fuzzy, kde-format
 msgid "Window Background:"
 msgstr "พื้นหลัง"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkRubberBand)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:516
+#: libs/ui/forms/wdggeneralsettings.ui:494
 #, kde-format
 msgid "Don't show contents when moving sub-windows"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, chkUseCustomFont)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:526
+#: libs/ui/forms/wdggeneralsettings.ui:504
 #, fuzzy, kde-format
 msgid "Use custom interface font"
 msgstr "ใช้ลวดลายปัจจุบัน"
@@ -31716,7 +31866,7 @@ msgstr "ใช้ลวดลายปัจจุบัน"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:535
+#: libs/ui/forms/wdggeneralsettings.ui:513
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:29
 #, fuzzy, kde-format
 msgid "Font:"
@@ -31724,14 +31874,14 @@ msgstr "มุม:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_chkHiDPI)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:576
+#: libs/ui/forms/wdggeneralsettings.ui:554
 #, fuzzy, kde-format
 msgid "Enable HiDPI support"
 msgstr "เอฟเฟ็คต์"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkHiDPIFractionalScaling)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:600
+#: libs/ui/forms/wdggeneralsettings.ui:578
 #, fuzzy, kde-format
 msgid "Enable fractional scale factor"
 msgstr "ค่า"
@@ -31739,15 +31889,103 @@ msgstr "ค่า"
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:623
-#: libs/ui/forms/wdggeneralsettings.ui:814
+#: libs/ui/forms/wdggeneralsettings.ui:601
+#: libs/ui/forms/wdggeneralsettings.ui:1610
 #, fuzzy, kde-format
 msgid "(needs restart)"
 msgstr "ดินสอสี"
 
+#. i18n: ectx: attribute (title), widget (QWidget, Cursor)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:628
+#, fuzzy, kde-format
+msgid "Cursor"
+msgstr "แปรงทาสี"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:640
+#, fuzzy, kde-format
+msgid "Brush Cursor Icon:"
+msgstr "ปลายแปรง"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:662
+#, fuzzy, kde-format
+msgid "Brush Outline Shape:"
+msgstr "แปรงทาสี"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:690
+#, fuzzy, kde-format
+msgid "While painting..."
+msgstr "ระดับความมัวแสง"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_showOutlinePainting)
+#. i18n: ectx: property (text), widget (QCheckBox, m_showEraserOutlinePainting)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:720
+#: libs/ui/forms/wdggeneralsettings.ui:826
+#, fuzzy, kde-format
+msgid "Show outline"
+msgstr "แสดงเส้นกริด"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_changeBrushOutline)
+#. i18n: ectx: property (text), widget (QCheckBox, m_changeEraserBrushOutline)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:727
+#: libs/ui/forms/wdggeneralsettings.ui:833
+#, kde-format
+msgid "Use effective outline size"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_chkSeparateEraserCursor)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:740
+#, kde-format
+msgid "Use separate settings for eraser"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_19)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:761
+#, fuzzy, kde-format
+msgid "Eraser Cursor Icon:"
+msgstr "ยางลบ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_20)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:774
+#, fuzzy, kde-format
+msgid "Eraser Outline Shape:"
+msgstr "แปรงทาสี"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:811
+#, fuzzy, kde-format
+msgid "While painting with an eraser..."
+msgstr "ระดับความมัวแสง"
+
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:846
+#, kde-format
+msgid "Eraser Outline Color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:882
+#, fuzzy, kde-format
+msgid "Brush Outline Color:"
+msgstr "แปรงทาสี"
+
 #. i18n: ectx: attribute (title), widget (QWidget, Tools)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:650
+#: libs/ui/forms/wdggeneralsettings.ui:903
 #: plugins/dockers/logdocker/LogDockerDock.cpp:139
 #, fuzzy, kde-format
 msgid "Tools"
@@ -31755,355 +31993,212 @@ msgstr "เครื่องมือ"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:656
+#: libs/ui/forms/wdggeneralsettings.ui:909
 #, fuzzy, kde-format
 msgid "Tool Options Location (needs restart)"
 msgstr "ตัวเลือกการไล่ระดับสี"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInDocker)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:662
+#: libs/ui/forms/wdggeneralsettings.ui:915
 #, fuzzy, kde-format
 msgid "In Doc&ker"
 msgstr "จานสี"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioToolOptionsInToolbar)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:669
+#: libs/ui/forms/wdggeneralsettings.ui:922
 #, fuzzy, kde-format
 msgid "I&n Toolbar"
 msgstr "เครื่องมือ"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlowMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:682
+#: libs/ui/forms/wdggeneralsettings.ui:935
 #, fuzzy, kde-format
 msgid "Brush Flow Mode (needs restart):"
 msgstr "ดินสอสี"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFlowMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:690
+#: libs/ui/forms/wdggeneralsettings.ui:943
 #, kde-format
 msgid "Creamy (Krita 4.2+)"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFlowMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:695
+#: libs/ui/forms/wdggeneralsettings.ui:948
 #, kde-format
 msgid "Hard (Krita 4.1 and earlier versions)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkSwitchSelectionCtrlAlt)
+#. i18n: ectx: property (text), widget (QLabel, lblCmykBlendingMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:703
-#, kde-format
-msgid "Switch Control/Alt Selection Modifiers"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkEnableTouch)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:710
+#: libs/ui/forms/wdggeneralsettings.ui:956
 #, fuzzy, kde-format
-msgid "Enable Touch Painting"
-msgstr "ตั้งค่า"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkEnableTransformToolAfterPaste)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:717
-#, kde-format
-msgid "Activate transform tool after pasting"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lblZoomSteps)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:724
-#, kde-format
-msgid "Zoom steps between powers of 2"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkZoomHorizontally)
-#. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:741
-#, kde-format
-msgid "Use horizontal axis for Canvas Zoom Action"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_groupBoxKineticScrollingSettings)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:748
-#, fuzzy, kde-format
-msgid "Kinetic Scrolling (needs restart)"
-msgstr "ดินสอสี"
-
-#. i18n: ectx: property (text), widget (QLabel, labelKineticScrollingSensitivity)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:763
-#, fuzzy, kde-format
-msgid "Sensitivity:"
-msgstr "เครื่องมือเ&ลือกสี"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkKineticScrollingHideScrollbars)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:788
-#, fuzzy, kde-format
-msgid "Hide docker scrollbars if kinetic scrolling is enabled"
+msgid "CMYK blending mode (needs restart):"
 msgstr "ดินสอสี"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbCmykBlendingMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:841
+#: libs/ui/forms/wdggeneralsettings.ui:964
 #, fuzzy, kde-format
 msgid "Subtractive (Krita 5.2+)"
 msgstr "ยืนยันการบันทึก"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbCmykBlendingMode)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:846
+#: libs/ui/forms/wdggeneralsettings.ui:969
 #, kde-format
 msgid "Additive (Krita 5.1 and earlier versions)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lblCmykBlendingMode)
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkSwitchSelectionCtrlAlt)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:854
+#: libs/ui/forms/wdggeneralsettings.ui:977
+#, kde-format
+msgid "Switch Control/Alt Selection Modifiers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkEnableTouch)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:984
 #, fuzzy, kde-format
-msgid "CMYK blending mode (needs restart):"
-msgstr "ดินสอสี"
+msgid "Enable Touch Painting"
+msgstr "ตั้งค่า"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkTouchPressureSensitivity)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:861
+#: libs/ui/forms/wdggeneralsettings.ui:991
 #, kde-format
 msgid "Enable reading of pressure state for touch events. This data may be broken on some platforms, e.g. on some Android devices, where pressure may be reported as 0.0 all the time."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkTouchPressureSensitivity)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:864
+#: libs/ui/forms/wdggeneralsettings.ui:994
 #, kde-format
 msgid "Enable Touch Pressure Sensitivity (may be broken)"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:872
-#, fuzzy, kde-format
-msgid "File Handling"
-msgstr "ตั้งค่า"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_autosaveCheckBox)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:878
-#, fuzzy, kde-format
-msgid "Enable Autosaving"
-msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:887
-#, fuzzy, kde-format
-msgid "Autosave Interval:"
-msgstr "แปรงทาสี"
-
-#. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:894
-#, kde-format
-msgctxt "Suffix: “Every x min”"
-msgid " min"
-msgstr ""
-
-#. i18n: ectx: property (prefix), widget (KisIntParseSpinBox, m_autosaveSpinBox)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:897
-#, kde-format
-msgctxt "Prefix: “Every x min”"
-msgid "Every "
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkHideAutosaveFiles)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:916
-#, kde-format
-msgid "Unnamed autosave files are hidden by default"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_backupFileCheckBox)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:929
-#, fuzzy, kde-format
-msgid "Create a Backup File on Saving"
-msgstr "สร้างเลเยอร์ใหม่"
-
-#. i18n: ectx: property (text), widget (QLabel, label_13)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:938
-#, fuzzy, kde-format
-msgid "Backup File Location"
-msgstr "ความอิ่มสี"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:946
-#, kde-format
-msgid "Same Folder as Original File"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:951
-#, fuzzy, kde-format
-msgid "User Folder"
-msgstr "รูปภาพ"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbBackupFileLocation)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:956
-#, fuzzy, kde-format
-msgid "Temporary File Location"
-msgstr "ความอิ่มสี"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:964
-#, fuzzy, kde-format
-msgid "Backup File Suffix:"
-msgstr "การเลือก"
-
-#. i18n: ectx: property (text), widget (QLineEdit, txtBackupFileSuffix)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:971
-#, kde-format
-msgid "~"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:981
-#, fuzzy, kde-format
-msgid "Number of Backup Files Kept:"
-msgstr "จำนวนหน้า"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (text), widget (QCheckBox, chkEnableTransformToolAfterPaste)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdggeneralsettings.ui:1001
-#, fuzzy, kde-format
-msgid "KRA File Compression"
-msgstr "คุณสมบัติเลเยอร์..."
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkZip64)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1007
 #, kde-format
-msgid ""
-"<html><head/><body>"
-"<p>Only use this option for <span style=\" font-weight:600;\">very</span> large files: larger than 4 GiB on disk.</p>"
-"</body></html>"
+msgid "Activate transform tool after pasting"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkZip64)
+#. i18n: ectx: property (text), widget (QLabel, lblZoomSteps)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1010
+#: libs/ui/forms/wdggeneralsettings.ui:1008
 #, kde-format
-msgid "Use Zip64 (for very large files: cannot be opened in versions of Krita older than 4.2.0)"
+msgid "Zoom steps between powers of 2"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkCompressKra)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1017
-#, kde-format
-msgid "Compress .kra files more (slows loading/saving)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimKra)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1027
-#, kde-format
-msgid "Trim files before saving"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimFramesImport)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1037
-#, kde-format
-msgid "Trim frames when importing animations"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_22)
+#. i18n: ectx: property (text), widget (QCheckBox, chkZoomHorizontally)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1050
+#: libs/ui/forms/wdggeneralsettings.ui:1025
+#, kde-format
+msgid "Use horizontal axis for Canvas Zoom Action"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, Animation)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:1046
 #, fuzzy, kde-format
-msgid "Default Export Filetype: "
-msgstr "โหมดสี"
+msgid "Animation"
+msgstr "หมุน &90"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1064
+#. i18n: ectx: property (title), widget (QGroupBox, grpAnimation)
+#. +> trunk5
+#: libs/ui/forms/wdggeneralsettings.ui:1052
 #, fuzzy, kde-format
-msgid "Pasting"
-msgstr "เครื่องมือทาสี"
+msgid "Animation Settings"
+msgstr "เลเยอร์"
 
-#. i18n: ectx: property (text), widget (QRadioButton, btnDownload)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1076
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkAutoPin)
+#. +> trunk5
+#: libs/ui/forms/wdggeneralsettings.ui:1058
 #, kde-format
-msgid "Prefer downloading the original source (this requires Internet access)"
+msgid "When this option is checked newly created layers will be automatically pinned to the animation timeline. This is useful when animating with a small number of layers or when many elements on different animated layers are interacting with eachother."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lblPasteNote)
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoPin)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1083
+#: libs/ui/forms/wdggeneralsettings.ui:1061
 #, kde-format
-msgid "Note: This applies to drops in the Info window, the canvas, and paste actions."
+msgid "Automatically pin new layers to timeline"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lblPasteContext)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1090
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkAdaptivePlaybackRange)
+#. +> trunk5
+#: libs/ui/forms/wdggeneralsettings.ui:1068
 #, kde-format
-msgid "Some applications, like Google Chrome, provide multiple formats when pasting or dropping an image."
+msgid "When checked, this option automatically adjusts the document's \"start\" and \"end\" frames so that newly created keyframes are always within the animation playback range. This feature is recommended to speed up animation workflow when improvising a scene without a predetermined length."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, btnLocal)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1097
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkAdaptivePlaybackRange)
+#. +> trunk5
+#: libs/ui/forms/wdggeneralsettings.ui:1071
+#, fuzzy, kde-format
+msgid "Automatically adapt playback range to keyframes"
+msgstr "เลเยอร์ %1"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkAdaptivePlaybackRange)
+#. +> stable5
+#: libs/ui/forms/wdggeneralsettings.ui:1403
+#, fuzzy, kde-format
+msgid "Adapt playback range to keyframes"
+msgstr "เลเยอร์ %1"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkAutoZoom)
+#. +> trunk5
+#: libs/ui/forms/wdggeneralsettings.ui:1078
 #, kde-format
-msgid "Prefer a local copy (if available; metadata may be lost)"
+msgid "When checked, this option will automatically scale the Animation Timeline Docker's frames view to best fit the document's playback range. A smaller playback range will cause the timeline to zoom in, while a larger playback range will cause the timeline to zoom out."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, btnBitmap)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1104
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoZoom)
+#. +> trunk5
+#: libs/ui/forms/wdggeneralsettings.ui:1081
 #, kde-format
-msgid "Paste the attached sRGB bitmap (no filesystem or Internet access required, but metadata will be lost)"
+msgid "Automatically zoom timeline to fit playback range"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, btnAsk)
+#. i18n: ectx: attribute (title), widget (QWidget, Resources)
+#. i18n: ectx: attribute (title), widget (QWidget, tabResources)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:1105
+#: plugins/extensions/dbexplorer/WdgDbExplorer.ui:37
+#, fuzzy, kde-format
+msgid "Resources"
+msgstr "รูปภาพ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_15)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdggeneralsettings.ui:1111
-#, kde-format
-msgid "Ask each time"
-msgstr ""
+#, fuzzy, kde-format
+msgid "Resource Folder:"
+msgstr "รูปภาพ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1179
+#: libs/ui/forms/wdggeneralsettings.ui:1218
 #, fuzzy, kde-format
 msgid "When Krita starts:"
 msgstr "ละลาย"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveSessionOnQuit)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1199
+#: libs/ui/forms/wdggeneralsettings.ui:1238
 #, kde-format
 msgid "Save session when Krita closes"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkConvertOnImport)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1206
+#: libs/ui/forms/wdggeneralsettings.ui:1245
 #, kde-format
 msgid "On importing images as layers, convert to the image colorspace"
 msgstr ""
@@ -32111,71 +32206,85 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, m_undoStackSize)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1219
-#: libs/ui/forms/wdggeneralsettings.ui:1232
+#: libs/ui/forms/wdggeneralsettings.ui:1258
+#: libs/ui/forms/wdggeneralsettings.ui:1271
 #, kde-format
 msgid "Only applies to new or newly opened images."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1222
+#: libs/ui/forms/wdggeneralsettings.ui:1261
 #, fuzzy, kde-format
 msgid "Undo stack size:"
 msgstr "เลเยอร์&ถัดไป"
 
+#. i18n: ectx: property (text), widget (QCheckBox, chkCumulativeUndo)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:1292
+#, kde-format
+msgid "Use cumulative undo"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAdvancedCumulativeUndo)
+#. +> trunk5 stable5
+#: libs/ui/forms/wdggeneralsettings.ui:1312
+#, fuzzy, kde-format
+msgid "Advanced..."
+msgstr "การเลือก"
+
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowRootLayer)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1251
+#: libs/ui/forms/wdggeneralsettings.ui:1321
 #, fuzzy, kde-format
 msgid "Show root layer"
 msgstr "เพิ่มเลเยอร์..."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUsageLogging)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1258
+#: libs/ui/forms/wdggeneralsettings.ui:1328
 #, fuzzy, kde-format
 msgid "Enable Logging for bug reports"
 msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_chkNativeFileDialog)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1289
+#: libs/ui/forms/wdggeneralsettings.ui:1359
 #, kde-format
 msgid "Warning: if you enable this setting and the file dialogs do weird stuff, do not report a bug."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkNativeFileDialog)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1292
+#: libs/ui/forms/wdggeneralsettings.ui:1362
 #, kde-format
 msgid "Enable native file dialogs"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1315
+#: libs/ui/forms/wdggeneralsettings.ui:1385
 #, kde-format
 msgid "(Warning: may not work correctly on some systems)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1325
+#: libs/ui/forms/wdggeneralsettings.ui:1395
 #, fuzzy, kde-format
 msgid "Maximum brush size:"
 msgstr "แปรงทาสี"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intMaxBrushSize)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1353
+#: libs/ui/forms/wdggeneralsettings.ui:1423
 #, kde-format
 msgid "The maximum diameter of a brush in pixels."
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, intMaxBrushSize)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1356
+#: libs/ui/forms/wdggeneralsettings.ui:1426
 #, kde-format
 msgctxt "pixel"
 msgid "px"
@@ -32183,42 +32292,21 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1391
+#: libs/ui/forms/wdggeneralsettings.ui:1461
 #, fuzzy, kde-format
 msgid "(Needs restart)"
 msgstr "ดินสอสี"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1404
-#, fuzzy, kde-format
-msgid "Animation"
-msgstr "หมุน &90"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoPin)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1413
-#, kde-format
-msgid "Automatically pin new layers to timeline"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkAdaptivePlaybackRange)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1423
-#, fuzzy, kde-format
-msgid "Adapt playback range to keyframes"
-msgstr "เลเยอร์ %1"
-
 #. i18n: ectx: property (title), widget (QGroupBox, chkForcedFontDPI)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1433
+#: libs/ui/forms/wdggeneralsettings.ui:1474
 #, kde-format
 msgid "Font DPI Workaround"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1448
+#: libs/ui/forms/wdggeneralsettings.ui:1489
 #, kde-format
 msgid ""
 "In some Krita versions before 5.0 text size could be dependent on the current display DPI (which was a bug).\n"
@@ -32232,7 +32320,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1451
+#: libs/ui/forms/wdggeneralsettings.ui:1492
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:71
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:182
 #, kde-format
@@ -32241,7 +32329,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, intForcedFontDPI)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1460
+#: libs/ui/forms/wdggeneralsettings.ui:1501
 #, kde-format
 msgid ""
 "In some versions of Krita before 4.4.3 text size could be dependent on the current display DPI (which was a bug).\n"
@@ -32251,7 +32339,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_51)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1473
+#: libs/ui/forms/wdggeneralsettings.ui:1514
 #, fuzzy, kde-format
 msgid "Automatic layer naming"
 msgstr "แก้ไขให้ถูกต้องอัตโนมัติ"
@@ -32265,7 +32353,7 @@ msgstr "โหมดสี"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenameMergedLayers)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1479
+#: libs/ui/forms/wdggeneralsettings.ui:1520
 #, kde-format
 msgid "Append \"Merged\" to merged group layers"
 msgstr ""
@@ -32279,7 +32367,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenamePastedLayers)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1486
+#: libs/ui/forms/wdggeneralsettings.ui:1527
 #, kde-format
 msgid "Append \"(pasted)\" to pasted layers"
 msgstr ""
@@ -32293,40 +32381,31 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRenameDuplicatedLayers)
 #. +> trunk5
-#: libs/ui/forms/wdggeneralsettings.ui:1493
+#: libs/ui/forms/wdggeneralsettings.ui:1534
 #, kde-format
 msgid "Prepend \"Copy of\" to duplicated layers"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkCumulativeUndo)
+#. i18n: ectx: property (title), widget (QGroupBox, m_groupBoxKineticScrollingSettings)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1518
-#, kde-format
-msgid "Use cumulative undo"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAdvancedCumulativeUndo)
-#. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1538
+#: libs/ui/forms/wdggeneralsettings.ui:1544
 #, fuzzy, kde-format
-msgid "Advanced..."
-msgstr "การเลือก"
+msgid "Kinetic Scrolling (needs restart)"
+msgstr "ดินสอสี"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#. i18n: ectx: attribute (title), widget (QWidget, tabResources)
+#. i18n: ectx: property (text), widget (QLabel, labelKineticScrollingSensitivity)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1552
-#: plugins/extensions/dbexplorer/WdgDbExplorer.ui:37
+#: libs/ui/forms/wdggeneralsettings.ui:1559
 #, fuzzy, kde-format
-msgid "Resources"
-msgstr "รูปภาพ"
+msgid "Sensitivity:"
+msgstr "เครื่องมือเ&ลือกสี"
 
-#. i18n: ectx: property (text), widget (QLabel, label_15)
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkKineticScrollingHideScrollbars)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdggeneralsettings.ui:1558
+#: libs/ui/forms/wdggeneralsettings.ui:1584
 #, fuzzy, kde-format
-msgid "Resource Folder:"
-msgstr "รูปภาพ"
+msgid "Hide docker scrollbars if kinetic scrolling is enabled"
+msgstr "ดินสอสี"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgGeometryOptions)
 #. +> trunk5 stable5
@@ -32945,7 +33024,7 @@ msgstr "มุม:"
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgnewimage.ui:320
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:94
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:320
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:324
 #, fuzzy, kde-format
 msgid "Clipboard"
 msgstr "การเลือก"
@@ -33164,105 +33243,105 @@ msgstr "แปรงปัจจุบัน"
 
 #. i18n: ectx: property (text), widget (QPushButton, saveNewBrushPresetButton)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:340
+#: libs/ui/forms/wdgpaintopsettings.ui:368
 #, fuzzy, kde-format
 msgid "Save New Brush Preset..."
 msgstr "ตั้งค่า"
 
 #. i18n: ectx: property (text), widget (QPushButton, saveBrushPresetButton)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:359
+#: libs/ui/forms/wdgpaintopsettings.ui:387
 #, fuzzy, kde-format
 msgid "Overwrite Brush Preset"
 msgstr "ตั้งค่า"
 
 #. i18n: ectx: property (text), widget (QLabel, presetsSidebarLabel)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:427
+#: libs/ui/forms/wdgpaintopsettings.ui:455
 #, fuzzy, kde-format
 msgid "Presets"
 msgstr "ตั้งค่า"
 
 #. i18n: ectx: property (text), widget (QLabel, engineFilterLabel)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:444
+#: libs/ui/forms/wdgpaintopsettings.ui:472
 #, fuzzy, kde-format
 msgid "Engine:"
 msgstr "เครื่องมือเปลี่ยนสี"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, eraserBrushSizeCheckBox)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:615
+#: libs/ui/forms/wdgpaintopsettings.ui:643
 #, kde-format
 msgid "Erase mode will use a separate brush size"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, eraserBrushSizeCheckBox)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:618
+#: libs/ui/forms/wdgpaintopsettings.ui:646
 #, fuzzy, kde-format
 msgid "Eraser switch size"
 msgstr "รีเฟรชพื้นที่วาดภาพ"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, eraserBrushOpacityCheckBox)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:634
+#: libs/ui/forms/wdgpaintopsettings.ui:662
 #, kde-format
 msgid "Erase mode will use a separate brush opacity"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, eraserBrushOpacityCheckBox)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:637
+#: libs/ui/forms/wdgpaintopsettings.ui:665
 #, fuzzy, kde-format
 msgid "Eraser switch opacity"
 msgstr "รีเฟรชพื้นที่วาดภาพ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, dirtyPresetCheckBox)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:653
+#: libs/ui/forms/wdgpaintopsettings.ui:681
 #, kde-format
 msgid "Temporarily Save Tweaks To Presets"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, scratchpadSidebarLabel)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:780
+#: libs/ui/forms/wdgpaintopsettings.ui:808
 #, fuzzy, kde-format
 msgid "Scratchpad"
 msgstr "เพิ่มเลเยอร์..."
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, paintPresetIcon)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:843
+#: libs/ui/forms/wdgpaintopsettings.ui:871
 #, fuzzy, kde-format
 msgid "Fill area with brush preset icon"
 msgstr "สร้างเลเยอร์ใหม่"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, fillLayer)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:862
+#: libs/ui/forms/wdgpaintopsettings.ui:890
 #, fuzzy, kde-format
 msgid "Fill area with current image"
 msgstr "สร้างเลเยอร์ใหม่"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, fillGradient)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:881
+#: libs/ui/forms/wdgpaintopsettings.ui:909
 #, fuzzy, kde-format
 msgid "Fill area with gradient"
 msgstr "เติมลวดลาย"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, fillSolid)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:900
+#: libs/ui/forms/wdgpaintopsettings.ui:928
 #, fuzzy, kde-format
 msgid "Fill area with background color"
 msgstr "เติมสีด้วยสีพื้นหลั&ง"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, eraseScratchPad)
 #. +> trunk5 stable5
-#: libs/ui/forms/wdgpaintopsettings.ui:919
+#: libs/ui/forms/wdgpaintopsettings.ui:947
 #, kde-format
 msgid "Reset area to white"
 msgstr ""
@@ -33476,7 +33555,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, sliderFrameClonesLimit)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgperformancesettings.ui:296
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>When rendering animation frames (into files or during animation cache regeneration), Krita will make the specified number of copies of your image and will work on them in parallel. Each copy will demand more RAM for its storage (about 20% of the size of you image), so raise this limit only if you have enough RAM installed.</p>"
@@ -33690,7 +33769,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, intRegionOfInterestMargin)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgperformancesettings.ui:507
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Add extra area to the region of interest to each side of the canvas.</p>"
@@ -36965,27 +37044,27 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/kis_statusbar.cc:373
+#: libs/ui/kis_statusbar.cc:379
 #: plugins/python/channels2layers/channels2layers.py:111
 #, kde-format
 msgid "Hidden"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/kis_statusbar.cc:375
+#: libs/ui/kis_statusbar.cc:381
 #, kde-format
 msgid "Ants"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/kis_statusbar.cc:375
+#: libs/ui/kis_statusbar.cc:381
 #: plugins/paintops/libpaintop/KisPredefinedBrushModel.cpp:53
 #, fuzzy, kde-format
 msgid "Mask"
 msgstr "เพิ่มมาสก์"
 
 #. +> trunk5 stable5
-#: libs/ui/kis_statusbar.cc:378
+#: libs/ui/kis_statusbar.cc:384
 #, kde-format
 msgid ""
 "Selection: x = %1 y = %2 width = %3 height = %4\n"
@@ -36993,19 +37072,19 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/kis_statusbar.cc:383
+#: libs/ui/kis_statusbar.cc:389
 #, kde-format
 msgid "No Selection"
 msgstr "ไม่ได้เลือก"
 
 #. +> trunk5 stable5
-#: libs/ui/kis_statusbar.cc:401
+#: libs/ui/kis_statusbar.cc:407
 #, kde-format
 msgid "No profile"
 msgstr "ไม่มีโพรไฟล์"
 
 #. +> trunk5 stable5
-#: libs/ui/kis_statusbar.cc:403
+#: libs/ui/kis_statusbar.cc:409
 #, kde-format
 msgctxt "<color space> <image profile>"
 msgid "%1  %2"
@@ -37174,22 +37253,22 @@ msgid "Failed to render animation frames!"
 msgstr "สร้างเลเยอร์ใหม่"
 
 #. +> trunk5 stable5
-#: libs/ui/KisApplication.cpp:690 libs/ui/KisApplication.cpp:962
+#: libs/ui/KisApplication.cpp:690 libs/ui/KisApplication.cpp:963
 #, fuzzy, kde-format
 msgid "File layer"
 msgstr "&ขาว"
 
 #. +> trunk5 stable5
 #: libs/ui/KisApplication.cpp:698 libs/ui/KisApplication.cpp:703
-#: libs/ui/KisApplication.cpp:956 libs/ui/KisApplication.cpp:970
-#: libs/ui/KisApplication.cpp:975
+#: libs/ui/KisApplication.cpp:957 libs/ui/KisApplication.cpp:971
+#: libs/ui/KisApplication.cpp:976
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita:Warning"
 msgstr "Sander Koning"
 
 #. +> trunk5 stable5
-#: libs/ui/KisApplication.cpp:699 libs/ui/KisApplication.cpp:971
+#: libs/ui/KisApplication.cpp:699 libs/ui/KisApplication.cpp:972
 #, kde-format
 msgid "Cannot add %1 as a file layer: the file does not exist."
 msgstr ""
@@ -37214,37 +37293,37 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/KisApplication.cpp:957
+#: libs/ui/KisApplication.cpp:958
 #, fuzzy, kde-format
 msgid "Couldn't open file %1"
 msgstr "ลบการเลือก"
 
 #. +> trunk5 stable5
-#: libs/ui/KisApplication.cpp:976
+#: libs/ui/KisApplication.cpp:977
 #, kde-format
 msgid "Cannot add the file layer: no document is open."
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/KisApplication.cpp:1092
+#: libs/ui/KisApplication.cpp:1093
 #, fuzzy, kde-format
 msgid "No template found for: %1"
 msgstr "ไม่พบเอกสารต้นแบบสำหรับ %1"
 
 #. +> trunk5 stable5
-#: libs/ui/KisApplication.cpp:1095
+#: libs/ui/KisApplication.cpp:1096
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr "พบว่ามีเอกสารต้นแบบมากเกินไปสำหรับ %1"
 
 #. +> trunk5 stable5
-#: libs/ui/KisApplication.cpp:1111
+#: libs/ui/KisApplication.cpp:1112
 #, fuzzy, kde-format
 msgid "Template %1 failed to load."
 msgstr "เลือกทั้งหมด"
 
 #. +> trunk5 stable5
-#: libs/ui/KisApplication.cpp:1143
+#: libs/ui/KisApplication.cpp:1144
 #, kde-format
 msgid ""
 "Krita configurations reset!\n"
@@ -37255,7 +37334,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/KisApplication.cpp:1157
+#: libs/ui/KisApplication.cpp:1158
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -37264,7 +37343,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/KisApplication.cpp:1185
+#: libs/ui/KisApplication.cpp:1186
 #, fuzzy, kde-format
 #| msgid "Do you really want to overwrite the existing '%1' template?"
 msgid "Do you want to clear the settings file?"
@@ -41281,7 +41360,7 @@ msgstr "ละลาย"
 #. +> trunk5 stable5
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:44
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:152
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:169
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:177
 #: plugins/extensions/resourcemanager/KisResourceItemViewer.cpp:30
 #, fuzzy, kde-format
 msgctxt "@title Which elements to display (e.g., thumbnails or details)"
@@ -41291,7 +41370,7 @@ msgstr "ละลาย"
 #. +> trunk5 stable5
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:50
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:156
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:177
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:185
 #: plugins/extensions/resourcemanager/KisResourceItemViewer.cpp:42
 #, fuzzy, kde-format
 #| msgid "Import Image"
@@ -41302,7 +41381,7 @@ msgstr "นำเข้ารูปภาพ"
 #. +> trunk5 stable5
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:55
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:164
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:183
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:191
 #: plugins/extensions/resourcemanager/KisResourceItemViewer.cpp:48
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:206
 #, fuzzy, kde-format
@@ -45404,33 +45483,26 @@ msgstr ""
 msgid "AutoKey Duplicate"
 msgstr "เลเยอร์&ถัดไป"
 
-#. +> trunk5
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:499
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Update Animation Settings"
-msgstr "เลเยอร์"
-
 #. +> trunk5 stable5
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:562
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:565
 #, kde-format
 msgid "Enable to preserve playback timing."
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:572
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:575
 #, kde-format
 msgid "Effective FPS:\t%1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:573
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:576
 #, kde-format
 msgid "Real FPS:\t%1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:574
+#: plugins/dockers/animation/KisAnimTimelineDocker.cpp:577
 #, kde-format
 msgid "Frames dropped:\t%1%"
 msgstr ""
@@ -62106,7 +62178,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, stampButton)
 #. +> trunk5 stable5
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:81
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:303
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:307
 #, kde-format
 msgid "Stamp"
 msgstr ""
@@ -62368,7 +62440,7 @@ msgid ""
 msgstr "คัดลอกส่วนที่เลือกไปยังเลเยอร์ใหม่"
 
 #. +> trunk5 stable5
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:225
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:229
 #, kde-format
 msgid ""
 "Creates a brush tip from the current image selection.\n"
@@ -62376,13 +62448,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:229
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:233
 #, kde-format
 msgid "Creates a brush tip from the image in the clipboard."
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:234
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:238
 #, kde-format
 msgid ""
 "Reloads Spacing from file\n"
@@ -62391,28 +62463,28 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:240
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:244
 #, fuzzy, kde-format
 msgctxt "@label:slider"
 msgid "Neutral point: "
 msgstr "ขอบกระดาษ"
 
 #. +> trunk5 stable5
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:248
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:252
 #, fuzzy, kde-format
 msgctxt "@label:slider"
 msgid "Brightness: "
 msgstr "ทำให้สว่างขึ้นเท่านั้น"
 
 #. +> trunk5 stable5
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:255
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:259
 #, fuzzy, kde-format
 msgctxt "@label:slider"
 msgid "Contrast: "
 msgstr "มุม:"
 
 #. +> trunk5 stable5
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:258
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:262
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -62975,7 +63047,7 @@ msgstr "สีพื้น&หน้า"
 #. +> trunk5 stable5
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:82
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:93
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "(0° is active color)"
 msgstr ""
 
@@ -63003,7 +63075,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:116
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:127
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:139
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "(0% is active color)"
 msgstr ""
 
@@ -72033,7 +72105,7 @@ msgstr "เส้นทแยง"
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:982
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:998
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 #| msgid "%1 %"
 msgid " %"
 msgstr "%1%"

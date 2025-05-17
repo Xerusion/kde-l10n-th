@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-20 11:13+0200\n"
+"POT-Creation-Date: 2025-05-16 12:12+0200\n"
 "PO-Revision-Date: 2010-12-17 20:06+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -455,23 +455,23 @@ msgstr "เนื้อหาในคลิปบอร์ด"
 #. +> trunk6 stable6
 #: declarative/qml/DelegateToolButtons.qml:31
 #, fuzzy, kde-format
+#| msgid "Edit Contents"
+msgid "Edit contents"
+msgstr "แก้ไขเนื้อหา"
+
+#. +> trunk6 stable6
+#: declarative/qml/DelegateToolButtons.qml:32
+#, fuzzy, kde-format
 #| msgid "<new action>"
 msgid "Invoke action"
 msgstr "<การกระทำใหม่>"
 
 #. +> trunk6 stable6
-#: declarative/qml/DelegateToolButtons.qml:32
+#: declarative/qml/DelegateToolButtons.qml:33
 #, fuzzy, kde-format
 #| msgid "&Show Barcode..."
 msgid "Show QR code"
 msgstr "แ&สดงบาร์โค้ด..."
-
-#. +> trunk6 stable6
-#: declarative/qml/DelegateToolButtons.qml:33
-#, fuzzy, kde-format
-#| msgid "Edit Contents"
-msgid "Edit contents"
-msgstr "แก้ไขเนื้อหา"
 
 #. +> trunk6 stable6
 #: declarative/qml/DelegateToolButtons.qml:34
@@ -737,7 +737,7 @@ msgid "Automatic Action Popup Menu"
 msgstr "ช่วงเวลาแสดงหน้าต่างผุดของการกระทำ:"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:110
+#: klipper.cpp:109
 #, fuzzy, kde-format
 #| msgid "C&lear Clipboard History"
 msgctxt "@action:inmenu"
@@ -745,7 +745,7 @@ msgid "C&lear Clipboard History"
 msgstr "&ล้างประวัติของคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:117
+#: klipper.cpp:116
 #, fuzzy, kde-format
 #| msgid "&Configure Klipper..."
 msgctxt "@action:inmenu"
@@ -761,15 +761,15 @@ msgid "&Quit"
 msgstr "&ออก"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:121
+#: klipper.cpp:120
 #, fuzzy, kde-format
 #| msgid "Manually Invoke Action on Current Clipboard"
 msgctxt "@action:inmenu"
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "สั่งเรียกการกระทำบนคลิปบอร์ดปัจจุบันเอง"
 
-#. +> trunk6 stable5
-#: klipper.cpp:129
+#. +> trunk6 stable6 stable5
+#: klipper.cpp:128
 #, fuzzy, kde-format
 #| msgid "Edit Contents"
 msgctxt "@action:inmenu"
@@ -783,7 +783,7 @@ msgid "Edit Contents"
 msgstr "แก้ไขเนื้อหา"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:135
+#: klipper.cpp:134
 #, fuzzy, kde-format
 #| msgid "&Show Barcode..."
 msgctxt "@action:inmenu"
@@ -791,7 +791,7 @@ msgid "&Show Barcode…"
 msgstr "แ&สดงบาร์โค้ด..."
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:144
+#: klipper.cpp:143
 #, fuzzy, kde-format
 #| msgid "Next History Item"
 msgctxt "@action:inmenu"
@@ -799,7 +799,7 @@ msgid "Next History Item"
 msgstr "ตัวถัดไปในรายการประวัติ"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:149
+#: klipper.cpp:148
 #, fuzzy, kde-format
 #| msgid "Previous History Item"
 msgctxt "@action:inmenu"
@@ -807,7 +807,7 @@ msgid "Previous History Item"
 msgstr "ตัวก่อนหน้านี้ในรายการประวัติ"
 
 #. +> trunk6 stable6
-#: klipper.cpp:156
+#: klipper.cpp:155
 #, fuzzy, kde-format
 #| msgid "Popup at mouse position"
 msgctxt "@action:inmenu"
@@ -831,41 +831,41 @@ msgid "%1 - Clipboard Tool"
 msgstr "คลิปเปอร์ (Klipper) - เครื่องมือคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:317
-#, kde-kuit-format
-msgctxt "@info"
-msgid "You can enable URL actions later in the <interface>Actions</interface> page of the Clipboard applet's configuration window"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: klipper.cpp:451
+#: klipper.cpp:435
 #, kde-format
 msgid "Mobile Barcode"
 msgstr "บาร์โค้ดสำหรับโทรศัพท์เคลื่อนที่"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:494 klipper.cpp:503
+#: klipper.cpp:478 klipper.cpp:487
 #, kde-format
 msgid "Clipboard history"
 msgstr "ขนาดของประวัติคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:520
+#: klipper.cpp:504
 #, kde-format
 msgid "up"
 msgstr "ขึ้น"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:527
+#: klipper.cpp:511
 #, kde-format
 msgid "current"
 msgstr "ปัจจุบัน"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:534
+#: klipper.cpp:518
 #, kde-format
 msgid "down"
 msgstr "ลง"
+
+#. +> stable5
+#: klipper.cpp:567
+#, kde-kuit-format
+msgctxt "@info"
+msgid "You can enable URL actions later in the <interface>Actions</interface> page of the Clipboard applet's configuration window"
+msgstr ""
 
 #. +> stable5
 #: klipper.cpp:606
@@ -1109,16 +1109,16 @@ msgid "Clipboard Popup"
 msgstr "ขนาดของประวัติคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: urlgrabber.cpp:201
-#, kde-format
-msgid "Disable This Popup"
-msgstr "ปิดการใช้งานหน้าต่างผุดนี้"
-
-#. +> trunk6 stable6 stable5
-#: urlgrabber.cpp:207
+#: urlgrabber.cpp:198
 #, kde-format
 msgid "&Cancel"
 msgstr "&ยกเลิก"
+
+#. +> stable5
+#: urlgrabber.cpp:200
+#, kde-format
+msgid "Disable This Popup"
+msgstr "ปิดการใช้งานหน้าต่างผุดนี้"
 
 #. +> stable5
 #: historyimageitem.cpp:36

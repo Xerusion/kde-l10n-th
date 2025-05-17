@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-pa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-27 13:55+0200\n"
+"POT-Creation-Date: 2025-05-16 12:12+0200\n"
 "PO-Revision-Date: 2025-03-25 07:38+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -27,60 +27,60 @@ msgid "Currently not playing"
 msgstr "ไม่ได้เล่นเสียงอยู่ตอนนี้"
 
 #. +> trunk6 stable6 stable5
-#: ListItemBase.qml:191
+#: ListItemBase.qml:193
 #, kde-format
 msgctxt "@action:button"
 msgid "Additional Options"
 msgstr "ตัวเลือกเพิ่มเติม"
 
 #. +> trunk6 stable6 stable5
-#: ListItemBase.qml:193
+#: ListItemBase.qml:195
 #, kde-format
 msgid "Show additional options for %1"
 msgstr "แสดงตัวเลือกเพิ่มเติมสำหรับ %1"
 
 #. +> trunk6 stable6 stable5
-#: ListItemBase.qml:212
+#: ListItemBase.qml:215
 #, kde-format
 msgctxt "@action:button"
 msgid "Unmute"
 msgstr "เปิดเสียง"
 
 #. +> trunk6 stable6 stable5
-#: ListItemBase.qml:212
+#: ListItemBase.qml:215
 #, kde-format
 msgctxt "@action:button"
 msgid "Mute"
 msgstr "ปิดเสียง"
 
 #. +> trunk6 stable6 stable5
-#: ListItemBase.qml:214
+#: ListItemBase.qml:217
 #, kde-format
 msgid "Unmute %1"
 msgstr "เปิดเสียง %1"
 
 #. +> trunk6 stable6 stable5
-#: ListItemBase.qml:214
+#: ListItemBase.qml:217
 #, kde-format
 msgid "Mute %1"
 msgstr "ปิดเสียง %1"
 
 #. +> trunk6 stable6 stable5
-#: ListItemBase.qml:235
+#: ListItemBase.qml:239
 #, kde-format
 msgctxt "Accessibility data on volume slider"
 msgid "Adjust volume for %1"
 msgstr "ปรับระดับเสียงสำหรับ %1"
 
 #. +> trunk6 stable6 stable5
-#: ListItemBase.qml:296
+#: ListItemBase.qml:300
 #, kde-format
 msgctxt "volume percentage"
 msgid "%1%"
 msgstr "%1%"
 
 #. +> trunk6 stable6 stable5
-#: ListItemBase.qml:316
+#: ListItemBase.qml:321
 #, kde-format
 msgctxt "only used for sizing, should be widest possible string"
 msgid "100%"
@@ -172,7 +172,7 @@ msgstr "อุปกรณ์"
 msgid "Applications"
 msgstr "แอปพลิเคชัน"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: main.qml:335
 #, kde-format
 msgctxt "@action:button"
@@ -222,32 +222,62 @@ msgstr "ปิดเสียงไมโครโฟน"
 msgid "No applications playing or recording audio"
 msgstr "ไม่มีแอปพลิเคชันที่เล่นเสียงหรืออัดเสียง"
 
+#. +> trunk6 stable6
+#: main.qml:492
+#, fuzzy, kde-format
+#| msgid "No output device"
+msgctxt "@title:group listview section header"
+msgid "Output Devices"
+msgstr "ไม่มีอุปกรณ์เอาต์พุต"
+
+#. +> trunk6 stable6
+#: main.qml:494
+#, kde-format
+msgctxt "@title:group listview section header"
+msgid "Output Streams"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.qml:551
+#, fuzzy, kde-format
+#| msgid "Devices"
+msgctxt "@title:group listview section header"
+msgid "Input Devices"
+msgstr "อุปกรณ์"
+
+#. +> trunk6 stable6
+#: main.qml:553
+#, kde-format
+msgctxt "@title:group listview section header"
+msgid "Input Streams"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: main.qml:575
+#: main.qml:611
 #, kde-format
 msgid "Raise maximum volume"
 msgstr "ขยายระดับเสียงที่สูงที่สุด"
 
 #. +> trunk6 stable6 stable5
-#: main.qml:587
+#: main.qml:623
 #, kde-format
 msgid "Force mute all playback devices"
 msgstr "บังคับปิดเสียงอุปกรณ์เล่นเสียงทั้งหมด"
 
 #. +> trunk6 stable6 stable5
-#: main.qml:596
+#: main.qml:632
 #, kde-format
 msgid "Show virtual devices"
 msgstr "แสดงอุปกรณ์เสมือน"
 
 #. +> trunk6 stable6 stable5
-#: main.qml:606
+#: main.qml:642
 #, kde-format
 msgid "&Configure Audio Devices…"
 msgstr "&ตั้งค่าอุปกรณ์เสียง..."
 
 #. +> trunk6 stable6 stable5
-#: StreamListItem.qml:25
+#: StreamListItem.qml:34
 #, kde-format
 msgid "Stream name not found"
 msgstr "ไม่พบชื่อกระแสข้อมูล"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 15:19+0200\n"
+"POT-Creation-Date: 2025-05-16 12:12+0200\n"
 "PO-Revision-Date: 2010-12-17 20:55+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -60,6 +60,13 @@ msgstr "แม่ข่ายบริการเวลา:"
 msgid "Here you can change the system date's day of the month, month and year."
 msgstr "คุณสามารถเปลี่ยนวันที่ของเดือน, เดือน และปีของระบบได้ที่นี่"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> stable5
+#: dateandtime.ui:128
+#, kde-format
+msgid "To change the local time zone, select your area from the list below."
+msgstr "เพื่อเปลี่ยนเขตเวลาท้องถิ่นของคุณ ให้เลือกพื้นที่ของคุณจากรายการด้านล่างนี้"
+
 #. i18n: ectx: attribute (title), widget (QQuickWidget, timezoneViewer)
 #. +> trunk6 stable6 stable5
 #: dateandtime.ui:146
@@ -67,23 +74,16 @@ msgstr "คุณสามารถเปลี่ยนวันที่ขอ
 msgid "Time Zone"
 msgstr "เขตเวลา"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. +> stable6 stable5
-#: dateandtime.ui:151
-#, kde-format
-msgid "To change the local time zone, select your area from the list below."
-msgstr "เพื่อเปลี่ยนเขตเวลาท้องถิ่นของคุณ ให้เลือกพื้นที่ของคุณจากรายการด้านล่างนี้"
-
 #. i18n: ectx: property (text), widget (QLabel, m_local)
-#. +> stable6 stable5
-#: dateandtime.ui:174
+#. +> stable5
+#: dateandtime.ui:151
 #, kde-format
 msgid "Current local time zone:"
 msgstr "เขตเวลาท้องถิ่นปัจจุบัน:"
 
 #. i18n: ectx: property (placeholderText), widget (KTreeWidgetSearchLine, tzonesearch)
-#. +> stable6 stable5
-#: dateandtime.ui:184
+#. +> stable5
+#: dateandtime.ui:161
 #, kde-format
 msgid "Search…"
 msgstr ""
@@ -100,16 +100,16 @@ msgstr "ไม่พบเครื่องมือสำหรับการ
 msgid "Here you can change the system time. Click into the hours, minutes or seconds field to change the relevant value, either using the up and down buttons to the right or by entering a new value."
 msgstr "คุณสามารถเปลี่ยนเวลาของระบบได้ที่นี่ คลิกที่ช่องชั่วโมง, นาที หรือ วินาที เพื่อเปลี่ยนค่าของมัน, หรืออาจใช้ทั้งปุ่มขึ้นและลงที่อยู่ทางด้านขวา หรือป้อนค่าใหม่เข้าไปโดยตรง"
 
-#. +> stable6 stable5
-#: dtime.cpp:121
+#. +> stable5
+#: dtime.cpp:113
 #, fuzzy, kde-format
 #| msgid "Current local time zone:"
 msgctxt "%1 is name of time zone"
 msgid "Current local time zone: %1"
 msgstr "เขตเวลาท้องถิ่นปัจจุบัน:"
 
-#. +> stable6 stable5
-#: dtime.cpp:123
+#. +> stable5
+#: dtime.cpp:116
 #, fuzzy, kde-format
 #| msgid "Current local time zone: %1 (%2)"
 msgctxt "%1 is name of time zone, %2 is its abbreviation"
@@ -240,23 +240,3 @@ msgstr "ไม่สามารถติดต่อกับแม่ข่า
 #| msgid "Unable to contact time server: %1."
 msgid "Unable to set timezone"
 msgstr "ไม่สามารถติดต่อกับแม่ข่ายบริการเวลา: %1"
-
-#. +> stable6
-#: k4timezonewidget.cpp:70
-#, kde-format
-msgctxt "Define an area in the time zone, like a town area"
-msgid "Area"
-msgstr ""
-
-#. +> stable6
-#: k4timezonewidget.cpp:70
-#, kde-format
-msgctxt "Time zone"
-msgid "Region"
-msgstr ""
-
-#. +> stable6
-#: k4timezonewidget.cpp:70
-#, kde-format
-msgid "Comment"
-msgstr ""

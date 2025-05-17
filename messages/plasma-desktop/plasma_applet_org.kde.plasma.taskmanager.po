@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-30 09:39+0200\n"
+"POT-Creation-Date: 2025-05-16 12:12+0200\n"
 "PO-Revision-Date: 2010-12-17 16:16+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: backend.cpp:284
 #, kde-format
 msgctxt "Show all user Places"
@@ -25,8 +25,8 @@ msgid "%1 more Place…"
 msgid_plural "%1 more Places…"
 msgstr[0] ""
 
-#. +> stable6 stable5
-#: plugin/backend.cpp:315
+#. +> stable5
+#: plugin/backend.cpp:368
 #, kde-format
 msgctxt "Show all user Places"
 msgid "%1 more Place"
@@ -180,7 +180,7 @@ msgstr ""
 msgid "Hide other windows when hovering over previews"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigAppearance.qml:59
 #, kde-format
 msgctxt "@option:check section General"
@@ -199,14 +199,14 @@ msgstr ""
 msgid "Always arrange tasks in columns of as many rows"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigAppearance.qml:69
 #, kde-format
 msgctxt "@option:check section General"
 msgid "Mute task when clicking indicator"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigAppearance.qml:77
 #, kde-format
 msgctxt "@option:check section General"
@@ -225,13 +225,6 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "Fill free space on Panel"
-msgstr ""
-
-#. +> stable6
-#: package/contents/ui/ConfigAppearance.qml:57
-#, kde-format
-msgctxt "@option:check section General"
-msgid "Use audio indicators to mute tasks"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -375,7 +368,7 @@ msgctxt "@info:usagetip under a set of radio buttons when Touch Mode is on"
 msgid "Automatically set to Large when in Touch Mode"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:48
 #, kde-format
 msgctxt "@info"
@@ -451,13 +444,6 @@ msgstr ""
 #: package/contents/ui/ConfigBehavior.qml:62
 #, kde-format
 msgctxt "Completes the sentence 'Clicking grouped task cycles through tasks' "
-msgid "Cycles through tasks"
-msgstr ""
-
-#. +> stable6
-#: package/contents/ui/ConfigBehavior.qml:168
-#, kde-format
-msgctxt "@option:check Part of a sentence: 'Mouse wheel cycles through tasks'"
 msgid "Cycles through tasks"
 msgstr ""
 
@@ -623,6 +609,13 @@ msgstr "ตามพื้นที่ทำงาน"
 msgid "By desktop"
 msgstr "ตามพื้นที่ทำงาน"
 
+#. +> stable5
+#: package/contents/ui/ConfigBehavior.qml:146
+#, kde-format
+msgctxt "Part of a sentence: 'Mouse wheel cycles through tasks'"
+msgid "Mouse wheel:"
+msgstr ""
+
 #. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:148
 #, kde-format
@@ -636,7 +629,7 @@ msgstr ""
 msgid "By activity"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:152
 #, kde-format
 msgctxt "@item:inlistbox sort tasks in grouped task"
@@ -675,20 +668,6 @@ msgstr ""
 #, kde-format
 msgctxt "Part of a sentence: 'Clicking active task minimizes the task'"
 msgid "Clicking active task:"
-msgstr ""
-
-#. +> stable6
-#: package/contents/ui/ConfigBehavior.qml:167
-#, kde-format
-msgctxt "@label for checkbox Part of a sentence: 'Mouse wheel cycles through tasks'"
-msgid "Mouse wheel:"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/ConfigBehavior.qml:146
-#, kde-format
-msgctxt "Part of a sentence: 'Mouse wheel cycles through tasks'"
-msgid "Mouse wheel:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -804,7 +783,7 @@ msgctxt "Part of a sentence: 'Middle-clicking any task brings it to the current 
 msgid "Brings it to the current virtual desktop"
 msgstr "แสดงเฉพาะงานที่อยู่บนพื้นที่ทำงานปัจจุบันเท่านั้น"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:205
 #, fuzzy, kde-format
 #| msgid "Show tooltips"
@@ -812,21 +791,21 @@ msgctxt "@label:listbox completes sentence like: … does nothing"
 msgid "Scrolling on a task:"
 msgstr "แสดงทูลทิป"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:209
 #, kde-format
 msgctxt "@item:inlistbox Part of a sentence: 'Scrolling on any task does nothing'"
 msgid "Does nothing"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:210
 #, kde-format
 msgctxt "@item:inlistbox Part of a sentence: 'Scrolling on any task cycles through all tasks'"
 msgid "Cycles through all tasks"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:211
 #, kde-format
 msgctxt "@item:inlistbox Part of a sentence: 'Scrolling on any task cycles through that task's windows only'"
@@ -1235,7 +1214,7 @@ msgstr ""
 msgid "&Shade"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ContextMenu.qml:713
 #, kde-format
 msgctxt "@action:inmenu"

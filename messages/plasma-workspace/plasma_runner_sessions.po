@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner_sessions\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-19 10:37+0100\n"
+"POT-Creation-Date: 2025-05-16 12:12+0200\n"
 "PO-Revision-Date: 2010-02-11 21:12+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -106,8 +106,8 @@ msgctxt "KRunner keywords (split by semicolons without whitespace) to switch use
 msgid "switch user;new session"
 msgstr "สลับผู้ใช้"
 
-#. +> stable6 stable5
-#: sessionrunner.cpp:62
+#. +> stable5
+#: sessionrunner.cpp:87
 #, fuzzy, kde-format
 #| msgctxt "switch user command"
 #| msgid "switch"
@@ -115,38 +115,18 @@ msgctxt "KRunner keyword to switch user sessions"
 msgid "switch"
 msgstr "สลับ"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: sessionrunner.cpp:55
 #, fuzzy, kde-format
 #| msgid "Starts a new session as a different user"
 msgid "Switch to a session as a different user"
 msgstr "เริ่มวาระงานใหม่ด้วยสิทธิ์ผู้ใช้อื่น"
 
-#. +> stable6 stable5
-#: sessionrunner.cpp:55
+#. +> stable5
+#: sessionrunner.cpp:76
 #, kde-format
 msgid "Starts a new session as a different user"
 msgstr "เริ่มวาระงานใหม่ด้วยสิทธิ์ผู้ใช้อื่น"
-
-#. +> stable6 stable5
-#: sessionrunner.cpp:58
-#, fuzzy, kde-format
-#| msgid "new session"
-msgctxt "KRunner keyword to list user sessions"
-msgid "sessions"
-msgstr "วาระงานใหม่"
-
-#. +> stable6 stable5
-#: sessionrunner.cpp:59
-#, kde-format
-msgid "Lists all sessions"
-msgstr "เรียกดูวาระงานทั้งหมด"
-
-#. +> stable6 stable5
-#: sessionrunner.cpp:64
-#, kde-format
-msgid "Switches to the active session for the user :q:, or lists all active sessions if :q: is not provided"
-msgstr "ทำการสลับวาระงานที่ใช้งานอยู่โดยผู้ใช้ :q: หรือเรียกดูวาระงานทั้งหมดที่ทำงานอยู่หากไม่ได้กำหนด :q:"
 
 #. +> trunk6 stable6 stable5
 #: sessionrunner.cpp:77
@@ -154,6 +134,20 @@ msgstr "ทำการสลับวาระงานที่ใช้งา
 msgctxt "log out command"
 msgid "Log Out"
 msgstr ""
+
+#. +> stable5
+#: sessionrunner.cpp:83
+#, fuzzy, kde-format
+#| msgid "new session"
+msgctxt "KRunner keyword to list user sessions"
+msgid "sessions"
+msgstr "วาระงานใหม่"
+
+#. +> stable5
+#: sessionrunner.cpp:84
+#, kde-format
+msgid "Lists all sessions"
+msgstr "เรียกดูวาระงานทั้งหมด"
 
 #. +> trunk6 stable6 stable5
 #: sessionrunner.cpp:85
@@ -163,6 +157,12 @@ msgstr ""
 msgctxt "turn off computer command"
 msgid "Shut Down"
 msgstr "ปิดเครื่อง"
+
+#. +> stable5
+#: sessionrunner.cpp:89
+#, kde-format
+msgid "Switches to the active session for the user :q:, or lists all active sessions if :q: is not provided"
+msgstr "ทำการสลับวาระงานที่ใช้งานอยู่โดยผู้ใช้ :q: หรือเรียกดูวาระงานทั้งหมดที่ทำงานอยู่หากไม่ได้กำหนด :q:"
 
 #. +> trunk6 stable6 stable5
 #: sessionrunner.cpp:92
@@ -187,8 +187,8 @@ msgstr ""
 msgid "Save Session"
 msgstr "วาระงานใหม่"
 
-#. +> stable6 stable5
-#: sessionrunner.cpp:248
+#. +> stable5
+#: sessionrunner.cpp:287
 #, fuzzy, kde-format
 #| msgid "New Session"
 msgid "New Desktop Session"
@@ -201,8 +201,8 @@ msgstr "วาระงานใหม่"
 msgid "Switch User"
 msgstr "สลับผู้ใช้"
 
-#. +> stable6 stable5
-#: sessionrunner.cpp:239
+#. +> stable5
+#: sessionrunner.cpp:278
 #, kde-format
 msgid ""
 "<p>You are about to enter a new desktop session.</p>"

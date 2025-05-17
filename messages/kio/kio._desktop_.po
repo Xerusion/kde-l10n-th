@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio._desktop_.po\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-08 17:23+0200\n"
+"POT-Creation-Date: 2025-05-13 07:15+0200\n"
 "PO-Revision-Date: 2025-02-28 00:09+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: th\n"
@@ -57,11 +57,13 @@ msgctxt "Name"
 msgid "Empty File..."
 msgstr "ไฟล์ว่าง..."
 
-#. +> trunk6 trunk5
+#. +> trunk6
 #: src/new_file_templates/EmptyFile.desktop:59
-#: src/new_file_templates/TextFile.desktop:96
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Enter text filename:"
 msgctxt "Comment"
-msgid "Enter text filename:"
+msgid "Enter name for empty file:"
 msgstr "ป้อนชื่อแฟ้มข้อความ:"
 
 #. +> trunk6 trunk5
@@ -117,6 +119,12 @@ msgstr "ที่อยู่ URL ที่จะเชื่อม"
 msgctxt "Name"
 msgid "Text File..."
 msgstr "แฟ้มข้อความ..."
+
+#. +> trunk6 trunk5
+#: src/new_file_templates/TextFile.desktop:96
+msgctxt "Comment"
+msgid "Enter text filename:"
+msgstr "ป้อนชื่อแฟ้มข้อความ:"
 
 #. +> trunk6 trunk5
 #: src/schemehandlers/telnet/ktelnetservice6.desktop:9
@@ -2065,13 +2073,13 @@ msgid "Cookies"
 msgstr "คุกกี้"
 
 #. +> trunk5
-#: src/kcms/cookies/cookies.desktop:77
+#: src/kcms/cookies/cookies.desktop:78
 msgctxt "Comment"
 msgid "Configure the way cookies work"
 msgstr "ปรับแต่งวิธีการทำงานของคุกกี้"
 
 #. +> trunk5
-#: src/kcms/cookies/cookies.desktop:172
+#: src/kcms/cookies/cookies.desktop:173
 msgctxt "X-KDE-Keywords"
 msgid "Cookies,Browsing,Internet,WWW,Network,Policy,Domains"
 msgstr ""
@@ -2125,7 +2133,7 @@ msgid "Credentials used to access SMB shares"
 msgstr ""
 
 #. +> trunk5
-#: src/kcms/smb/smb.desktop:168
+#: src/kcms/smb/smb.desktop:169
 msgctxt "X-KDE-Keywords"
 msgid "SMB,SAMBA,SMB client,Windows network,LAN,Network,neighborhood,Server,Broadcast,WINS,Share,Login,Passwords"
 msgstr ""
@@ -2149,7 +2157,7 @@ msgid "Configure web search keywords"
 msgstr "ปรับแต่งการตั้งค่าระบบแคช"
 
 #. +> trunk5
-#: src/kcms/webshortcuts/webshortcuts.desktop:124
+#: src/kcms/webshortcuts/webshortcuts.desktop:125
 msgctxt "X-KDE-Keywords"
 msgid "Web Search Keywords,Web Search,Search,Keyword,Web Shortcuts,Browsing,WWW,Internet,Internet Filters,Network,Search Engines,Shortcuts"
 msgstr ""
@@ -2161,7 +2169,7 @@ msgid "HTTP Cache Cleaner"
 msgstr ""
 
 #. +> trunk5
-#: src/kioworkers/http/http_cache_cleaner.desktop:73
+#: src/kioworkers/http/http_cache_cleaner.desktop:74
 msgctxt "Comment"
 msgid "Cleans up old entries from the HTTP cache"
 msgstr ""
@@ -2176,37 +2184,37 @@ msgid "Network Proxy Configuration"
 msgstr "ปรับแต่งบริการ Nepomuk/Strigi"
 
 #. +> trunk5
-#: src/kpac/proxyscout.notifyrc:71
+#: src/kpac/proxyscout.notifyrc:72
 msgctxt "Name"
 msgid "Invalid Proxy Script"
 msgstr ""
 
 #. +> trunk5
-#: src/kpac/proxyscout.notifyrc:139
+#: src/kpac/proxyscout.notifyrc:140
 msgctxt "Comment"
 msgid "The downloaded proxy configuration script is invalid"
 msgstr ""
 
 #. +> trunk5
-#: src/kpac/proxyscout.notifyrc:211
+#: src/kpac/proxyscout.notifyrc:212
 msgctxt "Name"
 msgid "Script Download Error"
 msgstr ""
 
 #. +> trunk5
-#: src/kpac/proxyscout.notifyrc:279
+#: src/kpac/proxyscout.notifyrc:280
 msgctxt "Comment"
 msgid "The proxy configuration script could not be downloaded"
 msgstr ""
 
 #. +> trunk5
-#: src/kpac/proxyscout.notifyrc:352
+#: src/kpac/proxyscout.notifyrc:353
 msgctxt "Name"
 msgid "Script Evaluation Error"
 msgstr ""
 
 #. +> trunk5
-#: src/kpac/proxyscout.notifyrc:419
+#: src/kpac/proxyscout.notifyrc:420
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "There was a serious error causing the program to exit"

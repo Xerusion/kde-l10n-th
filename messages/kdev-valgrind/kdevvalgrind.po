@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdev-valgrind\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-26 09:54+0200\n"
+"POT-Creation-Date: 2025-05-16 12:10+0200\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,8 +13,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk5
-#: config/globalconfigpage.cpp:45 launchmode.cpp:47 plugin.cpp:68
-#: plugin.cpp:213 problemmodel.cpp:54 problemmodel.cpp:67
+#: config/globalconfigpage.cpp:45 launchmode.cpp:47 plugin.cpp:60
+#: problemmodel.cpp:54 problemmodel.cpp:67
 #, kde-format
 msgid "Valgrind"
 msgstr ""
@@ -100,68 +100,75 @@ msgid "Show valgrind output during analysis"
 msgstr ""
 
 #. +> trunk5
-#: core/job.cpp:138
+#: core/job.cpp:109
 #, kde-format
 msgid "%1 Analysis (%2)"
 msgstr ""
 
 #. +> trunk5
-#: core/job.cpp:217
+#: core/job.cpp:112
+#, kde-format
+msgctxt "%1 - the name of a Valgrind tool, %2 - the name of the target of a Valgrind analysis"
+msgid "%1 (%2)"
+msgstr ""
+
+#. +> trunk5
+#: core/job.cpp:236
 #, kde-format
 msgid "Failed to start valgrind from \"%1\"."
 msgstr ""
 
 #. +> trunk5
-#: core/job.cpp:224
+#: core/job.cpp:243
 #, kde-format
 msgid "Valgrind crashed."
 msgstr ""
 
 #. +> trunk5
-#: core/job.cpp:229
+#: core/job.cpp:248
 #, kde-format
 msgid "Valgrind process timed out."
 msgstr ""
 
 #. +> trunk5
-#: core/job.cpp:233
+#: core/job.cpp:252
 #, kde-format
 msgid "Write to Valgrind process failed."
 msgstr ""
 
 #. +> trunk5
-#: core/job.cpp:237
+#: core/job.cpp:256
 #, kde-format
 msgid "Read from Valgrind process failed."
 msgstr ""
 
 #. +> trunk5
-#: core/job.cpp:255 core/job.cpp:301
+#: core/job.cpp:274 core/job.cpp:320
 #, kde-format
 msgid "Please review your Valgrind launch configuration."
 msgstr ""
 
 #. +> trunk5
-#: core/job.cpp:257
+#: core/job.cpp:276
 #, kde-format
 msgid "Unknown Valgrind process error."
 msgstr ""
 
 #. +> trunk5
-#: core/job.cpp:263 core/job.cpp:303 core/private/xmlparser.cpp:262
+#: core/job.cpp:282 core/job.cpp:322 core/private/xmlparser.cpp:262
 #: core/utils.cpp:124
 #, kde-format
 msgid "Valgrind Error"
 msgstr ""
 
 #. +> trunk5
-#: core/job.cpp:279
+#: core/job.cpp:298
 #, kde-format
 msgid "Executing command: "
 msgstr ""
 
 #. +> trunk5
-#: core/job.cpp:297
+#: core/job.cpp:316
 #, kde-format
 msgid "Failed to execute the command:"
 msgstr ""
@@ -356,7 +363,7 @@ msgid "Run Valgrind Analysis"
 msgstr ""
 
 #. +> trunk5
-#: plugin.cpp:79
+#: plugin.cpp:80
 #, kde-format
 msgid "Run %1"
 msgstr ""
@@ -389,7 +396,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_branchSim)
 #. +> trunk5
 #: tools/cachegrind/cachegrind_configpage.ui:36
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Enables or disables collection of branch instruction and misprediction counts. By default this is disabled as it slows Cachegrind down by approximately 25%. Note that you cannot specify <span style=\" font-family:'Monospace'; font-weight:600; font-style:italic;\">--cache-sim=no</span> and <span style=\" font-family:'Monospace'; font-weight:600; font-style:italic;\">--branch-sim=no</span> together, as that would leave Cachegrind with no information to collect.</p>"
@@ -429,7 +436,7 @@ msgstr ""
 
 #. +> trunk5
 #: tools/cachegrind/cachegrind_model.cpp:155
-#: tools/callgrind/callgrind_model.cpp:289
+#: tools/callgrind/callgrind_model.cpp:290
 #, kde-format
 msgid "Function"
 msgstr ""
@@ -498,57 +505,57 @@ msgid "Launch KCachegrind after analysis finish"
 msgstr ""
 
 #. +> trunk5
-#: tools/callgrind/callgrind_model.cpp:286
-#: tools/callgrind/callgrind_model.cpp:375
+#: tools/callgrind/callgrind_model.cpp:287
+#: tools/callgrind/callgrind_model.cpp:376
 #, kde-format
 msgid "Incl."
 msgstr ""
 
 #. +> trunk5
-#: tools/callgrind/callgrind_model.cpp:287
-#: tools/callgrind/callgrind_model.cpp:376
+#: tools/callgrind/callgrind_model.cpp:288
+#: tools/callgrind/callgrind_model.cpp:377
 #, kde-format
 msgid "Self"
 msgstr ""
 
 #. +> trunk5
-#: tools/callgrind/callgrind_model.cpp:288
+#: tools/callgrind/callgrind_model.cpp:289
 #, kde-format
 msgid "Called"
 msgstr ""
 
 #. +> trunk5
-#: tools/callgrind/callgrind_model.cpp:374
+#: tools/callgrind/callgrind_model.cpp:375
 #, kde-format
 msgid "Event"
 msgstr ""
 
 #. +> trunk5
-#: tools/callgrind/callgrind_model.cpp:377
+#: tools/callgrind/callgrind_model.cpp:378
 #, kde-format
 msgid "Short"
 msgstr ""
 
 #. +> trunk5
-#: tools/callgrind/callgrind_model.cpp:499
+#: tools/callgrind/callgrind_model.cpp:500
 #, kde-format
 msgid "%1 per call"
 msgstr ""
 
 #. +> trunk5
-#: tools/callgrind/callgrind_model.cpp:500
+#: tools/callgrind/callgrind_model.cpp:501
 #, kde-format
 msgid "Count"
 msgstr ""
 
 #. +> trunk5
-#: tools/callgrind/callgrind_model.cpp:503
+#: tools/callgrind/callgrind_model.cpp:504
 #, kde-format
 msgid "Caller"
 msgstr ""
 
 #. +> trunk5
-#: tools/callgrind/callgrind_model.cpp:505
+#: tools/callgrind/callgrind_model.cpp:506
 #, kde-format
 msgid "Callee"
 msgstr ""
@@ -1195,7 +1202,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_peakInaccuracy)
 #. +> trunk5
 #: tools/massif/massif_configpage.ui:136
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Massif does not necessarily record the actual global memory allocation peak; by default it records a peak only when the global memory allocation size exceeds the previous peak by at least 1.0%. This is because there can be many local allocation peaks along the way, and doing a detailed snapshot for every one would be expensive and wasteful, as all but one of them will be later discarded. This inaccuracy can be changed (even to 0.0%) via this option, but Massif will run drastically slower as the number approaches zero.</p>"
@@ -1612,7 +1619,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_expensiveDefinednessChecks)
 #. +> trunk5
 #: tools/memcheck/memcheck_configpage.ui:193
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Controls whether Memcheck should employ more precise but also more expensive (time consuming) algorithms when checking the definedness of a value. The default setting is not to do that and it is usually sufficient. However, for highly optimised code valgrind may sometimes incorrectly complain. Invoking valgrind with <span style=\" font-family:'Monospace'; font-weight:600; font-style:italic;\">--expensive-definedness-checks=yes</span> helps but comes at a performance cost. Runtime degradation of 25% have been observed but the extra cost depends a lot on the application at hand.</p>"

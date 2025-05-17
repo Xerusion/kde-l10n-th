@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karchive6_qt\n"
-"POT-Creation-Date: 2025-04-30 09:39+0200\n"
+"POT-Creation-Date: 2025-05-14 09:24+0200\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -281,7 +281,7 @@ msgid "Unknown error"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kcompressiondevice.cpp:487
+#: kcompressiondevice.cpp:504
 msgctxt "KCompressionDevice|"
 msgid "Could not write. Partition full?"
 msgstr ""
@@ -307,86 +307,86 @@ msgid "Failed to register resource %1 under prefix %2"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:344
+#: ktar.cpp:348
 #, qt-format
 msgctxt "KTar|"
 msgid "File %1 does not exist"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:351
+#: ktar.cpp:355
 #, qt-format
 msgctxt "KTar|"
 msgid "Archive %1 is corrupt"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:355
+#: ktar.cpp:359
 msgctxt "KTar|"
 msgid "Disk full"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:389
+#: ktar.cpp:393
 msgctxt "KTar|"
 msgid "Could not get underlying device"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:404
+#: ktar.cpp:408
 msgctxt "KTar|"
 msgid "Could not read tar header"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:587 ktar.cpp:602
+#: ktar.cpp:592 ktar.cpp:607
 #, qt-format
 msgctxt "KTar|"
 msgid "Failed to write back temp file: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:648
+#: ktar.cpp:653
 #, qt-format
 msgctxt "KTar|"
 msgid "Couldn't write alignment: %1"
 msgstr ""
 
 #. +> trunk6
-#: ktar.cpp:750 ktar.cpp:760
+#: ktar.cpp:755 ktar.cpp:765
 #, qt-format
 msgctxt "KTar|"
 msgid "Couldn't write long link: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:781 ktar.cpp:864 ktar.cpp:933
+#: ktar.cpp:786 ktar.cpp:869 ktar.cpp:938
 msgctxt "KTar|"
 msgid "Application error: TAR file must be open before being written into"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:787
+#: ktar.cpp:792
 msgctxt "KTar|"
 msgid "Application error: attempted to write into non-writable 7-Zip file"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:794
+#: ktar.cpp:799
 #, qt-format
 msgctxt "KTar|"
 msgid "Application limitation: Can not add file larger than %1 bytes"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:848
+#: ktar.cpp:853
 #, qt-format
 msgctxt "KTar|"
 msgid "Failed to write header: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: ktar.cpp:870 ktar.cpp:939
+#: ktar.cpp:875 ktar.cpp:944
 msgctxt "KTar|"
 msgid "Application error: attempted to write into non-writable TAR file"
 msgstr ""
@@ -465,110 +465,117 @@ msgid "Invalid ZIP file, file path name length smaller or equal to zero"
 msgstr ""
 
 #. +> trunk6
-#: kzip.cpp:722
+#: kzip.cpp:675
+#, qt-format
+msgctxt "KZip|"
+msgid "Invalid ZIP file, unable to read %1 + %2 bytes for filename and extra data at offset %3"
+msgstr ""
+
+#. +> trunk6
+#: kzip.cpp:725
 #, qt-format
 msgctxt "KZip|"
 msgid "Invalid ZIP file, inconsistent Local Header Offset in Central Directory at %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:757
+#: kzip.cpp:760
 msgctxt "KZip|"
 msgid "Invalid ZIP file, found empty entry name"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:799
+#: kzip.cpp:802
 #, qt-format
 msgctxt "KZip|"
 msgid "File %1 is in folder %2, but %3 is actually a file."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:810
+#: kzip.cpp:813
 msgctxt "KZip|"
 msgid "Could not seek to next entry"
 msgstr ""
 
 #. +> trunk6
-#: kzip.cpp:839
+#: kzip.cpp:842
 msgctxt "KZip|"
 msgid "Not a ZIP file, no Local File Header found."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:843
+#: kzip.cpp:846
 #, qt-format
 msgctxt "KZip|"
 msgid "Invalid ZIP file. Unrecognized header at offset %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:871
+#: kzip.cpp:874
 #, qt-format
 msgctxt "KZip|"
 msgid "Could not seek to next file header: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:897 kzip.cpp:991
+#: kzip.cpp:900 kzip.cpp:994
 #, qt-format
 msgctxt "KZip|"
 msgid "Could not write file header: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1038
+#: kzip.cpp:1041
 #, qt-format
 msgctxt "KZip|"
 msgid "Could not write central dir record: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1074
+#: kzip.cpp:1077
 msgctxt "KZip|"
 msgid "Application error: ZIP file must be open before being written into"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1080
+#: kzip.cpp:1083
 msgctxt "KZip|"
 msgid "Application error: attempted to write into non-writable ZIP file"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1086
+#: kzip.cpp:1089
 msgctxt "KZip|"
 msgid "Cannot create a device. Disk full?"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1092
+#: kzip.cpp:1095
 msgctxt "KZip|"
 msgid "Cannot seek in ZIP file. Disk full?"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1236
+#: kzip.cpp:1239
 msgctxt "KZip|"
 msgid "Could not write to the archive. Disk full?"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1255
+#: kzip.cpp:1258
 #, qt-format
 msgctxt "KZip|"
 msgid "Could not open compression device: %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1342
+#: kzip.cpp:1345
 msgctxt "KZip|"
 msgid "No file or device"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: kzip.cpp:1355
+#: kzip.cpp:1358
 #, qt-format
 msgctxt "KZip|"
 msgid "Error writing data: %1"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-16 16:19+0200\n"
+"POT-Creation-Date: 2025-05-16 12:11+0200\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -19,21 +19,17 @@ msgid "This module lets configure which keyboard events are forwarded to X11 app
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:29
+#: ui/main.qml:27
 #, kde-format
-msgid "Some legacy X11 apps require the ability to read keystrokes typed in other apps for certain features, such as handling global keyboard shortcuts. This is allowed by default. However other features may require the ability to read all keys, and this is disabled by default for security reasons. If you need to use such apps, you can choose your preferred balance of security and functionality here."
+msgctxt "@info"
+msgid "Changes will take effect the next time you log in."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:45
+#. +> trunk6 stable6
+#: ui/main.qml:31
 #, kde-format
-msgid "Allow legacy X11 apps to read keystrokes typed in all apps:"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:46
-#, kde-format
-msgid "Never"
+msgctxt "@action:button"
+msgid "Log Out Now"
 msgstr ""
 
 #. +> stable5
@@ -43,7 +39,25 @@ msgid "Legacy X11 apps require the ability to read keystrokes typed in other app
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:57
+#: ui/main.qml:52
+#, kde-format
+msgid "Some legacy X11 apps require the ability to read keystrokes typed in other apps for certain features, such as handling global keyboard shortcuts. This is allowed by default. However other features may require the ability to read all keys, and this is disabled by default for security reasons. If you need to use such apps, you can choose your preferred balance of security and functionality here."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:69
+#, kde-format
+msgid "Allow legacy X11 apps to read keystrokes typed in all apps:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:70
+#, kde-format
+msgid "Never"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:81
 #, kde-format
 msgid "Only Meta, Control, Alt and Shift keys"
 msgstr ""
@@ -55,7 +69,7 @@ msgid "Only Meta, Control, Alt, and Shift keys"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:68
+#: ui/main.qml:92
 #, kde-format
 msgid "As above, plus any key typed while the Control, Alt, or Meta keys are pressed"
 msgstr ""
@@ -67,21 +81,28 @@ msgid "All keys, but only while Meta, Ctrl, Alt, or Shift keys are pressed"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:80
+#: ui/main.qml:104
 #, kde-format
 msgid "Always"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:95
+#: ui/main.qml:119
 #, kde-format
 msgid "Additionally include mouse buttons"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:111
+#: ui/main.qml:135
 #, kde-format
 msgid "Note that using this setting will reduce system security to that of the X11 session by permitting malicious software to steal passwords and spy on the text that you type. Make sure you understand and accept this risk."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:147
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow controlling the pointer and keyboard without asking for permission"
 msgstr ""
 
 #. +> stable5
