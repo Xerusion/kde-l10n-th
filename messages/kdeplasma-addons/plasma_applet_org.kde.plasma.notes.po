@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_notes\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-16 12:10+0200\n"
+"POT-Creation-Date: 2025-05-21 10:37+0200\n"
 "PO-Revision-Date: 2010-03-27 21:50+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -26,17 +26,10 @@ msgid "Appearance"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:33
+#: package/contents/ui/configAppearance.qml:37
 #, kde-format
 msgid "%1pt"
 msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:39
-#, fuzzy, kde-format
-#| msgid "Use custom font size:"
-msgid "Text font size:"
-msgstr "กำหนดขนาดตัวอักษรเอง:"
 
 #. +> stable5
 #: package/contents/ui/configAppearance.qml:41
@@ -45,55 +38,62 @@ msgid "Background color"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:64
+#: package/contents/ui/configAppearance.qml:43
+#, fuzzy, kde-format
+#| msgid "Use custom font size:"
+msgid "Text font size:"
+msgstr "กำหนดขนาดตัวอักษรเอง:"
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configAppearance.qml:74
 #, kde-format
 msgid "A white sticky note"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:65
+#: package/contents/ui/configAppearance.qml:75
 #, kde-format
 msgid "A black sticky note"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:66
+#: package/contents/ui/configAppearance.qml:76
 #, kde-format
 msgid "A red sticky note"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:67
+#: package/contents/ui/configAppearance.qml:77
 #, kde-format
 msgid "An orange sticky note"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:68
+#: package/contents/ui/configAppearance.qml:78
 #, kde-format
 msgid "A yellow sticky note"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:69
+#: package/contents/ui/configAppearance.qml:79
 #, kde-format
 msgid "A green sticky note"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:70
+#: package/contents/ui/configAppearance.qml:80
 #, kde-format
 msgid "A blue sticky note"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:71
+#: package/contents/ui/configAppearance.qml:81
 #, kde-format
 msgid "A pink sticky note"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/configAppearance.qml:72
+#: package/contents/ui/configAppearance.qml:82
 #, kde-format
 msgid "A transparent sticky note"
 msgstr ""
@@ -105,7 +105,7 @@ msgid "A translucent sticky note"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/configAppearance.qml:73
+#: package/contents/ui/configAppearance.qml:83
 #, kde-format
 msgid "A transparent sticky note with light text"
 msgstr ""
@@ -117,43 +117,43 @@ msgid "A translucent sticky note with light text"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:259
+#: package/contents/ui/main.qml:270
 #, kde-format
 msgid "Undo"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:267
+#: package/contents/ui/main.qml:278
 #, kde-format
 msgid "Redo"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:277
+#: package/contents/ui/main.qml:288
 #, kde-format
 msgid "Cut"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:285
+#: package/contents/ui/main.qml:296
 #, kde-format
 msgid "Copy"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:293
+#: package/contents/ui/main.qml:304
 #, kde-format
 msgid "Paste"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:299
+#: package/contents/ui/main.qml:310
 #, kde-format
 msgid "Paste with Full Formatting"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:306
+#: package/contents/ui/main.qml:317
 #, fuzzy, kde-format
 #| msgid "Formatting"
 msgctxt "@action:inmenu"
@@ -161,25 +161,25 @@ msgid "Remove Formatting"
 msgstr "การจัดรูปแบบ"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:321
+#: package/contents/ui/main.qml:332
 #, kde-format
 msgid "Delete"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:328
+#: package/contents/ui/main.qml:339
 #, kde-format
 msgid "Clear"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:338
+#: package/contents/ui/main.qml:349
 #, kde-format
 msgid "Select All"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:467
+#: package/contents/ui/main.qml:479
 #, fuzzy, kde-format
 #| msgid "Bold"
 msgctxt "@info:tooltip"
@@ -187,7 +187,7 @@ msgid "Bold"
 msgstr "ตัวหนา"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:480
+#: package/contents/ui/main.qml:492
 #, fuzzy, kde-format
 #| msgid "Italic"
 msgctxt "@info:tooltip"
@@ -195,7 +195,7 @@ msgid "Italic"
 msgstr "ตัวเอียง"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:493
+#: package/contents/ui/main.qml:505
 #, fuzzy, kde-format
 #| msgid "Underline"
 msgctxt "@info:tooltip"
@@ -203,7 +203,7 @@ msgid "Underline"
 msgstr "ตัวขีดเส้นใต้"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:506
+#: package/contents/ui/main.qml:518
 #, fuzzy, kde-format
 #| msgid "StrikeOut"
 msgctxt "@info:tooltip"
@@ -211,26 +211,26 @@ msgid "Strikethrough"
 msgstr "ตัวขีดฆ่า"
 
 #. +> trunk6 stable6
-#: package/contents/ui/main.qml:579
+#: package/contents/ui/main.qml:592
 #, kde-format
 msgctxt "@action:button pin popup for panel widget"
 msgid "Keep Open"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:608
+#: package/contents/ui/main.qml:621
 #, kde-format
 msgid "Discard this note?"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:609
+#: package/contents/ui/main.qml:622
 #, kde-format
 msgid "Are you sure you want to discard this note?"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:629
+#: package/contents/ui/main.qml:647
 #, fuzzy, kde-format
 #| msgid "White"
 msgctxt "@item:inmenu"
@@ -238,7 +238,7 @@ msgid "White"
 msgstr "สีขาว"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:633
+#: package/contents/ui/main.qml:648
 #, fuzzy, kde-format
 #| msgid "Black"
 msgctxt "@item:inmenu"
@@ -246,7 +246,7 @@ msgid "Black"
 msgstr "สีดำ"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:637
+#: package/contents/ui/main.qml:649
 #, fuzzy, kde-format
 #| msgid "Red"
 msgctxt "@item:inmenu"
@@ -254,7 +254,7 @@ msgid "Red"
 msgstr "สีแดง"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:641
+#: package/contents/ui/main.qml:650
 #, fuzzy, kde-format
 #| msgid "Orange"
 msgctxt "@item:inmenu"
@@ -262,7 +262,7 @@ msgid "Orange"
 msgstr "สีส้ม"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:645
+#: package/contents/ui/main.qml:651
 #, fuzzy, kde-format
 #| msgid "Yellow"
 msgctxt "@item:inmenu"
@@ -270,7 +270,7 @@ msgid "Yellow"
 msgstr "สีเหลือง"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:649
+#: package/contents/ui/main.qml:652
 #, fuzzy, kde-format
 #| msgid "Green"
 msgctxt "@item:inmenu"
@@ -286,7 +286,7 @@ msgid "Blue"
 msgstr "สีน้ำเงิน"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:657
+#: package/contents/ui/main.qml:654
 #, fuzzy, kde-format
 #| msgid "Pink"
 msgctxt "@item:inmenu"
@@ -294,7 +294,7 @@ msgid "Pink"
 msgstr "สีชมพู"
 
 #. +> trunk6 stable6
-#: package/contents/ui/main.qml:661
+#: package/contents/ui/main.qml:655
 #, fuzzy, kde-format
 #| msgid "Translucent"
 msgctxt "@item:inmenu"
@@ -310,7 +310,7 @@ msgid "Translucent"
 msgstr "โปร่งแสง"
 
 #. +> trunk6 stable6
-#: package/contents/ui/main.qml:665
+#: package/contents/ui/main.qml:659
 #, fuzzy, kde-format
 #| msgid "Translucent"
 msgctxt "@item:inmenu"

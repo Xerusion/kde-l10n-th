@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-03 10:17+0200\n"
+"POT-Creation-Date: 2025-05-21 10:37+0200\n"
 "PO-Revision-Date: 2010-03-04 21:54+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -219,13 +219,13 @@ msgid "Remove"
 msgstr "เอาออก"
 
 #. +> trunk6 stable6
-#: config/hostpreferenceslist.cpp:99 mainwindow.cpp:287 mainwindow.cpp:664
+#: config/hostpreferenceslist.cpp:99 mainwindow.cpp:293 mainwindow.cpp:670
 #, kde-format
 msgid "Unusable URL"
 msgstr "ที่อยู่ URL ใช้ไม่ได้"
 
 #. +> trunk6 stable6
-#: config/hostpreferenceslist.cpp:99 mainwindow.cpp:664
+#: config/hostpreferenceslist.cpp:99 mainwindow.cpp:670
 #, kde-format
 msgid "The selected host cannot be handled."
 msgstr "ไม่สามารถจัดการเครื่องปลายทางที่เลือกไว้ได้"
@@ -250,8 +250,8 @@ msgid "Hosts"
 msgstr "เครื่องปลายทางต่าง ๆ"
 
 #. +> trunk6 stable6
-#: config/preferencesdialog.cpp:28 core/hostpreferences.cpp:203
-#: core/hostpreferences.cpp:207
+#: config/preferencesdialog.cpp:28 core/hostpreferences.cpp:213
+#: core/hostpreferences.cpp:217
 #, kde-format
 msgid "Host Configuration"
 msgstr "ปรับแต่งค่าเครื่องปลายทาง"
@@ -312,19 +312,19 @@ msgid_plural "%1 years ago"
 msgstr[0] "%1 ปีก่อน"
 
 #. +> trunk6 stable6
-#: core/hostpreferences.cpp:210
+#: core/hostpreferences.cpp:220
 #, kde-format
 msgid "Note that settings might only apply when you connect next time to this host."
 msgstr "โปรดทราบ การตั้งค่าต่าง ๆ นั้น จะมีผลปรับใช้เมื่อคุณทำการเชื่อมต่อไปยังเครื่องปลายทางในครั้งถัดไป"
 
 #. +> trunk6 stable6
-#: core/hostpreferences.cpp:239
+#: core/hostpreferences.cpp:249
 #, kde-format
 msgid "Show this dialog again for this host"
 msgstr "แสดงกล่องโต้ตอบนี้อีกครั้งสำหรับเครื่องปลายทางนี้"
 
 #. +> trunk6 stable6
-#: core/hostpreferences.cpp:243
+#: core/hostpreferences.cpp:253
 #, kde-format
 msgid "Remember password (KWallet)"
 msgstr "จดจำรหัสผ่าน (ผ่านทางกระเป๋าคุมข้อมูลของ KDE)"
@@ -337,13 +337,13 @@ msgid "Sessions"
 msgstr "วาระการเชื่อมต่อต่าง ๆ"
 
 #. +> trunk6 stable6
-#: core/remoteview.cpp:530
+#: core/remoteview.cpp:549
 #, kde-format
 msgid "Please enter the SSH password."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/remoteview.cpp:548 core/remoteview.cpp:550
+#: core/remoteview.cpp:567 core/remoteview.cpp:569
 #, kde-format
 msgid "SSH Tunnel failure"
 msgstr ""
@@ -422,7 +422,7 @@ msgstr "&วาระการเชื่อมต่อ"
 
 #. i18n: ectx: ToolBar (krdc_remote_view_toolbar)
 #. +> trunk6 stable6
-#: krdcui.rc:22
+#: krdcui.rc:23
 #, kde-format
 msgid "Remote View Toolbar"
 msgstr "แถบเครื่องมือมุมมองทางไกล"
@@ -561,8 +561,8 @@ msgid "KDE Remote Desktop Client started"
 msgstr "เริ่มโปรแกรมเชื่อมต่อพื้นที่ทำงานทางไกลด้วย KDE แล้ว"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:116 mainwindow.cpp:129 mainwindow.cpp:1061
-#: mainwindow.cpp:1156
+#: mainwindow.cpp:116 mainwindow.cpp:129 mainwindow.cpp:1082
+#: mainwindow.cpp:1177
 #, kde-format
 msgid "New Connection"
 msgstr "การเชื่อมต่อใหม่"
@@ -580,13 +580,13 @@ msgid "Screenshot"
 msgstr "จับภาพหน้าจอ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:142 mainwindow.cpp:499
+#: mainwindow.cpp:142 mainwindow.cpp:505
 #, kde-format
 msgid "Switch to Full Screen Mode"
 msgstr "สลับเป็นโหมดเต็มจอภาพ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:143 mainwindow.cpp:500
+#: mainwindow.cpp:143 mainwindow.cpp:506
 #, kde-format
 msgid "Full Screen"
 msgstr "เต็มจอภาพ"
@@ -597,74 +597,80 @@ msgstr "เต็มจอภาพ"
 msgid "View Only"
 msgstr "แสดงผลเท่านั้น"
 
+#. +> trunk6
+#: mainwindow.cpp:156
+#, kde-format
+msgid "Clipboard Sharing"
+msgstr ""
+
 #. +> trunk6 stable6
-#: mainwindow.cpp:155
+#: mainwindow.cpp:161
 #, kde-format
 msgid "Disconnect"
 msgstr "ยุติการเชื่อมต่อ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:163
+#: mainwindow.cpp:169
 #, kde-format
 msgid "Show Local Cursor"
 msgstr "แสดงเคอร์เซอร์เมาส์ของระบบ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:164
+#: mainwindow.cpp:170
 #, kde-format
 msgid "Local Cursor"
 msgstr "เคอร์เซอร์ภายในระบบ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:170
+#: mainwindow.cpp:176
 #, kde-format
 msgid "Grab All Possible Keys"
 msgstr "ดักจับปุ่มพิมพ์ต่าง ๆ ทั้งหมดเท่าที่ทำได้"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:171
+#: mainwindow.cpp:177
 #, kde-format
 msgid "Grab Keys"
 msgstr "ดักจับปุ่มพิมพ์ต่าง ๆ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:177
+#: mainwindow.cpp:183
 #, kde-format
 msgid "Scale Remote Screen to Fit Window Size"
 msgstr "ปรับขนาดหน้าจอเครื่องปลายทางให้พอดีกับขนาดหน้าต่าง"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:178
+#: mainwindow.cpp:184
 #, kde-format
 msgid "Scale"
 msgstr "ปรับขนา"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:181
+#: mainwindow.cpp:187
 #, kde-format
 msgid "Scaling Factor"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:192
+#: mainwindow.cpp:198
 #, kde-format
 msgid "Bookmarks"
 msgstr "ที่คั่นหน้า"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:260
+#: mainwindow.cpp:266
 #, kde-format
 msgid "Unable to load connection data from the provided file."
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:260
+#: mainwindow.cpp:266
 #, kde-format
 msgid "Load failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:266
+#: mainwindow.cpp:272
 #, fuzzy, kde-format
 #| msgid "The entered address does not have the required form."
 msgid ""
@@ -673,184 +679,184 @@ msgid ""
 msgstr "ค่าที่อยู่ที่ป้อนมาอยู่ในรูปแบบที่ไม่ตรงกับความต้องการ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:266
+#: mainwindow.cpp:272
 #, kde-format
 msgid "Malformed URL"
 msgstr "รูปแบบของที่อยู่ URL ไม่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:287
+#: mainwindow.cpp:293
 #, kde-format
 msgid "The entered address cannot be handled."
 msgstr "ไม่สามารถจัดการที่อยู่ที่ป้อนได้"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:422
+#: mainwindow.cpp:428
 #, kde-format
 msgid "Connecting to %1"
 msgstr "กำลังเชื่อมต่อไปยัง %1"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:426
+#: mainwindow.cpp:432
 #, kde-format
 msgid "Authenticating at %1"
 msgstr "กำลังทำการตรวจสอบสิทธิ์กับ %1"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:430
+#: mainwindow.cpp:436
 #, kde-format
 msgid "Preparing connection to %1"
 msgstr "กำลังเตรียมการเชื่อมต่อไปยัง %1"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:434
+#: mainwindow.cpp:440
 #, kde-format
 msgid "Connected to %1"
 msgstr "เชื่อมต่อกับ %1 แล้ว"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:530
+#: mainwindow.cpp:536
 #, kde-format
 msgid "Switch to Window Mode"
 msgstr "สลับเป็นโหมดหน้าต่าง"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:531
+#: mainwindow.cpp:537
 #, kde-format
 msgid "Window Mode"
 msgstr "โหมดหน้าต่าง"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:683
+#: mainwindow.cpp:689
 #, kde-format
 msgid "Connect"
 msgstr "เชื่อมต่อ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:684
+#: mainwindow.cpp:690
 #, kde-format
 msgid "Rename"
 msgstr "เปลี่ยนชื่อ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:685
+#: mainwindow.cpp:691
 #, kde-format
 msgid "Settings"
 msgstr "ตั้งค่าต่าง ๆ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:686
+#: mainwindow.cpp:692
 #, kde-format
 msgid "Delete"
 msgstr "ลบ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:689 remotedesktopsmodel.cpp:108
+#: mainwindow.cpp:695 remotedesktopsmodel.cpp:108
 #, kde-format
 msgctxt "Where each displayed link comes from"
 msgid "Bookmarks"
 msgstr "ที่คั่นหน้า"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:689 remotedesktopsmodel.cpp:110
+#: mainwindow.cpp:695 remotedesktopsmodel.cpp:110
 #, kde-format
 msgctxt "Where each displayed link comes from"
 msgid "History"
 msgstr "ประวัติการใช้งาน"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:701
+#: mainwindow.cpp:707
 #, kde-format
 msgid "Rename %1"
 msgstr "เปลี่ยนชื่อ %1"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:701
+#: mainwindow.cpp:707
 #, kde-format
 msgid "Rename %1 to"
 msgstr "เปลี่ยนชื่อ %1 ไปเป็น"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:708
+#: mainwindow.cpp:714
 #, kde-format
 msgid "Are you sure you want to delete %1?"
 msgstr "คุณแน่ใจหรือว่า ต้องการจะลบ %1 ?"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:708
+#: mainwindow.cpp:714
 #, kde-format
 msgid "Delete %1"
 msgstr "ลบ %1"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:732
+#: mainwindow.cpp:738
 #, kde-format
 msgid "Add Bookmark"
 msgstr "เพิ่มคั่นหน้า"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:733
+#: mainwindow.cpp:739
 #, kde-format
 msgid "Close Tab"
 msgstr "ปิดแท็บ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:837
+#: mainwindow.cpp:852
 #, kde-format
 msgid "Minimize Full Screen Window"
 msgstr "ย่อหน้าต่างที่แสดงผลเต็มจอภาพ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:853
+#: mainwindow.cpp:869
 #, kde-format
 msgid "Stick Toolbar"
 msgstr "ปักหมุดแถบเครื่องมือ"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:955
+#: mainwindow.cpp:976
 #, kde-format
 msgid "Are you sure you want to quit the KDE Remote Desktop Client?"
 msgstr "คุณแน่ใจหรือว่า ต้องการจะออกจากโปรแกรมเชื่อมต่อพื้นที่ทำงานทางไกลด้วย KDE ?"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:956
+#: mainwindow.cpp:977
 #, kde-format
 msgid "Confirm Quit"
 msgstr "ยืนยันการออกจากโปรแกรม"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1084
+#: mainwindow.cpp:1105
 #, kde-format
 msgid "Connect to:"
 msgstr "เชื่อมต่อไปยัง:"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1088
+#: mainwindow.cpp:1109
 #, fuzzy, kde-format
 #| msgid "Type here to filter the connection list."
 msgid "Type here to connect to an address and filter the list."
 msgstr "ป้อนการกรองรายการการเชื่อมต่อได้ที่นี่"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1097
+#: mainwindow.cpp:1118
 #, kde-format
 msgid "Type an IP or DNS Name here. Clear the line to get a list of connection methods."
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1100
+#: mainwindow.cpp:1121
 #, kde-format
 msgid "Goto Address"
 msgstr "ไปยังที่อยู่"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1192
+#: mainwindow.cpp:1213
 #, kde-format
 msgid "Remote Desktops"
 msgstr "พื้นที่ทำงานทางไกล"
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:1221
+#: mainwindow.cpp:1242
 #, kde-format
 msgid "Filter"
 msgstr "ตัวกรอง"
@@ -1048,7 +1054,7 @@ msgstr "ความ&ละเอียดพื้นที่ทำงาน:"
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_GatewayTransportType)
 #. +> trunk6 stable6
 #: rdp/rdppreferences.ui:295 rdp/rdppreferences.ui:363
-#: rdp/rdppreferences.ui:943
+#: rdp/rdppreferences.ui:960
 #, kde-format
 msgid "Auto"
 msgstr ""
@@ -1411,37 +1417,51 @@ msgstr ""
 msgid "Share Smartcard:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, consoleModeLabel)
+#. +> trunk6
+#: rdp/rdppreferences.ui:689
+#, kde-format
+msgid "Alternate Session Type:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ConsoleMode)
+#. +> trunk6
+#: rdp/rdppreferences.ui:699
+#, kde-format
+msgid "Admin (or console) session"
+msgstr ""
+
 #. i18n: ectx: attribute (title), widget (QWidget, securitySettingsTab)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:690
+#: rdp/rdppreferences.ui:707
 #, kde-format
 msgid "Security"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, gSecurityLabel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:698
+#: rdp/rdppreferences.ui:715
 #, kde-format
 msgid "Security:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SecurityNLA)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:710
+#: rdp/rdppreferences.ui:727
 #, kde-format
 msgid "NLA"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SecurityTLS)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:717
+#: rdp/rdppreferences.ui:734
 #, kde-format
 msgid "TLS"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SecurityRDP)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:724
+#: rdp/rdppreferences.ui:741
 #, fuzzy, kde-format
 #| msgid "RDP"
 msgid "RDP"
@@ -1449,63 +1469,63 @@ msgstr "การเชื่อมต่อแบบ RDP"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SecurityEXT)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:731
+#: rdp/rdppreferences.ui:748
 #, kde-format
 msgid "Ext"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, TlsSecLevelLabel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:740
+#: rdp/rdppreferences.ui:757
 #, kde-format
 msgid "TLS security level:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:766
+#: rdp/rdppreferences.ui:783
 #, kde-format
 msgid "any"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:771
+#: rdp/rdppreferences.ui:788
 #, kde-format
 msgid "80 bit"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:776
+#: rdp/rdppreferences.ui:793
 #, kde-format
 msgid "112 bit"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:781
+#: rdp/rdppreferences.ui:798
 #, kde-format
 msgid "128 bit"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:786
+#: rdp/rdppreferences.ui:803
 #, kde-format
 msgid "192 bit"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:791
+#: rdp/rdppreferences.ui:808
 #, kde-format
 msgid "256 bit"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, authPkgListLabel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:799
+#: rdp/rdppreferences.ui:816
 #, fuzzy, kde-format
 #| msgid "Authenticating at %1"
 msgid "Authentication Package List:"
@@ -1513,14 +1533,14 @@ msgstr "กำลังทำการตรวจสอบสิทธิ์ก
 
 #. i18n: ectx: attribute (title), widget (QWidget, proxySettingsTab)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:815
+#: rdp/rdppreferences.ui:832
 #, kde-format
 msgid "Proxy"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, protocolLabel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:823
+#: rdp/rdppreferences.ui:840
 #, kde-format
 msgid "Protocol:"
 msgstr ""
@@ -1528,14 +1548,14 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ProxyProtocol)
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_GatewayTransportType)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:837 rdp/rdppreferences.ui:948
+#: rdp/rdppreferences.ui:854 rdp/rdppreferences.ui:965
 #, kde-format
 msgid "HTTP"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ProxyProtocol)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:842
+#: rdp/rdppreferences.ui:859
 #, kde-format
 msgid "SOCKS"
 msgstr ""
@@ -1543,7 +1563,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, pPasswordLabel)
 #. i18n: ectx: property (text), widget (QLabel, gPasswordLabel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:853 rdp/rdppreferences.ui:909
+#: rdp/rdppreferences.ui:870 rdp/rdppreferences.ui:926
 #, kde-format
 msgid "Password:"
 msgstr ""
@@ -1551,7 +1571,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, pUsernameLabel)
 #. i18n: ectx: property (text), widget (QLabel, gUsernameLabel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:863 rdp/rdppreferences.ui:902
+#: rdp/rdppreferences.ui:880 rdp/rdppreferences.ui:919
 #, fuzzy, kde-format
 #| msgid "Enter Username"
 msgid "Username:"
@@ -1560,7 +1580,7 @@ msgstr "ป้อนชื่อผู้ใช้งาน"
 #. i18n: ectx: property (text), widget (QLabel, pHostLabel)
 #. i18n: ectx: property (text), widget (QLabel, gServerLabel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:870 rdp/rdppreferences.ui:895
+#: rdp/rdppreferences.ui:887 rdp/rdppreferences.ui:912
 #, kde-format
 msgid "Server:"
 msgstr ""
@@ -1568,28 +1588,28 @@ msgstr ""
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, kcfg_ProxyHost)
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, kcfg_GatewayServer)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:877 rdp/rdppreferences.ui:916
+#: rdp/rdppreferences.ui:894 rdp/rdppreferences.ui:933
 #, kde-format
 msgid "host:port"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, gatewaySettingsTab)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:887
+#: rdp/rdppreferences.ui:904
 #, kde-format
 msgid "Gateway"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, gTransportTypeLabel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:929
+#: rdp/rdppreferences.ui:946
 #, kde-format
 msgid "Transport type:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_GatewayTransportType)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:953
+#: rdp/rdppreferences.ui:970
 #, fuzzy, kde-format
 #| msgid "RDP"
 msgid "RPC"
@@ -1597,13 +1617,13 @@ msgstr "การเชื่อมต่อแบบ RDP"
 
 #. i18n: ectx: property (text), widget (QLabel, gDomainLabel)
 #. +> trunk6 stable6
-#: rdp/rdppreferences.ui:961
+#: rdp/rdppreferences.ui:978
 #, kde-format
 msgid "Domain:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpsession.cpp:866
+#: rdp/rdpsession.cpp:869
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -2061,19 +2081,19 @@ msgid "Supported password managers (like KeePassXC) mark copied passwords with a
 msgstr ""
 
 #. +> trunk6 stable6
-#: vnc/vncview.cpp:286
+#: vnc/vncview.cpp:291
 #, kde-format
 msgid "Access to the system requires a password."
 msgstr "ต้องการรหัสผ่านในการเข้าใช้งานระบบ"
 
 #. +> trunk6 stable6
-#: vnc/vncview.cpp:286
+#: vnc/vncview.cpp:291
 #, kde-format
 msgid "Authentication failed. Please try again."
 msgstr "การตรวจสอบสิทธิ์ล้มเหลว โปรดลองใหม่อีกครั้ง"
 
 #. +> trunk6 stable6
-#: vnc/vncview.cpp:313 vnc/vncview.cpp:315
+#: vnc/vncview.cpp:318 vnc/vncview.cpp:320
 #, kde-format
 msgid "VNC failure"
 msgstr "เชื่อมต่อ VNC ล้มเหลว"

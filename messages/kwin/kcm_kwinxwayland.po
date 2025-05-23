@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-16 12:11+0200\n"
+"POT-Creation-Date: 2025-05-20 11:17+0200\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -45,19 +45,19 @@ msgid "Some legacy X11 apps require the ability to read keystrokes typed in othe
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:69
+#: ui/main.qml:72
 #, kde-format
 msgid "Allow legacy X11 apps to read keystrokes typed in all apps:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:70
+#: ui/main.qml:73
 #, kde-format
 msgid "Never"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:81
+#: ui/main.qml:84
 #, kde-format
 msgid "Only Meta, Control, Alt and Shift keys"
 msgstr ""
@@ -69,7 +69,7 @@ msgid "Only Meta, Control, Alt, and Shift keys"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:92
+#: ui/main.qml:95
 #, kde-format
 msgid "As above, plus any key typed while the Control, Alt, or Meta keys are pressed"
 msgstr ""
@@ -81,28 +81,35 @@ msgid "All keys, but only while Meta, Ctrl, Alt, or Shift keys are pressed"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:104
+#: ui/main.qml:107
 #, kde-format
 msgid "Always"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:119
+#: ui/main.qml:122
 #, kde-format
 msgid "Additionally include mouse buttons"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:135
+#: ui/main.qml:138
 #, kde-format
 msgid "Note that using this setting will reduce system security to that of the X11 session by permitting malicious software to steal passwords and spy on the text that you type. Make sure you understand and accept this risk."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:147
+#: ui/main.qml:155
 #, kde-format
-msgctxt "@option:check"
-msgid "Allow controlling the pointer and keyboard without asking for permission"
+msgctxt "@title:group"
+msgid "Control of pointer and keyboard:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:156
+#, kde-format
+msgctxt "@option:check Allow control of pointer and keyboard without asking for permission"
+msgid "Allow without asking for permission"
 msgstr ""
 
 #. +> stable5

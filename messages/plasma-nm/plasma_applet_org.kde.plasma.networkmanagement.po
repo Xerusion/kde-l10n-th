@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-04 23:07+0200\n"
+"POT-Creation-Date: 2025-05-22 12:20+0200\n"
 "PO-Revision-Date: 2025-03-24 02:51+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -238,25 +238,48 @@ msgstr ""
 " ตัวเลือกนี้จะปิด Wi-Fi และ Bluetooth"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/Toolbar.qml:159
+#: contents/ui/Toolbar.qml:160
 #, kde-format
 msgid "Hotspot"
 msgstr "ฮอตสปอต"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: contents/ui/Toolbar.qml:177
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot create a hotspot because all wireless radios are in use. Disconnect from the current Wi-Fi network or connect another wireless radio."
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Toolbar.qml:179
+#, fuzzy, kde-format
+#| msgid "Disable Hotspot"
+msgctxt "@info:tooltip"
+msgid "Disable Hotspot"
+msgstr "ปิดฮอตสปอต"
+
+#. +> stable6 stable5
 #: contents/ui/Toolbar.qml:183 contents/ui/Toolbar.qml:194
 #, kde-format
 msgid "Disable Hotspot"
 msgstr "ปิดฮอตสปอต"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: contents/ui/Toolbar.qml:181
+#, fuzzy, kde-format
+#| msgid "Create Hotspot"
+msgctxt "@info:tooltip"
+msgid "Create Hotspot"
+msgstr "สร้างฮอตสปอต"
+
+#. +> stable6 stable5
 #: contents/ui/Toolbar.qml:188 contents/ui/Toolbar.qml:194
 #, kde-format
 msgid "Create Hotspot"
 msgstr "สร้างฮอตสปอต"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/Toolbar.qml:226
+#: contents/ui/Toolbar.qml:215
 #, kde-format
 msgid "Configure network connections…"
 msgstr "ตั้งค่าการเชื่อต่อเครือข่าย..."

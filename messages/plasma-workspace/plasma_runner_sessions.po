@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner_sessions\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-16 12:12+0200\n"
+"POT-Creation-Date: 2025-05-19 13:53+0200\n"
 "PO-Revision-Date: 2010-02-11 21:12+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:22
+#: sessionrunner.cpp:19
 #, fuzzy, kde-format
 #| msgid "log out"
 msgctxt "KRunner keywords (split by semicolons without whitespace) to log out of the session"
@@ -26,13 +26,13 @@ msgid "logout;log out"
 msgstr "ออกจากระบบ"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:25
+#: sessionrunner.cpp:22
 #, kde-format
 msgid "Logs out, exiting the current desktop session"
 msgstr "ออกจากระบบ, ออกจากวาระการใช้งานพื้นที่ทำงานปัจจุบัน"
 
 #. +> trunk6 stable6
-#: sessionrunner.cpp:28
+#: sessionrunner.cpp:25
 #, fuzzy, kde-format
 #| msgctxt "shutdown computer command"
 #| msgid "shutdown"
@@ -50,13 +50,13 @@ msgid "shutdown;shut down"
 msgstr "ปิดเครื่อง"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:31
+#: sessionrunner.cpp:28
 #, kde-format
 msgid "Turns off the computer"
 msgstr "ปิดเครื่องคอมพิวเตอร์"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:34
+#: sessionrunner.cpp:31
 #, fuzzy, kde-format
 #| msgctxt "restart computer command"
 #| msgid "restart"
@@ -65,13 +65,13 @@ msgid "restart;reboot"
 msgstr "เริ่มระบบใหม่"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:37
+#: sessionrunner.cpp:34
 #, kde-format
 msgid "Reboots the computer"
 msgstr "เริ่มระบบคอมพิวเตอร์ใหม่"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:41
+#: sessionrunner.cpp:38
 #, fuzzy, kde-format
 #| msgid "Lock the screen"
 msgctxt "KRunner keywords (split by semicolons without whitespace) to lock the screen"
@@ -79,13 +79,13 @@ msgid "lock;lock screen"
 msgstr "ล็อคหน้าจอ"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:43
+#: sessionrunner.cpp:40
 #, kde-format
 msgid "Locks the current sessions and starts the screen saver"
 msgstr "ล็อควาระงานปัจจุบัน และเริ่มการทำงานของโปรแกรมรักษาหน้าจอ"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:46
+#: sessionrunner.cpp:43
 #, fuzzy, kde-format
 #| msgid "new session"
 msgctxt "KRunner keywords (split by semicolons without whitespace) to save the desktop session"
@@ -93,13 +93,13 @@ msgid "save;save session"
 msgstr "วาระงานใหม่"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:49
+#: sessionrunner.cpp:46
 #, kde-format
 msgid "Saves the current session for session restoration"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:52
+#: sessionrunner.cpp:49
 #, fuzzy, kde-format
 #| msgid "switch user"
 msgctxt "KRunner keywords (split by semicolons without whitespace) to switch user sessions"
@@ -116,7 +116,7 @@ msgid "switch"
 msgstr "สลับ"
 
 #. +> trunk6 stable6
-#: sessionrunner.cpp:55
+#: sessionrunner.cpp:52
 #, fuzzy, kde-format
 #| msgid "Starts a new session as a different user"
 msgid "Switch to a session as a different user"
@@ -129,11 +129,20 @@ msgid "Starts a new session as a different user"
 msgstr "เริ่มวาระงานใหม่ด้วยสิทธิ์ผู้ใช้อื่น"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:77
+#: sessionrunner.cpp:74
 #, kde-format
 msgctxt "log out command"
 msgid "Log Out"
 msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: sessionrunner.cpp:82
+#, fuzzy, kde-format
+#| msgctxt "shutdown computer command"
+#| msgid "shutdown"
+msgctxt "turn off computer command"
+msgid "Shut Down"
+msgstr "ปิดเครื่อง"
 
 #. +> stable5
 #: sessionrunner.cpp:83
@@ -150,13 +159,13 @@ msgid "Lists all sessions"
 msgstr "เรียกดูวาระงานทั้งหมด"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:85
+#: sessionrunner.cpp:89
 #, fuzzy, kde-format
-#| msgctxt "shutdown computer command"
-#| msgid "shutdown"
-msgctxt "turn off computer command"
-msgid "Shut Down"
-msgstr "ปิดเครื่อง"
+#| msgctxt "restart computer command"
+#| msgid "restart"
+msgctxt "restart computer command"
+msgid "Restart"
+msgstr "เริ่มระบบใหม่"
 
 #. +> stable5
 #: sessionrunner.cpp:89
@@ -165,23 +174,14 @@ msgid "Switches to the active session for the user :q:, or lists all active sess
 msgstr "ทำการสลับวาระงานที่ใช้งานอยู่โดยผู้ใช้ :q: หรือเรียกดูวาระงานทั้งหมดที่ทำงานอยู่หากไม่ได้กำหนด :q:"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:92
-#, fuzzy, kde-format
-#| msgctxt "restart computer command"
-#| msgid "restart"
-msgctxt "restart computer command"
-msgid "Restart"
-msgstr "เริ่มระบบใหม่"
-
-#. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:99
+#: sessionrunner.cpp:96
 #, kde-format
 msgctxt "lock screen command"
 msgid "Lock"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:106
+#: sessionrunner.cpp:103
 #, fuzzy, kde-format
 #| msgid "new session"
 msgid "Save Session"
@@ -195,7 +195,7 @@ msgid "New Desktop Session"
 msgstr "วาระงานใหม่"
 
 #. +> trunk6 stable6 stable5
-#: sessionrunner.cpp:113
+#: sessionrunner.cpp:110
 #, fuzzy, kde-format
 #| msgid "switch user"
 msgid "Switch User"

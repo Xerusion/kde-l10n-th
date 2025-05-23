@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: merkuro\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-16 16:19+0200\n"
+"POT-Creation-Date: 2025-05-18 10:20+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -247,7 +247,13 @@ msgstr ""
 msgid "Calendar Application"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: calendar/main.cpp:64 contacts/main.cpp:58 mail/main.cpp:60
+#, kde-format
+msgid "© KDE Community 2021-2024"
+msgstr ""
+
+#. +> stable6
 #: calendar/main.cpp:64 contacts/main.cpp:58 mail/main.cpp:60
 #, kde-format
 msgid "(c) KDE Community 2021-2024"
@@ -915,14 +921,28 @@ msgctxt "%1 is month name, %2 is year"
 msgid "<b>%1</b> %2"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: calendar/qml/Controls/TitleDateButton.qml:39
+#, kde-format
+msgctxt "%1 is the month and year of the range start, %2 is the same for range end"
+msgid "%1 – %2"
+msgstr ""
+
+#. +> stable6
 #: calendar/qml/Controls/TitleDateButton.qml:39
 #, kde-format
 msgctxt "%1 is the month and year of the range start, %2 is the same for range end"
 msgid "%1 - %2"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: calendar/qml/Controls/TitleDateButton.qml:41
+#, kde-format
+msgctxt "%1 is month of range start, %2 is month + year of range end"
+msgid "<b>%1</b> – %2"
+msgstr ""
+
+#. +> stable6
 #: calendar/qml/Controls/TitleDateButton.qml:41
 #, kde-format
 msgctxt "%1 is month of range start, %2 is month + year of range end"
@@ -2657,7 +2677,14 @@ msgstr ""
 msgid "1 day"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: calendar/utils.cpp:25
+#, kde-format
+msgctxt "%1 is 2 or more"
+msgid "%1 hours"
+msgstr ""
+
+#. +> stable6
 #: calendar/utils.cpp:25
 #, kde-format
 msgctxt "%1 is 2 or mores"
@@ -3151,7 +3178,14 @@ msgctxt "@action:inmenu"
 msgid "Delete address book"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: contacts/qml/private/AddressBookMenu.qml:42
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Set address book color…"
+msgstr ""
+
+#. +> stable6
 #: contacts/qml/private/AddressBookMenu.qml:42
 #, kde-format
 msgctxt "@action:inmenu"
@@ -4031,7 +4065,13 @@ msgstr ""
 msgid "merkuro Launcher"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: launcher/main.cpp:55
+#, kde-format
+msgid "© 2024"
+msgstr ""
+
+#. +> stable6
 #: launcher/main.cpp:55
 #, kde-format
 msgid "(c) 2024"
