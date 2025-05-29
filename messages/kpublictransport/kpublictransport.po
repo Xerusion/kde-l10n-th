@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpublictransport\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-22 12:19+0200\n"
+"POT-Creation-Date: 2025-05-29 08:20+0200\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -11,6 +11,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#. +> trunk6
+#: lib/datatypes/classutil.cpp:29
+#, kde-format
+msgctxt "train seating class"
+msgid "First class"
+msgstr ""
+
+#. +> trunk6
+#: lib/datatypes/classutil.cpp:32
+#, kde-format
+msgctxt "train seating class"
+msgid "Second class"
+msgstr ""
+
+#. +> trunk6
+#: lib/datatypes/classutil.cpp:35
+#, kde-format
+msgctxt "train seating class"
+msgid "First/second class"
+msgstr ""
 
 #. +> trunk6 stable6
 #: lib/datatypes/feature.cpp:52
@@ -159,28 +180,28 @@ msgid "Rented car"
 msgstr ""
 
 #. +> trunk6
-#: lib/datatypes/vehicle.cpp:75
+#: lib/datatypes/vehicle.cpp:77
 #, kde-format
 msgctxt "train coach type"
 msgid "Sleeping car"
 msgstr ""
 
 #. +> trunk6
-#: lib/datatypes/vehicle.cpp:77
+#: lib/datatypes/vehicle.cpp:79
 #, kde-format
 msgctxt "train coach type"
 msgid "Couchette car"
 msgstr ""
 
 #. +> trunk6
-#: lib/datatypes/vehicle.cpp:79
+#: lib/datatypes/vehicle.cpp:81
 #, kde-format
 msgctxt "train coach type"
 msgid "Restaurant car"
 msgstr ""
 
 #. +> trunk6
-#: lib/datatypes/vehicle.cpp:81
+#: lib/datatypes/vehicle.cpp:83
 #, kde-format
 msgctxt "train coach type"
 msgid "Car transport car"
@@ -246,6 +267,31 @@ msgid "On time"
 msgstr ""
 
 #. +> trunk6
+#: quick/FeatureDelegate.qml:37
+#, kde-format
+msgid "Availability unknown"
+msgstr ""
+
+#. +> trunk6
+#: quick/FeatureDelegate.qml:39
+#, kde-format
+msgid "Not available"
+msgstr ""
+
+#. +> trunk6
+#: quick/FeatureDelegate.qml:41
+#, kde-format
+msgid "Currently not available"
+msgstr ""
+
+#. +> trunk6
+#: quick/FeatureDelegate.qml:43
+#, kde-format
+msgid "One space"
+msgid_plural "%1 spaces"
+msgstr[0] ""
+
+#. +> trunk6
 #: quick/FeatureIcon.qml:58
 #, kde-format
 msgid "%1 (availability unknown)"
@@ -264,6 +310,13 @@ msgid "%2 (one space)"
 msgid_plural "%2 (%1 spaces)"
 msgstr[0] ""
 msgstr[1] ""
+
+#. +> trunk6
+#: quick/OccupancyDelegate.qml:36
+#, kde-format
+msgctxt "seating class type: occupancy level"
+msgid "%1: %2"
+msgstr ""
 
 #. +> trunk6 stable6
 #: quick/OccupancyIndicator.qml:39

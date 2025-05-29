@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-22 12:20+0200\n"
+"POT-Creation-Date: 2025-05-24 10:38+0200\n"
 "PO-Revision-Date: 2010-05-24 21:25+0700\n"
 "Last-Translator: Phuwanat Sakornsakolpat <narachai@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -290,6 +290,7 @@ msgstr ""
 #. +> trunk5
 #: controllers/view/bookmarks/bookmarksview.cpp:144
 #: controllers/view/stringsextract/stringsextractview.cpp:191
+#: controllers/view/structures/structureview.cpp:386
 #, kde-format
 msgctxt "@action"
 msgid "Copy Offset"
@@ -298,6 +299,7 @@ msgstr ""
 #. +> trunk5
 #: controllers/view/bookmarks/bookmarksview.cpp:146
 #: controllers/view/stringsextract/stringsextractview.cpp:193
+#: controllers/view/structures/structureview.cpp:388
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copies the offset to the clipboard."
@@ -1677,19 +1679,18 @@ msgstr ""
 
 #. +> trunk5
 #: controllers/view/poddecoder/podtableview.cpp:258
-#: controllers/view/structures/structureview.cpp:354
+#: controllers/view/structures/structureview.cpp:372
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Edit"
 msgstr ""
 
-#. +> trunk5 stable5
-#: controllers/view/poddecoder/podtableview.cpp:272
-#: controllers/view/selectrange/selectrangeview.cpp:125
-#: controllers/view/structures/structureview.cpp:369
+#. +> trunk5
+#: controllers/view/poddecoder/podtableview.cpp:271
+#: controllers/view/structures/structureview.cpp:395
 #, kde-format
-msgctxt "@action:button"
-msgid "&Select"
+msgctxt "@action:inmenu"
+msgid "Select"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -1947,6 +1948,13 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "End relative"
+msgstr ""
+
+#. +> trunk5 stable5
+#: controllers/view/selectrange/selectrangeview.cpp:125
+#, kde-format
+msgctxt "@action:button"
+msgid "&Select"
 msgstr ""
 
 #. +> trunk5 stable5
@@ -2931,7 +2939,7 @@ msgid "Character value:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/structurestool.cpp:69
+#: controllers/view/structures/structurestool.cpp:70
 #: controllers/view/structures/structurestoolviewfactory.cpp:29
 #, kde-format
 msgctxt "@title:window"
@@ -2939,28 +2947,28 @@ msgid "Structures"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/structurestool.cpp:198
+#: controllers/view/structures/structurestool.cpp:199
 #, kde-format
 msgctxt "name of a data structure"
 msgid "Name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/structurestool.cpp:200
+#: controllers/view/structures/structurestool.cpp:201
 #, kde-format
 msgctxt "type of a data structure"
 msgid "Type"
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/structurestool.cpp:202
+#: controllers/view/structures/structurestool.cpp:203
 #, kde-format
 msgctxt "value of a data structure (primitive type)"
 msgid "Value"
 msgstr ""
 
 #. +> trunk5
-#: controllers/view/structures/structurestool.cpp:204
+#: controllers/view/structures/structurestool.cpp:205
 #, kde-format
 msgctxt "size of a data structure"
 msgid "Size"
@@ -3072,7 +3080,7 @@ msgid "Lock selected structure to current offset."
 msgstr ""
 
 #. +> trunk5 stable5
-#: controllers/view/structures/structureview.cpp:315
+#: controllers/view/structures/structureview.cpp:329
 #, kde-format
 msgctxt "@title:window"
 msgid "Structures Script Console"

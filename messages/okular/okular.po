@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-03 10:17+0200\n"
+"POT-Creation-Date: 2025-05-29 08:20+0200\n"
 "PO-Revision-Date: 2010-12-17 21:55+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -1317,7 +1317,15 @@ msgstr ""
 msgid "The document integrity verification could not be completed."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: gui/signatureguiutils.cpp:208
+#, fuzzy, kde-format
+#| msgid "Printing this document is not allowed."
+msgctxt "Digital signature"
+msgid "This document has signature placeholder fields."
+msgstr "ไม่ได้รับการอนุญาตให้ทำการพิมพ์เอกสารนี้"
+
+#. +> stable6
 #: gui/signatureguiutils.cpp:208
 #, fuzzy, kde-format
 #| msgid "Printing this document is not allowed."
@@ -1345,11 +1353,13 @@ msgstr "ไม่ได้รับการอนุญาตให้ทำก
 msgid "This document is digitally signed. Some of the signatures could not be validated properly."
 msgstr "ไม่ได้รับการอนุญาตให้ทำการพิมพ์เอกสารนี้"
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: gui/signaturemodel.cpp:141
-#, kde-format
-msgid "Unsigned Signature %1"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Caret Properties"
+msgctxt "Digital signature"
+msgid "Signature placeholder %1"
+msgstr "คุณสมบัติ Caret"
 
 #. +> trunk6 stable6
 #: gui/signaturemodel.cpp:144 gui/signaturemodel.cpp:181
@@ -1384,35 +1394,79 @@ msgstr "จำนวนหน้า: %1"
 msgid "Location: %1"
 msgstr "หมายเหตุประกอบ %1 แห่ง"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: gui/signaturemodel.cpp:185
+#, kde-format
+msgctxt "Digital signature type"
+msgid "PGP Signature"
+msgstr ""
+
+#. +> stable6
 #: gui/signaturemodel.cpp:185
 #, kde-format
 msgctxt "Signature type"
 msgid "PGP Signature"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
+#: gui/signaturemodel.cpp:195
+#, kde-format
+msgctxt "Signature type"
+msgid "Unsigned signature"
+msgstr ""
+
+#. +> trunk6
+#: gui/signaturemodel.cpp:187
+#, kde-format
+msgctxt "Digital signature type"
+msgid "Adobe PKCS7"
+msgstr ""
+
+#. +> stable6
 #: gui/signaturemodel.cpp:187
 #, kde-format
 msgctxt "Signature type"
 msgid "Adobe PKCS7"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: gui/signaturemodel.cpp:189
+#, kde-format
+msgctxt "Digital signature type"
+msgid "Adobe PKCS7 Sha1"
+msgstr ""
+
+#. +> stable6
 #: gui/signaturemodel.cpp:189
 #, kde-format
 msgctxt "Signature type"
 msgid "Adobe PKCS7 Sha1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: gui/signaturemodel.cpp:191
+#, kde-format
+msgctxt "Digital signature type"
+msgid "ETSI CAdES"
+msgstr ""
+
+#. +> stable6
 #: gui/signaturemodel.cpp:191
 #, kde-format
 msgctxt "Signature type"
 msgid "ETSI CAdES"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: gui/signaturemodel.cpp:193
+#, fuzzy, kde-format
+#| msgctxt "Unknown author"
+#| msgid "Unknown"
+msgctxt "Digital signature type"
+msgid "Unknown"
+msgstr "ไม่ทราบ"
+
+#. +> stable6
 #: gui/signaturemodel.cpp:193
 #, fuzzy, kde-format
 #| msgctxt "Unknown author"
@@ -1421,12 +1475,13 @@ msgctxt "Signature type"
 msgid "Unknown"
 msgstr "ไม่ทราบ"
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: gui/signaturemodel.cpp:195
-#, kde-format
-msgctxt "Signature type"
-msgid "Unsigned signature"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Caret Properties"
+msgctxt "Digital signature type"
+msgid "Signature placeholder"
+msgstr "คุณสมบัติ Caret"
 
 #. +> trunk6 stable6
 #: gui/signaturemodel.cpp:201
@@ -1434,6 +1489,12 @@ msgstr ""
 #| msgid "Caret Properties"
 msgid "Signature Type: %1"
 msgstr "คุณสมบัติ Caret"
+
+#. +> stable6
+#: gui/signaturemodel.cpp:141
+#, kde-format
+msgid "Unsigned Signature %1"
+msgstr ""
 
 #. +> trunk6 stable6
 #: part/annotationactionhandler.cpp:148
@@ -1980,7 +2041,7 @@ msgid "Page %1 (%2)"
 msgstr "หน้า %1"
 
 #. +> trunk6 stable6
-#: part/annotationmodel.cpp:322 part/part.cpp:3149
+#: part/annotationmodel.cpp:322 part/part.cpp:3160
 #, kde-format
 msgid "Page %1"
 msgstr "หน้า %1"
@@ -2761,13 +2822,13 @@ msgstr "ไปยังคั่นหน้านี้"
 
 #. +> trunk6 stable6
 #: part/bookmarklist.cpp:258 part/bookmarklist.cpp:289 part/part.cpp:704
-#: part/part.cpp:2450
+#: part/part.cpp:2461
 #, kde-format
 msgid "Rename Bookmark"
 msgstr "เปลี่ยนชื่อคั่นหน้า"
 
 #. +> trunk6 stable6
-#: part/bookmarklist.cpp:259 part/part.cpp:2255 part/part.cpp:3155
+#: part/bookmarklist.cpp:259 part/part.cpp:2266 part/part.cpp:3166
 #, kde-format
 msgid "Remove Bookmark"
 msgstr "เอาคั่นหน้าออก"
@@ -3757,7 +3818,7 @@ msgstr "เก็บทุกอย่างไว้ในหน่วยคว
 
 #. +> trunk6 stable6
 #: part/dlgperformance.cpp:87
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "Loads and keeps everything in memory. Preload all pages. (Will use at maximum 50% of your total memory or your free memory, whatever is bigger.)"
 msgstr ""
 
@@ -4372,7 +4433,14 @@ msgstr ""
 msgid "All Files (*)"
 msgstr "*|แฟ้มทั้งหมด"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: part/formwidgets.cpp:1280
+#, kde-format
+msgctxt "Digital signature"
+msgid "Signature placeholder (Click to Sign)"
+msgstr ""
+
+#. +> stable6
 #: part/formwidgets.cpp:1280
 #, kde-format
 msgid "Unsigned Signature Field (Click to Sign)"
@@ -4412,7 +4480,7 @@ msgid "Regular Expression"
 msgstr "รูปแบบเงื่อนไขการค้นหา"
 
 #. +> trunk6 stable6
-#: part/layers.cpp:35 part/part.cpp:2298
+#: part/layers.cpp:35 part/part.cpp:2309
 #, kde-format
 msgid "Layers"
 msgstr ""
@@ -4781,7 +4849,7 @@ msgid "Go to '%1'"
 msgstr "ไปยังหน้าที่ %1"
 
 #. +> trunk6 stable6
-#: part/pageview.cpp:4064 part/part.cpp:3160
+#: part/pageview.cpp:4064 part/part.cpp:3171
 #, kde-format
 msgid "Fit Width"
 msgstr "พอดีกับความกว้าง"
@@ -5516,45 +5584,45 @@ msgid "Importing PS file as PDF (this may take a while)..."
 msgstr "กำลังนำเข้าแฟ้ม PS ในรูปแบบ PDF (อาจจะใช้เวลาสักครู่)..."
 
 #. +> trunk6 stable6
-#: part/part.cpp:1487
+#: part/part.cpp:1490
 #, fuzzy, kde-format
 #| msgid "Moves to the last page of the document"
 msgid "Please enter the password to read the document:"
 msgstr "เลื่อนยไปยังหน้าสุดท้ายของเอกสาร"
 
 #. +> trunk6 stable6
-#: part/part.cpp:1489
+#: part/part.cpp:1492
 #, kde-format
 msgid "Incorrect password. Try again:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1495
+#: part/part.cpp:1503
 #, fuzzy, kde-format
 #| msgid "Document to open"
 msgid "Document Password"
 msgstr "เอกสารที่จะเปิด"
 
 #. +> trunk6 stable6
-#: part/part.cpp:1615
+#: part/part.cpp:1626
 #, kde-format
 msgid "This document has XFA forms, which are currently <b>unsupported</b>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1622
+#: part/part.cpp:1633
 #, kde-format
 msgid "This document has forms. Click on the button to interact with them, or use View -> Show Forms."
 msgstr "เอกสารนี้เป็นแบบฟอร์ม คลิกบนปุ่มเพื่อใช้งานมัน หรือใช้เมนู มุมมอง -> แสดงแบบฟอร์ม"
 
 #. +> trunk6 stable6
-#: part/part.cpp:1638
+#: part/part.cpp:1649
 #, kde-format
 msgid "All editing and interactive features for this document are disabled. Please save a copy and reopen to edit this document."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1726
+#: part/part.cpp:1737
 #, kde-format
 msgid ""
 "This document wants to be shown full screen.\n"
@@ -5562,33 +5630,33 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1728
+#: part/part.cpp:1739
 #, kde-format
 msgid "Request to Change Viewing Mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1729
+#: part/part.cpp:1740
 #, fuzzy, kde-format
 #| msgid "Exit Presentation Mode"
 msgid "Enter Presentation Mode"
 msgstr "ออกจากการนำเสนอ"
 
 #. +> trunk6 stable6
-#: part/part.cpp:1730
+#: part/part.cpp:1741
 #, kde-format
 msgid "Deny Request"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1820
+#: part/part.cpp:1831
 #, fuzzy, kde-format
 #| msgid "Could not open %1"
 msgid "Could not open %1. %2"
 msgstr "ไม่สามารถเปิด %1 ได้"
 
 #. +> trunk6 stable6
-#: part/part.cpp:1850
+#: part/part.cpp:1861
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5598,26 +5666,26 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1854 part/part.cpp:1864
+#: part/part.cpp:1865 part/part.cpp:1875
 #, kde-format
 msgid "File Changed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1855
+#: part/part.cpp:1866
 #, fuzzy, kde-format
 #| msgid "&Continuous"
 msgid "Continue Reloading"
 msgstr "ต่อเ&นื่อง"
 
 #. +> trunk6 stable6
-#: part/part.cpp:1856
+#: part/part.cpp:1867
 #, kde-format
 msgid "Abort Reloading"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1860
+#: part/part.cpp:1871
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5627,95 +5695,95 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1865
+#: part/part.cpp:1876
 #, fuzzy, kde-format
 #| msgid "&Continuous"
 msgid "Continue Closing"
 msgstr "ต่อเ&นื่อง"
 
 #. +> trunk6 stable6
-#: part/part.cpp:1866
+#: part/part.cpp:1877
 #, kde-format
 msgid "Abort Closing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1873
+#: part/part.cpp:1884
 #, kde-format
 msgid "Do you want to save your changes to \"%1\" or discard them?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:1873
+#: part/part.cpp:1884
 #, fuzzy, kde-format
 #| msgid "Open Document"
 msgid "Close Document"
 msgstr "เปิดเอกสาร"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2005
+#: part/part.cpp:2016
 #, kde-format
 msgid "This link points to a close document action that does not work when using the embedded viewer."
 msgstr "การเชื่อมโยงนี้ชี้ไปยังการเรียกส่วนปิดเอกสาร ซึ่งจะไม่ทำงานเมื่อใช้งานร่วมกับเครื่องมือแสดงผลแบบฝังตัว"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2011
+#: part/part.cpp:2022
 #, kde-format
 msgid "This link points to a quit application action that does not work when using the embedded viewer."
 msgstr "การเชื่อมโยงนี้ชี้ไปยังการเรียกส่วนจบโปรแกรม ซึ่งจะไม่ทำงานเมื่อใช้งานร่วมกับเครื่องมือแสดงผลแบบฝังตัว"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2103 part/part.cpp:2121
+#: part/part.cpp:2114 part/part.cpp:2132
 #, kde-format
 msgid "Reloading the document..."
 msgstr "กำลังเรียกเอกสารขึ้นมาใหม่..."
 
 #. +> trunk6 stable6
-#: part/part.cpp:2278 part/toc.cpp:38
+#: part/part.cpp:2289 part/toc.cpp:38
 #, kde-format
 msgid "Contents"
 msgstr "เนื้อหา"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2307 part/signaturepanel.cpp:47
+#: part/part.cpp:2318 part/signaturepanel.cpp:47
 #, kde-format
 msgid "Signatures"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2334
+#: part/part.cpp:2345
 #, kde-format
 msgid "Go to Page"
 msgstr "ไปยังหน้าที่"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2357
+#: part/part.cpp:2368
 #, kde-format
 msgid "&Page:"
 msgstr "หน้า&ที่:"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2450
+#: part/part.cpp:2461
 #, kde-format
 msgid "Enter the new name of the bookmark:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2496
+#: part/part.cpp:2507
 #, fuzzy, kde-format
 #| msgid "Rename Bookmark"
 msgid "Rename this Bookmark"
 msgstr "เปลี่ยนชื่อคั่นหน้า"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2499
+#: part/part.cpp:2510
 #, fuzzy, kde-format
 #| msgid "Rename Bookmark"
 msgid "Remove this Bookmark"
 msgstr "เปลี่ยนชื่อคั่นหน้า"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2585 part/part.cpp:2586 part/part.cpp:3466
+#: part/part.cpp:2596 part/part.cpp:2597 part/part.cpp:3477
 #: part/signaturepartutils.cpp:256
 #, kde-format
 msgctxt "File type name and pattern"
@@ -5723,7 +5791,7 @@ msgid "%1 (%2)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2593 part/revisionviewer.cpp:44
+#: part/part.cpp:2604 part/revisionviewer.cpp:44
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "&Save As..."
@@ -5731,46 +5799,46 @@ msgid "Save As"
 msgstr "บัน&ทึกเป็น..."
 
 #. +> trunk6 stable6
-#: part/part.cpp:2610
+#: part/part.cpp:2621
 #, kde-format
 msgid "You have chosen to save an Okular Archive without the file name ending with the '%1' extension. That is not allowed, do you want to choose a new name?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2611
+#: part/part.cpp:2622
 #, fuzzy, kde-format
 #| msgid "Line Extensions"
 msgid "Unsupported extension"
 msgstr "ส่วนขยายเส้น"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2612
+#: part/part.cpp:2623
 #, kde-format
 msgctxt "@action:button"
 msgid "Choose New Name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2654
+#: part/part.cpp:2665
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The file <filename>%1</filename> has been modified by another program. If you save now, any changes made in the other program will be lost. Are you sure you want to continue?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2657 part/part.cpp:2675 part/part.cpp:2727
+#: part/part.cpp:2668 part/part.cpp:2686 part/part.cpp:2738
 #, kde-format
 msgid "Save - Warning"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2659
+#: part/part.cpp:2670
 #, kde-format
 msgid "Save a Copy Elsewhere"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2674
+#: part/part.cpp:2685
 #, kde-format
 msgid ""
 "The current document is protected with a password.<br />"
@@ -5779,13 +5847,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2701
+#: part/part.cpp:2712
 #, kde-format
 msgid "Could not open the temporary file for saving."
 msgstr "ไม่สามารถเปิดแฟ้มชั่วคราวเพื่อทำการบันทึกได้"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2714
+#: part/part.cpp:2725
 #, fuzzy, kde-kuit-format
 #| msgid "File could not be saved in '%1'. Try to save it to another location."
 msgctxt "@info"
@@ -5793,7 +5861,7 @@ msgid "Could not overwrite <filename>%1</filename> because that file is read-onl
 msgstr "ไม่สามารถบันทึกแฟ้มไว้ใน '%1' ได้ ลองบันทึกมันไว้ในที่อื่น ๆ"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2726
+#: part/part.cpp:2737
 #, kde-format
 msgid ""
 "After saving, the current document format requires the file to be reloaded. Your undo/redo history will be lost.<br />"
@@ -5801,76 +5869,76 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2741 part/part.cpp:2810 part/part.cpp:2831 part/part.cpp:3481
+#: part/part.cpp:2752 part/part.cpp:2821 part/part.cpp:2842 part/part.cpp:3492
 #, kde-format
 msgid "File could not be saved in '%1'. Try to save it to another location."
 msgstr "ไม่สามารถบันทึกแฟ้มไว้ใน '%1' ได้ ลองบันทึกมันไว้ในที่อื่น ๆ"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2754
+#: part/part.cpp:2765
 #, fuzzy, kde-format
 #| msgid "Annotation Properties"
 msgid "Filled form contents"
 msgstr "คุณสมบัติหมายเหตุประกอบ"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2757
+#: part/part.cpp:2768
 #, fuzzy, kde-format
 #| msgid "Presentation"
 msgid "User annotations"
 msgstr "การนำเสนอ"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2762
+#: part/part.cpp:2773
 #, kde-format
 msgid "You are about to save changes, but the current file format does not support saving the following elements. Please use the <i>Okular document archive</i> format to preserve them."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2766 part/part.cpp:2788
+#: part/part.cpp:2777 part/part.cpp:2799
 #, kde-format
 msgid "Warning"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2767 part/part.cpp:2789
+#: part/part.cpp:2778 part/part.cpp:2800
 #, kde-format
 msgid "Save as Okular document archive..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2779
+#: part/part.cpp:2790
 #, kde-format
 msgid "You are about to save changes, but the current file format does not support saving the following elements. Please use the <i>Okular document archive</i> format to preserve them. Click <i>Continue</i> to save the document and discard these elements."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2782
+#: part/part.cpp:2793
 #, kde-format
 msgid "You are about to save changes, but the current file format does not support saving the following elements. Please use the <i>Okular document archive</i> format to preserve them. Click <i>Continue</i> to save, but you will lose these elements as well as the undo/redo history."
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2784
+#: part/part.cpp:2795
 #, fuzzy, kde-format
 #| msgid "&Continuous"
 msgid "Continue"
 msgstr "ต่อเ&นื่อง"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2784
+#: part/part.cpp:2795
 #, kde-format
 msgid "Continue losing changes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:2812
+#: part/part.cpp:2823
 #, kde-format
 msgid "File could not be saved in '%1'. %2"
 msgstr "ไม่สามารถบันทึกแฟ้มไว้ใน '%1' ได้ %2"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2851
+#: part/part.cpp:2862
 #, kde-format
 msgid ""
 "Okular cannot copy %1 to the specified location.\n"
@@ -5882,58 +5950,58 @@ msgstr ""
 "จะไม่มีเอกสารอยู่"
 
 #. +> trunk6 stable6
-#: part/part.cpp:2887
+#: part/part.cpp:2898
 #, fuzzy, kde-format
 #| msgid "File could not be saved in '%1'. Try to save it to another location."
 msgid "File could not be saved in '%1'. Error: '%2'. Try to save it to another location."
 msgstr "ไม่สามารถบันทึกแฟ้มไว้ใน '%1' ได้ ลองบันทึกมันไว้ในที่อื่น ๆ"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3138
+#: part/part.cpp:3149
 #, fuzzy, kde-format
 #| msgid "End Presentation"
 msgid "Expand whole section"
 msgstr "จบการนำเสนอ"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3139
+#: part/part.cpp:3150
 #, kde-format
 msgid "Collapse whole section"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3140
+#: part/part.cpp:3151
 #, kde-format
 msgid "Expand all"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3141
+#: part/part.cpp:3152
 #, kde-format
 msgid "Collapse all"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3152
+#: part/part.cpp:3163
 #, fuzzy, kde-format
 #| msgid "Link the &thumbnails with the page"
 msgid "Sync Thumbnail with Page"
 msgstr "เชื่อมโยงภาพตั&วอย่างเข้ากับหน้ากระดาษ"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3157
+#: part/part.cpp:3168
 #, kde-format
 msgid "Add Bookmark"
 msgstr "เพิ่มคั่นหน้า"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3179
+#: part/part.cpp:3190
 #, kde-format
 msgid "Tools"
 msgstr "เครื่องมือ"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3361
+#: part/part.cpp:3372
 #, fuzzy, kde-format
 #| msgid "Speak Text"
 msgctxt "@action:inmenu menu that contains actions to control text to speach"
@@ -5941,99 +6009,99 @@ msgid "Speak"
 msgstr "อ่านข้อความ"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3519
+#: part/part.cpp:3530
 #, kde-format
 msgctxt "@title:window"
 msgid "Print"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3582
+#: part/part.cpp:3593
 #, kde-format
 msgid "Printing this document is not allowed."
 msgstr "ไม่ได้รับการอนุญาตให้ทำการพิมพ์เอกสารนี้"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3595
+#: part/part.cpp:3606
 #, kde-format
 msgid "Could not print the document. Unknown error. Please report to bugs.kde.org"
 msgstr "ไม่สามารถพิมพ์เอกสารได้ โดยไม่ทราบข้อผิดพลาด โปรดรายงานข้อผิดพลาดไปยัง bugs.kde.org"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3597
+#: part/part.cpp:3608
 #, kde-format
 msgid "Could not print the document. Detailed error is \"%1\". Please report to bugs.kde.org"
 msgstr "ไม่สามารถพิมพ์เอกสารได้ รายละเอียดข้อผิดพลาดคือ \"%1\" โปรดรายงานข้อผิดพลาดไปยัง bugs.kde.org"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3686
+#: part/part.cpp:3697
 #, kde-format
 msgid "Go to the place you were before"
 msgstr "ไปยังที่ที่คุณเคยไป ก่อน"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3690
+#: part/part.cpp:3701
 #, kde-format
 msgid "Go to the place you were after"
 msgstr "ไปยังที่ ที่คุณเคยไป หลังจาก"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3715
+#: part/part.cpp:3726
 #, kde-format
 msgid "<qt><strong>File Error!</strong> Could not create temporary file <nobr><strong>%1</strong></nobr>.</qt>"
 msgstr "<qt><strong>แฟ้มผิดพลาด!</strong> ไม่สามารถสร้างแฟ้มชั่วคราว <nobr><strong>%1</strong></nobr> ได้</qt>"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3727
+#: part/part.cpp:3738
 #, kde-format
 msgid "<qt><strong>File Error!</strong> Could not open the file <nobr><strong>%1</strong></nobr> for uncompression. The file will not be loaded.</qt>"
 msgstr "<qt><strong>แฟ้มผิดพลาด!</strong> ไม่สามารถเปิดแฟ้ม <nobr><strong>%1</strong></nobr> เพื่อทำการคลายแฟ้มได้ แฟ้มจะไม่ถูกโหลด</qt>"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3731
+#: part/part.cpp:3742
 #, fuzzy, kde-format
 #| msgid "<qt>This error typically occurs if you do not have enough permissions to read the file. You can check ownership and permissions if you right-click on the file in the Dolphin file manager and then choose the 'Properties' tab.</qt>"
 msgid "<qt>This error typically occurs if you do not have enough permissions to read the file. You can check ownership and permissions if you right-click on the file in the Dolphin file manager, then choose the 'Properties' option, and select 'Permissions' tab in the opened window.</qt>"
 msgstr "<qt>ข้อผิดพลาดนี้ จะเกิดขึ้นหากคุณไม่มีสิทธิ์ในการอ่านแฟ้ม คุณสามารถตรวจสอบความเป็นเจ้าของแฟ้มและสิทธิ์ที่มีได้ง่าย ๆ โดยการคลิกเมาส์ปุ่มขวาบนแฟ้มในโปรแกรมจัดการแฟ้ม 'ดอลฟิน' จากนั้นเลือกแท็บ 'คุณสมบัติ'</qt>"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3753
+#: part/part.cpp:3764
 #, kde-format
 msgid "<qt><strong>File Error!</strong> Could not uncompress the file <nobr><strong>%1</strong></nobr>. The file will not be loaded.</qt>"
 msgstr "<qt><strong>แฟ้มผิดพลาด!</strong> ไม่สามารถคลายแฟ้ม <nobr><strong>%1</strong></nobr> ได้ แฟ้มจะไม่ถูกโหลด</qt>"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3757
+#: part/part.cpp:3768
 #, kde-format
 msgid "<qt>This error typically occurs if the file is corrupt. If you want to be sure, try to decompress the file manually using command-line tools.</qt>"
 msgstr "<qt>ข้อผิดพลาดนี้ จะเกิดขึ้นเมื่อแฟ้มมีส่วนผิดพลาดภายใน หากคุณต้องการความแน่ใจ โปรดทดลองคลายแฟ้มด้วยตัวเอง โดยใช้เครื่องมือคลายแฟ้มผ่านทางบรรทัดคำสั่ง</qt>"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3783
+#: part/part.cpp:3794
 #, kde-format
 msgid "No Bookmarks"
 msgstr "ไม่มีที่คั่นหน้าใด ๆ"
 
 #. +> trunk6 stable6
-#: part/part.cpp:3854
+#: part/part.cpp:3865
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3854 part/part.cpp:3860
+#: part/part.cpp:3865 part/part.cpp:3871
 #, kde-format
 msgid "Share"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3858
+#: part/part.cpp:3869
 #, kde-format
 msgid "Document shared successfully"
 msgstr ""
 
 #. +> trunk6 stable6
-#: part/part.cpp:3860
+#: part/part.cpp:3871
 #, kde-format
 msgid "You can find the shared document at: <a href=\"%1\">%1</a>"
 msgstr ""

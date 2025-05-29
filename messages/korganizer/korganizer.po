@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-07 08:24+0200\n"
+"POT-Creation-Date: 2025-05-24 10:38+0200\n"
 "PO-Revision-Date: 2008-07-21 16:18+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -469,7 +469,7 @@ msgid "Fester Zigterman"
 msgstr "Fester Zigterman"
 
 #. +> trunk6
-#: actionmanager.cpp:131
+#: actionmanager.cpp:130
 #, kde-format
 msgctxt "@info"
 msgid "This will hide the menu bar completely. You can show it again by typing %1."
@@ -482,7 +482,7 @@ msgid "<qt>This will hide the menu bar completely. You can show it again by typi
 msgstr ""
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:134
+#: actionmanager.cpp:133
 #, fuzzy, kde-format
 #| msgid "Time bar"
 msgctxt "@title:window"
@@ -490,7 +490,7 @@ msgid "Hide menu bar"
 msgstr "แถบเวลา"
 
 #. +> trunk6
-#: actionmanager.cpp:245
+#: actionmanager.cpp:244
 #, fuzzy, kde-format
 #| msgid "Import Calendar"
 msgctxt "@action:inmenu"
@@ -506,7 +506,7 @@ msgid "Import &Calendar…"
 msgstr "นำเข้าปฏิทิน"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:246
+#: actionmanager.cpp:245
 #, fuzzy, kde-format
 #| msgid "Import Calendar"
 msgctxt "@info:status"
@@ -514,7 +514,7 @@ msgid "Import a calendar"
 msgstr "นำเข้าปฏิทิน"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:247
+#: actionmanager.cpp:246
 #, fuzzy, kde-format
 #| msgid "Import calendar at '%1' into KOrganizer."
 msgctxt "@info:tooltip"
@@ -522,19 +522,11 @@ msgid "Import an iCalendar or vCalendar file"
 msgstr "นำเข้าปฏิทินเมื่อ '%1' มายัง KOrganizer"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:249
+#: actionmanager.cpp:248
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select this menu entry if you would like to import the contents of an iCalendar or vCalendar file into your current calendar collection."
 msgstr ""
-
-#. +> trunk6
-#: actionmanager.cpp:255
-#, fuzzy, kde-format
-#| msgid "New Calendar"
-msgctxt "@action:inmenu"
-msgid "Get New Calendars…"
-msgstr "ปฏิทินใหม่"
 
 #. +> stable6
 #: actionmanager.cpp:254
@@ -543,57 +535,8 @@ msgstr "ปฏิทินใหม่"
 msgid "Get New Calendars…"
 msgstr "ปฏิทินใหม่"
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: actionmanager.cpp:256
-#, kde-format
-msgctxt "@info:status"
-msgid "Load a calendar from \"Get Hot New Stuff\""
-msgstr ""
-
-#. +> trunk6 stable6
-#: actionmanager.cpp:257
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Search \"Get Hot New Stuff\" for calendars to import"
-msgstr ""
-
-#. +> trunk6 stable6
-#: actionmanager.cpp:259
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid "This menu entry opens the \"Get Hot New Stuff\" dialog that allows you to search and import fun and useful calendars donated to the community."
-msgstr ""
-
-#. +> trunk6
-#: actionmanager.cpp:280
-#, fuzzy, kde-kuit-format
-#| msgid "Could not load calendar '%1'."
-msgctxt "@info"
-msgid "Could not load calendar <filename>%1</filename>."
-msgstr "ไม่สามารถโหลดปฏิทิน '%1' ได้"
-
-#. +> stable6
-#: actionmanager.cpp:279
-#, fuzzy, kde-format
-#| msgid "Could not load calendar '%1'."
-msgid "Could not load calendar %1."
-msgstr "ไม่สามารถโหลดปฏิทิน '%1' ได้"
-
-#. +> trunk6
-#: actionmanager.cpp:290
-#, kde-format
-msgctxt "@info"
-msgid "The downloaded events will be merged into your current calendar."
-msgstr ""
-
-#. +> stable6
-#: actionmanager.cpp:289
-#, kde-format
-msgid "The downloaded events will be merged into your current calendar."
-msgstr ""
-
-#. +> trunk6
-#: actionmanager.cpp:307
 #, fuzzy, kde-format
 #| msgid "Import &Calendar..."
 msgctxt "@action:inmenu"
@@ -609,7 +552,7 @@ msgid "Export as &iCalendar…"
 msgstr "นำเข้าปฏิทิน..."
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:308
+#: actionmanager.cpp:257
 #, fuzzy, kde-format
 #| msgid "Import Calendar"
 msgctxt "@info:status"
@@ -617,21 +560,21 @@ msgid "Export calendar to file"
 msgstr "นำเข้าปฏิทิน"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:309
+#: actionmanager.cpp:258
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Export your calendar to an iCalendar file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:310
+#: actionmanager.cpp:259
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Allows you to export your entire calendar collection to one iCalendar file."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:316
+#: actionmanager.cpp:265
 #, fuzzy, kde-format
 #| msgid "Archive O&ld Entries..."
 msgctxt "@action:inmenu"
@@ -647,7 +590,7 @@ msgid "Archive O&ld Incidences…"
 msgstr "จัดเก็บรายการเก่าเป็นแฟ้มจัดเก็บ..."
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:317
+#: actionmanager.cpp:266
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Archive/Delete Past Events and To-dos"
@@ -656,7 +599,7 @@ msgid "Archive events and to-dos to a file"
 msgstr "จัดเก็บลงแฟ้ม/ลบ เหตุการณ์หรือสิ่งที่จะทำในอดีต"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:318
+#: actionmanager.cpp:267
 #, fuzzy, kde-format
 #| msgid "Archive old events to a separate file"
 msgctxt "@info:tooltip"
@@ -664,14 +607,14 @@ msgid "Archive old events and to-dos to an iCalendar file"
 msgstr "จัดเก็บเหตุการณ์เก่าไปยังแฟ้มแยก"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:320
+#: actionmanager.cpp:269
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "This menu entry opens a dialog that allows you to select old events and to-dos that you can archive into an iCalendar file.  They will be removed from your existing calendar collection."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:328
+#: actionmanager.cpp:277
 #, fuzzy, kde-format
 #| msgid "Pur&ge Completed To-dos"
 msgctxt "@action:inmenu"
@@ -687,7 +630,7 @@ msgid "Pur&ge Completed To-dos"
 msgstr "กำจัดสิ่งที่จะทำที่เสร็จสมบูรณ์แล้ว"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:329
+#: actionmanager.cpp:278
 #, fuzzy, kde-format
 #| msgid "Pur&ge Completed To-dos"
 msgctxt "@info:status"
@@ -695,23 +638,36 @@ msgid "Purge completed to-dos"
 msgstr "กำจัดสิ่งที่จะทำที่เสร็จสมบูรณ์แล้ว"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:330
+#: actionmanager.cpp:279
 #, fuzzy, kde-format
 #| msgid "Delete all completed to-dos?"
 msgctxt "@info:tooltip"
 msgid "Remove completed to-dos from your calendar"
 msgstr "ลบสิ่งที่จะทำที่เสร็จสมบูรณ์แล้วทั้งหมดหรือไม่ ?"
 
+#. +> stable6
+#: actionmanager.cpp:279
+#, fuzzy, kde-format
+#| msgid "Could not load calendar '%1'."
+msgid "Could not load calendar %1."
+msgstr "ไม่สามารถโหลดปฏิทิน '%1' ได้"
+
 #. +> trunk6 stable6
-#: actionmanager.cpp:332
+#: actionmanager.cpp:281
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Allows you to remove all completed to-dos from your calendar collection. This action cannot be undone!"
 msgstr ""
 
+#. +> stable6
+#: actionmanager.cpp:289
+#, kde-format
+msgid "The downloaded events will be merged into your current calendar."
+msgstr ""
+
 #. +> trunk6
-#: actionmanager.cpp:369 actionmanager.cpp:668 actionmanager.cpp:1355
-#: actionmanager.cpp:1393
+#: actionmanager.cpp:318 actionmanager.cpp:617 actionmanager.cpp:1304
+#: actionmanager.cpp:1342
 #, fuzzy, kde-format
 #| msgid "&Delete"
 msgctxt "@action:inmenu"
@@ -719,7 +675,7 @@ msgid "&Delete"
 msgstr "ลบ"
 
 #. +> trunk6
-#: actionmanager.cpp:386
+#: actionmanager.cpp:335
 #, fuzzy, kde-format
 #| msgid "What's &Next"
 msgctxt "@action:inmenu"
@@ -733,7 +689,7 @@ msgid "What's &Next"
 msgstr "มีอะไรที่จะมาถึงเร็ว ๆ นี้ ?"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:387
+#: actionmanager.cpp:336
 #, fuzzy, kde-format
 #| msgid "What's Next?"
 msgctxt "@info:status"
@@ -741,21 +697,21 @@ msgid "What's Next View"
 msgstr "มีอะไรในช่วงนี้บ้าง ?"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:388
+#: actionmanager.cpp:337
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Switch to the What's Next View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:390
+#: actionmanager.cpp:339
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Switches to the \"What's Next\" View, which shows your events and to-dos that are \"coming soon\" in a short list for quick reading.  All open to-dos will be displayed, but only the events from the days selected in the Date Navigator sidebar will be shown."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:398
+#: actionmanager.cpp:347
 #, fuzzy, kde-format
 #| msgid "&Month"
 msgctxt "@action:inmenu"
@@ -769,7 +725,7 @@ msgid "&Month"
 msgstr "รายเดือน"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:399
+#: actionmanager.cpp:348
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "Month View"
@@ -778,7 +734,7 @@ msgid "Month View"
 msgstr "มุมมองรายเดือน"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:400
+#: actionmanager.cpp:349
 #, fuzzy, kde-format
 #| msgid "&New Month View"
 msgctxt "@info:tooltip"
@@ -786,14 +742,14 @@ msgid "Switch to the Month View"
 msgstr "รายเดือน รูปแบบใหม่"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:402
+#: actionmanager.cpp:351
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Switches to the Month View, which shows all the events and due to-dos in a familiar monthly calendar layout."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:408
+#: actionmanager.cpp:357
 #, fuzzy, kde-format
 #| msgid "Agenda view"
 msgctxt "@action:inmenu"
@@ -808,7 +764,7 @@ msgid "&Agenda"
 msgstr "มุมมองกำหนดการ"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:411
+#: actionmanager.cpp:360
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "Agenda View"
@@ -817,7 +773,7 @@ msgid "Agenda View"
 msgstr "มุมมองกำหนดการ"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:412
+#: actionmanager.cpp:361
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Show at the top of the agenda views"
@@ -826,14 +782,14 @@ msgid "Switch to the Agenda View"
 msgstr "แสดงอยู่ทางด้านบนของมุมมองหมายกำหนดการ"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:414
+#: actionmanager.cpp:363
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Switches to the Agenda View, which presents your events or due to-dos for one or more days, sorted chronologically.  You can also see the length of each event in the day timetable."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:421
+#: actionmanager.cpp:370
 #, fuzzy, kde-format
 #| msgid "&Event List"
 msgctxt "@action:inmenu"
@@ -847,7 +803,7 @@ msgid "&Event List"
 msgstr "รายการเหตุการณ์"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:422
+#: actionmanager.cpp:371
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "Month View"
@@ -856,21 +812,21 @@ msgid "List View"
 msgstr "มุมมองรายเดือน"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:423
+#: actionmanager.cpp:372
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Switch to the List View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:425
+#: actionmanager.cpp:374
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Switches to the List View, which displays all your to-dos, events and journal entries for the dates selected in the Date Navigator as a list."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:431
+#: actionmanager.cpp:380
 #, fuzzy, kde-format
 #| msgid "&To-do List"
 msgctxt "@action:inmenu"
@@ -884,7 +840,7 @@ msgid "&To-do List"
 msgstr "รายการสิ่งที่จะทำ"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:432
+#: actionmanager.cpp:381
 #, fuzzy, kde-format
 #| msgid "To-do List"
 msgctxt "@info:status"
@@ -892,7 +848,7 @@ msgid "To-do List View"
 msgstr "รายการสิ่งที่จะทำ"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:433
+#: actionmanager.cpp:382
 #, fuzzy, kde-format
 #| msgctxt "@info N days/hours/minutes before/after the start/end"
 #| msgid "%1 after the start"
@@ -901,14 +857,14 @@ msgid "Switch to the To-do List View"
 msgstr "%1 หลังการเริ่ม"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:435
+#: actionmanager.cpp:384
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Switches to the To-do List view, which provides a place for you to track tasks that need to be done."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:441
+#: actionmanager.cpp:390
 #, fuzzy, kde-format
 #| msgid "&Journal"
 msgctxt "@action:inmenu"
@@ -922,7 +878,7 @@ msgid "&Journal"
 msgstr "บันทึกประจำวัน"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:442
+#: actionmanager.cpp:391
 #, fuzzy, kde-format
 #| msgid "Journal entries"
 msgctxt "@info:status"
@@ -930,7 +886,7 @@ msgid "Journal View"
 msgstr "รายการบันทึกประจำวัน"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:443
+#: actionmanager.cpp:392
 #, fuzzy, kde-format
 #| msgid "Sets the title of this journal."
 msgctxt "@info:tooltip"
@@ -938,14 +894,14 @@ msgid "Switch to the Journal View"
 msgstr "ตั้งค่าเรื่องของบันทึกประจำวันนี้"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:445
+#: actionmanager.cpp:394
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Switches to the Journal View, which provides a place for you to record your reflections, occurrences or experiences."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:451
+#: actionmanager.cpp:400
 #, fuzzy, kde-format
 #| msgid "Time&line"
 msgctxt "@action:inmenu"
@@ -959,7 +915,7 @@ msgid "Time&line"
 msgstr "เส้นเวลา"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:452
+#: actionmanager.cpp:401
 #, fuzzy, kde-format
 #| msgid "Time&line"
 msgctxt "@info:status"
@@ -967,21 +923,21 @@ msgid "Timeline View"
 msgstr "เส้นเวลา"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:453
+#: actionmanager.cpp:402
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Switch to the Timeline View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:455
+#: actionmanager.cpp:404
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Switches to the Timeline View, which shows all events for the selected timespan in a Gantt view. Each calendar is displayed in a separate line."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:464
+#: actionmanager.cpp:413
 #, fuzzy, kde-format
 #| msgid "&Refresh"
 msgctxt "@action:inmenu"
@@ -997,7 +953,7 @@ msgid "&Refresh"
 msgstr "ปรับปรุงใหม่"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:465
+#: actionmanager.cpp:414
 #, fuzzy, kde-format
 #| msgid "&Refresh"
 msgctxt "@info:status"
@@ -1005,7 +961,7 @@ msgid "Refresh"
 msgstr "ปรับปรุงใหม่"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:466
+#: actionmanager.cpp:415
 #, fuzzy, kde-format
 #| msgid "Before the End"
 msgctxt "@info:tooltip"
@@ -1013,14 +969,14 @@ msgid "Refresh the display"
 msgstr "ก่อนสิ้นสุด"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:468
+#: actionmanager.cpp:417
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "This action will refresh and redraw the current calendar view. It does not sync or update any calendar folders."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:477
+#: actionmanager.cpp:426
 #, fuzzy, kde-format
 #| msgid "F&ilter"
 msgctxt "@action:inmenu"
@@ -1034,7 +990,7 @@ msgid "F&ilter"
 msgstr "ตัวกรอง"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:478
+#: actionmanager.cpp:427
 #, fuzzy, kde-format
 #| msgid "Print &incidence"
 msgctxt "@info:status"
@@ -1042,7 +998,7 @@ msgid "Filter incidences"
 msgstr "พิมพ์สรุปอัตราการเกิดขึ้น"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:479
+#: actionmanager.cpp:428
 #, fuzzy, kde-format
 #| msgid "Activates a reminder for this event or to-do."
 msgctxt "@info:tooltip"
@@ -1050,14 +1006,14 @@ msgid "Filter incidences from the calendar"
 msgstr "เปิดใช้การเตือนความจำสำหรับเหตุการณ์หรือสิ่งที่จะทำนี้"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:481
+#: actionmanager.cpp:430
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Runs user-defined view filters on the calendar collection. Filters must be created first. See \"Manage View Filters\" option in the Settings menu."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:493
+#: actionmanager.cpp:442
 #, fuzzy, kde-format
 #| msgid "In Horizontally"
 msgctxt "@action:inmenu"
@@ -1071,7 +1027,7 @@ msgid "In Horizontally"
 msgstr "ขยายทางแนวนอน"
 
 #. +> trunk6
-#: actionmanager.cpp:498
+#: actionmanager.cpp:447
 #, fuzzy, kde-format
 #| msgid "Out Horizontally"
 msgctxt "@action:inmenu"
@@ -1085,7 +1041,7 @@ msgid "Out Horizontally"
 msgstr "ย่อทางแนวตั้ง"
 
 #. +> trunk6
-#: actionmanager.cpp:503
+#: actionmanager.cpp:452
 #, fuzzy, kde-format
 #| msgid "In Vertically"
 msgctxt "@action:inmenu"
@@ -1099,7 +1055,7 @@ msgid "In Vertically"
 msgstr "ขยายทางแนวตั้ง"
 
 #. +> trunk6
-#: actionmanager.cpp:508
+#: actionmanager.cpp:457
 #, fuzzy, kde-format
 #| msgid "Out Vertically"
 msgctxt "@action:inmenu"
@@ -1113,7 +1069,7 @@ msgid "Out Vertically"
 msgstr "ย่อทางแนวตั้ง"
 
 #. +> trunk6
-#: actionmanager.cpp:517
+#: actionmanager.cpp:466
 #, fuzzy, kde-format
 #| msgctxt "@action Jump to today"
 #| msgid "To &today"
@@ -1131,7 +1087,7 @@ msgid "To &Today"
 msgstr "มายังวันนี้"
 
 #. +> trunk6
-#: actionmanager.cpp:518
+#: actionmanager.cpp:467
 #, fuzzy, kde-format
 #| msgid "Today"
 msgctxt "@action:button"
@@ -1139,7 +1095,7 @@ msgid "Today"
 msgstr "วันนี้"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:519
+#: actionmanager.cpp:468
 #, fuzzy, kde-format
 #| msgid "Scroll to Today"
 msgctxt "@info:status"
@@ -1147,7 +1103,7 @@ msgid "Scroll to Today"
 msgstr "เลื่อนมาวันนี้"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:520
+#: actionmanager.cpp:469
 #, fuzzy, kde-format
 #| msgid "Scroll to Today"
 msgctxt "@info:tooltip"
@@ -1155,7 +1111,7 @@ msgid "Scroll the view to today"
 msgstr "เลื่อนมาวันนี้"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:521
+#: actionmanager.cpp:470
 #, fuzzy, kde-format
 #| msgctxt "@info:whatsthis"
 #| msgid "Replace the currently selected date with this date."
@@ -1164,7 +1120,7 @@ msgid "Scrolls the current view to the today's date."
 msgstr "แทนที่วันที่เลือกไว้ในปัจจุบันด้วยวันนี้"
 
 #. +> trunk6
-#: actionmanager.cpp:527
+#: actionmanager.cpp:476
 #, fuzzy, kde-format
 #| msgctxt "scroll backward"
 #| msgid "&Backward"
@@ -1180,7 +1136,7 @@ msgid "&Backward"
 msgstr "ย้อนกลับ"
 
 #. +> trunk6
-#: actionmanager.cpp:529
+#: actionmanager.cpp:478
 #, fuzzy, kde-format
 #| msgctxt "scroll backward"
 #| msgid "Back"
@@ -1196,7 +1152,7 @@ msgid "Back"
 msgstr "ย้อนกลับ"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:530
+#: actionmanager.cpp:479
 #, fuzzy, kde-format
 #| msgid "Scroll Backward"
 msgctxt "@info:status"
@@ -1204,7 +1160,7 @@ msgid "Scroll Backward"
 msgstr "เลื่อนย้อนกลับ"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:531
+#: actionmanager.cpp:480
 #, fuzzy, kde-format
 #| msgid "Scroll Backward"
 msgctxt "@info:tooltip"
@@ -1212,14 +1168,14 @@ msgid "Scroll the view backward"
 msgstr "เลื่อนย้อนกลับ"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:533
+#: actionmanager.cpp:482
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Scrolls backward by a day, week, month or year, depending on the current calendar view."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:540
+#: actionmanager.cpp:489
 #, fuzzy, kde-format
 #| msgctxt "scroll forward"
 #| msgid "&Forward"
@@ -1235,7 +1191,7 @@ msgid "&Forward"
 msgstr "เดินหน้า"
 
 #. +> trunk6
-#: actionmanager.cpp:542
+#: actionmanager.cpp:491
 #, fuzzy, kde-format
 #| msgctxt "scoll forward"
 #| msgid "Forward"
@@ -1253,7 +1209,7 @@ msgid "Forward"
 msgstr "ถัดไป"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:543
+#: actionmanager.cpp:492
 #, fuzzy, kde-format
 #| msgid "Scroll Forward"
 msgctxt "@info:status"
@@ -1261,7 +1217,7 @@ msgid "Scroll Forward"
 msgstr "เลื่อนเดินหน้า"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:544
+#: actionmanager.cpp:493
 #, fuzzy, kde-format
 #| msgid "Scroll Forward"
 msgctxt "@info:tooltip"
@@ -1269,14 +1225,14 @@ msgid "Scroll the view forward"
 msgstr "เลื่อนเดินหน้า"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:546
+#: actionmanager.cpp:495
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Scrolls forward by a day, week, month or year, depending on the current calendar view."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:552
+#: actionmanager.cpp:501
 #, fuzzy, kde-format
 #| msgid "&Day"
 msgctxt "@action:inmenu"
@@ -1290,7 +1246,7 @@ msgid "&Day"
 msgstr "รายวัน"
 
 #. +> trunk6
-#: actionmanager.cpp:553
+#: actionmanager.cpp:502
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox range in days"
 #| msgid "Day"
@@ -1299,14 +1255,14 @@ msgid "Day"
 msgstr "วัน"
 
 #. +> trunk6
-#: actionmanager.cpp:554
+#: actionmanager.cpp:503
 #, kde-format
 msgctxt "@info:status"
 msgid "View 1 day at a time"
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:555
+#: actionmanager.cpp:504
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Show at the top of the agenda views"
@@ -1314,21 +1270,15 @@ msgctxt "@info:tooltip"
 msgid "Show 1 day at a time in Agenda View"
 msgstr "แสดงอยู่ทางด้านบนของมุมมองหมายกำหนดการ"
 
-#. +> stable6
-#: actionmanager.cpp:555
-#, kde-format
-msgid "W&ork Week"
-msgstr "รายสัปดาห์ทำงาน"
-
 #. +> trunk6
-#: actionmanager.cpp:556
+#: actionmanager.cpp:505
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select this option to show only 1 day at a time in Agenda View."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:563
+#: actionmanager.cpp:512
 #, fuzzy, kde-format
 #| msgid "&Next Day"
 #| msgid_plural "&Next %1 Days"
@@ -1337,14 +1287,14 @@ msgid "&Next Days"
 msgstr "ราย %1 วันถัดไป"
 
 #. +> trunk6
-#: actionmanager.cpp:564
+#: actionmanager.cpp:513
 #, kde-format
 msgctxt "@info:status"
 msgid "View a few days at a time"
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:565
+#: actionmanager.cpp:514
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Show at the top of the agenda views"
@@ -1353,14 +1303,14 @@ msgid "Show the next few days at a time in Agenda View"
 msgstr "แสดงอยู่ทางด้านบนของมุมมองหมายกำหนดการ"
 
 #. +> trunk6
-#: actionmanager.cpp:568
+#: actionmanager.cpp:517
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "Select this option to show the next few days at a time in Agenda View. Configure the <placeholder>Next X Days</placeholder> setting in the <interface>Views->General</interface> settings page to adjust the number of days shown."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:575
+#: actionmanager.cpp:524
 #, fuzzy, kde-format
 #| msgid "Schedule"
 msgctxt "@action:inmenu"
@@ -1368,7 +1318,7 @@ msgid "W&eek Schedule"
 msgstr "ตารางเวลา"
 
 #. +> trunk6
-#: actionmanager.cpp:576
+#: actionmanager.cpp:525
 #, fuzzy, kde-format
 #| msgid "Schedule"
 msgctxt "@action:inmenu agenda view show the weekly schedule days only (eg. no weekends)"
@@ -1376,21 +1326,21 @@ msgid "Week Schedule"
 msgstr "ตารางเวลา"
 
 #. +> trunk6
-#: actionmanager.cpp:577
+#: actionmanager.cpp:526
 #, kde-format
 msgctxt "@info:status"
 msgid "Show a week at a time showing days included in your weekly schedule only"
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:579
+#: actionmanager.cpp:528
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show a week at a time in Agenda View, excluding days that are not included in your weekly schedule (ie. weekends are excluded)"
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:582
+#: actionmanager.cpp:531
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1399,7 +1349,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:591
+#: actionmanager.cpp:540
 #, fuzzy, kde-format
 #| msgid "&Week"
 msgctxt "@action:inmenu"
@@ -1413,7 +1363,7 @@ msgid "&Week"
 msgstr "รายสัปดาห์"
 
 #. +> trunk6
-#: actionmanager.cpp:592
+#: actionmanager.cpp:541
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox range in weeks"
 #| msgid "Week"
@@ -1422,14 +1372,14 @@ msgid "Week"
 msgstr "สัปดาห์"
 
 #. +> trunk6
-#: actionmanager.cpp:593
+#: actionmanager.cpp:542
 #, kde-format
 msgctxt "@info:status"
 msgid "View a week at a time"
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:594
+#: actionmanager.cpp:543
 #, fuzzy, kde-format
 #| msgctxt "@option:check"
 #| msgid "Show at the top of the agenda views"
@@ -1438,14 +1388,14 @@ msgid "Show 1 week at a time in Agenda View"
 msgstr "แสดงอยู่ทางด้านบนของมุมมองหมายกำหนดการ"
 
 #. +> trunk6
-#: actionmanager.cpp:595
+#: actionmanager.cpp:544
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Select this option to show a week at a time in Agenda View."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:602
+#: actionmanager.cpp:551
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "New Event"
@@ -1454,7 +1404,7 @@ msgid "New E&vent…"
 msgstr "เหตุการณ์ใหม่"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:603
+#: actionmanager.cpp:552
 #, fuzzy, kde-format
 #| msgid "Create a new Event"
 msgctxt "@info:status"
@@ -1462,7 +1412,7 @@ msgid "Create a new Event"
 msgstr "สร้างเหตุการณ์ใหม่"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:604
+#: actionmanager.cpp:553
 #, fuzzy, kde-format
 #| msgid "Create a new Event"
 msgctxt "@info:tooltip"
@@ -1470,14 +1420,20 @@ msgid "Create a new Event"
 msgstr "สร้างเหตุการณ์ใหม่"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:606
+#: actionmanager.cpp:555
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Starts a dialog that allows you to create a new Event with reminders, attendees, recurrences and much more."
 msgstr ""
 
+#. +> stable6
+#: actionmanager.cpp:555
+#, kde-format
+msgid "W&ork Week"
+msgstr "รายสัปดาห์ทำงาน"
+
 #. +> trunk6
-#: actionmanager.cpp:612
+#: actionmanager.cpp:561
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "New To-do"
@@ -1486,7 +1442,7 @@ msgid "New &To-do…"
 msgstr "สิ่งที่จะทำใหม่"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:613
+#: actionmanager.cpp:562
 #, fuzzy, kde-format
 #| msgid "Create a new To-do"
 msgctxt "@info:status"
@@ -1494,7 +1450,7 @@ msgid "Create a new To-do"
 msgstr "สร้างสิ่งที่จะทำใหม่"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:614
+#: actionmanager.cpp:563
 #, fuzzy, kde-format
 #| msgid "Create a new To-do"
 msgctxt "@info:tooltip"
@@ -1502,7 +1458,7 @@ msgid "Create a new To-do"
 msgstr "สร้างสิ่งที่จะทำใหม่"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:616
+#: actionmanager.cpp:565
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Starts a dialog that allows you to create a new To-do with reminders, attendees, recurrences and much more."
@@ -1516,7 +1472,7 @@ msgid "Starts a configuration dialog that allows you to change the settings for 
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:623
+#: actionmanager.cpp:572
 #, fuzzy, kde-format
 #| msgid "New Su&b-to-do..."
 msgctxt "@action:inmenu"
@@ -1532,7 +1488,7 @@ msgid "New Su&b-to-do…"
 msgstr "ตัวย่อยสิ่งที่จะทำใหม่..."
 
 #. +> trunk6
-#: actionmanager.cpp:631
+#: actionmanager.cpp:580
 #, fuzzy, kde-format
 #| msgid "New &Journal..."
 msgctxt "@action:inmenu"
@@ -1540,7 +1496,7 @@ msgid "New &Journal…"
 msgstr "บันทึกประจำวันใหม่..."
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:632
+#: actionmanager.cpp:581
 #, fuzzy, kde-format
 #| msgid "Create a new Journal"
 msgctxt "@info:status"
@@ -1548,7 +1504,7 @@ msgid "Create a new Journal"
 msgstr "สร้างบันทึกประจำวันใหม่"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:633
+#: actionmanager.cpp:582
 #, fuzzy, kde-format
 #| msgid "Create a new Journal"
 msgctxt "@info:tooltip"
@@ -1556,28 +1512,28 @@ msgid "Create a new Journal"
 msgstr "สร้างบันทึกประจำวันใหม่"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:634
+#: actionmanager.cpp:583
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Starts a dialog that allows you to create a new Journal entry."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:639
+#: actionmanager.cpp:588
 #, kde-format
 msgctxt "@action:inmenu Jump to date"
 msgid "&Pick a Date"
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:640
+#: actionmanager.cpp:589
 #, kde-format
 msgctxt "@action:button"
 msgid "Date"
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:641
+#: actionmanager.cpp:590
 #, fuzzy, kde-format
 #| msgid "Scroll to Today"
 msgctxt "@info:status"
@@ -1585,7 +1541,7 @@ msgid "Scroll the view to user selected dates"
 msgstr "เลื่อนมาวันนี้"
 
 #. +> trunk6
-#: actionmanager.cpp:642
+#: actionmanager.cpp:591
 #, fuzzy, kde-format
 #| msgid "Scroll to Today"
 msgctxt "@info:tooltip"
@@ -1593,14 +1549,14 @@ msgid "Scroll the view to user selected dates"
 msgstr "เลื่อนมาวันนี้"
 
 #. +> trunk6
-#: actionmanager.cpp:643
+#: actionmanager.cpp:592
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Opens a date selection dialog for quickly navigating the view."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:648
+#: actionmanager.cpp:597
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Configure &Plugin..."
@@ -1617,7 +1573,7 @@ msgid "Configure View…"
 msgstr "ปรับแต่งส่วนเสริม..."
 
 #. +> trunk6
-#: actionmanager.cpp:649
+#: actionmanager.cpp:598
 #, fuzzy, kde-format
 #| msgid "Configure Holidays"
 msgctxt "@action:button"
@@ -1632,12 +1588,19 @@ msgid "Configure"
 msgstr "ปรับแต่งวันหยุด"
 
 #. +> trunk6
-#: actionmanager.cpp:650
+#: actionmanager.cpp:599
 #, fuzzy, kde-format
 #| msgid "Configure &Date && Time..."
 msgctxt "@info:status"
 msgid "Configure the multi-calendar view"
 msgstr "ปรับแต่งวันที่และเวลา..."
+
+#. +> stable6
+#: actionmanager.cpp:255
+#, kde-format
+msgctxt "@info:status"
+msgid "Load a calendar from \"Get Hot New Stuff\""
+msgstr ""
 
 #. +> stable6
 #: actionmanager.cpp:606
@@ -1648,12 +1611,19 @@ msgid "Configure the view"
 msgstr "ปรับแต่งวันที่และเวลา..."
 
 #. +> trunk6
-#: actionmanager.cpp:651
+#: actionmanager.cpp:600
 #, fuzzy, kde-format
 #| msgid "Configure &Date && Time..."
 msgctxt "@info:tooltip"
 msgid "Configure the multi-calendar view"
 msgstr "ปรับแต่งวันที่และเวลา..."
+
+#. +> stable6
+#: actionmanager.cpp:256
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Search \"Get Hot New Stuff\" for calendars to import"
+msgstr ""
 
 #. +> stable6
 #: actionmanager.cpp:607
@@ -1664,15 +1634,22 @@ msgid "Configure the current view"
 msgstr "ปรับแต่งวันที่และเวลา..."
 
 #. +> trunk6
-#: actionmanager.cpp:653
+#: actionmanager.cpp:602
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "In the multi-calendar view, starts a dialog that allows configuring the view. Currently only the multi-calendar view is supported. See the Multiple Calendars options in the Views->Agenda Views settings."
 msgstr ""
 
+#. +> stable6
+#: actionmanager.cpp:258
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "This menu entry opens the \"Get Hot New Stuff\" dialog that allows you to search and import fun and useful calendars donated to the community."
+msgstr ""
+
 #. +> trunk6 stable6
-#: actionmanager.cpp:660 actionmanager.cpp:1349 actionmanager.cpp:1391
-#: koeventpopupmenu.cpp:41
+#: actionmanager.cpp:609 actionmanager.cpp:1298 actionmanager.cpp:1340
+#: koeventpopupmenu.cpp:42
 #, fuzzy, kde-format
 #| msgid "&Show"
 msgctxt "@action:inmenu"
@@ -1686,8 +1663,8 @@ msgid "&Show"
 msgstr "แสดง"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:664 actionmanager.cpp:1352 actionmanager.cpp:1392
-#: koeventpopupmenu.cpp:43
+#: actionmanager.cpp:613 actionmanager.cpp:1301 actionmanager.cpp:1341
+#: koeventpopupmenu.cpp:44
 #, fuzzy, kde-format
 #| msgid "&Edit"
 msgctxt "@action:inmenu"
@@ -1702,7 +1679,7 @@ msgid "&Edit…"
 msgstr "แก้ไข"
 
 #. +> trunk6
-#: actionmanager.cpp:673
+#: actionmanager.cpp:622
 #, fuzzy, kde-format
 #| msgid "&Make Sub-to-do Independent"
 msgctxt "@action:inmenu"
@@ -1722,7 +1699,7 @@ msgstr "ทำให้สิ่งที่จะทำย่อยเป็น
 #. mACollection, "activate_alarm" );
 #. ************************* SCHEDULE MENU *******************************
 #. +> trunk6
-#: actionmanager.cpp:685
+#: actionmanager.cpp:634
 #, fuzzy, kde-format
 #| msgid "&Publish Item Information..."
 msgctxt "@action:inmenu"
@@ -1741,7 +1718,7 @@ msgid "&Publish Item Information…"
 msgstr "ส่งข่าวข้อมูลของรายการ..."
 
 #. +> trunk6
-#: actionmanager.cpp:692
+#: actionmanager.cpp:641
 #, fuzzy, kde-format
 #| msgid "Send &Invitation to Attendees"
 msgctxt "@action:inmenu"
@@ -1755,7 +1732,7 @@ msgid "Send &Invitation to Attendees"
 msgstr "ส่งคำเชิญไปยังผู้เข้าร่วม"
 
 #. +> trunk6
-#: actionmanager.cpp:700
+#: actionmanager.cpp:649
 #, fuzzy, kde-format
 #| msgid "Re&quest Update"
 msgctxt "@action:inmenu"
@@ -1771,7 +1748,7 @@ msgid "Re&quest Update"
 msgstr "ร้องขอปรับปรุง"
 
 #. +> trunk6
-#: actionmanager.cpp:708
+#: actionmanager.cpp:657
 #, fuzzy, kde-format
 #| msgid "Send &Cancellation to Attendees"
 msgctxt "@action:inmenu"
@@ -1787,7 +1764,7 @@ msgid "Send &Cancellation to Attendees"
 msgstr "ส่งคำขอยกเลิกไปยังผู้เข้าร่วม"
 
 #. +> trunk6
-#: actionmanager.cpp:716
+#: actionmanager.cpp:665
 #, fuzzy, kde-format
 #| msgid "Send Status &Update"
 msgctxt "@action:inmenu"
@@ -1800,14 +1777,8 @@ msgstr "ส่งการปรับปรุงสถานะ"
 msgid "Send Status &Update"
 msgstr "ส่งการปรับปรุงสถานะ"
 
-#. +> stable6
-#: actionmanager.cpp:717
-#, kde-format
-msgid "Show To-do View"
-msgstr "แสดงมุมมองสิ่งที่จะทำ"
-
 #. +> trunk6
-#: actionmanager.cpp:724
+#: actionmanager.cpp:673
 #, fuzzy, kde-format
 #| msgctxt "counter proposal"
 #| msgid "Request Chan&ge"
@@ -1823,7 +1794,7 @@ msgid "Request Chan&ge"
 msgstr "ร้องขอเปลี่ยนแปลง"
 
 #. +> trunk6
-#: actionmanager.cpp:732
+#: actionmanager.cpp:681
 #, fuzzy, kde-format
 #| msgid "&Mail Free Busy Information..."
 msgctxt "@action:inmenu"
@@ -1839,7 +1810,7 @@ msgid "&Mail Free Busy Information…"
 msgstr "แจ้งข้อมูลว่าว่าง/ไม่ว่างทางอีเมล..."
 
 #. +> trunk6
-#: actionmanager.cpp:737
+#: actionmanager.cpp:686
 #, fuzzy, kde-format
 #| msgid "&Send as iCalendar..."
 msgctxt "@action:inmenu"
@@ -1854,7 +1825,7 @@ msgid "&Send as iCalendar…"
 msgstr "ส่งไปยังระบบ iCalendar..."
 
 #. +> trunk6
-#: actionmanager.cpp:744
+#: actionmanager.cpp:693
 #, fuzzy, kde-format
 #| msgid "&Upload Free Busy Information"
 msgctxt "@action:inmenu"
@@ -1870,7 +1841,7 @@ msgid "&Upload Free Busy Information"
 msgstr "อัปโหลดข้อมูลว่าว่าง/ไม่ว่าง"
 
 #. +> trunk6
-#: actionmanager.cpp:750
+#: actionmanager.cpp:699
 #, fuzzy, kde-format
 #| msgid "&Addressbook"
 msgctxt "@action:inmenu"
@@ -1885,7 +1856,7 @@ msgid "&Address Book"
 msgstr "สมุดที่อยู่"
 
 #. +> trunk6
-#: actionmanager.cpp:758
+#: actionmanager.cpp:707
 #, fuzzy, kde-format
 #| msgid "Show Date Navigator"
 msgctxt "@action:inmenu"
@@ -1899,7 +1870,7 @@ msgid "Show Date Navigator"
 msgstr "แสดงตัวนำทางวัน"
 
 #. +> trunk6
-#: actionmanager.cpp:762
+#: actionmanager.cpp:711
 #, fuzzy, kde-format
 #| msgid "Choose the colors of the agenda view items."
 msgctxt "@action:inmenu"
@@ -1907,12 +1878,18 @@ msgid "Show To-do List in Calendar Views"
 msgstr "เลือกสีที่จะใช้กับรายการในมุมมองกำหนดการ"
 
 #. +> trunk6
-#: actionmanager.cpp:766
+#: actionmanager.cpp:715
 #, fuzzy, kde-format
 #| msgid "Show Item Viewer"
 msgctxt "@action:inmenu"
 msgid "Show Item Viewer"
 msgstr "แสดงตัวแสดงรายการ"
+
+#. +> stable6
+#: actionmanager.cpp:717
+#, kde-format
+msgid "Show To-do View"
+msgstr "แสดงมุมมองสิ่งที่จะทำ"
 
 #. +> stable6
 #: actionmanager.cpp:721
@@ -1921,7 +1898,7 @@ msgid "Show Item Viewer"
 msgstr "แสดงตัวแสดงรายการ"
 
 #. +> trunk6
-#: actionmanager.cpp:782
+#: actionmanager.cpp:731
 #, fuzzy, kde-format
 #| msgid "Export Calendar as Web Page"
 msgctxt "@action:inmenu"
@@ -1936,7 +1913,7 @@ msgid "Show Calendar Manager"
 msgstr "ส่งออกปฏิทินไปเป็นหน้าเว็บ"
 
 #. +> trunk6
-#: actionmanager.cpp:796
+#: actionmanager.cpp:745
 #, fuzzy, kde-format
 #| msgid "Configure &Date && Time..."
 msgctxt "@action:inmenu"
@@ -1952,7 +1929,7 @@ msgid "Configure &Date && Time…"
 msgstr "ปรับแต่งวันที่และเวลา..."
 
 #. +> trunk6
-#: actionmanager.cpp:800
+#: actionmanager.cpp:749
 #, fuzzy, kde-format
 #| msgid "Manage View &Filters..."
 msgctxt "@action:inmenu"
@@ -1967,7 +1944,7 @@ msgid "Manage View &Filters…"
 msgstr "จัดการตัวกรองมุมมอง..."
 
 #. +> trunk6
-#: actionmanager.cpp:804
+#: actionmanager.cpp:753
 #, fuzzy, kde-format
 #| msgid "Manage C&ategories..."
 msgctxt "@action:inmenu"
@@ -1983,7 +1960,7 @@ msgid "Manage T&ags…"
 msgstr "จัดการหมวดหมู่..."
 
 #. +> trunk6
-#: actionmanager.cpp:812
+#: actionmanager.cpp:761
 #, fuzzy, kde-format
 #| msgid "&Configure Calendar..."
 msgctxt "@action:inmenu"
@@ -1998,7 +1975,7 @@ msgid "&Configure KOrganizer…"
 msgstr "ปรับแต่งปฏิทิน..."
 
 #. +> trunk6
-#: actionmanager.cpp:890
+#: actionmanager.cpp:839
 #, fuzzy, kde-format
 #| msgid "The item information was successfully sent."
 msgctxt "@info"
@@ -2014,7 +1991,7 @@ msgid_plural "%1 incidences were imported successfully."
 msgstr[0] ""
 
 #. +> trunk6
-#: actionmanager.cpp:893
+#: actionmanager.cpp:842
 #, kde-kuit-format
 msgctxt "@info"
 msgid "There was an error while merging the calendar: <message>%1</message>"
@@ -2027,7 +2004,7 @@ msgid "There was an error while merging the calendar: %1"
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:905
+#: actionmanager.cpp:854
 #, fuzzy, kde-format
 #| msgid "The item information was successfully sent."
 msgctxt "@info"
@@ -2042,7 +2019,7 @@ msgid "New calendar added successfully"
 msgstr "ข้อมูลของรายการถูกส่งสำเร็จแล้ว"
 
 #. +> trunk6
-#: actionmanager.cpp:907
+#: actionmanager.cpp:856
 #, fuzzy, kde-kuit-format
 #| msgid "Could not load calendar '%1'."
 msgctxt "@info"
@@ -2057,7 +2034,7 @@ msgid "Could not add a calendar. Error: %1"
 msgstr "ไม่สามารถโหลดปฏิทิน '%1' ได้"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:964
+#: actionmanager.cpp:913
 #, fuzzy, kde-format
 #| msgid "Edit Calendar Filters"
 msgctxt "@title:window"
@@ -2065,21 +2042,15 @@ msgid "Select Calendar File to Open"
 msgstr "แก้ไขตัวกรองปฏิทิน"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:1000
+#: actionmanager.cpp:949
 #, fuzzy, kde-format
 #| msgid "Edit Calendar Filters"
 msgctxt "@title:window"
 msgid "Select Calendar File to Import"
 msgstr "แก้ไขตัวกรองปฏิทิน"
 
-#. +> stable6
-#: actionmanager.cpp:1010
-#, kde-format
-msgid "Saved calendar '%1'."
-msgstr "บันทึกปฏิทิน '%1' แล้ว"
-
 #. +> trunk6
-#: actionmanager.cpp:1032
+#: actionmanager.cpp:981
 #, fuzzy, kde-kuit-format
 #| msgid "Error Occurred"
 msgctxt "@info"
@@ -2094,7 +2065,7 @@ msgid "An error occurred: %1 (url: %2)"
 msgstr "เกิดข้อผิดพลาดขึ้น"
 
 #. +> trunk6
-#: actionmanager.cpp:1051
+#: actionmanager.cpp:1000
 #, fuzzy, kde-kuit-format
 #| msgid "Cannot upload calendar to '%1'"
 msgctxt "@info"
@@ -2108,14 +2079,20 @@ msgid "Cannot upload calendar to '%1'"
 msgstr "ไม่สามารถอัปโหลดปฏิทินไปยัง '%1' ได้"
 
 #. +> trunk6
-#: actionmanager.cpp:1057
+#: actionmanager.cpp:1006
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Saved calendar <filename>%1</filename>"
 msgstr ""
 
+#. +> stable6
+#: actionmanager.cpp:1010
+#, kde-format
+msgid "Saved calendar '%1'."
+msgstr "บันทึกปฏิทิน '%1' แล้ว"
+
 #. +> trunk6
-#: actionmanager.cpp:1096
+#: actionmanager.cpp:1045
 #, fuzzy, kde-kuit-format
 #| msgid "Unable to save calendar to the file %1."
 msgctxt "@info"
@@ -2129,7 +2106,7 @@ msgid "Unable to save calendar to the file %1."
 msgstr "ไม่สามารถบันทึกปฏิทินไปยังแฟ้ม %1 ได้"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:1097
+#: actionmanager.cpp:1046
 #, fuzzy, kde-format
 #| msgid "Error"
 msgctxt "@title:window"
@@ -2137,7 +2114,7 @@ msgid "Error"
 msgstr "ผิดพลาด"
 
 #. +> trunk6
-#: actionmanager.cpp:1123
+#: actionmanager.cpp:1072
 #, fuzzy, kde-format
 #| msgid "&Next Day"
 #| msgid_plural "&Next %1 Days"
@@ -2154,7 +2131,7 @@ msgid_plural "&Next %1 Days"
 msgstr[0] "ราย %1 วันถัดไป"
 
 #. +> trunk6
-#: actionmanager.cpp:1136
+#: actionmanager.cpp:1085
 #, kde-format
 msgctxt "@info"
 msgid "Could not start control module for date and time format."
@@ -2167,7 +2144,7 @@ msgid "Could not start control module for date and time format."
 msgstr ""
 
 #. +> trunk6
-#: actionmanager.cpp:1311
+#: actionmanager.cpp:1260
 #, fuzzy, kde-format
 #| msgid "&Show Event"
 msgctxt "@action:inmenu"
@@ -2181,7 +2158,7 @@ msgid "&Show Event"
 msgstr "แสดงเหตุการณ์"
 
 #. +> trunk6
-#: actionmanager.cpp:1314
+#: actionmanager.cpp:1263
 #, fuzzy, kde-format
 #| msgid "&Edit Event..."
 msgctxt "@action:inmenu"
@@ -2196,7 +2173,7 @@ msgid "&Edit Event…"
 msgstr "แก้ไขเหตุการณ์..."
 
 #. +> trunk6
-#: actionmanager.cpp:1317
+#: actionmanager.cpp:1266
 #, fuzzy, kde-format
 #| msgid "&Delete Event"
 msgctxt "@action:inmenu"
@@ -2210,7 +2187,7 @@ msgid "&Delete Event"
 msgstr "ลบเหตุการณ์"
 
 #. +> trunk6
-#: actionmanager.cpp:1325
+#: actionmanager.cpp:1274
 #, fuzzy, kde-format
 #| msgid "&Show To-do"
 msgctxt "@action:inmenu"
@@ -2224,7 +2201,7 @@ msgid "&Show To-do"
 msgstr "แสดงสิ่งที่จะทำ"
 
 #. +> trunk6
-#: actionmanager.cpp:1328
+#: actionmanager.cpp:1277
 #, fuzzy, kde-format
 #| msgid "&Edit To-do..."
 msgctxt "@action:inmenu"
@@ -2232,7 +2209,7 @@ msgid "&Edit To-do…"
 msgstr "แก้ไขสิ่งที่จะทำ..."
 
 #. +> trunk6
-#: actionmanager.cpp:1331
+#: actionmanager.cpp:1280
 #, fuzzy, kde-format
 #| msgid "&Delete To-do"
 msgctxt "@action:inmenu"
@@ -2240,7 +2217,7 @@ msgid "&Delete To-do"
 msgstr "ลบสิ่งที่จะทำ"
 
 #. +> trunk6
-#: actionmanager.cpp:1474 actionmanager.cpp:1580
+#: actionmanager.cpp:1423 actionmanager.cpp:1529
 #, fuzzy, kde-format
 #| msgid "Attach as &link"
 msgctxt "@action:inmenu"
@@ -2254,7 +2231,7 @@ msgid "Attach as &link"
 msgstr "แนบเข้าไปเป็นการเชื่อมโยง"
 
 #. +> trunk6
-#: actionmanager.cpp:1475 actionmanager.cpp:1581
+#: actionmanager.cpp:1424 actionmanager.cpp:1530
 #, fuzzy, kde-format
 #| msgid "Attach &inline"
 msgctxt "@action:inmenu"
@@ -2268,7 +2245,7 @@ msgid "Attach &inline"
 msgstr "แนบเข้าไปในบรรทัด"
 
 #. +> trunk6
-#: actionmanager.cpp:1476
+#: actionmanager.cpp:1425
 #, fuzzy, kde-format
 #| msgid "Attach inline &without attachments"
 msgctxt "@action:inmenu"
@@ -2282,7 +2259,7 @@ msgid "Attach inline &without attachments"
 msgstr "แนบเข้าไปในบรรทัดโดยไม่ต้องสร้างสิ่งที่แนบมาด้วย"
 
 #. +> trunk6
-#: actionmanager.cpp:1478 actionmanager.cpp:1583
+#: actionmanager.cpp:1427 actionmanager.cpp:1532
 #, fuzzy, kde-format
 #| msgid "C&ancel"
 msgctxt "@action:inmenu"
@@ -2296,7 +2273,7 @@ msgid "C&ancel"
 msgstr "ยกเลิก"
 
 #. +> trunk6
-#: actionmanager.cpp:1516
+#: actionmanager.cpp:1465
 #, fuzzy, kde-format
 #| msgid "Removing attachments from an email might invalidate its signature."
 msgctxt "@info"
@@ -2310,27 +2287,15 @@ msgid "Removing attachments from an email might invalidate its signature."
 msgstr "ลบสิ่งที่แนบมาด้วยออกจากอีเมลที่อาจจะมีลายเซ็นที่ไม่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:1517
+#: actionmanager.cpp:1466
 #, fuzzy, kde-format
 #| msgid "Remove Attachments"
 msgctxt "@title:window"
 msgid "Remove Attachments"
 msgstr "เอาสิ่งที่แนบมาด้วยออก"
 
-#. +> stable6
-#: actionmanager.cpp:1632 actionmanager.cpp:1648
-#, kde-format
-msgid "Undo"
-msgstr "เลิกทำ"
-
-#. +> stable6
-#: actionmanager.cpp:1659
-#, kde-format
-msgid "URL '%1' is invalid."
-msgstr "ที่อยู่ URL '%1' ใช้ไม่ได้"
-
 #. +> trunk6
-#: actionmanager.cpp:1668
+#: actionmanager.cpp:1617
 #, fuzzy, kde-format
 #| msgid "Undo: %1"
 msgctxt "@action:inmenu"
@@ -2344,7 +2309,7 @@ msgid "Undo: %1"
 msgstr "เลิกทำ: %1"
 
 #. +> trunk6
-#: actionmanager.cpp:1671
+#: actionmanager.cpp:1620
 #, fuzzy, kde-format
 #| msgid "Undo"
 msgctxt "@action:inmenu"
@@ -2352,12 +2317,18 @@ msgid "Undo"
 msgstr "เลิกทำ"
 
 #. +> trunk6
-#: actionmanager.cpp:1681
+#: actionmanager.cpp:1630
 #, fuzzy, kde-format
 #| msgid "Redo (%1)"
 msgctxt "@action:inmenu"
 msgid "Redo: %1"
 msgstr "ทำซ้ำ (%1)"
+
+#. +> stable6
+#: actionmanager.cpp:1632 actionmanager.cpp:1648
+#, kde-format
+msgid "Undo"
+msgstr "เลิกทำ"
 
 #. +> stable6
 #: actionmanager.cpp:1642
@@ -2367,7 +2338,7 @@ msgid "Redo: %1"
 msgstr "ทำซ้ำ (%1)"
 
 #. +> trunk6
-#: actionmanager.cpp:1684
+#: actionmanager.cpp:1633
 #, fuzzy, kde-format
 #| msgid "Redo"
 msgctxt "@action:inmenu"
@@ -2381,7 +2352,7 @@ msgid "Redo"
 msgstr "ทำใหม่"
 
 #. +> trunk6
-#: actionmanager.cpp:1687
+#: actionmanager.cpp:1636
 #, fuzzy, kde-format
 #| msgid "Undo"
 msgctxt "@action:button"
@@ -2389,7 +2360,7 @@ msgid "Undo"
 msgstr "เลิกทำ"
 
 #. +> trunk6
-#: actionmanager.cpp:1698
+#: actionmanager.cpp:1647
 #, fuzzy, kde-kuit-format
 #| msgid "URL '%1' is invalid."
 msgctxt "@info"
@@ -2397,7 +2368,7 @@ msgid "URL <filename>%1</filename> is invalid."
 msgstr "ที่อยู่ URL '%1' ใช้ไม่ได้"
 
 #. +> trunk6
-#: actionmanager.cpp:1703
+#: actionmanager.cpp:1652
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2405,6 +2376,12 @@ msgid ""
 "<para>If you select merge, then you will be given the opportunity to select the destination calendar.</para>"
 "<para>If you select add, then a new calendar will be created for you automatically.</para>"
 msgstr ""
+
+#. +> stable6
+#: actionmanager.cpp:1659
+#, kde-format
+msgid "URL '%1' is invalid."
+msgstr "ที่อยู่ URL '%1' ใช้ไม่ได้"
 
 #. +> stable6
 #: actionmanager.cpp:1664
@@ -2417,7 +2394,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:1711
+#: actionmanager.cpp:1660
 #, fuzzy, kde-format
 #| msgid "Import Calendar"
 msgctxt "@title:window"
@@ -2425,7 +2402,7 @@ msgid "Import Calendar"
 msgstr "นำเข้าปฏิทิน"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:1712
+#: actionmanager.cpp:1661
 #, fuzzy, kde-format
 #| msgid "Merge into existing calendar"
 msgctxt "@action:button"
@@ -2433,7 +2410,7 @@ msgid "Merge into existing calendar"
 msgstr "ผนวกรวมไว้ในปฏิทินที่มีอยู่แล้ว"
 
 #. +> trunk6 stable6
-#: actionmanager.cpp:1713
+#: actionmanager.cpp:1662
 #, fuzzy, kde-format
 #| msgid "Add as new calendar"
 msgctxt "@action:button"
@@ -3607,77 +3584,77 @@ msgstr "นำเข้า"
 
 #. i18n: ectx: Menu (export)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:18 data/korganizerui.rc:16
+#: data/korganizer_part.rc:15 data/korganizerui.rc:13
 #, kde-format
 msgid "&Export"
 msgstr "ส่งออก"
 
 #. i18n: ectx: Menu (edit)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:30 data/korganizerui.rc:28
+#: data/korganizer_part.rc:24 data/korganizerui.rc:22
 #, kde-format
 msgid "&Edit"
 msgstr "แก้ไข"
 
 #. i18n: ectx: Menu (view)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:42 data/korganizerui.rc:34
+#: data/korganizer_part.rc:36 data/korganizerui.rc:28
 #, kde-format
 msgid "&View"
 msgstr "มุมมอง"
 
 #. i18n: ectx: Menu (zoom)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:58 data/korganizerui.rc:51
+#: data/korganizer_part.rc:52 data/korganizerui.rc:45
 #, kde-format
 msgid "&Zoom"
 msgstr "ย่อ/ขยาย"
 
 #. i18n: ectx: Menu (go)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:66 data/korganizerui.rc:60
+#: data/korganizer_part.rc:60 data/korganizerui.rc:54
 #, kde-format
 msgid "&Go"
 msgstr "ไป"
 
 #. i18n: ectx: Menu (actions)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:72 data/korganizerui.rc:68
+#: data/korganizer_part.rc:66 data/korganizerui.rc:62
 #, kde-format
 msgid "&Actions"
 msgstr "การกระทำ"
 
 #. i18n: ectx: Menu (schedule)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:89 data/korganizerui.rc:87
+#: data/korganizer_part.rc:83 data/korganizerui.rc:81
 #, kde-format
 msgid "S&chedule"
 msgstr "ตารางเวลา"
 
 #. i18n: ectx: Menu (settings)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:101 data/korganizerui.rc:100
+#: data/korganizer_part.rc:95 data/korganizerui.rc:94
 #, kde-format
 msgid "&Settings"
 msgstr "ตั้งค่า"
 
 #. i18n: ectx: Menu (sidebar)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:102 data/korganizerui.rc:103
+#: data/korganizer_part.rc:96 data/korganizerui.rc:97
 #, kde-format
 msgid "&Sidebar"
 msgstr "ถาดข้าง"
 
 #. i18n: ectx: Menu (help)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:120 data/korganizerui.rc:118
+#: data/korganizer_part.rc:114 data/korganizerui.rc:112
 #, kde-format
 msgid "&Help"
 msgstr "ช่วยเหลือ"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:125 data/korganizerui.rc:123
+#: data/korganizer_part.rc:119 data/korganizerui.rc:117
 #, fuzzy, kde-format
 #| msgid "Main"
 msgctxt "main toolbar"
@@ -3686,21 +3663,21 @@ msgstr "หลัก"
 
 #. i18n: ectx: ToolBar (korganizer_toolbar)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:137 data/korganizerui.rc:135
+#: data/korganizer_part.rc:131 data/korganizerui.rc:129
 #, kde-format
 msgid "Views"
 msgstr "มุมมอง"
 
 #. i18n: ectx: ToolBar (schedule_toolbar)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:146 data/korganizerui.rc:144
+#: data/korganizer_part.rc:140 data/korganizerui.rc:138
 #, kde-format
 msgid "Schedule"
 msgstr "ตารางเวลา"
 
 #. i18n: ectx: ToolBar (filter_toolbar)
 #. +> trunk6 stable6
-#: data/korganizer_part.rc:152 data/korganizerui.rc:151
+#: data/korganizer_part.rc:146 data/korganizerui.rc:145
 #, kde-format
 msgid "Filters Toolbar"
 msgstr "แถบตัวกรอง"
@@ -3935,7 +3912,7 @@ msgid "&Cancel"
 msgstr "ยกเลิก"
 
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:45
+#: koeventpopupmenu.cpp:46
 #, fuzzy, kde-format
 #| msgid "&Delete"
 msgctxt "@action:inmenu delete this incidence"
@@ -3943,7 +3920,7 @@ msgid "&Delete"
 msgstr "ลบ"
 
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:49
+#: koeventpopupmenu.cpp:50
 #, fuzzy, kde-format
 #| msgid "&Print"
 msgctxt "@action:inmenu"
@@ -3951,7 +3928,7 @@ msgid "&Print…"
 msgstr "พิมพ์"
 
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:51
+#: koeventpopupmenu.cpp:52
 #, fuzzy, kde-format
 #| msgid "&Print..."
 msgctxt "@action:inmenu"
@@ -3959,7 +3936,7 @@ msgid "Print Previe&w…"
 msgstr "พิมพ์..."
 
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:72
+#: koeventpopupmenu.cpp:73
 #, fuzzy, kde-format
 #| msgctxt "cut this event"
 #| msgid "C&ut"
@@ -3968,7 +3945,7 @@ msgid "C&ut"
 msgstr "ตัด"
 
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:74
+#: koeventpopupmenu.cpp:75
 #, fuzzy, kde-format
 #| msgid "&Copy"
 msgctxt "@action:inmenu copy this incidence"
@@ -3976,15 +3953,33 @@ msgid "&Copy"
 msgstr "คัดลอก"
 
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:75
+#: koeventpopupmenu.cpp:76
 #, fuzzy, kde-format
 #| msgid "&Date:"
 msgctxt "@action:inmenu"
 msgid "&Paste"
 msgstr "วันที่: "
 
+#. +> trunk6
+#: koeventpopupmenu.cpp:84 koeventpopupmenu.cpp:104
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "New Event"
+msgctxt "@action:inmenu"
+msgid "New Event"
+msgstr "เหตุการณ์ใหม่"
+
+#. +> trunk6
+#: koeventpopupmenu.cpp:89 koeventpopupmenu.cpp:101
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "New To-do"
+msgctxt "@action:inmenu"
+msgid "New To-do"
+msgstr "สิ่งที่จะทำใหม่"
+
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:83
+#: koeventpopupmenu.cpp:92
 #, fuzzy, kde-format
 #| msgid "Create a new To-do"
 msgctxt "@action:inmenu"
@@ -3992,7 +3987,15 @@ msgid "Create To-do from Event"
 msgstr "สร้างสิ่งที่จะทำใหม่"
 
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:92
+#: koeventpopupmenu.cpp:109
+#, fuzzy, kde-format
+#| msgid "Create a new Event"
+msgctxt "@action:inmenu"
+msgid "Create Event from To-do"
+msgstr "สร้างเหตุการณ์ใหม่"
+
+#. +> trunk6 stable6
+#: koeventpopupmenu.cpp:115
 #, fuzzy, kde-format
 #| msgctxt "delete completed to-dos"
 #| msgid "Pur&ge Completed"
@@ -4001,15 +4004,7 @@ msgid "Togg&le To-do Completed"
 msgstr "กำจัดตัวที่เสร็จแล้ว"
 
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:97
-#, fuzzy, kde-format
-#| msgid "Create a new Event"
-msgctxt "@action:inmenu"
-msgid "Create Event from To-do"
-msgstr "สร้างเหตุการณ์ใหม่"
-
-#. +> trunk6 stable6
-#: koeventpopupmenu.cpp:108
+#: koeventpopupmenu.cpp:125
 #, fuzzy, kde-format
 #| msgid "&Toggle Reminder"
 msgctxt "@action:inmenu"
@@ -4017,7 +4012,7 @@ msgid "&Toggle Reminder"
 msgstr "เปิด/ปิดการเตือนความจำ"
 
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:115
+#: koeventpopupmenu.cpp:132
 #, fuzzy, kde-format
 #| msgid "Dissociate occurrence"
 msgctxt "@action:inmenu"
@@ -4025,7 +4020,7 @@ msgid "&Dissociate From Recurrence…"
 msgstr "ถอนการเกิดขึ้นอีก"
 
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:123
+#: koeventpopupmenu.cpp:140
 #, fuzzy, kde-format
 #| msgid "&Send as iCalendar..."
 msgctxt "@action:inmenu"
@@ -4033,7 +4028,7 @@ msgid "Send as iCalendar…"
 msgstr "ส่งไปยังระบบ iCalendar..."
 
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:173
+#: koeventpopupmenu.cpp:190
 #, fuzzy, kde-format
 #| msgid "&Toggle Reminder"
 msgctxt "@action:inmenu"
@@ -4041,7 +4036,7 @@ msgid "&Toggle Reminder Off"
 msgstr "เปิด/ปิดการเตือนความจำ"
 
 #. +> trunk6 stable6
-#: koeventpopupmenu.cpp:174
+#: koeventpopupmenu.cpp:191
 #, fuzzy, kde-format
 #| msgid "&Toggle Reminder"
 msgctxt "@action:inmenu"
@@ -8118,6 +8113,18 @@ msgstr "%1%"
 #, kde-format
 msgid "Unable to save %1 \"%2\"."
 msgstr "ไม่สามารถบันทึก %1 \"%2\""
+
+#, fuzzy, kde-format
+#~| msgid "New Calendar"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Get New Calendars…"
+#~ msgstr "ปฏิทินใหม่"
+
+#, fuzzy, kde-kuit-format
+#~| msgid "Could not load calendar '%1'."
+#~ msgctxt "@info"
+#~ msgid "Could not load calendar <filename>%1</filename>."
+#~ msgstr "ไม่สามารถโหลดปฏิทิน '%1' ได้"
 
 #, fuzzy, kde-format
 #~| msgid "Show To-do View"

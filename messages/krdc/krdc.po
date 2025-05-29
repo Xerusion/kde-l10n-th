@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-21 10:37+0200\n"
+"POT-Creation-Date: 2025-05-29 08:20+0200\n"
 "PO-Revision-Date: 2010-03-04 21:54+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -976,8 +976,16 @@ msgid "Acceleration:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Acceleration)
+#. +> trunk6
+#: rdp/rdppreferences.ui:196
+#, kde-format
+msgctxt "Use best acceleration supported by both the server and krdc"
+msgid "Use Best Available"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Acceleration)
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
-#. +> trunk6 stable6
+#. +> stable6
 #: rdp/rdppreferences.ui:196 rdp/rdppreferences.ui:245
 #, kde-format
 msgid "Use Best Available"
@@ -1011,6 +1019,14 @@ msgstr ""
 #, kde-format
 msgid "Color &depth:"
 msgstr "ความ&ลึกสี:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#. +> trunk6
+#: rdp/rdppreferences.ui:245
+#, kde-format
+msgctxt "Use best color depth supported by both the server and krdc"
+msgid "Use Best Available"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
 #. +> trunk6 stable6
@@ -1635,7 +1651,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:204
+#: rdp/rdpview.cpp:206
 #, fuzzy, kde-format
 #| msgid "Access to the system requires a password."
 msgctxt "@label"
@@ -1643,42 +1659,42 @@ msgid "Access to this system requires a username and password."
 msgstr "ต้องการรหัสผ่านในการเข้าใช้งานระบบ"
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:237
+#: rdp/rdpview.cpp:239
 #, kde-format
 msgctxt "@label"
 msgid "The certificate for this system is unknown. Do you wish to continue?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:238
+#: rdp/rdpview.cpp:240
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Verify Certificate"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:243 rdp/rdpview.cpp:268
+#: rdp/rdpview.cpp:245 rdp/rdpview.cpp:270
 #, kde-format
 msgctxt "@label"
 msgid "Remember this certificate"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:262
+#: rdp/rdpview.cpp:264
 #, kde-format
 msgctxt "@label"
 msgid "The certificate for this system has changed. Do you wish to continue?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:263
+#: rdp/rdpview.cpp:265
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Certificate has Changed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:266
+#: rdp/rdpview.cpp:268
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -1689,7 +1705,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:299
+#: rdp/rdpview.cpp:301
 #, fuzzy, kde-format
 #| msgid "Connection Failure"
 msgctxt "@title:dialog"
@@ -1697,42 +1713,42 @@ msgid "Login Failure"
 msgstr "การเชื่อมต่อล้มเหลว"
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:300
+#: rdp/rdpview.cpp:302
 #, kde-format
 msgctxt "@label"
 msgid "Unable to login with the provided credentials. Please double check the user and password."
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:309
+#: rdp/rdpview.cpp:311
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Account Problems"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:310
+#: rdp/rdpview.cpp:312
 #, kde-format
 msgctxt "@label"
 msgid "The provided account is not allowed to log in to this machine. Please contact your system administrator."
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:315
+#: rdp/rdpview.cpp:317
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Password Problems"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:316
+#: rdp/rdpview.cpp:318
 #, kde-format
 msgctxt "@label"
 msgid "Unable to login with the provided password. Please contact your system administrator to change it."
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:319
+#: rdp/rdpview.cpp:321
 #, fuzzy, kde-format
 #| msgid "Connection"
 msgctxt "@title:dialog"
@@ -1740,7 +1756,7 @@ msgid "Connection Lost"
 msgstr "การเชื่อมต่อ"
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:320
+#: rdp/rdpview.cpp:322
 #, fuzzy, kde-format
 #| msgid "An error has occurred during the connection to the NX server."
 msgctxt "@label"
@@ -1748,7 +1764,7 @@ msgid "Lost connection to the server."
 msgstr "เกิดข้อผิดพลาดระหว่างทำการเชื่อมต่อไปยังแม่ข่ายบริการ NX"
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:324
+#: rdp/rdpview.cpp:326
 #, fuzzy, kde-format
 #| msgid "Server not found."
 msgctxt "@title:dialog"
@@ -1756,14 +1772,14 @@ msgid "Server not Found"
 msgstr "ไม่พบแม่ข่ายให้บริการ"
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:325
+#: rdp/rdpview.cpp:327
 #, kde-format
 msgctxt "@label"
 msgid "Could not find the server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:328
+#: rdp/rdpview.cpp:330
 #, fuzzy, kde-format
 #| msgid "Connection Failure"
 msgctxt "@title:dialog"
@@ -1771,7 +1787,7 @@ msgid "Connection Refused"
 msgstr "การเชื่อมต่อล้มเหลว"
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:329
+#: rdp/rdpview.cpp:331
 #, fuzzy, kde-format
 #| msgid "VNC server closed connection."
 msgctxt "@label"
@@ -1779,7 +1795,7 @@ msgid "The server refused the connection request."
 msgstr "เซิร์ฟเวอร์ VNC ยุติการเชื่อมต่อ"
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:334
+#: rdp/rdpview.cpp:336
 #, fuzzy, kde-format
 #| msgid "KRDC Konsole Connection"
 msgctxt "@title:dialog"
@@ -1787,7 +1803,7 @@ msgid "Could not Connect"
 msgstr "การเชื่อมต่อคอนโซล-K ของ KRDC"
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:335
+#: rdp/rdpview.cpp:337
 #, fuzzy, kde-format
 #| msgid "An error has occurred during the connection to the NX server."
 msgctxt "@label"
@@ -1795,7 +1811,7 @@ msgid "Could not connect to the server."
 msgstr "เกิดข้อผิดพลาดระหว่างทำการเชื่อมต่อไปยังแม่ข่ายบริการ NX"
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:345 rdp/rdpview.cpp:349
+#: rdp/rdpview.cpp:346 rdp/rdpview.cpp:350
 #, fuzzy, kde-format
 #| msgid "Connection Failure"
 msgctxt "@title:dialog"
@@ -1803,14 +1819,14 @@ msgid "Connection Closed"
 msgstr "การเชื่อมต่อล้มเหลว"
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:350
+#: rdp/rdpview.cpp:351
 #, kde-format
 msgctxt "@label"
 msgid "The connection to the server was closed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:354
+#: rdp/rdpview.cpp:355
 #, fuzzy, kde-format
 #| msgid "Connection Failure"
 msgctxt "@title:dialog"
@@ -1818,14 +1834,14 @@ msgid "Connection Failed"
 msgstr "การเชื่อมต่อล้มเหลว"
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:355
+#: rdp/rdpview.cpp:356
 #, kde-format
 msgctxt "@label"
 msgid "An unknown error occurred"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rdp/rdpview.cpp:369
+#: rdp/rdpview.cpp:367
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Logon Error"

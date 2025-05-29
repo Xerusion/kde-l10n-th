@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-21 10:37+0200\n"
+"POT-Creation-Date: 2025-05-24 10:37+0200\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -96,63 +96,91 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6
-#: configwidget.ui:108 setupwizard.cpp:242 urlconfigurationdialog.ui:136
+#: configwidget.ui:107 setupwizard.cpp:242 urlconfigurationdialog.ui:136
 #, kde-format
 msgid "Password:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_limitSyncRange)
-#. +> trunk6 stable6
-#: configwidget.ui:136
+#. +> trunk6
+#: configwidget.ui:134
+#, kde-format
+msgid "Select this to reduce the load on the server and speed-up your syncs"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_limitSyncRange)
+#. +> stable6
+#: configdialog.ui:136
 #, kde-format
 msgid "Select this if your calendars contain a lot of events and the server cannot fulfill the requests"
 msgstr ""
 
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_limitSyncRange)
+#. +> trunk6
+#: configwidget.ui:137
+#, kde-format
+msgid "Limiting the time span range will lessen the load on the remote server and speed-up your initial sync."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitSyncRange)
-#. +> trunk6 stable6
-#: configwidget.ui:139
+#. +> trunk6
+#: configwidget.ui:140
+#, kde-format
+msgid "Limit retrieval time range"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitSyncRange)
+#. +> stable6
+#: configdialog.ui:139
 #, kde-format
 msgid "Limit CalDav retrieval time range"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#. +> trunk6 stable6
-#: configwidget.ui:151
+#. +> trunk6
+#: configwidget.ui:152
+#, kde-format
+msgid "Only sync data more recent than"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> stable6
+#: configdialog.ui:151
 #, kde-format
 msgid "Only sync events more recent than"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_41)
 #. +> trunk6 stable6
-#: configwidget.ui:190
+#: configwidget.ui:191
 #, kde-format
 msgid "Server Configuration:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
 #. +> trunk6 stable6
-#: configwidget.ui:204
+#: configwidget.ui:205
 #, kde-format
 msgid "Add"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, searchButton)
 #. +> trunk6 stable6
-#: configwidget.ui:211 searchdialog.ui:151
+#: configwidget.ui:212 searchdialog.ui:151
 #, kde-format
 msgid "Search"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #. +> trunk6 stable6
-#: configwidget.ui:218
+#: configwidget.ui:219
 #, kde-format
 msgid "Remove"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, editButton)
 #. +> trunk6 stable6
-#: configwidget.ui:225
+#: configwidget.ui:226
 #, kde-format
 msgid "Edit"
 msgstr ""
@@ -212,56 +240,56 @@ msgid "Unable to modify collection: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:796
+#: davgroupwareresource.cpp:799
 #, kde-format
 msgid "Unable to remove collection: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:816
+#: davgroupwareresource.cpp:819
 #, kde-format
 msgid "Unable to retrieve collections: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:949 davgroupwareresource.cpp:1048
+#: davgroupwareresource.cpp:952 davgroupwareresource.cpp:1051
 #, kde-format
 msgid "Unable to retrieve items: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:1128
+#: davgroupwareresource.cpp:1131
 #, kde-format
 msgid "Unable to retrieve item: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:1148
+#: davgroupwareresource.cpp:1151
 #, kde-format
 msgid "Unable to retrieve item: failed to parse item data. Maybe it was deleted already."
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:1185
+#: davgroupwareresource.cpp:1188
 #, kde-format
 msgid "Unable to add item: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:1229 davgroupwareresource.cpp:1342
-#: davgroupwareresource.cpp:1354
+#: davgroupwareresource.cpp:1232 davgroupwareresource.cpp:1345
+#: davgroupwareresource.cpp:1357
 #, kde-format
 msgid "Unable to change item: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:1316 davgroupwareresource.cpp:1373
+#: davgroupwareresource.cpp:1319 davgroupwareresource.cpp:1376
 #, kde-format
 msgid "Unable to remove item: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:1460 davgroupwareresource.cpp:1461
+#: davgroupwareresource.cpp:1463 davgroupwareresource.cpp:1464
 #, kde-format
 msgid "The resource is not configured yet"
 msgstr ""
@@ -302,21 +330,42 @@ msgid "User name"
 msgstr ""
 
 #. i18n: ectx: label, entry (limitSyncRange), group (General)
-#. +> trunk6 stable6
+#. +> trunk6
+#: davgroupwareresource.kcfg:30
+#, kde-format
+msgid "Limit the data retrieval to the specified time range"
+msgstr ""
+
+#. i18n: ectx: label, entry (limitSyncRange), group (General)
+#. +> stable6
 #: davgroupwareresource.kcfg:30
 #, kde-format
 msgid "Limit the events retrieval to the specified time range"
 msgstr ""
 
 #. i18n: ectx: label, entry (syncRangeStartNumber), group (General)
-#. +> trunk6 stable6
+#. +> trunk6
+#: davgroupwareresource.kcfg:34
+#, kde-format
+msgid "Period for which to retrieve data, quantity"
+msgstr ""
+
+#. i18n: ectx: label, entry (syncRangeStartNumber), group (General)
+#. +> stable6
 #: davgroupwareresource.kcfg:34
 #, kde-format
 msgid "Period for which to retrieve events, quantity"
 msgstr ""
 
 #. i18n: ectx: label, entry (syncRangeStartType), group (General)
-#. +> trunk6 stable6
+#. +> trunk6
+#: davgroupwareresource.kcfg:38
+#, kde-format
+msgid "Period for which to retrieve data, type"
+msgstr ""
+
+#. i18n: ectx: label, entry (syncRangeStartType), group (General)
+#. +> stable6
 #: davgroupwareresource.kcfg:38
 #, kde-format
 msgid "Period for which to retrieve events, type"

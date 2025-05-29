@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: webkitkde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-06 22:50+0200\n"
+"POT-Creation-Date: 2025-05-26 11:47+0200\n"
 "PO-Revision-Date: 2010-03-06 09:46+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -337,18 +337,39 @@ msgid "Show &with %1"
 msgstr "เปิด '%1'"
 
 #. +> trunk6 stable6
-#: src/capturesourcechooserdlg.cpp:29
+#: src/capturesourcechooserdlg.cpp:27
 #, kde-format
 msgid "Do you want to allow <tt>%1</tt> to capture the contents of your screen?"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/capturesourcechooserdlg.cpp:29
+#, kde-format
+msgctxt "Choose to share a screen"
+msgid "Share Screen"
+msgstr ""
+
+#. +> trunk6
+#: src/capturesourcechooserdlg.cpp:31
+#, kde-format
+msgctxt "Choose to share a window"
+msgid "Share Window"
+msgstr ""
+
+#. +> stable6
 #: src/capturesourcechooserdlg.cpp:31
 #, kde-format
 msgid "Choose window or screen to capture"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/capturesourcechooserdlg.cpp:35
+#, kde-format
+msgctxt "Don't share any part of the screen"
+msgid "Share nothing"
+msgstr ""
+
+#. +> stable6
 #: src/capturesourcechooserdlg.cpp:38
 #, fuzzy, kde-format
 #| msgctxt "follow link despite of security warning"
@@ -357,7 +378,7 @@ msgctxt "Allow a web page to capture the screen"
 msgid "Allow"
 msgstr "เรียกไป"
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/capturesourcechooserdlg.cpp:39
 #, kde-format
 msgctxt "Block a web page from capturing the screen"
@@ -374,12 +395,48 @@ msgid "Choose Capture Source"
 msgstr "เลือกส่วนประกอบต่าง ๆ"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/capturesourcechooserdlg.ui:20
+#, kde-format
+msgid "Which part of your screen do you want to share?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> stable6
 #: src/capturesourcechooserdlg.ui:20
 #, fuzzy, kde-format
 #| msgid "<qt>Do you want to allow this site to attach the following files to the email message ?</qt>"
 msgid "Do you want to allow this page to capture the contents of your screen?"
 msgstr "<qt>คุณต้องการจะอนุญาตให้เว็บไซต์นี้ทำการแนบแฟ้มต่าง ๆ ต่อไปนี้เข้าไปยังจดหมายหรือไม่ ?</qt>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6
+#: src/capturesourcechooserdlg.ui:44
+#, kde-format
+msgid "Window"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QComboBox, windowCombo)
+#. +> trunk6
+#: src/capturesourcechooserdlg.ui:51
+#, fuzzy, kde-format
+#| msgid "Close window?"
+msgid "Choose window"
+msgstr "ปิดหน้าต่างหรือไม่ ?"
+
+#. i18n: ectx: property (text), widget (QLabel, Screen)
+#. +> trunk6
+#: src/capturesourcechooserdlg.ui:75
+#, kde-format
+msgid "Screen"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QComboBox, screenCombo)
+#. +> trunk6
+#: src/capturesourcechooserdlg.ui:82
+#, kde-format
+msgid "Choose screen"
+msgstr ""
 
 #. +> trunk6 stable6
 #: src/choosepagesaveformatdlg.cpp:37
@@ -515,7 +572,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, header)
 #. +> trunk6 stable6
 #: src/cookies/cookiealertdlg.ui:20
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>You received a cookie from %1</p>"

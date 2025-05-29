@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-17 10:32+0200\n"
+"POT-Creation-Date: 2025-05-29 08:20+0200\n"
 "PO-Revision-Date: 2010-05-20 14:01+0700\n"
 "Last-Translator: Phuwanat Sakornsakolpat <narachai@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -14760,7 +14760,7 @@ msgstr "ภาพกลับด้าน"
 #. i18n: context: text @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
 #: krita/kritamenu.action:762
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 msgctxt "action"
 msgid "&Zoom to 100%"
 msgstr "เลือกใหม่"
@@ -14771,7 +14771,7 @@ msgstr "เลือกใหม่"
 #. i18n: context: iconText @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
 #: krita/kritamenu.action:764 krita/kritamenu.action:765
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 msgctxt "action"
 msgid "Zoom to 100%"
 msgstr "เลือกใหม่"
@@ -17421,7 +17421,7 @@ msgid "Active tool: %1"
 msgstr "เครื่องมือที่ใช้อยู่: %1"
 
 #. +> trunk5 stable5
-#: libs/flake/svg/SvgParser.cpp:1857
+#: libs/flake/svg/SvgParser.cpp:1882
 #, kde-format
 msgctxt "warning while loading SVG text"
 msgid "The document has vector text created in Krita 4.x. When you save the document, the text object will be converted into Krita 5 format that will no longer be compatible with Krita 4.x"
@@ -21536,34 +21536,34 @@ msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
 
 #. +> trunk5
 #: libs/flake/text/KoSvgTextShape.cpp:109
-#: libs/flake/text/KoSvgTextShape.cpp:1634
+#: libs/flake/text/KoSvgTextShape.cpp:1635
 #, kde-format
 msgctxt "Default text for the text shape"
 msgid "Placeholder Text"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/flake/text/KoSvgTextShape.cpp:1613
+#: libs/flake/text/KoSvgTextShape.cpp:1614
 #, fuzzy, kde-format
 msgctxt "Text label in SVG Text Tool"
 msgid "Text"
 msgstr "สี"
 
 #. +> trunk5 stable5
-#: libs/flake/text/KoSvgTextShape.cpp:1615
-#: libs/flake/text/KoSvgTextShape.cpp:1623
+#: libs/flake/text/KoSvgTextShape.cpp:1616
+#: libs/flake/text/KoSvgTextShape.cpp:1624
 #, fuzzy, kde-format
 msgid "SVG Text Shape"
 msgstr "ความแหลม:"
 
 #. +> trunk5 stable5
-#: libs/flake/text/KoSvgTextShape.cpp:1621
+#: libs/flake/text/KoSvgTextShape.cpp:1622
 #, fuzzy, kde-format
 msgid "SVG Text"
 msgstr "สี"
 
 #. +> trunk5 stable5
-#: libs/flake/text/KoSvgTextShape.cpp:1644
+#: libs/flake/text/KoSvgTextShape.cpp:1645
 #, kde-format
 msgctxt "Default text for the text shape"
 msgid "<text>Placeholder Text</text>"
@@ -27026,7 +27026,7 @@ msgstr "อ้างอิงข้อความ"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gifReserveTransparent)
 #. +> trunk5 stable5
 #: libs/ui/animation/video_export_options_dialog.ui:347
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>GIF format supports up to 256 colors per frame/image. This option enables transparency at the cost of 1 color, thus only 255 colors will be used for GIFs with this option enabled. Disabling this option gives you the entire 256 colors for your GIF for better quality output.</p>"
@@ -31241,7 +31241,7 @@ msgstr "เวลารวมในการแก้ไข:"
 #: plugins/paintops/mypaint/MyPaintSensorPack.cpp:49
 #: plugins/paintops/mypaint/MyPaintSensorPack.cpp:50
 #: plugins/paintops/spray/KisSprayShapeOptionModel.cpp:88
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 msgid "%"
 msgstr "%1%"
 
@@ -33555,7 +33555,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, sliderFrameClonesLimit)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgperformancesettings.ui:296
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>When rendering animation frames (into files or during animation cache regeneration), Krita will make the specified number of copies of your image and will work on them in parallel. Each copy will demand more RAM for its storage (about 20% of the size of you image), so raise this limit only if you have enough RAM installed.</p>"
@@ -33769,7 +33769,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, intRegionOfInterestMargin)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgperformancesettings.ui:507
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid ""
 "<html><head/><body>"
 "<p>Add extra area to the region of interest to each side of the canvas.</p>"
@@ -37945,7 +37945,13 @@ msgstr ""
 msgid "Could not open the saved file %1. Please try to save again in a different location."
 msgstr ""
 
-#. +> trunk5 stable5
+#. +> trunk5
+#: libs/ui/KisImportExportFilter.cpp:286
+#, kde-format
+msgid "Component %1 is missing in %2. Please try to save again in a different location."
+msgstr ""
+
+#. +> stable5
 #: libs/ui/KisImportExportFilter.cpp:286
 #, kde-format
 msgid "File %1 is missing in %2 and is broken. Please try to save again in a different location."
@@ -48692,10 +48698,17 @@ msgid "OpenType Feature Tag"
 msgstr ""
 
 #. +> trunk5
-#: plugins/dockers/textproperties/TextPropertiesDock.cpp:117
+#: plugins/dockers/textproperties/TextPropertiesDock.cpp:122
 #, fuzzy, kde-format
 msgid "Text Properties"
 msgstr "คุณบัติการลาก"
+
+#. +> trunk5
+#: plugins/dockers/textproperties/TextPropertyConfigDialog.cpp:36
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Text Property Configuration"
+msgstr "มุม:"
 
 #. +> trunk5 stable5
 #: plugins/dockers/touchdocker/TouchDockerDock.cpp:12
@@ -63047,7 +63060,7 @@ msgstr "สีพื้น&หน้า"
 #. +> trunk5 stable5
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:82
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:93
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "(0° is active color)"
 msgstr ""
 
@@ -63075,7 +63088,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:116
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:127
 #: plugins/paintops/libpaintop/KisStandardOptionData.cpp:139
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "(0% is active color)"
 msgstr ""
 
@@ -72105,7 +72118,7 @@ msgstr "เส้นทแยง"
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:982
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:998
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 #| msgid "%1 %"
 msgid " %"
 msgstr "%1%"
