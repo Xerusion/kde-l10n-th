@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-23 11:32+0200\n"
+"POT-Creation-Date: 2025-06-25 11:04+0200\n"
 "PO-Revision-Date: 2010-12-17 20:06+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -330,63 +330,85 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:31
+#: declarative/qml/BarcodePage.qml:32
 #, kde-format
 msgid "QR Code"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:32
+#: declarative/qml/BarcodePage.qml:33
 #, kde-format
 msgid "Data Matrix"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:33
+#: declarative/qml/BarcodePage.qml:34
 #, kde-format
 msgctxt "Aztec barcode"
 msgid "Aztec"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:34
+#: declarative/qml/BarcodePage.qml:35
 #, kde-format
 msgid "Code 39"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:35
+#: declarative/qml/BarcodePage.qml:36
 #, kde-format
 msgid "Code 93"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:36
+#: declarative/qml/BarcodePage.qml:37
 #, kde-format
 msgid "Code 128"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:52
+#: declarative/qml/BarcodePage.qml:53
 #, fuzzy, kde-format
 #| msgid "Add to Clipboard"
 msgid "Return to Clipboard"
 msgstr "เพิ่มไปยังคลิปบอร์ด"
 
+#. +> trunk6
+#: declarative/qml/BarcodePage.qml:89
+#, kde-format
+msgctxt "@action:button Copy to clipboard"
+msgid "Copy"
+msgstr ""
+
+#. +> trunk6
+#: declarative/qml/BarcodePage.qml:95
+#, kde-format
+msgctxt "@info:status"
+msgid "An image of the QR code has been copied to clipboard"
+msgstr ""
+
+#. +> trunk6
+#: declarative/qml/BarcodePage.qml:101
+#, fuzzy, kde-format
+#| msgid "Add to Clipboard"
+msgctxt "@info:tooltip"
+msgid "Copy QR code image to clipboard"
+msgstr "เพิ่มไปยังคลิปบอร์ด"
+
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:88
+#: declarative/qml/BarcodePage.qml:112
 #, kde-format
 msgid "Change the QR code type"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:141
+#: declarative/qml/BarcodePage.qml:197
 #, kde-format
 msgid "There is not enough space to display the QR code. Try resizing this applet."
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:141
+#: declarative/qml/BarcodePage.qml:197
 #, kde-format
 msgid "Creating QR code failed"
 msgstr ""
@@ -745,12 +767,20 @@ msgid "C&lear Clipboard History"
 msgstr "&ล้างประวัติของคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:116
+#: klipper.cpp:114
 #, fuzzy, kde-format
-#| msgid "&Configure Klipper..."
+#| msgid "Manually Invoke Action on Current Clipboard"
 msgctxt "@action:inmenu"
-msgid "&Configure Klipper…"
-msgstr "&ปรับแต่งคลิปเปอร์..."
+msgid "Manually Invoke Action on Current Clipboard"
+msgstr "สั่งเรียกการกระทำบนคลิปบอร์ดปัจจุบันเอง"
+
+#. +> trunk6 stable6 stable5
+#: klipper.cpp:122
+#, fuzzy, kde-format
+#| msgid "Edit Contents"
+msgctxt "@action:inmenu"
+msgid "&Edit Contents…"
+msgstr "แก้ไขเนื้อหา"
 
 #. +> stable5
 #: klipper.cpp:209
@@ -760,22 +790,6 @@ msgctxt "@action:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "&ออก"
 
-#. +> trunk6 stable6 stable5
-#: klipper.cpp:120
-#, fuzzy, kde-format
-#| msgid "Manually Invoke Action on Current Clipboard"
-msgctxt "@action:inmenu"
-msgid "Manually Invoke Action on Current Clipboard"
-msgstr "สั่งเรียกการกระทำบนคลิปบอร์ดปัจจุบันเอง"
-
-#. +> trunk6 stable6 stable5
-#: klipper.cpp:128
-#, fuzzy, kde-format
-#| msgid "Edit Contents"
-msgctxt "@action:inmenu"
-msgid "&Edit Contents…"
-msgstr "แก้ไขเนื้อหา"
-
 #. +> stable5
 #: klipper.cpp:957
 #, kde-format
@@ -783,7 +797,7 @@ msgid "Edit Contents"
 msgstr "แก้ไขเนื้อหา"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:134
+#: klipper.cpp:128
 #, fuzzy, kde-format
 #| msgid "&Show Barcode..."
 msgctxt "@action:inmenu"
@@ -791,7 +805,7 @@ msgid "&Show Barcode…"
 msgstr "แ&สดงบาร์โค้ด..."
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:143
+#: klipper.cpp:137
 #, fuzzy, kde-format
 #| msgid "Next History Item"
 msgctxt "@action:inmenu"
@@ -799,7 +813,7 @@ msgid "Next History Item"
 msgstr "ตัวถัดไปในรายการประวัติ"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:148
+#: klipper.cpp:142
 #, fuzzy, kde-format
 #| msgid "Previous History Item"
 msgctxt "@action:inmenu"
@@ -807,12 +821,20 @@ msgid "Previous History Item"
 msgstr "ตัวก่อนหน้านี้ในรายการประวัติ"
 
 #. +> trunk6 stable6
-#: klipper.cpp:155
+#: klipper.cpp:149
 #, fuzzy, kde-format
 #| msgid "Popup at mouse position"
 msgctxt "@action:inmenu"
 msgid "Show Clipboard Items at Mouse Position"
 msgstr "เรียกเมนูผุดที่ตำแหน่งตัวชี้ของเมาส์"
+
+#. +> stable5
+#: klipper.cpp:203
+#, fuzzy, kde-format
+#| msgid "&Configure Klipper..."
+msgctxt "@action:inmenu"
+msgid "&Configure Klipper…"
+msgstr "&ปรับแต่งคลิปเปอร์..."
 
 #. +> stable5
 #: klipper.cpp:251
@@ -831,31 +853,31 @@ msgid "%1 - Clipboard Tool"
 msgstr "คลิปเปอร์ (Klipper) - เครื่องมือคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:435
+#: klipper.cpp:429
 #, kde-format
 msgid "Mobile Barcode"
 msgstr "บาร์โค้ดสำหรับโทรศัพท์เคลื่อนที่"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:478 klipper.cpp:487
+#: klipper.cpp:472 klipper.cpp:481
 #, kde-format
 msgid "Clipboard history"
 msgstr "ขนาดของประวัติคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:504
+#: klipper.cpp:498
 #, kde-format
 msgid "up"
 msgstr "ขึ้น"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:511
+#: klipper.cpp:505
 #, kde-format
 msgid "current"
 msgstr "ปัจจุบัน"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:518
+#: klipper.cpp:512
 #, kde-format
 msgid "down"
 msgstr "ลง"

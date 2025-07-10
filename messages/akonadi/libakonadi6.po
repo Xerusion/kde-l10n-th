@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libakonadi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-23 11:31+0200\n"
+"POT-Creation-Date: 2025-07-05 12:22+0200\n"
 "PO-Revision-Date: 2010-02-26 23:20+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -120,68 +120,68 @@ msgid "Akonadi Resource"
 msgstr "ทรัพยากรของ Akonadi"
 
 #. +> trunk6 stable6
-#: agentbase/resourcebase.cpp:580
+#: agentbase/resourcebase.cpp:581
 #, kde-format
 msgctxt "@info"
 msgid "Invalid item retrieved"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/resourcebase.cpp:603
+#: agentbase/resourcebase.cpp:604
 #, kde-format
 msgctxt "@info"
 msgid "Error while creating item: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/resourcebase.cpp:627
+#: agentbase/resourcebase.cpp:628
 #, kde-format
 msgctxt "@info"
 msgid "Error while updating collection: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/resourcebase.cpp:714
+#: agentbase/resourcebase.cpp:715
 #, kde-format
 msgctxt "@info"
 msgid "Updating local collection failed: %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/resourcebase.cpp:719
+#: agentbase/resourcebase.cpp:720
 #, kde-format
 msgctxt "@info"
 msgid "Updating local items failed: %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/resourcebase.cpp:738
+#: agentbase/resourcebase.cpp:739
 #, kde-format
 msgctxt "@info"
 msgid "Cannot fetch item in offline mode."
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/resourcebase.cpp:920
+#: agentbase/resourcebase.cpp:921
 #, kde-format
 msgctxt "@info:status"
 msgid "Syncing folder '%1'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/resourcebase.cpp:940 agentbase/resourcebase.cpp:947
+#: agentbase/resourcebase.cpp:941 agentbase/resourcebase.cpp:948
 #, kde-format
 msgid "Failed to retrieve collection for sync."
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/resourcebase.cpp:988
+#: agentbase/resourcebase.cpp:989
 #, kde-format
 msgid "Failed to retrieve collection for attribute sync."
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/resourcebase.cpp:1034
+#: agentbase/resourcebase.cpp:1035
 #, kde-format
 msgid "The requested item no longer exists"
 msgstr ""
@@ -231,38 +231,38 @@ msgstr ""
 msgid "Command to execute"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog/main.cpp:23
 #, kde-format
 msgid "Configuration Dialog"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog/main.cpp:25
 #, kde-format
 msgid "Allows to configure an agent or resource"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog/main.cpp:27
 #, kde-format
 msgid "© 2025 Carl Schwan <carl@carlschwan.eu>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog/main.cpp:30
 #, fuzzy, kde-format
 #| msgid "Folder creation failed"
 msgid "The agent identifier"
 msgstr "ล้มเหลวในการสร้างโฟลเดอร์"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog/main.cpp:36
 #, kde-format
 msgid "Required identifier argument missing."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configdialog/main.cpp:51
 #, kde-format
 msgid "No such agent found \"%1\""
@@ -525,15 +525,6 @@ msgid ""
 "a collection with name '%2'."
 msgstr ""
 
-#. +> stable6
-#: core/models/entitytreemodel.cpp:499
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "Error."
-msgctxt "@window:title"
-msgid "Error"
-msgstr "ผิดพลาด"
-
 #. +> trunk6 stable6
 #: core/models/entitytreemodel.cpp:666
 #, kde-format
@@ -709,6 +700,35 @@ msgstr ""
 #: core/session.cpp:194
 #, kde-format
 msgid "Protocol version mismatch. Server version is newer (%1) than ours (%2). If you updated your system recently please restart all KDE PIM applications."
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/colorproxymodel.cpp:83
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Offline"
+msgctxt "@item this is the default calendar"
+msgid "%1 (Offline)"
+msgstr "ออฟไลน์"
+
+#. +> trunk6 stable6
+#: quick/colorproxymodel.cpp:86
+#, kde-format
+msgctxt "@item this is the default calendar"
+msgid "%1 (Default)"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, TagManagementDialog)
+#. +> trunk6 stable6
+#: quick/qml/TagManagerPage.qml:17 widgets/tagmanagementdialog.ui:14
+#, kde-format
+msgid "Manage Tags"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/qml/TagManagerPage.qml:31
+#, kde-format
+msgid "You won't be able to revert this action."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2900,13 +2920,6 @@ msgstr ""
 msgid "Create new tag"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, TagManagementDialog)
-#. +> trunk6 stable6
-#: widgets/tagmanagementdialog.ui:14
-#, kde-format
-msgid "Manage Tags"
-msgstr ""
-
 #. +> trunk6 stable6
 #: widgets/tagselectioncombobox.cpp:126
 #, fuzzy, kde-format
@@ -3034,3 +3047,10 @@ msgstr "ไม่สามารถวางข้อมูลต่อไปน
 #, kde-format
 msgid "Unable to find collection %1"
 msgstr ""
+
+#, fuzzy, kde-format
+#~| msgctxt "@info:status"
+#~| msgid "Error."
+#~ msgctxt "@window:title"
+#~ msgid "Error"
+#~ msgstr "ผิดพลาด"

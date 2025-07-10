@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-camera\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-06 08:52+0100\n"
+"POT-Creation-Date: 2025-07-08 10:01+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -25,176 +25,133 @@ msgid "Your emails"
 msgstr ""
 
 #. +> trunk6
-#: src/contents/ui/CameraPage.qml:26 src/contents/ui/GlobalDrawer.qml:20
-#: src/contents/ui/main.qml:14
-#, kde-format
-msgid "Camera"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:43
-#, kde-format
-msgid "Switch mode"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:66
-#, kde-format
-msgid "Cancel self-timer"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:68
-#, kde-format
-msgid "Capture photo"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:70
-#, kde-format
-msgid "Stop recording video"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:72
-#, kde-format
-msgid "Start recording video"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:107
-#, kde-format
-msgid "Switch Camera"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:176
-#, kde-format
-msgid "Camera not available"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:178
-#, kde-format
-msgid "Camera is busy. Is another application using it?"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:180
-#, kde-format
-msgid "Missing camera resource."
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:446
+#: src/contents/ui/camera/CameraControls.qml:170
 #, kde-format
 msgid "Photo"
 msgstr ""
 
 #. +> trunk6
-#: src/contents/ui/CameraPage.qml:451
+#: src/contents/ui/camera/CameraControls.qml:175
 #, kde-format
 msgid "Video"
 msgstr ""
 
 #. +> trunk6
-#: src/contents/ui/CameraPage.qml:554
+#: src/contents/ui/camera/CameraPage.qml:19 src/contents/ui/main.qml:20
 #, kde-format
-msgid "Took a photo"
+msgid "Camera"
 msgstr ""
 
 #. +> trunk6
-#: src/contents/ui/CameraPage.qml:556
-#, kde-format
-msgid "Failed to take a photo"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:561
-#, kde-format
-msgid "Stopped recording"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:565
-#, kde-format
-msgid "Started recording"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/CameraPage.qml:567
-#, kde-format
-msgid "Failed to start recording"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/GlobalDrawer.qml:37
-#, kde-format
-msgid "Resolution"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/GlobalDrawer.qml:56
-#, kde-format
-msgid "White balance"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/GlobalDrawer.qml:62
-#, kde-format
-msgid "Auto"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/GlobalDrawer.qml:69
-#, kde-format
-msgid "Sunlight"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/GlobalDrawer.qml:76
-#, kde-format
-msgid "Cloudy"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/GlobalDrawer.qml:83
-#, kde-format
-msgid "Tungsten"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/GlobalDrawer.qml:90
-#, kde-format
-msgid "Fluorescent"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/GlobalDrawer.qml:96
-#, kde-format
-msgid "About"
-msgstr ""
-
-#. +> trunk6
-#: src/contents/ui/main.qml:52
+#: src/contents/ui/camera/CameraPage.qml:44 src/contents/ui/main.qml:73
 #, kde-format
 msgid "An error occurred: \"%1\". Please consider restarting the application if it stopped working."
 msgstr ""
 
 #. +> trunk6
-#: src/main.cpp:45
+#: src/contents/ui/camera/CameraPage.qml:47
+#, kde-format
+msgid "The video encoder is struggling to keep up. Try lowering your recording settings to improve performance."
+msgstr ""
+
+#. +> trunk6
+#: src/contents/ui/camera/CameraPage.qml:65
+#, kde-format
+msgid "Switch mode"
+msgstr ""
+
+#. +> trunk6
+#: src/contents/ui/camera/CameraPage.qml:98
+#, kde-format
+msgid "Switch Camera"
+msgstr ""
+
+#. +> trunk6
+#: src/contents/ui/camera/CaptureController.qml:38
+#, kde-format
+msgid "Cancel self-timer"
+msgstr ""
+
+#. +> trunk6
+#: src/contents/ui/camera/CaptureController.qml:40
+#, kde-format
+msgid "Capture photo"
+msgstr ""
+
+#. +> trunk6
+#: src/contents/ui/camera/CaptureController.qml:42
+#, kde-format
+msgid "Stop recording video"
+msgstr ""
+
+#. +> trunk6
+#: src/contents/ui/camera/CaptureController.qml:44
+#, kde-format
+msgid "Start recording video"
+msgstr ""
+
+#. +> trunk6
+#: src/contents/ui/camera/CaptureController.qml:95
+#, kde-format
+msgid "Failed to take a photo"
+msgstr ""
+
+#. +> trunk6
+#: src/contents/ui/camera/CaptureController.qml:108
+#, kde-format
+msgid "Failed to start recording"
+msgstr ""
+
+#. +> trunk6
+#: src/contents/ui/camera/Viewfinder.qml:28
+#, kde-format
+msgid "Camera not available"
+msgstr ""
+
+#. +> trunk6
+#: src/contents/ui/SettingsDialog.qml:23
+#, kde-format
+msgid "Select camera"
+msgstr ""
+
+#. +> trunk6
+#: src/contents/ui/SettingsDialog.qml:73
+#, kde-format
+msgid "About"
+msgstr ""
+
+#. +> trunk6
+#: src/contents/ui/SettingsDialog.qml:273
+#, kde-format
+msgid "Select Camera"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:69
 #, kde-format
 msgid "© Plasma Mobile Developers"
 msgstr ""
 
 #. +> trunk6
-#: src/main.cpp:47
+#: src/main.cpp:73
 #, kde-format
 msgid "Marco Martin"
 msgstr ""
 
 #. +> trunk6
-#: src/main.cpp:48
+#: src/main.cpp:79
 #, kde-format
 msgid "Jonah Brüchert"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:85
+#, kde-format
+msgid "Andrew Wang"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:90
+#, kde-format
+msgid "Devin Lin"
 msgstr ""

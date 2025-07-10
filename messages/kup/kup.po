@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kup\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-01 10:13+0200\n"
+"POT-Creation-Date: 2025-07-01 10:01+0200\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -68,7 +68,7 @@ msgid "Failed backup integrity check. Your backups could be corrupted! See log f
 msgstr ""
 
 #. +> trunk5
-#: daemon/bupjob.cpp:157 daemon/rsyncjob.cpp:48
+#: daemon/bupjob.cpp:157 daemon/rsyncjob.cpp:50
 #, kde-format
 msgid "Checking what to copy"
 msgstr ""
@@ -81,13 +81,13 @@ msgid "Failed to analyze files. See log file for more details."
 msgstr ""
 
 #. +> trunk5
-#: daemon/bupjob.cpp:193 daemon/bupjob.cpp:316 daemon/rsyncjob.cpp:166
+#: daemon/bupjob.cpp:193 daemon/bupjob.cpp:316 daemon/rsyncjob.cpp:177
 #, kde-format
 msgid "Saving backup"
 msgstr ""
 
 #. +> trunk5
-#: daemon/bupjob.cpp:210 daemon/rsyncjob.cpp:110
+#: daemon/bupjob.cpp:210 daemon/rsyncjob.cpp:121
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid "Failed to save backup. See log file for more details."
@@ -107,7 +107,7 @@ msgid "Failed to generate recovery info for the backup. See log file for more de
 msgstr ""
 
 #. +> trunk5
-#: daemon/bupjob.cpp:316 daemon/rsyncjob.cpp:166
+#: daemon/bupjob.cpp:316 daemon/rsyncjob.cpp:177
 #, kde-format
 msgctxt "Label for file currently being copied"
 msgid "File"
@@ -163,72 +163,72 @@ msgid "Failed backup integrity check. Your backups are corrupted! See log file f
 msgstr ""
 
 #. +> trunk5
-#: daemon/kupdaemon.cpp:173
+#: daemon/kupdaemon.cpp:179
 #, kde-format
 msgid "Continue"
 msgstr ""
 
 #. +> trunk5
-#: daemon/kupdaemon.cpp:174
+#: daemon/kupdaemon.cpp:180
 #, kde-format
 msgid "Stop"
 msgstr ""
 
 #. +> trunk5
-#: daemon/kupdaemon.cpp:175
+#: daemon/kupdaemon.cpp:181
 #, kde-format
 msgctxt "%1 is a text explaining the current activity"
 msgid "Currently busy: %1"
 msgstr ""
 
 #. +> trunk5
-#: daemon/kupdaemon.cpp:176
+#: daemon/kupdaemon.cpp:182
 #, kde-format
 msgid "Do you really want to stop?"
 msgstr ""
 
 #. +> trunk5
-#: daemon/kupdaemon.cpp:179
+#: daemon/kupdaemon.cpp:185
 #, kde-format
 msgid "User Backups"
 msgstr ""
 
 #. +> trunk5
-#: daemon/kupdaemon.cpp:262
+#: daemon/kupdaemon.cpp:267
 #, kde-format
 msgctxt "status in tooltip"
 msgid "Backup destination not available"
 msgstr ""
 
 #. +> trunk5
-#: daemon/kupdaemon.cpp:266 daemon/kupdaemon.cpp:322
+#: daemon/kupdaemon.cpp:271 daemon/kupdaemon.cpp:327
 #, kde-format
 msgid "No backup plans configured"
 msgstr ""
 
 #. +> trunk5
-#: daemon/kupdaemon.cpp:272
+#: daemon/kupdaemon.cpp:277
 #, kde-format
 msgctxt "status in tooltip"
 msgid "Backup destination available"
 msgstr ""
 
 #. +> trunk5
-#: daemon/kupdaemon.cpp:282 daemon/planexecutor.cpp:79
+#: daemon/kupdaemon.cpp:287 daemon/planexecutor.cpp:79
 #, kde-format
 msgctxt "status in tooltip"
 msgid "Backup status OK"
 msgstr ""
 
 #. +> trunk5
-#: daemon/kupdaemon.cpp:289 daemon/planexecutor.cpp:81
+#: daemon/kupdaemon.cpp:294 daemon/planexecutor.cpp:81
 #, kde-format
 msgctxt "status in tooltip"
 msgid "New backup suggested"
 msgstr ""
 
 #. +> trunk5
-#: daemon/kupdaemon.cpp:296 daemon/planexecutor.cpp:83
+#: daemon/kupdaemon.cpp:301 daemon/planexecutor.cpp:83
 #, kde-format
 msgctxt "status in tooltip"
 msgid "New backup needed"
@@ -242,50 +242,46 @@ msgid "Kup is not enabled, enable it from the system settings module. You can do
 msgstr ""
 
 #. +> trunk5
-#: daemon/main.cpp:37
+#: daemon/main.cpp:41
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Kup Daemon"
 msgstr ""
 
 #. +> trunk5
-#: daemon/main.cpp:39
+#: daemon/main.cpp:43
 #, kde-format
 msgid "Kup is a flexible backup solution using the backup storage system 'bup'. This allows it to quickly perform incremental backups, only saving the parts of files that has actually changed since last backup was saved."
 msgstr ""
 
 #. +> trunk5
-#: daemon/main.cpp:43 kcm/kupkcm.cpp:48
+#: daemon/main.cpp:47
 #, kde-format
 msgid "Copyright (C) 2011-2020 Simon Persson"
 msgstr ""
 
 #. +> trunk5
-#: daemon/main.cpp:44 filedigger/main.cpp:34 kcm/kupkcm.cpp:49
-#: purger/main.cpp:29
+#: daemon/main.cpp:48 filedigger/main.cpp:33 purger/main.cpp:29
 #, kde-format
 msgid "Simon Persson"
 msgstr ""
 
 #. +> trunk5
-#: daemon/main.cpp:44 filedigger/main.cpp:34 kcm/kupkcm.cpp:49
-#: purger/main.cpp:29
+#: daemon/main.cpp:48 filedigger/main.cpp:33 purger/main.cpp:29
 #, kde-format
 msgid "Maintainer"
 msgstr ""
 
 #. +> trunk5
-#: daemon/main.cpp:45 filedigger/main.cpp:35 kcm/kupkcm.cpp:50
-#: purger/main.cpp:30
-#, kde-format, kde-kuit-format
+#: daemon/main.cpp:49 filedigger/main.cpp:34 purger/main.cpp:30
+#, kde-kuit-format, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
 #. +> trunk5
-#: daemon/main.cpp:45 filedigger/main.cpp:35 kcm/kupkcm.cpp:50
-#: purger/main.cpp:30
-#, kde-format, kde-kuit-format
+#: daemon/main.cpp:49 filedigger/main.cpp:34 purger/main.cpp:30
+#, kde-kuit-format, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
@@ -440,7 +436,7 @@ msgid "Kup Backup System"
 msgstr ""
 
 #. +> trunk5
-#: daemon/rsyncjob.cpp:31
+#: daemon/rsyncjob.cpp:33
 #, kde-kuit-format
 msgctxt "@info notification"
 msgid "The <application>rsync</application> program is needed but could not be found, maybe it is not installed?"
@@ -461,38 +457,44 @@ msgid "You do not have permission needed to read this backup archive."
 msgstr ""
 
 #. +> trunk5
-#: filedigger/filedigger.cpp:173
+#: filedigger/filedigger.cpp:188
 #, kde-format
 msgid "Select location of backup archive to open."
 msgstr ""
 
 #. +> trunk5
-#: filedigger/main.cpp:29
+#: filedigger/main.cpp:28
 #, kde-kuit-format
 msgctxt "@title"
 msgid "File Digger"
 msgstr ""
 
 #. +> trunk5
-#: filedigger/main.cpp:31
+#: filedigger/main.cpp:30
 #, kde-format
 msgid "Browser for bup archives."
 msgstr ""
 
 #. +> trunk5
-#: filedigger/main.cpp:33
+#: filedigger/main.cpp:32
 #, kde-format
 msgid "Copyright (C) 2013-2020 Simon Persson"
 msgstr ""
 
 #. +> trunk5
-#: filedigger/main.cpp:42 purger/main.cpp:37
+#: filedigger/main.cpp:40 purger/main.cpp:37
 #, kde-format
 msgid "Name of the branch to be opened."
 msgstr ""
 
 #. +> trunk5
-#: filedigger/main.cpp:45 purger/main.cpp:40
+#: filedigger/main.cpp:41
+#, kde-format
+msgid "File or folder path to be focused."
+msgstr ""
+
+#. +> trunk5
+#: filedigger/main.cpp:42 purger/main.cpp:40
 #, kde-format
 msgid "Path to the bup repository to be opened."
 msgstr ""
@@ -1190,7 +1192,7 @@ msgid "Create Folder"
 msgstr ""
 
 #. +> trunk5
-#: kcm/driveselection.cpp:268
+#: kcm/driveselection.cpp:267
 #, kde-kuit-format
 msgctxt "@label Only shown if no drives are detected"
 msgid "Plug in the external storage you wish to use, then select it in this list."
@@ -1253,7 +1255,7 @@ msgid "Warning: File permissions can not be saved to this file system. File perm
 msgstr ""
 
 #. +> trunk5
-#: kcm/folderselectionmodel.cpp:93
+#: kcm/folderselectionmodel.cpp:90
 #, kde-kuit-format
 msgctxt "@info:tooltip %1 is the path of the folder in a listview"
 msgid ""
@@ -1262,7 +1264,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: kcm/folderselectionmodel.cpp:98
+#: kcm/folderselectionmodel.cpp:95
 #, kde-kuit-format
 msgctxt "@info:tooltip %1 is the path of the folder in a listview"
 msgid ""
@@ -1271,7 +1273,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: kcm/folderselectionmodel.cpp:103
+#: kcm/folderselectionmodel.cpp:100
 #, kde-kuit-format
 msgctxt "@info:tooltip %1 is the path of the folder in a listview"
 msgid ""
@@ -1280,7 +1282,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: kcm/folderselectionmodel.cpp:108
+#: kcm/folderselectionmodel.cpp:105
 #, kde-kuit-format
 msgctxt "@info:tooltip %1 is the path of the folder in a listview"
 msgid ""
@@ -1289,19 +1291,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: kcm/kupkcm.cpp:44
-#, kde-format
-msgid "Kup Configuration Module"
-msgstr ""
-
-#. +> trunk5
-#: kcm/kupkcm.cpp:46
-#, kde-format
-msgid "Configuration of backup plans for the Kup backup system"
-msgstr ""
-
-#. +> trunk5
-#: kcm/kupkcm.cpp:82
+#: kcm/kupkcm.cpp:71
 #, kde-format
 msgid ""
 "<h2>Backup programs are missing</h2>"
@@ -1313,7 +1303,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: kcm/kupkcm.cpp:210
+#: kcm/kupkcm.cpp:199
 #, kde-kuit-format
 msgctxt "@info %1 is the name of the backup plan"
 msgid ""
@@ -1322,49 +1312,49 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: kcm/kupkcm.cpp:213
+#: kcm/kupkcm.cpp:202
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Warning"
 msgstr ""
 
 #. +> trunk5
-#: kcm/kupkcm.cpp:262
+#: kcm/kupkcm.cpp:251
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Add New Plan…"
 msgstr ""
 
 #. +> trunk5
-#: kcm/kupkcm.cpp:275
+#: kcm/kupkcm.cpp:264
 #, kde-kuit-format
 msgctxt "@option:check"
 msgid "Backups enabled"
 msgstr ""
 
 #. +> trunk5
-#: kcm/kupkcm.cpp:286
+#: kcm/kupkcm.cpp:275
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Open and restore from existing backups"
 msgstr ""
 
 #. +> trunk5
-#: kcm/planstatuswidget.cpp:32
+#: kcm/planstatuswidget.cpp:31
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Configure"
 msgstr ""
 
 #. +> trunk5
-#: kcm/planstatuswidget.cpp:34
+#: kcm/planstatuswidget.cpp:33
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Remove"
 msgstr ""
 
 #. +> trunk5
-#: kcm/planstatuswidget.cpp:36
+#: kcm/planstatuswidget.cpp:35
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Duplicate"
@@ -1459,48 +1449,48 @@ msgid "Copyright (C) 2013-2021 Simon Persson"
 msgstr ""
 
 #. +> trunk5
-#: settings/backupplan.cpp:24
+#: settings/backupplan.cpp:26
 #, kde-kuit-format
 msgctxt "@label Default name for a new backup plan, %1 is the number of the plan in order"
 msgid "Backup plan %1"
 msgstr ""
 
 #. +> trunk5
-#: settings/backupplan.cpp:60
+#: settings/backupplan.cpp:62
 #, kde-format
 msgid "Backups"
 msgstr ""
 
 #. +> trunk5
-#: settings/backupplan.cpp:91
+#: settings/backupplan.cpp:93
 #, kde-format
 msgctxt "default description of newly duplicated backup plan"
 msgid "%1 (copy)"
 msgstr ""
 
 #. +> trunk5
-#: settings/backupplan.cpp:216
+#: settings/backupplan.cpp:218
 #, kde-format
 msgctxt "%1 is fancy formatted date"
 msgid "Last saved: %1"
 msgstr ""
 
 #. +> trunk5
-#: settings/backupplan.cpp:220
+#: settings/backupplan.cpp:222
 #, kde-format
 msgctxt "%1 is storage size of archive"
 msgid "Size: %1"
 msgstr ""
 
 #. +> trunk5
-#: settings/backupplan.cpp:224
+#: settings/backupplan.cpp:226
 #, kde-format
 msgctxt "%1 is free storage space"
 msgid "Free space: %1"
 msgstr ""
 
 #. +> trunk5
-#: settings/backupplan.cpp:227
+#: settings/backupplan.cpp:229
 #, kde-kuit-format
 msgctxt "@label"
 msgid "This backup plan has never been run."

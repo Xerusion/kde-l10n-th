@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-21 10:37+0200\n"
+"POT-Creation-Date: 2025-07-10 08:36+0200\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -969,13 +969,6 @@ msgstr "ภาษาเป้าหมาย:"
 msgctxt "@action:inmenu Edit term"
 msgid "Edit"
 msgstr "แก้ไข"
-
-#. +> stable6
-#: src/editortab.cpp:114
-#, kde-format
-msgctxt "@info:status message entry"
-msgid "Current: %1"
-msgstr "ปัจจุบัน: %1"
 
 #. +> trunk6 stable6
 #: src/editortab.cpp:149 src/lokalizemainwindow.cpp:578
@@ -2017,7 +2010,7 @@ msgid "Search and replace in files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/filesearch/filesearchtab.cpp:721
+#: src/filesearch/filesearchtab.cpp:722
 #, fuzzy, kde-format
 #| msgctxt "@item Undo action item"
 #| msgid "Replace"
@@ -2980,7 +2973,7 @@ msgstr ""
 #. i18n: ectx: label, entry (CleverEditing), group (Appearance)
 #. i18n: ectx: label, entry (OnFlySpellCheck), group (Appearance)
 #. i18n: ectx: label, entry (WhitespacePoints), group (Appearance)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/prefs/lokalize.kcfg:67 src/prefs/lokalize.kcfg:83
 #: src/prefs/lokalize.kcfg:88
 #, fuzzy, kde-format
@@ -2990,20 +2983,6 @@ msgstr ""
 msgid ""
 "\n"
 "            "
-msgstr ""
-"\n"
-"        "
-
-#. i18n: ectx: label, entry (CleverEditing), group (Appearance)
-#. i18n: ectx: label, entry (OnFlySpellCheck), group (Appearance)
-#. i18n: ectx: label, entry (WhitespacePoints), group (Appearance)
-#. +> stable6
-#: src/prefs/lokalize.kcfg:69 src/prefs/lokalize.kcfg:85
-#: src/prefs/lokalize.kcfg:90
-#, kde-format
-msgid ""
-"\n"
-"        "
 msgstr ""
 "\n"
 "        "
@@ -4086,15 +4065,6 @@ msgctxt "@title:tab"
 msgid "Project Overview"
 msgstr "ภาพรวมโครงการ"
 
-#. +> stable6
-#: src/project/projecttab.cpp:79
-#, fuzzy, kde-format
-#| msgctxt "percentages in statusbar"
-#| msgid " (%1%)"
-msgctxt "Loading bar percentage indicator %p will be replaced by the actual percentage number, so make sure you include it in your translation"
-msgid "%p%"
-msgstr " (%1%)"
-
 #. +> trunk6 stable6
 #: src/project/projecttab.cpp:122
 #, kde-format
@@ -4635,27 +4605,18 @@ msgstr ""
 msgid "Shell globs (* and ?). Case sensitive."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/tm/tmtab.cpp:513
 #, kde-format
 msgid "Rescanning files is only possible while a project is open. Please open a project and try again."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/tm/tmtab.cpp:514
 #, fuzzy, kde-format
 #| msgid "&Rescan Project Files"
 msgid "Rescan not possible"
 msgstr "สำรวจแฟ้มโครงการอีก&ครั้ง"
-
-#. +> stable6
-#: src/tm/tmtab.cpp:585
-#, fuzzy, kde-format
-#| msgctxt "@info:status message entries"
-#| msgid "Total: %1"
-msgctxt "@info:status message entries"
-msgid "Total: %1 (%2)"
-msgstr "ทั้งหมด: %1"
 
 #. +> trunk6 stable6
 #: src/tm/tmtab.cpp:613 src/tm/tmview.cpp:621
@@ -4949,98 +4910,76 @@ msgctxt "@item Undo action item"
 msgid "Copy source to target"
 msgstr "คัดลอกต้นฉบับไปยังเป้าหมาย"
 
-#. i18n: tag collection attribute text
-#. i18n: tag collection attribute comment
-#. i18n: tag collection attribute text
-#. +> stable6
-#: scripts/msgfmt.rc:3 scripts/xliff2odf.rc:3
 #, kde-format
-msgid "Tools"
-msgstr "เครื่องมือ"
+#~ msgctxt "@info:status message entry"
+#~ msgid "Current: %1"
+#~ msgstr "ปัจจุบัน: %1"
 
-#. i18n: tag script attribute text
-#. +> stable6
-#: scripts/msgfmt.rc:4
+#, kde-format
+#~ msgid ""
+#~ "\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "        "
+
 #, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Completion"
-msgid "Compile .po"
-msgstr "การเติมเต็มคำ"
+#~| msgctxt "percentages in statusbar"
+#~| msgid " (%1%)"
+#~ msgctxt "Loading bar percentage indicator %p will be replaced by the actual percentage number, so make sure you include it in your translation"
+#~ msgid "%p%"
+#~ msgstr " (%1%)"
 
-#. i18n: tag script attribute comment
-#. +> stable6
-#: scripts/msgfmt.rc:4
+#, fuzzy, kde-format
+#~| msgctxt "@info:status message entries"
+#~| msgid "Total: %1"
+#~ msgctxt "@info:status message entries"
+#~ msgid "Total: %1 (%2)"
+#~ msgstr "ทั้งหมด: %1"
+
 #, kde-format
-msgid "Compile .po and make it available to applications"
-msgstr ""
+#~ msgid "Tools"
+#~ msgstr "เครื่องมือ"
 
-#. +> stable6
-#: scripts/msgmerge.py:33
-msgid "Gettext not found"
-msgstr "ไม่พบ Gettext"
+#, fuzzy, kde-format
+#~| msgctxt "@action:inmenu"
+#~| msgid "Completion"
+#~ msgid "Compile .po"
+#~ msgstr "การเติมเต็มคำ"
 
-#. +> stable6
-#: scripts/msgmerge.py:33
-msgid "Install gettext package for this feature to work"
-msgstr "ติดตั้งแพกเกจ gettext เพื่อให้ใช้งานคุณลักษณะนี้ได้"
+#~ msgid "Gettext not found"
+#~ msgstr "ไม่พบ Gettext"
 
-#. +> stable6
-#: scripts/msgmerge.py:44
-msgid "Updating from templates..."
-msgstr "กำลังปรับปรุงจากแม่แบบ..."
+#~ msgid "Install gettext package for this feature to work"
+#~ msgstr "ติดตั้งแพกเกจ gettext เพื่อให้ใช้งานคุณลักษณะนี้ได้"
 
-#. +> stable6
-#: scripts/msgmerge.py:71
-msgid "Merge has been completed"
-msgstr "การผสานเสร็จสมบูรณ์แล้ว"
+#~ msgid "Updating from templates..."
+#~ msgstr "กำลังปรับปรุงจากแม่แบบ..."
 
-#. +> stable6
-#: scripts/msgmerge.py:71
-msgid ""
-"Merge has been completed.\n"
-"Template modification time: %1 (%2 days ago)."
-msgstr ""
-"การผสานเสร็จสมบูรณ์แล้ว\n"
-"เวลาที่ใช้ในการปรับเปลี่ยนแม่แบบ: %1 (%2 days ago)."
+#~ msgid "Merge has been completed"
+#~ msgstr "การผสานเสร็จสมบูรณ์แล้ว"
 
-#. +> stable6
-#: scripts/msgmerge.py:74
-msgid "Merge failed."
-msgstr "การผสานล้มเหลว"
+#~ msgid ""
+#~ "Merge has been completed.\n"
+#~ "Template modification time: %1 (%2 days ago)."
+#~ msgstr ""
+#~ "การผสานเสร็จสมบูรณ์แล้ว\n"
+#~ "เวลาที่ใช้ในการปรับเปลี่ยนแม่แบบ: %1 (%2 days ago)."
 
-#. +> stable6
-#: scripts/msgmerge.py:74
-msgid ""
-"Could not find template file for the merge:\n"
-"%1"
-msgstr ""
-"ไม่พบแฟ้มแม่แบบสำหรับการผสาน:\n"
-"%1"
+#~ msgid "Merge failed."
+#~ msgstr "การผสานล้มเหลว"
 
-#. i18n: tag collection attribute text
-#. +> stable6
-#: scripts/msgmerge.rc:3
+#~ msgid ""
+#~ "Could not find template file for the merge:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "ไม่พบแฟ้มแม่แบบสำหรับการผสาน:\n"
+#~ "%1"
+
 #, kde-format
-msgid "File"
-msgstr "แฟ้ม"
+#~ msgid "File"
+#~ msgstr "แฟ้ม"
 
-#. i18n: tag script attribute text
-#. +> stable6
-#: scripts/msgmerge.rc:4
 #, kde-format
-msgid "Update file from template"
-msgstr "ปรับปรุงแฟ้มจากแม่แบบ"
-
-#. i18n: tag script attribute text
-#. +> stable6
-#: scripts/xliff2odf.rc:4
-#, kde-format
-msgid "Merge into ODF"
-msgstr ""
-
-#. i18n: tag script attribute comment
-#. +> stable6
-#: scripts/xliff2odf.rc:4
-#, kde-format
-msgid "Generates translated version of ODF document"
-msgstr ""
+#~ msgid "Update file from template"
+#~ msgstr "ปรับปรุงแฟ้มจากแม่แบบ"

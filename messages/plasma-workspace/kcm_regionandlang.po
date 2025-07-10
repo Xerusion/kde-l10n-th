@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-01 10:22+0200\n"
+"POT-Creation-Date: 2025-06-25 11:04+0200\n"
 "PO-Revision-Date: 2025-03-17 21:11+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -315,31 +315,49 @@ msgid "%1 (Brazil)"
 msgstr "%1 (Brazil)"
 
 #. +> trunk6 stable6 stable5
-#: localegeneratorubuntu.cpp:42
+#: localegeneratorubuntu.cpp:46
 #, kde-format
 msgctxt "@info:warning"
 msgid "Can't locate executable `check-language-support`"
 msgstr "ไม่พบไฟล์ปฏิบัติการ 'check-language-support'"
 
-#. +> trunk6 stable6 stable5
-#: localegeneratorubuntu.cpp:52
+#. +> trunk6
+#: localegeneratorubuntu.cpp:56
+#, fuzzy, kde-format
+#| msgctxt "the arg is the output of failed check-language-support call"
+#| msgid "check-language-support failed, output: %1"
+msgctxt "the arg is the output of failed check-language-support call"
+msgid "check-language-support failed, output: %1 %2"
+msgstr "check-language-support ล้มเหลว เอาต์พุต: %1"
+
+#. +> stable6 stable5
+#: localegeneratorubuntu.cpp:56
 #, kde-format
 msgctxt "the arg is the output of failed check-language-support call"
 msgid "check-language-support failed, output: %1"
 msgstr "check-language-support ล้มเหลว เอาต์พุต: %1"
 
 #. +> trunk6 stable6 stable5
-#: localegeneratorubuntu.cpp:83
+#: localegeneratorubuntu.cpp:88
 #, kde-format
 msgctxt "%1 is a list of package names"
 msgid "Not all missing packages managed to resolve! %1"
 msgstr "แพ็คเกจที่หายไปไม่สามารถแก้ไขได้ทั้งหมด! %1"
 
-#. +> trunk6 stable6 stable5
-#: localegeneratorubuntu.cpp:89
+#. +> stable6 stable5
+#: localegeneratorubuntu.cpp:93
 #, kde-format
 msgctxt "%1 is a list of package names"
 msgid "Failed to install package %1"
+msgstr "ติดตั้งแพคเกจ %1 ไม่สําเร็จ"
+
+#. +> trunk6
+#: localegeneratorubuntu.cpp:96
+#, fuzzy, kde-format
+#| msgctxt "%1 is a list of package names"
+#| msgid "Failed to install package %1"
+msgctxt "%1 is a list of package names, %2 is the error explanation"
+msgid "Failed to install language packages (%1): %2"
 msgstr "ติดตั้งแพคเกจ %1 ไม่สําเร็จ"
 
 #. +> trunk6 stable6 stable5

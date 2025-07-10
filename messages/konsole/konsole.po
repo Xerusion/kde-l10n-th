@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-29 08:20+0200\n"
+"POT-Creation-Date: 2025-07-05 12:23+0200\n"
 "PO-Revision-Date: 2025-03-17 21:03+0700\n"
 "Last-Translator: Atirut Wattanamongkol <atirut.wattanamongkol@gmailcom>\n"
 "Language-Team: Thai\n"
@@ -967,7 +967,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
 #. +> trunk6 stable6
 #: KeyBindingEditor.ui:65 plugins/QuickCommands/qcwidget.ui:246
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:352
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:342
 #: plugins/SSHManager/sshwidget.ui:310
 #, kde-format
 msgid "Add"
@@ -1710,7 +1710,7 @@ msgstr "เปิดเครื่องมือจัดการไฟล์
 #. i18n: ectx: property (text), widget (QPushButton, btnUpdate)
 #. +> trunk6 stable6
 #: plugins/QuickCommands/qcwidget.ui:266
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:283
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:273
 #, kde-format
 msgid "Update"
 msgstr ""
@@ -1798,7 +1798,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: plugins/QuickCommands/quickcommandswidget.cpp:243
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:233
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:223
 #, kde-format
 msgid "You are about to delete %1, are you sure?"
 msgstr ""
@@ -1871,8 +1871,8 @@ msgstr ""
 #: plugins/SSHManager/sshmanagermodel.cpp:322
 #: plugins/SSHManager/sshmanagermodel.cpp:391
 #: plugins/SSHManager/sshmanagermodel.cpp:424
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:104
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:439
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:94
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:429
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "SSH Config"
@@ -1944,27 +1944,27 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:80
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:70
 #: plugins/SSHManager/sshwidget.ui:133
 #, kde-format
 msgid "SSH Key"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:119
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:109
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:161
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:151
 #, kde-format
 msgid "Don't Change"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:232
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:222
 #, kde-format
 msgid ""
 "You are about to delete the folder %1,\n"
@@ -1972,7 +1972,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:240
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:230
 #, fuzzy, kde-format
 #| msgid "Remote Connection"
 msgctxt "@title:window"
@@ -1980,7 +1980,7 @@ msgid "Delete SSH Configurations"
 msgstr "เชื่อมต่อทางไกล"
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:294
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:284
 #, kde-format
 msgid ""
 "Imported SSH Profile <br/>"
@@ -1988,68 +1988,68 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:389
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:379
 #, kde-format
 msgid "Missing Hostname"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:394
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:384
 #, kde-format
 msgid "Missing Name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:401
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:391
 #, kde-format
 msgid "If Use Ssh Config is set, do not specify sshkey or username."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:406
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:396
 #, kde-format
 msgid "At least Username or SSHKey must be set"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:412
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:402
 #, kde-format
 msgid "Missing Folder"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:417
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:407
 #, kde-format
 msgid "An SSH session must have a profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:441
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:431
 #, kde-format
 msgid "Cannot delete this folder"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:444
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:434
 #, kde-format
 msgid "Delete folder and all of its contents"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:448
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:438
 #, kde-format
 msgid "Double click to change the folder name."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:455
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:445
 #, fuzzy, kde-format
 #| msgid "Do not close the initial session automatically when it ends."
 msgid "You can't delete an automatically added entry."
 msgstr "ไม่ต้องปิดวาระงานที่เริ่มอัตโนมัติเมื่อมันจบ"
 
 #. +> trunk6 stable6
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:455
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:445
 #, fuzzy, kde-format
 #| msgid "Edit the selected profile(s)"
 msgid "Delete selected entry"
@@ -4696,22 +4696,15 @@ msgid "Draw intense colors in bold font"
 msgstr "วาดตัวอักษรตัวหนาด้วยสีที่เข้มขึ้น"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useFontLineCharactersButton)
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/EditProfileAppearancePage.ui:188
 #, kde-format
 msgctxt "Characters for drawing lines for a frame or box in TUI programs. Not a row of characters."
 msgid "Use the selected font for line characters instead of the builtin code"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, useFontLineCharactersButton)
-#. +> stable6
-#: widgets/EditProfileAppearancePage.ui:188
-#, kde-format
-msgid "Use the selected font for line characters instead of the builtin code"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QCheckBox, useFontLineCharactersButton)
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/EditProfileAppearancePage.ui:191
 #, kde-format
 msgctxt "Characters for drawing lines for a frame or box in TUI programs. Not a row of characters."
@@ -4730,13 +4723,6 @@ msgstr ""
 #: widgets/EditProfileAppearancePage.ui:201
 #, kde-format
 msgid "Use unicode Braille characters contained in font"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, useFontLineCharactersButton)
-#. +> stable6
-#: widgets/EditProfileAppearancePage.ui:191
-#, kde-format
-msgid "Use line characters contained in font"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, cursorTab)
@@ -6052,7 +6038,7 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, markerSizeWidget)
 #. +> trunk6 stable6
 #: widgets/EditProfileScrollingPage.ui:58
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid " %"
 msgstr ""
 

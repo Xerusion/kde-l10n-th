@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-23 11:32+0200\n"
+"POT-Creation-Date: 2025-07-08 10:01+0200\n"
 "PO-Revision-Date: 2025-03-01 14:53+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -1536,16 +1536,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:185 plugins/invert/invert_config.cpp:35
-#: plugins/magnifier/magnifier_config.cpp:46
-#: plugins/mouseclick/mouseclick_config.cpp:40
+#: main.cpp:185 plugins/mouseclick/mouseclick_config.cpp:40
 #: plugins/mousemark/mousemark_config.cpp:43
 #: plugins/overview/kcm/overvieweffectkcm.cpp:35
 #: plugins/thumbnailaside/thumbnailaside_config.cpp:45
 #: plugins/tileseditor/kcm/tileseditoreffectkcm.cpp:31
 #: plugins/trackmouse/trackmouse_config.cpp:44
 #: plugins/windowview/kcm/windowvieweffectkcm.cpp:36
-#: plugins/zoom/zoom_config.cpp:48
 #, kde-format
 msgid "KWin"
 msgstr "KWin"
@@ -1871,13 +1868,13 @@ msgid "Window Close Animation"
 msgstr "เมนูปฎิบัติการของหน้าต่าง"
 
 #. +> trunk6 stable6
-#: plugins/invert/invert.cpp:43 plugins/invert/invert_config.cpp:38
+#: plugins/invert/invert.cpp:43
 #, kde-format
 msgid "Toggle Invert Effect"
 msgstr "เปิด/ปิด ลูกเล่นกลับค่าสี"
 
 #. +> trunk6 stable6
-#: plugins/invert/invert.cpp:50 plugins/invert/invert_config.cpp:44
+#: plugins/invert/invert.cpp:50
 #, kde-format
 msgid "Toggle Invert Effect on Window"
 msgstr "เปิด/ปิด ลูกเล่นกลับค่าสีบนหน้าต่าง"
@@ -2076,37 +2073,6 @@ msgstr "ช่วงเวลาเคลื่อนไหว:"
 msgctxt "Duration of rotation"
 msgid "Default"
 msgstr "ค่าปริยาย"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupSize)
-#. +> trunk6 stable6
-#: plugins/magnifier/magnifier_config.ui:17
-#, kde-format
-msgid "Size"
-msgstr "ขนาด"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. +> trunk6 stable6
-#: plugins/magnifier/magnifier_config.ui:23
-#, kde-format
-msgid "&Width:"
-msgstr "ความ&กว้าง:"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Width)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Height)
-#. +> trunk6 stable6
-#: plugins/magnifier/magnifier_config.ui:42
-#: plugins/magnifier/magnifier_config.ui:74
-#, kde-format
-msgid " px"
-msgstr " พิกเซล"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. +> trunk6 stable6
-#: plugins/magnifier/magnifier_config.ui:55
-#, fuzzy, kde-format
-#| msgid "Top-Right"
-msgid "&Height:"
-msgstr "บนขวา"
 
 #. +> trunk6 stable6
 #: plugins/mouseclick/mouseclick.cpp:39
@@ -2690,7 +2656,7 @@ msgstr "ความทึบแสง"
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Opacity)
 #. +> trunk6 stable6
 #: plugins/thumbnailaside/thumbnailaside_config.ui:87
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid " %"
 msgstr " %"
 
@@ -3086,176 +3052,18 @@ msgid "Move Zoomed Area Downwards"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/zoom/zoom.cpp:91 plugins/zoom/zoom_config.cpp:98
+#: plugins/zoom/zoom.cpp:91
 #, fuzzy, kde-format
 #| msgid "Mouse Emulation"
 msgid "Move Mouse to Focus"
 msgstr "การจำลองเมาส์"
 
 #. +> trunk6 stable6
-#: plugins/zoom/zoom.cpp:98 plugins/zoom/zoom_config.cpp:105
+#: plugins/zoom/zoom.cpp:98
 #, fuzzy, kde-format
 #| msgid "Move Window to Group"
 msgid "Move Mouse to Center"
 msgstr "ย้ายหน้าต่างไปยังกลุ่ม"
-
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.cpp:70
-#, kde-format
-msgid "Move Left"
-msgstr "ย้ายไปด้านซ้าย"
-
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.cpp:77
-#, kde-format
-msgid "Move Right"
-msgstr "ย้ายไปด้านขวา"
-
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.cpp:84
-#, kde-format
-msgid "Move Up"
-msgstr "ย้ายขึ้น"
-
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.cpp:91
-#, kde-format
-msgid "Move Down"
-msgstr "ย้ายลง"
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, label)
-#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, kcfg_ZoomFactor)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:22 plugins/zoom/zoom_config.ui:35
-#, kde-format
-msgid "On zoom-in and zoom-out change the zoom by the defined zoom-factor."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:25
-#, fuzzy, kde-format
-#| msgid "Zoom Factor:"
-msgid "Zoom factor:"
-msgstr "องค์ประกอบการย่อ/ขยาย:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:57
-#, kde-format
-msgid "Show pixel grid at zoom level:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:70
-#, fuzzy, kde-format
-#| msgid "Mouse Pointer:"
-msgid "Mouse pointer:"
-msgstr "ตัวชี้ของเมาส์:"
-
-#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_MousePointer)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:80
-#, kde-format
-msgid "Visibility of the mouse-pointer."
-msgstr "การมองเห็นได้ของตัวชี้ของเมาส์"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:84
-#, kde-format
-msgid "Scale"
-msgstr "ปรับขนาด"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:89
-#, kde-format
-msgid "Keep"
-msgstr "คงไว้"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:94
-#, kde-format
-msgid "Hide"
-msgstr "ซ่อน"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:102
-#, fuzzy, kde-format
-#| msgid "Mouse Tracking:"
-msgid "Mouse tracking:"
-msgstr "ติดตามตำแหน่งเมาส์:"
-
-#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_MouseTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:112
-#, kde-format
-msgid "Track moving of the mouse."
-msgstr "ติดตามการเคลื่อนที่ของเมาส์"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:116
-#, kde-format
-msgid "Proportional"
-msgstr "แนวนอน"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:121
-#, fuzzy, kde-format
-#| msgid "Center"
-msgid "Centered"
-msgstr "กึ่งกลาง"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:126
-#, kde-format
-msgid "Push"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:131
-#, fuzzy, kde-format
-#| msgid "Tiling Disabled"
-msgid "Disabled"
-msgstr "การปูหน้าต่างถูกปิดการใช้งาน"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableFocusTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:142
-#, kde-format
-msgid "Enable tracking of the focused location. This needs QAccessible to be enabled per application (\"export QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1\")."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableFocusTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:145
-#, fuzzy, kde-format
-#| msgid "Enable Focus Tracking"
-msgid "Enable focus tracking"
-msgstr "เปิดใช้งานการติดตามการได้รับโฟกัส"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableTextCaretTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:152
-#, kde-format
-msgid "Enable tracking of the text cursor. This needs QAccessible to be enabled per application (\"export QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1\")."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableTextCaretTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:155
-#, fuzzy, kde-format
-#| msgid "Enable Focus Tracking"
-msgid "Enable text cursor tracking"
-msgstr "เปิดใช้งานการติดตามการได้รับโฟกัส"
 
 #. i18n: ectx: label, entry (count), group (General)
 #. +> trunk6 stable6
@@ -4817,7 +4625,7 @@ msgid "(Not Responding)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: workspace.cpp:1693
+#: workspace.cpp:1631
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""
@@ -4835,9 +4643,198 @@ msgstr ""
 msgid "Xwayland has crashed"
 msgstr ""
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupSize)
+#. +> stable6
+#: plugins/magnifier/magnifier_config.ui:17
+#, kde-format
+msgid "Size"
+msgstr "ขนาด"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> stable6
+#: plugins/magnifier/magnifier_config.ui:23
+#, kde-format
+msgid "&Width:"
+msgstr "ความ&กว้าง:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Width)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Height)
+#. +> stable6
+#: plugins/magnifier/magnifier_config.ui:42
+#: plugins/magnifier/magnifier_config.ui:74
+#, kde-format
+msgid " px"
+msgstr " พิกเซล"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> stable6
+#: plugins/magnifier/magnifier_config.ui:55
+#, fuzzy, kde-format
+#| msgid "Top-Right"
+msgid "&Height:"
+msgstr "บนขวา"
+
 #. +> stable6
 #: plugins/showpaint/showpaint.cpp:42 plugins/showpaint/showpaint_config.cpp:37
 #, fuzzy, kde-format
 #| msgid "Toggle Floating"
 msgid "Toggle Show Paint"
 msgstr "เปิด/ปิดการลอยของหน้าต่าง"
+
+#. +> stable6
+#: plugins/zoom/zoom_config.cpp:70
+#, kde-format
+msgid "Move Left"
+msgstr "ย้ายไปด้านซ้าย"
+
+#. +> stable6
+#: plugins/zoom/zoom_config.cpp:77
+#, kde-format
+msgid "Move Right"
+msgstr "ย้ายไปด้านขวา"
+
+#. +> stable6
+#: plugins/zoom/zoom_config.cpp:84
+#, kde-format
+msgid "Move Up"
+msgstr "ย้ายขึ้น"
+
+#. +> stable6
+#: plugins/zoom/zoom_config.cpp:91
+#, kde-format
+msgid "Move Down"
+msgstr "ย้ายลง"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, kcfg_ZoomFactor)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:22 plugins/zoom/zoom_config.ui:35
+#, kde-format
+msgid "On zoom-in and zoom-out change the zoom by the defined zoom-factor."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:25
+#, fuzzy, kde-format
+#| msgid "Zoom Factor:"
+msgid "Zoom factor:"
+msgstr "องค์ประกอบการย่อ/ขยาย:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:57
+#, kde-format
+msgid "Show pixel grid at zoom level:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:70
+#, fuzzy, kde-format
+#| msgid "Mouse Pointer:"
+msgid "Mouse pointer:"
+msgstr "ตัวชี้ของเมาส์:"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_MousePointer)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:80
+#, kde-format
+msgid "Visibility of the mouse-pointer."
+msgstr "การมองเห็นได้ของตัวชี้ของเมาส์"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:84
+#, kde-format
+msgid "Scale"
+msgstr "ปรับขนาด"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:89
+#, kde-format
+msgid "Keep"
+msgstr "คงไว้"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:94
+#, kde-format
+msgid "Hide"
+msgstr "ซ่อน"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:102
+#, fuzzy, kde-format
+#| msgid "Mouse Tracking:"
+msgid "Mouse tracking:"
+msgstr "ติดตามตำแหน่งเมาส์:"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_MouseTracking)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:112
+#, kde-format
+msgid "Track moving of the mouse."
+msgstr "ติดตามการเคลื่อนที่ของเมาส์"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:116
+#, kde-format
+msgid "Proportional"
+msgstr "แนวนอน"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:121
+#, fuzzy, kde-format
+#| msgid "Center"
+msgid "Centered"
+msgstr "กึ่งกลาง"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:126
+#, kde-format
+msgid "Push"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:131
+#, fuzzy, kde-format
+#| msgid "Tiling Disabled"
+msgid "Disabled"
+msgstr "การปูหน้าต่างถูกปิดการใช้งาน"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableFocusTracking)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:142
+#, kde-format
+msgid "Enable tracking of the focused location. This needs QAccessible to be enabled per application (\"export QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1\")."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableFocusTracking)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:145
+#, fuzzy, kde-format
+#| msgid "Enable Focus Tracking"
+msgid "Enable focus tracking"
+msgstr "เปิดใช้งานการติดตามการได้รับโฟกัส"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableTextCaretTracking)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:152
+#, kde-format
+msgid "Enable tracking of the text cursor. This needs QAccessible to be enabled per application (\"export QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1\")."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableTextCaretTracking)
+#. +> stable6
+#: plugins/zoom/zoom_config.ui:155
+#, fuzzy, kde-format
+#| msgid "Enable Focus Tracking"
+msgid "Enable text cursor tracking"
+msgstr "เปิดใช้งานการติดตามการได้รับโฟกัส"

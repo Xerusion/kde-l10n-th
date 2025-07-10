@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-29 08:20+0200\n"
+"POT-Creation-Date: 2025-07-09 10:29+0200\n"
 "PO-Revision-Date: 2010-12-12 02:08+0700\n"
 "Last-Translator: Phuwanat Sakornsakolpat <narachai@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -491,7 +491,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, SavePreset)
 #. +> trunk5
 #: auxiliary/imageviewer.cpp:134 ekos/align/mountmodel.cpp:386
-#: ekos/auxiliary/buildfilteroffsets.cpp:343 ekos/capture/camera.cpp:1292
+#: ekos/auxiliary/buildfilteroffsets.cpp:343 ekos/capture/camera_jobs.cpp:410
 #: ekos/scheduler/scheduler.cpp:2103
 #: kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:88
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:375
@@ -691,7 +691,7 @@ msgstr ""
 #: ekos/align/opsastrometryindexfiles.cpp:736
 #: ekos/align/opsastrometryindexfiles.cpp:746 ekos/analyze/analyze.cpp:140
 #: ekos/analyze/analyze.cpp:142 ekos/capture/sequencejob.cpp:24
-#: ekos/manager.cpp:1323 ekos/manager.cpp:1338 ekos/manager.cpp:1354
+#: ekos/manager.cpp:1275 ekos/manager.cpp:1290 ekos/manager.cpp:1306
 #: ekos/scheduler/scheduler.cpp:1623 fitsviewer/solveInfo.ui:86
 #: indi/indidome.cpp:23 indi/indidustcap.cpp:18 indi/indimount.cpp:32
 #: kstarsactions.cpp:511 kstarsactions.cpp:519 kstarsactions.cpp:529
@@ -704,7 +704,7 @@ msgstr "การเขียนผิดพลาด"
 #. +> trunk5
 #: auxiliary/ksmessagebox.h:40 auxiliary/ksnotification.h:45
 #: ekos/align/opsastrometryindexfiles.cpp:654
-#: ekos/scheduler/framingassistantui.cpp:788
+#: ekos/scheduler/framingassistantui.cpp:815
 #, kde-format
 msgid "Sorry"
 msgstr ""
@@ -719,126 +719,126 @@ msgid "Info"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:157
+#: auxiliary/ksutils.cpp:162
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "N"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:158
+#: auxiliary/ksutils.cpp:163
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "NNE"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:159
+#: auxiliary/ksutils.cpp:164
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "NE"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:160
+#: auxiliary/ksutils.cpp:165
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "ENE"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:161
+#: auxiliary/ksutils.cpp:166
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "E"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:162
+#: auxiliary/ksutils.cpp:167
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "ESE"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:163
+#: auxiliary/ksutils.cpp:168
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "SE"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:164
+#: auxiliary/ksutils.cpp:169
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "SSE"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:165
+#: auxiliary/ksutils.cpp:170
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "S"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:166
+#: auxiliary/ksutils.cpp:171
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "SSW"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:167
+#: auxiliary/ksutils.cpp:172
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "SW"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:168
+#: auxiliary/ksutils.cpp:173
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "WSW"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:169
+#: auxiliary/ksutils.cpp:174
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "W"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:170
+#: auxiliary/ksutils.cpp:175
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "WNW"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:171
+#: auxiliary/ksutils.cpp:176
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "NW"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:172
+#: auxiliary/ksutils.cpp:177
 #, kde-format
 msgctxt "Abbreviated cardinal / intercardinal etc. direction"
 msgid "NNW"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:173
+#: auxiliary/ksutils.cpp:178
 #, kde-format
 msgctxt "Unknown cardinal / intercardinal direction"
 msgid "???"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:1340
+#: auxiliary/ksutils.cpp:1345
 #, kde-format
 msgid ""
 "The selected Astrometry Index File Location:\n"
@@ -847,69 +847,69 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:1343
+#: auxiliary/ksutils.cpp:1348
 #, kde-format
 msgid "Make Astrometry Index File Directory?"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:1348
+#: auxiliary/ksutils.cpp:1353
 #, fuzzy, kde-format
 #| msgid "Invalid Save Location"
 msgid "The Default Astrometry Index File Location was created."
 msgstr "ที่ตั้งการบันทึกไม่ถูกต้อง"
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:1353
+#: auxiliary/ksutils.cpp:1358
 #, kde-format
 msgid "The Default Astrometry Index File Directory does not exist and was not able to be created."
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:1374 auxiliary/ksutils.cpp:1530
-#: auxiliary/ksutils.cpp:1595
+#: auxiliary/ksutils.cpp:1379 auxiliary/ksutils.cpp:1535
+#: auxiliary/ksutils.cpp:1600
 #, kde-format
 msgid "Astrometry Configuration File Read Error."
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:1388 auxiliary/ksutils.cpp:1573
-#: auxiliary/ksutils.cpp:1615
+#: auxiliary/ksutils.cpp:1393 auxiliary/ksutils.cpp:1578
+#: auxiliary/ksutils.cpp:1620
 #, kde-format
 msgid "Internal Astrometry Configuration File Write Error."
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:1661 fitsviewer/fitsdata.cpp:756
+#: auxiliary/ksutils.cpp:1666 fitsviewer/fitsdata.cpp:756
 #, kde-format
 msgid "Unable to find dcraw and cjpeg. Please install the required tools to convert CR2/NEF to JPEG."
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:1672
+#: auxiliary/ksutils.cpp:1677
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Cannot open %1: %2"
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:1680
+#: auxiliary/ksutils.cpp:1685
 #, kde-format
 msgid "Cannot unpack_thumb %1: %2"
 msgstr ""
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:1691
+#: auxiliary/ksutils.cpp:1696
 #, fuzzy, kde-format
 #| msgid "Cannot write to user log file"
 msgid "Cannot write %s %1: %2"
 msgstr "ไม่สามารถเขียนไปแฟ้มบันทึกของผู้ใช้ได้"
 
 #. +> trunk5
-#: auxiliary/ksutils.cpp:1815 ekos/scheduler/framingassistantui.cpp:186
-#: ekos/scheduler/framingassistantui.cpp:201
-#: ekos/scheduler/framingassistantui.cpp:874
-#: ekos/scheduler/framingassistantui.cpp:893 skyobjects/ksplanetbase.h:60
+#: auxiliary/ksutils.cpp:1820 ekos/scheduler/framingassistantui.cpp:177
+#: ekos/scheduler/framingassistantui.cpp:192
+#: ekos/scheduler/framingassistantui.cpp:903
+#: ekos/scheduler/framingassistantui.cpp:922 skyobjects/ksplanetbase.h:60
 #, kde-format
 msgid "unnamed"
 msgstr ""
@@ -940,7 +940,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, PAHManualDone)
 #. +> trunk5
 #: auxiliary/kswizard.cpp:80 ekos/align/manualrotator.cpp:47
-#: ekos/align/polaralignmentassistant.ui:278 ekos/focus/focusadvisor.cpp:169
+#: ekos/align/polaralignmentassistant.ui:282 ekos/focus/focusadvisor.cpp:169
 #: ekos/focus/focusadvisor.cpp:757 ekos/focus/focusadvisor.cpp:1152
 #: ekos/focus/focusadvisor.cpp:1397
 #, kde-format
@@ -1168,7 +1168,7 @@ msgstr ""
 #: ekos/align/opsastrometryindexfiles.ui:4738
 #: ekos/auxiliary/buildfilteroffsets.ui:65 tools/conjunctions.ui:227
 #: tools/eclipsetool.ui:183
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "%p%"
 msgstr ""
 
@@ -1230,7 +1230,7 @@ msgstr "ระบบสุริยะ"
 #: skyobjects/satellite.cpp:1223 skyobjects/skyobject.cpp:287
 #: skyobjects/skypoint.cpp:434 skyqpainter.cpp:524 skyqpainter.cpp:548
 #: skyqpainter.cpp:550 tools/conjunctions.cpp:58 tools/conjunctions.cpp:296
-#: tools/imagingplanner.cpp:1571 tools/jmoontool.cpp:106
+#: tools/imagingplanner.cpp:1576 tools/jmoontool.cpp:106
 #: tools/modcalcdaylength.ui:109 tools/modcalcplanets.cpp:262
 #: tools/modcalcplanets.cpp:388 tools/modcalcplanets.ui:190
 #: tools/modcalcplanets.ui:614 tools/pvplotwidget.cpp:94
@@ -1312,8 +1312,8 @@ msgstr ""
 #: skyobjects/skyobject.cpp:417 skyqpainter.cpp:525 skyqpainter.cpp:548
 #: skyqpainter.cpp:551 skyqpainter.cpp:573 tools/conjunctions.cpp:59
 #: tools/eclipsetool.cpp:29 tools/eclipsetool/lunareclipsehandler.h:58
-#: tools/imagingplanner.cpp:84 tools/imagingplanner.cpp:1546
-#: tools/imagingplanner.cpp:3092 tools/ksconjunct.cpp:75
+#: tools/imagingplanner.cpp:85 tools/imagingplanner.cpp:1551
+#: tools/imagingplanner.cpp:3097 tools/ksconjunct.cpp:75
 #: tools/modcalcdaylength.ui:453 tools/modcalcplanets.cpp:262
 #: tools/modcalcplanets.cpp:392 tools/modcalcplanets.ui:185
 #: tools/modcalcplanets.ui:609 tools/whatsinteresting/wiview.cpp:612
@@ -2359,7 +2359,7 @@ msgstr "ระบบสุริยะ"
 #: ekos/auxiliary/ledstatuswidget.cpp:27 ekos/capture/sequencejob.cpp:24
 #: ekos/ekos.h:20 ekos/ekos.h:71 ekos/ekos.h:118 ekos/ekos.h:138
 #: ekos/ekos.h:161 ekos/ekos.h:198 ekos/guide/guidestatewidget.ui:38
-#: ekos/manager.cpp:788 ekos/manager/guidemanager.cpp:135
+#: ekos/manager.cpp:805 ekos/manager/guidemanager.cpp:135
 #: ekos/manager/guidemanager.ui:117 ekos/scheduler/scheduler.cpp:1616
 #: ekos/scheduler/scheduler.cpp:2268 ekos/scheduler/scheduler.cpp:2493
 #: ekos/scheduler/scheduler.cpp:2501 ekos/scheduler/scheduler.cpp:2511
@@ -2997,7 +2997,7 @@ msgstr ""
 #. +> trunk5
 #: dialogs/addlinkdialog.cpp:60 ekos/align/align.cpp:3971
 #: ekos/align/mountmodel.cpp:267 ekos/align/mountmodel.cpp:393
-#: ekos/capture/camera.cpp:1246 ekos/capture/camera.cpp:1301
+#: ekos/capture/camera_jobs.cpp:332 ekos/capture/camera_jobs.cpp:419
 #: ekos/guide/guidedriftgraph.cpp:502 ekos/scheduler/scheduler.cpp:2003
 #: ekos/scheduler/scheduler.cpp:2113 fitsviewer/fitstab.cpp:979
 #: tools/scriptbuilder.cpp:832 tools/scriptbuilder.cpp:930
@@ -3025,7 +3025,7 @@ msgid "Show webpage about "
 msgstr ""
 
 #. +> trunk5
-#: dialogs/addlinkdialog.h:38 tools/imagingplanner.cpp:3237
+#: dialogs/addlinkdialog.h:38 tools/imagingplanner.cpp:3242
 #, fuzzy, kde-format
 #| msgctxt "Index Catalog object"
 #| msgid "IC Object"
@@ -3175,7 +3175,7 @@ msgid "Degrees"
 msgstr ""
 
 #. +> trunk5
-#: dialogs/catalogcsvimport.cpp:90 tools/imagingplanner.cpp:83
+#: dialogs/catalogcsvimport.cpp:90 tools/imagingplanner.cpp:84
 #, kde-format
 msgid "Hours"
 msgstr ""
@@ -3238,7 +3238,7 @@ msgstr "ข้อความของกล่องข้อมูล"
 #. i18n: ectx: property (text), widget (QTreeWidget, OptionsList)
 #. +> trunk5
 #: dialogs/catalogcsvimport.cpp:184 dialogs/catalogobjectlistmodel.cpp:65
-#: ekos/capture/camera.ui:2322 tools/imagingplanner.cpp:83
+#: ekos/capture/camera.ui:2322 tools/imagingplanner.cpp:84
 #: tools/observinglist.cpp:95 tools/observinglist.cpp:99
 #: tools/optionstreeview.ui:33
 #, kde-format
@@ -3357,7 +3357,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, previewLabel)
 #. +> trunk5
 #: dialogs/catalogcsvimport.ui:297 ekos/capture/camera.ui:2373
-#: ekos/capture/cameraprocess.cpp:2450
+#: ekos/capture/cameraprocess.cpp:2455
 #: ekos/capture/capturecountswidget.cpp:321 fitsviewer/fitsviewer.cpp:749
 #: fitsviewer/fitsviewer.cpp:750
 #, kde-format
@@ -3679,7 +3679,7 @@ msgstr ""
 #. +> trunk5
 #: dialogs/catalogobjectlistmodel.cpp:73 dialogs/catalogsdbui.cpp:25
 #: ekos/scheduler/scheduler.ui:1139 indi/drivermanager.ui:327
-#: tools/imagingplanner.cpp:83 tools/observinglist.cpp:94
+#: tools/imagingplanner.cpp:84 tools/observinglist.cpp:94
 #: tools/observinglist.cpp:98
 #, kde-format
 msgid "Name"
@@ -4446,7 +4446,7 @@ msgstr ""
 #: ekos/auxiliary/darklibrary.ui:693 ekos/auxiliary/darklibrary.ui:713
 #: ekos/auxiliary/darklibrary.ui:733 ekos/auxiliary/darklibrary.ui:753
 #: ekos/auxiliary/darklibrary.ui:773 ekos/auxiliary/darklibrary.ui:793
-#: ekos/capture/camera.cpp:1781 ekos/capture/camera.cpp:1821
+#: ekos/capture/camera_device.cpp:907 ekos/capture/camera_device.cpp:949
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:898
 #: ekos/capture/sequenceeditor.cpp:133 ekos/capture/sequenceeditor.cpp:136
 #: ekos/focus/focus.cpp:446 ekos/guide/guide.cpp:701 ekos/guide/guide.ui:597
@@ -5293,7 +5293,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk5
-#: dialogs/focusdialog.ui:151 ekos/align/polaralignmentassistant.ui:592
+#: dialogs/focusdialog.ui:151 ekos/align/polaralignmentassistant.ui:614
 #: ekos/capture/calibrationoptions.ui:73 tools/argsetaltaz.ui:30
 #: tools/modcalcplanets.ui:303
 #, kde-format
@@ -7065,8 +7065,8 @@ msgid "Error: lost connection to filter wheel."
 msgstr ""
 
 #. +> trunk5
-#: ekos/align/align.cpp:1512 ekos/capture/cameraprocess.cpp:213
-#: ekos/capture/cameraprocess.cpp:631 ekos/focus/focus.cpp:5725
+#: ekos/align/align.cpp:1512 ekos/capture/cameraprocess.cpp:216
+#: ekos/capture/cameraprocess.cpp:634 ekos/focus/focus.cpp:5728
 #, kde-format
 msgid "Image transfer is disabled for this camera. Would you like to enable it?"
 msgstr ""
@@ -7109,7 +7109,7 @@ msgstr ""
 
 #. +> trunk5
 #: ekos/align/align.cpp:1742 ekos/auxiliary/ledstatuswidget.cpp:71
-#: ekos/focus/focus.cpp:2904
+#: ekos/focus/focus.cpp:2907
 #, kde-format
 msgid "Image received."
 msgstr ""
@@ -7278,9 +7278,9 @@ msgstr "บันทึกภาพไปยังดิสก์"
 #. +> trunk5
 #: ekos/align/align.cpp:2637 ekos/analyze/analyze.cpp:4136
 #: ekos/capture/capture.cpp:309 ekos/focus/focusmodule.cpp:458
-#: ekos/guide/guide.cpp:1241 ekos/manager.cpp:2158 ekos/mount/mount.cpp:765
+#: ekos/guide/guide.cpp:1242 ekos/manager.cpp:2098 ekos/mount/mount.cpp:765
 #: ekos/observatory/observatory.cpp:1042
-#: ekos/scheduler/schedulerprocess.cpp:3688
+#: ekos/scheduler/schedulerprocess.cpp:3689
 #, kde-format
 msgctxt "log entry; %1 is the date, %2 is the text"
 msgid "%1 %2"
@@ -7408,8 +7408,8 @@ msgid "Capture error. Aborting..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/align/align.cpp:3307 ekos/capture/cameraprocess.cpp:1626
-#: ekos/capture/cameraprocess.cpp:2185
+#: ekos/align/align.cpp:3307 ekos/capture/cameraprocess.cpp:1629
+#: ekos/capture/cameraprocess.cpp:2190
 #, kde-format
 msgid "Restarting capture attempt #%1"
 msgstr ""
@@ -7469,28 +7469,28 @@ msgid "dDE (arcsec)"
 msgstr ""
 
 #. +> trunk5
-#: ekos/align/align.cpp:3654 ekos/capture/camera.cpp:3438
-#: ekos/focus/focus.cpp:5606
+#: ekos/align/align.cpp:3654 ekos/capture/camera_config.cpp:717
+#: ekos/focus/focus.cpp:5609
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Filter operation failed."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/align/align.cpp:3666 ekos/capture/camera.cpp:3936
+#: ekos/align/align.cpp:3666 ekos/capture/camera.cpp:585
 #, kde-format
 msgid "Changing focus offset by %1 steps..."
 msgstr ""
 
 #. +> trunk5
 #: ekos/align/align.cpp:3673 ekos/auxiliary/buildfilteroffsets.cpp:466
-#: ekos/capture/camera.cpp:3941
+#: ekos/capture/camera.cpp:590
 #, kde-format
 msgid "Changing filter to %1..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/align/align.cpp:3678 ekos/capture/camera.cpp:3946
+#: ekos/align/align.cpp:3678 ekos/capture/camera.cpp:595
 #, kde-format
 msgid "Auto focus on filter change..."
 msgstr ""
@@ -7512,8 +7512,8 @@ msgstr "เขียนทับ"
 
 #. +> trunk5
 #: ekos/align/align.cpp:3970 ekos/align/mountmodel.cpp:266
-#: ekos/align/mountmodel.cpp:392 ekos/capture/camera.cpp:1245
-#: ekos/capture/camera.cpp:1300 ekos/guide/guidedriftgraph.cpp:501
+#: ekos/align/mountmodel.cpp:392 ekos/capture/camera_jobs.cpp:331
+#: ekos/capture/camera_jobs.cpp:418 ekos/guide/guidedriftgraph.cpp:501
 #: ekos/scheduler/scheduler.cpp:2002 ekos/scheduler/scheduler.cpp:2112
 #: fitsviewer/fitstab.cpp:978 tools/scriptbuilder.cpp:832
 #: tools/scriptbuilder.cpp:929
@@ -7525,7 +7525,7 @@ msgstr ""
 #: ekos/align/align.cpp:3979 ekos/align/mountmodel.cpp:403
 #: ekos/capture/sequencequeue.cpp:259 ekos/guide/guidedriftgraph.cpp:510
 #: ekos/scheduler/schedulerprocess.cpp:3159
-#: ekos/scheduler/schedulerprocess.cpp:4898
+#: ekos/scheduler/schedulerprocess.cpp:4900
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Unable to write to file %1"
@@ -7533,12 +7533,12 @@ msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
 #: ekos/align/align.cpp:3980 ekos/align/mountmodel.cpp:286
-#: ekos/align/mountmodel.cpp:404 ekos/capture/camera.cpp:2942
-#: ekos/capture/cameraprocess.cpp:2595 ekos/capture/sequencequeue.cpp:33
+#: ekos/align/mountmodel.cpp:404 ekos/capture/camera_jobs.cpp:347
+#: ekos/capture/cameraprocess.cpp:2600 ekos/capture/sequencequeue.cpp:33
 #: ekos/guide/guidedriftgraph.cpp:511 ekos/scheduler/schedulerprocess.cpp:3160
-#: ekos/scheduler/schedulerprocess.cpp:3507
-#: ekos/scheduler/schedulerprocess.cpp:4899
-#: ekos/scheduler/schedulerprocess.cpp:4919 indi/drivermanager.cpp:1549
+#: ekos/scheduler/schedulerprocess.cpp:3508
+#: ekos/scheduler/schedulerprocess.cpp:4901
+#: ekos/scheduler/schedulerprocess.cpp:4921 indi/drivermanager.cpp:1549
 #: indi/indidriver.cpp:921 kstarsactions.cpp:1399 oal/execute.cpp:320
 #: options/opscolors.cpp:262 tools/modcalcangdist.cpp:132
 #: tools/modcalcapcoord.cpp:142 tools/modcalcdaylength.cpp:258
@@ -7631,9 +7631,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, PAHStopB)
 #. i18n: ectx: property (text), widget (QPushButton, stopFocusB)
 #. +> trunk5
-#: ekos/align/align.ui:148 ekos/align/polaralignmentassistant.ui:819
-#: ekos/align/polaralignmentassistant.ui:822 ekos/auxiliary/darklibrary.ui:585
-#: ekos/focus/focus.ui:173 ekos/guide/guide.ui:153 ekos/manager.cpp:231
+#: ekos/align/align.ui:148 ekos/align/polaralignmentassistant.ui:823
+#: ekos/align/polaralignmentassistant.ui:826 ekos/auxiliary/darklibrary.ui:585
+#: ekos/focus/focus.ui:173 ekos/guide/guide.ui:153 ekos/manager.cpp:246
 #: ekos/observatory/observatorydomemodel.cpp:132
 #: ekos/observatory/observatorydomemodel.cpp:135
 #: kstarslite/qml/indi/INDIControlPanel.qml:137
@@ -7959,12 +7959,11 @@ msgid "Camera Gain"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, FilterPosLabel)
-#. i18n: ectx: property (text), widget (QLabel, filterLabel)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_18)
 #. +> trunk5
 #: ekos/align/align.ui:685 ekos/capture/camera.ui:694 ekos/focus/focus.ui:719
-#: ekos/profileeditor.ui:622 fitsviewer/fitsdebayer.ui:22 oal/execute.ui:358
+#: fitsviewer/fitsdebayer.ui:22 oal/execute.ui:358
 #, kde-format
 msgid "Filter:"
 msgstr ""
@@ -8246,10 +8245,10 @@ msgid "Open Ekos Alignment List"
 msgstr "เพิ่มเข้ารายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: ekos/align/mountmodel.cpp:285 ekos/capture/camera.cpp:2941
-#: ekos/capture/cameraprocess.cpp:2594 ekos/capture/sequencequeue.cpp:32
-#: ekos/scheduler/schedulerprocess.cpp:3506
-#: ekos/scheduler/schedulerprocess.cpp:4918
+#: ekos/align/mountmodel.cpp:285 ekos/capture/camera_jobs.cpp:346
+#: ekos/capture/cameraprocess.cpp:2599 ekos/capture/sequencequeue.cpp:32
+#: ekos/scheduler/schedulerprocess.cpp:3507
+#: ekos/scheduler/schedulerprocess.cpp:4920
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Unable to open file %1"
@@ -10947,7 +10946,7 @@ msgstr "ไม่สามารเปิดแฟ้ม %1"
 #. i18n: ectx: property (text), widget (QLabel, PAHMessageText)
 #. +> trunk5
 #: ekos/align/polaralignmentassistant.cpp:1242
-#: ekos/align/polaralignmentassistant.ui:212
+#: ekos/align/polaralignmentassistant.ui:216
 #, kde-format
 msgid "<p>The assistant requires three images to find a solution.  Ekos is now capturing the first image...</p>"
 msgstr ""
@@ -11125,30 +11124,37 @@ msgstr ""
 msgid "Speed:"
 msgstr "เป้าหมายต่อไป >"
 
+#. i18n: ectx: property (toolTip), widget (QComboBox, pAHMountSpeed)
+#. +> trunk5
+#: ekos/align/polaralignmentassistant.ui:162
+#, kde-format
+msgid "Mount slew speed"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, pAHManualSlew)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:168
+#: ekos/align/polaralignmentassistant.ui:172
 #, kde-format
 msgid "Toggle for manual slewing with non-GOTO mounts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, pAHManualSlew)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:171
+#: ekos/align/polaralignmentassistant.ui:175
 #, kde-format
 msgid "Manual slew"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, manualRotateText)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:262
+#: ekos/align/polaralignmentassistant.ui:266
 #, kde-format
 msgid "Please rotate your mount in RA"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, PAHRefreshB)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:337
+#: ekos/align/polaralignmentassistant.ui:341
 #, kde-format
 msgid "Start the refresh phase--where image captures loop while you adjust the altitude and azimuth knobs to correct polar alignment."
 msgstr ""
@@ -11157,7 +11163,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, refreshB)
 #. i18n: ectx: property (text), widget (QPushButton, refreshSourceB)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:340
+#: ekos/align/polaralignmentassistant.ui:344
 #: ekos/auxiliary/darklibrary.ui:1202 hips/opships.ui:116
 #, kde-format
 msgid "Refresh"
@@ -11165,14 +11171,14 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, pAHExposure)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:347
+#: ekos/align/polaralignmentassistant.ui:351
 #, kde-format
 msgid "Exposure duration in seconds during refresh phase"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, PAHIteration)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:385
+#: ekos/align/polaralignmentassistant.ui:389
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -11181,7 +11187,7 @@ msgstr "แสดงภาพ DSS"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, pAHRefreshAlgorithm)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:414
+#: ekos/align/polaralignmentassistant.ui:418
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -11196,7 +11202,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, pAHRefreshAlgorithm)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:418
+#: ekos/align/polaralignmentassistant.ui:422
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgid "Plate Solve"
@@ -11204,7 +11210,7 @@ msgstr "ลบป้ายชื่อ"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, pAHRefreshAlgorithm)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:423
+#: ekos/align/polaralignmentassistant.ui:427
 #, fuzzy, kde-format
 #| msgid "Star Name"
 msgid "Move Star"
@@ -11212,32 +11218,16 @@ msgstr "ชื่อดาว"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, pAHRefreshAlgorithm)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:428
+#: ekos/align/polaralignmentassistant.ui:432
 #, kde-format
 msgid "Move Star & Calc Error"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label_PAHOrigErrorTotal)
-#. i18n: ectx: property (toolTip), widget (QLabel, PAHOrigErrorTotal)
-#. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:501
-#: ekos/align/polaralignmentassistant.ui:526
-#, kde-format
-msgid "Polar Alignment total error measured by the 3 exposures at the start of the polar-alignment procedure."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_PAHOrigErrorTotal)
-#. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:504
-#, kde-format
-msgid "Measured Err:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_PAHOrigErrorAlt)
 #. i18n: ectx: property (toolTip), widget (QLabel, PAHOrigErrorAlt)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:545
-#: ekos/align/polaralignmentassistant.ui:570
+#: ekos/align/polaralignmentassistant.ui:485
+#: ekos/align/polaralignmentassistant.ui:592
 #, kde-format
 msgid "Polar Alignment altitude error measured by the 3 exposures at the start of the polar-alignment procedure."
 msgstr ""
@@ -11247,38 +11237,63 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:548
+#: ekos/align/polaralignmentassistant.ui:488
 #: ekos/capture/calibrationoptions.ui:87 tools/argsetaltaz.ui:37
 #: tools/modcalcplanets.ui:296
 #, kde-format
 msgid "Alt:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, label_PAHOrigErrorAz)
-#. i18n: ectx: property (toolTip), widget (QLabel, PAHOrigErrorAz)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_PAHOrigErrorTotal)
+#. i18n: ectx: property (toolTip), widget (QLabel, PAHOrigErrorTotal)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:589
-#: ekos/align/polaralignmentassistant.ui:614
+#: ekos/align/polaralignmentassistant.ui:510
+#: ekos/align/polaralignmentassistant.ui:535
 #, kde-format
-msgid "Polar Alignment azimuth error measured by the 3 exposures at the start of the polar-alignment procedure."
+msgid "Polar Alignment total error measured by the 3 exposures at the start of the polar-alignment procedure."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_PAHOrigErrorTotal)
+#. +> trunk5
+#: ekos/align/polaralignmentassistant.ui:513
+#, kde-format
+msgid "Measured Err:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_PAHUpdatedErrorTotal)
 #. i18n: ectx: property (toolTip), widget (QLabel, PAHUpdatedErrorTotal)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:646
-#: ekos/align/polaralignmentassistant.ui:671
+#: ekos/align/polaralignmentassistant.ui:554
+#: ekos/align/polaralignmentassistant.ui:734
 #, kde-format
 msgid "Polar Alignment total error estimated after recent adjustments."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_PAHUpdatedErrorTotal)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:649
+#: ekos/align/polaralignmentassistant.ui:557
 #, fuzzy, kde-format
 #| msgid "Save"
 msgid "Updated Err:"
 msgstr "บันทึก"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_PAHOrigErrorAz)
+#. i18n: ectx: property (toolTip), widget (QLabel, PAHOrigErrorAz)
+#. +> trunk5
+#: ekos/align/polaralignmentassistant.ui:611
+#: ekos/align/polaralignmentassistant.ui:636
+#, kde-format
+msgid "Polar Alignment azimuth error measured by the 3 exposures at the start of the polar-alignment procedure."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_PAHUpdatedErrorAz)
+#. i18n: ectx: property (toolTip), widget (QLabel, PAHUpdatedErrorAz)
+#. +> trunk5
+#: ekos/align/polaralignmentassistant.ui:655
+#: ekos/align/polaralignmentassistant.ui:753
+#, kde-format
+msgid "Polar Alignment azimuth error estimated after recent adjustments."
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_PAHUpdatedErrorAlt)
 #. i18n: ectx: property (toolTip), widget (QLabel, PAHUpdatedErrorAlt)
@@ -11289,22 +11304,13 @@ msgstr "บันทึก"
 msgid "Polar Alignment altitude error estimated after recent adjustments."
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, label_PAHUpdatedErrorAz)
-#. i18n: ectx: property (toolTip), widget (QLabel, PAHUpdatedErrorAz)
-#. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:734
-#: ekos/align/polaralignmentassistant.ui:759
-#, kde-format
-msgid "Polar Alignment azimuth error estimated after recent adjustments."
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, PAHStartB)
 #. i18n: ectx: property (text), widget (QPushButton, PAHStartB)
 #. i18n: ectx: property (text), widget (QPushButton, startB)
 #. +> trunk5
-#: ekos/align/polaralignmentassistant.ui:806
-#: ekos/align/polaralignmentassistant.ui:809 ekos/auxiliary/darklibrary.ui:575
-#: ekos/manager.cpp:146 ekos/manager.cpp:237 ekos/manager.cpp:796
+#: ekos/align/polaralignmentassistant.ui:810
+#: ekos/align/polaralignmentassistant.ui:813 ekos/auxiliary/darklibrary.ui:575
+#: ekos/manager.cpp:149 ekos/manager.cpp:252 ekos/manager.cpp:813
 #: ekos/observatory/observatorydomemodel.cpp:132
 #: ekos/observatory/observatorydomemodel.cpp:135
 #: kstarslite/qml/indi/INDIControlPanel.qml:166
@@ -11358,7 +11364,7 @@ msgstr "เป้าหมายต่อไป >"
 
 #. i18n: ectx: property (text), widget (QLabel, PAsetup)
 #. +> trunk5
-#: ekos/align/polaralignwidget.ui:357 ekos/manager.cpp:336
+#: ekos/align/polaralignwidget.ui:357 ekos/manager.cpp:351
 #, kde-format
 msgid "Setup"
 msgstr ""
@@ -11501,7 +11507,7 @@ msgstr "ไม่สามารเปิดแฟ้ม %1"
 #. i18n: ectx: property (text), widget (QCheckBox, schedulerFocusStep)
 #. +> trunk5
 #: ekos/analyze/analyze.cpp:2303 ekos/auxiliary/opslogs.ui:370
-#: ekos/manager.cpp:2306 ekos/manager/focusprogresswidget.ui:101
+#: ekos/manager.cpp:2246 ekos/manager/focusprogresswidget.ui:101
 #: ekos/scheduler/framingassistant.ui:1502 ekos/scheduler/scheduler.ui:287
 #: fitsviewer/fitsviewer.cpp:490
 #, kde-format
@@ -11511,7 +11517,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, alignStepCheck)
 #. i18n: ectx: property (text), widget (QCheckBox, schedulerAlignStep)
 #. +> trunk5
-#: ekos/analyze/analyze.cpp:2304 ekos/manager.cpp:2262
+#: ekos/analyze/analyze.cpp:2304 ekos/manager.cpp:2202
 #: ekos/scheduler/framingassistant.ui:1276 ekos/scheduler/scheduler.ui:240
 #: fitsviewer/fitsviewer.cpp:498
 #, kde-format
@@ -11524,7 +11530,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, schedulerGuideStep)
 #. +> trunk5
 #: ekos/analyze/analyze.cpp:2305 ekos/auxiliary/opslogs.ui:120
-#: ekos/guide/guide.cpp:59 ekos/guide/guide.ui:263 ekos/manager.cpp:2527
+#: ekos/guide/guide.cpp:59 ekos/guide/guide.ui:263 ekos/manager.cpp:2467
 #: ekos/scheduler/framingassistant.ui:1240 ekos/scheduler/scheduler.ui:262
 #: fitsviewer/fitsviewer.cpp:494
 #, kde-format
@@ -11542,7 +11548,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, mountLabel)
 #. +> trunk5
 #: ekos/analyze/analyze.cpp:2307 ekos/auxiliary/opslogs.ui:77
-#: ekos/auxiliary/opslogs.ui:413 ekos/manager.cpp:2452 ekos/manager.ui:778
+#: ekos/auxiliary/opslogs.ui:413 ekos/manager.cpp:2392 ekos/manager.ui:778
 #, kde-format
 msgid "Mount"
 msgstr ""
@@ -11900,10 +11906,8 @@ msgstr "แสดงภาพ DSS"
 
 #. i18n: ectx: property (text), widget (QLabel, label3)
 #. i18n: ectx: property (text), widget (QLabel, mountLabel)
-#. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk5
 #: ekos/analyze/analyze.ui:501 ekos/auxiliary/opticaltrains.ui:163
-#: ekos/profileeditor.ui:636
 #, kde-format
 msgid "Mount:"
 msgstr ""
@@ -13079,8 +13083,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, exposureOptionsLabel)
 #. i18n: ectx: property (text), widget (QLabel, countLabel)
 #. +> trunk5
-#: ekos/auxiliary/darklibrary.ui:339 ekos/capture/camera.cpp:1061
-#: ekos/capture/camera.ui:1691 indi/collimationOptions.ui:440
+#: ekos/auxiliary/darklibrary.ui:339 ekos/capture/camera.ui:1691
+#: ekos/capture/camera_config.cpp:958 indi/collimationOptions.ui:440
 #, kde-format
 msgid "Count:"
 msgstr ""
@@ -13155,7 +13159,7 @@ msgstr "แสดงภาพ DSS"
 #. i18n: ectx: property (format), widget (QProgressBar, darkProgress)
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:550
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "%v/%m"
 msgstr ""
 
@@ -13583,10 +13587,8 @@ msgstr "ลบป้ายชื่อ"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_INDIFilterWheelLogging)
-#. i18n: ectx: property (toolTip), widget (QLabel, filterLabel)
 #. +> trunk5
 #: ekos/auxiliary/filtersettings.ui:28 ekos/auxiliary/opslogs.ui:272
-#: ekos/profileeditor.ui:619
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgid "Filter Wheel"
@@ -13680,7 +13682,7 @@ msgid "Aligning..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/auxiliary/ledstatuswidget.cpp:61 ekos/capture/camera.cpp:853
+#: ekos/auxiliary/ledstatuswidget.cpp:61 ekos/capture/camera_actions.cpp:213
 #, kde-format
 msgid "Calibrating..."
 msgstr ""
@@ -13772,8 +13774,8 @@ msgstr "เพิ่มเข้ารายการตั้งใจจะส
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SchedulerLogging)
 #. +> trunk5
-#: ekos/auxiliary/opslogs.ui:90 ekos/manager.cpp:341
-#: ekos/scheduler/framingassistantui.cpp:679
+#: ekos/auxiliary/opslogs.ui:90 ekos/manager.cpp:356
+#: ekos/scheduler/framingassistantui.cpp:706
 #, kde-format
 msgid "Scheduler"
 msgstr ""
@@ -13976,7 +13978,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ObservatoryLogging)
 #. i18n: ectx: property (windowTitle), widget (QWidget, Observatory)
 #. +> trunk5
-#: ekos/auxiliary/opslogs.ui:321 ekos/manager.cpp:2577
+#: ekos/auxiliary/opslogs.ui:321 ekos/manager.cpp:2517
 #: ekos/observatory/observatory.ui:14
 #, kde-format
 msgid "Observatory"
@@ -14005,9 +14007,8 @@ msgid "Detector"
 msgstr "ที่ตั้งการบันทึกไม่ถูกต้อง"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_INDIAOLogging)
-#. i18n: ectx: property (toolTip), widget (QLabel, AOLabel)
 #. +> trunk5
-#: ekos/auxiliary/opslogs.ui:354 ekos/profileeditor.ui:514
+#: ekos/auxiliary/opslogs.ui:354
 #, kde-format
 msgid "Adaptive Optics"
 msgstr ""
@@ -14323,9 +14324,8 @@ msgid "Select a mechanized focuser if any."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, focusLabel)
-#. i18n: ectx: property (text), widget (QLabel, label_10)
 #. +> trunk5
-#: ekos/auxiliary/opticaltrains.ui:324 ekos/profileeditor.ui:629
+#: ekos/auxiliary/opticaltrains.ui:324
 #, kde-format
 msgid "Focuser:"
 msgstr ""
@@ -14431,7 +14431,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, externalConnectB)
 #. i18n: ectx: property (text), widget (QPushButton, connectHostB)
 #. +> trunk5
-#: ekos/auxiliary/portselector.cpp:184 ekos/ekoslive/ekosliveclient.cpp:310
+#: ekos/auxiliary/portselector.cpp:184 ekos/ekoslive/ekosliveclient.cpp:396
 #: ekos/ekoslive/ekoslivedialog.ui:327 ekos/guide/guide.ui:329
 #: ekos/manager.ui:563 indi/drivermanager.ui:361
 #: kstarslite/qml/indi/INDIControlPanel.qml:212
@@ -14443,7 +14443,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, disconnectB)
 #. i18n: ectx: property (text), widget (QPushButton, disconnectHostB)
 #. +> trunk5
-#: ekos/auxiliary/portselector.cpp:191 ekos/ekoslive/ekosliveclient.cpp:253
+#: ekos/auxiliary/portselector.cpp:191 ekos/ekoslive/ekosliveclient.cpp:339
 #: ekos/guide/guide.ui:391 ekos/manager.ui:579 indi/drivermanager.ui:368
 #: kstarslite/qml/indi/INDIControlPanel.qml:212
 #, kde-kuit-format, kde-format
@@ -15238,7 +15238,7 @@ msgstr ""
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:726
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:798
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:819 ekos/capture/limits.ui:371
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "%"
 msgstr ""
 
@@ -15684,14 +15684,14 @@ msgid "Sky flats"
 msgstr "เขียนทับ"
 
 #. +> trunk5
-#: ekos/capture/camera.cpp:109 ekos/capture/camera.cpp:111
+#: ekos/capture/camera.cpp:78 ekos/capture/camera.cpp:80
 #, kde-format
 msgid "Capture Sequence Editor: %1"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, secLabel)
 #. +> trunk5
-#: ekos/capture/camera.cpp:120 ekos/capture/camera.ui:2768
+#: ekos/capture/camera.cpp:89 ekos/capture/camera.ui:2768
 #, fuzzy, kde-format
 #| msgid "epsilon"
 msgid "sec"
@@ -15700,7 +15700,7 @@ msgstr "เอปไซลอน"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk5
-#: ekos/capture/camera.cpp:121 ekos/capture/limits.ui:180
+#: ekos/capture/camera.cpp:90 ekos/capture/limits.ui:180
 #: ekos/guide/opsdither.ui:170 ekos/scheduler/opsalignmentsettings.ui:82
 #, fuzzy, kde-format
 #| msgid "Star Name"
@@ -15708,386 +15708,40 @@ msgid "frames"
 msgstr "ชื่อดาว"
 
 #. +> trunk5
-#: ekos/capture/camera.cpp:170 ekos/capture/camera.cpp:4061
+#: ekos/capture/camera.cpp:139 ekos/capture/camera_jobs.cpp:258
 #, kde-format
 msgid "Add job to sequence queue"
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/camera.cpp:171 ekos/capture/camera.cpp:4062
+#: ekos/capture/camera.cpp:140 ekos/capture/camera_jobs.cpp:259
 #, kde-format
 msgid "Remove job from sequence queue"
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/camera.cpp:524
+#: ekos/capture/camera.cpp:505
 #, kde-format
 msgid "Downloading..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/camera.cpp:640 ekos/capture/camera.cpp:641
-#, fuzzy, kde-format
-#| msgid "Next Target >"
-msgid "Focus complete."
-msgstr "เป้าหมายต่อไป >"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:645
-#, fuzzy, kde-format
-#| msgid "Star Name"
-msgid "Autofocus failed."
-msgstr "ชื่อดาว"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:832
-#, fuzzy, kde-format
-#| msgid "Star Name"
-msgid "Capturing %1 x %2-second %3 video..."
-msgstr "ชื่อดาว"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:838
-#, kde-format
-msgid "Capturing %1-second %2 image..."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:907
-#, kde-format
-msgid "Warning: in-sequence focusing is selected but autofocus process was not started."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:910
-#, kde-format
-msgid "Warning: temperature delta check is selected but autofocus process was not started."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:945
-#, kde-format
-msgid "One dark flats job was created."
-msgid_plural "%1 dark flats jobs were created."
-msgstr[0] ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:990
-#, kde-format
-msgid "Job #%1 changes applied."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1001
-#, fuzzy, kde-format
-#| msgid "Star Name"
-msgid "Framing..."
-msgstr "ชื่อดาว"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1012
-#, fuzzy, kde-format
-#| msgid "Star Name"
-msgid "Captured image received"
-msgstr "ชื่อดาว"
-
-#. i18n: ectx: property (text), widget (QLabel, frameInfoLabel)
-#. +> trunk5
-#: ekos/capture/camera.cpp:1030 ekos/capture/camera.ui:2679
-#, kde-format
-msgid "Expose (-/-):"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1060
-#, kde-format
-msgid "Duration of the video sequence"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_2_4)
-#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_2_5)
-#. i18n: ectx: property (toolTip), widget (QLabel, FilterPosLabel)
-#. +> trunk5
-#: ekos/capture/camera.cpp:1060 ekos/capture/limits.ui:108
-#: ekos/capture/limits.ui:378 ekos/focus/focus.ui:713
-#, kde-format
-msgid "Number of images to capture"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, recordDurationR)
-#. +> trunk5
-#: ekos/capture/camera.cpp:1061 indi/recordingoptions.ui:40
-#, fuzzy, kde-format
-#| msgid "Invalid Save Location"
-msgid "Duration:"
-msgstr "ที่ตั้งการบันทึกไม่ถูกต้อง"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1062
-#, kde-format
-msgid "Exposure time in seconds of a single video frame"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1063
-#, kde-format
-msgid "Exposure time in seconds for individual images"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1078
-#, kde-format
-msgid "Stop Sequence"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1084
-#, kde-format
-msgid "Resume Sequence"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1115
-#, fuzzy, kde-format
-#| msgid "To file..."
-msgid "Setting temperature to %1 °C..."
-msgstr "ไปยังแฟ้ม..."
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1116
-#, fuzzy, kde-format
-#| msgid "To file..."
-msgid "Set Temp to %1 °C..."
-msgstr "ไปยังแฟ้ม..."
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1120
-#, kde-format
-msgid "Waiting for guide drift below %1\"..."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1121
-#, kde-format
-msgid "Wait for Guider < %1\"..."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1125
-#, fuzzy, kde-format
-#| msgid "To file..."
-msgid "Setting camera to %1 degrees E of N..."
-msgstr "ไปยังแฟ้ม..."
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1126
-#, fuzzy, kde-format
-#| msgid "To file..."
-msgid "Set Camera to %1 deg..."
-msgstr "ไปยังแฟ้ม..."
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1237
-#, fuzzy, kde-format
-#| msgid "Add to Observing WishList"
-msgctxt "@title:window"
-msgid "Open Ekos Sequence Queue"
-msgstr "เพิ่มเข้ารายการตั้งใจจะสังเกต"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1270
-#, fuzzy, kde-format
-#| msgid "Add to Observing WishList"
-msgctxt "@title:window"
-msgid "Save Ekos Sequence Queue"
-msgstr "เพิ่มเข้ารายการตั้งใจจะสังเกต"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1292
-#, kde-format
-msgid "Failed to save sequence queue"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:1349 ekos/capture/camera.cpp:2420
-#, fuzzy, kde-format
-#| msgid "Star Name"
-msgid "Dark Flat"
-msgstr "ชื่อดาว"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:2083 ekos/scheduler/framingassistant.cpp:220
-#, fuzzy, kde-format
-#| msgctxt "use default color scheme"
-#| msgid "Default Colors"
-msgctxt "@title:window"
-msgid "FITS Save Directory"
-msgstr "สีปริยาย"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:2196
-#, kde-format
-msgid "Reset %1 configuration to default?"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:2198
-#, fuzzy, kde-format
-#| msgid "Invalid Save Location"
-msgid "Confirmation"
-msgstr "ที่ตั้งการบันทึกไม่ถูกต้อง"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:2397
-#, kde-format
-msgid "You must set local or remote directory for Remotely & Both modes."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:2403
-#, kde-format
-msgid "You must set local directory for Locally & Both modes."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3598
-#, kde-format
-msgid "Paused..."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3603
-#, kde-format
-msgid "Meridian Flip..."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3604
-#, kde-format
-msgid "Meridian flip started"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3608
-#, fuzzy, kde-format
-#| msgid "Next Target >"
-msgid "Flip complete."
-msgstr "เป้าหมายต่อไป >"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3668
-#, kde-format
-msgctxt "Maximum temperature variation over time when regulating."
-msgid "Ramp (°C/min):"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3674
-#, kde-format
-msgid ""
-"<html><body>"
-"<p>Maximum temperature change per minute when cooling or warming the camera. Set zero to disable."
-"<p>This setting is read from and stored in the INDI camera driver configuration.</body></html>"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3679
-#, fuzzy, kde-format
-#| msgid "Solar system object"
-msgctxt "Temperature threshold above which regulation triggers."
-msgid "Threshold (°C):"
-msgstr "วัตถุระบบสุริยะ"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3685
-#, kde-format
-msgid ""
-"<html><body>"
-"<p>Maximum difference between camera and target temperatures triggering regulation."
-"<p>This setting is read from and stored in the INDI camera driver configuration.</body></html>"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3698
-#, kde-format
-msgctxt "@title:window"
-msgid "Set Temperature Regulation"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3738
-#, fuzzy, kde-format
-#| msgid "Solar system object"
-msgctxt "@title:window"
-msgid "Select Current Observer"
-msgstr "วัตถุระบบสุริยะ"
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3740
-#, kde-format
-msgid "Current Observer:"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, ObserverAdd)
-#. +> trunk5
-#: ekos/capture/camera.cpp:3751 oal/execute.cpp:38 oal/observeradd.ui:26
-#, kde-format
-msgid "Manage Observers"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3923
-#, kde-format
-msgid "Cooler is on"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3923
-#, kde-format
-msgid "Cooler is off"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:3953
+#: ekos/capture/camera.cpp:602
 #, fuzzy, kde-format
 #| msgid "Info Box Selected"
 msgid "Filter set to %1."
 msgstr "กล่องข้อมูลที่เลือก"
 
 #. +> trunk5
-#: ekos/capture/camera.cpp:3986
+#: ekos/capture/camera.cpp:627
 #, kde-format
-msgid "Are you sure you want to reset status of all jobs?"
+msgid "Warning: in-sequence focusing is selected but autofocus process was not started."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/camera.cpp:3986 ekos/capture/cameraprocess.cpp:2715
+#: ekos/capture/camera.cpp:630
 #, kde-format
-msgid "Reset job status"
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:4039
-#, kde-format
-msgid "Editing job #%1..."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:4042 ekos/scheduler/scheduler.cpp:1348
-#, kde-format
-msgid "Apply job changes."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:4043
-#, kde-format
-msgid "Cancel job changes."
-msgstr ""
-
-#. +> trunk5
-#: ekos/capture/camera.cpp:4056
-#, kde-format
-msgid "Editing job canceled."
+msgid "Warning: temperature delta check is selected but autofocus process was not started."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, restartCameraB)
@@ -16361,7 +16015,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, calibrationLabel)
 #. +> trunk5
-#: ekos/capture/camera.ui:1176 ekos/capture/cameraprocess.cpp:2463
+#: ekos/capture/camera.ui:1176 ekos/capture/cameraprocess.cpp:2468
 #: ekos/guide/guide.cpp:70
 #, kde-format
 msgid "Calibration"
@@ -16428,7 +16082,7 @@ msgstr "วัตถุระบบสุริยะ"
 #. i18n: ectx: property (text), widget (QLabel, scriptsLabel)
 #. i18n: ectx: property (text), widget (QPushButton, scriptsB)
 #. +> trunk5
-#: ekos/capture/camera.ui:1369 ekos/profileeditor.ui:699
+#: ekos/capture/camera.ui:1369 ekos/profileeditor.ui:612
 #: ekos/scheduler/scheduler.cpp:460
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
@@ -16587,7 +16241,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_7)
 #. +> trunk5
 #: ekos/capture/camera.ui:1810
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Target is the name of the targetted object.</p>"
@@ -16639,14 +16293,14 @@ msgstr ""
 #. i18n: ectx: property (prefix), widget (QSpinBox, formatSuffixN)
 #. +> trunk5
 #: ekos/capture/camera.ui:1849
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "_%s"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, formatLabel)
 #. +> trunk5
 #: ekos/capture/camera.ui:1865
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Format is used to define the image file names by the use of placeholder tags.</p>"
@@ -16691,7 +16345,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, remoteLabel)
 #. i18n: ectx: property (text), widget (QLabel, remoteDriversLabel)
 #. +> trunk5
-#: ekos/capture/camera.ui:1903 ekos/profileeditor.ui:458
+#: ekos/capture/camera.ui:1903 ekos/profileeditor.ui:598
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgid "Remote:"
@@ -16856,6 +16510,13 @@ msgstr ""
 msgid "Total remaining:"
 msgstr "แสดงภาพ DSS"
 
+#. i18n: ectx: property (text), widget (QLabel, frameInfoLabel)
+#. +> trunk5
+#: ekos/capture/camera.ui:2679 ekos/capture/camera_actions.cpp:142
+#, kde-format
+msgid "Expose (-/-):"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, frameRemainingTime)
 #. i18n: ectx: property (text), widget (QLabel, jobRemainingTime)
 #. i18n: ectx: property (text), widget (QLabel, gr_sequenceRemainingTime)
@@ -16945,7 +16606,346 @@ msgid "Save As..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:214 ekos/capture/cameraprocess.cpp:632
+#: ekos/capture/camera_actions.cpp:113
+#, fuzzy, kde-format
+#| msgid "Star Name"
+msgid "Framing..."
+msgstr "ชื่อดาว"
+
+#. +> trunk5
+#: ekos/capture/camera_actions.cpp:124
+#, fuzzy, kde-format
+#| msgid "Star Name"
+msgid "Captured image received"
+msgstr "ชื่อดาว"
+
+#. +> trunk5
+#: ekos/capture/camera_actions.cpp:192
+#, fuzzy, kde-format
+#| msgid "Star Name"
+msgid "Capturing %1 x %2-second %3 video..."
+msgstr "ชื่อดาว"
+
+#. +> trunk5
+#: ekos/capture/camera_actions.cpp:198
+#, kde-format
+msgid "Capturing %1-second %2 image..."
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_actions.cpp:280
+#, kde-format
+msgid "Stop Sequence"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_actions.cpp:286
+#, kde-format
+msgid "Resume Sequence"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_actions.cpp:316
+#, fuzzy, kde-format
+#| msgid "To file..."
+msgid "Setting temperature to %1 °C..."
+msgstr "ไปยังแฟ้ม..."
+
+#. +> trunk5
+#: ekos/capture/camera_actions.cpp:317
+#, fuzzy, kde-format
+#| msgid "To file..."
+msgid "Set Temp to %1 °C..."
+msgstr "ไปยังแฟ้ม..."
+
+#. +> trunk5
+#: ekos/capture/camera_actions.cpp:321
+#, kde-format
+msgid "Waiting for guide drift below %1\"..."
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_actions.cpp:322
+#, kde-format
+msgid "Wait for Guider < %1\"..."
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_actions.cpp:326
+#, fuzzy, kde-format
+#| msgid "To file..."
+msgid "Setting camera to %1 degrees E of N..."
+msgstr "ไปยังแฟ้ม..."
+
+#. +> trunk5
+#: ekos/capture/camera_actions.cpp:327
+#, fuzzy, kde-format
+#| msgid "To file..."
+msgid "Set Camera to %1 deg..."
+msgstr "ไปยังแฟ้ม..."
+
+#. +> trunk5
+#: ekos/capture/camera_config.cpp:957
+#, kde-format
+msgid "Duration of the video sequence"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_2_4)
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_2_5)
+#. i18n: ectx: property (toolTip), widget (QLabel, FilterPosLabel)
+#. +> trunk5
+#: ekos/capture/camera_config.cpp:957 ekos/capture/limits.ui:108
+#: ekos/capture/limits.ui:378 ekos/focus/focus.ui:713
+#, kde-format
+msgid "Number of images to capture"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, recordDurationR)
+#. +> trunk5
+#: ekos/capture/camera_config.cpp:958 indi/recordingoptions.ui:40
+#, fuzzy, kde-format
+#| msgid "Invalid Save Location"
+msgid "Duration:"
+msgstr "ที่ตั้งการบันทึกไม่ถูกต้อง"
+
+#. +> trunk5
+#: ekos/capture/camera_config.cpp:959
+#, kde-format
+msgid "Exposure time in seconds of a single video frame"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_config.cpp:960
+#, kde-format
+msgid "Exposure time in seconds for individual images"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_config.cpp:987
+#, fuzzy, kde-format
+#| msgctxt "use default color scheme"
+#| msgid "Default Colors"
+msgctxt "@title:window"
+msgid "FITS Save Directory"
+msgstr "สีปริยาย"
+
+#. +> trunk5
+#: ekos/capture/camera_config.cpp:1029
+#, kde-format
+msgid "You must set local or remote directory for Remotely & Both modes."
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_config.cpp:1035
+#, kde-format
+msgid "You must set local directory for Locally & Both modes."
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_config.cpp:1163
+#, fuzzy, kde-format
+#| msgid "Solar system object"
+msgctxt "@title:window"
+msgid "Select Current Observer"
+msgstr "วัตถุระบบสุริยะ"
+
+#. +> trunk5
+#: ekos/capture/camera_config.cpp:1165
+#, kde-format
+msgid "Current Observer:"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ObserverAdd)
+#. +> trunk5
+#: ekos/capture/camera_config.cpp:1176 oal/execute.cpp:38 oal/observeradd.ui:26
+#, kde-format
+msgid "Manage Observers"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:166
+#, kde-format
+msgctxt "Maximum temperature variation over time when regulating."
+msgid "Ramp (°C/min):"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:172
+#, kde-format
+msgid ""
+"<html><body>"
+"<p>Maximum temperature change per minute when cooling or warming the camera. Set zero to disable."
+"<p>This setting is read from and stored in the INDI camera driver configuration.</body></html>"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:177
+#, fuzzy, kde-format
+#| msgid "Solar system object"
+msgctxt "Temperature threshold above which regulation triggers."
+msgid "Threshold (°C):"
+msgstr "วัตถุระบบสุริยะ"
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:183
+#, kde-format
+msgid ""
+"<html><body>"
+"<p>Maximum difference between camera and target temperatures triggering regulation."
+"<p>This setting is read from and stored in the INDI camera driver configuration.</body></html>"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:196
+#, kde-format
+msgctxt "@title:window"
+msgid "Set Temperature Regulation"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:221
+#, kde-format
+msgid "Cooler is on"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:221
+#, kde-format
+msgid "Cooler is off"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:713
+#, kde-format
+msgid "Reset %1 configuration to default?"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:715
+#, fuzzy, kde-format
+#| msgid "Invalid Save Location"
+msgid "Confirmation"
+msgstr "ที่ตั้งการบันทึกไม่ถูกต้อง"
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:733 ekos/capture/camera_device.cpp:734
+#, fuzzy, kde-format
+#| msgid "Next Target >"
+msgid "Focus complete."
+msgstr "เป้าหมายต่อไป >"
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:738
+#, fuzzy, kde-format
+#| msgid "Star Name"
+msgid "Autofocus failed."
+msgstr "ชื่อดาว"
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:758
+#, kde-format
+msgid "Paused..."
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:763
+#, kde-format
+msgid "Meridian Flip..."
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:764
+#, kde-format
+msgid "Meridian flip started"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_device.cpp:768
+#, fuzzy, kde-format
+#| msgid "Next Target >"
+msgid "Flip complete."
+msgstr "เป้าหมายต่อไป >"
+
+#. +> trunk5
+#: ekos/capture/camera_jobs.cpp:162
+#, kde-format
+msgid "Job #%1 changes applied."
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_jobs.cpp:183
+#, kde-format
+msgid "Are you sure you want to reset status of all jobs?"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_jobs.cpp:183 ekos/capture/cameraprocess.cpp:2720
+#, kde-format
+msgid "Reset job status"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_jobs.cpp:236
+#, kde-format
+msgid "Editing job #%1..."
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_jobs.cpp:239 ekos/scheduler/scheduler.cpp:1348
+#, kde-format
+msgid "Apply job changes."
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_jobs.cpp:240
+#, kde-format
+msgid "Cancel job changes."
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_jobs.cpp:253
+#, kde-format
+msgid "Editing job canceled."
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_jobs.cpp:323
+#, fuzzy, kde-format
+#| msgid "Add to Observing WishList"
+msgctxt "@title:window"
+msgid "Open Ekos Sequence Queue"
+msgstr "เพิ่มเข้ารายการตั้งใจจะสังเกต"
+
+#. +> trunk5
+#: ekos/capture/camera_jobs.cpp:388
+#, fuzzy, kde-format
+#| msgid "Add to Observing WishList"
+msgctxt "@title:window"
+msgid "Save Ekos Sequence Queue"
+msgstr "เพิ่มเข้ารายการตั้งใจจะสังเกต"
+
+#. +> trunk5
+#: ekos/capture/camera_jobs.cpp:410
+#, kde-format
+msgid "Failed to save sequence queue"
+msgstr ""
+
+#. +> trunk5
+#: ekos/capture/camera_jobs.cpp:485 ekos/capture/camera_jobs.cpp:867
+#, fuzzy, kde-format
+#| msgid "Star Name"
+msgid "Dark Flat"
+msgstr "ชื่อดาว"
+
+#. +> trunk5
+#: ekos/capture/camera_jobs.cpp:905
+#, kde-format
+msgid "One dark flats job was created."
+msgid_plural "%1 dark flats jobs were created."
+msgstr[0] ""
+
+#. +> trunk5
+#: ekos/capture/cameraprocess.cpp:217 ekos/capture/cameraprocess.cpp:635
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -16953,141 +16953,141 @@ msgid "Image Transfer"
 msgstr "แสดงภาพ DSS"
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:235
+#: ekos/capture/cameraprocess.cpp:238
 #, kde-format
 msgid "Sequence resumed."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:271
+#: ekos/capture/cameraprocess.cpp:274
 #, kde-format
 msgid "No pending jobs found. Please add a job to the sequence queue."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:285
+#: ekos/capture/cameraprocess.cpp:288
 #, kde-format
 msgid "No new job created."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:308 ekos/capture/cameraprocess.cpp:884
+#: ekos/capture/cameraprocess.cpp:311 ekos/capture/cameraprocess.cpp:887
 #, kde-format
 msgid "Cannot capture while focus module is busy."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:315
+#: ekos/capture/cameraprocess.cpp:318
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Starting framing..."
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:347
+#: ekos/capture/cameraprocess.cpp:350
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "CCD capture suspended"
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:352
+#: ekos/capture/cameraprocess.cpp:355
 #, fuzzy, kde-format
 #| msgid "Next Target >"
 msgid "CCD capture complete"
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:357
+#: ekos/capture/cameraprocess.cpp:360
 #, fuzzy, kde-format
 #| msgid "Next Target >"
 msgid "Framing stopped"
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:357 ekos/capture/cameraprocess.cpp:362
+#: ekos/capture/cameraprocess.cpp:360 ekos/capture/cameraprocess.cpp:365
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "CCD capture stopped"
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:440
+#: ekos/capture/cameraprocess.cpp:443
 #, kde-format
 msgid "Pausing only possible while frame capture is running."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:447
+#: ekos/capture/cameraprocess.cpp:450
 #, kde-format
 msgid "Sequence shall be paused after current exposure is complete."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:460
+#: ekos/capture/cameraprocess.cpp:463
 #, kde-format
 msgid "No camera detected. Check train configuration and connection settings."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:485
+#: ekos/capture/cameraprocess.cpp:488
 #, kde-format
 msgid "No view available for previews. Enable FITS viewer?"
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:486
+#: ekos/capture/cameraprocess.cpp:489
 #, fuzzy, kde-format
 #| msgid "Star Name"
 msgid "Display preview"
 msgstr "ชื่อดาว"
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:570
+#: ekos/capture/cameraprocess.cpp:573
 #, kde-format
 msgid "Job requires %1-second %2 images, has already %3/%4 captures and does not need to run."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:585
+#: ekos/capture/cameraprocess.cpp:588
 #, kde-format
 msgid "Job requires %1-second %2 images, has %3/%4 frames captured and will be processed."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:598
+#: ekos/capture/cameraprocess.cpp:601
 #, kde-format
 msgid "Job requires %1 x %2-second %3 video and will be processed."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:830
+#: ekos/capture/cameraprocess.cpp:833
 #, kde-format
 msgid "Autoguiding resumed."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:874
+#: ekos/capture/cameraprocess.cpp:877
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Failed to set sub frame."
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:879
+#: ekos/capture/cameraprocess.cpp:882
 #, kde-format
 msgid "Failed to set binning."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1039
+#: ekos/capture/cameraprocess.cpp:1042
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "file saved to %1"
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1049
+#: ekos/capture/cameraprocess.cpp:1052
 #, kde-format
 msgid ""
 "Failed writing image to %1\n"
@@ -17095,7 +17095,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1051
+#: ekos/capture/cameraprocess.cpp:1054
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -17103,215 +17103,215 @@ msgid "Image Write Failed"
 msgstr "แสดงภาพ DSS"
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1276
+#: ekos/capture/cameraprocess.cpp:1279
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Remote image saved to %1"
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1302
+#: ekos/capture/cameraprocess.cpp:1305
 #, kde-format
 msgid "Autoguiding suspended."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1332
+#: ekos/capture/cameraprocess.cpp:1335
 #, kde-format
 msgid "Warning: Calibration process was prematurely terminated."
 msgstr ""
 
 #. i18n("CCD capture sequence completed"));
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1398
+#: ekos/capture/cameraprocess.cpp:1401
 #, kde-format
 msgid "CCD capture sequence completed"
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1455
+#: ekos/capture/cameraprocess.cpp:1458
 #, kde-format
 msgid "Error: Lost connection to CCD."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1483
+#: ekos/capture/cameraprocess.cpp:1486
 #, kde-format
 msgid "Cannot calculate ADU levels in non-FITS images."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1618 ekos/capture/cameraprocess.cpp:2177
+#: ekos/capture/cameraprocess.cpp:1621 ekos/capture/cameraprocess.cpp:2182
 #, kde-format
 msgid "Capture failed. Check INDI Control Panel for details."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1718
+#: ekos/capture/cameraprocess.cpp:1721
 #, kde-format
 msgid "Download Time: %1 s, New Download Time Estimate: %2 s."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1784
+#: ekos/capture/cameraprocess.cpp:1787
 #, kde-format
 msgid "Received image %1 out of %2."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1821
+#: ekos/capture/cameraprocess.cpp:1824
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Captured %1"
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1827
+#: ekos/capture/cameraprocess.cpp:1830
 #, kde-format
 msgid "WARNING: remaining and potentially unknown placeholders %1 in %2"
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1868
+#: ekos/capture/cameraprocess.cpp:1873
 #, fuzzy, kde-format
 #| msgid "Running script: %1"
 msgid "Executing capture script %1"
 msgstr "สคริปต์กำลังทำงาน: %1"
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1883
+#: ekos/capture/cameraprocess.cpp:1888
 #, kde-format
 msgid "Pre capture script finished with code %1."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1894
+#: ekos/capture/cameraprocess.cpp:1899
 #, kde-format
 msgid "Post capture script finished with code %1."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1906
+#: ekos/capture/cameraprocess.cpp:1911
 #, kde-format
 msgid "Processing meridian flip..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1916
+#: ekos/capture/cameraprocess.cpp:1921
 #, kde-format
 msgid "Pre job script finished with code %1."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:1921
+#: ekos/capture/cameraprocess.cpp:1926
 #, kde-format
 msgid "Post job script finished with code %1."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2107 ekos/focus/focus.cpp:5777
-#: ekos/focus/focus.cpp:5801
+#: ekos/capture/cameraprocess.cpp:2112 ekos/focus/focus.cpp:5780
+#: ekos/focus/focus.cpp:5804
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Exposure timeout. Aborting..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2114
+#: ekos/capture/cameraprocess.cpp:2119
 #, kde-format
 msgid "Exposure timeout. More than 3 have been detected, will restart driver."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2132 ekos/focus/focus.cpp:5782
-#: ekos/guide/guide.cpp:1009
+#: ekos/capture/cameraprocess.cpp:2137 ekos/focus/focus.cpp:5785
+#: ekos/guide/guide.cpp:1010
 #, kde-format
 msgid "Exposure timeout. Restarting exposure..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2158
+#: ekos/capture/cameraprocess.cpp:2163
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Exposure timeout. Too many. Aborting..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2236
+#: ekos/capture/cameraprocess.cpp:2241
 #, kde-format
 msgid "Flat calibration failed. Captured image is only %1-bit while requested ADU is %2."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2247
+#: ekos/capture/cameraprocess.cpp:2252
 #, kde-format
 msgid "Current image is saturated (%1). Next exposure is %2 seconds."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2269
+#: ekos/capture/cameraprocess.cpp:2274
 #, kde-format
 msgid "Current ADU %1 within target ADU tolerance range."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2298
+#: ekos/capture/cameraprocess.cpp:2303
 #, kde-format
 msgid "Unable to calculate optimal exposure settings, please capture the flats manually."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2306
+#: ekos/capture/cameraprocess.cpp:2311
 #, kde-format
 msgid "Current ADU is %1 Next exposure is %2 seconds."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2447
+#: ekos/capture/cameraprocess.cpp:2452
 #, kde-format
 msgid "%1 Preview"
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2458 ekos/capture/cameraprocess.cpp:2460
+#: ekos/capture/cameraprocess.cpp:2463 ekos/capture/cameraprocess.cpp:2465
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Flat Calibration"
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2664
+#: ekos/capture/cameraprocess.cpp:2669
 #, kde-format
 msgid "Sequence paused."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2714
+#: ekos/capture/cameraprocess.cpp:2719
 #, kde-format
 msgid "All jobs are complete. Do you want to reset the status of all jobs and restart capturing?"
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2728
+#: ekos/capture/cameraprocess.cpp:2733
 #, kde-format
 msgid "Warning: option \"Always Reset Sequence When Starting\" is enabled and resets the sequence counts."
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2858
+#: ekos/capture/cameraprocess.cpp:2969
 #, kde-format
 msgid "Are you sure you want to restart %1 camera driver?"
 msgstr ""
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:2859
+#: ekos/capture/cameraprocess.cpp:2970
 #, fuzzy, kde-format
 #| msgid "Star Name"
 msgid "Driver Restart"
 msgstr "ชื่อดาว"
 
 #. +> trunk5
-#: ekos/capture/cameraprocess.cpp:3006 ekos/capture/sequencejobstate.cpp:41
+#: ekos/capture/cameraprocess.cpp:3117 ekos/capture/sequencejobstate.cpp:41
 #, fuzzy, kde-format
 #| msgid "Save the image to disk"
 msgid "Capture operations timed out after %1 seconds."
@@ -18222,7 +18222,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, allowableNoiseLabel)
 #. +> trunk5
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:769
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Noise Increase %"
 msgstr ""
 
@@ -18526,7 +18526,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, hFRThresholdPercentage)
 #. +> trunk5
 #: ekos/capture/limits.ui:334
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Specify the % to apply to the HFR Check value appropriate to the selected algorithm, to use as the threshold to perform the HFR Check.</p>"
@@ -18633,7 +18633,7 @@ msgstr "เขียนทับ"
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
 #. +> trunk5
 #: ekos/capture/opsmiscsettings.ui:57
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Minimal duration of a meridian flip in seconds. Increase this value if Ekos reports that a meridian flip has failed because the pier side did not change. A good estimation for this value is at least 50% of the typical duration of a meridian flip.</p>"
@@ -19490,7 +19490,7 @@ msgid "Stopped"
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/ekoslive/ekosliveclient.cpp:360
+#: ekos/ekoslive/ekosliveclient.cpp:480
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgctxt "@title:window"
@@ -19498,26 +19498,26 @@ msgid "Select EkosLive Servers"
 msgstr "ลบป้ายชื่อ"
 
 #. +> trunk5
-#: ekos/ekoslive/ekosliveclient.cpp:362
+#: ekos/ekoslive/ekosliveclient.cpp:482
 #, fuzzy, kde-format
 #| msgid "Solar System"
 msgid "Observatory:"
 msgstr "ระบบสุริยะ"
 
 #. +> trunk5
-#: ekos/ekoslive/ekosliveclient.cpp:363
+#: ekos/ekoslive/ekosliveclient.cpp:483
 #, kde-format
 msgid "Offline:"
 msgstr ""
 
 #. +> trunk5
-#: ekos/ekoslive/ekosliveclient.cpp:364
+#: ekos/ekoslive/ekosliveclient.cpp:484
 #, kde-format
 msgid "Online:"
 msgstr ""
 
 #. +> trunk5
-#: ekos/ekoslive/ekosliveclient.cpp:365
+#: ekos/ekoslive/ekosliveclient.cpp:485
 #, kde-format
 msgid "Machine ID:"
 msgstr ""
@@ -19603,13 +19603,14 @@ msgid "Mosaic import failed."
 msgstr "การบันทึกภาพ %1 ล้มเหลว"
 
 #. +> trunk5
-#: ekos/ekoslive/nodemanager.cpp:181
-#, kde-format
-msgid "Error authentication with Ekos Live server: %1"
-msgstr ""
+#: ekos/ekoslive/nodemanager.cpp:222
+#, fuzzy, kde-format
+#| msgid "Could not open file %1"
+msgid "Error authenticating with EkosLive server: %1"
+msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/ekoslive/nodemanager.cpp:194
+#: ekos/ekoslive/nodemanager.cpp:235
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Error parsing server response: %1"
@@ -20365,7 +20366,7 @@ msgstr ""
 #: ekos/focus/opsfocusprocess.ui:666 ekos/focus/opsfocussettings.ui:361
 #: ekos/focus/opsfocussettings.ui:395 ekos/focus/opsfocussettings.ui:455
 #: ekos/scheduler/framingassistant.ui:449
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid " %"
 msgstr ""
 
@@ -20614,7 +20615,7 @@ msgid "No Focuser connected."
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:1020 ekos/focus/focus.cpp:4742
+#: ekos/focus/focus.cpp:1020 ekos/focus/focus.cpp:4745
 #, kde-format
 msgid "No CCD connected."
 msgstr ""
@@ -20644,8 +20645,8 @@ msgid "In Focus Loop, Autofocus rejected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:1060 ekos/focus/focus.cpp:5117
-#: ekos/focus/focus.cpp:5392
+#: ekos/focus/focus.cpp:1060 ekos/focus/focus.cpp:5120
+#: ekos/focus/focus.cpp:5395
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgid "Adjust Focus"
@@ -20654,8 +20655,8 @@ msgstr "ลบป้ายชื่อ"
 #. i18n: ectx: property (title), widget (QGroupBox, adaptiveFocusGroup)
 #. i18n: ectx: property (text), widget (QCheckBox, focusAdaptive)
 #. +> trunk5
-#: ekos/focus/focus.cpp:1060 ekos/focus/focus.cpp:5119
-#: ekos/focus/focus.cpp:5392 ekos/focus/opsfocussettings.ui:483
+#: ekos/focus/focus.cpp:1060 ekos/focus/focus.cpp:5122
+#: ekos/focus/focus.cpp:5395 ekos/focus/opsfocussettings.ui:483
 #: ekos/focus/opsfocussettings.ui:563
 #, fuzzy, kde-format
 #| msgid "Remove Label"
@@ -20906,31 +20907,31 @@ msgid "FITS received. No stars detected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:2966
+#: ekos/focus/focus.cpp:2969
 #, kde-format
 msgid "Capture complete. Select a region of interest."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3007
+#: ekos/focus/focus.cpp:3010
 #, kde-format
 msgid "Failed to automatically select a star. Please select a star manually."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3101
+#: ekos/focus/focus.cpp:3104
 #, kde-format
 msgid "Capture complete. Select a star to focus."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3132
+#: ekos/focus/focus.cpp:3135
 #, kde-format
 msgid "No stars detected while testing HFR, capturing again..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3152
+#: ekos/focus/focus.cpp:3155
 #, fuzzy, kde-format
 #| msgctxt "the time at which an object falls below the horizon"
 #| msgid "Set time: %1"
@@ -20938,101 +20939,101 @@ msgid "HFR %1 > Limit %2"
 msgstr "เวลาตก: %1"
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3277
+#: ekos/focus/focus.cpp:3280
 #, kde-format
 msgid "Autofocus failed: exceeded max iterations %1"
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3288 ekos/focus/focus.cpp:3550
-#: ekos/focus/focus.cpp:4146
+#: ekos/focus/focus.cpp:3291 ekos/focus/focus.cpp:3553
+#: ekos/focus/focus.cpp:4149
 #, kde-format
 msgid "No stars detected, capturing again..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3294 ekos/focus/focus.cpp:4152
+#: ekos/focus/focus.cpp:3297 ekos/focus/focus.cpp:4155
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Failed to detect any stars at position %1. Continuing..."
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3300 ekos/focus/focus.cpp:4158
+#: ekos/focus/focus.cpp:3303 ekos/focus/focus.cpp:4161
 #, kde-format
 msgid "Failed to detect any stars. Reset frame and try again."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3487
+#: ekos/focus/focus.cpp:3490
 #, kde-format
 msgid "Unable to launch Aberration Inspector run %1..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3507
+#: ekos/focus/focus.cpp:3510
 #, kde-format
 msgid "Launching Aberration Inspector run %1..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3533
+#: ekos/focus/focus.cpp:3536
 #, kde-format
 msgid "Starting scan for initial focuser position."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3534
+#: ekos/focus/focus.cpp:3537
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Scanning for starting position..."
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3556
+#: ekos/focus/focus.cpp:3559
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Failed to detect any stars. Aborting..."
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3565
+#: ekos/focus/focus.cpp:3568
 #, kde-format
 msgid "Scan Start Pos: exceeded max iterations %1"
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3583
+#: ekos/focus/focus.cpp:3586
 #, kde-format
 msgid "Scanning for starting position %1/%2"
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3597
+#: ekos/focus/focus.cpp:3600
 #, kde-format
 msgid "No scan minimum - widening search..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3610
+#: ekos/focus/focus.cpp:3613
 #, kde-format
 msgid "Scan Start Position %1 Found"
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3611
+#: ekos/focus/focus.cpp:3614
 #, kde-format
 msgid "Scan Start Position %1 found"
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3680
+#: ekos/focus/focus.cpp:3683
 #, kde-format
 msgid "Curve Fit check failed R2=%1 focusR2Limit=%2 retrying..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3682
+#: ekos/focus/focus.cpp:3685
 #, fuzzy, kde-format
 #| msgctxt "the time at which an object falls below the horizon"
 #| msgid "Set time: %1"
@@ -21040,189 +21041,189 @@ msgid "R2=%1 < Limit=%2"
 msgstr "เวลาตก: %1"
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3690
+#: ekos/focus/focus.cpp:3693
 #, kde-format
 msgid "Curve Fit check failed again R2=%1 focusR2Limit=%2 but continuing..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3700
+#: ekos/focus/focus.cpp:3703
 #, kde-format
 msgid "Linear autofocus algorithm aborted: %1"
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3735
+#: ekos/focus/focus.cpp:3738
 #, kde-format
 msgid "FITS received. HFR %1 @ %2. Delta (%3%)"
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3737
+#: ekos/focus/focus.cpp:3740
 #, kde-format
 msgid "FITS received. HFR %1 @ %2."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3798
+#: ekos/focus/focus.cpp:3801
 #, kde-format
 msgid "Change in HFR is too small. Try increasing the step size or decreasing the tolerance."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3805
+#: ekos/focus/focus.cpp:3808
 #, kde-format
 msgid "Failed to detect focus star in frame. Capture and select a focus star."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3910
+#: ekos/focus/focus.cpp:3913
 #, kde-format
 msgid "Found polynomial solution @ %1"
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3974
+#: ekos/focus/focus.cpp:3977
 #, kde-format
 msgid "Focuser cannot move further, device limits reached. Autofocus aborted."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3985
+#: ekos/focus/focus.cpp:3988
 #, kde-format
 msgid "Unstable fluctuations. Try increasing initial step size or exposure time."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:3995
+#: ekos/focus/focus.cpp:3998
 #, kde-format
 msgid "Deadlock reached. Please try again with different settings."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:4024
+#: ekos/focus/focus.cpp:4027
 #, kde-format
 msgid "Maximum travel limit reached. Autofocus aborted."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:4131
+#: ekos/focus/focus.cpp:4134
 #, kde-format
 msgid "FITS received. HFR %1. Delta (%2%) Min HFR (%3)"
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:4135
+#: ekos/focus/focus.cpp:4138
 #, kde-format
 msgid "Autofocus failed to reach proper focus. Try adjusting the tolerance value."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:4249 ekos/focus/focus.cpp:4272
-#: ekos/focus/focus.cpp:4457 ekos/focus/focus.cpp:4550
-#: ekos/focus/focus.cpp:4632 ekos/focus/focus.cpp:4717
+#: ekos/focus/focus.cpp:4252 ekos/focus/focus.cpp:4275
+#: ekos/focus/focus.cpp:4460 ekos/focus/focus.cpp:4553
+#: ekos/focus/focus.cpp:4635 ekos/focus/focus.cpp:4720
 #, kde-format
 msgid "Focuser error, check INDI panel."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:4333 ekos/focus/focus.cpp:4473
+#: ekos/focus/focus.cpp:4336 ekos/focus/focus.cpp:4476
 #, kde-format
 msgid "Simulate focuser comms failure..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:4434 ekos/focus/focus.cpp:4531
-#: ekos/focus/focus.cpp:4613 ekos/focus/focus.cpp:4654
+#: ekos/focus/focus.cpp:4437 ekos/focus/focus.cpp:4534
+#: ekos/focus/focus.cpp:4616 ekos/focus/focus.cpp:4657
 #, kde-format
 msgid "Restarting autofocus process..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:4758
+#: ekos/focus/focus.cpp:4761
 #, kde-format
 msgid "Starting continuous exposure..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5087
+#: ekos/focus/focus.cpp:5090
 #, kde-format
 msgid "Disabling Auto Star Selection as star selection box was moved manually."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5093
+#: ekos/focus/focus.cpp:5096
 #, fuzzy, kde-format
 #| msgid "Info Box Selected"
 msgid "Focus star is selected."
 msgstr "กล่องข้อมูลที่เลือก"
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5095
+#: ekos/focus/focus.cpp:5098
 #, fuzzy, kde-format
 #| msgid "Info Box Selected"
 msgid "Region of interest is selected."
 msgstr "กล่องข้อมูลที่เลือก"
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5115
+#: ekos/focus/focus.cpp:5118
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgid "Autofocus"
 msgstr "ลบป้ายชื่อ"
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5123
+#: ekos/focus/focus.cpp:5126
 #, kde-format
 msgid "Check focus request - Waiting 10sec for %1 to complete."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5131
+#: ekos/focus/focus.cpp:5134
 #, kde-format
 msgid "Discarding Check Focus request - %1 in progress."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5144
+#: ekos/focus/focus.cpp:5147
 #, kde-format
 msgid "Check Focus ignored - Star Measure must be star based"
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5149
+#: ekos/focus/focus.cpp:5152
 #, fuzzy, kde-format
 #| msgid "Star Name"
 msgid "Capturing to check HFR..."
 msgstr "ชื่อดาว"
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5279
+#: ekos/focus/focus.cpp:5282
 #, kde-format
 msgid "No star was selected. Using last known position..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5285
+#: ekos/focus/focus.cpp:5288
 #, kde-format
 msgid "No star was selected. Aborting..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5296
+#: ekos/focus/focus.cpp:5299
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Focuser already at %1..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5395
+#: ekos/focus/focus.cpp:5398
 #, kde-format
 msgid "Adjust focus request - Waiting 10sec for %1 to complete."
 msgstr ""
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5429
+#: ekos/focus/focus.cpp:5432
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgctxt "@title:window"
@@ -21230,21 +21231,21 @@ msgid "Focus Frame"
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5825
+#: ekos/focus/focus.cpp:5828
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Failed to save image. Aborting..."
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:5840 ekos/focus/focus.cpp:5865
+#: ekos/focus/focus.cpp:5843 ekos/focus/focus.cpp:5868
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Exposure failure. Aborting..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/focus/focus.cpp:6157
+#: ekos/focus/focus.cpp:6160
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgctxt "@title:window"
@@ -22732,7 +22733,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QComboBox, focusAlgorithm)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:373
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Select focus process algorithm:</p>"
@@ -22936,7 +22937,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5
-#: ekos/focus/opsfocusprocess.ui:780
+#: ekos/focus/opsfocusprocess.ui:783
 #, fuzzy, kde-format
 #| msgid "Invalid Save Location"
 msgid "Outlier Rejection:"
@@ -22944,7 +22945,7 @@ msgstr "ที่ตั้งการบันทึกไม่ถูกต้
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, focusOutlierRejection)
 #. +> trunk5
-#: ekos/focus/opsfocusprocess.ui:796
+#: ekos/focus/opsfocusprocess.ui:802
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -22955,7 +22956,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, focusScanStartPos)
 #. +> trunk5
-#: ekos/focus/opsfocusprocess.ui:821
+#: ekos/focus/opsfocusprocess.ui:827
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -22965,7 +22966,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, focusScanStartPos)
 #. +> trunk5
-#: ekos/focus/opsfocusprocess.ui:824
+#: ekos/focus/opsfocusprocess.ui:830
 #, fuzzy, kde-format
 #| msgid "Invalid Save Location"
 msgid "Scan for Start Position"
@@ -22973,7 +22974,7 @@ msgstr "ที่ตั้งการบันทึกไม่ถูกต้
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk5
-#: ekos/focus/opsfocusprocess.ui:848
+#: ekos/focus/opsfocusprocess.ui:857
 #, fuzzy, kde-format
 #| msgctxt "the time at which an object falls below the horizon"
 #| msgid "Set time: %1"
@@ -22982,35 +22983,35 @@ msgstr "เวลาตก: %1"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, focusScanStepSizeFactor)
 #. +> trunk5
-#: ekos/focus/opsfocusprocess.ui:861
+#: ekos/focus/opsfocusprocess.ui:873
 #, kde-format
 msgid "Scan for Start Position uses a step size = Initial Step Size multiplied by Initial Step Size x."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, focusScanAlwaysOn)
 #. +> trunk5
-#: ekos/focus/opsfocusprocess.ui:883
+#: ekos/focus/opsfocusprocess.ui:898
 #, kde-format
 msgid "Check to always run Scan for Start Position, uncheck to only run after a failed Autofocus."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, focusScanAlwaysOn)
 #. +> trunk5
-#: ekos/focus/opsfocusprocess.ui:886
+#: ekos/focus/opsfocusprocess.ui:901
 #, kde-format
 msgid "Always On"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk5
-#: ekos/focus/opsfocusprocess.ui:902
+#: ekos/focus/opsfocusprocess.ui:920
 #, kde-format
 msgid "Num Datapoints:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, focusScanDatapoints)
 #. +> trunk5
-#: ekos/focus/opsfocusprocess.ui:915
+#: ekos/focus/opsfocusprocess.ui:936
 #, kde-format
 msgid "The number of datapoints to use during Scan for Start Position."
 msgstr ""
@@ -23206,7 +23207,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QRadioButton, focusRingMaskRB)
 #. +> trunk5
 #: ekos/focus/opsfocussettings.ui:311
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>During Full Field focusing, this controls the size of an Annulus centred at the middle of the sensor to include for processing. Set inner % to zero to include the centre of the sensor and set outer % to 100 to include the outer edges of the sensor. </p>"
@@ -23274,7 +23275,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, focusFullFieldOuterRadius)
 #. +> trunk5
 #: ekos/focus/opsfocussettings.ui:449
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Diameter of the outer circle to be excluded from focusing. The diameter is given as percentage of the image diagonal. Set to 100% to include the outer edges of the sensor. </p>"
@@ -23822,250 +23823,250 @@ msgid "Error: lost connection to CCD."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1003
+#: ekos/guide/guide.cpp:1004
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Exposure timeout, but suspended. Ignoring..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1031
+#: ekos/guide/guide.cpp:1032
 #, kde-format
 msgid "Exposure timeout. Aborting Autoguide."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1033
+#: ekos/guide/guide.cpp:1034
 #, kde-format
 msgid "Exposure timeout. Aborting Dithering."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1035
+#: ekos/guide/guide.cpp:1036
 #, kde-format
 msgid "Exposure timeout. Aborting Calibration."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1044
+#: ekos/guide/guide.cpp:1045
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Exposure timeout. Too many. Restarting driver."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1314
+#: ekos/guide/guide.cpp:1315
 #, kde-format
 msgid "No camera detected. Check camera in optical trains."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1320
+#: ekos/guide/guide.cpp:1321
 #, kde-format
 msgid "No guider detected. Check guide-via in optical trains."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1401
+#: ekos/guide/guide.cpp:1402
 #, kde-format
 msgid "The mount is parked. Unpark to start guiding."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1504
+#: ekos/guide/guide.cpp:1505
 #, kde-format
 msgid "Pier side change detected. Clearing calibration."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1518
+#: ekos/guide/guide.cpp:1519
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Mount is moving. Resetting calibration..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1535
+#: ekos/guide/guide.cpp:1536
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Mount is parking. Aborting guide..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1537
+#: ekos/guide/guide.cpp:1538
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Mount is slewing. Aborting guide..."
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1600
+#: ekos/guide/guide.cpp:1601
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Calibration is cleared."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1628
+#: ekos/guide/guide.cpp:1629
 #, kde-format
 msgid "External guider connected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1646
+#: ekos/guide/guide.cpp:1647
 #, kde-format
 msgid "External guider disconnected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1663
+#: ekos/guide/guide.cpp:1664
 #, kde-format
 msgid "Calibration completed."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1681
+#: ekos/guide/guide.cpp:1682
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Calibration started."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1688
+#: ekos/guide/guide.cpp:1689
 #, kde-format
 msgid "Guiding resumed."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1691
+#: ekos/guide/guide.cpp:1692
 #, kde-format
 msgid "Autoguiding running."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1703
+#: ekos/guide/guide.cpp:1704
 #, kde-format
 msgid "Autoguiding aborted."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1708
+#: ekos/guide/guide.cpp:1709
 #, kde-format
 msgid "Guiding suspended."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1717
+#: ekos/guide/guide.cpp:1718
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Manual dithering in progress."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1721
+#: ekos/guide/guide.cpp:1722
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Dithering in progress."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1725
+#: ekos/guide/guide.cpp:1726
 #, kde-format
 msgid "Post-dither settling for %1 second..."
 msgid_plural "Post-dither settling for %1 seconds..."
 msgstr[0] ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1730
+#: ekos/guide/guide.cpp:1731
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Dithering failed."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1741
+#: ekos/guide/guide.cpp:1742
 #, kde-format
 msgid "Dithering completed successfully."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1790
+#: ekos/guide/guide.cpp:1791
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "%1x%1 guide binning is not supported."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1812
+#: ekos/guide/guide.cpp:1813
 #, kde-format
 msgid "Exposure failed. Restarting exposure..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:1938
+#: ekos/guide/guide.cpp:1939
 #, kde-format
 msgid "Cannot change guider type while active."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:2033
+#: ekos/guide/guide.cpp:2034
 #, kde-format
 msgid "Warning: Reset Guiding Calibration is enabled. It is recommended to turn this option off for PHD2."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:2440
+#: ekos/guide/guide.cpp:2441
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Calibration failed to start."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:2591
+#: ekos/guide/guide.cpp:2592
 #, fuzzy, kde-format
 #| msgid "Info Box Selected"
 msgid "Auto star selected."
 msgstr "กล่องข้อมูลที่เลือก"
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:2595
+#: ekos/guide/guide.cpp:2596
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Failed to select an auto star."
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:2604
+#: ekos/guide/guide.cpp:2605
 #, kde-format
 msgid "Select a guide star to calibrate."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:2866
+#: ekos/guide/guide.cpp:2867
 #, kde-format
 msgid "dx (pixels)"
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:2867
+#: ekos/guide/guide.cpp:2868
 #, kde-format
 msgid "dy (pixels)"
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:3010 ekos/guide/guide.cpp:3138
+#: ekos/guide/guide.cpp:3011 ekos/guide/guide.cpp:3139
 #, kde-format
 msgid "The PHD2 camera is not available to Ekos, so you cannot see the captured images.  But you will still see the Guide Star Image when you guide."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:3014 ekos/guide/guide.cpp:3142
+#: ekos/guide/guide.cpp:3015 ekos/guide/guide.cpp:3143
 #, kde-format
 msgid "To receive PHD2 images other than the Guide Star Image, SubFrame must be unchecked.  Unchecking it now to enable your image captures.  You can re-enable it before Guiding"
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/guide.cpp:3309
+#: ekos/guide/guide.cpp:3310
 #, kde-format
 msgid "Cannot change active optical train while PHD2 is connected"
 msgstr ""
@@ -26155,7 +26156,7 @@ msgid "Use dedicated Guiding Chip for Guiding"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:232
+#: ekos/manager.cpp:247
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgctxt "@title:window"
@@ -26163,200 +26164,200 @@ msgid "Ekos - %1 Profile"
 msgstr "ลบป้ายชื่อ"
 
 #. +> trunk5
-#: ekos/manager.cpp:242
+#: ekos/manager.cpp:257
 #, kde-format
 msgid "Connection in progress. Click to abort."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:265
+#: ekos/manager.cpp:280
 #, kde-format
 msgid "Logging"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, analyzeTab)
 #. +> trunk5
-#: ekos/manager.cpp:376 ekos/opsekos.ui:174
+#: ekos/manager.cpp:391 ekos/opsekos.ui:174
 #, kde-format
 msgid "Analyze"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:391
+#: ekos/manager.cpp:406
 #, kde-format
 msgid "Extension '%1' failed to start, aborting"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:405
+#: ekos/manager.cpp:420
 #, kde-format
 msgid "Extension '%1' failed to stop, abort enabled"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:414
+#: ekos/manager.cpp:429
 #, kde-format
 msgid "Extension '%1' aborting"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:424
+#: ekos/manager.cpp:439
 #, kde-format
 msgid "Extension '%1' start requested"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:429
+#: ekos/manager.cpp:444
 #, kde-format
 msgid "Extension '%1' started"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:437
+#: ekos/manager.cpp:452
 #, kde-format
 msgid "Extension '%1' stop requested"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:442
+#: ekos/manager.cpp:457
 #, fuzzy, kde-format
 #| msgid "End Session"
 msgid "Extension '%1' stopped"
 msgstr "จบวาระ"
 
 #. +> trunk5
-#: ekos/manager.cpp:458
+#: ekos/manager.cpp:473
 #, kde-format
 msgid "Extension '%1': %2"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:817
+#: ekos/manager.cpp:834
 #, kde-format
 msgctxt "@title:window"
 msgid "Ekos"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1029 ekos/manager.cpp:1055
+#: ekos/manager.cpp:982 ekos/manager.cpp:1007
 #, kde-format
-msgid "Ekos requires at least one CCD or Guider to operate."
+msgid "Ekos requires at least one Camera to operate."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1118
+#: ekos/manager.cpp:1070
 #, kde-format
 msgid "Ekos detected that PTP Camera is running and may prevent a Canon or Nikon camera from connecting to Ekos. Do you want to quit PTP Camera now?"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1119
+#: ekos/manager.cpp:1071
 #, kde-format
 msgid "PTP Camera"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1133
+#: ekos/manager.cpp:1085
 #, kde-format
 msgid "Starting INDI services..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1164
+#: ekos/manager.cpp:1116
 #, kde-format
 msgid "Ekos detected an instance of INDI server running. Do you wish to shut down the existing instance before starting a new one?"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, indiServerGroup)
 #. +> trunk5
-#: ekos/manager.cpp:1166 indi/opsindi.ui:248
+#: ekos/manager.cpp:1118 indi/opsindi.ui:248
 #, kde-format
 msgid "INDI Server"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1181
+#: ekos/manager.cpp:1133
 #, kde-format
 msgid "Connecting to remote INDI server at %1 on port %2 ..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1201
+#: ekos/manager.cpp:1153
 #, kde-format
 msgid "Failed to start profile on remote INDI Web Manager."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1205
+#: ekos/manager.cpp:1157
 #, kde-format
 msgid "Starting profile on remote INDI Web Manager..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1218
+#: ekos/manager.cpp:1170
 #, kde-format
 msgid "Establishing communication with remote INDI Web Manager..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1238
+#: ekos/manager.cpp:1190
 #, kde-format
 msgid "Warning: INDI Web Manager is not online."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1275
+#: ekos/manager.cpp:1227
 #, kde-format
 msgid "INDI services started on port %1."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1278
+#: ekos/manager.cpp:1230
 #, kde-format
 msgid "INDI services started on port %1. Please connect devices."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1283
+#: ekos/manager.cpp:1235
 #, kde-format
 msgid "INDI services started. Connection to remote INDI server %1:%2 is successful. Waiting for devices..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1314
+#: ekos/manager.cpp:1266
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Failed to connect to local INDI server %1:%2"
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/manager.cpp:1316
+#: ekos/manager.cpp:1268
 #, fuzzy, kde-format
 #| msgid "Could not download the file."
 msgid "Failed to connect to remote INDI server %1:%2"
 msgstr "ไม่สามารถดาวน์โหลดแฟ้มได้"
 
 #. +> trunk5
-#: ekos/manager.cpp:1329
+#: ekos/manager.cpp:1281
 #, kde-format
 msgid "Lost connection to local INDI server %1:%2"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1331
+#: ekos/manager.cpp:1283
 #, fuzzy, kde-format
 #| msgid "Could not download the file."
 msgid "Lost connection to remote INDI server %1:%2"
 msgstr "ไม่สามารถดาวน์โหลดแฟ้มได้"
 
 #. +> trunk5
-#: ekos/manager.cpp:1394
+#: ekos/manager.cpp:1346
 #, kde-format
 msgid "Failed to connect to %1. Please ensure device is connected and powered on."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1396
+#: ekos/manager.cpp:1348
 #, kde-format
 msgid ""
 "Failed to connect to \n"
@@ -26365,7 +26366,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1424
+#: ekos/manager.cpp:1376
 #, kde-format
 msgid ""
 "Unable to establish:\n"
@@ -26374,14 +26375,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1428 ekos/manager.cpp:1436 ekos/manager.cpp:1466
-#: ekos/manager.cpp:1474
+#: ekos/manager.cpp:1380 ekos/manager.cpp:1388 ekos/manager.cpp:1421
+#: ekos/manager.cpp:1429
 #, kde-format
 msgid "Ekos startup error"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1432
+#: ekos/manager.cpp:1384
 #, kde-format
 msgid ""
 "Unable to establish the following devices:\n"
@@ -26390,7 +26391,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1462
+#: ekos/manager.cpp:1417
 #, kde-format
 msgid ""
 "Unable to remotely establish:\n"
@@ -26399,7 +26400,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1470
+#: ekos/manager.cpp:1425
 #, kde-format
 msgid ""
 "Unable to remotely establish the following devices:\n"
@@ -26408,38 +26409,38 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1528
+#: ekos/manager.cpp:1483
 #, kde-format
 msgid "Connecting INDI devices..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1539
+#: ekos/manager.cpp:1494
 #, kde-format
 msgid "Disconnecting INDI devices..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1578
+#: ekos/manager.cpp:1533
 #, kde-format
 msgid "INDI services stopped."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1653
+#: ekos/manager.cpp:1593
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgid "Remote devices established."
 msgstr "ลบป้ายชื่อ"
 
 #. +> trunk5
-#: ekos/manager.cpp:1655
+#: ekos/manager.cpp:1595
 #, kde-format
 msgid "Remote devices established. Please connect devices."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1719
+#: ekos/manager.cpp:1659
 #, kde-format
 msgid ""
 "%1 failed to connect.\n"
@@ -26447,38 +26448,38 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1726
+#: ekos/manager.cpp:1666
 #, kde-format
 msgid "%1 is disconnected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1747 ekos/manager.cpp:1756 ekos/manager.cpp:1789
+#: ekos/manager.cpp:1687 ekos/manager.cpp:1696 ekos/manager.cpp:1729
 #: indi/indistd.cpp:716
 #, kde-format
 msgid "%1 is online."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1764
+#: ekos/manager.cpp:1704
 #, kde-format
 msgid "%1 filter is online."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1773
+#: ekos/manager.cpp:1713
 #, kde-format
 msgid "%1 focuser is online."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1780
+#: ekos/manager.cpp:1720
 #, kde-format
 msgid "Rotator %1 is online."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:1796
+#: ekos/manager.cpp:1736
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -26486,7 +26487,7 @@ msgid "%1 Weather is online."
 msgstr "แสดงภาพ DSS"
 
 #. +> trunk5
-#: ekos/manager.cpp:1803
+#: ekos/manager.cpp:1743
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -26494,7 +26495,7 @@ msgid "%1 GPS is online."
 msgstr "แสดงภาพ DSS"
 
 #. +> trunk5
-#: ekos/manager.cpp:1812
+#: ekos/manager.cpp:1752
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -26502,7 +26503,7 @@ msgid "%1 Dust cap is online."
 msgstr "แสดงภาพ DSS"
 
 #. +> trunk5
-#: ekos/manager.cpp:1819
+#: ekos/manager.cpp:1759
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -26510,86 +26511,86 @@ msgid "%1 Light box is online."
 msgstr "แสดงภาพ DSS"
 
 #. +> trunk5
-#: ekos/manager.cpp:1971
+#: ekos/manager.cpp:1911
 #, kde-format
 msgid "%1 is offline."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:2210
+#: ekos/manager.cpp:2150
 #, kde-format
 msgctxt "Charge-Coupled Device"
 msgid "CCD"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:2594
+#: ekos/manager.cpp:2534
 #, kde-format
 msgid "Guider port from %1 is ready."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:2783
+#: ekos/manager.cpp:2723
 #, kde-format
 msgid "Are you sure you want to delete the profile?"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:2784
+#: ekos/manager.cpp:2724
 #, kde-format
 msgid "Confirm Delete"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:2836
+#: ekos/manager.cpp:2776
 #, kde-format
 msgid "Site location updated to %1."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:2838
+#: ekos/manager.cpp:2778
 #, kde-format
 msgid "Failed to update site location to %1. City not found."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:3111
+#: ekos/manager.cpp:3051
 #, kde-format
 msgid "Enabling debug logging for %1..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:3119
+#: ekos/manager.cpp:3059
 #, kde-format
 msgid "Disabling debug logging for %1..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:3147
+#: ekos/manager.cpp:3087
 #, kde-format
 msgid "Re-enabling debug logging for %1..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:3159
+#: ekos/manager.cpp:3099
 #, kde-format
 msgid "Re-disabling debug logging for %1..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:3884
+#: ekos/manager.cpp:3824
 #, kde-format
 msgid "Preview source set to external"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:3891
+#: ekos/manager.cpp:3831
 #, kde-format
 msgid "Preview source reset to internal"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager.cpp:3898
+#: ekos/manager.cpp:3838
 #, kde-format
 msgid "Received external preview file"
 msgstr ""
@@ -26833,80 +26834,80 @@ msgid "guide star"
 msgstr "ลบป้ายชื่อ"
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:133
+#: ekos/manager/meridianflipstate.cpp:139
 #, fuzzy, kde-format
 #| msgid "Solar System"
 msgid "Meridian flip inactive (no scope connected)"
 msgstr "ระบบสุริยะ"
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:140
+#: ekos/manager/meridianflipstate.cpp:146
 #, fuzzy, kde-format
 #| msgid "Solar System"
 msgid "Meridian flip inactive (flip not requested)"
 msgstr "ระบบสุริยะ"
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:147
-#: ekos/manager/meridianflipstate.cpp:548
+#: ekos/manager/meridianflipstate.cpp:153
+#: ekos/manager/meridianflipstate.cpp:554
 #, fuzzy, kde-format
 #| msgid "Next Target >"
 msgid "Meridian flip inactive (parked)"
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:153
+#: ekos/manager/meridianflipstate.cpp:159
 #, fuzzy, kde-format
 #| msgid "Solar System"
 msgid "Meridian flip inactive (no target set)"
 msgstr "ระบบสุริยะ"
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:192
+#: ekos/manager/meridianflipstate.cpp:198
 #, kde-format
 msgid "Meridian flip inactive (slew after meridian)"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:208
+#: ekos/manager/meridianflipstate.cpp:214
 #, fuzzy, kde-format
 #| msgid "Next Target >"
 msgid "Meridian flip in %1"
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:259
+#: ekos/manager/meridianflipstate.cpp:265
 #, kde-format
 msgid "Assuming meridian flip completed, but pier side unknown."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:283
+#: ekos/manager/meridianflipstate.cpp:289
 #, kde-format
 msgid "meridian flip failed, retrying in 4 minutes"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:287
+#: ekos/manager/meridianflipstate.cpp:293
 #, kde-format
 msgid "No successful Meridian Flip done, delay too long"
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:294
+#: ekos/manager/meridianflipstate.cpp:300
 #, fuzzy, kde-format
 #| msgid "Next Target >"
 msgid "Meridian flip completed OK."
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:370
+#: ekos/manager/meridianflipstate.cpp:376
 #, kde-format
 msgid "Telescope completed the meridian flip."
 msgstr ""
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:425
+#: ekos/manager/meridianflipstate.cpp:431
 #: ekos/observatory/observatory.cpp:1118 ekos/observatory/observatory.cpp:1129
 #: ekos/observatory/observatoryweathermodel.cpp:159
 #: ekos/observatory/observatoryweathermodel.cpp:183
@@ -26916,35 +26917,35 @@ msgid "Status: inactive"
 msgstr "ระบบสุริยะ"
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:429
+#: ekos/manager/meridianflipstate.cpp:435
 #, fuzzy, kde-format
 #| msgid "Next Target >"
 msgid "Meridian flip planned..."
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:433
+#: ekos/manager/meridianflipstate.cpp:439
 #, fuzzy, kde-format
 #| msgid "Next Target >"
 msgid "Meridian flip waiting..."
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:437
+#: ekos/manager/meridianflipstate.cpp:443
 #, fuzzy, kde-format
 #| msgid "Next Target >"
 msgid "Meridian flip ready to start..."
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:441
+#: ekos/manager/meridianflipstate.cpp:447
 #, fuzzy, kde-format
 #| msgid "Next Target >"
 msgid "Meridian flip running..."
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/manager/meridianflipstate.cpp:445
+#: ekos/manager/meridianflipstate.cpp:451
 #, fuzzy, kde-format
 #| msgid "Next Target >"
 msgid "Meridian flip completed."
@@ -27049,7 +27050,7 @@ msgid "Failed to clear Alignment Model."
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/mount/mount.cpp:1272 ekos/scheduler/schedulerprocess.cpp:4328
+#: ekos/mount/mount.cpp:1272 ekos/scheduler/schedulerprocess.cpp:4330
 #, kde-format
 msgid "Mount already parked."
 msgstr ""
@@ -28211,7 +28212,7 @@ msgid "Set the alternative image directory for Analyze"
 msgstr ""
 
 #. +> trunk5
-#: ekos/profileeditor.cpp:80
+#: ekos/profileeditor.cpp:51
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgctxt "@title:window"
@@ -28219,52 +28220,60 @@ msgid "Profile Editor"
 msgstr "ลบป้ายชื่อ"
 
 #. +> trunk5
-#: ekos/profileeditor.cpp:146
+#: ekos/profileeditor.cpp:117
 #, kde-format
 msgid "Cannot save an empty profile."
 msgstr ""
 
 #. +> trunk5
-#: ekos/profileeditor.cpp:158
+#: ekos/profileeditor.cpp:129
 #, fuzzy, kde-format
 #| msgid "A file named \"%1\" already exists. Overwrite it?"
 msgid "Profile name already exists."
 msgstr "มีแฟ้มชื่อ \"%1\" อยู่แล้ เขียนทับหรือไม่?"
 
 #. +> trunk5
-#: ekos/profileeditor.cpp:532
+#: ekos/profileeditor.cpp:333
 #, kde-format
 msgid "<nobr>Available as <b>Remote</b> Driver. To use locally, install the corresponding driver.<nobr/>"
 msgstr ""
 
 #. +> trunk5
-#: ekos/profileeditor.cpp:534
+#: ekos/profileeditor.cpp:335
 #, kde-format
 msgid "<nobr><b>Label</b>: %1 &#9473; <b>Driver</b>: %2 &#9473; <b>Exec</b>: %3<nobr/>"
 msgstr ""
 
+#. +> trunk5
+#: ekos/profileeditor.cpp:344
+#, fuzzy, kde-format
+#| msgctxt "use default color scheme"
+#| msgid "Default Colors"
+msgid "Drivers"
+msgstr "สีปริยาย"
+
 #. i18n: ectx: property (text), item, widget (QComboBox, guideTypeCombo)
 #. +> trunk5
-#: ekos/profileeditor.cpp:689 ekos/profileeditor.ui:263
+#: ekos/profileeditor.cpp:505 ekos/profileeditor.ui:254
 #, kde-format
 msgid "Internal"
 msgstr ""
 
 #. +> trunk5
-#: ekos/profileeditor.cpp:767
+#: ekos/profileeditor.cpp:703
 #, kde-format
 msgctxt "@title:window"
 msgid "Scanning Network"
 msgstr ""
 
 #. +> trunk5
-#: ekos/profileeditor.cpp:768
+#: ekos/profileeditor.cpp:704
 #, kde-format
 msgid "Scanning network for INDI Web Managers..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/profileeditor.cpp:832
+#: ekos/profileeditor.cpp:768
 #, fuzzy, kde-format
 #| msgid "Star Name"
 msgid "Found INDI Web Manager at %1"
@@ -28298,21 +28307,21 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, portSelectorCheck)
 #. +> trunk5
-#: ekos/profileeditor.ui:91
+#: ekos/profileeditor.ui:88
 #, kde-format
 msgid "Show port selector dialog when first connecting to equipment. It is automatically disabled after connection is established."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, portSelectorCheck)
 #. +> trunk5
-#: ekos/profileeditor.ui:94
+#: ekos/profileeditor.ui:91
 #, kde-format
 msgid "Port Selector"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, loadSiteCheck)
 #. +> trunk5
-#: ekos/profileeditor.ui:110
+#: ekos/profileeditor.ui:107
 #, kde-format
 msgid ""
 "<html><head/><body>\n"
@@ -28325,7 +28334,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, loadSiteCheck)
 #. +> trunk5
-#: ekos/profileeditor.ui:113
+#: ekos/profileeditor.ui:110
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgid "Site Info"
@@ -28338,8 +28347,8 @@ msgstr "ลบป้ายชื่อ"
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. +> trunk5
-#: ekos/profileeditor.ui:127 ekos/profileeditor.ui:307
-#: ekos/profileeditor.ui:346 ekos/profilewizard.ui:526
+#: ekos/profileeditor.ui:124 ekos/profileeditor.ui:298
+#: ekos/profileeditor.ui:334 ekos/profilewizard.ui:526
 #: ekos/profilewizard.ui:718 indi/indihostconf.ui:40
 #, kde-format
 msgid "Port:"
@@ -28347,7 +28356,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, externalGuidePort)
 #. +> trunk5
-#: ekos/profileeditor.ui:146
+#: ekos/profileeditor.ui:140
 #, kde-format
 msgid ""
 "<html><body>"
@@ -28357,7 +28366,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, modeLabel)
 #. +> trunk5
-#: ekos/profileeditor.ui:157
+#: ekos/profileeditor.ui:151
 #, kde-format
 msgid ""
 "<html><head/><body>\n"
@@ -28374,7 +28383,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, modeLabel)
 #. +> trunk5
-#: ekos/profileeditor.ui:160
+#: ekos/profileeditor.ui:154
 #, kde-format
 msgid "Mode:"
 msgstr ""
@@ -28385,7 +28394,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. +> trunk5
-#: ekos/profileeditor.ui:170 ekos/profileeditor.ui:378
+#: ekos/profileeditor.ui:164 ekos/profileeditor.ui:363
 #: ekos/profilewizard.ui:512 ekos/profilewizard.ui:691 indi/indihostconf.ui:30
 #, kde-format
 msgid "Host:"
@@ -28393,7 +28402,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, openWebManagerB)
 #. +> trunk5
-#: ekos/profileeditor.ui:189
+#: ekos/profileeditor.ui:180
 #, kde-format
 msgid ""
 "<html><body>"
@@ -28403,7 +28412,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, openWebManagerB)
 #. +> trunk5
-#: ekos/profileeditor.ui:192
+#: ekos/profileeditor.ui:183
 #, fuzzy, kde-format
 #| msgid "Star Name"
 msgid "Web Manager"
@@ -28411,7 +28420,7 @@ msgstr "ชื่อดาว"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, scanB)
 #. +> trunk5
-#: ekos/profileeditor.ui:208
+#: ekos/profileeditor.ui:199
 #, kde-format
 msgid ""
 "<html><body>"
@@ -28421,14 +28430,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, scanB)
 #. +> trunk5
-#: ekos/profileeditor.ui:211
+#: ekos/profileeditor.ui:202
 #, kde-format
 msgid "Scan"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, INDIWebManagerPort)
 #. +> trunk5
-#: ekos/profileeditor.ui:236
+#: ekos/profileeditor.ui:227
 #, kde-format
 msgid ""
 "<html><body>"
@@ -28438,14 +28447,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, INDIWebManagerPort)
 #. +> trunk5
-#: ekos/profileeditor.ui:239
+#: ekos/profileeditor.ui:230
 #, kde-format
 msgid "8624"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, localMode)
 #. +> trunk5
-#: ekos/profileeditor.ui:246
+#: ekos/profileeditor.ui:237
 #, kde-format
 msgid "&Local"
 msgstr ""
@@ -28453,14 +28462,14 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, guideTypeCombo)
 #. i18n: ectx: property (text), widget (QRadioButton, usePHD2R)
 #. +> trunk5
-#: ekos/profileeditor.ui:268 ekos/profilewizard.ui:978
+#: ekos/profileeditor.ui:259 ekos/profilewizard.ui:978
 #, kde-format
 msgid "PHD2"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, guideTypeCombo)
 #. +> trunk5
-#: ekos/profileeditor.ui:273
+#: ekos/profileeditor.ui:264
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgid "LinGuider"
@@ -28468,7 +28477,7 @@ msgstr "ลบป้ายชื่อ"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, guidingTypeLabel)
 #. +> trunk5
-#: ekos/profileeditor.ui:281
+#: ekos/profileeditor.ui:272
 #, kde-format
 msgid ""
 "<html><body>"
@@ -28478,7 +28487,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, guidingTypeLabel)
 #. +> trunk5
-#: ekos/profileeditor.ui:284
+#: ekos/profileeditor.ui:275
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -28487,7 +28496,7 @@ msgstr "แสดงภาพ DSS"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, INDIWebManagerCheck)
 #. +> trunk5
-#: ekos/profileeditor.ui:294
+#: ekos/profileeditor.ui:285
 #, kde-format
 msgid ""
 "<html><body>"
@@ -28497,7 +28506,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, INDIWebManagerCheck)
 #. +> trunk5
-#: ekos/profileeditor.ui:297
+#: ekos/profileeditor.ui:288
 #, fuzzy, kde-format
 #| msgid "Star Name"
 msgid "INDI Web Manager"
@@ -28505,7 +28514,7 @@ msgstr "ชื่อดาว"
 
 #. i18n: ectx: property (text), widget (QRadioButton, remoteMode)
 #. +> trunk5
-#: ekos/profileeditor.ui:317
+#: ekos/profileeditor.ui:305
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgid "Re&mote"
@@ -28513,7 +28522,7 @@ msgstr "ลบป้ายชื่อ"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, remoteHost)
 #. +> trunk5
-#: ekos/profileeditor.ui:333
+#: ekos/profileeditor.ui:321
 #, kde-format
 msgid ""
 "<html><body>"
@@ -28523,7 +28532,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, externalGuideHost)
 #. +> trunk5
-#: ekos/profileeditor.ui:365
+#: ekos/profileeditor.ui:350
 #, kde-format
 msgid ""
 "<html><body>"
@@ -28533,14 +28542,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, externalGuideHost)
 #. +> trunk5
-#: ekos/profileeditor.ui:368
+#: ekos/profileeditor.ui:353
 #, kde-format
 msgid "localhost"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, remotePort)
 #. +> trunk5
-#: ekos/profileeditor.ui:397
+#: ekos/profileeditor.ui:379
 #, kde-format
 msgid ""
 "<html><body>"
@@ -28552,7 +28561,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLineEdit, remotePortEdit)
 #. i18n: ectx: property (text), widget (QLineEdit, PiPort)
 #. +> trunk5
-#: ekos/profileeditor.ui:400 ekos/profilewizard.ui:533
+#: ekos/profileeditor.ui:382 ekos/profilewizard.ui:533
 #: ekos/profilewizard.ui:725
 #, kde-format
 msgid "7624"
@@ -28560,68 +28569,31 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, driversGroupBox)
 #. +> trunk5
-#: ekos/profileeditor.ui:412
+#: ekos/profileeditor.ui:394
 #, fuzzy, kde-format
 #| msgid "Solar system object"
 msgid "Select Devices"
 msgstr "วัตถุระบบสุริยะ"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, aux3Label)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, driverSearchEdit)
 #. +> trunk5
-#: ekos/profileeditor.ui:418
+#: ekos/profileeditor.ui:422
 #, fuzzy, kde-format
-#| msgid "Remove Label"
-msgid "Auxiliary #3"
-msgstr "ลบป้ายชื่อ"
+#| msgid "Star Name"
+msgid "Driver Search"
+msgstr "ชื่อดาว"
 
-#. i18n: ectx: property (text), widget (QLabel, aux3Label)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, profileSearchEdit)
 #. +> trunk5
-#: ekos/profileeditor.ui:421
-#, kde-format
-msgid "Aux 3:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QLabel, aux4Label)
-#. +> trunk5
-#: ekos/profileeditor.ui:428
+#: ekos/profileeditor.ui:546
 #, fuzzy, kde-format
-#| msgid "Remove Label"
-msgid "Auxiliary #4"
-msgstr "ลบป้ายชื่อ"
-
-#. i18n: ectx: property (text), widget (QLabel, aux4Label)
-#. +> trunk5
-#: ekos/profileeditor.ui:431
-#, kde-format
-msgid "Aux 4:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#. +> trunk5
-#: ekos/profileeditor.ui:438
-#, fuzzy, kde-format
-#| msgid "Remove Label"
-msgid "Camera 2:"
-msgstr "ลบป้ายชื่อ"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, aux1Label)
-#. +> trunk5
-#: ekos/profileeditor.ui:445
-#, fuzzy, kde-format
-#| msgid "Remove Label"
-msgid "Auxiliary #1"
-msgstr "ลบป้ายชื่อ"
-
-#. i18n: ectx: property (text), widget (QLabel, aux1Label)
-#. +> trunk5
-#: ekos/profileeditor.ui:448
-#, kde-format
-msgid "Aux 1:"
-msgstr ""
+#| msgid "To file..."
+msgid "Profile Search"
+msgstr "ไปยังแฟ้ม..."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, remoteDriversLabel)
 #. +> trunk5
-#: ekos/profileeditor.ui:455
+#: ekos/profileeditor.ui:595
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -28639,69 +28611,9 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, domeLabel)
-#. +> trunk5
-#: ekos/profileeditor.ui:478
-#, fuzzy, kde-format
-#| msgid "Invalid Save Location"
-msgid "Dome Controller"
-msgstr "ที่ตั้งการบันทึกไม่ถูกต้อง"
-
-#. i18n: ectx: property (text), widget (QLabel, domeLabel)
-#. +> trunk5
-#: ekos/profileeditor.ui:481
-#, kde-format
-msgid "Dome:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, AOLabel)
-#. +> trunk5
-#: ekos/profileeditor.ui:517
-#, kde-format
-msgid "AO:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QLabel, aux2Label)
-#. +> trunk5
-#: ekos/profileeditor.ui:550
-#, fuzzy, kde-format
-#| msgid "Remove Label"
-msgid "Auxiliary #2"
-msgstr "ลบป้ายชื่อ"
-
-#. i18n: ectx: property (text), widget (QLabel, aux2Label)
-#. +> trunk5
-#: ekos/profileeditor.ui:553
-#, kde-format
-msgid "Aux 2:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#. +> trunk5
-#: ekos/profileeditor.ui:599
-#, fuzzy, kde-format
-#| msgid "Remove Label"
-msgid "Camera 1:"
-msgstr "ลบป้ายชื่อ"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, weatherLabel)
-#. +> trunk5
-#: ekos/profileeditor.ui:669
-#, kde-format
-msgid "Weather Station"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, weatherLabel)
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. +> trunk5
-#: ekos/profileeditor.ui:672 oal/execute.ui:65
-#, kde-format
-msgid "Weather:"
-msgstr ""
-
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, remoteDrivers)
 #. +> trunk5
-#: ekos/profileeditor.ui:692
+#: ekos/profileeditor.ui:605
 #, kde-format
 msgid "driver@host:port,driver@host,@host:port,@host,driver"
 msgstr ""
@@ -29253,25 +29165,9 @@ msgid ""
 "Select Devices"
 msgstr "วัตถุระบบสุริยะ"
 
-#. +> trunk5
-#: ekos/scheduler/framingassistant.cpp:538
-#: ekos/scheduler/framingassistantui.cpp:562
-#, fuzzy, kde-format
-#| msgid "Add to Observing WishList"
-msgid " Scheduler job"
-msgid_plural " Scheduler jobs"
-msgstr[0] "เพิ่มเข้ารายการตั้งใจจะสังเกต"
-
-#. +> trunk5
-#: ekos/scheduler/framingassistant.cpp:540
-#: ekos/scheduler/framingassistantui.cpp:564
-#, kde-format
-msgid " (first only)"
-msgstr ""
-
 #. i18n: ectx: property (windowTitle), widget (QDialog, FramingAssistant)
 #. +> trunk5
-#: ekos/scheduler/framingassistant.ui:14 ekos/scheduler/mosaicplanner.cpp:31
+#: ekos/scheduler/framingassistant.ui:14
 #, kde-format
 msgid "Mosaic Planner"
 msgstr ""
@@ -30068,27 +29964,41 @@ msgid "Create scheduler jobs to execute the mosaic plan"
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/framingassistantui.cpp:238 fitsviewer/fitsview.cpp:749
+#: ekos/scheduler/framingassistantui.cpp:229 fitsviewer/fitsview.cpp:749
 #, kde-format
 msgctxt "%1 is the value, % is the percent sign"
 msgid "%1%"
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/framingassistantui.cpp:713 ekos/scheduler/scheduler.cpp:784
+#: ekos/scheduler/framingassistantui.cpp:601
+#, fuzzy, kde-format
+#| msgid "Add to Observing WishList"
+msgid " Scheduler job"
+msgid_plural " Scheduler jobs"
+msgstr[0] "เพิ่มเข้ารายการตั้งใจจะสังเกต"
+
+#. +> trunk5
+#: ekos/scheduler/framingassistantui.cpp:603
+#, kde-format
+msgid " (first only)"
+msgstr ""
+
+#. +> trunk5
+#: ekos/scheduler/framingassistantui.cpp:740 ekos/scheduler/scheduler.cpp:784
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Sequence Queue"
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/framingassistantui.cpp:715 ekos/scheduler/scheduler.cpp:786
+#: ekos/scheduler/framingassistantui.cpp:742 ekos/scheduler/scheduler.cpp:786
 #, kde-format
 msgid "Ekos Sequence Queue (*.esq)"
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/framingassistantui.cpp:727
+#: ekos/scheduler/framingassistantui.cpp:754
 #, fuzzy, kde-format
 #| msgid "Next Target >"
 msgctxt "@title:window"
@@ -30096,19 +30006,19 @@ msgid "Select Mosaic Import"
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/scheduler/framingassistantui.cpp:729
+#: ekos/scheduler/framingassistantui.cpp:756
 #, kde-format
 msgid "Telescopius CSV (*.csv)"
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/framingassistantui.cpp:788
+#: ekos/scheduler/framingassistantui.cpp:815
 #, kde-format
 msgid "Import must contain center coordinates."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/framingassistantui.cpp:867
+#: ekos/scheduler/framingassistantui.cpp:896
 #, fuzzy, kde-format
 #| msgctxt "use default color scheme"
 #| msgid "Default Colors"
@@ -30565,7 +30475,7 @@ msgstr ""
 
 #. +> trunk5
 #: ekos/scheduler/scheduler.cpp:381 ekos/scheduler/scheduler.cpp:2229
-#: ekos/scheduler/schedulerprocess.cpp:3593
+#: ekos/scheduler/schedulerprocess.cpp:3594
 #, kde-format
 msgid "Warning: The Classic scheduler algorithm has been retired. Switching you to the Greedy algorithm."
 msgstr ""
@@ -32203,7 +32113,7 @@ msgstr ""
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:2941
-#: ekos/scheduler/schedulerprocess.cpp:3756
+#: ekos/scheduler/schedulerprocess.cpp:3757
 #, fuzzy, kde-format
 #| msgid "Remove From Observing WishList"
 msgid "Warning: job '%1' alignment procedure failed, marking aborted."
@@ -32225,7 +32135,7 @@ msgstr "ลบออกจากรายการตั้งใจจะสั
 
 #. +> trunk5
 #: ekos/scheduler/schedulerprocess.cpp:3036
-#: ekos/scheduler/schedulerprocess.cpp:3827
+#: ekos/scheduler/schedulerprocess.cpp:3828
 #, fuzzy, kde-format
 #| msgid "Remove From Observing WishList"
 msgid "Warning: job '%1' guiding procedure failed, marking aborted."
@@ -32252,14 +32162,14 @@ msgid "Ekos job started (%1)"
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3346
+#: ekos/scheduler/schedulerprocess.cpp:3347
 #, fuzzy, kde-format
 #| msgid "Save the image to disk"
 msgid "Scheduler list saved to %1"
 msgstr "บันทึกภาพไปยังดิสก์"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3451
+#: ekos/scheduler/schedulerprocess.cpp:3452
 #, fuzzy, kde-format
 #| msgctxt "the time at which an object falls below the horizon"
 #| msgid "Set time: %1"
@@ -32267,368 +32177,368 @@ msgid "Solver timed out: %1s %2"
 msgstr "เวลาตก: %1"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3453
+#: ekos/scheduler/schedulerprocess.cpp:3454
 #, fuzzy, kde-format
 #| msgid "Advanced"
 msgid "Solver failed: %1s %2"
 msgstr "ขั้นสูง"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3488
+#: ekos/scheduler/schedulerprocess.cpp:3489
 #, kde-format
 msgid "Captured frame is %1 arcminutes away from target, re-aligning..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3556
+#: ekos/scheduler/schedulerprocess.cpp:3557
 #, kde-format
 msgid "Warning: train name is empty, selecting \"%1\"."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3557
+#: ekos/scheduler/schedulerprocess.cpp:3558
 #, kde-format
 msgid "Warning: train name %2 does not exist, selecting \"%1\"."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3559
-#: ekos/scheduler/schedulerprocess.cpp:3571
+#: ekos/scheduler/schedulerprocess.cpp:3560
+#: ekos/scheduler/schedulerprocess.cpp:3572
 #, fuzzy, kde-format
 #| msgid "Invalid Save Location"
 msgid "Select optical train"
 msgstr "ที่ตั้งการบันทึกไม่ถูกต้อง"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3568
+#: ekos/scheduler/schedulerprocess.cpp:3569
 #, kde-format
 msgid "Warning: no available train name for scheduler job, select the optical train name manually."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3722
+#: ekos/scheduler/schedulerprocess.cpp:3723
 #, fuzzy, kde-format
 #| msgid "Remove From Observing WishList"
 msgid "Job '%1' alignment is complete."
 msgstr "ลบออกจากรายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3741
+#: ekos/scheduler/schedulerprocess.cpp:3742
 #, fuzzy, kde-format
 #| msgid "Remove From Observing WishList"
 msgid "Warning: job '%1' alignment failed."
 msgstr "ลบออกจากรายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3747
+#: ekos/scheduler/schedulerprocess.cpp:3748
 #, kde-format
 msgid "Warning: job '%1' forcing mount model reset after failing alignment #%2."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3751
-#: ekos/scheduler/schedulerprocess.cpp:3815
+#: ekos/scheduler/schedulerprocess.cpp:3752
+#: ekos/scheduler/schedulerprocess.cpp:3816
 #, kde-format
 msgid "Restarting %1 alignment procedure..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3787
+#: ekos/scheduler/schedulerprocess.cpp:3788
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Job '%1' guiding is in progress."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3799
+#: ekos/scheduler/schedulerprocess.cpp:3800
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Warning: job '%1' guiding failed."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3801
+#: ekos/scheduler/schedulerprocess.cpp:3802
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Warning: job '%1' calibration failed."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3820
+#: ekos/scheduler/schedulerprocess.cpp:3821
 #, kde-format
 msgid "Job '%1' is guiding, guiding procedure will be restarted in %2 seconds."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3873
+#: ekos/scheduler/schedulerprocess.cpp:3874
 #, fuzzy, kde-format
 #| msgid "Remove From Observing WishList"
 msgid "[%2] Warning: job '%1' failed to capture target."
 msgstr "ลบออกจากรายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3891
+#: ekos/scheduler/schedulerprocess.cpp:3892
 #, kde-format
 msgid "[%2] Job '%1' is capturing, is restarting its guiding procedure (attempt #%3 of %4)."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3900
+#: ekos/scheduler/schedulerprocess.cpp:3901
 #, fuzzy, kde-format
 #| msgid "Remove From Observing WishList"
 msgid "Warning: job '%1' failed its capture procedure, restarting capture."
 msgstr "ลบออกจากรายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3906
+#: ekos/scheduler/schedulerprocess.cpp:3907
 #, fuzzy, kde-format
 #| msgid "Remove From Observing WishList"
 msgid "[%2] Warning: job '%1' failed its capture procedure, marking aborted."
 msgstr "ลบออกจากรายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3919
+#: ekos/scheduler/schedulerprocess.cpp:3920
 #, kde-format
 msgid "[%2] Follower job '%1' has been aborted, is restarting."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3925
+#: ekos/scheduler/schedulerprocess.cpp:3926
 #, kde-format
 msgid "[%2] Follower job '%1' has been aborted."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:3933
+#: ekos/scheduler/schedulerprocess.cpp:3934
 #, kde-format
 msgid "[%2] Job (%1) - Capture finished"
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4007
+#: ekos/scheduler/schedulerprocess.cpp:4008
 #, fuzzy, kde-format
 #| msgid "Next Target >"
 msgid "Job '%1' focusing train '%2' is complete."
 msgstr "เป้าหมายต่อไป >"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4019
+#: ekos/scheduler/schedulerprocess.cpp:4020
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Warning: job '%1' focusing failed."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4023
+#: ekos/scheduler/schedulerprocess.cpp:4024
 #, kde-format
 msgid "Job '%1' for train '%2' is restarting its focusing procedure."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4028
+#: ekos/scheduler/schedulerprocess.cpp:4029
 #, fuzzy, kde-format
 #| msgid "Remove From Observing WishList"
 msgid "Warning: job '%1' on train '%2' focusing procedure failed, marking aborted."
 msgstr "ลบออกจากรายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4058
+#: ekos/scheduler/schedulerprocess.cpp:4059
 #, fuzzy, kde-format
 #| msgid "Remove From Observing WishList"
 msgid "Job '%1' slew is complete."
 msgstr "ลบออกจากรายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4064
+#: ekos/scheduler/schedulerprocess.cpp:4065
 #, kde-format
 msgid "Warning: job '%1' slew failed, marking terminated due to errors."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4070
+#: ekos/scheduler/schedulerprocess.cpp:4071
 #, kde-format
 msgid "Warning: job '%1' found not slewing, restarting."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4083
+#: ekos/scheduler/schedulerprocess.cpp:4084
 #, fuzzy, kde-format
 #| msgid "Remove From Observing WishList"
 msgid "Job '%1' repositioning is complete."
 msgstr "ลบออกจากรายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4089
+#: ekos/scheduler/schedulerprocess.cpp:4090
 #, kde-format
 msgid "Warning: job '%1' repositioning failed, marking terminated due to errors."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4095
+#: ekos/scheduler/schedulerprocess.cpp:4096
 #, kde-format
 msgid "Warning: job '%1' found not repositioning, restarting."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4109
-#: ekos/scheduler/schedulerprocess.cpp:4120
+#: ekos/scheduler/schedulerprocess.cpp:4110
+#: ekos/scheduler/schedulerprocess.cpp:4121
 #, kde-format
 msgid "Warning: Mount is parked while scheduler for job '%1' is active. Aborting."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4149
+#: ekos/scheduler/schedulerprocess.cpp:4150
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Weather has improved. Resuming operations."
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4159
+#: ekos/scheduler/schedulerprocess.cpp:4160
 #, kde-format
 msgid "Weather alert detected. Starting soft shutdown procedure in %1 seconds."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4185
+#: ekos/scheduler/schedulerprocess.cpp:4187
 #, kde-format
 msgid "Observatory scheduled for soft shutdown until weather improves or until %1."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4207
+#: ekos/scheduler/schedulerprocess.cpp:4209
 #, kde-format
 msgid "Manual shutdown procedure completed successfully."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4213
+#: ekos/scheduler/schedulerprocess.cpp:4215
 #, kde-format
 msgid "Manual shutdown procedure terminated due to errors."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4228
+#: ekos/scheduler/schedulerprocess.cpp:4230
 #, kde-format
 msgid "Dust cover park requested but no dust covers detected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4251
+#: ekos/scheduler/schedulerprocess.cpp:4253
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Parking Cap..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4257
+#: ekos/scheduler/schedulerprocess.cpp:4259
 #, kde-format
 msgid "Cap already parked."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4266
+#: ekos/scheduler/schedulerprocess.cpp:4268
 #, kde-format
 msgid "Dust cover unpark requested but no dust covers detected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4288
+#: ekos/scheduler/schedulerprocess.cpp:4290
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Unparking cap..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4294
+#: ekos/scheduler/schedulerprocess.cpp:4296
 #, kde-format
 msgid "Cap already unparked."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4303
+#: ekos/scheduler/schedulerprocess.cpp:4305
 #, kde-format
 msgid "Mount park requested but no mounts detected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4361
+#: ekos/scheduler/schedulerprocess.cpp:4363
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Parking mount in progress..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4375
+#: ekos/scheduler/schedulerprocess.cpp:4377
 #, kde-format
 msgid "Mount unpark requested but no mounts detected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4401
+#: ekos/scheduler/schedulerprocess.cpp:4403
 #, kde-format
 msgid "Mount already unparked."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4521
+#: ekos/scheduler/schedulerprocess.cpp:4523
 #, kde-format
 msgid "Dome park requested but no domes detected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4544
+#: ekos/scheduler/schedulerprocess.cpp:4546
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Parking dome..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4550
+#: ekos/scheduler/schedulerprocess.cpp:4552
 #, kde-format
 msgid "Dome already parked."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4560
+#: ekos/scheduler/schedulerprocess.cpp:4562
 #, kde-format
 msgid "Dome unpark requested but no domes detected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4580
+#: ekos/scheduler/schedulerprocess.cpp:4582
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Unparking dome..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4586
+#: ekos/scheduler/schedulerprocess.cpp:4588
 #, kde-format
 msgid "Dome already unparked."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4667
+#: ekos/scheduler/schedulerprocess.cpp:4669
 #, fuzzy, kde-format
 #| msgid "Remove From Observing WishList"
 msgid "Sleeping for %1 on simulation clock update until next observation job is ready..."
 msgstr "ลบออกจากรายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4957
+#: ekos/scheduler/schedulerprocess.cpp:4959
 #, kde-format
 msgid "Startup script failed, aborting..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:4962
+#: ekos/scheduler/schedulerprocess.cpp:4964
 #, kde-format
 msgid "Shutdown script failed, aborting..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/scheduler/schedulerprocess.cpp:5023
+#: ekos/scheduler/schedulerprocess.cpp:5025
 #, fuzzy, kde-format
 #| msgid "Remove From Observing WishList"
 msgid "Warning: job '%1' has inaccessible sequence '%2', marking invalid."
@@ -33232,6 +33142,19 @@ msgstr ""
 msgid "KStars did not find any active mounts."
 msgstr ""
 
+#. +> trunk5
+#: fitsviewer/fitsstretchui.cpp:241
+#, fuzzy, kde-format
+#| msgid "Star Name"
+msgid "Stretch using preset %1"
+msgstr "ชื่อดาว"
+
+#. +> trunk5
+#: fitsviewer/fitsstretchui.cpp:390
+#, kde-format
+msgid "Cycle through stretch presets. Current stretch: preset %1. Click for preset %2."
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, stretchButton)
 #. +> trunk5
 #: fitsviewer/fitsstretchui.ui:87
@@ -33296,6 +33219,13 @@ msgstr ""
 #: fitsviewer/fitsstretchui.ui:369
 #, kde-format
 msgid "Automatically find stretch parameter."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, stretchPreset)
+#. +> trunk5
+#: fitsviewer/fitsstretchui.ui:394
+#, kde-format
+msgid "Cycle through stretch presets."
 msgstr ""
 
 #. +> trunk5
@@ -33404,7 +33334,7 @@ msgstr "ขั้นสูง"
 
 #. +> trunk5
 #: fitsviewer/fitstab.cpp:736 fitsviewer/fitsviewer.cpp:1413
-#: kstarslite/qml/dialogs/DetailsDialog.qml:153 tools/imagingplanner.cpp:83
+#: kstarslite/qml/dialogs/DetailsDialog.qml:153 tools/imagingplanner.cpp:84
 #, fuzzy, kde-kuit-format, kde-format
 #| msgctxt "the time at which an object falls below the horizon"
 #| msgid "Set time: %1"
@@ -34337,7 +34267,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_QuickHFR)
 #. +> trunk5
 #: fitsviewer/opsfits.ui:458
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "When computing the HFR, run it quickly by only looking at 25% of the image."
 msgstr ""
 
@@ -35913,7 +35843,7 @@ msgid "Data file saved to %1"
 msgstr ""
 
 #. +> trunk5
-#: indi/indiwebmanager.cpp:239
+#: indi/indiwebmanager.cpp:245
 #, kde-format
 msgid "Driver %1 failed to start on the remote INDI server."
 msgstr ""
@@ -40320,7 +40250,7 @@ msgstr ""
 #. i18n: ectx: whatsthis, entry (XplanetLabelString), group (Xplanet)
 #. +> trunk5
 #: kstars.kcfg:1391
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Specify the text of the first line of the label. By default, it says something like \"Looking at Earth\". Any instances of %t will be replaced by the target name, and any instances of %o will be replaced by the origin name."
 msgstr ""
 
@@ -40365,7 +40295,7 @@ msgstr ""
 #. i18n: ectx: whatsthis, entry (XplanetDateFormat), group (Xplanet)
 #. +> trunk5
 #: kstars.kcfg:1406
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Specify the format for the date/time label. This format string is passed to strftime(3). The default is \"%c %Z\", which shows the date, time, and time zone in the locale’s appropriate date and time representation."
 msgstr ""
 
@@ -41109,7 +41039,7 @@ msgstr ""
 #. i18n: ectx: label, entry (QuickHFR), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1712
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Compute the HFRs of normal images quickly by looking at the center 25% only."
 msgstr ""
 
@@ -42146,7 +42076,7 @@ msgstr ""
 #. i18n: ectx: whatsthis, entry (FocusFullFieldInnerRadius), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2280
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "During full field focusing, stars which are inside this percentage of the frame are filtered out of HFR calculation (default 0%). Detection algorithms may also have an inherent filter."
 msgstr ""
 
@@ -42160,7 +42090,7 @@ msgstr ""
 #. i18n: ectx: whatsthis, entry (FocusFullFieldOuterRadius), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2285
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "During full field focusing, stars which are outside this percentage of the frame are filtered out of HFR calculation (default 100%). Detection algorithms may also have an inherent filter."
 msgstr ""
 
@@ -79603,7 +79533,7 @@ msgid "About"
 msgstr ""
 
 #. +> trunk5
-#: kstarslite/qml/dialogs/AboutDialog.qml:28 main.cpp:114
+#: kstarslite/qml/dialogs/AboutDialog.qml:28 main.cpp:108
 #, fuzzy, kde-kuit-format, kde-format
 #| msgid "Star Name"
 msgid "KStars"
@@ -84890,13 +84820,13 @@ msgid "warm"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:81
+#: main.cpp:79
 #, kde-format
 msgid "Sorry, without a KStars Data Directory, KStars cannot operate. Exiting program now."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:116
+#: main.cpp:110
 #, kde-format
 msgid ""
 " (c), The KStars Team\n"
@@ -84905,7 +84835,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:118
+#: main.cpp:112
 #, kde-format
 msgctxt "Build number followed by copyright notice"
 msgid ""
@@ -84917,441 +84847,441 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:125
+#: main.cpp:119
 #, kde-format
 msgid "Jason Harris"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:125
+#: main.cpp:119
 #, kde-format
 msgid "Original Author"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:127
+#: main.cpp:121
 #, kde-format
 msgid "Jasem Mutlaq"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:127
+#: main.cpp:121
 #, kde-format
 msgid "Current Maintainer"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:131
+#: main.cpp:125
 #, kde-format
 msgid "Akarsh Simha"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:133
+#: main.cpp:127
 #, kde-format
 msgid "Robert Lancaster"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:134
+#: main.cpp:128
 #, kde-format
 msgid "FITSViewer & Ekos Improvements. KStars OSX Port"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:136
+#: main.cpp:130
 #, kde-format
 msgid "Eric Dejouhanet"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:137
+#: main.cpp:131
 #, fuzzy, kde-format
 #| msgid "Add to Observing WishList"
 msgid "Ekos Scheduler Improvements"
 msgstr "เพิ่มเข้ารายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: main.cpp:138
+#: main.cpp:132
 #, kde-format
 msgid "Wolfgang Reissenberger"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:140
+#: main.cpp:134
 #, fuzzy, kde-format
 #| msgid "Add to Observing WishList"
 msgid "Ekos Scheduler & Observatory Improvements"
 msgstr "เพิ่มเข้ารายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: main.cpp:141
+#: main.cpp:135
 #, kde-format
 msgid "Hy Murveit"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:142
+#: main.cpp:136
 #, fuzzy, kde-format
 #| msgid "Add to Observing WishList"
 msgid "FITS, Focus, Guide Improvements"
 msgstr "เพิ่มเข้ารายการตั้งใจจะสังเกต"
 
 #. +> trunk5
-#: main.cpp:143
+#: main.cpp:137
 #, kde-format
 msgid "John Evans"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:144
+#: main.cpp:138
 #, fuzzy, kde-format
 #| msgid "Save the image to disk"
 msgid "Focus algorithms"
 msgstr "บันทึกภาพไปยังดิสก์"
 
 #. +> trunk5
-#: main.cpp:147
+#: main.cpp:141
 #, kde-format
 msgid "Csaba Kertesz"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:149
+#: main.cpp:143
 #, kde-format
 msgid "Binary Asteroid List, DSO Database & Catalogs"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:150
+#: main.cpp:144
 #, kde-format
 msgid "Artem Fedoskin"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:150
+#: main.cpp:144
 #, fuzzy, kde-format
 #| msgid "Star Name"
 msgid "KStars Lite"
 msgstr "ชื่อดาว"
 
 #. +> trunk5
-#: main.cpp:152
+#: main.cpp:146
 #, kde-format
 msgid "James Bowlin"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:153
+#: main.cpp:147
 #, kde-format
 msgid "Pablo de Vicente"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:154
+#: main.cpp:148
 #, kde-format
 msgid "Thomas Kabelmann"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:155
+#: main.cpp:149
 #, kde-format
 msgid "Heiko Evermann"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:157
+#: main.cpp:151
 #, kde-format
 msgid "Carsten Niehaus"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:158
+#: main.cpp:152
 #, kde-format
 msgid "Mark Hollomon"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:159
+#: main.cpp:153
 #, kde-format
 msgid "Alexey Khudyakov"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:160
+#: main.cpp:154
 #, kde-format
 msgid "M&eacute;d&eacute;ric Boquien"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:162
+#: main.cpp:156
 #, kde-format
 msgid "J&eacute;r&ocirc;me Sonrier"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:164
+#: main.cpp:158
 #, kde-format
 msgid "Prakash Mohan"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:165
+#: main.cpp:159
 #, kde-format
 msgid "Victor Cărbune"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:166
+#: main.cpp:160
 #, kde-format
 msgid "Henry de Valence"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:167
+#: main.cpp:161
 #, kde-format
 msgid "Samikshan Bairagya"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:169
+#: main.cpp:163
 #, kde-format
 msgid "Rafał Kułaga"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:170
+#: main.cpp:164
 #, kde-format
 msgid "Rishab Arora"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:174
+#: main.cpp:168
 #, kde-format
 msgid "Valery Kharitonov"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:175
+#: main.cpp:169
 #, kde-format
 msgid "Converted labels containing technical terms to links to documentation"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:176
+#: main.cpp:170
 #, kde-format
 msgid "Ana-Maria Constantin"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:177
+#: main.cpp:171
 #, kde-format
 msgid "Technical documentation on Astronomy and KStars"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:178
+#: main.cpp:172
 #, kde-format
 msgid "Andrew Stepanenko"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:179
+#: main.cpp:173
 #, kde-format
 msgid "Guiding code based on lin_guider"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:180
+#: main.cpp:174
 #, kde-format
 msgid "Nuno Pinheiro"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:180
+#: main.cpp:174
 #, kde-format
 msgid "Artwork"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:182
+#: main.cpp:176
 #, kde-format
 msgid "Utkarsh Simha"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:183
+#: main.cpp:177
 #, kde-format
 msgid "Improvements to observation plan execution, star hopper etc."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:184
+#: main.cpp:178
 #, kde-format
 msgid "Daniel Holler"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:185
+#: main.cpp:179
 #, kde-format
 msgid "Extensive testing and suggestions for Ekos/INDI."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:187
+#: main.cpp:181
 #, kde-format
 msgid "Stephane Lucas"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:188
+#: main.cpp:182
 #, kde-format
 msgid "Extensive testing and suggestions for Ekos Scheduler. KStars OSX Port"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:189
+#: main.cpp:183
 #, kde-format
 msgid "Yuri Fabirovsky"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:190
+#: main.cpp:184
 #, kde-format
 msgid "Splash screen for both regular KStars and KStars Lite."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:191
+#: main.cpp:185
 #, kde-format
 msgid "Jamie Smith"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:191
+#: main.cpp:185
 #, kde-format
 msgid "KStars OSX Port."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:192
+#: main.cpp:186
 #, kde-format
 msgid "Patrick Molenaar"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:192
+#: main.cpp:186
 #, kde-format
 msgid "Bahtinov Focus Assistant."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:193
+#: main.cpp:187
 #, kde-format
 msgid "Philipp Auersperg-Castell"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:193
+#: main.cpp:187
 #, fuzzy, kde-format
 #| msgid "Star Name"
 msgid "Supernovae daily updates"
 msgstr "ชื่อดาว"
 
 #. +> trunk5
-#: main.cpp:194
+#: main.cpp:188
 #, kde-format
 msgid "Tony Schriber"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:194
+#: main.cpp:188
 #, kde-format
 msgid "Rotator Dialog improvements"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:195
+#: main.cpp:189
 #, kde-format
 msgid "Joseph McGee"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:195
+#: main.cpp:189
 #, kde-format
 msgid "Sub-exposure calculator based on Dr Robin Glover's work"
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:205
+#: main.cpp:199
 #, kde-format
 msgid "Dump sky image to file."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:206
+#: main.cpp:200
 #, kde-format
 msgid "Script to execute."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:207
+#: main.cpp:201
 #, kde-format
 msgid "Width of sky image."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:208
+#: main.cpp:202
 #, kde-format
 msgid "Height of sky image."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:209
+#: main.cpp:203
 #, kde-format
 msgid "Date and time."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:210
+#: main.cpp:204
 #, kde-format
 msgid "Start with clock paused."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:213
+#: main.cpp:207
 #, kde-format
 msgid "FITS file(s) to open."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:249 printing/foveditordialog.cpp:176
+#: main.cpp:243 printing/foveditordialog.cpp:176
 #, fuzzy, kde-format
 #| msgid "Could not upload image to remote location: %1"
 msgid "Could not parse image format of %1; assuming PNG."
 msgstr "ไม่สามารถอัพโหลดภาพไปยังที่ตั้งระยะไกลได้: %1"
 
 #. +> trunk5
-#: main.cpp:307
+#: main.cpp:301
 #, kde-format
 msgid "Supplied date string is invalid: %1. Using CPU date/time instead."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:338
+#: main.cpp:332
 #, kde-format
 msgid "Script executed."
 msgstr ""
 
 #. +> trunk5
-#: main.cpp:342
+#: main.cpp:336
 #, fuzzy, kde-format
 #| msgid "Could not upload file"
 msgid "Could not execute script."
 msgstr "ไม่สามารถอัพโหลดแฟ้มได้"
 
 #. +> trunk5
-#: main.cpp:366
+#: main.cpp:360
 #, kde-format
 msgid "Using CPU date/time instead."
 msgstr ""
@@ -85787,6 +85717,13 @@ msgstr ""
 #: oal/execute.ui:55
 #, kde-format
 msgid "Begin:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk5
+#: oal/execute.ui:65
+#, kde-format
+msgid "Weather:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -91232,8 +91169,8 @@ msgstr "วัตถุ IC"
 
 #. i18n: ectx: property (text), widget (QPushButton, transitButton)
 #. +> trunk5
-#: tools/altvstime.ui:352 tools/imagingplanner.cpp:3109
-#: tools/imagingplanner.cpp:3120 tools/imagingplanner.cpp:3135
+#: tools/altvstime.ui:352 tools/imagingplanner.cpp:3114
+#: tools/imagingplanner.cpp:3125 tools/imagingplanner.cpp:3140
 #, fuzzy, kde-format
 #| msgctxt "the time at which an object falls below the horizon"
 #| msgid "Set time: %1"
@@ -92282,7 +92219,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:84
+#: tools/imagingplanner.cpp:85
 #, fuzzy, kde-format
 #| msgctxt "use default color scheme"
 #| msgid "Default Colors"
@@ -92290,21 +92227,21 @@ msgid "Alt"
 msgstr "สีปริยาย"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:84
+#: tools/imagingplanner.cpp:85
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgid "Const"
 msgstr "ลบป้ายชื่อ"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:84
+#: tools/imagingplanner.cpp:85
 #, kde-format
 msgid "Coord"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, imagedCB)
 #. +> trunk5
-#: tools/imagingplanner.cpp:185 tools/imagingplanner.ui:2057
+#: tools/imagingplanner.cpp:186 tools/imagingplanner.ui:2057
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -92313,21 +92250,21 @@ msgstr "แสดงภาพ DSS"
 
 #. i18n: ectx: property (text), widget (QCheckBox, pickedCB)
 #. +> trunk5
-#: tools/imagingplanner.cpp:190 tools/imagingplanner.ui:2027
+#: tools/imagingplanner.cpp:191 tools/imagingplanner.ui:2027
 #, kde-format
 msgid "Picked"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ignoredCB)
 #. +> trunk5
-#: tools/imagingplanner.cpp:196 tools/imagingplanner.ui:2114
+#: tools/imagingplanner.cpp:197 tools/imagingplanner.ui:2114
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Ignored"
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1020
+#: tools/imagingplanner.cpp:1021
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -92336,86 +92273,86 @@ msgid "Imaging Planner"
 msgstr "แสดงภาพ DSS"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1166
+#: tools/imagingplanner.cpp:1171
 #, kde-format
 msgid "Object Name--click header to sort ascending/descending."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1168
+#: tools/imagingplanner.cpp:1173
 #, kde-format
 msgid "Number of hours the object can be imaged--click header to sort ascending/descending."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1170
+#: tools/imagingplanner.cpp:1175
 #, kde-format
 msgid "Object Type--click header to sort ascending/descending."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1172
+#: tools/imagingplanner.cpp:1177
 #, kde-format
 msgid "Maximum object dimension (arcmin)--click header to sort ascending/descending."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1174
+#: tools/imagingplanner.cpp:1179
 #, kde-format
 msgid "Maximum altitude--click header to sort ascending/descending."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1176
+#: tools/imagingplanner.cpp:1181
 #, kde-format
 msgid "Moon angular separation at midnight--click header to sort ascending/descending."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1178
+#: tools/imagingplanner.cpp:1183
 #, kde-format
 msgid "Constellation--click header to sort ascending/descending."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1180
+#: tools/imagingplanner.cpp:1185
 #, kde-format
 msgid "RA/DEC coordinates--click header to sort ascending/descending."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1615
+#: tools/imagingplanner.cpp:1620
 #, kde-format
 msgid "No match for \"%1\""
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1679
+#: tools/imagingplanner.cpp:1684
 #, kde-format
 msgid "Open a browser with the 1st link in this note: %1"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1684
+#: tools/imagingplanner.cpp:1689
 #, kde-format
 msgid "Open a browser with the 2nd link in this note: %1"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:1689
+#: tools/imagingplanner.cpp:1694
 #, kde-format
 msgid "Open a browser with the 3rd link in this note: %1"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:2024
+#: tools/imagingplanner.cpp:2029
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Updating tables..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:2425
+#: tools/imagingplanner.cpp:2430
 #, kde-format
 msgid ""
 "You need to load a catalog to start using this tool.\n"
@@ -92424,7 +92361,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:2428
+#: tools/imagingplanner.cpp:2433
 #, fuzzy, kde-format
 #| msgctxt "Index Catalog object"
 #| msgid "IC Object"
@@ -92432,20 +92369,20 @@ msgid "No Catalog!"
 msgstr "วัตถุ IC"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:2474
+#: tools/imagingplanner.cpp:2479
 #, fuzzy, kde-format
 #| msgid "Solar system object"
 msgid "Select an object."
 msgstr "วัตถุระบบสุริยะ"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:2476
+#: tools/imagingplanner.cpp:2481
 #, kde-format
 msgid "Check Filters to unhide objects."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:2478
+#: tools/imagingplanner.cpp:2483
 #, fuzzy, kde-format
 #| msgctxt "Index Catalog object"
 #| msgid "IC Object"
@@ -92453,44 +92390,44 @@ msgid "Load a Catalog."
 msgstr "วัตถุ IC"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:2608
+#: tools/imagingplanner.cpp:2613
 #, kde-format
 msgid "Search the Professor Seligman online site for NGC images."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:2613
+#: tools/imagingplanner.cpp:2618
 #, kde-format
 msgid "Search the Professor Seligman online site for information about IC objects.."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:2619
+#: tools/imagingplanner.cpp:2624
 #, kde-format
 msgid "Search the galaxymap.org online site for information about Sharpless2 objects."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:2625
+#: tools/imagingplanner.cpp:2630
 #, kde-format
 msgid "Search Nasa's online site for information about Messier objects.."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:2630
+#: tools/imagingplanner.cpp:2635
 #, kde-format
 msgid "Search Emil Ivanov's online site for information about VDB objects."
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:2773
+#: tools/imagingplanner.cpp:2778
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Loading Catalogs..."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3098
+#: tools/imagingplanner.cpp:3103
 #, fuzzy, kde-format
 #| msgctxt "the time at which an object falls below the horizon"
 #| msgid "Set time: %1"
@@ -92498,7 +92435,7 @@ msgid "Transits"
 msgstr "เวลาตก: %1"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3103 tools/imagingplanner.cpp:3107
+#: tools/imagingplanner.cpp:3108 tools/imagingplanner.cpp:3112
 #, fuzzy, kde-format
 #| msgctxt "the time at which an object falls below the horizon"
 #| msgid "Set time: %1"
@@ -92506,26 +92443,26 @@ msgid "Sets at"
 msgstr "เวลาตก: %1"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3114 tools/imagingplanner.cpp:3118
+#: tools/imagingplanner.cpp:3119 tools/imagingplanner.cpp:3123
 #, fuzzy, kde-format
 #| msgid "Rise time: %1"
 msgid "Rises at"
 msgstr "เวลาขึ้น: %1"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3125 tools/imagingplanner.cpp:3131
+#: tools/imagingplanner.cpp:3130 tools/imagingplanner.cpp:3136
 #, kde-format
 msgid "Rises"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3127 tools/imagingplanner.cpp:3133
+#: tools/imagingplanner.cpp:3132 tools/imagingplanner.cpp:3138
 #, kde-format
 msgid "Sets"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3239 tools/imagingplanner.cpp:3495
+#: tools/imagingplanner.cpp:3244 tools/imagingplanner.cpp:3500
 #, fuzzy, kde-format
 #| msgctxt "Index Catalog object"
 #| msgid "IC Object"
@@ -92533,128 +92470,128 @@ msgid "objects"
 msgstr "วัตถุ IC"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3491
+#: tools/imagingplanner.cpp:3496
 #, kde-format
 msgid "%1, %2 and %3 other objects"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3499 tools/imagingplanner.cpp:3503
+#: tools/imagingplanner.cpp:3504 tools/imagingplanner.cpp:3508
 #, kde-format
 msgid "Mark %1 as NOT imaged"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3500 tools/imagingplanner.cpp:3505
+#: tools/imagingplanner.cpp:3505 tools/imagingplanner.cpp:3510
 #, kde-format
 msgid "Mark %1 as already imaged"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3509 tools/imagingplanner.cpp:3513
+#: tools/imagingplanner.cpp:3514 tools/imagingplanner.cpp:3518
 #, kde-format
 msgid "Un-pick %1"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3510 tools/imagingplanner.cpp:3515
+#: tools/imagingplanner.cpp:3515 tools/imagingplanner.cpp:3520
 #, kde-format
 msgid "Pick %1"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3520 tools/imagingplanner.cpp:3525
+#: tools/imagingplanner.cpp:3525 tools/imagingplanner.cpp:3530
 #, fuzzy, kde-format
 #| msgid "Invalid Save Location"
 msgid "Stop ignoring %1"
 msgstr "ที่ตั้งการบันทึกไม่ถูกต้อง"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3521 tools/imagingplanner.cpp:3527
+#: tools/imagingplanner.cpp:3526 tools/imagingplanner.cpp:3532
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Ignore %1"
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3530
+#: tools/imagingplanner.cpp:3535
 #, fuzzy, kde-format
 #| msgid "Remove Label"
 msgid "Center %1 on SkyMap"
 msgstr "ลบป้ายชื่อ"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3532
+#: tools/imagingplanner.cpp:3537
 #, kde-format
 msgid "Screenshot some image of %1, plate-solve it, and temporarily place it on the SkyMap"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3672
+#: tools/imagingplanner.cpp:3677
 #, fuzzy, kde-format
 #| msgid "Could not download the file."
 msgid "Successfully marked %1 objects as read"
 msgstr "ไม่สามารถดาวน์โหลดแฟ้มได้"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3674
+#: tools/imagingplanner.cpp:3679
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "Empty file"
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3683
+#: tools/imagingplanner.cpp:3688
 #, kde-format
 msgid "Failed marking all of these objects imaged: %1"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3685
+#: tools/imagingplanner.cpp:3690
 #, kde-format
 msgid "Failed marking %1 objects imaged, including: %2"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3687
+#: tools/imagingplanner.cpp:3692
 #, kde-format
 msgid "Succeeded marking %1 objects imaged. Failed with %2: %3"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3690
+#: tools/imagingplanner.cpp:3695
 #, kde-format
 msgid "Succeeded marking %1 objects imaged. Failed with %2 including these: %3"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3696 tools/imagingplanner.cpp:3946
+#: tools/imagingplanner.cpp:3701 tools/imagingplanner.cpp:3951
 #, fuzzy, kde-format
 #| msgid "Could not open file %1"
 msgid "Sorry, couldn't open file: \"%1\""
 msgstr "ไม่สามารเปิดแฟ้ม %1"
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3810
+#: tools/imagingplanner.cpp:3815
 #, kde-format
 msgid "Sorry, catalog file doesn't exist: \"%1\""
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:3931
+#: tools/imagingplanner.cpp:3936
 #, kde-format
 msgid "%1/%2: Adding %3"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:4014
+#: tools/imagingplanner.cpp:4019
 #, kde-format
 msgctxt "@action:button"
 msgid "OK"
 msgstr ""
 
 #. +> trunk5
-#: tools/imagingplanner.cpp:4015
+#: tools/imagingplanner.cpp:4020
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
@@ -93936,7 +93873,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, LunarPhase)
 #. +> trunk5
 #: tools/modcalcdaylength.ui:736
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Waxing gibbous (75%)"
 msgstr ""
 
@@ -97369,7 +97306,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, MoonIllumLabel)
 #. +> trunk5
 #: tools/wutdialog.ui:333
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Moon illum: 42%"
 msgstr ""
 
@@ -98174,7 +98111,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetLabelString)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:622
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Specify the text of the first line of the label. By default, it says something like \"Looking at Earth\".  Any instances of %t will be replaced by the target name, and any instances of %o will be replaced by the origin name."
 msgstr ""
 
@@ -98195,7 +98132,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetDateFormat)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:639
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Specify the format for the date/time label.  This format string is passed to strftime(3).  The default is \"%c %Z\", which shows the date, time, and time zone in the  locale’s  appropriate date and time representation."
 msgstr ""
 
@@ -98398,6 +98335,41 @@ msgstr ""
 #, kde-format
 msgid "Set the color for the background."
 msgstr ""
+
+#, fuzzy, kde-format
+#~| msgid "Remove Label"
+#~ msgid "Auxiliary #3"
+#~ msgstr "ลบป้ายชื่อ"
+
+#, fuzzy, kde-format
+#~| msgid "Remove Label"
+#~ msgid "Auxiliary #4"
+#~ msgstr "ลบป้ายชื่อ"
+
+#, fuzzy, kde-format
+#~| msgid "Remove Label"
+#~ msgid "Camera 2:"
+#~ msgstr "ลบป้ายชื่อ"
+
+#, fuzzy, kde-format
+#~| msgid "Remove Label"
+#~ msgid "Auxiliary #1"
+#~ msgstr "ลบป้ายชื่อ"
+
+#, fuzzy, kde-format
+#~| msgid "Invalid Save Location"
+#~ msgid "Dome Controller"
+#~ msgstr "ที่ตั้งการบันทึกไม่ถูกต้อง"
+
+#, fuzzy, kde-format
+#~| msgid "Remove Label"
+#~ msgid "Auxiliary #2"
+#~ msgstr "ลบป้ายชื่อ"
+
+#, fuzzy, kde-format
+#~| msgid "Remove Label"
+#~ msgid "Camera 1:"
+#~ msgstr "ลบป้ายชื่อ"
 
 #, fuzzy, kde-format
 #~| msgid "Remove Label"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-06 22:50+0200\n"
+"POT-Creation-Date: 2025-05-30 22:28+0200\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -539,6 +539,12 @@ msgctxt "Request uninstallation of this item"
 msgid "Uninstall"
 msgstr "ถอนการติดตั้ง"
 
+#. +> trunk5
+#: qtquick/qml/EntryDetails.qml:153
+#, kde-format
+msgid "Comments and Reviews:"
+msgstr ""
+
 #. +> trunk6
 #: qtquick/qml/EntryDetails.qml:160
 #, kde-format
@@ -575,13 +581,22 @@ msgid "This item is currently in an invalid or unknown state. <a href=\"https://
 msgstr ""
 
 #. +> trunk6 trunk5
-#: qtquick/qml/EntryDetails.qml:217
-#, kde-format
-msgid "Comments and Reviews:"
-msgstr ""
+#: qtquick/qml/EntryDetails.qml:218
+#, fuzzy, kde-format
+#| msgid "Rating: "
+msgid "Rating:"
+msgstr "อันดับที่: "
 
-#. +> trunk6 trunk5
-#: qtquick/qml/EntryDetails.qml:219
+#. +> trunk6
+#: qtquick/qml/EntryDetails.qml:226
+#, fuzzy, kde-format
+#| msgid "View Comments"
+msgctxt "@action:button Opens a new sub-page with comments for this entry"
+msgid "See %1 Reviews and Comments"
+msgstr "แสดงความคิดเห็น"
+
+#. +> trunk5
+#: qtquick/qml/EntryDetails.qml:155
 #, fuzzy, kde-format
 #| msgid "View Comments"
 msgctxt "A link which, when clicked, opens a new sub page with comments (comments with or without ratings) for this entry"
@@ -589,34 +604,27 @@ msgid "%1 Reviews and Comments"
 msgstr "แสดงความคิดเห็น"
 
 #. +> trunk6 trunk5
-#: qtquick/qml/EntryDetails.qml:225
-#, fuzzy, kde-format
-#| msgid "Rating: "
-msgid "Rating:"
-msgstr "อันดับที่: "
-
-#. +> trunk6 trunk5
-#: qtquick/qml/EntryDetails.qml:230
+#: qtquick/qml/EntryDetails.qml:231
 #, fuzzy, kde-format
 #| msgid "Homepage"
 msgid "Homepage:"
 msgstr "หน้าเว็บ"
 
 #. +> trunk6 trunk5
-#: qtquick/qml/EntryDetails.qml:231
+#: qtquick/qml/EntryDetails.qml:232
 #, kde-format
 msgctxt "A link which, when clicked, opens the website associated with the entry (this could be either one specific to the project, the author's homepage, or any other website they have chosen for the purpose)"
 msgid "Open the homepage for %1"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: qtquick/qml/EntryDetails.qml:237
+#: qtquick/qml/EntryDetails.qml:238
 #, kde-format
 msgid "How To Donate:"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: qtquick/qml/EntryDetails.qml:238
+#: qtquick/qml/EntryDetails.qml:239
 #, kde-format
 msgctxt "A link which, when clicked, opens a website with information on donation in support of the entry"
 msgid "Find out how to donate to this project"

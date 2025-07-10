@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kirigami-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-20 11:17+0200\n"
+"POT-Creation-Date: 2025-07-08 10:01+0200\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -94,10 +94,18 @@ msgid "Close"
 msgstr ""
 
 #. +> trunk6
-#: components/ConvergentContextMenu.qml:274
+#: components/ConvergentContextMenu.qml:321
+#: components/ConvergentContextMenu.qml:431
 #, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
+msgstr ""
+
+#. +> trunk6
+#: components/ConvergentContextMenu.qml:405
+#, kde-format
+msgctxt "@action:button close dialog"
+msgid "Close"
 msgstr ""
 
 #. +> trunk6
@@ -107,35 +115,35 @@ msgid "Download"
 msgstr ""
 
 #. +> trunk6
-#: components/MessageDialog.qml:98
+#: components/MessageDialog.qml:110
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Success"
 msgstr ""
 
 #. +> trunk6
-#: components/MessageDialog.qml:100 components/MessageDialog.qml:106
+#: components/MessageDialog.qml:112 components/MessageDialog.qml:118
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Warning"
 msgstr ""
 
 #. +> trunk6
-#: components/MessageDialog.qml:102
+#: components/MessageDialog.qml:114
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Error"
 msgstr ""
 
 #. +> trunk6
-#: components/MessageDialog.qml:104
+#: components/MessageDialog.qml:116
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Information"
 msgstr ""
 
 #. +> trunk6
-#: components/MessageDialog.qml:242
+#: components/MessageDialog.qml:272
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Do not show again"
@@ -499,21 +507,70 @@ msgid "Not set"
 msgstr ""
 
 #. +> trunk6
-#: formcard/FormLinkDelegate.qml:52
+#: formcard/FormFileDelegate.qml:180
+#, kde-format
+msgctxt "@info:status"
+msgid "The path doesn't exist."
+msgstr ""
+
+#. +> trunk6
+#: formcard/FormFileDelegate.qml:189
+#, kde-format
+msgctxt "@info:status"
+msgid "The file doesn't exist."
+msgstr ""
+
+#. +> trunk6
+#: formcard/FormFileDelegate.qml:256
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr ""
+
+#. +> trunk6
+#: formcard/FormFileDelegate.qml:263
+#, kde-format
+msgctxt "@info:placeholderwrapMode"
+msgid "No file selected"
+msgstr ""
+
+#. +> trunk6
+#: formcard/FormFolderDelegate.qml:147
+#, kde-format
+msgctxt "@info:status"
+msgid "The folder doesn't exist."
+msgstr ""
+
+#. +> trunk6
+#: formcard/FormFolderDelegate.qml:204
+#, kde-format
+msgctxt "@action:button"
+msgid "Select folder"
+msgstr ""
+
+#. +> trunk6
+#: formcard/FormFolderDelegate.qml:211
+#, kde-format
+msgctxt "@info:placeholderwrapMode"
+msgid "No folder selected"
+msgstr ""
+
+#. +> trunk6
+#: formcard/FormLinkDelegate.qml:54
 #, kde-format
 msgctxt "@action:inmnenu"
 msgid "Open Link"
 msgstr ""
 
 #. +> trunk6
-#: formcard/FormLinkDelegate.qml:58
+#: formcard/FormLinkDelegate.qml:60
 #, kde-format
 msgctxt "@action:inmnenu"
 msgid "Copy Link to Clipboard"
 msgstr ""
 
 #. +> trunk6
-#: formcard/FormLinkDelegate.qml:64
+#: formcard/FormLinkDelegate.qml:66
 #, kde-format
 msgctxt "@info:status"
 msgid "Url copied to clipboard."
@@ -521,7 +578,7 @@ msgstr ""
 
 #. +> trunk6
 #: formcard/FormPasswordFieldDelegate.qml:249
-#: formcard/FormTextAreaDelegate.qml:174 formcard/FormTextFieldDelegate.qml:271
+#: formcard/FormTextAreaDelegate.qml:174 formcard/FormTextFieldDelegate.qml:270
 #, kde-format
 msgctxt "@label %1 is current text length, %2 is maximum length of text field"
 msgid "%1/%2"

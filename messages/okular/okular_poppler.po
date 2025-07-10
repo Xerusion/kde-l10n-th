@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular_poppler\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-04 23:07+0200\n"
+"POT-Creation-Date: 2025-07-10 08:36+0200\n"
 "PO-Revision-Date: 2010-12-17 21:59+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -66,7 +66,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
 #. +> trunk6 stable6
-#: conf/pdfsettingswidget.ui:73 generator_pdf.cpp:1031
+#: conf/pdfsettingswidget.ui:73 generator_pdf.cpp:1033
 #, kde-format
 msgid "No"
 msgstr "ไม่ใช่"
@@ -240,7 +240,7 @@ msgid "Scale mode:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:1029
+#: generator_pdf.cpp:1031
 #, fuzzy, kde-format
 #| msgctxt "PDF v. <version>"
 #| msgid "PDF v. %1"
@@ -249,43 +249,43 @@ msgid "PDF v. %1.%2"
 msgstr "เอกสาร PDF รุ่น %1"
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:1029
+#: generator_pdf.cpp:1031
 #, kde-format
 msgid "Format"
 msgstr "รูปแบบ"
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:1030
+#: generator_pdf.cpp:1032
 #, kde-format
 msgid "Encrypted"
 msgstr "มีการเข้ารหัส"
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:1030
+#: generator_pdf.cpp:1032
 #, kde-format
 msgid "Unencrypted"
 msgstr "ไม่มีการเข้ารหัส"
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:1030
+#: generator_pdf.cpp:1032
 #, kde-format
 msgid "Security"
 msgstr "ความปลอดภัย"
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:1031
+#: generator_pdf.cpp:1033
 #, kde-format
 msgid "Yes"
 msgstr "ใช่"
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:1031
+#: generator_pdf.cpp:1033
 #, kde-format
 msgid "Optimized"
 msgstr "ปรับแต่งแล้ว"
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:1498
+#: generator_pdf.cpp:1500
 #, kde-format
 msgid ""
 "Signed by: %1\n"
@@ -294,13 +294,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:1719
+#: generator_pdf.cpp:1721
 #, kde-format
 msgid "Using Poppler %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:1721
+#: generator_pdf.cpp:1723
 #, kde-format
 msgid ""
 "Using Poppler %1\n"
@@ -309,60 +309,72 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:1756
+#: generator_pdf.cpp:1758
 #, kde-format
 msgid "PDF"
 msgstr ""
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:1756
+#: generator_pdf.cpp:1758
 #, fuzzy, kde-format
 #| msgid "PDF Backend"
 msgid "PDF Backend Configuration"
 msgstr "แบ็กเอนด์แสดงเอกสาร PDF"
 
 #. +> trunk6 stable6
-#: generator_pdf.cpp:2242
+#: generator_pdf.cpp:2203 generator_pdf.cpp:2210
+#, kde-format
+msgid "Failed writing temporary file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: generator_pdf.cpp:2254
+#, kde-format
+msgid "Failed renaming temporary file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: generator_pdf.cpp:2274
 #, kde-format
 msgid "Some errors were found in the document, Okular might not be able to show the content correctly"
 msgstr ""
 
 #. +> trunk6 stable6
-#: pdfsettingswidget.cpp:122
+#: pdfsettingswidget.cpp:119
 #, kde-format
 msgctxt "@info Kind of a notice/warning"
 msgid "These signatures only work between modern versions of Okular with the GnuPG based backend activated"
 msgstr ""
 
 #. +> trunk6 stable6
-#: pdfsettingswidget.cpp:123
+#: pdfsettingswidget.cpp:120
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Enable PGP Signatures"
 msgstr ""
 
 #. +> trunk6 stable6
-#: pdfsettingswidget.cpp:157
+#: pdfsettingswidget.cpp:156
 #, kde-format
 msgctxt "Name of the person to whom the cerficate was issued"
 msgid "Issued to"
 msgstr ""
 
 #. +> trunk6 stable6
-#: pdfsettingswidget.cpp:157
+#: pdfsettingswidget.cpp:156
 #, kde-format
 msgid "E-mail"
 msgstr ""
 
 #. +> trunk6 stable6
-#: pdfsettingswidget.cpp:157
+#: pdfsettingswidget.cpp:156
 #, kde-format
 msgctxt "Certificate expiration date"
 msgid "Expiration date"
 msgstr ""
 
 #. +> trunk6 stable6
-#: pdfsettingswidget.cpp:174
+#: pdfsettingswidget.cpp:173
 #, kde-format
 msgid ""
 "You are using a Poppler library built without NSS support.\n"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-29 08:20+0200\n"
+"POT-Creation-Date: 2025-07-06 11:09+0200\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -12,1504 +12,1637 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. +> trunk6
-#: core/textautogeneratechatsmodel.cpp:74
+#. +> trunk6 stable6
+#: core/models/textautogeneratechatsmodel.cpp:76
 #, kde-format
 msgid "New Chat..."
 msgstr ""
 
-#. +> trunk6
-#: core/textautogeneratechatsmodel.cpp:146
+#. +> trunk6 stable6
+#: core/models/textautogeneratechatsmodel.cpp:148
 #, kde-format
 msgid "Favorite"
 msgstr ""
 
-#. +> trunk6
-#: core/textautogeneratechatsmodel.cpp:148
+#. +> trunk6 stable6
+#: core/models/textautogeneratechatsmodel.cpp:150
 #, kde-format
 msgid "Today"
 msgstr ""
 
-#. +> trunk6
-#: core/textautogeneratechatsmodel.cpp:150
+#. +> trunk6 stable6
+#: core/models/textautogeneratechatsmodel.cpp:152
 #, kde-format
 msgid "7 days previous"
 msgstr ""
 
-#. +> trunk6
-#: core/textautogeneratechatsmodel.cpp:152
+#. +> trunk6 stable6
+#: core/models/textautogeneratechatsmodel.cpp:154
 #, kde-format
 msgid "30 days previous"
 msgstr ""
 
-#. +> trunk6
-#: core/textautogeneratechatsmodel.cpp:154
+#. +> trunk6 stable6
+#: core/models/textautogeneratechatsmodel.cpp:156
 #, kde-format
 msgid "Later"
 msgstr ""
 
-#. +> trunk6
-#: core/textautogeneratechatsmodel.cpp:156
+#. +> trunk6 stable6
+#: core/models/textautogeneratechatsmodel.cpp:158
 #, kde-format
 msgid "Unknown"
 msgstr ""
 
 #. +> trunk6
-#: core/textautogenerateengineutil.cpp:15 plugins/ollama/ollamaclient.cpp:30
-#, kde-format
-msgid "Ollama"
-msgstr ""
-
-#. +> trunk6
-#: core/textautogeneratemessagesmodel.cpp:68
+#: core/models/textautogeneratemessagesmodel.cpp:68
 #, kde-format
 msgid ""
 "Engine: %1\n"
-"Model: %2"
+"Model: %2\n"
+"Instance Name: %3"
 msgstr ""
 
-#. +> trunk6
-#: core/textautogeneratesearchmessageutils.cpp:34
+#. +> trunk6 stable6
+#: core/textautogeneratesearchmessageutils.cpp:35
 #, kde-format
 msgid "Go to message"
 msgstr ""
 
-#. +> trunk6
-#: core/textautogeneratetextclient.cpp:33
+#. +> trunk6 stable6
+#: core/textautogeneratetextplugin.cpp:202
 #, kde-format
 msgid "Local"
 msgstr ""
 
-#. +> trunk6
-#: core/textautogeneratetextclient.cpp:35
+#. +> trunk6 stable6
+#: core/textautogeneratetextplugin.cpp:204
 #, kde-format
 msgid "Network"
 msgstr ""
 
 #. +> trunk6
-#: plugins/mistral/mistralclient.cpp:30
+#: plugins/genericnetworkplugin/genericnetworkclient.cpp:29
 #, kde-format
-msgid "Mistral AI"
+msgid "Generic"
 msgstr ""
 
 #. +> trunk6
-#: plugins/mistral/mistralconfiguredialog.cpp:25
+#: plugins/genericnetworkplugin/genericnetworkconfiguredialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
-msgid "Configure Mistral IA"
+msgid "Configure %1"
 msgstr ""
 
-#. +> trunk6
-#: plugins/mistral/mistralconfigurewidget.cpp:27
-#: plugins/openai/openaiconfigurewidget.cpp:27
+#. +> trunk6 stable6
+#: plugins/genericnetworkplugin/genericnetworkconfiguredialog.cpp:31
+#: plugins/ollama/ollamaconfiguredialog.cpp:43
 #, kde-format
-msgid "Api Key:"
+msgctxt "@title Preferences page name"
+msgid "General"
 msgstr ""
 
-#. +> trunk6
-#: plugins/mistral/mistralmanager.cpp:38 plugins/ollama/ollamamanager.cpp:131
-#: plugins/openai/openaimanager.cpp:37
+#. +> trunk6 stable6
+#: plugins/genericnetworkplugin/genericnetworkconfiguredialog.cpp:36
+#: plugins/ollama/ollamaconfiguredialog.cpp:49
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Available Models"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/genericnetworkplugin/genericnetworkmanager.cpp:48
+#: plugins/ollama/ollamamanager.cpp:166
 #, kde-format
 msgid "Failed to connect to interface at %1: %2"
 msgstr ""
 
-#. i18n: ectx: label, entry (ServerUrl), group (Ollama)
-#. i18n: ectx: label, entry (ServerUrl), group (Mistral)
-#. +> trunk6
-#: plugins/mistral/mistralsettings.kcfg:14
-#: plugins/ollama/ollamasettings.kcfg:14
+#. +> trunk6 stable6
+#: plugins/genericnetworkplugin/genericnetworkserverinfo.cpp:24
 #, kde-format
-msgid "The URL to the Ollama instance"
+msgid "Mistral AI"
 msgstr ""
 
-#. i18n: ectx: label, entry (SystemPrompt), group (LLM)
-#. +> trunk6
-#: plugins/mistral/mistralsettings.kcfg:20
-#: plugins/ollama/ollamasettings.kcfg:20
+#. +> trunk6 stable6
+#: plugins/genericnetworkplugin/genericnetworkserverinfo.cpp:26
 #, kde-format
-msgid "The system prompt for the LLM"
-msgstr ""
-
-#. i18n: ectx: label, entry (Model), group (LLM)
-#. +> trunk6
-#: plugins/mistral/mistralsettings.kcfg:32
-#: plugins/ollama/ollamasettings.kcfg:32
-#, kde-format
-msgid "The model used to generate responses"
+msgid "OpenAI"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelavailabledialog.cpp:27
+#: plugins/genericnetworkplugin/genericnetworkserverinfo.cpp:28
+#, kde-format
+msgid "Kluster AI"
+msgstr ""
+
+#. +> trunk6
+#: plugins/genericnetworkplugin/genericnetworkserverinfo.cpp:30
+#, kde-format
+msgid "Groq Cloud"
+msgstr ""
+
+#. +> trunk6
+#: plugins/genericnetworkplugin/genericnetworkserverinfo.cpp:32
+#, kde-format
+msgid "Cerebras AI"
+msgstr ""
+
+#. +> trunk6
+#: plugins/genericnetworkplugin/genericnetworkserverinfo.cpp:34
+#, kde-format
+msgid "Venice"
+msgstr ""
+
+#. +> trunk6
+#: plugins/genericnetworkplugin/genericnetworkserverinfo.cpp:115
+#, kde-format
+msgid "Mistral AI large language models"
+msgstr ""
+
+#. +> trunk6
+#: plugins/genericnetworkplugin/genericnetworkserverinfo.cpp:121
+#, kde-format
+msgid "Kluster AI cloud inference API"
+msgstr ""
+
+#. +> trunk6
+#: plugins/genericnetworkplugin/genericnetworkserverinfo.cpp:123
+#, kde-format
+msgid "Cerebras AI cloud inference API"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelavailabledialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Ollama Models"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelavailableinfo.cpp:83
 #, kde-format
 msgid "Tools"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelavailableinfo.cpp:85
 #, kde-format
 msgid "Small"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelavailableinfo.cpp:87
 #, kde-format
 msgid "Medium"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelavailableinfo.cpp:89
 #, kde-format
 msgid "Big"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelavailableinfo.cpp:91
 #, kde-format
 msgid "Huge"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelavailableinfo.cpp:93
 #, kde-format
 msgid "Multilingual"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelavailableinfo.cpp:95
 #, kde-format
 msgid "Code"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelavailableinfo.cpp:97
 #, kde-format
 msgid "Math"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelavailableinfo.cpp:99
 #, kde-format
 msgid "Vision"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelavailableinfo.cpp:101
 #, kde-format
 msgid "Embedding"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelavailableinfo.cpp:103
 #, kde-format
 msgid "Reasoning"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelavailableinfowidget.cpp:44
-#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:83
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelavailableinfowidget.cpp:46
+#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:104
 #, kde-format
 msgid "Languages Supported"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelavailableinfowidget.cpp:54
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelavailableinfowidget.cpp:56
 #, kde-format
 msgid "Models"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelavailablesearchwidget.cpp:37
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelavailablesearchwidget.cpp:39
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add Model"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelcategoriesmodel.cpp:41
 #, kde-format
 msgid "Categories"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodeldownloadfromnamedialog.cpp:17
+#: plugins/ollama/modelsmanager/ollamamodelcreatefromexistingmodelwidget.cpp:31
+#, kde-format
+msgid "Base:"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodelcreatefromexistingmodelwidget.cpp:34
+#: plugins/ollama/ollamaconfigurewidget.cpp:45
+#: widgets/networkpluginconfigure/textautogeneratenetworkpluginconfigurewidget.cpp:47
+#, kde-format
+msgid "Name:"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodelcreatefromexistingmodelwidget.cpp:37
+#, kde-format
+msgid "Tag:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelcreatefromexistingmodelwidget.cpp:40
+#: plugins/ollama/ollamaconfigurewidget.cpp:70
+#, kde-format
+msgid "Prompt:"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodelcreatefromexistingmodelwidget.cpp:45
+#, kde-format
+msgctxt "@action:button"
+msgid "Create"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodelcreatewidget.cpp:41
+#, kde-format
+msgctxt "@action:button"
+msgid "Load GGUF File…"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodelcreatewidget.cpp:45
+#, kde-format
+msgctxt "@title:window"
+msgid "Select GGUF File"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodelcreatewidget.cpp:51
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Model"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodeldownloadfromnamedialog.cpp:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Download Model"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodeldownloadfromnamewidget.cpp:21
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodeldownloadfromnamewidget.cpp:23
 #, kde-format
 msgid "Please enter model name as \"name:tag\""
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodeldownloadprogresswidget.cpp:35
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodeldownloadprogresswidget.cpp:47
+#: widgets/view/textautogeneratelistviewdelegate.cpp:379
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel"
+msgstr ""
+
+#. +> stable6
+#: plugins/ollama/modelsmanager/ollamamodeldownloadprogresswidget.cpp:20
 #, kde-format
 msgid "Cancel"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:23
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:26
 #, kde-format
 msgid "Family:"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:32
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:35
 #, kde-format
 msgid "Parameter Size:"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:41
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:44
 #, kde-format
 msgid "Quantization Level:"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:50
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:53
 #, kde-format
 msgid "Modified At:"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:86
+#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:88
+#, kde-format
+msgid "Parent Model:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelinstalledinfowidget.cpp:122
 #, kde-format
 msgid "Features Supported"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelinstalledwidget.cpp:95
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelinstalledwidget.cpp:105
 #, kde-format
 msgid "Do you want to remove this model (%1)?"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelinstalledwidget.cpp:96
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelinstalledwidget.cpp:106
 #, kde-format
 msgctxt "@title"
 msgid "Remove Model"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelsearchlineedit.cpp:14
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search Model…"
-msgstr ""
-
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:15
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:17
 #, kde-format
 msgid "New state of the art 70B model. Llama 3.3 70B offers similar performance compared to the Llama 3.1 405B model."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:16
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:18
 #, kde-format
 msgid "QwQ is the reasoning model of the Qwen series."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:18
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:19
 #, kde-format
 msgid "Llama 3.2 Vision is a collection of instruction-tuned image reasoning generative models in 11B and 90B sizes."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:19
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:20
 #, kde-format
 msgid "Meta's Llama 3.2 goes small with 1B and 3B models."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:20
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:21
 #, kde-format
 msgid "Llama 3.1 is a new state-of-the-art model from Meta available in 8B, 70B and 405B parameter sizes."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:21
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:22
 #, kde-format
 msgid "Meta Llama 3: The most capable openly available LLM to date"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:22
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:23
 #, kde-format
 msgid "The 7B model released by Mistral AI, updated to version 0.3."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:23
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:24
 #, kde-format
 msgid "A high-performing open embedding model with a large token context window."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:24
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:25
 #, kde-format
 msgid "Gemma is a family of lightweight, state-of-the-art open models built by Google DeepMind. Updated to version 1.1"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:25
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:26
 #, kde-format
 msgid "Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:26
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:27
 #, kde-format
 msgid "Qwen2 is a new series of large language models from Alibaba group"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:27
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:28
 #, kde-format
 msgid "Phi-3 is a family of lightweight 3B (Mini) and 14B (Medium) state-of-the-art open models by Microsoft."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:28
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:29
 #, kde-format
 msgid "Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:30
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:31
 #, kde-format
 msgid "Qwen2.5 models are pretrained on Alibaba's latest large-scale dataset, encompassing up to 18 trillion tokens. The model supports up to 128K tokens and has multilingual support."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:32
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:33
 #, kde-format
 msgid "Google Gemma 2 is a high-performing and efficient model available in three sizes: 2B, 9B, and 27B."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:34
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:35
 #, kde-format
 msgid "LLaVA is a novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding. Updated to version 1.6."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:36
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:37
 #, kde-format
 msgid "A large language model that can use text prompts to generate and discuss code."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:38
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:39
 #, kde-format
 msgid "The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:39
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:40
 #, kde-format
 msgid "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:40
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:41
 #, kde-format
 msgid "The TinyLlama project is an open endeavor to train a compact 1.1B Llama model on 3 trillion tokens."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:41
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:42
 #, kde-format
 msgid "State-of-the-art large embedding model from mixedbread.ai"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:43
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:44
 #, kde-format
 msgid "StarCoder2 is the next generation of transparently trained open code LLMs that comes in three sizes: 3B, 7B and 15B parameters."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:44
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:45
 #, kde-format
 msgid "A set of Mixture of Experts (MoE) model with open weights by Mistral AI in 8x7b and 8x22b parameter sizes."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:46
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:47
 #, kde-format
 msgid "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:49
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:50
 #, kde-format
 msgid "CodeGemma is a collection of powerful, lightweight models that can perform a variety of coding tasks like fill-in-the-middle code completion, code generation, natural language understanding, mathematical reasoning, and instruction following."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:52
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:53
 #, kde-format
 msgid "An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelutils.cpp:54
 #, kde-format
 msgid "Phi-2: a 2.7B language model by Microsoft Research that demonstrates outstanding reasoning and language understanding capabilities."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelutils.cpp:55
 #, kde-format
 msgid "Uncensored Llama 2 model by George Sung and Jarrad Hope."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelutils.cpp:56
 #, kde-format
 msgid "DeepSeek Coder is a capable coding model trained on two trillion code and natural language tokens."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelutils.cpp:57
 #, kde-format
 msgid "A suite of text embedding models by Snowflake, optimized for performance."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelutils.cpp:59
 #, kde-format
 msgid "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelutils.cpp:61
 #, kde-format
 msgid "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelutils.cpp:63
 #, kde-format
 msgid "Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelutils.cpp:65
 #, kde-format
 msgid "Yi 1.5 is a high-performing, bilingual language model."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelutils.cpp:66
 #, kde-format
 msgid "Command R is a Large Language Model optimized for conversational interaction and long context tasks."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelutils.cpp:67
 #, kde-format
 msgid "A general-purpose model ranging from 3 billion parameters to 70 billion, suitable for entry-level hardware."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelutils.cpp:68
 #, kde-format
 msgid "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:70
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:69
 #, kde-format
 msgid "Zephyr is a series of fine-tuned versions of the Mistral and Mixtral models that are trained to act as helpful assistants."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:71
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:70
 #, kde-format
 msgid "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:72
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:71
 #, kde-format
 msgid "Embedding models on very large sentence level datasets."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:73
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:72
 #, kde-format
 msgid "Codestral is Mistral AI’s first-ever code model designed for code generation tasks."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:74
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:73
 #, kde-format
 msgid "StarCoder is a code generation model trained on 80+ programming languages."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:75
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:74
 #, kde-format
 msgid "General use chat model based on Llama and Llama 2 with 2K to 16K context sizes."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:76
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:75
 #, kde-format
 msgid "A family of open foundation models by IBM for Code Intelligence"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:78
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:76
 #, kde-format
 msgid "Mistral OpenOrca is a 7 billion parameter model, fine-tuned on top of the Mistral 7B model using the OpenOrca dataset."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:79
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:77
 #, kde-format
 msgid "A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:81
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:78
 #, kde-format
 msgid "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:82
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:79
 #, kde-format
 msgid "Llama 2 based model fine tuned to improve Chinese dialogue ability."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:84
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:81
 #, kde-format
 msgid "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:85
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:82
 #, kde-format
 msgid "A versatile model for AI software development scenarios, including code completion."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:87
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:84
 #, kde-format
 msgid "A family of open-source models trained on a wide variety of data, surpassing ChatGPT on various benchmarks. Updated to version 3.5-0106."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:88
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:85
 #, kde-format
 msgid "Aya 23, released by Cohere, is a new family of state-of-the-art, multilingual models that support 23 languages."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:89
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:86
 #, kde-format
 msgid "CodeQwen1.5 is a large language model pretrained on a large amount of code data."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:90
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:87
 #, kde-format
 msgid "The powerful family of models by Nous Research that excels at scientific discussion and coding tasks."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:92
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:88
 #, kde-format
 msgid "Command R+ is a powerful, scalable large language model purpose-built to excel at real-world enterprise use cases."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:93
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:89
 #, kde-format
 msgid "State-of-the-art code generation model"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:95
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:91
 #, kde-format
 msgid "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:97
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:92
 #, kde-format
 msgid "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:98
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:93
 #, kde-format
 msgid "OpenHermes 2.5 is a 7B model fine-tuned by Teknium on Mistral with fully open datasets."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:100
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:95
 #, kde-format
 msgid "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:103
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:98
 #, kde-format
 msgid "Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o)."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:105
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:100
 #, kde-format
 msgid "A strong multi-lingual general language model with competitive performance to Llama 3."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:107
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:102
 #, kde-format
 msgid "Stable LM 2 is a state-of-the-art 1.6B and 12B parameter language model trained on multilingual data in English, Spanish, German, Italian, French, Portuguese, and Dutch."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:109
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:104
 #, kde-format
 msgid "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA architecture."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:111
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:106
 #, kde-format
 msgid "A high-performing model trained with a new technique called Reflection-tuning that teaches a LLM to detect mistakes in its reasoning and correct course."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:113
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:108
 #, kde-format
 msgid "An advanced language model crafted with 2 trillion bilingual tokens."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:114
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:109
 #, kde-format
 msgid "This model extends LLama-3 8B's context length from 8k to over 1m tokens."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:115
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:110
 #, kde-format
 msgid "Model focused on math and logic problems"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:116
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:111
 #, kde-format
 msgid "moondream2 is a small vision language model designed to run efficiently on edge devices."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:117
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:112
 #, kde-format
 msgid "A fine-tuned model based on Mistral with good coverage of domain and language."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:119
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:114
 #, kde-format
 msgid "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG)."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:120
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:115
 #, kde-format
 msgid "Conversational model based on Llama 2 that performs competitively on various benchmarks."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:121
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:116
 #, kde-format
 msgid "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:122
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:117
 #, kde-format
 msgid "General use models based on Llama and Llama 2 from Nous Research."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:123
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:118
 #, kde-format
 msgid "Code generation model based on Code Llama."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:124
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:119
 #, kde-format
 msgid "An extension of Llama 2 that supports a context of up to 128k tokens."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:125
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:120
 #, kde-format
 msgid "A 7B and 15B uncensored variant of the Dolphin model family that excels at coding, based on StarCoder2."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:126
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:121
 #, kde-format
 msgid "General use model based on Llama 2."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:127
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:122
 #, kde-format
 msgid "A strong, economical, and efficient Mixture-of-Experts language model."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:129
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:124
 #, kde-format
 msgid "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:130
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:125
 #, kde-format
 msgid "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:131
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:126
 #, kde-format
 msgid "Hermes 3 is the latest version of the flagship Hermes series of LLMs by Nous Research"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:133
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:128
 #, kde-format
 msgid "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:136
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:131
 #, kde-format
 msgid "A large language model built by the Technology Innovation Institute (TII) for use in summarization, text generation, and chat bots."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:137
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:132
 #, kde-format
 msgid "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:138
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:133
 #, kde-format
 msgid "A compact, yet powerful 10.7B large language model designed for single-turn conversation."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:139
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:134
 #, kde-format
 msgid "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:140
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:135
 #, kde-format
 msgid "A new small LLaVA model fine-tuned from Phi 3 Mini."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:142
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:137
 #, kde-format
 msgid "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta's Llama 2 models. The model is designed to excel particularly in reasoning."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:144
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:139
 #, kde-format
 msgid "A series of multimodal LLMs (MLLMs) designed for vision-language understanding."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:145
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:140
 #, kde-format
 msgid "Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:146
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:141
 #, kde-format
 msgid "Mistral Small 3 sets a new benchmark in the “small” Large Language Models category below 70B."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:147
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:142
 #, kde-format
 msgid "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:148
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:143
 #, kde-format
 msgid "SmolLM2 is a family of compact language models available in three size: 135M, 360M, and 1.7B parameters."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:149
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:144
 #, kde-format
 msgid "Uncensored version of Wizard LM model"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:150
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:145
 #, kde-format
 msgid "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:151
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:146
 #, kde-format
 msgid "An extension of Mistral to support context windows of 64K or 128K."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:153
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:148
 #, kde-format
 msgid "An expansion of Llama 2 that specializes in integrating both general language understanding and domain-specific knowledge, particularly in programming and mathematics."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:155
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:150
 #, kde-format
 msgid "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:156
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:151
 #, kde-format
 msgid "Open-source medical large language model adapted from Llama 2 to the medical domain."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:158
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:153
 #, kde-format
 msgid "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:160
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:155
 #, kde-format
 msgid "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:162
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:157
 #, kde-format
 msgid "Nexus Raven is a 13B instruction tuned model for function calling tasks."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:163
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:158
 #, kde-format
 msgid "The Nous Hermes 2 model from Nous Research, now trained over Mixtral."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:164
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:159
 #, kde-format
 msgid "Great code generation model based on Llama2."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:165
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:160
 #, kde-format
 msgid "Uncensored Llama2 based model with support for a 16K context window."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:167
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:162
 #, kde-format
 msgid "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:170
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:165
 #, kde-format
 msgid "Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:172
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:167
 #, kde-format
 msgid "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:173
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:168
 #, kde-format
 msgid "A high-performing code instruct model created by merging two existing code models."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:174
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:169
 #, kde-format
 msgid "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:175
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:170
 #, kde-format
 msgid "Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:176
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:171
 #, kde-format
 msgid "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:177
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:172
 #, kde-format
 msgid "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:178
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:173
 #, kde-format
 msgid "7B parameter text-to-SQL model made by MotherDuck and Numbers Station."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:179
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:174
 #, kde-format
 msgid "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:181
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:175
 #, kde-format
 msgid "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:182
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:176
 #, kde-format
 msgid "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:183
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:177
 #, kde-format
 msgid "A top-performing mixture of experts model, fine-tuned with high-quality data."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:184
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:178
 #, kde-format
 msgid "A 7B chat model fine-tuned with high-quality data and based on Zephyr."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:186
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:179
 #, kde-format
 msgid "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:187
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:180
 #, kde-format
 msgid "A language model created by combining two fine-tuned Llama 2 70B models into one."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:189
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:182
 #, kde-format
 msgid "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:190
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:183
 #, kde-format
 msgid "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:191
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:184
 #, kde-format
 msgid "Cohere For AI's language models trained to perform well across 23 different languages."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:192
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:185
 #, kde-format
 msgid "DBRX is an open, general-purpose LLM created by Databricks."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:194
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:186
 #, kde-format
 msgid "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI)."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:195
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:187
 #, kde-format
 msgid "Embedding model from BAAI mapping texts to vectors."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:197
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:188
 #, kde-format
 msgid "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:198
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:189
 #, kde-format
 msgid "A robust conversational model designed to be used for both chat and instruct use cases."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:200
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:191
 #, kde-format
 msgid "An upgraded version of DeekSeek-V2 that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:202
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:193
 #, kde-format
 msgid "ShieldGemma is set of instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:204
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:195
 #, kde-format
 msgid "A state-of-the-art fact-checking model developed by Bespoke Labs."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:205
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:196
 #, kde-format
 msgid "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:206
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:197
 #, kde-format
 msgid "Sentence-transformers model that can be used for tasks like clustering or semantic search."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:208
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:199
 #, kde-format
 msgid "OpenCoder is an open and reproducible code LLM family which includes 1.5B and 8B models, supporting chat in English and Chinese languages."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:210
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:201
 #, kde-format
 msgid "Tülu 3 is a leading instruction following model family, offering fully open-source data, code, and recipes by the The Allen Institute for AI."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:212
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:203
 #, kde-format
 msgid "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:213
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:204
 #, kde-format
 msgid "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:215
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:206
 #, kde-format
 msgid "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:217
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:208
 #, kde-format
 msgid "Sailor2 are multilingual language models made for South-East Asia. Available in 1B, 8B, and 20B parameter sizes."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:219
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:210
 #, kde-format
 msgid "A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:221
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:212
 #, kde-format
 msgid "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:224
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:215
 #, kde-format
 msgid "The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:226
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:217
 #, kde-format
 msgid "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:228
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:219
 #, kde-format
 msgid "Phi-4 is a 14B parameter, state-of-the-art open model from Microsoft."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:229
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:220
 #, kde-format
 msgid "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:231
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:222
 #, kde-format
 msgid "Dolphin 3.0 Llama 3.1 8B 🐬 is the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:234
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:225
 #, kde-format
 msgid "DeepSeek's first-generation of reasoning models with comparable performance to OpenAI-o1, including six dense models distilled from DeepSeek-R1 based on Llama and Qwen."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:236
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:227
 #, kde-format
 msgid "A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:238
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:229
 #, kde-format
 msgid "OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:241
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:232
 #, kde-format
 msgid "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:243
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:234
 #, kde-format
 msgid "A fully open-source family of reasoning models built using a dataset derived by distilling DeepSeek-R1."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:245
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:236
 #, kde-format
 msgid "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:248
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:239
 #, kde-format
 msgid "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:249
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:240
 #, kde-format
 msgid "The current, most capable model that runs on a single GPU."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:251
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:242
 #, kde-format
 msgid "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:254
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:245
 #, kde-format
 msgid "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:256
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:247
 #, kde-format
 msgid "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:258
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:249
 #, kde-format
 msgid "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:260
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:251
 #, kde-format
 msgid "111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:262
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:253
 #, kde-format
 msgid "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:265
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:256
 #, kde-format
 msgid "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:268
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:259
 #, kde-format
 msgid "Cogito v1 Preview is a family of hybrid reasoning models by Deep Cogito that outperform the best available open models of the same size, including counterparts from LLaMA, DeepSeek, and Qwen across most standard benchmarks."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:270
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:261
 #, kde-format
 msgid "DeepCoder is a fully open-Source 14B coder model at O3-mini level, with a 1.5B version also available."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:272
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:263
 #, kde-format
 msgid "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:274
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:265
 #, kde-format
 msgid "Meta's latest collection of multimodal models."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:276
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:267
 #, kde-format
 msgid "IBM Granite 2B and 8B models are 128K context length language models that have been fine-tuned for improved reasoning and instruction-following capabilities."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:279
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:270
 #, kde-format
 msgid "Phi 4 reasoning and reasoning plus are 14-billion parameter open-weight reasoning models that rival much larger models on complex reasoning tasks."
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:282
+#. +> trunk6 stable6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:272
 #, kde-format
 msgid "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability."
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamacomboboxwidget.cpp:28
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:273
+#, kde-format
+msgid "Gemma 3n models are designed for efficient execution on everyday devices such as laptops, tablets or phones."
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:274
+#, kde-format
+msgid "Magistral is a small, efficient reasoning model with 24B parameters."
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:275
+#, kde-format
+msgid "An update to Mistral Small that improves on function calling, instruction following, and less repetition errors."
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:276
+#, kde-format
+msgid "Flagship vision-language model of Qwen and also a significant leap from the previous Qwen2-VL."
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodelutils.cpp:277
+#, kde-format
+msgid "Devstral: the best open source model for coding agents."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/ollama/ollamaclient.cpp:27 plugins/ollama/ollamaplugin.cpp:78
+#, kde-format
+msgid "Ollama"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/ollama/ollamacomboboxwidget.cpp:30
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reload Model"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/ollamaconfiguredialog.cpp:30
+#. +> trunk6 stable6
+#: plugins/ollama/ollamaconfiguredialog.cpp:34
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Ollama"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/ollamaconfiguredialog.cpp:38
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "General"
-msgstr ""
-
-#. +> trunk6
-#: plugins/ollama/ollamaconfiguredialog.cpp:44
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "Available Models"
-msgstr ""
-
-#. +> trunk6
-#: plugins/ollama/ollamaconfiguredialog.cpp:50
+#. +> trunk6 stable6
+#: plugins/ollama/ollamaconfiguredialog.cpp:55
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Installed Models"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamaconfigurewidget.cpp:38
+#: plugins/ollama/ollamaconfiguredialog.cpp:61
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Create Models"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/ollama/ollamaconfigurewidget.cpp:49
 #, kde-format
 msgid "Server Url:"
 msgstr ""
 
-#. +> trunk6
-#: plugins/ollama/ollamaconfigurewidget.cpp:42
+#. +> trunk6 stable6
+#: plugins/ollama/ollamaconfigurewidget.cpp:53
 #, kde-format
 msgid "Model:"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamaconfigurewidget.cpp:45
+#: plugins/ollama/ollamaconfigurewidget.cpp:56
+#: widgets/networkpluginconfigure/textautogeneratenetworkpluginconfigurewidget.cpp:50
 #, kde-format
-msgid "Prompt:"
+msgid "Temperature:"
 msgstr ""
 
 #. +> trunk6
-#: plugins/ollama/ollamaconfigurewidget.cpp:46
+#: plugins/ollama/ollamaconfigurewidget.cpp:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The temperature of the model. Increasing the temperature will make the model answer more creatively."
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/ollamaconfigurewidget.cpp:62
+#: widgets/networkpluginconfigure/textautogeneratenetworkpluginconfigurewidget.cpp:51
+#, kde-format
+msgid "Seed:"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/ollamaconfigurewidget.cpp:64
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Sets the random number seed to use for generation. Setting this to a specific number will make the model generate the same text for the same prompt. (Default: 0)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/ollama/ollamaconfigurewidget.cpp:71
 #, kde-format
 msgid "No system prompt"
 msgstr ""
 
-#. +> trunk6
-#: plugins/openai/openaiclient.cpp:27
+#. +> trunk6 stable6
+#: widgets/common/textautogeneratemodelsearchlineedit.cpp:14
 #, kde-format
-msgid "OpenAI"
+msgctxt "@info:placeholder"
+msgid "Search Model…"
 msgstr ""
 
 #. +> trunk6
-#: plugins/openai/openaiconfiguredialog.cpp:25
+#: widgets/common/textautogeneratenotinstancefoundwidget.cpp:21
+#, kde-format
+msgid "No instance found. Please add one."
+msgstr ""
+
+#. +> trunk6
+#: widgets/common/textautogeneratenotinstancefoundwidget.cpp:25
+#, kde-format
+msgctxt "@action:button"
+msgid "Add instance…"
+msgstr ""
+
+#. +> trunk6
+#: widgets/common/textautogeneratenotworkingmessagewidget.cpp:19
+#, kde-format
+msgctxt "@action"
+msgid "Start Ollama"
+msgstr ""
+
+#. +> trunk6
+#: widgets/common/textautogeneratenotworkingwidget.cpp:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/common/textautogeneratetextlineedit.cpp:16
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter a message"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/common/textautogeneratetextlineeditwidget.cpp:19
+#, kde-format
+msgid "Send"
+msgstr ""
+
+#. +> trunk6
+#: widgets/instancesmanager/textautogenerateaddinstancedialog.cpp:19
 #, kde-format
 msgctxt "@title:window"
-msgid "Configure Openai IA"
+msgid "Add Instance"
 msgstr ""
 
 #. +> trunk6
-#: widgets/menu/textautogeneratemenuconfiguredialog.cpp:24
+#: widgets/instancesmanager/textautogenerateaddinstancewidget.cpp:28
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr ""
+
+#. +> trunk6
+#: widgets/instancesmanager/textautogenerateaddinstancewidget.cpp:32
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Select a Type of Instance:"
+msgstr ""
+
+#. +> trunk6
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerdialog.cpp:27
 #, kde-format
 msgctxt "@title:window"
-msgid "Configure AI text plugins"
+msgid "Configure Instances"
 msgstr ""
 
 #. +> trunk6
-#: widgets/menu/textautogeneratemenulistview.cpp:41
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:61
 #, kde-format
 msgctxt "@action"
-msgid "Add…"
+msgid "Mark As Default"
 msgstr ""
 
 #. +> trunk6
-#: widgets/menu/textautogeneratemenulistview.cpp:44
-#, kde-format
-msgid "Ask to AI"
-msgstr ""
-
-#. +> trunk6
-#: widgets/menu/textautogeneratemenulistview.cpp:50
-#: widgets/view/textautogeneratehistorylistview.cpp:114
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:74
 #, kde-format
 msgctxt "@action"
-msgid "Modify…"
+msgid "Edit…"
 msgstr ""
 
 #. +> trunk6
-#: widgets/menu/textautogeneratemenulistview.cpp:57
-#: widgets/view/textautogeneratehistorylistview.cpp:151
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:80
 #, kde-format
 msgctxt "@action"
-msgid "Remove…"
+msgid "Remove Instance"
 msgstr ""
 
 #. +> trunk6
-#: widgets/menu/textautogeneratemenulistview.cpp:60
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:88
 #, kde-format
-msgid "Do you want to remove it?"
+msgid "Do you want to remove this instance (%1)?"
 msgstr ""
 
 #. +> trunk6
-#: widgets/menu/textautogeneratemenulistview.cpp:61
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:89
 #, kde-format
 msgctxt "@title"
-msgid "Remove"
+msgid "Remove Instance"
 msgstr ""
 
-#. +> trunk6
-#: widgets/menu/textautogeneratemenuwidget.cpp:22
-#, kde-format
-msgid "Ask AI…"
-msgstr ""
-
-#. +> trunk6
-#: widgets/menu/textautogeneratemenuwidget.cpp:49
-#, kde-format
-msgctxt "@action"
-msgid "Configure…"
-msgstr ""
-
-#. +> trunk6
-#: widgets/textautogenerateconfiguredialog.cpp:19
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure IA"
-msgstr ""
-
-#. +> trunk6
-#: widgets/textautogenerateconfigurewidget.cpp:27
-#, kde-format
-msgid "Engine:"
-msgstr ""
-
-#. +> trunk6
-#: widgets/textautogeneratedialog.cpp:30
-#, kde-format
-msgctxt "@title:window"
-msgid "Conversation"
-msgstr ""
-
-#. +> trunk6
-#: widgets/textautogenerateheaderwidget.cpp:37
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Configure…"
-msgstr ""
-
-#. +> trunk6
-#: widgets/textautogenerateheaderwidget.cpp:45
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Search…"
-msgstr ""
-
-#. +> trunk6
-#: widgets/textautogenerateheaderwidget.cpp:52
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "New Chat"
-msgstr ""
-
-#. +> trunk6
-#: widgets/textautogenerateheaderwidget.cpp:59
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Favorite"
-msgstr ""
-
-#. +> trunk6
-#: widgets/textautogeneratehistorywidget.cpp:27
+#. +> trunk6 stable6
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerwidget.cpp:45
+#: widgets/textautogeneratehistorywidget.cpp:28
 #: widgets/textautogeneratesearchwidget.cpp:30
 #, kde-format
 msgctxt "@info:placeholder"
@@ -1517,130 +1650,313 @@ msgid "Search…"
 msgstr ""
 
 #. +> trunk6
-#: widgets/textautogeneratenotworkingwidget.cpp:29
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerwidget.cpp:52
 #, kde-format
+msgctxt "@info:tooltip"
+msgid "Add Instance…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/menu/textautogeneratemenuconfiguredialog.cpp:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure AI text plugins"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/menu/textautogeneratemenulistview.cpp:42
+#, kde-format
+msgctxt "@action"
+msgid "Add…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/menu/textautogeneratemenulistview.cpp:45
+#, kde-format
+msgid "Ask to AI"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/menu/textautogeneratemenulistview.cpp:51
+#: widgets/view/textautogeneratehistorylistview.cpp:115
+#, kde-format
+msgctxt "@action"
+msgid "Modify…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/menu/textautogeneratemenulistview.cpp:58
+#: widgets/view/textautogeneratehistorylistview.cpp:151
+#, kde-format
+msgctxt "@action"
+msgid "Remove…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/menu/textautogeneratemenulistview.cpp:61
+#, kde-format
+msgid "Do you want to remove it?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/menu/textautogeneratemenulistview.cpp:62
+#, kde-format
+msgctxt "@title"
+msgid "Remove"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/menu/textautogeneratemenuwidget.cpp:34
+#, kde-format
+msgid "Ask AI…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/menu/textautogeneratemenuwidget.cpp:63
+#, kde-format
+msgctxt "@action"
+msgid "Configure…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/networkpluginconfigure/textautogeneratenetworkpluginconfigurewidget.cpp:48
+#, kde-format
+msgid "Api Key:"
+msgstr ""
+
+#. +> trunk6
+#: widgets/networkpluginconfigure/textautogeneratenetworkpluginconfigurewidget.cpp:49
+#, kde-format
+msgid "Max Tokens:"
+msgstr ""
+
+#. +> trunk6
+#: widgets/quickask/textautogeneratequickaskdialog.cpp:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Quick Ask"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/quickask/textautogeneratequickaskheaderwidget.cpp:38
+#, kde-format
+msgctxt "@info:tooltip"
 msgid "Configure…"
 msgstr ""
 
 #. +> trunk6
-#: widgets/textautogeneratesearchdialog.cpp:26
+#: widgets/quickask/textautogeneratequickaskheaderwidget.cpp:45
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/textautogeneratedialog.cpp:37
+#, kde-format
+msgctxt "@title:window"
+msgid "Conversation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/textautogenerateheaderwidget.cpp:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Search…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/textautogenerateheaderwidget.cpp:46
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "New Chat"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/textautogenerateheaderwidget.cpp:53
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Favorite"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/textautogeneratesearchdialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "Search"
 msgstr ""
 
-#. +> trunk6
-#: widgets/textautogeneratetextlineedit.cpp:16
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Enter a message"
-msgstr ""
-
-#. +> trunk6
-#: widgets/textautogeneratetextlineeditwidget.cpp:17
-#, kde-format
-msgid "Send"
-msgstr ""
-
-#. +> trunk6
-#: widgets/textautogeneratewidget.cpp:94
+#. +> trunk6 stable6
+#: widgets/textautogeneratewidget.cpp:96
 #, kde-format
 msgid "No plugin found."
 msgstr ""
 
+#. +> trunk6 stable6
+#: widgets/view/textautogeneratebaselistview.cpp:42
+#, kde-format
+msgctxt "@action"
+msgid "Copy Selection"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/view/textautogeneratebaselistview.cpp:42
+#, kde-format
+msgctxt "@action"
+msgid "Copy"
+msgstr ""
+
 #. +> trunk6
-#: widgets/view/textautogeneratehistorylistview.cpp:103
+#: widgets/view/textautogeneratebaselistview.cpp:55
+#, kde-format
+msgctxt "@action"
+msgid "Copy URL"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/view/textautogeneratebaselistview.cpp:67
+#, kde-format
+msgctxt "@action"
+msgid "Select All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/view/textautogeneratehistorylistview.cpp:104
 #, kde-format
 msgctxt "@action"
 msgid "New Chat"
 msgstr ""
 
-#. +> trunk6
-#: widgets/view/textautogeneratehistorylistview.cpp:127
+#. +> trunk6 stable6
+#: widgets/view/textautogeneratehistorylistview.cpp:128
 #, kde-format
 msgctxt "@action"
 msgid "Remove as Favorite"
 msgstr ""
 
-#. +> trunk6
-#: widgets/view/textautogeneratehistorylistview.cpp:127
+#. +> trunk6 stable6
+#: widgets/view/textautogeneratehistorylistview.cpp:128
 #, kde-format
 msgctxt "@action"
 msgid "Set as Favorite"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/view/textautogeneratehistorylistview.cpp:140
 #, kde-format
 msgctxt "@action"
 msgid "Restore"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/view/textautogeneratehistorylistview.cpp:140
 #, kde-format
 msgctxt "@action"
 msgid "Archive"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/view/textautogeneratehistorylistview.cpp:155
 #, kde-format
 msgid "Do you want to remove this discussion?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/view/textautogeneratehistorylistview.cpp:156
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove Discussion"
 msgstr ""
 
-#. +> trunk6
-#: widgets/view/textautogeneratelistview.cpp:89
-#, kde-format
-msgctxt "@action"
-msgid "Copy Selection"
-msgstr ""
-
-#. +> trunk6
-#: widgets/view/textautogeneratelistview.cpp:89
-#, kde-format
-msgctxt "@action"
-msgid "Copy"
-msgstr ""
-
-#. +> trunk6
-#: widgets/view/textautogeneratelistview.cpp:97
-#, kde-format
-msgctxt "@action"
-msgid "Select All"
-msgstr ""
-
-#. +> trunk6
-#: widgets/view/textautogeneratelistviewdelegate.cpp:369
+#. +> trunk6 stable6
+#: widgets/view/textautogeneratelistviewdelegate.cpp:371
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Edit..."
 msgstr ""
 
-#. +> trunk6
-#: widgets/view/textautogeneratelistviewdelegate.cpp:373
+#. +> trunk6 stable6
+#: widgets/view/textautogeneratelistviewdelegate.cpp:375
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy"
 msgstr ""
 
-#. +> trunk6
-#: widgets/view/textautogeneratelistviewdelegate.cpp:377
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Cancel"
-msgstr ""
-
-#. +> trunk6
-#: widgets/view/textautogeneratelistviewdelegate.cpp:381
+#. +> trunk6 stable6
+#: widgets/view/textautogeneratelistviewdelegate.cpp:383
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Refresh"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/textautogeneratesearchlistview.cpp:50
+#, kde-format
+msgid "No Messages Found."
+msgstr ""
+
+#. +> stable6
+#: core/textautogeneratemessagesmodel.cpp:68
+#, kde-format
+msgid ""
+"Engine: %1\n"
+"Model: %2"
+msgstr ""
+
+#. +> stable6
+#: plugins/mistral/mistralconfiguredialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Mistral IA"
+msgstr ""
+
+#. i18n: ectx: label, entry (ServerUrl), group (Ollama)
+#. i18n: ectx: label, entry (ServerUrl), group (Mistral)
+#. +> stable6
+#: plugins/mistral/mistralsettings.kcfg:14
+#: plugins/ollama/ollamasettings.kcfg:14
+#, kde-format
+msgid "The URL to the Ollama instance"
+msgstr ""
+
+#. i18n: ectx: label, entry (SystemPrompt), group (LLM)
+#. +> stable6
+#: plugins/mistral/mistralsettings.kcfg:20
+#: plugins/ollama/ollamasettings.kcfg:20
+#, kde-format
+msgid "The system prompt for the LLM"
+msgstr ""
+
+#. i18n: ectx: label, entry (Model), group (LLM)
+#. +> stable6
+#: plugins/mistral/mistralsettings.kcfg:32
+#: plugins/ollama/ollamasettings.kcfg:32
+#, kde-format
+msgid "The model used to generate responses"
+msgstr ""
+
+#. +> stable6
+#: plugins/openai/openaiconfiguredialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Openai IA"
+msgstr ""
+
+#. +> stable6
+#: widgets/textautogenerateconfiguredialog.cpp:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure IA"
+msgstr ""
+
+#. +> stable6
+#: widgets/textautogenerateconfigurewidget.cpp:27
+#, kde-format
+msgid "Engine:"
+msgstr ""
+
+#. +> stable6
+#: widgets/textautogeneratenotworkingwidget.cpp:30
+#, kde-format
+msgid "Configure…"
 msgstr ""

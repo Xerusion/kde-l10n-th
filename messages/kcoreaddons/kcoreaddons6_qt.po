@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcoreaddons6_qt\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-29 08:20+0200\n"
+"POT-Creation-Date: 2025-06-18 09:22+0200\n"
 "PO-Revision-Date: 2025-01-25 15:12+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -800,9 +800,18 @@ msgctxt "KFormat|IECBinaryDialect"
 msgid "%1 YiB"
 msgstr "%1 YiB"
 
-#. @item:intext abbreviated amount of days
+#. @item:intext abbreviated amount of years
 #. +> trunk6
 #: lib/util/kformatprivate.cpp:333
+#, qt-format
+msgctxt "KFormat|"
+msgid "%n yr"
+msgid_plural "%n yr"
+msgstr[0] ""
+
+#. @item:intext abbreviated amount of days
+#. +> trunk6
+#: lib/util/kformatprivate.cpp:338
 #, qt-format
 msgctxt "KFormat|"
 msgid "%n d"
@@ -811,7 +820,7 @@ msgstr[0] "%n วัน"
 
 #. @item:intext abbreviated amount of hours
 #. +> trunk6
-#: lib/util/kformatprivate.cpp:338
+#: lib/util/kformatprivate.cpp:343
 #, qt-format
 msgctxt "KFormat|"
 msgid "%n hr"
@@ -820,7 +829,7 @@ msgstr[0] "%n ชั่วโมง"
 
 #. @item:intext abbreviated amount of minutes
 #. +> trunk6
-#: lib/util/kformatprivate.cpp:343
+#: lib/util/kformatprivate.cpp:348
 #, qt-format
 msgctxt "KFormat|"
 msgid "%n min"
@@ -829,7 +838,7 @@ msgstr[0] "%n นาที"
 
 #. @item:intext abbreviated amount of seconds
 #. +> trunk6
-#: lib/util/kformatprivate.cpp:348
+#: lib/util/kformatprivate.cpp:353
 #, qt-format
 msgctxt "KFormat|"
 msgid "%n sec"
@@ -838,7 +847,7 @@ msgstr[0] "%n วินาที"
 
 #. @item:intext Duration format minutes, seconds and milliseconds
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:374
+#: lib/util/kformatprivate.cpp:379
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1m%2.%3s"
@@ -846,7 +855,7 @@ msgstr "%1น.%2.%3วิ."
 
 #. @item:intext Duration format minutes and seconds
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:377
+#: lib/util/kformatprivate.cpp:382
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1m%2s"
@@ -854,7 +863,7 @@ msgstr "%1น.%2วิ."
 
 #. @item:intext Duration format hours and minutes
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:380
+#: lib/util/kformatprivate.cpp:385
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1h%2m"
@@ -862,7 +871,7 @@ msgstr "%1ชม.%2วิ."
 
 #. @item:intext Duration format hours, minutes, seconds, milliseconds
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:383
+#: lib/util/kformatprivate.cpp:388
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1h%2m%3.%4s"
@@ -870,36 +879,33 @@ msgstr "%1ชม.%2น. %3.%4วิ."
 
 #. @item:intext Duration format hours, minutes, seconds
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:390
+#: lib/util/kformatprivate.cpp:396
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1h%2m%3s"
 msgstr "%1ชม.%2น.%3วิ."
 
-#. @item:intext abbreviated amount of minutes and abbreviated amount of seconds
+#. @item:intext abbreviated amount of years and abbreviated amount of days
+#. ----------
+#. @item:intext abbreviated amount of days and abbreviated amount of hours
 #. ----------
 #. @item:intext abbreviated amount of hours and abbreviated amount of minutes
 #. ----------
+#. @item:intext abbreviated amount of minutes and abbreviated amount of seconds
+#. ----------
 #. %1 is a formatted time (from QLocale.toString), %2 is a localized timezone abbreviation (from QTimeZone::displayName(QTimeZone::ShortName)).
 #. +> trunk6
-#: lib/util/kformatprivate.cpp:408 lib/util/kformatprivate.cpp:413
-#: lib/util/kformatprivate.cpp:645
+#: lib/util/kformatprivate.cpp:432 lib/util/kformatprivate.cpp:441
+#: lib/util/kformatprivate.cpp:446 lib/util/kformatprivate.cpp:454
+#: lib/util/kformatprivate.cpp:680
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#. @item:intext abbreviated amount of hours, abbreviated amount of minutes and abbreviated amount of seconds
-#. +> trunk6
-#: lib/util/kformatprivate.cpp:417
-#, qt-format
-msgctxt "KFormat|"
-msgid "%1 %2 %3"
-msgstr "%1 %2 %3"
-
 #. @item:intext Duration format minutes, seconds and milliseconds
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:425
+#: lib/util/kformatprivate.cpp:459
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1:%2.%3"
@@ -909,7 +915,7 @@ msgstr "%1:%2.%3"
 #. ----------
 #. @item:intext Duration format hours and minutes
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:428 lib/util/kformatprivate.cpp:431
+#: lib/util/kformatprivate.cpp:462 lib/util/kformatprivate.cpp:465
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1:%2"
@@ -917,7 +923,7 @@ msgstr "%1:%2"
 
 #. @item:intext Duration format hours, minutes, seconds, milliseconds
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:434
+#: lib/util/kformatprivate.cpp:468
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1:%2:%3.%4"
@@ -925,7 +931,7 @@ msgstr "%1:%2:%3.%4"
 
 #. @item:intext Duration format hours, minutes, seconds
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:441
+#: lib/util/kformatprivate.cpp:476
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1:%2:%3"
@@ -933,7 +939,7 @@ msgstr "%1:%2:%3"
 
 #. @item:intext %1 is a real number, e.g. 1.23 days
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:453
+#: lib/util/kformatprivate.cpp:483
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1 days"
@@ -941,7 +947,7 @@ msgstr "%1 วัน"
 
 #. @item:intext %1 is a real number, e.g. 1.23 hours
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:456
+#: lib/util/kformatprivate.cpp:486
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1 hours"
@@ -949,7 +955,7 @@ msgstr "%1 ชั่วโมง"
 
 #. @item:intext %1 is a real number, e.g. 1.23 minutes
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:459
+#: lib/util/kformatprivate.cpp:489
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1 minutes"
@@ -957,7 +963,7 @@ msgstr "%1 นาที"
 
 #. @item:intext %1 is a real number, e.g. 1.23 seconds
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:462
+#: lib/util/kformatprivate.cpp:492
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1 seconds"
@@ -965,7 +971,7 @@ msgstr "%1 วินาที"
 
 #. @item:intext %1 is a whole number
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:467
+#: lib/util/kformatprivate.cpp:497
 #, qt-format
 msgctxt "KFormat|"
 msgid "%n millisecond(s)"
@@ -973,8 +979,20 @@ msgid_plural "%n millisecond(s)"
 msgstr[0] "%n มิลลิวินาที"
 
 #. @item:intext %n is a whole number
+#. +> trunk6
+#: lib/util/kformatprivate.cpp:508
+#, fuzzy, qt-format
+#| msgctxt "KFormat|"
+#| msgid "%n hour(s)"
+#| msgid_plural "%n hour(s)"
+msgctxt "KFormat|"
+msgid "%n year(s)"
+msgid_plural "%n year(s)"
+msgstr[0] "%n ชั่วโมง"
+
+#. @item:intext %n is a whole number
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:478
+#: lib/util/kformatprivate.cpp:513
 #, qt-format
 msgctxt "KFormat|"
 msgid "%n day(s)"
@@ -983,7 +1001,7 @@ msgstr[0] "%n วัน"
 
 #. @item:intext %n is a whole number
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:483
+#: lib/util/kformatprivate.cpp:518
 #, qt-format
 msgctxt "KFormat|"
 msgid "%n hour(s)"
@@ -992,7 +1010,7 @@ msgstr[0] "%n ชั่วโมง"
 
 #. @item:intext %n is a whole number
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:488
+#: lib/util/kformatprivate.cpp:523
 #, qt-format
 msgctxt "KFormat|"
 msgid "%n minute(s)"
@@ -1001,7 +1019,7 @@ msgstr[0] "%n นาที"
 
 #. @item:intext %n is a whole number
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:493
+#: lib/util/kformatprivate.cpp:528
 #, qt-format
 msgctxt "KFormat|"
 msgid "%n second(s)"
@@ -1014,58 +1032,58 @@ msgstr[0] "%n วินาที"
 #. ----------
 #. @item:intext minutes and seconds. This uses the previous item:intext messages. If this does not fit the grammar of your language please contact the i18n team to solve the problem
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:518 lib/util/kformatprivate.cpp:524
-#: lib/util/kformatprivate.cpp:530
+#: lib/util/kformatprivate.cpp:553 lib/util/kformatprivate.cpp:559
+#: lib/util/kformatprivate.cpp:565
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1 and %2"
 msgstr "%1 และ %2"
 
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:541
+#: lib/util/kformatprivate.cpp:576
 msgctxt "KFormat|used when a relative date string can't be generated because the date is invalid"
 msgid "Invalid date"
 msgstr "วันที่ไม่ถูกต้อง"
 
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:551
+#: lib/util/kformatprivate.cpp:586
 msgctxt "KFormat|"
 msgid "In two days"
 msgstr "ในสองวัน"
 
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:553
+#: lib/util/kformatprivate.cpp:588
 msgctxt "KFormat|"
 msgid "Tomorrow"
 msgstr "พรุ่งนี้"
 
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:555
+#: lib/util/kformatprivate.cpp:590
 msgctxt "KFormat|"
 msgid "Today"
 msgstr "วันนี้"
 
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:557
+#: lib/util/kformatprivate.cpp:592
 msgctxt "KFormat|"
 msgid "Yesterday"
 msgstr "เมื่อวาน"
 
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:559
+#: lib/util/kformatprivate.cpp:594
 msgctxt "KFormat|"
 msgid "Two days ago"
 msgstr "สองวันที่แล้ว"
 
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:573
+#: lib/util/kformatprivate.cpp:608
 msgctxt "KFormat|"
 msgid "Just now"
 msgstr "เมื่อกี้นี้"
 
 #. @item:intext %1 is a whole number, abbreviate minute value
 #. +> trunk6
-#: lib/util/kformatprivate.cpp:578
+#: lib/util/kformatprivate.cpp:613
 #, fuzzy, qt-format
 #| msgctxt "KFormat|"
 #| msgid "%n minute(s) ago"
@@ -1077,7 +1095,7 @@ msgstr[0] "%n นาทีที่แล้ว"
 
 #. @item:intext %1 is a whole number
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:583
+#: lib/util/kformatprivate.cpp:618
 #, qt-format
 msgctxt "KFormat|"
 msgid "%n minute(s) ago"
@@ -1085,14 +1103,14 @@ msgid_plural "%n minute(s) ago"
 msgstr[0] "%n นาทีที่แล้ว"
 
 #. +> trunk6
-#: lib/util/kformatprivate.cpp:588
+#: lib/util/kformatprivate.cpp:623
 msgctxt "KFormat|"
 msgid "Now"
 msgstr ""
 
 #. @item:intext %1 is a whole number, abbreviate minute value
 #. +> trunk6
-#: lib/util/kformatprivate.cpp:593
+#: lib/util/kformatprivate.cpp:628
 #, fuzzy, qt-format
 #| msgctxt "KFormat|"
 #| msgid "%n minute(s)"
@@ -1104,7 +1122,7 @@ msgstr[0] "%n นาที"
 
 #. @item:intext %1 is a whole number
 #. +> trunk6
-#: lib/util/kformatprivate.cpp:598
+#: lib/util/kformatprivate.cpp:633
 #, fuzzy, qt-format
 #| msgctxt "KFormat|"
 #| msgid "%n minute(s)"
@@ -1116,35 +1134,35 @@ msgstr[0] "%n นาที"
 
 #. relative datetime with %1 result of QLocale.toString(date, format) or formatRelativeDate and %2 result of QLocale.toString(time, timeformatType) If this does not fit the grammar of your language please contact the i18n team to solve the problem
 #. +> trunk6 trunk5
-#: lib/util/kformatprivate.cpp:613
+#: lib/util/kformatprivate.cpp:648
 #, qt-format
 msgctxt "KFormat|"
 msgid "%1 at %2"
 msgstr "%1 เวลา %2"
 
 #. +> trunk6
-#: lib/util/kformatprivate.cpp:661
+#: lib/util/kformatprivate.cpp:696
 #, qt-format
 msgctxt "KFormat|distance in feet"
 msgid "%1 ft"
 msgstr "%1 ฟุต"
 
 #. +> trunk6
-#: lib/util/kformatprivate.cpp:665 lib/util/kformatprivate.cpp:667
+#: lib/util/kformatprivate.cpp:700 lib/util/kformatprivate.cpp:702
 #, qt-format
 msgctxt "KFormat|distance in miles"
 msgid "%1 mi"
 msgstr "%1 ไมล์"
 
 #. +> trunk6
-#: lib/util/kformatprivate.cpp:673
+#: lib/util/kformatprivate.cpp:708
 #, qt-format
 msgctxt "KFormat|distance in meter"
 msgid "%1 m"
 msgstr "%1 เมตร"
 
 #. +> trunk6
-#: lib/util/kformatprivate.cpp:676 lib/util/kformatprivate.cpp:678
+#: lib/util/kformatprivate.cpp:711 lib/util/kformatprivate.cpp:713
 #, qt-format
 msgctxt "KFormat|distance in kilometer"
 msgid "%1 km"
@@ -1183,3 +1201,8 @@ msgstr "KListOpenFilesJob ไม่รองรับบน Windows"
 msgctxt "KPluginLoader|"
 msgid "The library %1 does not offer a KPluginFactory."
 msgstr "ไลบรารี %1 ไม่ได้ให้ส่วนที่เข้ากันได้กับแฟคทอรีของ KDE 4 มาด้วย"
+
+#, qt-format
+#~ msgctxt "KFormat|"
+#~ msgid "%1 %2 %3"
+#~ msgstr "%1 %2 %3"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-27 10:57+0200\n"
+"POT-Creation-Date: 2025-07-01 10:01+0200\n"
 "PO-Revision-Date: 2010-07-07 15:16+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -633,11 +633,20 @@ msgid "Preview Plugins"
 msgstr "แสดงตัวอย่าง:"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/FolderView.qml:1232
+#: package/contents/ui/FolderView.qml:1234
 #, kde-format
 msgctxt "@info"
 msgid "There are a lot of files and folders on the desktop. This can cause bugs and performance issues. Please consider moving some of them elsewhere."
 msgstr ""
+
+#. +> trunk6
+#: package/contents/ui/FolderViewDialog.qml:87
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "Folders First"
+msgctxt "@info:placeholder"
+msgid "Folder is empty"
+msgstr "เรียงโฟลเดอร์ก่อน"
 
 #. +> trunk6 stable6
 #: package/contents/ui/main.qml:398

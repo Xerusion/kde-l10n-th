@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-26 11:48+0200\n"
+"POT-Creation-Date: 2025-06-29 11:16+0200\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -167,7 +167,7 @@ msgstr "การเติมคำให้สมบูรณ์"
 #. i18n: ectx: Menu (spelling)
 #. +> trunk6 trunk5
 #: data/katepart5ui.rc:144 spellcheck/spellingmenu.cpp:71
-#: spellcheck/spellingmenu.cpp:191
+#: spellcheck/spellingmenu.cpp:195
 #, kde-format
 msgid "Spelling"
 msgstr "ตรวจคำสะกด"
@@ -499,7 +499,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
 #. +> trunk6 trunk5
 #: dialogs/completionconfigtab.ui:29 dialogs/katedialogs.cpp:608
-#: dialogs/katedialogs.cpp:740 dialogs/katedialogs.cpp:1021
+#: dialogs/katedialogs.cpp:740 dialogs/katedialogs.cpp:1022
 #: vimode/config/configwidget.ui:29
 #, kde-format
 msgid "General"
@@ -1331,61 +1331,61 @@ msgid "%1 backs up unsaved files to \"swap files.\" Swap files allow %1 to recov
 msgstr ""
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1022
+#: dialogs/katedialogs.cpp:1023
 #, kde-format
 msgid "Advanced"
 msgstr "ขั้นสูง"
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1087
+#: dialogs/katedialogs.cpp:1088
 #, kde-format
 msgid "You did not provide a backup suffix or prefix. Using default suffix: '~'"
 msgstr "คุณยังไม่ได้กำหนดส่วนนำหน้าและต่อท้ายแฟ้มสำรองข้อมูล ดังนั้นจะใช้ค่าต่อท้ายปริยาย: '~' แทน"
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1087
+#: dialogs/katedialogs.cpp:1088
 #, kde-format
 msgid "No Backup Suffix or Prefix"
 msgstr "ยังไม่ได้กำหนดส่วนนำหน้าและต่อท้ายแฟ้มสำรองข้อมูล"
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1218
+#: dialogs/katedialogs.cpp:1221
 #, kde-format
 msgid "Open/Save"
 msgstr "เปิด/บันทึก"
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1223
+#: dialogs/katedialogs.cpp:1226
 #, kde-format
 msgid "File Opening & Saving"
 msgstr "การเปิดและการบันทึกแฟ้ม"
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1246
+#: dialogs/katedialogs.cpp:1249
 #, kde-format
 msgid "&Line:"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1247
+#: dialogs/katedialogs.cpp:1250
 #, kde-format
 msgid "Go to line number from clipboard"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1258
+#: dialogs/katedialogs.cpp:1261
 #, kde-format
 msgid "Go to"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1338
+#: dialogs/katedialogs.cpp:1341
 #, kde-format
 msgid "No valid line number found in clipboard"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1402
+#: dialogs/katedialogs.cpp:1405
 #, kde-format
 msgid "Dictionary:"
 msgstr "พจนานุกรม:"
@@ -1397,27 +1397,27 @@ msgid "Will never again warn about on disk changes but always reload."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1454
+#: dialogs/katedialogs.cpp:1457
 #, fuzzy, kde-format
 #| msgid "Auto Completion"
 msgid "Enable Auto Reload"
 msgstr "การเติมให้สมบูรณ์"
 
 #. +> trunk6
-#: dialogs/katedialogs.cpp:1457
+#: dialogs/katedialogs.cpp:1460
 #, kde-format
 msgid "Reloads and will automatically reload without warning about disk changes from now until you close either the tab or window."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1462
+#: dialogs/katedialogs.cpp:1465
 #, fuzzy, kde-format
 #| msgid "&View Difference"
 msgid "View &Difference"
 msgstr "แส&ดงความแตกต่าง"
 
 #. +> trunk6
-#: dialogs/katedialogs.cpp:1464
+#: dialogs/katedialogs.cpp:1467
 #, kde-format
 msgid "Shows a diff of the changes."
 msgstr ""
@@ -1428,13 +1428,6 @@ msgstr ""
 msgid "Shows a diff of the changes"
 msgstr ""
 
-#. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1469
-#, fuzzy, kde-format
-#| msgid "Reloa&d"
-msgid "&Reload"
-msgstr "เรีย&กใหม่"
-
 #. +> trunk5
 #: dialogs/katedialogs.cpp:1469
 #, fuzzy, kde-format
@@ -1442,8 +1435,15 @@ msgstr "เรีย&กใหม่"
 msgid "&Save As..."
 msgstr "&บันทึกแฟ้มเป็น..."
 
+#. +> trunk6 trunk5
+#: dialogs/katedialogs.cpp:1472
+#, fuzzy, kde-format
+#| msgid "Reloa&d"
+msgid "&Reload"
+msgstr "เรีย&กใหม่"
+
 #. +> trunk6
-#: dialogs/katedialogs.cpp:1471
+#: dialogs/katedialogs.cpp:1474
 #, fuzzy, kde-format
 #| msgid "Reload the file from disk. If you have unsaved changes, they will be lost."
 msgid "Reloads the file from disk. Unsaved changes will be lost."
@@ -1457,7 +1457,7 @@ msgid "Reload the file from disk. Unsaved changes will be lost."
 msgstr "โหลดแฟ้มขึ้นมาจากดิสก์ใหม่ หากคุณยังไม่ได้บันทึกการเปลี่ยนแปลง จะสูญเสียการเปลี่ยนแปลงนั้น"
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1475
+#: dialogs/katedialogs.cpp:1478
 #, fuzzy, kde-format
 #| msgid "&Reload File"
 msgctxt "@action:button closes the opened file"
@@ -1465,7 +1465,7 @@ msgid "&Close File"
 msgstr "เ&รียกแฟ้มใหม่อีกครั้ง"
 
 #. +> trunk6
-#: dialogs/katedialogs.cpp:1477
+#: dialogs/katedialogs.cpp:1480
 #, kde-format
 msgid "Closes the file, discarding its content."
 msgstr ""
@@ -1477,7 +1477,7 @@ msgid "Close the file, discarding its content."
 msgstr ""
 
 #. +> trunk6
-#: dialogs/katedialogs.cpp:1481
+#: dialogs/katedialogs.cpp:1484
 #, fuzzy, kde-format
 #| msgid "&Save File As..."
 msgctxt "@action"
@@ -1485,46 +1485,46 @@ msgid "&Save As…"
 msgstr "&บันทึกแฟ้มเป็น..."
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1483
+#: dialogs/katedialogs.cpp:1486
 #, kde-format
 msgid "Lets you select a location and save the file again."
 msgstr "ช่วยให้คุณเลือกตำแหน่งและบันทึกแฟ้มใหม่อีกครั้ง"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1488 spellcheck/spellcheckbar.ui:143
+#: dialogs/katedialogs.cpp:1491 spellcheck/spellcheckbar.ui:143
 #, kde-format
 msgid "&Ignore"
 msgstr "ไม่&สนใจ"
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1489
+#: dialogs/katedialogs.cpp:1492
 #, fuzzy, kde-format
 #| msgid "Ignore the changes. You will not be prompted again."
 msgid "Ignores the changes on disk without any action."
 msgstr "ไม่สนใจความเปลี่ยนแปลง และคุณจะไม่ถูกถามอีก"
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1555 swapfile/kateswapdiffcreator.cpp:131
+#: dialogs/katedialogs.cpp:1558 swapfile/kateswapdiffcreator.cpp:131
 #, kde-format
 msgid "The diff command failed. Please make sure that diff(1) is installed and in your PATH."
 msgstr "คำสั่ง diff ทำงานล้มเหลว โปรดตรวจสอบให้แน่ใจว่า คำสั่ง diff(1) ได้ถูกติดตั้งและอยู่ในพาธการค้นหาของคุณแล้ว"
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1557 swapfile/kateswapdiffcreator.cpp:89
+#: dialogs/katedialogs.cpp:1560 swapfile/kateswapdiffcreator.cpp:89
 #: swapfile/kateswapdiffcreator.cpp:99 swapfile/kateswapdiffcreator.cpp:133
 #, kde-format
 msgid "Error Creating Diff"
 msgstr "การหาข้อแตกต่างผิดพลาด"
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1564 swapfile/kateswapdiffcreator.cpp:140
+#: dialogs/katedialogs.cpp:1567 swapfile/kateswapdiffcreator.cpp:140
 #, kde-format
 msgid "The files are identical."
 msgstr "คือแฟ้มเดียวกัน"
 
 #. +> trunk6 trunk5
-#: dialogs/katedialogs.cpp:1564 swapfile/kateswapdiffcreator.cpp:140
+#: dialogs/katedialogs.cpp:1567 swapfile/kateswapdiffcreator.cpp:140
 #, kde-format
 msgid "Diff Output"
 msgstr "ผลส่งออกของข้อแตกต่าง"
@@ -1597,8 +1597,8 @@ msgstr "ตั้งค่าจำนวนของบรรทัดที่
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, spbSwapFileSync)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, sbAutoCenterCursor)
 #. +> trunk6 trunk5
-#: dialogs/navigationconfigwidget.ui:92 dialogs/opensaveconfigadvwidget.ui:145
-#: dialogs/opensaveconfigadvwidget.ui:193
+#: dialogs/navigationconfigwidget.ui:92 dialogs/opensaveconfigadvwidget.ui:152
+#: dialogs/opensaveconfigadvwidget.ui:200
 #, kde-format
 msgid "Disabled"
 msgstr "ปิดการใช้งาน"
@@ -1697,72 +1697,79 @@ msgstr ""
 msgid "Auto reload files in version control"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, chkAutoReloadOnExternalChanges)
+#. +> trunk6
+#: dialogs/opensaveconfigadvwidget.ui:41
+#, kde-format
+msgid "Auto reload files on external changes"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:41
+#: dialogs/opensaveconfigadvwidget.ui:48
 #, kde-format
 msgid "Write a backup file on save for:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkBackupLocalFiles)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:48
+#: dialogs/opensaveconfigadvwidget.ui:55
 #, kde-format
 msgid "If this option is enabled, backups for local files will be created when saving."
 msgstr "เปิดใช้งานตัวเลือกนี้ หากต้องการให้มีการสำรองข้อมูลของแฟ้มภายในเครื่องเมื่อมีการบันทึก"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackupLocalFiles)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:51
+#: dialogs/opensaveconfigadvwidget.ui:58
 #, kde-format
 msgid "&Local files"
 msgstr "แฟ้ม&ภายในเครื่อง"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkBackupRemoteFiles)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:58
+#: dialogs/opensaveconfigadvwidget.ui:65
 #, kde-format
 msgid "If this option is enabled, backups for remote files will be created when saving."
 msgstr "เปิดใช้งานตัวเลือกนี้ หากต้องการให้มีการสำรองข้อมูลของแฟ้มทางไกลเมื่อมีการบันทึก"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackupRemoteFiles)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:61
+#: dialogs/opensaveconfigadvwidget.ui:68
 #, kde-format
 msgid "&Remote files"
 msgstr "แฟ้มทางไกล"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:84
+#: dialogs/opensaveconfigadvwidget.ui:91
 #, kde-format
 msgid "Prefix for backup files:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtBackupPrefix)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:94
+#: dialogs/opensaveconfigadvwidget.ui:101
 #, kde-format
 msgid "Enter the prefix to prepend to the backup file names."
 msgstr "ป้อนส่วนนำหน้าที่จะเพิ่มนำหน้าชื่อแฟ้มสำรองข้อมูล"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:101
+#: dialogs/opensaveconfigadvwidget.ui:108
 #, kde-format
 msgid "Suffix for backup files:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtBackupSuffix)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:111
+#: dialogs/opensaveconfigadvwidget.ui:118
 #, kde-format
 msgid "Enter the suffix to append to the backup file names."
 msgstr "ป้อนส่วนต่อท้ายที่จะใช้ต่อท้ายชื่อแฟ้มสำรองข้อมูล"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSwapFileMode)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:134
+#: dialogs/opensaveconfigadvwidget.ui:141
 #, fuzzy, kde-format
 #| msgid "New Filetype"
 msgid "Swap file mode:"
@@ -1770,21 +1777,21 @@ msgstr "สร้างประเภทของแฟ้มใหม่"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSwapFileMode)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:150
+#: dialogs/opensaveconfigadvwidget.ui:157
 #, kde-format
 msgid "Enabled, Store In Default Directory"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSwapFileMode)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:155
+#: dialogs/opensaveconfigadvwidget.ui:162
 #, kde-format
 msgid "Enabled, Store In Custom Directory"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblSwapDirectory)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:163
+#: dialogs/opensaveconfigadvwidget.ui:170
 #, fuzzy, kde-format
 #| msgid "New Filetype"
 msgid "Store swap files in:"
@@ -1792,7 +1799,7 @@ msgstr "สร้างประเภทของแฟ้มใหม่"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSwapFileSync)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:183
+#: dialogs/opensaveconfigadvwidget.ui:190
 #, fuzzy, kde-format
 #| msgid "Disable swap files syncing."
 msgid "Save swap files every:"
@@ -1800,21 +1807,21 @@ msgstr "ปิดการทำแฟ้มสลับค่าให้ตร
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, spbSwapFileSync)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:196
+#: dialogs/opensaveconfigadvwidget.ui:203
 #, kde-format
 msgid "s"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblExplanatory)
 #. +> trunk6 trunk5
-#: dialogs/opensaveconfigadvwidget.ui:221
+#: dialogs/opensaveconfigadvwidget.ui:228
 #, kde-format
 msgid "This string is located in katedialogs.cpp in KateSaveConfigTab's constructor."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEditorConfig)
 #. +> trunk6
-#: dialogs/opensaveconfigadvwidget.ui:247
+#: dialogs/opensaveconfigadvwidget.ui:254
 #, fuzzy, kde-format
 #| msgid "Do not use config file"
 msgid "Honor settings in .editorconfig file"
@@ -2405,7 +2412,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbDynamicWordWrapDepth)
 #. +> trunk6 trunk5
 #: dialogs/textareaappearanceconfigwidget.ui:424
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<p>Enables the start of dynamically wrapped lines to be aligned vertically to the indentation level of the first line. This can help to make code and markup more readable.</p>"
 "<p>Additionally, this allows you to set a maximum width of the screen, as a percentage, after which dynamically wrapped lines will no longer be vertically aligned. For example, at 50%, lines whose indentation levels are deeper than 50% of the width of the screen will not have vertical alignment applied to subsequent wrapped lines.</p>"
@@ -2416,7 +2423,7 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbDynamicWordWrapDepth)
 #. +> trunk6 trunk5
 #: dialogs/textareaappearanceconfigwidget.ui:427
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "% of View Width"
 msgstr "% ของมุมมอง"
 
@@ -2458,7 +2465,7 @@ msgid "The file %1 does not exist."
 msgstr "คือแฟ้มเดียวกัน"
 
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:222
+#: document/katedocument.cpp:221
 #, fuzzy, kde-format
 #| msgid "Close Document"
 msgid "Auto Reload Document"
@@ -2505,13 +2512,13 @@ msgid "Try Again"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:2253 document/katedocument.cpp:6552
+#: document/katedocument.cpp:2253 document/katedocument.cpp:6558
 #, kde-format
 msgid "&Close"
 msgstr ""
 
 #. +> trunk6
-#: document/katedocument.cpp:2254 document/katedocument.cpp:6553
+#: document/katedocument.cpp:2254 document/katedocument.cpp:6559
 #, kde-format
 msgctxt "Close the message being displayed"
 msgid "Close message"
@@ -2663,28 +2670,28 @@ msgid "Untitled"
 msgstr "ยังไม่กำหนดชื่อ"
 
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:4724 document/katedocument.cpp:4950
-#: document/katedocument.cpp:4960 document/katedocument.cpp:5756
-#: document/katedocument.cpp:5943
+#: document/katedocument.cpp:4726 document/katedocument.cpp:4953
+#: document/katedocument.cpp:4963 document/katedocument.cpp:5762
+#: document/katedocument.cpp:5949
 #, kde-format
 msgid "Save File"
 msgstr "บันทึกแฟ้ม"
 
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:4727
+#: document/katedocument.cpp:4729
 #, kde-format
 msgid "Save failed"
 msgstr "การบันทึกล้มเหลว"
 
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:4971
+#: document/katedocument.cpp:4974
 #, fuzzy, kde-format
 #| msgid "Save File"
 msgid "Save Copy of File"
 msgstr "บันทึกแฟ้ม"
 
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:4983
+#: document/katedocument.cpp:4986
 #, kde-format
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
@@ -2696,30 +2703,37 @@ msgstr ""
 "โปรดตรวจสอบว่าคุณมีสิทธิ์ที่จะเขียนลงแฟ้มนี้หรือไม่ หรือมีที่ว่างบนดิสก์เหลือเพียงพอหรือไม่"
 
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:5273
+#: document/katedocument.cpp:5276
 #, kde-format
 msgid "Using deprecated modeline 'remove-trailing-space'. Please replace with 'remove-trailing-spaces modified;', see https://docs.kde.org/?application=katepart&branch=stable5&path=config-variables.html#variable-remove-trailing-spaces"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:5279
+#: document/katedocument.cpp:5282
 #, kde-format
 msgid "Using deprecated modeline 'replace-trailing-space-save'. Please replace with 'remove-trailing-spaces all;', see https://docs.kde.org/?application=katepart&branch=stable5&path=config-variables.html#variable-remove-trailing-spaces"
 msgstr ""
 
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:5585
+#: document/katedocument.cpp:5596
 #, fuzzy, kde-format
 #| msgid "The file '%1' was modified by another program."
 msgid "The file '%1' was modified on disk."
 msgstr "แฟ้ม '%1' ถูกแก้ไขโดยโปรแกรมอื่น"
 
-#. +> trunk6 trunk5
-#: document/katedocument.cpp:5588
+#. +> trunk5
+#: document/katedocument.cpp:5616
 #, fuzzy, kde-format
 #| msgid "The file '%1' was created by another program."
 msgid "The file '%1' was created on disk."
 msgstr "แฟ้ม '%1' ถูกสร้างขึ้นโดยโปรแกรมอื่น"
+
+#. +> trunk6
+#: document/katedocument.cpp:5598
+#, fuzzy, kde-format
+#| msgid "The file '%1' was deleted by another program."
+msgid "The file '%1' was deleted or moved on disk."
+msgstr "แฟ้ม '%1' ถูกลบโดยโปรแกรมอื่น"
 
 #. +> trunk5
 #: document/katedocument.cpp:5619
@@ -2728,15 +2742,8 @@ msgstr "แฟ้ม '%1' ถูกสร้างขึ้นโดยโปร
 msgid "The file '%1' was deleted on disk."
 msgstr "แฟ้ม '%1' ถูกลบโดยโปรแกรมอื่น"
 
-#. +> trunk6
-#: document/katedocument.cpp:5591
-#, fuzzy, kde-format
-#| msgid "The file '%1' was deleted by another program."
-msgid "The file '%1' was deleted or moved on disk."
-msgstr "แฟ้ม '%1' ถูกลบโดยโปรแกรมอื่น"
-
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:5928
+#: document/katedocument.cpp:5934
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -2747,19 +2754,19 @@ msgstr ""
 "คุณต้องการจะบันทึกมันหรือจะละทิ้งการเปลี่ยนแปลง ?"
 
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:5931
+#: document/katedocument.cpp:5937
 #, kde-format
 msgid "Close Document"
 msgstr "ปิดเอกสาร"
 
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:6042
+#: document/katedocument.cpp:6048
 #, kde-format
 msgid "The file <a href=\"%1\">%2</a> is still loading."
 msgstr ""
 
 #. +> trunk6 trunk5
-#: document/katedocument.cpp:6047
+#: document/katedocument.cpp:6053
 #, kde-format
 msgid "&Abort Loading"
 msgstr ""
@@ -4835,7 +4842,7 @@ msgid "Add to Dictionary"
 msgstr "เพิ่มไปยังพจนานุกรม"
 
 #. +> trunk6 trunk5
-#: spellcheck/spellingmenu.cpp:169
+#: spellcheck/spellingmenu.cpp:172
 #, fuzzy, kde-format
 #| msgid "Spelling"
 msgid "Spelling '%1'"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-22 12:20+0200\n"
+"POT-Creation-Date: 2025-07-01 10:01+0200\n"
 "PO-Revision-Date: 2025-03-24 02:51+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -20,49 +20,63 @@ msgstr ""
 "X-Generator: Lokalize 24.12.3\n"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionItem.qml:60
+#: ConnectionItem.qml:59
 #, kde-format
 msgid "Connect"
 msgstr "เชื่อมต่อ"
 
+#. +> stable6 stable5
+#: contents/ui/ConnectionItem.qml:304
+#, kde-format
+msgid "Connected"
+msgstr "เชื่อมต่อแล้ว"
+
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionItem.qml:60
+#: ConnectionItem.qml:59
 #, kde-format
 msgid "Disconnect"
 msgstr "ตัดการเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionItem.qml:85
+#: ConnectionItem.qml:84
 #, kde-format
 msgid "Show Network's QR Code"
 msgstr "แสดง QR โคดของเครือข่าย:"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionItem.qml:91
+#: ConnectionItem.qml:90
 #, kde-format
 msgid "Configure…"
 msgstr "ตั้งค่า"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionItem.qml:131
+#: ConnectionItem.qml:130
 #, kde-format
 msgid "Speed"
 msgstr "ความเร็ว"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionItem.qml:136
+#: ConnectionItem.qml:135
 #, kde-format
 msgid "Details"
 msgstr "รายละเอียด"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionItem.qml:183
+#: ConnectionItem.qml:182
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current download speed is %1 kibibytes per second; current upload speed is %2 kibibytes per second"
 msgstr "ความเร็วอัปโหลดคือ %1 คิบิไบต์ต่อวินาที ความเร็วดาวน์โหลดคือ %2 คิบิไบต์ต่อวินาที"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ConnectionItem.qml:292
+#, fuzzy, kde-format
+#| msgid "Connected, ↓ %1/s, ↑ %2/s"
+msgctxt "Download and upload rates in some unit per second"
+msgid "↓ %1/s, ↑ %2/s"
+msgstr "ความเร็วการเชื่อมต่อ ↓ %1/วิ ↑ %2/วิ"
+
+#. +> stable6
 #: contents/ui/ConnectionItem.qml:300
 #, kde-format
 msgid "Connected, ↓ %1/s, ↑ %2/s"
@@ -74,113 +88,113 @@ msgstr "ความเร็วการเชื่อมต่อ ↓ %1/ว�
 msgid "Connected, ⬇ %1/s, ⬆ %2/s"
 msgstr "ความเร็วการเชื่อมต่อ ⬇ %1/วิ ⬇ %2/วิ"
 
-#. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionItem.qml:304
-#, kde-format
-msgid "Connected"
-msgstr "เชื่อมต่อแล้ว"
-
 #. +> trunk6 stable6
-#: contents/ui/ConnectionListPage.qml:35
+#: ConnectionListPage.qml:33
 #, kde-format
 msgid "You need to log in to this network"
 msgstr "คุณต้องลงชื่อเข้าใช้เครือข่ายนี้"
 
 #. +> trunk6 stable6
-#: contents/ui/ConnectionListPage.qml:39
+#: ConnectionListPage.qml:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Log in"
 msgstr "ลงชื่อเข้าใช้"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionListPage.qml:116
+#: ConnectionListPage.qml:117
 #, kde-format
 msgid "Airplane mode is enabled"
 msgstr "โหมดเครื่องบินได้ถูกเปิด"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionListPage.qml:120
+#: ConnectionListPage.qml:121
 #, kde-format
 msgid "Wireless and mobile networks are deactivated"
 msgstr "เครือข่ายไร้สายและข้อมูลมือถือปิดอยู่"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionListPage.qml:122
+#: ConnectionListPage.qml:123
 #, kde-format
 msgid "Wireless is deactivated"
 msgstr "เครือข่ายไร้สายปิดใช้งานอยู่"
 
+#. +> trunk6
+#: ConnectionListPage.qml:126
+#, kde-format
+msgid "Looking for wireless networks"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionListPage.qml:125
+#: ConnectionListPage.qml:129
 #, kde-format
 msgid "Mobile network is deactivated"
 msgstr "ข้อมูลมือถือปิดใช้งานอยู่"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionListPage.qml:128
+#: ConnectionListPage.qml:132
 #, kde-format
 msgid "No matches"
 msgstr "ไม่เจอ"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConnectionListPage.qml:130
+#: ConnectionListPage.qml:135
 #, kde-format
 msgid "No available connections"
 msgstr "ไม่มีการเชื่อมต่อที่ใช้ได้"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/DetailsText.qml:49
+#: DetailsText.qml:49
 #, kde-format
 msgid "Copy"
 msgstr "คัดลอก"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/main.qml:32
+#: main.qml:32
 #, kde-format
 msgid "Networks"
 msgstr "เครือข่าย"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/main.qml:41
+#: main.qml:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Middle-click to turn off Airplane Mode"
 msgstr "กดปุ่มเมาส์กลางเพื่อปิดโหมดเครื่องบิน"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/main.qml:43
+#: main.qml:43
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Middle-click to turn on Airplane Mode"
 msgstr "กดปุ่มเมาส์กลางเพื่อเปิดโหมดเครื่องบิน"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/main.qml:71 contents/ui/Toolbar.qml:73
+#: main.qml:71 Toolbar.qml:74
 #, kde-format
 msgid "Enable Wi-Fi"
 msgstr "เปิด Wi-Fi"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/main.qml:82
+#: main.qml:82
 #, kde-format
 msgid "Enable Mobile Network"
 msgstr "เปิดข้อมูลมือถือ"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/main.qml:94
+#: main.qml:94
 #, kde-format
 msgid "Enable Airplane Mode"
 msgstr "เปิดโหมดเครื่องบิน"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/main.qml:106
+#: main.qml:106
 #, kde-format
 msgid "Open Network Login Page…"
 msgstr "เปิดหน้าลงชื่อเข้าใช้..."
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/main.qml:116
+#: main.qml:116
 #, kde-format
 msgid "&Configure Network Connections…"
 msgstr "&ตั้งค่าการเชื่องต่อเครือข่าย"
@@ -193,26 +207,26 @@ msgid "QR Code for %1"
 msgstr "QR โคดสำหรับ %1"
 
 #. +> trunk6 stable6
-#: contents/ui/PopupDialog.qml:51
+#: PopupDialog.qml:51
 #, kde-format
 msgctxt "@action:button"
 msgid "Return to Network Connections"
 msgstr "กลับไปยังการเชื่อมต่อเครือข่าย"
 
 #. +> trunk6 stable6
-#: contents/ui/ShareNetworkQrCodePage.qml:31
+#: ShareNetworkQrCodePage.qml:31
 #, kde-format
 msgid "Scan this QR code with another device to connect to the \"%1\" network."
 msgstr "สแกน QR โคดนี้กับอุปกรณ์อื่นเพื่อที่จะเชื่อมต่อไปยังเครือข่าย \"%1\""
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/Toolbar.qml:122
+#: Toolbar.qml:123
 #, kde-format
 msgid "Enable mobile network"
 msgstr "เปิดใช้งานข้อมูลมือถือ"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/Toolbar.qml:147
+#: Toolbar.qml:148
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -225,7 +239,7 @@ msgstr ""
 " ตัวเลือกนี้จะเปิด Wi-Fi และ Bluetooth"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/Toolbar.qml:148
+#: Toolbar.qml:149
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -238,20 +252,27 @@ msgstr ""
 " ตัวเลือกนี้จะปิด Wi-Fi และ Bluetooth"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/Toolbar.qml:160
+#: Toolbar.qml:162
 #, kde-format
 msgid "Hotspot"
 msgstr "ฮอตสปอต"
 
 #. +> trunk6
-#: contents/ui/Toolbar.qml:177
+#: Toolbar.qml:179
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot create a hotspot because Wi-Fi is disabled."
+msgstr ""
+
+#. +> trunk6
+#: Toolbar.qml:181
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cannot create a hotspot because all wireless radios are in use. Disconnect from the current Wi-Fi network or connect another wireless radio."
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/Toolbar.qml:179
+#: Toolbar.qml:183
 #, fuzzy, kde-format
 #| msgid "Disable Hotspot"
 msgctxt "@info:tooltip"
@@ -265,7 +286,7 @@ msgid "Disable Hotspot"
 msgstr "ปิดฮอตสปอต"
 
 #. +> trunk6
-#: contents/ui/Toolbar.qml:181
+#: Toolbar.qml:185
 #, fuzzy, kde-format
 #| msgid "Create Hotspot"
 msgctxt "@info:tooltip"
@@ -279,25 +300,25 @@ msgid "Create Hotspot"
 msgstr "สร้างฮอตสปอต"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/Toolbar.qml:215
+#: Toolbar.qml:219
 #, kde-format
 msgid "Configure network connections…"
 msgstr "ตั้งค่าการเชื่อต่อเครือข่าย..."
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/TrafficMonitor.qml:37 contents/ui/TrafficMonitor.qml:111
+#: TrafficMonitor.qml:37 TrafficMonitor.qml:111
 #, kde-format
 msgid "/s"
 msgstr "/s"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/TrafficMonitor.qml:89
+#: TrafficMonitor.qml:89
 #, kde-format
 msgid "Upload"
 msgstr "อัพโหลด"
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/TrafficMonitor.qml:89
+#: TrafficMonitor.qml:89
 #, kde-format
 msgid "Download"
 msgstr "ดาวน์โหลด"

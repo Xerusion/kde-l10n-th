@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-16 12:12+0200\n"
+"POT-Creation-Date: 2025-07-08 10:01+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,52 +13,73 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6
-#: inputsequence.cpp:172
+#: inputsequence.cpp:191
 #, kde-format
 msgctxt "@action:button This action is disabled"
 msgid "Disabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: inputsequence.cpp:175
+#: inputsequence.cpp:194
 #, kde-format
 msgctxt "@action:button There is no keybinding"
 msgid "None"
 msgstr ""
 
+#. +> trunk6
+#: inputsequence.cpp:209
+#, kde-format
+msgctxt "@action:button Two keybinds for a dial, up & down"
+msgid "%1 && %2"
+msgstr ""
+
+#. +> trunk6
+#: inputsequence.cpp:216
+#, kde-format
+msgctxt "@action:button There is no keybindings"
+msgid "None"
+msgstr ""
+
 #. +> trunk6 stable6
-#: inputsequence.cpp:182
+#: inputsequence.cpp:221
 #, kde-format
 msgctxt "@action:button"
 msgid "Left mouse button"
 msgstr ""
 
 #. +> trunk6 stable6
-#: inputsequence.cpp:184
+#: inputsequence.cpp:223
 #, kde-format
 msgctxt "@action:button"
 msgid "Right mouse button"
 msgstr ""
 
 #. +> trunk6 stable6
-#: inputsequence.cpp:186
+#: inputsequence.cpp:225
 #, kde-format
 msgctxt "@action:button"
 msgid "Middle mouse button"
 msgstr ""
 
 #. +> trunk6 stable6
-#: inputsequence.cpp:192
+#: inputsequence.cpp:231
 #, kde-format
 msgctxt "@action:button"
 msgid "Application-defined"
 msgstr ""
 
 #. +> trunk6 stable6
-#: inputsequence.cpp:194
+#: inputsequence.cpp:233
 #, kde-format
 msgctxt "@action:button"
 msgid "Pen Button %1"
+msgstr ""
+
+#. +> trunk6
+#: inputsequence.cpp:235
+#, kde-format
+msgctxt "@action:button"
+msgid "Scroll wheel"
 msgstr ""
 
 #. +> stable5
@@ -141,21 +162,21 @@ msgid "Custom size"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcmtablet.cpp:163 ui/DisplayTab.qml:91 ui/DisplayTab.qml:92
+#: kcmtablet.cpp:163 ui/DisplayTab.qml:97 ui/DisplayTab.qml:98
 #, kde-format
 msgctxt "@item:inlistbox Stretch and fill to the screen"
 msgid "Stretch and Fill"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcmtablet.cpp:164 ui/DisplayTab.qml:93
+#: kcmtablet.cpp:164 ui/DisplayTab.qml:99
 #, kde-format
 msgctxt "@item:inlistbox Keep aspect ratio and fit within the screen"
 msgid "Keep Aspect Ratio and Fit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcmtablet.cpp:165 ui/DisplayTab.qml:94
+#: kcmtablet.cpp:165 ui/DisplayTab.qml:100
 #, kde-format
 msgctxt "@item:inlistbox Map to portion of the screen"
 msgid "Map to Portion"
@@ -175,134 +196,181 @@ msgctxt "@info Meant to be inserted into an existing sentence like 'configuring 
 msgid "pen button %1"
 msgstr ""
 
+#. +> trunk6
+#: ui/ActionDialog.qml:27
+#, kde-format
+msgctxt "@title Select the action for the tablet dial"
+msgid "Select Dial Action"
+msgstr ""
+
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:25
+#: ui/ActionDialog.qml:28
 #, kde-format
 msgctxt "@title Select the action for the tablet button"
 msgid "Select Button Action"
 msgstr ""
 
+#. +> trunk6
+#: ui/ActionDialog.qml:86
+#, kde-format
+msgctxt "@info %1 is the 'pad button %1' or 'pen button 1/2/3' strings"
+msgid "Choose what action will be taken when rotating %1:"
+msgstr ""
+
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:74
+#: ui/ActionDialog.qml:87
 #, kde-format
 msgctxt "@info %1 is the 'pad button %1' or 'pen button 1/2/3' strings"
 msgid "Choose what action will be taken when pressing %1:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:88
+#: ui/ActionDialog.qml:101
 #, kde-format
 msgctxt "@option:radio Set this action to an application-defined type"
 msgid "Defer to application"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:103
+#: ui/ActionDialog.qml:116
 #, kde-format
 msgctxt "@option:radio Set this action to a keyboard type"
 msgid "Send keyboard key"
 msgstr ""
 
+#. +> trunk6
+#: ui/ActionDialog.qml:132
+#, kde-format
+msgctxt "@option:radio Set this action to a up/down keyboard type"
+msgid "Send keyboard keys"
+msgstr ""
+
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:117
+#: ui/ActionDialog.qml:147
 #, kde-format
 msgctxt "@option:radio Set this action to a mouse type"
 msgid "Send mouse button click"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:132
+#: ui/ActionDialog.qml:163
 #, kde-format
 msgctxt "@option:radio Set this action to a pen button type"
 msgid "Send pen button"
 msgstr ""
 
+#. +> trunk6
+#: ui/ActionDialog.qml:180
+#, kde-format
+msgctxt "@option:radio Set this action to a scroll wheel type type"
+msgid "Act as scroll wheel"
+msgstr ""
+
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:150
+#: ui/ActionDialog.qml:198
 #, kde-format
 msgctxt "@option:radio Disable this action"
 msgid "Do nothing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:170
+#: ui/ActionDialog.qml:218
 #, kde-format
 msgctxt "@info"
 msgid "This tablet button is forwarded to the focused application, which can decide how to handle it."
 msgstr ""
 
+#. +> trunk6
+#: ui/ActionDialog.qml:249
+#, kde-format
+msgid "Up:"
+msgstr ""
+
+#. +> trunk6
+#: ui/ActionDialog.qml:263
+#, kde-format
+msgid "Down:"
+msgstr ""
+
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:198
+#: ui/ActionDialog.qml:277
 #, kde-format
 msgctxt "@action:inmenu Left mouse click"
 msgid "Left-click"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:199
+#: ui/ActionDialog.qml:278
 #, kde-format
 msgctxt "@action:inmenu Middle mouse click"
 msgid "Middle-click"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:200
+#: ui/ActionDialog.qml:279
 #, kde-format
 msgctxt "@action:inmenu Right mouse click"
 msgid "Right-click"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:227
+#: ui/ActionDialog.qml:306
 #, kde-format
 msgctxt "@option:check The ctrl modifier on the keyboard"
 msgid "Ctrl"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:234
+#: ui/ActionDialog.qml:313
 #, kde-format
 msgctxt "@option:check The alt modifier on the keyboard"
 msgid "Alt"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:241
+#: ui/ActionDialog.qml:320
 #, kde-format
 msgctxt "@option:check The meta modifier on the keyboard"
 msgid "Meta"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:248
+#: ui/ActionDialog.qml:327
 #, kde-format
 msgctxt "@option:check The shift modifier on the keyboard"
 msgid "Shift"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:264
+#: ui/ActionDialog.qml:343
 #, kde-format
 msgctxt "@action:inmenu Stylus button"
 msgid "Button 1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:265
+#: ui/ActionDialog.qml:344
 #, kde-format
 msgctxt "@action:inmenu Stylus button"
 msgid "Button 2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:266
+#: ui/ActionDialog.qml:345
 #, kde-format
 msgctxt "@action:inmenu Stylus button"
 msgid "Button 3"
 msgstr ""
 
+#. +> trunk6
+#: ui/ActionDialog.qml:354
+#, kde-format
+msgctxt "@info"
+msgid "Act like a scroll wheel on a mouse."
+msgstr ""
+
 #. +> trunk6 stable6
-#: ui/ActionDialog.qml:275
+#: ui/ActionDialog.qml:363
 #, kde-format
 msgctxt "@info"
 msgid "This button is disabled and will not do anything."
@@ -378,25 +446,25 @@ msgid "Cancel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/DisplayTab.qml:41
+#: ui/DisplayTab.qml:46
 #, kde-format
 msgid "Map to screen:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/DisplayTab.qml:67
+#: ui/DisplayTab.qml:73
 #, kde-format
 msgid "Orientation:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/DisplayTab.qml:73
+#: ui/DisplayTab.qml:79
 #, kde-format
 msgid "Not Applicable"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/DisplayTab.qml:87
+#: ui/DisplayTab.qml:93
 #, kde-format
 msgid "Mapped Area:"
 msgstr ""
@@ -481,14 +549,27 @@ msgctxt "@title:tab"
 msgid "Pad"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: ui/PadTab.qml:33
+#, kde-format
+msgid "Pad dial %1:"
+msgstr ""
+
+#. +> trunk6
+#: ui/PadTab.qml:35
+#, kde-format
+msgctxt "@info Meant to be inserted into an existing sentence like 'configuring pad button 0'"
+msgid "pad dial %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/PadTab.qml:71
 #, kde-format
 msgid "Pad button %1:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PadTab.qml:36
+#: ui/PadTab.qml:74
 #, kde-format
 msgctxt "@info Meant to be inserted into an existing sentence like 'configuring pad button 0'"
 msgid "pad button %1"
@@ -662,8 +743,26 @@ msgstr ""
 msgid "Stylus move X=%1 Y=%2 P=%3% TX=%4 TY=%5"
 msgstr ""
 
+#. +> trunk6
+#: ui/Tester.qml:75
+#, kde-format
+msgid "Pad button press B=%1"
+msgstr ""
+
+#. +> trunk6
+#: ui/Tester.qml:77
+#, kde-format
+msgid "Pad button release B=%1"
+msgstr ""
+
+#. +> trunk6
+#: ui/Tester.qml:84
+#, kde-format
+msgid "Pad dial moved V120=%1"
+msgstr ""
+
 #. +> trunk6 stable6
-#: ui/Tester.qml:205
+#: ui/Tester.qml:220
 #, kde-format
 msgid ""
 "## Legend:\n"
@@ -673,7 +772,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Tester.qml:211
+#: ui/Tester.qml:226
 #, kde-format
 msgctxt "Clear the event log"
 msgid "Clear"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audex\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-21 10:36+0200\n"
+"POT-Creation-Date: 2025-07-05 12:22+0200\n"
 "PO-Revision-Date: 2025-03-17 14:51+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -67,39 +67,24 @@ msgstr ""
 
 #. i18n: ectx: label, entry (skipReadErrors), group (general)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_skipReadErrors)
-#. +> trunk6
+#. +> trunk6 stable6
 #: audex.kcfg:41 widgets/devicewidgetUI.ui:42
 #, kde-format
 msgid "Skip read errors"
 msgstr ""
 
-#. i18n: ectx: label, entry (skipReadingErrors), group (general)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_skipReadingErrors)
-#. +> stable6
-#: audex.kcfg:41 widgets/devicewidgetUI.ui:89
-#, kde-format
-msgid "Skip reading errors"
-msgstr ""
-
 #. i18n: ectx: label, entry (retriesOnReadError), group (general)
-#. +> trunk6
+#. +> trunk6 stable6
 #: audex.kcfg:45
 #, kde-format
 msgid "Retries on read error"
 msgstr ""
 
 #. i18n: ectx: label, entry (sampleShift), group (general)
-#. +> trunk6
+#. +> trunk6 stable6
 #: audex.kcfg:51
 #, kde-format
 msgid "Sample shift"
-msgstr ""
-
-#. i18n: ectx: label, entry (sampleOffset), group (general)
-#. +> stable6
-#: audex.kcfg:45
-#, kde-format
-msgid "Sample offset"
 msgstr ""
 
 #. i18n: ectx: label, entry (basePath), group (general)
@@ -1185,22 +1170,10 @@ msgctxt "@info"
 msgid "Audio ripping application"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: main.cpp:30
 #, kde-format
 msgid "Copyright © 2007-2025 Marco Nelles"
-msgstr ""
-
-#. +> stable6
-#: main.cpp:25
-#, kde-format
-msgid "Copyright © 2007-2023 Marco Nelles"
-msgstr ""
-
-#. +> stable6
-#: main.cpp:32
-#, kde-format
-msgid "Xiph.Org Foundation"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1213,12 +1186,6 @@ msgstr ""
 #: main.cpp:33
 #, kde-format
 msgid "Current maintainer, main developer"
-msgstr ""
-
-#. +> stable6
-#: main.cpp:33
-#, kde-format
-msgid "Special thanks to Xiph.Org Foundation for providing compact disc ripper"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1251,16 +1218,10 @@ msgstr ""
 msgid "credativ GmbH"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: main.cpp:36
 #, kde-format
 msgid "Special thanks to credativ GmbH (Germany) for support"
-msgstr ""
-
-#. +> stable6
-#: main.cpp:31
-#, kde-format
-msgid "Special thanks to former credativ GmbH (Germany) for support"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1853,112 +1814,40 @@ msgstr ""
 msgid "Audio Disc"
 msgstr ""
 
-#. +> stable6
-#: utils/cddaextractthread.cpp:27
-#, kde-format
-msgid "Internal device error."
-msgstr ""
-
-#. +> stable6
-#: utils/cddaextractthread.cpp:27
-#, kde-format
-msgid "Check your device and make a bug report."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:70
 #, kde-format
 msgid "Sample shift: %1"
 msgstr ""
 
-#. +> stable6
-#: utils/cddaextractthread.cpp:71
-#, kde-format
-msgid "Drive Vendor: %1, Drive Model: %2, Drive Revision: %3"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:72
 #, kde-format
 msgid "Ripping with shift of %1 samples"
 msgstr ""
 
-#. +> stable6
-#: utils/cddaextractthread.cpp:72
-#, kde-format
-msgid "TOC:"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:75
 #, kde-format
 msgid "Paranoia mode enabled"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:77
 #, kde-format
 msgid "Paranoia mode disabled"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:110 utils/cddaextractthread.cpp:111
 #, kde-format
 msgid "Start ripping track %1..."
 msgstr ""
 
-#. +> stable6
-#: utils/cddaextractthread.cpp:136
-#, kde-format
-msgid "Start reading track %1 with %2 sectors"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:113 utils/cddaextractthread.cpp:114
 #, kde-format
 msgid "Start ripping whole cd..."
-msgstr ""
-
-#. +> stable6
-#: utils/cddaextractthread.cpp:121
-#, kde-format
-msgid "Correction sample offset: %1"
-msgstr ""
-
-#. +> stable6
-#: utils/cddaextractthread.cpp:129
-#, kde-format
-msgid "Fetching extra information from disc..."
-msgstr ""
-
-#. +> stable6
-#: utils/cddaextractthread.cpp:131
-#, kde-format
-msgid "Fetching subchannel infos from disc"
-msgstr ""
-
-#. +> stable6
-#: utils/cddaextractthread.cpp:138
-#, kde-format
-msgid "Ripping whole disc (%1:%2)..."
-msgstr ""
-
-#. +> stable6
-#: utils/cddaextractthread.cpp:139
-#, kde-format
-msgid "Start reading whole disc with %1 sectors"
-msgstr ""
-
-#. +> stable6
-#: utils/cddaextractthread.cpp:140
-#, kde-format
-msgid "Track %1 with start sector %2"
-msgstr ""
-
-#. +> stable6
-#: utils/cddaextractthread.cpp:143
-#, kde-format
-msgid "First sector: %1, Last sector: %2"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1967,22 +1856,10 @@ msgstr ""
 msgid "Error occured while reading sector %1 (track time pos %2): %3"
 msgstr ""
 
-#. +> stable6
-#: utils/cddaextractthread.cpp:110 utils/cddaextractthread.cpp:228
-#, kde-format
-msgid "Error occured while seeking at sector %1: %2"
-msgstr ""
-
 #. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:200 utils/cddaextractthread.cpp:208
 #, kde-format
 msgid "An error occured while ripping track %1 at position %2. See log."
-msgstr ""
-
-#. +> stable6
-#: utils/cddaextractthread.cpp:112 utils/cddaextractthread.cpp:230
-#, kde-format
-msgid "An error occured while ripping track %1. See log."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1990,12 +1867,6 @@ msgstr ""
 #: utils/cddaextractthread.cpp:217 utils/cddaextractthread.cpp:219
 #, kde-format
 msgid "An error occured while ripping at position %1. See log."
-msgstr ""
-
-#. +> stable6
-#: utils/cddaextractthread.cpp:114 utils/cddaextractthread.cpp:232
-#, kde-format
-msgid "An error occured while ripping. See log."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2010,13 +1881,13 @@ msgstr ""
 msgid "Error reading sector %1 (%2): **Filling whole sector with silence**"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:264
 #, kde-format
 msgid "Paranoia status report for track %1:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:266
 #, kde-format
 msgid "Paranoia status report:"
@@ -2040,25 +1911,13 @@ msgstr ""
 msgid "Extraction interrupted"
 msgstr ""
 
-#. +> stable6
-#: utils/cddaextractthread.cpp:86
-#, kde-format
-msgid "Extracting finished."
-msgstr ""
-
 #. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:279
 #, kde-format
 msgid "Ripping OK (Track %1)."
 msgstr ""
 
-#. +> stable6
-#: utils/cddaextractthread.cpp:135
-#, kde-format
-msgid "Ripping track %1 (%2:%3)..."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:280
 #, kde-format
 msgid "Ripping of track %2 successfully finished"
@@ -2070,87 +1929,56 @@ msgstr ""
 msgid "Ripping OK."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:283
 #, kde-format
 msgid "Ripping successfully finished"
 msgstr ""
 
-#. +> stable6
-#: utils/cddaextractthread.cpp:262
-#, kde-format
-msgid "Ripping finished"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaparanoia.cpp:20
 #, kde-format
 msgid "Device error."
 msgstr ""
 
-#. +> stable6
-#: utils/cddacdio.cpp:45
-#, kde-format
-msgid "Device error (1)."
-msgstr ""
-
-#. +> stable6
-#: utils/cddacdio.cpp:52
-#, kde-format
-msgid "Device error (2)."
-msgstr ""
-
-#. +> stable6
-#: utils/cddacdio.cpp:60
-#, kde-format
-msgid "Device error (3)."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaparanoia.cpp:20
 #, kde-format
 msgid "Check your device on \"%1\"."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaparanoia.cpp:30 utils/cddaparanoia.cpp:34
 #: utils/cddaparanoia.cpp:40
 #, kde-format
 msgid "Disc error."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaparanoia.cpp:30
 #, kde-format
 msgid "Unable to open disc. Is there an audio disc in the drive \"%1\"."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaparanoia.cpp:34
 #, kde-format
 msgid "cdparanoia could not find a way to read audio from the drive \"%1\"."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaparanoia.cpp:40
 #, kde-format
 msgid "Unspecified drive error on \"%1\"."
 msgstr ""
 
-#. +> stable6
-#: utils/cddacdio.cpp:45 utils/cddacdio.cpp:52 utils/cddacdio.cpp:60
-#: utils/cddacdio.cpp:530
-#, kde-format
-msgid "Check your device. Is it really \"%1\"? Also check your permissions on \"%1\"."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaparanoia.cpp:47
 #, kde-format
 msgid "Drive/Disc error."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaparanoia.cpp:47
 #, kde-format
 msgid "Unspecified drive or disc error on \"%1\"."
@@ -2168,28 +1996,10 @@ msgstr ""
 msgid "Audio"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: utils/cddaparanoia.cpp:360
 #, kde-format
 msgid "Non-Audio"
-msgstr ""
-
-#. +> stable6
-#: utils/cddacdio.cpp:476
-#, kde-format
-msgid "Non-Audio: CD-i"
-msgstr ""
-
-#. +> stable6
-#: utils/cddacdio.cpp:479
-#, kde-format
-msgid "Non-Audio: Data mode 2"
-msgstr ""
-
-#. +> stable6
-#: utils/cddacdio.cpp:486
-#, kde-format
-msgid "Non-Audio: Data mode 1"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2202,36 +2012,6 @@ msgstr ""
 #: utils/cddaparanoia.cpp:366
 #, kde-format
 msgid "Track %1, Start sector: %2, Size in sectors: %3, Type: %4"
-msgstr ""
-
-#. +> stable6
-#: utils/cddacdio.cpp:481
-#, kde-format
-msgid ", form 1"
-msgstr ""
-
-#. +> stable6
-#: utils/cddacdio.cpp:483
-#, kde-format
-msgid ", form 2"
-msgstr ""
-
-#. +> stable6
-#: utils/cddacdio.cpp:489
-#, kde-format
-msgid "Non-Audio: Playstation 1"
-msgstr ""
-
-#. +> stable6
-#: utils/cddacdio.cpp:492
-#, kde-format
-msgid "Non-Audio: Unknown format"
-msgstr ""
-
-#. +> stable6
-#: utils/cddacdio.cpp:529
-#, kde-format
-msgid "Could not get device hardware information (vendor, model and firmware revision)."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2705,7 +2485,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_skipReadErrors)
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/devicewidgetUI.ui:39
 #, kde-format
 msgid ""
@@ -2716,7 +2496,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_sampleShift)
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/devicewidgetUI.ui:51 widgets/devicewidgetUI.ui:73
 #, kde-format
 msgid ""
@@ -2726,39 +2506,15 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/devicewidgetUI.ui:54
 #, kde-format
 msgid "Sample shift:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. +> stable6
-#: widgets/devicewidgetUI.ui:54
-#, kde-format
-msgid "Sample offset:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_skipReadingErrors)
-#. +> stable6
-#: widgets/devicewidgetUI.ui:86
-#, kde-format
-msgid ""
-"<html><head/><body>"
-"<p>Skip reading errors of a sector (length of a sector: 1/75 second) after trying to read the sector again for at most 20 times. Usually broken sectors will be filled with silence.</p>"
-"</body></html>"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, gridGroupBox)
-#. +> stable6
-#: widgets/devicewidgetUI.ui:99
-#, kde-format
-msgid "Device information"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_retriesOnReadError)
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/devicewidgetUI.ui:103 widgets/devicewidgetUI.ui:134
 #, kde-format
 msgid ""
@@ -2768,66 +2524,10 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#. +> trunk6
+#. +> trunk6 stable6
 #: widgets/devicewidgetUI.ui:106
 #, kde-format
 msgid "Max. read retries:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. +> stable6
-#: widgets/devicewidgetUI.ui:156
-#, kde-format
-msgid "Vendor:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_canReadMCN)
-#. +> stable6
-#: widgets/devicewidgetUI.ui:179
-#, kde-format
-msgid "Your device can read the Media Catalog Number (MCN) of the disc."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_canReadMCN)
-#. +> stable6
-#: widgets/devicewidgetUI.ui:182
-#, kde-format
-msgid "Can read Media Catalog Number (MCN)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. +> stable6
-#: widgets/devicewidgetUI.ui:214
-#, kde-format
-msgid "Revision:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_c2ErrorCorrection)
-#. +> stable6
-#: widgets/devicewidgetUI.ui:224
-#, kde-format
-msgid "C2 error correction available"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. +> stable6
-#: widgets/devicewidgetUI.ui:246
-#, kde-format
-msgid "Model:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_canReadISRC)
-#. +> stable6
-#: widgets/devicewidgetUI.ui:256
-#, kde-format
-msgid "Your device can read the International Standard Recording Code of every single track."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_canReadISRC)
-#. +> stable6
-#: widgets/devicewidgetUI.ui:259
-#, kde-format
-msgid "Can read Intern. Standard Recording Code (ISRC)"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -3109,15 +2809,4 @@ msgstr ""
 #: widgets/remoteserversettingswidgetUI.ui:51
 #, kde-format
 msgid "URL:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_Model)
-#. i18n: ectx: property (text), widget (QLabel, label_Revision)
-#. i18n: ectx: property (text), widget (QLabel, label_Vendor)
-#. +> stable6
-#: widgets/devicewidget.cpp:52 widgets/devicewidget.cpp:53
-#: widgets/devicewidget.cpp:54 widgets/devicewidgetUI.ui:111
-#: widgets/devicewidgetUI.ui:137 widgets/devicewidgetUI.ui:166
-#, kde-format
-msgid "(No disc detected)"
 msgstr ""

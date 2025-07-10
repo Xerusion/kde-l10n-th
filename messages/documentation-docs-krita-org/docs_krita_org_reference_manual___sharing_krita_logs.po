@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 5.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-26 09:18+0200\n"
+"POT-Creation-Date: 2025-06-14 09:48+0200\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -11,11 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#. +> trunk5
-#: ../../reference_manual/sharing_krita_logs.rst:1
-msgid "How to get a Krita Usage Log, Krita's backtrace or Krita's text output."
-msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/sharing_krita_logs.rst:11
@@ -326,14 +321,33 @@ msgid "Open Krita in :literal:`gdb`:"
 msgstr ""
 
 #. +> trunk5
+#: ../../reference_manual/sharing_krita_logs.rst:168
+msgid ""
+"# if you have Krita installed from repositories, you may need to only write 'gdb krita'\n"
+"# if not, write the path to the executable file\n"
+"gdb path/to/krita"
+msgstr ""
+
+#. +> trunk5
 #: ../../reference_manual/sharing_krita_logs.rst:174
 msgid "Disable pagination:"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/sharing_krita_logs.rst:176
+msgid "set pagination off"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/sharing_krita_logs.rst:180
 #: ../../reference_manual/sharing_krita_logs.rst:221
 msgid "Run Krita:"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/sharing_krita_logs.rst:182
+#: ../../reference_manual/sharing_krita_logs.rst:223
+msgid "run"
 msgstr ""
 
 #. +> trunk5
@@ -348,8 +362,18 @@ msgid "Get the short backtrace:"
 msgstr ""
 
 #. +> trunk5
+#: ../../reference_manual/sharing_krita_logs.rst:189
+msgid "thread apply all bt"
+msgstr ""
+
+#. +> trunk5
 #: ../../reference_manual/sharing_krita_logs.rst:193
 msgid "Get the long backtrace:"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/sharing_krita_logs.rst:195
+msgid "thread apply all bt full"
 msgstr ""
 
 #. +> trunk5
@@ -388,8 +412,18 @@ msgid "Open Krita in :literal:`lldb`:"
 msgstr ""
 
 #. +> trunk5
+#: ../../reference_manual/sharing_krita_logs.rst:217
+msgid "lldb /Applications/krita.app/Contents/MacOS/krita"
+msgstr ""
+
+#. +> trunk5
 #: ../../reference_manual/sharing_krita_logs.rst:227
 msgid "Get the backtrace:"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/sharing_krita_logs.rst:229
+msgid "thread backtrace all"
 msgstr ""
 
 #. +> trunk5
@@ -499,6 +533,34 @@ msgid "Write the path to the Krita executable."
 msgstr ""
 
 #. +> trunk5
+#: ../../reference_manual/sharing_krita_logs.rst:300
+msgid ""
+"# On Linux, if installed from repositories:\n"
+"krita\n"
+"# On Linux, in all other cases:\n"
+"#  (remember that if you want to reference a file from the directory\n"
+"#   you're currently in, you need to write: './krita_filename' instead of 'krita_filename'\n"
+"#   and remember that this file need to have execution rights to be executed)\n"
+"path/to/krita"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/sharing_krita_logs.rst:310
+msgid ""
+"# On macOS:\n"
+"/Applications/krita.app/Contents/MacOS/krita"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/sharing_krita_logs.rst:315
+msgid ""
+"REM  On Windows:\n"
+"REM  By default, cmd.exe will prefer running the .COM file over the .EXE, so\n"
+"REM  you may also leave out the .COM file extension.\n"
+"\"C:\\Program Files\\Krita (x64)\\bin\\krita.com\""
+msgstr ""
+
+#. +> trunk5
 #: ../../reference_manual/sharing_krita_logs.rst:324
 msgid "Copy the content, save to a file and attach to the bug report."
 msgstr ""
@@ -544,67 +606,6 @@ msgid "Switch to DebugView and copy the content. Save to a file and attach to th
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/sharing_krita_logs.rst:None
-msgid ""
-"# if you have Krita installed from repositories, you may need to only write 'gdb krita'\n"
-"# if not, write the path to the executable file\n"
-"gdb path/to/krita"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/sharing_krita_logs.rst:None
-msgid "set pagination off"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/sharing_krita_logs.rst:None
-msgid "run"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/sharing_krita_logs.rst:None
-msgid "thread apply all bt"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/sharing_krita_logs.rst:None
-msgid "thread apply all bt full"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/sharing_krita_logs.rst:None
-msgid "lldb /Applications/krita.app/Contents/MacOS/krita"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/sharing_krita_logs.rst:None
-msgid "thread backtrace all"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/sharing_krita_logs.rst:None
-msgid ""
-"# On Linux, if installed from repositories:\n"
-"krita\n"
-"# On Linux, in all other cases:\n"
-"#  (remember that if you want to reference a file from the directory\n"
-"#   you're currently in, you need to write: './krita_filename' instead of 'krita_filename'\n"
-"#   and remember that this file need to have execution rights to be executed)\n"
-"path/to/krita"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/sharing_krita_logs.rst:None
-msgid ""
-"# On macOS:\n"
-"/Applications/krita.app/Contents/MacOS/krita"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/sharing_krita_logs.rst:None
-msgid ""
-"REM  On Windows:\n"
-"REM  By default, cmd.exe will prefer running the .COM file over the .EXE, so\n"
-"REM  you may also leave out the .COM file extension.\n"
-"\"C:\\Program Files\\Krita (x64)\\bin\\krita.com\""
+#: ../../reference_manual/sharing_krita_logs.rst:-1
+msgid "How to get a Krita Usage Log, Krita's backtrace or Krita's text output."
 msgstr ""

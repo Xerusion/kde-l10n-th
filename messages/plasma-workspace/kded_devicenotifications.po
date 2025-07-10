@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-25 12:17+0100\n"
+"POT-Creation-Date: 2025-07-08 10:01+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -19,10 +19,22 @@ msgctxt "@title:notifications"
 msgid "Display Detected"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: devicenotifications.cpp:333
+#, kde-format
+msgid "A display has been connected."
+msgstr ""
+
+#. +> stable6
 #: devicenotifications.cpp:333
 #, kde-format
 msgid "A display has been plugged in."
+msgstr ""
+
+#. +> stable6
+#: devicenotifications.cpp:347
+#, kde-format
+msgid "A display has been unplugged."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -32,22 +44,46 @@ msgctxt "@title:notifications"
 msgid "Display Removed"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: devicenotifications.cpp:347
 #, kde-format
-msgid "A display has been unplugged."
+msgid "A display has been disconnected."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: devicenotifications.cpp:378
+#, kde-format
+msgid "%1 has been connected."
+msgstr ""
+
+#. +> stable6
 #: devicenotifications.cpp:378
 #, kde-format
 msgid "%1 has been plugged in."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
+#: devicenotifications.cpp:404
+#, kde-format
+msgid "%1 has been unplugged."
+msgstr ""
+
+#. +> trunk6
+#: devicenotifications.cpp:378
+#, kde-format
+msgid "A USB device has been connected."
+msgstr ""
+
+#. +> stable6
 #: devicenotifications.cpp:378
 #, kde-format
 msgid "A USB device has been plugged in."
+msgstr ""
+
+#. +> stable6
+#: devicenotifications.cpp:404
+#, kde-format
+msgid "A USB device has been unplugged."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -57,21 +93,28 @@ msgctxt "@title:notifications"
 msgid "USB Device Detected"
 msgstr ""
 
-#. +> trunk6 stable6
-#: devicenotifications.cpp:404
-#, kde-format
-msgid "%1 has been unplugged."
-msgstr ""
-
-#. +> trunk6 stable6
-#: devicenotifications.cpp:404
-#, kde-format
-msgid "A USB device has been unplugged."
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> stable6
 #: devicenotifications.cpp:407
 #, kde-format
 msgctxt "@title:notifications"
 msgid "USB Device Removed"
+msgstr ""
+
+#. +> trunk6
+#: devicenotifications.cpp:404
+#, kde-format
+msgid "%1 has been disconnected."
+msgstr ""
+
+#. +> trunk6
+#: devicenotifications.cpp:404
+#, kde-format
+msgid "A USB device has been disconnected."
+msgstr ""
+
+#. +> trunk6
+#: devicenotifications.cpp:407
+#, kde-format
+msgctxt "@title:notifications"
+msgid "USB Device Went Away"
 msgstr ""

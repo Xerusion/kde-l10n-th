@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-29 10:58+0100\n"
+"POT-Creation-Date: 2025-07-05 12:23+0200\n"
 "PO-Revision-Date: 2010-12-17 20:57+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -86,14 +86,7 @@ msgstr ""
 "<p>เติมส่วนขยายให้แฟ้มที่อัปโหลดไปบางส่วน</p>"
 "<p>หากเปิดใช้ตัวเลือกนี้ แฟ้มที่อัปโหลดไปได้บางส่วน จะมีส่วนขยาย \".part\" ซึ่งจะหายไปเมื่อการอัปโหลดเสร็จสมบูรณ์แล้ว</p>"
 
-#. +> stable6
-#: netpref/netpref.cpp:55
-#, kde-format
-msgid " byte"
-msgid_plural " bytes"
-msgstr[0] ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: netpref/netpref.cpp:56
 #, kde-format
 msgctxt "@label:spinbox"
@@ -673,14 +666,6 @@ msgctxt "@action:button ignore notification"
 msgid "Ignore Forever"
 msgstr "ต&ลอดไป"
 
-#. +> stable6
-#: trash/kcmtrash.cpp:141
-#, fuzzy, kde-format
-#| msgid "1 day %2"
-#| msgid_plural "%1 days %2"
-msgid " days"
-msgstr "%1 วัน %2"
-
 #. +> trunk6 stable6
 #: trash/kcmtrash.cpp:206
 #, kde-format
@@ -713,7 +698,7 @@ msgctxt "@info:whatsthis"
 msgid "<para>Check this box to allow <emphasis strong='true'>automatic deletion</emphasis> of files that are older than the value specified. Leave this disabled to <emphasis strong='true'>not</emphasis> automatically delete any items after a certain timespan</para>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: trash/kcmtrash.cpp:259
 #, fuzzy, kde-format
 #| msgid "1 day %2"
@@ -721,15 +706,6 @@ msgstr ""
 msgctxt "@label:spinbox"
 msgid "%v day"
 msgid_plural "%v days"
-msgstr[0] "%1 วัน %2"
-
-#. +> stable6
-#: trash/kcmtrash.cpp:259
-#, fuzzy, kde-format
-#| msgid "1 day %2"
-#| msgid_plural "%1 days %2"
-msgid " day"
-msgid_plural " days"
 msgstr[0] "%1 วัน %2"
 
 #. +> trunk6 stable6
@@ -764,7 +740,7 @@ msgstr ""
 msgid "Size:"
 msgstr "ขนาด:"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: trash/kcmtrash.cpp:279
 #, kde-format
 msgctxt "@label:spinbox Percent value"
@@ -1189,3 +1165,16 @@ msgstr ""
 #| msgid "Interlace Mode"
 msgid "Insert query placeholder"
 msgstr "โหมดอินเทอร์เลส"
+
+#, fuzzy, kde-format
+#~| msgid "1 day %2"
+#~| msgid_plural "%1 days %2"
+#~ msgid " days"
+#~ msgstr "%1 วัน %2"
+
+#, fuzzy, kde-format
+#~| msgid "1 day %2"
+#~| msgid_plural "%1 days %2"
+#~ msgid " day"
+#~ msgid_plural " days"
+#~ msgstr[0] "%1 วัน %2"

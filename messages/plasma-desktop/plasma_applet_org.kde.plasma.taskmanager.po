@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-21 10:37+0200\n"
+"POT-Creation-Date: 2025-06-10 00:31+0200\n"
 "PO-Revision-Date: 2010-12-17 16:16+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -697,6 +697,14 @@ msgstr ""
 msgid "Middle-clicking any task:"
 msgstr ""
 
+#. +> stable6
+#: package/contents/ui/ConfigBehavior.qml:205
+#, fuzzy, kde-format
+#| msgid "Show tooltips"
+msgctxt "@label:listbox completes sentence like: … does nothing"
+msgid "Scrolling on a task:"
+msgstr "แสดงทูลทิป"
+
 #. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:190
 #, kde-format
@@ -708,6 +716,13 @@ msgstr ""
 #: package/contents/ui/ConfigBehavior.qml:131
 #, kde-format
 msgctxt "Part of a sentence: 'Middle-clicking any task does nothing'"
+msgid "Does nothing"
+msgstr ""
+
+#. +> stable6
+#: package/contents/ui/ConfigBehavior.qml:209
+#, kde-format
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling on any task does nothing'"
 msgid "Does nothing"
 msgstr ""
 
@@ -787,29 +802,21 @@ msgstr "แสดงเฉพาะงานที่อยู่บนพื้
 #: package/contents/ui/ConfigBehavior.qml:205
 #, fuzzy, kde-format
 #| msgid "Show tooltips"
-msgctxt "@label:listbox completes sentence like: … does nothing"
+msgctxt "@label:listbox Part of a sentence: 'Scrolling behavior does nothing/cycles through tasks/cycles through the selected task's windows'"
 msgid "Scrolling behavior:"
 msgstr "แสดงทูลทิป"
 
-#. +> stable6
-#: package/contents/ui/ConfigBehavior.qml:205
-#, fuzzy, kde-format
-#| msgid "Show tooltips"
-msgctxt "@label:listbox completes sentence like: … does nothing"
-msgid "Scrolling on a task:"
-msgstr "แสดงทูลทิป"
-
-#. +> trunk6 stable6
+#. +> trunk6
 #: package/contents/ui/ConfigBehavior.qml:209
 #, kde-format
-msgctxt "@item:inlistbox Part of a sentence: 'Scrolling on any task does nothing'"
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior does nothing'"
 msgid "Does nothing"
 msgstr ""
 
 #. +> trunk6
 #: package/contents/ui/ConfigBehavior.qml:210
 #, kde-format
-msgctxt "@item:inlistbox Part of a sentence: 'Scrolling anywhere switches through all tasks'"
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through all tasks'"
 msgid "Cycles through all tasks"
 msgstr ""
 
@@ -823,8 +830,8 @@ msgstr ""
 #. +> trunk6
 #: package/contents/ui/ConfigBehavior.qml:211
 #, kde-format
-msgctxt "@item:inlistbox Part of a sentence: 'Scrolling on a task switches between that task's windows'"
-msgid "Cycles through the selected task windows"
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through the hovered task's windows'"
+msgid "Cycles through the hovered task’s windows"
 msgstr ""
 
 #. +> stable6

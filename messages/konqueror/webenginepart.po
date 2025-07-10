@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: webkitkde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-26 11:47+0200\n"
+"POT-Creation-Date: 2025-07-05 12:23+0200\n"
 "PO-Revision-Date: 2010-03-06 09:46+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -342,47 +342,25 @@ msgstr "เปิด '%1'"
 msgid "Do you want to allow <tt>%1</tt> to capture the contents of your screen?"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/capturesourcechooserdlg.cpp:29
 #, kde-format
 msgctxt "Choose to share a screen"
 msgid "Share Screen"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/capturesourcechooserdlg.cpp:31
 #, kde-format
 msgctxt "Choose to share a window"
 msgid "Share Window"
 msgstr ""
 
-#. +> stable6
-#: src/capturesourcechooserdlg.cpp:31
-#, kde-format
-msgid "Choose window or screen to capture"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/capturesourcechooserdlg.cpp:35
 #, kde-format
 msgctxt "Don't share any part of the screen"
 msgid "Share nothing"
-msgstr ""
-
-#. +> stable6
-#: src/capturesourcechooserdlg.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "follow link despite of security warning"
-#| msgid "Follow"
-msgctxt "Allow a web page to capture the screen"
-msgid "Allow"
-msgstr "เรียกไป"
-
-#. +> stable6
-#: src/capturesourcechooserdlg.cpp:39
-#, kde-format
-msgctxt "Block a web page from capturing the screen"
-msgid "Block"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, WebEngine::CaptureSourceChooserDlg)
@@ -395,29 +373,21 @@ msgid "Choose Capture Source"
 msgstr "เลือกส่วนประกอบต่าง ๆ"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/capturesourcechooserdlg.ui:20
 #, kde-format
 msgid "Which part of your screen do you want to share?"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. +> stable6
-#: src/capturesourcechooserdlg.ui:20
-#, fuzzy, kde-format
-#| msgid "<qt>Do you want to allow this site to attach the following files to the email message ?</qt>"
-msgid "Do you want to allow this page to capture the contents of your screen?"
-msgstr "<qt>คุณต้องการจะอนุญาตให้เว็บไซต์นี้ทำการแนบแฟ้มต่าง ๆ ต่อไปนี้เข้าไปยังจดหมายหรือไม่ ?</qt>"
-
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/capturesourcechooserdlg.ui:44
 #, kde-format
 msgid "Window"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QComboBox, windowCombo)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/capturesourcechooserdlg.ui:51
 #, fuzzy, kde-format
 #| msgid "Close window?"
@@ -425,14 +395,14 @@ msgid "Choose window"
 msgstr "ปิดหน้าต่างหรือไม่ ?"
 
 #. i18n: ectx: property (text), widget (QLabel, Screen)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/capturesourcechooserdlg.ui:75
 #, kde-format
 msgid "Screen"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QComboBox, screenCombo)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/capturesourcechooserdlg.ui:82
 #, kde-format
 msgid "Choose screen"
@@ -983,17 +953,10 @@ msgid "other"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, WebEngineCustomizeCacheableFieldsDlg)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/webenginecustomizecacheablefieldsdlg.ui:14
 #, kde-format
 msgid "Customize Fields To Store"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QDialog, WebEngineCustomizeCacheableFieldsDlg)
-#. +> stable6
-#: src/webenginecustomizecacheablefieldsdlg.ui:14
-#, kde-format
-msgid "Choose fields to remember"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showPasswords)
@@ -1004,7 +967,7 @@ msgid "Switch between displaying passwords or placeholders"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, showPasswords)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/webenginecustomizecacheablefieldsdlg.ui:44
 #, kde-format
 msgid "Show &passwords"
@@ -1018,7 +981,7 @@ msgid "Show advanced information about the fields"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, showDetails)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/webenginecustomizecacheablefieldsdlg.ui:67
 #, kde-format
 msgid "Show field &details"
@@ -1039,17 +1002,10 @@ msgid "Store form data in KWallet when closing the dialog"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, immediatelyCacheData)
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/webenginecustomizecacheablefieldsdlg.ui:104
 #, kde-format
 msgid "&Store the contents of selected fields when closing the dialog"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, immediatelyCacheData)
-#. +> stable6
-#: src/webenginecustomizecacheablefieldsdlg.ui:104
-#, kde-format
-msgid "&Immediately memorize form data"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1395,99 +1351,52 @@ msgstr "ต้องการการยืนยัน"
 msgid "<html>Do you want %1 to remember the login information for <b>%2</b>?</html>"
 msgstr "<html>คุณต้องการจะให้ %1 จดจำข้อมูลรายละเอียดการล็อกอินของ  <b>%2</b> หรือไม่ ?</html>"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/webenginepart.cpp:1019
 #, kde-format
 msgctxt "Fill the Forms with Data from KWallet"
 msgid "&Fill In Credentials"
 msgstr ""
 
-#. +> stable6
-#: src/webenginepart.cpp:1008
-#, kde-format
-msgctxt "Fill the Forms with Data from KWallet"
-msgid "&Fill forms now"
-msgstr ""
-
-#. +> stable6
-#: src/webenginepart.cpp:1021
-#, kde-format
-msgid "&Customize Fields to Memorize for This Page..."
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/webenginepart.cpp:1024
 #, kde-format
 msgctxt "Scans again the page to detect forms to fill"
 msgid "&Search Page for Credential Requests"
 msgstr ""
 
-#. +> stable6
-#: src/webenginepart.cpp:1013
-#, kde-format
-msgctxt "Scans again the page to detect forms to fill"
-msgid "Look Again for Forms"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/webenginepart.cpp:1028
 #, kde-format
 msgctxt "Store in KWallet the current content of the fields"
 msgid "&Store Credentials Now"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/webenginepart.cpp:1032
 #, kde-format
 msgctxt "Shows a dialog where the use can choose which fields to store"
 msgid "&Customize Credentials Settings for Page..."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/webenginepart.cpp:1036
 #, kde-format
 msgid "Reset Custom Credential Settings for Page"
 msgstr ""
 
-#. +> stable6
-#: src/webenginepart.cpp:1025
-#, kde-format
-msgid "Remove Customized Memorization Settings for This Page"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/webenginepart.cpp:1040
 #, fuzzy, kde-format
 #| msgid "&Allow password caching for this site"
 msgid "&Allow Credential Caching for This Page"
 msgstr "&อนุญาตให้จัดเก็บรหัสผ่านสำหรับเว็บไซต์นี้"
 
-#. +> stable6
-#: src/webenginepart.cpp:1029
-#, fuzzy, kde-format
-#| msgid "&Allow password caching for this site"
-msgid "&Allow Password Caching for This Site"
-msgstr "&อนุญาตให้จัดเก็บรหัสผ่านสำหรับเว็บไซต์นี้"
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/webenginepart.cpp:1044
 #, fuzzy, kde-format
 #| msgid "Remove all cached passwords for this site"
 msgid "Remove All Stored Passwords for This Site"
-msgstr "ลบแคชข้อมูลรหัสผ่านทั้งหมดของเว็บไซต์นี้ออกไป"
-
-#. +> stable6
-#: src/webenginepart.cpp:1017
-#, fuzzy, kde-format
-#| msgid "Remove all cached passwords for this site"
-msgid "&Memorize Passwords in This Page Now"
-msgstr "ลบแคชข้อมูลรหัสผ่านทั้งหมดของเว็บไซต์นี้ออกไป"
-
-#. +> stable6
-#: src/webenginepart.cpp:1033
-#, fuzzy, kde-format
-#| msgid "Remove all cached passwords for this site"
-msgid "Remove All Memorized Passwords for This Site"
 msgstr "ลบแคชข้อมูลรหัสผ่านทั้งหมดของเว็บไซต์นี้ออกไป"
 
 #. +> trunk6 stable6
@@ -1930,3 +1839,30 @@ msgid ""
 "<li><b>Autocompletion is enabled: </b>%6</li>"
 "</ul>"
 msgstr ""
+
+#, fuzzy, kde-format
+#~| msgctxt "follow link despite of security warning"
+#~| msgid "Follow"
+#~ msgctxt "Allow a web page to capture the screen"
+#~ msgid "Allow"
+#~ msgstr "เรียกไป"
+
+#, fuzzy, kde-format
+#~| msgid "<qt>Do you want to allow this site to attach the following files to the email message ?</qt>"
+#~ msgid "Do you want to allow this page to capture the contents of your screen?"
+#~ msgstr "<qt>คุณต้องการจะอนุญาตให้เว็บไซต์นี้ทำการแนบแฟ้มต่าง ๆ ต่อไปนี้เข้าไปยังจดหมายหรือไม่ ?</qt>"
+
+#, fuzzy, kde-format
+#~| msgid "&Allow password caching for this site"
+#~ msgid "&Allow Password Caching for This Site"
+#~ msgstr "&อนุญาตให้จัดเก็บรหัสผ่านสำหรับเว็บไซต์นี้"
+
+#, fuzzy, kde-format
+#~| msgid "Remove all cached passwords for this site"
+#~ msgid "&Memorize Passwords in This Page Now"
+#~ msgstr "ลบแคชข้อมูลรหัสผ่านทั้งหมดของเว็บไซต์นี้ออกไป"
+
+#, fuzzy, kde-format
+#~| msgid "Remove all cached passwords for this site"
+#~ msgid "Remove All Memorized Passwords for This Site"
+#~ msgstr "ลบแคชข้อมูลรหัสผ่านทั้งหมดของเว็บไซต์นี้ออกไป"

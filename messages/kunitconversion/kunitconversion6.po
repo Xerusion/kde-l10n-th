@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-13 11:08+0200\n"
+"POT-Creation-Date: 2025-06-28 11:05+0200\n"
 "PO-Revision-Date: 2010-12-17 00:21+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -4410,8 +4410,17 @@ msgctxt "Icelandic Krona - unit synonyms for matching user input"
 msgid "Icelandic krona;Icelandic crown"
 msgstr ""
 
-#. +> trunk6 trunk5
+#. +> trunk6
 #: currency.cpp:653
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 Danish kroner"
+msgctxt "amount in units (real)"
+msgid "%1 Icelandic kronur"
+msgstr "%1 โครนเดนมาร์ก"
+
+#. +> trunk5
+#: currency.cpp:642
 #, fuzzy, kde-format
 #| msgctxt "amount in units (real)"
 #| msgid "%1 Danish kroner"
@@ -4419,13 +4428,25 @@ msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronar"
 msgstr "%1 โครนเดนมาร์ก"
 
-#. +> trunk6 trunk5
+#. +> trunk6
 #: currency.cpp:654
 #, fuzzy, kde-format
 #| msgctxt "amount in units (integer)"
 #| msgid "%1 Danish krone"
 #| msgid_plural "%1 Danish kroner"
 msgctxt "amount in units (integer)"
+msgid "%1 Icelandic krona"
+msgid_plural "%1 Icelandic kronur"
+msgstr[0] "%1 โครนเดนมาร์ก"
+
+#. +: msgctxt-pad cc6ad5a34c55c978862a322f014a8cb6
+#. +> trunk5
+#: currency.cpp:643
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 Danish krone"
+#| msgid_plural "%1 Danish kroner"
+msgctxt "amount in units (integer)|cc6ad5a34c55c978862a322f014a8cb6"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronar"
 msgstr[0] "%1 โครนเดนมาร์ก"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 12:42+0200\n"
+"POT-Creation-Date: 2025-07-03 19:25+0200\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,23 +13,28 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:1
-msgid "Kdenlive Video Effects - Channel Extractor"
+#: ../../<rst_epilog>:310
+msgid "kdenlive-show-video"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:1
-msgid "KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, channel extractor red, channel extractor green, channel extractor blue "
+#: ../../<rst_epilog>:620
+msgid "Linux"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:1
-msgid "- Bernd Jordan (https://discuss.kde.org/u/berndmj) "
+#: ../../<rst_epilog>:625
+msgid "appimage"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:1
-msgid "Creative Commons License SA 4.0"
+#: ../../<rst_epilog>:630
+msgid "Windows"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:635
+msgid "MacOS"
 msgstr ""
 
 #. +> trunk5
@@ -75,28 +80,98 @@ msgid "These three separate effects extract the respective color channels from t
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:46
-msgid "Screenshots"
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:44
+msgid "These filters essentially isolate the individual color channels (red, green, blue) from the clip and generate a greyscale image where the intensity represents the specific color channel. The result can be used for color analysis (understanding the distribution of colors in the clip), further image processing (using the greyscale as a mask), or segmentation (separating objects based on their color characteristics)."
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:53
-msgid "Original clip before"
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:46
+msgid "You typically put the same clip in three adjacent tracks in the timeline, add the effect to each clip (one for RED, one for GREEN, and for one BLUE), and then add additional effects to create the desired (artistic) look."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:54
+msgid "effects-channel_extractor_RGB-2504.webp"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:54
+msgid "Example of bringing a clip back together after using Channel Extractor"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:56
+msgid "In order to bring the channels back together, use either the :kbd:`Addition` composition or the :kbd:`Cairo blend` composition with :kbd:`Composition Type` **Add** between the two top tracks, and one added to the bottom track."
 msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:62
+msgid "Screenshots"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:69
+msgid "kdenlive2304_effects-channel_extractor"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:69
+msgid "Original clip before"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:78
+msgid "kdenlive2304_effects-channel_extractor_RED"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:78
 msgid "Result of Channel Extractor RED"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:71
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:87
+msgid "kdenlive2304_effects-channel_extractor_GREEN"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:87
 msgid "Result of Channel Extractor GREEN"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:80
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:96
+msgid "kdenlive2304_effects-channel_extractor_BLUE"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:96
 msgid "Result of Channel Extractor BLUE"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:-1
+msgid "Kdenlive Video Effects - Channel Extractor"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:-1
+msgid "KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, color and image correction, channel extractor red, channel extractor green, channel extractor blue "
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:-1
+msgid "- Bernd Jordan (https://discuss.kde.org/u/berndmj) "
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:-1
+msgid "Creative Commons License SA 4.0"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/color_image_correction/channel_extractors.rst:-1
+msgid "kdenlive2304_effects-channel_extractor_RGB"
 msgstr ""
 
 #. +> trunk5

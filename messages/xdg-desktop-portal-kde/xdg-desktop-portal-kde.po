@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xdg-desktop-portal-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-16 12:13+0200\n"
+"POT-Creation-Date: 2025-06-28 11:05+0200\n"
 "PO-Revision-Date: 2025-03-17 14:56+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -52,20 +52,27 @@ msgid "Choose an application to open <filename>%1</filename>"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/AppChooserDialog.qml:32
+#: src/AppChooserDialog.qml:35
 #, kde-format
 msgctxt "Find some more apps that can open this content using the Discover app"
 msgid "Find More in Discover"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AppChooserDialog.qml:37
+#: src/AppChooserDialog.qml:40
 #, kde-format
 msgctxt "@action:button"
 msgid "Open"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
+#: src/AppChooserDialog.qml:50
+#, kde-format
+msgctxt "@option:check %1 is description of a file type, like 'PNG image'"
+msgid "Set as default app to open %1 files"
+msgstr ""
+
+#. +> stable6 stable5
 #: src/AppChooserDialog.qml:47
 #, kde-format
 msgctxt "@option:check %1 is description of a file type, like 'PNG image'"
@@ -73,20 +80,20 @@ msgid "Always open %1 files with the chosen app"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/AppChooserDialog.qml:107
+#: src/AppChooserDialog.qml:110
 #, kde-format
 msgid "Show All Installed Applications"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AppChooserDialog.qml:120
+#: src/AppChooserDialog.qml:123
 #, kde-format
 msgctxt "@action:button"
 msgid "Choose Other…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AppChooserDialog.qml:181
+#: src/AppChooserDialog.qml:184
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -101,7 +108,7 @@ msgid "Default app for this file type"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AppChooserDialog.qml:183
+#: src/AppChooserDialog.qml:186
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -110,55 +117,55 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AppChooserDialog.qml:205
+#: src/AppChooserDialog.qml:208
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Open with <command>%1</command>?"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/AppChooserDialog.qml:207
+#: src/AppChooserDialog.qml:210
 #, kde-format
 msgid "No matches"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/AppChooserDialog.qml:209
+#: src/AppChooserDialog.qml:212
 #, kde-kuit-format
 msgctxt "@info"
 msgid "No installed applications can open <filename>%1</filename>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AppChooserDialog.qml:235
+#: src/AppChooserDialog.qml:238
 #, kde-format
 msgctxt "@title:group"
 msgid "Terminal Options"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AppChooserDialog.qml:251
+#: src/AppChooserDialog.qml:254
 #, kde-format
 msgctxt "@option:check"
 msgid "Run in terminal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AppChooserDialog.qml:260
+#: src/AppChooserDialog.qml:263
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not close when command exits"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AppChooserDialog.qml:273
+#: src/AppChooserDialog.qml:276
 #, kde-format
 msgctxt "@title:group"
 msgid "Discover More Applications"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/AppChooserDialog.qml:294
+#: src/AppChooserDialog.qml:297
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Don't see the right app? Find more in <link>Discover</link>."
@@ -300,7 +307,7 @@ msgid "Cancel"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/filechooser.cpp:449
+#: src/filechooser.cpp:475
 #, kde-format
 msgid "Open"
 msgstr ""
@@ -581,7 +588,7 @@ msgid "Left-click and drag"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/remotedesktop.cpp:270
+#: src/remotedesktop.cpp:275
 #, kde-format
 msgctxt "title of notification about input systems taken over"
 msgid "Remote control session started"
@@ -594,7 +601,14 @@ msgctxt "Title of the dialog that requests remote input privileges"
 msgid "Remote control requested"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/remotedesktopdialog.cpp:41
+#, kde-format
+msgctxt "Unordered list with privileges granted to an external process"
+msgid "An application requested access to remotely control:\n"
+msgstr ""
+
+#. +> stable6
 #: src/remotedesktopdialog.cpp:41
 #, kde-format
 msgctxt "Unordered list with privileges granted to an external process"
@@ -642,20 +656,20 @@ msgid "Share"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/screencast.cpp:220
+#: src/screencast.cpp:221
 #, kde-format
 msgid "Virtual Output"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/screencast.cpp:221
+#: src/screencast.cpp:222
 #, kde-format
 msgctxt "%1 is the application name"
 msgid "Virtual Output (shared with %1)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/screencast.cpp:276
+#: src/screencast.cpp:281
 #, kde-format
 msgctxt "Do not disturb mode is enabled because..."
 msgid "Screen sharing in progress"
