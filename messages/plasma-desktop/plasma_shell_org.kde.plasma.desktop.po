@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-17 10:49+0200\n"
+"POT-Creation-Date: 2025-11-23 11:27+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,21 +13,26 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6 stable5
-#: contents/activitymanager/ActivityItem.qml:204
+#: contents/activitymanager/ActivityItem.qml:203
 #, kde-format
 msgid "Currently being used"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: contents/activitymanager/ActivityItem.qml:244
+#: contents/activitymanager/ActivityItem.qml:243
 #, kde-format
 msgid ""
 "Move to\n"
 "this activity"
 msgstr ""
 
+#. +> stable5
+#: contents/activitymanager/ActivityItem.qml:359
+msgid "Stop activity"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: contents/activitymanager/ActivityItem.qml:274
+#: contents/activitymanager/ActivityItem.qml:273
 #, kde-format
 msgid ""
 "Show also\n"
@@ -35,21 +40,9 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: contents/activitymanager/ActivityItem.qml:336
+#: contents/activitymanager/ActivityItem.qml:335
 #, kde-format
 msgid "Configure"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/activitymanager/ActivityItem.qml:355
-#, kde-format
-msgid "Stop activity"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/activitymanager/ActivityList.qml:148
-#, kde-format
-msgid "Stopped activities:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -94,7 +87,7 @@ msgid "View Error Details…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: contents/applet/CompactApplet.qml:76
+#: contents/applet/CompactApplet.qml:91
 #, kde-format
 msgid "Open %1"
 msgstr ""
@@ -107,59 +100,92 @@ msgid "About"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: contents/configuration/AboutPlugin.qml:50
+#: contents/configuration/AboutPlugin.qml:51
 #, kde-format
 msgid "Send an email to %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: contents/configuration/AboutPlugin.qml:64
+#: contents/configuration/AboutPlugin.qml:65
 #, kde-format
 msgctxt "@info:tooltip %1 url"
 msgid "Open website %1"
 msgstr ""
 
+#. +> trunk6 stable6
+#: contents/configuration/AboutPlugin.qml:146
+#, kde-format
+msgctxt "@title:group"
+msgid "Website"
+msgstr ""
+
+#. +> trunk6
+#: contents/configuration/AboutPlugin.qml:157
+#, kde-format
+msgctxt "@title:group"
+msgid "Get Help"
+msgstr ""
+
+#. +> trunk6
+#: contents/configuration/AboutPlugin.qml:165
+#, kde-format
+msgid "Report an issue"
+msgstr ""
+
+#. +> stable6 stable5
+#: contents/configuration/AboutPlugin.qml:235
+#, kde-format
+msgid "Report a Bug…"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: contents/configuration/AboutPlugin.qml:137
+#: contents/configuration/AboutPlugin.qml:172
 #, kde-format
 msgid "Copyright"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: contents/configuration/AboutPlugin.qml:158
-#, kde-format
-msgid "License:"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/configuration/AboutPlugin.qml:163
+#. +> stable6 stable5
+#: contents/configuration/AboutPlugin.qml:175
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "View license text"
 msgstr ""
 
+#. +> trunk6
+#: contents/configuration/AboutPlugin.qml:191
+#, kde-format
+msgid "License: %1"
+msgstr ""
+
+#. +> stable6 stable5
+#: contents/configuration/AboutPlugin.qml:170
+#, kde-format
+msgid "License:"
+msgstr ""
+
+#. +> trunk6
+#: contents/configuration/AboutPlugin.qml:197
+#, kde-format
+msgctxt "@action:button"
+msgid "Read License"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: contents/configuration/AboutPlugin.qml:177
+#: contents/configuration/AboutPlugin.qml:211
 #, kde-format
 msgid "Authors"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: contents/configuration/AboutPlugin.qml:189
+#: contents/configuration/AboutPlugin.qml:224
 #, kde-format
 msgid "Credits"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: contents/configuration/AboutPlugin.qml:202
+#: contents/configuration/AboutPlugin.qml:238
 #, kde-format
 msgid "Translators"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/configuration/AboutPlugin.qml:220
-#, kde-format
-msgid "Report a Bug…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -814,7 +840,7 @@ msgid "%1 (primary)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: contents/explorer/AppletAlternatives.qml:66
+#: contents/explorer/AppletAlternatives.qml:70
 #, kde-format
 msgid "Alternative Widgets"
 msgstr ""
@@ -951,18 +977,11 @@ msgctxt "@action:button accessible for close button"
 msgid "Close Widget Explorer"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: contents/explorer/WidgetExplorer.qml:208
 #, kde-format
 msgctxt "@label:textbox accessible"
 msgid "Search through widgets"
-msgstr ""
-
-#. +> stable6
-#: contents/explorer/WidgetExplorer.qml:208
-#, kde-format
-msgctxt "@label:textbox accessible"
-msgid "Search Widgets"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -972,7 +991,7 @@ msgid "Categories"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/explorer/WidgetExplorer.qml:258
+#: contents/explorer/WidgetExplorer.qml:259
 #, kde-format
 msgctxt "@action:button uninstall widgets in widget explorer"
 msgid "Uninstall (%1 Widget)"
@@ -981,13 +1000,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
-#: contents/explorer/WidgetExplorer.qml:369
+#: contents/explorer/WidgetExplorer.qml:388
 #, kde-format
 msgid "No widgets matched the search terms"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: contents/explorer/WidgetExplorer.qml:369
+#: contents/explorer/WidgetExplorer.qml:388
 #, kde-format
 msgid "No widgets available"
 msgstr ""
@@ -1041,17 +1060,10 @@ msgctxt "@option:radio"
 msgid "Never show clock"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: contents/lockscreen/config.qml:71
 #, kde-format
 msgctxt "@title: group UI controls for playback of multimedia content"
-msgid "Media controls:"
-msgstr ""
-
-#. +> stable6
-#: contents/lockscreen/config.qml:71
-#, kde-format
-msgctxt "@title: group"
 msgid "Media controls:"
 msgstr ""
 
@@ -1069,38 +1081,38 @@ msgid "Unlocking failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/lockscreen/LockScreenUi.qml:277
+#: contents/lockscreen/LockScreenUi.qml:281
 #, kde-format
 msgid "Caps Lock is on"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/lockscreen/LockScreenUi.qml:291
+#: contents/lockscreen/LockScreenUi.qml:295
 #, kde-format
 msgid "Slee&p"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/lockscreen/LockScreenUi.qml:297
+#: contents/lockscreen/LockScreenUi.qml:301
 #, kde-format
 msgid "&Hibernate"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/lockscreen/LockScreenUi.qml:303
+#: contents/lockscreen/LockScreenUi.qml:307
 #, kde-format
 msgid "Switch &User"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/lockscreen/LockScreenUi.qml:364
+#: contents/lockscreen/LockScreenUi.qml:368
 #, kde-format
 msgctxt "Button to show/hide virtual keyboard"
 msgid "Virtual Keyboard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/lockscreen/LockScreenUi.qml:388
+#: contents/lockscreen/LockScreenUi.qml:392
 #, kde-format
 msgctxt "Button to change keyboard layout"
 msgid "Switch layout"
@@ -1175,27 +1187,14 @@ msgid "Exit Edit Mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/views/Panel.qml:318
+#: contents/views/Panel.qml:326
 #, kde-format
 msgid "Panel Focus Indicator"
 msgstr ""
 
-#. +> stable6 stable5
-#: contents/explorer/Tooltip.qml:105
-#, kde-format
-msgid "Author:"
-msgstr ""
-
-#. +> stable6 stable5
-#: contents/explorer/Tooltip.qml:115
-#, kde-format
-msgid "Email:"
-msgstr ""
-
-#. +> stable6 stable5
-#: contents/explorer/Tooltip.qml:136
-#, kde-format
-msgid "Uninstall"
+#. +> stable5
+#: contents/activitymanager/ActivityList.qml:143
+msgid "Stopped activities:"
 msgstr ""
 
 #. +> stable5
@@ -1233,4 +1232,19 @@ msgstr ""
 #. +> stable5
 #: contents/configuration/panelconfiguration/ToolBar.qml:282
 msgid "Panel height:"
+msgstr ""
+
+#. +> stable5
+#: contents/explorer/Tooltip.qml:102
+msgid "Author:"
+msgstr ""
+
+#. +> stable5
+#: contents/explorer/Tooltip.qml:110
+msgid "Email:"
+msgstr ""
+
+#. +> stable5
+#: contents/explorer/Tooltip.qml:129
+msgid "Uninstall"
 msgstr ""

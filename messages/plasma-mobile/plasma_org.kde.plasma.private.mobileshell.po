@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-mobile\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-03 19:26+0200\n"
+"POT-Creation-Date: 2025-11-16 11:30+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -51,19 +51,19 @@ msgid "Properties"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/actiondrawer/ContentContainer.qml:151
+#: qml/actiondrawer/private/ContentContainer.qml:151
 #, kde-format
 msgid "Clear All Notifications"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/actiondrawer/quicksettings/QuickSettingsFullDelegate.qml:97
+#: qml/actiondrawer/private/QuickSettingsFullDelegate.qml:98
 #, kde-format
 msgid "On"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/actiondrawer/quicksettings/QuickSettingsFullDelegate.qml:97
+#: qml/actiondrawer/private/QuickSettingsFullDelegate.qml:98
 #, kde-format
 msgid "Off"
 msgstr ""
@@ -74,79 +74,65 @@ msgstr ""
 msgid "SIM Locked"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/AudioApplet.qml:73
+#. +> trunk6 stable6
+#: qml/popups/volumeosd/AudioApplet.qml:89
 #, kde-format
-msgid "Outputs"
+msgid "Output Devices"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/popups/volumeosd/AudioApplet.qml:118
+#, kde-format
+msgid "Input Devices"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/AudioApplet.qml:111
-#, kde-format
-msgid "Inputs"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/AudioApplet.qml:150
+#: qml/popups/volumeosd/AudioApplet.qml:148
 #, kde-format
 msgid "Playback Streams"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/AudioApplet.qml:211
+#: qml/popups/volumeosd/AudioApplet.qml:199
 #, kde-format
 msgid "Recording Streams"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/DeviceListItem.qml:25
+#: qml/popups/volumeosd/DeviceListItem.qml:24
 #, kde-format
 msgctxt "label of device items"
 msgid "%1 (%2)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/DeviceListItem.qml:34
+#: qml/popups/volumeosd/DeviceListItem.qml:33
 #, kde-format
 msgid "Device name not found"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/ListItemBase.qml:101
+#: qml/popups/volumeosd/ListItemBase.qml:123
 #, kde-format
 msgid "Show additional options for %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/ListItemBase.qml:137
-#: qml/popups/volumeosd/VolumeChangedPopup.qml:158
-#, kde-format
-msgid "Unmute"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/ListItemBase.qml:137
-#: qml/popups/volumeosd/VolumeChangedPopup.qml:158
-#, kde-format
-msgid "Mute"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/ListItemBase.qml:169
+#. +> stable5
+#: qml/osd/volume/ListItemBase.qml:160
 #, kde-format
 msgctxt "Accessibility data on volume slider"
 msgid "Adjust volume for %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/ListItemBase.qml:247
+#: qml/popups/volumeosd/ListItemBase.qml:215
 #, kde-format
 msgctxt "volume percentage"
 msgid "%1%"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/ListItemBase.qml:262
+#: qml/popups/volumeosd/ListItemBase.qml:230
 #, kde-format
 msgctxt "only used for sizing, should be widest possible string"
 msgid "100%"
@@ -171,14 +157,26 @@ msgstr ""
 msgid "Stream name not found"
 msgstr ""
 
+#. +> trunk6 stable6 stable5
+#: qml/popups/volumeosd/VolumeChangedPopup.qml:161
+#, kde-format
+msgid "Unmute"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/popups/volumeosd/VolumeChangedPopup.qml:161
+#, kde-format
+msgid "Mute"
+msgstr ""
+
 #. +> trunk6 stable6
-#: qml/popups/volumeosd/VolumeChangedPopup.qml:253
+#: qml/popups/volumeosd/VolumeChangedPopup.qml:210
 #, kde-format
 msgid "configure audio streams"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/popups/volumeosd/VolumeOSD.qml:208
+#: qml/popups/volumeosd/VolumeOSD.qml:200
 #, kde-format
 msgid "Open audio settings"
 msgstr ""
@@ -197,31 +195,25 @@ msgid "Search…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/widgets/krunner/KRunnerWidget.qml:181
-#, kde-format
-msgid "Search…"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: qml/widgets/mediacontrols/MediaControlsWidget.qml:173
+#: qml/widgets/mediacontrols/MediaControlsWidget.qml:172
 #, kde-format
 msgid "No media playing"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/widgets/mediacontrols/MediaControlsWidget.qml:201
+#: qml/widgets/mediacontrols/MediaControlsWidget.qml:200
 #, kde-format
 msgid "Previous track"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/widgets/mediacontrols/MediaControlsWidget.qml:212
+#: qml/widgets/mediacontrols/MediaControlsWidget.qml:211
 #, kde-format
 msgid "Play or Pause media"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/widgets/mediacontrols/MediaControlsWidget.qml:225
+#: qml/widgets/mediacontrols/MediaControlsWidget.qml:224
 #, kde-format
 msgid "Next track"
 msgstr ""
@@ -449,26 +441,26 @@ msgid "%1h remaining"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/widgets/notifications/NotificationsWidget.qml:248
+#: qml/widgets/notifications/NotificationsWidget.qml:258
 #, kde-format
 msgid "Notification service not available"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/widgets/notifications/NotificationsWidget.qml:257
+#: qml/widgets/notifications/NotificationsWidget.qml:267
 #, kde-format
 msgctxt "Vendor and product name"
 msgid "Notifications are currently provided by '%1 %2'"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/widgets/notifications/NotificationsWidget.qml:418
+#: qml/widgets/notifications/NotificationsWidget.qml:429
 #, kde-format
 msgid "Show Fewer"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: qml/widgets/notifications/NotificationsWidget.qml:420
+#: qml/widgets/notifications/NotificationsWidget.qml:431
 #, kde-format
 msgctxt "Expand to show n more notifications"
 msgid "Show %1 More"
@@ -490,6 +482,18 @@ msgstr ""
 #: qml/dataproviders/AudioProvider.qml:182
 #, kde-format
 msgid "Decrease Volume"
+msgstr ""
+
+#. +> stable5
+#: qml/osd/volume/AudioApplet.qml:73
+#, kde-format
+msgid "Outputs"
+msgstr ""
+
+#. +> stable5
+#: qml/osd/volume/AudioApplet.qml:103
+#, kde-format
+msgid "Inputs"
 msgstr ""
 
 #. +> stable5
@@ -515,4 +519,10 @@ msgstr ""
 #: qml/osd/volume/VolumeOSD.qml:182
 #, kde-format
 msgid "Toggle showing audio streams"
+msgstr ""
+
+#. +> stable5
+#: qml/widgets/krunner/KRunnerWidget.qml:175
+#, kde-format
+msgid "Search…"
 msgstr ""

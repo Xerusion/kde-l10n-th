@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-05 12:23+0200\n"
+"POT-Creation-Date: 2025-11-15 09:13+0100\n"
 "PO-Revision-Date: 2010-03-25 14:22+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -31,8 +31,8 @@ msgstr "donga.nb@gmail.com"
 
 #. +> trunk6 stable6
 #: kontactplugin/kaddressbook_plugin.cpp:31 src/aboutdata.cpp:18
-#: src/kaddressbookpart.cpp:32 src/kaddressbookpart.cpp:45
-#: src/mainwidget.cpp:744 src/mainwindow.cpp:87
+#: src/kaddressbookpart.cpp:32 src/kaddressbookpart.cpp:47
+#: src/mainwidget.cpp:745 src/mainwindow.cpp:89
 #, kde-format
 msgid "KAddressBook"
 msgstr "สมุดที่อยู่-K"
@@ -205,13 +205,13 @@ msgid "Enabled"
 msgstr "ตาราง"
 
 #. +> trunk6 stable6
-#: src/configuration/kaddressbookconfigpluginlistwidget.cpp:68
+#: src/configuration/kaddressbookconfigpluginlistwidget.cpp:70
 #, kde-format
 msgid "Tools Plugins"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/configuration/kaddressbookconfigpluginlistwidget.cpp:75
+#: src/configuration/kaddressbookconfigpluginlistwidget.cpp:79
 #, kde-format
 msgid "Import/Export Plugins"
 msgstr ""
@@ -359,7 +359,7 @@ msgstr "อีเมล (4)"
 
 #. +> trunk6 stable6
 #: src/importexport/contactfields.cpp:106
-#: src/viewertemplates/contact_embedded.html:75
+#: src/viewertemplates/contact_embedded.html:97
 #, fuzzy, kde-format
 #| msgid "Blog feed:"
 msgid "Blog Feed"
@@ -579,7 +579,7 @@ msgid "Lists the available options for user feedback"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/kaddressbookpart.cpp:70
+#: src/kaddressbookpart.cpp:75
 #, fuzzy, kde-format
 #| msgid "Import KDE 2 Addressbook..."
 msgid "&Configure KAddressBook…"
@@ -657,20 +657,20 @@ msgid "Main Toolbar"
 msgstr "แถบเครื่องมือหลัก"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:375
+#: src/mainwidget.cpp:376
 #, kde-format
 msgid "Import"
 msgstr "นำเข้า"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:382
+#: src/mainwidget.cpp:383
 #, fuzzy, kde-format
 #| msgid "&Export"
 msgid "Export"
 msgstr "&ส่งออก"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:434
+#: src/mainwidget.cpp:435
 #, fuzzy, kde-format
 #| msgid "Search"
 msgctxt "@label Search contacts in list"
@@ -678,7 +678,7 @@ msgid "Search… <%1>"
 msgstr "ค้นหา"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:666
+#: src/mainwidget.cpp:667
 #, fuzzy, kde-format
 #| msgid "Set the categories for all selected contacts."
 msgctxt "@info:whatsthis"
@@ -686,94 +686,94 @@ msgid "Print the complete address book or a selected number of contacts."
 msgstr "ตั้งหมวดหมู่ให้ที่อยู่ติดต่อที่เลือกไว้ทั้งหมด"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:671
+#: src/mainwidget.cpp:672
 #, fuzzy, kde-format
 #| msgid "Recursive search"
 msgid "Quick search"
 msgstr "ค้นหาในรายการย่อยด้วย"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:676
+#: src/mainwidget.cpp:677
 #, fuzzy, kde-format
 #| msgid "Category"
 msgid "Category filter"
 msgstr "หมวดหมู่"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:681
+#: src/mainwidget.cpp:682
 #, kde-format
 msgid "Select All"
 msgstr "เลือกทั้งหมด"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:683
+#: src/mainwidget.cpp:684
 #, fuzzy, kde-format
 #| msgid "Selects all visible contacts from current view."
 msgid "Select all contacts in the current address book view."
 msgstr "เลือกที่อยู่ติดต่อทั้งหมดที่ปรากฏอยู่ในมุมมองปัจจุบัน"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:687
+#: src/mainwidget.cpp:688
 #, kde-format
 msgid "Show QR Codes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:688
+#: src/mainwidget.cpp:689
 #, kde-format
 msgid "Show QR Codes in the contact."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:693
+#: src/mainwidget.cpp:694
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Simple (one column)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:697
+#: src/mainwidget.cpp:698
 #, fuzzy, kde-format
 #| msgid "Please select type of the new address book:"
 msgid "Show a simple mode of the address book view."
 msgstr "โปรดเลือกประเภทของสมุดที่อยู่ใหม่:"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:700
+#: src/mainwidget.cpp:701
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Two Columns"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:706
+#: src/mainwidget.cpp:707
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Three Columns"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:719
+#: src/mainwidget.cpp:720
 #, kde-format
 msgctxt "@action"
 msgid "Set Focus to Quick Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:736
+#: src/mainwidget.cpp:737
 #, kde-format
 msgid "What's new"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:752 src/mainwidget.cpp:779
+#: src/mainwidget.cpp:753 src/mainwidget.cpp:780
 #: src/printing/grantlee/themes/big-theme-example/theme.html:3
 #, kde-format
 msgid "Address Book"
 msgstr "สมุดที่อยู่"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:785 src/printing/printingwizard.cpp:46
+#: src/mainwidget.cpp:786 src/printing/printingwizard.cpp:46
 #, fuzzy, kde-format
 #| msgid "Edit Contact"
 msgctxt "@title:window"
@@ -781,7 +781,7 @@ msgid "Print Contacts"
 msgstr "แก้ไขที่อยู่ติดต่อ"
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:130
+#: src/mainwindow.cpp:135
 #, fuzzy, kde-format
 #| msgid "You will be presented with a dialog, where you can configure the application wide shortcuts."
 msgctxt "@info:whatsthis"
@@ -789,13 +789,13 @@ msgid "You will be presented with a dialog where you can configure the applicati
 msgstr "คุณจะพบกล่องโต้ตอบ ที่จะให้คุณได้ทำการปรับแต่งค่าแป้นพิมพ์ลัดของโปรแกรม"
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:229
+#: src/mainwindow.cpp:234
 #, kde-format
 msgid "<qt>This will hide the menu bar completely. You can show it again by typing %1.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwindow.cpp:232
+#: src/mainwindow.cpp:237
 #, fuzzy, kde-format
 #| msgid "Hide Jump Bar"
 msgctxt "@title:window"
@@ -1228,7 +1228,8 @@ msgstr "องค์กร"
 #. +> trunk6 stable6
 #: src/printing/grantlee/themes/default/theme.html:58
 #: src/printing/grantlee/themes/full/theme.html:58
-#: src/viewertemplates/contact_embedded.html:62
+#: src/viewertemplates/contact_embedded.html:64
+#: src/viewertemplates/contact_embedded.html:81
 msgid "Website"
 msgstr ""
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-25 11:04+0200\n"
+"POT-Creation-Date: 2025-11-12 08:16+0100\n"
 "PO-Revision-Date: 2025-03-17 21:11+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -17,14 +17,32 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 24.12.3\n"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: binarydialectmodel.cpp:52
+#, fuzzy, kde-format
+#| msgctxt "Binary dialect IEC, with sigle in parentheses"
+#| msgid "International Electrotechnical Commission (IEC)"
+msgctxt "Binary dialect IEC, with single in parentheses"
+msgid "International Electrotechnical Commission (IEC)"
+msgstr "International Electrotechnical Commission (IEC)"
+
+#. +> stable6
 #: binarydialectmodel.cpp:52
 #, kde-format
 msgctxt "Binary dialect IEC, with sigle in parentheses"
 msgid "International Electrotechnical Commission (IEC)"
 msgstr "International Electrotechnical Commission (IEC)"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: binarydialectmodel.cpp:56
+#, fuzzy, kde-format
+#| msgctxt "Binary dialect JEDEC, with sigle in parentheses"
+#| msgid "Joint Electron Device Engineering Council (JEDEC)"
+msgctxt "Binary dialect JEDEC, with single in parentheses"
+msgid "Joint Electron Device Engineering Council (JEDEC)"
+msgstr "Joint Electron Device Engineering Council (JEDEC)"
+
+#. +> stable6
 #: binarydialectmodel.cpp:56
 #, kde-format
 msgctxt "Binary dialect JEDEC, with sigle in parentheses"
@@ -38,19 +56,43 @@ msgctxt "Binary dialect Metric, with origin in parentheses"
 msgid "Metric system (SI)"
 msgstr "ระบบเมตริก (SI)"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: binarydialectmodel.cpp:75
+#, fuzzy, kde-format
+#| msgid "Binary -  Kibibytes (KiB), Mebibytes (MiB), Gibibytes (GiB)"
+msgctxt "Binary dialect IEC description"
+msgid "Binary -  Kibibytes (KiB), Mebibytes (MiB), Gibibytes (GiB)"
+msgstr "ไบนารี - คิบิไบต์ (KiB), เมบิไบต์ (MiB), กิบิไบต์ (GiB)"
+
+#. +> stable6
 #: binarydialectmodel.cpp:75
 #, kde-format
 msgid "Binary -  Kibibytes (KiB), Mebibytes (MiB), Gibibytes (GiB)"
 msgstr "ไบนารี - คิบิไบต์ (KiB), เมบิไบต์ (MiB), กิบิไบต์ (GiB)"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: binarydialectmodel.cpp:77
+#, fuzzy, kde-format
+#| msgid "Binary - Kilobytes (kB), Megabytes (MB), Gigabytes (GB)"
+msgctxt "Binary dialect JEDEC description"
+msgid "Binary - Kilobytes (KB), Megabytes (MB), Gigabytes (GB)"
+msgstr "ไบนารี - กิโลไบต์ (kB), เมกะไบต์ (MB), กิกะไบต์ (GB)"
+
+#. +> stable6
 #: binarydialectmodel.cpp:77
 #, kde-format
 msgid "Binary - Kilobytes (kB), Megabytes (MB), Gigabytes (GB)"
 msgstr "ไบนารี - กิโลไบต์ (kB), เมกะไบต์ (MB), กิกะไบต์ (GB)"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: binarydialectmodel.cpp:79
+#, fuzzy, kde-format
+#| msgid "Decimal - Kilobytes (kB), Megabytes (MB), Gigabytes (GB)"
+msgctxt "Binary dialect Metric description"
+msgid "Decimal - Kilobytes (kB), Megabytes (MB), Gigabytes (GB)"
+msgstr "ทศนิยม - กิโลไบต์ (kB), เมกะไบต์ (MB), กิกะไบต์ (GB)"
+
+#. +> stable6
 #: binarydialectmodel.cpp:79
 #, kde-format
 msgid "Decimal - Kilobytes (kB), Megabytes (MB), Gigabytes (GB)"
@@ -287,28 +329,22 @@ msgctxt "This is returned when an example test could not be made from locale inf
 msgid "Could not find an example for this locale"
 msgstr "ไม่พบตัวอย่างสําหรับ locale นี้"
 
-#. +> stable5
-#: kcmregionandlang.cpp:54
-#, kde-format
-msgid "You can configure the formats used for time, dates, money and other numbers here."
-msgstr "คุณสามารถกำหนดค่าที่ใช้สำหรับเวลา วันที่ เงิน และตัวเลขอื่น ๆ ได้ที่นี่"
-
 #. +> trunk6 stable6 stable5
-#: kcmregionandlang.cpp:129
+#: glibclocaleconstructor.cpp:165
 #, kde-kuit-format
 msgctxt "@info this will be shown as an error message"
 msgid "Could not find the system's available locales using the <command>localectl</command> tool. Please file a bug report about this at <link>https://bugs.kde.org</link>"
 msgstr "ไม่พบ locale ที่พร้อมใช้งานของระบบโดยใช้ เครื่องมือคําสั่ง <command>localectl</command> โปรดยื่นรายงานข้อบกพร่องเกี่ยวกับเรื่องนี้ที่ <link>https://bugs.kde.org</link>"
 
 #. +> trunk6 stable6 stable5
-#: languagelistmodel.cpp:94
+#: languagelistmodel.cpp:97
 #, kde-format
 msgctxt "%1 is language name, %2 is language code name"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #. +> trunk6 stable6 stable5
-#: languagelistmodel.cpp:100
+#: languagelistmodel.cpp:103
 #, kde-format
 msgctxt "%1 is português in system locale name, Brazil is to distinguish European português and Brazilian português"
 msgid "%1 (Brazil)"
@@ -321,7 +357,7 @@ msgctxt "@info:warning"
 msgid "Can't locate executable `check-language-support`"
 msgstr "ไม่พบไฟล์ปฏิบัติการ 'check-language-support'"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: localegeneratorubuntu.cpp:56
 #, fuzzy, kde-format
 #| msgctxt "the arg is the output of failed check-language-support call"
@@ -330,8 +366,8 @@ msgctxt "the arg is the output of failed check-language-support call"
 msgid "check-language-support failed, output: %1 %2"
 msgstr "check-language-support ล้มเหลว เอาต์พุต: %1"
 
-#. +> stable6 stable5
-#: localegeneratorubuntu.cpp:56
+#. +> stable5
+#: localegeneratorubuntu.cpp:52
 #, kde-format
 msgctxt "the arg is the output of failed check-language-support call"
 msgid "check-language-support failed, output: %1"
@@ -344,14 +380,14 @@ msgctxt "%1 is a list of package names"
 msgid "Not all missing packages managed to resolve! %1"
 msgstr "แพ็คเกจที่หายไปไม่สามารถแก้ไขได้ทั้งหมด! %1"
 
-#. +> stable6 stable5
-#: localegeneratorubuntu.cpp:93
+#. +> stable5
+#: localegeneratorubuntu.cpp:89
 #, kde-format
 msgctxt "%1 is a list of package names"
 msgid "Failed to install package %1"
 msgstr "ติดตั้งแพคเกจ %1 ไม่สําเร็จ"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: localegeneratorubuntu.cpp:96
 #, fuzzy, kde-format
 #| msgctxt "%1 is a list of package names"
@@ -391,33 +427,33 @@ msgid "Unknown"
 msgstr "ไม่ทราบ"
 
 #. +> trunk6 stable6 stable5
-#: localelistmodel.cpp:22
+#: localelistmodel.cpp:24
 #, kde-format
 msgid "Default for System"
 msgstr "ค่าเริ่มต้นสําหรับระบบ"
 
 #. +> trunk6 stable6 stable5
-#: localelistmodel.cpp:22 localelistmodel.cpp:71 ui/main.qml:377
+#: localelistmodel.cpp:24 localelistmodel.cpp:146 ui/main.qml:387
 #, kde-format
 msgid "Default"
 msgstr "ค่าเริ่มต้น"
 
 #. +> trunk6 stable6 stable5
-#: localelistmodel.cpp:67
+#: localelistmodel.cpp:142
 #, kde-format
 msgctxt "the first is language name, the second is the country name, like 'English (America)'"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #. +> trunk6 stable6 stable5
-#: localelistmodel.cpp:154
+#: localelistmodel.cpp:229
 #, kde-format
 msgctxt "@info:title, meaning the current locale is system default(which is `C`)"
 msgid "System Default C"
 msgstr "ค่าเริ่มต้นของระบบ C"
 
 #. +> trunk6 stable6 stable5
-#: localelistmodel.cpp:157
+#: localelistmodel.cpp:232
 #, kde-format
 msgctxt "@info:title the current locale is the default for %1, %1 is the country name"
 msgid "Default for %1"
@@ -570,49 +606,49 @@ msgid "Add languages in the order you want to see them in your applications."
 msgstr "เพิ่มภาษาตามลําดับที่คุณต้องการดูในแอปพลิเคชันของคุณ"
 
 #. +> trunk6 stable6 stable5
-#: ui/AdvancedLanguageSelectPage.qml:96
+#: ui/AdvancedLanguageSelectPage.qml:100
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Change Language"
 msgstr "เปลี่ยนภาษา"
 
 #. +> trunk6 stable6 stable5
-#: ui/AdvancedLanguageSelectPage.qml:100
+#: ui/AdvancedLanguageSelectPage.qml:104
 #, kde-format
 msgctxt "@title:window"
 msgid "Change Language"
 msgstr "เปลี่ยนภาษา"
 
 #. +> trunk6 stable6 stable5
-#: ui/AdvancedLanguageSelectPage.qml:111
+#: ui/AdvancedLanguageSelectPage.qml:113
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Move to top"
 msgstr "ย้ายไปด้านบน"
 
 #. +> trunk6 stable6 stable5
-#: ui/AdvancedLanguageSelectPage.qml:117
+#: ui/AdvancedLanguageSelectPage.qml:122
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove"
 msgstr "เอาออก"
 
 #. +> trunk6 stable6 stable5
-#: ui/AdvancedLanguageSelectPage.qml:130
+#: ui/AdvancedLanguageSelectPage.qml:137
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No Language Configured"
 msgstr "ไม่มีการกําหนดค่าภาษา"
 
 #. +> trunk6 stable6 stable5
-#: ui/AdvancedLanguageSelectPage.qml:172 ui/AdvancedLanguageSelectPage.qml:206
+#: ui/AdvancedLanguageSelectPage.qml:179 ui/AdvancedLanguageSelectPage.qml:213
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Languages"
 msgstr "เพิ่มภาษา"
 
 #. +> trunk6 stable6 stable5
-#: ui/AdvancedLanguageSelectPage.qml:229
+#: ui/AdvancedLanguageSelectPage.qml:236
 #, kde-format
 msgctxt "@action:button"
 msgid "Add More…"
@@ -653,66 +689,72 @@ msgid "Necessary locale and language support files have been installed. It is no
 msgstr "มีการติดตั้งไฟล์ locale และภาษาที่จําเป็นแล้ว ตอนนี้ ปลอดภัยในการปิดคอมพิวเตอร์"
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:176
+#: ui/main.qml:179
 #, kde-format
 msgctxt "@action:button for change the locale used"
 msgid "Modify…"
 msgstr "แก้ไข..."
 
 #. +> trunk6 stable6
-#: ui/main.qml:212
+#: ui/main.qml:215
 #, kde-format
 msgctxt "@title:window"
 msgid "Data and Storage Sizes"
 msgstr "ขนาดข้อมูลและการจัดเก็บข้อมูล"
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:275
+#: ui/main.qml:281
 #, kde-format
 msgid "Numbers"
 msgstr "ตัวเลข"
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:277
+#: ui/main.qml:283
 #, kde-format
 msgid "Time"
 msgstr "เวลา"
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:279
+#: ui/main.qml:285
 #, kde-format
 msgid "Currency"
 msgstr "เงินตรา"
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:281
+#: ui/main.qml:287
 #, kde-format
 msgid "Measurements"
 msgstr "การวัด"
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:283
+#: ui/main.qml:289
 #, kde-format
 msgid "Paper Size"
 msgstr "ขนาดกระดาษ"
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:285
+#: ui/main.qml:291
 #, kde-format
 msgctxt "Postal Address"
 msgid "Address"
 msgstr "ที่อยู่"
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:287
+#: ui/main.qml:293
 #, kde-format
 msgctxt "Name Style"
 msgid "Name"
 msgstr "ชื่อ"
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:289
+#: ui/main.qml:295
 #, kde-format
 msgctxt "Phone Numbers"
 msgid "Phone number"
 msgstr "หมายเลขโทรศัพท์"
+
+#. +> stable5
+#: kcmregionandlang.cpp:54
+#, kde-format
+msgid "You can configure the formats used for time, dates, money and other numbers here."
+msgstr "คุณสามารถกำหนดค่าที่ใช้สำหรับเวลา วันที่ เงิน และตัวเลขอื่น ๆ ได้ที่นี่"

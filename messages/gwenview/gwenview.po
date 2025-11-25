@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-05 12:22+0200\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
 "PO-Revision-Date: 2010-12-17 21:37+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -135,7 +135,7 @@ msgid "Sidebar Alignment Spacer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/browsemainpage.cpp:151 app/mainwindow.cpp:376 app/viewmainpage.cpp:410
+#: app/browsemainpage.cpp:151 app/mainwindow.cpp:378 app/viewmainpage.cpp:410
 #: lib/documentview/documentviewcontroller.cpp:55
 #, kde-format
 msgctxt "@title actions category - means actions changing smth in interface"
@@ -245,7 +245,7 @@ msgstr "แสดงวีดิทัศน์ต่างๆ"
 
 #. +> trunk6 stable6
 #: app/browsemainpage.cpp:206 app/fileopscontextmanageritem.cpp:136
-#: app/mainwindow.cpp:375
+#: app/mainwindow.cpp:377
 #, kde-format
 msgctxt "@title actions category"
 msgid "File"
@@ -845,7 +845,7 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, jpegQualitySpinner)
 #. +> trunk6 stable6
 #: app/generalconfigpage.ui:198
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 #| msgctxt "@info:tooltip of custom toolbar button"
 #| msgid "%1"
 msgid "%"
@@ -890,13 +890,13 @@ msgid "None"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/gvcore.cpp:81
+#: app/gvcore.cpp:83
 #, kde-format
 msgid "Image &quality:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/gvcore.cpp:88
+#: app/gvcore.cpp:90
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip of custom toolbar button"
 #| msgid "%1"
@@ -905,7 +905,7 @@ msgid "%v%"
 msgstr "%1"
 
 #. +> trunk6 stable6
-#: app/gvcore.cpp:114
+#: app/gvcore.cpp:116
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Open Image"
@@ -914,26 +914,26 @@ msgid "Save Image"
 msgstr "เปิดภาพ"
 
 #. +> trunk6 stable6
-#: app/gvcore.cpp:415
+#: app/gvcore.cpp:421
 #, kde-format
 msgid "Save using another format"
 msgstr "จัดเก็บโดยใช้รูปแบบอื่น"
 
 #. +> trunk6 stable6
-#: app/gvcore.cpp:417
+#: app/gvcore.cpp:423
 #, kde-format
 msgid "Gwenview cannot save images in '%1' format."
 msgstr "เกวนวิวไม่สามารถจัดเก็บภาพเป็นรูปแบบ '%1' ได้"
 
 #. +> trunk6 stable6
-#: app/gvcore.cpp:445
+#: app/gvcore.cpp:451
 #, kde-format
 msgctxt "@info"
 msgid "Gwenview cannot save images as %1."
 msgstr "เกวนวิวไม่สามารถจัดเก็บภาพต่าง ๆ เป็น '%1' ได้"
 
 #. +> trunk6 stable6
-#: app/gvcore.cpp:463 app/gvcore.cpp:497
+#: app/gvcore.cpp:469 app/gvcore.cpp:503
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -948,13 +948,13 @@ msgstr ""
 "%2"
 
 #. +> trunk6 stable6
-#: app/gvcore.cpp:513
+#: app/gvcore.cpp:519
 #, kde-format
 msgid "You are now viewing the new document."
 msgstr "คุณกำลังทำการดูเอกสารใหม่อยู่ในตอนนี้"
 
 #. +> trunk6 stable6
-#: app/gvcore.cpp:515
+#: app/gvcore.cpp:521
 #, kde-format
 msgid "Go back to the original"
 msgstr "ย้อนกลับไปยังต้นฉบับ"
@@ -966,9 +966,17 @@ msgstr "ย้อนกลับไปยังต้นฉบับ"
 msgid "&Rating"
 msgstr "&ระดับความชื่นชอบ"
 
+#. i18n: ectx: Menu (settings)
+#. +> trunk6 stable6
+#: app/gwenviewui.rc:87
+#, fuzzy, kde-format
+#| msgid "Settings..."
+msgid "Settings"
+msgstr "ตั้งค่าต่าง ๆ..."
+
 #. i18n: ectx: ToolBar (mainToolBar)
 #. +> trunk6 stable6
-#: app/gwenviewui.rc:90 part/gvpart.rc:16
+#: app/gwenviewui.rc:93 part/gvpart.rc:16
 #, kde-format
 msgid "Main Toolbar"
 msgstr "แถบเครื่องมือหลัก"
@@ -1305,59 +1313,59 @@ msgid_plural "%1 files"
 msgstr[0] "%1 แฟ้ม"
 
 #. +> trunk6 stable6
-#: app/main.cpp:182
+#: app/main.cpp:211
 #, kde-format
 msgid "Gwenview"
 msgstr "เกวนวิว"
 
 #. +> trunk6 stable6
-#: app/main.cpp:184
+#: app/main.cpp:213
 #, kde-format
 msgid "An Image Viewer"
 msgstr "เครื่องมือแสดงรูปภาพ"
 
 #. +> trunk6 stable6
-#: app/main.cpp:194
+#: app/main.cpp:223
 #, kde-format
 msgid "Start in fullscreen mode"
 msgstr "เริ่มในโหมดเต็มจอภาพ"
 
 #. +> trunk6 stable6
-#: app/main.cpp:195
+#: app/main.cpp:224
 #, kde-format
 msgid "Start in slideshow mode"
 msgstr "เริ่มในโหมดนำเสนอภาพนิ่ง"
 
 #. +> trunk6 stable6
-#: app/main.cpp:196
+#: app/main.cpp:225
 #, fuzzy, kde-format
 #| msgid "Start in slideshow mode"
 msgid "Start in spotlight mode"
 msgstr "เริ่มในโหมดนำเสนอภาพนิ่ง"
 
 #. +> trunk6 stable6
-#: app/main.cpp:197
+#: app/main.cpp:226
 #, fuzzy, kde-format
 #| msgid "A starting file or folder"
 msgid "A starting file or folders"
 msgstr "แฟ้มหรือโฟลเดอร์เริ่ม"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:385
+#: app/mainwindow.cpp:387
 #, kde-format
 msgctxt "@action Open Recent menu"
 msgid "Clear List"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:393
+#: app/mainwindow.cpp:395
 #, kde-format
 msgctxt "@action reload the currently viewed image"
 msgid "Reload"
 msgstr "เรียกใหม่"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:398
+#: app/mainwindow.cpp:400
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Navigation Bar"
 #| msgid "Edit Location"
@@ -1366,7 +1374,7 @@ msgid "Replace Location"
 msgstr "แก้ไขตำแหน่ง"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:403
+#: app/mainwindow.cpp:405
 #, fuzzy, kde-format
 #| msgctxt "@action Switch to file list"
 #| msgid "Browse"
@@ -1375,14 +1383,14 @@ msgid "Browse"
 msgstr "ดูภาพรวม"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:404
+#: app/mainwindow.cpp:406
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Browse folders for images"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:411
+#: app/mainwindow.cpp:413
 #, fuzzy, kde-format
 #| msgctxt "@title actions category - means actions changing smth in interface"
 #| msgid "View"
@@ -1391,7 +1399,7 @@ msgid "View"
 msgstr "แสดง"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:412
+#: app/mainwindow.cpp:414
 #, fuzzy, kde-format
 #| msgid "Loop on images"
 msgctxt "@info:tooltip"
@@ -1399,28 +1407,28 @@ msgid "View selected images"
 msgstr "วนรายการภาพ"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:431
+#: app/mainwindow.cpp:433
 #, kde-format
 msgctxt "@action"
 msgid "Exit Full Screen"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:435
+#: app/mainwindow.cpp:437
 #, kde-format
 msgctxt "@action"
 msgid "Spotlight Mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:441
+#: app/mainwindow.cpp:443
 #, kde-format
 msgctxt "@action Go to previous image"
 msgid "Previous"
 msgstr "ก่อนหน้า"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:442
+#: app/mainwindow.cpp:444
 #, fuzzy, kde-format
 #| msgid "Go to Previous Image"
 msgctxt "@info:tooltip"
@@ -1428,14 +1436,14 @@ msgid "Go to previous image"
 msgstr "ไปยังภาพก่อนหน้านี้"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:448
+#: app/mainwindow.cpp:450
 #, kde-format
 msgctxt "@action Go to next image"
 msgid "Next"
 msgstr "ถัดไป"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:449
+#: app/mainwindow.cpp:451
 #, fuzzy, kde-format
 #| msgid "Go to Next Image"
 msgctxt "@info:tooltip"
@@ -1443,14 +1451,14 @@ msgid "Go to next image"
 msgstr "ไปยังภาพลำดับถัดไป"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:455
+#: app/mainwindow.cpp:457
 #, kde-format
 msgctxt "@action Go to first image"
 msgid "First"
 msgstr "ภาพแรก"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:456
+#: app/mainwindow.cpp:458
 #, fuzzy, kde-format
 #| msgid "Go to First Image"
 msgctxt "@info:tooltip"
@@ -1458,14 +1466,14 @@ msgid "Go to first image"
 msgstr "ไปยังภาพแรก"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:462
+#: app/mainwindow.cpp:464
 #, kde-format
 msgctxt "@action Go to last image"
 msgid "Last"
 msgstr "ภาพสุดท้าย"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:463
+#: app/mainwindow.cpp:465
 #, fuzzy, kde-format
 #| msgid "Go to Last Image"
 msgctxt "@info:tooltip"
@@ -1473,35 +1481,35 @@ msgid "Go to last image"
 msgstr "ไปยังภาพสุดท้าย"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:473
+#: app/mainwindow.cpp:475
 #, kde-format
 msgctxt "@action"
 msgid "Start Page"
 msgstr "หน้าเริ่มต้น"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:474
+#: app/mainwindow.cpp:476
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open the start page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:481
+#: app/mainwindow.cpp:483
 #, kde-format
 msgctxt "@action"
 msgid "Sidebar"
 msgstr "ถาดข้าง"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:486
+#: app/mainwindow.cpp:488
 #, kde-format
 msgctxt "@action opens crop, rename, etc."
 msgid "Show Editing Tools"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:516
+#: app/mainwindow.cpp:523
 #, fuzzy, kde-format
 #| msgid "Share"
 msgctxt "@action Share images"
@@ -1509,69 +1517,69 @@ msgid "Share"
 msgstr "ใช้งานร่วมกัน"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:525
+#: app/mainwindow.cpp:532
 #, kde-format
 msgid "Error while sharing: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:532
+#: app/mainwindow.cpp:539
 #, kde-format
 msgid "The shared image link (<a href=\"%1\">%1</a>) has been copied to the clipboard."
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:582
+#: app/mainwindow.cpp:589
 #, kde-format
 msgctxt "@title:menu submenu for actions that open configuration dialogs"
 msgid "Configure"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:597
+#: app/mainwindow.cpp:604
 #, kde-format
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "Edit"
 msgstr "แก้ไข"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:602
+#: app/mainwindow.cpp:609
 #, kde-format
 msgid "Redo"
 msgstr "ทำซ้ำ"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:610
+#: app/mainwindow.cpp:617
 #, kde-format
 msgid "Undo"
 msgstr "เลิกทำ"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:637
+#: app/mainwindow.cpp:644
 #, kde-format
 msgid "Folders"
 msgstr "โฟลเดอร์ต่าง ๆ"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:643
+#: app/mainwindow.cpp:650
 #, kde-format
 msgid "Information"
 msgstr "ข้อมูลรายละเอียด"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:682
+#: app/mainwindow.cpp:689
 #, kde-format
 msgid "Operations"
 msgstr "ปฏิบัติการต่าง ๆ"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:951
+#: app/mainwindow.cpp:958
 #, kde-format
 msgid "Viewing media"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:1433
+#: app/mainwindow.cpp:1440
 #, fuzzy, kde-format
 #| msgctxt "@action"
 #| msgid "Sidebar"
@@ -1580,7 +1588,7 @@ msgid "Hide sidebar"
 msgstr "ถาดข้าง"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:1433
+#: app/mainwindow.cpp:1440
 #, fuzzy, kde-format
 #| msgctxt "@action"
 #| msgid "Sidebar"
@@ -1589,65 +1597,65 @@ msgid "Show sidebar"
 msgstr "ถาดข้าง"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:1782
+#: app/mainwindow.cpp:1790
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "เปิดภาพ"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:1842
+#: app/mainwindow.cpp:1850
 #, fuzzy, kde-format
 #| msgid "Slideshow"
 msgid "Pause Slideshow"
 msgstr "นำเสนอภาพนิ่ง"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:1845
+#: app/mainwindow.cpp:1853
 #, fuzzy, kde-format
 #| msgid "Slideshow"
 msgid "Resume Slideshow"
 msgstr "นำเสนอภาพนิ่ง"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:1845
+#: app/mainwindow.cpp:1853
 #, kde-format
 msgid "Start Slideshow"
 msgstr "เริ่มการนำเสนอภาพนิ่ง"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:1858
+#: app/mainwindow.cpp:1866
 #, kde-format
 msgid "Save All Changes"
 msgstr "จัดเก็บการเปลี่ยนแปลงทั้งหมด"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:1859
+#: app/mainwindow.cpp:1867
 #, kde-format
 msgid "Discard Changes"
 msgstr "ละทิ้งการเปลี่ยนแปลงที่มี"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:1861
+#: app/mainwindow.cpp:1869
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] "ภาพมีการแก้ไขจำนวน %1 ภาพ"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:1861
+#: app/mainwindow.cpp:1869
 #, kde-format
 msgid "If you quit now, your changes will be lost."
 msgstr "หากคุณออกตอนนี้ การเปลี่ยนแปลงทั้งหมดจะสูญหายไป"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:1904
+#: app/mainwindow.cpp:1912
 #, kde-format
 msgid "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:1907
+#: app/mainwindow.cpp:1915
 #, fuzzy, kde-format
 #| msgctxt "@action"
 #| msgid "Sidebar"
@@ -1655,39 +1663,39 @@ msgid "Hide menu bar"
 msgstr "ถาดข้าง"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:2128
+#: app/mainwindow.cpp:2136
 #, kde-format
 msgid "You reached the first document, what do you want to do?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:2129 app/mainwindow.cpp:2143
+#: app/mainwindow.cpp:2137 app/mainwindow.cpp:2151
 #, kde-format
 msgid "Stay There"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:2130
+#: app/mainwindow.cpp:2138
 #, fuzzy, kde-format
 #| msgid "Go to Last Image"
 msgid "Go to the Last Document"
 msgstr "ไปยังภาพสุดท้าย"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:2131 app/mainwindow.cpp:2145
+#: app/mainwindow.cpp:2139 app/mainwindow.cpp:2153
 #, fuzzy, kde-format
 #| msgid "Go back to the original"
 msgid "Go Back to the Document List"
 msgstr "ย้อนกลับไปยังต้นฉบับ"
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:2142
+#: app/mainwindow.cpp:2150
 #, kde-format
 msgid "You reached the last document, what do you want to do?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: app/mainwindow.cpp:2144
+#: app/mainwindow.cpp:2152
 #, fuzzy, kde-format
 #| msgid "Go to First Image"
 msgid "Go to the First Document"
@@ -2603,14 +2611,14 @@ msgid "Gwenview cannot save this kind of documents."
 msgstr "เกวนวิวไม่สามารถแก้ไขประเภทของภาพได้"
 
 #. +> trunk6 stable6
-#: lib/document/loadingdocumentimpl.cpp:136
+#: lib/document/loadingdocumentimpl.cpp:138
 #, kde-format
 msgctxt "@info"
-msgid "Gwenview cannot display documents of type %1."
-msgstr "เกวนวิวไม่สามารถแสดงเอกสารประเภท %1 ได้"
+msgid "Gwenview cannot display documents of type %1. Install the kimageformats package to gain support for a wider range of media types."
+msgstr ""
 
 #. +> trunk6 stable6
-#: lib/document/loadingdocumentimpl.cpp:389
+#: lib/document/loadingdocumentimpl.cpp:403
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Could not open file for writing."
@@ -2619,14 +2627,14 @@ msgid "Could not open file %1"
 msgstr "ไม่สามารถเปิดแฟ้มเพื่อทำการเขียนได้"
 
 #. +> trunk6 stable6
-#: lib/document/loadingdocumentimpl.cpp:480
+#: lib/document/loadingdocumentimpl.cpp:494
 #, kde-format
 msgctxt "@info"
 msgid "Loading meta information failed."
 msgstr "ล้มเหลวในการโหลดข้อมูลกำกับ"
 
 #. +> trunk6 stable6
-#: lib/document/loadingdocumentimpl.cpp:506
+#: lib/document/loadingdocumentimpl.cpp:520
 #, kde-format
 msgctxt "@info"
 msgid "Loading image failed."
@@ -2679,7 +2687,7 @@ msgid "%1x%2"
 msgstr "%1x%2"
 
 #. +> trunk6 stable6
-#: lib/documentview/documentview.cpp:265 lib/zoomcombobox/zoomcombobox.cpp:318
+#: lib/documentview/documentview.cpp:265 lib/zoomcombobox/zoomcombobox.cpp:317
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip of custom toolbar button"
 #| msgid "%1"
@@ -3332,6 +3340,11 @@ msgstr "แ&ฟ้ม"
 #, kde-format
 msgid "&View"
 msgstr "&มุมมอง"
+
+#, kde-format
+#~ msgctxt "@info"
+#~ msgid "Gwenview cannot display documents of type %1."
+#~ msgstr "เกวนวิวไม่สามารถแสดงเอกสารประเภท %1 ได้"
 
 #, fuzzy, kde-format
 #~| msgctxt "@info:tooltip of custom toolbar button"

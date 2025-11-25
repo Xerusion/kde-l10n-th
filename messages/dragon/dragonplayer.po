@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dragonplayer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-05 12:22+0200\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
 "PO-Revision-Date: 2010-03-04 22:42+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -31,19 +31,26 @@ msgid "Your emails"
 msgstr "donga.nb@gmail.com"
 
 #. +> trunk6 stable6
-#: src/main.cpp:24
+#: src/fileopen.cpp:84
+#, kde-format
+msgctxt "@title"
+msgid "Open Video File or Network Stream"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:35
 #, kde-format
 msgid "Dragon Player"
 msgstr "โปรแกรมเล่นสื่อ Dragon Player"
 
 #. +> trunk6 stable6
-#: src/main.cpp:26
+#: src/main.cpp:37
 #, kde-format
 msgid "A video player that has a usability focus"
 msgstr "โปรแกรมเล่นสื่อที่ใช้ง่าย"
 
 #. +> trunk6 stable6
-#: src/main.cpp:28
+#: src/main.cpp:39
 #, fuzzy, kde-format
 #| msgid ""
 #| "Copyright 2006, Max Howell\n"
@@ -162,7 +169,18 @@ msgid "Enter Fullscreen"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/PlayerPage.qml:79
+#: src/qml/PlayerPage.qml:78
+msgctxt "@info %2 is the name of a distribution"
+msgid ""
+"Dragon Player only supports the QtMultimedia library’s “ffmpeg” backend, but a different one is currently in use.\n"
+"<nl/>"
+"<nl/>"
+"\n"
+"Please <link url=\"%1\">contact the %2 developers</link> about this issue."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/PlayerPage.qml:86
 msgctxt "@info"
 msgid ""
 "Not all video codecs are installed. Video playback support may be less reliable than expected.\n"
@@ -171,21 +189,18 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/PlayerPage.qml:86
-msgctxt "@info"
+#: src/qml/PlayerPage.qml:93
+msgctxt "@info %2 is the name of a distribution"
 msgid ""
-"Not all video codecs are installed. Video playback support may be less reliable than expected.\n"
-"Please consult your distribution on how to install all possible codecs."
+"Could not locate full support for the H.264 video codec; video playback support may be less reliable than expected.\n"
+"<nl/>"
+"<nl/>"
+"\n"
+"Please <link url=\"%1\">contact the %2 developers</link> about this issue, or to find out how to install the missing video codecs."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/PlayerPage.qml:94
-msgctxt "@action:button %1 is the name of a distribution"
-msgid "%1 Support"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/qml/PlayerPage.qml:330
+#: src/qml/PlayerPage.qml:334
 msgctxt "@info overlay on top of video. %1 is the amount of time played %2 is the total duration of the video"
 msgid "%1 / %2"
 msgstr ""
@@ -451,13 +466,13 @@ msgstr ""
 #~ msgid "Previous"
 #~ msgstr "บทก่อนหน้า"
 
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 #~| msgid "Return 10% Back"
 #~ msgctxt "@action"
 #~ msgid "Return 10% Back"
 #~ msgstr "เล่นย้อนกลับ 10%"
 
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 #~| msgid "Go 10% Forward"
 #~ msgctxt "@action"
 #~ msgid "Go 10% Forward"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_trash\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-16 12:12+0200\n"
+"POT-Creation-Date: 2025-09-18 15:51+0200\n"
 "PO-Revision-Date: 2010-02-11 20:48+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -18,21 +18,15 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6
-#: contents/ui/main.qml:32
+#: main.qml:32
 #, fuzzy, kde-format
 #| msgid "Trash"
 msgctxt "@title the name of the Trash widget"
 msgid "Trash"
 msgstr "ถังขยะ"
 
-#. +> stable5
-#: contents/ui/main.qml:170
-#, kde-format
-msgid "Trash"
-msgstr "ถังขยะ"
-
-#. +> trunk6
-#: contents/ui/main.qml:35
+#. +> trunk6 stable6
+#: main.qml:35
 #, fuzzy, kde-format
 #| msgctxt "The trash is empty. This is not an action, but a state"
 #| msgid "Empty"
@@ -41,7 +35,7 @@ msgid "Emptying…"
 msgstr "ถังขยะว่าง"
 
 #. +> trunk6 stable6
-#: contents/ui/main.qml:37
+#: main.qml:37
 #, fuzzy, kde-format
 #| msgid "One item"
 #| msgid_plural "%1 items"
@@ -50,17 +44,8 @@ msgid "One item"
 msgid_plural "%1 items"
 msgstr[0] "%1 รายการ"
 
-#. +> stable5
-#: contents/ui/main.qml:171
-#, fuzzy, kde-format
-#| msgid "One item"
-#| msgid_plural "%1 items"
-msgid "One item"
-msgid_plural "%1 items"
-msgstr[0] "%1 รายการ"
-
 #. +> trunk6 stable6
-#: contents/ui/main.qml:39
+#: main.qml:39
 #, fuzzy, kde-format
 #| msgctxt "The trash is empty. This is not an action, but a state"
 #| msgid "Empty"
@@ -69,12 +54,28 @@ msgid "Empty"
 msgstr "ถังขยะว่าง"
 
 #. +> trunk6 stable6
-#: contents/ui/main.qml:79
+#: main.qml:79
 #, fuzzy, kde-format
 #| msgid "&Open"
 msgctxt "@action:inmenu Open the trash"
 msgid "Open"
 msgstr "เ&ปิด"
+
+#. +> trunk6 stable6
+#: main.qml:84
+#, fuzzy, kde-format
+#| msgctxt "The trash is empty. This is not an action, but a state"
+#| msgid "Empty"
+msgctxt "@action:inmenu Empty the trash"
+msgid "Empty"
+msgstr "ถังขยะว่าง"
+
+#. +> trunk6 stable6
+#: main.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Trash Settings…"
+msgstr ""
 
 #. +> stable5
 #: contents/ui/main.qml:103
@@ -84,15 +85,6 @@ msgctxt "a verb"
 msgid "Open"
 msgstr "เ&ปิด"
 
-#. +> trunk6 stable6
-#: contents/ui/main.qml:84
-#, fuzzy, kde-format
-#| msgctxt "The trash is empty. This is not an action, but a state"
-#| msgid "Empty"
-msgctxt "@action:inmenu Empty the trash"
-msgid "Empty"
-msgstr "ถังขยะว่าง"
-
 #. +> stable5
 #: contents/ui/main.qml:104
 #, fuzzy, kde-format
@@ -101,13 +93,6 @@ msgstr "ถังขยะว่าง"
 msgctxt "a verb"
 msgid "Empty"
 msgstr "ถังขยะว่าง"
-
-#. +> trunk6 stable6
-#: contents/ui/main.qml:90
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Trash Settings…"
-msgstr ""
 
 #. +> stable5
 #: contents/ui/main.qml:110
@@ -138,9 +123,24 @@ msgid_plural ""
 msgstr[0] "%1 รายการ"
 
 #. +> stable5
+#: contents/ui/main.qml:170
+#, kde-format
+msgid "Trash"
+msgstr "ถังขยะ"
+
+#. +> stable5
 #: contents/ui/main.qml:171
 #, fuzzy, kde-format
 #| msgctxt "The trash is empty. This is not an action, but a state"
 #| msgid "Empty"
 msgid "Empty"
 msgstr "ถังขยะว่าง"
+
+#. +> stable5
+#: contents/ui/main.qml:171
+#, fuzzy, kde-format
+#| msgid "One item"
+#| msgid_plural "%1 items"
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] "%1 รายการ"

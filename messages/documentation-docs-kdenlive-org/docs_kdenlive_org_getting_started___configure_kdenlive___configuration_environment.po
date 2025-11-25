@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-14 09:48+0200\n"
+"POT-Creation-Date: 2025-08-18 09:44+0200\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -18,114 +18,88 @@ msgid "Environment"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:54
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:57
 msgid "This section defines some of the most important settings for Kdenlive."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:61
-msgid "configure_environment_2412"
-msgstr ""
-
-#. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:61
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:63
 msgid "The Environment section"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:63
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:65
 msgid ":guilabel:`Concurrent threads`. Defines the number of threads to use for proxy clip generation and transcode jobs. Those jobs will run in the background. The value entered is passed to ffmpeg as the :code:`-threads` parameter. Increasing this parameter may not have an effect if you have changed the proxy encoding settings using :doc:`project settings</project_and_asset_management/project_settings/proxy_settings>` to a codec that ffmpeg does not do multi-threading on. Multi-threading is supported for MPEG-2, MPEG-4, H.264, and VP8."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:65
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:67
 msgid ":guilabel:`Use lower CPU priority`. This instructs Kdenlive to lower the priority of the proxy clip generation and transcode jobs. It helps keeping the main UI responsive when proxies are created or clips are being transcoded."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:67
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:69
 msgid ":guilabel:`Warn if cached data exceeds`. Add a maximal cache size that Kdenlive checks every two weeks. Kdenlive issues a warning message if the total cached data size exceeds this limit. If you need to purge the cache, use the :doc:`/tips_and_tricks/useful_info/manage_cached_data` feature."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:69
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:71
 msgid ":guilabel:`Check for updates`. If checked, Kdenlive will show a pop-up window with a reminder if your version is older than six (6) months."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:71
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:73
+msgid ":guilabel:`Prevent sleep when playing and rendering`. If checked, Kdenlive disables the system's power management to avoid sleep mode and screen locking during playback and rendering."
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:75
 msgid "Tabs for the different environment settings."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:77
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:81
 msgid "MLT Environment"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:79
-msgid "These settings tell Kdenlive where to find the MLT executables and profile files. Only advanced users would really need to change these settings. Kdenlive is basically a frontend to the MLT program. If you have |mediainfo| installed and provide the path here, Kdenlive shows more details in the clip properties. The values differ depending on your OS."
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:85
+msgid "These settings tell Kdenlive where to find the MLT executables and profile files. Only advanced users would really need to change these settings. Kdenlive is basically a frontend to the MLT program. Since Kdenlive version 25.08, |mediainfo| is not needed anymore as Kdenlive can read the timecode directly from MLT and shows these details in the clip properties. The values differ depending on your OS."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:85
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:103
-msgid "Kdenlive_Configure_environment_MLT_Windows"
-msgstr ""
-
-#. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:85
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:90
 msgid "Environment variables in Kdenlive installed on Windows"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:91
-msgid "Kdenlive_Configure_environment_MLT_Linux"
-msgstr ""
-
-#. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:91
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:95
 msgid "Environment variables in Kdenlive installed on Linux"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:97
-msgid "configure_environment_mlt_appimage_2412"
-msgstr ""
-
-#. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:97
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:100
 msgid "Environment variables in Kdenlive appimage on Linux"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:103
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:105
 msgid "Environment variables in Kdenlive on MacOS"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:109
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:111
 msgid "Default Folders"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:111
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:113
 msgid "These settings tell Kdenlive where project files are to be stored. It also controls what folder Kdenlive will use as a temporary file storage location and where files captured from an external source will be saved."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:120
-msgid "Kdenlive_Configure_environment_default_folders"
-msgstr ""
-
-#. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:120
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:121
 msgid "Default folders on Windows."
-msgstr ""
-
-#. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:126
-msgid "configure_environment_default_folders_appimage_2412.webp"
 msgstr ""
 
 #. +> trunk5
@@ -134,98 +108,77 @@ msgid "Default folders on Linux (appimage)."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:132
-msgid "configure_environment_default_folders_linux_2412"
-msgstr ""
-
-#. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:132
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:131
 msgid "Default folders on Linux (flatpak)."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:138
-msgid "Kdenlive_Configure_environment_default_folders_MacOS"
-msgstr ""
-
-#. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:138
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:136
 msgid "Default folders on MacOS."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:202
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:200
 msgid "Default Apps"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:204
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:202
 msgid "These settings control which external application opens when you choose :ref:`edit_clip` for a clip in the Project Bin."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:211
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:229
-msgid "configure_environment_default_apps_1_2412"
-msgstr ""
-
-#. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:211
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:208
 msgid "Settings for default apps"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:213
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:210
 msgid ":guilabel:`Image editing`: A free software would be |krita|."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:215
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:212
 msgid ":guilabel:`Audio editing`: A free software would be |audacity|."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:217
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:214
 msgid ":guilabel:`Animation editing`: Kdenlive integrates nicely with and updates files automatically which are saved in |glaxnimate| which is available from its homepage for Linux, Windows, and MacOS."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:219
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:216
 msgid "**Mac user:** See these :ref:`instructions <kdenlive_macos>` how to install and run :file:`dmg` files."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:221
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:218
 msgid "**Windows user:** Make sure all the paths point to an :file:`.exe` file. :file:`glaxnimate.exe` is in folder :file:`%PROGRAMFILES%\\\\glaxnimate\\\\bin\\\\`."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:224
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:221
 msgid "Example"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:229
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:225
 msgid "Examples of properly configured default apps on Linux (appimage)"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:233
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:229
 msgid "Mime types"
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:235
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:231
 msgid "Specifies the Media Types (formerly known as MIME types) which Kdenlive can work with."
 msgstr ""
 
 #. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:242
-msgid "configure_environment_mime_types_2412"
-msgstr ""
-
-#. +> trunk5
-#: ../../getting_started/configure_kdenlive/configuration_environment.rst:242
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:237
 msgid "Supported MIME Types"
 msgstr ""
 
@@ -262,4 +215,9 @@ msgstr ""
 #. +> trunk5
 #: ../../getting_started/configure_kdenlive/configuration_environment.rst:0
 msgid "5"
+msgstr ""
+
+#. +> trunk5
+#: ../../getting_started/configure_kdenlive/configuration_environment.rst:0
+msgid "6"
 msgstr ""

@@ -1,215 +1,247 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2024-11-29 10:30+0100\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: crow-translate_qt\n"
+"POT-Creation-Date: 2025-10-23 09:19+0200\n"
 "PO-Revision-Date: 2025-03-17 14:51+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
 "Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. +> trunk5
-#: src/cli.cpp:43
+#. +> trunk6
+#: src/cli.cpp:37
 msgctxt "Cli|"
 msgid "Display all language codes."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:44
+#. +> trunk6
+#: src/cli.cpp:39
 msgctxt "Cli|"
 msgid "Specify the source language (by default, engine will try to determine the language on its own)."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:45
+#. +> trunk6
+#: src/cli.cpp:43
 msgctxt "Cli|"
-msgid "Specify the translation language(s), splitted by '+' (by default, the system language is used)."
+msgid "Specify the translation language(s), split by '+' (by default, the system language is used)."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:46
+#. +> trunk6
+#: src/cli.cpp:47
 msgctxt "Cli|"
 msgid "Specify the translator engine ('google', 'yandex', 'bing', 'libretranslate' or 'lingva'), Google is used by default."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:47
+#. +> trunk6
+#: src/cli.cpp:51
 msgctxt "Cli|"
 msgid "Specify Mozhi instance URL. Instance URL from the app settings will be used by default."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:48
+#. +> trunk6
+#: src/cli.cpp:55
+msgctxt "Cli|"
+msgid "Specify translation provider ('copy' or 'mozhi'). Provider from app settings will be used by default."
+msgstr ""
+
+#. +> trunk6
+#: src/cli.cpp:58
+msgctxt "Cli|"
+msgid "Specify TTS provider ('none', 'mozhi', 'qt', or 'piper'). Provider from app settings will be used by default."
+msgstr ""
+
+#. +> trunk6
+#: src/cli.cpp:60
 msgctxt "Cli|"
 msgid "Speak the translation."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:49
+#. +> trunk6
+#: src/cli.cpp:61
 msgctxt "Cli|"
 msgid "Speak the source."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:50
+#. +> trunk6
+#: src/cli.cpp:62
 msgctxt "Cli|"
 msgid "Read source text from files. Arguments will be interpreted as file paths."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:51
+#. +> trunk6
+#: src/cli.cpp:63
 msgctxt "Cli|"
 msgid "Add stdin data to source text."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:52
+#. +> trunk6
+#: src/cli.cpp:65
 #, qt-format
 msgctxt "Cli|"
 msgid "Do not print any text when using --%1 or --%2."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:53
+#. +> trunk6
+#: src/cli.cpp:66
 msgctxt "Cli|"
 msgid "Print only translations."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:54
+#. +> trunk6
+#: src/cli.cpp:67
 msgctxt "Cli|"
 msgid "Print output formatted as JSON."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:57
+#. +> trunk6
+#: src/cli.cpp:70
 msgctxt "Cli|"
-msgid "Application that allows to translate and speak text using Mozhi"
+msgid "Application that allows to translate and speak text using various providers"
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:58
+#. +> trunk6
+#: src/cli.cpp:71
 msgctxt "Cli|"
 msgid "Text to translate. By default, the translation will be done to the system language."
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:80
+#. +> trunk6
+#: src/cli.cpp:95
 #, qt-format
 msgctxt "Cli|"
 msgid "Error: For --%1 you must specify --%2 and/or --%3 options"
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:95
+#. +> trunk6
+#: src/cli.cpp:115
 #, qt-format
 msgctxt "Cli|"
 msgid "Error: Unknown source language code '%1'"
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:103
+#. +> trunk6
+#: src/cli.cpp:128
 #, qt-format
 msgctxt "Cli|"
 msgid "Error: Unknown translation language code '%1'"
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:127
+#. +> trunk6
+#: src/cli.cpp:152
 msgctxt "Cli|"
 msgid "Error: There is no text for translation"
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:133
+#. +> trunk6
+#: src/cli.cpp:165
+#, qt-format
+msgctxt "Cli|"
+msgid "Error: Unknown translation provider '%1'"
+msgstr ""
+
+#. +> trunk6
+#: src/cli.cpp:175
 msgctxt "Cli|"
 msgid "Detecting fastest instance"
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:160
+#. +> trunk6
+#: src/cli.cpp:214
+msgctxt "Cli|"
+msgid "Error: Lingva engine is not supported"
+msgstr ""
+
+#. +> trunk6
+#: src/cli.cpp:223
 msgctxt "Cli|"
 msgid "Error: Unknown engine"
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:195 src/cli.cpp:287 src/cli.cpp:377
+#. +> trunk6
+#: src/cli.cpp:256
+#, qt-format
+msgctxt "Cli|"
+msgid "Error: Unknown TTS provider '%1'"
+msgstr ""
+
+#. +> trunk6
+#: src/cli.cpp:335 src/cli.cpp:384
 #, qt-format
 msgctxt "Cli|"
 msgid "Error: %1"
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:249
+#. +> trunk6
+#: src/cli.cpp:337 src/cli.cpp:386
 msgctxt "Cli|"
-msgid "translation options:"
+msgid "Translation error occurred"
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:260
+#. +> trunk6
+#: src/cli.cpp:443
 msgctxt "Cli|"
-msgid "examples:"
+msgid "Error: TTS failed"
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:390
+#. +> trunk6
+#: src/cli.cpp:600
 #, qt-format
 msgctxt "Cli|"
 msgid "Error: You can't use --%1 with --%2"
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:406 src/cli.cpp:427
+#. +> trunk6
+#: src/cli.cpp:612 src/cli.cpp:633
 #, qt-format
 msgctxt "Cli|"
 msgid "Error: File does not exist: %1"
 msgstr ""
 
-#. +> trunk5
-#: src/cli.cpp:411 src/cli.cpp:432
+#. +> trunk6
+#: src/cli.cpp:617 src/cli.cpp:638
 #, qt-format
 msgctxt "Cli|"
 msgid "Error: Unable to open file: %1"
 msgstr ""
 
-#. +> trunk5
-#: src/contextmenu.h:39
+#. +> trunk6
+#: src/contextmenu.h:35
 msgctxt "ContextMenu|"
 msgid "Search on Forvo.com"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/instancepinger.cpp:65
 #, qt-format
 msgctxt "InstancePinger|"
 msgid "Best instance URL is '%1' with time %2 ms"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/instancepinger.cpp:84
 #, qt-format
 msgctxt "InstancePinger|"
 msgid "Ping to '%1' takes longer then %2 ms"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/instancepinger.cpp:99
 #, qt-format
 msgctxt "InstancePinger|"
 msgid "Ping to '%1' successful, response time: %2 ms"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/instancepinger.cpp:111
 #, qt-format
 msgctxt "InstancePinger|"
 msgid "Ping to '%1' failed, error: %2"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/instancepingerdialog.cpp:23
 #, qt-format
 msgctxt "InstancePingerDialog|"
@@ -218,1918 +250,2064 @@ msgid ""
 "Checking '%1'"
 msgstr ""
 
-#. +> trunk5
-#: src/languagebuttonswidget.cpp:220
+#. +> trunk6
+#: src/languagebuttonswidget.cpp:225
 msgctxt "LanguageButtonsWidget|"
 msgid "Window width is larger than screen due to the languages on the panel."
 msgstr ""
 
-#. +> trunk5
-#: src/languagebuttonswidget.cpp:221
+#. +> trunk6
+#: src/languagebuttonswidget.cpp:226
 msgctxt "LanguageButtonsWidget|"
 msgid "Please reduce added languages."
 msgstr ""
 
-#. +> trunk5
-#: src/languagebuttonswidget.cpp:297 src/languagebuttonswidget.cpp:299
+#. +> trunk6
+#: src/languagebuttonswidget.cpp:302 src/languagebuttonswidget.cpp:304
 msgctxt "LanguageButtonsWidget|"
 msgid "Auto"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/languagebuttonswidget.ui:32
 msgctxt "LanguageButtonsWidget|"
 msgid "Edit languages"
 msgstr ""
 
-#. +> trunk5
-#: src/languagesdialog.cpp:23
+#. +> trunk6
+#: src/languagesdialog.cpp:24
 #, qt-format
 msgctxt "LanguagesDialog|"
 msgid "Filter (%1)"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/languagesdialog.ui:14
 msgctxt "LanguagesDialog|"
 msgid "Edit languages"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/languagesdialog.ui:91
 msgctxt "LanguagesDialog|"
 msgid "Available languages:"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/languagesdialog.ui:104
 msgctxt "LanguagesDialog|"
 msgid "Current languages:"
 msgstr ""
 
-#. +> trunk5
-#: src/main.cpp:72
+#. +> trunk6
+#: src/main.cpp:76
 #, qt-format
 msgctxt "D-Bus|"
 msgid "D-Bus service %1 is already registered by another application"
 msgstr ""
 
-#. +> trunk5
-#: src/main.cpp:97
+#. +> trunk6
+#: src/main.cpp:109
 #, qt-format
 msgctxt "D-Bus|"
 msgid "Unable to register D-Bus object for %1"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.cpp:270
-msgctxt "MainWindow|"
-msgid "Toggled OCR image negate"
+#. +> trunk6
+#: src/mainwindow.cpp:343
+msgctxt "QApplication|"
+msgid "OCR"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.cpp:270
-#, qt-format
-msgctxt "MainWindow|"
-msgid "OCR image negate has changed to %1"
+#. +> trunk6
+#: src/mainwindow.cpp:344
+msgctxt "QApplication|"
+msgid "OCR image negated"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.cpp:397
-msgctxt "MainWindow|"
-msgid "Unable to detect language"
+#. +> trunk6
+#: src/mainwindow.cpp:344
+msgctxt "QApplication|"
+msgid "OCR image is normal"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.cpp:449
-msgctxt "MainWindow|"
-msgid "Unable to translate text"
+#. +> trunk6
+#: src/mainwindow.cpp:498 src/mainwindow.cpp:518 src/mainwindow.cpp:566
+#: src/mainwindow.cpp:595
+msgctxt "Ocr|"
+msgid "OCR languages are not loaded"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.cpp:870
+#. +> trunk6
+#: src/mainwindow.cpp:498 src/mainwindow.cpp:518 src/mainwindow.cpp:566
+#: src/mainwindow.cpp:595
+msgctxt "Ocr|"
+msgid "You should set at least one OCR language in the application settings"
+msgstr ""
+
+#. +> trunk6
+#: src/mainwindow.cpp:770
 #, qt-format
 msgctxt "MainWindow|"
 msgid "This application uses %1 to provide translations."
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.cpp:871
+#. +> trunk6
+#: src/mainwindow.cpp:771
 #, qt-format
 msgctxt "MainWindow|"
 msgid "While Mozhi acts as a proxy to protect your privacy, the third-party services it uses may store and analyze the text you send. Your instance right now is '%1', but you can change it in the translation settings. See instance details in the link above."
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.cpp:878
+#. +> trunk6
+#: src/mainwindow.cpp:778
 msgctxt "MainWindow|"
 msgid "Don't show again"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.cpp:906
+#. +> trunk6
+#: src/mainwindow.cpp:820
 msgctxt "TrayIcon|"
 msgid "Invalid tray icon"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.cpp:906
+#. +> trunk6
+#: src/mainwindow.cpp:820
 #, qt-format
 msgctxt "TrayIcon|"
 msgid "The specified icon '%1' is invalid. The default icon will be used."
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.cpp:935
+#. +> trunk6
+#: src/mainwindow.cpp:841
 msgctxt "Ocr|"
 msgid "Unable to set OCR languages"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.cpp:935
+#. +> trunk6
+#: src/mainwindow.cpp:841
 #, qt-format
 msgctxt "Ocr|"
 msgid "Unable to initialize Tesseract with %1"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.ui:36
+#. +> trunk6
+#: src/mainwindow.cpp:979
+msgctxt "MainWindow|"
+msgid "TTS Error"
+msgstr ""
+
+#. +> trunk6
+#: src/mainwindow.cpp:979
+#, qt-format
+msgctxt "MainWindow|"
+msgid ""
+"Text-to-Speech error:\n"
+"\n"
+"%1\n"
+"\n"
+"Please check your TTS settings or try a different voice/locale."
+msgstr ""
+
+#. +> trunk6
+#: src/mainwindow.ui:14
+msgctxt "MainWindow|"
+msgid "Crow Translate"
+msgstr ""
+
+#. +> trunk6
+#: src/mainwindow.ui:29
+msgctxt "MainWindow|"
+msgid "Translate"
+msgstr ""
+
+#. +> trunk6
+#: src/mainwindow.ui:39
+msgctxt "MainWindow|"
+msgid "Swap languages"
+msgstr ""
+
+#. +> trunk6
+#: src/mainwindow.ui:52
+msgctxt "MainWindow|"
+msgid "Source"
+msgstr ""
+
+#. +> trunk6
+#: src/mainwindow.ui:72
+msgctxt "MainWindow|"
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6
+#: src/mainwindow.ui:132 src/mainwindow.ui:261
+msgctxt "MainWindow|"
+msgid "..."
+msgstr ""
+
+#. +> trunk6
+#: src/mainwindow.ui:142
 msgctxt "MainWindow|"
 msgid "Copy source text to the clipboard"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.ui:47
+#. +> trunk6
+#: src/mainwindow.ui:152
 msgctxt "MainWindow|"
 msgid "Recognize screen area with delay"
 msgstr ""
 
 #. The text should be short to fit in portrait orientation on phones.
-#. +> trunk5
-#: src/mainwindow.ui:64
+#. +> trunk6
+#: src/mainwindow.ui:168
 msgctxt "MainWindow|"
 msgid "Auto-translation"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.ui:76
-msgctxt "MainWindow|"
-msgid "Cancel"
-msgstr ""
-
-#. +> trunk5
-#: src/mainwindow.ui:87
-msgctxt "MainWindow|"
-msgid "Swap languages"
-msgstr ""
-
-#. +> trunk5
-#: src/mainwindow.ui:111
-msgctxt "MainWindow|"
-msgid "Source"
-msgstr ""
-
-#. +> trunk5
-#: src/mainwindow.ui:118
+#. +> trunk6
+#: src/mainwindow.ui:177
 msgctxt "MainWindow|"
 msgid "Clear"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.ui:135
-msgctxt "MainWindow|"
-msgid "Translate"
-msgstr ""
-
-#. +> trunk5
-#: src/mainwindow.ui:163
+#. +> trunk6
+#: src/mainwindow.ui:204
 msgctxt "MainWindow|"
 msgid "Translation"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.ui:259
+#. +> trunk6
+#: src/mainwindow.ui:351
 msgctxt "MainWindow|"
 msgid "Copy translation to the clipboard"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.ui:270
+#. +> trunk6
+#: src/mainwindow.ui:361
 msgctxt "MainWindow|"
 msgid "Copy all translation data to the clipboard"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.ui:281
+#. +> trunk6
+#: src/mainwindow.ui:371
 msgctxt "MainWindow|"
 msgid "Translate screen area with delay"
 msgstr ""
 
-#. +> trunk5
-#: src/mainwindow.ui:292
+#. +> trunk6
+#: src/mainwindow.ui:381
 msgctxt "MainWindow|"
 msgid "Application settings"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/ocr.cpp:136
+#. +> trunk6
+#: src/ocr/ocr.cpp:132
 #, qt-format
 msgctxt "Ocr|"
 msgid "%1 is not a valid Tesseract parameter name."
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/ocr/screengrabbers/abstractscreengrabber.cpp:46
 msgctxt "AbstractScreenGrabber|"
 msgid "Unable to grab screen"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/screengrabbers/waylandgnomescreengrabber.cpp:47
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandgnomescreengrabber.cpp:48
 msgctxt "WaylandGnomeScreenGrabber|"
 msgid "GNOME failed to take screenshot."
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:43
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:55
+#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:333
 #, qt-format
 msgctxt "WaylandPlasmaScreenGrabber|"
 msgid "Unable to create pipe: %1."
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:87
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:84
+msgctxt "WaylandPlasmaScreenGrabber|"
+msgid "Unable to detect active screen for screenshot"
+msgstr ""
+
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:164
 #, qt-format
 msgctxt "WaylandPlasmaScreenGrabber|"
 msgid "Unable to wait for socket readiness: %1."
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:92
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:169
 msgctxt "WaylandPlasmaScreenGrabber|"
 msgid "Timeout reading from pipe."
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:98
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:176
 #, qt-format
 msgctxt "WaylandPlasmaScreenGrabber|"
 msgid "Unable to read data from socket: %1."
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/screengrabbers/waylandportalscreengrabber.cpp:56
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:275
+msgctxt "WaylandPlasmaScreenGrabber|"
+msgid "Unable to determine target screen"
+msgstr ""
+
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:297
+msgctxt "WaylandPlasmaScreenGrabber|"
+msgid "Failed to extract screen area from workspace"
+msgstr ""
+
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:315
+msgctxt "WaylandPlasmaScreenGrabber|"
+msgid "Screenshot Permission Required"
+msgstr ""
+
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:316
+msgctxt "WaylandPlasmaScreenGrabber|"
+msgid "Crow Translate needs permission to take screenshots. Please grant permission in your system settings or use the interactive screenshot mode."
+msgstr ""
+
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandplasmascreengrabber.cpp:322
+msgctxt "WaylandPlasmaScreenGrabber|"
+msgid "Screenshot permission denied. Please grant permission in system settings or try interactive mode."
+msgstr ""
+
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandportalscreengrabber.cpp:57
 msgctxt "WaylandPortalScreenGrabber|"
 msgid "Unable to subscribe to response from xdg-desktop-portal."
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/screengrabbers/waylandportalscreengrabber.cpp:76
+#. +> trunk6
+#: src/ocr/screengrabbers/waylandportalscreengrabber.cpp:77
 msgctxt "WaylandPortalScreenGrabber|"
 msgid "Received an empty path from xdg-desktop-portal."
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:78
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:91
 msgctxt "SnippingArea|"
 msgid "Unable to snip screen area"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:79
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:92
 #, qt-format
 msgctxt "SnippingArea|"
 msgid "Received an invalid image of screen %1."
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:631
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:644
 msgctxt "SnippingArea|"
 msgid ""
 "Click and drag to draw a selection rectangle,\n"
 "or press Esc to quit"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:837
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:850
 msgctxt "SnippingArea|"
 msgid "Confirm:"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:839
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:852
 msgctxt "SnippingArea|"
 msgid "Release left-click"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:839 src/ocr/snippingarea.cpp:841
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:852 src/ocr/snippingarea.cpp:854
 msgctxt "SnippingArea|"
 msgid "Enter"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:841
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:854
 msgctxt "SnippingArea|"
 msgid "Double-click"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:843
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:856
 msgctxt "SnippingArea|"
 msgid "Create new selection rectangle:"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:844
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:857
 msgctxt "SnippingArea|"
 msgid "Drag outside selection rectangle"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:844
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:857
 msgctxt "SnippingArea|"
 msgid "+ Shift: Magnifier"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:847
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:860
 msgctxt "SnippingArea|"
 msgid "Move selection rectangle:"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:848
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:861
 msgctxt "SnippingArea|"
 msgid "Drag inside selection rectangle"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:848
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:861
 msgctxt "SnippingArea|"
 msgid "Arrow keys"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:848
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:861
 msgctxt "SnippingArea|"
 msgid "+ Shift: Move in 1 pixel steps"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:850
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:863
 msgctxt "SnippingArea|"
 msgid "Resize selection rectangle:"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:851
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:864
 msgctxt "SnippingArea|"
 msgid "Drag handles"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:851
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:864
 msgctxt "SnippingArea|"
 msgid "Arrow keys + Alt"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:851
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:864
 msgctxt "SnippingArea|"
 msgid "+ Shift: Resize in 1 pixel steps"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:853
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:866
 msgctxt "SnippingArea|"
 msgid "Reset selection:"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:854
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:867
 msgctxt "SnippingArea|"
 msgid "Right-click"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:857
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:870
 msgctxt "SnippingArea|"
 msgid "Cancel:"
 msgstr ""
 
-#. +> trunk5
-#: src/ocr/snippingarea.cpp:858
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:871
 msgctxt "SnippingArea|"
 msgid "Esc key"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:275
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:896
+msgctxt "SnippingArea|"
+msgid "DPI Detection Error"
+msgstr ""
+
+#. +> trunk6
+#: src/ocr/snippingarea.cpp:896
+msgctxt "SnippingArea|"
+msgid "Screen under cursor disappeared before we got dpi from it. Using primary screen for dpi information."
+msgstr ""
+
+#. +> trunk6
+#: src/onlinetranslator.cpp:273
 #, qt-format
 msgctxt "OnlineTranslator|"
 msgid "Language detection is not supported for %1"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:352
+#. +> trunk6
+#: src/onlinetranslator.cpp:318
+msgctxt "OnlineTranslator|"
+msgid "Operation aborted by user"
+msgstr ""
+
+#. +> trunk6
+#: src/onlinetranslator.cpp:361
 #, qt-format
 msgctxt "OnlineTranslator|"
 msgid "%1 engine does not support TTS"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:493
+#. +> trunk6
+#: src/onlinetranslator.cpp:502
 msgctxt "OnlineTranslator|"
 msgid "Automatically detect"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:495
+#. +> trunk6
+#: src/onlinetranslator.cpp:504
 msgctxt "OnlineTranslator|"
 msgid "Afrikaans"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:497
+#. +> trunk6
+#: src/onlinetranslator.cpp:506
 msgctxt "OnlineTranslator|"
 msgid "Albanian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:499
+#. +> trunk6
+#: src/onlinetranslator.cpp:508
 msgctxt "OnlineTranslator|"
 msgid "Amharic"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:501
+#. +> trunk6
+#: src/onlinetranslator.cpp:510
 msgctxt "OnlineTranslator|"
 msgid "Arabic"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:503
+#. +> trunk6
+#: src/onlinetranslator.cpp:512
 msgctxt "OnlineTranslator|"
 msgid "Armenian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:505
+#. +> trunk6
+#: src/onlinetranslator.cpp:514
 msgctxt "OnlineTranslator|"
 msgid "Assamese"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:507
+#. +> trunk6
+#: src/onlinetranslator.cpp:516
 msgctxt "OnlineTranslator|"
 msgid "Aymara"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:509
+#. +> trunk6
+#: src/onlinetranslator.cpp:518
 msgctxt "OnlineTranslator|"
 msgid "Azerbaijani"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:511
+#. +> trunk6
+#: src/onlinetranslator.cpp:520
 msgctxt "OnlineTranslator|"
 msgid "Bajan"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:513
+#. +> trunk6
+#: src/onlinetranslator.cpp:522
 msgctxt "OnlineTranslator|"
 msgid "Balkan Gipsy"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:515
+#. +> trunk6
+#: src/onlinetranslator.cpp:524
 msgctxt "OnlineTranslator|"
 msgid "Bambara"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:517
+#. +> trunk6
+#: src/onlinetranslator.cpp:526
 msgctxt "OnlineTranslator|"
 msgid "Bangla"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:519
+#. +> trunk6
+#: src/onlinetranslator.cpp:528
 msgctxt "OnlineTranslator|"
 msgid "Bashkir"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:521
+#. +> trunk6
+#: src/onlinetranslator.cpp:530
 msgctxt "OnlineTranslator|"
 msgid "Basque"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:523
+#. +> trunk6
+#: src/onlinetranslator.cpp:532
 msgctxt "OnlineTranslator|"
 msgid "Belarusian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:525
+#. +> trunk6
+#: src/onlinetranslator.cpp:534
 msgctxt "OnlineTranslator|"
 msgid "Bemba"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:527
+#. +> trunk6
+#: src/onlinetranslator.cpp:536
 msgctxt "OnlineTranslator|"
 msgid "Bhojpuri"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:529
+#. +> trunk6
+#: src/onlinetranslator.cpp:538
 msgctxt "OnlineTranslator|"
 msgid "Bislama"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:531
+#. +> trunk6
+#: src/onlinetranslator.cpp:540
 msgctxt "OnlineTranslator|"
 msgid "Bosnian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:533
+#. +> trunk6
+#: src/onlinetranslator.cpp:542
 msgctxt "OnlineTranslator|"
 msgid "Breton"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:535
+#. +> trunk6
+#: src/onlinetranslator.cpp:544
 msgctxt "OnlineTranslator|"
 msgid "Bulgarian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:537
+#. +> trunk6
+#: src/onlinetranslator.cpp:546
 msgctxt "OnlineTranslator|"
 msgid "Cantonese (Traditional)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:539
+#. +> trunk6
+#: src/onlinetranslator.cpp:548
 msgctxt "OnlineTranslator|"
 msgid "Catalan"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:541
+#. +> trunk6
+#: src/onlinetranslator.cpp:550
 msgctxt "OnlineTranslator|"
 msgid "Cebuano"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:543
+#. +> trunk6
+#: src/onlinetranslator.cpp:552
 msgctxt "OnlineTranslator|"
 msgid "Chamorro"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:545
+#. +> trunk6
+#: src/onlinetranslator.cpp:554
 msgctxt "OnlineTranslator|"
 msgid "Chichewa"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:547
+#. +> trunk6
+#: src/onlinetranslator.cpp:556
 msgctxt "OnlineTranslator|"
 msgid "Chinese (Literary)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:549
+#. +> trunk6
+#: src/onlinetranslator.cpp:558
 msgctxt "OnlineTranslator|"
 msgid "Chinese (Simplified)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:551
+#. +> trunk6
+#: src/onlinetranslator.cpp:560
 msgctxt "OnlineTranslator|"
 msgid "Chinese (Traditional)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:553
+#. +> trunk6
+#: src/onlinetranslator.cpp:562
 msgctxt "OnlineTranslator|"
 msgid "Chuvash"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:555
+#. +> trunk6
+#: src/onlinetranslator.cpp:564
 msgctxt "OnlineTranslator|"
 msgid "Comorian (Ngazidja)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:557
+#. +> trunk6
+#: src/onlinetranslator.cpp:566
 msgctxt "OnlineTranslator|"
 msgid "Coptic"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:559
+#. +> trunk6
+#: src/onlinetranslator.cpp:568
 msgctxt "OnlineTranslator|"
 msgid "Corsican"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:561
+#. +> trunk6
+#: src/onlinetranslator.cpp:570
 msgctxt "OnlineTranslator|"
 msgid "Creole English (Antigua and Barbuda)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:563
+#. +> trunk6
+#: src/onlinetranslator.cpp:572
 msgctxt "OnlineTranslator|"
 msgid "Creole English (Bahamas)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:565
+#. +> trunk6
+#: src/onlinetranslator.cpp:574
 msgctxt "OnlineTranslator|"
 msgid "Creole English (Grenadian)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:567
+#. +> trunk6
+#: src/onlinetranslator.cpp:576
 msgctxt "OnlineTranslator|"
 msgid "Creole English (Guyanese)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:569
+#. +> trunk6
+#: src/onlinetranslator.cpp:578
 msgctxt "OnlineTranslator|"
 msgid "Creole English (Jamaican)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:571
+#. +> trunk6
+#: src/onlinetranslator.cpp:580
 msgctxt "OnlineTranslator|"
 msgid "Creole English (Vincentian)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:573
+#. +> trunk6
+#: src/onlinetranslator.cpp:582
 msgctxt "OnlineTranslator|"
 msgid "Creole English (Virgin Islands)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:575
+#. +> trunk6
+#: src/onlinetranslator.cpp:584
 msgctxt "OnlineTranslator|"
 msgid "Creole French (Saint Lucian)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:577
+#. +> trunk6
+#: src/onlinetranslator.cpp:586
 msgctxt "OnlineTranslator|"
 msgid "Creole French (Seselwa)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:579
+#. +> trunk6
+#: src/onlinetranslator.cpp:588
 msgctxt "OnlineTranslator|"
 msgid "Creole Portuguese (Upper Guinea)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:581
+#. +> trunk6
+#: src/onlinetranslator.cpp:590
 msgctxt "OnlineTranslator|"
 msgid "Croatian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:583
+#. +> trunk6
+#: src/onlinetranslator.cpp:592
 msgctxt "OnlineTranslator|"
 msgid "Czech"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:585
+#. +> trunk6
+#: src/onlinetranslator.cpp:594
 msgctxt "OnlineTranslator|"
 msgid "Danish"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:587
+#. +> trunk6
+#: src/onlinetranslator.cpp:596
 msgctxt "OnlineTranslator|"
 msgid "Dari"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:589
+#. +> trunk6
+#: src/onlinetranslator.cpp:598
 msgctxt "OnlineTranslator|"
 msgid "Divehi"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:591
+#. +> trunk6
+#: src/onlinetranslator.cpp:600
 msgctxt "OnlineTranslator|"
 msgid "Dogri"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:593
+#. +> trunk6
+#: src/onlinetranslator.cpp:602
 msgctxt "OnlineTranslator|"
 msgid "Dutch"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:595
+#. +> trunk6
+#: src/onlinetranslator.cpp:604
 msgctxt "OnlineTranslator|"
 msgid "Dzongkha"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:597
+#. +> trunk6
+#: src/onlinetranslator.cpp:606
 msgctxt "OnlineTranslator|"
 msgid "Elvish (Sindarin)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:599
+#. +> trunk6
+#: src/onlinetranslator.cpp:608
 msgctxt "OnlineTranslator|"
 msgid "Emoji"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:601
+#. +> trunk6
+#: src/onlinetranslator.cpp:610
 msgctxt "OnlineTranslator|"
 msgid "English"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:603
+#. +> trunk6
+#: src/onlinetranslator.cpp:612
 msgctxt "OnlineTranslator|"
 msgid "Esperanto"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:605
+#. +> trunk6
+#: src/onlinetranslator.cpp:614
 msgctxt "OnlineTranslator|"
 msgid "Estonian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:607
+#. +> trunk6
+#: src/onlinetranslator.cpp:616
 msgctxt "OnlineTranslator|"
 msgid "Ewe"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:609
+#. +> trunk6
+#: src/onlinetranslator.cpp:618
 msgctxt "OnlineTranslator|"
 msgid "Fanagalo"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:611
+#. +> trunk6
+#: src/onlinetranslator.cpp:620
 msgctxt "OnlineTranslator|"
 msgid "Faroese"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:613
+#. +> trunk6
+#: src/onlinetranslator.cpp:622
 msgctxt "OnlineTranslator|"
 msgid "Fijian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:615
+#. +> trunk6
+#: src/onlinetranslator.cpp:624
 msgctxt "OnlineTranslator|"
 msgid "Filipino"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:617
+#. +> trunk6
+#: src/onlinetranslator.cpp:626
 msgctxt "OnlineTranslator|"
 msgid "Finnish"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:619
+#. +> trunk6
+#: src/onlinetranslator.cpp:628
 msgctxt "OnlineTranslator|"
 msgid "French"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:621
+#. +> trunk6
+#: src/onlinetranslator.cpp:630
 msgctxt "OnlineTranslator|"
 msgid "French (Canada)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:623
+#. +> trunk6
+#: src/onlinetranslator.cpp:632
 msgctxt "OnlineTranslator|"
 msgid "Frisian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:625
+#. +> trunk6
+#: src/onlinetranslator.cpp:634
 msgctxt "OnlineTranslator|"
 msgid "Galician"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:627
+#. +> trunk6
+#: src/onlinetranslator.cpp:636
 msgctxt "OnlineTranslator|"
 msgid "Ganda"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:629
+#. +> trunk6
+#: src/onlinetranslator.cpp:638
 msgctxt "OnlineTranslator|"
 msgid "Georgian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:631
+#. +> trunk6
+#: src/onlinetranslator.cpp:640
 msgctxt "OnlineTranslator|"
 msgid "German"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:633
+#. +> trunk6
+#: src/onlinetranslator.cpp:642
 msgctxt "OnlineTranslator|"
 msgid "Greek"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:635
+#. +> trunk6
+#: src/onlinetranslator.cpp:644
 msgctxt "OnlineTranslator|"
 msgid "Greek (Classical)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:637
+#. +> trunk6
+#: src/onlinetranslator.cpp:646
 msgctxt "OnlineTranslator|"
 msgid "Guarani"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:639
+#. +> trunk6
+#: src/onlinetranslator.cpp:648
 msgctxt "OnlineTranslator|"
 msgid "Gujarati"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:641
+#. +> trunk6
+#: src/onlinetranslator.cpp:650
 msgctxt "OnlineTranslator|"
 msgid "Haitian Creole"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:643
+#. +> trunk6
+#: src/onlinetranslator.cpp:652
 msgctxt "OnlineTranslator|"
 msgid "Hausa"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:645
+#. +> trunk6
+#: src/onlinetranslator.cpp:654
 msgctxt "OnlineTranslator|"
 msgid "Hawaiian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:647
+#. +> trunk6
+#: src/onlinetranslator.cpp:656
 msgctxt "OnlineTranslator|"
 msgid "Hebrew"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:649
+#. +> trunk6
+#: src/onlinetranslator.cpp:658
 msgctxt "OnlineTranslator|"
 msgid "Hill Mari"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:651
+#. +> trunk6
+#: src/onlinetranslator.cpp:660
 msgctxt "OnlineTranslator|"
 msgid "Hindi"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:653
+#. +> trunk6
+#: src/onlinetranslator.cpp:662
 msgctxt "OnlineTranslator|"
 msgid "Hmong"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:655
+#. +> trunk6
+#: src/onlinetranslator.cpp:664
 msgctxt "OnlineTranslator|"
 msgid "Hmong Daw"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:657
+#. +> trunk6
+#: src/onlinetranslator.cpp:666
 msgctxt "OnlineTranslator|"
 msgid "Hungarian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:659
+#. +> trunk6
+#: src/onlinetranslator.cpp:668
 msgctxt "OnlineTranslator|"
 msgid "Icelandic"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:661
+#. +> trunk6
+#: src/onlinetranslator.cpp:670
 msgctxt "OnlineTranslator|"
 msgid "Igbo"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:663
+#. +> trunk6
+#: src/onlinetranslator.cpp:672
 msgctxt "OnlineTranslator|"
 msgid "Ilocano"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:665
+#. +> trunk6
+#: src/onlinetranslator.cpp:674
 msgctxt "OnlineTranslator|"
 msgid "Indonesian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:667
+#. +> trunk6
+#: src/onlinetranslator.cpp:676
 msgctxt "OnlineTranslator|"
 msgid "Inuinnaqtun"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:669
+#. +> trunk6
+#: src/onlinetranslator.cpp:678
 msgctxt "OnlineTranslator|"
 msgid "Inuktitut"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:671
+#. +> trunk6
+#: src/onlinetranslator.cpp:680
 msgctxt "OnlineTranslator|"
 msgid "Inuktitut (Greenlandic)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:673
+#. +> trunk6
+#: src/onlinetranslator.cpp:682
 msgctxt "OnlineTranslator|"
 msgid "Inuktitut (Latin)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:675
+#. +> trunk6
+#: src/onlinetranslator.cpp:684
 msgctxt "OnlineTranslator|"
 msgid "Irish"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:677
+#. +> trunk6
+#: src/onlinetranslator.cpp:686
 msgctxt "OnlineTranslator|"
 msgid "Italian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:679
+#. +> trunk6
+#: src/onlinetranslator.cpp:688
 msgctxt "OnlineTranslator|"
 msgid "Japanese"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:681
+#. +> trunk6
+#: src/onlinetranslator.cpp:690
 msgctxt "OnlineTranslator|"
 msgid "Javanese"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:683
+#. +> trunk6
+#: src/onlinetranslator.cpp:692
 msgctxt "OnlineTranslator|"
 msgid "Kabuverdianu"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:685
+#. +> trunk6
+#: src/onlinetranslator.cpp:694
 msgctxt "OnlineTranslator|"
 msgid "Kabylian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:687
+#. +> trunk6
+#: src/onlinetranslator.cpp:696
 msgctxt "OnlineTranslator|"
 msgid "Kannada"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:689
+#. +> trunk6
+#: src/onlinetranslator.cpp:698
 msgctxt "OnlineTranslator|"
 msgid "Kazakh"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:691
+#. +> trunk6
+#: src/onlinetranslator.cpp:700
 msgctxt "OnlineTranslator|"
 msgid "Kazakh (Latin)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:693
+#. +> trunk6
+#: src/onlinetranslator.cpp:702
 msgctxt "OnlineTranslator|"
 msgid "Khmer"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:695
+#. +> trunk6
+#: src/onlinetranslator.cpp:704
 msgctxt "OnlineTranslator|"
 msgid "Kinyarwanda"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:697
+#. +> trunk6
+#: src/onlinetranslator.cpp:706
 msgctxt "OnlineTranslator|"
 msgid "Kirundi"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:699
+#. +> trunk6
+#: src/onlinetranslator.cpp:708
 msgctxt "OnlineTranslator|"
 msgid "Klingon (Latin)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:701
+#. +> trunk6
+#: src/onlinetranslator.cpp:710
 msgctxt "OnlineTranslator|"
 msgid "Konkani"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:703
+#. +> trunk6
+#: src/onlinetranslator.cpp:712
 msgctxt "OnlineTranslator|"
 msgid "Korean"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:705
+#. +> trunk6
+#: src/onlinetranslator.cpp:714
 msgctxt "OnlineTranslator|"
 msgid "Krio"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:707
+#. +> trunk6
+#: src/onlinetranslator.cpp:716
 msgctxt "OnlineTranslator|"
 msgid "Kurdish (Central)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:709
+#. +> trunk6
+#: src/onlinetranslator.cpp:718
 msgctxt "OnlineTranslator|"
 msgid "Kurdish (Northern)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:711
+#. +> trunk6
+#: src/onlinetranslator.cpp:720
 msgctxt "OnlineTranslator|"
 msgid "Kurdish (Sorani)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:713
+#. +> trunk6
+#: src/onlinetranslator.cpp:722
 msgctxt "OnlineTranslator|"
 msgid "Kyrgyz"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:715
+#. +> trunk6
+#: src/onlinetranslator.cpp:724
 msgctxt "OnlineTranslator|"
 msgid "Lao"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:717
+#. +> trunk6
+#: src/onlinetranslator.cpp:726
 msgctxt "OnlineTranslator|"
 msgid "Latin"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:719
+#. +> trunk6
+#: src/onlinetranslator.cpp:728
 msgctxt "OnlineTranslator|"
 msgid "Latvian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:721
+#. +> trunk6
+#: src/onlinetranslator.cpp:730
 msgctxt "OnlineTranslator|"
 msgid "Lingala"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:723
+#. +> trunk6
+#: src/onlinetranslator.cpp:732
 msgctxt "OnlineTranslator|"
 msgid "Lithuanian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:725
+#. +> trunk6
+#: src/onlinetranslator.cpp:734
 msgctxt "OnlineTranslator|"
 msgid "Lower Sorbian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:727
+#. +> trunk6
+#: src/onlinetranslator.cpp:736
 msgctxt "OnlineTranslator|"
 msgid "Luganda"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:729
+#. +> trunk6
+#: src/onlinetranslator.cpp:738
 msgctxt "OnlineTranslator|"
 msgid "Luxembourgish"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:731
+#. +> trunk6
+#: src/onlinetranslator.cpp:740
 msgctxt "OnlineTranslator|"
 msgid "Macedonian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:733
+#. +> trunk6
+#: src/onlinetranslator.cpp:742
 msgctxt "OnlineTranslator|"
 msgid "Maithili"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:735
+#. +> trunk6
+#: src/onlinetranslator.cpp:744
 msgctxt "OnlineTranslator|"
 msgid "Malagasy"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:737
+#. +> trunk6
+#: src/onlinetranslator.cpp:746
 msgctxt "OnlineTranslator|"
 msgid "Malay"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:739
+#. +> trunk6
+#: src/onlinetranslator.cpp:748
 msgctxt "OnlineTranslator|"
 msgid "Malayalam"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:741
+#. +> trunk6
+#: src/onlinetranslator.cpp:750
 msgctxt "OnlineTranslator|"
 msgid "Maltese"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:743
+#. +> trunk6
+#: src/onlinetranslator.cpp:752
 msgctxt "OnlineTranslator|"
 msgid "Manx Gaelic"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:745
+#. +> trunk6
+#: src/onlinetranslator.cpp:754
 msgctxt "OnlineTranslator|"
 msgid "Marathi"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:747
+#. +> trunk6
+#: src/onlinetranslator.cpp:756
 msgctxt "OnlineTranslator|"
 msgid "Mari"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:749
+#. +> trunk6
+#: src/onlinetranslator.cpp:758
 msgctxt "OnlineTranslator|"
 msgid "Marshallese"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:751
+#. +> trunk6
+#: src/onlinetranslator.cpp:760
 msgctxt "OnlineTranslator|"
 msgid "Meiteilon (Manipuri)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:753
+#. +> trunk6
+#: src/onlinetranslator.cpp:762
 msgctxt "OnlineTranslator|"
 msgid "Mende"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:755
+#. +> trunk6
+#: src/onlinetranslator.cpp:764
 msgctxt "OnlineTranslator|"
 msgid "Mizo"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:757
+#. +> trunk6
+#: src/onlinetranslator.cpp:766
 msgctxt "OnlineTranslator|"
 msgid "Mongolian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:759
+#. +> trunk6
+#: src/onlinetranslator.cpp:768
 msgctxt "OnlineTranslator|"
 msgid "Mongolian (Cyrillic)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:761
+#. +> trunk6
+#: src/onlinetranslator.cpp:770
 msgctxt "OnlineTranslator|"
 msgid "Mongolian (Traditional)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:763
+#. +> trunk6
+#: src/onlinetranslator.cpp:772
 msgctxt "OnlineTranslator|"
 msgid "Morisyen"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:765
+#. +> trunk6
+#: src/onlinetranslator.cpp:774
 msgctxt "OnlineTranslator|"
 msgid "Myanmar (Burmese)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:767
+#. +> trunk6
+#: src/onlinetranslator.cpp:776
 msgctxt "OnlineTranslator|"
 msgid "Māori"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:769
+#. +> trunk6
+#: src/onlinetranslator.cpp:778
 msgctxt "OnlineTranslator|"
 msgid "Nepali"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:771
+#. +> trunk6
+#: src/onlinetranslator.cpp:780
 msgctxt "OnlineTranslator|"
 msgid "Niuean"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:773
+#. +> trunk6
+#: src/onlinetranslator.cpp:782
 msgctxt "OnlineTranslator|"
 msgid "Norwegian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:775
+#. +> trunk6
+#: src/onlinetranslator.cpp:784
 msgctxt "OnlineTranslator|"
 msgid "Nyanja"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:777
+#. +> trunk6
+#: src/onlinetranslator.cpp:786
 msgctxt "OnlineTranslator|"
 msgid "Odia"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:779
+#. +> trunk6
+#: src/onlinetranslator.cpp:788
 msgctxt "OnlineTranslator|"
 msgid "Oromo"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:781
+#. +> trunk6
+#: src/onlinetranslator.cpp:790
 msgctxt "OnlineTranslator|"
 msgid "Palauan"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:783
+#. +> trunk6
+#: src/onlinetranslator.cpp:792
 msgctxt "OnlineTranslator|"
 msgid "Papiamentu"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:785
+#. +> trunk6
+#: src/onlinetranslator.cpp:794
 msgctxt "OnlineTranslator|"
 msgid "Pashto"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:787
+#. +> trunk6
+#: src/onlinetranslator.cpp:796
 msgctxt "OnlineTranslator|"
 msgid "Persian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:789
+#. +> trunk6
+#: src/onlinetranslator.cpp:798
 msgctxt "OnlineTranslator|"
 msgid "Pijin"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:791
+#. +> trunk6
+#: src/onlinetranslator.cpp:800
 msgctxt "OnlineTranslator|"
 msgid "Polish"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:793
+#. +> trunk6
+#: src/onlinetranslator.cpp:802
 msgctxt "OnlineTranslator|"
 msgid "Portuguese (Brazilian)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:795
+#. +> trunk6
+#: src/onlinetranslator.cpp:804
 msgctxt "OnlineTranslator|"
 msgid "Portuguese (Portugal)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:797
+#. +> trunk6
+#: src/onlinetranslator.cpp:806
 msgctxt "OnlineTranslator|"
 msgid "Potawatomi"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:799
+#. +> trunk6
+#: src/onlinetranslator.cpp:808
 msgctxt "OnlineTranslator|"
 msgid "Punjabi"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:801
+#. +> trunk6
+#: src/onlinetranslator.cpp:810
 msgctxt "OnlineTranslator|"
 msgid "Quechua"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:803
+#. +> trunk6
+#: src/onlinetranslator.cpp:812
 msgctxt "OnlineTranslator|"
 msgid "Querétaro Otomi"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:805
+#. +> trunk6
+#: src/onlinetranslator.cpp:814
 msgctxt "OnlineTranslator|"
 msgid "Romanian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:807
+#. +> trunk6
+#: src/onlinetranslator.cpp:816
 msgctxt "OnlineTranslator|"
 msgid "Rundi"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:809
+#. +> trunk6
+#: src/onlinetranslator.cpp:818
 msgctxt "OnlineTranslator|"
 msgid "Russian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:811
+#. +> trunk6
+#: src/onlinetranslator.cpp:820
 msgctxt "OnlineTranslator|"
 msgid "Samoan"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:813
+#. +> trunk6
+#: src/onlinetranslator.cpp:822
 msgctxt "OnlineTranslator|"
 msgid "Sango"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:815
+#. +> trunk6
+#: src/onlinetranslator.cpp:824
 msgctxt "OnlineTranslator|"
 msgid "Sanskrit"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:817
+#. +> trunk6
+#: src/onlinetranslator.cpp:826
 msgctxt "OnlineTranslator|"
 msgid "Scots Gaelic"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:819
+#. +> trunk6
+#: src/onlinetranslator.cpp:828
 msgctxt "OnlineTranslator|"
 msgid "Serbian (Cyrillic)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:821
+#. +> trunk6
+#: src/onlinetranslator.cpp:830
 msgctxt "OnlineTranslator|"
 msgid "Serbian (Latin)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:823
+#. +> trunk6
+#: src/onlinetranslator.cpp:832
 msgctxt "OnlineTranslator|"
 msgid "Sesotho"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:825
+#. +> trunk6
+#: src/onlinetranslator.cpp:834
 msgctxt "OnlineTranslator|"
 msgid "Sesotho sa Leboa"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:827
+#. +> trunk6
+#: src/onlinetranslator.cpp:836
 msgctxt "OnlineTranslator|"
 msgid "Setswana"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:829
+#. +> trunk6
+#: src/onlinetranslator.cpp:838
 msgctxt "OnlineTranslator|"
 msgid "Shona"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:831
+#. +> trunk6
+#: src/onlinetranslator.cpp:840
 msgctxt "OnlineTranslator|"
 msgid "Sindhi"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:833
+#. +> trunk6
+#: src/onlinetranslator.cpp:842
 msgctxt "OnlineTranslator|"
 msgid "Sinhala"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:835
+#. +> trunk6
+#: src/onlinetranslator.cpp:844
 msgctxt "OnlineTranslator|"
 msgid "Slovak"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:837
+#. +> trunk6
+#: src/onlinetranslator.cpp:846
 msgctxt "OnlineTranslator|"
 msgid "Slovenian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:839
+#. +> trunk6
+#: src/onlinetranslator.cpp:848
 msgctxt "OnlineTranslator|"
 msgid "Somali"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:841
+#. +> trunk6
+#: src/onlinetranslator.cpp:850
 msgctxt "OnlineTranslator|"
 msgid "Spanish"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:843
+#. +> trunk6
+#: src/onlinetranslator.cpp:852
 msgctxt "OnlineTranslator|"
 msgid "Sranan Tongo"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:845
+#. +> trunk6
+#: src/onlinetranslator.cpp:854
 msgctxt "OnlineTranslator|"
 msgid "Sundanese"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:847
+#. +> trunk6
+#: src/onlinetranslator.cpp:856
 msgctxt "OnlineTranslator|"
 msgid "Swahili"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:849
+#. +> trunk6
+#: src/onlinetranslator.cpp:858
 msgctxt "OnlineTranslator|"
 msgid "Swedish"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:851
+#. +> trunk6
+#: src/onlinetranslator.cpp:860
 msgctxt "OnlineTranslator|"
 msgid "Syriac (Aramaic)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:853
+#. +> trunk6
+#: src/onlinetranslator.cpp:862
 msgctxt "OnlineTranslator|"
 msgid "Tahitian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:855
+#. +> trunk6
+#: src/onlinetranslator.cpp:864
 msgctxt "OnlineTranslator|"
 msgid "Tajik"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:857
+#. +> trunk6
+#: src/onlinetranslator.cpp:866
 msgctxt "OnlineTranslator|"
 msgid "Tamashek (Tuareg)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:859
+#. +> trunk6
+#: src/onlinetranslator.cpp:868
 msgctxt "OnlineTranslator|"
 msgid "Tamil"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:861
+#. +> trunk6
+#: src/onlinetranslator.cpp:870
 msgctxt "OnlineTranslator|"
 msgid "Tatar"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:863
+#. +> trunk6
+#: src/onlinetranslator.cpp:872
 msgctxt "OnlineTranslator|"
 msgid "Telugu"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:865
+#. +> trunk6
+#: src/onlinetranslator.cpp:874
 msgctxt "OnlineTranslator|"
 msgid "Tetum"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:867
+#. +> trunk6
+#: src/onlinetranslator.cpp:876
 msgctxt "OnlineTranslator|"
 msgid "Thai"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:869
+#. +> trunk6
+#: src/onlinetranslator.cpp:878
 msgctxt "OnlineTranslator|"
 msgid "Tibetan"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:871
+#. +> trunk6
+#: src/onlinetranslator.cpp:880
 msgctxt "OnlineTranslator|"
 msgid "Tigrinya"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:873
+#. +> trunk6
+#: src/onlinetranslator.cpp:882
 msgctxt "OnlineTranslator|"
 msgid "Tok Pisin"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:875
+#. +> trunk6
+#: src/onlinetranslator.cpp:884
 msgctxt "OnlineTranslator|"
 msgid "Tokelauan"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:877
+#. +> trunk6
+#: src/onlinetranslator.cpp:886
 msgctxt "OnlineTranslator|"
 msgid "Tongan"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:879
+#. +> trunk6
+#: src/onlinetranslator.cpp:888
 msgctxt "OnlineTranslator|"
 msgid "Tsonga"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:881
+#. +> trunk6
+#: src/onlinetranslator.cpp:890
 msgctxt "OnlineTranslator|"
 msgid "Turkish"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:883
+#. +> trunk6
+#: src/onlinetranslator.cpp:892
 msgctxt "OnlineTranslator|"
 msgid "Turkmen"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:885
+#. +> trunk6
+#: src/onlinetranslator.cpp:894
 msgctxt "OnlineTranslator|"
 msgid "Tuvaluan"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:887
+#. +> trunk6
+#: src/onlinetranslator.cpp:896
 msgctxt "OnlineTranslator|"
 msgid "Twi"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:889
+#. +> trunk6
+#: src/onlinetranslator.cpp:898
 msgctxt "OnlineTranslator|"
 msgid "Udmurt"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:891
+#. +> trunk6
+#: src/onlinetranslator.cpp:900
 msgctxt "OnlineTranslator|"
 msgid "Ukrainian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:893
+#. +> trunk6
+#: src/onlinetranslator.cpp:902
 msgctxt "OnlineTranslator|"
 msgid "Uma"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:895
+#. +> trunk6
+#: src/onlinetranslator.cpp:904
 msgctxt "OnlineTranslator|"
 msgid "Upper Sorbian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:897
+#. +> trunk6
+#: src/onlinetranslator.cpp:906
 msgctxt "OnlineTranslator|"
 msgid "Urdu"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:899
+#. +> trunk6
+#: src/onlinetranslator.cpp:908
 msgctxt "OnlineTranslator|"
 msgid "Uyghur"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:901
+#. +> trunk6
+#: src/onlinetranslator.cpp:910
 msgctxt "OnlineTranslator|"
 msgid "Uzbek (Cyrillic)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:903
+#. +> trunk6
+#: src/onlinetranslator.cpp:912
 msgctxt "OnlineTranslator|"
 msgid "Uzbek (Latin)"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:905
+#. +> trunk6
+#: src/onlinetranslator.cpp:914
 msgctxt "OnlineTranslator|"
 msgid "Vietnamese"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:907
+#. +> trunk6
+#: src/onlinetranslator.cpp:916
 msgctxt "OnlineTranslator|"
 msgid "Wallisian"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:909
+#. +> trunk6
+#: src/onlinetranslator.cpp:918
 msgctxt "OnlineTranslator|"
 msgid "Welsh"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:911
+#. +> trunk6
+#: src/onlinetranslator.cpp:920
 msgctxt "OnlineTranslator|"
 msgid "Wolof"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:913
+#. +> trunk6
+#: src/onlinetranslator.cpp:922
 msgctxt "OnlineTranslator|"
 msgid "Xhosa"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:915
+#. +> trunk6
+#: src/onlinetranslator.cpp:924
 msgctxt "OnlineTranslator|"
 msgid "Yakut"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:917
+#. +> trunk6
+#: src/onlinetranslator.cpp:926
 msgctxt "OnlineTranslator|"
 msgid "Yiddish"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:919
+#. +> trunk6
+#: src/onlinetranslator.cpp:928
 msgctxt "OnlineTranslator|"
 msgid "Yoruba"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:921
+#. +> trunk6
+#: src/onlinetranslator.cpp:930
 msgctxt "OnlineTranslator|"
 msgid "Yucatec Maya"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:923
+#. +> trunk6
+#: src/onlinetranslator.cpp:932
 msgctxt "OnlineTranslator|"
 msgid "Zulu"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:1268
+#. +> trunk6
+#: src/onlinetranslator.cpp:1280
 #, qt-format
 msgctxt "OnlineTranslator|"
 msgid "Instance error: %1"
 msgstr ""
 
-#. +> trunk5
-#: src/onlinetranslator.cpp:1282
+#. +> trunk6
+#: src/onlinetranslator.cpp:1294
 msgctxt "OnlineTranslator|"
 msgid "Error: Unable to parse autodetected language"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/popupwindow.ui:32
 msgctxt "PopupWindow|"
 msgid "Swap languages"
 msgstr ""
 
-#. +> trunk5
-#: src/popupwindow.ui:64
+#. +> trunk6
+#: src/popupwindow.ui:60 src/popupwindow.ui:105 src/popupwindow.ui:202
+#: src/popupwindow.ui:247
+msgctxt "PopupWindow|"
+msgid "..."
+msgstr ""
+
+#. +> trunk6
+#: src/popupwindow.ui:112
 msgctxt "PopupWindow|"
 msgid "Copy source text to the clipboard"
 msgstr ""
 
-#. +> trunk5
-#: src/popupwindow.ui:158
+#. +> trunk6
+#: src/popupwindow.ui:254
 msgctxt "PopupWindow|"
 msgid "Copy all translation data to the clipboard"
 msgstr ""
 
-#. +> trunk5
-#: src/popupwindow.ui:169
+#. +> trunk6
+#: src/popupwindow.ui:264
 msgctxt "PopupWindow|"
 msgid "Copy translation to the clipboard"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/appsettings.cpp:1079
+#. +> trunk6
+#: src/settings/appsettings.cpp:1195
 #, qt-format
 msgctxt "AppSettings|"
 msgid "Unknown language code: %1"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/autostartmanager/abstractautostartmanager.cpp:44
 msgctxt "AbstractAutostartManager|"
 msgid "Unable to apply autostart settings"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/autostartmanager/portalautostartmanager.cpp:35
+#. +> trunk6
+#: src/settings/autostartmanager/portalautostartmanager.cpp:34
 #, qt-format
 msgctxt "PortalAutostartManager|"
 msgid "Allow %1 to manage autostart setting for itself."
 msgstr ""
 
-#. +> trunk5
-#: src/settings/autostartmanager/portalautostartmanager.cpp:54
+#. +> trunk6
+#: src/settings/autostartmanager/portalautostartmanager.cpp:53
 msgctxt "PortalAutostartManager|"
 msgid "Unable to subscribe to response from xdg-desktop-portal."
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/autostartmanager/unixautostartmanager.cpp:35
 #, qt-format
 msgctxt "UnixAutostartManager|"
 msgid "Unable to create %1"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/autostartmanager/unixautostartmanager.cpp:42
 #, qt-format
 msgctxt "UnixAutostartManager|"
 msgid "Unable to copy %1 to %2"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/autostartmanager/unixautostartmanager.cpp:47
 #, qt-format
 msgctxt "UnixAutostartManager|"
 msgid "Unable to remove %1 from %2"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.cpp:33
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:35
 msgctxt "SettingsDialog|"
 msgid "Portable mode"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.cpp:46
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:48
 #, qt-format
 msgctxt "SettingsDialog|"
 msgid "Use %1 to store settings"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.cpp:51 src/settings/settingsdialog.cpp:55
-#: src/settings/settingsdialog.cpp:56
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:52
 msgctxt "SettingsDialog|"
 msgid "<System language>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.cpp:90
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:56 src/settings/settingsdialog.cpp:57
+msgctxt "SettingsDialog|"
+msgid "<Auto>"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:74
+msgctxt "SettingsDialog|"
+msgid "Copy"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:78
+msgctxt "SettingsDialog|"
+msgid "None"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:110
 msgctxt "SettingsDialog|"
 msgid "Icons:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.cpp:112
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:132
 msgctxt "SettingsDialog|"
 msgid "The OCR parameter fields can not be empty."
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.cpp:113
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:133
 msgctxt "SettingsDialog|"
 msgid "Do you want to discard the invalid parameters?"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.cpp:254
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:294
 msgctxt "SettingsDialog|"
 msgid "Select icon"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.cpp:254
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:294
 msgctxt "SettingsDialog|"
 msgid "Images (*.png *.ico *.svg *.jpg);;All files()"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.cpp:284
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:324
 msgctxt "SettingsDialog|"
 msgid "Select OCR languages path"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.cpp:425
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:339
+msgctxt "SettingsDialog|"
+msgid "Piper voices path:"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:353
+msgctxt "SettingsDialog|"
+msgid "Directory with voice models"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:354 src/settings/settingsdialog.cpp:373
+msgctxt "SettingsDialog|"
+msgid "Select Piper voices path"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.cpp:530
 msgctxt "SettingsDialog|"
 msgid "Back"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/settingsdialog.ui:14
 msgctxt "SettingsDialog|"
 msgid "Settings"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:49 src/settings/settingsdialog.ui:128
+#. +> trunk6
+#: src/settings/settingsdialog.ui:49 src/settings/settingsdialog.ui:144
 msgctxt "SettingsDialog|"
 msgid "General"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/settingsdialog.ui:57
 msgctxt "SettingsDialog|"
 msgid "Interface"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:65 src/settings/settingsdialog.ui:631
+#. +> trunk6
+#: src/settings/settingsdialog.ui:65 src/settings/settingsdialog.ui:783
 msgctxt "SettingsDialog|"
 msgid "Translation"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
+#: src/settings/settingsdialog.ui:73
+msgctxt "SettingsDialog|"
+msgid "Text-To-Speech"
+msgstr ""
+
+#. +> trunk6
 #: src/settings/settingsdialog.ui:81
+msgctxt "SettingsDialog|"
+msgid "Mozhi"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:97
 msgctxt "SettingsDialog|"
 msgid "Connection"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:89
+#. +> trunk6
+#: src/settings/settingsdialog.ui:105
 msgctxt "SettingsDialog|"
 msgid "Shortcuts"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:97
+#. +> trunk6
+#: src/settings/settingsdialog.ui:113
 msgctxt "SettingsDialog|"
 msgid "About"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:140
+#. +> trunk6
+#: src/settings/settingsdialog.ui:156
 msgctxt "SettingsDialog|"
 msgid "Language:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:147
+#. +> trunk6
+#: src/settings/settingsdialog.ui:163
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2137,14 +2315,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:154
+#. +> trunk6
+#: src/settings/settingsdialog.ui:170
 msgctxt "SettingsDialog|"
 msgid "Main window orientation:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:161
+#. +> trunk6
+#: src/settings/settingsdialog.ui:177
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2154,34 +2332,34 @@ msgid ""
 msgstr ""
 
 #. Orientation
-#. +> trunk5
-#: src/settings/settingsdialog.ui:165
+#. +> trunk6
+#: src/settings/settingsdialog.ui:181
 msgctxt "SettingsDialog|"
 msgid "Auto"
 msgstr ""
 
 #. Orientation
-#. +> trunk5
-#: src/settings/settingsdialog.ui:170
+#. +> trunk6
+#: src/settings/settingsdialog.ui:186
 msgctxt "SettingsDialog|"
 msgid "Portrait"
 msgstr ""
 
 #. Orientation
-#. +> trunk5
-#: src/settings/settingsdialog.ui:175
+#. +> trunk6
+#: src/settings/settingsdialog.ui:191
 msgctxt "SettingsDialog|"
 msgid "Landscape"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:183
+#. +> trunk6
+#: src/settings/settingsdialog.ui:199
 msgctxt "SettingsDialog|"
 msgid "Translation mode:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:190
+#. +> trunk6
+#: src/settings/settingsdialog.ui:206
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2189,32 +2367,32 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:194 src/settings/settingsdialog.ui:343
+#. +> trunk6
+#: src/settings/settingsdialog.ui:210 src/settings/settingsdialog.ui:359
 msgctxt "SettingsDialog|"
 msgid "Pop-up window"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:199
+#. +> trunk6
+#: src/settings/settingsdialog.ui:215
 msgctxt "SettingsDialog|"
 msgid "Main window"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:204
+#. +> trunk6
+#: src/settings/settingsdialog.ui:220
 msgctxt "SettingsDialog|"
 msgid "Notification"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:212
+#. +> trunk6
+#: src/settings/settingsdialog.ui:228
 msgctxt "SettingsDialog|"
 msgid "Translation notification timeout:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:225
+#. +> trunk6
+#: src/settings/settingsdialog.ui:241
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2222,14 +2400,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:228 src/settings/settingsdialog.ui:433
+#. +> trunk6
+#: src/settings/settingsdialog.ui:244 src/settings/settingsdialog.ui:449
 msgctxt "SettingsDialog|"
 msgid " sec"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:241
+#. +> trunk6
+#: src/settings/settingsdialog.ui:257
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2237,14 +2415,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:244
+#. +> trunk6
+#: src/settings/settingsdialog.ui:260
 msgctxt "SettingsDialog|"
 msgid "Show tray icon"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:254
+#. +> trunk6
+#: src/settings/settingsdialog.ui:270
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2252,14 +2430,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:257
+#. +> trunk6
+#: src/settings/settingsdialog.ui:273
 msgctxt "SettingsDialog|"
 msgid "Start minimized"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:264
+#. +> trunk6
+#: src/settings/settingsdialog.ui:280
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2267,26 +2445,26 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:267
+#. +> trunk6
+#: src/settings/settingsdialog.ui:283
 msgctxt "SettingsDialog|"
 msgid "Launch at startup"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:300
+#. +> trunk6
+#: src/settings/settingsdialog.ui:316
 msgctxt "SettingsDialog|"
 msgid "Font"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:306
+#. +> trunk6
+#: src/settings/settingsdialog.ui:322
 msgctxt "SettingsDialog|"
 msgid "Name:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:313
+#. +> trunk6
+#: src/settings/settingsdialog.ui:329
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2294,14 +2472,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:320
+#. +> trunk6
+#: src/settings/settingsdialog.ui:336
 msgctxt "SettingsDialog|"
 msgid "Size:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:327
+#. +> trunk6
+#: src/settings/settingsdialog.ui:343
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2309,8 +2487,8 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:349
+#. +> trunk6
+#: src/settings/settingsdialog.ui:365
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2318,14 +2496,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:359
+#. +> trunk6
+#: src/settings/settingsdialog.ui:375
 msgctxt "SettingsDialog|"
 msgid "Width:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:366
+#. +> trunk6
+#: src/settings/settingsdialog.ui:382
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2333,8 +2511,8 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:376
+#. +> trunk6
+#: src/settings/settingsdialog.ui:392
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2342,26 +2520,26 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:403
+#. +> trunk6
+#: src/settings/settingsdialog.ui:419
 msgctxt "SettingsDialog|"
 msgid "Opacity:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:410
+#. +> trunk6
+#: src/settings/settingsdialog.ui:426
 msgctxt "SettingsDialog|"
 msgid "Show timeout:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:417
+#. +> trunk6
+#: src/settings/settingsdialog.ui:433
 msgctxt "SettingsDialog|"
 msgid "Height:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:430
+#. +> trunk6
+#: src/settings/settingsdialog.ui:446
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2369,20 +2547,20 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:453
+#. +> trunk6
+#: src/settings/settingsdialog.ui:469
 msgctxt "SettingsDialog|"
 msgid "Language format"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:459
+#. +> trunk6
+#: src/settings/settingsdialog.ui:475
 msgctxt "SettingsDialog|"
 msgid "Main window:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:466 src/settings/settingsdialog.ui:490
+#. +> trunk6
+#: src/settings/settingsdialog.ui:482 src/settings/settingsdialog.ui:506
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2390,38 +2568,38 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:470 src/settings/settingsdialog.ui:494
+#. +> trunk6
+#: src/settings/settingsdialog.ui:486 src/settings/settingsdialog.ui:510
 msgctxt "SettingsDialog|"
 msgid "Full name"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:475 src/settings/settingsdialog.ui:499
+#. +> trunk6
+#: src/settings/settingsdialog.ui:491 src/settings/settingsdialog.ui:515
 msgctxt "SettingsDialog|"
 msgid "ISO 639-1 code"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:483
+#. +> trunk6
+#: src/settings/settingsdialog.ui:499
 msgctxt "SettingsDialog|"
 msgid "Pop-up:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:510
+#. +> trunk6
+#: src/settings/settingsdialog.ui:526
 msgctxt "SettingsDialog|"
 msgid "Tray icon"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:516
+#. +> trunk6
+#: src/settings/settingsdialog.ui:532
 msgctxt "SettingsDialog|"
 msgid "Icon:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:529
+#. +> trunk6
+#: src/settings/settingsdialog.ui:545
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2429,44 +2607,44 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:533
+#. +> trunk6
+#: src/settings/settingsdialog.ui:549
 msgctxt "SettingsDialog|"
 msgid "Default"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:541
+#. +> trunk6
+#: src/settings/settingsdialog.ui:557
 msgctxt "SettingsDialog|"
 msgid "Monochrome (dark theme)"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:549
+#. +> trunk6
+#: src/settings/settingsdialog.ui:565
 msgctxt "SettingsDialog|"
 msgid "Monochrome (light theme)"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:557
+#. +> trunk6
+#: src/settings/settingsdialog.ui:573
 msgctxt "SettingsDialog|"
 msgid "Custom"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:571
+#. +> trunk6
+#: src/settings/settingsdialog.ui:587
 msgctxt "SettingsDialog|"
 msgid "Custom:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:583
+#. +> trunk6
+#: src/settings/settingsdialog.ui:599
 msgctxt "SettingsDialog|"
 msgid "Path to the icon or icon name from theme"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:593
+#. +> trunk6
+#: src/settings/settingsdialog.ui:609
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2474,110 +2652,26 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:637
-msgctxt "SettingsDialog|"
-msgid ""
-"<html><head/><body>"
-"<p>Enable or disable source transliteration</p>"
-"</body></html>"
-msgstr ""
-
-#. +> trunk5
-#: src/settings/settingsdialog.ui:640
-msgctxt "SettingsDialog|"
-msgid "Enable source transliteration"
-msgstr ""
-
-#. +> trunk5
-#: src/settings/settingsdialog.ui:647
-msgctxt "SettingsDialog|"
-msgid ""
-"<html><head/><body>"
-"<p>Enable or disable translation transliteration</p>"
-"</body></html>"
-msgstr ""
-
-#. +> trunk5
+#. +> trunk6
 #: src/settings/settingsdialog.ui:650
 msgctxt "SettingsDialog|"
-msgid "Enable translation transliteration"
+msgid "Translation provider:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:657
-msgctxt "SettingsDialog|"
-msgid ""
-"<html><head/><body>"
-"<p>Enable or disable source transcription</p>"
-"</body></html>"
-msgstr ""
-
-#. +> trunk5
-#: src/settings/settingsdialog.ui:660
-msgctxt "SettingsDialog|"
-msgid "Enable source transcription"
-msgstr ""
-
-#. +> trunk5
-#: src/settings/settingsdialog.ui:667
-msgctxt "SettingsDialog|"
-msgid ""
-"<html><head/><body>"
-"<p>Enable or disable translation options</p>"
-"</body></html>"
-msgstr ""
-
-#. +> trunk5
-#: src/settings/settingsdialog.ui:670
-msgctxt "SettingsDialog|"
-msgid "Enable translation options"
-msgstr ""
-
-#. +> trunk5
-#: src/settings/settingsdialog.ui:677
-msgctxt "SettingsDialog|"
-msgid ""
-"<html><head/><body>"
-"<p>Enable or disable usage examples</p>"
-"</body></html>"
-msgstr ""
-
-#. +> trunk5
-#: src/settings/settingsdialog.ui:680
-msgctxt "SettingsDialog|"
-msgid "Enable examples"
-msgstr ""
-
-#. +> trunk5
-#: src/settings/settingsdialog.ui:687
-msgctxt "SettingsDialog|"
-msgid ""
-"<html><head/><body>"
-"<p>Replace each sequence of whitespaces (this includes the ASCII characters '\\t', '\\n', '\\v', '\\f', '\\r', and ' ') with a single space in queries</p>"
-"</body></html>"
-msgstr ""
-
-#. +> trunk5
-#: src/settings/settingsdialog.ui:690
-msgctxt "SettingsDialog|"
-msgid "Simplify source"
-msgstr ""
-
-#. +> trunk5
-#: src/settings/settingsdialog.ui:700
+#. +> trunk6
+#: src/settings/settingsdialog.ui:673
 msgctxt "SettingsDialog|"
 msgid "Automatic language detection"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:706
+#. +> trunk6
+#: src/settings/settingsdialog.ui:679
 msgctxt "SettingsDialog|"
 msgid "Primary translation language:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:713
+#. +> trunk6
+#: src/settings/settingsdialog.ui:686
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2585,14 +2679,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:720
+#. +> trunk6
+#: src/settings/settingsdialog.ui:693
 msgctxt "SettingsDialog|"
 msgid "Secondary translation language:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:727
+#. +> trunk6
+#: src/settings/settingsdialog.ui:700
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2600,8 +2694,8 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:734 src/settings/settingsdialog.ui:744
+#. +> trunk6
+#: src/settings/settingsdialog.ui:707 src/settings/settingsdialog.ui:717
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2609,44 +2703,146 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:737
+#. +> trunk6
+#: src/settings/settingsdialog.ui:710
 msgctxt "SettingsDialog|"
 msgid "Force source language detection"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:747
+#. +> trunk6
+#: src/settings/settingsdialog.ui:720
 msgctxt "SettingsDialog|"
 msgid "Force translation language detection"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:776
+#. +> trunk6
+#: src/settings/settingsdialog.ui:741
+msgctxt "SettingsDialog|"
+msgid "Text-to-Speech"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:747
+msgctxt "SettingsDialog|"
+msgid "Provider:"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:789
+msgctxt "SettingsDialog|"
+msgid ""
+"<html><head/><body>"
+"<p>Enable or disable source transliteration</p>"
+"</body></html>"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:792
+msgctxt "SettingsDialog|"
+msgid "Enable source transliteration"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:799
+msgctxt "SettingsDialog|"
+msgid ""
+"<html><head/><body>"
+"<p>Enable or disable translation transliteration</p>"
+"</body></html>"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:802
+msgctxt "SettingsDialog|"
+msgid "Enable translation transliteration"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:809
+msgctxt "SettingsDialog|"
+msgid ""
+"<html><head/><body>"
+"<p>Enable or disable source transcription</p>"
+"</body></html>"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:812
+msgctxt "SettingsDialog|"
+msgid "Enable source transcription"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:819
+msgctxt "SettingsDialog|"
+msgid ""
+"<html><head/><body>"
+"<p>Enable or disable translation options</p>"
+"</body></html>"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:822
+msgctxt "SettingsDialog|"
+msgid "Enable translation options"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:829
+msgctxt "SettingsDialog|"
+msgid ""
+"<html><head/><body>"
+"<p>Enable or disable usage examples</p>"
+"</body></html>"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:832
+msgctxt "SettingsDialog|"
+msgid "Enable examples"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:839
+msgctxt "SettingsDialog|"
+msgid ""
+"<html><head/><body>"
+"<p>Replace each sequence of whitespaces (this includes the ASCII characters '\\t', '\\n', '\\v', '\\f', '\\r', and ' ') with a single space in queries</p>"
+"</body></html>"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:842
+msgctxt "SettingsDialog|"
+msgid "Simplify source"
+msgstr ""
+
+#. +> trunk6
+#: src/settings/settingsdialog.ui:871
 msgctxt "SettingsDialog|"
 msgid "Mozhi instance URL"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:789
+#. +> trunk6
+#: src/settings/settingsdialog.ui:884
 msgctxt "SettingsDialog|"
 msgid "Automatically pick the fastest instance based on the ping"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:792
+#. +> trunk6
+#: src/settings/settingsdialog.ui:887
 msgctxt "SettingsDialog|"
 msgid "Detect fastest"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:825
+#. +> trunk6
+#: src/settings/settingsdialog.ui:920
 msgctxt "SettingsDialog|"
 msgid "Languages"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:831
+#. +> trunk6
+#: src/settings/settingsdialog.ui:926
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2654,14 +2850,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:838
+#. +> trunk6
+#: src/settings/settingsdialog.ui:933
 msgctxt "SettingsDialog|"
 msgid "Languages path:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:845
+#. +> trunk6
+#: src/settings/settingsdialog.ui:940
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2669,8 +2865,8 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:855
+#. +> trunk6
+#: src/settings/settingsdialog.ui:950
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2678,8 +2874,8 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:858
+#. +> trunk6
+#: src/settings/settingsdialog.ui:953
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2687,14 +2883,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:868
+#. +> trunk6
+#: src/settings/settingsdialog.ui:963
 msgctxt "SettingsDialog|"
 msgid "Directory with trained models"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:884
+#. +> trunk6
+#: src/settings/settingsdialog.ui:979
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2702,26 +2898,26 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:887
+#. +> trunk6
+#: src/settings/settingsdialog.ui:982
 msgctxt "SettingsDialog|"
 msgid "Convert line breaks"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:951
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1046
 msgctxt "SettingsDialog|"
 msgid "Screen capture"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:963
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1058
 msgctxt "SettingsDialog|"
 msgid "Remember region:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:970
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1065
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2729,44 +2925,44 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:974
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1069
 msgctxt "SettingsDialog|"
 msgid "Never"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:979
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1074
 msgctxt "SettingsDialog|"
 msgid "Remember last"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:984
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1079
 msgctxt "SettingsDialog|"
 msgid "Remember always"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:992
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1087
 msgctxt "SettingsDialog|"
 msgid "Capture delay:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:999
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1094
 msgctxt "SettingsDialog|"
 msgid "Delay before screen capture"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1002
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1097
 msgctxt "SettingsDialog|"
 msgid " ms"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1012
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1107
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2774,14 +2970,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1015
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1110
 msgctxt "SettingsDialog|"
 msgid "Show magnifier"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1022
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1117
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2789,14 +2985,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1025
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1120
 msgctxt "SettingsDialog|"
 msgid "Negate OCR"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1035
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1130
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2804,14 +3000,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1038
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1133
 msgctxt "SettingsDialog|"
 msgid "Confirm on release"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1045
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1140
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2819,26 +3015,26 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1048
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1143
 msgctxt "SettingsDialog|"
 msgid "Apply light mask"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1081
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1176
 msgctxt "SettingsDialog|"
 msgid "Proxy server"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1087
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1182
 msgctxt "SettingsDialog|"
 msgid "Type:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1100
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1195
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2846,26 +3042,26 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1104
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1199
 msgctxt "SettingsDialog|"
 msgid "Use system settings"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1114
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1209
 msgctxt "SettingsDialog|"
 msgid "Don't use a proxy"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1130
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1225
 msgctxt "SettingsDialog|"
 msgid "Host:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1140
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1235
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2873,14 +3069,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1153
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1248
 msgctxt "SettingsDialog|"
 msgid "Port:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1169
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1264
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2888,14 +3084,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1188
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1283
 msgctxt "SettingsDialog|"
 msgid "Info: the proxy works only for text translation"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1198
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1293
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2903,20 +3099,20 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1201
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1296
 msgctxt "SettingsDialog|"
 msgid "Authentication"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1211
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1306
 msgctxt "SettingsDialog|"
 msgid "Username:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1221
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1316
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2924,14 +3120,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1231
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1326
 msgctxt "SettingsDialog|"
 msgid "Password:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1241
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1336
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2939,14 +3135,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1254
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1349
 msgctxt "SettingsDialog|"
 msgid "Info: the password is saved unencrypted"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1290
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1385
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2954,14 +3150,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1293
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1388
 msgctxt "SettingsDialog|"
 msgid "Enable global shortcuts"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1309
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1404
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2969,26 +3165,26 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1312
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1407
 msgctxt "SettingsDialog|"
 msgid "Reset all"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1322
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1417
 msgctxt "SettingsDialog|"
 msgid "Shortcut"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1328
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1423
 msgctxt "SettingsDialog|"
 msgid "Key sequence:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1335
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1430
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -2996,8 +3192,8 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1342
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1437
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -3005,14 +3201,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1345
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1440
 msgctxt "SettingsDialog|"
 msgid "Accept"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1355
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1450
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -3020,14 +3216,14 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1358
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1453
 msgctxt "SettingsDialog|"
 msgid "Clear"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1368
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1463
 msgctxt "SettingsDialog|"
 msgid ""
 "<html><head/><body>"
@@ -3035,261 +3231,409 @@ msgid ""
 "</body></html>"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1371
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1466
 msgctxt "SettingsDialog|"
 msgid "Reset"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1416
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1511
 msgctxt "SettingsDialog|"
 msgid "Version:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1426
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1521
 msgctxt "SettingsDialog|"
 msgid "License:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1440
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1535
 msgctxt "SettingsDialog|"
 msgid "Source code:"
 msgstr ""
 
-#. +> trunk5
-#: src/settings/settingsdialog.ui:1460
+#. +> trunk6
+#: src/settings/settingsdialog.ui:1555
 msgctxt "SettingsDialog|"
 msgid "Translation backend:"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:21
 msgctxt "ShortcutsModel|"
 msgid "Global"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:23
 msgctxt "ShortcutsModel|"
 msgid "Translate selected text"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:26
 msgctxt "ShortcutsModel|"
 msgid "Speak selected text"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:29
 msgctxt "ShortcutsModel|"
 msgid "Speak translation of selected text"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:32
 msgctxt "ShortcutsModel|"
 msgid "Stop text speaking"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:35
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:73
 msgctxt "ShortcutsModel|"
 msgid "Speak / pause text speaking"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:38
 msgctxt "ShortcutsModel|"
 msgid "Show main window"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:41
 msgctxt "ShortcutsModel|"
 msgid "Translate selected text and copy to clipboard"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:44
 msgctxt "ShortcutsModel|"
 msgid "Recognize text in screen area"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:47
 msgctxt "ShortcutsModel|"
 msgid "Translate text in screen area"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:50
 msgctxt "ShortcutsModel|"
 msgid "Recognize text in screen area with delay"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:53
 msgctxt "ShortcutsModel|"
 msgid "Translate text in screen area with delay"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:56
 msgctxt "ShortcutsModel|"
 msgid "Toggle color inversion for OCR"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:59
 msgctxt "ShortcutsModel|"
 msgid "Main window"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:61
 msgctxt "ShortcutsModel|"
 msgid "Translate"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:64
 msgctxt "ShortcutsModel|"
 msgid "Swap languages"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:67
 msgctxt "ShortcutsModel|"
 msgid "Close window"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:71
 msgctxt "ShortcutsModel|"
 msgid "Source text"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:77
 msgctxt "ShortcutsModel|"
 msgid "Translation"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:79
 msgctxt "ShortcutsModel|"
 msgid "Speak / pause speaking"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:82
 msgctxt "ShortcutsModel|"
 msgid "Copy to clipboard"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:128
 msgctxt "ShortcutsModel|"
 msgid "Description"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/shortcutsmodel/shortcutsmodel.cpp:130
 msgctxt "ShortcutsModel|"
 msgid "Shortcut"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/tesseractparameterstablewidget.cpp:16
 msgctxt "TesseractParametersTableWidget|"
 msgid "Property"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/settings/tesseractparameterstablewidget.cpp:16
 msgctxt "TesseractParametersTableWidget|"
 msgid "Value"
 msgstr ""
 
-#. +> trunk5
-#: src/speakbuttons.cpp:75
-msgctxt "SpeakButtons|"
-msgid "No text specified"
+#. +> trunk6
+#: src/translator/atranslationprovider.cpp:112
+msgctxt "QObject|"
+msgid "Translation Provider Error"
 msgstr ""
 
-#. +> trunk5
-#: src/speakbuttons.cpp:75
-msgctxt "SpeakButtons|"
-msgid "Playback text is empty"
+#. +> trunk6
+#: src/translator/atranslationprovider.cpp:113
+msgctxt "QObject|"
+msgid "The selected translation provider crashed during initialization and has been reset to 'Copy' to prevent further issues. You can try selecting a different provider in Settings → Translation."
 msgstr ""
 
-#. +> trunk5
-#: src/speakbuttons.cpp:81
-msgctxt "SpeakButtons|"
-msgid "Unable to generate URLs for TTS"
-msgstr ""
-
-#. +> trunk5
-#: src/speakbuttons.ui:24
-msgctxt "SpeakButtons|"
-msgid "Speak / pause text speaking"
-msgstr ""
-
-#. +> trunk5
-#: src/speakbuttons.ui:34
-msgctxt "SpeakButtons|"
-msgid "Stop text speaking"
-msgstr ""
-
-#. +> trunk5
-#: src/transitions/ocruninitializedtransition.cpp:28
-msgctxt "Ocr|"
-msgid "OCR languages are not loaded"
-msgstr ""
-
-#. +> trunk5
-#: src/transitions/ocruninitializedtransition.cpp:28
-msgctxt "Ocr|"
-msgid "You should set at least one OCR language in the application settings"
-msgstr ""
-
-#. +> trunk5
-#: src/translationedit.cpp:62
-msgctxt "TranslationEdit|"
+#. +> trunk6
+#: src/translator/mozhitranslationprovider.cpp:386
+msgctxt "MozhiTranslationProvider|"
 msgid "translation options:"
 msgstr ""
 
-#. +> trunk5
-#: src/translationedit.cpp:87
-msgctxt "TranslationEdit|"
+#. +> trunk6
+#: src/translator/mozhitranslationprovider.cpp:400
+msgctxt "MozhiTranslationProvider|"
 msgid "examples:"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/trayicon.cpp:19 src/trayicon.cpp:44
 msgctxt "TrayIcon|"
 msgid "Show window"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/trayicon.cpp:20 src/trayicon.cpp:45
 msgctxt "TrayIcon|"
 msgid "Settings"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/trayicon.cpp:21 src/trayicon.cpp:46
 msgctxt "TrayIcon|"
 msgid "Quit"
 msgstr ""
 
-#. +> trunk5
+#. +> trunk6
 #: src/trayicon.cpp:51
 msgctxt "TrayIcon|"
 msgid "Translation result"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/attsprovider.cpp:69
+msgctxt "QObject|"
+msgid "TTS Provider Error"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/attsprovider.cpp:70
+msgctxt "QObject|"
+msgid "The selected TTS provider crashed during initialization and has been reset to 'None' to prevent further issues. You can try selecting a different provider in Settings → TTS."
+msgstr ""
+
+#. +> trunk6
+#: src/tts/mozhittsprovider.cpp:48
+msgctxt "MozhiTTSProvider|"
+msgid "Text is empty"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/mozhittsprovider.cpp:81
+msgctxt "MozhiTTSProvider|"
+msgid "No audio URLs generated"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/mozhittsprovider.cpp:263
+#, qt-format
+msgctxt "MozhiTTSProvider|"
+msgid "Mozhi instance failed: %1 (HTTP Server Error)"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/mozhittsprovider.cpp:265 src/tts/mozhittsprovider.cpp:272
+#, qt-format
+msgctxt "MozhiTTSProvider|"
+msgid "Cannot connect to Mozhi instance: %1"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/mozhittsprovider.cpp:268
+#, qt-format
+msgctxt "MozhiTTSProvider|"
+msgid "Mozhi instance failed: %1 (HTTP 500 Internal Server Error)"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/mozhittsprovider.cpp:270
+#, qt-format
+msgctxt "MozhiTTSProvider|"
+msgid "Mozhi instance error: %1 (HTTP 4XX Client Error)"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:115
+msgctxt "PiperTTSProvider|"
+msgid "Failed to initialize Piper TTS"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:121
+#, qt-format
+msgctxt "PiperTTSProvider|"
+msgid "ONNX Runtime exception: %1"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:124
+msgctxt "PiperTTSProvider|"
+msgid "Unknown ONNX Runtime initialization error"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:205
+msgctxt "PiperTTSProvider|"
+msgid "Failed to initialize espeak-ng"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:247
+#, qt-format
+msgctxt "PiperTTSProvider|"
+msgid "ONNX Runtime initialization error: %1"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:279
+msgctxt "PiperTTSProvider|"
+msgid "Privacy Notice - Neural TTS"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:281
+msgctxt "PiperTTSProvider|"
+msgid "ONNX Runtime Telemetry Information"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:283
+msgctxt "PiperTTSProvider|"
+msgid ""
+"Crow Translate uses ONNX Runtime for neural text-to-speech. The Windows binary includes Microsoft telemetry that collects usage information.\n"
+"\n"
+"Data Collection:\n"
+"• Device and usage data, error reports, performance information\n"
+"• Used by Microsoft to improve product quality and features\n"
+"• Subject to Microsoft Privacy Statement\n"
+"\n"
+"Crow Translate Actions:\n"
+"• Automatically disables telemetry on startup\n"
+"• Uses both environment variables and runtime API calls\n"
+"• Note: Some data may be transmitted during ONNX initialization\n"
+"\n"
+"On Unix systems, telemetry is inactive by default.\n"
+"This notice is shown once per installation."
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:1000
+msgctxt "PiperTTSProvider|"
+msgid "No audio data generated"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:1015
+msgctxt "PiperTTSProvider|"
+msgid "Failed to create temporary audio file"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:1024
+msgctxt "PiperTTSProvider|"
+msgid "Failed to write audio data"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:1362
+msgctxt "PiperTTSProvider|"
+msgid ""
+"<h3>Piper Voice Models Not Found</h3>"
+"<p>No Piper TTS voice models were found in the standard locations.</p>"
+"<p><b>To use Piper TTS:</b></p>"
+"<ol>"
+"<li>Download voice models from <a href='https://huggingface.co/rhasspy/piper-voices'>HuggingFace Piper Voices</a></li>"
+"<li>Extract the models to a directory</li>"
+"<li>Set the path in Settings → TTS → Piper Voices Path</li>"
+"</ol>"
+"<p><b>⚠️ License Warning:</b> Some models may have non-free licenses and cannot be used in commercial settings. Please check the license of each model before commercial use.</p>"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/piperttsprovider.cpp:1374
+msgctxt "PiperTTSProvider|"
+msgid "Piper Voice Models Required"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/qtttsprovider.cpp:329
+#, qt-format
+msgctxt "QtTTSProvider|"
+msgid ""
+"<h3>Windows TTS Voice Not Found</h3>"
+"<p>No Windows TTS voice was found for <b>%1</b>.</p>"
+"<p><b>To install additional languages:</b></p>"
+"<ol>"
+"<li>Open <b>Settings → Time & Language → Language & region</b></li>"
+"<li>Click <b>Add a language</b> and select your desired language</li>"
+"<li>Click on the installed language and select <b>Language options</b></li>"
+"<li>Under <b>Speech</b>, click <b>Download</b> for the speech pack</li>"
+"</ol>"
+"<p><b>⚠️ License Note:</b> Crow Translate currently only supports \"Basic voice models\" from Windows TTS. \"Narrator voices\" have licensing restrictions that are incompatible with this application.</p>"
+msgstr ""
+
+#. +> trunk6
+#: src/tts/qtttsprovider.cpp:343
+msgctxt "QtTTSProvider|"
+msgid "Windows TTS Voice Installation"
 msgstr ""

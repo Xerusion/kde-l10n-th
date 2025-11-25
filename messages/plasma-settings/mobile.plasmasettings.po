@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-settings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-29 11:16+0200\n"
+"POT-Creation-Date: 2025-11-06 19:24+0100\n"
 "PO-Revision-Date: 2025-04-03 20:27+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -28,8 +28,9 @@ msgstr "การตั้งค่าสำหรับแอปพลิเค
 
 #. +> trunk6
 #: src/main.cpp:53
-#, kde-format
-msgid "© 2011-2015 KDE Community"
+#, fuzzy, kde-format
+#| msgid "© 2011-2015 KDE Community"
+msgid "© 2011-2025 KDE Community"
 msgstr "© 2011-2015 KDE Community"
 
 #. +> trunk6
@@ -117,6 +118,12 @@ msgid "packagename"
 msgstr "ชื่อแพ็กเกจ"
 
 #. +> trunk6
+#: src/qml/components/PageHeader.qml:42
+#, kde-format
+msgid "Navigate Back"
+msgstr ""
+
+#. +> trunk6
 #: src/qml/DefaultPage.qml:29
 #, kde-format
 msgid "System Settings"
@@ -129,28 +136,53 @@ msgid "Open a configuration page from the sidebar."
 msgstr "เปิดหน้าการกำหนดค่าจากแถปด้านข้าง"
 
 #. +> trunk6
-#: src/qml/KCMContainer.qml:116
+#: src/qml/KCMContainer.qml:97
 #, kde-format
 msgctxt "kcm button"
 msgid "Reset"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/KCMContainer.qml:123
+#: src/qml/KCMContainer.qml:104
 #, kde-format
 msgctxt "kcm button"
 msgid "Defaults"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/KCMContainer.qml:133
+#: src/qml/KCMContainer.qml:114
 #, kde-format
 msgctxt "kcm button"
 msgid "Apply"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/SidebarCategoriesPage.qml:50
+#: src/qml/SidebarCategoriesPage.qml:47
+#, kde-format
+msgid "Search…"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/SidebarCategoriesPage.qml:58
 #, kde-format
 msgid "Show menu"
 msgstr "แสดงเมนู"
+
+#. +> trunk6
+#: src/qml/SidebarCategoriesPage.qml:74
+#, kde-format
+msgid "Show Modules for All Platforms"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/SidebarCategoriesPage.qml:86
+#, fuzzy, kde-format
+#| msgid "System Settings"
+msgid "About Plasma Settings"
+msgstr "การตั้งค่าระบบ"
+
+#. +> trunk6
+#: src/qml/SidebarCategoriesPage.qml:91
+#, kde-format
+msgid "About KDE"
+msgstr ""

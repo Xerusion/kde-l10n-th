@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcoreaddons6_qt\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-18 09:22+0200\n"
+"POT-Creation-Date: 2025-10-08 08:07+0200\n"
 "PO-Revision-Date: 2025-01-25 15:12+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -22,75 +22,79 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 trunk5
-#: lib/io/kfilesystemtype.cpp:252
+#: lib/io/kfilesystemtype.cpp:251
 msgctxt "KFileSystemType|"
 msgid "NFS"
 msgstr "NFS"
 
 #. +> trunk6 trunk5
-#: lib/io/kfilesystemtype.cpp:254
+#: lib/io/kfilesystemtype.cpp:253
 msgctxt "KFileSystemType|"
 msgid "SMB"
 msgstr "SMB"
 
 #. +> trunk6 trunk5
-#: lib/io/kfilesystemtype.cpp:256
+#: lib/io/kfilesystemtype.cpp:255
 msgctxt "KFileSystemType|"
 msgid "FAT"
 msgstr "FAT"
 
 #. +> trunk6 trunk5
-#: lib/io/kfilesystemtype.cpp:258
+#: lib/io/kfilesystemtype.cpp:257
 msgctxt "KFileSystemType|"
 msgid "RAMFS"
 msgstr "RAMFS"
 
 #. +> trunk6 trunk5
-#: lib/io/kfilesystemtype.cpp:260
+#: lib/io/kfilesystemtype.cpp:259
 msgctxt "KFileSystemType|"
 msgid "Other"
 msgstr "อื่นๆ"
 
 #. +> trunk6 trunk5
-#: lib/io/kfilesystemtype.cpp:262
+#: lib/io/kfilesystemtype.cpp:261
 msgctxt "KFileSystemType|"
 msgid "NTFS"
 msgstr "NTFS"
 
 #. +> trunk6 trunk5
-#: lib/io/kfilesystemtype.cpp:264
+#: lib/io/kfilesystemtype.cpp:263
 msgctxt "KFileSystemType|"
 msgid "ExFAT"
 msgstr "ExFAT"
 
 #. +> trunk6 trunk5
-#: lib/io/kfilesystemtype.cpp:266
+#: lib/io/kfilesystemtype.cpp:265
 msgctxt "KFileSystemType|"
 msgid "FUSE"
 msgstr "FUSE"
 
 #. +> trunk6 trunk5
-#: lib/io/kfilesystemtype.cpp:268
+#: lib/io/kfilesystemtype.cpp:267
 msgctxt "KFileSystemType|"
 msgid "Unknown"
 msgstr "ไม่ทราบ"
 
-#. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:282 lib/kaboutdata.cpp:303
-#, qt-format
+#. +> trunk6
+#: lib/kaboutdata.cpp:281
+#, fuzzy, qt-format
+#| msgctxt "KAboutLicense|"
+#| msgid "This program is distributed under the terms of the %1."
 msgctxt "KAboutLicense|"
-msgid "This program is distributed under the terms of the %1."
+msgid "<p>This program is distributed under the terms of the %1.</p>"
 msgstr "โปรแกรมนี้แจกจ่ายและเผยแพร่ภายใต้เงื่อนไขของ %1"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:284
-#, qt-format
+#: lib/kaboutdata.cpp:282
+#, fuzzy, qt-format
+#| msgctxt "KAboutLicense|"
+#| msgid "You can find the full term <a href=\"https://spdx.org/licenses/%1.html\">the SPDX website</a>"
 msgctxt "KAboutLicense|"
-msgid "You can find the full term <a href=\"https://spdx.org/licenses/%1.html\">the SPDX website</a>"
+msgid "<p>You can find the full terms on <a href=\"https://spdx.org/licenses/%1.html\">the SPDX website</a>.</p>"
 msgstr "คุณอ่านเงื่อนไขเต็มฉบับได้ที่ <a href=\"https://spdx.org/licenses/%1.html\">เว็บของ SPDX</a>"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:295
+#: lib/kaboutdata.cpp:294
 msgctxt "KAboutLicense|"
 msgid ""
 "No licensing terms for this program have been specified.\n"
@@ -102,115 +106,122 @@ msgstr ""
 "เกี่ยวกับเงื่อนไขการอนุญาตในการใช้งาน\n"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:347
+#: lib/kaboutdata.cpp:302
+#, qt-format
+msgctxt "KAboutLicense|"
+msgid "This program is distributed under the terms of the %1."
+msgstr "โปรแกรมนี้แจกจ่ายและเผยแพร่ภายใต้เงื่อนไขของ %1"
+
+#. +> trunk6 trunk5
+#: lib/kaboutdata.cpp:346
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "GPL v2"
 msgstr "GPL v2"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:348
+#: lib/kaboutdata.cpp:347
 msgctxt "KAboutLicense|@item license"
 msgid "GNU General Public License Version 2"
 msgstr "GNU General Public License Version 2"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:351
+#: lib/kaboutdata.cpp:350
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "LGPL v2"
 msgstr "LGPL v2"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:352
+#: lib/kaboutdata.cpp:351
 msgctxt "KAboutLicense|@item license"
 msgid "GNU Lesser General Public License Version 2"
 msgstr "GNU Lesser General Public License Version 2"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:355
+#: lib/kaboutdata.cpp:354
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "BSD License"
 msgstr "BSD License"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:356
+#: lib/kaboutdata.cpp:355
 msgctxt "KAboutLicense|@item license"
 msgid "BSD License"
 msgstr "BSD License"
+
+#. +> trunk6 trunk5
+#: lib/kaboutdata.cpp:358
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "Artistic License"
+msgstr "Artistic License"
 
 #. +> trunk6 trunk5
 #: lib/kaboutdata.cpp:359
-msgctxt "KAboutLicense|@item license (short name)"
-msgid "Artistic License"
-msgstr "Artistic License"
-
-#. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:360
 msgctxt "KAboutLicense|@item license"
 msgid "Artistic License"
 msgstr "Artistic License"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:363
+#: lib/kaboutdata.cpp:362
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "GPL v3"
 msgstr "GPL v3"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:364
+#: lib/kaboutdata.cpp:363
 msgctxt "KAboutLicense|@item license"
 msgid "GNU General Public License Version 3"
 msgstr "GNU General Public License Version 3"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:367
+#: lib/kaboutdata.cpp:366
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "LGPL v3"
 msgstr "LGPL v3"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:368
+#: lib/kaboutdata.cpp:367
 msgctxt "KAboutLicense|@item license"
 msgid "GNU Lesser General Public License Version 3"
 msgstr "GNU Lesser General Public License Version 3"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:371
+#: lib/kaboutdata.cpp:370
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "LGPL v2.1"
 msgstr "LGPL v2.1"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:372
+#: lib/kaboutdata.cpp:371
 msgctxt "KAboutLicense|@item license"
 msgid "GNU Lesser General Public License Version 2.1"
 msgstr "GNU Lesser General Public License 2.1"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:375
+#: lib/kaboutdata.cpp:374
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "MIT License"
 msgstr "MIT License"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:376
+#: lib/kaboutdata.cpp:375
 msgctxt "KAboutLicense|@item license"
 msgid "MIT License"
 msgstr "MIT License"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:379
+#: lib/kaboutdata.cpp:378
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "CC0"
 msgstr "CC0"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:380
+#: lib/kaboutdata.cpp:379
 msgctxt "KAboutLicense|@item license"
 msgid "Creative Commons Zero"
 msgstr "Creative Commons Zero"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:383
+#: lib/kaboutdata.cpp:382
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "ODbL v1.0"
 msgstr "ODbl v1.0"
@@ -225,67 +236,67 @@ msgid "QPL v1.0"
 msgstr "แบบ QPL รุ่น 1.0"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:384
+#: lib/kaboutdata.cpp:383
 msgctxt "KAboutLicense|@item license"
 msgid "Open Data Commons Open Database License v1.0"
 msgstr "Open Data Commons Open Database License v1.0"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:387
+#: lib/kaboutdata.cpp:386
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "Apache 2.0"
 msgstr "Apache 2.0"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:388
+#: lib/kaboutdata.cpp:387
 msgctxt "KAboutLicense|@item license"
 msgid "Apache License 2.0"
 msgstr "Apache License 2.0"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:391
+#: lib/kaboutdata.cpp:390
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "FTL"
 msgstr "FTL"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:392
+#: lib/kaboutdata.cpp:391
 msgctxt "KAboutLicense|@item license"
 msgid "Freetype Project License"
 msgstr "Freetype Project License"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:395
+#: lib/kaboutdata.cpp:394
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "Boost License"
 msgstr "Boost License"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:396
+#: lib/kaboutdata.cpp:395
 msgctxt "KAboutLicense|@item license"
 msgid "Boost Software License 1.0"
 msgstr "Boost Software License 1.0"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:399
+#: lib/kaboutdata.cpp:398
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "BSD-3-Clause"
 msgstr "BSD-3-Clause"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:400
+#: lib/kaboutdata.cpp:399
 msgctxt "KAboutLicense|@item license"
 msgid "BSD 3-Clause \"New\" or \"Revised\" License"
 msgstr "BSD 3-Clause \"New\" or \"Revised\" License"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:403
+#: lib/kaboutdata.cpp:402
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "MPL 2.0"
 msgstr "MPL 2.0"
 
 #. +> trunk6
-#: lib/kaboutdata.cpp:404
+#: lib/kaboutdata.cpp:403
 msgctxt "KAboutLicense|@item license"
 msgid "Mozilla Public License 2.0"
 msgstr "Mozilla Public License 2.0"
@@ -300,19 +311,19 @@ msgid "Q Public License"
 msgstr "สัญญาอนุญาตสาธารณะแบบ Q"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:408
+#: lib/kaboutdata.cpp:407
 msgctxt "KAboutLicense|@item license"
 msgid "Custom"
 msgstr "กำหนดเอง"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:411
+#: lib/kaboutdata.cpp:410
 msgctxt "KAboutLicense|@item license"
 msgid "Not specified"
 msgstr "ไม่ได้ระบุ"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:993
+#: lib/kaboutdata.cpp:992
 msgctxt "KAboutData|replace this with information about your translation team"
 msgid ""
 "<p>KDE is translated into many languages thanks to the work of the translation teams all over the world.</p>"
@@ -323,50 +334,50 @@ msgstr ""
 "<p>สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการทำให้ KDE เป็นภาษาชาติต่าง ๆ สามารถดูได้ที่เว็บไซต์ <a href=\"http://l10n.kde.org\">http://l10n.kde.org</a></p>"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:1226
+#: lib/kaboutdata.cpp:1229
 msgctxt "KAboutData CLI|"
 msgid "Show author information."
 msgstr "แสดงข้อมูลของผู้เขียน"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:1227
+#: lib/kaboutdata.cpp:1230
 msgctxt "KAboutData CLI|"
 msgid "Show license information."
 msgstr "แสดงข้อมูลเงื่อนไขการอนุญาต"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:1229
+#: lib/kaboutdata.cpp:1232
 msgctxt "KAboutData CLI|"
 msgid "The base file name of the desktop entry for this application."
 msgstr "ชื่อไฟล์ฐานของรายการเดสก์ท็อปสําหรับแอปพลิเคชั่นนี้"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:1230
+#: lib/kaboutdata.cpp:1233
 msgctxt "KAboutData CLI|"
 msgid "file name"
 msgstr "ชื่อไฟล์"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:1240
+#: lib/kaboutdata.cpp:1243
 msgctxt "KAboutData CLI|"
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "โปรแกรมนี้เขียนขึ้นโดยผู้ไม่ประสงค์จะออกนาม"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:1242
+#: lib/kaboutdata.cpp:1245
 #, qt-format
 msgctxt "KAboutData CLI|"
 msgid "%1 was written by:"
 msgstr "%1 ถูกเขียนขึ้นโดย:"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:1253
+#: lib/kaboutdata.cpp:1256
 msgctxt "KAboutData CLI|"
 msgid "Please use https://bugs.kde.org to report bugs."
 msgstr "โปรดไปยังเว็บไซต์ http://bugs.kde.org เพื่อรายงานสิ่งขัดข้อง"
 
 #. +> trunk6 trunk5
-#: lib/kaboutdata.cpp:1255
+#: lib/kaboutdata.cpp:1258
 #, qt-format
 msgctxt "KAboutData CLI|"
 msgid "Please report bugs to %1."

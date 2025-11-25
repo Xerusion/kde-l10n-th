@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eventviews\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-08 10:01+0200\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -93,87 +93,171 @@ msgid "- %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/agendaview.cpp:380
+#: agenda/agendaview.cpp:421
 #, kde-format
 msgctxt "short_weekday short_monthname date (e.g. Mon Aug 13)"
 msgid "%1 %2 %3"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/agendaview.cpp:2232
+#: agenda/agendaview.cpp:2326
 #, kde-format
 msgid "Unable to modify this to-do, because it cannot be locked."
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/agendaview.cpp:2240
+#: agenda/agendaview.cpp:2334
 #, kde-format
 msgid "Unable to save %1 \"%2\"."
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/timelabels.cpp:327
+#: agenda/timelabels.cpp:329
 #, kde-format
 msgid "&Add Timezones…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/timelabels.cpp:328
+#: agenda/timelabels.cpp:330
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add a timelabel display column for a new timezone"
+msgstr ""
+
+#. +> trunk6 stable6
+#: agenda/timelabels.cpp:333
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "This menu will show a timezone selection dialog allowing you to select a timezone for showing hour labels alongside your system timezone hour labels. This feature is very useful when showing calendar events for people in timezones other than your own."
+msgstr ""
+
+#. +> trunk6 stable6
+#: agenda/timelabels.cpp:336
 #, kde-format
 msgid "&Remove Timezone %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/timelabels.cpp:334
+#: agenda/timelabels.cpp:340
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove the hour label column for the currently selected timezone, for non-system timezones only."
+msgstr ""
+
+#. +> trunk6 stable6
+#: agenda/timelabels.cpp:343
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "For non-system timezones, this menu selection removes the time hour labels display column for the currently selected timezone."
+msgstr ""
+
+#. +> trunk6 stable6
+#: agenda/timelabels.cpp:347
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "12 Hour Clock"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/timelabels.cpp:336
+#: agenda/timelabels.cpp:349
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "24 Hour Clock"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/timelabels.cpp:381
+#: agenda/timelabels.cpp:351
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Display the time label hours in 24-hour \"military\" format or according to your locale"
+msgstr ""
+
+#. +> trunk6 stable6
+#: agenda/timelabels.cpp:353
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "This menu selection shows the time hour labels according to 24-hour \"military\" time or your system locale."
+msgstr ""
+
+#. +> trunk6 stable6
+#: agenda/timelabels.cpp:358
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Right-side Time Labels"
+msgstr ""
+
+#. +> trunk6 stable6
+#: agenda/timelabels.cpp:360
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Right-side Time Labels"
+msgstr ""
+
+#. +> trunk6 stable6
+#: agenda/timelabels.cpp:364
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Left-side Time Labels"
+msgstr ""
+
+#. +> trunk6 stable6
+#: agenda/timelabels.cpp:366
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Left-side Time Labels"
+msgstr ""
+
+#. +> trunk6 stable6
+#: agenda/timelabels.cpp:369
+#, kde-format
+msgctxt "@info::tooltip"
+msgid "Show or hide time labels on both sides of the agenda view"
+msgstr ""
+
+#. +> trunk6 stable6
+#: agenda/timelabels.cpp:371
+#, kde-format
+msgctxt "@info::whatsthis"
+msgid "This menu selection shows or hides the time labels on both sides of the agenda view. Only the system timezone (and no extra added timezones) is shown on the second side to save screen space. Similarly, the vertical scrollbar is removed when the time labels are shown on both sides."
+msgstr ""
+
+#. +> trunk6 stable6
+#: agenda/timelabels.cpp:426
 #, kde-format
 msgctxt "title for timezone info, the timezone id and utc offset"
 msgid "<b>%1 (%2)</b>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/timelabels.cpp:385
+#: agenda/timelabels.cpp:430
 #, kde-format
 msgctxt "heading for timezone display name"
 msgid "<i>Name:</i> %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/timelabels.cpp:389
+#: agenda/timelabels.cpp:434
 #, kde-format
 msgctxt "heading for timezone country"
 msgid "<i>Country:</i> %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/timelabels.cpp:401
+#: agenda/timelabels.cpp:446
 #, kde-format
 msgctxt "heading for comma-separated list of timezone abbreviations"
 msgid "<i>Abbreviations:</i>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/timelabels.cpp:407
+#: agenda/timelabels.cpp:452
 #, kde-format
 msgctxt "heading for the timezone comment"
 msgid "<i>Comment:</i> %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agenda/timelabels.cpp:423
+#: agenda/timelabels.cpp:468
 #, kde-format
 msgctxt "[hour of the day][am/pm/00] [timezone id (timezone-offset)]"
 msgid ""
@@ -1541,77 +1625,77 @@ msgid "%1 %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: month/monthview.cpp:209 month/monthview.cpp:475
+#: month/monthview.cpp:207 month/monthview.cpp:477
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Display calendar in a normal size"
 msgstr ""
 
 #. +> trunk6 stable6
-#: month/monthview.cpp:210 month/monthview.cpp:478
+#: month/monthview.cpp:208 month/monthview.cpp:480
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Display calendar in a full window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: month/monthview.cpp:212
+#: month/monthview.cpp:210
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Click this button and the month view will be enlarged to fill the maximum available window space / or shrunk back to its normal size."
 msgstr ""
 
 #. +> trunk6 stable6
-#: month/monthview.cpp:219
+#: month/monthview.cpp:217
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go back one month"
 msgstr ""
 
 #. +> trunk6 stable6
-#: month/monthview.cpp:220
+#: month/monthview.cpp:218
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Click this button and the view will be scrolled back in time by 1 month."
 msgstr ""
 
 #. +> trunk6 stable6
-#: month/monthview.cpp:226
+#: month/monthview.cpp:224
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go back one week"
 msgstr ""
 
 #. +> trunk6 stable6
-#: month/monthview.cpp:227
+#: month/monthview.cpp:225
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Click this button and the view will be scrolled back in time by 1 week."
 msgstr ""
 
 #. +> trunk6 stable6
-#: month/monthview.cpp:233
+#: month/monthview.cpp:231
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go forward one week"
 msgstr ""
 
 #. +> trunk6 stable6
-#: month/monthview.cpp:234
+#: month/monthview.cpp:232
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Click this button and the view will be scrolled forward in time by 1 week."
 msgstr ""
 
 #. +> trunk6 stable6
-#: month/monthview.cpp:240
+#: month/monthview.cpp:238
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go forward one month"
 msgstr ""
 
 #. +> trunk6 stable6
-#: month/monthview.cpp:241
+#: month/monthview.cpp:239
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Click this button and the view will be scrolled forward in time by 1 month."
@@ -1645,7 +1729,7 @@ msgid "unspecified"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/tododelegates.cpp:153 todo/todoview.cpp:473
+#: todo/tododelegates.cpp:153 todo/todoview.cpp:493
 #, kde-format
 msgctxt "@action:inmenu highest priority"
 msgid "1 (highest)"
@@ -1673,7 +1757,7 @@ msgid "4"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/tododelegates.cpp:157 todo/todoview.cpp:477
+#: todo/tododelegates.cpp:157 todo/todoview.cpp:497
 #, kde-format
 msgctxt "@action:inmenu medium priority"
 msgid "5 (medium)"
@@ -1701,35 +1785,35 @@ msgid "8"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/tododelegates.cpp:161 todo/todoview.cpp:481
+#: todo/tododelegates.cpp:161 todo/todoview.cpp:501
 #, kde-format
 msgctxt "@action:inmenu lowest priority"
 msgid "9 (lowest)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:244
+#: todo/todoview.cpp:264
 #, kde-format
 msgctxt "@info"
 msgid "Cannot move to-do to itself or a child of itself."
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:245
+#: todo/todoview.cpp:265
 #, kde-format
 msgctxt "@title:window"
 msgid "Drop To-do"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:316
+#: todo/todoview.cpp:336
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Create an open-ended to-do"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:319
+#: todo/todoview.cpp:339
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1738,210 +1822,210 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:329
+#: todo/todoview.cpp:349
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Display to-dos in a full window without the sidebar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:331
+#: todo/todoview.cpp:351
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Checking this button will cause the to-dos to be displayed in a larger window by hiding the sidebar."
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:337
+#: todo/todoview.cpp:357
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Display to-dos in a flat list or a tree"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:339
+#: todo/todoview.cpp:359
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Checking this button will cause the to-dos to be displayed either as a flat list or a hierarchical tree where the parental relationships are removed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:378
+#: todo/todoview.cpp:398
 #, kde-format
 msgctxt "@action:inmenu show the to-do"
 msgid "&Show"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:383
+#: todo/todoview.cpp:403
 #, kde-format
 msgctxt "@action:inmenu edit the to-do"
 msgid "&Edit…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:390
+#: todo/todoview.cpp:410
 #, kde-format
 msgctxt "@action:inmenu delete the to-do"
 msgid "&Delete"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:399
+#: todo/todoview.cpp:419
 #, kde-format
 msgctxt "@action:inmenu print the to-do"
 msgid "&Print…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:404
+#: todo/todoview.cpp:424
 #, kde-format
 msgctxt "@action:inmenu print preview the to-do"
 msgid "Print Previe&w…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:411
+#: todo/todoview.cpp:431
 #, kde-format
 msgctxt "@action:inmenu create a new to-do"
 msgid "New &To-do…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:415
+#: todo/todoview.cpp:435
 #, kde-format
 msgctxt "@action:inmenu create a new sub-to-do"
 msgid "New Su&b-to-do…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:419
+#: todo/todoview.cpp:439
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Make this To-do Independent"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:421
+#: todo/todoview.cpp:441
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Make all Sub-to-dos &Independent"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:432
+#: todo/todoview.cpp:452
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Create Event from To-do"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:440
+#: todo/todoview.cpp:460
 #, kde-format
 msgctxt "@action:inmenu set or unset to-do is completed"
 msgid "Togg&le To-do Completed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:444
+#: todo/todoview.cpp:464
 #, kde-format
 msgctxt "@action:inmenu enable or disable reminder"
 msgid "&Toggle Reminder"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:451
+#: todo/todoview.cpp:471
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Copy To"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:458
+#: todo/todoview.cpp:478
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Move To"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:469
+#: todo/todoview.cpp:489
 #, kde-format
 msgctxt "@action:inmenu delete completed to-dos"
 msgid "Pur&ge Completed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:472
+#: todo/todoview.cpp:492
 #, kde-format
 msgctxt "@action:inmenu unspecified priority"
 msgid "unspecified"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:474
+#: todo/todoview.cpp:494
 #, kde-format
 msgctxt "@action:inmenu priority value=2"
 msgid "2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:475
+#: todo/todoview.cpp:495
 #, kde-format
 msgctxt "@action:inmenu priority value=3"
 msgid "3"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:476
+#: todo/todoview.cpp:496
 #, kde-format
 msgctxt "@action:inmenu priority value=4"
 msgid "4"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:478
+#: todo/todoview.cpp:498
 #, kde-format
 msgctxt "@action:inmenu priority value=6"
 msgid "6"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:479
+#: todo/todoview.cpp:499
 #, kde-format
 msgctxt "@action:inmenu priority value=7"
 msgid "7"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:480
+#: todo/todoview.cpp:500
 #, kde-format
 msgctxt "@action:inmenu priority value=8"
 msgid "8"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:1169
+#: todo/todoview.cpp:1193
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Display the sidebar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:1172
+#: todo/todoview.cpp:1196
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Hide the sidebar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:1191
+#: todo/todoview.cpp:1215
 #, kde-format
 msgctxt "@info::tooltip"
 msgid "Switch to the tree list display"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoview.cpp:1194
+#: todo/todoview.cpp:1218
 #, kde-format
 msgctxt "@info::tooltip"
 msgid "Switch to the flat list display"
@@ -2052,37 +2136,37 @@ msgid "%1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoviewsortfilterproxymodel.cpp:161
+#: todo/todoviewsortfilterproxymodel.cpp:160
 #, kde-format
 msgctxt "priority is unspecified"
 msgid "unspecified"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoviewsortfilterproxymodel.cpp:162
-#: todo/todoviewsortfilterproxymodel.cpp:164
-#: todo/todoviewsortfilterproxymodel.cpp:166
-#: todo/todoviewsortfilterproxymodel.cpp:168
+#: todo/todoviewsortfilterproxymodel.cpp:161
+#: todo/todoviewsortfilterproxymodel.cpp:163
+#: todo/todoviewsortfilterproxymodel.cpp:165
+#: todo/todoviewsortfilterproxymodel.cpp:167
 #, kde-format
 msgid "%1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoviewsortfilterproxymodel.cpp:163
+#: todo/todoviewsortfilterproxymodel.cpp:162
 #, kde-format
 msgctxt "highest priority"
 msgid "%1 (highest)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoviewsortfilterproxymodel.cpp:165
+#: todo/todoviewsortfilterproxymodel.cpp:164
 #, kde-format
 msgctxt "medium priority"
 msgid "%1 (medium)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: todo/todoviewsortfilterproxymodel.cpp:167
+#: todo/todoviewsortfilterproxymodel.cpp:166
 #, kde-format
 msgctxt "lowest priority"
 msgid "%1 (lowest)"

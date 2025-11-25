@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-24 10:33+0200\n"
+"POT-Creation-Date: 2025-11-16 11:29+0100\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -29,6 +29,13 @@ msgid ""
 msgstr ""
 
 #. +> stable5
+#: discover/DiscoverObject.cpp:168 discover/DiscoverObject.cpp:380
+#: discover/qml/UpdatesPage.qml:107
+#, kde-format
+msgid "Report This Issue"
+msgstr ""
+
+#. +> stable5
 #: discover/DiscoverObject.cpp:173
 #, kde-kuit-format
 msgctxt "@info"
@@ -45,28 +52,24 @@ msgid "Learn More"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/DiscoverObject.cpp:184
+#: discover/DiscoverObject.cpp:183
 #, kde-format
-msgctxt "@title %1 is the distro name"
+msgctxt "@title %1 is the name"
 msgid "%1 is not configured for installing apps through Discover—only app add-ons"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/DiscoverObject.cpp:186
+#: discover/DiscoverObject.cpp:185
 #, kde-kuit-format
-msgctxt "@info:usagetip %1 is the distro name"
-msgid "To use Discover for apps, install your preferred module on the <interface>Settings</interface> page, under <interface>Missing Backends</interface>."
+msgctxt "@info:usagetip %2 is the name of the operating system"
+msgid ""
+"To use Discover for apps, install your preferred module on the <interface>Settings</interface> page, under <interface>Missing Backends</interface>.<nl/>"
+"<nl/>"
+"Please <link url='%1'>report this issue to %2.</link>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/DiscoverObject.cpp:189
-#, kde-format
-msgctxt "@action:button %1 is the distro name"
-msgid "Report This Issue to %1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: discover/DiscoverObject.cpp:194
+#: discover/DiscoverObject.cpp:192
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the distro name; in this case it always contains 'Arch Linux'"
 msgid ""
@@ -76,7 +79,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/DiscoverObject.cpp:207
+#: discover/DiscoverObject.cpp:202
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the distro name"
 msgid ""
@@ -85,128 +88,138 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/DiscoverObject.cpp:296
+#: discover/DiscoverObject.cpp:291
 #, kde-format
 msgid "Could not find category '%1'"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/DiscoverObject.cpp:318
+#: discover/DiscoverObject.cpp:313
 #, kde-format
 msgid "Trying to open inexisting file '%1'"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/DiscoverObject.cpp:340
+#: discover/DiscoverObject.cpp:335
 #, kde-format
 msgid "Cannot interact with flatpak resources without the flatpak backend %1. Please install it first."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/DiscoverObject.cpp:344
+#: discover/DiscoverObject.cpp:339
 #, kde-format
 msgid "Could not open %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: discover/DiscoverObject.cpp:409
-#, kde-format
-msgid "Please make sure Snap support is installed"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: discover/DiscoverObject.cpp:412
-#, kde-format
-msgid "Could not open %1 because it was not found in any available software repositories."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: discover/DiscoverObject.cpp:416
+#. +> stable5
+#: discover/DiscoverObject.cpp:377
 #, kde-format
 msgid "Please report this issue to the packagers of your distribution."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/DiscoverObject.cpp:419
+#: discover/DiscoverObject.cpp:404
 #, kde-format
-msgid "Report This Issue"
+msgid "Please make sure Snap support is installed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: discover/DiscoverObject.cpp:407
+#, kde-format
+msgid "The requested application could not be found in any available software repositories"
+msgstr ""
+
+#. +> stable5
+#: discover/DiscoverObject.cpp:374
+#, kde-format
+msgid "Could not open %1 because it was not found in any available software repositories."
+msgstr ""
+
+#. +> trunk6 stable6
+#: discover/DiscoverObject.cpp:410
+#, kde-kuit-format
+msgctxt "@info %1 is an additional error reference and %3 is the name of the operating system"
+msgid ""
+"(No entry for %1)<nl/>"
+"<nl/>"
+"Please <link url='%2'>report this issue to %3.</link>"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/DiscoverObject.cpp:479 discover/DiscoverObject.cpp:481
-#: discover/main.cpp:129
+#: discover/DiscoverObject.cpp:473 discover/DiscoverObject.cpp:475
+#: discover/main.cpp:120
 #, kde-format
 msgid "Discover"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/DiscoverObject.cpp:482
+#: discover/DiscoverObject.cpp:476
 #, kde-format
 msgid "Discover was closed before certain tasks were done, waiting for it to finish."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:35
+#: discover/main.cpp:34
 #, kde-format
 msgid "Directly open the specified application by its appstream:// URI."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:36
+#: discover/main.cpp:35
 #, kde-format
 msgid "Open with a search for programs that can deal with the given mimetype."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:37
+#: discover/main.cpp:36
 #, kde-format
 msgid "Display a list of entries with a category."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:38
+#: discover/main.cpp:37
 #, kde-format
 msgid "Open Discover in a said mode. Modes correspond to the toolbar buttons."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:39
+#: discover/main.cpp:38
 #, kde-format
 msgid "List all the available modes."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:40
+#: discover/main.cpp:39
 #, kde-format
 msgid "Local package file to install"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:41
+#: discover/main.cpp:40
 #, kde-format
 msgid "List all the available backends."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:42
+#: discover/main.cpp:41
 #, kde-format
 msgid "Search string."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:43
+#: discover/main.cpp:42
 #, kde-format
 msgid "Lists the available options for user feedback"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/main.cpp:44
+#: discover/main.cpp:43
 #, kde-format
 msgid "Starts an update automatically, headless"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:46
+#: discover/main.cpp:45
 #, kde-format
 msgid "Supports appstream: url scheme"
 msgstr ""
@@ -218,13 +231,13 @@ msgid "Compact Mode (auto/compact/full)."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:131
+#: discover/main.cpp:122
 #, kde-format
 msgid "An application explorer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/main.cpp:133
+#: discover/main.cpp:124
 #, kde-format
 msgid "© 2010-2025 Plasma Development Team"
 msgstr ""
@@ -236,63 +249,63 @@ msgid "© 2010-2022 Plasma Development Team"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:134
+#: discover/main.cpp:125
 #, kde-format
 msgid "Aleix Pol Gonzalez"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:135
+#: discover/main.cpp:126
 #, kde-format
 msgid "Nate Graham"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:136
+#: discover/main.cpp:127
 #, kde-format
 msgid "Quality Assurance, Design and Usability"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:140
+#: discover/main.cpp:131
 #, kde-format
 msgid "Dan Leinir Turthra Jensen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:141
+#: discover/main.cpp:132
 #, kde-format
 msgid "KNewStuff"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:148
+#: discover/main.cpp:139
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:148
+#: discover/main.cpp:139
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:162
+#: discover/main.cpp:159
 #, kde-format
 msgid "Available backends:\n"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/main.cpp:215
+#: discover/main.cpp:212
 #, kde-format
 msgid "Available modes:\n"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/AddonsView.qml:28 discover/qml/Navigation.qml:58
+#: discover/qml/AddonsView.qml:28 discover/qml/Navigation.qml:60
 #, kde-format
 msgid "Addons for %1"
 msgstr ""
@@ -330,7 +343,7 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:280
 #: discover/qml/InstallApplicationButton.qml:51
-#: discover/qml/ProgressView.qml:142 discover/qml/SourcesPage.qml:201
+#: discover/qml/ProgressView.qml:152 discover/qml/SourcesPage.qml:201
 #: discover/qml/UpdatesPage.qml:302 discover/qml/WebflowDialog.qml:41
 #, kde-format
 msgid "Cancel"
@@ -579,15 +592,15 @@ msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 msgid ","
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:509
 #, kde-format
 msgctxt "Show all licenses of the package"
 msgid "See more…"
 msgstr ""
 
-#. +> stable6 stable5
-#: discover/qml/ApplicationPage.qml:509
+#. +> stable5
+#: discover/qml/ApplicationPage.qml:417
 #, kde-format
 msgid "See more…"
 msgid_plural "See more…"
@@ -672,22 +685,36 @@ msgid "What's New"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationPage.qml:747
+#: discover/qml/ApplicationPage.qml:746
 #, kde-format
 msgid "Reviews"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationPage.qml:758
+#: discover/qml/ApplicationPage.qml:757
 #, kde-format
 msgid "Loading reviews for %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/ApplicationPage.qml:767
+#: discover/qml/ApplicationPage.qml:766
 #, kde-format
 msgctxt "@info placeholder message"
 msgid "Reviews for %1 are temporarily unavailable"
+msgstr ""
+
+#. +> trunk6 stable6
+#: discover/qml/ApplicationPage.qml:773
+#, kde-format
+msgctxt "@Info placeholder message"
+msgid "No reviews posted yet"
+msgstr ""
+
+#. +> trunk6 stable6
+#: discover/qml/ApplicationPage.qml:774
+#, kde-format
+msgctxt "@info placeholder explanation"
+msgid "Install to write a review"
 msgstr ""
 
 #. +> stable5
@@ -696,8 +723,20 @@ msgstr ""
 msgid "Get Involved"
 msgstr ""
 
+#. +> trunk6 stable6 stable5
+#: discover/qml/ApplicationPage.qml:778 discover/qml/ApplicationPage.qml:822
+#, kde-format
+msgid "Write a Review"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: discover/qml/ApplicationPage.qml:778 discover/qml/ApplicationPage.qml:822
+#, kde-format
+msgid "Install to Write a Review"
+msgstr ""
+
 #. +> trunk6 stable6
-#: discover/qml/ApplicationPage.qml:789
+#: discover/qml/ApplicationPage.qml:806
 #, kde-format
 msgctxt "@action:button"
 msgid "Show All Reviews"
@@ -711,18 +750,6 @@ msgid_plural "Show all %1 Reviews"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationPage.qml:804
-#, kde-format
-msgid "Write a Review"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationPage.qml:804
-#, kde-format
-msgid "Install to Write a Review"
-msgstr ""
-
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:818
 #, kde-format
@@ -733,13 +760,6 @@ msgstr ""
 #: discover/qml/ApplicationPage.qml:819
 #, kde-format
 msgid "Support and thank the developers by donating to their project"
-msgstr ""
-
-#. +> trunk6 stable6
-#: discover/qml/ApplicationPage.qml:826
-#, kde-format
-msgctxt "@title"
-msgid "External Links"
 msgstr ""
 
 #. +> stable5
@@ -757,8 +777,8 @@ msgstr ""
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:844
 #, kde-format
-msgctxt "@info text of a web URL"
-msgid "Read the documentation"
+msgctxt "@title"
+msgid "External Links"
 msgstr ""
 
 #. +> stable5
@@ -774,7 +794,14 @@ msgid "Help the developers by coding, designing, testing, or translating"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/ApplicationPage.qml:855
+#: discover/qml/ApplicationPage.qml:862
+#, kde-format
+msgctxt "@info text of a web URL"
+msgid "Read the documentation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: discover/qml/ApplicationPage.qml:873
 #, kde-format
 msgctxt "@info text of a web URL"
 msgid "Visit the project's website"
@@ -787,30 +814,24 @@ msgid "Visit the project's website"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/ApplicationPage.qml:865
+#: discover/qml/ApplicationPage.qml:883
 #, kde-format
 msgctxt "@info text of a web URL"
 msgid "Donate to the project"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/ApplicationPage.qml:875
+#: discover/qml/ApplicationPage.qml:893
 #, kde-format
 msgctxt "@info text of a web URL"
 msgid "Report a bug"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/ApplicationPage.qml:885
+#: discover/qml/ApplicationPage.qml:903
 #, kde-format
 msgctxt "@info text of a web URL"
 msgid "Start contributing"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationPage.qml:914
-#, kde-format
-msgid "All Licenses"
 msgstr ""
 
 #. +> stable5
@@ -820,7 +841,13 @@ msgid "Risks of proprietary software"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationPage.qml:952
+#: discover/qml/ApplicationPage.qml:932
+#, kde-format
+msgid "All Licenses"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: discover/qml/ApplicationPage.qml:970
 #, kde-format
 msgid "Content Rating"
 msgstr ""
@@ -832,7 +859,7 @@ msgid "Documentation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/ApplicationPage.qml:975
+#: discover/qml/ApplicationPage.qml:993
 #, kde-format
 msgctxt "@title:window"
 msgid "License Information"
@@ -870,44 +897,44 @@ msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/ApplicationsListPage.qml:68
-#: discover/qml/ApplicationsListPage.qml:266
+#: discover/qml/ApplicationsListPage.qml:262
 #, kde-format
 msgid "Search"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:103 discover/qml/ReviewsPage.qml:141
+#: discover/qml/ApplicationsListPage.qml:99 discover/qml/ReviewsPage.qml:141
 #, kde-format
 msgid "Sort: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/ApplicationsListPage.qml:108
+#: discover/qml/ApplicationsListPage.qml:104
 #, kde-format
 msgctxt "Search results most relevant to the search query"
 msgid "Relevance"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:119
+#: discover/qml/ApplicationsListPage.qml:115
 #, kde-format
 msgid "Name"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:130 discover/qml/Rating.qml:119
+#: discover/qml/ApplicationsListPage.qml:126 discover/qml/Rating.qml:119
 #, kde-format
 msgid "Rating"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:141
+#: discover/qml/ApplicationsListPage.qml:137
 #, kde-format
 msgid "Size"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/ApplicationsListPage.qml:152
+#: discover/qml/ApplicationsListPage.qml:148
 #, kde-format
 msgid "Release date"
 msgstr ""
@@ -926,41 +953,41 @@ msgid "https://duckduckgo.com/?q=%1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:212
+#: discover/qml/ApplicationsListPage.qml:208
 #, kde-format
 msgid "Nothing found"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:220
+#: discover/qml/ApplicationsListPage.qml:216
 #, kde-format
 msgctxt "@action:button"
 msgid "Search in All Categories"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:230
+#: discover/qml/ApplicationsListPage.qml:226
 #, kde-format
 msgctxt "@action:button %1 is the name of an application"
 msgid "Search the Web for \"%1\""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:245
+#: discover/qml/ApplicationsListPage.qml:241
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application; %2 is the name of a category of apps or add-ons"
 msgid "\"%1\" was not found in the \"%2\" category"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:247
+#: discover/qml/ApplicationsListPage.qml:243
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" was not found in the available sources"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/ApplicationsListPage.qml:248
+#: discover/qml/ApplicationsListPage.qml:244
 #, kde-format
 msgctxt "@info:placeholder %1 is the name of an application"
 msgid "\"%1\" may be available on the web. Software acquired from the web has not been reviewed by your distributor for functionality or stability. Use with caution."
@@ -974,7 +1001,7 @@ msgid "\"%1\" may be available on the web. Software acquired from the web has no
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ApplicationsListPage.qml:281
+#: discover/qml/ApplicationsListPage.qml:277
 #, kde-format
 msgid "Still looking…"
 msgstr ""
@@ -1151,8 +1178,8 @@ msgid "S&ettings"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/DiscoverWindow.qml:165 discover/qml/DiscoverWindow.qml:350
-#: discover/qml/DiscoverWindow.qml:462
+#: discover/qml/DiscoverWindow.qml:165 discover/qml/DiscoverWindow.qml:347
+#: discover/qml/DiscoverWindow.qml:459
 #, kde-format
 msgid "Error"
 msgstr ""
@@ -1169,52 +1196,59 @@ msgstr ""
 msgid "Proceed"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: discover/qml/DiscoverWindow.qml:325
+#. +> stable5
+#: discover/qml/DiscoverWindow.qml:301
 #, kde-format
 msgid "Report this issue"
 msgstr ""
 
+#. +> trunk6 stable6
+#: discover/qml/DiscoverWindow.qml:325
+#, kde-format
+msgctxt "@info %1 is the name of the operating system"
+msgid "Report this issue to %1"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: discover/qml/DiscoverWindow.qml:350
+#: discover/qml/DiscoverWindow.qml:347
 #, kde-format
 msgid "Error %1 of %2"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/DiscoverWindow.qml:350 discover/qml/UpdatesPage.qml:47
+#: discover/qml/DiscoverWindow.qml:347 discover/qml/UpdatesPage.qml:47
 #, kde-format
 msgid "Update Issue"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/DiscoverWindow.qml:361
+#: discover/qml/DiscoverWindow.qml:358
 #, kde-format
 msgid "There was an issue during the update or installation process. Please try again later."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/DiscoverWindow.qml:397
+#: discover/qml/DiscoverWindow.qml:394
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Previous"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/DiscoverWindow.qml:408
+#: discover/qml/DiscoverWindow.qml:405
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Next"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/DiscoverWindow.qml:420 discover/qml/UpdatesPage.qml:69
+#: discover/qml/DiscoverWindow.qml:417 discover/qml/UpdatesPage.qml:69
 #, kde-format
 msgid "See Technical Details"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/DiscoverWindow.qml:428
+#: discover/qml/DiscoverWindow.qml:425
 #, kde-format
 msgid "Copy to Clipboard"
 msgstr ""
@@ -1331,39 +1365,39 @@ msgid "Installed"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/Navigation.qml:34
+#: discover/qml/Navigation.qml:36
 #, kde-format
 msgid "Resources for '%1'"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ProgressView.qml:18
+#: discover/qml/ProgressView.qml:19
 #, kde-format
 msgid "Tasks (%1%)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ProgressView.qml:18 discover/qml/ProgressView.qml:46
+#: discover/qml/ProgressView.qml:19 discover/qml/ProgressView.qml:49
 #, kde-format
 msgid "Tasks"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ProgressView.qml:116
+#: discover/qml/ProgressView.qml:126
 #, kde-format
 msgctxt "TransactioName - TransactionStatus: speed, remaining time"
 msgid "%1 - %2: %3, %4 remaining"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ProgressView.qml:124
+#: discover/qml/ProgressView.qml:134
 #, kde-format
 msgctxt "TransactioName - TransactionStatus: speed"
 msgid "%1 - %2: %3"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ProgressView.qml:131
+#: discover/qml/ProgressView.qml:141
 #, kde-format
 msgctxt "TransactioName - TransactionStatus"
 msgid "%1 - %2"
@@ -1511,37 +1545,37 @@ msgid "doesn't work,dumb,stupid,crap,junk,suck,terrible,hate"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ReviewDialog.qml:182
+#: discover/qml/ReviewDialog.qml:183
 #, kde-format
 msgid "Enter a rating"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ReviewDialog.qml:185
+#: discover/qml/ReviewDialog.qml:186
 #, kde-format
 msgid "Write the title"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ReviewDialog.qml:188
+#: discover/qml/ReviewDialog.qml:189
 #, kde-format
 msgid "Write the review"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ReviewDialog.qml:191
+#: discover/qml/ReviewDialog.qml:192
 #, kde-format
 msgid "Keep writing…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ReviewDialog.qml:194
+#: discover/qml/ReviewDialog.qml:195
 #, kde-format
 msgid "Too long!"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/ReviewDialog.qml:197
+#: discover/qml/ReviewDialog.qml:198
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Insert a name"
@@ -1858,7 +1892,7 @@ msgid "Total size: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/UpdatesPage.qml:327
+#: discover/qml/UpdatesPage.qml:322
 #, kde-format
 msgctxt "@action:button"
 msgid "Restart and Install Updates"
@@ -1871,75 +1905,75 @@ msgid "%1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:494
+#: discover/qml/UpdatesPage.qml:502
 #, kde-format
 msgid "Installing"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:527
+#: discover/qml/UpdatesPage.qml:535
 #, kde-format
 msgid "Update from:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:541
+#: discover/qml/UpdatesPage.qml:549
 #, kde-format
 msgctxt "%1 is the backend that provides this app, %2 is the specific repository or address within that backend"
 msgid "%1 (%2)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:550
+#: discover/qml/UpdatesPage.qml:558
 #, kde-format
 msgid "More Information…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:578
+#: discover/qml/UpdatesPage.qml:586
 #, kde-format
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:592
+#: discover/qml/UpdatesPage.qml:601
 #, kde-format
 msgctxt "@info"
 msgid "Updates"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/UpdatesPage.qml:601
+#: discover/qml/UpdatesPage.qml:611
 #, kde-format
 msgctxt "@info"
 msgid "Updates will be installed after the system is restarted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: discover/qml/UpdatesPage.qml:603
+#: discover/qml/UpdatesPage.qml:613
 #, kde-format
 msgctxt "@info"
 msgid "You can keep using the system if you're not ready to restart yet."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:617 discover/qml/UpdatesPage.qml:624
-#: discover/qml/UpdatesPage.qml:631
+#: discover/qml/UpdatesPage.qml:627 discover/qml/UpdatesPage.qml:634
+#: discover/qml/UpdatesPage.qml:641
 #, kde-format
 msgctxt "@info"
 msgid "Up to date"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:638
+#: discover/qml/UpdatesPage.qml:648
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: discover/qml/UpdatesPage.qml:645
+#: discover/qml/UpdatesPage.qml:655
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"

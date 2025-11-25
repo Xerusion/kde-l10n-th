@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdiff3\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-01 10:00+0200\n"
+"POT-Creation-Date: 2025-11-19 00:53+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -103,7 +103,7 @@ msgid "Listing directory: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: diff.cpp:1591 diff.cpp:1607
+#: diff.cpp:1594 diff.cpp:1610
 #, kde-format
 msgid ""
 "Data loss error:\n"
@@ -111,7 +111,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: diff.cpp:1593 diff.cpp:1609
+#: diff.cpp:1596 diff.cpp:1612
 #, kde-format
 msgid "Severe Internal Error"
 msgstr ""
@@ -197,7 +197,7 @@ msgstr ""
 #. +> trunk6
 #: difftextwindow.cpp:2002
 #, kde-format
-msgctxt "@item:intext line ending style not recongized"
+msgctxt "@item:intext line ending style not recognized"
 msgid "Unknown"
 msgstr ""
 
@@ -3439,8 +3439,17 @@ msgstr ""
 msgid "File Encoding for A:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
 #: optiondialog.cpp:1325
+#, kde-format
+msgid ""
+"If enabled then encoding will be automatically detected.\n"
+"If the file's encoding can not be found automatically then the selected encoding will be used as fallback.\n"
+"(Unicode detection depends on the first bytes of a file.)"
+msgstr ""
+
+#. +> stable6
+#: optiondialog.cpp:1327
 #, kde-format
 msgid ""
 "If enabled then encoding will be automaticly detected.\n"

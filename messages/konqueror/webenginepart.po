@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: webkitkde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-05 12:23+0200\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
 "PO-Revision-Date: 2010-03-06 09:46+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -273,21 +273,21 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actondownloadedfilebar.cpp:88
+#: src/actondownloadedfilebar.cpp:91
 #, kde-format
 msgctxt "@label:part of the text: 'url' was saved as 'file'"
 msgid "was saved as"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actondownloadedfilebar.cpp:120
+#: src/actondownloadedfilebar.cpp:123
 #, kde-format
 msgctxt "@label location where a remote URL was downloaded"
 msgid "<tt>%1</tt> was saved as <tt>%2</tt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actondownloadedfilebar.cpp:141 src/actondownloadedfilebar.cpp:166
+#: src/actondownloadedfilebar.cpp:144 src/actondownloadedfilebar.cpp:169
 #, fuzzy, kde-format
 #| msgctxt "open selected url"
 #| msgid "Open '%1'"
@@ -296,7 +296,7 @@ msgid "Open With..."
 msgstr "เปิด '%1'"
 
 #. +> trunk6 stable6
-#: src/actondownloadedfilebar.cpp:146
+#: src/actondownloadedfilebar.cpp:149
 #, fuzzy, kde-format
 #| msgctxt "open selected url"
 #| msgid "Open '%1'"
@@ -305,7 +305,7 @@ msgid "Open"
 msgstr "เปิด '%1'"
 
 #. +> trunk6 stable6
-#: src/actondownloadedfilebar.cpp:155
+#: src/actondownloadedfilebar.cpp:158
 #, fuzzy, kde-format
 #| msgctxt "open selected url"
 #| msgid "Open '%1'"
@@ -314,27 +314,48 @@ msgid "Open &with %1"
 msgstr "เปิด '%1'"
 
 #. +> trunk6 stable6
-#: src/actondownloadedfilebar.cpp:184
+#: src/actondownloadedfilebar.cpp:187
 #, kde-format
 msgctxt "@action:button"
 msgid "Show in new tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actondownloadedfilebar.cpp:184
+#: src/actondownloadedfilebar.cpp:187
 #, kde-format
 msgctxt "@action:button"
 msgid "Show here"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actondownloadedfilebar.cpp:198
+#: src/actondownloadedfilebar.cpp:203
 #, fuzzy, kde-format
 #| msgctxt "open selected url"
 #| msgid "Open '%1'"
 msgctxt "@action:inmenu"
 msgid "Show &with %1"
 msgstr "เปิด '%1'"
+
+#. +> trunk6 stable6
+#: src/actondownloadedfilebar.cpp:231
+#, kde-format
+msgctxt "@action:button Display the folder which contains the downloaded file"
+msgid "Show containing folder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/actondownloadedfilebar.cpp:232
+#, kde-format
+msgctxt "@action:menu Display the folder which contains the downloaded file in a new tab"
+msgid "Show containing folder in new tab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/actondownloadedfilebar.cpp:233
+#, kde-format
+msgctxt "@action:menu Display the folder which contains the downloaded file in this tab"
+msgid "Show containing folder here"
+msgstr ""
 
 #. +> trunk6 stable6
 #: src/capturesourcechooserdlg.cpp:27
@@ -1009,13 +1030,13 @@ msgid "&Store the contents of selected fields when closing the dialog"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:164
+#: src/webenginepage.cpp:177
 #, kde-format
 msgid "The download manager (%1) could not be found in your installation."
 msgstr "ไม่พบตัวจัดการการดาวน์โหลด (%1) ที่ถูกติดตั้งอยู่บนระบบของคุณ"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:165
+#: src/webenginepage.cpp:178
 #, kde-format
 msgid ""
 "Try to reinstall it and make sure that it is available in $PATH. \n"
@@ -1027,23 +1048,7 @@ msgstr ""
 "การผนวกการทำงานร่วมกันจะถูกปิดการใช้งานไว้ก่อน"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:350
-#, kde-format
-msgid ""
-"<qt>"
-"<p>To display the requested web page again, the browser needs to resend information you have previously submitted.</p>"
-"<p>If you were shopping online and made a purchase, click the Cancel button to prevent a duplicate purchase.Otherwise, click the Continue button to display the webpage again.</p>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/webenginepage.cpp:357
-#, fuzzy, kde-format
-#| msgid "Additional Information: %1"
-msgid "Resubmit Information"
-msgstr "ข้อมูลเพิ่มเติม: %1"
-
-#. +> trunk6 stable6
-#: src/webenginepage.cpp:554
+#: src/webenginepage.cpp:525
 #, fuzzy, kde-format
 #| msgid ""
 #| "This site is attempting to submit form data via email.\n"
@@ -1056,21 +1061,21 @@ msgstr ""
 "คุณต้องการจะทำต่อไปหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:558 src/webenginepage.cpp:636
-#: src/webenginepage.cpp:647
+#: src/webenginepage.cpp:529 src/webenginepage.cpp:607
+#: src/webenginepage.cpp:618
 #, kde-format
 msgid "Network Transmission"
 msgstr "การส่งถ่ายข้อมูลผ่านเครือข่าย"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:559
+#: src/webenginepage.cpp:530
 #, fuzzy, kde-format
 #| msgid "&Allow attachments"
 msgid "Allow access"
 msgstr "&อนุญาตให้ทำการแนบแฟ้ม"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:629
+#: src/webenginepage.cpp:600
 #, kde-format
 msgid ""
 "Warning: This is a secure form but it is attempting to send your data back unencrypted.\n"
@@ -1082,13 +1087,13 @@ msgstr ""
 "คุณแน่ใจว่าต้องการจะทำต่อไปอีกหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:637
+#: src/webenginepage.cpp:608
 #, kde-format
 msgid "&Send Unencrypted"
 msgstr "&ส่งโดยไม่ต้องเข้ารหัส"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:644
+#: src/webenginepage.cpp:615
 #, kde-format
 msgid ""
 "This site is attempting to submit form data via email.\n"
@@ -1098,50 +1103,62 @@ msgstr ""
 "คุณต้องการจะทำต่อไปหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:648
+#: src/webenginepage.cpp:619
 #, kde-format
 msgid "&Send Email"
 msgstr "&ส่งอีเมล"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:697
+#: src/webenginepage.cpp:670
 #, fuzzy, kde-format
 #| msgid "<qt>Do you want to allow this site to attach the following files to the email message ?</qt>"
 msgid "<qt>Do you want to allow this site to attach the following files to the email message?</qt>"
 msgstr "<qt>คุณต้องการจะอนุญาตให้เว็บไซต์นี้ทำการแนบแฟ้มต่าง ๆ ต่อไปนี้เข้าไปยังจดหมายหรือไม่ ?</qt>"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:699
+#: src/webenginepage.cpp:672
 #, kde-format
 msgid "Email Attachment Confirmation"
 msgstr "การยืนยันการแนบแฟ้มในจดหมาย"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:700
+#: src/webenginepage.cpp:673
 #, kde-format
 msgid "&Allow attachments"
 msgstr "&อนุญาตให้ทำการแนบแฟ้ม"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:701
+#: src/webenginepage.cpp:674
 #, kde-format
 msgid "&Ignore attachments"
 msgstr "ไ&ม่สนใจการแนบแฟ้ม"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:715
+#: src/webenginepage.cpp:687
 #, kde-format
 msgid "This site attempted to attach a file from your computer in the form submission. The attachment was removed for your protection."
 msgstr "เว็บไซต์นี้พยายามจะแนบแฟ้มที่อยู่ภายในเครื่องของคุณไปกับการส่งแบบฟอร์ม ซึ่งแฟ้มต่าง ๆ ที่แนบไปด้วยจะถูกเอาออกเพื่อเป็นการปกป้องคุณ"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:718
+#: src/webenginepage.cpp:690
 #, kde-format
 msgid "Attachment Removed"
 msgstr "แฟ้มที่แนบมาด้วยถูกเอาออกแล้ว"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:851
+#: src/webenginepage.cpp:809
+#, kde-format
+msgid "An error occurred while converting the page to PDF"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/webenginepage.cpp:814
+#, kde-format
+msgid "An error occurred while saving a PDF version of the page as %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/webenginepage.cpp:882
 #, fuzzy, kde-format
 #| msgid ""
 #| "This site is attempting to submit form data via email.\n"
@@ -1154,7 +1171,7 @@ msgstr ""
 "คุณต้องการจะทำต่อไปหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:853
+#: src/webenginepage.cpp:884
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>This untrusted page links to<br/>"
@@ -1171,13 +1188,13 @@ msgstr ""
 " คุณต้องการจะเรียกไปยังตำแหน่งที่เชื่อมโยงไปนี้หรือไม่ ?</qt>"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:856
+#: src/webenginepage.cpp:887
 #, kde-format
 msgid "Javascript Popup Confirmation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:857
+#: src/webenginepage.cpp:888
 #, fuzzy, kde-format
 #| msgctxt "follow link despite of security warning"
 #| msgid "Follow"
@@ -1185,53 +1202,53 @@ msgid "Allow"
 msgstr "เรียกไป"
 
 #. +> trunk6 stable6
-#: src/webenginepage.cpp:857
+#: src/webenginepage.cpp:888
 #, kde-format
 msgid "Do Not Allow"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:205
+#: src/webenginepart.cpp:206
 #, fuzzy, kde-format
 #| msgid "Save Image As..."
 msgid "Save Full HTML Page As..."
 msgstr "บันทึกรูปภาพเป็น..."
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:209
+#: src/webenginepart.cpp:210
 #, kde-format
 msgid "Print Preview"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:213
+#: src/webenginepart.cpp:214
 #, kde-format
 msgctxt "zoom in action"
 msgid "Zoom In"
 msgstr "ดูขยาย"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:218
+#: src/webenginepart.cpp:219
 #, kde-format
 msgctxt "zoom out action"
 msgid "Zoom Out"
 msgstr "ดูย่อ"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:223
+#: src/webenginepart.cpp:224
 #, kde-format
 msgctxt "reset zoom action"
 msgid "Actual Size"
 msgstr "ขนาดจริง"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:228
+#: src/webenginepart.cpp:229
 #, kde-format
 msgid "Zoom Text Only"
 msgstr "ขยายเฉพาะข้อความเท่านั้น"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:236
+#: src/webenginepart.cpp:237
 #, fuzzy, kde-format
 #| msgctxt "zoom in action"
 #| msgid "Zoom In"
@@ -1239,26 +1256,26 @@ msgid "Zoom To DPI"
 msgstr "ดูขยาย"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:249
+#: src/webenginepart.cpp:250
 #, kde-format
 msgid "Set &Encoding"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:252
+#: src/webenginepart.cpp:253
 #, kde-format
 msgid "View Do&cument Source"
 msgstr "แสดงต้นฉบับเ&อกสาร"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:257 src/webenginepart.cpp:566
+#: src/webenginepart.cpp:258 src/webenginepart.cpp:567
 #, kde-format
 msgctxt "Secure Sockets Layer"
 msgid "SSL"
 msgstr "SSL"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:263
+#: src/webenginepart.cpp:264
 #, kde-format
 msgctxt "find action \"whats this\" text"
 msgid ""
@@ -1269,144 +1286,144 @@ msgstr ""
 "แสดงกล่องโต้ตอบที่ทำให้คุณสามารถค้นหาข้อความบนหน้าที่แสดงผลอยู่ได้"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:564
+#: src/webenginepart.cpp:565
 #, kde-format
 msgid "The SSL information for this site appears to be corrupt."
 msgstr "ข้อมูลรายละเอียด SSL ของเว็บไซต์นี้ ดูเหมือนจะเสียหาย"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:645
+#: src/webenginepart.cpp:646
 #, kde-format
 msgctxt "status bar text when hovering email links; looks like \"Email: xy@kde.org - CC: z@kde.org -BCC: x@kde.org - Subject: Hi translator\""
 msgid "Email: "
 msgstr "อีเมล: "
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:674
+#: src/webenginepart.cpp:675
 #, kde-format
 msgctxt "status bar text when hovering email links; looks like \"Email: xy@kde.org - CC: z@kde.org -BCC: x@kde.org - Subject: Hi translator\""
 msgid " - CC: "
 msgstr " - สำเนาถึง: "
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:676
+#: src/webenginepart.cpp:677
 #, kde-format
 msgctxt "status bar text when hovering email links; looks like \"Email: xy@kde.org - CC: z@kde.org -BCC: x@kde.org - Subject: Hi translator\""
 msgid " - BCC: "
 msgstr " - สำเนาถึง (ซ่อน): "
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:678
+#: src/webenginepart.cpp:679
 #, kde-format
 msgctxt "status bar text when hovering email links; looks like \"Email: xy@kde.org - CC: z@kde.org -BCC: x@kde.org - Subject: Hi translator\""
 msgid " - Subject: "
 msgstr " - เรื่อง: "
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:682 src/webenginepart.cpp:693
+#: src/webenginepart.cpp:683 src/webenginepart.cpp:694
 #, kde-format
 msgid " (In new window)"
 msgstr " (ในหน้าต่างใหม่)"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:691
+#: src/webenginepart.cpp:692
 #, kde-format
 msgid " (In parent frame)"
 msgstr " (ในเฟรมแม่)"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:757
+#: src/webenginepart.cpp:758
 #, fuzzy, kde-format
 #| msgid "<html>Do you want %1 to remember the login information for <b>%2</b>?</html>"
 msgid "<qt>Do you want to search for <b>%1</b>?</qt>"
 msgstr "<html>คุณต้องการจะให้ %1 จดจำข้อมูลรายละเอียดการล็อกอินของ  <b>%2</b> หรือไม่ ?</html>"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:758
+#: src/webenginepart.cpp:759
 #, kde-format
 msgid "Internet Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:758
+#: src/webenginepart.cpp:759
 #, kde-format
 msgid "&Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:871
+#: src/webenginepart.cpp:872
 #, kde-format
 msgid "Close window?"
 msgstr "ปิดหน้าต่างหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:871
+#: src/webenginepart.cpp:872
 #, kde-format
 msgid "Confirmation Required"
 msgstr "ต้องการการยืนยัน"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:948
+#: src/webenginepart.cpp:949
 #, kde-format
 msgid "<html>Do you want %1 to remember the login information for <b>%2</b>?</html>"
 msgstr "<html>คุณต้องการจะให้ %1 จดจำข้อมูลรายละเอียดการล็อกอินของ  <b>%2</b> หรือไม่ ?</html>"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:1019
+#: src/webenginepart.cpp:1020
 #, kde-format
 msgctxt "Fill the Forms with Data from KWallet"
 msgid "&Fill In Credentials"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:1024
+#: src/webenginepart.cpp:1025
 #, kde-format
 msgctxt "Scans again the page to detect forms to fill"
 msgid "&Search Page for Credential Requests"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:1028
+#: src/webenginepart.cpp:1029
 #, kde-format
 msgctxt "Store in KWallet the current content of the fields"
 msgid "&Store Credentials Now"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:1032
+#: src/webenginepart.cpp:1033
 #, kde-format
 msgctxt "Shows a dialog where the use can choose which fields to store"
 msgid "&Customize Credentials Settings for Page..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:1036
+#: src/webenginepart.cpp:1037
 #, kde-format
 msgid "Reset Custom Credential Settings for Page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:1040
+#: src/webenginepart.cpp:1041
 #, fuzzy, kde-format
 #| msgid "&Allow password caching for this site"
 msgid "&Allow Credential Caching for This Page"
 msgstr "&อนุญาตให้จัดเก็บรหัสผ่านสำหรับเว็บไซต์นี้"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:1044
+#: src/webenginepart.cpp:1045
 #, fuzzy, kde-format
 #| msgid "Remove all cached passwords for this site"
 msgid "Remove All Stored Passwords for This Site"
 msgstr "ลบแคชข้อมูลรหัสผ่านทั้งหมดของเว็บไซต์นี้ออกไป"
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:1048
+#: src/webenginepart.cpp:1049
 #, kde-format
 msgid "&Launch Wallet Manager"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart.cpp:1052
+#: src/webenginepart.cpp:1053
 #, kde-format
 msgid "&Close Wallet"
 msgstr "&ปิดกระเป๋าคุมข้อมูล"
@@ -1454,19 +1471,19 @@ msgid "HTML Toolbar"
 msgstr "แถบเครื่องมือ HTML"
 
 #. +> trunk6 stable6
-#: src/webenginepart_ext.cpp:296
+#: src/webenginepart_ext.cpp:307
 #, kde-format
 msgid "Print Document"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart_ext.cpp:513
+#: src/webenginepart_ext.cpp:524
 #, kde-format
 msgid "Add URL to Filter"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepart_ext.cpp:514
+#: src/webenginepart_ext.cpp:525
 #, kde-format
 msgid "Enter the URL:"
 msgstr ""
@@ -1546,27 +1563,27 @@ msgid "Couldn't open the file <tt>%1</tt> containing the user style sheet. The d
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepartdownloadmanager.cpp:309
+#: src/webenginepartdownloadmanager.cpp:305
 #, kde-format
 msgid "An error occurred while saving the file: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepartdownloadmanager.cpp:320
+#: src/webenginepartdownloadmanager.cpp:316
 #, kde-format
 msgctxt "Notification about downloading a file"
 msgid "Downloading"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepartdownloadmanager.cpp:321
+#: src/webenginepartdownloadmanager.cpp:317
 #, kde-format
 msgctxt "Source of a file being downloaded"
 msgid "Source"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/webenginepartdownloadmanager.cpp:322
+#: src/webenginepartdownloadmanager.cpp:318
 #, fuzzy, kde-format
 #| msgid "Description:"
 msgctxt "Destination of a file download"
@@ -1574,7 +1591,7 @@ msgid "Destination"
 msgstr "คำอธิบาย:"
 
 #. +> trunk6 stable6
-#: src/webenginepartdownloadmanager.cpp:344
+#: src/webenginepartdownloadmanager.cpp:340
 #, kde-format
 msgctxt "Finished saving URL"
 msgid "Saved %1 as %2"
@@ -1839,6 +1856,11 @@ msgid ""
 "<li><b>Autocompletion is enabled: </b>%6</li>"
 "</ul>"
 msgstr ""
+
+#, fuzzy, kde-format
+#~| msgid "Additional Information: %1"
+#~ msgid "Resubmit Information"
+#~ msgstr "ข้อมูลเพิ่มเติม: %1"
 
 #, fuzzy, kde-format
 #~| msgctxt "follow link despite of security warning"

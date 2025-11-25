@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kooka\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-29 11:16+0200\n"
+"POT-Creation-Date: 2025-10-29 08:40+0100\n"
 "PO-Revision-Date: 2010-05-28 21:41+0700\n"
 "Last-Translator: Phuwanat Sakornsakolpat <narachai@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -30,13 +30,13 @@ msgid "Your emails"
 msgstr "donga_n@yahoo.com,drrider@gmail.com,narachai@gmail.com"
 
 #. +> trunk6
-#: ../plugins/destination/abstractdestination.cpp:86
+#: ../plugins/destination/abstractdestination.cpp:87
 #, kde-format
 msgid "Remember this format"
 msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/abstractdestination.cpp:120
+#: ../plugins/destination/abstractdestination.cpp:121
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -46,92 +46,261 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/abstractdestination.cpp:160
-#: ../plugins/destination/application/destinationapplication.cpp:190
-#: kookaview.cpp:1177
+#: ../plugins/destination/abstractdestination.cpp:164
+#: ../plugins/destination/application/destinationapplication.cpp:163
+#: kookaview.cpp:1126
 #, kde-format
 msgid "Other..."
 msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/application/destinationapplication.cpp:94
+#: ../plugins/destination/application/destinationapplication.cpp:85
 #, kde-format
 msgid "Sending to application"
 msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/application/destinationapplication.cpp:96
+#: ../plugins/destination/application/destinationapplication.cpp:87
 #, kde-kuit-format
 msgid "Sending to <application>%1</application>"
 msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/application/destinationapplication.cpp:192
+#: ../plugins/destination/application/destinationapplication.cpp:165
 #, kde-format
 msgid "Application:"
 msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/application/destinationapplication.cpp:198
-#: ../plugins/destination/share/destinationshare.cpp:137
+#: ../plugins/destination/application/destinationapplication.cpp:171
+#: ../plugins/destination/share/destinationshare.cpp:99
 #, fuzzy, kde-format
 #| msgid "Image Information"
 msgid "Image format:"
 msgstr "ข้อมูลของภาพ"
 
 #. +> trunk6
-#: ../plugins/destination/clipboard/destinationclipboard.cpp:61
+#: ../plugins/destination/clipboard/destinationclipboard.cpp:62
 #, kde-format
 msgid "Copying image to clipboard"
 msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/gallery/destinationgallery.cpp:69
+#: ../plugins/destination/gallery/destinationgallery.cpp:105
 #, fuzzy, kde-kuit-format
 #| msgid "The orf %1 does not exist."
 msgid "<filename>%1</filename>"
 msgstr "ไม่มี orf %1"
 
 #. +> trunk6
-#: ../plugins/destination/print/destinationprint.cpp:78 kookaview.cpp:673
-#, fuzzy, kde-format
-#| msgid "Print %1"
-msgctxt "@title:window"
-msgid "Print Image"
-msgstr "พิมพ์ %1"
+#: ../plugins/destination/multipage/destinationmultipage.cpp:97
+#, kde-format
+msgid "Save Multipage"
+msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/print/destinationprint.cpp:89 kookaview.cpp:689
-#, kde-format
+#: ../plugins/destination/multipage/destinationmultipage.cpp:115
+#, fuzzy, kde-kuit-format
+#| msgid "The orf %1 does not exist."
 msgctxt "@info"
 msgid ""
-"Invalid print options were specified:\n"
-"\n"
-"%1"
-msgstr ""
+"Cannot save to file <filename>%1</filename><nl/>"
+"<message>%2</message>"
+msgstr "ไม่มี orf %1"
 
 #. +> trunk6
-#: ../plugins/destination/print/destinationprint.cpp:90 kookaview.cpp:690
+#: ../plugins/destination/multipage/destinationmultipage.cpp:117
+#: ../plugins/destination/multipage/multipagetiffwriter.cpp:128
+#, fuzzy, kde-format
+#| msgid "&Save Image..."
+msgid "Cannot Save File"
+msgstr "บันทึก&ภาพ..."
+
+#. +> trunk6
+#: ../plugins/destination/multipage/destinationmultipage.cpp:221
+#, fuzzy, kde-format
+#| msgid "Format"
+msgid "Output format:"
+msgstr "รูปแบบ"
+
+#. +> trunk6
+#: ../plugins/destination/multipage/destinationmultipage.cpp:223
 #, kde-format
-msgctxt "@title:window"
-msgid "Cannot Print"
+msgid "Page Setup..."
 msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/print/destinationprint.cpp:106
+#: ../plugins/destination/multipage/destinationmultipage.cpp:225
+#, kde-format
+msgctxt "@info:tootip"
+msgid "Set page size and layout"
+msgstr ""
+
+#. +> trunk6
+#: ../plugins/destination/multipage/destinationmultipage.cpp:242
+#, fuzzy, kde-kuit-format
+#| msgid "The orf %1 does not exist."
+msgid "Saving page %1 to <filename>%2</filename>"
+msgstr "ไม่มี orf %1"
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:62
+#, kde-format
+msgid "PDF Page Setup"
+msgstr ""
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:97
+#, fuzzy, kde-format
+#| msgid "Set Zoom..."
+msgid "Custom..."
+msgstr "ตั้งการย่อขยาย..."
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:99
+#, fuzzy, kde-format
+#| msgid "Image View"
+msgid "Page size:"
+msgstr "แสดงภาพ"
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:109
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:120
+#, fuzzy, kde-format
+#| msgid " mm"
+msgctxt "unit suffix for millimetres"
+msgid " mm"
+msgstr "มม."
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:113
+#, kde-format
+msgctxt "centered 'x' separator for height/width"
+msgid "×"
+msgstr ""
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:136
+#, kde-format
+msgctxt "@option:radio paper orientation"
+msgid "Portrait"
+msgstr ""
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:140
+#, kde-format
+msgctxt "@option:radio paper orientation"
+msgid "Landscape"
+msgstr ""
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:145
+#, kde-format
+msgid "Orientation:"
+msgstr ""
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipagetiffwriter.cpp:91
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot locate the <command section=\"1\">tiffcp</command> command,<nl/>"
+"ensure that it is available on <envvar>PATH</envvar>.<nl/>"
+"<nl/>"
+"The command is part of the <application>libtiff</application> package,<nl/>"
+"but it may need to be installed separately."
+msgstr ""
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipagetiffwriter.cpp:95
+#, kde-format
+msgid "Cannot find TIFF command"
+msgstr ""
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipagetiffwriter.cpp:126
+#, fuzzy, kde-kuit-format
+#| msgid "The orf %1 does not exist."
+msgctxt "@info"
+msgid ""
+"Cannot save page to file <filename>%1</filename><nl/>"
+"<message>%2</message>"
+msgstr "ไม่มี orf %1"
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipagetiffwriter.cpp:146
+#, fuzzy, kde-kuit-format
+#| msgid "The orf %1 does not exist."
+msgctxt "@info"
+msgid ""
+"Cannot append page to file <filename>%1</filename>, status %2<nl/>"
+"(see standard error for any message)"
+msgstr "ไม่มี orf %1"
+
+#. +> trunk6
+#: ../plugins/destination/multipage/multipagetiffwriter.cpp:148
+#, fuzzy, kde-format
+#| msgid "&Save Image..."
+msgid "Cannot Append Page"
+msgstr "บันทึก&ภาพ..."
+
+#. +> trunk6
+#: ../plugins/destination/null/destinationnull.cpp:65
+#, fuzzy, kde-format
+#| msgid "one item"
+#| msgid_plural "%1 items"
+msgid "Discarding image"
+msgstr "%1 รายการ"
+
+#. +> trunk6
+#: ../plugins/destination/print/destinationprint.cpp:110
 #, kde-format
 msgid "Print immediately with same settings"
 msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/print/destinationprint.cpp:116
+#: ../plugins/destination/print/destinationprint.cpp:120
 #, fuzzy, kde-format
 #| msgid "Print %1"
 msgid "Printing image"
 msgstr "พิมพ์ %1"
 
 #. +> trunk6
-#: ../plugins/destination/save/destinationsave.cpp:125
+#: ../plugins/destination/save/destinationsave.cpp:207
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>Automatically generating file names requires a template name.</para>"
+"<para>The file name <filename>%1</filename> should either contain a sequence<nl/>"
+"of '<icode>#</icode>' characters as a placeholder, or end with a sequence<nl/>"
+"of numeric digits before the file extension.</para>"
+msgstr ""
+
+#. +> trunk6
+#: ../plugins/destination/save/destinationsave.cpp:211
+#, kde-format
+msgid "Cannot Auto Generate"
+msgstr ""
+
+#. +> trunk6
+#: ../plugins/destination/save/destinationsave.cpp:253
+#, fuzzy, kde-kuit-format
+#| msgid "The orf %1 does not exist."
+msgctxt "@info"
+msgid "Cannot access remote location <filename>%1</filename>"
+msgstr "ไม่มี orf %1"
+
+#. +> trunk6
+#: ../plugins/destination/save/destinationsave.cpp:255
+#: ../plugins/destination/save/destinationsave.cpp:390
+#: ../plugins/destination/save/destinationsave.cpp:525
+#, fuzzy, kde-format
+#| msgid "&Save Image..."
+msgid "Cannot Save Image"
+msgstr "บันทึก&ภาพ..."
+
+#. +> trunk6
+#: ../plugins/destination/save/destinationsave.cpp:388
 #, fuzzy, kde-kuit-format
 #| msgid "The orf %1 does not exist."
 msgctxt "@info"
@@ -141,15 +310,7 @@ msgid ""
 msgstr "ไม่มี orf %1"
 
 #. +> trunk6
-#: ../plugins/destination/save/destinationsave.cpp:127
-#: ../plugins/destination/save/destinationsave.cpp:230
-#, fuzzy, kde-format
-#| msgid "&Save Image..."
-msgid "Cannot Save Image"
-msgstr "บันทึก&ภาพ..."
-
-#. +> trunk6
-#: ../plugins/destination/save/destinationsave.cpp:154
+#: ../plugins/destination/save/destinationsave.cpp:424
 #, fuzzy, kde-format
 #| msgid "one item"
 #| msgid_plural "%1 items"
@@ -157,21 +318,30 @@ msgid "Saving image"
 msgstr "%1 รายการ"
 
 #. +> trunk6
-#: ../plugins/destination/save/destinationsave.cpp:155
+#: ../plugins/destination/save/destinationsave.cpp:427
 #, fuzzy, kde-kuit-format
 #| msgid "The orf %1 does not exist."
 msgid "Saving to <filename>%1</filename>"
 msgstr "ไม่มี orf %1"
 
 #. +> trunk6
-#: ../plugins/destination/save/destinationsave.cpp:172 formatdialog.cpp:280
+#: ../plugins/destination/save/destinationsave.cpp:444 formatdialog.cpp:280
 #, fuzzy, kde-format
 #| msgid "Save &Scan Parameters"
 msgid "Save Scan"
 msgstr "บั&นทึกค่าพารามิเตอร์การสแกน"
 
 #. +> trunk6
-#: ../plugins/destination/save/destinationsave.cpp:228
+#: ../plugins/destination/save/destinationsave.cpp:516
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot save to <filename>%2</filename><nl/>"
+"Could not find an image format for the file name <filename>%1</filename>."
+msgstr ""
+
+#. +> trunk6
+#: ../plugins/destination/save/destinationsave.cpp:521
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -180,42 +350,50 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/share/destinationshare.cpp:143
+#: ../plugins/destination/share/destinationshare.cpp:105
 #, kde-format
 msgid "Share to:"
 msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/share/destinationshare.cpp:151
+#: ../plugins/destination/share/destinationshare.cpp:113
 #, kde-kuit-format
 msgid "<application>%1</application>"
 msgstr ""
 
 #. +> trunk6
-#: ../plugins/destination/share/destinationshare.cpp:217
+#: ../plugins/destination/share/destinationshare.cpp:269
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "The scan was shared to<nl/>"
-"<link>%1</link>"
-msgstr ""
+"<link>%2</link>"
+msgid_plural ""
+"The scans were shared to<nl/>"
+"<link>%2</link>"
+msgstr[0] ""
 
 #. +> trunk6
-#: ../plugins/destination/share/destinationshare.cpp:218
+#: ../plugins/destination/share/destinationshare.cpp:272
 #, fuzzy, kde-format
 #| msgid "Scan Parameter"
 msgid "Scan Shared"
 msgstr "ค่าพารามิเตอร์การสแกน"
 
 #. +> trunk6
-#: ../plugins/destination/share/destinationshare.cpp:227
-#, kde-kuit-format
+#: ../plugins/destination/share/destinationshare.cpp:282
+#, fuzzy, kde-kuit-format
+#| msgid "The orf %1 does not exist."
 msgctxt "@info"
 msgid ""
 "Cannot share the scanned image<nl/>"
 "<nl/>"
-"<message>%1</message>"
-msgstr ""
+"<message>%2</message>"
+msgid_plural ""
+"Cannot share the %1 scanned images<nl/>"
+"<nl/>"
+"<message>%2</message>"
+msgstr[0] "ไม่มี orf %1"
 
 #. +> trunk6
 #: ../plugins/ocr/abstractocrdialogue.cpp:101 kookapref.cpp:61
@@ -477,7 +655,7 @@ msgid "OCR Setup Error"
 msgstr "ปัญหาการวิเคราะห์"
 
 #. +> trunk6
-#: ../plugins/ocr/abstractocrengine.cpp:123 kookaview.cpp:787
+#: ../plugins/ocr/abstractocrengine.cpp:123 kookaview.cpp:764
 #, kde-format
 msgid "Configure OCR..."
 msgstr ""
@@ -1223,7 +1401,32 @@ msgid "Error updating image %1"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:65
+#: imgprintdialog.cpp:82
+#, fuzzy, kde-format
+#| msgid "Print %1"
+msgctxt "@title:window"
+msgid "Print Image"
+msgstr "พิมพ์ %1"
+
+#. +> trunk6
+#: imgprintdialog.cpp:105
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Invalid print options were specified:\n"
+"\n"
+"%1"
+msgstr ""
+
+#. +> trunk6
+#: imgprintdialog.cpp:106
+#, kde-format
+msgctxt "@title:window"
+msgid "Cannot Print"
+msgstr ""
+
+#. +> trunk6
+#: imgprintdialog.cpp:125
 #, fuzzy, kde-format
 #| msgid "&Image"
 msgctxt "@title:tab"
@@ -1231,14 +1434,14 @@ msgid "Image"
 msgstr "รูป&ภาพ"
 
 #. +> trunk6
-#: imgprintdialog.cpp:85
+#: imgprintdialog.cpp:145
 #, kde-format
 msgctxt "@title:group"
 msgid "Scaling"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:93
+#: imgprintdialog.cpp:153
 #, fuzzy, kde-format
 #| msgid "Scale to same size as on screen"
 msgctxt "@option:radio"
@@ -1246,49 +1449,49 @@ msgid "Size as on screen"
 msgstr "ปรับขนาดให้เท่ากับที่เห็นบนหน้าจอ"
 
 #. +> trunk6
-#: imgprintdialog.cpp:94
+#: imgprintdialog.cpp:154
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<div>Print at the same size as seen on screen, determined by the screen resolution.</div>"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:98
+#: imgprintdialog.cpp:158
 #, fuzzy, kde-format
 #| msgid "Screen resolution: %1 dpi"
 msgid "Screen resolution:"
 msgstr "ความละเอียดหน้าจอ: %1 dpi"
 
 #. +> trunk6
-#: imgprintdialog.cpp:103
+#: imgprintdialog.cpp:163
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<div>This is the current screen resolution. It cannot be changed here.</div>"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:107
+#: imgprintdialog.cpp:167
 #, kde-format
 msgctxt "@option:radio"
 msgid "Size as scanned"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:108
+#: imgprintdialog.cpp:168
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<div>Print at a size determined by the scan resolution. The resolution is saved with the image and used if available; if it is not, it can be entered here.</div>"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:112
+#: imgprintdialog.cpp:172
 #, fuzzy, kde-format
 #| msgid "Scan resolution (dpi) "
 msgid "Scan resolution:"
 msgstr "ความละเอียดหน้าจอ (dpi)"
 
 #. +> trunk6
-#: imgprintdialog.cpp:117
+#: imgprintdialog.cpp:177
 #, fuzzy, kde-format
 #| msgid " dpi"
 msgctxt "@item:intext abbreviation for 'dots per inch'"
@@ -1296,14 +1499,14 @@ msgid " dpi"
 msgstr "dpi"
 
 #. +> trunk6
-#: imgprintdialog.cpp:118
+#: imgprintdialog.cpp:178
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<div>This is the scan resolution as saved with the image. It can be changed if necessary.</div>"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:125
+#: imgprintdialog.cpp:185
 #, fuzzy, kde-format
 #| msgid "&Dust size"
 msgctxt "@option:radio"
@@ -1311,7 +1514,7 @@ msgid "Custom size"
 msgstr "ขนาดของฝุ่น"
 
 #. +> trunk6
-#: imgprintdialog.cpp:126
+#: imgprintdialog.cpp:186
 #, fuzzy, kde-format
 #| msgid "Set the print size yourself in the dialog below. The image is centered on the paper."
 msgctxt "@info:tooltip"
@@ -1319,7 +1522,7 @@ msgid "<div>Print scaled to the specified size. The image is centered on the pap
 msgstr "ตั้งขนาดการพิมพ์เองในกล่องด้านล่าง โดยรูปภาพจะอยู่กึ่งกลางหน้ากระดาษ"
 
 #. +> trunk6
-#: imgprintdialog.cpp:130
+#: imgprintdialog.cpp:190
 #, fuzzy, kde-format
 #| msgid "Image width:"
 msgctxt "@label:spinbox"
@@ -1327,7 +1530,7 @@ msgid "Image width:"
 msgstr "ความกว้างของภาพ:"
 
 #. +> trunk6
-#: imgprintdialog.cpp:135 imgprintdialog.cpp:149
+#: imgprintdialog.cpp:195 imgprintdialog.cpp:209
 #, fuzzy, kde-format
 #| msgid " mm"
 msgctxt "@item:intext abbreviation for 'millimetres'"
@@ -1335,14 +1538,14 @@ msgid " mm"
 msgstr "มม."
 
 #. +> trunk6
-#: imgprintdialog.cpp:136
+#: imgprintdialog.cpp:196
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<div>The width at which the image will be printed.</div>"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:144
+#: imgprintdialog.cpp:204
 #, fuzzy, kde-format
 #| msgid "Image height:"
 msgctxt "@label:spinbox"
@@ -1350,28 +1553,28 @@ msgid "Image height:"
 msgstr "ความสูงของภาพ:"
 
 #. +> trunk6
-#: imgprintdialog.cpp:150
+#: imgprintdialog.cpp:210
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<div>The height at which the image will be printed.</div>"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:159
+#: imgprintdialog.cpp:219
 #, kde-format
 msgctxt "@option:radio"
 msgid "Fit to page"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:160
+#: imgprintdialog.cpp:220
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<div>Print using as much of the available space on the paper as possible. The aspect ratio can be maintained.</div>"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:171
+#: imgprintdialog.cpp:231
 #, fuzzy, kde-format
 #| msgid "Startup"
 msgctxt "@title:group"
@@ -1379,7 +1582,7 @@ msgid "Other Options"
 msgstr "เริ่มการทำงาน"
 
 #. +> trunk6
-#: imgprintdialog.cpp:175
+#: imgprintdialog.cpp:235
 #, fuzzy, kde-format
 #| msgid "Maintain aspect ratio"
 msgctxt "@option:check"
@@ -1387,14 +1590,14 @@ msgid "Maintain aspect ratio"
 msgstr "คงสัดส่วนภาพเอาไว้"
 
 #. +> trunk6
-#: imgprintdialog.cpp:176
+#: imgprintdialog.cpp:236
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<div>Adjust the height or width to maintain the original aspect ratio of the printed image.</div>"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:182
+#: imgprintdialog.cpp:245
 #, fuzzy, kde-format
 #| msgid "Generate low resolution PostScript (fast draft print)"
 msgctxt "@option:check"
@@ -1402,49 +1605,49 @@ msgid "Low resolution (fast draft print)"
 msgstr "สร้าง PostScript ความละเอียดต่ำ (พิมพ์แบบร่างอย่างรวดเร็ว)"
 
 #. +> trunk6
-#: imgprintdialog.cpp:183
+#: imgprintdialog.cpp:246
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<div>Print at as low a resolution as possible. This may not work as intended on all printers.</div>"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:189
+#: imgprintdialog.cpp:252
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Cut marks:"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:193
+#: imgprintdialog.cpp:256
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "None"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:194
+#: imgprintdialog.cpp:257
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "For multiple pages"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:195
+#: imgprintdialog.cpp:258
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Always"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:196
+#: imgprintdialog.cpp:259
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<div>Select whether cut/join marks are printed. The marks will reduce the available printable area.</div>"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:207
+#: imgprintdialog.cpp:270
 #, fuzzy, kde-format
 #| msgid "Print %1"
 msgctxt "@title:group"
@@ -1452,7 +1655,7 @@ msgid "Print Layout"
 msgstr "พิมพ์ %1"
 
 #. +> trunk6
-#: imgprintdialog.cpp:212
+#: imgprintdialog.cpp:275
 #, fuzzy, kde-format
 #| msgid "Image View"
 msgctxt "@label:textbox"
@@ -1460,7 +1663,7 @@ msgid "Image size:"
 msgstr "แสดงภาพ"
 
 #. +> trunk6
-#: imgprintdialog.cpp:215
+#: imgprintdialog.cpp:278
 #, fuzzy, kde-format
 #| msgid "%1 x %2"
 msgctxt "@info:status width,height pixels"
@@ -1468,14 +1671,14 @@ msgid "%1 x %2 pix"
 msgstr "%1 x %2"
 
 #. +> trunk6
-#: imgprintdialog.cpp:220
+#: imgprintdialog.cpp:283
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Available print area:"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:227
+#: imgprintdialog.cpp:290
 #, fuzzy, kde-format
 #| msgid "Image Print Size"
 msgctxt "@label:textbox"
@@ -1483,14 +1686,14 @@ msgid "Image print area:"
 msgstr "ขนาดการพิมพ์ภาพ"
 
 #. +> trunk6
-#: imgprintdialog.cpp:234
+#: imgprintdialog.cpp:297
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Pages required:"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:297
+#: imgprintdialog.cpp:360
 #, fuzzy, kde-format
 #| msgid " dpi"
 msgctxt "@info:status"
@@ -1498,19 +1701,19 @@ msgid "%1 dpi"
 msgstr "dpi"
 
 #. +> trunk6
-#: imgprintdialog.cpp:314
+#: imgprintdialog.cpp:377
 #, kde-format
 msgid "The scan resolution must be specified for scaling to it."
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:319
+#: imgprintdialog.cpp:382
 #, kde-format
 msgid "A valid size must be specified for custom scaling. One or both of the specified dimensions is zero."
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:397 imgprintdialog.cpp:401
+#: imgprintdialog.cpp:460 imgprintdialog.cpp:464
 #, fuzzy, kde-format
 #| msgid "%1 x %2"
 msgctxt "@info:status width,height millimetres"
@@ -1518,14 +1721,14 @@ msgid "%1 x %2 mm"
 msgstr "%1 x %2"
 
 #. +> trunk6
-#: imgprintdialog.cpp:405
+#: imgprintdialog.cpp:468
 #, kde-format
 msgctxt "@info:status total"
 msgid "%1"
 msgstr ""
 
 #. +> trunk6
-#: imgprintdialog.cpp:407
+#: imgprintdialog.cpp:470
 #, fuzzy, kde-format
 #| msgid "%1 x %2"
 msgctxt "@info:status total(rows,cols)"
@@ -1571,114 +1774,114 @@ msgstr ""
 "โปรดตรวจสอบสิทธิ์ของคุณก่อน"
 
 #. +> trunk6
-#: imgsaver.cpp:328
+#: imgsaver.cpp:331
 #, fuzzy, kde-format
 #| msgid "palleted color image (16 or 24 bit depth)"
 msgid "indexed color image (up to 8 bit depth)"
 msgstr "จานสีของภาพ (ความละเอียดสี 16 หรือ 24 บิต)"
 
 #. +> trunk6
-#: imgsaver.cpp:332
+#: imgsaver.cpp:335
 #, fuzzy, kde-format
 #| msgid "palleted gray scale image (16 bit depth)"
 msgid "gray scale image (up to 8 bit depth)"
 msgstr "จานสีระดับสีเทาของภาพ (ความละเอียดสี 16 บิต)"
 
 #. +> trunk6
-#: imgsaver.cpp:336
+#: imgsaver.cpp:339
 #, kde-format
 msgid "lineart image (black and white, 1 bit depth)"
 msgstr "ภาพแบบลายเส้น (ขาวดำ ความละเอียดสี 1 บิต)"
 
 #. +> trunk6
-#: imgsaver.cpp:340
+#: imgsaver.cpp:343
 #, fuzzy, kde-format
 #| msgid "palleted color image (16 or 24 bit depth)"
 msgid "high/true color image (more than 8 bit depth)"
 msgstr "จานสีของภาพ (ความละเอียดสี 16 หรือ 24 บิต)"
 
 #. +> trunk6
-#: imgsaver.cpp:344
+#: imgsaver.cpp:347
 #, fuzzy, kde-format
 #| msgid "Unknown image type"
 msgid "unknown image type %1"
 msgstr "ประเภทของภาพที่ไม่รู้จัก"
 
 #. +> trunk6
-#: imgsaver.cpp:366
+#: imgsaver.cpp:369
 #, kde-format
 msgid "Save OK"
 msgstr ""
 
 #. +> trunk6
-#: imgsaver.cpp:368
+#: imgsaver.cpp:371
 #, fuzzy, kde-format
 #| msgid "Permission denied on file %1."
 msgid "Permission denied"
 msgstr "ไม่มีสิทธิ์ในแฟ้ม %1"
 
 #. +> trunk6
-#: imgsaver.cpp:370
+#: imgsaver.cpp:373
 #, fuzzy, kde-format
 #| msgid "Filename"
 msgid "Bad file name"
 msgstr "ชื่อแฟ้ม"
 
 #. +> trunk6
-#: imgsaver.cpp:372
+#: imgsaver.cpp:375
 #, fuzzy, kde-format
 #| msgid " no space on device "
 msgid "No space left on device"
 msgstr " ไม่มีพื้นที่ว่างพอบนอุปกรณ์ "
 
 #. +> trunk6
-#: imgsaver.cpp:374
+#: imgsaver.cpp:377
 #, fuzzy, kde-format
 #| msgid " could not write image format "
 msgid "Cannot write image format '%1'"
 msgstr " ไม่สามารถเขียนภาพด้วยรูปแบบ "
 
 #. +> trunk6
-#: imgsaver.cpp:376
+#: imgsaver.cpp:379
 #, fuzzy, kde-format
 #| msgid " can not write file using that protocol "
 msgid "Cannot write using protocol '%1'"
 msgstr " ไม่สามารถเขียนแฟ้มโดยการใช้โปรโตคอลนี้ "
 
 #. +> trunk6
-#: imgsaver.cpp:378
+#: imgsaver.cpp:381
 #, fuzzy, kde-format
 #| msgid " user canceled saving "
 msgid "User cancelled saving"
 msgstr " ผู้ใช้ยกเลิกการบันทึก "
 
 #. +> trunk6
-#: imgsaver.cpp:380
+#: imgsaver.cpp:383
 #, kde-format
 msgid "Cannot create directory"
 msgstr ""
 
 #. +> trunk6
-#: imgsaver.cpp:382
+#: imgsaver.cpp:385
 #, kde-format
 msgid "Save failed"
 msgstr ""
 
 #. +> trunk6
-#: imgsaver.cpp:384
+#: imgsaver.cpp:387
 #, fuzzy, kde-format
 #| msgid "Scan Parameter"
 msgid "Bad parameter"
 msgstr "ค่าพารามิเตอร์การสแกน"
 
 #. +> trunk6
-#: imgsaver.cpp:386
+#: imgsaver.cpp:389
 #, kde-format
 msgid "Unknown status %1"
 msgstr ""
 
 #. +> trunk6
-#: imgsaver.cpp:409
+#: imgsaver.cpp:412
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "The filename you supplied has no file extension.\n"
@@ -1694,55 +1897,55 @@ msgstr ""
 "จะให้ใส่นามสกุลที่ถูกต้องโดยอัตโนมัติเลยหรือไม่? "
 
 #. +> trunk6
-#: imgsaver.cpp:412
+#: imgsaver.cpp:415
 #, kde-format
 msgid "Extension Missing"
 msgstr "ส่วนนามสกุลหายไป"
 
 #. +> trunk6
-#: imgsaver.cpp:413
+#: imgsaver.cpp:416
 #, kde-format
 msgid "Add Extension"
 msgstr "เพิ่มนามสกุล"
 
 #. +> trunk6
-#: imgsaver.cpp:414
+#: imgsaver.cpp:417
 #, kde-format
 msgid "Do Not Add"
 msgstr "ไม่ต้องเพิ่ม"
 
 #. +> trunk6
-#: imgsaver.cpp:439
+#: imgsaver.cpp:442
 #, kde-format
 msgid "Target already exists"
 msgstr ""
 
 #. +> trunk6
-#: imgsaver.cpp:452
+#: imgsaver.cpp:455
 #, kde-format
 msgid "Unable to copy the file"
 msgstr ""
 
 #. +> trunk6
-#: imgsaver.cpp:453
+#: imgsaver.cpp:456
 #, kde-format
 msgid "Unable to rename the file"
 msgstr ""
 
 #. +> trunk6
-#: imgsaver.cpp:454
+#: imgsaver.cpp:457
 #, kde-format
 msgid "Error copying file"
 msgstr ""
 
 #. +> trunk6
-#: imgsaver.cpp:455
+#: imgsaver.cpp:458
 #, kde-format
 msgid "Error renaming file"
 msgstr ""
 
 #. +> trunk6
-#: imgsaver.cpp:456
+#: imgsaver.cpp:459
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1894,7 +2097,7 @@ msgid "Select Scan Device..."
 msgstr "เลือกอุปกรณ์สำหรับการสแกน"
 
 #. +> trunk6
-#: kooka.cpp:283 kookaview.cpp:546
+#: kooka.cpp:283 kookaview.cpp:542
 #, fuzzy, kde-format
 #| msgid "Select Scan Device"
 msgid "Add Scan Device..."
@@ -2050,13 +2253,13 @@ msgid "Image Gallery and Thumbnail View"
 msgstr "มุมมองภาพย่อ"
 
 #. +> trunk6
-#: kookapref.cpp:61 kookaview.cpp:277
+#: kookapref.cpp:61 kookaview.cpp:273
 #, kde-format
 msgid "OCR"
 msgstr "OCR"
 
 #. +> trunk6
-#: kookascanparams.cpp:68
+#: kookascanparams.cpp:122
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2069,14 +2272,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: kookascanparams.cpp:114
+#: kookascanparams.cpp:168
 #, fuzzy, kde-format
 #| msgid "Scan resolution (dpi) "
 msgid "Scan &destination:"
 msgstr "ความละเอียดหน้าจอ (dpi)"
 
 #. +> trunk6
-#: kookascanparams.cpp:150
+#: kookascanparams.cpp:204
 #, fuzzy, kde-kuit-format
 #| msgid "-No format selected-"
 msgctxt "@info"
@@ -2084,7 +2287,7 @@ msgid "No destination selected"
 msgstr "-ยังไม่ได้เลือกรูปแบบ-"
 
 #. +> trunk6
-#: kookascanparams.cpp:160
+#: kookascanparams.cpp:214
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Unable to load plugin '%1'"
@@ -2473,49 +2676,49 @@ msgid "Scanning Toolbar"
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:200
+#: kookaview.cpp:197
 #, kde-format
 msgid "Image View"
 msgstr "แสดงภาพ"
 
 #. +> trunk6
-#: kookaview.cpp:250
+#: kookaview.cpp:246
 #, kde-format
 msgid "Scan Preview"
 msgstr "แสดงตัวอย่าง"
 
 #. +> trunk6
-#: kookaview.cpp:260
+#: kookaview.cpp:256
 #, kde-format
 msgid "OCR results will appear here"
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:271
+#: kookaview.cpp:267
 #, kde-format
 msgid "Scan"
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:274 kookaview.cpp:560 kookaview.cpp:579 scangallery.cpp:122
+#: kookaview.cpp:270 kookaview.cpp:556 kookaview.cpp:575 scangallery.cpp:122
 #, kde-format
 msgid "Gallery"
 msgstr "คลังภาพ"
 
 #. +> trunk6
-#: kookaview.cpp:326
+#: kookaview.cpp:322
 #, kde-format
 msgid "User specified"
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:327
+#: kookaview.cpp:323
 #, kde-format
 msgid "on command line"
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:461
+#: kookaview.cpp:457
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2529,14 +2732,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:516
+#: kookaview.cpp:512
 #, fuzzy, kde-format
 #| msgid "Select Scan Device"
 msgid "Add Scan Device"
 msgstr "เลือกอุปกรณ์สำหรับการสแกน"
 
 #. +> trunk6
-#: kookaview.cpp:536
+#: kookaview.cpp:532
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2548,54 +2751,54 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:582
+#: kookaview.cpp:578
 #, kde-format
 msgid "No scanner connected"
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:641
+#: kookaview.cpp:637
 #, fuzzy, kde-format
 #| msgid "Font Type Selection"
 msgid "No selection"
 msgstr "การเลือกชนิดแบบอักษร"
 
 #. +> trunk6
-#: kookaview.cpp:645
+#: kookaview.cpp:641
 #, fuzzy, kde-format
 #| msgid "Gallery Folders"
 msgid "Gallery folder %1"
 msgstr "โฟลเดอร์คลังภาพ"
 
 #. +> trunk6
-#: kookaview.cpp:645
+#: kookaview.cpp:641
 #, fuzzy, kde-format
 #| msgid "Loading %1"
 msgid "Gallery image %1"
 msgstr "กำลังโหลด %1"
 
 #. +> trunk6
-#: kookaview.cpp:710
+#: kookaview.cpp:687
 #, kde-format
 msgid "Starting OCR on selection"
 msgstr "กำลังเริ่มการทำ OCR บนส่วนที่เลือก"
 
 #. +> trunk6
-#: kookaview.cpp:716
+#: kookaview.cpp:693
 #, fuzzy, kde-format
 #| msgid "Starting OCR on the entire image"
 msgid "Starting OCR on the image"
 msgstr "กำลังเริ่มการทำ OCR บนรูปภาพ"
 
 #. +> trunk6
-#: kookaview.cpp:723
+#: kookaview.cpp:700
 #, fuzzy, kde-format
 #| msgid "GOCR engine"
 msgid "OCR File"
 msgstr "โปรแกรมประมวลผล GOCR"
 
 #. +> trunk6
-#: kookaview.cpp:733
+#: kookaview.cpp:710
 #, fuzzy, kde-kuit-format
 #| msgid "The orf %1 does not exist."
 msgctxt "@info"
@@ -2605,13 +2808,13 @@ msgid ""
 msgstr "ไม่มี orf %1"
 
 #. +> trunk6
-#: kookaview.cpp:735
+#: kookaview.cpp:712
 #, kde-format
 msgid "Cannot Read OCR File"
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:739
+#: kookaview.cpp:716
 #, fuzzy, kde-kuit-format
 #| msgid "The orf %1 does not exist."
 msgctxt "@info"
@@ -2619,33 +2822,33 @@ msgid "Starting OCR on file <filename>%1</filename>"
 msgstr "ไม่มี orf %1"
 
 #. +> trunk6
-#: kookaview.cpp:755
+#: kookaview.cpp:732
 #, fuzzy, kde-format
 #| msgid "GOCR engine"
 msgid "OCR finished"
 msgstr "โปรแกรมประมวลผล GOCR"
 
 #. +> trunk6
-#: kookaview.cpp:762
+#: kookaview.cpp:739
 #, kde-format
 msgid "There is no OCR result text to spell check."
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:763
+#: kookaview.cpp:740
 #, kde-format
 msgid "OCR Spell Check not possible"
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:768
+#: kookaview.cpp:745
 #, fuzzy, kde-format
 #| msgid "Spell-Check"
 msgid "OCR Spell Check"
 msgstr "ตรวจการสะกดคำ"
 
 #. +> trunk6
-#: kookaview.cpp:784
+#: kookaview.cpp:761
 #, fuzzy, kde-format
 #| msgid ""
 #| "This version of Kooka was not compiled with KADMOS support.\n"
@@ -2658,19 +2861,19 @@ msgstr ""
 "กรุณาเลือกโปรแกรมประมวลผลอื่นในหน้าต่างตัวเลือกของ Kooka"
 
 #. +> trunk6
-#: kookaview.cpp:786
+#: kookaview.cpp:763
 #, kde-format
 msgid "OCR Not Configured"
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:795
+#: kookaview.cpp:772
 #, kde-format
 msgid "Cannot load OCR plugin '%1'"
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:903
+#: kookaview.cpp:861
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2684,34 +2887,34 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: kookaview.cpp:953
+#: kookaview.cpp:902
 #, kde-format
 msgid "Create new image from selection"
 msgstr "สร้างรูปภาพใหม่จากส่วนที่เลือก"
 
 #. +> trunk6
-#: kookaview.cpp:962
+#: kookaview.cpp:911
 #, fuzzy, kde-format
 #| msgid "Cannot save image, it is write protected."
 msgid "Cannot transform, image is read-only"
 msgstr "ไม่สามารถบันทึกภาพได้ เนื่องจากมีการป้องกันการเขียน"
 
 #. +> trunk6
-#: kookaview.cpp:1015
+#: kookaview.cpp:964
 #, fuzzy, kde-format
 #| msgid "Loading %1"
 msgid "Loaded image %1"
 msgstr "กำลังโหลด %1"
 
 #. +> trunk6
-#: kookaview.cpp:1016
+#: kookaview.cpp:965
 #, fuzzy, kde-format
 #| msgid "&Unload Image"
 msgid "Unloaded image"
 msgstr "&ยกเลิกการโหลดรูปภาพ"
 
 #. +> trunk6
-#: kookaview.cpp:1033
+#: kookaview.cpp:982
 #, fuzzy, kde-format
 #| msgid "Loading %1"
 msgid "Loading %1..."
@@ -2752,7 +2955,7 @@ msgstr ""
 #. +> trunk6
 #: main.cpp:71
 #, kde-format
-msgid "(C) 2000-2018, the Kooka developers and contributors"
+msgid "(C) 2000-2024, the Kooka developers and contributors"
 msgstr ""
 
 #. +> trunk6
@@ -2952,66 +3155,66 @@ msgid "Enable Messages/Questions"
 msgstr ""
 
 #. +> trunk6
-#: prefspages.cpp:152
+#: prefspages.cpp:153
 #, fuzzy, kde-format
 #| msgid "Kooka must be restarted for changes in these options to take effect."
 msgid "%1 must be restarted for these settings to take effect."
 msgstr "หากต้องการให้ตัวเลือกต่าง ๆ มีผลต้องเริ่มเปิด Kooka ใหม่"
 
 #. +> trunk6
-#: prefspages.cpp:235
+#: prefspages.cpp:236
 #, fuzzy, kde-format
 #| msgid "Gallery"
 msgid "Image Gallery"
 msgstr "คลังภาพ"
 
 #. +> trunk6
-#: prefspages.cpp:249
+#: prefspages.cpp:250
 #, fuzzy, kde-format
 #| msgid "Not found"
 msgid "Not shown"
 msgstr "ไม่พบ"
 
 #. +> trunk6
-#: prefspages.cpp:250
+#: prefspages.cpp:251
 #, kde-format
 msgid "At top"
 msgstr ""
 
 #. +> trunk6
-#: prefspages.cpp:251
+#: prefspages.cpp:252
 #, kde-format
 msgid "At bottom"
 msgstr ""
 
 #. +> trunk6
-#: prefspages.cpp:266
+#: prefspages.cpp:267
 #, kde-format
 msgid "Thumbnail View"
 msgstr "มุมมองภาพย่อ"
 
 #. +> trunk6
-#: prefspages.cpp:380
+#: prefspages.cpp:381
 #, kde-format
 msgid "None"
 msgstr ""
 
 #. +> trunk6
-#: prefspages.cpp:392
+#: prefspages.cpp:393
 #, fuzzy, kde-format
 #| msgid "GOCR engine"
 msgid "OCR Engine:"
 msgstr "โปรแกรมประมวลผล GOCR"
 
 #. +> trunk6
-#: prefspages.cpp:398
+#: prefspages.cpp:399
 #, fuzzy, kde-format
 #| msgid "OCR Engine to Use"
 msgid "OCR Engine Settings..."
 msgstr "โปรแกรมประมวลผล OCR ที่จะใช้"
 
 #. +> trunk6
-#: prefspages.cpp:444
+#: prefspages.cpp:445
 #, fuzzy, kde-format
 #| msgid ""
 #| "This version of Kooka was not compiled with KADMOS support.\n"
@@ -3022,7 +3225,7 @@ msgstr ""
 "กรุณาเลือกโปรแกรมประมวลผลอื่นในหน้าต่างตัวเลือกของ Kooka"
 
 #. +> trunk6
-#: prefspages.cpp:452
+#: prefspages.cpp:453
 #, fuzzy, kde-format
 #| msgid "Unknown image type"
 msgid "Unknown engine '%1'."
@@ -3163,7 +3366,7 @@ msgid "Incoming/"
 msgstr "ข้อมูลเข้า/"
 
 #. +> trunk6
-#: scangallery.cpp:886
+#: scangallery.cpp:891
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3173,21 +3376,21 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: scangallery.cpp:889
+#: scangallery.cpp:894
 #, fuzzy, kde-format
 #| msgid "Save Error"
 msgid "Image Save Error"
 msgstr "การบันทึกผิดพลาด"
 
 #. +> trunk6
-#: scangallery.cpp:967
+#: scangallery.cpp:972
 #, fuzzy, kde-format
 #| msgid "All Files"
 msgid "All Files (*)"
 msgstr "แฟ้มทั้งหมด"
 
 #. +> trunk6
-#: scangallery.cpp:970
+#: scangallery.cpp:975
 #, fuzzy, kde-format
 #| msgid "&Import Image..."
 msgctxt "@title:window"
@@ -3195,13 +3398,13 @@ msgid "Export Image"
 msgstr "นำเข้าภา&พ..."
 
 #. +> trunk6
-#: scangallery.cpp:995
+#: scangallery.cpp:1000
 #, kde-format
 msgid "Import Image File to Gallery"
 msgstr "นำเข้าแฟ้มรูปภาพไปยังคลังภาพ"
 
 #. +> trunk6
-#: scangallery.cpp:1110
+#: scangallery.cpp:1115
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Do you really want to delete this image?\n"
@@ -3216,7 +3419,7 @@ msgstr ""
 "ซึ่งมันจะไม่สามารถกู้คืนกลับมาได้ !"
 
 #. +> trunk6
-#: scangallery.cpp:1115
+#: scangallery.cpp:1120
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Do you really want to delete this image?\n"
@@ -3231,14 +3434,14 @@ msgstr ""
 "ซึ่งมันจะไม่สามารถกู้คืนกลับมาได้ !"
 
 #. +> trunk6
-#: scangallery.cpp:1122
+#: scangallery.cpp:1127
 #, fuzzy, kde-format
 #| msgid "Delete Collection Item"
 msgid "Delete Gallery Item"
 msgstr "ลบรายการที่สะสม"
 
 #. +> trunk6
-#: scangallery.cpp:1135
+#: scangallery.cpp:1140
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3248,26 +3451,26 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: scangallery.cpp:1138
+#: scangallery.cpp:1143
 #, kde-format
 msgid "File Delete Error"
 msgstr ""
 
 #. +> trunk6
-#: scangallery.cpp:1170
+#: scangallery.cpp:1175
 #, kde-format
 msgid "New Folder"
 msgstr "สร้างโฟลเดอร์ใหม่"
 
 #. +> trunk6
-#: scangallery.cpp:1171
+#: scangallery.cpp:1176
 #, fuzzy, kde-format
 #| msgid "Please enter a name for the new folder:"
 msgid "Name for the new folder:"
 msgstr "โปรดเติมชื่อสำหรับโฟลเดอร์ใหม่:"
 
 #. +> trunk6
-#: scangallery.cpp:1194
+#: scangallery.cpp:1199
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3277,7 +3480,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: scangallery.cpp:1196
+#: scangallery.cpp:1201
 #, kde-format
 msgid "Folder Create Error"
 msgstr ""
@@ -3348,7 +3551,7 @@ msgid "No preset set selected."
 msgstr "-ยังไม่ได้เลือกรูปแบบ-"
 
 #. +> trunk6
-#: scanpresetsdialog.cpp:212
+#: scanpresetsdialog.cpp:211
 #, fuzzy, kde-format
 #| msgid "%1 x %2"
 msgctxt "New set name, %1=scan mode, %2=resolution"
@@ -3356,7 +3559,7 @@ msgid "%1, %2 dpi"
 msgstr "%1 x %2"
 
 #. +> trunk6
-#: scanpresetsdialog.cpp:289
+#: scanpresetsdialog.cpp:288
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Do you really want to delete the folder %1\n"
@@ -3368,7 +3571,7 @@ msgstr ""
 "และทุกรูปภาพที่อยู่ข้างในจริงหรือไม่ ?"
 
 #. +> trunk6
-#: scanpresetsdialog.cpp:290
+#: scanpresetsdialog.cpp:289
 #, fuzzy, kde-format
 #| msgid "Scan Parameter"
 msgid "Delete Scan Preset Set"
@@ -3418,50 +3621,50 @@ msgid "Scan: %1"
 msgstr ""
 
 #. +> trunk6
-#: thumbview.cpp:98
+#: thumbview.cpp:97
 #, kde-format
 msgid "Thumbnails"
 msgstr "แสดงภาพย่อ"
 
 #. +> trunk6
-#: thumbview.cpp:109
+#: thumbview.cpp:108
 #, kde-format
 msgid "Preview Size"
 msgstr ""
 
 #. +> trunk6
-#: thumbview.cpp:333
+#: thumbview.cpp:332
 #, kde-format
 msgid "Very Large"
 msgstr ""
 
 #. +> trunk6
-#: thumbview.cpp:334
+#: thumbview.cpp:333
 #, fuzzy, kde-format
 #| msgid "Image"
 msgid "Large"
 msgstr "ภาพ"
 
 #. +> trunk6
-#: thumbview.cpp:335
+#: thumbview.cpp:334
 #, kde-format
 msgid "Medium"
 msgstr ""
 
 #. +> trunk6
-#: thumbview.cpp:336
+#: thumbview.cpp:335
 #, kde-format
 msgid "Small"
 msgstr ""
 
 #. +> trunk6
-#: thumbview.cpp:337
+#: thumbview.cpp:336
 #, kde-format
 msgid "Very Small"
 msgstr ""
 
 #. +> trunk6
-#: thumbview.cpp:338
+#: thumbview.cpp:337
 #, kde-format
 msgid "Tiny"
 msgstr ""

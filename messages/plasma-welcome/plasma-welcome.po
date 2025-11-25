@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-07 08:29+0200\n"
+"POT-Creation-Date: 2025-11-04 11:38+0100\n"
 "PO-Revision-Date: 2025-03-26 21:59+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -129,21 +129,21 @@ msgid "Unknown module %1 requested"
 msgstr "ไม่ทราบโมดูล %1 ที่ถูกขอ"
 
 #. +> trunk6 stable6
-#: src/public/controller.cpp:43 src/public/utils.cpp:43
+#: src/public/controller.cpp:45 src/public/utils.cpp:45
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "The command <command>%1</command> could not be found."
 msgstr "ไม่พบเจอคำสั่ง <command>%1</command>"
 
 #. +> trunk6 stable6
-#: src/public/controller.cpp:76 src/public/utils.cpp:76
+#: src/public/controller.cpp:78 src/public/utils.cpp:78
 #, kde-format
 msgctxt "@info:progress"
 msgid "No error message provided"
 msgstr "ไม่มีข้อความผิดพลาด"
 
 #. +> trunk6 stable6
-#: src/public/controller.cpp:80 src/public/utils.cpp:80
+#: src/public/controller.cpp:82 src/public/utils.cpp:82
 #, kde-kuit-format
 msgctxt "@info:progress %1 is the command being run, and %2 is the human-readable error text returned by the command"
 msgid "The command <command>%1</command> failed: %2"
@@ -289,8 +289,10 @@ msgstr "เดสก์ท็อป 1"
 
 #. +> trunk6 stable6
 #: src/qml/mock/MockPlasmoid.qml:151 src/qml/pages/SimpleByDefault.qml:210
-#, kde-format
-msgctxt "@info:placeholder Shown when there is insufficent width"
+#, fuzzy, kde-format
+#| msgctxt "@info:placeholder Shown when there is insufficent width"
+#| msgid "Expand the window"
+msgctxt "@info:placeholder Shown when there is insufficient width"
 msgid "Expand the window"
 msgstr "ขยายหน้าต่าง"
 
@@ -357,7 +359,7 @@ msgstr ""
 "กดไอคอนใดข้างล่างเพื่อลอง"
 
 #. +> trunk6 stable6 stable5
-#: src/qml/pages/Discover.qml:111
+#: src/qml/pages/Discover.qml:103
 #, kde-format
 msgctxt "@action:button %1 is the name of an app"
 msgid "Show %1 in Discover"
@@ -664,7 +666,7 @@ msgctxt "@info:window"
 msgid "Powerful When Needed"
 msgstr "ทรงพลังเมื่อจำเป็น"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/PowerfulWhenNeeded.qml:19
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:usagetip"
@@ -676,37 +678,19 @@ msgid ""
 "Click the cards below to see just a smattering of what it can do for you:"
 msgstr "Plasma เป็นสภาพแวดล้อมที่เต็มไปด้วยฟีเจอร์ที่เยอะมาก ๆ ออกแบบมาให้ทุกมีประสิทธิผลอย่างที่สุด นี้่คือรายการตัวอย่างเล็ก ๆ น้อย ๆ ว่า Plasma สามารถทำอะไรได้:"
 
-#. +> stable6
-#: src/qml/pages/PowerfulWhenNeeded.qml:17
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:usagetip"
-#| msgid "Plasma is an extremely feature-rich environment, designed to super-charge your productivity! Here is just a smattering of the things it can do for you:"
-msgctxt "@info:usagetip"
-msgid ""
-"Plasma is an extremely feature-rich environment, designed to super-charge your productivity!<nl/>"
-"<nl/>"
-msgstr "Plasma เป็นสภาพแวดล้อมที่เต็มไปด้วยฟีเจอร์ที่เยอะมาก ๆ ออกแบบมาให้ทุกมีประสิทธิผลอย่างที่สุด นี้่คือรายการตัวอย่างเล็ก ๆ น้อย ๆ ว่า Plasma สามารถทำอะไรได้:"
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/PowerfulWhenNeeded.qml:49
 #, kde-format
 msgctxt "@title:row"
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/PowerfulWhenNeeded.qml:50
 #, kde-format
 msgctxt "@info Caption for Get Keyboard Shortcuts button"
 msgid "Activate features from the keyboard"
 msgstr ""
-
-#. +> stable6
-#: src/qml/pages/PowerfulWhenNeeded.qml:78
-#, kde-format
-msgctxt "@info Caption for Get System Settings button"
-msgid "Configure the system"
-msgstr "ตั้งค่าระบบ"
 
 #. +> trunk6 stable6 stable5
 #: src/qml/pages/PowerfulWhenNeeded.qml:55
@@ -728,13 +712,6 @@ msgstr "ศูนย์คำสั่งระบบของคุณ"
 msgctxt "@title:row"
 msgid "KRunner"
 msgstr "KRunner"
-
-#. +> stable6
-#: src/qml/pages/PowerfulWhenNeeded.qml:77
-#, kde-format
-msgctxt "@title:row"
-msgid "System Settings"
-msgstr "การตั้งค่าระบบ"
 
 #. +> trunk6 stable6 stable5
 #: src/qml/pages/PowerfulWhenNeeded.qml:62
@@ -808,7 +785,6 @@ msgstr "สามารถเรียกใช้ \"กิจกรรม\" เ
 
 #. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/Activities.qml:28
-#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:37
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:28
 #, kde-format
 msgctxt "@action:button"
@@ -831,7 +807,20 @@ msgstr "KDE Connect"
 
 #. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:21
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:usagetip"
+#| msgid ""
+#| "KDE Connect lets you integrate your phone with your computer in various ways:<nl/>"
+#| "<list>"
+#| "<item>See notifications from your phone on your computer</item>"
+#| "<item>Reply to text messages from your phone on your computer</item>"
+#| "<item>Sync your clipboard contents between your computer and your phone</item>"
+#| "<item>Make a noise on your phone when it’s been misplaced</item>"
+#| "<item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item>"
+#| "<item>…And much more!</item>"
+#| "</list>"
+#| "<nl/>"
+#| "To get started, launch <interface>System Settings</interface> and search for “KDE Connect”. On that page, you can pair your phone."
 msgctxt "@info:usagetip"
 msgid ""
 "KDE Connect lets you integrate your phone with your computer in various ways:<nl/>"
@@ -843,8 +832,6 @@ msgid ""
 "<item>Copy pictures, videos, and other files from your phone to your computer, and vice versa</item>"
 "<item>…And much more!</item>"
 "</list>"
-"<nl/>"
-"To get started, launch <interface>System Settings</interface> and search for “KDE Connect”. On that page, you can pair your phone."
 msgstr ""
 "KDE Connect สามารถทำให้โทรศัพท์ของคุณเชื่อมต่อกับคอมพิวเตอร์ของคุณได้หลายวิธี:<nl/>"
 "<list>"
@@ -857,6 +844,36 @@ msgstr ""
 "</list>"
 "<nl/>"
 "ถ้าหากจะเริ่มใช้งาน เปิด<interface>การตั้งค่าระบบ</interface> และค้นหา \"KDE Connect\" คุณสามารถเชื่อมต่อไปยังโทรศัพท์คุณบนหน้านั้นได้"
+
+#. +> trunk6 stable6
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:35
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid "To get started, click the <interface>%1</interface> button. You can pair your phone there."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:50
+#, kde-format
+msgctxt "@action:button"
+msgid "Open %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:62
+#, kde-format
+msgctxt "@info"
+msgid "KDE Connect is not installed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/pages/powerfulwhenneeded/KDEConnect.qml:67
+#, fuzzy, kde-format
+#| msgctxt "@title:row Name of the 'KDE Connect' feature"
+#| msgid "KDE Connect"
+msgctxt "@action:button Install KDE Connect"
+msgid "Install KDE Connect…"
+msgstr "KDE Connect"
 
 #. +> trunk6 stable6 stable5
 #: src/qml/pages/powerfulwhenneeded/KRunner.qml:22
@@ -920,21 +937,21 @@ msgctxt "@info:usagetip An addendum to example KRunner queries, intentionally us
 msgid "...and much more!"
 msgstr "...และอื่น ๆ อีกมากมาย!"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:18
 #, kde-format
 msgctxt "@info:window"
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Shortcuts…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:29
 #, kde-kuit-format
 msgctxt "@info:usagetip"
@@ -951,73 +968,83 @@ msgctxt "@info:usagetip"
 msgid ""
 "Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/>"
 "<nl/>"
+"This key is usually located between the left <shortcut>Ctrl</shortcut> and <shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or the word “Super”:"
+msgstr ""
+
+#. +> stable6
+#: src/qml/pages/powerfulwhenneeded/MetaKey.qml:30
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Almost anything in Plasma can be done with the keyboard, using shortcuts that mostly involve the <shortcut>Meta</shortcut> key.<nl/>"
+"<nl/>"
 "This key is usually located between the left <shortcut>Ctrl</shortcut> and <shortcut>Alt</shortcut> keys, and contains either a symbol of some kind, or the word “Super:”"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:56
 #, kde-format
 msgctxt "The typical label for the keyboard's Ctrl key"
 msgid "Ctrl"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:59
 #, kde-format
 msgctxt "The typical label for the keyboard's Function key"
 msgid "Fn"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:69
 #, kde-format
 msgctxt "The typical label for the keyboard's Meta key"
 msgid "Super"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
 #, kde-format
 msgctxt "This is a terrible dad joke about the meta key on the keyboard being able to have many symbols. Translate it into one of similar groanworthiness if this is possible; if not, translate it as an empty string."
 msgid "I never meta key I didn't like"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:101
 #, kde-format
 msgctxt "The typical label for the keyboard's Alt key"
 msgid "Alt"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:114
 #, kde-format
 msgctxt "The actual translated label for 'fn' on a Mac keyboard"
 msgid "fn"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:119
 #, kde-format
 msgctxt "The actual translated label for 'control' on a Mac keyboard"
 msgid "control"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:123
 #, kde-format
 msgctxt "The actual translated label for 'option' on a Mac keyboard"
 msgid "option"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:128
 #, kde-format
 msgctxt "The actual translated label for 'command' on a Mac keyboard"
 msgid "command"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:137
 #, kde-kuit-format
 msgctxt "@info:usagetip"
@@ -1305,39 +1332,25 @@ msgid "Visit %1"
 msgstr "เยี่ยมชม %1"
 
 #. +> trunk6 stable6
-#: src/release.cpp:43
+#: src/release.cpp:42
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Dev"
 msgstr "%1 Dev"
 
 #. +> trunk6 stable6
-#: src/release.cpp:46
+#: src/release.cpp:45
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "%1 Beta"
 msgstr "%1 เบต้า"
 
 #. +> trunk6 stable6
-#: src/release.cpp:50
+#: src/release.cpp:49
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "%1 Beta %2"
 msgstr "%1 เบต้า %2"
-
-#. +> stable6
-#: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:16
-#, kde-format
-msgctxt "@info:window"
-msgid "System Settings"
-msgstr "การตั้งค่าระบบ"
-
-#. +> stable6
-#: src/qml/pages/powerfulwhenneeded/SystemSettings.qml:17
-#, kde-kuit-format
-msgctxt "@info:usagetip"
-msgid "The System Settings app lets you extensively customize the system to suit your tastes and preferences. Default apps, wallpapers, visual styles and icons, virtual desktops, power management, 3rd-party add-ons — you’ll find it all there!"
-msgstr "แอปพลิเคชันการตั้งค่าระบบช่วยให้คุณดัดแปลงระบบของคุณให้เป็นไปตามใจชอบของคุณ ไม่ว่าจะเป็นแอปพลิเคชันค่าเริ่มต้น, วอลล์เปเปอร์, สไตล์ของภาพและไอคอน, virtual desktop, การจัดการพลังงาน, ส่วนเสริมโดยบุคคลที่สาม, ฯลฯ ก็จะหาเจอได้ที่นั้น"
 
 #. +> stable5
 #: src/contents/ui/main.qml:73
@@ -1636,6 +1649,35 @@ msgstr "เปิดการตั้งค่าระบบตอนนี้
 msgctxt "@title the name of the 'System Settings' app"
 msgid "System Settings"
 msgstr "การตั้งค่าระบบ"
+
+#, fuzzy, kde-kuit-format
+#~| msgctxt "@info:usagetip"
+#~| msgid "Plasma is an extremely feature-rich environment, designed to super-charge your productivity! Here is just a smattering of the things it can do for you:"
+#~ msgctxt "@info:usagetip"
+#~ msgid ""
+#~ "Plasma is an extremely feature-rich environment, designed to super-charge your productivity!<nl/>"
+#~ "<nl/>"
+#~ msgstr "Plasma เป็นสภาพแวดล้อมที่เต็มไปด้วยฟีเจอร์ที่เยอะมาก ๆ ออกแบบมาให้ทุกมีประสิทธิผลอย่างที่สุด นี้่คือรายการตัวอย่างเล็ก ๆ น้อย ๆ ว่า Plasma สามารถทำอะไรได้:"
+
+#, kde-format
+#~ msgctxt "@info Caption for Get System Settings button"
+#~ msgid "Configure the system"
+#~ msgstr "ตั้งค่าระบบ"
+
+#, kde-format
+#~ msgctxt "@title:row"
+#~ msgid "System Settings"
+#~ msgstr "การตั้งค่าระบบ"
+
+#, kde-format
+#~ msgctxt "@info:window"
+#~ msgid "System Settings"
+#~ msgstr "การตั้งค่าระบบ"
+
+#, kde-kuit-format
+#~ msgctxt "@info:usagetip"
+#~ msgid "The System Settings app lets you extensively customize the system to suit your tastes and preferences. Default apps, wallpapers, visual styles and icons, virtual desktops, power management, 3rd-party add-ons — you’ll find it all there!"
+#~ msgstr "แอปพลิเคชันการตั้งค่าระบบช่วยให้คุณดัดแปลงระบบของคุณให้เป็นไปตามใจชอบของคุณ ไม่ว่าจะเป็นแอปพลิเคชันค่าเริ่มต้น, วอลล์เปเปอร์, สไตล์ของภาพและไอคอน, virtual desktop, การจัดการพลังงาน, ส่วนเสริมโดยบุคคลที่สาม, ฯลฯ ก็จะหาเจอได้ที่นั้น"
 
 #, kde-format
 #~ msgid "Display release notes for the current Plasma release, for beta versions."

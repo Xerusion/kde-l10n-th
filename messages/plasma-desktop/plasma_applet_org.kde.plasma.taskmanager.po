@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-10 00:31+0200\n"
+"POT-Creation-Date: 2025-11-19 00:54+0100\n"
 "PO-Revision-Date: 2010-12-17 16:16+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -178,6 +178,13 @@ msgstr ""
 #: package/contents/ui/ConfigAppearance.qml:39
 #, kde-format
 msgid "Hide other windows when hovering over previews"
+msgstr ""
+
+#. +> trunk6
+#: package/contents/ui/ConfigAppearance.qml:54
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Hide other windows when hovering over tooltips"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -649,12 +656,33 @@ msgstr ""
 msgid "Keep launchers separate"
 msgstr ""
 
+#. +> stable5
+#: package/contents/ui/ConfigBehavior.qml:168
+#, fuzzy, kde-format
+#| msgid "Only show tasks from the current screen"
+msgid "From current screen"
+msgstr "แสดงเฉพาะงานที่อยู่บนหน้าจอปัจจุบันเท่านั้น"
+
 #. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:170
 #, kde-format
 msgctxt "@option:check for icons-and-text task manager"
 msgid "Hide launchers after application startup"
 msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigBehavior.qml:173
+#, fuzzy, kde-format
+#| msgid "By Desktop"
+msgid "From current desktop"
+msgstr "ตามพื้นที่ทำงาน"
+
+#. +> stable5
+#: package/contents/ui/ConfigBehavior.qml:178
+#, fuzzy, kde-format
+#| msgid "Only show tasks from the current activity"
+msgid "From current activity"
+msgstr "แสดงเฉพาะงานที่อยู่บนกิจกรรมปัจจุบันเท่านั้น"
 
 #. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:180
@@ -697,14 +725,6 @@ msgstr ""
 msgid "Middle-clicking any task:"
 msgstr ""
 
-#. +> stable6
-#: package/contents/ui/ConfigBehavior.qml:205
-#, fuzzy, kde-format
-#| msgid "Show tooltips"
-msgctxt "@label:listbox completes sentence like: … does nothing"
-msgid "Scrolling on a task:"
-msgstr "แสดงทูลทิป"
-
 #. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:190
 #, kde-format
@@ -716,13 +736,6 @@ msgstr ""
 #: package/contents/ui/ConfigBehavior.qml:131
 #, kde-format
 msgctxt "Part of a sentence: 'Middle-clicking any task does nothing'"
-msgid "Does nothing"
-msgstr ""
-
-#. +> stable6
-#: package/contents/ui/ConfigBehavior.qml:209
-#, kde-format
-msgctxt "@item:inlistbox Part of a sentence: 'Scrolling on any task does nothing'"
 msgid "Does nothing"
 msgstr ""
 
@@ -802,47 +815,48 @@ msgstr "แสดงเฉพาะงานที่อยู่บนพื้
 #: package/contents/ui/ConfigBehavior.qml:205
 #, fuzzy, kde-format
 #| msgid "Show tooltips"
+msgctxt "@label:listbox Part of a sentence: 'Scrolling behavior does nothing/cycles through tasks/cycles through the selected task's windows/adjusts the hovered task’s volume''"
+msgid "Scrolling behavior:"
+msgstr "แสดงทูลทิป"
+
+#. +> stable6
+#: package/contents/ui/ConfigBehavior.qml:205
+#, fuzzy, kde-format
+#| msgid "Show tooltips"
 msgctxt "@label:listbox Part of a sentence: 'Scrolling behavior does nothing/cycles through tasks/cycles through the selected task's windows'"
 msgid "Scrolling behavior:"
 msgstr "แสดงทูลทิป"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:209
 #, kde-format
 msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior does nothing'"
 msgid "Does nothing"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:210
 #, kde-format
 msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through all tasks'"
 msgid "Cycles through all tasks"
 msgstr ""
 
-#. +> stable6
-#: package/contents/ui/ConfigBehavior.qml:210
-#, kde-format
-msgctxt "@item:inlistbox Part of a sentence: 'Scrolling on any task cycles through all tasks'"
-msgid "Cycles through all tasks"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigBehavior.qml:211
 #, kde-format
 msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through the hovered task's windows'"
 msgid "Cycles through the hovered task’s windows"
 msgstr ""
 
-#. +> stable6
-#: package/contents/ui/ConfigBehavior.qml:211
+#. +> trunk6
+#: package/contents/ui/ConfigBehavior.qml:212
 #, kde-format
-msgctxt "@item:inlistbox Part of a sentence: 'Scrolling on any task cycles through that task's windows only'"
-msgid "Cycles through that task's windows"
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior adjusts the hovered task’s volume'"
+msgid "Adjusts the hovered task’s volume"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigBehavior.qml:219
+#: package/contents/ui/ConfigBehavior.qml:220
 #, kde-format
 msgctxt "@option:check mouse wheel task cycling"
 msgid "Skip minimized tasks"
@@ -861,7 +875,7 @@ msgid "On the Top"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigBehavior.qml:229
+#: package/contents/ui/ConfigBehavior.qml:230
 #, fuzzy, kde-format
 #| msgid "Show tooltips"
 msgctxt "@label for checkbox group, completes sentence like: … from current screen"
@@ -875,77 +889,32 @@ msgstr "แสดงทูลทิป"
 msgid "Show only tasks:"
 msgstr "แสดงทูลทิป"
 
-#. +> trunk6
-#: package/contents/ui/ConfigBehavior.qml:230
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigBehavior.qml:231
 #, fuzzy, kde-format
 #| msgid "By Desktop"
 msgctxt "@option:check completes sentence: show only tasks"
 msgid "From the current desktop"
 msgstr "ตามพื้นที่ทำงาน"
 
-#. +> stable6
-#: package/contents/ui/ConfigBehavior.qml:235
-#, fuzzy, kde-format
-#| msgid "By Desktop"
-msgctxt "@option:check completes sentence: show only tasks"
-msgid "From current desktop"
-msgstr "ตามพื้นที่ทำงาน"
-
-#. +> stable5
-#: package/contents/ui/ConfigBehavior.qml:173
-#, fuzzy, kde-format
-#| msgid "By Desktop"
-msgid "From current desktop"
-msgstr "ตามพื้นที่ทำงาน"
-
-#. +> trunk6
-#: package/contents/ui/ConfigBehavior.qml:235
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigBehavior.qml:236
 #, fuzzy, kde-format
 #| msgid "Only show tasks from the current activity"
 msgctxt "@option:check completes sentence: show only tasks"
 msgid "From the current activity"
 msgstr "แสดงเฉพาะงานที่อยู่บนกิจกรรมปัจจุบันเท่านั้น"
 
-#. +> stable6
-#: package/contents/ui/ConfigBehavior.qml:240
-#, fuzzy, kde-format
-#| msgid "Only show tasks from the current activity"
-msgctxt "@option:check completes sentence: show only tasks"
-msgid "From current activity"
-msgstr "แสดงเฉพาะงานที่อยู่บนกิจกรรมปัจจุบันเท่านั้น"
-
-#. +> stable5
-#: package/contents/ui/ConfigBehavior.qml:178
-#, fuzzy, kde-format
-#| msgid "Only show tasks from the current activity"
-msgid "From current activity"
-msgstr "แสดงเฉพาะงานที่อยู่บนกิจกรรมปัจจุบันเท่านั้น"
-
-#. +> trunk6
-#: package/contents/ui/ConfigBehavior.qml:240
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigBehavior.qml:241
 #, fuzzy, kde-format
 #| msgid "Only show tasks from the current screen"
 msgctxt "@option:check completes sentence: show only tasks"
 msgid "From the current screen"
 msgstr "แสดงเฉพาะงานที่อยู่บนหน้าจอปัจจุบันเท่านั้น"
 
-#. +> stable6
-#: package/contents/ui/ConfigBehavior.qml:230
-#, fuzzy, kde-format
-#| msgid "Only show tasks from the current screen"
-msgctxt "@option:check completes sentence: show only tasks"
-msgid "From current screen"
-msgstr "แสดงเฉพาะงานที่อยู่บนหน้าจอปัจจุบันเท่านั้น"
-
-#. +> stable5
-#: package/contents/ui/ConfigBehavior.qml:168
-#, fuzzy, kde-format
-#| msgid "Only show tasks from the current screen"
-msgid "From current screen"
-msgstr "แสดงเฉพาะงานที่อยู่บนหน้าจอปัจจุบันเท่านั้น"
-
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigBehavior.qml:245
+#: package/contents/ui/ConfigBehavior.qml:246
 #, fuzzy, kde-format
 #| msgid "Only show tasks that are minimized"
 msgctxt "@option:check completes sentence: show only tasks"
@@ -960,7 +929,7 @@ msgid "That are minimized"
 msgstr "แสดงเฉพาะงานที่ถูกย่อหายเท่านั้น"
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigBehavior.qml:254
+#: package/contents/ui/ConfigBehavior.qml:255
 #, kde-format
 msgctxt "@label for checkbox, completes sentence: … unhide if window wants attention"
 msgid "When panel is hidden:"
@@ -973,7 +942,7 @@ msgid "When panel is hidden:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigBehavior.qml:255
+#: package/contents/ui/ConfigBehavior.qml:256
 #, kde-format
 msgctxt "@option:check completes sentence: When panel is hidden"
 msgid "Unhide when a window wants attention"
@@ -986,7 +955,7 @@ msgid "Unhide when a window wants attention"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigBehavior.qml:270
+#: package/contents/ui/ConfigBehavior.qml:271
 #, kde-format
 msgctxt "@label for radiobutton group completes sentence like: … on the bottom"
 msgid "New tasks appear:"
@@ -999,7 +968,7 @@ msgid "New tasks appear:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigBehavior.qml:274
+#: package/contents/ui/ConfigBehavior.qml:275
 #, kde-format
 msgctxt "@option:check completes sentence: New tasks appear"
 msgid "On the bottom"
@@ -1012,8 +981,8 @@ msgid "On the bottom"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigBehavior.qml:278
-#: package/contents/ui/ConfigBehavior.qml:297
+#: package/contents/ui/ConfigBehavior.qml:279
+#: package/contents/ui/ConfigBehavior.qml:298
 #, kde-format
 msgctxt "@option:check completes sentence: New tasks appear"
 msgid "To the right"
@@ -1027,8 +996,8 @@ msgid "To the right"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigBehavior.qml:280
-#: package/contents/ui/ConfigBehavior.qml:295
+#: package/contents/ui/ConfigBehavior.qml:281
+#: package/contents/ui/ConfigBehavior.qml:296
 #, kde-format
 msgctxt "@option:check completes sentence: New tasks appear"
 msgid "To the left"
@@ -1042,7 +1011,7 @@ msgid "To the left"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigBehavior.qml:291
+#: package/contents/ui/ConfigBehavior.qml:292
 #, kde-format
 msgctxt "@option:check completes sentence: New tasks appear"
 msgid "On the top"
@@ -1061,7 +1030,7 @@ msgid "Recent Files"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ContextMenu.qml:115
+#: package/contents/ui/ContextMenu.qml:118
 #, kde-format
 msgid "Actions"
 msgstr ""
@@ -1262,33 +1231,33 @@ msgid "&Fullscreen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ContextMenu.qml:701
+#: package/contents/ui/ContextMenu.qml:702
 #, kde-format
 msgid "&Shade"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ContextMenu.qml:713
+#: package/contents/ui/ContextMenu.qml:714
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&No Titlebar and Frame"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ContextMenu.qml:729
+#: package/contents/ui/ContextMenu.qml:730
 #, kde-format
 msgid "Allow this program to be grouped"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ContextMenu.qml:775
+#: package/contents/ui/ContextMenu.qml:776
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "&Close All"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ContextMenu.qml:775
+#: package/contents/ui/ContextMenu.qml:776
 #, kde-format
 msgid "&Close"
 msgstr ""
@@ -1336,29 +1305,36 @@ msgstr ""
 msgid "Activate %1"
 msgstr ""
 
+#. +> trunk6 stable6
+#: package/contents/ui/ToolTipInstance.qml:188
+#, kde-format
+msgctxt "@info:tooltip Close this window"
+msgid "Close window"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ToolTipInstance.qml:435
+#: package/contents/ui/ToolTipInstance.qml:456
 #, kde-format
 msgctxt "button to unmute app"
 msgid "Unmute %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ToolTipInstance.qml:436
+#: package/contents/ui/ToolTipInstance.qml:457
 #, kde-format
 msgctxt "button to mute app"
 msgid "Mute %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ToolTipInstance.qml:454
+#: package/contents/ui/ToolTipInstance.qml:475
 #, kde-format
 msgctxt "Accessibility data on volume slider"
 msgid "Adjust volume for %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ToolTipInstance.qml:470
+#: package/contents/ui/ToolTipInstance.qml:491
 #, fuzzy, kde-format
 #| msgid "By Desktop"
 msgctxt "volume percentage"
@@ -1366,14 +1342,14 @@ msgid "%1%"
 msgstr "ตามพื้นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ToolTipInstance.qml:474
+#: package/contents/ui/ToolTipInstance.qml:495
 #, kde-format
 msgctxt "only used for sizing, should be widest possible string"
 msgid "100%"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ToolTipInstance.qml:490
+#: package/contents/ui/ToolTipInstance.qml:511
 #, fuzzy, kde-format
 #| msgctxt "Which virtual desktop a window is currently on"
 #| msgid "On %1"
@@ -1382,29 +1358,53 @@ msgid "On %1"
 msgstr "บน %1"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ToolTipInstance.qml:493
+#: package/contents/ui/ToolTipInstance.qml:514
 #, kde-format
 msgctxt "Comma-separated list of desktops"
 msgid "Pinned to all desktops"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ToolTipInstance.qml:499
+#: package/contents/ui/ToolTipInstance.qml:520
 #, kde-format
 msgctxt "Which virtual desktop a window is currently on"
 msgid "Available on all activities"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ToolTipInstance.qml:509
+#: package/contents/ui/ToolTipInstance.qml:530
 #, kde-format
 msgctxt "Activities a window is currently on (apart from the current one)"
 msgid "Also available on %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ToolTipInstance.qml:513
+#: package/contents/ui/ToolTipInstance.qml:534
 #, kde-format
 msgctxt "Which activities a window is currently on"
 msgid "Available on %1"
 msgstr ""
+
+#, fuzzy, kde-format
+#~| msgid "Show tooltips"
+#~ msgctxt "@label:listbox completes sentence like: … does nothing"
+#~ msgid "Scrolling on a task:"
+#~ msgstr "แสดงทูลทิป"
+
+#, fuzzy, kde-format
+#~| msgid "By Desktop"
+#~ msgctxt "@option:check completes sentence: show only tasks"
+#~ msgid "From current desktop"
+#~ msgstr "ตามพื้นที่ทำงาน"
+
+#, fuzzy, kde-format
+#~| msgid "Only show tasks from the current activity"
+#~ msgctxt "@option:check completes sentence: show only tasks"
+#~ msgid "From current activity"
+#~ msgstr "แสดงเฉพาะงานที่อยู่บนกิจกรรมปัจจุบันเท่านั้น"
+
+#, fuzzy, kde-format
+#~| msgid "Only show tasks from the current screen"
+#~ msgctxt "@option:check completes sentence: show only tasks"
+#~ msgid "From current screen"
+#~ msgstr "แสดงเฉพาะงานที่อยู่บนหน้าจอปัจจุบันเท่านั้น"

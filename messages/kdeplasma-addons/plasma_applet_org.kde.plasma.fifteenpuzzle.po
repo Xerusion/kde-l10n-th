@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_fifteenPuzzle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-11 12:18+0200\n"
+"POT-Creation-Date: 2025-11-25 08:52+0100\n"
 "PO-Revision-Date: 2010-03-27 21:59+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/config/config.qml:13
+#: qml/config.qml:13
 #, fuzzy, kde-format
 #| msgid "Appearance"
 msgctxt "@title"
@@ -26,101 +26,166 @@ msgid "Appearance"
 msgstr "รูปลักษณ์"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:43
+#: qml/configAppearance.qml:50
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Grid size:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:54
-#, kde-format
-msgid "Background:"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:61
+#. +> stable5
+#: package/contents/ui/configAppearance.qml:56
 #, kde-format
 msgid "Color:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:77
+#. +> trunk6 stable6
+#: qml/configAppearance.qml:61
+#, kde-format
+msgctxt "@label:group radio button group"
+msgid "Background:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/configAppearance.qml:50
+#, kde-format
+msgid "Background:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/configAppearance.qml:68
+#, kde-format
+msgctxt "@label:chooser opens background color picker"
+msgid "Color:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/configAppearance.qml:84
+#, fuzzy, kde-format
+#| msgid "Image:"
+msgctxt "@label:chooser opens background image file picker"
+msgid "Image:"
+msgstr "ภาพ:"
+
+#. +> stable5
+#: package/contents/ui/configAppearance.qml:71
 #, kde-format
 msgid "Image:"
 msgstr "ภาพ:"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:85
+#: qml/configAppearance.qml:92
 #, fuzzy, kde-format
 #| msgid "Use custom image:"
 msgctxt "@info:placeholder"
 msgid "Path to custom image…"
 msgstr "ใช้ภาพที่กำหนดเอง:"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:104
+#. +> trunk6 stable6
+#: qml/configAppearance.qml:108
+#, fuzzy, kde-format
+#| msgid "Use custom image:"
+msgctxt "@action:button"
+msgid "Choose image…"
+msgstr "ใช้ภาพที่กำหนดเอง:"
+
+#. +> stable5
+#: package/contents/ui/configAppearance.qml:98
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Choose image…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:112
+#: qml/configAppearance.qml:119
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose an Image"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:117
+#. +> trunk6 stable6
+#: qml/configAppearance.qml:124
+#, kde-format
+msgctxt "@item:inlistbox file type category for file picker"
+msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/configAppearance.qml:111
 #, kde-format
 msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:131
+#. +> stable5
+#: package/contents/ui/configAppearance.qml:125
 #, kde-format
 msgid "Tiles:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/configAppearance.qml:135
+#. +> stable5
+#: package/contents/ui/configAppearance.qml:129
 #, kde-format
 msgid "Colored numbers:"
 msgstr ""
 
+#. +> trunk6 stable6
+#: qml/configAppearance.qml:142
+#, kde-format
+msgctxt "@title:group formdata label"
+msgid "Tile labels:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/configAppearance.qml:149
+#, kde-format
+msgctxt "@label:chooser opens label color picker"
+msgid "Color:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/configAppearance.qml:163
+#, kde-format
+msgctxt "@option:check"
+msgid "Hide on image backgrounds"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/FifteenPuzzle.qml:259
+#: qml/FifteenPuzzle.qml:262
 #, kde-format
 msgctxt "The time since the puzzle started, in minutes and seconds"
 msgid "Time: %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/FifteenPuzzle.qml:314
+#: qml/FifteenPuzzle.qml:320
 #, fuzzy, kde-format
 #| msgid "Shuffle Pieces"
 msgctxt "@action:button"
 msgid "Shuffle"
 msgstr "สุ่มสลับชิ้นส่วน"
 
+#. +> trunk6 stable6
+#: qml/FifteenPuzzle.qml:346
+#, kde-format
+msgctxt "@info:status The number of moves made by the player so far"
+msgid "Moves: %1"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/FifteenPuzzle.qml:356
+#: qml/FifteenPuzzle.qml:371
 #, kde-format
 msgctxt "@info"
 msgid "Solved! Try again."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:35
+#: qml/main.qml:38
 #, fuzzy, kde-format
 #| msgid "Configure Fifteen Puzzle"
 msgid "Fifteen Puzzle"
 msgstr "ปรับแต่งเรียงชิ้นส่วนสิบห้าชิ้น"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:36
+#: qml/main.qml:39
 #, kde-format
 msgid "Solve by arranging in order"
 msgstr ""

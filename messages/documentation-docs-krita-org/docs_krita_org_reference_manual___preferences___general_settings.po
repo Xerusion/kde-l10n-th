@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 5.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-14 09:48+0200\n"
+"POT-Creation-Date: 2025-10-08 08:06+0200\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -499,576 +499,591 @@ msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/preferences/general_settings.rst:181
-msgid "This allows finger painting with capacitive screens. Some devices have both capacitive touch and a stylus, and then this can interfere. In that case, just toggle this."
+msgid "Toggles whether to allow painting by touching on a capacitive screen. :guilabel:`Enabled` will let you draw via touch and :guilabel:`Disabled` will let you pan the canvas instead. :guilabel:`Auto` (the default) will automatically detect whether you have a stylus available and enable or disable touch painting accordingly."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/preferences/general_settings.rst:185
-msgid "Enable Touch painting"
+msgid "The Auto option was added and became the default."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:185
+#: ../../reference_manual/preferences/general_settings.rst:189
+msgid "Touch Painting"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/preferences/general_settings.rst:189
 msgid "When this is disabled, panning the canvas can be done with by dragging a single finger over the canvas, while when enabled, panning will only be done by dragging three fingers."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:188
+#: ../../reference_manual/preferences/general_settings.rst:192
 msgid "Activate transform tool after pasting"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:188
+#: ../../reference_manual/preferences/general_settings.rst:192
 msgid "A convenience feature. When enabling this, the transform tool will activate after pasting for quick moving or rotating."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:191
+#: ../../reference_manual/preferences/general_settings.rst:195
 msgid "Without this, gestures on the canvas only allow zoom and pan, with this turned on, the two-finger gesture also allows to rotate."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:195
+#: ../../reference_manual/preferences/general_settings.rst:199
 msgid "Enable Touch Rotation"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:195
+#: ../../reference_manual/preferences/general_settings.rst:199
 msgid "Since Krita 5.1, this is removed. Instead it's now possible to configure the navigation gestures inside the :ref:`canvas_input_settings`."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:198
+#: ../../reference_manual/preferences/general_settings.rst:202
 msgid "When using |mousescroll|, zooming switches between predefined zoom levels. Turning this on switches that to be a smooth increment."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:202
+#: ../../reference_manual/preferences/general_settings.rst:206
 msgid "Enable Smooth Zooming"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:202
+#: ../../reference_manual/preferences/general_settings.rst:206
 msgid "This got replaced with the :guilabel:`Zoom Steps between powers of Two` option."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:205
+#: ../../reference_manual/preferences/general_settings.rst:209
 msgid "Zoom Steps between powers of Two"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:205
+#: ../../reference_manual/preferences/general_settings.rst:209
 msgid "How many zoom steps there are between values that are powers of 2 (For example, 2^-1 is 50%, 2^-2 is 25%, 2^2 is 400%). With this, you can decide how many steps steps go inbetween those. The higher the value, the smoother the zoom with a |mousescroll|."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:208
+#: ../../reference_manual/preferences/general_settings.rst:212
 msgid "This enables kinetic scrolling for scrollable areas."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:213
+#: ../../reference_manual/preferences/general_settings.rst:217
 msgid "Kinetic scrolling on the brush chooser drop-down with activation mode set to :guilabel:`On Click Drag`, with this disabled all of these clicks would lead to a brush being selected regardless of drag motion."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:216
+#: ../../reference_manual/preferences/general_settings.rst:220
 msgid "How it is activated."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:218
+#: ../../reference_manual/preferences/general_settings.rst:222
 msgid "On Middle-Click Drag"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:219
+#: ../../reference_manual/preferences/general_settings.rst:223
 msgid "Will activate when using the middle mouse button."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:220
+#: ../../reference_manual/preferences/general_settings.rst:224
 msgid "On Touch Drag"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:221
+#: ../../reference_manual/preferences/general_settings.rst:225
 msgid "Will activate if it can recognize a touch event. May not always work."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:223
+#: ../../reference_manual/preferences/general_settings.rst:227
 msgid "Activation"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:223
+#: ../../reference_manual/preferences/general_settings.rst:227
 msgid "On Click Drag"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:223
+#: ../../reference_manual/preferences/general_settings.rst:227
 msgid "Will activate when it can recognize a click event, will always work."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:225
+#: ../../reference_manual/preferences/general_settings.rst:229
 msgid "Sensitivity"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:226
+#: ../../reference_manual/preferences/general_settings.rst:230
 msgid "How quickly the feature activates, this effective determines the length of the drag."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:228
+#: ../../reference_manual/preferences/general_settings.rst:232
 msgid "Kinetic Scrolling (Needs Restart)"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:228
+#: ../../reference_manual/preferences/general_settings.rst:232
 msgid "Hide Scrollbar"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:228
+#: ../../reference_manual/preferences/general_settings.rst:232
 msgid "Whether to show scrollbars when doing this."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:233
+#: ../../reference_manual/preferences/general_settings.rst:237
 msgid "File Handling"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:237
+#: ../../reference_manual/preferences/general_settings.rst:241
 msgid "Enable Autosaving"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:238
+#: ../../reference_manual/preferences/general_settings.rst:242
 msgid "Determines whether Krita should periodically autosave."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:239
+#: ../../reference_manual/preferences/general_settings.rst:243
 msgid "Autosave Every"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:240
+#: ../../reference_manual/preferences/general_settings.rst:244
 msgid "Here the user can specify how often Krita should autosave the file, you can tick the checkbox to turn it off. For Windows these files are saved in the ``%TEMP%`` directory. If you are on Linux it is stored in :file:`/home/'username'`."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:241
+#: ../../reference_manual/preferences/general_settings.rst:245
 msgid "Unnamed autosave files are hidden by default"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:242
+#: ../../reference_manual/preferences/general_settings.rst:246
 msgid "This determines whether the filename of autosaves has a period prepended to the name. On Linux and macOS this is a technique to ensure the file is hidden by default."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:243
+#: ../../reference_manual/preferences/general_settings.rst:247
 msgid "Create Backup File"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:244
+#: ../../reference_manual/preferences/general_settings.rst:248
 msgid "When selected Krita will, upon save, rename the original file as a backup file and save the current image to the original name. The result is that you will have saved the image, and there will be a copy of the image that is saved separately as a backup. This is useful in case of crashes during saves."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:246
+#: ../../reference_manual/preferences/general_settings.rst:250
 msgid "The default location these backups should be stored."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:248
+#: ../../reference_manual/preferences/general_settings.rst:252
 msgid "Same Folder as Original File"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:249
+#: ../../reference_manual/preferences/general_settings.rst:253
 msgid "Store the file in the same folder as the original file was stored."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:250
+#: ../../reference_manual/preferences/general_settings.rst:254
 msgid "User Folder"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:251
+#: ../../reference_manual/preferences/general_settings.rst:255
 msgid "This is the main folder of your computer. On Linux and macOS this is the 'Home' folder, on Windows, the :file:`c:\\Users\\YOUR_USER_NAME` folder (where ``YOUR_USER_NAME`` is your windows username)."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:253
+#: ../../reference_manual/preferences/general_settings.rst:257
 msgid "Backup File Location"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:253
+#: ../../reference_manual/preferences/general_settings.rst:257
 msgid "Temporary File Folder"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:253
+#: ../../reference_manual/preferences/general_settings.rst:257
 msgid "This stored the file in the temp folder. Temp folders are special folders of which the contents are emptied when you shut down your computer. If you don't particularly care about your backup files and want them to be 'cleaned' automatically, this is the best place. If you want your backup files to be kept indefinitely, this is a wrong choice."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:255
+#: ../../reference_manual/preferences/general_settings.rst:259
 msgid "Backup File Suffix"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:256
+#: ../../reference_manual/preferences/general_settings.rst:260
 msgid "The suffix that will be placed after the full filename. ``filename.kra`` will then be saved as ``filename.kra~``, ensuring the files won't show up in Krita's open file dialog."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:257
+#: ../../reference_manual/preferences/general_settings.rst:261
 msgid "Number of Backup Files Kept"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:258
+#: ../../reference_manual/preferences/general_settings.rst:262
 msgid "Number of backup files Krita keeps, by default this is only one, but this can be up to 99. Krita will then number the backup files."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:259
+#: ../../reference_manual/preferences/general_settings.rst:263
 msgid "Compress ``\\*.kra`` files more (slows loading/saving)"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:260
+#: ../../reference_manual/preferences/general_settings.rst:264
 msgid "This increases the ZIP compression on the saved Krita files, which makes them lighter on disk, but this takes longer to load."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:261
+#: ../../reference_manual/preferences/general_settings.rst:265
 msgid "Use Zip64"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:262
+#: ../../reference_manual/preferences/general_settings.rst:266
 msgid "KRA files are ZIP files. Zip64 allows you to make really large image files (which is useful for animation), however, not all ZIP file programs can read Zip64, including older versions of Krita."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:263
+#: ../../reference_manual/preferences/general_settings.rst:267
 msgid "Trim Files before Saving"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:264
+#: ../../reference_manual/preferences/general_settings.rst:268
 msgid "Normally, Krita will always keep pixels outside the visible canvas area and save that. With this option turned on, Krita will first :ref:`crop <crop_tool>` all the layers to the canvas-area and then save it."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:266
+#: ../../reference_manual/preferences/general_settings.rst:270
 msgid "Trim frames when importing animations"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:266
+#: ../../reference_manual/preferences/general_settings.rst:270
 msgid "This will crop frames that where imported using any of the options Krita has available. This saves RAM, but may not always be what is required."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:271
+#: ../../reference_manual/preferences/general_settings.rst:275
 msgid "When Pasting Into Krita From Other Applications"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:275
+#: ../../reference_manual/preferences/general_settings.rst:279
 msgid "Some applications, like Google Chrome, provide multiple formats when pasting or dropping an image. This toggle asks which of these you prefer."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:277
+#: ../../reference_manual/preferences/general_settings.rst:281
 msgid "Prefer downloading the original source (this requires Internet access)."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:278
+#: ../../reference_manual/preferences/general_settings.rst:282
 msgid "If the clipboard data contains an URL, Krita will try to download those contents and paste them inside Krita."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:279
+#: ../../reference_manual/preferences/general_settings.rst:283
 msgid "Prefer a local copy (if available; metadata may be lost)"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:280
+#: ../../reference_manual/preferences/general_settings.rst:284
 msgid "If the file had been downloaded by your computer previously (for example, to show it inside the web browser), Krita will use that instead."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:281
+#: ../../reference_manual/preferences/general_settings.rst:285
 msgid "Paste the attached sRGB bitmap (no filesystem or Internet access required, but metadata will be lost)."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:282
+#: ../../reference_manual/preferences/general_settings.rst:286
 msgid "Just paste the attached bitmap. This will always work, and may be the best option if all you copy images for is to make small edits to share with friends. If you intend to copy and edit HDR images however, this option will make your life harder because the HDR version of the image will not be selected by default."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:284
+#: ../../reference_manual/preferences/general_settings.rst:288
 msgid "Krita will show a prompt whenever there are multiple options."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:286
+#: ../../reference_manual/preferences/general_settings.rst:290
 msgid "Ask each time"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:291
+#: ../../reference_manual/preferences/general_settings.rst:295
 msgid "Miscellaneous"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:294
+#: ../../reference_manual/preferences/general_settings.rst:298
 msgid "This is the option for handling :ref:`user sessions <working_sessions>`. It has the following options:"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:296
+#: ../../reference_manual/preferences/general_settings.rst:300
 msgid "Open Default Window"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:297
+#: ../../reference_manual/preferences/general_settings.rst:301
 msgid "This opens the regular empty window with the last used workspace."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:298
+#: ../../reference_manual/preferences/general_settings.rst:302
 msgid "Load Previous Session"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:299
+#: ../../reference_manual/preferences/general_settings.rst:303
 msgid "Load the last opened session. If you have :guilabel:`Save session when Krita closes` toggled, this becomes the last files you had open and the like."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:301
+#: ../../reference_manual/preferences/general_settings.rst:305
 msgid "Show Session Manager"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:301
+#: ../../reference_manual/preferences/general_settings.rst:305
 msgid "Show the session manager directly, so you can pick a session."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:302
+#: ../../reference_manual/preferences/general_settings.rst:306
 msgid "When Krita starts"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:305
+#: ../../reference_manual/preferences/general_settings.rst:309
 msgid "Save the current open windows, documents and the like into the current session when closing Krita, so you can resume where you left off."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:306
+#: ../../reference_manual/preferences/general_settings.rst:310
 msgid "Save session when Krita closes"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:308
+#: ../../reference_manual/preferences/general_settings.rst:312
 msgid "Upon importing Images as Layers, convert to the image color space."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:309
+#: ../../reference_manual/preferences/general_settings.rst:313
 msgid "This makes sure that layers are the same color space as the image, necessary for saving to PSD."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:310
+#: ../../reference_manual/preferences/general_settings.rst:314
 msgid "Undo Stack Size"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:311
+#: ../../reference_manual/preferences/general_settings.rst:315
 msgid "This is the number of undo commands Krita remembers. You can set the value to 0 for unlimited undo commands."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:313
+#: ../../reference_manual/preferences/general_settings.rst:317
 msgid "This controls whether Krita keeps a log of the important actions, which can then be attached to a bug report. You can view the log itself via :menuselection:`Help --> Show Krita Log for Bug Reports`, and the log itself is stored in the shared application settings."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:316
+#: ../../reference_manual/preferences/general_settings.rst:320
 msgid "Enable Logging For Bug Reports"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:317
+#: ../../reference_manual/preferences/general_settings.rst:321
 msgid "Krita does not automatically transfer data anywhere. The log needs to be uploaded by users themselves if necessary."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:319
+#: ../../reference_manual/preferences/general_settings.rst:323
 msgid "This'll hide the splash screen automatically once Krita is fully loaded."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:323
+#: ../../reference_manual/preferences/general_settings.rst:327
 msgid "Hide splash screen on startup."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:323
+#: ../../reference_manual/preferences/general_settings.rst:327
 msgid "Deprecated because Krita now has a welcome widget when no canvas is open."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:325
+#: ../../reference_manual/preferences/general_settings.rst:329
 msgid "Enable Native File Dialog"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:326
+#: ../../reference_manual/preferences/general_settings.rst:330
 msgid "This allows you to use the system file dialog. Turned off by default, because we cannot seem to get native file dialogues 100% bug free."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:327
+#: ../../reference_manual/preferences/general_settings.rst:331
 msgid "Maximum brush size"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:328
+#: ../../reference_manual/preferences/general_settings.rst:332
 msgid "This allows you to set the maximum brush size to a size of up to 10,000 pixels. Do be careful with using this, as a 10,000 pixel size can very quickly be a full gigabyte of data being manipulated, per dab. In other words, this might be slow."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:330
+#: ../../reference_manual/preferences/general_settings.rst:334
 msgid "Krita will recalculate the cache when you're not doing anything."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:333
+#: ../../reference_manual/preferences/general_settings.rst:337
 msgid "Recalculate animation cache in background."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:334
+#: ../../reference_manual/preferences/general_settings.rst:338
 msgid "This is now in the :ref:`performance_settings` under :guilabel:`Animation Cache`."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:336
+#: ../../reference_manual/preferences/general_settings.rst:340
 msgid "Used with the :ref:`timeline_docker`, this will pin all animation layers to the timeline automatically. Depending on your workflow, this can be quite intense, so hence the option to turn it off."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:338
+#: ../../reference_manual/preferences/general_settings.rst:342
 msgid "Automatically Pin New layers To Timeline."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:341
+#: ../../reference_manual/preferences/general_settings.rst:345
 msgid "This option decides whether adding key frames outside the current playback range automatically extends the playback range or not."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:343
+#: ../../reference_manual/preferences/general_settings.rst:347
 msgid "Adapt playback range to key frames."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:346
+#: ../../reference_manual/preferences/general_settings.rst:350
 msgid "We had a bug in Krita 4.x where the DPI of the display affected the DPI of the text."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:348
+#: ../../reference_manual/preferences/general_settings.rst:352
 msgid "Now when loading a file created in Krita 4.4 we convert its font sizes using the DPI of the display and bake this new value into the file. The user can override this behavior by selecting another DPI in here. Setting this value to 72 DPI will effectively disable any scaling."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:350
+#: ../../reference_manual/preferences/general_settings.rst:354
 msgid "In Krita 4.x the size of the text was also affected by the HiDPI settings, the best conversion results are dependent on whether `Use HiDPI` and `Use Fractional HiDPI` were used when creating the text. In other words, if you want the text to look exactly the same, try to match the Krita 5 HiDPI settings to the Krita 4 HiDPI settings. You don't have to keep these settings the same after the conversion has happened."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:352
+#: ../../reference_manual/preferences/general_settings.rst:356
 msgid "Font DPI Workaround"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:354
+#: ../../reference_manual/preferences/general_settings.rst:358
 msgid "Automatic Layer Suffixes"
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:356
+#: ../../reference_manual/preferences/general_settings.rst:360
 msgid "By default, Krita will add extra info behind layers it generates. These toggles allow you to turn that off."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:358
+#: ../../reference_manual/preferences/general_settings.rst:362
 msgid "Add \"Merged\" to merged group layers."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:359
+#: ../../reference_manual/preferences/general_settings.rst:363
 msgid "When you flatten a group layer into a single paint layer, Krita will add \"Merged\" after the layer name. If you make frequent use of merging, it can be useful to turn this off."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:361
+#: ../../reference_manual/preferences/general_settings.rst:365
 msgid "Add \"(Pasted)\" to pasted layers."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:361
+#: ../../reference_manual/preferences/general_settings.rst:365
 msgid "When you copy and paste a section of a layer, Krita will add \"(Pasted)\" after the layer name so you can keep track of that."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/preferences/general_settings.rst:369
-msgid "Resources"
+msgid "Long-press to open context menus"
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/preferences/general_settings.rst:371
-msgid "For determining the location of the resource folder and the cache."
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:375
-msgid "Cache Location"
-msgstr ""
-
-#. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:376
-msgid "Sets where the SQLite Database that manages all the resources is located."
+msgid "Allows you to summon context menus by pressing and holding, useful when you don't have an easy way to make a right-click. This is enabled by default on Android."
 msgstr ""
 
 #. +> trunk5
 #: ../../reference_manual/preferences/general_settings.rst:378
+msgid "Resources"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/preferences/general_settings.rst:380
+msgid "For determining the location of the resource folder and the cache."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/preferences/general_settings.rst:384
+msgid "Cache Location"
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/preferences/general_settings.rst:385
+msgid "Sets where the SQLite Database that manages all the resources is located."
+msgstr ""
+
+#. +> trunk5
+#: ../../reference_manual/preferences/general_settings.rst:387
 msgid "Sets where the Resource Folder itself is located."
 msgstr ""
 
 #. +> trunk5
-#: ../../reference_manual/preferences/general_settings.rst:379
+#: ../../reference_manual/preferences/general_settings.rst:388
 msgid "Resource Folder"
 msgstr ""
 

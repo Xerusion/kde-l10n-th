@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rkward\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-13 07:15+0200\n"
+"POT-Creation-Date: 2025-10-22 09:15+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -139,7 +139,7 @@ msgstr ""
 
 #. +> trunk6 trunk5 stable6
 #: rkward/agents/showedittextfileagent.cpp:30
-#: rkward/misc/rkprogresscontrol.cpp:331
+#: rkward/misc/rkprogresscontrol.cpp:339
 #: rkward/plugin/rkstandardcomponentgui.cpp:586
 #, kde-format
 msgid "Done"
@@ -181,8 +181,14 @@ msgstr ""
 msgid "This section contains data in your \"workspace\". This is data that you created or imported, in contrast to data contained in a loaded R package. Technically, this corresponds to the <i>.GlobalEnv</i> environment."
 msgstr ""
 
-#. +> trunk6 trunk5 stable6
+#. +> trunk6
 #: rkward/core/renvironmentobject.cpp:110
+#, kde-format
+msgid "Your workspace contains more than 10.000 top level objects. RKWard is not optimized for this situation, and you may experience lag between R commands. Should this situation constitute a regular use case for your work, please let us know at rkward@kde.org, so we can consider possible solutions."
+msgstr ""
+
+#. +> trunk5 stable6
+#: rkward/core/renvironmentobject.cpp:113
 #, kde-format
 msgid "Your workspace contains more than 10.000 top level objects. RKWard is not optimized for this situation, and you may experience lag between R commands. Should this situation constitute a regular use case for your work, please let us know at rkward-devel@kde.org, so we can consider possible solutions."
 msgstr ""
@@ -226,10 +232,10 @@ msgstr ""
 
 #. +> trunk6 trunk5 stable6
 #: rkward/core/rkmodificationtracker.cpp:351
-#: rkward/dataeditor/rkvareditmodel.cpp:672
-#: rkward/dialogs/rkloadlibsdialog.cpp:360
-#: rkward/dialogs/rkloadlibsdialog.cpp:376
-#: rkward/dialogs/rkloadlibsdialog.cpp:964
+#: rkward/dataeditor/rkvareditmodel.cpp:667
+#: rkward/dialogs/rkloadlibsdialog.cpp:361
+#: rkward/dialogs/rkloadlibsdialog.cpp:377
+#: rkward/dialogs/rkloadlibsdialog.cpp:965
 #: rkward/misc/rkobjectlistview.cpp:266 rkward/plugin/rkformula.cpp:73
 #: rkward/plugin/rkvarslot.cpp:58
 #: rkward/settings/rksettingsmodulekateplugins.cpp:52
@@ -239,7 +245,7 @@ msgstr ""
 
 #. +> trunk6 trunk5 stable6
 #: rkward/core/rkmodificationtracker.cpp:352
-#: rkward/dataeditor/rkvareditmodel.cpp:673
+#: rkward/dataeditor/rkvareditmodel.cpp:668
 #: rkward/misc/editlabelsdialog.cpp:196 rkward/misc/rkobjectlistview.cpp:211
 #: rkward/misc/rkobjectlistview.cpp:268
 #, kde-format
@@ -248,7 +254,7 @@ msgstr ""
 
 #. +> trunk6 trunk5 stable6
 #: rkward/core/rkmodificationtracker.cpp:353
-#: rkward/dataeditor/rkvareditmodel.cpp:674
+#: rkward/dataeditor/rkvareditmodel.cpp:669
 #: rkward/misc/rkobjectlistview.cpp:210 rkward/rbackend/rcommandstack.cpp:313
 #: rkward/windows/rkhelpsearchwindow.cpp:330
 #, kde-format
@@ -431,7 +437,7 @@ msgstr ""
 
 #. +> trunk6 trunk5 stable6
 #: rkward/dataeditor/rkvareditmodel.cpp:260
-#: rkward/dataeditor/rkvareditmodel.cpp:540
+#: rkward/dataeditor/rkvareditmodel.cpp:535
 #, kde-format
 msgid "Type on these fields to add new columns"
 msgstr ""
@@ -467,49 +473,49 @@ msgid "This column contains one or more invalid fields"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dataeditor/rkvareditmodel.cpp:675
+#: rkward/dataeditor/rkvareditmodel.cpp:670
 #, kde-format
 msgid "Format"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dataeditor/rkvareditmodel.cpp:676
+#: rkward/dataeditor/rkvareditmodel.cpp:671
 #, kde-format
 msgid "Levels"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dataeditor/rkvareditmodel.cpp:679
+#: rkward/dataeditor/rkvareditmodel.cpp:674
 #, kde-format
 msgid "Edit these fields to rename variables."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dataeditor/rkvareditmodel.cpp:680
+#: rkward/dataeditor/rkvareditmodel.cpp:675
 #, kde-format
 msgid "A descriptive label for each column (optional)."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dataeditor/rkvareditmodel.cpp:681
+#: rkward/dataeditor/rkvareditmodel.cpp:676
 #, kde-format
 msgid "Type of data."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dataeditor/rkvareditmodel.cpp:682
+#: rkward/dataeditor/rkvareditmodel.cpp:677
 #, kde-format
 msgid "Double click on these fields to customize data display."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dataeditor/rkvareditmodel.cpp:683
+#: rkward/dataeditor/rkvareditmodel.cpp:678
 #, kde-format
 msgid "Double click on these fields to edit factor levels."
 msgstr ""
 
 #. +> trunk6 stable6
-#: rkward/dataeditor/rkvareditmodel.cpp:824
+#: rkward/dataeditor/rkvareditmodel.cpp:819
 #, kde-format
 msgid "Object '%1' is not a vector"
 msgstr ""
@@ -903,8 +909,20 @@ msgstr ""
 msgid "Start import dialog"
 msgstr ""
 
-#. +> trunk6 trunk5 stable6
+#. +> trunk6
 #: rkward/dialogs/rkimportdialog.cpp:108
+#, kde-format
+msgid ""
+"No further import methods are available at this time. Things you can try, include: "
+"<ul>"
+"<li>Check for the availability of additional import plugins</li>"
+"<li>Save your data to a different format in the original application</li>"
+"<li>Ask for advice on rkward@kde.org</li>"
+"</ul>"
+msgstr ""
+
+#. +> trunk5 stable6
+#: rkward/dialogs/rkimportdialog.cpp:129
 #, kde-format
 msgid ""
 "No further import methods are available at this time. Things you can try, include: "
@@ -922,133 +940,133 @@ msgid "No import method found"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:49
+#: rkward/dialogs/rkloadlibsdialog.cpp:50
 #, kde-format
 msgid "Configure Packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:57
+#: rkward/dialogs/rkloadlibsdialog.cpp:58
 #, kde-format
 msgid "Load / Unload R packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:61
+#: rkward/dialogs/rkloadlibsdialog.cpp:62
 #, kde-format
 msgid "Install / Update / Remove R packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:63
+#: rkward/dialogs/rkloadlibsdialog.cpp:64
 #, kde-format
 msgid "Manage RKWard Plugins"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:92
+#: rkward/dialogs/rkloadlibsdialog.cpp:93
 #, kde-format
 msgid "Closing will discard pending changes. Are you sure?"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:92
+#: rkward/dialogs/rkloadlibsdialog.cpp:93
 #, kde-format
 msgid "Discard changes?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:92
+#: rkward/dialogs/rkloadlibsdialog.cpp:93
 #, kde-format
 msgctxt "@action:button"
 msgid "Do no close"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:166
-#: rkward/dialogs/rkloadlibsdialog.cpp:173
-#: rkward/dialogs/rkloadlibsdialog.cpp:204
+#: rkward/dialogs/rkloadlibsdialog.cpp:167
+#: rkward/dialogs/rkloadlibsdialog.cpp:174
+#: rkward/dialogs/rkloadlibsdialog.cpp:205
 #, kde-format
 msgid "Package %1 at %2"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:179
+#: rkward/dialogs/rkloadlibsdialog.cpp:180
 #, kde-format
 msgid "The following packages, which you have selected for removal, are essential to the operation of RKWard, and will not be removed. If you are absolutely sure, that you want to remove these packages, please do so on the R command line."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:179
+#: rkward/dialogs/rkloadlibsdialog.cpp:180
 #, kde-format
 msgid "Not removing certain packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:185
+#: rkward/dialogs/rkloadlibsdialog.cpp:186
 #, kde-format
 msgid "Your current user permissions do not allow removing the following packages. These will be skipped."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:185
-#: rkward/dialogs/rkloadlibsdialog.cpp:188
+#: rkward/dialogs/rkloadlibsdialog.cpp:186
+#: rkward/dialogs/rkloadlibsdialog.cpp:189
 #, kde-format
 msgid "Insufficient user permissions"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:188
+#: rkward/dialogs/rkloadlibsdialog.cpp:189
 #, kde-format
 msgid "Your current user permissions do not allow removing the following packages. Do you want to skip these packages, or do you want to proceed with administrator privileges (you will be prompted for the password)?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:188
+#: rkward/dialogs/rkloadlibsdialog.cpp:189
 #, kde-format
 msgctxt "@action:button"
 msgid "Become root"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:188
+#: rkward/dialogs/rkloadlibsdialog.cpp:189
 #, kde-format
 msgctxt "@action:button"
 msgid "Skip these packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:210
+#: rkward/dialogs/rkloadlibsdialog.cpp:211
 #, kde-format
 msgid "You are about to remove the following packages. Are you sure you want to proceed?"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:210
+#: rkward/dialogs/rkloadlibsdialog.cpp:211
 #, kde-format
 msgid "About to remove packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:213
+#: rkward/dialogs/rkloadlibsdialog.cpp:214
 #, kde-format
 msgid "Please stand by while removing selected packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:213
+#: rkward/dialogs/rkloadlibsdialog.cpp:214
 #, kde-format
 msgid "Removing packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:240
+#: rkward/dialogs/rkloadlibsdialog.cpp:241
 #, kde-format
 msgid "Selected library location not writable"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:242
+#: rkward/dialogs/rkloadlibsdialog.cpp:243
 #, kde-format
 msgid ""
 "<p>The directory you have selected for installation (%1) is not writable with your current user permissions.</p>"
@@ -1056,63 +1074,63 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:248
+#: rkward/dialogs/rkloadlibsdialog.cpp:249
 #, kde-format
 msgid "<p>Alternatively, if you have access to an administrator account on this machine, you can use that to install the package(s), or you could change the permissions of '%1'. Sorry, automatic switching to Administrator is not yet supported in RKWard on Windows.</p>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:251
-#: rkward/dialogs/rkloadlibsdialog.cpp:257
+#: rkward/dialogs/rkloadlibsdialog.cpp:252
+#: rkward/dialogs/rkloadlibsdialog.cpp:258
 #, kde-format
 msgid "Install to %1"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:255
+#: rkward/dialogs/rkloadlibsdialog.cpp:256
 #, kde-format
 msgid "<p>Alternatively, if you are the administrator of this machine, you can try to install the packages as root (you'll be prompted for the root password).</p>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:257
+#: rkward/dialogs/rkloadlibsdialog.cpp:258
 #, kde-format
 msgid "Become root"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:275
+#: rkward/dialogs/rkloadlibsdialog.cpp:276
 #, kde-format
 msgid "Please stand by while installing selected packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:275
+#: rkward/dialogs/rkloadlibsdialog.cpp:276
 #, kde-format
 msgid "Installing packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:296
+#: rkward/dialogs/rkloadlibsdialog.cpp:297
 #, kde-format
 msgid "Neither kdesu nor kdesudo could be found. To install as root, please install one of these packages."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:296
+#: rkward/dialogs/rkloadlibsdialog.cpp:297
 #, kde-format
 msgid "kdesu not found"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:358
+#: rkward/dialogs/rkloadlibsdialog.cpp:359
 #, kde-format
 msgid "Installed packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:360
-#: rkward/dialogs/rkloadlibsdialog.cpp:965
+#: rkward/dialogs/rkloadlibsdialog.cpp:361
+#: rkward/dialogs/rkloadlibsdialog.cpp:966
 #: rkward/settings/rksettingsmoduleplugins.cpp:526
 #: rkward/windows/rkhelpsearchwindow.cpp:83
 #: rkward/windows/rkhelpsearchwindow.cpp:328
@@ -1121,99 +1139,99 @@ msgid "Title"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:360
-#: rkward/dialogs/rkloadlibsdialog.cpp:966
+#: rkward/dialogs/rkloadlibsdialog.cpp:361
+#: rkward/dialogs/rkloadlibsdialog.cpp:967
 #, kde-format
 msgid "Version"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:360
-#: rkward/dialogs/rkloadlibsdialog.cpp:967
+#: rkward/dialogs/rkloadlibsdialog.cpp:361
+#: rkward/dialogs/rkloadlibsdialog.cpp:968
 #, kde-format
 msgid "Location"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:365
+#: rkward/dialogs/rkloadlibsdialog.cpp:366
 #, kde-format
 msgid "Load"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:367
+#: rkward/dialogs/rkloadlibsdialog.cpp:368
 #, kde-format
 msgid "Unload"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:374
+#: rkward/dialogs/rkloadlibsdialog.cpp:375
 #, kde-format
 msgid "Loaded packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:511
+#: rkward/dialogs/rkloadlibsdialog.cpp:512
 #, kde-format
 msgid "There has been an error while trying to load / unload packages. See transcript below for details"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:588
+#: rkward/dialogs/rkloadlibsdialog.cpp:589
 #, kde-format
 msgid "Select all updates"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:656
+#: rkward/dialogs/rkloadlibsdialog.cpp:657
 #, kde-format
 msgid "Show only packages matching:"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:658
+#: rkward/dialogs/rkloadlibsdialog.cpp:659
 #, kde-format
 msgid "<p>You can limit the packages displayed in the list to with names or titles matching a filter string.</p>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:662
+#: rkward/dialogs/rkloadlibsdialog.cpp:663
 #, kde-format
 msgid "Show only packages providing RKWard dialogs"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:663
+#: rkward/dialogs/rkloadlibsdialog.cpp:664
 #, kde-format
 msgid "<p>Some but not all R packages come with plugins for RKWard. That means they provide a graphical user-interface in addition to R functions. Check this box to show only such packages.</p>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:683
+#: rkward/dialogs/rkloadlibsdialog.cpp:684
 #, kde-format
 msgid "Install packages to:"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:687
+#: rkward/dialogs/rkloadlibsdialog.cpp:688
 #, kde-format
 msgid "Install suggested packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:689
+#: rkward/dialogs/rkloadlibsdialog.cpp:690
 #, kde-format
 msgid "Some packages \"suggest\" additional packages, which are not strictly necessary for using that package, but which may provide additional related functionality. Check this option to include such additional suggested packages."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:697
+#: rkward/dialogs/rkloadlibsdialog.cpp:698
 #, kde-format
 msgid "Configure Repositories"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:699
+#: rkward/dialogs/rkloadlibsdialog.cpp:700
 #, kde-format
 msgid ""
 "Many packages are available on CRAN (Comprehensive R Archive Network), and other repositories.<br>"
@@ -1221,25 +1239,25 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:723
+#: rkward/dialogs/rkloadlibsdialog.cpp:724
 #, kde-format
 msgid "<b>Install %1 packages (plus dependencies), remove %2 packages</b>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:796
+#: rkward/dialogs/rkloadlibsdialog.cpp:797
 #, kde-format
 msgid "The following package(s) requested by the backend have not been found in the package repositories: \"%1\". Maybe the package name was mis-spelled. Or maybe you need to add additional repositories via the \"Configure Repositories\" button."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:796
+#: rkward/dialogs/rkloadlibsdialog.cpp:797
 #, kde-format
 msgid "Package not available"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:902
+#: rkward/dialogs/rkloadlibsdialog.cpp:903
 #, kde-format
 msgid ""
 "<p>Please stand by while searching for installed and available packages.</p>"
@@ -1247,7 +1265,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:963
+#: rkward/dialogs/rkloadlibsdialog.cpp:964
 #: rkward/rbackend/rcommandstack.cpp:314
 #: rkward/settings/rksettingsmoduleplugins.cpp:527
 #, kde-format
@@ -1255,92 +1273,92 @@ msgid "Status"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:970
+#: rkward/dialogs/rkloadlibsdialog.cpp:971
 #, kde-format
 msgid "<p>Packages marked with an RKWard icon in this column provide enhancements to RKWard, typically in the form of additional graphical dialogs.</p>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:971
+#: rkward/dialogs/rkloadlibsdialog.cpp:972
 #, kde-format
 msgid "<p>You can select packages for installation / removal by checking / unchecking the corresponding boxes in this column.</p>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:972
+#: rkward/dialogs/rkloadlibsdialog.cpp:973
 #, kde-format
 msgid "<p>The name of the package.</p>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:973
+#: rkward/dialogs/rkloadlibsdialog.cpp:974
 #, kde-format
 msgid "<p>A descriptive title for the package. Currently this is not available for packages in non-local repositories.</p>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:974
+#: rkward/dialogs/rkloadlibsdialog.cpp:975
 #, kde-format
 msgid "<p>Installed and / or available version of the package</p>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:975
+#: rkward/dialogs/rkloadlibsdialog.cpp:976
 #, kde-format
 msgid "<p>Location where the package is installed / available</p>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:998
+#: rkward/dialogs/rkloadlibsdialog.cpp:999
 #, kde-format
 msgid "Updateable Packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:999
+#: rkward/dialogs/rkloadlibsdialog.cpp:1000
 #, kde-format
 msgid "Packages for which an update is available. This may include packages which were merely built against a newer version of R."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:1002
+#: rkward/dialogs/rkloadlibsdialog.cpp:1003
 #, kde-format
 msgid "New Packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:1003
+#: rkward/dialogs/rkloadlibsdialog.cpp:1004
 #, kde-format
 msgid "Packages which are available for installation, but which are not currently installed."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:1005
+#: rkward/dialogs/rkloadlibsdialog.cpp:1006
 #, kde-format
 msgid "Installed Packages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:1006
+#: rkward/dialogs/rkloadlibsdialog.cpp:1007
 #, kde-format
 msgid "Packages which are installed locally. Note that updates may be available for these packages."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:1034
+#: rkward/dialogs/rkloadlibsdialog.cpp:1035
 #, kde-format
 msgid "Install"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:1037
+#: rkward/dialogs/rkloadlibsdialog.cpp:1038
 #: rkward/misc/multistringselector.cpp:107
 #, kde-format
 msgid "Remove"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/dialogs/rkloadlibsdialog.cpp:1220
+#: rkward/dialogs/rkloadlibsdialog.cpp:1221
 #, kde-format
 msgid "Installed plugin groups (.pluginmap files)"
 msgstr ""
@@ -2176,8 +2194,14 @@ msgstr ""
 msgid "patches and helpful comments"
 msgstr ""
 
-#. +> trunk6 trunk5 stable6
+#. +> trunk6
 #: rkward/main.cpp:193
+#, kde-format
+msgid "Many more people on rkward@kde.org"
+msgstr ""
+
+#. +> trunk5 stable6
+#: rkward/main.cpp:282
 #, kde-format
 msgid "Many more people on rkward-devel@kde.org"
 msgstr ""
@@ -2237,7 +2261,7 @@ msgid "The R executable specified at compile time (%1) does not exist or is not 
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/celleditor.cpp:49
+#: rkward/misc/celleditor.cpp:46
 #, kde-format
 msgid "[Omitted %1 more factor levels]"
 msgstr ""
@@ -2435,31 +2459,31 @@ msgid "<p><b>Note:</b> This search line accepts so-called regular expressions. T
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkfindbar.cpp:53
+#: rkward/misc/rkfindbar.cpp:54
 #, kde-format
 msgid "Search backwards (previous occurrence of search term)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkfindbar.cpp:59
+#: rkward/misc/rkfindbar.cpp:60
 #, kde-format
 msgid "Search forward (next occurrence of search term)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkfindbar.cpp:89
+#: rkward/misc/rkfindbar.cpp:90
 #, kde-format
 msgid "Match case"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkfindbar.cpp:91 rkward/windows/rkhtmlwindow.cpp:943
+#: rkward/misc/rkfindbar.cpp:92 rkward/windows/rkhtmlwindow.cpp:945
 #, kde-format
 msgid "Find as you type"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkfindbar.cpp:94
+#: rkward/misc/rkfindbar.cpp:95
 #, kde-format
 msgid "Highlight all matches"
 msgstr ""
@@ -2748,7 +2772,7 @@ msgid "Unhandled output command '%1'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rkward/misc/rkprogresscontrol.cpp:219
+#: rkward/misc/rkprogresscontrol.cpp:259
 #, kde-format
 msgid "<b>There has been an error while running the command. See below for output details</b>"
 msgstr ""
@@ -2757,34 +2781,6 @@ msgstr ""
 #: rkward/misc/rkprogresscontrol.cpp:245
 #, kde-format
 msgid "<b>There have been errors and / or warnings. See below for a transcript</b>"
-msgstr ""
-
-#. +> trunk6 trunk5 stable6
-#: rkward/misc/rkprogresscontrol.cpp:230
-#: rkward/settings/rksettingsmoduleoutput.cpp:106
-#, kde-format
-msgid "Output"
-msgstr ""
-
-#. +> trunk5
-#: rkward/misc/rkprogresscontrol.cpp:259
-#, kde-format
-msgid "Output:"
-msgstr ""
-
-#. +> trunk6 trunk5 stable6
-#: rkward/misc/rkprogresscontrol.cpp:244
-#: rkward/windows/rktoplevelwindowgui.cpp:87
-#, kde-format
-msgid "Show Output"
-msgstr ""
-
-#. +> trunk6 trunk5 stable6
-#: rkward/misc/rkprogresscontrol.cpp:247 rkward/misc/rkprogresscontrol.cpp:387
-#: rkward/plugin/rkstandardcomponentgui.cpp:494
-#: rkward/windows/rkdebugconsole.cpp:52
-#, kde-format
-msgid "Cancel"
 msgstr ""
 
 #. +> trunk5
@@ -2800,19 +2796,47 @@ msgid "Errors / Warnings:"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkprogresscontrol.cpp:455
+#: rkward/misc/rkprogresscontrol.cpp:270
+#: rkward/settings/rksettingsmoduleoutput.cpp:107
+#, kde-format
+msgid "Output"
+msgstr ""
+
+#. +> trunk5
+#: rkward/misc/rkprogresscontrol.cpp:259
+#, kde-format
+msgid "Output:"
+msgstr ""
+
+#. +> trunk6 trunk5 stable6
+#: rkward/misc/rkprogresscontrol.cpp:287
+#: rkward/windows/rktoplevelwindowgui.cpp:88
+#, kde-format
+msgid "Show Output"
+msgstr ""
+
+#. +> trunk6 trunk5 stable6
+#: rkward/misc/rkprogresscontrol.cpp:290 rkward/misc/rkprogresscontrol.cpp:395
+#: rkward/plugin/rkstandardcomponentgui.cpp:494
+#: rkward/windows/rkdebugconsole.cpp:52
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6 trunk5 stable6
+#: rkward/misc/rkprogresscontrol.cpp:453
 #, kde-format
 msgid "<b>An error occurred</b> (see below for details)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkprogresscontrol.cpp:455
+#: rkward/misc/rkprogresscontrol.cpp:453
 #, kde-format
 msgid "<b>Done</b>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkprogresscontrol.cpp:458
+#: rkward/misc/rkprogresscontrol.cpp:456
 #: rkward/plugin/rkstandardcomponentgui.cpp:188
 #: rkward/plugin/rkstandardcomponentgui.cpp:594
 #, kde-format
@@ -2820,61 +2844,61 @@ msgid "Close"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkprogresscontrol.cpp:495 rkward/windows/rkwindowcatcher.cpp:405
+#: rkward/misc/rkprogresscontrol.cpp:493 rkward/windows/rkwindowcatcher.cpp:405
 #, kde-format
 msgid "Keep waiting"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkprogresscontrol.cpp:495
+#: rkward/misc/rkprogresscontrol.cpp:493
 #, kde-format
 msgid "Closing this window will cancel the current operation. Are you sure?"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkprogresscontrol.cpp:495
+#: rkward/misc/rkprogresscontrol.cpp:493
 #, kde-format
 msgid "Cancel operation"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkprogresscontrol.cpp:495
+#: rkward/misc/rkprogresscontrol.cpp:493
 #, kde-format
 msgid "Cancel && Close"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rkprogresscontrol.cpp:507
+#: rkward/misc/rkprogresscontrol.cpp:505
 #, kde-format
 msgid "An operation is still running, please wait."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rksaveobjectchooser.cpp:44
+#: rkward/misc/rksaveobjectchooser.cpp:45
 #, kde-format
 msgid "Change"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rksaveobjectchooser.cpp:54
+#: rkward/misc/rksaveobjectchooser.cpp:55
 #, kde-format
 msgid "Overwrite"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rksaveobjectchooser.cpp:56
+#: rkward/misc/rksaveobjectchooser.cpp:57
 #, kde-format
 msgid "The given object name already exists"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rksaveobjectchooser.cpp:88
+#: rkward/misc/rksaveobjectchooser.cpp:89
 #, kde-format
 msgid "Parent object: %1"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/rksaveobjectchooser.cpp:98
+#: rkward/misc/rksaveobjectchooser.cpp:99
 #, kde-format
 msgid "Select parent object"
 msgstr ""
@@ -3185,79 +3209,79 @@ msgid "Warnings or Errors:"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/xmlhelper.cpp:56
+#: rkward/misc/xmlhelper.cpp:53
 #, kde-format
 msgid "Could not open file %1 for reading"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/xmlhelper.cpp:62
+#: rkward/misc/xmlhelper.cpp:60
 #, kde-format
 msgid "Error parsing XML-file. Error-message was: '%1' in line '%2', column '%3'. Expect further errors to be reported below"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/xmlhelper.cpp:182
+#: rkward/misc/xmlhelper.cpp:180
 #, kde-format
 msgid "Trying to retrieve children of invalid element"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/xmlhelper.cpp:193
+#: rkward/misc/xmlhelper.cpp:191
 #, kde-format
 msgid "Expected exactly one element '%1' but found %2"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/xmlhelper.cpp:247 rkward/misc/xmlhelper.cpp:259
+#: rkward/misc/xmlhelper.cpp:245 rkward/misc/xmlhelper.cpp:257
 #, kde-format
 msgid "'%1'-attribute not given. Assuming '%2'"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/xmlhelper.cpp:282
+#: rkward/misc/xmlhelper.cpp:280
 #, kde-format
 msgid "Illegal attribute value. Allowed values are one of '%1', only."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/xmlhelper.cpp:296
+#: rkward/misc/xmlhelper.cpp:294
 #, kde-format
 msgid "Illegal attribute value. Only integer numbers are allowed."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/xmlhelper.cpp:312
+#: rkward/misc/xmlhelper.cpp:310
 #, kde-format
 msgid "Illegal attribute value. Only real numbers are allowed."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/xmlhelper.cpp:330
+#: rkward/misc/xmlhelper.cpp:328
 #, kde-format
 msgid "Illegal attribute value. Allowed values are '%1' or '%2', only."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/xmlhelper.cpp:362
+#: rkward/misc/xmlhelper.cpp:360
 #, kde-format
 msgid "Trying to retrieve contents of invalid element"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/misc/xmlhelper.cpp:407
+#: rkward/misc/xmlhelper.cpp:405
 #, kde-format
 msgid "XML-parsing '%1' "
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/plugin/rkcheckbox.cpp:64
+#: rkward/plugin/rkcheckbox.cpp:65
 #, kde-format
 msgid "yes"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/plugin/rkcheckbox.cpp:64
+#: rkward/plugin/rkcheckbox.cpp:65
 #, kde-format
 msgid "no"
 msgstr ""
@@ -3418,31 +3442,31 @@ msgid "R package"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/plugin/rkcomponentproperties.cpp:927
+#: rkward/plugin/rkcomponentproperties.cpp:925
 #, kde-format
 msgid "This object has %1 dimension(s), but %2 dimension(s) is/are expected."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/plugin/rkcomponentproperties.cpp:930
+#: rkward/plugin/rkcomponentproperties.cpp:928
 #, kde-format
 msgid "This object has a length of %1, but a minimum length of %2 is expected."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/plugin/rkcomponentproperties.cpp:931
+#: rkward/plugin/rkcomponentproperties.cpp:929
 #, kde-format
 msgid "This object has a length of %1, but a maximum length of %2 is expected."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/plugin/rkcomponentproperties.cpp:943
+#: rkward/plugin/rkcomponentproperties.cpp:941
 #, kde-format
 msgid "This object does not appear to belong to any of the classes <i>%1</i>."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/plugin/rkcomponentproperties.cpp:950
+#: rkward/plugin/rkcomponentproperties.cpp:948
 #, kde-format
 msgid "This object's data type is <i>%1</i>, while expected type(s) is/are <i>%2</i>."
 msgstr ""
@@ -3665,7 +3689,7 @@ msgstr ""
 
 #. +> trunk6 trunk5 stable6
 #: rkward/plugin/rkpreviewbox.cpp:50
-#: rkward/windows/rkcommandeditorwindow.cpp:373
+#: rkward/windows/rkcommandeditorwindow.cpp:375
 #, kde-format
 msgid "Preview"
 msgstr ""
@@ -3684,6 +3708,7 @@ msgstr ""
 
 #. +> trunk6 trunk5 stable6
 #: rkward/plugin/rkstandardcomponent.cpp:667
+#: rkward/windows/rkcommandeditorwindow.cpp:772
 #, kde-format
 msgid "Options"
 msgstr ""
@@ -3901,31 +3926,31 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkfrontendtransmitter.cpp:416
+#: rkward/rbackend/rkfrontendtransmitter.cpp:414
 #, kde-format
 msgid "The backend process could not be started. Please check your installation."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkfrontendtransmitter.cpp:417
+#: rkward/rbackend/rkfrontendtransmitter.cpp:415
 #, kde-format
 msgid "The backend process failed to start with exit code %1, message: '%2'."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkfrontendtransmitter.cpp:418
+#: rkward/rbackend/rkfrontendtransmitter.cpp:416
 #, kde-format
 msgid "Backend process has exited with code %1, message: '%2'."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrbackend.cpp:498
+#: rkward/rbackend/rkrbackend.cpp:504
 #, kde-format
 msgid "The R engine has shut down with status: %1"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrbackend.cpp:519
+#: rkward/rbackend/rkrbackend.cpp:525
 #, kde-format
 msgid ""
 "The R engine has encountered a fatal error:\n"
@@ -3933,19 +3958,19 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrbackend.cpp:689
+#: rkward/rbackend/rkrbackend.cpp:736
 #, kde-format
 msgid "Message from the R backend"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrbackend.cpp:697
+#: rkward/rbackend/rkrbackend.cpp:744
 #, kde-format
 msgid "Question from the R backend"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrbackend.cpp:1602
+#: rkward/rbackend/rkrbackend.cpp:1584
 #, kde-format
 msgid ""
 "</p>"
@@ -3956,7 +3981,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrbackend.cpp:1606
+#: rkward/rbackend/rkrbackend.cpp:1588
 #, kde-format
 msgid ""
 "<p>\t-There was a problem setting up the communication with R. Most likely this indicates a broken installation.</p>"
@@ -3967,13 +3992,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrbackend.cpp:1663
+#: rkward/rbackend/rkrbackend.cpp:1643
 #, kde-format
 msgid "Graphics version mismatch"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrbackend.cpp:1663
+#: rkward/rbackend/rkrbackend.cpp:1643
 #, kde-format
 msgid ""
 "R Graphics Engine version has changed (from %1 to %2).<br>"
@@ -3982,19 +4007,19 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrbackend.cpp:1663
+#: rkward/rbackend/rkrbackend.cpp:1643
 #, kde-format
 msgid "Ok"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:89
+#: rkward/rbackend/rkrinterface.cpp:90
 #, kde-format
 msgid "R Startup"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:91
+#: rkward/rbackend/rkrinterface.cpp:92
 #, kde-format
 msgid ""
 "<p>\t-An unspecified error occurred that is not yet handled by RKWard. Likely RKWard will not function properly. Please check your setup.</p>"
@@ -4002,7 +4027,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:93
+#: rkward/rbackend/rkrinterface.cpp:94
 #, kde-format
 msgid ""
 "<p>There was a problem starting the R backend. The following error(s) occurred:</p>"
@@ -4010,31 +4035,31 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:95
+#: rkward/rbackend/rkrinterface.cpp:96
 #, kde-format
 msgid "Error starting R"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:652
+#: rkward/rbackend/rkrinterface.cpp:577
 #, kde-format
 msgid "The R-backend has indicated that in order to carry out the current task it needs the package '%1', which is not currently installed. We will open the package-management tool, and there you can try to locate and install the needed package."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:652
+#: rkward/rbackend/rkrinterface.cpp:577
 #, kde-format
 msgid "Require package '%1'"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:684
+#: rkward/rbackend/rkrinterface.cpp:609
 #, kde-format
 msgid "Quitting was canceled"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:686
+#: rkward/rbackend/rkrinterface.cpp:611
 #, kde-format
 msgid ""
 "A command in the R backend is trying to change the character encoding. While RKWard offers support for this, and will try to adjust to the new locale, this operation may cause subtle bugs, if data windows are currently open. Also the feature is not well tested, yet, and it may be advisable to save your workspace before proceeding.\n"
@@ -4042,31 +4067,31 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:686
+#: rkward/rbackend/rkrinterface.cpp:611
 #, kde-format
 msgid "Locale change"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:687
+#: rkward/rbackend/rkrinterface.cpp:612
 #, kde-format
 msgid "Changing the locale was canceled by user"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:788
+#: rkward/rbackend/rkrinterface.cpp:715
 #, kde-format
 msgid "Attempt to start recording, while already recording commands. Ignoring."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:796
+#: rkward/rbackend/rkrinterface.cpp:723
 #, kde-format
 msgid "Could not open file for writing. Not recording commands"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:820
+#: rkward/rbackend/rkrinterface.cpp:816
 #, kde-format
 msgid "Error: unrecognized request '%1'"
 msgstr ""
@@ -4078,13 +4103,13 @@ msgid "Unrecognized call '%1'"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:900
+#: rkward/rbackend/rkrinterface.cpp:888
 #, kde-format
 msgid "R backend requests information"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:922
+#: rkward/rbackend/rkrinterface.cpp:910
 #, kde-format
 msgid ""
 "\n"
@@ -4092,33 +4117,33 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkrinterface.cpp:923
+#: rkward/rbackend/rkrinterface.cpp:911
 #, kde-format
 msgid "R engine has died"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkwarddevice/rkgraphicsdevice.cpp:213
+#: rkward/rbackend/rkwarddevice/rkgraphicsdevice.cpp:220
 #, kde-format
 msgid "Graphics Device Number %1"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkwarddevice/rkgraphicsdevice.cpp:650
+#: rkward/rbackend/rkwarddevice/rkgraphicsdevice.cpp:657
 #, kde-format
 msgctxt "Window title"
 msgid "%1 (Active)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkwarddevice/rkgraphicsdevice.cpp:652
+#: rkward/rbackend/rkwarddevice/rkgraphicsdevice.cpp:659
 #, kde-format
 msgctxt "Window title"
 msgid "%1 (Inactive)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkwarddevice/rkgraphicsdevice.cpp:678
+#: rkward/rbackend/rkwarddevice/rkgraphicsdevice.cpp:685
 #, kde-format
 msgid ""
 "<h2>Locating point(s)</h2>"
@@ -4126,33 +4151,189 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkwarddevice/rkgraphicsdevice.cpp:688
+#: rkward/rbackend/rkwarddevice/rkgraphicsdevice.cpp:695
 #, kde-format
 msgid "<p>Press Enter to see next plot, or click 'Cancel' to abort.</p>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkwarddevice/rkgraphicsdevice.cpp:692
+#: rkward/rbackend/rkwarddevice/rkgraphicsdevice.cpp:699
 #, kde-format
 msgid "Ok to show next plot?"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkwarddevice/rkgraphicsdevice_frontendtransmitter.cpp:66
+#: rkward/rbackend/rkwarddevice/rkgraphicsdevice_frontendtransmitter.cpp:67
 #, kde-format
 msgid "There has been an error while trying to connect the on-screen graphics backend. This means, on-screen graphics using the RKWard device will not work in this session."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkwarddevice/rkgraphicsdevice_frontendtransmitter.cpp:66
+#: rkward/rbackend/rkwarddevice/rkgraphicsdevice_frontendtransmitter.cpp:67
 #, kde-format
 msgid "Expected connection token %1, but read connection token %2"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rbackend/rkwarddevice/rkgraphicsdevice_frontendtransmitter.cpp:66
+#: rkward/rbackend/rkwarddevice/rkgraphicsdevice_frontendtransmitter.cpp:67
 #, kde-format
 msgid "Error while connection graphics backend"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/public_graphics.R:93
+#, kde-format, no-c-format
+msgid "Device type \"%1\" is unknown to RKWard"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.download_appimage.R:66
+#, kde-format, no-c-format
+msgid "rk.download_appimage() requires XiMpLe >= 0.11.3, but only found %1. Please update XiMpLe."
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.download_appimage.R:76
+#, kde-format, no-c-format
+msgid "Target directory '%1' does not exist\n"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.download_appimage.R:82
+#, kde-format, no-c-format
+msgid "Target file '%1' already exists, use the \"overwrite\" argument to replace it:\n"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.download_appimage.R:86
+#, kde-format, no-c-format
+msgid ""
+"Creating backup of current AppImage: %1\n"
+"  "
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.download_appimage.R:111
+#, kde-format
+msgid "Something went wrong with the download! Restored previous AppImage from backup."
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.download_appimage.R:114
+#: rkward/rbackend/rpackages/rkward/R/rk.download_appimage.R:139
+#, kde-format
+msgid "Something went wrong with the download!"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.download_appimage.R:120
+#, kde-format
+msgid "Download successful, setting file permissions."
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.download_appimage.R:127
+#, kde-format
+msgid "Removing backup of previous AppImage."
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.download_appimage.R:133
+#, kde-format
+msgid "Something went wrong with the download! Restoring previous AppImage from backup."
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.filename-functions.R:146
+#, kde-format, no-c-format
+msgid "Failed to copy CSS file '%1' to '%2'"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.menu.R:81
+#, kde-format, no-c-format
+msgid "Submenu %1 cannot be redefined as a leaf item."
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.menu.R:113
+#: rkward/rbackend/rpackages/rkward/R/rk.menu.R:118
+#, kde-format, no-c-format
+msgid "Menu path %1 is not defined"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.menu.R:114
+#, kde-format, no-c-format
+msgid "Leaf menu item %1 cannot be redefined as a submenu."
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.output.R:86
+#, kde-format
+msgid "No file name specified"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.output.R:115
+#, kde-format
+msgid "Invalid output id. Use rk.output() to obtain a valid output handle."
+msgstr ""
+
+#. +> trunk6 stable6
+#: rkward/rbackend/rpackages/rkward/R/rk.preview-functions.R:37
+#, kde-format
+msgid "The software <tt>pdflatex</tt> is required for rendering PDF previews. The easiest way to install it is by running <tt>install.packages(\"tinytex\"); library(\"tinytex\"); install_tinytex()</tt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rkward/rbackend/rpackages/rkward/R/rk.preview-functions.R:40
+#, kde-format
+msgid "Rendering the preview failed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rkward/rbackend/rpackages/rkward/R/rk.preview-functions.R:47
+#, kde-format
+msgid ""
+"<h1>Unsupported format</h1>"
+"<p>The preview cannot be shown, here, because the output format is neither HTML, nor PDF. You can try opening it in an external application, using the link, below, or you can change the preview mode to 'R Markdown (HTML)'.</p>"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.preview-functions.R:141
+#, kde-format
+msgid "Plot window created"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.preview-functions.R:145
+#, kde-format
+msgid "Plot window closed"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.preview-functions.R:155
+#, kde-format
+msgid "Plot updated (click to show)"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.print-functions.R:115
+#, kde-format
+msgid "Please install package R2HTML to enable output!"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.print-functions.R:152
+#, kde-format
+msgid "Unnamed parameter lists are deprecated in rk.header()"
+msgstr ""
+
+#. +> trunk6
+#: rkward/rbackend/rpackages/rkward/R/rk.print-functions.R:245
+#, kde-format, no-c-format
+msgid "Printing object of class '%1' is not implemented"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
@@ -4168,7 +4349,7 @@ msgid "'katepart' component could not be found"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:114 rkward/windows/rkcommandeditorwindow.cpp:710
+#: rkward/rkconsole.cpp:114 rkward/windows/rkcommandeditorwindow.cpp:713
 #, kde-format
 msgid "R Console"
 msgstr ""
@@ -4186,91 +4367,91 @@ msgid "Dynamic word wrap"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:469
+#: rkward/rkconsole.cpp:464
 #, kde-format
 msgid "Syntax error\n"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:670
+#: rkward/rkconsole.cpp:665
 #, kde-format
 msgid "Select command history file to load"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:672
+#: rkward/rkconsole.cpp:667
 #, kde-format
 msgid "R history files [*.Rhistory](*.Rhistory);;All files [*](*)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:705
+#: rkward/rkconsole.cpp:700
 #, kde-format
 msgid "Select filename to save command history"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:706
+#: rkward/rkconsole.cpp:701
 #, kde-format
 msgid "R history files [*.Rhistory] (*.Rhistory);;All files [*] (*)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:831
+#: rkward/rkconsole.cpp:835
 #, kde-format
 msgid "Interrupt running command"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:838
+#: rkward/rkconsole.cpp:842
 #, kde-format
 msgid "Copy selection literally"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:841
+#: rkward/rkconsole.cpp:845
 #, kde-format
 msgid "Copy commands, only"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:848
+#: rkward/rkconsole.cpp:852
 #, kde-format
 msgid "Print Console"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:854
+#: rkward/rkconsole.cpp:858
 #, kde-format
 msgid "Import command history..."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:856
+#: rkward/rkconsole.cpp:860
 #, kde-format
 msgid "Export command history..."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:875
+#: rkward/rkconsole.cpp:879
 #, kde-format
 msgid "You have configured RKWard to pipe script editor commands through the R Console. However, another command is currently active in the console. Do you want to append it to the command in the console, or do you want to reset the console, first? Press cancel if you do not wish to run the new command, now."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:875
+#: rkward/rkconsole.cpp:879
 #, kde-format
 msgid "R Console is busy"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:875
+#: rkward/rkconsole.cpp:879
 #, kde-format
 msgid "Append"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/rkconsole.cpp:875
+#: rkward/rkconsole.cpp:879
 #, kde-format
 msgid "Reset, then submit"
 msgstr ""
@@ -4763,7 +4944,7 @@ msgstr ""
 msgid "Open as text file and force R highlighting"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/rkward.cpp:1024
 #, kde-format
 msgid "Open as R workspace"
@@ -4941,7 +5122,7 @@ msgstr ""
 msgid "The file \"%1\" (needed by \"%2\") could not be found. Please check your installation."
 msgstr ""
 
-#. +> trunk5 stable6
+#. +> trunk5
 #: rkward/scriptbackends/rkcomponentscripting.cpp:54
 #: rkward/scriptbackends/rkcomponentscripting.cpp:56
 #, kde-format
@@ -5211,61 +5392,61 @@ msgid "R script file filters (separated by spaces)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleconsole.cpp:44
+#: rkward/settings/rksettingsmoduleconsole.cpp:45
 #, kde-format
 msgid "Console"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleconsole.cpp:52
+#: rkward/settings/rksettingsmoduleconsole.cpp:53
 #, kde-format
 msgid "Load/Save command history"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleconsole.cpp:54
+#: rkward/settings/rksettingsmoduleconsole.cpp:55
 #, kde-format
 msgid "Maximum length of command history (0 for no limit)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleconsole.cpp:58
+#: rkward/settings/rksettingsmoduleconsole.cpp:59
 #, kde-format
 msgid "Maximum number of paragraphs/lines to display in the console (0 for not limit)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleconsole.cpp:64
+#: rkward/settings/rksettingsmoduleconsole.cpp:65
 #, kde-format
 msgid "Run commands from script editor through console"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleconsole.cpp:67
+#: rkward/settings/rksettingsmoduleconsole.cpp:68
 #, kde-format
 msgid "Also add those commands to console history"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleconsole.cpp:68
+#: rkward/settings/rksettingsmoduleconsole.cpp:69
 #, kde-format
 msgid "Do not add"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleconsole.cpp:69
+#: rkward/settings/rksettingsmoduleconsole.cpp:70
 #, kde-format
 msgid "Add only if single line"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleconsole.cpp:70
+#: rkward/settings/rksettingsmoduleconsole.cpp:71
 #, kde-format
 msgid "Add all commands"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleconsole.cpp:80
+#: rkward/settings/rksettingsmoduleconsole.cpp:81
 #, kde-format
 msgid "Command history is context sensitive by default"
 msgstr ""
@@ -5609,134 +5790,134 @@ msgid "Add the name of the package that no structure should be fetched for"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:46
+#: rkward/settings/rksettingsmoduleoutput.cpp:47
 #, kde-format
 msgid "Carbon copy commands to output"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:50
+#: rkward/settings/rksettingsmoduleoutput.cpp:51
 #, kde-format
 msgid "Commands entered in the console"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:51
+#: rkward/settings/rksettingsmoduleoutput.cpp:52
 #, kde-format
 msgid "Commands run via the 'Run' menu"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:52
+#: rkward/settings/rksettingsmoduleoutput.cpp:53
 #, kde-format
 msgid "Commands originating from dialogs and plugins"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:53
+#: rkward/settings/rksettingsmoduleoutput.cpp:54
 #, kde-format
 msgid "Also carbon copy the command output"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:111
+#: rkward/settings/rksettingsmoduleoutput.cpp:112
 #, kde-format
 msgid "Output Window options"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:113
+#: rkward/settings/rksettingsmoduleoutput.cpp:114
 #, kde-format
 msgid "show window on new output"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:115
+#: rkward/settings/rksettingsmoduleoutput.cpp:116
 #, kde-format
 msgid "raise window on new output"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:124
+#: rkward/settings/rksettingsmoduleoutput.cpp:125
 #, kde-format
 msgid "Default output (used, while no other output has been set, explicitly) is shared across workspaces(*)."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:126
+#: rkward/settings/rksettingsmoduleoutput.cpp:127
 #, kde-format
 msgid "CSS file to use for output (leave empty for default)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:126
+#: rkward/settings/rksettingsmoduleoutput.cpp:127
 #, kde-format
 msgid "Select CSS file"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:128
+#: rkward/settings/rksettingsmoduleoutput.cpp:129
 #, kde-format
 msgid "Select a CSS file for custom formatting of the output window. Leave empty to use the default CSS file shipped with RKWard. Note that this setting takes effect, when initializing an output file (e.g. after flushing the output), only."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:131
+#: rkward/settings/rksettingsmoduleoutput.cpp:132
 #, kde-format
 msgid "Graphics"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:135
+#: rkward/settings/rksettingsmoduleoutput.cpp:136
 #, kde-format
 msgid "File format"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:137
+#: rkward/settings/rksettingsmoduleoutput.cpp:138
 #, kde-format
 msgid "<Default>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:138
+#: rkward/settings/rksettingsmoduleoutput.cpp:139
 #, kde-format
 msgid "PNG"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:139
+#: rkward/settings/rksettingsmoduleoutput.cpp:140
 #, kde-format
 msgid "SVG"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:140
+#: rkward/settings/rksettingsmoduleoutput.cpp:141
 #, kde-format
 msgid "JPG"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:145
+#: rkward/settings/rksettingsmoduleoutput.cpp:146
 #, kde-format
 msgid "JPG quality"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:152
+#: rkward/settings/rksettingsmoduleoutput.cpp:153
 #, kde-format
 msgid "Width:"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmoduleoutput.cpp:155
+#: rkward/settings/rksettingsmoduleoutput.cpp:156
 #, kde-format
 msgid "Height:"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
 #: rkward/settings/rksettingsmoduleplugins.cpp:51
-#: rkward/windows/rktoplevelwindowgui.cpp:154
+#: rkward/windows/rktoplevelwindowgui.cpp:155
 #, kde-format
 msgid "RKWard Plugins"
 msgstr ""
@@ -5793,7 +5974,7 @@ msgstr ""
 
 #. +> trunk6 trunk5 stable6
 #: rkward/settings/rksettingsmoduleplugins.cpp:472
-#: rkward/windows/rkhtmlwindow.cpp:1167
+#: rkward/windows/rkhtmlwindow.cpp:1169
 #, kde-format
 msgid "Dependencies"
 msgstr ""
@@ -6162,68 +6343,68 @@ msgid "Keep this location (do not change anything)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmodulewatch.cpp:116
+#: rkward/settings/rksettingsmodulewatch.cpp:121
 #: rkward/windows/rkcommandlog.cpp:45
 #, kde-format
 msgid "Command log"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmodulewatch.cpp:121
+#: rkward/settings/rksettingsmodulewatch.cpp:126
 #, kde-format
 msgid "For now, settings only apply to new commands. All previous commands remain visible/invisible."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmodulewatch.cpp:128
+#: rkward/settings/rksettingsmodulewatch.cpp:133
 #, kde-format
 msgid "always show command"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmodulewatch.cpp:130
+#: rkward/settings/rksettingsmodulewatch.cpp:135
 #, kde-format
 msgid "always show result"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmodulewatch.cpp:132
+#: rkward/settings/rksettingsmodulewatch.cpp:137
 #, kde-format
 msgid "show errors"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmodulewatch.cpp:134
+#: rkward/settings/rksettingsmodulewatch.cpp:139
 #, kde-format
 msgid "show/raise window"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmodulewatch.cpp:137
+#: rkward/settings/rksettingsmodulewatch.cpp:142
 #, kde-format
 msgid "User commands"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmodulewatch.cpp:138
+#: rkward/settings/rksettingsmodulewatch.cpp:143
 #, kde-format
 msgid "Plugin generated commands"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmodulewatch.cpp:139
+#: rkward/settings/rksettingsmodulewatch.cpp:144
 #, kde-format
 msgid "Application commands"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmodulewatch.cpp:140
+#: rkward/settings/rksettingsmodulewatch.cpp:145
 #, kde-format
 msgid "Synchronization commands"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/settings/rksettingsmodulewatch.cpp:144
+#: rkward/settings/rksettingsmodulewatch.cpp:149
 #, kde-format
 msgid "Maximum number of paragraphs/lines to display in the Command Log (0 for no limit)"
 msgstr ""
@@ -6304,7 +6485,7 @@ msgid "Resume execution"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcallstackviewer.cpp:87
+#: rkward/windows/rkcallstackviewer.cpp:86
 #, kde-format
 msgid "<b>Active calls</b>"
 msgstr ""
@@ -6338,42 +6519,42 @@ msgid "Incompatible version of ktexteditor"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcodecompletion.cpp:679
+#: rkward/windows/rkcodecompletion.cpp:684
 #, kde-format
 msgid "Objects on search path"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcodecompletion.cpp:765
+#: rkward/windows/rkcodecompletion.cpp:771
 #, kde-format
 msgid "Function calls"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcodecompletion.cpp:862
+#: rkward/windows/rkcodecompletion.cpp:868
 #, kde-format
 msgid "Function arguments"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcodecompletion.cpp:979
+#: rkward/windows/rkcodecompletion.cpp:985
 #, kde-format
 msgid "Local file names"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:97
 #, kde-format
 msgid "Command 'S' is for R Markdown, only"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:110
 #, kde-format
 msgid "Unknown command <tt><b>%1</b></tt>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:117
 #, kde-format
 msgctxt "Keep this short"
@@ -6382,7 +6563,7 @@ msgid ""
 "<tt><b>c</b></tt> to move to next chunk."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:119
 #, kde-format
 msgctxt "Keep this short"
@@ -6391,7 +6572,7 @@ msgid ""
 "<tt><b>C</b></tt> to move to previous chunk."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:123
 #, kde-format
 msgctxt "Keep this short"
@@ -6400,7 +6581,7 @@ msgid ""
 "<tt><b>1</b></tt> to move to top."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:125
 #, kde-format
 msgctxt "Keep this short"
@@ -6409,245 +6590,233 @@ msgid ""
 "<tt><b>!</b></tt> to move to bottom."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:196
 #, kde-format
 msgid "<b>Code Navigation</b> (<a href=\"rkward://page/rkward_code_navigation\">Help</a>)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:284
 #, kde-format
 msgid "Enter command"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:321
 #, kde-format
 msgid "Quick Code Navigation Mode"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:323
 #, kde-format
 msgid "Step through your code using single keystrokes (<a href=\"rkward://page/rkward_code_navigation\">more info</a>)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:324
 #, kde-format
 msgid "Step through your code based on its structure or enter <a href=\"rkward://page/rkward_code_navigation\">Quick Code Navigation Mode</a>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:326
 #, kde-format
 msgid "Code Navigation"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:345
 #, kde-format
 msgctxt "verb: To jump to a different place in the code"
 msgid "Go"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:346
 #, kde-format
 msgid "Next statement"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:347
 #, kde-format
 msgid "Previous statement"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:348
 #, kde-format
 msgid "Next (inner) statement"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:349
 #, kde-format
 msgid "Previous (inner) statement"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:350
 #, kde-format
 msgid "Next outer statement"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:351
 #, kde-format
 msgid "Previous outer statement"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:352
 #, kde-format
 msgid "Next toplevel statement"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:353
 #, kde-format
 msgid "Previous toplevel statement"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:355
 #, kde-format
 msgid "Next code chunk"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:356
 #, kde-format
 msgid "Previous code chunk"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:358
 #, kde-format
 msgid "Select current statement"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:359
 #, kde-format
 msgid "Select current code chunk"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:360
 #, kde-format
 msgid "Run"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: rkward/windows/rkcodenavigation.cpp:361
 #, kde-format
 msgid "Run current statement, and advance"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:166
+#: rkward/windows/rkcommandeditorwindow.cpp:169
 #, kde-format
 msgid "Unable to open \"%1\""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:166
+#: rkward/windows/rkcommandeditorwindow.cpp:169
 #, kde-format
 msgid "Could not open command file"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:206
+#: rkward/windows/rkcommandeditorwindow.cpp:209
 #, kde-format
 msgid "Script Editor"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:349
+#: rkward/windows/rkcommandeditorwindow.cpp:351
 #, kde-format
 msgid "Insert line break and run"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:356
+#: rkward/windows/rkcommandeditorwindow.cpp:358
 #, kde-format
 msgid "Run block"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:360
+#: rkward/windows/rkcommandeditorwindow.cpp:362
 #, kde-format
 msgid "Mark selection as block"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:363
+#: rkward/windows/rkcommandeditorwindow.cpp:365
 #, kde-format
 msgid "Unmark block"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:368
+#: rkward/windows/rkcommandeditorwindow.cpp:370
 #, kde-format
 msgid "CD to script directory"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:369
+#: rkward/windows/rkcommandeditorwindow.cpp:371
 #, kde-format
 msgid "Change the working directory to the directory of this script"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:376
-#, kde-format
-msgid "No preview"
-msgstr ""
-
-#. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:377
-#, kde-format
-msgid "Disable preview"
-msgstr ""
-
-#. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:394
+#: rkward/windows/rkcommandeditorwindow.cpp:378
 #, kde-format
 msgctxt "Checkable action: the preview gets updated while typing"
 msgid "Update as you type"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:395
+#: rkward/windows/rkcommandeditorwindow.cpp:380
 #, kde-format
 msgid "When this option is enabled, an update of the preview will be triggered every time you modify the script. When this option is disabled, the preview will be updated whenever you save the script, only."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:402
+#: rkward/windows/rkcommandeditorwindow.cpp:386
 #, kde-format
 msgid "Save Script..."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:404
+#: rkward/windows/rkcommandeditorwindow.cpp:388
 #, kde-format
 msgid "Save Script As..."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:484
-#: rkward/windows/rkcommandeditorwindow.cpp:942
+#: rkward/windows/rkcommandeditorwindow.cpp:468
+#: rkward/windows/rkcommandeditorwindow.cpp:1024
 #, kde-format
 msgid " [modified]"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:491
+#: rkward/windows/rkcommandeditorwindow.cpp:475
 #, kde-format
 msgid "The document \"%1\" has been modified. Close it anyway?"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:491
+#: rkward/windows/rkcommandeditorwindow.cpp:475
 #, kde-format
 msgid "File not saved"
 msgstr ""
 
-#. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:610
+#. +> trunk5
+#: rkward/windows/rkcommandeditorwindow.cpp:576
 #, kde-format
 msgid ""
 "<p>The preview feature <b>tries</b> to avoid making any lasting changes to your workspace (technically, by making use of a <i>local()</i> evaluation environment). <b>However, there are cases where using the preview feature may cause unexpected side-effects</b>.</p>"
@@ -6656,63 +6825,33 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:610
+#: rkward/windows/rkcommandeditorwindow.cpp:673
 #, kde-format
-msgid "Potential side-effects of previews"
-msgstr ""
-
-#. +> trunk6 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:669
-#, kde-format
-msgctxt "Caption: Some software is missing."
-msgid "Missing software"
-msgstr ""
-
-#. +> trunk6 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:670
-#, kde-format
-msgid "Rendering the preview failed"
+msgid "No preview"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:671
-#, kde-format
-msgid ""
-"The software <tt>pandoc</tt>, required to rendering R markdown files, is not installed, or not in the system path of the running R session. You will need to install pandoc from <a href=\"https://pandoc.org/\">https://pandoc.org/</a>.</br>"
-"If it is installed, but cannot be found, try adding it to the system path of the running R session at <a href=\"rkward://settings/rbackend\">Settings->Configure RKward->R-backend</a>."
-msgstr ""
-
-#. +> trunk6 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:674
-#, kde-format
-msgid "The software <tt>pdflatex</tt> is required for rendering PDF previews. The easiest way to install it is by running <tt>install.packages(\"tinytex\"); library(\"tinytex\"); install_tinytex()</tt>"
-msgstr ""
-
-#. +> trunk6 stable6
 #: rkward/windows/rkcommandeditorwindow.cpp:675
 #, kde-format
-msgid ""
-"<h1>Unsupported format</h1>"
-"<p>The preview cannot be shown, here, because the output format is neither HTML, nor PDF. You can try opening it in an external application, using the link, below, or you can change the preview mode to 'R Markdown (HTML)'.</p>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:684
-#, kde-format
-msgid "R Markdown (HTML)"
+msgid "Disable preview"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:684
-#: rkward/windows/rkcommandeditorwindow.cpp:691
+#: rkward/windows/rkcommandeditorwindow.cpp:679
+#, kde-format
+msgid "R Markdown"
+msgstr ""
+
+#. +> trunk6 trunk5 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:681
 #, kde-format
 msgid "Preview of rendered R Markdown"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:685
+#: rkward/windows/rkcommandeditorwindow.cpp:682
 #, kde-format
-msgid "Preview the script as rendered from RMarkdown format (.Rmd) to HTML."
+msgid "Preview the script as rendered from RMarkdown format (.Rmd)"
 msgstr ""
 
 #. +> trunk5
@@ -6722,75 +6861,158 @@ msgid "Preview the script as rendered from RMarkdown format (appropriate for .Rm
 msgstr ""
 
 #. +> trunk6 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:691
+#: rkward/windows/rkcommandeditorwindow.cpp:686
 #, kde-format
-msgid "R Markdown (auto)"
-msgstr ""
-
-#. +> trunk5
-#: rkward/windows/rkcommandeditorwindow.cpp:405
-#, kde-format
-msgid "R Markdown"
+msgid "Render format"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:692
+#: rkward/windows/rkcommandeditorwindow.cpp:687
 #, kde-format
-msgid "Preview the script as rendered from RMarkdown format (.Rmd) to the format specified in the document header."
+msgid "Render as HTML"
 msgstr ""
 
-#. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:698
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:688
 #, kde-format
-msgid "RKWard Output"
+msgid "Render as PDF"
 msgstr ""
 
-#. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:698
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:689
 #, kde-format
-msgid "Preview of generated RKWard output"
+msgid "Auto Format"
+msgstr ""
+
+#. +> stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:695
+#, kde-format
+msgctxt "Caption: Some software is missing."
+msgid "Missing software"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
 #: rkward/windows/rkcommandeditorwindow.cpp:699
 #, kde-format
+msgid "RKWard Output"
+msgstr ""
+
+#. +> trunk6 trunk5 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:701
+#, kde-format
+msgid "Preview of generated RKWard output"
+msgstr ""
+
+#. +> trunk6 trunk5 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:702
+#, kde-format
 msgid "Preview any output to the RKWard Output Window. This preview will be empty, if there is no call to <i>rk.print()</i> or other RKWard output commands."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:710
+#: rkward/windows/rkcommandeditorwindow.cpp:715
 #, kde-format
 msgid "Preview of script running in interactive R Console"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:711
+#: rkward/windows/rkcommandeditorwindow.cpp:716
 #, kde-format
 msgid "Preview the script as if it was run in the interactive R Console"
 msgstr ""
 
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:720
+#, kde-format
+msgid "Echo statements"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:723
+#, kde-format
+msgid "Continue on error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:725
+#, kde-format
+msgid "Evaluation environment"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:727
+#, kde-format
+msgid ".GlobalEnv"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:729
+#, kde-format
+msgid "Evaluate code directly in .GlobalEnv. Assignments can access <b>and modify</b> objects in .GlobalEnv."
+msgstr ""
+
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:730
+#, kde-format
+msgid "Scoped"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:732
+#, kde-format
+msgid "Evaluate code in a child scope of .GlobalEnv. Objects in .GlobalEnv can be accessed, but regular assignments using the <tt>&lt;-</tt>-operator will not modify them. (Other assignment operations could still modify them!)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:733
+#, kde-format
+msgid "Local"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:734
+#, kde-format
+msgid "Evaluate code in true local environment. Objects in .GlobalEnv are not on the search path, and will not be modified by regular assignments using the <tt>&lt;-</tt>-operator. (Other assignment operations could still modify them!)"
+msgstr ""
+
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:736
+#: rkward/windows/rkcommandeditorwindow.cpp:749
 #, kde-format
 msgid "Plot"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:736
+#: rkward/windows/rkcommandeditorwindow.cpp:751
 #, kde-format
 msgid "Preview of generated plot"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:737
+#: rkward/windows/rkcommandeditorwindow.cpp:752
 #, kde-format
 msgid "Preview any onscreen graphics produced by running this script. This preview will be empty, if there is no call to <i>plot()</i> or other graphics commands."
 msgstr ""
 
-#. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:867
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:766
 #, kde-format
-msgid "An error occurred while trying to create an autosave of the script file '%1':"
+msgctxt "noun: type of preview"
+msgid "Preview Mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:818
+#, kde-format
+msgid ""
+"<p>The preview feature <b>tries</b> to avoid making any lasting changes to your workspace, by default (technically, by making use of a <i>local</i> evaluation environment; some preview modes allow optional control about the evaluation environment). However, <b>there are cases where using the preview feature may cause unexpected side-effects</b>.</p>"
+"<p>In particular, this is the case for scripts that contain explicit assignments to <i>globalenv()</i>, or for scripts that alter files on your filesystem. Further, attaching/detaching packages or package namespaces will affect the entire running R session.</p>"
+"<p>Please keep this in mind when using the preview feature, and especially when using the feature on scripts originating from untrusted sources.</p>"
+msgstr ""
+
+#. +> trunk6 trunk5 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:818
+#, kde-format
+msgid "Potential side-effects of previews"
 msgstr ""
 
 #. +> trunk5
@@ -6799,20 +7021,34 @@ msgstr ""
 msgid "Pandoc is not installed"
 msgstr ""
 
+#. +> trunk5 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:914
+#, kde-format
+msgid ""
+"The software <tt>pandoc</tt>, required to rendering R markdown files, is not installed, or not in the system path of the running R session. You will need to install pandoc from <a href=\"https://pandoc.org/\">https://pandoc.org/</a>.</br>"
+"If it is installed, but cannot be found, try adding it to the system path of the running R session at <a href=\"rkward://settings/rbackend\">Settings->Configure RKward->R-backend</a>."
+msgstr ""
+
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:941
+#: rkward/windows/rkcommandeditorwindow.cpp:949
+#, kde-format
+msgid "An error occurred while trying to create an autosave of the script file '%1':"
+msgstr ""
+
+#. +> trunk6 trunk5 stable6
+#: rkward/windows/rkcommandeditorwindow.cpp:1023
 #, kde-format
 msgid "Unnamed"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:1074
+#: rkward/windows/rkcommandeditorwindow.cpp:1156
 #, kde-format
 msgid "%1 (Active)"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandeditorwindow.cpp:1093
+#: rkward/windows/rkcommandeditorwindow.cpp:1175
 #, kde-format
 msgid "%1 (Unused)"
 msgstr ""
@@ -6825,25 +7061,25 @@ msgid "&Tools Move"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandlog.cpp:200
+#: rkward/windows/rkcommandlog.cpp:198
 #, kde-format
 msgid "Incomplete statement.\n"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandlog.cpp:202
+#: rkward/windows/rkcommandlog.cpp:200
 #, kde-format
 msgid "Syntax error.\n"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandlog.cpp:204
+#: rkward/windows/rkcommandlog.cpp:202
 #, kde-format
 msgid "An unspecified error occurred while running the command.\n"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkcommandlog.cpp:301
+#: rkward/windows/rkcommandlog.cpp:298
 #, kde-format
 msgid "Configure"
 msgstr ""
@@ -7076,95 +7312,89 @@ msgid "RKWard output file %s does not (yet) exist"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:741
-#: rkward/windows/rktoplevelwindowgui.cpp:256
+#: rkward/windows/rkhtmlwindow.cpp:743
+#: rkward/windows/rktoplevelwindowgui.cpp:264
 #, kde-format
 msgid "[Active]"
 msgstr ""
 
-#. +> trunk6
-#: rkward/windows/rkhtmlwindow.cpp:752
+#. +> trunk6 stable6
+#: rkward/windows/rkhtmlwindow.cpp:754
 #, kde-format
 msgctxt "noun, the output"
 msgid "Output %1"
 msgstr ""
 
-#. +> trunk5 stable6
+#. +> trunk5
 #: rkward/windows/rkhtmlwindow.cpp:839
 #, kde-format
 msgid "Output %1"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:805
+#: rkward/windows/rkhtmlwindow.cpp:807
 #, kde-format
 msgid "Output Window"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:807
+#: rkward/windows/rkhtmlwindow.cpp:809
 #, kde-format
 msgid "&Refresh Output"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:833
+#: rkward/windows/rkhtmlwindow.cpp:835
 #, kde-format
 msgid "Page does not exist or is broken"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:846
+#: rkward/windows/rkhtmlwindow.cpp:848
 #, kde-format
 msgid "Do you really want to clear the output? This will also remove all image files used in the output. It will not be possible to restore it."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:847
+#: rkward/windows/rkhtmlwindow.cpp:849
 #, kde-format
 msgid "Flush output?"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:852
+#: rkward/windows/rkhtmlwindow.cpp:854
 #, kde-format
 msgid "Flushing output"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:892
+#: rkward/windows/rkhtmlwindow.cpp:894
 #, kde-format
 msgid "Zoom In"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:894
+#: rkward/windows/rkhtmlwindow.cpp:896
 #, kde-format
 msgid "Zoom Out"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:898
+#: rkward/windows/rkhtmlwindow.cpp:900
 #, kde-format
 msgid "Default &Encoding"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:899
+#: rkward/windows/rkhtmlwindow.cpp:901
 #, kde-format
 msgid "Set the encoding to assume in case no explicit encoding has been set in the page or in the HTTP headers."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:909
+#: rkward/windows/rkhtmlwindow.cpp:911
 #, kde-format
 msgid "Export Page as HTML"
-msgstr ""
-
-#. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:923
-#, kde-format
-msgid "Save Output"
 msgstr ""
 
 #. +> trunk5
@@ -7178,53 +7408,59 @@ msgstr ""
 #. +> trunk6 trunk5 stable6
 #: rkward/windows/rkhtmlwindow.cpp:925
 #, kde-format
+msgid "Save Output"
+msgstr ""
+
+#. +> trunk6 trunk5 stable6
+#: rkward/windows/rkhtmlwindow.cpp:927
+#, kde-format
 msgid "Save Output As"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:928
+#: rkward/windows/rkhtmlwindow.cpp:930
 #, kde-format
 msgid "&Clear Output"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:934
+#: rkward/windows/rkhtmlwindow.cpp:936
 #, kde-format
 msgid "&Revert to last saved state"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:938
+#: rkward/windows/rkhtmlwindow.cpp:940
 #, kde-format
 msgid "Set Output as &Active"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:940
+#: rkward/windows/rkhtmlwindow.cpp:942
 #, kde-format
 msgid "Set this output as the file to append output to."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:962
+#: rkward/windows/rkhtmlwindow.cpp:964
 #, kde-format
 msgid "Print output"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:970
+#: rkward/windows/rkhtmlwindow.cpp:972
 #, kde-format
 msgid "Print page"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1027
+#: rkward/windows/rkhtmlwindow.cpp:1029
 #, kde-format
 msgid "No Title"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1043
+#: rkward/windows/rkhtmlwindow.cpp:1045
 #, kde-format
 msgid ""
 "<h1>Help page missing</h1>"
@@ -7234,73 +7470,73 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1049
+#: rkward/windows/rkhtmlwindow.cpp:1051
 #, kde-format
 msgid "Use %1 now"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1066
+#: rkward/windows/rkhtmlwindow.cpp:1068
 #, kde-format
 msgid "Summary"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1073
+#: rkward/windows/rkhtmlwindow.cpp:1075
 #, kde-format
 msgid "Usage"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1102
+#: rkward/windows/rkhtmlwindow.cpp:1104
 #, kde-format
 msgid "Choose another file"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1125
+#: rkward/windows/rkhtmlwindow.cpp:1127
 #, kde-format
 msgid "GUI settings"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1150
+#: rkward/windows/rkhtmlwindow.cpp:1152
 #, kde-format
 msgid "Related functions and pages"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1158
+#: rkward/windows/rkhtmlwindow.cpp:1160
 #, kde-format
 msgid "Technical details"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1181
+#: rkward/windows/rkhtmlwindow.cpp:1183
 #, kde-format
 msgid "About"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1188
+#: rkward/windows/rkhtmlwindow.cpp:1190
 #, kde-format
 msgid "<h1>On this page:</h1>"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1211
+#: rkward/windows/rkhtmlwindow.cpp:1213
 #, kde-format
 msgid "Unnamed GUI element"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1285
+#: rkward/windows/rkhtmlwindow.cpp:1287
 #, kde-format
 msgid "R Reference on '%1'"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkhtmlwindow.cpp:1297
+#: rkward/windows/rkhtmlwindow.cpp:1299
 #, kde-format
 msgid "BROKEN REFERENCE"
 msgstr ""
@@ -7372,55 +7608,55 @@ msgid "Not shown in sidebar"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:56
+#: rkward/windows/rktoplevelwindowgui.cpp:57
 #, kde-format
 msgid "Help on R"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:58
+#: rkward/windows/rktoplevelwindowgui.cpp:59
 #, kde-format
 msgid "Search R Help"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:60
+#: rkward/windows/rktoplevelwindowgui.cpp:61
 #, kde-format
 msgid "RKWard Dashboard and Help"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:67
+#: rkward/windows/rktoplevelwindowgui.cpp:68
 #, kde-format
 msgid "Shows the R help index"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:68
+#: rkward/windows/rktoplevelwindowgui.cpp:69
 #, kde-format
 msgid "Shows/raises the R Help Search window"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:69
+#: rkward/windows/rktoplevelwindowgui.cpp:70
 #, kde-format
 msgid "Show the RKWard dashboard with links to important settings and documentation"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:74
+#: rkward/windows/rktoplevelwindowgui.cpp:75
 #, kde-format
 msgid "Previous Window"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:78
+#: rkward/windows/rktoplevelwindowgui.cpp:79
 #, kde-format
 msgid "Next Window"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:83
+#: rkward/windows/rktoplevelwindowgui.cpp:84
 #, kde-format
 msgid "Activate Document view"
 msgstr ""
@@ -7432,13 +7668,13 @@ msgid "Color Scheme"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:134
+#: rkward/windows/rktoplevelwindowgui.cpp:135
 #, kde-format
 msgid "Show/Hide %1"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:147
+#: rkward/windows/rktoplevelwindowgui.cpp:148
 #, kde-format
 msgid ""
 "For technical reasons, the following dialog allows you to configure the keyboard shortcuts only for those parts of RKWard that are currently active.\n"
@@ -7447,14 +7683,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:147
-#: rkward/windows/rktoplevelwindowgui.cpp:161
+#: rkward/windows/rktoplevelwindowgui.cpp:148
+#: rkward/windows/rktoplevelwindowgui.cpp:162
 #, kde-format
 msgid "Note"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rktoplevelwindowgui.cpp:161
+#: rkward/windows/rktoplevelwindowgui.cpp:162
 #, kde-format
 msgid ""
 "For technical reasons, the following dialog allows you to configure the toolbar buttons only for those parts of RKWard that are currently active.\n"
@@ -7836,37 +8072,37 @@ msgid "Close all"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkworkplaceview.cpp:237
+#: rkward/windows/rkworkplaceview.cpp:243
 #, kde-format
 msgid "Window Left"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkworkplaceview.cpp:242
+#: rkward/windows/rkworkplaceview.cpp:248
 #, kde-format
 msgid "Window Right"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkworkplaceview.cpp:249
+#: rkward/windows/rkworkplaceview.cpp:255
 #, kde-format
 msgid "Split Ve&rtical"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkworkplaceview.cpp:252
+#: rkward/windows/rkworkplaceview.cpp:258
 #, kde-format
 msgid "Split the currently active view into two views, vertically."
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkworkplaceview.cpp:256
+#: rkward/windows/rkworkplaceview.cpp:262
 #, kde-format
 msgid "Split &Horizontal"
 msgstr ""
 
 #. +> trunk6 trunk5 stable6
-#: rkward/windows/rkworkplaceview.cpp:259
+#: rkward/windows/rkworkplaceview.cpp:265
 #, kde-format
 msgid "Split the currently active view into two views, horizontally."
 msgstr ""

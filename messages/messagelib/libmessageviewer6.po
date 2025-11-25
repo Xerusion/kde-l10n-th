@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-05 12:23+0200\n"
+"POT-Creation-Date: 2025-11-16 11:30+0100\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -606,14 +606,14 @@ msgid "Public Key too small"
 msgstr "ลายเซ็นใช้ได้"
 
 #. +> trunk6 stable6
-#: dkim-verify/dkimwidgetinfo.cpp:233 dkim-verify/dkimwidgetinfo.cpp:280
+#: dkim-verify/dkimwidgetinfo.cpp:234 dkim-verify/dkimwidgetinfo.cpp:282
 #, kde-format
 msgctxt "method name: info about it from parsing"
 msgid "%1: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dkim-verify/dkimwidgetinfo.cpp:257
+#: dkim-verify/dkimwidgetinfo.cpp:259
 #, fuzzy, kde-format
 #| msgctxt "Permissions"
 #| msgid "None"
@@ -621,20 +621,20 @@ msgid "%1: None"
 msgstr "ไม่มี"
 
 #. +> trunk6 stable6
-#: dkim-verify/dkimwidgetinfo.cpp:272
+#: dkim-verify/dkimwidgetinfo.cpp:274
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgid "%1: Valid (Signed by %2)"
 msgstr "จดหมายถูกเซ็นกำกับโดย %1"
 
 #. +> trunk6 stable6
-#: dkim-verify/dkimwidgetinfo.cpp:293
+#: dkim-verify/dkimwidgetinfo.cpp:296
 #, kde-format
 msgid "%1: Valid"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dkim-verify/dkimwidgetinfo.cpp:307
+#: dkim-verify/dkimwidgetinfo.cpp:310
 #, fuzzy, kde-format
 #| msgid "Do &Not Sign"
 msgid "Not Signed"
@@ -913,117 +913,6 @@ msgstr "ส่ง"
 msgctxt "@action"
 msgid "Send Deny"
 msgstr "ส่งทันที"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:70
-#, kde-format
-msgid "Error: Signature not verified"
-msgstr "ผิดพลาด: ไม่สามารถตรวจสอบลายเซ็นได้"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:74
-#, kde-format
-msgid "Good signature"
-msgstr "ลายเซ็นใช้ได้"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:78
-#, fuzzy, kde-format
-#| msgid "Good signature"
-msgid "Bad signature"
-msgstr "ลายเซ็นใช้ได้"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:82
-#, kde-format
-msgid "No public key to verify the signature"
-msgstr "ไม่มีกุญแจสาธารณะสำหรับตรวจสอบลายเซ็น"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:86
-#, kde-format
-msgid "No signature found"
-msgstr "ไม่พบลายเซ็น"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:90
-#, kde-format
-msgid "Error verifying the signature"
-msgstr "เกิดข้อผิดพลาดระหว่างตรวจลายเซ็น"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:94
-#, kde-format
-msgid "Different results for signatures"
-msgstr "ได้ผลลัพธ์ที่แตกต่างกันสำหรับลายเซ็น"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:114
-#, kde-format
-msgid "No status information available."
-msgstr "ไม่มีข้อมูลสถานะ"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:121
-#: messagepartthemes/default/defaultrenderer.cpp:206
-#, kde-format
-msgid "Good signature."
-msgstr "ลายเซ็นใช้ได้"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:142
-#, kde-format
-msgid "One key has expired."
-msgstr "มีกุญแจหมดอายุหนึ่งตัว"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:146
-#, kde-format
-msgid "The signature has expired."
-msgstr "ลายเซ็นหมดอายุ"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:151
-#, kde-format
-msgid "Unable to verify: key missing."
-msgstr "ไม่สามารถตรวจสอบได้: ไม่พบกุญแจ"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:158
-#, kde-format
-msgid "CRL not available."
-msgstr "ไม่มี CRL"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:162
-#, kde-format
-msgid "Available CRL is too old."
-msgstr "CRL ที่มีอยู่เก่าเกินไป"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:166
-#, kde-format
-msgid "A policy was not met."
-msgstr ""
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:170
-#, kde-format
-msgid "A system error occurred."
-msgstr "เกิดข้อผิดพลาดของระบบ"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:181
-#, kde-format
-msgid "One key has been revoked."
-msgstr "มีกุญแจบางตัวถูกยกเลิก"
-
-#. +> trunk6 stable6
-#: messagepartthemes/default/defaultrenderer.cpp:208
-#, fuzzy, kde-format
-#| msgid "Good signature."
-msgid "Bad signature."
-msgstr "ลายเซ็นใช้ได้"
 
 #. +> trunk6 stable6
 #: messagepartthemes/default/templates/certmessagepart.html:2
@@ -1365,50 +1254,50 @@ msgid "Disable scam detection for all messages"
 msgstr "ลบจดหมายทั้งหมด"
 
 #. +> trunk6 stable6
-#: scamdetection/scamdetectionwebengine.cpp:117
-#: scamdetection/scamdetectionwebengine.cpp:215
+#: scamdetection/scamdetectionwebengine.cpp:118
+#: scamdetection/scamdetectionwebengine.cpp:216
 #, kde-format
 msgid "This email contains a link which reads as '%1' in the text, but actually points to '%2'. This is often the case in scam emails to mislead the recipient"
 msgstr ""
 
 #. +> trunk6 stable6
-#: scamdetection/scamdetectionwebengine.cpp:130
+#: scamdetection/scamdetectionwebengine.cpp:131
 #, kde-format
 msgid "This email contains a link which points to a numerical IP address (%1) instead of a typical textual website address. This is often the case in scam emails."
 msgstr ""
 
 #. +> trunk6 stable6
-#: scamdetection/scamdetectionwebengine.cpp:137
+#: scamdetection/scamdetectionwebengine.cpp:138
 #, kde-format
 msgid "This email contains a link which points to a hexadecimal IP address (%1) instead of a typical textual website address. This is often the case in scam emails."
 msgstr ""
 
 #. +> trunk6 stable6
-#: scamdetection/scamdetectionwebengine.cpp:143
+#: scamdetection/scamdetectionwebengine.cpp:144
 #, kde-format
 msgid "This email contains a link (%1) which has a redirection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: scamdetection/scamdetectionwebengine.cpp:149
+#: scamdetection/scamdetectionwebengine.cpp:150
 #, kde-format
 msgid "This email contains a link (%1) which contains multiple http://. This is often the case in scam emails."
 msgstr ""
 
 #. +> trunk6 stable6
-#: scamdetection/scamdetectionwebengine.cpp:160
+#: scamdetection/scamdetectionwebengine.cpp:161
 #, kde-format
 msgid "This email contains a shorturl (%1). It can redirect to another server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: scamdetection/scamdetectionwebengine.cpp:234
+#: scamdetection/scamdetectionwebengine.cpp:235
 #, kde-format
 msgid "Message contains form element. This is often the case in scam emails."
 msgstr ""
 
 #. +> trunk6 stable6
-#: scamdetection/scamdetectionwebengine.cpp:238
+#: scamdetection/scamdetectionwebengine.cpp:239
 #, fuzzy, kde-format
 #| msgid "[Details]"
 msgid "Details:"
@@ -1718,7 +1607,7 @@ msgstr ""
 
 #. i18n: ectx: label, entry (UseFixedFont), group (Composer)
 #. +> trunk6 stable6
-#: settings/messageviewer.kcfg.in:228 viewer/viewer_p.cpp:1558
+#: settings/messageviewer.kcfg.in:228 viewer/viewer_p.cpp:1559
 #, kde-format
 msgid "Use Fi&xed Font"
 msgstr "ใช้ตัวอักษรความกว้างคงที่"
@@ -2111,14 +2000,14 @@ msgid "You deleted an attachment from this message. The original MIME headers fo
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/messageviewerutil.cpp:623
+#: utils/messageviewerutil.cpp:624
 #, fuzzy, kde-format
 #| msgid "&Open with '%1'"
 msgid "Open &with %1"
 msgstr "เปิดด้วย '%1'"
 
 #. +> trunk6 stable6
-#: utils/messageviewerutil.cpp:625
+#: utils/messageviewerutil.cpp:626
 #, fuzzy, kde-format
 #| msgid "%"
 msgctxt "@item:inmenu Open With, %1 is application name"
@@ -2171,7 +2060,7 @@ msgid "Turn on HTML rendering for this message."
 msgstr "เปิดใช้การแสดงผล HTML สำหรับจดหมายฉบับนี้"
 
 #. +> trunk6 stable6
-#: viewer/urlhandlermanager.cpp:411 viewer/viewer_p.cpp:1627
+#: viewer/urlhandlermanager.cpp:411 viewer/viewer_p.cpp:1628
 #, kde-format
 msgid "Load external references from the Internet for this message."
 msgstr "อนุญาตให้จดหมายนี้โหลดส่วนที่อ้างถึงภายนอกจากอินเทอร์เน็ตได้"
@@ -2452,20 +2341,20 @@ msgid "Properties"
 msgstr "คุณสมบัติ"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:732
+#: viewer/viewer_p.cpp:733
 #, kde-format
 msgid "KMail"
 msgstr "KMail"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:732
+#: viewer/viewer_p.cpp:733
 #, fuzzy, kde-format
 #| msgid "KDE Email Client"
 msgid "The KDE Mail Client"
 msgstr "โปรแกรมจัดการจดหมายของ KDE"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1278
+#: viewer/viewer_p.cpp:1279
 #, fuzzy, kde-format
 #| msgid "View Attachment: %1"
 msgctxt "@title:window"
@@ -2473,106 +2362,106 @@ msgid "View Attachment: %1"
 msgstr "แสดงสิ่งที่แนบมาด้วย: %1"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1480
+#: viewer/viewer_p.cpp:1481
 #, kde-format
 msgctxt "View->"
 msgid "&Attachments"
 msgstr "สิ่งที่แนบมาด้วย"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1482
+#: viewer/viewer_p.cpp:1483
 #, kde-format
 msgid "Choose display style of attachments"
 msgstr "เลือกรูปแบบการแสดงสิ่งที่แนบมาด้วย"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1485
+#: viewer/viewer_p.cpp:1486
 #, kde-format
 msgctxt "View->attachments->"
 msgid "&As Icons"
 msgstr "เป็นไอคอน"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1488
+#: viewer/viewer_p.cpp:1489
 #, kde-format
 msgid "Show all attachments as icons. Click to see them."
 msgstr "แสดงสิ่งที่แนบมาด้วยเป็นไอคอน คลิ้กเพื่อดูมัน"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1492
+#: viewer/viewer_p.cpp:1493
 #, kde-format
 msgctxt "View->attachments->"
 msgid "&Smart"
 msgstr "ตามแบบที่กำหนด"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1495
+#: viewer/viewer_p.cpp:1496
 #, kde-format
 msgid "Show attachments as suggested by sender."
 msgstr "แสดงสิ่งที่แนบมาด้วยตามคำแนะนำของผู้ส่ง"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1499
+#: viewer/viewer_p.cpp:1500
 #, kde-format
 msgctxt "View->attachments->"
 msgid "&Inline"
 msgstr "แสดงในตัวจดหมาย"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1502
+#: viewer/viewer_p.cpp:1503
 #, kde-format
 msgid "Show all attachments inline (if possible)"
 msgstr "แสดงสิ่งที่แนบมาด้วยในบรรทัดเนื้อหา (หากเป็นไปได้)"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1506
+#: viewer/viewer_p.cpp:1507
 #, kde-format
 msgctxt "View->attachments->"
 msgid "&Hide"
 msgstr "ซ่อน"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1509
+#: viewer/viewer_p.cpp:1510
 #, kde-format
 msgid "Do not show attachments in the message viewer"
 msgstr "ไม่ให้แสดงสิ่งที่แนบมาด้วยในช่องเนื้อหาจดหมาย"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1513
+#: viewer/viewer_p.cpp:1514
 #, kde-format
 msgctxt "View->attachments->"
 msgid "In Header Only"
 msgstr ""
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1516
+#: viewer/viewer_p.cpp:1517
 #, fuzzy, kde-format
 #| msgid "Show all attachments as icons. Click to see them."
 msgid "Show Attachments only in the header of the mail"
 msgstr "แสดงสิ่งที่แนบมาด้วยเป็นไอคอน คลิ้กเพื่อดูมัน"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1521
+#: viewer/viewer_p.cpp:1522
 #, kde-format
 msgid "&Set Encoding"
 msgstr "ตั้งค่าชุดรหัสอักขระ"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1526 widgets/configurewidget.cpp:45
+#: viewer/viewer_p.cpp:1527 widgets/configurewidget.cpp:45
 #: widgets/configurewidget.cpp:79
 #, kde-format
 msgid "Auto"
 msgstr "อัตโนมัติ"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1536
+#: viewer/viewer_p.cpp:1537
 #, fuzzy, kde-format
 #| msgid "&Copy To"
 msgid "Copy Text"
 msgstr "ทำสำเนาไปยัง"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1542
+#: viewer/viewer_p.cpp:1543
 #, fuzzy, kde-format
 #| msgid "Select All Text"
 msgctxt "@action"
@@ -2580,25 +2469,25 @@ msgid "Select All Text"
 msgstr "เลือกข้อความทั้งหมด"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1548 viewer/viewer_p.cpp:2072
+#: viewer/viewer_p.cpp:1549 viewer/viewer_p.cpp:2072
 #, kde-format
 msgid "Copy Link Address"
 msgstr "คัดลอกตำแหน่งเชื่อมโยง"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1553
+#: viewer/viewer_p.cpp:1554
 #, kde-format
 msgid "Open URL"
 msgstr "เปิดที่อยู่ URL"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1564
+#: viewer/viewer_p.cpp:1565
 #, kde-format
 msgid "Show Message Structure"
 msgstr "แสดงโครงสร้างของจดหมาย"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1569
+#: viewer/viewer_p.cpp:1570
 #, fuzzy, kde-format
 #| msgid "&View Source"
 msgctxt "@action"
@@ -2606,14 +2495,14 @@ msgid "&View Source"
 msgstr "แสดงต้นฉบับ"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1574
+#: viewer/viewer_p.cpp:1575
 #, fuzzy, kde-format
 #| msgid "&Save message"
 msgid "&Save Message..."
 msgstr "&บันทึกจดหมาย"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1580
+#: viewer/viewer_p.cpp:1581
 #, fuzzy, kde-format
 #| msgid "&Save as Draft"
 msgctxt "@action"
@@ -2621,7 +2510,7 @@ msgid "&Save Display Format"
 msgstr "บันทึกเป็นฉบับร่าง"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1584
+#: viewer/viewer_p.cpp:1585
 #, fuzzy, kde-format
 #| msgid "&Save as Draft"
 msgctxt "@action"
@@ -2629,7 +2518,7 @@ msgid "&Reset Display Format"
 msgstr "บันทึกเป็นฉบับร่าง"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1591
+#: viewer/viewer_p.cpp:1592
 #, fuzzy, kde-format
 #| msgid "Scroll Message Up"
 msgctxt "@action"
@@ -2637,7 +2526,7 @@ msgid "Scroll Message Up"
 msgstr "เลื่อนจดหมายขึ้น"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1596
+#: viewer/viewer_p.cpp:1597
 #, fuzzy, kde-format
 #| msgid "Scroll Message Down"
 msgctxt "@action"
@@ -2645,7 +2534,7 @@ msgid "Scroll Message Down"
 msgstr "เลื่อนจดหมายลง"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1601
+#: viewer/viewer_p.cpp:1602
 #, fuzzy, kde-format
 #| msgid "Scroll Message Up (More)"
 msgctxt "@action"
@@ -2653,7 +2542,7 @@ msgid "Scroll Message Up (More)"
 msgstr "เลื่อนจดหมายขึ้น (มากกว่าเดิม)"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1606
+#: viewer/viewer_p.cpp:1607
 #, fuzzy, kde-format
 #| msgid "Scroll Message Down (More)"
 msgctxt "@action"
@@ -2661,19 +2550,19 @@ msgid "Scroll Message Down (More)"
 msgstr "เลื่อนจดหมายลง (มากกว่าเดิม)"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1616
+#: viewer/viewer_p.cpp:1617
 #, kde-format
 msgid "Toggle HTML Display Mode"
 msgstr "สลับโหมดแสดงผลแบบ HTML"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1620
+#: viewer/viewer_p.cpp:1621
 #, kde-format
 msgid "Toggle display mode between HTML and plain text"
 msgstr "สลับโหมดการแสดงผลระหว่างแบบ HTML กับแบบข้อความธรรมดา"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1623
+#: viewer/viewer_p.cpp:1624
 #, fuzzy, kde-format
 #| msgid "Load External References"
 msgctxt "@action"
@@ -2681,7 +2570,7 @@ msgid "Load external references"
 msgstr "เรียกส่วนที่อ้างถึงจากภายนอก"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1629
+#: viewer/viewer_p.cpp:1630
 #, fuzzy, kde-format
 #| msgid "&Copy To"
 msgctxt "@action"
@@ -2689,7 +2578,7 @@ msgid "Speak Text"
 msgstr "ทำสำเนาไปยัง"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1635
+#: viewer/viewer_p.cpp:1636
 #, fuzzy, kde-format
 #| msgid "Se&lect..."
 msgctxt "@action"
@@ -2697,7 +2586,7 @@ msgid "Share Text..."
 msgstr "เลือก..."
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1653
+#: viewer/viewer_p.cpp:1654
 #, fuzzy, kde-format
 #| msgid "Choose Location"
 msgctxt "@action"
@@ -2705,13 +2594,13 @@ msgid "Copy Image Location"
 msgstr "เลือกตำแหน่ง"
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1659
+#: viewer/viewer_p.cpp:1660
 #, kde-format
 msgid "&Find in Message..."
 msgstr "ค้นหาในจดหมาย..."
 
 #. +> trunk6 stable6
-#: viewer/viewer_p.cpp:1668
+#: viewer/viewer_p.cpp:1669
 #, kde-format
 msgid "Disable Emoticon"
 msgstr ""
@@ -3158,3 +3047,73 @@ msgstr "ฉบับถัดไป"
 msgctxt "@action:button"
 msgid "Previous Message"
 msgstr "ฉบับที่ยังไม่ได้อ่านก่อนหน้านี้"
+
+#, kde-format
+#~ msgid "Error: Signature not verified"
+#~ msgstr "ผิดพลาด: ไม่สามารถตรวจสอบลายเซ็นได้"
+
+#, kde-format
+#~ msgid "Good signature"
+#~ msgstr "ลายเซ็นใช้ได้"
+
+#, fuzzy, kde-format
+#~| msgid "Good signature"
+#~ msgid "Bad signature"
+#~ msgstr "ลายเซ็นใช้ได้"
+
+#, kde-format
+#~ msgid "No public key to verify the signature"
+#~ msgstr "ไม่มีกุญแจสาธารณะสำหรับตรวจสอบลายเซ็น"
+
+#, kde-format
+#~ msgid "No signature found"
+#~ msgstr "ไม่พบลายเซ็น"
+
+#, kde-format
+#~ msgid "Error verifying the signature"
+#~ msgstr "เกิดข้อผิดพลาดระหว่างตรวจลายเซ็น"
+
+#, kde-format
+#~ msgid "Different results for signatures"
+#~ msgstr "ได้ผลลัพธ์ที่แตกต่างกันสำหรับลายเซ็น"
+
+#, kde-format
+#~ msgid "No status information available."
+#~ msgstr "ไม่มีข้อมูลสถานะ"
+
+#, kde-format
+#~ msgid "Good signature."
+#~ msgstr "ลายเซ็นใช้ได้"
+
+#, kde-format
+#~ msgid "One key has expired."
+#~ msgstr "มีกุญแจหมดอายุหนึ่งตัว"
+
+#, kde-format
+#~ msgid "The signature has expired."
+#~ msgstr "ลายเซ็นหมดอายุ"
+
+#, kde-format
+#~ msgid "Unable to verify: key missing."
+#~ msgstr "ไม่สามารถตรวจสอบได้: ไม่พบกุญแจ"
+
+#, kde-format
+#~ msgid "CRL not available."
+#~ msgstr "ไม่มี CRL"
+
+#, kde-format
+#~ msgid "Available CRL is too old."
+#~ msgstr "CRL ที่มีอยู่เก่าเกินไป"
+
+#, kde-format
+#~ msgid "A system error occurred."
+#~ msgstr "เกิดข้อผิดพลาดของระบบ"
+
+#, kde-format
+#~ msgid "One key has been revoked."
+#~ msgstr "มีกุญแจบางตัวถูกยกเลิก"
+
+#, fuzzy, kde-format
+#~| msgid "Good signature."
+#~ msgid "Bad signature."
+#~ msgstr "ลายเซ็นใช้ได้"

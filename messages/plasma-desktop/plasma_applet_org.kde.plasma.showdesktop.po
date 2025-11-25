@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_showdesktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-09 09:50+0200\n"
+"POT-Creation-Date: 2025-09-20 09:03+0200\n"
 "PO-Revision-Date: 2008-12-03 21:03+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -17,16 +17,65 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6
-#: package/contents/ui/main.qml:118
+#: main.qml:118
 #, kde-format
 msgid "Minimize All Applet Active Indicator"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/MinimizeAllController.qml:17
+#: MinimizeAllController.qml:17
 #, kde-format
 msgctxt "@action:button shown as tooltip and @action:inmenu"
 msgid "Restore Windows"
+msgstr ""
+
+#. +> trunk6 stable6
+#: MinimizeAllController.qml:18
+#, kde-format
+msgctxt "@action:button shown as tooltip and @action:inmenu"
+msgid "Minimize All Windows"
+msgstr ""
+
+#. +> trunk6 stable6
+#: MinimizeAllController.qml:20
+#, kde-format
+msgctxt "@info:tooltip shown as subtitle"
+msgid "Restores the previously minimized windows"
+msgstr ""
+
+#. +> trunk6 stable6
+#: MinimizeAllController.qml:21
+#, kde-format
+msgctxt "@info:tooltip shown as subtitle"
+msgid "Shows the Desktop by minimizing all windows"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: PeekController.qml:14
+#, kde-format
+msgctxt "@action:button"
+msgid "Peek at Desktop"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: PeekController.qml:15
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop Peeking at Desktop"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: PeekController.qml:17
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Moves windows back to their original positions"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: PeekController.qml:18
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Temporarily shows the desktop by moving windows away"
 msgstr ""
 
 #. +> stable5
@@ -36,25 +85,11 @@ msgctxt "@action:button"
 msgid "Restore All Minimized Windows"
 msgstr ""
 
-#. +> trunk6 stable6
-#: package/contents/ui/MinimizeAllController.qml:18
-#, kde-format
-msgctxt "@action:button shown as tooltip and @action:inmenu"
-msgid "Minimize All Windows"
-msgstr ""
-
 #. +> stable5
 #: package/contents/ui/MinimizeAllController.qml:18
 #, kde-format
 msgctxt "@action:button"
 msgid "Minimize All Windows"
-msgstr ""
-
-#. +> trunk6 stable6
-#: package/contents/ui/MinimizeAllController.qml:20
-#, kde-format
-msgctxt "@info:tooltip shown as subtitle"
-msgid "Restores the previously minimized windows"
 msgstr ""
 
 #. +> stable5
@@ -64,44 +99,9 @@ msgctxt "@info:tooltip"
 msgid "Restores the previously minimized windows"
 msgstr ""
 
-#. +> trunk6 stable6
-#: package/contents/ui/MinimizeAllController.qml:21
-#, kde-format
-msgctxt "@info:tooltip shown as subtitle"
-msgid "Shows the Desktop by minimizing all windows"
-msgstr ""
-
 #. +> stable5
 #: package/contents/ui/MinimizeAllController.qml:21
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Shows the Desktop by minimizing all windows"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/PeekController.qml:14
-#, kde-format
-msgctxt "@action:button"
-msgid "Peek at Desktop"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/PeekController.qml:15
-#, kde-format
-msgctxt "@action:button"
-msgid "Stop Peeking at Desktop"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/PeekController.qml:17
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Moves windows back to their original positions"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/PeekController.qml:18
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Temporarily shows the desktop by moving windows away"
 msgstr ""

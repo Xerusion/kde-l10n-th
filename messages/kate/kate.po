@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-05 12:23+0200\n"
+"POT-Creation-Date: 2025-11-20 14:05+0100\n"
 "PO-Revision-Date: 2010-03-01 22:47+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -48,14 +48,14 @@ msgid "(c) 2000-2024 The Kate Authors"
 msgstr "สงวนลิขสิทธิ์ (c) 2000-2005 กลุ่มผู้พัฒนา Kate"
 
 #. +> trunk6 stable6
-#: kate/main.cpp:169
+#: kate/main.cpp:169 lib/autotests/kate_view_mgmt_test2.cpp:218
 #, fuzzy, kde-format
 #| msgid "Start Kate with a given session"
 msgid "Start Kate with a given session."
 msgstr "เริ่มการทำงานของ Kate ด้วยกลุ่มงานที่กำหนด"
 
 #. +> trunk6 stable6
-#: kate/main.cpp:170
+#: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:219
 #, fuzzy, kde-format
 #| msgid "Sessions"
 msgid "session"
@@ -119,40 +119,40 @@ msgid "line"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kate/main.cpp:208 kwrite/main.cpp:110
+#: kate/main.cpp:207 kwrite/main.cpp:110
 #, fuzzy, kde-format
 #| msgid "Navigate to this column"
 msgid "Navigate to this column."
 msgstr "นำมายังคอลัมน์นี้"
 
 #. +> trunk6 stable6
-#: kate/main.cpp:209 kwrite/main.cpp:110
+#: kate/main.cpp:207 kwrite/main.cpp:110
 #, kde-format
 msgid "column"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kate/main.cpp:213 kwrite/main.cpp:114
+#: kate/main.cpp:211 kwrite/main.cpp:114
 #, fuzzy, kde-format
 #| msgid "Read the contents of stdin"
 msgid "Read the contents of stdin."
 msgstr "อ่านเนื้อหาจากการนำเข้าข้อมูลมาตรฐาน"
 
 #. +> trunk6 stable6
-#: kate/main.cpp:218 kwrite/main.cpp:118
+#: kate/main.cpp:216 kwrite/main.cpp:118
 #, kde-format
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kate/main.cpp:222 kwrite/main.cpp:122
+#: kate/main.cpp:220 kwrite/main.cpp:122
 #, fuzzy, kde-format
 #| msgid "Document to open"
 msgid "Documents to open."
 msgstr "เอกสารที่จะเปิด"
 
 #. +> trunk6 stable6
-#: kate/main.cpp:222 kwrite/main.cpp:122
+#: kate/main.cpp:220 kwrite/main.cpp:122
 #, kde-format
 msgid "[urls...]"
 msgstr ""
@@ -172,40 +172,46 @@ msgid "KWrite - Text Editor"
 msgstr "Kate - เครื่องมือแก้ไขข้อความขั้นสูง"
 
 #. +> trunk6 stable6
-#: lib/commitfilesview.cpp:410 lib/kateviewmanager.cpp:365
+#: lib/commitfilesview.cpp:444 lib/kateviewmanager.cpp:365
 #: lib/kateviewmanager.cpp:367
 #, kde-format
 msgid "Open File"
 msgstr "เปิดแฟ้ม"
 
 #. +> trunk6 stable6
-#: lib/commitfilesview.cpp:416 lib/katemainwindow.cpp:438
+#: lib/commitfilesview.cpp:450 lib/katemainwindow.cpp:456
 #, fuzzy, kde-format
 #| msgid "Location"
 msgid "Copy Location"
 msgstr "ตำแหน่ง"
 
 #. +> trunk6 stable6
-#: lib/commitfilesview.cpp:438 lib/commitfilesview.cpp:534
-#: lib/commitfilesview.cpp:540 lib/filehistorywidget.cpp:411
+#: lib/commitfilesview.cpp:473 lib/commitfilesview.cpp:580
+#: lib/commitfilesview.cpp:586 lib/filehistorywidget.cpp:693
 #, kde-format
 msgid "Git"
 msgstr ""
 
+#. +> trunk6
+#: lib/commitfilesview.cpp:560
+#, kde-format
+msgid "Renamed %1 => %2"
+msgstr ""
+
 #. +> trunk6 stable6
-#: lib/commitfilesview.cpp:534
+#: lib/commitfilesview.cpp:580
 #, kde-format
 msgid "Invalid hash"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/commitfilesview.cpp:540 lib/filehistorywidget.cpp:411
+#: lib/commitfilesview.cpp:586 lib/filehistorywidget.cpp:693
 #, kde-format
 msgid "%1 doesn't exist in a git repo."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/commitfilesview.cpp:555
+#: lib/commitfilesview.cpp:601
 #, fuzzy, kde-format
 #| msgid "Comment"
 msgctxt "@title:tab"
@@ -258,7 +264,7 @@ msgstr "มุ&มมอง"
 
 #. i18n: ectx: Menu (view-split)
 #. +> trunk6 stable6
-#: lib/data/kateui.rc:77 lib/kateviewspace.cpp:138
+#: lib/data/kateui.rc:77 lib/kateviewspace.cpp:139
 #, kde-format
 msgid "Split View"
 msgstr "แยกมุมมอง"
@@ -273,7 +279,7 @@ msgstr "เครื่&องมือ"
 #. i18n: ectx: Menu (tools_diagnosticsview)
 #. i18n: ectx: Menu (tools)
 #. +> trunk6 stable6
-#: lib/data/kateui.rc:128 lib/diagnostics/diagnosticview.cpp:291
+#: lib/data/kateui.rc:128 lib/diagnostics/diagnosticview.cpp:305
 #: lib/diagnostics/ui.rc:8
 #, fuzzy, kde-format
 #| msgid "Split View"
@@ -331,13 +337,13 @@ msgid "All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:298
+#: lib/diagnostics/diagnosticview.cpp:312
 #, kde-format
 msgid "Diagnostics limit reached, ignoring further diagnostics. The limit can be configured in settings."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:341
+#: lib/diagnostics/diagnosticview.cpp:355
 #, fuzzy, kde-format
 #| msgid "Split View"
 msgctxt "@action:inmenu Diagnostics View actions menu"
@@ -345,57 +351,57 @@ msgid "Diagnostics View"
 msgstr "แยกมุมมอง"
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:346
+#: lib/diagnostics/diagnosticview.cpp:360
 #, fuzzy, kde-format
 #| msgid "&Quick Open"
 msgid "Quick Fix"
 msgstr "เปิดใช้&ด่วน"
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:352
+#: lib/diagnostics/diagnosticview.cpp:366
 #, kde-format
 msgid "Next Item"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:358
+#: lib/diagnostics/diagnosticview.cpp:372
 #, fuzzy, kde-format
 #| msgid "&Document"
 msgid "Previous Item"
 msgstr "เ&อกสาร"
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:366
+#: lib/diagnostics/diagnosticview.cpp:380
 #, kde-format
 msgid "Clear Diagnostics Filter"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:376
+#: lib/diagnostics/diagnosticview.cpp:390
 #, kde-format
 msgid "Show Hover Info"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:435 lib/kateconfigdialog.cpp:370
+#: lib/diagnostics/diagnosticview.cpp:449 lib/kateconfigdialog.cpp:392
 #, kde-format
 msgid "Diagnostics"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:481
+#: lib/diagnostics/diagnosticview.cpp:495
 #, kde-format
 msgid "Errors"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:497
+#: lib/diagnostics/diagnosticview.cpp:511
 #, kde-format
 msgid "Warnings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:511
+#: lib/diagnostics/diagnosticview.cpp:525 lib/filehistorywidget.cpp:466
 #: lib/kateconfigplugindialogpage.cpp:109
 #, fuzzy, kde-format
 #| msgid "&Other..."
@@ -403,7 +409,7 @@ msgid "Filter…"
 msgstr "อื่น ๆ..."
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:517
+#: lib/diagnostics/diagnosticview.cpp:531
 #, fuzzy, kde-format
 #| msgid "Split View"
 msgctxt "@info:tooltip"
@@ -411,85 +417,85 @@ msgid "Clear diagnostics"
 msgstr "แยกมุมมอง"
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1149 lib/kateconfigdialog.cpp:165
+#: lib/diagnostics/diagnosticview.cpp:1170 lib/kateconfigdialog.cpp:165
 #, kde-format
 msgid "Error"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1153 lib/kateconfigdialog.cpp:165
-#: lib/kateconfigdialog.cpp:786
+#: lib/diagnostics/diagnosticview.cpp:1174 lib/kateconfigdialog.cpp:165
+#: lib/kateconfigdialog.cpp:810
 #, kde-format
 msgid "Warning"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1157
+#: lib/diagnostics/diagnosticview.cpp:1178
 #, fuzzy, kde-format
 #| msgid "Meta-Information"
 msgid "Information"
 msgstr "ข้อมูลกำกับ"
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1285
+#: lib/diagnostics/diagnosticview.cpp:1306
 #, kde-format
 msgctxt "@info"
 msgid "%1 [suppressed: %2]"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1435
+#: lib/diagnostics/diagnosticview.cpp:1432
 #, kde-format
 msgid "Expand All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1436
+#: lib/diagnostics/diagnosticview.cpp:1433
 #, fuzzy, kde-format
 #| msgid "Clos&e All"
 msgid "Collapse All"
 msgstr "ปิดทั้&งหมด"
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1442
+#: lib/diagnostics/diagnosticview.cpp:1439
 #, kde-format
 msgid "Copy to Clipboard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1484
+#: lib/diagnostics/diagnosticview.cpp:1481
 #, kde-format
 msgid "Remove Global Suppression"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1486
+#: lib/diagnostics/diagnosticview.cpp:1483
 #, fuzzy, kde-format
 #| msgid "Sess&ions"
 msgid "Add Global Suppression"
 msgstr "&กลุ่มงาน"
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1490
+#: lib/diagnostics/diagnosticview.cpp:1487
 #, kde-format
 msgid "Remove Local Suppression"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1492
+#: lib/diagnostics/diagnosticview.cpp:1489
 #, kde-format
 msgid "Add Local Suppression"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1507
+#: lib/diagnostics/diagnosticview.cpp:1504
 #, fuzzy, kde-format
 #| msgid "Sessions"
 msgid "Disable Suppression"
 msgstr "กลุ่มงาน"
 
 #. +> trunk6 stable6
-#: lib/diagnostics/diagnosticview.cpp:1509
+#: lib/diagnostics/diagnosticview.cpp:1506
 #, fuzzy, kde-format
 #| msgid "Manage Sessions"
 msgid "Enable Suppression"
@@ -502,20 +508,20 @@ msgid "Change Style"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diff/diffeditor.cpp:197 lib/kateconfigdialog.cpp:350
+#: lib/diff/diffeditor.cpp:197 lib/kateconfigdialog.cpp:372
 #, kde-format
 msgid "Side By Side"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diff/diffeditor.cpp:200 lib/kateconfigdialog.cpp:351
+#: lib/diff/diffeditor.cpp:200 lib/kateconfigdialog.cpp:373
 #, fuzzy, kde-format
 #| msgid "Modified"
 msgid "Unified"
 msgstr "แก้ไขเมื่อ"
 
 #. +> trunk6 stable6
-#: lib/diff/diffeditor.cpp:203 lib/kateconfigdialog.cpp:352
+#: lib/diff/diffeditor.cpp:203 lib/kateconfigdialog.cpp:374
 #, kde-format
 msgid "Raw"
 msgstr ""
@@ -569,55 +575,68 @@ msgid "Unstage Hunk"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:71
+#: lib/diff/diffwidget.cpp:43
+#, kde-format
+msgid "<b>git</b> not found. Git is needed to diff the documents. If git is already installed, make sure it is your PATH variable. See https://git-scm.com/downloads"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:46 lib/diff/diffwidget.cpp:1246
+#: lib/kateconfigdialog.cpp:366
+#, kde-format
+msgid "Diff"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:80
 #, kde-format
 msgid "Diff %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:73
+#: lib/diff/diffwidget.cpp:82
 #, kde-format
 msgid "Diff %1..%2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:102
+#: lib/diff/diffwidget.cpp:111
 #, kde-format
 msgid "Diff %1 .. %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:132
+#: lib/diff/diffwidget.cpp:141
 #, kde-format
 msgid "Show/Hide Commit Info"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:137
+#: lib/diff/diffwidget.cpp:146
 #, kde-format
 msgid "Jump to Next File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:141
+#: lib/diff/diffwidget.cpp:150
 #, kde-format
 msgid "Jump to Previous File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:145
+#: lib/diff/diffwidget.cpp:154
 #, kde-format
 msgid "Jump to Next Hunk"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:149
+#: lib/diff/diffwidget.cpp:158
 #, kde-format
 msgid "Jump to Previous Hunk"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:153
+#: lib/diff/diffwidget.cpp:162
 #, fuzzy, kde-format
 #| msgid "&Reload"
 msgctxt "Tooltip for a button, clicking the button reloads the diff"
@@ -625,66 +644,76 @@ msgid "Reload Diff"
 msgstr "เ&รียกใหม่"
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:157
+#: lib/diff/diffwidget.cpp:166
 #, kde-format
 msgctxt "Tooltip for a button"
 msgid "Show diff with full context, not just the changed lines"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:614
-#, kde-format
-msgid "<b>git</b> not found. Git is needed to diff the documents. If git is already installed, make sure it is your PATH variable. See https://git-scm.com/downloads"
-msgstr ""
-
-#. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:617 lib/diff/diffwidget.cpp:1220
-#: lib/kateconfigdialog.cpp:344
-#, kde-format
-msgid "Diff"
-msgstr ""
-
-#. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:829 lib/diff/diffwidget.cpp:1033
+#: lib/diff/diffwidget.cpp:854 lib/diff/diffwidget.cpp:1058
 #, fuzzy, kde-format
 #| msgid "Filename"
 msgid "New file %1"
 msgstr "ชื่อแฟ้ม"
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:831 lib/diff/diffwidget.cpp:1035
+#: lib/diff/diffwidget.cpp:856 lib/diff/diffwidget.cpp:1060
 #, fuzzy, kde-format
 #| msgid "Delete File?"
 msgid "Deleted file %1"
 msgstr "จะลบแฟ้มหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: lib/diff/diffwidget.cpp:1203 lib/diff/diffwidget.cpp:1204
+#: lib/diff/diffwidget.cpp:1229 lib/diff/diffwidget.cpp:1230
 #, kde-format
 msgid "No differences found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/filehistorywidget.cpp:328
+#: lib/filehistorywidget.cpp:252
+#, kde-format
+msgctxt "error message"
+msgid "Invalid date: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/filehistorywidget.cpp:474
+#, kde-format
+msgctxt "Help text"
+msgid ""
+"Filter the log."
+"<ul>"
+"<li>Use <code>\"a:\"</code> prefix to filter by author name. For e.g., <b>a:john doe</b></li>"
+"<li>Use <code>\"!a:\"</code> prefix to exclude an author. For e.g., <b>!a:john doe</b></li>"
+"<li>Use <code>\"since:\"</code> prefix to show commits after the given date. The author date of each commit will be checked. The date format is yyyy-MM-dd For e.g., <b>since:2025-04-17</b></li>"
+"<li>Use <code>\"until:\"</code> prefix to show commits before the given date. The author date of each commit will be checked. The date format is yyyy-MM-dd For e.g., <b>until:2025-04-17</b></li>"
+"<li>To filter messages, just type the search term. If multiple search terms are given then messages matching all the search terms will be shown.</li>"
+"</ul>"
+"To trigger the filter, press the <b>Enter</b> key."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/filehistorywidget.cpp:537
 #, kde-format
 msgid "Failed to get file history: git executable not found in PATH"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/filehistorywidget.cpp:341
+#: lib/filehistorywidget.cpp:553
 #, kde-format
 msgid "Failed to get file history: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/filehistorywidget.cpp:352
+#: lib/filehistorywidget.cpp:568
 #, kde-format
 msgctxt "@menu:action"
 msgid "Copy Commit Hash"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/filehistorywidget.cpp:360
+#: lib/filehistorywidget.cpp:576
 #, fuzzy, kde-format
 #| msgid "Sho&w Path"
 msgctxt "@menu:action"
@@ -692,7 +721,7 @@ msgid "Show Full Commit"
 msgstr "แ&สดงตำแหน่งแฟ้ม"
 
 #. +> trunk6 stable6
-#: lib/filehistorywidget.cpp:420
+#: lib/filehistorywidget.cpp:702
 #, fuzzy, kde-format
 #| msgid "File Selector"
 msgctxt "@title:tab"
@@ -700,405 +729,405 @@ msgid "File History - %1"
 msgstr "เครื่องมือเลือกแฟ้ม"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:142
+#: lib/kateapp.cpp:146
 msgid "Running this editor with sudo can cause bugs and expose you to security vulnerabilities. Instead use this editor normally and you will be prompted for elevated privileges when saving documents if needed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:149
+#: lib/kateapp.cpp:153
 msgid "Running this editor with kdesu can cause bugs and expose you to security vulnerabilities. Instead use this editor normally and you will be prompted for elevated privileges when saving documents if needed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:333
+#: lib/kateapp.cpp:366
 #, kde-format
 msgid "Christoph Cullmann"
 msgstr "Christoph Cullmann"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:333
+#: lib/kateapp.cpp:366
 #, kde-format
 msgid "Maintainer"
 msgstr "ผู้ดูแลหลัก"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:334
+#: lib/kateapp.cpp:367
 #, kde-format
 msgid "Dominik Haumann"
 msgstr "Dominik Haumann"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:334 lib/kateapp.cpp:337 lib/kateapp.cpp:338
-#: lib/kateapp.cpp:340 lib/kateapp.cpp:343 lib/kateapp.cpp:349
+#: lib/kateapp.cpp:367 lib/kateapp.cpp:370 lib/kateapp.cpp:371
+#: lib/kateapp.cpp:372 lib/kateapp.cpp:373 lib/kateapp.cpp:379
 #, kde-format
 msgid "Core Developer"
 msgstr "ผู้พัฒนาแกนหลัก"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:335
+#: lib/kateapp.cpp:368
 #, kde-format
 msgid "Sven Brauch"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:335 lib/kateapp.cpp:336 lib/kateapp.cpp:344
+#: lib/kateapp.cpp:368 lib/kateapp.cpp:369 lib/kateapp.cpp:374
 #, fuzzy, kde-format
 #| msgid "Core Developer"
 msgid "Developer"
 msgstr "ผู้พัฒนาแกนหลัก"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:336
+#: lib/kateapp.cpp:369
 #, kde-format
 msgid "Kåre Särs"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:337
+#: lib/kateapp.cpp:370
 #, kde-format
 msgid "Waqar Ahmed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:338
+#: lib/kateapp.cpp:371
 #, kde-format
 msgid "Anders Lund"
 msgstr "Anders Lund"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:339
+#: lib/kateapp.cpp:372
 #, kde-format
 msgid "Joseph Wenninger"
 msgstr "Joseph Wenninger"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:343
+#: lib/kateapp.cpp:373
 #, kde-format
 msgid "Hamish Rodda"
 msgstr "Hamish Rodda"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:344
+#: lib/kateapp.cpp:374
 #, fuzzy, kde-format
 #| msgid "Anders Lund"
 msgid "Alexander Neundorf"
 msgstr "Anders Lund"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:345
+#: lib/kateapp.cpp:375
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:345
+#: lib/kateapp.cpp:375
 #, kde-format
 msgid "The cool buffersystem"
 msgstr "ระบบบัฟเฟอร์สุดเจ๋ง"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:346
+#: lib/kateapp.cpp:376
 #, kde-format
 msgid "Charles Samuels"
 msgstr "Charles Samuels"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:346
+#: lib/kateapp.cpp:376
 #, kde-format
 msgid "The Editing Commands"
 msgstr "คำสั่งในการแก้ไข"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:347
+#: lib/kateapp.cpp:377
 #, kde-format
 msgid "Matt Newell"
 msgstr "Matt Newell"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:347
+#: lib/kateapp.cpp:377
 #, kde-format
 msgid "Testing, ..."
 msgstr "ทดสอบ, ..."
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:348
+#: lib/kateapp.cpp:378
 #, kde-format
 msgid "Michael Bartl"
 msgstr "Michael Bartl"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:348
+#: lib/kateapp.cpp:378
 #, kde-format
 msgid "Former Core Developer"
 msgstr "อดีตนักพัฒนาหลัก"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:349
+#: lib/kateapp.cpp:379
 #, kde-format
 msgid "Michael McCallum"
 msgstr "Michael McCallum"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:350
+#: lib/kateapp.cpp:380
 #, kde-format
 msgid "Jochen Wilhemly"
 msgstr "Jochen Wilhemly"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:350
+#: lib/kateapp.cpp:380
 #, kde-format
 msgid "KWrite Author"
 msgstr "ผู้เขียน KWrite"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:351
+#: lib/kateapp.cpp:381
 #, kde-format
 msgid "Michael Koch"
 msgstr "Michael Koch"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:351
+#: lib/kateapp.cpp:381
 #, kde-format
 msgid "KWrite port to KParts"
 msgstr "ทำการพอร์ต KWrite มายัง KParts"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:352
+#: lib/kateapp.cpp:382
 #, kde-format
 msgid "Christian Gebauer"
 msgstr "Christian Gebauer"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:353
+#: lib/kateapp.cpp:383
 #, kde-format
 msgid "Simon Hausmann"
 msgstr "Simon Hausmann"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:354
+#: lib/kateapp.cpp:384
 #, kde-format
 msgid "Glen Parker"
 msgstr "Glen Parker"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:354
+#: lib/kateapp.cpp:384
 #, kde-format
 msgid "KWrite Undo History, Kspell integration"
 msgstr "ประวัติการย้อนการกระทำของ KWrite, การรวม Kspell เข้ามา"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:355
+#: lib/kateapp.cpp:385
 #, kde-format
 msgid "Scott Manson"
 msgstr "Scott Manson"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:355
+#: lib/kateapp.cpp:385
 #, kde-format
 msgid "KWrite XML Syntax highlighting support"
 msgstr "การรองรับการเน้นไวยากรณ์ XML ของ KWrtite"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:356
+#: lib/kateapp.cpp:386
 #, kde-format
 msgid "John Firebaugh"
 msgstr "John Firebaugh"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:356
+#: lib/kateapp.cpp:386
 #, kde-format
 msgid "Patches and more"
 msgstr "แพตช์และอื่น ๆ อีกมากมาย"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:357
+#: lib/kateapp.cpp:387
 #, kde-format
 msgid "Pablo Martín"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:358
+#: lib/kateapp.cpp:388
 #, fuzzy, kde-format
 #| msgid "Plugins"
 msgid "Python Plugin Developer"
 msgstr "ส่วนเสริมต่าง ๆ"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:361
+#: lib/kateapp.cpp:391
 #, kde-format
 msgid "Gerald Senarclens de Grancy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:362
+#: lib/kateapp.cpp:391
 #, kde-format
 msgid "QA and Scripting"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:366
+#: lib/kateapp.cpp:394
 #, kde-format
 msgid "Tyson Tan"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:367
+#: lib/kateapp.cpp:395
 #, kde-format
 msgid "Designer of Kate's mascot 'Kate the Cyber Woodpecker'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:370
+#: lib/kateapp.cpp:398
 #, kde-format
 msgid "Matteo Merli"
 msgstr "Matteo Merli"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:370
+#: lib/kateapp.cpp:398
 #, kde-format
 msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
 msgstr "ระบบเน้นข้อความสำหรับแฟ้ม Spec ในการสร้าง RPM, Perl, Diff และอีกมากมาย"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:371
+#: lib/kateapp.cpp:399
 #, kde-format
 msgid "Rocky Scaletta"
 msgstr "Rocky Scaletta"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:371
+#: lib/kateapp.cpp:399
 #, kde-format
 msgid "Highlighting for VHDL"
 msgstr "ระบบเน้นข้อความสำหรับ VHDL"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:372
+#: lib/kateapp.cpp:400
 #, kde-format
 msgid "Yury Lebedev"
 msgstr "Yury Lebedev"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:372
+#: lib/kateapp.cpp:400
 #, kde-format
 msgid "Highlighting for SQL"
 msgstr "ระบบเน้นข้อความสำหรับ SQL"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:373
+#: lib/kateapp.cpp:401
 #, kde-format
 msgid "Chris Ross"
 msgstr "Chris Ross"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:373
+#: lib/kateapp.cpp:401
 #, kde-format
 msgid "Highlighting for Ferite"
 msgstr "ระบบเน้นข้อความสำหรับ Ferite"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:374
+#: lib/kateapp.cpp:402
 #, kde-format
 msgid "Nick Roux"
 msgstr "Nick Roux"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:374
+#: lib/kateapp.cpp:402
 #, kde-format
 msgid "Highlighting for ILERPG"
 msgstr "ระบบเน้นข้อความสำหรับ ILERPG"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:375
+#: lib/kateapp.cpp:403
 #, kde-format
 msgid "Carsten Niehaus"
 msgstr "Carsten Niehaus"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:375
+#: lib/kateapp.cpp:403
 #, kde-format
 msgid "Highlighting for LaTeX"
 msgstr "ระบบเน้นข้อความสำหรับ LaTeX"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:376
+#: lib/kateapp.cpp:404
 #, kde-format
 msgid "Per Wigren"
 msgstr "Per Wigren"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:376
+#: lib/kateapp.cpp:404
 #, kde-format
 msgid "Highlighting for Makefiles, Python"
 msgstr "ระบบเน้นข้อความสำหรับ Makefiles, Python"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:377
+#: lib/kateapp.cpp:405
 #, kde-format
 msgid "Jan Fritz"
 msgstr "Jan Fritz"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:377
+#: lib/kateapp.cpp:405
 #, kde-format
 msgid "Highlighting for Python"
 msgstr "ระบบเน้นข้อความสำหรับ Python"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:378
+#: lib/kateapp.cpp:406
 #, kde-format
 msgid "Daniel Naber"
 msgstr "Daniel Naber"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:379
+#: lib/kateapp.cpp:407
 #, kde-format
 msgid "Roland Pabel"
 msgstr "Roland Pabel"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:379
+#: lib/kateapp.cpp:407
 #, kde-format
 msgid "Highlighting for Scheme"
 msgstr "ระบบเน้นข้อความสำหรับ Scheme"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:380
+#: lib/kateapp.cpp:408
 #, kde-format
 msgid "Cristi Dumitrescu"
 msgstr "Cristi Dumitrescu"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:380
+#: lib/kateapp.cpp:408
 #, kde-format
 msgid "PHP Keyword/Datatype list"
 msgstr "รายการคำหลัก/ชนิดข้อมูลของ PHP"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:381
+#: lib/kateapp.cpp:409
 #, kde-format
 msgid "Carsten Pfeiffer"
 msgstr "Carsten Pfeiffer"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:381
+#: lib/kateapp.cpp:409
 #, kde-format
 msgid "Very nice help"
 msgstr "ความช่วยเหลือดี ๆ"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:382
+#: lib/kateapp.cpp:410
 #, kde-format
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr "บุคคลทั้งหมดที่ให้ความช่วยเหลือรวมถึงบุคคลที่ผมลืมเอ่ยชื่อ"
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:534
+#: lib/kateapp.cpp:564
 #, kde-format
 msgid "Folders can only be opened when the projects plugin is enabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateapp.cpp:623
+#: lib/kateapp.cpp:656
 #, kde-format
 msgid "The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr "ไม่สามารถเปิดแฟ้ม '%1' ได้ เนื่องจากมันไม่ใช่แฟ้มปกติ แต่มันเป็นโฟลเดอร์"
@@ -1123,7 +1152,7 @@ msgid "Behavior Options"
 msgstr "พฤติกรรม"
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:120 lib/katemainwindow.cpp:221
+#: lib/kateconfigdialog.cpp:120
 #, kde-format
 msgid "PATH"
 msgstr ""
@@ -1131,7 +1160,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: lib/kateconfigdialog.cpp:126
 #, kde-format
-msgid "List of %1 seperated directories where Kate will look for programs to run. This list will be prepended to your PATH environment variable. E.g '/home/USER/myapps/bin/:/home/USER/.local/bin'"
+msgid "List of %1 separated directories where Kate will look for programs to run. This list will be prepended to your PATH environment variable. E.g '/home/USER/myapps/bin/:/home/USER/.local/bin'"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1185,7 +1214,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: lib/kateconfigdialog.cpp:177 lib/kateconfigdialog.cpp:248
-#: lib/kateconfigdialog.cpp:378
+#: lib/kateconfigdialog.cpp:400
 #, kde-format
 msgid "Unlimited"
 msgstr ""
@@ -1365,120 +1394,126 @@ msgid "If unchecked the new tab will open at the end."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:307
+#: lib/kateconfigdialog.cpp:312
 #, kde-format
-msgctxt "'Next Tab'/'Previous Tab' is an existing action name. Please use the same text here as it is used in that action's translation"
-msgid "Allow cycling through tabs. If unchecked, the action 'Next Tab'/'Previous Tab' will not go to first/last tab after reaching the end"
+msgid "Allow cycling through tabs"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:315
+#: lib/kateconfigdialog.cpp:314
+#, kde-format
+msgctxt "If 'Allow cycling through tabs' is disabled."
+msgid "If unchecked, the action '%1'/'%2' will not go to first/last tab after reaching the end."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:337
 #, kde-format
 msgid "&Mouse"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:320
+#: lib/kateconfigdialog.cpp:342
 #, kde-format
 msgid "&Backward button pressed:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:325
+#: lib/kateconfigdialog.cpp:347
 #, fuzzy, kde-format
 #| msgid "&Document"
 msgid "Previous tab"
 msgstr "เ&อกสาร"
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:325
+#: lib/kateconfigdialog.cpp:347
 #, kde-format
 msgid "History back"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:331
+#: lib/kateconfigdialog.cpp:353
 #, kde-format
 msgid "&Forward button pressed:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:336
+#: lib/kateconfigdialog.cpp:358
 #, kde-format
 msgid "Next tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:336
+#: lib/kateconfigdialog.cpp:358
 #, kde-format
 msgid "History forward"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:353
+#: lib/kateconfigdialog.cpp:375
 #, kde-format
 msgid "Diff Style:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:360
+#: lib/kateconfigdialog.cpp:382
 #, kde-format
 msgid "Navigation Bar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:365
+#: lib/kateconfigdialog.cpp:387
 #, kde-format
 msgid "Show current symbol in navigation bar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:375
+#: lib/kateconfigdialog.cpp:397
 #, fuzzy, kde-format
 #| msgid "Split View"
 msgid "Diagnostics limit:"
 msgstr "แยกมุมมอง"
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:380
+#: lib/kateconfigdialog.cpp:402
 #, kde-format
 msgid "Max number of diagnostics allowed in the Diagnostics toolview."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:386 lib/texthint/hintview.cpp:25
+#: lib/kateconfigdialog.cpp:408 lib/texthint/hintview.cpp:25
 #, fuzzy, kde-format
 #| msgid "Configure"
 msgid "Context"
 msgstr "ปรับแต่ง"
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:391
+#: lib/kateconfigdialog.cpp:413
 #, kde-format
 msgid "Enable tool view"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:393
+#: lib/kateconfigdialog.cpp:415
 #, kde-format
 msgid "A tool view to display context associated with the current cursor position (LSP hints, diagnostics)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:408
+#: lib/kateconfigdialog.cpp:430
 #, fuzzy, kde-format
 #| msgid "Sessions"
 msgid "Session"
 msgstr "กลุ่มงาน"
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:410
+#: lib/kateconfigdialog.cpp:432
 #, kde-format
 msgid "Session Management"
 msgstr "การจัดการกลุ่มงาน"
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:421
+#: lib/kateconfigdialog.cpp:444
 #, fuzzy, kde-format
 #| msgid "(never)"
 msgctxt "The special case of 'Delete unused meta-information after'"
@@ -1486,7 +1521,7 @@ msgid "(never)"
 msgstr "(ไม่ต้องลบ)"
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:423
+#: lib/kateconfigdialog.cpp:446
 #, fuzzy, kde-format
 #| msgctxt "The suffix of 'Delete unused meta-information after'"
 #| msgid " day"
@@ -1497,43 +1532,43 @@ msgid_plural "%v days"
 msgstr[0] " วัน"
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:453
+#: lib/kateconfigdialog.cpp:476
 #, kde-format
 msgid "When a window is closed the documents opened only in this window are closed as well."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:488
+#: lib/kateconfigdialog.cpp:511
 #, kde-format
 msgid "Plugins"
 msgstr "ส่วนเสริมต่าง ๆ"
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:490
+#: lib/kateconfigdialog.cpp:513
 #, kde-format
 msgid "Plugin Manager"
 msgstr "ตัวจัดการส่วนเสริม"
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:508 lib/kateconfigdialog.cpp:510
+#: lib/kateconfigdialog.cpp:531 lib/kateconfigdialog.cpp:533
 #, kde-format
 msgid "User Feedback"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:701
+#: lib/kateconfigdialog.cpp:725
 #, kde-format
 msgid "Bad PATH value"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:701
+#: lib/kateconfigdialog.cpp:725
 #, kde-format
 msgid "The path '%1' doesn't exist"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateconfigdialog.cpp:785
+#: lib/kateconfigdialog.cpp:809
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>The document '%1' has been modified, but not saved.</p>"
@@ -1563,7 +1598,7 @@ msgid "Description"
 msgstr "ตำแหน่ง"
 
 #. +> trunk6 stable6
-#: lib/katedocmanager.cpp:268
+#: lib/katedocmanager.cpp:292
 #, kde-format
 msgid ""
 "<p>The document '%1' has been modified, but not saved.</p>"
@@ -1573,252 +1608,266 @@ msgstr ""
 "<p>คุณต้องการจะบันทึกการเปลี่ยนแปลงหรือจะละทิ้งมัน ?</p>"
 
 #. +> trunk6 stable6
-#: lib/katedocmanager.cpp:271 lib/katesavemodifieddialog.cpp:134
+#: lib/katedocmanager.cpp:295 lib/katesavemodifieddialog.cpp:133
 #, kde-format
 msgid "Close Document"
 msgstr "ปิดเอกสาร"
 
 #. +> trunk6 stable6
-#: lib/katedocmanager.cpp:280
+#: lib/katedocmanager.cpp:304
 #, kde-format
 msgid "Save As"
 msgstr "บันทึกเป็น"
 
 #. +> trunk6 stable6
-#: lib/katedocmanager.cpp:298 lib/katemainwindow.cpp:821
+#: lib/katedocmanager.cpp:322 lib/katemainwindow.cpp:847
 #, kde-format
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr "มีการเปิดแฟ้มใหม่ขึ้นมาในระหว่างกำลังทำการปิด Kate การปิดโปรแกรมจึงถูกยกเลิก"
 
 #. +> trunk6 stable6
-#: lib/katedocmanager.cpp:298 lib/katemainwindow.cpp:821
+#: lib/katedocmanager.cpp:322 lib/katemainwindow.cpp:847
 #, kde-format
 msgid "Closing Aborted"
 msgstr "ยกเลิกการปิดแล้ว"
 
 #. +> trunk6 stable6
-#: lib/katedocmanager.cpp:372
+#: lib/katedocmanager.cpp:396
 #, kde-format
 msgid "Starting Up"
 msgstr "กำลังเริ่มการทำงาน"
 
 #. +> trunk6 stable6
-#: lib/katedocmanager.cpp:373
+#: lib/katedocmanager.cpp:397
 #, kde-format
 msgid "Reopening files from the last session..."
 msgstr "กำลังทำการเปิดแฟ้มที่ถูกเปิดใช้กับกลุ่มงานที่ใช้ครั้งล่าสุด..."
 
 #. +> trunk6 stable6
-#: lib/katefileactions.cpp:78
+#: lib/katedocmanager.cpp:572
+#, fuzzy, kde-format
+#| msgid "Create a new document"
+msgid "Cannot pin untitled documents."
+msgstr "สร้างเอกสารใหม่"
+
+#. +> trunk6 stable6
+#: lib/katedocmanager.cpp:577
+#, fuzzy, kde-format
+#| msgid "Close other open documents."
+msgid "Cannot pin non local documents."
+msgstr "ปิดเอกสารที่เปิดอยู่ตัวอื่น ๆ"
+
+#. +> trunk6 stable6
+#: lib/katefileactions.cpp:80
 #, fuzzy, kde-format
 #| msgid "Open File"
 msgid "Rename file"
 msgstr "เปิดแฟ้ม"
 
 #. +> trunk6 stable6
-#: lib/katefileactions.cpp:78
+#: lib/katefileactions.cpp:80
 #, fuzzy, kde-format
 #| msgid "Filename"
 msgid "New file name"
 msgstr "ชื่อแฟ้ม"
 
 #. +> trunk6 stable6
-#: lib/katefileactions.cpp:112
+#: lib/katefileactions.cpp:114
 #, kde-format
 msgid "File \"%1\" could not be moved to \"%2\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katefileactions.cpp:133
+#: lib/katefileactions.cpp:135
 #, kde-format
 msgid "Do you really want to delete file \"%1\"?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katefileactions.cpp:134
+#: lib/katefileactions.cpp:136
 #, fuzzy, kde-format
 #| msgid "Delete File?"
 msgid "Delete file"
 msgstr "จะลบแฟ้มหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: lib/katefileactions.cpp:155
+#: lib/katefileactions.cpp:157
 #, kde-format
 msgid "File \"%1\" could not be deleted."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katefileactions.cpp:206
+#: lib/katefileactions.cpp:212
 #, fuzzy, kde-format
 #| msgid "Application"
 msgid "&Other Application..."
 msgstr "โปรแกรม"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:282
+#: lib/katemainwindow.cpp:299
 #, kde-format
 msgid "Use this command to show or hide the view's statusbar"
 msgstr "ใช้คำสั่งนี้เพื่อแสดงหรือซ่อนแถบสถานะของมุมมอง"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:288
+#: lib/katemainwindow.cpp:305
 #, fuzzy, kde-format
 #| msgid "Show Side&bars"
 msgid "Show &Tabs"
 msgstr "แสดงแถบข้าง"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:291
+#: lib/katemainwindow.cpp:308
 #, fuzzy, kde-format
 #| msgid "Use this command to show or hide the view's statusbar"
 msgid "Use this command to show or hide the tabs for the views"
 msgstr "ใช้คำสั่งนี้เพื่อแสดงหรือซ่อนแถบสถานะของมุมมอง"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:293
+#: lib/katemainwindow.cpp:310
 #, fuzzy, kde-format
 #| msgid "Sho&w Path"
 msgid "Sho&w Path in Titlebar"
 msgstr "แ&สดงตำแหน่งแฟ้ม"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:298
+#: lib/katemainwindow.cpp:315
 #, kde-format
 msgid "Show the complete document path in the window caption"
 msgstr "แสดงพาธเต็มของเอกสารในหัวหน้าต่าง"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:300
+#: lib/katemainwindow.cpp:317
 #, kde-format
 msgid "Show Navigation Bar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:318
+#: lib/katemainwindow.cpp:335
 #, kde-format
 msgid "&Window Color Scheme"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:322
+#: lib/katemainwindow.cpp:339
 #, fuzzy, kde-format
 #| msgid "&Document"
 msgid "&Previous Tab"
 msgstr "เ&อกสาร"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:323
+#: lib/katemainwindow.cpp:340
 #, kde-format
 msgid "Focus the previous tab."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:330
+#: lib/katemainwindow.cpp:347
 #, kde-format
 msgid "&Next Tab"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:331
+#: lib/katemainwindow.cpp:348
 #, kde-format
 msgid "Focus the next tab."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:340
+#: lib/katemainwindow.cpp:357
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:360
+#: lib/katemainwindow.cpp:377
 #, kde-format
 msgid "&Quick Open"
 msgstr "เปิดใช้&ด่วน"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:363
+#: lib/katemainwindow.cpp:380
 #, fuzzy, kde-format
 #| msgid "Close other open documents."
 msgid "Open a form to quick open documents."
 msgstr "ปิดเอกสารที่เปิดอยู่ตัวอื่น ๆ"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:400
+#: lib/katemainwindow.cpp:417
 #, fuzzy, kde-format
 #| msgid "Diff Output"
 msgid "Output"
 msgstr "ผลลัพธ์ของคำสั่ง Diff"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:410
+#: lib/katemainwindow.cpp:428
 #, kde-format
 msgid "Create a new document"
 msgstr "สร้างเอกสารใหม่"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:412
+#: lib/katemainwindow.cpp:430
 #, kde-format
 msgid "Open an existing document for editing"
 msgstr "เปิดเอกสารที่มีอยู่แล้วเพื่อทำการแก้ไข"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:422
+#: lib/katemainwindow.cpp:440
 #, kde-format
 msgid "This lists files which you have opened recently, and allows you to easily open them again."
 msgstr "รายการแฟ้มนี้เป็นรายการของแฟ้มที่คุณเคยเปิดใช้งานมาก่อน และอนุญาตให้คุณได้เปิดมันอีกครั้งอย่างง่ายดาย"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:426
+#: lib/katemainwindow.cpp:444
 #, fuzzy, kde-format
 #| msgid "Save A&ll"
 msgid "Sa&ve All"
 msgstr "บันทึก&ทั้งหมด"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:429
+#: lib/katemainwindow.cpp:447
 #, kde-format
 msgid "Save all open, modified documents to disk."
 msgstr "บันทึกเอกสารที่เปิดอยู่ทั้้งหมด และจัดเก็บลงดิสก์"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:432
+#: lib/katemainwindow.cpp:450
 #, fuzzy, kde-format
 #| msgid "&Reload All"
 msgid "Reload A&ll"
 msgstr "เรียกใหม่ทั้งหมด"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:434
+#: lib/katemainwindow.cpp:452
 #, kde-format
 msgid "Reload all open documents."
 msgstr "เรียกเอกสารที่เปิดอยู่ทั้งหมดใหม่"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:443 lib/katemainwindow.cpp:452
-#: lib/katemainwindow.cpp:461
+#: lib/katemainwindow.cpp:461 lib/katemainwindow.cpp:471
+#: lib/katemainwindow.cpp:480
 #, fuzzy, kde-format
 #| msgid "Make the next split view the active one."
 msgid "Copies the file path of the current file to clipboard."
 msgstr "ทำให้มุมมองที่แยกออกมาตัวถัดไปเป็นตัวที่กำลังทำงานอยู่"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:447
+#: lib/katemainwindow.cpp:465
 #, fuzzy, kde-format
 #| msgid "Filename"
 msgid "Copy Filename"
 msgstr "ชื่อแฟ้ม"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:456 lib/welcomeview/welcomeview.cpp:268
+#: lib/katemainwindow.cpp:475 lib/welcomeview/welcomeview.cpp:268
 #, fuzzy, kde-format
 #| msgid "Opening Order"
 msgid "&Open Containing Folder"
 msgstr "ลำดับการเปิด"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:465
+#: lib/katemainwindow.cpp:484
 #, fuzzy, kde-format
 #| msgid "&Rename..."
 msgctxt "@action:inmenu"
@@ -1826,14 +1875,14 @@ msgid "Rename..."
 msgstr "เปลี่&ยนชื่อ..."
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:470
+#: lib/katemainwindow.cpp:489
 #, fuzzy, kde-format
 #| msgid "Close the current document."
 msgid "Renames the file belonging to the current document."
 msgstr "ปิดเอกสารปัจจุบัน"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:474
+#: lib/katemainwindow.cpp:493
 #, fuzzy, kde-format
 #| msgid "Deleted"
 msgctxt "@action:inmenu"
@@ -1841,178 +1890,178 @@ msgid "Delete"
 msgstr "ลบเมื่อ"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:479 lib/katemainwindow.cpp:488
+#: lib/katemainwindow.cpp:498 lib/katemainwindow.cpp:507
 #, fuzzy, kde-format
 #| msgid "Close the current document."
 msgid "Deletes the file belonging to the current document."
 msgstr "ปิดเอกสารปัจจุบัน"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:483
+#: lib/katemainwindow.cpp:502
 #, kde-format
 msgid "Properties"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:491 lib/katemainwindow.cpp:493
+#: lib/katemainwindow.cpp:510 lib/katemainwindow.cpp:512
 #, kde-format
 msgid "Compare"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:493
+#: lib/katemainwindow.cpp:512
 #, kde-format
 msgid "Use the Tabbar context menu to compare two documents"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:495
+#: lib/katemainwindow.cpp:514
 #, fuzzy, kde-format
 #| msgid "Close other open documents."
 msgid "Shows a hint how to compare documents."
 msgstr "ปิดเอกสารที่เปิดอยู่ตัวอื่น ๆ"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:498
+#: lib/katemainwindow.cpp:517
 #, fuzzy, kde-format
 #| msgid "Close Other"
 msgid "Close Orp&haned"
 msgstr "ปิดเอกสารอื่น ๆ"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:500
+#: lib/katemainwindow.cpp:519
 #, kde-format
 msgid "Close all documents in the file list that could not be reopened, because they are not accessible anymore."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:504
+#: lib/katemainwindow.cpp:523
 #, kde-format
 msgid "Close the current document."
 msgstr "ปิดเอกสารปัจจุบัน"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:507
+#: lib/katemainwindow.cpp:526
 #, fuzzy, kde-format
 #| msgid "Close Other"
 msgid "Close O&ther"
 msgstr "ปิดเอกสารอื่น ๆ"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:511
+#: lib/katemainwindow.cpp:530
 #, kde-format
 msgid "Close other open documents."
 msgstr "ปิดเอกสารที่เปิดอยู่ตัวอื่น ๆ"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:514
+#: lib/katemainwindow.cpp:533
 #, kde-format
 msgid "Clos&e All"
 msgstr "ปิดทั้&งหมด"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:516
+#: lib/katemainwindow.cpp:535
 #, kde-format
 msgid "Close all open documents."
 msgstr "ปิดเอกสารที่เปิดอยู่ทั้งหมด"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:519
+#: lib/katemainwindow.cpp:538
 #, fuzzy, kde-format
 #| msgid "Reload all open documents."
 msgid "&Reopen Latest Closed Document(s)"
 msgstr "เรียกเอกสารที่เปิดอยู่ทั้งหมดใหม่"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:521
+#: lib/katemainwindow.cpp:540
 #, kde-format
 msgid "Reopen the document or documents that were most recently closed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:524
+#: lib/katemainwindow.cpp:543
 #, fuzzy, kde-format
 #| msgid "&Window"
 msgid "Close &Window"
 msgstr "หน้า&ต่าง"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:528
+#: lib/katemainwindow.cpp:547
 #, kde-format
 msgid "Close this window"
 msgstr "ปิดหน้าต่างนี้"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:533
+#: lib/katemainwindow.cpp:552
 #, fuzzy, kde-format
 #| msgid "Application"
 msgid "Quit the application"
 msgstr "โปรแกรม"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:537
+#: lib/katemainwindow.cpp:556
 #, fuzzy, kde-format
 #| msgid "&Window"
 msgid "New &Window"
 msgstr "หน้า&ต่าง"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:540
+#: lib/katemainwindow.cpp:559
 #, fuzzy, kde-format
 #| msgid "Create a new document"
 msgid "Create a new window."
 msgstr "สร้างเอกสารใหม่"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:547
+#: lib/katemainwindow.cpp:566
 #, kde-format
 msgid "Open W&ith"
 msgstr "เปิดใช้&ด้วย"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:549
+#: lib/katemainwindow.cpp:568
 #, kde-format
 msgid "Open the current document using another application registered for its file type, or an application of your choice."
 msgstr "เปิดเอกสารปัจจุบันด้วยโปรแกรมอื่นที่ถูกลงทะเบียนให้ใช้งานได้กับแฟ้มชนิดนี้ หรือด้วยโปรแกรมที่คุณเป็นคนเลือกเอง"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:557
+#: lib/katemainwindow.cpp:576
 #, kde-format
 msgid "Configure the application's keyboard shortcut assignments."
 msgstr "ปรับแต่งการกำหนดปุ่มพิมพ์ลัดสำหรับใช้กับโปรแกรม"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:560
+#: lib/katemainwindow.cpp:579
 #, kde-format
 msgid "Configure which items should appear in the toolbar(s)."
 msgstr "ปรับแต่งว่าจะให้ปรากฎรายการต่าง ๆ ในแถบเครื่องมืออย่างไรบ้าง"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:563
+#: lib/katemainwindow.cpp:582
 #, kde-format
 msgid "Configure various aspects of this application and the editing component."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:567
+#: lib/katemainwindow.cpp:586
 #, kde-format
 msgid "&Plugins Handbook"
 msgstr "คู่มือโปรแกรมเ&สริม"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:569
+#: lib/katemainwindow.cpp:588
 #, kde-format
 msgid "This shows help files for various available plugins."
 msgstr "ใช้สำหรับแสดงแฟ้มความช่วยเหลือของส่วนเสริมต่าง ๆ ที่มีอยู่"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:586
+#: lib/katemainwindow.cpp:605
 #, kde-format
 msgid "Sess&ions"
 msgstr "&กลุ่มงาน"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:592
+#: lib/katemainwindow.cpp:611
 #, fuzzy, kde-format
 #| msgid "New Session"
 msgctxt "Menu entry Session->New Session"
@@ -2020,129 +2069,143 @@ msgid "&New Session"
 msgstr "กลุ่มงานใหม่"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:597
+#: lib/katemainwindow.cpp:616
 #, fuzzy, kde-format
 #| msgid "&Open Session"
 msgid "&Recent Sessions"
 msgstr "เปิด&กลุ่มงาน"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:602
+#: lib/katemainwindow.cpp:621
 #, fuzzy, kde-format
 #| msgid "Sess&ions"
 msgid "&All Sessions"
 msgstr "&กลุ่มงาน"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:609
+#: lib/katemainwindow.cpp:628
 #, kde-format
 msgid "&Manage Sessions..."
 msgstr "&จัดการกลุ่มงาน..."
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:618
+#: lib/katemainwindow.cpp:637
 #, kde-format
 msgid "&Save Session"
 msgstr "&บันทึกกลุ่มงาน"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:624
+#: lib/katemainwindow.cpp:643
 #, kde-format
 msgid "Save Session &As..."
 msgstr "บันทึกกลุ่มงานเป็&น..."
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:631 lib/kateviewspace.cpp:56
+#: lib/katemainwindow.cpp:651
+#, fuzzy, kde-format
+#| msgid "&Document"
+msgid "Pin/Unpin Active Document"
+msgstr "เ&อกสาร"
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:660
+#, fuzzy, kde-format
+#| msgid "Reload all open documents."
+msgid "Open Next Pinned Document"
+msgstr "เรียกเอกสารที่เปิดอยู่ทั้งหมดใหม่"
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:667 lib/kateviewspace.cpp:57
 #, kde-format
 msgid "Go to Previous Location"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:640 lib/kateviewspace.cpp:68
+#: lib/katemainwindow.cpp:676 lib/kateviewspace.cpp:69
 #, kde-format
 msgid "Go to Next Location"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:648
+#: lib/katemainwindow.cpp:684
 #, kde-format
 msgid "Show File Git History"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:659
+#: lib/katemainwindow.cpp:695
 #, fuzzy, kde-format
 #| msgid "&Window"
 msgid "&Windows"
 msgstr "หน้า&ต่าง"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:718
+#: lib/katemainwindow.cpp:754
 #, kde-format
 msgid "This will close all open documents. Are you sure you want to continue?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:719
+#: lib/katemainwindow.cpp:755
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "Close all documents?"
 msgstr "ปิดเอกสารที่เปิดอยู่ทั้งหมด"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:720
+#: lib/katemainwindow.cpp:756
 #, fuzzy, kde-format
 #| msgid "Clos&e All"
 msgid "Close All"
 msgstr "ปิดทั้&งหมด"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:734
+#: lib/katemainwindow.cpp:770
 #, kde-format
 msgid "This will close all open documents beside the current one. Are you sure you want to continue?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:735
+#: lib/katemainwindow.cpp:771
 #, fuzzy, kde-format
 #| msgid "Close all open documents."
 msgid "Close all documents beside current one?"
 msgstr "ปิดเอกสารที่เปิดอยู่ทั้งหมด"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:736
+#: lib/katemainwindow.cpp:772
 #, fuzzy, kde-format
 #| msgid "Close Other"
 msgid "Close Others"
 msgstr "ปิดเอกสารอื่น ๆ"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:972
+#: lib/katemainwindow.cpp:1002
 #, kde-format
 msgid "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:975
+#: lib/katemainwindow.cpp:1005
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:1150
+#: lib/katemainwindow.cpp:1180
 #, kde-format
 msgid "You dropped the directory %1 into Kate. Do you want to open all files contained in it?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:1153
+#: lib/katemainwindow.cpp:1183
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Files Recursively"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:1154
+#: lib/katemainwindow.cpp:1184
 #, fuzzy, kde-format
 #| msgid "Open File"
 msgctxt "@action:button"
@@ -2150,7 +2213,7 @@ msgid "Open All Files"
 msgstr "เปิดแฟ้ม"
 
 #. +> trunk6 stable6
-#: lib/katemainwindow.cpp:1361
+#: lib/katemainwindow.cpp:1391
 #, kde-format
 msgid " [read only]"
 msgstr ""
@@ -2213,93 +2276,93 @@ msgid "Focus %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1120
+#: lib/katemdi.cpp:1119
 #, fuzzy, kde-format
 #| msgid "Configure"
 msgid "Configure..."
 msgstr "ปรับแต่ง"
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1124
+#: lib/katemdi.cpp:1123
 #, kde-format
 msgid "Hide Button"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1126
+#: lib/katemdi.cpp:1125
 #, kde-format
 msgid "Move To"
 msgstr "ย้ายไปยัง"
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1131
+#: lib/katemdi.cpp:1130
 #, fuzzy, kde-format
 #| msgid "Open Session"
 msgid "Own Section"
 msgstr "เปิดกลุ่มงาน"
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1137 lib/katemdi.cpp:1145
+#: lib/katemdi.cpp:1136 lib/katemdi.cpp:1144
 #, kde-format
 msgid "One Down"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1139 lib/katemdi.cpp:1150
+#: lib/katemdi.cpp:1138 lib/katemdi.cpp:1149
 #, kde-format
 msgid "One Right"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1143
+#: lib/katemdi.cpp:1142
 #, kde-format
 msgid "One Up"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1148
+#: lib/katemdi.cpp:1147
 #, kde-format
 msgid "One Left"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1157
+#: lib/katemdi.cpp:1156
 #, kde-format
 msgid "Left Sidebar"
 msgstr "แถบข้างด้านซ้าย"
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1161
+#: lib/katemdi.cpp:1160
 #, kde-format
 msgid "Right Sidebar"
 msgstr "แถบข้างด้านขวา"
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1165
+#: lib/katemdi.cpp:1164
 #, kde-format
 msgid "Top Sidebar"
 msgstr "แถบข้างด้านบน"
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1169
+#: lib/katemdi.cpp:1168
 #, kde-format
 msgid "Bottom Sidebar"
 msgstr "แถบข้างด้านล่าง"
 
 #. +> trunk6 stable6
-#: lib/katemdi.cpp:1773
+#: lib/katemdi.cpp:1782
 #, kde-format
 msgid "<qt>You are about to hide the sidebars. With hidden sidebars it is not possible to directly access the tool views with the mouse anymore, so if you need to access the sidebars again invoke <b>View &gt; Tool Views &gt; Show Sidebars</b> in the menu. It is still possible to show/hide the tool views with the assigned shortcuts.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:53
+#: lib/katemwmodonhddialog.cpp:54
 #, kde-format
 msgid "Documents Modified on Disk"
 msgstr "เอกสารถูกแก้ไขบนดิสก์"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:68
+#: lib/katemwmodonhddialog.cpp:69
 #, kde-format
 msgid ""
 "<qt>The documents listed below have changed on disk."
@@ -2311,82 +2374,82 @@ msgstr ""
 "</qt>"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:78
+#: lib/katemwmodonhddialog.cpp:79
 #, kde-format
 msgid "Filename"
 msgstr "ชื่อแฟ้ม"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:78
+#: lib/katemwmodonhddialog.cpp:79
 #, kde-format
 msgid "Status on Disk"
 msgstr "สถานะบนดิสก์"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:83
+#: lib/katemwmodonhddialog.cpp:84
 #, kde-format
 msgid "Modified"
 msgstr "แก้ไขเมื่อ"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:83
+#: lib/katemwmodonhddialog.cpp:84
 #, kde-format
 msgid "Created"
 msgstr "สร้างเมื่อ"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:83
+#: lib/katemwmodonhddialog.cpp:84
 #, kde-format
 msgid "Deleted"
 msgstr "ลบเมื่อ"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:106
+#: lib/katemwmodonhddialog.cpp:107
 #, kde-format
 msgid "&View Difference"
 msgstr "แสดงความแตกต่าง"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:107
+#: lib/katemwmodonhddialog.cpp:108
 #, kde-format
 msgid "Calculates the difference between the editor contents and the disk file for the selected document."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:115
+#: lib/katemwmodonhddialog.cpp:116
 #, fuzzy, kde-format
 #| msgid "&Ignore"
 msgid "&Ignore Changes"
 msgstr "&ละทิ้ง"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:116
+#: lib/katemwmodonhddialog.cpp:117
 #, kde-format
 msgid "Remove modified flag from selected documents"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:122
+#: lib/katemwmodonhddialog.cpp:123
 #, fuzzy, kde-format
 #| msgid "Overwrite selected documents, discarding the disk changes and closes the dialog if there are no more unhandled documents."
 msgid "Overwrite selected documents, discarding disk changes"
 msgstr "เขียนทับเอกสารที่เลือกไว้ และละทิ้งการเปลี่ยนแปลงที่มีบนดิสก์ แล้วทำการปิดกล่องโต้ตอบหากไม่มีเอกสารที่ยังไม่ได้จัดการอยู่แล้ว"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:126
+#: lib/katemwmodonhddialog.cpp:127
 #, kde-format
 msgid "&Reload"
 msgstr "เ&รียกใหม่"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:128
+#: lib/katemwmodonhddialog.cpp:129
 #, fuzzy, kde-format
 #| msgid "Close selected open documents."
 msgid "Reload selected documents from disk"
 msgstr "ปิดเอกสารที่เปิดอยู่ตัวที่เลือกไว้"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:192
+#: lib/katemwmodonhddialog.cpp:193
 #, kde-format
 msgid ""
 "Could not save the document \n"
@@ -2396,25 +2459,31 @@ msgstr ""
 "'%1' ได้"
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:310
+#: lib/katemwmodonhddialog.cpp:291
+#, kde-format
+msgid "Please install git to view diffs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:315
 #, kde-format
 msgid "The diff command failed. Please make sure that git is installed and in your PATH."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:312
+#: lib/katemwmodonhddialog.cpp:317
 #, kde-format
 msgid "Error Creating Diff"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:319
+#: lib/katemwmodonhddialog.cpp:324
 #, kde-format
 msgid "[OLD]"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katemwmodonhddialog.cpp:320
+#: lib/katemwmodonhddialog.cpp:325
 #, kde-format
 msgid "[NEW]"
 msgstr ""
@@ -2466,19 +2535,19 @@ msgid "Log"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/katesavemodifieddialog.cpp:82
+#: lib/katesavemodifieddialog.cpp:81
 #, kde-format
 msgid "Save As (%1)"
 msgstr "บันทึกเป็น (%1)"
 
 #. +> trunk6 stable6
-#: lib/katesavemodifieddialog.cpp:134
+#: lib/katesavemodifieddialog.cpp:133
 #, kde-format
 msgid "Save Documents"
 msgstr "บันทึกเอกสาร"
 
 #. +> trunk6 stable6
-#: lib/katesavemodifieddialog.cpp:158
+#: lib/katesavemodifieddialog.cpp:157
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>The document '%1' has been modified, but not saved.</p>"
@@ -2489,31 +2558,31 @@ msgstr ""
 "<p>คุณต้องการจะบันทึกการเปลี่ยนแปลงหรือจะละทิ้งมัน ?</p>"
 
 #. +> trunk6 stable6
-#: lib/katesavemodifieddialog.cpp:162
+#: lib/katesavemodifieddialog.cpp:161
 #, kde-format
 msgid "<qt>The following documents have been modified. Do you want to save them before closing?</qt>"
 msgstr "<qt>เอกสารต่อไปนี้ถูกแก้ไข คุณต้องการจะทำการบันทึกมันก่อนจะทำการปิดโปรแกรมหรือไม่ ?</qt>"
 
 #. +> trunk6 stable6
-#: lib/katesavemodifieddialog.cpp:171
+#: lib/katesavemodifieddialog.cpp:170
 #, kde-format
 msgid "Documents"
 msgstr "เอกสาร"
 
 #. +> trunk6 stable6
-#: lib/katesavemodifieddialog.cpp:171
+#: lib/katesavemodifieddialog.cpp:170
 #, kde-format
 msgid "Location"
 msgstr "ตำแหน่ง"
 
 #. +> trunk6 stable6
-#: lib/katesavemodifieddialog.cpp:181
+#: lib/katesavemodifieddialog.cpp:180
 #, kde-format
 msgid "Se&lect All"
 msgstr "เลือกทั้ง&หมด"
 
 #. +> trunk6 stable6
-#: lib/katesavemodifieddialog.cpp:259
+#: lib/katesavemodifieddialog.cpp:258
 #, kde-format
 msgid "Data you requested to be saved could not be written. Please choose how you want to proceed."
 msgstr "ไม่สามารถเขียนข้อมูลตามที่คุณได้ร้องขอมาได้ โปรดเลือกสิ่งที่คุณต้องการจะทำต่อไป"
@@ -2835,25 +2904,25 @@ msgid "Opening Large File"
 msgstr "เปิดแฟ้ม"
 
 #. +> trunk6 stable6
-#: lib/kateviewmanager.cpp:567
+#: lib/kateviewmanager.cpp:593
 #, kde-format
 msgid "%1 cannot open folders"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateviewmanager.cpp:584
+#: lib/kateviewmanager.cpp:610
 #, kde-format
 msgid "The plugin required to open folders was not found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateviewmanager.cpp:590
+#: lib/kateviewmanager.cpp:616
 #, kde-format
 msgid "In order to open folders, the <b>%1</b> plugin must be enabled. Enable it?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateviewmanager.cpp:593
+#: lib/kateviewmanager.cpp:619
 #, fuzzy, kde-format
 #| msgid "Open File"
 msgctxt "@title:window"
@@ -2861,157 +2930,158 @@ msgid "Open Folder"
 msgstr "เปิดแฟ้ม"
 
 #. +> trunk6 stable6
-#: lib/kateviewmanager.cpp:594
+#: lib/kateviewmanager.cpp:620
 #, kde-format
 msgctxt "@action:button"
 msgid "Enable"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateviewmanager.cpp:601
+#: lib/kateviewmanager.cpp:627
 #, kde-format
 msgid "Failed to enable <b>%1</b> plugin"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateviewmanager.cpp:622
+#: lib/kateviewmanager.cpp:648
 #, kde-format
 msgid "The file '%1' does not exist"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:93
+#: lib/kateviewspace.cpp:94
 #, fuzzy, kde-format
 #| msgid "&New Window"
 msgid "Synchronize Scrolling"
 msgstr "&หน้าต่างใหม่"
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:95
+#: lib/kateviewspace.cpp:96
 #, kde-format
 msgid "Synchronize scrolling of this split-view with other synchronized split-views"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:117
+#: lib/kateviewspace.cpp:118
 #, kde-format
 msgctxt "indicator for more documents"
 msgid "+%1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:122 lib/kateviewspace.cpp:248
+#: lib/kateviewspace.cpp:123 lib/kateviewspace.cpp:251
 #, kde-format
 msgid "Click here to switch to the Quick Open view."
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:139
+#: lib/kateviewspace.cpp:140
 #, kde-format
 msgid "Control view space splitting"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:249
+#: lib/kateviewspace.cpp:252
 #, kde-format
 msgid "Currently, there is one more document open. To see all open documents, switch to the Quick Open view by clicking here."
 msgid_plural "Currently, there are %1 more documents open. To see all open documents, switch to the Quick Open view by clicking here."
 msgstr[0] ""
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:1129
+#: lib/kateviewspace.cpp:1135
 #, fuzzy, kde-format
 #| msgid "Close"
-msgid "Close Tab"
+msgid "&Close Tab"
 msgstr "ปิด"
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:1147
+#: lib/kateviewspace.cpp:1142
 #, fuzzy, kde-format
-#| msgid "Close Document"
-msgid "&Close Document"
-msgstr "ปิดเอกสาร"
+#| msgid "Close Other"
+msgid "Close &Other Tabs"
+msgstr "ปิดเอกสารอื่น ๆ"
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:1148
+#: lib/kateviewspace.cpp:1155
 #, fuzzy, kde-format
-#| msgid "Close Document"
-msgid "Close Other &Documents"
-msgstr "ปิดเอกสาร"
+#| msgid "Clos&e All"
+msgid "Close All &Tabs"
+msgstr "ปิดทั้&งหมด"
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:1149
-#, fuzzy, kde-format
-#| msgid "Close all open documents."
-msgid "Close &All Documents"
-msgstr "ปิดเอกสารที่เปิดอยู่ทั้งหมด"
-
-#. +> trunk6 stable6
-#: lib/kateviewspace.cpp:1153
+#: lib/kateviewspace.cpp:1186
 #, fuzzy, kde-format
 #| msgid "&Document"
 msgid "D&etach Document"
 msgstr "เ&อกสาร"
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:1155
+#: lib/kateviewspace.cpp:1191
 #, kde-format
 msgid "Opens the document in a new window and closes it in the current window"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:1165
+#: lib/kateviewspace.cpp:1232
 #, fuzzy, kde-format
 #| msgid "Close the current document."
 msgid "Compare with Active Document"
 msgstr "ปิดเอกสารปัจจุบัน"
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:1171
+#: lib/kateviewspace.cpp:1238
 #, fuzzy, kde-format
 #| msgid "Close the current document."
 msgid "Compare with Active Document Using"
 msgstr "ปิดเอกสารปัจจุบัน"
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:1244
+#: lib/kateviewspace.cpp:1246
+#, fuzzy, kde-format
+#| msgid "Documents"
+msgid "Unpin Document"
+msgstr "เอกสาร"
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:1248
+#, fuzzy, kde-format
+#| msgid "Documents"
+msgid "Pin Document"
+msgstr "เอกสาร"
+
+#. +> trunk6 stable6
+#: lib/ktexteditor_utils.cpp:244
 #, kde-format
-msgid "Could not start program"
+msgid "Can not open %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/kateviewspace.cpp:1245
-#, kde-format
-msgid "The selected program could not be started. Maybe it is not installed."
-msgstr ""
-
-#. +> trunk6 stable6
-#: lib/mainwindow_commands.cpp:44
+#: lib/mainwindow_commands.cpp:45
 #, kde-format
 msgid "No toolview found for name: '%1'. Is the plugin for it disabled or the name is misspelled?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/mainwindow_commands.cpp:47
+#: lib/mainwindow_commands.cpp:48
 #, kde-format
 msgid "Script error. Expected a toolview name. Available: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/mainwindow_commands.cpp:55
+#: lib/mainwindow_commands.cpp:56
 #, fuzzy, kde-format
 #| msgid "Location"
 msgid "Scripting"
 msgstr "ตำแหน่ง"
 
 #. +> trunk6 stable6
-#: lib/mainwindow_commands.cpp:76
+#: lib/mainwindow_commands.cpp:77
 #, kde-format
 msgid "'showtoolview $toolview_name'. Show a toolview panel. Available panels: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/mainwindow_commands.cpp:78
+#: lib/mainwindow_commands.cpp:79
 #, kde-format
 msgid "'showtoolview $toolview_name'. Hide a toolview panel. Available panels: %1"
 msgstr ""
@@ -3056,7 +3126,7 @@ msgid "Wildcard Filtering"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/quickopen/katequickopenmodel.cpp:161
+#: lib/quickopen/katequickopenmodel.cpp:168
 #, fuzzy, kde-format
 #| msgid "Projects"
 msgid "Project: %1"
@@ -3081,7 +3151,7 @@ msgid "Restore"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/session/katesessionmanagedialog.cpp:308
+#: lib/session/katesessionmanagedialog.cpp:315
 #, kde-format
 msgid "Session will be deleted on dialog close"
 msgstr ""
@@ -3177,46 +3247,46 @@ msgid "Close"
 msgstr "ปิด"
 
 #. +> trunk6 stable6
-#: lib/session/katesessionmanager.cpp:143
+#: lib/session/katesessionmanager.cpp:147
 #, kde-format
 msgid "Session '%1' is already opened in another Kate instance. Switch to that or reopen in this instance?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/session/katesessionmanager.cpp:145
+#: lib/session/katesessionmanager.cpp:149
 #, kde-format
 msgctxt "@action:button"
 msgid "Switch to Instance"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/session/katesessionmanager.cpp:146
+#: lib/session/katesessionmanager.cpp:150
 #, kde-format
 msgctxt "@action:button"
 msgid "Reopen"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/session/katesessionmanager.cpp:355
+#: lib/session/katesessionmanager.cpp:366
 #, fuzzy, kde-format
 #| msgid "The session could not be renamed to \"%1\", there already exists another session with the same name"
 msgid "The session could not be renamed to \"%1\". Failed to write to \"%2\""
 msgstr "ไม่สามารถเปลี่ยนชื่อกลุ่มงานไปเป็นชื่อ \"%1\" ได้ เนื่องจากว่ามีกลุ่มงานที่มีชื่อนี้อยู่แล้ว"
 
 #. +> trunk6 stable6
-#: lib/session/katesessionmanager.cpp:356
+#: lib/session/katesessionmanager.cpp:367
 #, kde-format
 msgid "Session Renaming"
 msgstr "การเปลี่ยนชื่อกลุ่มงาน"
 
 #. +> trunk6 stable6
-#: lib/session/katesessionmanager.cpp:518
+#: lib/session/katesessionmanager.cpp:535
 #, kde-format
 msgid "Session name:"
 msgstr "ชื่อกลุ่มงาน:"
 
 #. +> trunk6 stable6
-#: lib/session/katesessionmanager.cpp:520
+#: lib/session/katesessionmanager.cpp:537
 #, fuzzy, kde-format
 #| msgid ""
 #| "There is already an existing session with your chosen name.\n"
@@ -3231,20 +3301,20 @@ msgstr ""
 "ที่ต่างจากชื่อกลุ่มงาน:"
 
 #. +> trunk6 stable6
-#: lib/session/katesessionmanager.cpp:522
+#: lib/session/katesessionmanager.cpp:539
 #, kde-format
 msgid "To save a session, you must specify a name."
 msgstr "ในการบันทึกกลุ่มงาน คุณจะต้องระบุชื่อของกลุ่มงานก่อน"
 
 #. +> trunk6 stable6
-#: lib/session/katesessionmanager.cpp:549
+#: lib/session/katesessionmanager.cpp:566
 #, fuzzy, kde-format
 #| msgid "Specify New Name for Session"
 msgid "Specify a name for this session"
 msgstr "ระบุชื่อใหม่ของกลุ่มงาน"
 
 #. +> trunk6 stable6
-#: lib/session/katesessionmanager.cpp:551
+#: lib/session/katesessionmanager.cpp:568
 #, fuzzy, kde-format
 #| msgid "Specify New Name for Session"
 msgid "Specify a new name for session: %1"
@@ -3566,3 +3636,18 @@ msgstr "&จัดการกลุ่มงาน..."
 #| msgid "Create a new document"
 msgid "Show welcome page for new window"
 msgstr "สร้างเอกสารใหม่"
+
+#, fuzzy, kde-format
+#~| msgid "Close Document"
+#~ msgid "&Close Document"
+#~ msgstr "ปิดเอกสาร"
+
+#, fuzzy, kde-format
+#~| msgid "Close Document"
+#~ msgid "Close Other &Documents"
+#~ msgstr "ปิดเอกสาร"
+
+#, fuzzy, kde-format
+#~| msgid "Close all open documents."
+#~ msgid "Close &All Documents"
+#~ msgstr "ปิดเอกสารที่เปิดอยู่ทั้งหมด"

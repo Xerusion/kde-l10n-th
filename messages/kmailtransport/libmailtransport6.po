@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmailtransport\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-24 10:34+0200\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
 "PO-Revision-Date: 2010-02-28 18:09+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -70,7 +70,7 @@ msgstr "หมายเลขพอร์ตของเซิร์ฟเวอ
 #: mailtransport.kcfg:35
 #, fuzzy, kde-format
 #| msgid "The port number that the SMTP server is listening on. The default port is 25."
-msgid "The port number that the SMTP server is listening on. The default port is 587."
+msgid "The port number that the SMTP server is listening on. The default port is 465."
 msgstr "หมายเลขพอร์ทที่เซิร์ฟเวอร์ SMTP รอรับการเชื่อมต่ออยู่ ค่าปริยายคือพอร์ตหมายเลข 25"
 
 #. i18n: ectx: label, entry (userName), group (Transport $(transportId))
@@ -298,7 +298,7 @@ msgid "Check Capabilities Failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/smtp/smtpjob.cpp:229
+#: plugins/smtp/smtpjob.cpp:227
 #, kde-format
 msgid "You need to supply a username and a password to use this SMTP server."
 msgstr "คุณต้องป้อนชื่อผู้ใช้และรหัสผ่านเพื่อใช้งานเซิร์ฟเวอร์ SMTP นี้"
@@ -599,13 +599,13 @@ msgid "The outgoing account \"%1\" is not correctly configured."
 msgstr "บริการจัดส่งจดหมาย \"%1\" ถูกปรับแต่งค่าไว้อย่างไม่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:223
+#: transportmanager.cpp:222
 #, kde-format
 msgid "You must create an outgoing account before sending."
 msgstr "คุณต้องสร้างบัญชีผู้ใช้สำหรับจัดส่งจดหมายก่อน จึงจะทำการส่งได้"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:224
+#: transportmanager.cpp:223
 #, fuzzy, kde-format
 #| msgid "Create Account Now?"
 msgctxt "@title:window"
@@ -613,7 +613,7 @@ msgid "Create Account Now?"
 msgstr "จะสร้างบัญชีผู้ใช้งานเดี๋ยวนี้หรือไม่ ?"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:225
+#: transportmanager.cpp:224
 #, fuzzy, kde-format
 #| msgid "Create Account Now"
 msgctxt "@action:button"
@@ -621,7 +621,7 @@ msgid "Create Account Now"
 msgstr "สร้างบัญชีผู้ใช้งานเดี๋ยวนี้"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:607
+#: transportmanager.cpp:606
 #, kde-format
 msgid ""
 "The following mail transports store their passwords in an unencrypted configuration file.\n"
@@ -635,7 +635,7 @@ msgstr ""
 "คุณต้องการจะทำการผนวกรวมรหัสผ่านของคุณเข้าไปยังระบบกระเป๋าคุมข้อมูล-K หรือไม่ ?"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:614
+#: transportmanager.cpp:613
 #, fuzzy, kde-format
 #| msgid "Question"
 msgctxt "@title:window"
@@ -643,7 +643,7 @@ msgid "Question"
 msgstr "คำถาม"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:615
+#: transportmanager.cpp:614
 #, fuzzy, kde-format
 #| msgid "Migrate"
 msgctxt "@action:button"
@@ -651,7 +651,7 @@ msgid "Migrate"
 msgstr "ผนวกรวม"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:616
+#: transportmanager.cpp:615
 #, fuzzy, kde-format
 #| msgid "Keep"
 msgctxt "@action:button"

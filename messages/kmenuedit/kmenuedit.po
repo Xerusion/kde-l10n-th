@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmenuedit\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-08 10:01+0200\n"
+"POT-Creation-Date: 2025-11-19 00:53+0100\n"
 "PO-Revision-Date: 2010-03-27 23:01+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -36,18 +36,18 @@ msgstr "donga.nb@gmail.com"
 msgid "&Name:"
 msgstr "&ชื่อ:"
 
-#. +> trunk6
+#. +> stable5
+#: basictab.cpp:58
+#, kde-format
+msgid "&Description:"
+msgstr "&คำอธิบาย:"
+
+#. +> trunk6 stable6
 #: basictab.cpp:60
 #, fuzzy, kde-format
 #| msgid "&Username:"
 msgid "&Generic name:"
 msgstr "ชื่อ&ผู้ใช้:"
-
-#. +> stable6 stable5
-#: basictab.cpp:60
-#, kde-format
-msgid "&Description:"
-msgstr "&คำอธิบาย:"
 
 #. +> trunk6 stable6 stable5
 #: basictab.cpp:68
@@ -189,7 +189,7 @@ msgid "Advanced"
 msgstr "ขั้นสูง"
 
 #. +> trunk6 stable6 stable5
-#: globalaccel.cpp:28
+#: globalaccel.cpp:33
 #, kde-format
 msgid "Launch %1"
 msgstr ""
@@ -515,25 +515,25 @@ msgid " [Hidden]"
 msgstr " [ถูกซ่อน]"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1037
+#: treeview.cpp:1068
 #, kde-format
 msgid "New Submenu"
 msgstr "สร้างเมนูย่อยใหม่"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1037
+#: treeview.cpp:1068
 #, kde-format
 msgid "Submenu name:"
 msgstr "ชื่อเมนูย่อย:"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1104
+#: treeview.cpp:1135
 #, kde-format
 msgid "New Item"
 msgstr "สร้างรายการใหม่"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1104
+#: treeview.cpp:1135
 #, kde-format
 msgid "Item name:"
 msgstr "ชื่อรายการ:"
@@ -545,19 +545,19 @@ msgid "All submenus of '%1' will be removed. Do you want to continue?"
 msgstr "เมนูย่อยทั้งหมดของ '%1' จะถูกลบออกไปด้วย คุณต้องการจะทำต่อไปหรือไม่ ?"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1791
+#: treeview.cpp:1838
 #, kde-format
 msgid "Menu changes could not be saved because of the following problem:"
 msgstr "ไม่สามารถจัดเก็บความเปลี่ยนแปลงของเมนูได้ เนื่องจากเกิดข้อผิดพลาดต่อไปนี้:"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1838
+#: treeview.cpp:1885
 #, kde-format
 msgid "Do you want to restore the system menu? Warning: This will remove all custom menus."
 msgstr "คุณต้องการจะเรียกคืนเมนูของระบบกลับเป็นค่าปริยายใช่หรือไม่ ? หากใช่ เมนูที่คุณได้กำหนดเองจะถูกลบออกทั้งหมด"
 
 #. +> trunk6 stable6 stable5
-#: treeview.cpp:1839
+#: treeview.cpp:1886
 #, fuzzy, kde-format
 #| msgid "Restore to System Menu"
 msgctxt "@title:window"

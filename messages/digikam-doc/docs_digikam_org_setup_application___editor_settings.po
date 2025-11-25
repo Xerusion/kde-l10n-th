@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Digikam Manual 8.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-13 07:13+0200\n"
+"POT-Creation-Date: 2025-10-30 10:26+0100\n"
 "PO-Revision-Date: 2025-03-17 14:51+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -179,12 +179,12 @@ msgstr ""
 
 #. +> trunk5
 #: ../../setup_application/editor_settings.rst:108
-msgid "**Always open the Raw Import Tool to customize settings**: With this option you can select which Raw Import Tool will be used to open RAW files. Available raw processing tools include:"
+msgid "**Always open the Raw Import Tool to customize settings**: with this option you can select which Raw Import Tool will be used to open RAW files. Supported Raw processing tools include:"
 msgstr ""
 
 #. +> trunk5
 #: ../../setup_application/editor_settings.rst:110
-msgid "**Import RAW using LibRaw**: the default plugin for digiKam provides a fully integrated module in the Right Side Bar of the Image Editor where you can set individual parameters for every image you open."
+msgid "**Import RAW using LibRaw**: the default plugin for digiKam provides a fully integrated module in the Right Side Bar of the Image Editor where you can set individual parameters for every image you open. This option is always enable in the menu."
 msgstr ""
 
 #. +> trunk5
@@ -194,131 +194,136 @@ msgstr ""
 
 #. +> trunk5
 #: ../../setup_application/editor_settings.rst:118
-msgid "**RawTherapee**: this application must be installed on your computer. `RawTherapee <https://en.wikipedia.org/wiki/Darktable>`_ is application software for processing photographs in the RAW image formats created by many digital cameras. It comprises a subset of image editing operations specifically aimed at non-destructive post-production of raw photos and is primarily focused on improving a photographer's workflow by facilitating the handling of large numbers of images."
+msgid "**RawTherapee**: `RawTherapee <https://en.wikipedia.org/wiki/RawTherapee>`_ is application software for processing photographs in the RAW image formats created by many digital cameras. It comprises a subset of image editing operations specifically aimed at non-destructive post-production of raw photos and is primarily focused on improving a photographer's workflow by facilitating the handling of large numbers of images. To see this option enabled in the menu, this application must be installed on your computer and must be found using the PATH variable from the system."
 msgstr ""
 
 #. +> trunk5
 #: ../../setup_application/editor_settings.rst:120
-msgid "**UFRaw**: this application must be installed on your computer. `UFRaw <https://en.wikipedia.org/wiki/UFRaw>`_ is an application which can read and manipulate photographs in the RAW image formats created by many digital cameras."
+msgid "**ART**: `ART <https://art.pixls.us/>`_ is a derivative version of the RawTherapee application. To see this option enabled in the menu, this application must be installed on your computer and must be found using the PATH variable from the system."
 msgstr ""
 
 #. +> trunk5
 #: ../../setup_application/editor_settings.rst:122
-msgid "**DarkTable**: this application must be installed on your computer. `Darktable <https://en.wikipedia.org/wiki/Darktable>`_ is a free and open-source photography application program and RAW developer. It comprises a subset of image editing operations specifically aimed at non-destructive RAW image post-production."
+msgid "**UFRaw**: `UFRaw <https://en.wikipedia.org/wiki/UFRaw>`_ is an application which can read and manipulate photographs in the RAW image formats created by many digital cameras. To see this option enabled in the menu, this application must be installed on your computer and must be found using the PATH variable from the system."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:129
+#: ../../setup_application/editor_settings.rst:124
+msgid "**DarkTable**: `Darktable <https://en.wikipedia.org/wiki/Darktable>`_ is a free and open-source photography application program and RAW developer. It comprises a subset of image editing operations specifically aimed at non-destructive RAW image post-production. To see this option enabled in the menu, this application must be installed on your computer and must be found using the PATH variable from the system."
+msgstr ""
+
+#. +> trunk5
+#: ../../setup_application/editor_settings.rst:131
 msgid "Screencast of RAW Import Tool Pre-Processing a Digital Negative in DarkTable"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:134
+#: ../../setup_application/editor_settings.rst:136
 msgid "RAW Default Settings"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:138
+#: ../../setup_application/editor_settings.rst:140
 msgid "These default settings are used only with the LibRaw interface."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:141
+#: ../../setup_application/editor_settings.rst:143
 msgid "Demosaicing"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:147
+#: ../../setup_application/editor_settings.rst:149
 msgid "The digiKam Default RAW Demosaicing Configuration View"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:149
+#: ../../setup_application/editor_settings.rst:151
 msgid "A `demosaicing algorithm <https://en.wikipedia.org/wiki/Demosaicing>`_ is a digital image process used to interpolate a complete image from the partial raw data received from the color-filtered image sensor array internal to many digital cameras in the form of a matrix of colored pixels. Demosaicing is also known as CFA interpolation or color reconstruction."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:151
+#: ../../setup_application/editor_settings.rst:153
 msgid "**Interpolate RGB as four colors**: The default is to assume that all green pixels are the same. If even-row green pixels of the sensor are more sensitive to ultraviolet light than odd-row green pixels, this difference causes a mesh pattern in the output; using this option solves this problem with minimal loss of detail. To summarize, this option blurs the image a little, but it eliminates false 2x2 mesh patterns with either VNG or AHD interpolation."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:153
+#: ../../setup_application/editor_settings.rst:155
 msgid "**Do not stretch or rotate pixels**: Turns off automatic rotation corrections, so it will show images from a Fuji Super CCD camera tilted at a 45 degree angle. And turns off automatic corrections for non-square pixels, which will create distorted aspect ratios for cameras with non-square pixels. The benefit is that this option guarantees that each output pixel corresponds to one RAW pixel."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:155
+#: ../../setup_application/editor_settings.rst:157
 msgid "**Quality**: digiKam offer many alternative interpolation algorithms. The most common are **Bilinear**, **VNG**, and **AAHD** interpolations. It seems that AAHD (for Ameliored Adaptive Homogeneity-Directed) is the best choice for quality according to some tests that we have performed and the paper of the person that implemented it. This improved method based on **AHD** interpolation, selects the direction of interpolation so as to maximize a homogeneity metric, thus typically minimizing color artifacts. VNG (for Variable Number of Gradients) was the first algorithm used by libraw but suffers from color artifacts on the edge. Bilinear is interesting if you are looking for the fastest acceptable result. **PPG** (for Patterned-Pixel-Grouping) is a pixel grouping interpolation that uses assumptions about natural scenery in making estimates. It has fewer color artifacts on natural images than the VNG method. Consider **DCB** and **DHT** interpolation as experimental method."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:157
+#: ../../setup_application/editor_settings.rst:159
 msgid "**Pass**: Sets the number of passes used by the median filter applied after interpolation to Red-Green and Blue-Green channels."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:159
+#: ../../setup_application/editor_settings.rst:161
 msgid "**Refine interpolation**: For DCB interpolation only, turn on the enhance interpolated colors filter to improve sharpness."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:162
+#: ../../setup_application/editor_settings.rst:164
 msgid "White Balance"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:168
+#: ../../setup_application/editor_settings.rst:170
 msgid "The digiKam Default RAW White Balance Configuration View"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:170
+#: ../../setup_application/editor_settings.rst:172
 msgid "**Method**: Four options are available here: **Default D65**, **Camera**, **Automatic**, and **Manual**. *Default D65* reflects normal daylight conditions. *Camera* uses the camera's custom white-balance settings if set. *Automatic* uses by default a fixed color balance based on a white card photographed in sunlight. *Manual* will adjust colors according to the color temperature in degrees Kelvin (**T(K)**) and **Green** sets the green component to remove any magenta color cast."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:172
+#: ../../setup_application/editor_settings.rst:174
 msgid "**Highlights**: Default is here to consider highlights (read: part of your images that are saturated due to the inability of your camera to capture the highlights) as plain / **Solid white**. You can get some fancy results with the unclip option which will paint the highlights in various pinks. Or you can try to recover some parts of the missing information from the highlights with the **Rebuild** option. This is possible because the blue pixels tend to saturate less quickly than the greens and the reds. digiKam will try to reconstruct the missing green and red colors from the remaining non-saturated blue pixels. Of course everything here is a question of a tradeoff between how much color or white you want. If you select **Rebuild** as the option, you will be given the choice to set a **Level**. A value of 3 is a compromise and can/should be adapted on a per image basis. **Unclip** leaves highlight unclipped in various shades of pink, and **Blend** mixes clipped and unclipped values together for a gradual fade to white."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:174
+#: ../../setup_application/editor_settings.rst:176
 msgid "**Exposure Correction (E.V)**: Turn on the exposure correction before interpolation. The main setting is the **Linear Shift** that is measured in E.V. The amount of **Highlight** preservation can be also adjusted, but only if the shift correction is greater than 1.0 E.V."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:176
+#: ../../setup_application/editor_settings.rst:178
 msgid "**Correct False Colors In Highlights**: If enabled, images with overblown channels are processed much more accurately. This can help eliminate 'pink clouds' and blue highlights under tungsten lamps."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:178
+#: ../../setup_application/editor_settings.rst:180
 msgid "**Auto Brightness**: If disabled, use a fixed white level and ignore the image histogram to adjust brightness."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:181
+#: ../../setup_application/editor_settings.rst:183
 msgid "Corrections"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:187
+#: ../../setup_application/editor_settings.rst:189
 msgid "The digiKam Default RAW Corrections Configuration View"
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:189
+#: ../../setup_application/editor_settings.rst:191
 msgid "**Noise Reduction** can be applied while demosaicing your image at a slight speed penalty. This option applies a noise reduction algorithm while the image is still in CIE Lab color space. Because the noise is only applied to the Luminosity layer (the *L* of the Lab), it should not blur your image as much as traditional noise reduction algorithms do in RGB mode. If you converted an image from RAW and it appears noisy, rather than applying a denoiser, go back and re-convert with this option enabled."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:191
+#: ../../setup_application/editor_settings.rst:193
 msgid "You can select a noise reduction method to apply during RAW decoding. **None** does not apply the noise reduction. **Wavelets** applies a wavelets-based correction method, after interpolation, to reduce noise while preserving real details. **FBDD** for Fake Before Demosaicing Denoising is an experimental noise reduction method applied before interpolation."
 msgstr ""
 
 #. +> trunk5
-#: ../../setup_application/editor_settings.rst:193
+#: ../../setup_application/editor_settings.rst:195
 msgid "The default **Threshold** value is 100. Higher values will increase smoothing, and lower values will decrease it."
 msgstr ""
 

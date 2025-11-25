@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-05 12:23+0200\n"
+"POT-Creation-Date: 2025-11-20 14:05+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,53 +13,31 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6
-#: controllers/framestackmodel.cpp:97
+#: controllers/framestackmodel.cpp:86
 #, kde-format
 msgid "(running)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: debuggerplugin.cpp:30 lldblauncher.cpp:27
+#: debuggerplugin.cpp:29 lldblauncher.cpp:27
 #, kde-format
 msgid "LLDB"
 msgstr ""
 
-#. +> trunk6 stable6
-#: debuggerplugin.cpp:95
-#, kde-format
-msgctxt "@title:window"
-msgid "LLDB Console"
-msgstr ""
-
-#. +> trunk6 stable6
-#: debugsession.cpp:138
+#. +> stable6
+#: debugsession.cpp:119
 #, kde-format
 msgid "Attempting to execute user command on unsupported LLDB version"
 msgstr ""
 
 #. +> trunk6 stable6
-#: debugsession.cpp:337
-#, kde-format
-msgid "<b>Could not start debugger:</b><br />"
-msgstr ""
-
-#. +> trunk6 stable6
-#: debugsession.cpp:348
+#: debugsession.cpp:300
 #, kde-format
 msgid "<b>Error connecting to remote target:</b><br />"
 msgstr ""
 
-#. +> trunk6 stable6
-#: debugsession.cpp:361
-#, kde-format
-msgid ""
-"<b>Failed to load core file</b>"
-"<p>Debugger reported the following error:"
-"<p><tt>%1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: debugsession.cpp:392
+#. +> stable6
+#: debugsession.cpp:345
 #, kde-format
 msgid ""
 "<b>Your lldb-mi version is unsupported, as it lacks an essential patch.</b><br/>"
@@ -68,14 +46,30 @@ msgid ""
 "Do you want to continue?"
 msgstr ""
 
-#. +> trunk6 stable6
-#: debugsession.cpp:396
+#. +> trunk6
+#: debugsession.cpp:347
+#, kde-format
+msgid ""
+"The LLDB version used by your <code>lldb-mi</code> could not be detected.<br />"
+"Your <code>lldb-mi</code> sent the following reply to a CLI command <code>version</code>:<br />"
+msgstr ""
+
+#. +> stable6
+#: debugsession.cpp:349
 #, kde-format
 msgid "LLDB Version Unsupported"
 msgstr ""
 
-#. +> trunk6 stable6
-#: debugsession.cpp:442
+#. +> trunk6
+#: debugsession.cpp:356
+#, kde-format
+msgid ""
+"Your <code>lldb-mi</code> must use LLDB version %1 or later.<br />"
+"But it is currently using LLDB version %2"
+msgstr ""
+
+#. +> stable6
+#: debugsession.cpp:395
 #, kde-format
 msgid ""
 "<b>You need lldb-mi from LLDB 3.8.1 or higher.</b><br />"
@@ -93,6 +87,13 @@ msgstr ""
 #: lldblauncher.cpp:32
 #, kde-format
 msgid "Debug a native application in LLDB"
+msgstr ""
+
+#. +> trunk6 stable6
+#: toolviewfactoryholder.cpp:41
+#, kde-format
+msgctxt "@title:window"
+msgid "LLDB Console"
 msgstr ""
 
 #. +> trunk6 stable6

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmusb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-11 09:44+0100\n"
+"POT-Creation-Date: 2025-10-29 08:40+0100\n"
 "PO-Revision-Date: 2008-04-26 13:02+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6 stable5
-#: classes.i18n:2 usbdevices.cpp:66
+#: classes.i18n:2
 #, kde-format
 msgctxt "USB device class"
 msgid "(Defined at Interface level)"
@@ -509,6 +509,14 @@ msgstr "Leo Savernik"
 msgid "Live Monitoring of USB Bus"
 msgstr "การเฝ้าดูบัสข้อมูล USB ตามเวลาจริง"
 
+#. +> trunk6
+#: usbdevices.cpp:66
+#, fuzzy, kde-format
+#| msgid "Human Interface Devices"
+msgctxt "USB device class"
+msgid "Defined at Interface Level"
+msgstr "อุปกรณ์ติดต่อกับผู้ใช้"
+
 #. +> trunk6 stable6 stable5
 #: usbdevices.cpp:92
 #, kde-format
@@ -535,57 +543,7 @@ msgid "<b>Serial #:</b> "
 msgstr "<b>เลขซีเรียล #:</b> "
 
 #. +> trunk6 stable6 stable5
-#: usbdevices.cpp:240
-#, kde-format
-msgid ""
-"<tr>"
-"<td><i>Class</i></td>"
-"%1</tr>"
-msgstr ""
-"<tr>"
-"<td><i>คลาส</i></td>"
-"%1</tr>"
-
-#. +> trunk6 stable6 stable5
-#: usbdevices.cpp:245
-#, kde-format
-msgid ""
-"<tr>"
-"<td><i>Subclass</i></td>"
-"%1</tr>"
-msgstr ""
-"<tr>"
-"<td><i>คลาสย่อย</i></td>"
-"%1</tr>"
-
-#. +> trunk6 stable6 stable5
-#: usbdevices.cpp:250
-#, kde-format
-msgid ""
-"<tr>"
-"<td><i>Protocol</i></td>"
-"%1</tr>"
-msgstr ""
-"<tr>"
-"<td><i>โพรโทคอล</i></td>"
-"%1</tr>"
-
-#. +> trunk6 stable6 stable5
-#: usbdevices.cpp:251
-#, kde-format
-msgid ""
-"<tr>"
-"<td><i>USB Version</i></td>"
-"<td>%1.%2</td>"
-"</tr>"
-msgstr ""
-"<tr>"
-"<td><i>รุ่นของ USB</i></td>"
-"<td>%1.%2</td>"
-"</tr>"
-
-#. +> trunk6 stable6 stable5
-#: usbdevices.cpp:258
+#: usbdevices.cpp:235
 #, kde-format
 msgid ""
 "<tr>"
@@ -599,7 +557,7 @@ msgstr ""
 "</tr>"
 
 #. +> trunk6 stable6 stable5
-#: usbdevices.cpp:263
+#: usbdevices.cpp:240
 #, kde-format
 msgid ""
 "<tr>"
@@ -610,6 +568,56 @@ msgstr ""
 "<tr>"
 "<td><i>หมายเลขผลิตภัณฑ์</i></td>"
 "<td>0x%1</td>"
+"</tr>"
+
+#. +> trunk6 stable6 stable5
+#: usbdevices.cpp:252
+#, kde-format
+msgid ""
+"<tr>"
+"<td><i>Class</i></td>"
+"%1</tr>"
+msgstr ""
+"<tr>"
+"<td><i>คลาส</i></td>"
+"%1</tr>"
+
+#. +> trunk6 stable6 stable5
+#: usbdevices.cpp:257
+#, kde-format
+msgid ""
+"<tr>"
+"<td><i>Subclass</i></td>"
+"%1</tr>"
+msgstr ""
+"<tr>"
+"<td><i>คลาสย่อย</i></td>"
+"%1</tr>"
+
+#. +> trunk6 stable6 stable5
+#: usbdevices.cpp:262
+#, kde-format
+msgid ""
+"<tr>"
+"<td><i>Protocol</i></td>"
+"%1</tr>"
+msgstr ""
+"<tr>"
+"<td><i>โพรโทคอล</i></td>"
+"%1</tr>"
+
+#. +> trunk6 stable6 stable5
+#: usbdevices.cpp:263
+#, kde-format
+msgid ""
+"<tr>"
+"<td><i>USB Version</i></td>"
+"<td>%1.%2</td>"
+"</tr>"
+msgstr ""
+"<tr>"
+"<td><i>รุ่นของ USB</i></td>"
+"<td>%1.%2</td>"
 "</tr>"
 
 #. +> trunk6 stable6 stable5

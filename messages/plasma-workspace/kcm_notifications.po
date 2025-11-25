@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-30 07:58+0200\n"
+"POT-Creation-Date: 2025-09-24 11:19+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -25,7 +25,7 @@ msgid "Configure Notifications"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: sourcesmodel.cpp:412
+#: sourcesmodel.cpp:406
 #, kde-format
 msgid "Other Applications"
 msgstr ""
@@ -49,7 +49,7 @@ msgid "Configure Events…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/ApplicationConfiguration.qml:132 ui/main.qml:193
+#: ui/ApplicationConfiguration.qml:132 ui/main.qml:208
 #, kde-format
 msgid "Show in history"
 msgstr ""
@@ -132,33 +132,39 @@ msgid "Application Settings"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:81
+#: ui/main.qml:96
 #, kde-format
 msgid "Could not find a 'Notifications' widget, which is required for displaying notifications. Make sure that it is enabled either in your System Tray or as a standalone widget."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:92
+#: ui/main.qml:107
 #, kde-format
 msgctxt "Vendor and product name"
 msgid "Notifications are currently provided by '%1 %2' instead of Plasma."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:96
+#: ui/main.qml:111
 #, kde-format
 msgid "Notifications are currently not provided by Plasma."
 msgstr ""
 
+#. +> stable5
+#: package/contents/ui/main.qml:123
+#, kde-format
+msgid "Show over full screen windows"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:111
+#: ui/main.qml:126
 #, kde-format
 msgctxt "@title:group"
 msgid "Do Not Disturb mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:116
+#: ui/main.qml:131
 #, kde-format
 msgctxt "Automatically enable Do Not Disturb mode when screens are mirrored"
 msgid "Enable automatically:"
@@ -172,7 +178,7 @@ msgid "Enable:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:117
+#: ui/main.qml:132
 #, kde-format
 msgctxt "Automatically enable Do Not Disturb mode when screens are mirrored"
 msgid "When screens are mirrored"
@@ -185,14 +191,8 @@ msgctxt "Enable Do Not Disturb mode when screens are mirrored"
 msgid "When screens are mirrored"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/main.qml:123
-#, kde-format
-msgid "Show over full screen windows"
-msgstr ""
-
 #. +> trunk6 stable6
-#: ui/main.qml:129
+#: ui/main.qml:144
 #, kde-format
 msgctxt "Automatically enable Do Not Disturb mode during screen sharing"
 msgid "During screen sharing"
@@ -206,14 +206,14 @@ msgid "During screen sharing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:143
+#: ui/main.qml:158
 #, kde-format
 msgctxt "Automatically enable Do Not Disturb mode while a fullscreen application is focused"
 msgid "While a fullscreen application is focused"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:155
+#: ui/main.qml:170
 #, kde-format
 msgctxt "Keyboard shortcut to turn Do Not Disturb mode on and off"
 msgid "Manually toggle with shortcut:"
@@ -227,14 +227,14 @@ msgid "Keyboard shortcut:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:162
+#: ui/main.qml:177
 #, kde-format
 msgctxt "@title:group"
 msgid "Visibility conditions"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:167
+#: ui/main.qml:182
 #, kde-format
 msgid "Critical notifications:"
 msgstr ""
@@ -246,19 +246,19 @@ msgid "Normal notifications:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:168
+#: ui/main.qml:183
 #, kde-format
 msgid "Show in Do Not Disturb mode"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:180
+#: ui/main.qml:195
 #, kde-format
 msgid "Low priority notifications:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:181
+#: ui/main.qml:196
 #, kde-format
 msgid "Show popup"
 msgstr ""
@@ -270,35 +270,35 @@ msgid "Choose Custom Position…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:210
+#: ui/main.qml:225
 #, kde-format
 msgctxt "@title:group As in: 'notification popups'"
 msgid "Popups"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:216
+#: ui/main.qml:231
 #, kde-format
 msgctxt "@label"
 msgid "Location:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:217
+#: ui/main.qml:232
 #, kde-format
 msgctxt "Popup position near notification plasmoid"
 msgid "Near notification icon"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:254
+#: ui/main.qml:269
 #, kde-format
 msgctxt "@action:button choose custom notification position"
 msgid "Custom…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:263 ui/main.qml:279
+#: ui/main.qml:278 ui/main.qml:294
 #, kde-format
 msgid "%1 second"
 msgid_plural "%1 seconds"
@@ -306,14 +306,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:268
+#: ui/main.qml:283
 #, kde-format
 msgctxt "Part of a sentence like, 'Hide popup after n seconds'"
 msgid "Hide after:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:291
+#: ui/main.qml:306
 #, kde-format
 msgctxt "@title:group"
 msgid "Additional feedback"
@@ -326,19 +326,6 @@ msgctxt "@title:group"
 msgid "Application-specific settings"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:297
-#, kde-format
-msgctxt "Show application jobs in notification widget"
-msgid "Show in notifications"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:298
-#, kde-format
-msgid "Application progress:"
-msgstr ""
-
 #. +> stable5
 #: package/contents/ui/main.qml:308
 #, kde-format
@@ -348,18 +335,31 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: ui/main.qml:312
 #, kde-format
+msgctxt "Show application jobs in notification widget"
+msgid "Show in notifications"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:313
+#, kde-format
+msgid "Application progress:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:327
+#, kde-format
 msgctxt "Keep application job popup open for entire duration of job"
 msgid "Keep popup open during progress"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:325
+#: ui/main.qml:340
 #, kde-format
 msgid "Notification badges:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:326
+#: ui/main.qml:341
 #, kde-format
 msgid "Show in task manager"
 msgstr ""
@@ -377,19 +377,19 @@ msgid "Application Settings"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/SourcesPage.qml:107
+#: ui/SourcesPage.qml:104
 #, kde-format
 msgid "Applications"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/SourcesPage.qml:108
+#: ui/SourcesPage.qml:105
 #, kde-format
 msgid "System Services"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/SourcesPage.qml:156
+#: ui/SourcesPage.qml:153
 #, kde-format
 msgid "No application or event matches your search term"
 msgstr ""
@@ -401,7 +401,7 @@ msgid "No application or event matches your search term."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/SourcesPage.qml:180
+#: ui/SourcesPage.qml:177
 #, kde-format
 msgid "Select an application from the list to configure its notification settings and behavior"
 msgstr ""

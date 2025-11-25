@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skrooge\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-27 09:01+0200\n"
+"POT-Creation-Date: 2025-10-13 09:30+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -74,7 +74,7 @@ msgstr ""
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:29
 #, kde-format
 msgctxt "Dashboard widget title"
-msgid "Advices"
+msgid "Advice"
 msgstr ""
 
 #. +> trunk6
@@ -844,43 +844,49 @@ msgid "Useful for debug"
 msgstr ""
 
 #. +> trunk6
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:38
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:45
 #, kde-format
 msgctxt "Execute an SQL query"
 msgid "Execute"
 msgstr ""
 
 #. +> trunk6
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:39
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:46
+#, kde-format
+msgctxt "Execute an SQL query (Benchmark)"
+msgid "Execute benchmark"
+msgstr ""
+
+#. +> trunk6
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:48
 #, kde-format
 msgctxt "Execute an SQL queries (one per line)"
 msgid "Execute multi queries"
 msgstr ""
 
 #. +> trunk6
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:40
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:50
 #, kde-format
 msgctxt "Explain an SQL query"
 msgid "Explain"
 msgstr ""
 
 #. +> trunk6
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:41
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:51
 #, kde-format
 msgctxt "Explain the SQL query plan"
 msgid "Explain query plan"
 msgstr ""
 
 #. +> trunk6
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:42
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:53
 #, kde-format
 msgctxt "Execute script"
 msgid "Execute script [%1]"
 msgstr ""
 
 #. +> trunk6
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:142
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:213
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:154
 #, kde-format
 msgctxt "Display the execution time needed by an SQL query"
 msgid ""
@@ -889,11 +895,27 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:180
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:204
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:192
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:220
 #, kde-format
 msgctxt "Display an SQL command from the debug plugin"
 msgid "SQL command from debug plugin"
+msgstr ""
+
+#. +> trunk6
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:236
+#, kde-format
+msgctxt "Display the execution time needed by an SQL query"
+msgid ""
+"\n"
+"Execution time: %1 ms %2"
+msgstr ""
+
+#. +> trunk6
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:238
+#, kde-format
+msgctxt "Display the average execution time of an SQL query"
+msgid "Average for %1 runs"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (SKGComboBox, kSQLInput)
@@ -1508,7 +1530,7 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/generic/skg_monthly/skgmonthlypluginwidget.cpp:226
-#: skgbankmodeler/skgunitobject.cpp:2274
+#: skgbankmodeler/skgunitobject.cpp:2277
 #, kde-format
 msgctxt "Error message"
 msgid "Deletion of '%1' failed"
@@ -1660,7 +1682,7 @@ msgstr ""
 #: plugins/import/skrooge_import_backend/skgimportpluginbackend.cpp:178
 #: plugins/import/skrooge_import_backend/skgimportpluginbackend.cpp:278
 #: plugins/import/skrooge_import_pdf/skgimportpluginpdf.cpp:129
-#: skgbankmodeler/skgunitobject.cpp:2458 skgbasegui/skgmainpanel.cpp:2784
+#: skgbankmodeler/skgunitobject.cpp:2461 skgbasegui/skgmainpanel.cpp:2784
 #: skgbasegui/skgmainpanel.cpp:2791 skgbasemodeler/skgdocument.cpp:1433
 #, kde-format
 msgctxt "Error message"
@@ -1764,7 +1786,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_bank/skgbankpluginwidget.cpp:120
 #: plugins/skrooge/skrooge_categories/skgcategoriespluginwidget.cpp:51
 #: plugins/skrooge/skrooge_payee/skgpayeepluginwidget.cpp:37
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:51
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:71
 #: plugins/skrooge/skrooge_tracker/skgtrackerpluginwidget.cpp:34
 #, kde-format
 msgid "All"
@@ -2178,7 +2200,7 @@ msgstr ""
 #: plugins/import/skrooge_import_kmy/skgimportpluginkmy.cpp:1572
 #: plugins/import/skrooge_import_ledger/skgimportpluginledger.cpp:232
 #: plugins/import/skrooge_import_mmb/skgimportpluginmmb.cpp:49
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:108
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:109
 #: plugins/import/skrooge_import_mt940/skgimportpluginmt940.cpp:49
 #: plugins/import/skrooge_import_ofx/skgimportpluginofx.cpp:56
 #: plugins/import/skrooge_import_pdf/skgimportpluginpdf.cpp:107
@@ -2202,13 +2224,13 @@ msgstr ""
 #: plugins/import/skrooge_import_kmy/skgimportpluginkmy.cpp:748
 #: plugins/import/skrooge_import_ledger/skgimportpluginledger.cpp:273
 #: plugins/import/skrooge_import_mmb/skgimportpluginmmb.cpp:65
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:160
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:168
 #: plugins/import/skrooge_import_mt940/skgimportpluginmt940.cpp:55
 #: plugins/import/skrooge_import_pdf/skgimportpluginpdf.cpp:113
 #: plugins/import/skrooge_import_qif/skgimportpluginqif.cpp:65
 #: plugins/import/skrooge_import_skg/skgimportpluginskg.cpp:71
 #: plugins/import/skrooge_import_xhb/skgimportpluginxhb.cpp:83
-#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:155
+#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:170
 #, kde-format
 msgctxt "Import step"
 msgid "Import %1 file"
@@ -2227,7 +2249,7 @@ msgstr ""
 #: plugins/import/skrooge_import_iif/skgimportpluginiif.cpp:86
 #: plugins/import/skrooge_import_kmy/skgimportpluginkmy.cpp:722
 #: plugins/import/skrooge_import_ledger/skgimportpluginledger.cpp:249
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:90
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:91
 #: plugins/import/skrooge_import_mt940/skgimportpluginmt940.cpp:63
 #: plugins/import/skrooge_import_ofx/skgimportpluginofx.cpp:63
 #: plugins/import/skrooge_import_qif/skgimportpluginqif.cpp:78
@@ -2247,8 +2269,8 @@ msgstr ""
 #: plugins/import/skrooge_import_kmy/skgimportpluginkmy.cpp:219
 #: plugins/import/skrooge_import_ledger/skgimportpluginledger.cpp:327
 #: plugins/import/skrooge_import_mmb/skgimportpluginmmb.cpp:263
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:366
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:379
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:405
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:418
 #: plugins/import/skrooge_import_mt940/skgimportpluginmt940.cpp:95
 #: plugins/import/skrooge_import_qif/skgimportpluginqif.cpp:174
 #: plugins/import/skrooge_import_skg/skgimportpluginskg.cpp:290
@@ -2685,8 +2707,8 @@ msgstr ""
 #: plugins/import/skrooge_import_kmy/skgimportpluginkmy.cpp:1580
 #: plugins/import/skrooge_import_ledger/skgimportpluginledger.cpp:55
 #: plugins/import/skrooge_import_qif/skgimportpluginqif.cpp:991
-#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:199
-#: skgbankmodeler/skgunitobject.cpp:2202 skgbasegui/skgtablewithgraph.cpp:2875
+#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:214
+#: skgbankmodeler/skgunitobject.cpp:2205 skgbasegui/skgtablewithgraph.cpp:2875
 #: skgbasegui/skgtablewithgraph.cpp:2892 skgbasegui/skgtreeview.cpp:1287
 #: skgbasegui/skgtreeview.cpp:1336 skgbasegui/skgtreeview.cpp:1367
 #, kde-format
@@ -2711,7 +2733,7 @@ msgstr ""
 #: plugins/import/skrooge_import_kmy/skgimportpluginkmy.cpp:132
 #: plugins/import/skrooge_import_ledger/skgimportpluginledger.cpp:285
 #: plugins/import/skrooge_import_mmb/skgimportpluginmmb.cpp:81
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:254
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:283
 #: plugins/import/skrooge_import_skg/skgimportpluginskg.cpp:81
 #, kde-format
 msgctxt "Import step"
@@ -2808,7 +2830,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/import/skrooge_import_gsb/skgimportplugingsb.cpp:161
 #: plugins/import/skrooge_import_kmy/skgimportpluginkmy.cpp:563
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:310
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:349
 #: plugins/import/skrooge_import_xhb/skgimportpluginxhb.cpp:97
 #, kde-format
 msgctxt "Import step"
@@ -2818,7 +2840,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/import/skrooge_import_gsb/skgimportplugingsb.cpp:199
 #: plugins/import/skrooge_import_mmb/skgimportpluginmmb.cpp:229
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:221
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:250
 #: plugins/import/skrooge_import_skg/skgimportpluginskg.cpp:263
 #: plugins/import/skrooge_import_xhb/skgimportpluginxhb.cpp:165
 #, kde-format
@@ -2838,7 +2860,7 @@ msgstr ""
 #: plugins/import/skrooge_import_gsb/skgimportplugingsb.cpp:262
 #: plugins/import/skrooge_import_mmb/skgimportpluginmmb.cpp:172
 #: plugins/import/skrooge_import_mmb/skgimportpluginmmb.cpp:201
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:178
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:186
 #: plugins/import/skrooge_import_skg/skgimportpluginskg.cpp:191
 #: plugins/import/skrooge_import_xhb/skgimportpluginxhb.cpp:185
 #, kde-format
@@ -3002,8 +3024,8 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/import/skrooge_import_ledger/skgimportpluginledger.cpp:487
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:518
-#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:129
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:585
+#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:144
 #, kde-format
 msgctxt "Error message"
 msgid "The execution of '%1' failed"
@@ -3054,56 +3076,56 @@ msgid "Money Manager Ex document"
 msgstr ""
 
 #. +> trunk6
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:99
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:100
 #, kde-format
 msgctxt "Error message"
 msgid "Error during parsing of '%1'"
 msgstr ""
 
 #. +> trunk6
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:116
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:117
 #, kde-format
 msgctxt "Error message"
 msgid "The file %1 does not have read access rights"
 msgstr ""
 
 #. +> trunk6
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:122
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:123
 #, kde-format
 msgctxt "Error message"
 msgid "The java application is not installed. You must manually install it."
 msgstr ""
 
 #. +> trunk6
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:134
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:141
 #, kde-format
 msgctxt "Error message"
 msgid "The sunriise application is needed for Microsoft Money import but is not installed in '%1'"
 msgstr ""
 
 #. +> trunk6
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:465
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:525
 #, kde-format
 msgctxt "Warning message"
 msgid "The transaction '%1' has been repaired because its amount was not equal to the sum of the amounts of its splits"
 msgstr ""
 
 #. +> trunk6
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:515
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:582
 #, kde-format
 msgctxt "Error message"
 msgid "Invalid password"
 msgstr ""
 
 #. +> trunk6
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:520
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:587
 #, kde-format
 msgctxt "Error message"
 msgid "The extraction from the Microsoft Money document '%1' failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:537
+#: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:604
 #, kde-format
 msgctxt "A file format"
 msgid "Microsoft Money document"
@@ -3377,35 +3399,35 @@ msgstr ""
 #. +> trunk6
 #: plugins/import/skrooge_import_xhb/skgimportpluginxhb.cpp:264
 #, kde-format
-msgctxt "Noun: type of payement"
+msgctxt "Noun: type of payment"
 msgid "Credit card"
 msgstr ""
 
 #. +> trunk6
 #: plugins/import/skrooge_import_xhb/skgimportpluginxhb.cpp:266
 #, kde-format
-msgctxt "Noun: type of payement"
+msgctxt "Noun: type of payment"
 msgid "Check"
 msgstr ""
 
 #. +> trunk6
 #: plugins/import/skrooge_import_xhb/skgimportpluginxhb.cpp:268
 #, kde-format
-msgctxt "Noun: type of payement"
+msgctxt "Noun: type of payment"
 msgid "Cash"
 msgstr ""
 
 #. +> trunk6
 #: plugins/import/skrooge_import_xhb/skgimportpluginxhb.cpp:270
 #, kde-format
-msgctxt "Noun: type of payement"
+msgctxt "Noun: type of payment"
 msgid "Transfer"
 msgstr ""
 
 #. +> trunk6
 #: plugins/import/skrooge_import_xhb/skgimportpluginxhb.cpp:272
 #, kde-format
-msgctxt "Noun: type of payement"
+msgctxt "Noun: type of payment"
 msgid "Other"
 msgstr ""
 
@@ -3417,21 +3439,28 @@ msgid "Homebank document"
 msgstr ""
 
 #. +> trunk6
-#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:130
+#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:116
+#, kde-format
+msgctxt "Error message"
+msgid "The saxon-xslt application is not installed. You must manually install it. This could be by the package libsaxonb-java."
+msgstr ""
+
+#. +> trunk6
+#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:145
 #, kde-format
 msgctxt "Error message"
 msgid "The conversion in xml of '%1' failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:133
+#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:148
 #, kde-format
 msgctxt "Error message"
 msgid "Unknown XML format. Only Skrooge and ISO20022 XML formats are supported"
 msgstr ""
 
 #. +> trunk6
-#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:216
+#: plugins/import/skrooge_import_xml/skgimportpluginxml.cpp:231
 #, kde-format
 msgctxt "A file format"
 msgid "XML file"
@@ -3519,7 +3548,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_bank/skgaccountboardwidget.cpp:73
 #: plugins/skrooge/skrooge_bank/skgbankpluginwidget.cpp:175
-#: skgbankmodeler/skgdocumentbank.cpp:479
+#: skgbankmodeler/skgdocumentbank.cpp:480
 #, kde-format
 msgctxt "Noun, a type of account"
 msgid "Saving"
@@ -3536,7 +3565,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_bank/skgaccountboardwidget.cpp:97
 #: plugins/skrooge/skrooge_bank/skgbankpluginwidget.cpp:184
-#: skgbankmodeler/skgdocumentbank.cpp:478
+#: skgbankmodeler/skgdocumentbank.cpp:479
 #, kde-format
 msgctxt "Noun, a type of account"
 msgid "Loan"
@@ -3545,7 +3574,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_bank/skgaccountboardwidget.cpp:105
 #: plugins/skrooge/skrooge_bank/skgbankpluginwidget.cpp:187
-#: skgbankmodeler/skgdocumentbank.cpp:480
+#: skgbankmodeler/skgdocumentbank.cpp:481
 #, kde-format
 msgctxt "Noun, a type of account"
 msgid "Pension"
@@ -3554,7 +3583,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_bank/skgaccountboardwidget.cpp:113
 #: plugins/skrooge/skrooge_bank/skgbankpluginwidget.cpp:190
-#: skgbankmodeler/skgdocumentbank.cpp:477
+#: skgbankmodeler/skgdocumentbank.cpp:478
 #, kde-format
 msgctxt "Noun, a type of account"
 msgid "Wallet"
@@ -3587,7 +3616,7 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/skrooge/skrooge_bank/skgaccountboardwidget.cpp:386
-#: skgbankmodeler/skgdocumentbank.cpp:3361
+#: skgbankmodeler/skgdocumentbank.cpp:3394
 #: skgbankmodeler/skgreportbank.cpp:135 skgbankmodeler/skgreportbank.cpp:376
 #: skgbankmodeler/skgreportbank.cpp:468
 #, kde-format
@@ -5426,7 +5455,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_calculator/skgcalculatorpluginwidget_base.ui:819
 #: plugins/skrooge/skrooge_payee/skgpayeepluginwidget_base.ui:211
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:282
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:257
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget_base.ui:379
 #: plugins/skrooge/skrooge_tracker/skgtrackerpluginwidget_base.ui:166
 #: plugins/skrooge/skrooge_unit/skgunitpluginwidget_base.ui:810
@@ -5525,7 +5554,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_categories/skgcategoriesplugin.cpp:244
 #, kde-format
 msgctxt "List of categories. It is not needed to translate each item. You can set the list you want. ';' must be used to separate categories. ' > ' must be used to separate category and sub category (no limit of level)."
-msgid "Alimony;Auto;Auto > Fuel;Auto > Insurance;Auto > Lease;Auto > Loan;Auto > Registration;Auto > Service;Bank Charges;Bank Charges > Interest Paid;Bank Charges > Service Charge;Bills;Bills > Electricity;Bills > Fuel Oil;Bills > Local Taxes;Bills > Mortgage;Bills > Natural Gas;Bills > Rent;Bills > TV;Bills > Telephone;Bills > Water & Sewage;Bonus;Business;Business > Auto;Business > Capital Goods;Business > Legal Expenses;Business > Office Rent;Business > Office Supplies;Business > Other;Business > Revenue;Business > Taxes;Business > Travel;Business > Utilities;Business > Wages & Salary;Car;Car > Fuel;Car > Insurance;Car > Lease;Car > Loan;Car > Registration;Car > Service;Cash Withdrawal;Charity;Charity > Donations;Child Care;Child Support;Clothing;Disability;Div Income;Div Income > Ord dividend;Div Income > Stock dividend;Education;Education > Board;Education > Books;Education > Fees;Education > Loans;Education > Tuition;Employment;Employment > Benefits;Employment > Foreign;Employment > Lump sums;Employment > Other employ;Employment > Salary & wages;Food;Food > Dining Out;Food > Groceries;Gardening;Gift Received;Gifts;Healthcare;Healthcare > Dental;Healthcare > Doctor;Healthcare > Hospital;Healthcare > Optician;Healthcare > Prescriptions;Holidays;Holidays > Accomodation;Holidays > Travel;Household;Household > Furnishings;Household > Repairs;Insurance;Insurance > Auto;Insurance > Disability;Insurance > Home and Contents;Insurance > Life;Insurance > Medical;Int Inc;Int Inc > Bank Interest;Int Inc > Gross;Int Inc > Net;Int Inc > Other savings;Invest. income;Invest. income > 1st option;Invest. income > Dividend;Invest. income > Foreign;Invest. income > Other savings;Invest. income > Other trusts;Invest. income > Other trusts#Capital;Invest. income > Other trusts#Dist. rec'd;Invest. income > Other trusts#Estate;Investment Income;Investment Income > Dividends;Investment Income > Interest;Investment Income > Long-Term Capital Gains;Investment Income > Short-Term Capital Gains;Investment Income > Tax-Exempt Interest;Job Expense;Job Expense > Non-Reimbursed;Job Expense > Reimbursed;Legal Fees;Leisure;Leisure > Books & Magazines;Leisure > Entertaining;Leisure > Films & Video Rentals;Leisure > Hobbies;Leisure > Sporting Events;Leisure > Sports Goods;Leisure > Tapes & CDs;Leisure > Theatre & Concerts etc;Leisure > Toys & Games;Loan;Loan > Loan Interest;Long-Term Capital gains;Mortgage;Mortgage > Interest;Mortgage > PMI;Mortgage > Principle;Motor;Motor > Fuel;Motor > Loan;Motor > Service;Other Expense;Other Expense > Unknown;Other Income;Other Income > Child Support;Other Income > Employee Share Option;Other Income > Gifts Received;Other Income > Loan Principal Received;Other Income > Lottery or Premium Bond Prizes;Other Income > Student loan;Other Income > Tax Refund;Other Income > Unemployment Benefit;Pension;Pension > Employer;Personal Care;Pet Care;Pet Care > Food;Pet Care > Supplies;Pet Care > Vet's Bills;Recreation;Retirement Accounts;Retirement Accounts > 401(k)403(b) Plan Contributions;Retirement Accounts > 529 Plan Contributions;Retirement Accounts > IRA Contributions;Retirement Income;Retirement Income > 401(k);Retirement Income > 401(k) > 403(b) Distributions;Retirement Income > IRA Distributions;Retirement Income > Pensions & Annuities;Retirement Income > State Pension Benefits;Short-Term Capital gains;Social Security Benefits;Taxes;Taxes > AMT;Taxes > Federal Tax;Taxes > Federal Taxes;Taxes > Local Tax;Taxes > Local Taxes;Taxes > Other Invest;Taxes > Other Tax;Taxes > Property Taxes;Taxes > Social Security;Taxes > State Tax;Taxes > State Taxes;Travel;Travel > Accomodations;Travel > Car Rental;Travel > Fares;Utilities;Utilities > Electricity;Utilities > Garbage & Recycling;Utilities > Gas;Utilities > Sewer;Utilities > Telephone;Utilities > Water;Wages & Salary;Wages & Salary > Benefits;Wages & Salary > Bonus;Wages & Salary > Commission;Wages & Salary > Employer Pension Contributions;Wages & Salary > Gross Pay;Wages & Salary > Net Pay;Wages & Salary > Overtime;Wages & Salary > Workman's Comp"
+msgid "Alimony;Auto;Auto > Fuel;Auto > Insurance;Auto > Lease;Auto > Loan;Auto > Registration;Auto > Service;Bank Charges;Bank Charges > Interest Paid;Bank Charges > Service Charge;Bills;Bills > Electricity;Bills > Fuel Oil;Bills > Local Taxes;Bills > Mortgage;Bills > Natural Gas;Bills > Rent;Bills > TV;Bills > Telephone;Bills > Water & Sewage;Bonus;Business;Business > Auto;Business > Capital Goods;Business > Legal Expenses;Business > Office Rent;Business > Office Supplies;Business > Other;Business > Revenue;Business > Taxes;Business > Travel;Business > Utilities;Business > Wages & Salary;Car;Car > Fuel;Car > Insurance;Car > Lease;Car > Loan;Car > Registration;Car > Service;Cash Withdrawal;Charity;Charity > Donations;Child Care;Child Support;Clothing;Disability;Div Income;Div Income > Ord dividend;Div Income > Stock dividend;Education;Education > Board;Education > Books;Education > Fees;Education > Loans;Education > Tuition;Employment;Employment > Benefits;Employment > Foreign;Employment > Lump sums;Employment > Other employ;Employment > Salary & wages;Food;Food > Dining Out;Food > Groceries;Gardening;Gift Received;Gifts;Healthcare;Healthcare > Dental;Healthcare > Doctor;Healthcare > Hospital;Healthcare > Optician;Healthcare > Prescriptions;Holidays;Holidays > Accommodation;Holidays > Travel;Household;Household > Furnishings;Household > Repairs;Insurance;Insurance > Auto;Insurance > Disability;Insurance > Home and Contents;Insurance > Life;Insurance > Medical;Int Inc;Int Inc > Bank Interest;Int Inc > Gross;Int Inc > Net;Int Inc > Other savings;Invest. income;Invest. income > 1st option;Invest. income > Dividend;Invest. income > Foreign;Invest. income > Other savings;Invest. income > Other trusts;Invest. income > Other trusts#Capital;Invest. income > Other trusts#Dist. rec'd;Invest. income > Other trusts#Estate;Investment Income;Investment Income > Dividends;Investment Income > Interest;Investment Income > Long-Term Capital Gains;Investment Income > Short-Term Capital Gains;Investment Income > Tax-Exempt Interest;Job Expense;Job Expense > Non-Reimbursed;Job Expense > Reimbursed;Legal Fees;Leisure;Leisure > Books & Magazines;Leisure > Entertaining;Leisure > Films & Video Rentals;Leisure > Hobbies;Leisure > Sporting Events;Leisure > Sports Goods;Leisure > Tapes & CDs;Leisure > Theatre & Concerts etc;Leisure > Toys & Games;Loan;Loan > Loan Interest;Long-Term Capital gains;Mortgage;Mortgage > Interest;Mortgage > PMI;Mortgage > Principle;Motor;Motor > Fuel;Motor > Loan;Motor > Service;Other Expense;Other Expense > Unknown;Other Income;Other Income > Child Support;Other Income > Employee Share Option;Other Income > Gifts Received;Other Income > Loan Principal Received;Other Income > Lottery or Premium Bond Prizes;Other Income > Student loan;Other Income > Tax Refund;Other Income > Unemployment Benefit;Pension;Pension > Employer;Personal Care;Pet Care;Pet Care > Food;Pet Care > Supplies;Pet Care > Vet's Bills;Recreation;Retirement Accounts;Retirement Accounts > 401(k)403(b) Plan Contributions;Retirement Accounts > 529 Plan Contributions;Retirement Accounts > IRA Contributions;Retirement Income;Retirement Income > 401(k);Retirement Income > 401(k) > 403(b) Distributions;Retirement Income > IRA Distributions;Retirement Income > Pensions & Annuities;Retirement Income > State Pension Benefits;Short-Term Capital gains;Social Security Benefits;Taxes;Taxes > AMT;Taxes > Federal Tax;Taxes > Federal Taxes;Taxes > Local Tax;Taxes > Local Taxes;Taxes > Other Invest;Taxes > Other Tax;Taxes > Property Taxes;Taxes > Social Security;Taxes > State Tax;Taxes > State Taxes;Travel;Travel > Accommodations;Travel > Car Rental;Travel > Fares;Utilities;Utilities > Electricity;Utilities > Garbage & Recycling;Utilities > Gas;Utilities > Sewer;Utilities > Telephone;Utilities > Water;Wages & Salary;Wages & Salary > Benefits;Wages & Salary > Bonus;Wages & Salary > Commission;Wages & Salary > Employer Pension Contributions;Wages & Salary > Gross Pay;Wages & Salary > Net Pay;Wages & Salary > Overtime;Wages & Salary > Workman's Comp"
 msgstr ""
 
 #. +> trunk6
@@ -6489,7 +6518,7 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:958
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2034
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2039
 #, kde-format
 msgctxt "Error message"
 msgid "Merge failed"
@@ -6560,9 +6589,9 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1111
-#: skgbasemodeler/skgservices.cpp:1757
+#: skgbasemodeler/skgservices.cpp:1771
 #, kde-format
-msgctxt "An erro message"
+msgctxt "An error message"
 msgid "Open file '%1' failed"
 msgstr ""
 
@@ -7442,7 +7471,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:208
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:209
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1228
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2124
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2129
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget.cpp:589
 #: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:211
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget.cpp:678
@@ -7670,7 +7699,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:454
 #, kde-format
 msgctxt "Verb"
-msgid "Align date of subtransactions of selected single transactions"
+msgid "Align date of subtransactions of selected transactions (single or split)"
 msgstr ""
 
 #. +> trunk6
@@ -8087,331 +8116,331 @@ msgid "Edit transactions with duplicate number"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1303
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1304
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Many transactions of '%1' not reconciled"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1306
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1307
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "Do not forget to reconcile your accounts. By doing so, you acknowledge that your bank has indeed processed these transactions on your account. This is how you enforce compliance with your bank's statements. See online help for more details"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1311
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1312
 #, kde-format
 msgctxt "Advice on making the best (action)"
 msgid "Open account '%1' for reconciliation"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1347
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1348
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Not enough money in your account '%1'"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1349
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1350
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "The amount of this account is below the minimum limit. You should replenish it."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1380
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1381
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Balance in account '%1' exceeds the maximum limit"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1381
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1382
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "The balance of this account exceeds the maximum limit."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1413
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1414
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Your account '%1' is close to the minimum limit"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1415
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1416
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "The amount of this account is close to the minimum limit. You should take care of it."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1457
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1458
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Too much money in your account '%1'"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1458
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1459
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "You could save money on an account with a better rate. Example: '%1' (%2%)"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1483
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1484
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Many transactions do not have mode"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1485
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1486
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "Do not forget to set a mode for each transaction. This will allow you to generate better reports."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1512
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1513
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Many transactions do not have category"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1514
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1515
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "Do not forget to associate a category for each transaction. This will allow you to generate better reports."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1540
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1541
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Many transfers do not have category"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1541
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1542
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "Do not forget to associate a category for each transfer."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1568
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1569
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Many transactions do not have payee"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1570
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1571
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "Do not forget to associate a payee for each transaction. This will allow you to generate better reports."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1596
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1597
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Many transfers do not have payee"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1597
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1598
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "Do not forget to associate a payee for each transfer."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1624
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1625
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Some transactions are in groups with only one transaction"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1626
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1627
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "When a transfer is created and when only one part of this transfer is removed, the second part is in a group of only one transaction. This makes no sense."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1666
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1667
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Some simple transactions do not have their comments aligned"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1668
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1669
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "The comment of the transaction is not aligned with the comment of the subtransaction."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1713
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1714
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Some transactions do not have their dates aligned"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1715
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1716
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "The date of the transaction is not aligned with the date of the subtransaction. This case seems to be abnormal."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1752
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1753
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Category not aligned with payee's category"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1753
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1754
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "Some transactions don't have the category aligned with the category of the payee."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1793
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1794
 #, kde-format
 msgctxt "Noun, a list of items"
 msgid "Transactions of '%1' with duplicate number %2"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1820
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1821
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Remove groups with only one transaction"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1835
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1836
 #, kde-format
 msgctxt "Message for successful user action"
 msgid "Remove groups done."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1838
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1839
 #, kde-format
 msgctxt "Error message"
 msgid "Remove groups failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1857
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1858
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Align comment of subtransactions"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1874
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1913
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1875
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1914
 #, kde-format
 msgctxt "Message for successful user action"
 msgid "Comments aligned."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1877
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1916
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1878
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1917
 #, kde-format
 msgctxt "Error message"
 msgid "Comments alignment failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1896
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1897
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Align comment of transactions"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1935
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1936
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Align date of subtransactions"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1952
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1957
 #, kde-format
 msgctxt "Message for successful user action"
 msgid "Dates aligned."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1955
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1960
 #, kde-format
 msgctxt "Error message"
 msgid "Dates alignment failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1975
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1980
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Align the category of all single transactions with the category of their payee"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1994
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1999
 #, kde-format
 msgctxt "Message for successful user action"
 msgid "Categories aligned."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1997
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2002
 #, kde-format
 msgctxt "Error message"
 msgid "Categories alignment failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2013
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2018
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Merge sub transactions"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2022
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2027
 #, kde-format
 msgctxt "An information to the user"
 msgid "The sub transactions of '%1' have been merged in the transaction '%2'"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2031
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2036
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Transactions merged."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2098
+#: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:2103
 #, kde-format
 msgctxt "A condition"
 msgid "%1 = %2"
@@ -9020,8 +9049,8 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:1363
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:1366
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:276
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:279
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:251
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:254
 #, kde-format
 msgid "Update selected transactions (Shift+Enter)"
 msgstr ""
@@ -9787,7 +9816,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget.cpp:607
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget.cpp:1164
-#: skgbankmodeler/skgdocumentbank.cpp:753
+#: skgbankmodeler/skgdocumentbank.cpp:773
 #, kde-format
 msgctxt "Noun"
 msgid "All"
@@ -10370,7 +10399,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:115
 #, kde-format
-msgctxt "A message that is shown in assign schedule menu for a tempate operation"
+msgctxt "A message that is shown in assign schedule menu for a template operation"
 msgid "Cannot assign a schedule to a template"
 msgstr ""
 
@@ -10418,7 +10447,7 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:224
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:368
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:394
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Insert recurrent transactions"
@@ -10599,7 +10628,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:667
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:700
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:344
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:370
 #, kde-format
 msgctxt "Error message"
 msgid "Update failed"
@@ -10634,54 +10663,106 @@ msgid "Schedule failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:53
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:38
+#: skgbankgui/skgobjectmodel.cpp:230
+#, kde-format
+msgid "None"
+msgstr ""
+
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:39
+#, kde-format
+msgid "First open day of the month"
+msgstr ""
+
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:40
+#, kde-format
+msgid "Previous open day"
+msgstr ""
+
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:41
+#, kde-format
+msgid "Closest open day"
+msgstr ""
+
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:42
+#, kde-format
+msgid "Next open day"
+msgstr ""
+
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:44
+#, kde-format
+msgctxt "The parameter is a day of the week (monday to sunday)"
+msgid "Previous %1"
+msgstr ""
+
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:48
+#, kde-format
+msgctxt "The parameter is a day of the week (monday to sunday)"
+msgid "Closest %1"
+msgstr ""
+
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:52
+#, kde-format
+msgctxt "The parameter is a day of the week (monday to sunday)"
+msgid "Next %1"
+msgstr ""
+
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:73
 #, kde-format
 msgid "Ongoing"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:59
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:79
 #, kde-format
 msgid "Complete"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:79
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:99
 #, kde-format
 msgctxt "User action"
 msgid "Process immediately"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:179
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:203
 #, kde-format
 msgctxt "Noun, a list of items"
 msgid "Transactions of the schedule"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:221
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:245
 #, kde-format
 msgctxt "Information message"
 msgid "A non-template schedule requires at least one transaction"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:222
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:246
 #, kde-format
 msgctxt "Information message"
 msgid "Convert to a non-template schedule"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:225
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:249
 #, kde-format
 msgctxt "Information message"
 msgid "Convert to a template schedule"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:305
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:330
 #: skgbankgui/skgobjectmodel.cpp:1048
 #, kde-format
 msgctxt "Noun, name of the user action"
@@ -10689,7 +10770,7 @@ msgid "Recurrent transaction update"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:334
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:360
 #: skgbankgui/skgobjectmodel.cpp:1061
 #, kde-format
 msgctxt "An information to the user"
@@ -10697,129 +10778,86 @@ msgid "The recurrent transaction '%1' has been updated"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:341
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:367
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Recurrent transaction updated."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:380
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:406
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Recurrent transaction inserted."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:383
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:409
 #, kde-format
 msgctxt "Error message"
 msgid "Insertion failed"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KTitleWidget, kTitle)
-#. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:37
-#, kde-format
-msgid "First, you have to schedule a transaction or a template from the transactions page."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kRemindMe)
-#. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:67
-#, kde-format
-msgid "Remind me:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:87
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:186
-#, kde-format
-msgid "days &before term"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:110
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:117
-#, kde-format
-msgid "Once ever&y:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kOnceEveryUnit)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_once_every_unit)
-#. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:143
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:138
-#, kde-format
-msgid "day(s)"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kOnceEveryUnit)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_once_every_unit)
-#. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:148
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:143
-#, kde-format
-msgid "week(s)"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kOnceEveryUnit)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_once_every_unit)
-#. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:153
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:148
-#, kde-format
-msgid "month(s)"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kOnceEveryUnit)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_once_every_unit)
-#. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:158
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:153
-#, kde-format
-msgid "year(s)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kAutoWrite)
-#. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:166
-#, kde-format
-msgid "Automatically write:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:186
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:85
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:249
 #, kde-format
 msgid "days before &term"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kNbTimes)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:196
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:95
 #, kde-format
-msgid "Number of occurrences:"
+msgid "Next occurrence:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kIsTemplate)
 #. i18n: ectx: property (title), widget (QGroupBox, kTemplateFrm)
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:248
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:108
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget.cpp:133
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget_base.ui:236
 #, kde-format
 msgid "Template"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:138
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:117
+#, kde-format
+msgid "Once ever&y:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kAutoWrite)
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:154
+#, kde-format
+msgid "Automatically write:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kRemindMe)
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:161
+#, kde-format
+msgid "Remind me:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:220
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:186
+#, kde-format
+msgid "days &before term"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QToolButton, kProcessBtn)
 #. i18n: ectx: property (statusTip), widget (QToolButton, kProcessBtn)
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:292
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:295
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:267
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:270
 #, kde-format
 msgid "Insert scheduled transactions"
 msgstr ""
@@ -10827,7 +10865,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, kProcessBtn)
 #. i18n: ectx: property (title), widget (QGroupBox, kActionGrp)
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:298
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:273
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget_base.ui:290
 #, kde-format
 msgid "Process"
@@ -10836,24 +10874,74 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, kJumpBtn)
 #. i18n: ectx: property (statusTip), widget (QPushButton, kJumpBtn)
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:311
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:314
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:286
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:289
 #, kde-format
 msgid "Open the transaction page with the selected scheduled transactions"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, kJumpBtn)
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:317
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:292
 #, kde-format
 msgid "Jump to the operation"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), item, widget (KComboBox, kOnceEveryUnit)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_once_every_unit)
 #. +> trunk6
-#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:326
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:302
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:138
 #, kde-format
-msgid "Next occurrence:"
+msgid "day(s)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kOnceEveryUnit)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_once_every_unit)
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:307
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:143
+#, kde-format
+msgid "week(s)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kOnceEveryUnit)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_once_every_unit)
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:312
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:148
+#, kde-format
+msgid "month(s)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kOnceEveryUnit)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_once_every_unit)
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:317
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:153
+#, kde-format
+msgid "year(s)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KTitleWidget, kTitle)
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:325
+#, kde-format
+msgid "First, you have to schedule a transaction or a template from the transactions page."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kNbTimes)
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:332
+#, kde-format
+msgid "Number of occurrences:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6
+#: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:339
+#, kde-format
+msgid "Adaptation:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_check_on_open)
@@ -11056,7 +11144,7 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget.cpp:81
-#: skgbankmodeler/skgdocumentbank.cpp:3169
+#: skgbankmodeler/skgdocumentbank.cpp:3202
 #, kde-format
 msgctxt "Adjective, an highlighted item"
 msgid "Highlighted"
@@ -11332,7 +11420,7 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/skrooge/skrooge_tracker/skgtrackerplugin.cpp:72
-#: skgbankmodeler/skgdocumentbank.cpp:3196
+#: skgbankmodeler/skgdocumentbank.cpp:3229
 #, kde-format
 msgctxt "Noun, something that is used to track items"
 msgid "Trackers"
@@ -11588,7 +11676,7 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:165
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:680
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:679
 #, kde-format
 msgctxt "An information to the user"
 msgid "The unit '%1' has been downloaded"
@@ -11720,6 +11808,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:491
 #: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:525
 #: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:557
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:586
 #, kde-format
 msgctxt "Advice on making the best (action)"
 msgid "Edit units"
@@ -11824,98 +11913,112 @@ msgid "Unit '%1' has very old values. Check if this is normal."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:572
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:581
+#, kde-format
+msgctxt "Advice on making the best (short)"
+msgid "Unit '%1' has a too long symbol"
+msgstr ""
+
+#. +> trunk6
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:582
+#, kde-format
+msgctxt "Advice on making the best (long)"
+msgid "Unit '%1' has a too long symbol. You should shorten it."
+msgstr ""
+
+#. +> trunk6
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:601
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "No decimal symbol defined"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:574
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:603
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "In KDE localization settings, there is no decimal symbol defined for currencies. This could be confusing."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:578
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:607
 #, kde-format
 msgctxt "Advice on making the best (action)"
 msgid "Edit KDE settings"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:601
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:630
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Define primary currency"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:611
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:640
 #, kde-format
 msgctxt "An information to the user"
 msgid "The unit '%1' is now the primary unit"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:616
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:645
 #, kde-format
 msgctxt "Message for successful user action"
 msgid "Primary currency defined."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:619
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:648
 #, kde-format
 msgctxt "Error message"
 msgid "Primary currency definition failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:637
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:666
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Define secondary currency"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:647
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:676
 #, kde-format
 msgctxt "An information to the user"
 msgid "The unit '%1' is now the secondary unit"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:652
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:681
 #, kde-format
 msgctxt "Message for successful user action"
 msgid "Secondary currency defined."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:655
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:684
 #, kde-format
 msgctxt "Error message"
 msgid "Secondary currency definition failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:701
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:731
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Delete unused units"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:711
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:741
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Unused units deleted"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:714
+#: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:744
 #, kde-format
 msgctxt "Error message"
 msgid "Unused units deletion failed"
@@ -11945,7 +12048,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:82
 #: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:225
-#: skgbankmodeler/skgdocumentbank.cpp:395
+#: skgbankmodeler/skgdocumentbank.cpp:392
 #, kde-format
 msgctxt "Noun, a country's currency"
 msgid "Currency"
@@ -11954,7 +12057,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:91
 #: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:226
-#: skgbankmodeler/skgdocumentbank.cpp:396
+#: skgbankmodeler/skgdocumentbank.cpp:393
 #, kde-format
 msgctxt "Noun, a financial share, as in a stock market"
 msgid "Share"
@@ -11963,7 +12066,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:100
 #: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:227
-#: skgbankmodeler/skgdocumentbank.cpp:397
+#: skgbankmodeler/skgdocumentbank.cpp:394
 #, kde-format
 msgctxt "Noun, a financial index like the Dow Jones, NASDAQ, CAC40…"
 msgid "Index"
@@ -11972,7 +12075,7 @@ msgstr ""
 #. +> trunk6
 #: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:109
 #: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:228
-#: skgbankmodeler/skgdocumentbank.cpp:398
+#: skgbankmodeler/skgdocumentbank.cpp:395
 #, kde-format
 msgctxt "Noun, a physical object like a house or a car"
 msgid "Object"
@@ -12058,7 +12161,7 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:223
-#: skgbankmodeler/skgdocumentbank.cpp:393
+#: skgbankmodeler/skgdocumentbank.cpp:390
 #, kde-format
 msgctxt "Noun"
 msgid "Primary currency"
@@ -12066,155 +12169,155 @@ msgstr ""
 
 #. +> trunk6
 #: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:224
-#: skgbankmodeler/skgdocumentbank.cpp:394
+#: skgbankmodeler/skgdocumentbank.cpp:391
 #, kde-format
 msgctxt "Noun"
 msgid "Secondary currency"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:480
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:486
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:479
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:485
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Unit creation '%1'"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:498
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:497
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Unit '%1' created"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:503
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:502
 #, kde-format
 msgctxt "Error message"
 msgid "Unit creation failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:508
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:507
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Unit value creation for '%1'"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:514
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:513
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Unit value created for '%1'"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:520
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:519
 #, kde-format
 msgctxt "Error message"
 msgid "Unit value creation failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:538
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:537
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Unit update"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:553
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:552
 #, kde-format
 msgctxt "Information message"
 msgid "You tried to modify names of selected units to an existing unit. Units have been merged."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:561
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:560
 #, kde-format
 msgctxt "Information message"
 msgid "You tried to modify all names of selected units. Units have been merged."
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:599
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:598
 #, kde-format
 msgctxt "An information to the user"
 msgid "The unit '%1' has been updated"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:607
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:606
 #, kde-format
 msgctxt "Message for successful user action"
 msgid "Unit updated"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:610
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:609
 #, kde-format
 msgctxt "Error message"
 msgid "Unit update failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:650
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:649
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Download values for [%1 (%2)]"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:673
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:672
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Download values"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:687
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:686
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Download done"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:690
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:689
 #, kde-format
 msgctxt "Error message"
 msgid "Download failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:705
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:704
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Simplify unit values"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:712
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:711
 #, kde-format
 msgctxt "An information to the user"
 msgid "The unit '%1' has been simplified"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:719
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:718
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Simplification done"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:722
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:721
 #, kde-format
 msgctxt "Error message"
 msgid "Simplification failed"
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:922
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:920
 #, kde-format
 msgctxt "Help meeage in tooltip"
 msgid ""
@@ -12223,7 +12326,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:951
+#: plugins/skrooge/skrooge_unit/skgunitpluginwidget.cpp:949
 #, kde-format
 msgctxt "Upload message"
 msgid "The package is ready. You can find it here %1. You can now upload it manually."
@@ -12528,12 +12631,6 @@ msgstr ""
 #: skgbankgui/skgobjectmodel.cpp:227
 #, kde-format
 msgid "No"
-msgstr ""
-
-#. +> trunk6
-#: skgbankgui/skgobjectmodel.cpp:230
-#, kde-format
-msgid "None"
 msgstr ""
 
 #. +> trunk6
@@ -13080,7 +13177,7 @@ msgstr ""
 #: skgbankmodeler/skgoperationobject.cpp:431
 #: skgbankmodeler/skgoperationobject.cpp:489
 #: skgbankmodeler/skgoperationobject.cpp:505
-#: skgbankmodeler/skgunitobject.cpp:1938
+#: skgbankmodeler/skgunitobject.cpp:1941
 #, kde-format
 msgctxt "Error message"
 msgid "%1 failed because linked object is not yet saved in the database."
@@ -13101,21 +13198,21 @@ msgid "Rate change"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgaccountobject.cpp:1034
+#: skgbankmodeler/skgaccountobject.cpp:1037
 #, kde-format
 msgctxt "An information message"
 msgid "More than one solution is possible for this auto reconciliation."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgaccountobject.cpp:1059
+#: skgbankmodeler/skgaccountobject.cpp:1062
 #, kde-format
 msgctxt "Error message"
 msgid "Can not find the imported transactions for obtaining the expected final balance"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgaccountobject.cpp:1061
+#: skgbankmodeler/skgaccountobject.cpp:1064
 #: skgbankmodeler/skgimportexportmanager.cpp:442
 #, kde-format
 msgctxt "Noun, a list of items"
@@ -13186,231 +13283,231 @@ msgid "You cannot create a loop."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:446
-#: skgbankmodeler/skgdocumentbank.cpp:482
+#: skgbankmodeler/skgdocumentbank.cpp:444
+#: skgbankmodeler/skgdocumentbank.cpp:483
 #, kde-format
 msgctxt "Noun"
 msgid "Wallets"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:465
+#: skgbankmodeler/skgdocumentbank.cpp:463
 #, kde-format
 msgctxt "Error message"
 msgid "You are not authorized to delete this transaction because in \"checked\" status"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:473
+#: skgbankmodeler/skgdocumentbank.cpp:474
 #, kde-format
 msgctxt "Adjective, a current account"
 msgid "Current"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:474
+#: skgbankmodeler/skgdocumentbank.cpp:475
 #, kde-format
 msgctxt "Noun"
 msgid "Credit card"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:475
+#: skgbankmodeler/skgdocumentbank.cpp:476
 #, kde-format
 msgctxt "Noun, the type of an account"
 msgid "Assets"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:476
+#: skgbankmodeler/skgdocumentbank.cpp:477
 #, kde-format
 msgctxt "Noun, a type of account WHERE you invest money"
 msgid "Investment"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:481
+#: skgbankmodeler/skgdocumentbank.cpp:482
 #, kde-format
 msgctxt "Noun, as in other type of item"
 msgid "Other"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:497
+#: skgbankmodeler/skgdocumentbank.cpp:504
 #, kde-format
 msgctxt "Error message"
 msgid "You are not authorized to delete this account because it contains some checked transactions"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:527
+#: skgbankmodeler/skgdocumentbank.cpp:534
 #, kde-format
 msgctxt "Noun"
 msgid "year(s)"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:528
+#: skgbankmodeler/skgdocumentbank.cpp:535
 #, kde-format
 msgctxt "Noun"
 msgid "month(s)"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:529
+#: skgbankmodeler/skgdocumentbank.cpp:536
 #, kde-format
 msgctxt "Noun"
 msgid "week(s)"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:530
+#: skgbankmodeler/skgdocumentbank.cpp:537
 #, kde-format
 msgctxt "Noun"
 msgid "day(s)"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:569
-#: skgbankmodeler/skgdocumentbank.cpp:624
-#: skgbankmodeler/skgdocumentbank.cpp:722
-#: skgbankmodeler/skgdocumentbank.cpp:3033
+#: skgbankmodeler/skgdocumentbank.cpp:576
+#: skgbankmodeler/skgdocumentbank.cpp:631
+#: skgbankmodeler/skgdocumentbank.cpp:741
+#: skgbankmodeler/skgdocumentbank.cpp:3066
 #, kde-format
 msgctxt "Noun, financial transactions with a negative amount"
 msgid "Expenditure"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:569
-#: skgbankmodeler/skgdocumentbank.cpp:624
-#: skgbankmodeler/skgdocumentbank.cpp:722
-#: skgbankmodeler/skgdocumentbank.cpp:3030
+#: skgbankmodeler/skgdocumentbank.cpp:576
+#: skgbankmodeler/skgdocumentbank.cpp:631
+#: skgbankmodeler/skgdocumentbank.cpp:741
+#: skgbankmodeler/skgdocumentbank.cpp:3063
 #, kde-format
 msgctxt "Noun, financial transactions with a positive amount"
 msgid "Income"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:654
+#: skgbankmodeler/skgdocumentbank.cpp:661
 #, kde-format
 msgctxt "Error message"
 msgid "You are not authorized to delete this tracker because used by some checked transactions"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:676
+#: skgbankmodeler/skgdocumentbank.cpp:683
 #, kde-format
 msgctxt "Error message"
 msgid "You are not authorized to delete this payee because used by some checked transactions"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:697
+#: skgbankmodeler/skgdocumentbank.cpp:704
 #, kde-format
 msgctxt "Error message"
 msgid "You are not authorized to delete this category because used by some checked transactions"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:751
+#: skgbankmodeler/skgdocumentbank.cpp:771
 #, kde-format
 msgctxt "Noun"
 msgid "Negative"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:752
+#: skgbankmodeler/skgdocumentbank.cpp:772
 #, kde-format
 msgctxt "Noun"
 msgid "Positive"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:757
+#: skgbankmodeler/skgdocumentbank.cpp:777
 #, kde-format
 msgctxt "Noun"
 msgid "Next"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:758
+#: skgbankmodeler/skgdocumentbank.cpp:778
 #, kde-format
 msgctxt "Noun"
 msgid "Current"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:759
-#: skgbankmodeler/skgdocumentbank.cpp:3229
+#: skgbankmodeler/skgdocumentbank.cpp:779
+#: skgbankmodeler/skgdocumentbank.cpp:3262
 #, kde-format
 msgctxt "Noun"
 msgid "Year"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:1935 skgbasemodeler/skgdocument.cpp:2023
+#: skgbankmodeler/skgdocumentbank.cpp:1967 skgbasemodeler/skgdocument.cpp:2023
 #, kde-format
 msgctxt "Progression step"
 msgid "Migrate document"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2188 skgbasemodeler/skgdocument.cpp:2058
+#: skgbankmodeler/skgdocumentbank.cpp:2221 skgbasemodeler/skgdocument.cpp:2058
 #, kde-format
 msgctxt "Error message"
 msgid "Impossible to load a document generated by a more recent version"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2226 skgbasemodeler/skgdocument.cpp:2306
+#: skgbankmodeler/skgdocumentbank.cpp:2259 skgbasemodeler/skgdocument.cpp:2306
 #, kde-format
 msgctxt "Progression step"
 msgid "Refresh views"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2230
+#: skgbankmodeler/skgdocumentbank.cpp:2263
 #, kde-format
 msgctxt "Progression step"
 msgid "Computation of balances"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2232
+#: skgbankmodeler/skgdocumentbank.cpp:2265
 #, kde-format
 msgctxt "Progression step"
 msgid "Computation of budgets"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2247 skgbasemodeler/skgdocument.cpp:2328
+#: skgbankmodeler/skgdocumentbank.cpp:2280 skgbasemodeler/skgdocument.cpp:2328
 #, kde-format
 msgctxt "Error message: Could not perform database migration"
 msgid "Database migration from version %1 to version %2 failed"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2353
-#: skgbankmodeler/skgdocumentbank.cpp:2527
+#: skgbankmodeler/skgdocumentbank.cpp:2386
+#: skgbankmodeler/skgdocumentbank.cpp:2560
 #, kde-format
 msgctxt "Error message"
 msgid "Transaction '%1' on '%2' failed"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2569
-#: skgbankmodeler/skgdocumentbank.cpp:2644
-#: skgbankmodeler/skgdocumentbank.cpp:2664
-#: skgbankmodeler/skgdocumentbank.cpp:2696
-#: skgbankmodeler/skgdocumentbank.cpp:2724
-#: skgbankmodeler/skgdocumentbank.cpp:2744
-#: skgbankmodeler/skgdocumentbank.cpp:2751
-#: skgbankmodeler/skgdocumentbank.cpp:2765
-#: skgbankmodeler/skgdocumentbank.cpp:2779
-#: skgbankmodeler/skgdocumentbank.cpp:2786
-#: skgbankmodeler/skgdocumentbank.cpp:2800
-#: skgbankmodeler/skgdocumentbank.cpp:2814
-#: skgbankmodeler/skgdocumentbank.cpp:2830 skgbasemodeler/skgdocument.cpp:2917
+#: skgbankmodeler/skgdocumentbank.cpp:2602
+#: skgbankmodeler/skgdocumentbank.cpp:2677
+#: skgbankmodeler/skgdocumentbank.cpp:2697
+#: skgbankmodeler/skgdocumentbank.cpp:2729
+#: skgbankmodeler/skgdocumentbank.cpp:2757
+#: skgbankmodeler/skgdocumentbank.cpp:2777
+#: skgbankmodeler/skgdocumentbank.cpp:2784
+#: skgbankmodeler/skgdocumentbank.cpp:2798
+#: skgbankmodeler/skgdocumentbank.cpp:2812
+#: skgbankmodeler/skgdocumentbank.cpp:2819
+#: skgbankmodeler/skgdocumentbank.cpp:2833
+#: skgbankmodeler/skgdocumentbank.cpp:2847
+#: skgbankmodeler/skgdocumentbank.cpp:2863 skgbasemodeler/skgdocument.cpp:2917
 #: skgbasemodeler/skgdocument.cpp:2931 skgbasemodeler/skgdocument.cpp:2938
 #: skgbasemodeler/skgdocument.cpp:2945
 #, kde-format
@@ -13419,723 +13516,723 @@ msgid "Default"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2584
-#: skgbankmodeler/skgdocumentbank.cpp:2654
-#: skgbankmodeler/skgdocumentbank.cpp:2674
-#: skgbankmodeler/skgdocumentbank.cpp:2703
-#: skgbankmodeler/skgdocumentbank.cpp:2734
-#: skgbankmodeler/skgdocumentbank.cpp:2758
-#: skgbankmodeler/skgdocumentbank.cpp:2772
-#: skgbankmodeler/skgdocumentbank.cpp:2793
-#: skgbankmodeler/skgdocumentbank.cpp:2807
-#: skgbankmodeler/skgdocumentbank.cpp:2822 skgbasemodeler/skgdocument.cpp:2924
+#: skgbankmodeler/skgdocumentbank.cpp:2617
+#: skgbankmodeler/skgdocumentbank.cpp:2687
+#: skgbankmodeler/skgdocumentbank.cpp:2707
+#: skgbankmodeler/skgdocumentbank.cpp:2736
+#: skgbankmodeler/skgdocumentbank.cpp:2767
+#: skgbankmodeler/skgdocumentbank.cpp:2791
+#: skgbankmodeler/skgdocumentbank.cpp:2805
+#: skgbankmodeler/skgdocumentbank.cpp:2826
+#: skgbankmodeler/skgdocumentbank.cpp:2840
+#: skgbankmodeler/skgdocumentbank.cpp:2855 skgbasemodeler/skgdocument.cpp:2924
 #, kde-format
 msgctxt "Noun, the minimum value of an item"
 msgid "Minimum"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2599
+#: skgbankmodeler/skgdocumentbank.cpp:2632
 #, kde-format
 msgctxt "Noun"
 msgid "Amount in 2 columns"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2614
-#: skgbankmodeler/skgdocumentbank.cpp:3048
+#: skgbankmodeler/skgdocumentbank.cpp:2647
+#: skgbankmodeler/skgdocumentbank.cpp:3081
 #, kde-format
 msgctxt "Noun"
 msgid "Amount entered"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2629
+#: skgbankmodeler/skgdocumentbank.cpp:2662
 #, kde-format
 msgctxt "Noun"
 msgid "Amount entered in 2 columns"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2685
+#: skgbankmodeler/skgdocumentbank.cpp:2718
 #, kde-format
 msgctxt "Noun, an intermediate value between two extremums"
 msgid "Intermediate"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2710
+#: skgbankmodeler/skgdocumentbank.cpp:2743
 #, kde-format
 msgctxt "Noun"
 msgid "With transactions"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:2717
+#: skgbankmodeler/skgdocumentbank.cpp:2750
 #, kde-format
 msgctxt "Noun"
 msgid "With cumulative transactions"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3003
+#: skgbankmodeler/skgdocumentbank.cpp:3036
 #, kde-format
 msgctxt "Noun, an account as in a bank account"
 msgid "Account"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3006
+#: skgbankmodeler/skgdocumentbank.cpp:3039
 #, kde-format
 msgctxt "Noun, an account as in a bank account"
 msgid "Account's type"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3009
+#: skgbankmodeler/skgdocumentbank.cpp:3042
 #, kde-format
 msgctxt "Noun, a financial operation"
 msgid "Transaction"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3012 skgbasemodeler/skgdocument.cpp:2967
+#: skgbankmodeler/skgdocumentbank.cpp:3045 skgbasemodeler/skgdocument.cpp:2967
 #, kde-format
 msgctxt "Noun, the name of an item"
 msgid "Name"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3015
+#: skgbankmodeler/skgdocumentbank.cpp:3048
 #, kde-format
 msgctxt "Noun, as in commercial balance"
 msgid "Balance"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3018
+#: skgbankmodeler/skgdocumentbank.cpp:3051
 #, kde-format
 msgctxt "Noun, as in commercial balance"
 msgid "Balance entered"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3021
-#: skgbankmodeler/skgdocumentbank.cpp:3024
+#: skgbankmodeler/skgdocumentbank.cpp:3054
+#: skgbankmodeler/skgdocumentbank.cpp:3057
 #, kde-format
 msgctxt "Name, the numerical amount of a financial operation"
 msgid "Amount"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3027
+#: skgbankmodeler/skgdocumentbank.cpp:3060
 #, kde-format
 msgctxt "Name, the numerical amount of a financial operation"
 msgid "Today amount"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3036
+#: skgbankmodeler/skgdocumentbank.cpp:3069
 #, kde-format
 msgctxt "Noun"
 msgid "Income entered"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3039
+#: skgbankmodeler/skgdocumentbank.cpp:3072
 #, kde-format
 msgctxt "Noun"
 msgid "Expenditure entered"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3042
+#: skgbankmodeler/skgdocumentbank.cpp:3075
 #, kde-format
 msgctxt "Noun"
 msgid "Quantity owned"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3045
+#: skgbankmodeler/skgdocumentbank.cpp:3078
 #, kde-format
 msgctxt "Noun"
 msgid "Amount owned"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3051
+#: skgbankmodeler/skgdocumentbank.cpp:3084
 #, kde-format
 msgctxt "Noun"
 msgid "Account number"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3054
+#: skgbankmodeler/skgdocumentbank.cpp:3087
 #, kde-format
 msgctxt "Noun, a number identifying an item"
 msgid "Number"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3057
+#: skgbankmodeler/skgdocumentbank.cpp:3090
 #, kde-format
 msgctxt "Noun"
 msgid "Bank number"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3060
+#: skgbankmodeler/skgdocumentbank.cpp:3093
 #, kde-format
 msgctxt "Noun"
 msgid "Agency number"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3063
+#: skgbankmodeler/skgdocumentbank.cpp:3096
 #, kde-format
 msgctxt "Noun"
 msgid "Agency address"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3066
+#: skgbankmodeler/skgdocumentbank.cpp:3099
 #, kde-format
 msgctxt "Noun"
 msgid "Address"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3069
+#: skgbankmodeler/skgdocumentbank.cpp:3102
 #, kde-format
 msgctxt "A person or institution receiving a payment, or paying the operation"
 msgid "Payee"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3072
+#: skgbankmodeler/skgdocumentbank.cpp:3105
 #, kde-format
 msgctxt "Noun, a user comment on an item"
 msgid "Comment"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3075
+#: skgbankmodeler/skgdocumentbank.cpp:3108
 #, kde-format
 msgctxt "Noun, a user comment on an item"
 msgid "Sub comment"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3078
+#: skgbankmodeler/skgdocumentbank.cpp:3111
 #, kde-format
 msgctxt "Noun, the mode used for payment of the transaction (Credit Card, Cheque, Transfer…)"
 msgid "Mode"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3081
+#: skgbankmodeler/skgdocumentbank.cpp:3114
 #, kde-format
 msgctxt "Noun"
 msgid "Next occurrence"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3084 skgbasemodeler/skgdocument.cpp:2969
+#: skgbankmodeler/skgdocumentbank.cpp:3117 skgbasemodeler/skgdocument.cpp:2969
 #, kde-format
 msgctxt "Noun, the date of an item"
 msgid "Date"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3087
+#: skgbankmodeler/skgdocumentbank.cpp:3120
 #, kde-format
 msgctxt "Noun, the date of creation of an item"
 msgid "Creation date"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3090
+#: skgbankmodeler/skgdocumentbank.cpp:3123
 #, kde-format
 msgctxt "Noun, 7 days"
 msgid "Week"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3093
+#: skgbankmodeler/skgdocumentbank.cpp:3126
 #, kde-format
 msgctxt "Noun, the months in a year"
 msgid "Month"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3096
+#: skgbankmodeler/skgdocumentbank.cpp:3129
 #, kde-format
 msgctxt "Noun, 3 months"
 msgid "Quarter"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3099
+#: skgbankmodeler/skgdocumentbank.cpp:3132
 #, kde-format
 msgctxt "Noun, 6 months"
 msgid "Semester"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3102
+#: skgbankmodeler/skgdocumentbank.cpp:3135
 #, kde-format
 msgctxt "Noun, the years in a century"
 msgid "Year"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3105
+#: skgbankmodeler/skgdocumentbank.cpp:3138
 #, kde-format
 msgctxt "Noun, the date of an item"
 msgid "First date"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3108
+#: skgbankmodeler/skgdocumentbank.cpp:3141
 #, kde-format
 msgctxt "Noun, the date of an item"
 msgid "Last date"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3111
+#: skgbankmodeler/skgdocumentbank.cpp:3144
 #, kde-format
 msgctxt "Noun, the date of the last download"
 msgid "Download date"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3114
+#: skgbankmodeler/skgdocumentbank.cpp:3147
 #, kde-format
 msgctxt "Noun, the date of the last reconciliation"
 msgid "Reconciliation date"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3118
+#: skgbankmodeler/skgdocumentbank.cpp:3151
 #, kde-format
 msgctxt "Noun, the category of an item"
 msgid "Category"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3121
+#: skgbankmodeler/skgdocumentbank.cpp:3154
 #, kde-format
 msgctxt "Noun, a financial institution"
 msgid "Bank"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3124
+#: skgbankmodeler/skgdocumentbank.cpp:3157
 #, kde-format
 msgctxt "Noun, the unit of an operation, usually a currency or a share"
 msgid "Unit"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3127
+#: skgbankmodeler/skgdocumentbank.cpp:3160
 #, kde-format
 msgctxt "Noun, the unit of an operation, usually a currency or a share"
 msgid "Unit's type"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3130
+#: skgbankmodeler/skgdocumentbank.cpp:3163
 #, kde-format
 msgctxt "Adjective, has an item been checked or not"
 msgid "Checked"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3133
+#: skgbankmodeler/skgdocumentbank.cpp:3166
 #, kde-format
 msgctxt "Adjective, a foreseen value"
 msgid "To be Checked"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3136
+#: skgbankmodeler/skgdocumentbank.cpp:3169
 #, kde-format
 msgctxt "Noun, ahe unit symbol, something in the line of $, €, £…"
 msgid "Symbol"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3139
+#: skgbankmodeler/skgdocumentbank.cpp:3172
 #, kde-format
 msgctxt "Noun, a country in the world (France, China…)"
 msgid "Country"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3142
-#: skgbankmodeler/skgdocumentbank.cpp:3145
+#: skgbankmodeler/skgdocumentbank.cpp:3175
+#: skgbankmodeler/skgdocumentbank.cpp:3178
 #, kde-format
 msgctxt "Noun, the type of an item"
 msgid "Type"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3148
+#: skgbankmodeler/skgdocumentbank.cpp:3181
 #, kde-format
 msgctxt "Noun"
 msgid "Internet code"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3151
+#: skgbankmodeler/skgdocumentbank.cpp:3184
 #, kde-format
 msgctxt "Noun"
 msgid "Number of transactions"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3154
+#: skgbankmodeler/skgdocumentbank.cpp:3187
 #, kde-format
 msgctxt "Noun, how frequently something occurs"
 msgid "Periodicity"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3157
+#: skgbankmodeler/skgdocumentbank.cpp:3190
 #, kde-format
 msgctxt "Automatically write something"
 msgid "Auto write"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3160
+#: skgbankmodeler/skgdocumentbank.cpp:3193
 #, kde-format
 msgctxt "Noun"
 msgid "Nb of occurrences"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3163
+#: skgbankmodeler/skgdocumentbank.cpp:3196
 #, kde-format
 msgctxt "Verb, warn the user about an event"
 msgid "Warn"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3166
+#: skgbankmodeler/skgdocumentbank.cpp:3199
 #, kde-format
 msgctxt "Adjective, a closed item"
 msgid "Closed"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3172
+#: skgbankmodeler/skgdocumentbank.cpp:3205
 #, kde-format
 msgctxt "Noun, the status of an item"
 msgid "Status"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3175
+#: skgbankmodeler/skgdocumentbank.cpp:3208
 #, kde-format
 msgctxt "Adjective, an item scheduled to happen on a regular basis"
 msgid "Scheduled"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3178
+#: skgbankmodeler/skgdocumentbank.cpp:3211
 #, kde-format
 msgctxt "Noun"
 msgid "Number of transactions (cumulative)"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3181
+#: skgbankmodeler/skgdocumentbank.cpp:3214
 #, kde-format
 msgctxt "Noun"
 msgid "Amount (cumulative)"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3184
+#: skgbankmodeler/skgdocumentbank.cpp:3217
 #, kde-format
 msgctxt "Noun"
 msgid "Search description"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3187
+#: skgbankmodeler/skgdocumentbank.cpp:3220
 #, kde-format
 msgctxt "Noun"
 msgid "Process description"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3190
+#: skgbankmodeler/skgdocumentbank.cpp:3223
 #, kde-format
 msgctxt "Noun, the type of action"
 msgid "Action type"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3193
+#: skgbankmodeler/skgdocumentbank.cpp:3226
 #, kde-format
 msgctxt "Noun, something that is used to track items"
 msgid "Tracker"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3199
+#: skgbankmodeler/skgdocumentbank.cpp:3232
 #, kde-format
 msgctxt "Noun"
 msgid "Import status"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3202
+#: skgbankmodeler/skgdocumentbank.cpp:3235
 #, kde-format
 msgctxt "Noun, after the dot"
 msgid "Nb decimal"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3205
+#: skgbankmodeler/skgdocumentbank.cpp:3238
 #, kde-format
 msgctxt "Noun, for a share"
 msgid "Rate"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3208
+#: skgbankmodeler/skgdocumentbank.cpp:3241
 #, kde-format
 msgctxt "Noun"
 msgid "Value date"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3211
+#: skgbankmodeler/skgdocumentbank.cpp:3244
 #, kde-format
 msgctxt "Noun"
 msgid "Coef"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3214
+#: skgbankmodeler/skgdocumentbank.cpp:3247
 #, kde-format
 msgctxt "Noun"
 msgid "Annual Interest"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3217
+#: skgbankmodeler/skgdocumentbank.cpp:3250
 #, kde-format
 msgctxt "Noun"
 msgid "Accrued Interest"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3220
+#: skgbankmodeler/skgdocumentbank.cpp:3253
 #, kde-format
 msgctxt "Noun"
 msgid "Value date for credit"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3223
+#: skgbankmodeler/skgdocumentbank.cpp:3256
 #, kde-format
 msgctxt "Noun"
 msgid "Value date for debit"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3226
+#: skgbankmodeler/skgdocumentbank.cpp:3259
 #, kde-format
 msgctxt "Noun"
 msgid "Base computation"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3232
+#: skgbankmodeler/skgdocumentbank.cpp:3265
 #, kde-format
 msgctxt "Noun"
 msgid "Month"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3235
+#: skgbankmodeler/skgdocumentbank.cpp:3268
 #, kde-format
 msgctxt "Noun"
 msgid "Period"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3238
+#: skgbankmodeler/skgdocumentbank.cpp:3271
 #, kde-format
 msgctxt "Noun, sort order"
 msgid "Order"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3241
+#: skgbankmodeler/skgdocumentbank.cpp:3274
 #, kde-format
 msgctxt "Noun"
 msgid "When"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3244
+#: skgbankmodeler/skgdocumentbank.cpp:3277
 #, kde-format
 msgctxt "Noun"
 msgid "What"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3247
+#: skgbankmodeler/skgdocumentbank.cpp:3280
 #, kde-format
 msgctxt "Noun"
 msgid "Impacted budget"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3250
+#: skgbankmodeler/skgdocumentbank.cpp:3283
 #, kde-format
 msgctxt "Noun"
 msgid "Rules"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3253
+#: skgbankmodeler/skgdocumentbank.cpp:3286
 #, kde-format
 msgctxt "Noun"
 msgid "Entered Budget"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3256
+#: skgbankmodeler/skgdocumentbank.cpp:3289
 #, kde-format
 msgctxt "Noun"
 msgid "Corrected budget"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3259
+#: skgbankmodeler/skgdocumentbank.cpp:3292
 #, kde-format
 msgctxt "Noun"
 msgid "Delta after rules"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3262
+#: skgbankmodeler/skgdocumentbank.cpp:3295
 #, kde-format
 msgctxt "Noun"
 msgid "Delta"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3265
+#: skgbankmodeler/skgdocumentbank.cpp:3298
 #, kde-format
 msgctxt "Noun"
 msgid "Download source"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3268
+#: skgbankmodeler/skgdocumentbank.cpp:3301
 #, kde-format
 msgctxt "Noun"
 msgid "Transfer"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3271
+#: skgbankmodeler/skgdocumentbank.cpp:3304
 #, kde-format
 msgctxt "Noun, a target account of a transfer"
 msgid "To account"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3274
+#: skgbankmodeler/skgdocumentbank.cpp:3307
 #, kde-format
 msgctxt "Noun, a maximum limit"
 msgid "Maximum limit"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3277
+#: skgbankmodeler/skgdocumentbank.cpp:3310
 #, kde-format
 msgctxt "Noun, a minimum limit"
 msgid "Minimum limit"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3280
+#: skgbankmodeler/skgdocumentbank.cpp:3313
 #, kde-format
 msgctxt "Noun, the id of an operation"
 msgid "Transaction id"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3283
+#: skgbankmodeler/skgdocumentbank.cpp:3316
 #, kde-format
 msgctxt "Noun, the absence of anything"
 msgid "-- Nothing --"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3286
+#: skgbankmodeler/skgdocumentbank.cpp:3319
 #, kde-format
 msgctxt "Noun"
 msgid "Balance import"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3289
+#: skgbankmodeler/skgdocumentbank.cpp:3322
 #, kde-format
 msgctxt "Noun"
 msgid "Balance reconciliation"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3292
+#: skgbankmodeler/skgdocumentbank.cpp:3325
 #, kde-format
 msgctxt "Noun, the date of the last import"
 msgid "Import date"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3295
+#: skgbankmodeler/skgdocumentbank.cpp:3328
 #, kde-format
 msgctxt "Noun"
 msgid "Number of split"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3404
+#: skgbankmodeler/skgdocumentbank.cpp:3438
 #, kde-format
 msgctxt "an other category"
 msgid "Others"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3468
+#: skgbankmodeler/skgdocumentbank.cpp:3502
 #, kde-format
 msgid "Expenses in category <b>'%1'</b> increased by <b>%2</b> for a total of <b>%3</b>."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3473
+#: skgbankmodeler/skgdocumentbank.cpp:3507
 #, kde-format
 msgid "Expenses in category <b>'%1'</b> decreased by <b>%2</b> for a total of <b>%3</b>."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3482
+#: skgbankmodeler/skgdocumentbank.cpp:3516
 #, kde-format
 msgid "Incomes in category <b>'%1'</b> increased by <b>%2</b> for a total of <b>%3</b>."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgdocumentbank.cpp:3487
+#: skgbankmodeler/skgdocumentbank.cpp:3521
 #, kde-format
 msgid "Incomes in category <b>'%1'</b> decreased by <b>%2</b> for a total of <b>%3</b>."
 msgstr ""
@@ -14217,64 +14314,64 @@ msgid "All supported formats"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgimportexportmanager.cpp:667
+#: skgbankmodeler/skgimportexportmanager.cpp:675
 #, kde-format
 msgctxt "Error message"
 msgid "The import mode %1 is not yet implemented"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgimportexportmanager.cpp:699
+#: skgbankmodeler/skgimportexportmanager.cpp:723
 #, kde-format
 msgctxt "Error message"
 msgid "This export mode is not yet implemented"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgimportexportmanager.cpp:714
+#: skgbankmodeler/skgimportexportmanager.cpp:738
 #, kde-format
 msgctxt "Progression step"
 msgid "Clean import"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgimportexportmanager.cpp:813
+#: skgbankmodeler/skgimportexportmanager.cpp:837
 #, kde-format
 msgctxt "An information message"
 msgid "The document must be saved to be anonymized."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgimportexportmanager.cpp:853
+#: skgbankmodeler/skgimportexportmanager.cpp:877
 #, kde-format
 msgctxt "Progression step"
 msgid "Anonymize"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgimportexportmanager.cpp:860
+#: skgbankmodeler/skgimportexportmanager.cpp:884
 #, kde-format
 msgctxt "An information message"
 msgid "The document has been made anonymous with an irreversible mode."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgimportexportmanager.cpp:865
+#: skgbankmodeler/skgimportexportmanager.cpp:889
 #, kde-format
 msgctxt "An information message"
 msgid "The document has been made anonymous with a reversible mode. Don't forget the key if you want to reverse it."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgimportexportmanager.cpp:893
-#: skgbankmodeler/skgimportexportmanager.cpp:944
+#: skgbankmodeler/skgimportexportmanager.cpp:917
+#: skgbankmodeler/skgimportexportmanager.cpp:986
 #, kde-format
 msgctxt "Progression step"
 msgid "Find and group transfers"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgimportexportmanager.cpp:984
+#: skgbankmodeler/skgimportexportmanager.cpp:1026
 #, kde-format
 msgctxt "Import step"
 msgid "Import %1"
@@ -14338,14 +14435,14 @@ msgid "Need at least one transaction to convert a schedule to a non-template one
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgrecurrentoperationobject.cpp:325
+#: skgbankmodeler/skgrecurrentoperationobject.cpp:513
 #, kde-format
 msgctxt "An information message"
 msgid "Transaction '%1' has been inserted"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgrecurrentoperationobject.cpp:342
+#: skgbankmodeler/skgrecurrentoperationobject.cpp:530
 #, kde-format
 msgid "Transaction '%2' will be inserted in one day"
 msgid_plural "Transaction '%2' will be inserted in %1 days"
@@ -15450,1002 +15547,1002 @@ msgid "Tracker '%1' has been created"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:144
+#: skgbankmodeler/skgunitobject.cpp:147
 #, kde-format
 msgctxt "Noun, a currency"
 msgid "CAC 40"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:146 skgbankmodeler/skgunitobject.cpp:185
+#: skgbankmodeler/skgunitobject.cpp:149 skgbankmodeler/skgunitobject.cpp:188
 #, kde-format
 msgctxt "Noun, a country"
 msgid "France"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:157
+#: skgbankmodeler/skgunitobject.cpp:160
 #, kde-format
 msgctxt "Noun, a currency"
 msgid "NASDAQ"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:159 skgbankmodeler/skgunitobject.cpp:172
-#: skgbankmodeler/skgunitobject.cpp:198
+#: skgbankmodeler/skgunitobject.cpp:162 skgbankmodeler/skgunitobject.cpp:175
+#: skgbankmodeler/skgunitobject.cpp:201
 #, kde-format
 msgctxt "Noun, a country"
 msgid "United States"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:170
+#: skgbankmodeler/skgunitobject.cpp:173
 #, kde-format
 msgctxt "Noun, a currency"
 msgid "Dow Jones (DJIA)"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:183
+#: skgbankmodeler/skgunitobject.cpp:186
 #, kde-format
 msgctxt "Noun, a currency"
 msgid "SBF 120"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:196
+#: skgbankmodeler/skgunitobject.cpp:199
 #, kde-format
 msgctxt "Noun, a currency"
 msgid "S&P 500"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:209
+#: skgbankmodeler/skgunitobject.cpp:212
 #, kde-format
 msgctxt "Noun, a currency"
 msgid "FTSE 100"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:211
+#: skgbankmodeler/skgunitobject.cpp:214
 #, kde-format
 msgctxt "Noun, a country"
 msgid "England"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:222
+#: skgbankmodeler/skgunitobject.cpp:225
 #, kde-format
 msgctxt "Noun, a currency"
 msgid "DAX"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:224
+#: skgbankmodeler/skgunitobject.cpp:227
 #, kde-format
 msgctxt "Noun, a country"
 msgid "Germany"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:235
+#: skgbankmodeler/skgunitobject.cpp:238
 #, kde-format
 msgctxt "Noun, a currency"
 msgid "NIKKEI 225"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:237
+#: skgbankmodeler/skgunitobject.cpp:240
 #, kde-format
 msgctxt "Noun, a country"
 msgid "Japan"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:248
+#: skgbankmodeler/skgunitobject.cpp:251
 #, kde-format
 msgctxt "Noun, a currency"
 msgid "HANG SENG"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:250
+#: skgbankmodeler/skgunitobject.cpp:253
 #, kde-format
 msgctxt "Noun, a country"
 msgid "China"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:261
+#: skgbankmodeler/skgunitobject.cpp:264
 #, kde-format
 msgctxt "Noun, a currency"
 msgid "STRAITS TIMES"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:264
+#: skgbankmodeler/skgunitobject.cpp:267
 #, kde-format
 msgctxt "Noun, a country"
 msgid "Singapore"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:274
+#: skgbankmodeler/skgunitobject.cpp:277
 #, kde-format
 msgctxt "Noun, a currency"
 msgid "Bitcoin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:277 skgbankmodeler/skgunitobject.cpp:291
-#: skgbankmodeler/skgunitobject.cpp:305 skgbankmodeler/skgunitobject.cpp:319
-#: skgbankmodeler/skgunitobject.cpp:333 skgbankmodeler/skgunitobject.cpp:347
-#: skgbankmodeler/skgunitobject.cpp:361 skgbankmodeler/skgunitobject.cpp:375
-#: skgbankmodeler/skgunitobject.cpp:389 skgbankmodeler/skgunitobject.cpp:403
-#: skgbankmodeler/skgunitobject.cpp:417 skgbankmodeler/skgunitobject.cpp:431
-#: skgbankmodeler/skgunitobject.cpp:445 skgbankmodeler/skgunitobject.cpp:459
-#: skgbankmodeler/skgunitobject.cpp:473 skgbankmodeler/skgunitobject.cpp:487
-#: skgbankmodeler/skgunitobject.cpp:501 skgbankmodeler/skgunitobject.cpp:515
-#: skgbankmodeler/skgunitobject.cpp:529 skgbankmodeler/skgunitobject.cpp:543
-#: skgbankmodeler/skgunitobject.cpp:557 skgbankmodeler/skgunitobject.cpp:571
-#: skgbankmodeler/skgunitobject.cpp:585 skgbankmodeler/skgunitobject.cpp:599
-#: skgbankmodeler/skgunitobject.cpp:613 skgbankmodeler/skgunitobject.cpp:627
-#: skgbankmodeler/skgunitobject.cpp:641 skgbankmodeler/skgunitobject.cpp:655
-#: skgbankmodeler/skgunitobject.cpp:669 skgbankmodeler/skgunitobject.cpp:683
-#: skgbankmodeler/skgunitobject.cpp:697 skgbankmodeler/skgunitobject.cpp:711
-#: skgbankmodeler/skgunitobject.cpp:725 skgbankmodeler/skgunitobject.cpp:739
-#: skgbankmodeler/skgunitobject.cpp:753 skgbankmodeler/skgunitobject.cpp:767
-#: skgbankmodeler/skgunitobject.cpp:781 skgbankmodeler/skgunitobject.cpp:795
-#: skgbankmodeler/skgunitobject.cpp:809 skgbankmodeler/skgunitobject.cpp:823
-#: skgbankmodeler/skgunitobject.cpp:837 skgbankmodeler/skgunitobject.cpp:851
-#: skgbankmodeler/skgunitobject.cpp:865 skgbankmodeler/skgunitobject.cpp:879
-#: skgbankmodeler/skgunitobject.cpp:893 skgbankmodeler/skgunitobject.cpp:907
-#: skgbankmodeler/skgunitobject.cpp:921 skgbankmodeler/skgunitobject.cpp:935
-#: skgbankmodeler/skgunitobject.cpp:949 skgbankmodeler/skgunitobject.cpp:963
-#: skgbankmodeler/skgunitobject.cpp:977 skgbankmodeler/skgunitobject.cpp:991
-#: skgbankmodeler/skgunitobject.cpp:1005 skgbankmodeler/skgunitobject.cpp:1019
-#: skgbankmodeler/skgunitobject.cpp:1033 skgbankmodeler/skgunitobject.cpp:1047
-#: skgbankmodeler/skgunitobject.cpp:1061 skgbankmodeler/skgunitobject.cpp:1075
-#: skgbankmodeler/skgunitobject.cpp:1089 skgbankmodeler/skgunitobject.cpp:1103
-#: skgbankmodeler/skgunitobject.cpp:1117 skgbankmodeler/skgunitobject.cpp:1131
-#: skgbankmodeler/skgunitobject.cpp:1145 skgbankmodeler/skgunitobject.cpp:1159
-#: skgbankmodeler/skgunitobject.cpp:1173 skgbankmodeler/skgunitobject.cpp:1187
-#: skgbankmodeler/skgunitobject.cpp:1201 skgbankmodeler/skgunitobject.cpp:1215
-#: skgbankmodeler/skgunitobject.cpp:1229 skgbankmodeler/skgunitobject.cpp:1243
-#: skgbankmodeler/skgunitobject.cpp:1257 skgbankmodeler/skgunitobject.cpp:1271
-#: skgbankmodeler/skgunitobject.cpp:1285 skgbankmodeler/skgunitobject.cpp:1299
-#: skgbankmodeler/skgunitobject.cpp:1313 skgbankmodeler/skgunitobject.cpp:1327
-#: skgbankmodeler/skgunitobject.cpp:1341 skgbankmodeler/skgunitobject.cpp:1355
-#: skgbankmodeler/skgunitobject.cpp:1369 skgbankmodeler/skgunitobject.cpp:1383
-#: skgbankmodeler/skgunitobject.cpp:1397 skgbankmodeler/skgunitobject.cpp:1411
-#: skgbankmodeler/skgunitobject.cpp:1425 skgbankmodeler/skgunitobject.cpp:1439
-#: skgbankmodeler/skgunitobject.cpp:1453 skgbankmodeler/skgunitobject.cpp:1467
-#: skgbankmodeler/skgunitobject.cpp:1481 skgbankmodeler/skgunitobject.cpp:1495
-#: skgbankmodeler/skgunitobject.cpp:1509 skgbankmodeler/skgunitobject.cpp:1523
-#: skgbankmodeler/skgunitobject.cpp:1537 skgbankmodeler/skgunitobject.cpp:1551
-#: skgbankmodeler/skgunitobject.cpp:1565 skgbankmodeler/skgunitobject.cpp:1579
-#: skgbankmodeler/skgunitobject.cpp:1593 skgbankmodeler/skgunitobject.cpp:1607
-#: skgbankmodeler/skgunitobject.cpp:1621 skgbankmodeler/skgunitobject.cpp:1635
-#: skgbankmodeler/skgunitobject.cpp:1649 skgbankmodeler/skgunitobject.cpp:1663
+#: skgbankmodeler/skgunitobject.cpp:280 skgbankmodeler/skgunitobject.cpp:294
+#: skgbankmodeler/skgunitobject.cpp:308 skgbankmodeler/skgunitobject.cpp:322
+#: skgbankmodeler/skgunitobject.cpp:336 skgbankmodeler/skgunitobject.cpp:350
+#: skgbankmodeler/skgunitobject.cpp:364 skgbankmodeler/skgunitobject.cpp:378
+#: skgbankmodeler/skgunitobject.cpp:392 skgbankmodeler/skgunitobject.cpp:406
+#: skgbankmodeler/skgunitobject.cpp:420 skgbankmodeler/skgunitobject.cpp:434
+#: skgbankmodeler/skgunitobject.cpp:448 skgbankmodeler/skgunitobject.cpp:462
+#: skgbankmodeler/skgunitobject.cpp:476 skgbankmodeler/skgunitobject.cpp:490
+#: skgbankmodeler/skgunitobject.cpp:504 skgbankmodeler/skgunitobject.cpp:518
+#: skgbankmodeler/skgunitobject.cpp:532 skgbankmodeler/skgunitobject.cpp:546
+#: skgbankmodeler/skgunitobject.cpp:560 skgbankmodeler/skgunitobject.cpp:574
+#: skgbankmodeler/skgunitobject.cpp:588 skgbankmodeler/skgunitobject.cpp:602
+#: skgbankmodeler/skgunitobject.cpp:616 skgbankmodeler/skgunitobject.cpp:630
+#: skgbankmodeler/skgunitobject.cpp:644 skgbankmodeler/skgunitobject.cpp:658
+#: skgbankmodeler/skgunitobject.cpp:672 skgbankmodeler/skgunitobject.cpp:686
+#: skgbankmodeler/skgunitobject.cpp:700 skgbankmodeler/skgunitobject.cpp:714
+#: skgbankmodeler/skgunitobject.cpp:728 skgbankmodeler/skgunitobject.cpp:742
+#: skgbankmodeler/skgunitobject.cpp:756 skgbankmodeler/skgunitobject.cpp:770
+#: skgbankmodeler/skgunitobject.cpp:784 skgbankmodeler/skgunitobject.cpp:798
+#: skgbankmodeler/skgunitobject.cpp:812 skgbankmodeler/skgunitobject.cpp:826
+#: skgbankmodeler/skgunitobject.cpp:840 skgbankmodeler/skgunitobject.cpp:854
+#: skgbankmodeler/skgunitobject.cpp:868 skgbankmodeler/skgunitobject.cpp:882
+#: skgbankmodeler/skgunitobject.cpp:896 skgbankmodeler/skgunitobject.cpp:910
+#: skgbankmodeler/skgunitobject.cpp:924 skgbankmodeler/skgunitobject.cpp:938
+#: skgbankmodeler/skgunitobject.cpp:952 skgbankmodeler/skgunitobject.cpp:966
+#: skgbankmodeler/skgunitobject.cpp:980 skgbankmodeler/skgunitobject.cpp:994
+#: skgbankmodeler/skgunitobject.cpp:1008 skgbankmodeler/skgunitobject.cpp:1022
+#: skgbankmodeler/skgunitobject.cpp:1036 skgbankmodeler/skgunitobject.cpp:1050
+#: skgbankmodeler/skgunitobject.cpp:1064 skgbankmodeler/skgunitobject.cpp:1078
+#: skgbankmodeler/skgunitobject.cpp:1092 skgbankmodeler/skgunitobject.cpp:1106
+#: skgbankmodeler/skgunitobject.cpp:1120 skgbankmodeler/skgunitobject.cpp:1134
+#: skgbankmodeler/skgunitobject.cpp:1148 skgbankmodeler/skgunitobject.cpp:1162
+#: skgbankmodeler/skgunitobject.cpp:1176 skgbankmodeler/skgunitobject.cpp:1190
+#: skgbankmodeler/skgunitobject.cpp:1204 skgbankmodeler/skgunitobject.cpp:1218
+#: skgbankmodeler/skgunitobject.cpp:1232 skgbankmodeler/skgunitobject.cpp:1246
+#: skgbankmodeler/skgunitobject.cpp:1260 skgbankmodeler/skgunitobject.cpp:1274
+#: skgbankmodeler/skgunitobject.cpp:1288 skgbankmodeler/skgunitobject.cpp:1302
+#: skgbankmodeler/skgunitobject.cpp:1316 skgbankmodeler/skgunitobject.cpp:1330
+#: skgbankmodeler/skgunitobject.cpp:1344 skgbankmodeler/skgunitobject.cpp:1358
+#: skgbankmodeler/skgunitobject.cpp:1372 skgbankmodeler/skgunitobject.cpp:1386
+#: skgbankmodeler/skgunitobject.cpp:1400 skgbankmodeler/skgunitobject.cpp:1414
+#: skgbankmodeler/skgunitobject.cpp:1428 skgbankmodeler/skgunitobject.cpp:1442
+#: skgbankmodeler/skgunitobject.cpp:1456 skgbankmodeler/skgunitobject.cpp:1470
+#: skgbankmodeler/skgunitobject.cpp:1484 skgbankmodeler/skgunitobject.cpp:1498
+#: skgbankmodeler/skgunitobject.cpp:1512 skgbankmodeler/skgunitobject.cpp:1526
+#: skgbankmodeler/skgunitobject.cpp:1540 skgbankmodeler/skgunitobject.cpp:1554
+#: skgbankmodeler/skgunitobject.cpp:1568 skgbankmodeler/skgunitobject.cpp:1582
+#: skgbankmodeler/skgunitobject.cpp:1596 skgbankmodeler/skgunitobject.cpp:1610
+#: skgbankmodeler/skgunitobject.cpp:1624 skgbankmodeler/skgunitobject.cpp:1638
+#: skgbankmodeler/skgunitobject.cpp:1652 skgbankmodeler/skgunitobject.cpp:1666
 #, kde-format
 msgctxt "Noun, the country of bitcoin"
 msgid "Internet"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:288
+#: skgbankmodeler/skgunitobject.cpp:291
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Ethereum"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:302
+#: skgbankmodeler/skgunitobject.cpp:305
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Ripple"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:316
+#: skgbankmodeler/skgunitobject.cpp:319
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Bitcoin Cash"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:330
+#: skgbankmodeler/skgunitobject.cpp:333
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Cardano"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:344
+#: skgbankmodeler/skgunitobject.cpp:347
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "NEM"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:358
+#: skgbankmodeler/skgunitobject.cpp:361
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Litecoin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:372
+#: skgbankmodeler/skgunitobject.cpp:375
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Stellar"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:386
+#: skgbankmodeler/skgunitobject.cpp:389
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "IOTA"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:400
+#: skgbankmodeler/skgunitobject.cpp:403
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "TRON"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:414
+#: skgbankmodeler/skgunitobject.cpp:417
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Dash"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:428
+#: skgbankmodeler/skgunitobject.cpp:431
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "NEO"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:442
+#: skgbankmodeler/skgunitobject.cpp:445
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Monero"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:456
+#: skgbankmodeler/skgunitobject.cpp:459
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "EOS"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:470
+#: skgbankmodeler/skgunitobject.cpp:473
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Qtum"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:484
+#: skgbankmodeler/skgunitobject.cpp:487
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "ICON"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:498
+#: skgbankmodeler/skgunitobject.cpp:501
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Bitcoin Gold"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:512
+#: skgbankmodeler/skgunitobject.cpp:515
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Lisk"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:526
+#: skgbankmodeler/skgunitobject.cpp:529
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "RaiBlocks"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:540
+#: skgbankmodeler/skgunitobject.cpp:543
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Ethereum Classic"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:554
+#: skgbankmodeler/skgunitobject.cpp:557
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Verge"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:568
+#: skgbankmodeler/skgunitobject.cpp:571
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Siacoin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:582
+#: skgbankmodeler/skgunitobject.cpp:585
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "OmiseGO"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:596
+#: skgbankmodeler/skgunitobject.cpp:599
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Bytecoin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:610
+#: skgbankmodeler/skgunitobject.cpp:613
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "BitConnect"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:624
+#: skgbankmodeler/skgunitobject.cpp:627
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Populous"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:638
+#: skgbankmodeler/skgunitobject.cpp:641
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Stratis"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:652
+#: skgbankmodeler/skgunitobject.cpp:655
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Zcash"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:666
+#: skgbankmodeler/skgunitobject.cpp:669
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Dentacoin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:680
+#: skgbankmodeler/skgunitobject.cpp:683
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "BitShares"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:694
+#: skgbankmodeler/skgunitobject.cpp:697
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Binance Coin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:708
+#: skgbankmodeler/skgunitobject.cpp:711
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Dogecoin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:722
+#: skgbankmodeler/skgunitobject.cpp:725
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Status"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:736
+#: skgbankmodeler/skgunitobject.cpp:739
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Ardor"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:750
+#: skgbankmodeler/skgunitobject.cpp:753
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "KuCoin Shares"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:764
+#: skgbankmodeler/skgunitobject.cpp:767
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Tether"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:778
+#: skgbankmodeler/skgunitobject.cpp:781
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Steem"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:792
+#: skgbankmodeler/skgunitobject.cpp:795
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Waves"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:806
+#: skgbankmodeler/skgunitobject.cpp:809
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "VeChain"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:820
+#: skgbankmodeler/skgunitobject.cpp:823
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "DigiByte"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:834
+#: skgbankmodeler/skgunitobject.cpp:837
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Komodo"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:848
+#: skgbankmodeler/skgunitobject.cpp:851
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Dragonchain"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:862
+#: skgbankmodeler/skgunitobject.cpp:865
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Augur"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:876
+#: skgbankmodeler/skgunitobject.cpp:879
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Golem"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:890
+#: skgbankmodeler/skgunitobject.cpp:893
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Veritaseum"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:904
+#: skgbankmodeler/skgunitobject.cpp:907
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Hshare"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:918
+#: skgbankmodeler/skgunitobject.cpp:921
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Kin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:932
+#: skgbankmodeler/skgunitobject.cpp:935
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "SALT"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:946
+#: skgbankmodeler/skgunitobject.cpp:949
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Electroneum"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:960
+#: skgbankmodeler/skgunitobject.cpp:963
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Ark"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:974
+#: skgbankmodeler/skgunitobject.cpp:977
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Dent"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:988
+#: skgbankmodeler/skgunitobject.cpp:991
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Ethos"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1002
+#: skgbankmodeler/skgunitobject.cpp:1005
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Basic Attention Token"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1016
+#: skgbankmodeler/skgunitobject.cpp:1019
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "ReddCoin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1030
+#: skgbankmodeler/skgunitobject.cpp:1033
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "0x"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1044
+#: skgbankmodeler/skgunitobject.cpp:1047
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Decred"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1058
+#: skgbankmodeler/skgunitobject.cpp:1061
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Nexus"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1072
+#: skgbankmodeler/skgunitobject.cpp:1075
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Experience Points"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1086
+#: skgbankmodeler/skgunitobject.cpp:1089
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "QASH"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1100
+#: skgbankmodeler/skgunitobject.cpp:1103
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Kyber Network"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1114
+#: skgbankmodeler/skgunitobject.cpp:1117
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "PIVX"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1128
+#: skgbankmodeler/skgunitobject.cpp:1131
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "FunFair"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1142
+#: skgbankmodeler/skgunitobject.cpp:1145
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Factom"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1156
+#: skgbankmodeler/skgunitobject.cpp:1159
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Neblio"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1170
+#: skgbankmodeler/skgunitobject.cpp:1173
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Request Network"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1184
+#: skgbankmodeler/skgunitobject.cpp:1187
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Aeternity"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1198
+#: skgbankmodeler/skgunitobject.cpp:1201
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Substratum"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1212
+#: skgbankmodeler/skgunitobject.cpp:1215
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Power Ledger"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1226
+#: skgbankmodeler/skgunitobject.cpp:1229
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "WAX"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1240
+#: skgbankmodeler/skgunitobject.cpp:1243
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "aelf"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1254
+#: skgbankmodeler/skgunitobject.cpp:1257
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Bytom"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1268
+#: skgbankmodeler/skgunitobject.cpp:1271
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Aion"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1282
+#: skgbankmodeler/skgunitobject.cpp:1285
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "RChain"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1296
+#: skgbankmodeler/skgunitobject.cpp:1299
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "DigitalNote"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1310
+#: skgbankmodeler/skgunitobject.cpp:1313
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Enigma"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1324
+#: skgbankmodeler/skgunitobject.cpp:1327
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Nxt"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1338
+#: skgbankmodeler/skgunitobject.cpp:1341
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Time New Bank"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1352
+#: skgbankmodeler/skgunitobject.cpp:1355
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "BitcoinDark"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1366
+#: skgbankmodeler/skgunitobject.cpp:1369
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "MonaCoin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1380
+#: skgbankmodeler/skgunitobject.cpp:1383
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Quantstamp"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1394
+#: skgbankmodeler/skgunitobject.cpp:1397
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "MaidSafeCoin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1408
+#: skgbankmodeler/skgunitobject.cpp:1411
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Byteball Bytes"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1422
+#: skgbankmodeler/skgunitobject.cpp:1425
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Gas"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1436
+#: skgbankmodeler/skgunitobject.cpp:1439
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "ChainLink"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1450
+#: skgbankmodeler/skgunitobject.cpp:1453
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Syscoin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1464
+#: skgbankmodeler/skgunitobject.cpp:1467
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Santiment Network Token"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1478
+#: skgbankmodeler/skgunitobject.cpp:1481
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Cobinhood"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1492
+#: skgbankmodeler/skgunitobject.cpp:1495
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Red Pulse"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1506
+#: skgbankmodeler/skgunitobject.cpp:1509
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "DigixDAO"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1520
+#: skgbankmodeler/skgunitobject.cpp:1523
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "TenX"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1534
+#: skgbankmodeler/skgunitobject.cpp:1537
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Iconomi"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1548
+#: skgbankmodeler/skgunitobject.cpp:1551
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Po.et"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1562
+#: skgbankmodeler/skgunitobject.cpp:1565
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "ZCoin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1576
+#: skgbankmodeler/skgunitobject.cpp:1579
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Gnosis"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1590
+#: skgbankmodeler/skgunitobject.cpp:1593
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "BLOCKv"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1604
+#: skgbankmodeler/skgunitobject.cpp:1607
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Walton"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1618
+#: skgbankmodeler/skgunitobject.cpp:1621
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "PACcoin"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1632
+#: skgbankmodeler/skgunitobject.cpp:1635
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "DeepBrain Chain"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1646
+#: skgbankmodeler/skgunitobject.cpp:1649
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "ETHLend"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1660
+#: skgbankmodeler/skgunitobject.cpp:1663
 #, kde-format
 msgctxt "Noun, a cryptocurrency"
 msgid "Civic"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1743
+#: skgbankmodeler/skgunitobject.cpp:1746
 #, kde-format
 msgctxt "Error message"
 msgid "Unknown unit '%1'"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1920
+#: skgbankmodeler/skgunitobject.cpp:1923
 #, kde-format
 msgctxt "Error message"
 msgid "Reference unit of a unit cannot be itself."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1954
+#: skgbankmodeler/skgunitobject.cpp:1957
 #, kde-format
 msgctxt "Progression step"
 msgid "Simplify unit"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1957
+#: skgbankmodeler/skgunitobject.cpp:1960
 #, kde-format
 msgctxt "Progression step"
 msgid "Analyze unit"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:1996
+#: skgbankmodeler/skgunitobject.cpp:1999
 #, kde-format
 msgctxt "Progression step"
 msgid "Remove useless values"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2139
+#: skgbankmodeler/skgunitobject.cpp:2142
 #, kde-format
 msgctxt "Error message"
 msgid "Invalid ratio. Ratio must be greater than 0."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2208
+#: skgbankmodeler/skgunitobject.cpp:2211
 #, kde-format
 msgctxt "Description test for a text file used to define a source of download"
 msgid "The URL or the SCRIPT of the source. %1 will be replaced by the internet code of the unit"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2213
+#: skgbankmodeler/skgunitobject.cpp:2216
 #, kde-format
 msgctxt "Description test for a text file used to define a source of download"
 msgid "%1 will be replaced by the current day in format yyyy-MM-dd"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2218
+#: skgbankmodeler/skgunitobject.cpp:2221
 #, kde-format
 msgctxt "Description test for a text file used to define a source of download"
 msgid "%1 will be replaced by the previous date in format yyyy-MM-dd"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2227
+#: skgbankmodeler/skgunitobject.cpp:2230
 #, kde-format
 msgctxt "Description test for a text file used to define a source of download"
 msgid "The mode (HTML or CSV or CSVR). In HTML mode, only one value will be extracted from downloaded page. In CSV mode, a value per line will be extracted. CSVR means CSV in reverse mode."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2234
+#: skgbankmodeler/skgunitobject.cpp:2237
 #, kde-format
 msgctxt "Description test for a text file used to define a source of download"
 msgid "The regular expression for the price (see %1)"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2241
+#: skgbankmodeler/skgunitobject.cpp:2244
 #, kde-format
 msgctxt "Description test for a text file used to define a source of download"
 msgid "The regular expression for the date (see %1)"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2248
+#: skgbankmodeler/skgunitobject.cpp:2251
 #, kde-format
 msgctxt "Description test for a text file used to define a source of download"
 msgid "The format of the date (see %1) or \"UNIX\" for unix time"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2408 skgbankmodeler/skgunitobject.cpp:2578
+#: skgbankmodeler/skgunitobject.cpp:2411 skgbankmodeler/skgunitobject.cpp:2581
 #, kde-format
 msgctxt "Error message"
 msgid "Source of download %1 is not installed."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2428
+#: skgbankmodeler/skgunitobject.cpp:2431
 #, kde-format
 msgctxt "An information message"
 msgid "Open url '%1' failed"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2530
+#: skgbankmodeler/skgunitobject.cpp:2533
 #, kde-format
 msgctxt "Information message"
 msgid "Price not found for '%1' with regular expression '%2' in line '%3'"
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2544
+#: skgbankmodeler/skgunitobject.cpp:2547
 #, kde-format
 msgctxt "Error message"
 msgid "Impossible to download unit %1 with Internet code %2 on the source %3."
 msgstr ""
 
 #. +> trunk6
-#: skgbankmodeler/skgunitobject.cpp:2610
+#: skgbankmodeler/skgunitobject.cpp:2613
 #, kde-format
 msgctxt "Error message"
 msgid "Impossible to open unit %1 with Internet code %2."
@@ -17365,196 +17462,196 @@ msgstr ""
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:341
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Today"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:345
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Next 7 days"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:347
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Next 15 days"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:349
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Next month"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:351
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Next 3 months"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:353
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Next 6 months"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:355
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Next year"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:357
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Next 3 years"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:359
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Far away in the future"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:364
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Last 7 days"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:366
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Last 15 days"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:368
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Last month"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:370
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Last 3 months"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:372
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Last 6 months"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:374
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Last year"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:376
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Last 3 years"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:378
 #, kde-format
-msgctxt "A group name for grouping by date attibute"
+msgctxt "A group name for grouping by date attribute"
 msgid "Far away in the past"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:385
 #, kde-format
-msgctxt "A group name for grouping by numerical attibute"
+msgctxt "A group name for grouping by numerical attribute"
 msgid "> 10000"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:387
 #, kde-format
-msgctxt "A group name for grouping by numerical attibute"
+msgctxt "A group name for grouping by numerical attribute"
 msgid "> 1000"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:389
 #, kde-format
-msgctxt "A group name for grouping by numerical attibute"
+msgctxt "A group name for grouping by numerical attribute"
 msgid "> 100"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:391
 #, kde-format
-msgctxt "A group name for grouping by numerical attibute"
+msgctxt "A group name for grouping by numerical attribute"
 msgid "> 10"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:393
 #, kde-format
-msgctxt "A group name for grouping by numerical attibute"
+msgctxt "A group name for grouping by numerical attribute"
 msgid "> 0"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:395
 #, kde-format
-msgctxt "A group name for grouping by numerical attibute"
+msgctxt "A group name for grouping by numerical attribute"
 msgid "< -10000"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:397
 #, kde-format
-msgctxt "A group name for grouping by numerical attibute"
+msgctxt "A group name for grouping by numerical attribute"
 msgid "< -1000"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:399
 #, kde-format
-msgctxt "A group name for grouping by numerical attibute"
+msgctxt "A group name for grouping by numerical attribute"
 msgid "< -100"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:401
 #, kde-format
-msgctxt "A group name for grouping by numerical attibute"
+msgctxt "A group name for grouping by numerical attribute"
 msgid "< -10"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:403
 #, kde-format
-msgctxt "A group name for grouping by numerical attibute"
+msgctxt "A group name for grouping by numerical attribute"
 msgid "< 0"
 msgstr ""
 
 #. +> trunk6
 #: skgbasegui/skgobjectmodelbase.cpp:405
 #, kde-format
-msgctxt "A group name for grouping by numerical attibute"
+msgctxt "A group name for grouping by numerical attribute"
 msgid "= 0"
 msgstr ""
 

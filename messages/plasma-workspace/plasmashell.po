@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-03 09:01+0200\n"
+"POT-Creation-Date: 2025-11-24 09:42+0100\n"
 "PO-Revision-Date: 2025-03-04 14:42+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -29,7 +29,7 @@ msgid "Your emails"
 msgstr "kde@xerusion.me"
 
 #. +> trunk6 stable6 stable5
-#: currentcontainmentactionsmodel.cpp:203
+#: currentcontainmentactionsmodel.cpp:201
 #, kde-format
 msgid "Configure Mouse Actions Plugin"
 msgstr "ปลั๊กอินกำหนดค่าการกระทำของเมาส์"
@@ -133,21 +133,21 @@ msgid "Hide Preview Banner"
 msgstr "ซ่อนแบนเนอร์ตัวอย่าง"
 
 #. +> trunk6 stable6
-#: desktopview.cpp:305
+#: desktopview.cpp:304
 #, kde-format
 msgctxt "@action:button Hide the preview banner until the system is restarted"
 msgid "Hide Until Restart"
 msgstr "ซ่อนจนกว่าจะเริ่มใหม่"
 
 #. +> trunk6 stable6
-#: desktopview.cpp:312
+#: desktopview.cpp:311
 #, kde-format
 msgctxt "@action:button Hide the preview banner permanently"
 msgid "Hide Permanently…"
 msgstr "ซ่อนถาวร…"
 
 #. +> trunk6 stable6
-#: desktopview.cpp:318
+#: desktopview.cpp:317
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -160,26 +160,26 @@ msgstr ""
 " การดำเนินการนี้สามารถย้อนกลับได้โดยการลบบรรทัดที่ขึ้นต้นด้วย<icode>ShowDesktopPreviewBanner</icode> ในไฟล์การกำหนดค่า <filename>kdeglobals</filename> เท่านั้น"
 
 #. +> trunk6 stable6
-#: desktopview.cpp:320
+#: desktopview.cpp:319
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide Preview Banner?"
 msgstr "ซ่อนแบนเนอร์ตัวอย่าง?"
 
 #. +> trunk6 stable6
-#: desktopview.cpp:518 desktopview.cpp:534
+#: desktopview.cpp:554 desktopview.cpp:570
 #, kde-format
 msgid "Enter Edit Mode"
 msgstr "เข้าสู่โหมดแก้ไข"
 
 #. +> trunk6 stable6
-#: desktopview.cpp:532
+#: desktopview.cpp:568
 #, kde-format
 msgid "Exit Edit Mode"
 msgstr "ออกจากโหมดแก้ไข"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:86
+#: main.cpp:108
 #, kde-format
 msgid "Plasma Shell"
 msgstr "Plasma Shell"
@@ -191,41 +191,11 @@ msgstr "Plasma Shell"
 msgid "Plasma"
 msgstr "Plasma Shell"
 
-#. +> trunk6 stable6 stable5
-#: main.cpp:99
-#, kde-format
-msgid "Enable QML Javascript debugger"
-msgstr "เปิดใช้งานดีบักเกอร์ QML Javascript"
-
-#. +> trunk6 stable6 stable5
-#: main.cpp:102
-#, kde-format
-msgid "Do not restart plasma-shell automatically after a crash"
-msgstr "อย่ารีสตาร์ท plasma-shell โดยอัตโนมัติหลังจากเกิดข้อขัดข้อง"
-
-#. +> trunk6 stable6 stable5
-#: main.cpp:105
-#, kde-format
-msgid "Force loading the given shell plugin"
-msgstr "บังคับโหลดปลั๊กอิน shell ที่กำหนด"
-
-#. +> trunk6 stable6 stable5
-#: main.cpp:109
-#, kde-format
-msgid "Replace an existing instance"
-msgstr "แทนที่กรณีที่มีอยู่"
-
 #. +> stable5
 #: main.cpp:111
 #, kde-format
 msgid "Load plasmashell as a standalone application, needs the shell-plugin option to be specified"
 msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: main.cpp:112
-#, kde-format
-msgid "Lists the available options for user feedback"
-msgstr "แสดงรายการตัวเลือกที่มีให้สำหรับ ความคิดเห็นของผู้ใช้"
 
 #. +> stable5
 #: main.cpp:116
@@ -240,13 +210,43 @@ msgid "file"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:174
+#: main.cpp:121
+#, kde-format
+msgid "Enable QML Javascript debugger"
+msgstr "เปิดใช้งานดีบักเกอร์ QML Javascript"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:124
+#, kde-format
+msgid "Do not restart plasma-shell automatically after a crash"
+msgstr "อย่ารีสตาร์ท plasma-shell โดยอัตโนมัติหลังจากเกิดข้อขัดข้อง"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:127
+#, kde-format
+msgid "Force loading the given shell plugin"
+msgstr "บังคับโหลดปลั๊กอิน shell ที่กำหนด"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:131
+#, kde-format
+msgid "Replace an existing instance"
+msgstr "แทนที่กรณีที่มีอยู่"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:134
+#, kde-format
+msgid "Lists the available options for user feedback"
+msgstr "แสดงรายการตัวเลือกที่มีให้สำหรับ ความคิดเห็นของผู้ใช้"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:190
 #, kde-format
 msgid "Plasma Failed To Start"
 msgstr "Plasma ไม่สามารถเริ่มต้นได้"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:175
+#: main.cpp:191
 #, kde-format
 msgid ""
 "Plasma is unable to start as it could not correctly use OpenGL 2 or software fallback\n"
@@ -256,133 +256,133 @@ msgstr ""
 "โปรดตรวจสอบว่าไดรเวอร์กราฟิกของคุณได้รับการตั้งค่าอย่างถูกต้อง"
 
 #. +> trunk6 stable6
-#: osd.cpp:62
+#: osd.cpp:63
 #, kde-format
 msgctxt "Brightness OSD: display name and brightness percentage"
 msgid "%1: %2%"
 msgstr "%1: %2%"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:88
+#: osd.cpp:91
 #, kde-format
 msgctxt "OSD informing that the system is muted, keep short"
 msgid "Audio Muted"
 msgstr "ปิดเสียง"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:110
+#: osd.cpp:114
 #, kde-format
 msgctxt "OSD informing that the microphone is muted, keep short"
 msgid "Microphone Muted"
 msgstr "ไมโครโฟนปิดเสียง"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:126
+#: osd.cpp:130
 #, kde-format
 msgctxt "OSD informing that some media app is muted, eg. Amarok Muted"
 msgid "%1 Muted"
 msgstr "%1 ถูกปิดเสียง"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:148
+#: osd.cpp:152
 #, kde-format
 msgctxt "touchpad was enabled, keep short"
 msgid "Touchpad On"
 msgstr "ทัชแพดเปิด"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:150
+#: osd.cpp:154
 #, kde-format
 msgctxt "touchpad was disabled, keep short"
 msgid "Touchpad Off"
 msgstr "ทัชแพดปิด"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:157
+#: osd.cpp:161
 #, kde-format
 msgctxt "wireless lan was enabled, keep short"
 msgid "Wifi On"
 msgstr "ไวไฟเปิด"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:159
+#: osd.cpp:163
 #, kde-format
 msgctxt "wireless lan was disabled, keep short"
 msgid "Wifi Off"
 msgstr "ไวไฟปิด"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:166
+#: osd.cpp:170
 #, kde-format
 msgctxt "Bluetooth was enabled, keep short"
 msgid "Bluetooth On"
 msgstr "บลูทูธเปิด"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:168
+#: osd.cpp:172
 #, kde-format
 msgctxt "Bluetooth was disabled, keep short"
 msgid "Bluetooth Off"
 msgstr "บลูทูธปิด"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:175
+#: osd.cpp:179
 #, kde-format
 msgctxt "mobile internet was enabled, keep short"
 msgid "Mobile Internet On"
 msgstr "เปิดอินเทอร์เน็ตบนมือถือ"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:177
+#: osd.cpp:181
 #, kde-format
 msgctxt "mobile internet was disabled, keep short"
 msgid "Mobile Internet Off"
 msgstr "ปิดอินเทอร์เน็ตบนมือถือ"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:185
+#: osd.cpp:189
 #, kde-format
 msgctxt "on screen keyboard was enabled because physical keyboard got unplugged, keep short"
 msgid "On-Screen Keyboard Activated"
 msgstr "เปิดใช้งานแป้นพิมพ์บนหน้าจอ"
 
 #. +> trunk6 stable6 stable5
-#: osd.cpp:188
+#: osd.cpp:192
 #, kde-format
 msgctxt "on screen keyboard was disabled because physical keyboard was plugged in, keep short"
 msgid "On-Screen Keyboard Deactivated"
 msgstr "ปิดใช้งานแป้นพิมพ์บนหน้าจอ"
 
 #. +> trunk6 stable6
-#: osd.cpp:195
+#: osd.cpp:199
 #, kde-format
 msgctxt "power management was inhibited, keep short"
 msgid "Sleep and Screen Locking Blocked"
 msgstr "การนอนหลับและการล็อกหน้าจอถูกปิดกั้น"
 
 #. +> trunk6 stable6
-#: osd.cpp:197
+#: osd.cpp:201
 #, kde-format
 msgctxt "power management was uninhibited, keep short"
 msgid "Sleep and Screen Locking Unblocked"
 msgstr "ไม่ปิดกั้นการนอนหลับและการล็อกหน้าจอ"
 
 #. +> trunk6 stable6
-#: osd.cpp:207
+#: osd.cpp:211
 #, kde-format
 msgctxt "Power profile was changed to power save mode, keep short"
 msgid "Power Save Mode"
 msgstr "โหมดประหยัดพลังงาน"
 
 #. +> trunk6 stable6
-#: osd.cpp:210
+#: osd.cpp:214
 #, kde-format
 msgctxt "Power profile was changed to balanced mode, keep short"
 msgid "Balanced Power Mode"
 msgstr "โหมดสมดุลพลังงาน"
 
 #. +> trunk6 stable6
-#: osd.cpp:213
+#: osd.cpp:217
 #, kde-format
 msgctxt "Power profile was changed to performance mode, keep short"
 msgid "Performance Mode"
@@ -408,75 +408,82 @@ msgctxt "@action:inmenu"
 msgid "Show Panel Configuration"
 msgstr "แสดงการกําหนดค่าแผง"
 
+#. +> trunk6 stable6
+#: qml/OsdItem.qml:34
+#, kde-format
+msgctxt "Percentage value"
+msgid "%1%"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: shellcontainmentconfig.cpp:106
+#: shellcontainmentconfig.cpp:107
 #, kde-format
 msgid "Internal Screen on %1"
 msgstr "หน้าจอภายในบน %1"
 
 #. +> trunk6 stable6 stable5
-#: shellcontainmentconfig.cpp:110
+#: shellcontainmentconfig.cpp:111
 #, kde-format
 msgctxt "Screen manufacturer and model on connector"
 msgid "%1 %2 on %3"
 msgstr "%1 %2 บน %3"
 
 #. +> trunk6 stable6 stable5
-#: shellcontainmentconfig.cpp:133
+#: shellcontainmentconfig.cpp:134
 #, kde-format
 msgid "Disconnected Screen %1"
 msgstr "หน้าจอถูกตัดการเชื่อมต่อ %1"
 
 #. +> trunk6 stable6 stable5
-#: shellcorona.cpp:215 shellcorona.cpp:217
+#: shellcorona.cpp:182 shellcorona.cpp:184
 #, kde-format
 msgid "Show Desktop"
 msgstr "แสดงเดสก์ท็อป"
 
 #. +> trunk6 stable6 stable5
-#: shellcorona.cpp:217
+#: shellcorona.cpp:184
 #, kde-format
 msgid "Hide Desktop"
 msgstr "ซ่อนเดสก์ท็อป"
 
 #. +> trunk6 stable6
-#: shellcorona.cpp:232
+#: shellcorona.cpp:199
 #, kde-format
 msgid "Activate Application Launcher"
 msgstr "เปิดใช้งานตัวเรียกใช้งานโปรแกรม"
 
 #. +> trunk6 stable6 stable5
-#: shellcorona.cpp:240
+#: shellcorona.cpp:207
 #, kde-format
 msgid "Show Activity Switcher"
 msgstr "แสดงตัวสลับกิจกรรม"
 
 #. +> trunk6 stable6 stable5
-#: shellcorona.cpp:250
-#, kde-format
-msgid "Stop Current Activity"
-msgstr "หยุดกิจกรรมปัจจุบัน"
-
-#. +> trunk6 stable6 stable5
-#: shellcorona.cpp:258
+#: shellcorona.cpp:216
 #, kde-format
 msgid "Switch to Previous Activity"
 msgstr "สลับไปยังกิจกรรมก่อนหน้า"
 
 #. +> trunk6 stable6 stable5
-#: shellcorona.cpp:266
+#: shellcorona.cpp:224
 #, kde-format
 msgid "Switch to Next Activity"
 msgstr "สลับไปยังกิจกรรมถัดไป"
 
+#. +> stable5
+#: shellcorona.cpp:203
+#, kde-format
+msgid "Stop Current Activity"
+msgstr "หยุดกิจกรรมปัจจุบัน"
+
 #. +> trunk6 stable6 stable5
-#: shellcorona.cpp:281
+#: shellcorona.cpp:239
 #, kde-format
 msgid "Activate Task Manager Entry %1"
 msgstr "เปิดใช้งานรายการ Task manager %1"
 
 #. +> trunk6 stable6
-#: shellcorona.cpp:313
+#: shellcorona.cpp:271
 #, kde-format
 msgctxt "@action:button"
 msgid "Manage Desktops and Panels…"
@@ -491,19 +498,19 @@ msgid "Manage Desktops And Panels..."
 msgstr "จัดการเดสก์ท็อปและแผง..."
 
 #. +> trunk6 stable6 stable5
-#: shellcorona.cpp:335
+#: shellcorona.cpp:293
 #, kde-format
 msgid "Move keyboard focus between panels"
 msgstr "ย้ายโฟกัสของแป้นพิมพ์ระหว่างแผง"
 
 #. +> trunk6 stable6 stable5
-#: shellcorona.cpp:2189
+#: shellcorona.cpp:2245
 #, kde-format
 msgid "Add Panel"
 msgstr "เพิ่มแผง"
 
 #. +> trunk6 stable6 stable5
-#: shellcorona.cpp:2250
+#: shellcorona.cpp:2328
 #, kde-format
 msgctxt "Creates an empty containment (%1 is the containment name)"
 msgid "Empty %1"

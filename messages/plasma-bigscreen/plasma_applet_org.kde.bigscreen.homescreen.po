@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-bigscreen\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-25 11:04+0200\n"
+"POT-Creation-Date: 2025-08-13 09:10+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -11,12 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#. +> trunk6 stable5
-#: contents/config/config.qml:12
-#, kde-format
-msgid "General"
-msgstr ""
 
 #. +> trunk6
 #: contents/ui/FavoritesManager.qml:21
@@ -34,6 +28,24 @@ msgstr ""
 #: contents/ui/FavoritesManager.qml:119
 #, kde-format
 msgid "Remove Favorites"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/indicators/Battery.qml:15
+#, kde-format
+msgid "Battery: %1%"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/indicators/Favorites.qml:17
+#, kde-format
+msgid "Customize Favorites"
+msgstr ""
+
+#. +> trunk6 stable5
+#: contents/ui/indicators/KdeConnect.qml:20
+#, kde-format
+msgid "KDE Connect"
 msgstr ""
 
 #. +> trunk6 stable5
@@ -61,7 +73,43 @@ msgid "Cancel"
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/indicators/Volume.qml:26
+#: contents/ui/indicators/Search.qml:20
+#, kde-format
+msgid "Search"
+msgstr ""
+
+#. +> trunk6 stable5
+#: contents/ui/indicators/Settings.qml:16
+#, kde-format
+msgid "Settings"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/indicators/Shutdown.qml:15
+#, kde-format
+msgid "Exit Bigscreen"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/indicators/Shutdown.qml:15
+#, kde-format
+msgid "Power"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/indicators/Tasks.qml:22
+#, kde-format
+msgid "Tasks"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/indicators/Volume.qml:20
+#, kde-format
+msgid "Audio Settings"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/indicators/Volume.qml:28
 #, kde-format
 msgid "Audio Volume"
 msgstr ""
@@ -90,34 +138,16 @@ msgstr ""
 msgid "Audio Device chooser"
 msgstr ""
 
-#. +> trunk6 stable5
-#: contents/ui/launcher/config/configGeneral.qml:32
+#. +> trunk6
+#: contents/ui/indicators/Wifi.qml:19
 #, kde-format
-msgid "Websocket Address:"
+msgid "Internet Settings"
 msgstr ""
 
-#. +> trunk6 stable5
-#: contents/ui/launcher/config/configGeneral.qml:38
+#. +> stable5
+#: contents/ui/indicators/Wifi.qml:47
 #, kde-format
-msgid "Additional Settings:"
-msgstr ""
-
-#. +> trunk6 stable5
-#: contents/ui/launcher/config/configGeneral.qml:39
-#, kde-format
-msgid "Enable Notifications"
-msgstr ""
-
-#. +> trunk6 stable5
-#: contents/ui/launcher/config/configGeneral.qml:45
-#, kde-format
-msgid "Enable Remote TTS"
-msgstr ""
-
-#. +> trunk6 stable5
-#: contents/ui/launcher/config/configGeneral.qml:50
-#, kde-format
-msgid "Enable Remote STT"
+msgid "Network"
 msgstr ""
 
 #. +> trunk6
@@ -156,13 +186,6 @@ msgstr ""
 msgid "Games"
 msgstr ""
 
-#. +> trunk6 stable5
-#: contents/ui/launcher/LauncherHome.qml:212
-#: contents/ui/settings/ConfigWindowSidebar.qml:45
-#, kde-format
-msgid "Settings"
-msgstr ""
-
 #. +> trunk6
 #: contents/ui/launcher/search/SearchTextField.qml:24
 #, kde-format
@@ -189,6 +212,12 @@ msgid "Close"
 msgstr ""
 
 #. +> stable5
+#: contents/config/config.qml:11
+#, kde-format
+msgid "General"
+msgstr ""
+
+#. +> stable5
 #: contents/ui/ConfigWindow.qml:31
 #, kde-format
 msgid "Use Colored Tiles"
@@ -207,15 +236,33 @@ msgid "close"
 msgstr ""
 
 #. +> stable5
-#: contents/ui/indicators/KdeConnect.qml:91
+#: contents/ui/launcher/config/configGeneral.qml:31
 #, kde-format
-msgid "KDE Connect"
+msgid "Websocket Address:"
 msgstr ""
 
 #. +> stable5
-#: contents/ui/indicators/Wifi.qml:47
+#: contents/ui/launcher/config/configGeneral.qml:37
 #, kde-format
-msgid "Network"
+msgid "Additional Settings:"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/launcher/config/configGeneral.qml:38
+#, kde-format
+msgid "Enable Notifications"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/launcher/config/configGeneral.qml:44
+#, kde-format
+msgid "Enable Remote TTS"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/launcher/config/configGeneral.qml:49
+#, kde-format
+msgid "Enable Remote STT"
 msgstr ""
 
 #. +> stable5

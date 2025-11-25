@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-07 08:28+0200\n"
+"POT-Creation-Date: 2025-11-20 14:05+0100\n"
 "PO-Revision-Date: 2025-03-02 00:31+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -29,15 +29,15 @@ msgid "Your emails"
 msgstr "kde@xerusion.me"
 
 #. +> trunk6 stable6
-#: databaseinterface.cpp:7611 databaseinterface.cpp:8718
-#: databaseinterface.cpp:8803
+#: databaseinterface.cpp:8053 databaseinterface.cpp:9167
+#: databaseinterface.cpp:9252
 #, kde-format
 msgctxt "@item:intable"
 msgid "Various Artists"
 msgstr "ศิลปินหลากหลาย"
 
 #. +> trunk6 stable6
-#: databaseinterface.cpp:7679
+#: databaseinterface.cpp:8121
 #, kde-format
 msgctxt "@item:intable"
 msgid "Radio Stations"
@@ -116,7 +116,7 @@ msgid "© 2015–2020, Elisa contributors"
 msgstr "(c) 2015-2020, Elisa contributors"
 
 #. +> trunk6 stable6
-#: main.cpp:119 models/lyricsmodel.cpp:156
+#: main.cpp:119 models/lyricsmodel.cpp:165
 #, kde-format
 msgctxt "@label"
 msgid "Creator"
@@ -179,56 +179,56 @@ msgid "Empty title."
 msgstr "ชื่อเรื่องว่างเปล่า"
 
 #. +> trunk6 stable6
-#: models/lyricsmodel.cpp:153
+#: models/lyricsmodel.cpp:162
 #, kde-format
 msgctxt "@label musical artist"
 msgid "Artist"
 msgstr "ศิลปิน"
 
 #. +> trunk6 stable6
-#: models/lyricsmodel.cpp:154
+#: models/lyricsmodel.cpp:163
 #, kde-format
 msgctxt "@label musical album"
 msgid "Album"
 msgstr "อัลบั้ม"
 
 #. +> trunk6 stable6
-#: models/lyricsmodel.cpp:155
+#: models/lyricsmodel.cpp:164
 #, kde-format
 msgctxt "@label song title"
 msgid "Title"
 msgstr "ชื่อ"
 
 #. +> trunk6 stable6
-#: models/lyricsmodel.cpp:157
+#: models/lyricsmodel.cpp:166
 #, kde-format
 msgctxt "@label song length"
 msgid "Length"
 msgstr "ความยาว"
 
 #. +> trunk6 stable6
-#: models/lyricsmodel.cpp:158
+#: models/lyricsmodel.cpp:167
 #, kde-format
 msgctxt "@label as in 'Created by: Joe'"
 msgid "Created by"
 msgstr "สร้างโดย"
 
 #. +> trunk6 stable6
-#: models/lyricsmodel.cpp:159
+#: models/lyricsmodel.cpp:168
 #, kde-format
 msgctxt "@label as in 'a person who edits'"
 msgid "Editor"
 msgstr "บรรณาธิการ"
 
 #. +> trunk6 stable6
-#: models/lyricsmodel.cpp:160
+#: models/lyricsmodel.cpp:169
 #, kde-format
 msgctxt "@label"
 msgid "Version"
 msgstr "เวอร์ชัน"
 
 #. +> trunk6 stable6
-#: models/lyricsmodel.cpp:182
+#: models/lyricsmodel.cpp:192
 #, kde-format
 msgctxt "@label this is a key => value map"
 msgid "%1: %2\n"
@@ -440,37 +440,37 @@ msgid "%1:%2:%3"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/AbstractBrowserDelegate.qml:40
+#: qml/AbstractBrowserDelegate.qml:41
 #, kde-format
 msgctxt "@action:button"
 msgid "Play now, replacing current playlist"
 msgstr "เล่นเดี๋ยวนี้แทนที่เพลย์ลิสต์ปัจจุบัน"
 
 #. +> trunk6 stable6
-#: qml/AbstractBrowserDelegate.qml:46 qml/TrackBrowserDelegate.qml:80
+#: qml/AbstractBrowserDelegate.qml:47 qml/TrackBrowserDelegate.qml:86
 #, kde-format
 msgctxt "@action:button"
 msgid "Play next"
 msgstr "เล่นถัดไป"
 
 #. +> trunk6 stable6
-#: qml/AbstractBrowserDelegate.qml:51 qml/TrackBrowserDelegate.qml:75
+#: qml/AbstractBrowserDelegate.qml:52 qml/TrackBrowserDelegate.qml:81
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to playlist"
 msgstr "เพิ่มลงในเพลย์ลิสต์"
 
 #. +> trunk6 stable6
-#: qml/AbstractBrowserDelegate.qml:60
-#: qml/mobile/MobilePlayListDelegate.qml:168 qml/PlayListEntry.qml:85
-#: qml/TrackBrowserDelegate.qml:63
+#: qml/AbstractBrowserDelegate.qml:61
+#: qml/mobile/MobilePlayListDelegate.qml:168 qml/PlayListEntry.qml:88
+#: qml/TrackBrowserDelegate.qml:69
 #, kde-format
 msgctxt "@action:button Show the file for this song in the file manager"
 msgid "Show in folder"
 msgstr "แสดงในโฟลเดอร์"
 
 #. +> trunk6 stable6
-#: qml/AbstractBrowserDelegate.qml:82
+#: qml/AbstractBrowserDelegate.qml:83
 #, kde-format
 msgctxt "@action:button"
 msgid "Options"
@@ -577,21 +577,21 @@ msgid "Show Playlist"
 msgstr "แสดงเพลย์ลิสต์"
 
 #. +> trunk6 stable6
-#: qml/ContextView.qml:429
+#: qml/ContextView.qml:430
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No lyrics found"
 msgstr "ไม่พบเนื้อเพลง"
 
 #. +> trunk6 stable6
-#: qml/ContextView.qml:445
+#: qml/ContextView.qml:446
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Nothing playing"
 msgstr "ไม่มีอะไรเล่นอยู่"
 
 #. +> trunk6 stable6
-#: qml/ContextView.qml:479
+#: qml/ContextView.qml:480
 #, kde-format
 msgctxt "@action:button"
 msgid "Show In Folder"
@@ -627,83 +627,76 @@ msgid "Duration"
 msgstr "ระยะเวลา"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:29
+#: qml/ElisaMainWindow.qml:30
 #, kde-format
 msgctxt "@label"
 msgid "Loading failed"
 msgstr "โหลดล้มเหลว"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:29 qml/ElisaMainWindow.qml:303
+#: qml/ElisaMainWindow.qml:30 qml/ElisaMainWindow.qml:310
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
 msgstr "ลองอีกครั้ง"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:33
+#: qml/ElisaMainWindow.qml:34
 #, kde-format
 msgctxt "@label"
 msgid "Playlist cleared"
 msgstr "ล้างเพลย์ลิสต์แล้ว"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:33
+#: qml/ElisaMainWindow.qml:34
 #, kde-format
 msgctxt "@action:button"
 msgid "Undo"
 msgstr "เลิกทำ"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:140
+#: qml/ElisaMainWindow.qml:141
 #, kde-format
 msgctxt "@action:button"
 msgid "Show playlist drawer"
 msgstr "แสดงแถบเพลย์ลิสต์"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:141
+#: qml/ElisaMainWindow.qml:142
 #, kde-format
 msgctxt "@action:button"
 msgid "Hide playlist drawer"
 msgstr "ซ่อนแถบเพลย์ลิสต์"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:178 qml/ElisaMainWindow.qml:613
+#: qml/ElisaMainWindow.qml:179 qml/ElisaMainWindow.qml:625
 #, kde-format
 msgctxt "@info:status"
 msgid "Could not load some files. Elisa can only open audio and playlist files."
 msgstr "ไม่สามารถโหลดบางไฟล์ Elisa สามารถเปิดไฟล์เสียงและเพลย์ลิสต์เท่านั้น"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:237 qml/mobile/MobileSidebar.qml:22
+#: qml/ElisaMainWindow.qml:238 qml/mobile/MobileSidebar.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Elisa"
 msgstr "Elisa"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:237
+#: qml/ElisaMainWindow.qml:238
 #, kde-format
 msgctxt "@title:window"
 msgid "%1 — Elisa"
 msgstr "%1 — Elisa"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:285
+#: qml/ElisaMainWindow.qml:290
 #, kde-format
 msgctxt "@option file type (mime type) for m3u, m3u8 playlist file formats; do not translate *.m3u*"
 msgid "m3u8, m3u Playlist File (*.m3u*)"
 msgstr "m3u8, m3u Playlist File (*.m3u*)"
 
-#. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:285
-#, kde-format
-msgctxt "@option file type (mime type) for pls playlist file formats; do not translate *.pls"
-msgid "pls Playlist File (*.pls)"
-msgstr "pls Playlist File (*.pls)"
-
-#. +> trunk6 stable6
+#. +> stable6
 #: qml/ElisaMainWindow.qml:292
 #, kde-format
 msgctxt "@option file type (mime type) for m3u, m3u8 and pls playlist file formats; do not translate *.m3u8 *.m3u *.pls"
@@ -711,7 +704,37 @@ msgid "m3u8, m3u, pls Playlist File (*.m3u8 *.m3u *.pls)"
 msgstr "m3u8, m3u, pls Playlist File (*.m3u8 *.m3u *.pls)"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:303
+#: qml/ElisaMainWindow.qml:290
+#, kde-format
+msgctxt "@option file type (mime type) for pls playlist file formats; do not translate *.pls"
+msgid "pls Playlist File (*.pls)"
+msgstr "pls Playlist File (*.pls)"
+
+#. +> trunk6
+#: qml/ElisaMainWindow.qml:297
+#, kde-format
+msgctxt "@option Allow opening music and playlist files. %1 and %2 are lists of untranslated file extensions"
+msgid "Playlist files and music files (%1 %2) (%1 %2)"
+msgstr ""
+
+#. +> trunk6
+#: qml/ElisaMainWindow.qml:298
+#, fuzzy, kde-format
+#| msgctxt "@option file type (mime type) for pls playlist file formats; do not translate *.pls"
+#| msgid "pls Playlist File (*.pls)"
+msgctxt "@option Allow opening playlist files. %1 is an untranslated list of file extensions"
+msgid "Playlist files (%1) (%1)"
+msgstr "pls Playlist File (*.pls)"
+
+#. +> trunk6
+#: qml/ElisaMainWindow.qml:299
+#, kde-format
+msgctxt "@option Allow opening music files. %1 is an untranslated list of file extensions"
+msgid "Music files (%1) (%1)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ElisaMainWindow.qml:310
 #, kde-format
 msgctxt "@label"
 msgid "Saving failed"
@@ -898,50 +921,66 @@ msgctxt "@action:button Save a playlist file"
 msgid "Save…"
 msgstr "บันทึก..."
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: qml/MediaPlayListView.qml:101
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open Playlist…"
+msgctxt "@action:button Load a playlist file"
+msgid "Open…"
+msgstr "เปิดเพลย์ลิสต์..."
+
+#. +> stable6
 #: qml/MediaPlayListView.qml:101
 #, kde-format
 msgctxt "@action:button Load a playlist file"
 msgid "Load…"
 msgstr "โหลด..."
 
+#. +> trunk6
+#: qml/MediaPlayListView.qml:102
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open music files or saved playlists"
+msgstr ""
+
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:126
+#: qml/MediaPlayListView.qml:127
 #, kde-format
 msgctxt "@info"
 msgid "Failed to load some tracks. Make sure that they have not been removed or renamed."
 msgstr "โหลดเพลงบางเพลงไม่สําเร็จ ตรวจสอบให้แน่ใจว่าไม่ได้ถูกลบออกหรือ เปลี่ยนชื่อ"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:132
+#: qml/MediaPlayListView.qml:133
 #, kde-format
 msgctxt "@action:button"
 msgid "Edit Playlist File"
 msgstr "แก้ไขไฟล์เพลย์ลิสต์"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:302
+#: qml/MediaPlayListView.qml:303
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Playlist is empty"
 msgstr "เพลย์ลิสต์ว่างเปล่า"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:303
+#: qml/MediaPlayListView.qml:304
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Add some songs to get started. You can browse your music using the views on the left."
 msgstr "เพิ่มเพลงเพื่อเริ่มต้นใช้งาน คุณสามารถดูเพลงของคุณโดยใช้เมนูด้านซ้าย"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:378
+#: qml/MediaPlayListView.qml:379
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Your playlist is empty."
 msgstr "เพลย์ลิสต์ของคุณว่างเปล่า"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:475 qml/MediaPlayListView.qml:484
+#: qml/MediaPlayListView.qml:476 qml/MediaPlayListView.qml:485
 #, kde-format
 msgctxt "@info:status %2 is always bigger than 1"
 msgid "%1/%2 tracks remaining"
@@ -949,29 +988,29 @@ msgid_plural "%1/%2 tracks remaining"
 msgstr[0] "%1/%2 เพลงที่เหลืออยู่"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:476
+#: qml/MediaPlayListView.qml:477
 #, kde-format
 msgctxt "@info:status %1 and %2 are formatted like hh:mm:ss or mm:ss"
 msgid "%1 remaining, %2 total"
 msgstr "%1 ที่เหลือ %2 ทั้งหมด"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:477 qml/MediaPlayListView.qml:486
-#: qml/MediaPlayListView.qml:495
+#: qml/MediaPlayListView.qml:478 qml/MediaPlayListView.qml:487
+#: qml/MediaPlayListView.qml:496
 #, kde-format
 msgctxt "@info:status %1 is total tracks and tracks remaining. %2 is total time and time remaining"
 msgid "%1, %2"
 msgstr "%1, %2"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:485 qml/MediaPlayListView.qml:494
+#: qml/MediaPlayListView.qml:486 qml/MediaPlayListView.qml:495
 #, kde-format
 msgctxt "@info:status %1 and %2 are formatted like hh:mm:ss or mm:ss"
 msgid "%1/%2 remaining"
 msgstr "%1/%2 ที่เหลือ"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:493
+#: qml/MediaPlayListView.qml:494
 #, kde-format
 msgctxt "@info:status %2 is always bigger than 1"
 msgid "%1/%2 tracks"
@@ -979,7 +1018,7 @@ msgid_plural "%1/%2 tracks"
 msgstr[0] "%1/%2 เพลง"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:502
+#: qml/MediaPlayListView.qml:503
 #, kde-format
 msgctxt "@info:status %1 is the total number of tracks of the playlist"
 msgid "%1 track"
@@ -987,7 +1026,7 @@ msgid_plural "%1 tracks"
 msgstr[0] "%1 เพลง"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:503
+#: qml/MediaPlayListView.qml:504
 #, kde-format
 msgctxt "@info:status %1 is the total number of radios of the playlist"
 msgid "%1 radio"
@@ -995,14 +1034,14 @@ msgid_plural "%1 radios"
 msgstr[0] "%1 วิทยุ"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:504
+#: qml/MediaPlayListView.qml:505
 #, kde-format
 msgctxt "@info:status %1 is the translation of tracks, %2 is the translation of total radios"
 msgid "%1, %2 total"
 msgstr "%1, %2 ทั้งหมด"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:507
+#: qml/MediaPlayListView.qml:508
 #, kde-format
 msgctxt "@info:status %1 is the total tracks of the playlist. %2 is the total duration formatted like hh:mm:ss or mm:ss"
 msgid "%1 track, %2 total"
@@ -1010,23 +1049,23 @@ msgid_plural "%1 tracks, %2 total"
 msgstr[0] "%1 เพลง, %2 ทั้งหมด"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayListView.qml:509
+#: qml/MediaPlayListView.qml:510
 #, kde-format
 msgctxt "@info:status %1 is the remaining duration of the playlist. It is formatted like hh:mm:ss or mm:ss"
 msgid "1 track, %1min remaining"
 msgstr "1 เพลง เหลือ %1 นาที"
 
 #. +> trunk6 stable6
-#: qml/MediaTrackMetadataDelegate.qml:155 qml/PlayListEntry.qml:116
-#: qml/TrackBrowserDelegate.qml:98
+#: qml/MediaTrackMetadataDelegate.qml:155 qml/PlayListEntry.qml:119
+#: qml/TrackBrowserDelegate.qml:104
 #, kde-format
 msgctxt "@action:button"
 msgid "Un-mark this song as a favorite"
 msgstr "ยกเลิกการทําเครื่องหมายเพลงนี้เป็นรายการโปรด"
 
 #. +> trunk6 stable6
-#: qml/MediaTrackMetadataDelegate.qml:155 qml/PlayListEntry.qml:116
-#: qml/TrackBrowserDelegate.qml:98
+#: qml/MediaTrackMetadataDelegate.qml:155 qml/PlayListEntry.qml:119
+#: qml/TrackBrowserDelegate.qml:104
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark this song as a favorite"
@@ -1148,22 +1187,22 @@ msgid "Skip Forward"
 msgstr "ข้ามไปข้างหน้า"
 
 #. +> trunk6 stable6
-#: qml/mobile/MobilePlayListDelegate.qml:146 qml/PlayListEntry.qml:385
+#: qml/mobile/MobilePlayListDelegate.qml:146 qml/PlayListEntry.qml:402
 #, kde-format
 msgctxt "@action:button"
 msgid "Track Options"
 msgstr "ตัวเลือกเพลง"
 
 #. +> trunk6 stable6
-#: qml/mobile/MobilePlayListDelegate.qml:146 qml/PlayListEntry.qml:385
+#: qml/mobile/MobilePlayListDelegate.qml:146 qml/PlayListEntry.qml:402
 #, kde-format
 msgctxt "@action:button"
 msgid "Radio Options"
 msgstr "ตัวเลือกวิทยุ"
 
 #. +> trunk6 stable6
-#: qml/mobile/MobilePlayListDelegate.qml:174 qml/PlayListEntry.qml:92
-#: qml/TrackBrowserDelegate.qml:70
+#: qml/mobile/MobilePlayListDelegate.qml:174 qml/PlayListEntry.qml:95
+#: qml/TrackBrowserDelegate.qml:76
 #, kde-format
 msgctxt "@action:button Show track metadata"
 msgid "View details"
@@ -1489,77 +1528,77 @@ msgid "Back"
 msgstr "กลับ"
 
 #. +> trunk6 stable6
-#: qml/NavigationActionBar.qml:336
+#: qml/NavigationActionBar.qml:333
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip Show filters in the navigation bar"
 msgid "Show search and filter toolbar"
 msgstr "แสดงแถบเครื่องมือการค้นหาและตัวกรอง"
 
 #. +> trunk6 stable6
-#: qml/NavigationActionBar.qml:337
+#: qml/NavigationActionBar.qml:334
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip Hide filters in the navigation bar"
 msgid "Hide search and filter toolbar"
 msgstr "ซ่อนแถบเครื่องมือการค้นหาและตัวกรอง"
 
 #. +> trunk6 stable6
-#: qml/NavigationActionBar.qml:430
+#: qml/NavigationActionBar.qml:427
 #, kde-format
 msgctxt "@info:placeholder track view filter single album"
 msgid "Search for track name, artist, etc."
 msgstr "ค้นหาชื่อเพลง ศิลปิน ฯลฯ"
 
 #. +> trunk6 stable6
-#: qml/NavigationActionBar.qml:431
+#: qml/NavigationActionBar.qml:428
 #, kde-format
 msgctxt "@info:placeholder track view filter general"
 msgid "Search for album name, artist, etc."
 msgstr "ค้นหาชื่ออัลบั้ม ศิลปิน ฯลฯ"
 
 #. +> trunk6 stable6
-#: qml/NavigationActionBar.qml:440
+#: qml/NavigationActionBar.qml:437
 #, kde-format
 msgctxt "@label:chooser"
 msgid "Filter by rating: "
 msgstr "กรองตามคะแนน:"
 
 #. +> trunk6 stable6
-#: qml/NavigationActionBar.qml:458
+#: qml/NavigationActionBar.qml:455
 #, kde-format
 msgctxt "@action:button"
 msgid "Only Show Favorites"
 msgstr "แสดงเฉพาะรายการโปรด"
 
 #. +> trunk6 stable6
-#: qml/PlayListEntry.qml:106 qml/TrackBrowserDelegate.qml:90
+#: qml/PlayListEntry.qml:109 qml/TrackBrowserDelegate.qml:96
 #, kde-format
 msgctxt "@action:button"
 msgid "Set track rating"
 msgstr "ตั้งเรตติ้งเพลง"
 
 #. +> trunk6 stable6
-#: qml/PlayListEntry.qml:129
+#: qml/PlayListEntry.qml:132
 #, kde-format
 msgctxt "@action:button Pause current track from playlist"
 msgid "Pause"
 msgstr "หยุด"
 
 #. +> trunk6 stable6
-#: qml/PlayListEntry.qml:129
+#: qml/PlayListEntry.qml:132
 #, kde-format
 msgctxt "@action:button Play this track from playlist"
 msgid "Play"
 msgstr "เล่น"
 
 #. +> trunk6 stable6
-#: qml/PlayListEntry.qml:144
+#: qml/PlayListEntry.qml:147
 #, kde-format
 msgctxt "@action:button Remove current track from play list"
 msgid "Remove"
 msgstr "เอาออก"
 
 #. +> trunk6 stable6
-#: qml/PlayListEntry.qml:339 qml/TrackBrowserDelegate.qml:321
+#: qml/PlayListEntry.qml:350 qml/TrackBrowserDelegate.qml:311
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel rating this track"
@@ -1859,21 +1898,21 @@ msgid "Sort By"
 msgstr "เรียงตาม"
 
 #. +> trunk6 stable6
-#: qml/TrackBrowserDelegate.qml:85
+#: qml/TrackBrowserDelegate.qml:91
 #, kde-format
 msgctxt "@action:button"
 msgid "Play from here, replacing current playlist"
 msgstr "เล่นจากที่นี่, แทนที่เพลย์ลิสต์ปัจจุบัน"
 
 #. +> trunk6 stable6
-#: qml/TrackBrowserDelegate.qml:214 qml/TrackBrowserDelegate.qml:230
+#: qml/TrackBrowserDelegate.qml:201 qml/TrackBrowserDelegate.qml:217
 #, kde-format
 msgctxt "@item:intable %1: track number. %2: track title."
 msgid "%1 – %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/TrackBrowserDelegate.qml:225
+#: qml/TrackBrowserDelegate.qml:212
 #, fuzzy, kde-format
 #| msgctxt "@item:intable %1: track number. %2: track title. %3: artist name"
 #| msgid "%1 - %2 - %3"
@@ -1882,14 +1921,14 @@ msgid "%1 – %2 – %3"
 msgstr "%1 - %2 - %3"
 
 #. +> trunk6 stable6
-#: qml/TrackBrowserDelegate.qml:237
+#: qml/TrackBrowserDelegate.qml:224
 #, kde-format
 msgctxt "@item:intable %1: track title. %2: artist name"
 msgid "%1 – %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/TrackBrowserDelegate.qml:375
+#: qml/TrackBrowserDelegate.qml:370
 #, kde-format
 msgctxt "@action:button"
 msgid "Song Options"

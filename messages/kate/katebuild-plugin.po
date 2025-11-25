@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katebuild-plugin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-05 12:23+0200\n"
+"POT-Creation-Date: 2025-11-13 09:39+0100\n"
 "PO-Revision-Date: 2010-03-01 22:44+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -29,7 +29,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, errs)
+#. i18n: ectx: attribute (title), widget (QWidget, buildOutput)
 #. +> trunk6 stable6
 #: build.ui:36
 #, kde-format
@@ -52,26 +52,26 @@ msgid "Cancel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: buildconfig.cpp:47
+#: buildconfig.cpp:48
 #, fuzzy, kde-format
 #| msgid "Build command:"
 msgid "Build & Run"
 msgstr "คำสั่ง Build:"
 
 #. +> trunk6 stable6
-#: buildconfig.cpp:53
+#: buildconfig.cpp:54
 #, kde-format
 msgid "Build & Run Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: buildconfig.cpp:106
+#: buildconfig.cpp:107
 #, kde-format
 msgid "Delete selected entries"
 msgstr ""
 
 #. +> trunk6 stable6
-#: buildconfig.cpp:111
+#: buildconfig.cpp:112
 #, kde-format
 msgid "Delete all entries"
 msgstr ""
@@ -120,8 +120,8 @@ msgid "Allowed && Blocked Commands"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:268 plugin_katebuild.cpp:275 plugin_katebuild.cpp:728
-#: plugin_katebuild.cpp:956 plugin_katebuild.cpp:969
+#: plugin_katebuild.cpp:268 plugin_katebuild.cpp:275 plugin_katebuild.cpp:756
+#: plugin_katebuild.cpp:991 plugin_katebuild.cpp:1004
 #, fuzzy, kde-format
 #| msgid "&Build"
 msgid "Build"
@@ -186,7 +186,7 @@ msgid "Focus Next Tab to the Right"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:357
+#: plugin_katebuild.cpp:361
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "Tab label"
@@ -194,7 +194,7 @@ msgid "Target Settings"
 msgstr "ตั้งค่าต่าง ๆ"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:397
+#: plugin_katebuild.cpp:407
 #, kde-format
 msgid ""
 "<b>File not found:</b> %1<br>"
@@ -204,32 +204,32 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:493
+#: plugin_katebuild.cpp:504
 #, fuzzy, kde-format
 #| msgid "Build command:"
 msgid "Build Information"
 msgstr "คำสั่ง Build:"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:735
+#: plugin_katebuild.cpp:763
 #, kde-format
 msgid "There is no file or directory specified for building."
 msgstr "ยังไม่มีการระบุแฟ้มหรือไดเรกทอรีสำหรับการคอมไพล์โปรแกรม"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:739
+#: plugin_katebuild.cpp:767
 #, kde-format
 msgid "The file \"%1\" is not a local file. Non-local files cannot be compiled."
 msgstr "แฟ้ม \"%1\" ไม่ใช่แฟ้มภายในระบบ แฟ้มที่ไม่ได้เป็นแฟ้มในระบบจะไม่สามารถถูกคอมไพล์ได้"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:807
+#: plugin_katebuild.cpp:838
 #, kde-format
 msgid "Create directory"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:810
+#: plugin_katebuild.cpp:841
 #, kde-format
 msgid ""
 "The configured working directory <b>%1</b> for the targetset <b>%2</b> does not exist.<br>"
@@ -238,67 +238,67 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:818
+#: plugin_katebuild.cpp:849
 #, kde-format
 msgid "Failed to create the directory <b>%1</b>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:836
+#: plugin_katebuild.cpp:869
 #, kde-format
 msgid "Failed to run \"%1\". exitStatus = %2"
 msgstr "ล้มเหลวในการประมวลผล \"%1\" สถานะการออก = %2"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:851
+#: plugin_katebuild.cpp:885
 #, kde-format
 msgid "Building <b>%1: %2</b> cancelled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:955
+#: plugin_katebuild.cpp:990
 #, kde-format
 msgid "Did not find a compile_commands.json for file \"%1\". "
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:968
+#: plugin_katebuild.cpp:1003
 #, kde-format
 msgid "Did not find a compile command for file \"%1\" in \"%2\". "
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:985
+#: plugin_katebuild.cpp:1020
 #, kde-format
 msgid "Cannot make \"%f\" substitution. No open file or the current file is untitled!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:989
+#: plugin_katebuild.cpp:1024
 #, kde-format
 msgid "Cannot make \"%d\" substitution. No open file or the current file is untitled!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:993
+#: plugin_katebuild.cpp:1028
 #, kde-format
 msgid "Cannot make \"%n\" substitution. No open file or the current file is untitled!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1003
+#: plugin_katebuild.cpp:1039
 #, kde-format
 msgid "Cannot make project substitution (%B). No open project!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1016
+#: plugin_katebuild.cpp:1052
 #, kde-format
 msgid "Already building..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1054
+#: plugin_katebuild.cpp:1090
 #, fuzzy, kde-format
 #| msgid "There is no file or directory specified for building."
 msgid ""
@@ -307,43 +307,43 @@ msgid ""
 msgstr "ยังไม่มีการระบุแฟ้มหรือไดเรกทอรีสำหรับการคอมไพล์โปรแกรม"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1169
+#: plugin_katebuild.cpp:1211
 #, kde-format
 msgid "Building target <b>%1: %2</b> ..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1206
+#: plugin_katebuild.cpp:1248
 #, kde-format
 msgid "Cannot load targets, the file %1 does not contain a proper CMAKE_COMMAND entry !"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1219
+#: plugin_katebuild.cpp:1261
 #, kde-format
 msgid "Could not write CMake File API query files for build directory %1 !"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1225
+#: plugin_katebuild.cpp:1267
 #, kde-format
 msgid "Could not run CMake (%2) for build directory %1 !"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1234
+#: plugin_katebuild.cpp:1276
 #, kde-format
 msgid "Generating CMake File API reply files for build directory %1 failed (using %2) !"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1353
+#: plugin_katebuild.cpp:1395
 #, kde-format
 msgid "Build plugin wants to execute program"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1356
+#: plugin_katebuild.cpp:1398
 #, kde-format
 msgid ""
 "The Kate build plugin needs to execute an external command to read the targets from the build tree.<br>"
@@ -358,7 +358,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1388
+#: plugin_katebuild.cpp:1430
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -367,13 +367,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1449
+#: plugin_katebuild.cpp:1493
 #, kde-format
 msgid "Build <b>%1: %2</b> completed. %3 error(s), %4 warning(s), %5 note(s)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1460
+#: plugin_katebuild.cpp:1505
 #, fuzzy, kde-format
 #| msgid "Found Warnings/Errors."
 msgid "Found one error."
@@ -381,7 +381,7 @@ msgid_plural "Found %1 errors."
 msgstr[0] "พบการแจ้งเตือน/ข้อผิดพลาด"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1464
+#: plugin_katebuild.cpp:1509
 #, fuzzy, kde-format
 #| msgid "Found Warnings/Errors."
 msgid "Found one warning."
@@ -389,7 +389,7 @@ msgid_plural "Found %1 warnings."
 msgstr[0] "พบการแจ้งเตือน/ข้อผิดพลาด"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1467
+#: plugin_katebuild.cpp:1512
 #, fuzzy, kde-format
 #| msgid "Found Warnings/Errors."
 msgid "Found one note."
@@ -397,25 +397,32 @@ msgid_plural "Found %1 notes."
 msgstr[0] "พบการแจ้งเตือน/ข้อผิดพลาด"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1472
+#: plugin_katebuild.cpp:1516
+#, fuzzy, kde-format
+#| msgid "Clean command:"
+msgid "Build canceled."
+msgstr "คำสั่ง Clean:"
+
+#. +> trunk6 stable6
+#: plugin_katebuild.cpp:1520
 #, kde-format
 msgid "Build failed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1474
+#: plugin_katebuild.cpp:1522
 #, kde-format
 msgid "Build completed without problems."
 msgstr "สร้างโปรแกรมเสร็จสมบูรณ์แล้ว โดยไม่มีปัญหาใด ๆ"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1478
+#: plugin_katebuild.cpp:1526
 #, kde-format
 msgid "Build <b>%1: %2 canceled</b>. %3 error(s), %4 warning(s), %5 note(s)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1756
+#: plugin_katebuild.cpp:1806
 #, fuzzy, kde-format
 #| msgctxt "The same word as 'make' uses to mark an error."
 #| msgid "error"
@@ -424,7 +431,7 @@ msgid "error"
 msgstr "ข้อผิดพลาด"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1759
+#: plugin_katebuild.cpp:1809
 #, fuzzy, kde-format
 #| msgid "Errors && Warnings"
 msgctxt "The same word as 'gcc' uses for a warning."
@@ -432,41 +439,41 @@ msgid "warning"
 msgstr "ข้อผิดพลาดและการแจ้งเตือนต่าง ๆ"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1762
+#: plugin_katebuild.cpp:1812
 #, kde-format
 msgctxt "The same words as 'gcc' uses for note or info."
 msgid "note|info"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:1765
+#: plugin_katebuild.cpp:1815
 #, kde-format
 msgctxt "The same word as 'ld' uses to mark an ..."
 msgid "undefined reference"
 msgstr "การอ้างอิงถึงที่ยังไม่มีการนิยาม (undefined reference)"
 
 #. +> trunk6 stable6
-#: plugin_katebuild.cpp:2065
+#: plugin_katebuild.cpp:2120
 #, kde-format
 msgid "Cannot save build targets in: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: TargetHtmlDelegate.cpp:51
+#: TargetHtmlDelegate.cpp:49
 #, kde-format
 msgctxt "T as in Target set"
 msgid "<B>T:</B> %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: TargetHtmlDelegate.cpp:53
+#: TargetHtmlDelegate.cpp:51
 #, kde-format
 msgctxt "Dir as in working Directory"
 msgid "<B>Dir:</B> %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: TargetHtmlDelegate.cpp:104
+#: TargetHtmlDelegate.cpp:102
 #, fuzzy, kde-format
 #| msgid "Leave empty to use the directory of the current document. "
 msgid ""
@@ -475,7 +482,7 @@ msgid ""
 msgstr "ปล่อยว่างไว้เพื่อใช้ไดเรกทอรีของเอกสารปัจจุบัน"
 
 #. +> trunk6 stable6
-#: TargetHtmlDelegate.cpp:111
+#: TargetHtmlDelegate.cpp:109
 #, kde-format
 msgid ""
 "Use:\n"
@@ -484,7 +491,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: TargetHtmlDelegate.cpp:115
+#: TargetHtmlDelegate.cpp:113
 #, fuzzy, kde-format
 #| msgid "Use \"%f\" for current file and \"%d\" for directory of current file."
 msgid ""
@@ -497,38 +504,38 @@ msgid ""
 msgstr "ใช้ \"%f\" เพื่อแทนแฟ้มปัจจุบัน และ \"%d\" แทนไดเรกทอรีของแฟ้มปัจจุบัน"
 
 #. +> trunk6 stable6
-#: TargetModel.cpp:316 TargetModel.cpp:328 targets.cpp:255
+#: TargetModel.cpp:315 TargetModel.cpp:327 targets.cpp:255
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgid "Target Set"
 msgstr "ตั้งค่าต่าง ๆ"
 
 #. +> trunk6 stable6
-#: TargetModel.cpp:549
+#: TargetModel.cpp:548
 #, kde-format
 msgid "Projects"
 msgstr ""
 
 #. +> trunk6 stable6
-#: TargetModel.cpp:549
+#: TargetModel.cpp:548
 #, kde-format
 msgid "Session"
 msgstr ""
 
 #. +> trunk6 stable6
-#: TargetModel.cpp:661
+#: TargetModel.cpp:660
 #, kde-format
 msgid "Command/Target-set Name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: TargetModel.cpp:664
+#: TargetModel.cpp:663
 #, kde-format
 msgid "Build Command / Working Directory"
 msgstr ""
 
 #. +> trunk6 stable6
-#: TargetModel.cpp:667
+#: TargetModel.cpp:666
 #, fuzzy, kde-format
 #| msgid "Clean command:"
 msgid "Run Command"
@@ -628,6 +635,13 @@ msgstr "ประมวลผลคำสั่ง make clean"
 #, kde-format
 msgid "&Build"
 msgstr "&สร้างโปรแกรม"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: ui.rc:23
+#, kde-format
+msgid "Build Plugin Toolbar"
+msgstr ""
 
 #. +> trunk6 stable6
 #: UrlInserter.cpp:32

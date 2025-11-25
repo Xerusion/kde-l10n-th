@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-10 08:35+0200\n"
+"POT-Creation-Date: 2025-10-20 09:36+0200\n"
 "PO-Revision-Date: 2025-03-03 23:31+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -119,47 +119,47 @@ msgid "&About"
 msgstr "เกี่ยวกับ"
 
 #. +> trunk6
-#: aboutdialog/ExtendedAboutDialog.cpp:217
+#: aboutdialog/ExtendedAboutDialog.cpp:211
 #, fuzzy, kde-format
 #| msgid "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report bugs.\n"
 msgid "Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to report bugs.\n"
 msgstr "โปรดไปที่ <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> เพื่อรายงานข้อผิดพลาด\n"
 
 #. +> trunk6
+#: aboutdialog/ExtendedAboutDialog.cpp:216
 #: aboutdialog/ExtendedAboutDialog.cpp:222
-#: aboutdialog/ExtendedAboutDialog.cpp:228
 #, kde-format
 msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgstr "โปรดรายงานข้อผิดพลาดไปยัง <a href=\"mailto:%1\">%2</a>\n"
 
 #. +> trunk6
-#: aboutdialog/ExtendedAboutDialog.cpp:245
+#: aboutdialog/ExtendedAboutDialog.cpp:239
 #, kde-format
 msgid "A&uthor"
 msgstr "&ผู้เขียน"
 
 #. +> trunk6
-#: aboutdialog/ExtendedAboutDialog.cpp:245
+#: aboutdialog/ExtendedAboutDialog.cpp:239
 #, kde-format
 msgid "A&uthors"
 msgstr "ผู้เ&ขียน"
 
 #. +> trunk6
-#: aboutdialog/ExtendedAboutDialog.cpp:264
+#: aboutdialog/ExtendedAboutDialog.cpp:258
 #, fuzzy, kde-format
 #| msgid "Former contributors"
 msgid "&Contributors"
 msgstr "ผู้มีส่วนร่วมก่อนหน้านี้"
 
 #. +> trunk6
-#: aboutdialog/ExtendedAboutDialog.cpp:288
+#: aboutdialog/ExtendedAboutDialog.cpp:282
 #, fuzzy, kde-format
 #| msgid "&Download"
 msgid "&Donors"
 msgstr "&ดาวน์โหลด"
 
 #. +> trunk6
-#: aboutdialog/ExtendedAboutDialog.cpp:317
+#: aboutdialog/ExtendedAboutDialog.cpp:311
 #, kde-format
 msgid "T&ranslation"
 msgstr "การแปล&ภาษา"
@@ -263,7 +263,7 @@ msgstr "หยุดหลังจบแทร็กปัจจุบัน: �
 #. +> trunk6
 #: ActionClasses.cpp:429
 #: context/applets/currenttrack/package/contents/ui/main.qml:102
-#: EngineController.cpp:1240 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:679
+#: EngineController.cpp:1242 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:679
 #, kde-format
 msgid "No track playing"
 msgstr "ยังไม่มีการเล่นแทร็กเสียงใด ๆ"
@@ -272,8 +272,8 @@ msgstr "ยังไม่มีการเล่นแทร็กเสีย
 #. +> trunk6
 #: ActionClasses.cpp:433
 #: core-impl/collections/audiocd/FormatSelectionDialog.ui:14 main.cpp:47
-#: main.cpp:56 MainWindow.cpp:154 MainWindow.cpp:1207 MainWindow.cpp:1213
-#: MainWindow.cpp:1226
+#: main.cpp:56 MainWindow.cpp:154 MainWindow.cpp:1213 MainWindow.cpp:1219
+#: MainWindow.cpp:1232
 #, kde-format
 msgid "Amarok"
 msgstr "แอมอะร็อก"
@@ -1774,7 +1774,7 @@ msgstr "แทร็กที่เลือกไว้"
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:496
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:497
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:498
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:499 MainWindow.cpp:1226
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:499 MainWindow.cpp:1232
 #, kde-format
 msgid "Unknown"
 msgstr "ไม่ทราบ"
@@ -2070,7 +2070,7 @@ msgid "This is where you will find your local music, as well as music from mobil
 msgstr "ที่นี่เป็นที่ที่คุณจะพบกับดนตรีที่เก็บไว้ในเครื่อง, ดนตรีที่อยู่ในเครื่องเล่นพกพาและ CD"
 
 #. +> trunk6
-#: browsers/collectionbrowser/CollectionWidget.cpp:165 MainWindow.cpp:934
+#: browsers/collectionbrowser/CollectionWidget.cpp:165 MainWindow.cpp:940
 #, kde-format
 msgid "Search collection"
 msgstr "ค้นคลังสื่อ"
@@ -2299,7 +2299,7 @@ msgid "None"
 msgstr "ไม่มี"
 
 #. +> trunk6
-#: browsers/CollectionTreeView.cpp:354 dialogs/MusicBrainzTagger.cpp:105
+#: browsers/CollectionTreeView.cpp:354 dialogs/MusicBrainzTagger.cpp:102
 #: statsyncing/ui/MatchedTracksPage.cpp:167
 #, kde-format
 msgid "Collapse All"
@@ -2373,7 +2373,7 @@ msgid "&Edit Track Details"
 msgstr "แ&ก้ไขรายละเอียดของแทร็กเสียง"
 
 #. +> trunk6
-#: browsers/filebrowser/FileBrowser.cpp:69
+#: browsers/filebrowser/FileBrowser.cpp:68
 #: context/applets/wikipedia/package/contents/ui/main.qml:63
 #: context/applets/wikipedia/package/contents/ui/main.qml:165
 #, fuzzy, kde-format
@@ -2382,13 +2382,13 @@ msgid "Refresh"
 msgstr "เ&รียกใหม่"
 
 #. +> trunk6
-#: browsers/filebrowser/FileBrowser.cpp:79
+#: browsers/filebrowser/FileBrowser.cpp:78
 #, kde-format
 msgid "Filter Files"
 msgstr "ตัวกรองแฟ้ม"
 
 #. +> trunk6
-#: browsers/filebrowser/FileBrowser.cpp:218
+#: browsers/filebrowser/FileBrowser.cpp:208
 #, kde-format
 msgid "The file browser lets you browse files anywhere on your system, regardless of whether these files are part of your local collection. You can then add these files to the playlist as well as perform basic file operations."
 msgstr ""
@@ -3081,7 +3081,7 @@ msgid "Title"
 msgstr "ชื่อ"
 
 #. +> trunk6
-#: browsers/playlistbrowser/PodcastModel.cpp:321 dialogs/TagDialog.cpp:515
+#: browsers/playlistbrowser/PodcastModel.cpp:321 dialogs/TagDialog.cpp:516
 #, kde-format
 msgid "Summary"
 msgstr "สรุป"
@@ -3215,7 +3215,7 @@ msgstr "ปรับแต่งโฟนอน (Phonon)"
 
 #. +> trunk6
 #: configdialog/ConfigDialog.cpp:66
-#: scripting/scriptconsole/ScriptConsole.cpp:377
+#: scripting/scriptconsole/ScriptConsole.cpp:422
 #, fuzzy, kde-format
 #| msgid "Search Scripts"
 msgid "Scripts"
@@ -3748,7 +3748,7 @@ msgstr ""
 #, kde-format
 msgid ""
 "Write play-changing statistics (e.g. score, lastplayed, playcount)\n"
-"as tags back to the file."
+"as tags back to the audio file."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_writeBackStatistics)
@@ -3982,7 +3982,7 @@ msgstr "แบบอักษร:"
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_OsdFontScaling)
 #. +> trunk6
 #: configdialog/dialogs/NotificationsConfig.ui:233
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 #| msgid "0%"
 msgid "%"
 msgstr "0%"
@@ -4192,7 +4192,7 @@ msgid "Generic"
 msgstr "ทั่วไป"
 
 #. +> trunk6
-#: configdialog/dialogs/ScriptsConfig.cpp:229 dialogs/TagDialog.cpp:517
+#: configdialog/dialogs/ScriptsConfig.cpp:229 dialogs/TagDialog.cpp:518
 #, kde-format
 msgid "Lyrics"
 msgstr "เนื้อร้อง"
@@ -4393,7 +4393,7 @@ msgstr "เพิ่มไปยังรายการเล่น"
 #. i18n: ectx: property (text), widget (QToolButton, matchedLabelsButton)
 #. +> trunk6
 #: context/applets/labels/LabelsApplet.cpp:94
-#: context/applets/labels/LabelsApplet.cpp:187 dialogs/TagDialog.cpp:518
+#: context/applets/labels/LabelsApplet.cpp:187 dialogs/TagDialog.cpp:519
 #: statsyncing/ui/MatchedTracksPage.ui:87
 #, kde-format
 msgid "Labels"
@@ -4630,7 +4630,7 @@ msgstr "ด้วย"
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
 #. +> trunk6
 #: context/applets/labels/labelsReplacementSettings.ui:69
-#: dialogs/TagDialogBase.ui:1005
+#: dialogs/TagDialogBase.ui:1037
 #, kde-format
 msgid "Add"
 msgstr "เพิ่ม..."
@@ -5291,20 +5291,20 @@ msgid "Could not create directory: %1"
 msgstr "ไม่สามารถสร้างไดเรคทอรีต่อไปนี้ได้: %1"
 
 #. +> trunk6
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:618
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:620
 #, kde-format
 msgid "Transferring: %1"
 msgstr "กำลังถ่ายโอน: %1"
 
 #. +> trunk6
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:620
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:622
 #, fuzzy, kde-format
 #| msgid "Transcoding"
 msgid "Transcoding: %1"
 msgstr "ทำการแปลงรหัส"
 
 #. +> trunk6
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:664
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:666
 #: core-impl/collections/support/FileCollectionLocation.cpp:86
 #, kde-format
 msgid "Removing: %1"
@@ -5418,7 +5418,7 @@ msgstr "ศิลปินที่ไม่รู้จัก"
 #. +> trunk6
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:184
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:92
-#: EngineController.cpp:1218
+#: EngineController.cpp:1220
 #, kde-format
 msgid "Unknown track"
 msgstr "แทร็กที่ไม่รู้จัก"
@@ -6727,20 +6727,20 @@ msgid "Cancel Download and Quit."
 msgstr ""
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1163
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1411
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1161
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1409
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "ไม่สามารถบันทึกแฟ้มตอนของพ็อดแคสท์ไปยัง %1 ได้"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1173
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1171
 #, kde-format
 msgid "Downloading Podcast Media"
 msgstr "กำลังดาวน์โหลดสื่อของพ็อดแคสท์"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1174
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1172
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "กำลังดาวน์โหลดพ็อดแคสท์ \"%1\""
@@ -9024,46 +9024,46 @@ msgid "Hz"
 msgstr "เฮิรตซ์"
 
 #. +> trunk6
-#: dialogs/MusicBrainzTagger.cpp:93
+#: dialogs/MusicBrainzTagger.cpp:90
 #, kde-format
 msgid "Choose Best Matches"
 msgstr ""
 
 #. +> trunk6
-#: dialogs/MusicBrainzTagger.cpp:94
+#: dialogs/MusicBrainzTagger.cpp:91
 #, kde-format
 msgid "Use the top result for each undecided track. Alternatively, you can click on <b>Choose Best Matches from This Album</b> in the context menu of a good suggestion; it may give even better results because it prevents mixing different album releases together."
 msgstr ""
 
 #. +> trunk6
-#: dialogs/MusicBrainzTagger.cpp:95
+#: dialogs/MusicBrainzTagger.cpp:92
 #, fuzzy, kde-format
 #| msgid "Clear the filter"
 msgid "Clear Choices"
 msgstr "ล้างตัวกรอง"
 
 #. +> trunk6
-#: dialogs/MusicBrainzTagger.cpp:96
+#: dialogs/MusicBrainzTagger.cpp:93
 #, kde-format
 msgid "Clear all choices, even manually made ones."
 msgstr ""
 
 #. +> trunk6
-#: dialogs/MusicBrainzTagger.cpp:101
+#: dialogs/MusicBrainzTagger.cpp:98
 #, fuzzy, kde-format
 #| msgid "Collapse this widget"
 msgid "Collapse Chosen"
 msgstr "ยุบเก็บวิดเจ็ตนี้"
 
 #. +> trunk6
-#: dialogs/MusicBrainzTagger.cpp:112
+#: dialogs/MusicBrainzTagger.cpp:109
 #, fuzzy, kde-format
 #| msgid "Expand this widget"
 msgid "Expand Unchosen"
 msgstr "ขยายวิดเจ็ตนี้"
 
 #. +> trunk6
-#: dialogs/MusicBrainzTagger.cpp:116 statsyncing/ui/MatchedTracksPage.cpp:159
+#: dialogs/MusicBrainzTagger.cpp:113 statsyncing/ui/MatchedTracksPage.cpp:159
 #, fuzzy, kde-format
 #| msgid "Expand by"
 msgid "Expand All"
@@ -9071,7 +9071,7 @@ msgstr "ขยายด้วย"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
 #. +> trunk6
-#: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1402
+#: dialogs/MusicBrainzTagger.ui:12 dialogs/TagDialog.cpp:1420
 #, fuzzy, kde-format
 #| msgid "MusicBrainz Lookup"
 msgid "MusicBrainz Tagger"
@@ -9102,7 +9102,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
 #. +> trunk6
-#: dialogs/MusicBrainzTagger.ui:68 dialogs/TagDialogBase.ui:1146
+#: dialogs/MusicBrainzTagger.ui:68 dialogs/TagDialogBase.ui:1178
 #: services/magnatune/MagnatuneRedownloadDialogBase.ui:36
 #, kde-format
 msgid "&Cancel"
@@ -9416,26 +9416,26 @@ msgid "Character string"
 msgstr "สตริงตัวอักษร"
 
 #. +> trunk6
-#: dialogs/TagDialog.cpp:516
+#: dialogs/TagDialog.cpp:517
 #, kde-format
 msgid "Tags"
 msgstr "ป้ายกำกับ"
 
 #. +> trunk6
-#: dialogs/TagDialog.cpp:673 dialogs/TagDialog.cpp:681
+#: dialogs/TagDialog.cpp:674 dialogs/TagDialog.cpp:682
 #, kde-format
 msgctxt "The value for this tag is not known"
 msgid "Unknown"
 msgstr "ไม่รู้จัก"
 
 #. +> trunk6
-#: dialogs/TagDialog.cpp:718
+#: dialogs/TagDialog.cpp:719
 #, kde-format
 msgid "Track Details: %1 by %2"
 msgstr "ข้อมูลต่าง ๆ ของแทร็ก: %1 โดย %2"
 
 #. +> trunk6
-#: dialogs/TagDialog.cpp:724
+#: dialogs/TagDialog.cpp:725
 #, kde-format
 msgctxt "The amount of tracks being edited"
 msgid "1 Track"
@@ -9443,39 +9443,39 @@ msgid_plural "Information for %1 Tracks"
 msgstr[0] "ข้อมูลของแทร็กต่าง ๆ ทั้ง %1 แทร็ก"
 
 #. +> trunk6
-#: dialogs/TagDialog.cpp:753 dialogs/TagDialog.cpp:763
+#: dialogs/TagDialog.cpp:754 dialogs/TagDialog.cpp:764
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> โดย <b>%2</b>"
 
 #. +> trunk6
-#: dialogs/TagDialog.cpp:755 dialogs/TagDialog.cpp:765
+#: dialogs/TagDialog.cpp:756 dialogs/TagDialog.cpp:766
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
 #. +> trunk6
-#: dialogs/TagDialog.cpp:761
+#: dialogs/TagDialog.cpp:762
 #, kde-format
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> โดย <b>%2</b> ในอัลบั้ม <b>%3</b>"
 
 #. +> trunk6
-#: dialogs/TagDialog.cpp:771
+#: dialogs/TagDialog.cpp:772
 #, kde-format
 msgid "Editing 1 file"
 msgid_plural "Editing %1 files"
 msgstr[0] "กำลังแก้ไข %1 แฟ้ม"
 
 #. +> trunk6
-#: dialogs/TagDialog.cpp:809
+#: dialogs/TagDialog.cpp:810
 #, kde-format
 msgctxt "The collection this track is part of"
 msgid "None"
 msgstr "ไม่มี"
 
 #. +> trunk6
-#: dialogs/TagDialog.cpp:977
+#: dialogs/TagDialog.cpp:995
 #, fuzzy, kde-format
 #| msgid "One track not playable on media device"
 #| msgid_plural "%1 tracks not playable on media device"
@@ -9591,9 +9591,17 @@ msgstr "เล่นครั้งแรก:"
 msgid "Last played:"
 msgstr "เล่นครั้งสุดท้าย"
 
-#. i18n: ectx: property (text), widget (QLabel, noteLabel)
+#. i18n: ectx: property (text), widget (QLabel, addedToCollectionLabel)
 #. +> trunk6
 #: dialogs/TagDialogBase.ui:467
+#, fuzzy, kde-format
+#| msgid "Download to collection"
+msgid "Added to collection:"
+msgstr "ดาวน์โหลดไปยังคลังดนตรี"
+
+#. i18n: ectx: property (text), widget (QLabel, noteLabel)
+#. +> trunk6
+#: dialogs/TagDialogBase.ui:499
 #, fuzzy, kde-format
 #| msgid "Notes"
 msgid "Note:"
@@ -9601,35 +9609,35 @@ msgstr "บันทึกย่อ"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:509
+#: dialogs/TagDialogBase.ui:541
 #, kde-format
 msgid "Ta&gs"
 msgstr "ป้าย&กำกับ"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:515
+#: dialogs/TagDialogBase.ui:547
 #, kde-format
 msgid "T&itle:"
 msgstr "&ชื่อแทร็ก:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:541
+#: dialogs/TagDialogBase.ui:573
 #, kde-format
 msgid "&Artist:"
 msgstr "ศิ&ลปิน:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:573
+#: dialogs/TagDialogBase.ui:605
 #, kde-format
 msgid "&Composer:"
 msgstr "ผู้ป&ระพันธ์:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_albumArtist)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:602
+#: dialogs/TagDialogBase.ui:634
 #, fuzzy, kde-format
 #| msgctxt "'Album artist' playlist column name and token for playlist layouts"
 #| msgid "Album artist"
@@ -9638,14 +9646,14 @@ msgstr "อัลบั้มของศิลปิน"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:625
+#: dialogs/TagDialogBase.ui:657
 #, kde-format
 msgid "Al&bum:"
 msgstr "อั&ลบั้ม:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_6_6)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:663
+#: dialogs/TagDialogBase.ui:695
 #, fuzzy, kde-format
 #| msgid "Track Number"
 msgid "Trac&k number:"
@@ -9653,14 +9661,14 @@ msgstr "หมายเลขแทร็ก"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:701
+#: dialogs/TagDialogBase.ui:733
 #, kde-format
 msgid "&Genre:"
 msgstr "&ประเภท:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2_2)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:739
+#: dialogs/TagDialogBase.ui:771
 #, fuzzy, kde-format
 #| msgid "&Disc Number:"
 msgid "&Disc number:"
@@ -9668,14 +9676,14 @@ msgstr "ดิสก์แผ่&นที่:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:774
+#: dialogs/TagDialogBase.ui:806
 #, kde-format
 msgid "&Year:"
 msgstr "&ปี:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_BPM)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:815
+#: dialogs/TagDialogBase.ui:847
 #, fuzzy, kde-format
 #| msgid "B&eats Per Minute:"
 msgid "B&eats per minute:"
@@ -9683,14 +9691,14 @@ msgstr "&จังหวะต่อนาที:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_comment)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:844
+#: dialogs/TagDialogBase.ui:876
 #, kde-format
 msgid "Co&mment:"
 msgstr "หมายเ&หตุ:"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_musicbrainz)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:875
+#: dialogs/TagDialogBase.ui:907
 #, fuzzy, kde-format
 #| msgid "Fill-In Tags Using MusicBrain&z"
 msgid "Get Tags from MusicBrain&z"
@@ -9698,7 +9706,7 @@ msgstr "เติมค่าแท็กโดยใช้ MusicBrain&z"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_guessTags)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:888
+#: dialogs/TagDialogBase.ui:920
 #, fuzzy, kde-format
 #| msgid "Guess Tags From &Filename"
 msgid "Guess Tags from &Filename"
@@ -9706,21 +9714,21 @@ msgstr "เดาข้อมูลกำกับต่าง ๆ จากช�
 
 #. i18n: ectx: attribute (title), widget (QWidget, lyricsTab)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:896
+#: dialogs/TagDialogBase.ui:928
 #, kde-format
 msgid "L&yrics"
 msgstr "เนื้&&อร้อง"
 
 #. i18n: ectx: attribute (title), widget (QWidget, labelsTab)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:913
+#: dialogs/TagDialogBase.ui:945
 #, kde-format
 msgid "La&bels"
 msgstr "ป้าย&ต่าง ๆ"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:929
+#: dialogs/TagDialogBase.ui:961
 #, fuzzy, kde-format
 #| msgid "Label"
 msgid "Label:"
@@ -9728,7 +9736,7 @@ msgstr "ป้าย"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, kComboBox_label)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:945
+#: dialogs/TagDialogBase.ui:977
 #, fuzzy, kde-format
 #| msgid "Remove the selected formats from the list."
 msgid "Insert your custom label here or select one from the list."
@@ -9736,42 +9744,42 @@ msgstr "ลบรูปแบบที่เลือกอยู่ออกจ
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:976
+#: dialogs/TagDialogBase.ui:1008
 #, kde-format
 msgid "Custom labels for this item:"
 msgstr "ป้ายชื่อต่าง ๆ สำหรับรายการนี้:"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:1021
+#: dialogs/TagDialogBase.ui:1053
 #, kde-format
 msgid "Remove"
 msgstr "เอาออก"
 
 #. i18n: ectx: property (text), widget (QLabel, locationLabel)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:1050
+#: dialogs/TagDialogBase.ui:1082
 #, kde-format
 msgid "Location:"
 msgstr "ตำแหน่ง:"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_previous)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:1093 playlist/ProgressiveSearchWidget.cpp:64
+#: dialogs/TagDialogBase.ui:1125 playlist/ProgressiveSearchWidget.cpp:64
 #, kde-format
 msgid "&Previous"
 msgstr "&ก่อนหน้า"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_next)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:1103 playlist/ProgressiveSearchWidget.cpp:61
+#: dialogs/TagDialogBase.ui:1135 playlist/ProgressiveSearchWidget.cpp:61
 #, kde-format
 msgid "&Next"
 msgstr "&ถัดไป"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_perTrack)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:1110
+#: dialogs/TagDialogBase.ui:1142
 #, fuzzy, kde-format
 #| msgid "Per Trac&k"
 msgid "Per trac&k"
@@ -9779,14 +9787,14 @@ msgstr "แ&ต่ละแทร็กเสียง"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_ok)
 #. +> trunk6
-#: dialogs/TagDialogBase.ui:1133
+#: dialogs/TagDialogBase.ui:1165
 #, kde-format
 msgid "Sa&ve && Close"
 msgstr "บันทึ&กแล้วปิด"
 
 #. +> trunk6
 #: dialogs/TagGuesserDialog.cpp:181
-#, fuzzy, no-c-format, kde-format
+#, fuzzy, kde-format, no-c-format
 #| msgctxt "Please do not translate the %foo words as they define a syntax used internally by a parser to describe a filename."
 #| msgid ""
 #| "The following tokens can be used to define a filename scheme:<br>"
@@ -10439,28 +10447,28 @@ msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr "มีข้อผิดพลาดต่าง ๆ เกิดขึ้นจำนวนมากในรายการเล่น หยุดทำการเล่นกลับแล้ว"
 
 #. +> trunk6
-#: EngineController.cpp:1208
+#: EngineController.cpp:1210
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> โดย <b>%2</b> ในอัลบั้ม <b>%3</b>"
 
 #. +> trunk6
-#: EngineController.cpp:1210
+#: EngineController.cpp:1212
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> โดย <b>%2</b>"
 
 #. +> trunk6
-#: EngineController.cpp:1213
+#: EngineController.cpp:1215
 #, kde-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> ในอัลบั้ม <b>%2</b>"
 
 #. +> trunk6
-#: EngineController.cpp:1225
+#: EngineController.cpp:1227
 #, kde-format
 msgctxt "track from source"
 msgid "from <b>%1</b>"
@@ -11911,7 +11919,7 @@ msgid "Lock Layout"
 msgstr "ล็อคการจัดมุมมอง"
 
 #. +> trunk6
-#: MainWindow.cpp:374 MainWindow.cpp:1300
+#: MainWindow.cpp:374 MainWindow.cpp:1306
 #, fuzzy, kde-format
 #| msgid "Default Layout"
 msgid "Reset Layout"
@@ -12026,241 +12034,243 @@ msgid "Edit Details of Currently Selected Track"
 msgstr "บันทึกความเปลี่ยนแปลงของชุดสำเร็จปัจจุบันที่เลือกไว้"
 
 #. +> trunk6
-#: MainWindow.cpp:821 MainWindow.cpp:827 MainWindow.cpp:834
+#: MainWindow.cpp:822 MainWindow.cpp:829 MainWindow.cpp:837
 #, fuzzy, kde-format
 #| msgid "&Seek Forward"
-msgid "Seek Forward by %1 seconds"
+msgctxt "Keyboard shortcut setting. A localized fitting unit (seconds or minutes) is automatically included in %1."
+msgid "Seek Forward by %1"
 msgstr "&ค้นหาไปข้างหน้า"
 
 #. +> trunk6
-#: MainWindow.cpp:841 MainWindow.cpp:847 MainWindow.cpp:854
+#: MainWindow.cpp:845 MainWindow.cpp:852 MainWindow.cpp:860
 #, fuzzy, kde-format
 #| msgid "&Seek Backward"
-msgid "Seek Backward by %1 seconds"
+msgctxt "Keyboard shortcut setting. A localized fitting unit (seconds or minutes) is automatically included in %1."
+msgid "Seek Backward by %1"
 msgstr "&ค้นหาย้อนกลับ"
 
 #. +> trunk6
-#: MainWindow.cpp:860
+#: MainWindow.cpp:866
 #, kde-format
 msgid "Update Collection"
 msgstr "ปรับปรุงคลังสื่อ"
 
 #. +> trunk6
-#: MainWindow.cpp:864
+#: MainWindow.cpp:870
 #, fuzzy, kde-format
 #| msgid "Collection Statistics"
 msgid "Synchronize Statistics..."
 msgstr "สถิติของคลังดนตรี"
 
 #. +> trunk6
-#: MainWindow.cpp:872
+#: MainWindow.cpp:878
 #, kde-format
 msgid "Previous Track"
 msgstr "แทร็กก่อนหน้า"
 
 #. +> trunk6
-#: MainWindow.cpp:879
+#: MainWindow.cpp:885
 #, fuzzy, kde-format
 #| msgid "Rate Current Track: 1"
 msgid "Restart current track"
 msgstr "จัดอันดับให้แทร็กปัจจุบันเป็นระดับ: 1"
 
 #. +> trunk6
-#: MainWindow.cpp:886
+#: MainWindow.cpp:892
 #, fuzzy, kde-format
 #| msgid "&Save Playlist"
 msgid "Shuffle Playlist"
 msgstr "&บันทึกรายการเล่น"
 
 #. +> trunk6
-#: MainWindow.cpp:892
+#: MainWindow.cpp:898
 #, fuzzy, kde-format
 #| msgid "Repeat Playlist"
 msgid "Repopulate Playlist"
 msgstr "เล่นรายการเล่นซ้ำ"
 
 #. +> trunk6
-#: MainWindow.cpp:898
+#: MainWindow.cpp:904
 #, fuzzy, kde-format
 #| msgid "Default Dynamic Playlist"
 msgid "Disable Dynamic Playlist"
 msgstr "รายการเล่นปรับอัตโนมัติปริยาย"
 
 #. +> trunk6
-#: MainWindow.cpp:902
+#: MainWindow.cpp:908
 #, kde-format
 msgid "Next Track"
 msgstr "แทร็กถัดไป"
 
 #. +> trunk6
-#: MainWindow.cpp:907
+#: MainWindow.cpp:913
 #, kde-format
 msgid "Increase Volume"
 msgstr "เพิ่มระดับเสียง"
 
 #. +> trunk6
-#: MainWindow.cpp:913
+#: MainWindow.cpp:919
 #, kde-format
 msgid "Decrease Volume"
 msgstr "ลดระดับเสียง"
 
 #. +> trunk6
-#: MainWindow.cpp:919
+#: MainWindow.cpp:925
 #, kde-format
 msgid "Toggle Main Window"
 msgstr "แสดง/ซ่อนหน้าต่างหลัก"
 
 #. +> trunk6
-#: MainWindow.cpp:924
+#: MainWindow.cpp:930
 #, kde-format
 msgid "Toggle Full Screen"
 msgstr "เปิด/ปิดโหมดเต็มหน้าจอ"
 
 #. +> trunk6
-#: MainWindow.cpp:929 playlist/ProgressiveSearchWidget.cpp:47
+#: MainWindow.cpp:935 playlist/ProgressiveSearchWidget.cpp:47
 #, kde-format
 msgid "Search playlist"
 msgstr "ค้นในรายการเล่น"
 
 #. +> trunk6
-#: MainWindow.cpp:939
+#: MainWindow.cpp:945
 #, kde-format
 msgid "Show active track"
 msgstr "แสดงแทร็กเสียงที่ใช้อยู่"
 
 #. +> trunk6
-#: MainWindow.cpp:943
+#: MainWindow.cpp:949
 #, kde-format
 msgid "Show Notification Popup"
 msgstr "แสดงหน้าต่างผุดของการแจ้งให้ทราบ"
 
 #. +> trunk6
-#: MainWindow.cpp:948
+#: MainWindow.cpp:954
 #, kde-format
 msgid "Mute Volume"
 msgstr "ตัดเสียง"
 
 #. +> trunk6
-#: MainWindow.cpp:953
+#: MainWindow.cpp:959
 #, fuzzy, kde-format
 #| msgid "Love Current Track"
 msgid "Last.fm: Love Current Track"
 msgstr "หลังจบเพลงที่เล่นอยู่"
 
 #. +> trunk6
-#: MainWindow.cpp:958
+#: MainWindow.cpp:964
 #, fuzzy, kde-format
 #| msgid "Love Current Track"
 msgid "Last.fm: Ban Current Track"
 msgstr "หลังจบเพลงที่เล่นอยู่"
 
 #. +> trunk6
-#: MainWindow.cpp:963
+#: MainWindow.cpp:969
 #, fuzzy, kde-format
 #| msgid "Love Current Track"
 msgid "Last.fm: Skip Current Track"
 msgstr "หลังจบเพลงที่เล่นอยู่"
 
 #. +> trunk6
-#: MainWindow.cpp:968 playlist/view/PlaylistViewCommon.cpp:118
+#: MainWindow.cpp:974 playlist/view/PlaylistViewCommon.cpp:118
 #, kde-format
 msgid "Queue Track"
 msgstr "ส่งแทร็กเข้าคิวรอเล่น"
 
 #. +> trunk6
-#: MainWindow.cpp:973
+#: MainWindow.cpp:979
 #, kde-format
 msgid "Put Artist - Title of the current track to the clipboard"
 msgstr ""
 
 #. +> trunk6
-#: MainWindow.cpp:978
+#: MainWindow.cpp:984
 #, kde-format
 msgid "Rate Current Track: 1"
 msgstr "จัดอันดับให้แทร็กปัจจุบันเป็นระดับ: 1"
 
 #. +> trunk6
-#: MainWindow.cpp:983
+#: MainWindow.cpp:989
 #, kde-format
 msgid "Rate Current Track: 2"
 msgstr "จัดอันดับให้แทร็กปัจจุบันเป็นระดับ: 2"
 
 #. +> trunk6
-#: MainWindow.cpp:988
+#: MainWindow.cpp:994
 #, kde-format
 msgid "Rate Current Track: 3"
 msgstr "จัดอันดับให้แทร็กปัจจุบันเป็นระดับ: 3"
 
 #. +> trunk6
-#: MainWindow.cpp:993
+#: MainWindow.cpp:999
 #, kde-format
 msgid "Rate Current Track: 4"
 msgstr "จัดอันดับให้แทร็กปัจจุบันเป็นระดับ: 4"
 
 #. +> trunk6
-#: MainWindow.cpp:998
+#: MainWindow.cpp:1004
 #, kde-format
 msgid "Rate Current Track: 5"
 msgstr "จัดอันดับให้แทร็กปัจจุบันเป็นระดับ: 5"
 
 #. +> trunk6
-#: MainWindow.cpp:1004
+#: MainWindow.cpp:1010
 #, kde-format
 msgid "Network Request Viewer"
 msgstr ""
 
 #. +> trunk6
-#: MainWindow.cpp:1022
+#: MainWindow.cpp:1028
 #, kde-format
 msgid "&About Amarok"
 msgstr "เกี่ยวกับแ&อมอะร็อก"
 
 #. +> trunk6
-#: MainWindow.cpp:1026
+#: MainWindow.cpp:1032
 #, fuzzy, kde-format
 #| msgid "St&atistics"
 msgid "&Diagnostics"
 msgstr "ส&ถิติ"
 
 #. +> trunk6
-#: MainWindow.cpp:1030
+#: MainWindow.cpp:1036
 #, kde-format
 msgid "&Report Bug..."
 msgstr "&รายงานข้อผิดพลาด..."
 
 #. +> trunk6
-#: MainWindow.cpp:1077
+#: MainWindow.cpp:1083
 #, kde-format
 msgid "&Music"
 msgstr "&ดนตรี"
 
 #. +> trunk6
-#: MainWindow.cpp:1079
+#: MainWindow.cpp:1085
 #, kde-format
 msgid "&Amarok"
 msgstr "แ&อมอะร็อก"
 
 #. +> trunk6
-#: MainWindow.cpp:1103 playlist/PlaylistDock.cpp:57
+#: MainWindow.cpp:1109 playlist/PlaylistDock.cpp:57
 #: playlist/PlaylistToolBar.cpp:39
 #, kde-format
 msgid "&Playlist"
 msgstr "&รายการเล่น"
 
 #. +> trunk6
-#: MainWindow.cpp:1120
+#: MainWindow.cpp:1126
 #, kde-format
 msgid "&Tools"
 msgstr "เ&ครื่องมือ"
 
 #. +> trunk6
-#: MainWindow.cpp:1135
+#: MainWindow.cpp:1141
 #, kde-format
 msgid "&Settings"
 msgstr "&ตั้งค่า"
 
 #. +> trunk6
-#: MainWindow.cpp:1170
+#: MainWindow.cpp:1176
 #, kde-format
 msgid ""
 "You have chosen to hide the menu bar.\n"
@@ -12269,43 +12279,36 @@ msgid ""
 msgstr ""
 
 #. +> trunk6
-#: MainWindow.cpp:1171
+#: MainWindow.cpp:1177
 #, fuzzy, kde-format
 #| msgid "Hide menu"
 msgid "Hide Menu"
 msgstr "ซ่อนเมนู"
 
 #. +> trunk6
-#: MainWindow.cpp:1213
+#: MainWindow.cpp:1219
 #, kde-format
 msgid "Paused  ::  %1"
 msgstr "หยุดชั่วคราว  ::  %1"
 
 #. +> trunk6
-#: MainWindow.cpp:1226
+#: MainWindow.cpp:1232
 #, kde-format
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2  ::  %3"
 
 #. +> trunk6
-#: MainWindow.cpp:1300
+#: MainWindow.cpp:1306
 #, kde-format
 msgid "Apply this layout change?"
 msgstr ""
 
 #. +> trunk6
-#: musicbrainz/MusicBrainzTagsModel.cpp:161
+#: musicbrainz/MusicBrainzTagsModel.cpp:157
 #, fuzzy, kde-format
 #| msgid "MusicBrainz Lookup"
 msgid "MusicBrainz match ratio: %1%"
 msgstr "ค้นหาจาก MusicBrainz"
-
-#. +> trunk6
-#: musicbrainz/MusicBrainzTagsModel.cpp:164
-#, fuzzy, kde-format
-#| msgid "Music share at %1"
-msgid "MusicDNS match ratio: %1%"
-msgstr "ดนตรีแบ่งปันที่ %1"
 
 #. +> trunk6
 #: musicbrainz/MusicBrainzTagsView.cpp:80
@@ -14922,14 +14925,14 @@ msgid "Previous Script"
 msgstr "กลุ่มก่อนหน้า"
 
 #. +> trunk6
-#: scripting/scriptconsole/ScriptConsole.cpp:120
+#: scripting/scriptconsole/ScriptConsole.cpp:119
 #, fuzzy, kde-format
 #| msgid "Search Scripts"
 msgid "Next Script"
 msgstr "ค้นหาสคริปต์ต่าง ๆ"
 
 #. +> trunk6
-#: scripting/scriptconsole/ScriptConsole.cpp:128
+#: scripting/scriptconsole/ScriptConsole.cpp:126
 #, fuzzy, kde-format
 #| msgctxt "@item:inmenu"
 #| msgid "&View"
@@ -14937,33 +14940,33 @@ msgid "&View"
 msgstr "&มุมมอง"
 
 #. +> trunk6
-#: scripting/scriptconsole/ScriptConsole.cpp:217
+#: scripting/scriptconsole/ScriptConsole.cpp:223
 #, kde-format
 msgid "This will stop this script! Continue?"
 msgstr ""
 
 #. +> trunk6
-#: scripting/scriptconsole/ScriptConsole.cpp:229
+#: scripting/scriptconsole/ScriptConsole.cpp:268
 #, kde-format
 msgid "Choose where to save your scripts"
 msgstr ""
 
 #. +> trunk6
-#: scripting/scriptconsole/ScriptConsole.cpp:422
+#: scripting/scriptconsole/ScriptConsole.cpp:467
 #, fuzzy, kde-format
 #| msgid "&Remove Subscription"
 msgid "Remove script file from disk?"
 msgstr "&ลบการบอกรับเป็นสมาชิก"
 
 #. +> trunk6
-#: scripting/scriptconsole/ScriptConsole.cpp:422
+#: scripting/scriptconsole/ScriptConsole.cpp:467
 #, fuzzy, kde-format
 #| msgid "&Remove Subscription"
 msgid "Remove Script"
 msgstr "&ลบการบอกรับเป็นสมาชิก"
 
 #. +> trunk6
-#: scripting/scriptconsole/ScriptConsole.cpp:422
+#: scripting/scriptconsole/ScriptConsole.cpp:467
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgctxt "Confirm if script file should be removed"
@@ -14971,14 +14974,14 @@ msgid "Remove"
 msgstr "เอาออก"
 
 #. +> trunk6
-#: scripting/scriptconsole/ScriptConsole.cpp:423
+#: scripting/scriptconsole/ScriptConsole.cpp:468
 #, kde-format
 msgctxt "Confirm if script file should be removed"
 msgid "Don't remove"
 msgstr ""
 
 #. +> trunk6
-#: scripting/scriptconsole/ScriptConsole.cpp:453
+#: scripting/scriptconsole/ScriptConsole.cpp:498
 #, kde-format
 msgid "Are you absolutely certain?"
 msgstr ""
@@ -15018,14 +15021,14 @@ msgid "Script %1 has been evaluating for over 5 seconds now, terminate?"
 msgstr ""
 
 #. +> trunk6
-#: scripting/scriptmanager/ScriptItem.cpp:338
+#: scripting/scriptmanager/ScriptItem.cpp:339
 #, kde-format
 msgctxt "%1 is the name of the offending script, %2 the script authors and their emails"
 msgid "The script %1 uses deprecated scripting API calls. Please contact the script authors, %2, and ask them to upgrade it before the next Amarok release."
 msgstr ""
 
 #. +> trunk6
-#: scripting/scriptmanager/ScriptManager.cpp:278
+#: scripting/scriptmanager/ScriptManager.cpp:276
 #, kde-format
 msgid ""
 "Script error reported by: %1\n"
@@ -17458,8 +17461,17 @@ msgstr "ย้ายแอพเพล็ต"
 msgid "Just move the tracks without transcoding them."
 msgstr "เพลงทั้ง %1 เพลงนี้ไม่ถูกแปลงรหัส"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk6
-#: transcoding/TranscodingAssistantDialog.cpp:149
+#: transcoding/TranscodingAssistantDialog.cpp:125
+#: transcoding/TranscodingAssistantDialog.ui:89
+#, fuzzy, kde-format
+#| msgid "Transcoding"
+msgid "Transcode"
+msgstr "ทำการแปลงรหัส"
+
+#. +> trunk6
+#: transcoding/TranscodingAssistantDialog.cpp:151
 #, fuzzy, kde-format
 #| msgid "No description available in your language"
 msgctxt "Tooltip of a disabled transcoding encoder option"
@@ -17467,18 +17479,10 @@ msgid "Not currently available on your system."
 msgstr "ไม่มีคำอธิบายที่เป็นภาษาของคุณให้ใช้"
 
 #. +> trunk6
-#: transcoding/TranscodingAssistantDialog.cpp:156
+#: transcoding/TranscodingAssistantDialog.cpp:158
 #, kde-format
 msgid "Target collection indicates this format would not be playable."
 msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. +> trunk6
-#: transcoding/TranscodingAssistantDialog.ui:89
-#, fuzzy, kde-format
-#| msgid "Transcoding"
-msgid "Transcode"
-msgstr "ทำการแปลงรหัส"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, transcodeAllRadioButton)
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, transcodeAllRadioButton)
@@ -17591,21 +17595,21 @@ msgid "Score: %1"
 msgstr "คะแนน:"
 
 #. +> trunk6
-#: TrayIcon.cpp:184
+#: TrayIcon.cpp:178
 #, fuzzy, kde-format
 #| msgid "Rating:"
 msgid "Rating: %1"
 msgstr "ระดับความชื่นชอบ:"
 
 #. +> trunk6
-#: TrayIcon.cpp:190
+#: TrayIcon.cpp:184
 #, fuzzy, kde-format
 #| msgid "Play count"
 msgid "Play count: %1"
 msgstr "จำนวนครั้งที่เล่น"
 
 #. +> trunk6
-#: TrayIcon.cpp:194
+#: TrayIcon.cpp:188
 #, fuzzy, kde-format
 #| msgid "Last played"
 msgid "Last played: %1"
@@ -18083,6 +18087,11 @@ msgstr "ศิลปิน: %1"
 #| msgid "<empty>"
 msgid "empty"
 msgstr "<empty"
+
+#, fuzzy, kde-format
+#~| msgid "Music share at %1"
+#~ msgid "MusicDNS match ratio: %1%"
+#~ msgstr "ดนตรีแบ่งปันที่ %1"
 
 #, kde-format
 #~ msgid "Enter an artist name"
