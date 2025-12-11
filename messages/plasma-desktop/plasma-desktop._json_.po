@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-20 09:03+0200\n"
+"POT-Creation-Date: 2025-12-09 09:22+0100\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -40,7 +40,7 @@ msgid "Switch between activities"
 msgstr "สลับไปมาระหว่างพื้นที่ทำงานเสมือน"
 
 #. +> trunk6 stable6 stable5
-#: applets/activitypager/metadata.json applets/pager/package/metadata.json
+#: applets/activitypager/metadata.json applets/pager/metadata.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Customize the desktop theme"
@@ -80,7 +80,7 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: applets/icontasks/metadata.json applets/kicker/metadata.json
-#: applets/taskmanager/package/metadata.json applets/window-list/metadata.json
+#: applets/taskmanager/metadata.json applets/window-list/metadata.json
 #: containments/desktop/package/metadata.json containments/folder/metadata.json
 msgctxt "Authors Name"
 msgid "Eike Hein"
@@ -211,13 +211,13 @@ msgid "Sebastian Kügler"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/pager/package/metadata.json
+#: applets/pager/metadata.json
 msgctxt "Name"
 msgid "Pager"
 msgstr "สลับหน้าพื้นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: applets/pager/package/metadata.json
+#: applets/pager/metadata.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Switch between virtual desktops"
@@ -226,7 +226,7 @@ msgid "Switch between virtual desktops"
 msgstr "สลับไปมาระหว่างพื้นที่ทำงานเสมือน"
 
 #. +> trunk6 stable6
-#: applets/showActivityManager/package/metadata.json
+#: applets/showActivityManager/metadata.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Activity Manager"
@@ -235,7 +235,7 @@ msgid "Show Activity Manager"
 msgstr "ตัวจัดการกิจกรรม"
 
 #. +> trunk6 stable6 stable5
-#: applets/showActivityManager/package/metadata.json
+#: applets/showActivityManager/metadata.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Activity Manager"
@@ -244,7 +244,7 @@ msgid "Shows the activity manager"
 msgstr "ตัวจัดการกิจกรรม"
 
 #. +> trunk6 stable6 stable5
-#: applets/showActivityManager/package/metadata.json
+#: applets/showActivityManager/metadata.json
 msgctxt "Authors Name"
 msgid "Gregor Tätzner"
 msgstr ""
@@ -271,7 +271,7 @@ msgid "Petri Damstén"
 msgstr ""
 
 #. +> trunk6 stable6
-#: applets/taskmanager/package/metadata.json
+#: applets/taskmanager/metadata.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Task Manager"
@@ -279,22 +279,10 @@ msgctxt "Name"
 msgid "Icons-and-Text Task Manager"
 msgstr "จัดการงาน"
 
-#. +> stable5
-#: applets/taskmanager/package/metadata.json
-msgctxt "Name"
-msgid "Task Manager"
-msgstr "จัดการงาน"
-
 #. +> trunk6 stable6
-#: applets/taskmanager/package/metadata.json
+#: applets/taskmanager/metadata.json
 msgctxt "Description"
 msgid "Window bar displaying icons and text"
-msgstr ""
-
-#. +> stable5
-#: applets/taskmanager/package/metadata.json
-msgctxt "Description"
-msgid "Classic taskbar-style window switcher displaying icons and text"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -880,7 +868,13 @@ msgctxt "Description"
 msgid "Configure general workspace behavior"
 msgstr "ปรับแต่งตัวตรวจการสะกด"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: kcms/workspaceoptions/kcm_workspace.json
+msgctxt "X-KDE-Keywords"
+msgid "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips,click,single click,double click,middle click,animation speed,behavior,open files,select files,scrollbar,visual feedback,status,click to open,click to select,touch,tablet,touch mode,tablet mode,copy,paste,selected,selection,primary,primary selection"
+msgstr ""
+
+#. +> stable6
 #: kcms/workspaceoptions/kcm_workspace.json
 msgctxt "X-KDE-Keywords"
 msgid "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips,click,single click,double click,middle click,animation speed,behavior,open files,select files,scrollbar,visual feedback,status,click to open,click to select,touch,tablet,touch mode,tablet mode,copy,paste,selected,selection,primary"
@@ -1093,6 +1087,18 @@ msgstr "เครื่องมือของพาเนล"
 msgctxt "Description"
 msgid "Manage Plasma panel"
 msgstr "คู่มือของพลาสมา"
+
+#. +> stable5
+#: applets/taskmanager/package/metadata.json
+msgctxt "Name"
+msgid "Task Manager"
+msgstr "จัดการงาน"
+
+#. +> stable5
+#: applets/taskmanager/package/metadata.json
+msgctxt "Description"
+msgid "Classic taskbar-style window switcher displaying icons and text"
+msgstr ""
 
 #. +> stable5
 #: kcms/componentchooser/kcm_componentchooser.json

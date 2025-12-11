@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xdg-desktop-portal-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-25 08:53+0100\n"
+"POT-Creation-Date: 2025-12-02 10:44+0100\n"
 "PO-Revision-Date: 2025-03-17 14:56+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -272,14 +272,14 @@ msgid "Forbid Anyway"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/dynamiclauncher.cpp:77
+#: src/dynamiclauncher.cpp:78
 #, kde-format
 msgctxt "@title"
 msgid "Add Web Application…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/dynamiclauncher.cpp:82
+#: src/dynamiclauncher.cpp:83
 #, kde-format
 msgctxt "@title"
 msgid "Add Application…"
@@ -320,24 +320,30 @@ msgid "Open"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/globalshortcuts.cpp:104
+#: src/globalshortcuts.cpp:107
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "The shortcut is already assigned to the action <interface>%1</interface> of <application>%2</application>. Re-enter it here to override that action."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/globalshortcuts.cpp:111
+#: src/globalshortcuts.cpp:114
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "The shortcut is already assigned to the <interface>%1</interface> standard action."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/globalshortcuts.cpp:124
+#: src/globalshortcuts.cpp:127
 #, kde-kuit-format
 msgctxt "@info:tooltip %1 is a list of actions"
 msgid "The shortcut is assigned to multiple actions (<interface>%1</interface>)"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: src/globalshortcuts.cpp:507
+#, kde-format
+msgid ", "
 msgstr ""
 
 #. +> trunk6 stable6
@@ -378,21 +384,21 @@ msgid "View other shortcuts registered by this application"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/inputcapture.cpp:113
+#: src/inputcapture.cpp:115
 #, kde-format
 msgctxt "@title:notification"
 msgid "Input Capture started"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/inputcapture.cpp:116
+#: src/inputcapture.cpp:118
 #, kde-kuit-format
 msgctxt "@info %1 is the name of the application"
 msgid "Input is being managed by %1. Press <shortcut>%2</shortcut> to disable."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/inputcapture.cpp:121
+#: src/inputcapture.cpp:123
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Input is being managed by an application. Press <shortcut>%1</shortcut> to disable."
@@ -634,23 +640,30 @@ msgid "Left-click and drag"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/remotedesktop.cpp:180 src/screencast.cpp:221
+#: src/remotedesktop.cpp:182 src/screencast.cpp:224
 #, kde-format
 msgid "Virtual Output"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/remotedesktop.cpp:181 src/screencast.cpp:222
+#: src/remotedesktop.cpp:183 src/screencast.cpp:225
 #, kde-format
 msgctxt "%1 is the application name"
 msgid "Virtual Output (shared with %1)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/remotedesktop.cpp:286
+#: src/remotedesktop.cpp:291
 #, kde-format
 msgctxt "title of notification about input systems taken over"
 msgid "Remote control session started"
+msgstr ""
+
+#. +> trunk6
+#: src/remotedesktop.cpp:580
+#, kde-format
+msgctxt "SNI title that indicates there's a process remotely controlling the system"
+msgid "Remote Control"
 msgstr ""
 
 #. +> trunk6
@@ -767,7 +780,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/RemoteDesktopDialog.qml:31 src/ScreenChooserDialog.qml:96
+#: src/RemoteDesktopDialog.qml:31 src/ScreenChooserDialog.qml:76
 #, kde-format
 msgid "Allow restoring on future sessions"
 msgstr ""
@@ -787,13 +800,43 @@ msgid "Deny"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/screencast.cpp:281
+#: src/screencast.cpp:284
 #, kde-format
 msgctxt "Do not disturb mode is enabled because..."
 msgid "Screen sharing in progress"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
+#: src/screencast.cpp:392
+#, kde-format
+msgctxt "@action:inmenu stops screen/window sharing"
+msgid "End"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: src/screencast.cpp:445
+#, kde-format
+msgctxt "%1 number of screens, %2 the app that receives them"
+msgid "Sharing contents to %2"
+msgid_plural "%1 video streams to %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6 stable5
+#: src/screencast.cpp:449
+#, kde-format
+msgctxt "SNI title that indicates there's a process seeing our windows or screens"
+msgid "Screen casting"
+msgstr ""
+
+#. +> trunk6
+#: src/screenchooserdialog.cpp:145
+#, kde-format
+msgctxt "@title:window %1 is an application name (e.g. Falkon)"
+msgid "Share screen with %1"
+msgstr ""
+
+#. +> stable6 stable5
 #: src/screenchooserdialog.cpp:145
 #, kde-format
 msgid "Screen Sharing"
@@ -895,22 +938,29 @@ msgstr ""
 msgid "Choose what to share with %1:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: src/ScreenChooserDialog.qml:38
+#. +> trunk6
+#: src/ScreenChooserDialog.qml:54
 #, kde-format
-msgid "Screens"
+msgctxt "@label separator line label between screen selection and window selection"
+msgid "Windows"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: src/ScreenChooserDialog.qml:41
+#. +> stable6 stable5
+#: src/ScreenChooserDialog.qml:42
 #, kde-format
 msgid "Windows"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/ScreenChooserDialog.qml:100
+#: src/ScreenChooserDialog.qml:80
 #, kde-format
 msgid "Share"
+msgstr ""
+
+#. +> stable6 stable5
+#: src/ScreenChooserDialog.qml:39
+#, kde-format
+msgid "Screens"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -997,49 +1047,6 @@ msgstr ""
 #: src/ScreenshotDialog.qml:83
 #, kde-format
 msgid "Take"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/session.cpp:175
-#, kde-format
-msgctxt "@action:inmenu stops screen/window sharing"
-msgid "End"
-msgstr ""
-
-#. +> trunk6
-#: src/session.cpp:288
-#, kde-format
-msgctxt "SNI title that indicates there's a process remotely controlling the system"
-msgid "Remote Control"
-msgstr ""
-
-#. +> stable6 stable5
-#: src/session.cpp:288
-#, kde-format
-msgctxt "SNI title that indicates there's a process remotely controlling the system"
-msgid "Remote Desktop"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/session.cpp:304
-#, kde-format
-msgctxt "%1 number of screens, %2 the app that receives them"
-msgid "Sharing contents to %2"
-msgid_plural "%1 video streams to %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#. +> trunk6 stable6 stable5
-#: src/session.cpp:308
-#, kde-format
-msgctxt "SNI title that indicates there's a process seeing our windows or screens"
-msgid "Screen casting"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/session.cpp:501
-#, kde-format
-msgid ", "
 msgstr ""
 
 #. +> trunk6
@@ -1182,6 +1189,13 @@ msgstr ""
 #: src/waylandintegration.cpp:477
 #, kde-format
 msgid "Remote desktop"
+msgstr ""
+
+#. +> stable6 stable5
+#: src/session.cpp:288
+#, kde-format
+msgctxt "SNI title that indicates there's a process remotely controlling the system"
+msgid "Remote Desktop"
 msgstr ""
 
 #. +> stable5

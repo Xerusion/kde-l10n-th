@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tellico\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-24 09:42+0100\n"
+"POT-Creation-Date: 2025-11-28 10:00+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -22,6 +22,30 @@ msgstr ""
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#, kde-format
+msgctxt "comma-separated list of words ignored by auto-capitalize"
+msgid "a,an,and,as,at,but,by,for,from,in,into,nor,of,off,on,onto,or,out,over,the,to,up,with"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#, kde-format
+msgctxt "comma-separated list of articles ignored for title sorting"
+msgid "the"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#, kde-format
+msgctxt "comma-separated list of common surname suffixes, used for sorting"
+msgid "jr.,jr,iii,iv"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#, kde-format
+msgctxt "comma-separated list of common surname prefixes, used for sorting"
+msgid "de,van,der,van der,von"
 msgstr ""
 
 #. i18n: file: xslt/entry-templates/Album.xsl
@@ -2429,34 +2453,6 @@ msgstr ""
 msgid "Reorder Fields"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: src/config/tellico_config.kcfg:80
-#, kde-format
-msgctxt "comma-separated list of words ignored by auto-capitalize"
-msgid "a,an,and,as,at,but,by,for,from,in,into,nor,of,off,on,onto,or,out,over,the,to,up,with"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/config/tellico_config.kcfg:83
-#, kde-format
-msgctxt "comma-separated list of articles ignored for title sorting"
-msgid "the"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/config/tellico_config.kcfg:86
-#, kde-format
-msgctxt "comma-separated list of common surname suffixes, used for sorting"
-msgid "jr.,jr,iii,iv"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/config/tellico_config.kcfg:89
-#, kde-format
-msgctxt "comma-separated list of common surname prefixes, used for sorting"
-msgid "de,van,der,van der,von"
-msgstr ""
-
 #. i18n: ectx: label, entry (fontBook), group (Options - book)
 #. i18n: ectx: label, entry (fontVideo), group (Options - video)
 #. i18n: ectx: label, entry (fontAlbum), group (Options - album)
@@ -3087,7 +3083,7 @@ msgid "Click to delete the selected data source."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/configdialog.cpp:1164 src/translators/xsltexporter.cpp:100
+#: src/configdialog.cpp:1164 src/translators/xsltexporter.cpp:106
 #: src/translators/xsltimporter.cpp:126
 #, kde-format
 msgid "XSL Files"
@@ -3109,7 +3105,7 @@ msgstr ""
 #: src/translators/onixexporter.cpp:72
 #: src/translators/tellicoxmlexporter.cpp:74
 #: src/translators/tellicozipexporter.cpp:56
-#: src/translators/xsltexporter.cpp:56 src/translators/xsltexporter.cpp:101
+#: src/translators/xsltexporter.cpp:56 src/translators/xsltexporter.cpp:107
 #: src/translators/xsltimporter.cpp:127
 #, kde-format
 msgid "All Files"
@@ -8406,13 +8402,13 @@ msgid "It is from a future version of Tellico."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/xsltexporter.cpp:87 src/translators/xsltimporter.cpp:118
+#: src/translators/xsltexporter.cpp:93 src/translators/xsltimporter.cpp:118
 #, kde-format
 msgid "XSLT Options"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/xsltexporter.cpp:90 src/translators/xsltimporter.cpp:121
+#: src/translators/xsltexporter.cpp:96 src/translators/xsltimporter.cpp:121
 #, kde-format
 msgid "XSLT file:"
 msgstr ""
@@ -8424,7 +8420,7 @@ msgid "XSLT"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/translators/xsltexporter.cpp:92 src/translators/xsltimporter.cpp:123
+#: src/translators/xsltexporter.cpp:98 src/translators/xsltimporter.cpp:123
 #, kde-format
 msgid "Choose the XSLT file used to transform the data."
 msgstr ""

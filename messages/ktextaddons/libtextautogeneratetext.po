@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-24 09:42+0100\n"
+"POT-Creation-Date: 2025-12-11 04:45+0100\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -54,8 +54,17 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#. +> trunk6 stable6
-#: core/models/textautogeneratemessagesmodel.cpp:82
+#. +> trunk6
+#: core/models/textautogeneratemessagesmodel.cpp:83
+#, kde-format
+msgid ""
+"<b>Engine:</b> %1<br>"
+"<b>Model:</b> %2<br>"
+"<b>Instance Name:</b> %3"
+msgstr ""
+
+#. +> stable6
+#: core/models/textautogeneratemessagesmodel.cpp:77
 #, kde-format
 msgid ""
 "Engine: %1\n"
@@ -63,8 +72,16 @@ msgid ""
 "Instance Name: %3"
 msgstr ""
 
-#. +> trunk6 stable6
-#: core/models/textautogeneratemessagesmodel.cpp:85
+#. +> trunk6
+#: core/models/textautogeneratemessagesmodel.cpp:87
+#, kde-format
+msgid ""
+"<br>"
+"<b>Tools:</b> %1"
+msgstr ""
+
+#. +> stable6
+#: core/models/textautogeneratemessagesmodel.cpp:80
 #, kde-format
 msgid ""
 "\n"
@@ -150,15 +167,49 @@ msgid "You are an AI assistant. You are speaking to a person named %1. Be helpfu
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/textautogeneratetextplugin.cpp:276
+#: core/textautogeneratetextplugin.cpp:277
 #, kde-format
 msgid "Local"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/textautogeneratetextplugin.cpp:278
+#: core/textautogeneratetextplugin.cpp:279
 #, kde-format
 msgid "Network"
+msgstr ""
+
+#. +> trunk6
+#: core/tools/textautogeneratetexttoolpluginmanager.cpp:184
+#, kde-format
+msgid "Plugins Text:"
+msgstr ""
+
+#. +> trunk6
+#: core/tools/textautogeneratetexttoolpluginmanager.cpp:190
+#: widgets/plugintext/textautogenerateplugintextmanager.cpp:127
+#, kde-format
+msgid "Tool identifier: %1"
+msgstr ""
+
+#. +> trunk6
+#: core/tools/textautogeneratetexttoolpluginmanager.cpp:191
+#: widgets/plugintext/textautogenerateplugintextmanager.cpp:128
+#, kde-format
+msgid "On"
+msgstr ""
+
+#. +> trunk6
+#: core/tools/textautogeneratetexttoolpluginmanager.cpp:191
+#: widgets/plugintext/textautogenerateplugintextmanager.cpp:128
+#, kde-format
+msgid "Off"
+msgstr ""
+
+#. +> trunk6
+#: core/tools/textautogeneratetexttoolpluginmanager.cpp:191
+#: widgets/plugintext/textautogenerateplugintextmanager.cpp:128
+#, kde-format
+msgid "Activate: %1"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -184,7 +235,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: plugins/genericnetworkplugin/genericnetworkconfiguredialog.cpp:35
-#: plugins/ollama/ollamaconfiguredialog.cpp:52
+#: plugins/ollama/ollamaconfiguredialog.cpp:53
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Available Models"
@@ -192,7 +243,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: plugins/genericnetworkplugin/genericnetworkmanager.cpp:48
-#: plugins/ollama/ollamamanager.cpp:170
+#: plugins/ollama/ollamamanager.cpp:177
 #, kde-format
 msgid "Failed to connect to interface at %1: %2"
 msgstr ""
@@ -314,6 +365,18 @@ msgctxt "@info:tooltip"
 msgid "Add Model"
 msgstr ""
 
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodelavailablewidget.cpp:90
+#, kde-format
+msgid "Model name must be as \"name:tag\""
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodelavailablewidget.cpp:90
+#, kde-format
+msgid "Invalid Model Name"
+msgstr ""
+
 #. +> trunk6 stable6
 #: plugins/ollama/modelsmanager/ollamamodelcategoriesmodel.cpp:41
 #, kde-format
@@ -388,11 +451,30 @@ msgid "Please enter model name as \"name:tag\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/modelsmanager/ollamamodeldownloadprogresswidget.cpp:47
-#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:470
+#: plugins/ollama/modelsmanager/ollamamodeldownloadprogresswidget.cpp:48
+#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:482
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodeldownloadprogresswidget.cpp:74
+#, kde-format
+msgid "Download model reported an error: %1"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodeldownloadprogresswidget.cpp:74
+#, kde-format
+msgid "Download Model Error"
+msgstr ""
+
+#. +> trunk6
+#: plugins/ollama/modelsmanager/ollamamodeldownloadwidget.cpp:46
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Download"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1565,14 +1647,14 @@ msgid "Configure Ollama"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/ollamaconfiguredialog.cpp:57
+#: plugins/ollama/ollamaconfiguredialog.cpp:59
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Installed Models"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/ollama/ollamaconfiguredialog.cpp:62
+#: plugins/ollama/ollamaconfiguredialog.cpp:65
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Create Models"
@@ -1685,7 +1767,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: widgets/common/textautogeneratetextlineeditattachmentclickablewidget.cpp:87
-#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:457
+#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:469
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove"
@@ -1735,6 +1817,19 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Allow to select tools"
+msgstr ""
+
+#. +> trunk6
+#: widgets/common/textautogeneratetextopenfilejob.cpp:75
+#, kde-format
+msgid "Impossible to open %1"
+msgstr ""
+
+#. +> trunk6
+#: widgets/common/textautogeneratetextopenfilejob.cpp:75
+#, kde-format
+msgctxt "@title:window"
+msgid "Error Opening File"
 msgstr ""
 
 #. +> stable6
@@ -1844,41 +1939,41 @@ msgid "Configure Instances"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:56
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:55
 #, kde-format
 msgctxt "@action"
 msgid "Add instance…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:66
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:65
 #, kde-format
 msgctxt "@action"
 msgid "Mark As Default"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:79
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:78
 #, kde-format
 msgctxt "@action"
 msgid "Edit…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:85
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:84
 #, kde-format
 msgctxt "@action"
 msgid "Remove Instance"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:93
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:92
 #, kde-format
 msgid "Do you want to remove this instance (%1)?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:94
+#: widgets/instancesmanager/textautogeneratetextinstancesmanagerlistview.cpp:93
 #, kde-format
 msgctxt "@title"
 msgid "Remove Instance"
@@ -1955,7 +2050,7 @@ msgid "Ask AI…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/menu/textautogeneratemenuwidget.cpp:63
+#: widgets/menu/textautogeneratemenuwidget.cpp:66
 #, kde-format
 msgctxt "@action"
 msgid "Configure…"
@@ -1973,8 +2068,14 @@ msgstr ""
 msgid "Max Tokens:"
 msgstr ""
 
+#. +> trunk6
+#: widgets/plugintext/textautogenerateplugintextmanager.cpp:121
+#, kde-format
+msgid "Plugins Tool:"
+msgstr ""
+
 #. +> trunk6 stable6
-#: widgets/quickask/textautogeneratequickaskdialog.cpp:30
+#: widgets/quickask/textautogeneratequickaskdialog.cpp:29
 #, kde-format
 msgctxt "@title:window"
 msgid "Quick Ask"
@@ -2010,7 +2111,7 @@ msgid "Save Discussion in Database"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/textautogeneratedialog.cpp:37
+#: widgets/textautogeneratedialog.cpp:35
 #, kde-format
 msgctxt "@title:window"
 msgid "Conversation"
@@ -2066,7 +2167,7 @@ msgid "Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/textautogeneratewidget.cpp:121
+#: widgets/textautogeneratewidget.cpp:123
 #, kde-format
 msgid "No plugin found."
 msgstr ""
@@ -2079,28 +2180,28 @@ msgid "Tools:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:453
+#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:465
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Edit…"
 msgstr ""
 
 #. +> trunk6
-#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:462
+#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:474
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Stop"
 msgstr ""
 
 #. +> trunk6
-#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:462
+#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:474
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Speak"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:466
+#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:478
 #: widgets/view/textautogeneratedelegateutils.cpp:70
 #, kde-format
 msgctxt "@info:tooltip"
@@ -2108,23 +2209,75 @@ msgid "Copy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:474
+#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:486
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Refresh"
 msgstr ""
 
 #. +> trunk6
-#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:608
+#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:620
 #, kde-format
 msgid "Block Code copied."
 msgstr ""
 
 #. +> trunk6
-#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:608
+#: widgets/view/delegate/textautogeneratelistviewdelegate.cpp:620
 #, kde-format
 msgctxt "@title"
 msgid "Copy Block Code"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/images/textautogenerateshowimagedialog.cpp:39
+#, kde-format
+msgctxt "@title:window"
+msgid "Display Image"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/images/textautogenerateshowimagedialog.cpp:59
+#, kde-format
+msgid "Copy Image to Clipboard"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/images/textautogenerateshowimagedialog.cpp:61
+#, kde-format
+msgid "Copy Location to Clipboard"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/images/textautogenerateshowimagedialog.cpp:143
+#, kde-format
+msgid "Other Application..."
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/images/textautogenerateshowimagewidget.cpp:51
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Zoom:"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/images/textautogenerateshowimagewidget.cpp:68
+#, kde-format
+msgctxt "@action:button"
+msgid "100%"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/images/textautogenerateshowimagewidget.cpp:75
+#, kde-format
+msgctxt "@action:button"
+msgid "Fit to View"
+msgstr ""
+
+#. +> trunk6
+#: widgets/view/images/textautogenerateshowimagewidget.cpp:108
+#, kde-format
+msgid "Save Image"
 msgstr ""
 
 #. +> trunk6 stable6

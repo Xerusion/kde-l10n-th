@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-25 11:12+0200\n"
+"POT-Creation-Date: 2025-12-04 09:40+0100\n"
 "PO-Revision-Date: 2010-12-17 20:54+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -172,6 +172,12 @@ msgstr ""
 msgid "Device:"
 msgstr ""
 
+#. +> stable6 stable5
+#: ui/main.qml:88
+#, kde-format
+msgid "Device enabled"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
 #: ui/main.qml:87
 #, fuzzy, kde-format
@@ -179,20 +185,41 @@ msgstr ""
 msgid "General:"
 msgstr "ทั่วไป"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6
 #: ui/main.qml:88
 #, kde-format
-msgid "Device enabled"
+msgid "Enable device"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:105
+#, kde-format
+msgctxt "@title:group"
+msgid "Left and right buttons:"
+msgstr ""
+
+#. +> trunk6
+#: ui/main.qml:106
+#, fuzzy, kde-format
+#| msgid "Le&ft handed"
+msgid "Swap (left-handed mode)"
+msgstr "ใช้มือซ้าย"
+
+#. +> stable6
 #: ui/main.qml:103
 #, fuzzy, kde-format
 #| msgid "Le&ft handed"
 msgid "Left-handed mode"
 msgstr "ใช้มือซ้าย"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/main.qml:121
+#, kde-format
+msgctxt "@option:check 'both' refers to the left and right buttons'"
+msgid "Press both simultaneously to middle-click"
+msgstr ""
+
+#. +> stable6
 #: ui/main.qml:118
 #, kde-format
 msgctxt "@option:check"
@@ -200,75 +227,75 @@ msgid "Press left and right buttons for middle-click"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:130
+#: ui/main.qml:133
 #, kde-format
 msgctxt "@info:tooltip from ContextualHelpButton"
 msgid "Activating this setting increases click latency by 50ms. The extra delay is needed to correctly detect simultaneous left and right button presses."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:142
+#: ui/main.qml:148
 #, fuzzy, kde-format
 #| msgid "Pointer threshold:"
 msgid "Pointer speed:"
 msgstr "ขีดเริ่มของตัวชี้:"
 
 #. +> trunk6 stable6
-#: ui/main.qml:221
+#: ui/main.qml:227
 #, fuzzy, kde-format
 #| msgid "Pointer acceleration:"
 msgid "Enable pointer acceleration"
 msgstr "การเร่งความเร็วตัวชี้:"
 
 #. +> trunk6 stable6
-#: ui/main.qml:235
+#: ui/main.qml:241
 #, kde-format
 msgctxt "@info:tooltip from ContextualHelpButton"
 msgid "When enabled, pointer travel distance increases with faster movement speed."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:245
+#: ui/main.qml:254
 #, fuzzy, kde-format
 #| msgid "Pointer threshold:"
 msgid "Scrolling speed:"
 msgstr "ขีดเริ่มของตัวชี้:"
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:295
+#: ui/main.qml:304
 #, kde-format
 msgctxt "Slower Scroll"
 msgid "Slower"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:304
+#: ui/main.qml:313
 #, kde-format
 msgctxt "Faster Scroll Speed"
 msgid "Faster"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:312
+#: ui/main.qml:321
 #, kde-format
 msgid "Scrolling:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:313
+#: ui/main.qml:322
 #, fuzzy, kde-format
 #| msgid "Re&verse scroll direction"
 msgid "Invert scroll direction"
 msgstr "กลับทิศทางการเลื่อนบรรทัด"
 
 #. +> trunk6 stable6
-#: ui/main.qml:330
+#: ui/main.qml:339
 #, kde-format
 msgid "Hold down middle button and move mouse to scroll"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:342
+#: ui/main.qml:351
 #, kde-format
 msgctxt "@info:tooltip from ContextualHelpButton"
 msgid "This will interfere with applications that use middle-button drag, such as some image editors, document viewers, or video games. It may be used on any device, but is intended primarily as a substitute for scroll wheels on devices that do not have any."

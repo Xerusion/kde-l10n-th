@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kaidan_qt\n"
-"POT-Creation-Date: 2025-11-12 08:14+0100\n"
+"POT-Creation-Date: 2025-12-08 11:36+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -12,61 +12,61 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6
-#: src/Account.cpp:479
+#: src/Account.cpp:493
 msgctxt "Connection|"
 msgid "Connected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:481
+#: src/Account.cpp:495
 msgctxt "Connection|"
 msgid "Connecting…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:483
+#: src/Account.cpp:497
 msgctxt "Connection|"
 msgid "Disconnected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:494
+#: src/Account.cpp:508
 msgctxt "Connection|"
 msgid "Invalid username or password."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:496
+#: src/Account.cpp:510
 msgctxt "Connection|"
 msgid "Cannot connect to the server. Please check your internet connection."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:498
+#: src/Account.cpp:512
 msgctxt "Connection|"
 msgid "Error while trying to connect securely."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:500
+#: src/Account.cpp:514
 msgctxt "Connection|"
 msgid "The server doesn't support secure connections."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:502
+#: src/Account.cpp:516
 msgctxt "Connection|"
 msgid "Could not connect to the server. Please check your internet connection or your server name."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:504
+#: src/Account.cpp:518
 msgctxt "Connection|"
 msgid "The server is offline or blocked by a firewall."
 msgstr ""
 
 #. +> trunk6
-#: src/Account.cpp:506
+#: src/Account.cpp:520
 msgctxt "Connection|"
 msgid "Authentication protocol not supported by the server."
 msgstr ""
@@ -78,31 +78,31 @@ msgid "Authentification protocol not supported by the server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:508
+#: src/Account.cpp:522
 msgctxt "Connection|"
 msgid "The connection could not be refreshed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:510
+#: src/Account.cpp:524
 msgctxt "Connection|"
 msgid "The internet access is not permitted. Please check your system's internet access configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:512
+#: src/Account.cpp:526
 msgctxt "Connection|"
 msgid "This server does not support registration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:514
+#: src/Account.cpp:528
 msgctxt "Connection|"
 msgid "Could not log in. Confirm the email message you received first."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:516
+#: src/Account.cpp:530
 msgctxt "Connection|"
 msgid "Could not connect to the server."
 msgstr ""
@@ -268,30 +268,36 @@ msgid "Leaving group chat"
 msgstr ""
 
 #. +> trunk6
-#: src/FileSharingController.cpp:354 src/FileSharingController.cpp:472
+#: src/FileSharingController.cpp:353 src/FileSharingController.cpp:471
 msgctxt "FileSharingController|"
 msgid "Canceled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/FileSharingController.cpp:393
+#: src/FileSharingController.cpp:392
 #, qt-format
 msgctxt "FileSharingController|"
 msgid "Could not download file: %1"
 msgstr ""
 
 #. +> trunk6
-#: src/FileSharingController.cpp:555
+#: src/FileSharingController.cpp:554
 #, qt-format
 msgctxt "FileSharingController|"
 msgid "Upload failed: %1"
 msgstr ""
 
 #. +> trunk6
-#: src/FileSharingController.cpp:565
+#: src/FileSharingController.cpp:564
 #, qt-format
 msgctxt "FileSharingController|"
 msgid "Could not upload file: %1"
+msgstr ""
+
+#. +> trunk6
+#: src/Globals.h:99
+msgctxt "QObject|"
+msgid "No selection"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -524,20 +530,20 @@ msgid "'%1' cannot be sent because it is larger than %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageController.cpp:274
+#: src/MessageController.cpp:273
 msgctxt "MessageController|"
 msgid "Message could not be sent."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageController.cpp:647
+#: src/MessageController.cpp:646
 #, qt-format
 msgctxt "MessageController|"
 msgid "This message is encrypted with %1 but could not be decrypted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageController.cpp:1051
+#: src/MessageController.cpp:1050
 #, qt-format
 msgctxt "MessageController|"
 msgid "Reaction could not be sent: %1"
@@ -740,25 +746,25 @@ msgctxt "QObject|"
 msgid "Offline"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/ProviderListModel.cpp:32
-msgctxt "ProviderListModel|"
+#. +> trunk6
+#: src/ProviderModel.cpp:73
+msgctxt "ProviderModel|"
 msgid "Custom provider"
 msgstr ""
 
 #. Unlimited file size for uploading
 #. ----------
 #. Deletion of message history stored on provider
-#. +> trunk6 stable6
-#: src/ProviderListModel.cpp:101 src/ProviderListModel.cpp:111
-msgctxt "ProviderListModel|"
+#. +> trunk6
+#: src/ProviderModel.cpp:114 src/ProviderModel.cpp:130
+msgctxt "ProviderModel|"
 msgid "Unlimited"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/ProviderListModel.cpp:113
+#. +> trunk6
+#: src/ProviderModel.cpp:132
 #, qt-format
-msgctxt "ProviderListModel|"
+msgctxt "ProviderModel|"
 msgid "%1 days"
 msgstr ""
 
@@ -1208,7 +1214,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/qml/details/AccountDetailsContent.qml:731
-#: src/qml/details/AccountDetailsContent.qml:1019
+#: src/qml/details/AccountDetailsContent.qml:993
 msgctxt "AccountDetailsContent|"
 msgid "Password"
 msgstr ""
@@ -1223,6 +1229,12 @@ msgstr ""
 #: src/qml/details/AccountDetailsContent.qml:734
 msgctxt "AccountDetailsContent|"
 msgid "Enter different password to change it"
+msgstr ""
+
+#. +> stable6
+#: src/qml/details/AccountDetailsContent.qml:911
+msgctxt "AccountDetailsContent|"
+msgid "Enter different connection settings to change them"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1304,147 +1316,153 @@ msgctxt "AccountDetailsContent|"
 msgid "Configure the hostname and port to connect to (empty fields for default values)"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:885
+#. +> trunk6
+#: src/qml/details/AccountDetailsContent.qml:897
 msgctxt "AccountDetailsContent|"
-msgid "Change connection settings"
+msgid "Apply changes"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/details/AccountDetailsContent.qml:898
+msgctxt "AccountDetailsContent|"
+msgid "Applying changes…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:894
-msgctxt "AccountDetailsContent|"
-msgid "Enter different connection settings to change them"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:943
+#: src/qml/details/AccountDetailsContent.qml:928
 #, qt-format
 msgctxt "AccountDetailsContent|"
 msgid "Connection settings could not be changed: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:958
+#: src/qml/details/AccountDetailsContent.qml:941
 msgctxt "AccountDetailsContent|"
 msgid "Connection settings changed"
 msgstr ""
 
+#. +> stable6
+#: src/qml/details/AccountDetailsContent.qml:902
+msgctxt "AccountDetailsContent|"
+msgid "Change connection settings"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:978
+#: src/qml/details/AccountDetailsContent.qml:952
 msgctxt "AccountDetailsContent|"
 msgid "Switch Device"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:982
+#: src/qml/details/AccountDetailsContent.qml:956
 msgctxt "AccountDetailsContent|"
 msgid "Never show the information in this section to anyone else. It would allow unlimited access to your account!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:988
+#: src/qml/details/AccountDetailsContent.qml:962
 msgctxt "AccountDetailsContent|"
 msgid "Show login QR code"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:989
+#: src/qml/details/AccountDetailsContent.qml:963
 msgctxt "AccountDetailsContent|"
 msgid "Scan the QR code by another device to log in on it"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1006
+#: src/qml/details/AccountDetailsContent.qml:980
 msgctxt "AccountDetailsContent|"
 msgid "Show credentials"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1007
+#: src/qml/details/AccountDetailsContent.qml:981
 msgctxt "AccountDetailsContent|"
 msgid "Enter the credentials in another device to log in on it"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1013
+#: src/qml/details/AccountDetailsContent.qml:987
 msgctxt "AccountDetailsContent|"
 msgid "Chat address"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1031
+#: src/qml/details/AccountDetailsContent.qml:1005
 msgctxt "AccountDetailsContent|"
 msgid "Migration"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1036
+#: src/qml/details/AccountDetailsContent.qml:1010
 msgctxt "AccountDetailsContent|"
 msgid "Migrate account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1037
+#: src/qml/details/AccountDetailsContent.qml:1011
 msgctxt "AccountDetailsContent|"
 msgid "Preparing account migration…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1039
+#: src/qml/details/AccountDetailsContent.qml:1013
 msgctxt "AccountDetailsContent|"
 msgid "This may take a while"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1039
+#: src/qml/details/AccountDetailsContent.qml:1013
 msgctxt "AccountDetailsContent|"
 msgid "Migrate account data (except chat history) to another account. Your current account will be removed from this app. Back up your credentials and chat history if needed!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1061
+#: src/qml/details/AccountDetailsContent.qml:1035
 msgctxt "AccountDetailsContent|"
 msgid "Removal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1067
+#: src/qml/details/AccountDetailsContent.qml:1041
 msgctxt "AccountDetailsContent|"
 msgid "Remove from Kaidan"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1068
+#: src/qml/details/AccountDetailsContent.qml:1042
 msgctxt "AccountDetailsContent|"
 msgid "Remove account from this app. Back up your credentials and chat history if needed!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1076
+#: src/qml/details/AccountDetailsContent.qml:1050
 msgctxt "AccountDetailsContent|"
 msgid "Removing account…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1083
+#: src/qml/details/AccountDetailsContent.qml:1057
 msgctxt "AccountDetailsContent|"
 msgid "Delete completely"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1084
+#: src/qml/details/AccountDetailsContent.qml:1058
 msgctxt "AccountDetailsContent|"
 msgid "Delete account from provider. You will not be able to use your account again!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1092
+#: src/qml/details/AccountDetailsContent.qml:1066
 msgctxt "AccountDetailsContent|"
 msgid "Deleting account…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/AccountDetailsContent.qml:1099
+#: src/qml/details/AccountDetailsContent.qml:1073
 #, qt-format
 msgctxt "AccountDetailsContent|"
 msgid "Your account could not be deleted from the server. Therefore, it was also not removed from this app: %1"
@@ -1790,73 +1808,73 @@ msgid "All your contact's known devices are verified"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/DetailsContent.qml:57
+#: src/qml/details/DetailsContent.qml:58
 msgctxt "DetailsContent|"
 msgid "Media"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/DetailsContent.qml:67
+#: src/qml/details/DetailsContent.qml:68
 msgctxt "DetailsContent|"
 msgid "Automatic downloads"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/DetailsContent.qml:68
+#: src/qml/details/DetailsContent.qml:69
 msgctxt "DetailsContent|"
 msgid "Download media automatically"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/DetailsContent.qml:108
+#: src/qml/details/DetailsContent.qml:109
 msgctxt "DetailsContent|"
 msgid "Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/DetailsContent.qml:140
+#: src/qml/details/DetailsContent.qml:141
 msgctxt "DetailsContent|"
 msgid "Labels"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/DetailsContent.qml:161
+#: src/qml/details/DetailsContent.qml:162
 msgctxt "DetailsContent|"
 msgid "Sharing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/DetailsContent.qml:166
+#: src/qml/details/DetailsContent.qml:167
 msgctxt "DetailsContent|"
 msgid "Show QR code"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/DetailsContent.qml:181
+#: src/qml/details/DetailsContent.qml:182
 msgctxt "DetailsContent|"
 msgid "Copy QR code"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/DetailsContent.qml:183
+#: src/qml/details/DetailsContent.qml:184
 msgctxt "DetailsContent|"
 msgid "QR code copied to clipboard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/DetailsContent.qml:188
+#: src/qml/details/DetailsContent.qml:189
 msgctxt "DetailsContent|"
 msgid "Copy chat address"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/DetailsContent.qml:194
+#: src/qml/details/DetailsContent.qml:195
 msgctxt "DetailsContent|"
 msgid "Copy invitation link"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/details/DetailsContent.qml:196
+#: src/qml/details/DetailsContent.qml:197
 msgctxt "DetailsContent|"
 msgid "Invitation link copied to clipboard"
 msgstr ""
@@ -2759,7 +2777,7 @@ msgid "Step 2: Let your contact scan <b>your</b> QR code"
 msgstr ""
 
 #. +> trunk6
-#: src/qml/elements/ContactInvitationHintDelegate.qml:21
+#: src/qml/elements/ContactInvitationHintDelegate.qml:22
 msgctxt "ContactInvitationHintDelegate|"
 msgid "Invite contacts to this group…"
 msgstr ""
@@ -2789,21 +2807,33 @@ msgid "Copy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/CustomConnectionSettings.qml:28
+#: src/qml/elements/CustomConnectionSettings.qml:37
 msgctxt "CustomConnectionSettings|"
 msgid "Hostname:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/CustomConnectionSettings.qml:32
+#: src/qml/elements/CustomConnectionSettings.qml:41
 msgctxt "CustomConnectionSettings|"
 msgid "The hostname must not contain blank spaces"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/CustomConnectionSettings.qml:52
+#: src/qml/elements/CustomConnectionSettings.qml:61
 msgctxt "CustomConnectionSettings|"
 msgid "Port:"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/CustomConnectionSettings.qml:107
+msgctxt "CustomConnectionSettings|"
+msgid "Plain authentication (SASL PLAIN)"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/CustomConnectionSettings.qml:108
+msgctxt "CustomConnectionSettings|"
+msgid "Required if your provider uses LDAP which is often the case in organizations where you can log in with a single account"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3117,7 +3147,13 @@ msgctxt "LoginArea|"
 msgid "Scan login QR code"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/elements/LoginArea.qml:56
+msgctxt "LoginArea|"
+msgid "Show connection settings"
+msgstr ""
+
+#. +> stable6
 #: src/qml/elements/LoginArea.qml:57
 msgctxt "LoginArea|"
 msgid "Connection settings"
@@ -3205,6 +3241,108 @@ msgstr ""
 #: src/qml/elements/MessageReactionRetryButton.qml:23
 msgctxt "MessageReactionRetryButton|"
 msgid "Retry updating reactions"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:18
+msgctxt "ProviderFilterArea|"
+msgid "Registration via Kaidan"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:19
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers that allow to create an account directly via Kaidan"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:25
+msgctxt "ProviderFilterArea|"
+msgid "Free of charge"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:26
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers that are free of charge"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:32
+msgctxt "ProviderFilterArea|"
+msgid "Password reset"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:33
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers that allow to reset your password"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:39
+msgctxt "ProviderFilterArea|"
+msgid "Green hosting"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:40
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers whose service runs on renewable energy"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:46
+msgctxt "ProviderFilterArea|"
+msgid "Bus factor"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:54
+msgctxt "ProviderFilterArea|"
+msgid "Location"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:55
+msgctxt "ProviderFilterArea|"
+msgid "Show only providers that store and process their data in the selected country"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:62
+msgctxt "ProviderFilterArea|"
+msgid "Size of shared media"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:70
+msgctxt "ProviderFilterArea|"
+msgid "Size of all shared media in total"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:78
+msgctxt "ProviderFilterArea|"
+msgid "Media storage duration"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:86
+msgctxt "ProviderFilterArea|"
+msgid "Message storage duration"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:94
+msgctxt "ProviderFilterArea|"
+msgid "Availability"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/elements/ProviderFilterArea.qml:102
+msgctxt "ProviderFilterArea|"
+msgid "Organization"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3306,61 +3444,61 @@ msgid "Media"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:27
+#: src/qml/elements/RosterFilterArea.qml:28
 msgctxt "RosterFilterArea|"
 msgid "Available contacts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:31
+#: src/qml/elements/RosterFilterArea.qml:32
 msgctxt "RosterFilterArea|"
 msgid "Unavailable contacts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:35
+#: src/qml/elements/RosterFilterArea.qml:36
 msgctxt "RosterFilterArea|"
 msgid "Private groups"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:39
+#: src/qml/elements/RosterFilterArea.qml:40
 msgctxt "RosterFilterArea|"
 msgid "Public groups"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:51
+#: src/qml/elements/RosterFilterArea.qml:52
 msgctxt "RosterFilterArea|"
 msgid "Filter by type"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:52
+#: src/qml/elements/RosterFilterArea.qml:53
 msgctxt "RosterFilterArea|"
 msgid "Show only entries of specific types"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:113
+#: src/qml/elements/RosterFilterArea.qml:114
 msgctxt "RosterFilterArea|"
 msgid "Filter by accounts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:114
+#: src/qml/elements/RosterFilterArea.qml:115
 msgctxt "RosterFilterArea|"
 msgid "Show only chats of selected accounts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:175
+#: src/qml/elements/RosterFilterArea.qml:176
 msgctxt "RosterFilterArea|"
 msgid "Filter by labels"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/RosterFilterArea.qml:176
+#: src/qml/elements/RosterFilterArea.qml:177
 msgctxt "RosterFilterArea|"
 msgid "Show only chats with selected labels"
 msgstr ""
@@ -3693,74 +3831,94 @@ msgctxt "ProviderPage|"
 msgid "Choose a Provider"
 msgstr ""
 
+#. +> trunk6
+#: src/qml/registration/ProviderPage.qml:26
+#: src/qml/registration/ProviderPage.qml:270
+#: src/qml/registration/ProviderPage.qml:283
+msgctxt "ProviderPage|"
+msgid "Filter"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:39
+#: src/qml/registration/ProviderPage.qml:50
 msgctxt "ProviderPage|"
 msgid "Choose a provider to register!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:110
+#: src/qml/registration/ProviderPage.qml:117
 msgctxt "ProviderPage|"
 msgid "Provider Address"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/registration/ProviderPage.qml:128
+msgctxt "ProviderPage|"
+msgid "Show connection settings"
+msgstr ""
+
+#. +> stable6
 #: src/qml/registration/ProviderPage.qml:123
 msgctxt "ProviderPage|"
 msgid "Connection settings"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:172
+#. +> trunk6
+#: src/qml/registration/ProviderPage.qml:175
 msgctxt "ProviderPage|"
-msgid "Server locations"
+msgid "Data storage/processing locations"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:177
+#: src/qml/registration/ProviderPage.qml:180
 msgctxt "ProviderPage|"
 msgid "Languages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:182
+#: src/qml/registration/ProviderPage.qml:185
 msgctxt "ProviderPage|"
 msgid "Available/Listed since"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:187
+#: src/qml/registration/ProviderPage.qml:190
 msgctxt "ProviderPage|"
 msgid "Maximum size of shared media"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/qml/registration/ProviderPage.qml:195
+msgctxt "ProviderPage|"
+msgid "Message storage duration"
+msgstr ""
+
+#. +> stable6
 #: src/qml/registration/ProviderPage.qml:192
 msgctxt "ProviderPage|"
 msgid "Messages storage duration"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:196
+#: src/qml/registration/ProviderPage.qml:200
 msgctxt "ProviderPage|"
 msgid "Visit details page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:197
+#: src/qml/registration/ProviderPage.qml:201
 msgctxt "ProviderPage|"
 msgid "Open the provider's details web page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:211
+#: src/qml/registration/ProviderPage.qml:215
 msgctxt "ProviderPage|"
 msgid "Choose"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:212
+#: src/qml/registration/ProviderPage.qml:216
 msgctxt "ProviderPage|"
 msgid "Requesting registration…"
 msgstr ""
@@ -3772,15 +3930,21 @@ msgid "You must enter a provider address"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:304
+#: src/qml/registration/ProviderPage.qml:333
 msgctxt "ProviderPage|"
 msgid "The provider does not support registration via this app."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/registration/ProviderPage.qml:307
+#: src/qml/registration/ProviderPage.qml:336
 msgctxt "ProviderPage|"
 msgid "You are temporarily blocked: "
+msgstr ""
+
+#. +> stable6
+#: src/qml/registration/ProviderPage.qml:172
+msgctxt "ProviderPage|"
+msgid "Server locations"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4047,6 +4211,28 @@ msgstr ""
 #: src/VCardModel.cpp:142
 msgctxt "VCardModel|"
 msgid "Website"
+msgstr ""
+
+#. +> stable6
+#: src/ProviderListModel.cpp:32
+msgctxt "ProviderListModel|"
+msgid "Custom provider"
+msgstr ""
+
+#. Unlimited file size for uploading
+#. ----------
+#. Deletion of message history stored on provider
+#. +> stable6
+#: src/ProviderListModel.cpp:101 src/ProviderListModel.cpp:111
+msgctxt "ProviderListModel|"
+msgid "Unlimited"
+msgstr ""
+
+#. +> stable6
+#: src/ProviderListModel.cpp:113
+#, qt-format
+msgctxt "ProviderListModel|"
+msgid "%1 days"
 msgstr ""
 
 #. +> stable6

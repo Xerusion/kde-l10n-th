@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-21 06:32+0100\n"
+"POT-Creation-Date: 2025-12-10 10:23+0100\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -63,7 +63,7 @@ msgstr "นาฬิกาแบบเข็ม"
 #: applets/systemmonitor/diskusage/metadata.json
 #: applets/systemmonitor/net/metadata.json
 #: applets/systemmonitor/systemmonitor/package/metadata.json
-#: applets/systemtray/package/metadata.json wallpapers/color/metadata.json
+#: applets/systemtray/metadata.json wallpapers/color/metadata.json
 #: wallpapers/image/imagepackage/metadata.json
 #: wallpapers/image/slideshowpackage/metadata.json
 msgctxt "Authors Name"
@@ -71,7 +71,7 @@ msgid "Marco Martin"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/appmenu/package/metadata.json
+#: applets/appmenu/metadata.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Minimal Menu"
@@ -80,13 +80,13 @@ msgid "Global Menu"
 msgstr "เมนูย่อ"
 
 #. +> trunk6 stable6 stable5
-#: applets/appmenu/package/metadata.json
+#: applets/appmenu/metadata.json
 msgctxt "Description"
 msgid "Global menubar in your Plasma Desktop"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/appmenu/package/metadata.json applets/notifications/metadata.json
+#: applets/appmenu/metadata.json applets/notifications/metadata.json
 #: applets/systemmonitor/coreusage/metadata.json
 #: applets/systemmonitor/cpu/metadata.json
 #: applets/systemmonitor/memory/metadata.json kcms/colors/kcm_colors.json
@@ -95,39 +95,38 @@ msgid "Kai Uwe Broulik"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/calendar/package/metadata.json
+#: applets/calendar/metadata.json
 msgctxt "Name"
 msgid "Calendar"
 msgstr "ปฏิทิน"
 
 #. +> trunk6 stable6 stable5
-#: applets/calendar/package/metadata.json
+#: applets/calendar/metadata.json
 msgctxt "Description"
 msgid "Month display with your appointments and events"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/calendar/package/metadata.json
-#: applets/mediacontroller/metadata.json
+#: applets/calendar/metadata.json applets/mediacontroller/metadata.json
 #: runners/recentdocuments/plasma-runner-recentdocuments.json
 msgctxt "Authors Name"
 msgid "Sebastian Kügler"
 msgstr ""
 
 #. +> trunk6 stable6
-#: applets/cameraindicator/package/metadata.json
+#: applets/cameraindicator/metadata.json
 msgctxt "Name"
 msgid "Camera Indicator"
 msgstr ""
 
 #. +> trunk6 stable6
-#: applets/cameraindicator/package/metadata.json
+#: applets/cameraindicator/metadata.json
 msgctxt "Description"
 msgid "Shows whether any camera is currently used by an app"
 msgstr ""
 
 #. +> trunk6 stable6
-#: applets/cameraindicator/package/metadata.json
+#: applets/cameraindicator/metadata.json
 msgctxt "Authors Name"
 msgid "Fushan Wen"
 msgstr ""
@@ -203,13 +202,13 @@ msgid "Martin Klapetek"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/icon/package/metadata.json
+#: applets/icon/metadata.json
 msgctxt "Name"
 msgid "Icon"
 msgstr "ภาพไอคอน"
 
 #. +> trunk6 stable6 stable5
-#: applets/icon/package/metadata.json
+#: applets/icon/metadata.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A generic icon"
@@ -218,7 +217,7 @@ msgid "A generic icon"
 msgstr "ภาพไอคอนทั่วไป"
 
 #. +> trunk6 stable6 stable5
-#: applets/icon/package/metadata.json applets/panelspacer/metadata.json
+#: applets/icon/metadata.json applets/panelspacer/metadata.json
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Plasma Desktop Shell"
@@ -469,25 +468,16 @@ msgid "Displays a configurable chart of a system monitor sensor"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/systemtray/package/metadata.json
+#: applets/systemtray/metadata.json
 msgctxt "Name"
 msgid "System Tray"
 msgstr "ถาดระบบ"
 
 #. +> trunk6
-#: applets/systemtray/package/metadata.json
+#: applets/systemtray/metadata.json
 msgctxt "Description"
 msgid "Quickly access system features and application status icons"
 msgstr ""
-
-#. +> stable6 stable5
-#: applets/systemtray/package/metadata.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Access hidden applications minimized in the system tray"
-msgctxt "Description"
-msgid "Access hidden applications minimized in the system tray"
-msgstr "เข้าใช้งานโปรแกรมที่ซ่อนตัวอยู่ในถาดระบบ"
 
 #. +> trunk6 stable6 stable5
 #: appmenu/appmenu.json
@@ -650,27 +640,6 @@ msgstr "การแจ้งให้ทราบของโปรแกรม
 msgctxt "Description"
 msgid "Passive visual notifications for the user."
 msgstr "ระบบการแจ้งให้ผู้ใช้งานทราบถึงเหตุการณ์ต่าง ๆ"
-
-#. +> trunk6 stable6 stable5
-#: dataengines/time/plasma-dataengine-time.json
-msgctxt "Name"
-msgid "Date and Time"
-msgstr "วันและเวลา"
-
-#. +> trunk6 stable6 stable5
-#: dataengines/time/plasma-dataengine-time.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Date and time by timezone"
-msgctxt "Description"
-msgid "Date and time by timezone"
-msgstr "วันและเวลาตามเขตเวลา"
-
-#. +> trunk6 stable6 stable5
-#: dataengines/time/plasma-dataengine-time.json
-msgctxt "Authors Name"
-msgid "Aaron Seigo"
-msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: devicenotifications/devicenotifications.json
@@ -1612,6 +1581,36 @@ msgstr ""
 #: wallpapers/image/wallpaperfileitemactionplugin/wallpaperfileitemaction.json
 msgctxt "Authors Name"
 msgid "Julius Zint"
+msgstr ""
+
+#. +> stable6 stable5
+#: applets/systemtray/package/metadata.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Access hidden applications minimized in the system tray"
+msgctxt "Description"
+msgid "Access hidden applications minimized in the system tray"
+msgstr "เข้าใช้งานโปรแกรมที่ซ่อนตัวอยู่ในถาดระบบ"
+
+#. +> stable6 stable5
+#: dataengines/time/plasma-dataengine-time.json
+msgctxt "Name"
+msgid "Date and Time"
+msgstr "วันและเวลา"
+
+#. +> stable6 stable5
+#: dataengines/time/plasma-dataengine-time.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Date and time by timezone"
+msgctxt "Description"
+msgid "Date and time by timezone"
+msgstr "วันและเวลาตามเขตเวลา"
+
+#. +> stable6 stable5
+#: dataengines/time/plasma-dataengine-time.json
+msgctxt "Authors Name"
+msgid "Aaron Seigo"
 msgstr ""
 
 #. +> stable6 stable5

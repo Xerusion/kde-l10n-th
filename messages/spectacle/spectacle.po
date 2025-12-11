@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-19 09:26+0100\n"
+"POT-Creation-Date: 2025-12-10 10:24+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -11,6 +11,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "translatable folder name"
+msgid "Screenshots"
+msgstr ""
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "part of default image filename template"
+msgid "Screenshot"
+msgstr ""
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "translatable folder name"
+msgid "Screencasts"
+msgstr ""
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "part of default video filename template"
+msgid "Screencast"
+msgstr ""
 
 #. +> trunk6 stable6
 #: src/CaptureModeModel.cpp:162
@@ -732,6 +756,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:intoolbar number stamp tool"
 msgid "Number"
+msgstr ""
+
+#. +> trunk6
+#: src/Gui/CancelAction.qml:9
+#, kde-format
+msgctxt "@action cancel selection"
+msgid "Cancel"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1752,13 +1783,6 @@ msgstr ""
 msgid "Compression quality for lossy file formats"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/Gui/SettingsDialog/spectacle.kcfg:144
-#, kde-format
-msgctxt "translatable folder name"
-msgid "Screenshots"
-msgstr ""
-
 #. i18n: ectx: label, entry (preferredImageFormat), group (ImageSave)
 #. +> trunk6 stable6
 #: src/Gui/SettingsDialog/spectacle.kcfg:147
@@ -1771,13 +1795,6 @@ msgstr ""
 #: src/Gui/SettingsDialog/spectacle.kcfg:151
 #, kde-format
 msgid "The filename template used when saving screenshots"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/Gui/SettingsDialog/spectacle.kcfg:156
-#, kde-format
-msgctxt "part of default image filename template"
-msgid "Screenshot"
 msgstr ""
 
 #. i18n: ectx: label, entry (lastImageSaveLocation), group (ImageSave)
@@ -1810,20 +1827,6 @@ msgstr ""
 #: src/Gui/SettingsDialog/spectacle.kcfg:190
 #, kde-format
 msgid "The filename template used when saving screencasts"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/Gui/SettingsDialog/spectacle.kcfg:190
-#, kde-format
-msgctxt "translatable folder name"
-msgid "Screencasts"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/Gui/SettingsDialog/spectacle.kcfg:195
-#, kde-format
-msgctxt "part of default video filename template"
-msgid "Screencast"
 msgstr ""
 
 #. i18n: ectx: label, entry (freehandStrokeWidth), group (Annotations)
@@ -2773,8 +2776,18 @@ msgstr ""
 #. i18nc because it doesn't work with the link replacement logic.
 #. Also see https://invent.kde.org/graphics/spectacle/-/merge_requests/432#note_1111125
 #.
-#. +> trunk6 stable6
+#. +> trunk6
 #: src/SpectacleCore.cpp:531
+#, kde-format
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr ""
+
+#. i18nc because it doesn't work with the link replacement logic.
+#. Also see https://invent.kde.org/graphics/spectacle/-/merge_requests/432#note_1111125
+#.
+#. +> stable6
+#: src/SpectacleCore.cpp:532
 #, kde-format
 msgctxt "@info"
 msgid "QR Code found: %1"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-22 10:33+0100\n"
+"POT-Creation-Date: 2025-12-10 10:23+0100\n"
 "PO-Revision-Date: 2008-07-21 16:42+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -173,13 +173,13 @@ msgid "GnuPG consulting"
 msgstr "ใ&บรับรอง"
 
 #. +> trunk6 stable6
-#: src/aboutdata.cpp:126 src/aboutdata.cpp:150
+#: src/aboutdata.cpp:126 src/aboutdata.cpp:152
 #, kde-format
 msgid "Kleopatra"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/aboutdata.cpp:128 src/aboutdata.cpp:150
+#: src/aboutdata.cpp:128 src/aboutdata.cpp:152
 #, kde-format
 msgid "Certificate manager and cryptography app"
 msgstr ""
@@ -4371,7 +4371,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/conf/groupsconfigwidget.cpp:142 src/dialogs/debugdialog.cpp:136
-#: src/dialogs/editgroupdialog.cpp:192 src/dialogs/editgroupdialog.cpp:281
+#: src/dialogs/editgroupdialog.cpp:189 src/dialogs/editgroupdialog.cpp:278
 #, fuzzy, kde-format
 #| msgid "&Search:"
 msgctxt "@label"
@@ -4394,8 +4394,8 @@ msgid "Search the list for groups matching the search term."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/conf/groupsconfigwidget.cpp:151 src/dialogs/editgroupdialog.cpp:201
-#: src/dialogs/editgroupdialog.cpp:290
+#: src/conf/groupsconfigwidget.cpp:151 src/dialogs/editgroupdialog.cpp:198
+#: src/dialogs/editgroupdialog.cpp:287
 #, fuzzy, kde-format
 #| msgid "User-ID"
 msgctxt "@info::placeholder"
@@ -6308,7 +6308,7 @@ msgstr "ไม่พบผู้ออกใบรับรอง (%1)"
 
 #. +> trunk6 stable6
 #: src/crypto/gui/signencryptwidget.cpp:505
-#: src/crypto/gui/signencryptwidget.cpp:539 src/dialogs/editgroupdialog.cpp:219
+#: src/crypto/gui/signencryptwidget.cpp:539 src/dialogs/editgroupdialog.cpp:216
 #, fuzzy, kde-format
 #| msgid "Encrypt only"
 msgid "Usable for Encryption"
@@ -6316,7 +6316,7 @@ msgstr "เข้ารหัสเท่านั้น"
 
 #. +> trunk6 stable6
 #: src/crypto/gui/signencryptwidget.cpp:506
-#: src/crypto/gui/signencryptwidget.cpp:540 src/dialogs/editgroupdialog.cpp:220
+#: src/crypto/gui/signencryptwidget.cpp:540 src/dialogs/editgroupdialog.cpp:217
 #, fuzzy, kde-format
 #| msgid "Issuer Certificate Not Found (%1)"
 msgid "Certificates that can be used for encryption"
@@ -8236,7 +8236,7 @@ msgid "This certificate cannot be used for encryption."
 msgstr "ไม่พบผู้ออกใบรับรอง (%1)"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:174
+#: src/dialogs/editgroupdialog.cpp:171
 #, fuzzy, kde-format
 #| msgid "Name"
 msgctxt "Name of a group of keys"
@@ -8244,7 +8244,7 @@ msgid "Name:"
 msgstr "ชื่อ"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:186
+#: src/dialogs/editgroupdialog.cpp:183
 #, fuzzy, kde-format
 #| msgid "&Certificates"
 msgctxt "@title"
@@ -8252,7 +8252,7 @@ msgid "Available Certificates"
 msgstr "ใ&บรับรอง"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:193 src/dialogs/editgroupdialog.cpp:199
+#: src/dialogs/editgroupdialog.cpp:190 src/dialogs/editgroupdialog.cpp:196
 #, fuzzy, kde-format
 #| msgid "Default certificate"
 msgctxt "@label"
@@ -8260,7 +8260,7 @@ msgid "Search available certificates"
 msgstr "ใบรับรองปริยาย"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:194 src/dialogs/editgroupdialog.cpp:200
+#: src/dialogs/editgroupdialog.cpp:191 src/dialogs/editgroupdialog.cpp:197
 #, fuzzy, kde-format
 #| msgid "Default certificate"
 msgctxt "@info:tooltip"
@@ -8268,14 +8268,14 @@ msgid "Search the list of available certificates for any that match the search t
 msgstr "ใบรับรองปริยาย"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:207 src/view/searchbar.cpp:136
+#: src/dialogs/editgroupdialog.cpp:204 src/view/searchbar.cpp:136
 #, fuzzy, kde-format
 #| msgid "certificate"
 msgid "Filter certificates by category"
 msgstr "ใบรับรอง"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:208 src/view/searchbar.cpp:137
+#: src/dialogs/editgroupdialog.cpp:205 src/view/searchbar.cpp:137
 #, fuzzy, kde-format
 #| msgid "Default certificate"
 msgctxt "@info:tooltip"
@@ -8283,7 +8283,7 @@ msgid "Show only certificates that belong to the selected category."
 msgstr "ใบรับรองปริยาย"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:243
+#: src/dialogs/editgroupdialog.cpp:239
 #, fuzzy, kde-format
 #| msgid "&Certificates"
 msgctxt "@label"
@@ -8291,7 +8291,7 @@ msgid "Available certificates"
 msgstr "ใ&บรับรอง"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:259
+#: src/dialogs/editgroupdialog.cpp:256
 #, fuzzy, kde-format
 #| msgid "Select Certificate File"
 msgctxt "@action:button"
@@ -8299,7 +8299,7 @@ msgid "Add Selected Certificates"
 msgstr "เลือกแฟ้มของใบรับรอง"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:260
+#: src/dialogs/editgroupdialog.cpp:257
 #, fuzzy, kde-format
 #| msgid "Default certificate"
 msgctxt "@info:tooltip"
@@ -8307,7 +8307,7 @@ msgid "Add the selected certificates to the group"
 msgstr "ใบรับรองปริยาย"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:266
+#: src/dialogs/editgroupdialog.cpp:263
 #, fuzzy, kde-format
 #| msgid "Default certificate"
 msgctxt "@action:button"
@@ -8315,7 +8315,7 @@ msgid "Remove Selected Certificates"
 msgstr "ใบรับรองปริยาย"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:267
+#: src/dialogs/editgroupdialog.cpp:264
 #, fuzzy, kde-format
 #| msgid "Remove Selected"
 msgctxt "@info:tooltip"
@@ -8323,7 +8323,7 @@ msgid "Remove the selected certificates from the group"
 msgstr "ลบที่เลือกไว้"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:275
+#: src/dialogs/editgroupdialog.cpp:272
 #, fuzzy, kde-format
 #| msgid "Certificate Import Failed"
 msgctxt "@title"
@@ -8331,7 +8331,7 @@ msgid "Certificates in the Group"
 msgstr "การนำเข้าใบรับรองล้มเหลว"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:282 src/dialogs/editgroupdialog.cpp:288
+#: src/dialogs/editgroupdialog.cpp:279 src/dialogs/editgroupdialog.cpp:285
 #, fuzzy, kde-format
 #| msgid "Select Certificate File"
 msgctxt "@label"
@@ -8339,7 +8339,7 @@ msgid "Search for certificates in the group"
 msgstr "เลือกแฟ้มของใบรับรอง"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:283 src/dialogs/editgroupdialog.cpp:289
+#: src/dialogs/editgroupdialog.cpp:280 src/dialogs/editgroupdialog.cpp:286
 #, fuzzy, kde-format
 #| msgid "Default certificate"
 msgctxt "@info:tooltip"
@@ -8347,7 +8347,7 @@ msgid "Search the list of certificates in the group for any that match the searc
 msgstr "ใบรับรองปริยาย"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:302
+#: src/dialogs/editgroupdialog.cpp:298
 #, fuzzy, kde-format
 #| msgid "Certificate Import Failed"
 msgctxt "@label"
@@ -8355,7 +8355,7 @@ msgid "Certificates in group"
 msgstr "การนำเข้าใบรับรองล้มเหลว"
 
 #. +> trunk6 stable6
-#: src/dialogs/editgroupdialog.cpp:482
+#: src/dialogs/editgroupdialog.cpp:475
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Group"
@@ -10543,7 +10543,7 @@ msgid "Prohibited"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:166
+#: src/main.cpp:162
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -10553,14 +10553,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:170
+#: src/main.cpp:166
 #, kde-format
 msgctxt "@title"
 msgid "GpgME Too Old"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:192
+#: src/main.cpp:188
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -10569,27 +10569,27 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:196
+#: src/main.cpp:192
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>Are you sure that you want to continue?</para>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:197
+#: src/main.cpp:193
 #, kde-format
 msgctxt "@title"
 msgid "Running as Administrator"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:263
+#: src/main.cpp:259
 #, kde-format
 msgid "GPG UI Server Error"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:267
+#: src/main.cpp:263
 #, kde-format
 msgctxt "This error message is only shown on Windows when the socket to communicate with Windows Explorer could not be created. This often times means that the whole installation is buggy. e.g. GnuPG is not installed at all."
 msgid ""
@@ -10600,7 +10600,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:298
+#: src/main.cpp:294
 #, kde-format
 msgid "Invalid arguments: %1"
 msgstr ""
@@ -12263,7 +12263,7 @@ msgid "certificates.%1"
 msgstr "ใบรับรอง"
 
 #. +> trunk6 stable6
-#: src/utils/kuniqueservice_win.cpp:127
+#: src/utils/kuniqueservice_win.cpp:148
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -12273,7 +12273,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/utils/kuniqueservice_win.cpp:130
+#: src/utils/kuniqueservice_win.cpp:151
 #, kde-kuit-format
 msgctxt "@title"
 msgid "<application>Kleopatra</application> failed to start"

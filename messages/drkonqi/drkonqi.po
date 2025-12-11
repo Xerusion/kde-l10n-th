@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-22 10:33+0100\n"
+"POT-Creation-Date: 2025-11-28 09:59+0100\n"
 "PO-Revision-Date: 2010-12-18 08:01+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -225,7 +225,7 @@ msgstr "เกิดข้อผิดพลาดขึ้นระหว่า
 
 #. i18nc here because that'd close the html tag but we need to append an unordered list of paths
 #. +> trunk6 stable6 stable5
-#: backtracewidget.cpp:409 qml/DeveloperPage.qml:240
+#: backtracewidget.cpp:409 qml/DeveloperPage.qml:265
 #, kde-format
 msgid "The packages containing debug information for the following application and libraries are missing:"
 msgstr "ไม่มีแพกเกจต่าง ๆ ที่มีข้อมูลการดีบั๊กสำหรับโปรแกรมและไลบรารีต่อไปนี้:"
@@ -452,21 +452,28 @@ msgid "Application Crash"
 msgstr "เริ่มโปรแกรมอีกครั้ง"
 
 #. +> trunk6
-#: coredump/launcher/GlobalNotifierTruck.cpp:109
+#: coredump/launcher/GlobalNotifierTruck.cpp:110
+#, kde-kuit-format
+msgctxt "@info notification text. %1 is a exe name. %2 is either a service name such as firefox or a cgroup name such as org.mozilla.firefox"
+msgid "<command>%1</command> (part of <command>%2</command>) has encountered a fatal error and was closed."
+msgstr ""
+
+#. +> trunk6
+#: coredump/launcher/GlobalNotifierTruck.cpp:114
 #, kde-format
 msgctxt "@title:notification service refers to a background service such as kwalletd or kded"
 msgid "Service Crash"
 msgstr ""
 
 #. +> trunk6
-#: coredump/launcher/GlobalNotifierTruck.cpp:112
+#: coredump/launcher/GlobalNotifierTruck.cpp:116
 #, kde-kuit-format
-msgctxt "@info"
+msgctxt "@info notification text. %1 is a exe name"
 msgid "<command>%1</command> has encountered a fatal error and was closed."
 msgstr ""
 
 #. +> trunk6
-#: coredump/launcher/GlobalNotifierTruck.cpp:113
+#: coredump/launcher/GlobalNotifierTruck.cpp:119
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Details:"
@@ -475,14 +482,14 @@ msgid "Details"
 msgstr "รายละเอียด:"
 
 #. +> trunk6
-#: coredump/launcher/GlobalNotifierTruck.cpp:119
+#: coredump/launcher/GlobalNotifierTruck.cpp:125
 #, kde-format
 msgctxt "@title"
 msgid "Failed to Launch"
 msgstr ""
 
 #. +> trunk6
-#: coredump/launcher/GlobalNotifierTruck.cpp:120
+#: coredump/launcher/GlobalNotifierTruck.cpp:126
 #, kde-format
 msgctxt "@info"
 msgid "Could not launch the Crashed Process Viewer."
@@ -592,28 +599,28 @@ msgid "Use this button to restart the crashed application."
 msgstr "ใช้ปุ่มนี้เพื่อเริ่มการทำงานของโปรแกรมที่ทำงานล้มเหลวใหม่อีกครั้ง"
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:126
+#: drkonqiwidgetsdialog.cpp:56
 #, kde-format
 msgctxt "@title:tab general information"
 msgid "&General"
 msgstr "&ข้อมูลทั่วไป"
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:130
+#: drkonqiwidgetsdialog.cpp:60
 #, kde-format
 msgctxt "@title:tab"
 msgid "&Developer Information"
 msgstr "&ข้อมูลสำหรับนักพัฒนา"
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:165
+#: drkonqiwidgetsdialog.cpp:95
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
 msgstr "<para>ต้องขออภัยด้วย เนื่องจากโปรแกรม <application>%1</application> ปิดตัวเองอย่างไม่คาดคิด</para>"
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:173
+#: drkonqiwidgetsdialog.cpp:103
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -631,7 +638,7 @@ msgstr ""
 " โปรดทำการรายงานข้อผิดพลาดนี้ว่า \"drkonqi\" ทำงานผิดพลาดด้วยตัวคุณเอง ไปยัง %1 และอย่างลืมรวบรวมข้อมูลการทำงานย้อนกลับที่อยู่ในแท็บข้อมูลสำหรับนักพัฒนาด้วย</para>"
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:183
+#: drkonqiwidgetsdialog.cpp:113
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -646,7 +653,7 @@ msgstr ""
 "คุณสามารถรายงานข้อผิดพลาดนี้ด้วยตัวคุณเอง ไปยัง %1 (โดยรวมข้อมูลการทำงานย้อนกลับที่อยู่ในแท็บข้อมูลสำหรับนักพัฒนาด้วย)</para>"
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:192
+#: drkonqiwidgetsdialog.cpp:122
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -655,7 +662,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:201 qml/main.qml:64
+#: drkonqiwidgetsdialog.cpp:131 qml/main.qml:64
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -672,7 +679,7 @@ msgstr ""
 "<para><note>คุณสามารถปิดกล่องแจ้งรายงานนี้ได้อย่างปลอดภัย หากคุณไม่ต้องการจะแจ้งรายงานข้อผิดพลาดนี้</note></para>"
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:208 qml/main.qml:26
+#: drkonqiwidgetsdialog.cpp:138 qml/main.qml:26
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "<para>You cannot report this error, because the application does not provide a bug reporting address.</para>"
@@ -681,14 +688,14 @@ msgid "<para>You cannot report this error, because <application>%1</application>
 msgstr "<para>คุณไม่สามารถจะรายงานข้อผิดพลาดนี้ได้ เนื่องจากตัวโปรแกรม ไม่ได้ให้ที่อยู่ในการแจ้งข้อผิดพลาดมาด้วย</para>"
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:216
+#: drkonqiwidgetsdialog.cpp:146
 #, kde-format
 msgctxt "@label"
 msgid "Details:"
 msgstr "รายละเอียด:"
 
 #. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:220
+#: drkonqiwidgetsdialog.cpp:150
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "<para>Executable: <application>%1</application> PID: <numid>%2</numid> Signal: %3 (%4)</para>"
@@ -699,6 +706,13 @@ msgstr ""
 "เลขโพรเซส (PID): <numid>%2</numid> <br/>"
 "สัญญาณ: %3 (%4)</para>"
 
+#. +> trunk6 stable6 stable5
+#: drkonqiwidgetsdialog.cpp:179
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close this dialog (you will lose the crash information.)"
+msgstr "ปิดกล่องแจ้งรายงานนี้ (คุณจะสูญเสียข้อมูลรายละเอียดของการทำงานล้มเหลว)"
+
 #. +> stable5
 #: drkonqidialog.cpp:241
 #, fuzzy, kde-format
@@ -707,13 +721,6 @@ msgstr ""
 msgctxt "@action:button this is the debug menu button label which contains the debugging applications"
 msgid "&Debug"
 msgstr "ดีบั๊ก"
-
-#. +> trunk6 stable6 stable5
-#: drkonqidialog.cpp:249
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Close this dialog (you will lose the crash information.)"
-msgstr "ปิดกล่องแจ้งรายงานนี้ (คุณจะสูญเสียข้อมูลรายละเอียดของการทำงานล้มเหลว)"
 
 #. +> stable5
 #: drkonqidialog.cpp:243
@@ -730,7 +737,7 @@ msgid "Debug in %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:155
+#: main.cpp:156
 #, fuzzy, kde-format
 #| msgid "The KDE Crash Handler"
 msgid "Crash Handler"
@@ -743,7 +750,7 @@ msgid "The KDE Crash Handler"
 msgstr "ตัวดักจับข้อขัดข้องของ KDE"
 
 #. +> trunk6 stable6
-#: main.cpp:157
+#: main.cpp:158
 #, fuzzy, kde-format
 #| msgid "The KDE Crash Handler gives the user feedback if a program has crashed."
 msgid "Crash Handler gives the user feedback if a program has crashed."
@@ -756,42 +763,42 @@ msgid "The KDE Crash Handler gives the user feedback if a program has crashed."
 msgstr "ตัวดักจับข้อขัดข้องของ KDE เพื่อให้ผู้ใช้ได้แจ้งข้อผิดพลาดกลับ หากโปรแกรมทำงานขัดข้อง"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:160
+#: main.cpp:161
 #, fuzzy, kde-format
 #| msgid "(C) 2000-2009, The DrKonqi Authors"
 msgid "(C) 2000-2018, The DrKonqi Authors"
 msgstr "สงวนลิขสิทธิ์ (C) 2000-2009, กลุ่มผู้เขียน DrKonqi"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:161
+#: main.cpp:162
 #, kde-format
 msgctxt "@info:credit"
 msgid "Hans Petter Bieker"
 msgstr "Hans Petter Bieker"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:162
+#: main.cpp:163
 #, kde-format
 msgctxt "@info:credit"
 msgid "Dario Andres Rodriguez"
 msgstr "Dario Andres Rodriguez"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:163
+#: main.cpp:164
 #, kde-format
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:164
+#: main.cpp:165
 #, kde-format
 msgctxt "@info:credit"
 msgid "A. L. Spehr"
 msgstr "A. L. Spehr"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:171
+#: main.cpp:172
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The signal number that was caught"
@@ -800,7 +807,7 @@ msgid "The signal <number> that was caught"
 msgstr "หมายเลขสัญญาณที่ได้รับ"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:172
+#: main.cpp:173
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Name of the program"
@@ -809,7 +816,7 @@ msgid "<Name> of the program"
 msgstr "ชื่อของโปรแกรม"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:173
+#: main.cpp:174
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Path to the executable"
@@ -818,7 +825,7 @@ msgid "<Path> to the executable"
 msgstr "พาธของแฟ้มประมวลผล"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:174
+#: main.cpp:175
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The version of the program"
@@ -827,7 +834,7 @@ msgid "The <version> of the program"
 msgstr "รุ่นของโปรแกรม"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:175
+#: main.cpp:176
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The bug address to use"
@@ -836,7 +843,7 @@ msgid "The bug <address> to use"
 msgstr "ที่อยู่ของข้อผิดพลาดที่ใช้"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:176
+#: main.cpp:177
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Translated name of the program"
@@ -845,14 +852,14 @@ msgid "Translated <name> of the program"
 msgstr "ชื่อของโปรแกรมที่ผ่านการแปลแล้ว"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:177
+#: main.cpp:178
 #, kde-format
 msgctxt "@info:shell"
 msgid "Bugzilla product name"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:178
+#: main.cpp:179
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The PID of the program"
@@ -861,7 +868,7 @@ msgid "The <PID> of the program"
 msgstr "เลขโพรเซส (PID) ของโปรแกรม"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:179
+#: main.cpp:180
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Startup ID of the program"
@@ -870,35 +877,35 @@ msgid "Startup <ID> of the program"
 msgstr "เลขเริ่มทำงานของโปรแกรม"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:180
+#: main.cpp:181
 #, kde-format
 msgctxt "@info:shell"
 msgid "The program was started by kdeinit"
 msgstr "โปรแกรมถูกเรียกให้ทำงานโดย kdeinit"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:181
+#: main.cpp:182
 #, kde-format
 msgctxt "@info:shell"
 msgid "Disable arbitrary disk access"
 msgstr "ปิดการให้เข้าถึงดิสก์"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:182
+#: main.cpp:183
 #, kde-format
 msgctxt "@info:shell"
 msgid "The program has already been restarted"
 msgstr "โปรแกรมถูกเริ่มการทำงานใหม่ไปแล้ว"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:185
+#: main.cpp:186
 #, kde-format
 msgctxt "@info:shell"
 msgid "Keep the program running and generate the backtrace at startup"
 msgstr "ให้โปรแกรมนี้ทำงานต่อไป และสร้างการติดตามย้อนกลับของการเริ่มทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:187
+#: main.cpp:188
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The thread id of the failing thread"
@@ -907,7 +914,7 @@ msgid "The <thread id> of the failing thread"
 msgstr "หมายเลขเธรดของเธรดที่ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:188
+#: main.cpp:189
 #, kde-format
 msgctxt "@info:shell"
 msgid "Do not show a notification but launch the debug dialog directly"
@@ -1069,7 +1076,7 @@ msgid "Custom settings of the application that may be related"
 msgstr "การตั้งค่าต่าง ๆ ของโปรแกรมด้วยตนเอง ซึ่งอาจจะเกี่ยวพันกับข้อขัดข้อง"
 
 #. +> trunk6 stable6 stable5
-#: qml/ContextPage.qml:85 qml/DeveloperPage.qml:233
+#: qml/ContextPage.qml:85 qml/DeveloperPage.qml:258
 msgctxt "@title"
 msgid "Not Sufficiently Useful"
 msgstr ""
@@ -1207,7 +1214,7 @@ msgid "Retry"
 msgstr "ลองใหม่..."
 
 #. +> trunk6 stable6
-#: qml/DeveloperPage.qml:193
+#: qml/DeveloperPage.qml:218
 #, fuzzy
 #| msgctxt "@info/rich"
 #| msgid "You can click the <interface>Install Debug Symbols</interface> button in order to automatically install the missing debugging information packages. If this method does not work: please read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful backtrace; install the needed packages (<link url='%2'>list of files</link>) and click the <interface>Reload</interface> button."
@@ -1231,7 +1238,7 @@ msgid ""
 msgstr "คุณสามารถคลิกที่ปุ่ม <interface>ติดตั้งสัญลักษณ์ต่าง ๆ สำหรับดีบั๊ก</interface> เพื่อให้มีการติดตั้งแพกเกจที่ไม่มีอยู่ของข้อมูลของการดีบั๊ก หากวิธีนี้ยังใช้ไม่ได้อีก: โปรดอ่าน <link url='%1'>จะสร้างรายงานข้อผิดพลาดที่มีประโยชน์ได้อย่างไร</link> เพื่อเรียนรู้ว่าจะหาค่าการติดตามการทำงานย้อนกลับได้อย่างไร จากนั้นให้ทำการติดตั้งแพกเกจต่าง ๆ (<link url='%2'>รายการแฟ้มต่าง ๆ</link>) แล้วคลิกที่ปุม <interface>โหลดใหม่อีกครั้ง</interface>"
 
 #. +> trunk6 stable6
-#: qml/DeveloperPage.qml:201
+#: qml/DeveloperPage.qml:226
 #, fuzzy
 #| msgctxt "@info/rich"
 #| msgid "Please read <link url='%1'>How to create useful crash reports</link> to learn how to get a useful backtrace; install the needed packages (<link url='%2'>list of files</link>) and click the <interface>Reload</interface> button."
@@ -1253,7 +1260,7 @@ msgid ""
 msgstr "โปรดอ่าน <link url='%1'>จะสร้างรายงานข้อผิดพลาดที่มีประโยชน์ได้อย่างไร</link> เพื่อเรียนรู้ว่าจะหาค่าการติดตามการทำงานย้อนกลับได้อย่างไร จากนั้นให้ทำการติดตั้งแพกเกจต่าง ๆ (<link url='%2'>รายการแฟ้มต่าง ๆ</link>) แล้วคลิกที่ปุม <interface>โหลดใหม่อีกครั้ง</interface>"
 
 #. +> trunk6 stable6
-#: qml/DeveloperPage.qml:208
+#: qml/DeveloperPage.qml:233
 #, fuzzy
 #| msgctxt "@info/rich"
 #| msgid "You could try to regenerate the backtrace by clicking the <interface>Reload</interface> button."
@@ -1262,7 +1269,7 @@ msgid "Try to regenerate the backtrace by clicking the <interface>Reload</interf
 msgstr "คุณสามารถทำการสร้างการติดตามการทำงานย้อนกลับได้ใหม่ โดยคลิกที่ปุ่ม <interface>โหลดใหม่อีกคร้ง</interface>"
 
 #. +> trunk6 stable6
-#: qml/DeveloperPage.qml:212
+#: qml/DeveloperPage.qml:237
 #, fuzzy
 #| msgctxt "@info/rich"
 #| msgid "You need to install the debugger package (%1) and click the <interface>Reload</interface> button."
@@ -1280,7 +1287,7 @@ msgid "<emphasis strong='true'>You need to first install the debugger applicatio
 msgstr "คุณจำเป็นต้องทำการติดตั้งแพกเกจเครื่องมือดีบั๊ก (%1) ก่อน แล้วคลิกที่ปุ่ม <interface>โหลดใหม่อีกคร้ง</interface>"
 
 #. +> trunk6 stable6
-#: qml/DeveloperPage.qml:216
+#: qml/DeveloperPage.qml:241
 #, fuzzy
 #| msgctxt "@info/rich"
 #| msgid "You could try to regenerate the backtrace by clicking the <interface>Reload</interface> button."
