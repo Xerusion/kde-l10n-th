@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-dialer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-23 22:41+0100\n"
+"POT-Creation-Date: 2025-12-10 10:23+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -25,27 +25,39 @@ msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:153 src/qml/main.qml:111
+#: src/main.cpp:138 src/qml/Main.qml:119
 #, kde-format
 msgid "Phone"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:155
+#: src/main.cpp:140
 #, kde-format
 msgid "Plasma phone dialer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:157
+#: src/main.cpp:142
 #, kde-format
 msgid "© 2015-2022 KDE Community"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/main.cpp:160
+#: src/main.cpp:145
 #, kde-format
 msgid "Alexey Andreyev"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/call/ActiveCallView.qml:57
+#, kde-format
+msgid "Incoming..."
+msgstr ""
+
+#. +> trunk6
+#: src/qml/call/ActiveCallView.qml:60
+#, kde-format
+msgid "Calling..."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -54,40 +66,40 @@ msgstr ""
 msgid "Swipe to accept"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/call/CallPage.qml:49 src/qml/call/InCallInlineMessage.qml:13
+#. +> trunk6
+#: src/qml/call/CallPage.qml:50
 #, kde-format
-msgid "Active call list"
+msgid "Call"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/call/CallPage.qml:56
+#, kde-format
+msgid "Close"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/call/CallPage.qml:105
-#, kde-format
-msgid "Incoming..."
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/qml/call/CallPage.qml:108
-#, kde-format
-msgid "Calling..."
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/qml/call/CallPage.qml:139
+#: src/qml/call/CallPage.qml:115
 #, kde-format
 msgid "Keypad"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/call/CallPage.qml:150
+#: src/qml/call/CallPage.qml:127
 #, kde-format
 msgid "Speaker"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/call/CallPage.qml:161
+#: src/qml/call/CallPage.qml:139
 #, kde-format
 msgid "Mute"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/call/InCallInlineMessage.qml:13
+#, kde-format
+msgid "Active call list"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -97,35 +109,35 @@ msgid "View"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/components/BottomToolbar.qml:42 src/qml/components/Sidebar.qml:52
+#: src/qml/components/BottomToolbar.qml:94 src/qml/components/Sidebar.qml:57
 #, kde-format
 msgid "History"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/components/BottomToolbar.qml:55 src/qml/components/Sidebar.qml:71
+#: src/qml/components/BottomToolbar.qml:106 src/qml/components/Sidebar.qml:76
 #: src/qml/ContactsPage.qml:24
 #, kde-format
 msgid "Contacts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/components/BottomToolbar.qml:68 src/qml/components/Sidebar.qml:90
-#: src/qml/DialerPage.qml:24
+#: src/qml/components/BottomToolbar.qml:118 src/qml/components/Sidebar.qml:95
+#: src/qml/DialerPage.qml:27
 #, kde-format
 msgid "Dialer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/components/Sidebar.qml:118 src/qml/ContactsPage.qml:32
-#: src/qml/DialerPage.qml:69 src/qml/HistoryPage.qml:47
+#: src/qml/components/Sidebar.qml:121 src/qml/ContactsPage.qml:32
+#: src/qml/DialerPage.qml:42 src/qml/HistoryPage.qml:47
 #: src/qml/settings/SettingsPage.qml:26
 #, kde-format
 msgid "Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/components/Sidebar.qml:136
+#: src/qml/components/Sidebar.qml:139
 #, kde-format
 msgid "Quit"
 msgstr ""
@@ -143,19 +155,19 @@ msgid "Select number to call"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/ContactsPage.qml:160 src/qml/DialerPage.qml:140
+#: src/qml/ContactsPage.qml:160 src/qml/DialerPage.qml:114
 #, kde-format
 msgid "Telephony daemons are not responding"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/DialerPage.qml:150
+#: src/qml/DialerPage.qml:124
 #, kde-format
 msgid "Modem devices are not found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/DialerPage.qml:160
+#: src/qml/DialerPage.qml:134
 #, kde-format
 msgid "Voicemail number couldn't be found"
 msgstr ""
@@ -205,110 +217,110 @@ msgid "Adaptive Call Blocking"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/CallBlockSettingsPage.qml:32
+#: src/qml/settings/CallBlockSettingsPage.qml:34
 #, kde-format
 msgid "Ignore calls from unknown numbers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/CallBlockSettingsPage.qml:39
+#: src/qml/settings/CallBlockSettingsPage.qml:40
 #, kde-format
 msgid "When a call is an incoming from an unknown number"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/CallBlockSettingsPage.qml:47
+#: src/qml/settings/CallBlockSettingsPage.qml:48
 #, kde-format
 msgid "Immediately hang up"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/CallBlockSettingsPage.qml:53
+#: src/qml/settings/CallBlockSettingsPage.qml:54
 #, kde-format
 msgid "Ring without notification"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/CallBlockSettingsPage.qml:59
+#: src/qml/settings/CallBlockSettingsPage.qml:60
 #, kde-format
 msgid "Ring with silent notification"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/CallBlockSettingsPage.qml:68
+#: src/qml/settings/CallBlockSettingsPage.qml:69
 #, kde-format
 msgid "Allowed exceptions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/CallBlockSettingsPage.qml:78
+#: src/qml/settings/CallBlockSettingsPage.qml:79
 #, kde-format
 msgid "Anonymous numbers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/CallBlockSettingsPage.qml:86
+#: src/qml/settings/CallBlockSettingsPage.qml:87
 #, kde-format
 msgid "Existing outgoing call to number"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/CallBlockSettingsPage.qml:94
+#: src/qml/settings/CallBlockSettingsPage.qml:95
 #, kde-format
 msgid "Callback within"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/CallBlockSettingsPage.qml:113
+#: src/qml/settings/CallBlockSettingsPage.qml:114
 #, kde-format
 msgid "minutes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/CallBlockSettingsPage.qml:126
+#: src/qml/settings/CallBlockSettingsPage.qml:127
 #, kde-format
 msgid "Allowed phone number exceptions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/CallBlockSettingsPage.qml:148
-#: src/qml/settings/CallBlockSettingsPage.qml:186
+#: src/qml/settings/CallBlockSettingsPage.qml:149
+#: src/qml/settings/CallBlockSettingsPage.qml:187
 #, kde-format
 msgid "Add new pattern"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/SettingsPage.qml:34
+#: src/qml/settings/SettingsPage.qml:38
 #, kde-format
 msgid "About"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/SettingsPage.qml:46
+#: src/qml/settings/SettingsPage.qml:50
 #, kde-format
 msgid "Adaptive call blocking"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/SettingsPage.qml:59
+#: src/qml/settings/SettingsPage.qml:63
 #, kde-format
 msgid "Incoming call screen appearance"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/SettingsPage.qml:60
+#: src/qml/settings/SettingsPage.qml:64
 #, kde-format
 msgid "Buttons"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/SettingsPage.qml:60
+#: src/qml/settings/SettingsPage.qml:64
 #, kde-format
 msgid "Symmetric Swipe"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/settings/SettingsPage.qml:60
+#: src/qml/settings/SettingsPage.qml:64
 #, kde-format
 msgid "Asymmetric Swipe"
 msgstr ""

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-11 09:45+0100\n"
+"POT-Creation-Date: 2025-09-19 20:20+0200\n"
 "PO-Revision-Date: 2025-03-24 04:39+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -116,8 +116,7 @@ msgstr "รหัสผ่านกลุ่ม"
 #. +> trunk6 stable6 stable5
 #: vpnc.ui:141
 #, kde-format
-msgid ""
-"Enable hybrid authentication, i.e. use certificate in addition to password."
+msgid "Enable hybrid authentication, i.e. use certificate in addition to password."
 msgstr "เปิดการตรวจสอบสิทธิแบบไฮบริด เช่น ใช้ใบรับรองพร้อมกับรหัสผ่าน"
 
 #. i18n: ectx: property (text), widget (QCheckBox, useHybridAuth)
@@ -264,12 +263,8 @@ msgstr "พอร์ตภายในระบบ:"
 #. +> trunk6 stable6 stable5
 #: vpncadvanced.ui:190
 #, kde-format
-msgid ""
-"Local port to use (0-65535). 0 (default value) means random port. 500 is vpnc'"
-"s default."
-msgstr ""
-"พอร์ตภายในระบบที่จะใช้งาน (0-65536) ค่าเริ่มต้น (0) จะเป็นการสุ่มตัวเลข 500 เป"
-"็นค่าเริ่มต้นของ vpnc"
+msgid "Local port to use (0-65535). 0 (default value) means random port. 500 is vpnc's default."
+msgstr "พอร์ตภายในระบบที่จะใช้งาน (0-65536) ค่าเริ่มต้น (0) จะเป็นการสุ่มตัวเลข 500 เป็นค่าเริ่มต้นของ vpnc"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, localport)
 #. +> trunk6 stable6 stable5
@@ -312,106 +307,113 @@ msgctxt "VPNC vendor name"
 msgid "Netscreen"
 msgstr "Netscreen"
 
+#. +> trunk6 stable6
+#: vpncadvancedwidget.cpp:25
+#, kde-format
+msgctxt "VPNC vendor name"
+msgid "Fortigate"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:27
+#: vpncadvancedwidget.cpp:28
 #, kde-format
 msgctxt "VPNC encryption method"
 msgid "Secure (default)"
 msgstr "ปลอดภัย (ค่าเริ่มต้น)"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:28
+#: vpncadvancedwidget.cpp:29
 #, kde-format
 msgctxt "VPNC encryption method"
 msgid "Weak (DES encryption, use with caution)"
 msgstr "อ่อนแอ (การเข้ารหัส DES ใช้อย่างระมัดระวัง)"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:29
+#: vpncadvancedwidget.cpp:30
 #, kde-format
 msgctxt "VPNC encryption method"
 msgid "None (completely insecure)"
 msgstr "ไม่มี (ไม่ปลอดภัย)"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:32
+#: vpncadvancedwidget.cpp:33
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "NAT-T when available (default)"
 msgstr "NAT-T ถ้ามี (ค่าเริ่มต้น_"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:33
+#: vpncadvancedwidget.cpp:34
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "NAT-T always"
 msgstr "NAT-T ตลอดไป"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:34
+#: vpncadvancedwidget.cpp:35
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "Cisco UDP"
 msgstr "Cisco UDP"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:35
+#: vpncadvancedwidget.cpp:36
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "Disabled"
 msgstr "ปิดการใช้งาน"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:38
+#: vpncadvancedwidget.cpp:39
 #, kde-format
 msgctxt "IKE DH group"
 msgid "DH Group 1"
 msgstr "กลุ่ม DH 1"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:39
+#: vpncadvancedwidget.cpp:40
 #, kde-format
 msgctxt "IKE DH group"
 msgid "DH Group 2 (default)"
 msgstr "กลุ่ม DH 2 (ค่าเริ่มต้น)"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:40
+#: vpncadvancedwidget.cpp:41
 #, kde-format
 msgctxt "IKE DH group"
 msgid "DH Group 5"
 msgstr "กลุ่ม DH 5"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:43
+#: vpncadvancedwidget.cpp:44
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "Server (default)"
 msgstr "เซิร์ฟเวอร์ (ค่าเริ่มต้น)"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:44
+#: vpncadvancedwidget.cpp:45
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "None"
 msgstr "ไม่มี"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:45
+#: vpncadvancedwidget.cpp:46
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "DH Group 1"
 msgstr "กลุ่ม DH 1"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:46
+#: vpncadvancedwidget.cpp:47
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "DH Group 2"
 msgstr "กลุ่ม DH 2"
 
 #. +> trunk6 stable6 stable5
-#: vpncadvancedwidget.cpp:47
+#: vpncadvancedwidget.cpp:48
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "DH Group 5"

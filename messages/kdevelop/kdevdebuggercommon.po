@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-11 10:23+0100\n"
+"POT-Creation-Date: 2025-11-22 10:33+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -84,10 +84,64 @@ msgid "All Processes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dialogs/selectcoredialog.cpp:18
+#: dialogs/selectcoredialog.cpp:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Core File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/selectcoredialog.cpp:49
+#, kde-format
+msgid "Invalid executable file name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/selectcoredialog.cpp:55
+#, kde-format
+msgid "Executable file does not exist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/selectcoredialog.cpp:59
+#, kde-format
+msgid "Executable is not a file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/selectcoredialog.cpp:63
+#, kde-format
+msgid "Executable file is not readable"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/selectcoredialog.cpp:70
+#, kde-format
+msgid "Empty core file name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/selectcoredialog.cpp:74
+#, kde-format
+msgid "Invalid core file name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/selectcoredialog.cpp:80
+#, kde-format
+msgid "Core file does not exist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/selectcoredialog.cpp:84
+#, kde-format
+msgid "Core is not a file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/selectcoredialog.cpp:88
+#, kde-format
+msgid "Core file is not readable"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -107,30 +161,30 @@ msgid "Core file:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mibreakpointcontroller.cpp:795
+#: mibreakpointcontroller.cpp:810
 #, kde-format
 msgid ""
-"<br>"
+"\n"
 "Old value: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mibreakpointcontroller.cpp:798
+#: mibreakpointcontroller.cpp:813
 #, kde-format
 msgid ""
-"<br>"
+"\n"
 "New value: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugger.cpp:315
+#: midebugger.cpp:319
 #, kde-format
 msgctxt "<b>Internal debugger error</b>"
 msgid "<p>The debugger component encountered an internal error while processing the reply from the debugger. Please submit a bug report. The debug session will now end to prevent potential crash"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugger.cpp:318
+#: midebugger.cpp:322
 #, kde-format
 msgid ""
 "The exception is: %1\n"
@@ -138,20 +192,20 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugger.cpp:321
+#: midebugger.cpp:325
 #, kde-format
 msgctxt "@title:window"
 msgid "Internal Debugger Error"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugger.cpp:333 midebugsession.cpp:423
+#: midebugger.cpp:337 midebugsession.cpp:528
 #, kde-format
 msgid "Process exited"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugger.cpp:342
+#: midebugger.cpp:346
 #, kde-format
 msgid ""
 "<b>Could not start debugger.</b>"
@@ -159,13 +213,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugger.cpp:350
+#: midebugger.cpp:354
 #, kde-format
 msgid "Process failed to start"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugger.cpp:355
+#: midebugger.cpp:359
 #, kde-format
 msgid ""
 "<b>Debugger crashed.</b>"
@@ -175,27 +229,33 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugger.cpp:360
+#: midebugger.cpp:364
 #, kde-format
 msgctxt "@title:window"
 msgid "Debugger Crashed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugger.cpp:363
+#: midebugger.cpp:367
 #, kde-format
 msgid "Process crashed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebuggerplugin.cpp:114
+#: midebuggerplugin.cpp:47
+#, kde-format
+msgid "A program is already being debugged. Do you want to abort the currently running debug session and continue?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: midebuggerplugin.cpp:121
 #, kde-format
 msgctxt "@action"
 msgid "Examine Core File with %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebuggerplugin.cpp:116
+#: midebuggerplugin.cpp:123
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -204,14 +264,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebuggerplugin.cpp:128
+#: midebuggerplugin.cpp:135
 #, kde-format
 msgctxt "@action"
 msgid "Attach to Process with %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebuggerplugin.cpp:130
+#: midebuggerplugin.cpp:137
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -220,149 +280,116 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebuggerplugin.cpp:143
+#: midebuggerplugin.cpp:150
 #, kde-format
 msgid "KDevelop (%1) - %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebuggerplugin.cpp:217
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Evaluate: %1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: midebuggerplugin.cpp:219
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"<b>Evaluate expression</b>"
-"<p>Shows the value of the expression under the cursor.</p>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: midebuggerplugin.cpp:227
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Watch: %1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: midebuggerplugin.cpp:229
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"<b>Watch expression</b>"
-"<p>Adds the expression under the cursor to the Variables/Watch list.</p>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: midebuggerplugin.cpp:252
+#: midebuggerplugin.cpp:233
 #, kde-format
 msgid "Choose a core file to examine..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebuggerplugin.cpp:257 midebuggerplugin.cpp:277
-#, kde-format
-msgid "A program is already being debugged. Do you want to abort the currently running debug session and continue?"
-msgstr ""
-
-#. +> trunk6 stable6
-#: midebuggerplugin.cpp:259 midebuggerplugin.cpp:279
-#, kde-format
-msgctxt "@action:button"
-msgid "Abort Current Session"
-msgstr ""
-
-#. +> trunk6 stable6
-#: midebuggerplugin.cpp:272
+#: midebuggerplugin.cpp:254
 #, kde-format
 msgid "Choose a process to attach to..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebuggerplugin.cpp:293
+#: midebuggerplugin.cpp:268
 #, kde-format
 msgid "Not attaching to process %1: cannot attach the debugger to itself."
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebuggerplugin.cpp:313
+#: midebuggerplugin.cpp:288
 #, kde-format
 msgid "Debugger"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugjobs.cpp:86
+#: midebugjobs.cpp:104
 #, kde-format
 msgctxt "ProjectName: run configuration name"
 msgid "%1: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugjobs.cpp:107
+#: midebugjobs.cpp:170
 #, kde-format
 msgid "'%1' is not an executable"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugjobs.cpp:171
+#: midebugjobs.cpp:196
 #, kde-format
 msgid "Debug core file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugjobs.cpp:194
+#: midebugjobs.cpp:212
 #, kde-format
 msgid "Debug process %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:208
+#: midebuglauncher.cpp:61
+#, kde-format
+msgid "A program is already being debugged. Do you want to abort the currently running debug session and continue with the launch?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: midebugsession.cpp:281
 #, kde-format
 msgid "Running program"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:295
+#: midebugsession.cpp:354
 #, kde-format
 msgid "Attaching to process %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:326
+#: midebugsession.cpp:384
 #, kde-format
 msgid "<b>Could not attach debugger:</b><br />"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:336
+#: midebugsession.cpp:397
+#, kde-format
+msgid "<b>Could not start debugger:</b><br />"
+msgstr ""
+
+#. +> trunk6 stable6
+#: midebugsession.cpp:411
 #, kde-format
 msgid "Examining core file %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:408
+#: midebugsession.cpp:514
 #, kde-format
 msgid "Debugger stopped"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:428
+#: midebugsession.cpp:533
 #, kde-format
 msgid "Application is running"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:433
+#: midebugsession.cpp:538
 #, kde-format
 msgid "Application is paused"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:748
+#: midebugsession.cpp:843
 #, kde-format
 msgid ""
 "<b>Gdb command sent when debugger is not running</b><br>"
@@ -371,7 +398,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:860
+#: midebugsession.cpp:955
 #, kde-format
 msgid ""
 "<b>Invalid debugger command</b><br>"
@@ -379,31 +406,65 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:996
+#: midebugsession.cpp:1035
+#, kde-format
+msgid "<b>Failed to load core file:</b><br />"
+msgstr ""
+
+#. +> trunk6 stable6
+#: midebugsession.cpp:1124
 #, kde-format
 msgid "Exited with return code: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:998
+#: midebugsession.cpp:1126
 #, kde-format
 msgid "Exited normally"
 msgstr ""
 
-#. +> trunk6 stable6
-#: midebugsession.cpp:1005
+#. +> trunk6
+#: midebugsession.cpp:1135
+#, kde-format
+msgctxt "%1 - the name of a POSIX signal"
+msgid "Exited on signal %1"
+msgstr ""
+
+#. +> stable6
+#: midebugsession.cpp:1111
 #, kde-format
 msgid "Exited on signal %1"
 msgstr ""
 
-#. +> trunk6 stable6
-#: midebugsession.cpp:1040
+#. +> trunk6
+#: midebugsession.cpp:1137
+#, kde-format
+msgctxt "%1 - the name of a POSIX signal, %2 - a user-friendly name of the same signal"
+msgid "Exited on signal %1 (%2)"
+msgstr ""
+
+#. +> trunk6
+#: midebugsession.cpp:1173
+#, kde-format
+msgctxt "%1 - the name of a POSIX signal"
+msgid "Program received signal %1"
+msgstr ""
+
+#. +> trunk6
+#: midebugsession.cpp:1175
+#, kde-format
+msgctxt "%1 - the name of a POSIX signal, %2 - a user-friendly name of the same signal"
+msgid "Program received signal %1 (%2)"
+msgstr ""
+
+#. +> stable6
+#: midebugsession.cpp:1146
 #, kde-format
 msgid "Program received signal %1 (%2)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1172
+#: midebugsession.cpp:1294
 #, kde-format
 msgid "1 command in queue\n"
 msgid_plural "%1 commands in queue\n"
@@ -411,7 +472,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1173
+#: midebugsession.cpp:1295
 #, kde-format
 msgctxt "Only the 0 and 1 cases need to be translated"
 msgid "1 command being processed by gdb\n"
@@ -420,13 +481,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1174
+#: midebugsession.cpp:1296
 #, kde-format
 msgid "Debugger state: %1\n"
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1177
+#: midebugsession.cpp:1299
 #, kde-format
 msgid ""
 "Current command class: '%1'\n"
@@ -435,16 +496,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: midebugsession.cpp:1204
+#: midebugsession.cpp:1324
 #, kde-format
-msgid ""
-"<b>Debugger error</b>"
-"<p>Debugger reported the following error:"
-"<p><tt>%1"
+msgid "<b>Debugger error:</b><br />"
 msgstr ""
 
 #. +> trunk6 stable6
-#: miframestackmodel.cpp:69
+#: miframestackmodel.cpp:71
 #, kde-format
 msgid "(running)"
 msgstr ""
@@ -486,78 +544,78 @@ msgid "Unsigned"
 msgstr ""
 
 #. +> trunk6 stable6
-#: registers/registercontroller_arm.cpp:100
-#: registers/registercontroller_x86.cpp:100
+#: registers/registercontroller_arm.cpp:89
+#: registers/registercontroller_x86.cpp:89
 #, kde-format
 msgid "General"
 msgstr ""
 
 #. +> trunk6 stable6
-#: registers/registercontroller_arm.cpp:100
-#: registers/registercontroller_x86.cpp:100
+#: registers/registercontroller_arm.cpp:89
+#: registers/registercontroller_x86.cpp:89
 #, kde-format
 msgid "Flags"
 msgstr ""
 
 #. +> trunk6 stable6
-#: registers/registercontroller_arm.cpp:100
+#: registers/registercontroller_arm.cpp:89
 #, kde-format
 msgid "VFP single-word"
 msgstr ""
 
 #. +> trunk6 stable6
-#: registers/registercontroller_arm.cpp:100
+#: registers/registercontroller_arm.cpp:89
 #, kde-format
 msgid "VFP double-word"
 msgstr ""
 
 #. +> trunk6 stable6
-#: registers/registercontroller_arm.cpp:100
+#: registers/registercontroller_arm.cpp:89
 #, kde-format
 msgid "VFP quad-word"
 msgstr ""
 
 #. +> trunk6 stable6
-#: registers/registercontroller_x86.cpp:100
+#: registers/registercontroller_x86.cpp:89
 #, kde-format
 msgid "FPU"
 msgstr ""
 
 #. +> trunk6 stable6
-#: registers/registercontroller_x86.cpp:100
+#: registers/registercontroller_x86.cpp:89
 #, kde-format
 msgid "XMM"
 msgstr ""
 
 #. +> trunk6 stable6
-#: registers/registercontroller_x86.cpp:100
+#: registers/registercontroller_x86.cpp:89
 #, kde-format
 msgid "Segment"
 msgstr ""
 
 #. +> trunk6 stable6
-#: registers/registersview.cpp:51
+#: registers/registersview.cpp:59
 #, kde-format
 msgctxt "@title:menu"
 msgid "Format"
 msgstr ""
 
 #. +> trunk6 stable6
-#: registers/registersview.cpp:60
+#: registers/registersview.cpp:68
 #, kde-format
 msgctxt "@title:menu"
 msgid "Mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: registers/registersview.cpp:195
+#: registers/registersview.cpp:214
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Update"
 msgstr ""
 
 #. +> trunk6 stable6
-#: stty.cpp:252
+#: stty.cpp:269
 #, kde-format
 msgid ""
 "Cannot use the tty* or pty* devices.\n"
@@ -566,21 +624,21 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: stty.cpp:304
+#: stty.cpp:322
 #, kde-format
 msgid "%1 is incorrect terminal name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: stty.cpp:310
+#: stty.cpp:328
 #, kde-format
 msgid "Can't create a temporary file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: stty.cpp:357
+#: stty.cpp:366
 #, kde-format
-msgid "Can't receive %1 tty/pty. Check that %1 is actually a terminal and that it accepts these arguments: -e sh -c \"tty> %2 ;exec<&-;exec>&-;while :;do sleep 3600;done\""
+msgid "Can't receive %1 tty/pty. Check that %1 is actually a terminal and that it accepts these arguments: %2"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
@@ -671,84 +729,84 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, SelectAddressDialog)
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:44 widgets/selectaddressdialog.ui:14
+#: widgets/disassemblewidget.cpp:91 widgets/selectaddressdialog.ui:14
 #, kde-format
 msgctxt "@title:window"
 msgid "Address Selector"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:88
+#: widgets/disassemblewidget.cpp:132
 #, kde-format
 msgctxt "@action"
 msgid "Change &Address"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:92
+#: widgets/disassemblewidget.cpp:136
 #, kde-format
 msgctxt "@action"
 msgid "&Jump to Cursor"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:93
+#: widgets/disassemblewidget.cpp:137
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Sets the execution pointer to the current cursor position."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:96
+#: widgets/disassemblewidget.cpp:140
 #, kde-format
 msgctxt "@action"
 msgid "&Run to Cursor"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:97
+#: widgets/disassemblewidget.cpp:141
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Continues execution until the cursor position is reached."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:100
+#: widgets/disassemblewidget.cpp:144
 #, kde-format
 msgctxt "@option:check"
 msgid "&AT&&T"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:101
+#: widgets/disassemblewidget.cpp:145
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "GDB will use the AT&T disassembly flavor (e.g. mov 0xc(%ebp),%eax)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:105
+#: widgets/disassemblewidget.cpp:149
 #, kde-format
 msgctxt "@option:check"
 msgid "&Intel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:106
+#: widgets/disassemblewidget.cpp:150
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "GDB will use the Intel disassembly flavor (e.g. mov eax, DWORD PTR [ebp+0xc])."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:143
+#: widgets/disassemblewidget.cpp:189
 #, kde-format
 msgctxt "@title:menu"
 msgid "Disassembly Flavor"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:174
+#: widgets/disassemblewidget.cpp:220
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -757,28 +815,28 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:190
+#: widgets/disassemblewidget.cpp:236
 #, kde-format
 msgctxt "@title:column"
 msgid "Address"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:191
+#: widgets/disassemblewidget.cpp:237
 #, kde-format
 msgctxt "@title:column"
 msgid "Function"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:192
+#: widgets/disassemblewidget.cpp:238
 #, kde-format
 msgctxt "@title:column"
 msgid "Instruction"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/disassemblewidget.cpp:212
+#: widgets/disassemblewidget.cpp:258
 #, kde-format
 msgctxt "@title:window"
 msgid "Disassemble/Registers View"

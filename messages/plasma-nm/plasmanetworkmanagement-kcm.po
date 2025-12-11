@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-09 14:55+0100\n"
+"POT-Creation-Date: 2025-11-27 09:18+0100\n"
 "PO-Revision-Date: 2025-03-24 03:24+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -100,20 +100,15 @@ msgctxt "@title:window"
 msgid "Choose a Connection Type"
 msgstr "เลือกชนิดการเชื่อมต่อ"
 
-#. +> trunk6 stable6 stable5
-#: qml/AddConnectionDialog.qml:168
+#. +> stable5
+#: qml/AddConnectionDialog.qml:163
 msgid "Create"
 msgstr "สร้าง"
 
-#. +> trunk6 stable6 stable5
-#: qml/AddConnectionDialog.qml:179
+#. +> stable5
+#: qml/AddConnectionDialog.qml:174 qml/ConfigurationDialog.qml:112
 msgid "Cancel"
 msgstr "ยกเลิก"
-
-#. +> trunk6 stable6 stable5
-#: qml/AddConnectionDialog.qml:196 qml/main.qml:180
-msgid "Configuration"
-msgstr "การตั้งค่า"
 
 #. +> trunk6 stable6 stable5
 #: qml/ConfigurationDialog.qml:20
@@ -200,58 +195,125 @@ msgstr ""
 "abcdef, ABCDEF และ 0-9</li>"
 "</ul>"
 
+#. i18n is a way to use something pre-exposed to QML.
+#. +> trunk6 stable6
+#: qml/ConnectionItem.qml:29
+msgctxt "@label/rich"
+msgid "%1"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: qml/ConnectionItem.qml:108
+#: qml/ConnectionItem.qml:85
 msgid "Connect"
 msgstr "เชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
-#: qml/ConnectionItem.qml:108
+#: qml/ConnectionItem.qml:85
 msgid "Disconnect"
 msgstr "ตัดการเชื่อมต่อ"
 
+#. +> trunk6 stable6
+#: qml/ConnectionItem.qml:90
+msgctxt "@info:tooltip"
+msgid "Cannot connect to this network because it was not detected."
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: qml/ConnectionItem.qml:121
+#: qml/ConnectionItem.qml:95
 msgid "Delete"
 msgstr "ลบ"
 
 #. +> trunk6 stable6 stable5
-#: qml/ConnectionItem.qml:131
+#: qml/ConnectionItem.qml:106
 msgid "Export"
 msgstr "ส่งออก"
 
 #. +> trunk6 stable6 stable5
-#: qml/ConnectionItem.qml:141
+#: qml/ConnectionItem.qml:120
 msgid "Connected"
 msgstr "เชื่อมต่อแล้ว"
 
 #. +> trunk6 stable6 stable5
-#: qml/ConnectionItem.qml:143
+#: qml/ConnectionItem.qml:122
 msgid "Connecting"
 msgstr "กำลังเชื่อมต่อ"
 
+#. +> trunk6 stable6
+#: qml/ConnectionItem.qml:124
+msgctxt "@title:column Available networks"
+msgid "Available"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:130
+#: qml/main.qml:151
 msgid "Add new connection"
 msgstr "เพิ่มการเชื่อมต่อใหม่"
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:144
+#: qml/main.qml:169
 msgid "Remove selected connection"
 msgstr "ลบการเชื่อมต่อที่ถูกเลือก"
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:160
+#: qml/main.qml:187
 msgid "Export selected connection"
 msgstr "นำออกการเชื่อมต่อที่ถูกเลือก"
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:208
+#: qml/main.qml:212
+msgid "Configuration"
+msgstr "การตั้งค่า"
+
+#. +> trunk6 stable6 stable5
+#: qml/main.qml:239
 msgctxt "@title:window"
 msgid "Remove Connection"
 msgstr "ลบการเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
-#: qml/main.qml:209
+#: qml/main.qml:240
 msgid "Do you want to remove the connection '%1'?"
 msgstr "คุณอยากจะลบการเชื่อมต่อ '%1' หรือไม่?"
+
+#. +> trunk6 stable6
+#: qml/main.qml:262
+#, fuzzy
+#| msgid "Connect"
+msgctxt "@action:button Connect to network"
+msgid "Connect"
+msgstr "เชื่อมต่อ"
+
+#. +> trunk6 stable6
+#: qml/main.qml:268
+#, fuzzy
+#| msgid "Cancel"
+msgctxt "@action:button Cancel connecting to network"
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#. +> trunk6 stable6
+#: qml/main.qml:274
+#, fuzzy
+#| msgctxt "@label Hotspot password"
+#| msgid "Password:"
+msgctxt "@title:window"
+msgid "Enter Password"
+msgstr "รหัสผ่าน:"
+
+#. +> trunk6 stable6
+#: qml/main.qml:280
+msgctxt "@label %1 is the name of the network the user is connecting to"
+msgid "Network: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/main.qml:300
+msgctxt "@label key is a passcode"
+msgid "Password must be a valid WEP key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/main.qml:301
+msgctxt "@label password invalid length message"
+msgid "Password must be between 8 and 64 characters"
+msgstr ""

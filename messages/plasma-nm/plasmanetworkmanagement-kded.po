@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-19 14:35+0100\n"
+"POT-Creation-Date: 2025-11-02 11:42+0100\n"
 "PO-Revision-Date: 2025-03-24 04:40+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -39,25 +39,21 @@ msgid "Log in"
 msgstr "ลงชื่อเข้าใช้"
 
 #. +> trunk6 stable6 stable5
-#: connectivitymonitor.cpp:92
+#: connectivitymonitor.cpp:97
 #, kde-format
 msgid "Limited Connectivity"
 msgstr "การเชื่อมต่อถูกจำกัด"
 
 #. +> trunk6 stable6
-#: connectivitymonitor.cpp:93
+#: connectivitymonitor.cpp:98
 #, kde-format
-msgid ""
-"This device appears to be connected to a network but is unable to reach the In"
-"ternet."
+msgid "This device appears to be connected to a network but is unable to reach the Internet."
 msgstr "อุปกรณ์นี้เชื่อมต่อเครือข่ายแล้ว แต่ไม่สามารถเข้าถึงอินเทอร์เน็ตได้"
 
 #. +> stable5
 #: connectivitymonitor.cpp:92
 #, kde-format
-msgid ""
-"This device appears to be connected to a network but is unable to reach the in"
-"ternet."
+msgid "This device appears to be connected to a network but is unable to reach the internet."
 msgstr "อุปกรณ์นี้เชื่อมต่อเครือข่ายแล้ว แต่ไม่สามารถเข้าถึงอินเทอร์เน็ตได้"
 
 #. +> trunk6 stable6 stable5
@@ -77,293 +73,245 @@ msgstr "การปลดล็อก PIN/PUK ผิดพลาด"
 #. +> trunk6 stable6 stable5
 #: notification.cpp:97
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ConfigFailedReason"
+msgctxt "@info:status Notification when the device failed due to ConfigFailedReason"
 msgid "The device could not be configured"
 msgstr "อุปกรณ์ไม่สามารถตั้งค่าได้"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:100
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ConfigUnavailableReaso"
-"n"
+msgctxt "@info:status Notification when the device failed due to ConfigUnavailableReason"
 msgid "IP configuration was unavailable"
 msgstr "การตั้งค่า IP ไม่พร้อมใช้งาน"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:103
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ConfigExpiredReason"
+msgctxt "@info:status Notification when the device failed due to ConfigExpiredReason"
 msgid "IP configuration expired"
 msgstr "การตั้งค่า IP หมดอายุ"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:106
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to NoSecretsReason"
+msgctxt "@info:status Notification when the device failed due to NoSecretsReason"
 msgid "No secrets were provided"
 msgstr "ไม่มีรหัสลับให้มา"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:109
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to AuthSupplicantDisconne"
-"ctReason"
+msgctxt "@info:status Notification when the device failed due to AuthSupplicantDisconnectReason"
 msgid "Authorization supplicant disconnected"
 msgstr "โปรแกรมขออนุญาตได้ถอนการเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:113
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to AuthSupplicantConfigFa"
-"iledReason"
+msgctxt "@info:status Notification when the device failed due to AuthSupplicantConfigFailedReason"
 msgid "Authorization supplicant's configuration failed"
 msgstr "การตั้งค่าโปรแกรมขออนุญาตล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:116
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to AuthSupplicantFailedRe"
-"ason"
+msgctxt "@info:status Notification when the device failed due to AuthSupplicantFailedReason"
 msgid "Authorization supplicant failed"
 msgstr "โปรแกรมขออนุญาตล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:119
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to AuthSupplicantTimeoutR"
-"eason"
+msgctxt "@info:status Notification when the device failed due to AuthSupplicantTimeoutReason"
 msgid "Authorization supplicant timed out"
 msgstr "โปรแกรมขออนุญาตหมดเวลา"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:122
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to PppStartFailedReason"
+msgctxt "@info:status Notification when the device failed due to PppStartFailedReason"
 msgid "PPP failed to start"
 msgstr "การเริ่ม PPP ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:125
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to PppDisconnectReason"
+msgctxt "@info:status Notification when the device failed due to PppDisconnectReason"
 msgid "PPP disconnected"
 msgstr "PPP ตัดการเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:128
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to PppFailedReason"
+msgctxt "@info:status Notification when the device failed due to PppFailedReason"
 msgid "PPP failed"
 msgstr "PPP ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:131
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to DhcpStartFailedReason"
+msgctxt "@info:status Notification when the device failed due to DhcpStartFailedReason"
 msgid "DHCP failed to start"
 msgstr "การเริ่ม DHCP ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:134
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to DhcpErrorReason"
+msgctxt "@info:status Notification when the device failed due to DhcpErrorReason"
 msgid "A DHCP error occurred"
 msgstr "เกิดข้อผิดพลาด DHCP ขึ้น"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:137
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to DhcpFailedReason"
+msgctxt "@info:status Notification when the device failed due to DhcpFailedReason"
 msgid "DHCP failed "
 msgstr "DHCP ล้มเหลว "
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:140
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to SharedStartFailedReaso"
-"n"
+msgctxt "@info:status Notification when the device failed due to SharedStartFailedReason"
 msgid "The shared service failed to start"
 msgstr "การเริ่มบริการที่ถูกแชร์ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:143
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to SharedFailedReason"
+msgctxt "@info:status Notification when the device failed due to SharedFailedReason"
 msgid "The shared service failed"
 msgstr "บริการที่ถูกแชร์ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:146
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to AutoIpStartFailedReaso"
-"n"
+msgctxt "@info:status Notification when the device failed due to AutoIpStartFailedReason"
 msgid "The auto IP service failed to start"
 msgstr "การเริ่มบริการ IP อัตโนมัติล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:149
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to AutoIpErrorReason"
+msgctxt "@info:status Notification when the device failed due to AutoIpErrorReason"
 msgid "The auto IP service reported an error"
 msgstr "บริการ IP อัตโนมัติรายงานข้อผิดพลาด"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:152
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to AutoIpFailedReason"
+msgctxt "@info:status Notification when the device failed due to AutoIpFailedReason"
 msgid "The auto IP service failed"
 msgstr "บริการ IP อัตโนมัติรายงานล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:155
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ModemBusyReason"
+msgctxt "@info:status Notification when the device failed due to ModemBusyReason"
 msgid "The modem is busy"
 msgstr "โมเด็มไม่ว่าง"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:158
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ModemNoDialToneReason"
+msgctxt "@info:status Notification when the device failed due to ModemNoDialToneReason"
 msgid "The modem has no dial tone"
 msgstr "โมเด็มไม่มีเสียงโทรเข้า"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:161
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ModemNoCarrierReason"
+msgctxt "@info:status Notification when the device failed due to ModemNoCarrierReason"
 msgid "The modem shows no carrier"
 msgstr "โมเด็มไม่มีผู้ให้บริการ"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:164
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ModemDialTimeoutReason"
+msgctxt "@info:status Notification when the device failed due to ModemDialTimeoutReason"
 msgid "The modem dial timed out"
 msgstr "การโทรโมเด็มหมดเวลา"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:167
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ModemDialFailedReason"
+msgctxt "@info:status Notification when the device failed due to ModemDialFailedReason"
 msgid "The modem dial failed"
 msgstr "การโทรโมเด็มล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:170
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ModemInitFailedReason"
+msgctxt "@info:status Notification when the device failed due to ModemInitFailedReason"
 msgid "The modem could not be initialized"
 msgstr "ไม่สามารถเตรียมการทำงานของโมเด็มได้"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:173
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to GsmApnSelectFailedReas"
-"on"
+msgctxt "@info:status Notification when the device failed due to GsmApnSelectFailedReason"
 msgid "The GSM APN could not be selected"
 msgstr "ไม่สามารถเลือก GSM APN ได้"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:176
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to GsmNotSearchingReason"
+msgctxt "@info:status Notification when the device failed due to GsmNotSearchingReason"
 msgid "The GSM modem is not searching"
 msgstr "โมเด็ม GSM ไม่ค้นหาให้"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:179
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to GsmRegistrationDeniedR"
-"eason"
+msgctxt "@info:status Notification when the device failed due to GsmRegistrationDeniedReason"
 msgid "GSM network registration was denied"
 msgstr "การลงทะเบียนเครือข่าย GSM ได้ถูกปฏิเสธ"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:182
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to GsmRegistrationTimeout"
-"Reason"
+msgctxt "@info:status Notification when the device failed due to GsmRegistrationTimeoutReason"
 msgid "GSM network registration timed out"
 msgstr "การลงทะเบียนเครือข่าย GSM ได้หมดเวลา"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:185
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to GsmRegistrationFailedR"
-"eason"
+msgctxt "@info:status Notification when the device failed due to GsmRegistrationFailedReason"
 msgid "GSM registration failed"
 msgstr "การลงทะเบียนเครือข่าย GSM ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:188
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to GsmPinCheckFailedReaso"
-"n"
+msgctxt "@info:status Notification when the device failed due to GsmPinCheckFailedReason"
 msgid "The GSM PIN check failed"
 msgstr "การตรวจสอบ PIN GSM ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:191
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to FirmwareMissingReason"
+msgctxt "@info:status Notification when the device failed due to FirmwareMissingReason"
 msgid "Device firmware is missing"
 msgstr "เฟิร์มแวร์อุปกรณ์ขาดหาย"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:194
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to DeviceRemovedReason"
+msgctxt "@info:status Notification when the device failed due to DeviceRemovedReason"
 msgid "The device was removed"
 msgstr "อุปกรณ์ได้ถูกดึงออก"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:197
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to SleepingReason"
+msgctxt "@info:status Notification when the device failed due to SleepingReason"
 msgid "The networking system is now sleeping"
 msgstr "ระบบเครือข่ายกำลังถูกพักอยู่"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:200
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ConnectionRemovedReaso"
-"n"
+msgctxt "@info:status Notification when the device failed due to ConnectionRemovedReason"
 msgid "The connection was removed"
 msgstr "การเชื่อมต่อถูกลบ"
 
@@ -377,8 +325,7 @@ msgstr "สายถูกถอดออก"
 #. +> trunk6 stable6 stable5
 #: notification.cpp:211
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ModemNotFoundReason"
+msgctxt "@info:status Notification when the device failed due to ModemNotFoundReason"
 msgid "The modem could not be found"
 msgstr "ไม่สามารถหาโมเด็มได้"
 
@@ -392,32 +339,28 @@ msgstr "ไม่พบเจอเครือข่าย WiFi"
 #. +> trunk6 stable6 stable5
 #: notification.cpp:214
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to BluetoothFailedReason"
+msgctxt "@info:status Notification when the device failed due to BluetoothFailedReason"
 msgid "The bluetooth connection failed or timed out"
 msgstr "การเชื่อมต่อบลูทูธล้มเหลวหรือหมดเวลา"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:217
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to GsmSimNotInserted"
+msgctxt "@info:status Notification when the device failed due to GsmSimNotInserted"
 msgid "GSM Modem's SIM Card not inserted"
 msgstr "ไม่ได้ใส่ SIM การ์ดของโมเด็ม GSM"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:220
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to GsmSimPinRequired"
+msgctxt "@info:status Notification when the device failed due to GsmSimPinRequired"
 msgid "GSM Modem's SIM Pin required"
 msgstr "ต้องใช้ PIN SIM การ์ดของโมเด็ม GSM"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:223
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to GsmSimPukRequired"
+msgctxt "@info:status Notification when the device failed due to GsmSimPukRequired"
 msgid "GSM Modem's SIM Puk required"
 msgstr "ต้องใช้ PUK SIM การ์ดของโมเด็ม GSM"
 
@@ -431,16 +374,14 @@ msgstr "SIM การ์ดของโมเด็ม GSM ผิด"
 #. +> trunk6 stable6 stable5
 #: notification.cpp:229
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to InfiniBandMode"
+msgctxt "@info:status Notification when the device failed due to InfiniBandMode"
 msgid "InfiniBand device does not support connected mode"
 msgstr "อุปกรณ์ InfiniBand ไม่รับรองโหมดที่ถูกเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:232
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to DependencyFailed"
+msgctxt "@info:status Notification when the device failed due to DependencyFailed"
 msgid "A dependency of the connection failed"
 msgstr "การพึงพาการเชื่อมต่อล้มเหลว"
 
@@ -454,18 +395,14 @@ msgstr "พบปัญหากับอีเทอร์เน็ต RFC 2684
 #. +> trunk6 stable6 stable5
 #: notification.cpp:238
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ModemManagerUnavailabl"
-"e"
+msgctxt "@info:status Notification when the device failed due to ModemManagerUnavailable"
 msgid "ModemManager not running"
 msgstr "ModemManager ยังไม่ทำงาน"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:244
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to SecondaryConnectionFai"
-"led"
+msgctxt "@info:status Notification when the device failed due to SecondaryConnectionFailed"
 msgid "A secondary connection of the base connection failed"
 msgstr "การเชื่อมต่ออันที่สองของฐานการเชื่อมต่อล้มเหลว"
 
@@ -479,8 +416,7 @@ msgstr "การตั้งค่า DCB หรือ FCoE ล้มเหล�
 #. +> trunk6 stable6 stable5
 #: notification.cpp:250
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to TeamdControlFailed"
+msgctxt "@info:status Notification when the device failed due to TeamdControlFailed"
 msgid "teamd control failed"
 msgstr "การควบคุม teamd ล้มเหลว"
 
@@ -494,16 +430,14 @@ msgstr "โมเด็มล้มเหลวหรือไม่พร้อ
 #. +> trunk6 stable6 stable5
 #: notification.cpp:256
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ModemAvailable"
+msgctxt "@info:status Notification when the device failed due to ModemAvailable"
 msgid "Modem now ready and available"
 msgstr "โมเด็มพร้อมใช้งาน"
 
 #. +> trunk6 stable6 stable5
 #: notification.cpp:259
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to SimPinIncorrect"
+msgctxt "@info:status Notification when the device failed due to SimPinIncorrect"
 msgid "The SIM PIN was incorrect"
 msgstr "รหัสผ่าน SIM PIN ไม่ถูกต้อง"
 
@@ -524,8 +458,7 @@ msgstr "อุปกรณ์หลักได้ถูกเปลี่ยน
 #. +> trunk6 stable6 stable5
 #: notification.cpp:268
 #, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to ParentManagedChanged"
+msgctxt "@info:status Notification when the device failed due to ParentManagedChanged"
 msgid "The device parent's management changed"
 msgstr "การจัดการอุปกรณ์หลักได้ถูกเปลี่ยน"
 
@@ -536,97 +469,91 @@ msgid "Connection '%1' activated."
 msgstr "ได้เปิดการเชื่อมต่อ '%1'"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:371
+#: notification.cpp:372
 #, kde-format
 msgid "Connection '%1' deactivated."
 msgstr "การเชื่อมต่อ '%1' ถูกปิด"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:424
+#: notification.cpp:427
 #, kde-format
 msgid "VPN connection '%1' activated."
 msgstr "ได้เปิดการเชื่อมต่อ VPN '%1'"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:427
+#: notification.cpp:430
 #, kde-format
 msgid "VPN connection '%1' failed to activate."
 msgstr "การเปิดการเชื่อมต่อ VPN '%1' ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:430 notification.cpp:438
+#: notification.cpp:433 notification.cpp:441
 #, kde-format
 msgid "VPN connection '%1' deactivated."
 msgstr "การเชื่อมต่อ VPN '%1' ถูกปิด"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:441
+#: notification.cpp:444
 #, kde-format
-msgid ""
-"VPN connection '%1' was deactivated because the device it was using was discon"
-"nected."
-msgstr ""
-"การเชื่อมต่อ VPN '%1' ถูกปิดเพราะว่าอุปกรณ์ที่ถูกใช้งานโดย VPN ได้ตัดการเชื่อม"
-"ต่อ"
+msgid "VPN connection '%1' was deactivated because the device it was using was disconnected."
+msgstr "การเชื่อมต่อ VPN '%1' ถูกปิดเพราะว่าอุปกรณ์ที่ถูกใช้งานโดย VPN ได้ตัดการเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:444
+#: notification.cpp:447
 #, kde-format
 msgid "The service providing the VPN connection '%1' was stopped."
 msgstr "บริการที่ให้บริการการเชื่อมต่อ VPN '%1' ได้หยุด"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:447
+#: notification.cpp:450
 #, kde-format
 msgid "The IP config of the VPN connection '%1', was invalid."
 msgstr "การตั้งค่า IP สำหรับการเชื่อมต่อ VPN '%1' ไม่ถูกต้อง"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:450
+#: notification.cpp:453
 #, kde-format
 msgid "The connection attempt to the VPN service timed out."
 msgstr "การลองการเชื่อมต่อไปยังบริการ VPN หมดเวลา"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:453
+#: notification.cpp:456
 #, kde-format
-msgid ""
-"A timeout occurred while starting the service providing the VPN connection '%1"
-"'."
+msgid "A timeout occurred while starting the service providing the VPN connection '%1'."
 msgstr "หมดเวลาการเริ่ิมให้บริการการเชื่อมต่อ VPN '%1'"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:456
+#: notification.cpp:459
 #, kde-format
 msgid "Starting the service providing the VPN connection '%1' failed."
 msgstr "การเริ่มต้นให้บริการการเชื่อมต่อ VPN '%1' ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:459
+#: notification.cpp:462
 #, kde-format
 msgid "Necessary secrets for the VPN connection '%1' were not provided."
 msgstr "ขาดรหัสลับที่จำเป็นต้องใช้สำหรับการเชื่อมต่อ VPN '%1'"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:462
+#: notification.cpp:465
 #, kde-format
 msgid "Authentication to the VPN server failed."
 msgstr "การรับรองความถูกต้องไปยังเซิร์ฟเวอร์ VPN ล้มเหลว"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:465
+#: notification.cpp:468
 #, kde-format
 msgid "The connection was deleted."
 msgstr "การเชื่อมต่อได้ถูกลบ"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:551
+#: notification.cpp:559
 #, kde-format
 msgid "No Network Connection"
 msgstr "ไม่มีการเชื่อมต่อเครือข่าย"
 
 #. +> trunk6 stable6 stable5
-#: notification.cpp:552
+#: notification.cpp:560
 #, kde-format
 msgid "You are no longer connected to a network."
 msgstr "คุณไม่ได้เชื่อมต่อเครือข่ายอีกต่อไป"
@@ -646,14 +573,16 @@ msgstr "ไม่มีรหัสลับที่ถูกขอ"
 
 #. +> trunk6 stable6
 #: passworddialog.cpp:99
-#, kde-format
-msgid "Incorrect password for the wireless network \"%1\". Please try again."
+#, fuzzy, kde-format
+#| msgid "Incorrect password for the wireless network \"%1\". Please try again."
+msgid "Incorrect password for the Wi-Fi network \"%1\". Please try again."
 msgstr "รหัสผ่านผิดสำหรับเครือข่ายไร้สาย \"%1\" กรุณาลองอีกครั้ง"
 
 #. +> trunk6 stable6
 #: passworddialog.cpp:101
-#, kde-format
-msgid "Enter the password for the wireless network \"%1\":"
+#, fuzzy, kde-format
+#| msgid "Enter the password for the wireless network \"%1\":"
+msgid "Enter the password for the Wi-Fi network \"%1\":"
 msgstr "ป้อนรหัสผ่านสำหรับเครือข่ายไร้สาย \"%1\":"
 
 #. +> stable5
@@ -782,8 +711,7 @@ msgstr "ต้องปลดล็อก %1"
 #. +> trunk6 stable6 stable5
 #: pindialog.cpp:85 pindialog.cpp:117
 #, kde-format
-msgid ""
-"The mobile broadband device '%1' requires a %2 code before it can be used."
+msgid "The mobile broadband device '%1' requires a %2 code before it can be used."
 msgstr "อุปกรณ์บอร์ดแบนมือถือ '%1' ต้องใช้รหัส %2 ก่อนที่จะสามารถใช้งานได้"
 
 #. +> trunk6 stable6 stable5
@@ -797,7 +725,7 @@ msgstr "รหัส %1:"
 #: pindialog.cpp:87 pinwidget.ui:153
 #, kde-format
 msgid "New PIN code:"
-msgstr "รหัส %1 ใหม่:"
+msgstr "รหัส PIN ใหม่:"
 
 #. +> trunk6 stable6 stable5
 #: pindialog.cpp:88
@@ -901,12 +829,9 @@ msgstr "ต้องใช้ PIN ปลดล็อก"
 #. i18n: ectx: property (text), widget (QLabel, prompt)
 #. +> trunk6 stable6 stable5
 #: pinwidget.ui:76
-#, no-c-format, kde-format
-msgid ""
-"The mobile broadband device '%1' requires a SIM PIN code before it can be used"
-"."
-msgstr ""
-"อุปกรณ์บอร์ดแบนมือถือ '%1' ต้องใช้รหัส SIM PIN ก่อนที่จะสามารถใช้งานได้"
+#, kde-format, no-c-format
+msgid "The mobile broadband device '%1' requires a SIM PIN code before it can be used."
+msgstr "อุปกรณ์บอร์ดแบนมือถือ '%1' ต้องใช้รหัส SIM PIN ก่อนที่จะสามารถใช้งานได้"
 
 #. i18n: ectx: property (text), widget (QLabel, pukLabel)
 #. +> trunk6 stable6 stable5

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-12 07:48+0100\n"
+"POT-Creation-Date: 2025-09-18 15:51+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -24,72 +24,6 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: kcm.cpp:474
-#, kde-format
-msgid "You have to restart the Plasma session for these changes to take effect."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: kcm.cpp:475
-#, kde-format
-msgid "Cursor Settings Changed"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: lnftool.cpp:33
-#, kde-format
-msgid "Global Theme Tool"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: lnftool.cpp:35
-#, kde-format
-msgid "Command line tool to apply global theme packages for changing the look and feel."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: lnftool.cpp:37
-#, kde-format
-msgid "Copyright 2017, Marco Martin"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: lnftool.cpp:38
-#, kde-format
-msgid "Marco Martin"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: lnftool.cpp:38
-#, kde-format
-msgid "Maintainer"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: lnftool.cpp:46
-#, kde-format
-msgid "List available global theme packages"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: lnftool.cpp:49
-#, kde-format
-msgid "Apply a global theme package. This can be the name of a package, or a full path to an installed package, at which point this tool will ensure it is a global theme package and then attempt to apply it"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: lnftool.cpp:51
-#, kde-format
-msgid "packagename"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: lnftool.cpp:52
-#, kde-format
-msgid "Reset the Plasma Desktop layout"
-msgstr ""
-
 #. i18n: ectx: label, entry (lookAndFeelPackage), group (KDE)
 #. +> trunk6 stable6 stable5
 #: lookandfeelsettings.kcfg:9
@@ -97,114 +31,227 @@ msgstr ""
 msgid "Global look and feel"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/main.qml:21
+#. i18n: ectx: label, entry (defaultLightLookAndFeel), group (KDE)
+#. i18n: ectx: label, entry (defaultDarkLookAndFeel), group (KDE)
+#. +> trunk6 stable6
+#: lookandfeelsettings.kcfg:13 lookandfeelsettings.kcfg:17
 #, kde-format
-msgid "This module lets you choose the global look and feel."
+msgid "Global Look and Feel package, alternate"
+msgstr ""
+
+#. i18n: ectx: label, entry (automaticLookAndFeel), group (KDE)
+#. +> trunk6 stable6
+#: lookandfeelsettings.kcfg:21
+#, kde-format
+msgid "Switch between dark and light global themes depending on time of day"
+msgstr ""
+
+#. i18n: ectx: label, entry (automaticLookAndFeelOnIdle), group (KDE)
+#. +> trunk6 stable6
+#: lookandfeelsettings.kcfg:25
+#, kde-format
+msgid "Switch between dark and light global themes when the computer is idle"
+msgstr ""
+
+#. i18n: ectx: label, entry (automaticLookAndFeelIdleInterval), group (KDE)
+#. +> trunk6 stable6
+#: lookandfeelsettings.kcfg:29
+#, kde-format
+msgid "How long the computer should be idle in order to switch between dark and light global themes, in seconds"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: tool/lnftool.cpp:32
+#, kde-format
+msgid "Global Theme Tool"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: tool/lnftool.cpp:34
+#, kde-format
+msgid "Command line tool to apply global theme packages for changing the look and feel."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: tool/lnftool.cpp:36
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: tool/lnftool.cpp:37
+#, kde-format
+msgid "Marco Martin"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: tool/lnftool.cpp:37
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: tool/lnftool.cpp:46
+#, kde-format
+msgid "List available global theme packages"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: tool/lnftool.cpp:49
+#, kde-format
+msgid "Apply a global theme package. This can be the name of a package, or a full path to an installed package, at which point this tool will ensure it is a global theme package and then attempt to apply it"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: tool/lnftool.cpp:51
+#, kde-format
+msgid "packagename"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:62
+#: tool/lnftool.cpp:52
+#, kde-format
+msgid "Prevent --apply from disabling the automatic mode"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: tool/lnftool.cpp:53
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/ConfirmDeletionDialog.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Permanently"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:63
+#: ui/ConfirmDeletionDialog.qml:17
 #, kde-format
 msgctxt "@label"
 msgid "Do you really want to permanently delete this theme?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:67
+#: ui/ConfirmDeletionDialog.qml:21
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete Permanently"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:72
+#: ui/ConfirmDeletionDialog.qml:26
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/main.qml:156
+#. +> trunk6 stable6
+#: ui/DayNightLookAndFeel.qml:46
 #, kde-format
-msgid "Get New Global Themes…"
-msgstr ""
-
-#. +> stable6 stable5
-#: ui/main.qml:194
-#, kde-format
-msgid "Cancel"
+msgctxt "@info"
+msgid "The chosen light Global Theme will be used during the day, and the dark one will be used at night."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:88
+#: ui/DayNightLookAndFeel.qml:55
 #, kde-format
-msgid "Get New…"
+msgctxt "@action:button Configure day-night cycle times"
+msgid "Configure Day/Night Cycle…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:103
+#. +> trunk6 stable6
+#: ui/DayNightLookAndFeel.qml:68
 #, kde-format
-msgid "Contains Desktop layout"
+msgctxt "@option:radio Light global theme"
+msgid "Light"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:117
+#. +> trunk6 stable6
+#: ui/DayNightLookAndFeel.qml:80
 #, kde-format
+msgctxt "@option:radio Dark global theme"
+msgid "Dark"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/DayNightLookAndFeel.qml:97
+#, kde-format
+msgctxt "@option:check"
+msgid "Wait until idleness before switching:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/DayNightLookAndFeel.qml:110
+#, kde-format
+msgctxt "@item:valuesuffix idle interval"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] ""
+
+#. +> trunk6 stable6
+#: ui/DayNightLookAndFeel.qml:122
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Minimizes interruptions when actively using the computer."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/LookAndFeelSelector.qml:24
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Light Global Theme"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/LookAndFeelSelector.qml:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Dark Global Theme"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/LookAndFeelSelector.qml:49 ui/StaticLookAndFeel.qml:67
+#, kde-format
+msgctxt "@info:tooltip"
 msgid "Preview Theme"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:126
+#: ui/LookAndFeelSelector.qml:57 ui/StaticLookAndFeel.qml:75
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove theme"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:128
+#: ui/LookAndFeelSelector.qml:59 ui/StaticLookAndFeel.qml:77
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cannot delete the active theme"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:130
+#: ui/LookAndFeelSelector.qml:61 ui/StaticLookAndFeel.qml:79
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cannot delete system-installed themes"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:147
+#. +> trunk6 stable6
+#: ui/main.qml:22
 #, kde-format
-msgctxt "Confirmation question about applying the Global Theme - %1 is the Global Theme's name"
-msgid "Apply %1?"
+msgctxt "@option:check"
+msgid "Switch to Dark Mode at Night"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:178
+#. +> trunk6 stable6
+#: ui/main.qml:40
 #, kde-format
-msgid "Choose what to apply…"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:178
-#, kde-format
-msgid "Show fewer options…"
-msgstr ""
-
-#. +> stable6 stable5
-#: ui/main.qml:182
-#, kde-format
-msgid "Apply"
+msgctxt "@action:intoolbar"
+msgid "Get New…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -352,4 +399,78 @@ msgstr ""
 #: ui/SimpleOptions.qml:71
 #, kde-format
 msgid "This Global Theme does not provide any applicable settings. Please contact the maintainer of this Global Theme as it might be broken."
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:21
+#, kde-format
+msgid "This module lets you choose the global look and feel."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/StaticLookAndFeel.qml:53
+#, kde-format
+msgctxt "@label"
+msgid "Contains Desktop layout"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgid "Contains Desktop layout"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:76
+#, kde-format
+msgid "Preview Theme"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/StaticLookAndFeel.qml:112
+#, kde-format
+msgctxt "Confirmation question about applying the Global Theme - %1 is the Global Theme's name"
+msgid "Apply %1?"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:127
+#, kde-format
+msgid "Apply"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:139
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/StaticLookAndFeel.qml:143
+#, kde-format
+msgid "Choose what to apply…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/StaticLookAndFeel.qml:143
+#, kde-format
+msgid "Show fewer options…"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:156
+#, kde-format
+msgid "Get New Global Themes…"
+msgstr ""
+
+#. +> stable5
+#: kcm.cpp:590
+#, kde-format
+msgid "You have to restart the Plasma session for these changes to take effect."
+msgstr ""
+
+#. +> stable5
+#: kcm.cpp:591
+#, kde-format
+msgid "Cursor Settings Changed"
 msgstr ""

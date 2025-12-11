@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcalc\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-25 08:00+0100\n"
+"POT-Creation-Date: 2025-11-28 09:59+0100\n"
 "PO-Revision-Date: 2010-12-17 18:39+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -30,37 +30,80 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "donga.nb@gmail.com, drrider@gmail.com"
 
-#. i18n: ectx: property (title), widget (QGroupBox, displayColorsBox)
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "Name of the user programmable constant"
+msgid "C1"
+msgstr "C1"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "Name of the user programmable constant"
+msgid "C2"
+msgstr "C2"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "Name of the user programmable constant"
+msgid "C3"
+msgstr "C3"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "Name of the user programmable constant"
+msgid "C4"
+msgstr "C4"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "Name of the user programmable constant"
+msgid "C5"
+msgstr "C5"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "Name of the user programmable constant"
+msgid "C6"
+msgstr "C6"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FollowSystemTheme)
 #. +> trunk6 stable6
 #: colors.ui:17
+#, kde-format
+msgid "Follow system color scheme"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, displayColorsBox)
+#. +> trunk6 stable6
+#: colors.ui:30
 #, kde-format
 msgid "Display Colors"
 msgstr "สีการแสดงผล"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. +> trunk6 stable6
-#: colors.ui:25
+#: colors.ui:38
 #, kde-format
 msgid "&Foreground:"
 msgstr "พื้น&หน้า:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. +> trunk6 stable6
-#: colors.ui:52
+#: colors.ui:65
 #, kde-format
 msgid "&Background:"
 msgstr "พื้&นหลัง:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonColorsBox)
 #. +> trunk6 stable6
-#: colors.ui:97
+#: colors.ui:113
 #, kde-format
 msgid "Button Colors"
 msgstr "สีปุ่ม"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
 #. +> trunk6 stable6
-#: colors.ui:105
+#: colors.ui:121
 #, fuzzy, kde-format
 #| msgid "&Background:"
 msgid "Background"
@@ -68,7 +111,7 @@ msgstr "พื้&นหลัง:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. +> trunk6 stable6
-#: colors.ui:115
+#: colors.ui:131
 #, fuzzy, kde-format
 #| msgid "&Foreground:"
 msgid "Foreground"
@@ -76,49 +119,49 @@ msgstr "พื้น&หน้า:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #. +> trunk6 stable6
-#: colors.ui:125
+#: colors.ui:141
 #, kde-format
 msgid "&Functions:"
 msgstr "&ฟังก์ชัน:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #. +> trunk6 stable6
-#: colors.ui:152
+#: colors.ui:168
 #, kde-format
 msgid "St&atistic functions:"
 msgstr "ฟังก์ชันทาง&สถิติ:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel9)
 #. +> trunk6 stable6
-#: colors.ui:179
+#: colors.ui:195
 #, kde-format
 msgid "He&xadecimals:"
 msgstr "เลขฐานสิบ&หก:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel11)
 #. +> trunk6 stable6
-#: colors.ui:206
+#: colors.ui:222
 #, kde-format
 msgid "&Numbers:"
 msgstr "ตัวเ&ลข:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel10)
 #. +> trunk6 stable6
-#: colors.ui:233
+#: colors.ui:249
 #, kde-format
 msgid "&Memory:"
 msgstr "&ความจำ:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel12)
 #. +> trunk6 stable6
-#: colors.ui:260
+#: colors.ui:276
 #, kde-format
 msgid "O&perations:"
 msgstr "ตัว&ดำเนินการ:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel13)
 #. +> trunk6 stable6
-#: colors.ui:287
+#: colors.ui:303
 #, fuzzy, kde-format
 #| msgid "&Constants"
 msgid "&Constants:"
@@ -126,7 +169,7 @@ msgstr "&ค่าคงที่"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, Constants)
 #. +> trunk6 stable6
-#: constants.ui:13 kcalc.cpp:1746
+#: constants.ui:13 kcalc.cpp:1749
 #, kde-format
 msgid "Constants"
 msgstr "ค่าคงที่"
@@ -190,7 +233,7 @@ msgstr "แบบอักษรที่จะใช้ในส่วนแส
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, General)
 #. +> trunk6 stable6
-#: general.ui:14 kcalc.cpp:1706
+#: general.ui:14 kcalc.cpp:1709
 #, kde-format
 msgid "General"
 msgstr "ทั่วไป"
@@ -345,7 +388,7 @@ msgid "Two's complement"
 msgstr "ค่าคอมพลีเมนต์ของสอง"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:80
+#: kcalc.cpp:85
 #, fuzzy, kde-format
 #| msgid "He&x"
 msgctxt "Hexadecimal numeral system"
@@ -353,7 +396,7 @@ msgid "Hex"
 msgstr "ฐาน &16"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:81
+#: kcalc.cpp:86
 #, fuzzy, kde-format
 #| msgid "&Dec"
 msgctxt "Decimal numeral system"
@@ -361,7 +404,7 @@ msgid "Dec"
 msgstr "ฐาน 1&0"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:82
+#: kcalc.cpp:87
 #, fuzzy, kde-format
 #| msgid "&Oct"
 msgctxt "Octal numeral system"
@@ -369,7 +412,7 @@ msgid "Oct"
 msgstr "ฐาน &8"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:83
+#: kcalc.cpp:88
 #, fuzzy, kde-format
 #| msgid "&Bin"
 msgctxt "Binary numeral system"
@@ -377,83 +420,83 @@ msgid "Bin"
 msgstr "ฐาน &2"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:178
+#: kcalc.cpp:184
 #, kde-format
 msgid "Simple Mode"
 msgstr "โหมดพื้นฐาน"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:183
+#: kcalc.cpp:189
 #, kde-format
 msgid "Science Mode"
 msgstr "โหมดวิทยาศาสตร์"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:188
+#: kcalc.cpp:194
 #, kde-format
 msgid "Statistic Mode"
 msgstr "โหมดสถิติ"
 
 #. i18n: ectx: label, entry (CalculatorMode), group (General)
 #. +> trunk6 stable6
-#: kcalc.cpp:193 kcalc.kcfg:159
+#: kcalc.cpp:199 kcalc.kcfg:162
 #, kde-format
 msgid "Numeral System Mode"
 msgstr "โหมดระบบเลขฐาน"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:198
+#: kcalc.cpp:204
 #, kde-format
 msgid "Show &History"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcalc.cpp:204
+#: kcalc.cpp:210
 #, fuzzy, kde-format
 #| msgid "&Constants Buttons"
 msgid "Constants &Buttons"
 msgstr "ปุ่ม&ค่าคงที่"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:209
+#: kcalc.cpp:215
 #, kde-format
 msgid "Show B&it Edit"
 msgstr "แสดงบิ&ทแก้ไข"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:224
+#: kcalc.cpp:230
 #, kde-format
 msgid "&Constants"
 msgstr "&ค่าคงที่"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:322
+#: kcalc.cpp:328
 #, kde-format
 msgctxt "Add display to memory"
 msgid "M+"
 msgstr "M+"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:322
+#: kcalc.cpp:328
 #, kde-format
 msgid "Add display to memory"
 msgstr "เพิ่มเลขที่แสดงเข้าไปในความจำ"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:323
+#: kcalc.cpp:329
 #, kde-format
 msgctxt "Subtract from memory"
 msgid "M−"
 msgstr "M−"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:323
+#: kcalc.cpp:329
 #, kde-format
 msgid "Subtract from memory"
 msgstr "ลบจากค่าที่จำไว้"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:346
+#: kcalc.cpp:352
 #, kde-format
 msgctxt "Square root"
 msgid "&radic;x"
@@ -461,19 +504,19 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbSqrt)
 #. +> trunk6 stable6
-#: kcalc.cpp:346 kcalc.ui:1107
+#: kcalc.cpp:352 kcalc.ui:1107
 #, kde-format
 msgid "Square root"
 msgstr "ถอดรากที่สอง"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:347
+#: kcalc.cpp:353
 #, kde-format
 msgid "Cube root"
 msgstr "ถอดรากที่สาม"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:446
+#: kcalc.cpp:452
 #, fuzzy, kde-format
 #| msgctxt "Arc sine"
 #| msgid "Asin"
@@ -484,26 +527,26 @@ msgstr "Asin"
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbSin)
 #. i18n: ectx: property (accessibleName), widget (KCalcButton, pbSin)
 #. +> trunk6 stable6
-#: kcalc.cpp:446 kcalc.ui:556 kcalc.ui:559
+#: kcalc.cpp:452 kcalc.ui:556 kcalc.ui:559
 #, kde-format
 msgid "Sine"
 msgstr "ไซน์"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:447
+#: kcalc.cpp:453
 #, kde-format
 msgctxt "Arc sine"
 msgid "asin"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcalc.cpp:447
+#: kcalc.cpp:453
 #, kde-format
 msgid "Arc sine"
 msgstr "อาร์คไซน์"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:448
+#: kcalc.cpp:454
 #, fuzzy, kde-format
 #| msgctxt "Inverse hyperbolic sine"
 #| msgid "Asinh"
@@ -512,13 +555,13 @@ msgid "sinh"
 msgstr "Asinh"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:448
+#: kcalc.cpp:454
 #, kde-format
 msgid "Hyperbolic sine"
 msgstr "ไฮเปอร์โบลิคไซน์"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:449
+#: kcalc.cpp:455
 #, fuzzy, kde-format
 #| msgctxt "Inverse hyperbolic sine"
 #| msgid "Asinh"
@@ -527,13 +570,13 @@ msgid "asinh"
 msgstr "Asinh"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:449
+#: kcalc.cpp:455
 #, kde-format
 msgid "Inverse hyperbolic sine"
 msgstr "ไฮเปอร์โบลิคไซน์กลับค่า"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:454
+#: kcalc.cpp:460
 #, fuzzy, kde-format
 #| msgctxt "Arc cosine"
 #| msgid "Acos"
@@ -544,26 +587,26 @@ msgstr "Acos"
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbCos)
 #. i18n: ectx: property (accessibleName), widget (KCalcButton, pbCos)
 #. +> trunk6 stable6
-#: kcalc.cpp:454 kcalc.ui:948 kcalc.ui:951
+#: kcalc.cpp:460 kcalc.ui:948 kcalc.ui:951
 #, kde-format
 msgid "Cosine"
 msgstr "โคไซน์"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:455
+#: kcalc.cpp:461
 #, kde-format
 msgctxt "Arc cosine"
 msgid "acos"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcalc.cpp:455
+#: kcalc.cpp:461
 #, kde-format
 msgid "Arc cosine"
 msgstr "อาร์คโคไซน์"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:456
+#: kcalc.cpp:462
 #, fuzzy, kde-format
 #| msgctxt "Inverse hyperbolic cosine"
 #| msgid "Acosh"
@@ -572,13 +615,13 @@ msgid "cosh"
 msgstr "Acosh"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:456
+#: kcalc.cpp:462
 #, kde-format
 msgid "Hyperbolic cosine"
 msgstr "ไฮเปอร์โบลิคโคไซน์"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:457
+#: kcalc.cpp:463
 #, fuzzy, kde-format
 #| msgctxt "Inverse hyperbolic cosine"
 #| msgid "Acosh"
@@ -587,13 +630,13 @@ msgid "acosh"
 msgstr "Acosh"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:457
+#: kcalc.cpp:463
 #, kde-format
 msgid "Inverse hyperbolic cosine"
 msgstr "ไฮเปอร์โบลิคโคไซน์กลับค่า"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:462
+#: kcalc.cpp:468
 #, fuzzy, kde-format
 #| msgctxt "Arc tangent"
 #| msgid "Atan"
@@ -603,26 +646,26 @@ msgstr "Atan"
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbTan)
 #. +> trunk6 stable6
-#: kcalc.cpp:462 kcalc.ui:680
+#: kcalc.cpp:468 kcalc.ui:680
 #, kde-format
 msgid "Tangent"
 msgstr "แทนเจนต์"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:463
+#: kcalc.cpp:469
 #, kde-format
 msgctxt "Arc tangent"
 msgid "atan"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcalc.cpp:463
+#: kcalc.cpp:469
 #, kde-format
 msgid "Arc tangent"
 msgstr "อาร์คแทนเจนต์"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:464
+#: kcalc.cpp:470
 #, fuzzy, kde-format
 #| msgctxt "Inverse hyperbolic tangent"
 #| msgid "Atanh"
@@ -631,13 +674,13 @@ msgid "tanh"
 msgstr "Atanh"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:464
+#: kcalc.cpp:470
 #, kde-format
 msgid "Hyperbolic tangent"
 msgstr "ไฮเปอร์โบลิคแทนเจนต์"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:465
+#: kcalc.cpp:471
 #, fuzzy, kde-format
 #| msgctxt "Inverse hyperbolic tangent"
 #| msgid "Atanh"
@@ -646,13 +689,13 @@ msgid "atanh"
 msgstr "Atanh"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:465
+#: kcalc.cpp:471
 #, kde-format
 msgid "Inverse hyperbolic tangent"
 msgstr "ไฮเปอร์โบลิคแทนเจนต์กลับค่า"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:470
+#: kcalc.cpp:476
 #, fuzzy, kde-format
 #| msgctxt "Logarithm to base 10"
 #| msgid "Log"
@@ -662,26 +705,26 @@ msgstr "Log"
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbLog)
 #. +> trunk6 stable6
-#: kcalc.cpp:470 kcalc.ui:661
+#: kcalc.cpp:476 kcalc.ui:661
 #, kde-format
 msgid "Logarithm to base 10"
 msgstr "ล็อกฐานสิบ"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:471
+#: kcalc.cpp:477
 #, kde-format
 msgctxt "10 to the power of x"
 msgid "10<sup>x</sup>"
 msgstr "10<sup>x</sup>"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:471
+#: kcalc.cpp:477
 #, kde-format
 msgid "10 to the power of x"
 msgstr "10 ยกกำลัง x"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:475
+#: kcalc.cpp:481
 #, kde-format
 msgctxt "Natural log"
 msgid "ln"
@@ -689,26 +732,26 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbLn)
 #. +> trunk6 stable6
-#: kcalc.cpp:475 kcalc.ui:989
+#: kcalc.cpp:481 kcalc.ui:989
 #, kde-format
 msgid "Natural log"
 msgstr "ล็อกธรรมชาติ"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:476
+#: kcalc.cpp:482
 #, kde-format
 msgctxt "Exponential function"
 msgid "e<sup>x</sup>"
 msgstr "e<sup>x</sup>"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:476
+#: kcalc.cpp:482
 #, kde-format
 msgid "Exponential function"
 msgstr "ฟังก์ชันเอ็กซ์โปเนนเชียล"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:480
+#: kcalc.cpp:486
 #, fuzzy, kde-format
 #| msgid "Pi"
 msgctxt "Imaginary unit"
@@ -716,13 +759,13 @@ msgid "i"
 msgstr "ค่าพาย"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:480
+#: kcalc.cpp:486
 #, kde-format
 msgid "Imaginary unit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcalc.cpp:481
+#: kcalc.cpp:487
 #, fuzzy, kde-format
 #| msgctxt "- calculator button"
 #| msgid "−"
@@ -731,13 +774,13 @@ msgid "∠"
 msgstr "−"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:481
+#: kcalc.cpp:487
 #, kde-format
 msgid "Polar complex"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcalc.cpp:499
+#: kcalc.cpp:505
 #, kde-format
 msgctxt "Number of data entered"
 msgid "N"
@@ -745,19 +788,19 @@ msgstr "N"
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbNData)
 #. +> trunk6 stable6
-#: kcalc.cpp:499 kcalc.ui:645
+#: kcalc.cpp:505 kcalc.ui:645
 #, kde-format
 msgid "Number of data entered"
 msgstr "จำนวนข้อมูลที่ใส่เข้าไป"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:500
+#: kcalc.cpp:506
 #, kde-format
 msgid "Sum of all data items"
 msgstr "ผลรวมของข้อมูลทั้งหมด"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:505
+#: kcalc.cpp:511
 #, kde-format
 msgctxt "Mean"
 msgid "Mea"
@@ -765,32 +808,32 @@ msgstr "Mea"
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbMean)
 #. +> trunk6 stable6
-#: kcalc.cpp:505 kcalc.ui:833
+#: kcalc.cpp:511 kcalc.ui:833
 #, kde-format
 msgid "Mean"
 msgstr "ค่าเฉลี่ย"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:506
+#: kcalc.cpp:512
 #, kde-format
 msgid "Sum of all data items squared"
 msgstr "ผลรวมของข้อมูลยกกำลังสองทั้งหมด"
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbSd)
 #. +> trunk6 stable6
-#: kcalc.cpp:511 kcalc.ui:1075
+#: kcalc.cpp:517 kcalc.ui:1075
 #, kde-format
 msgid "Standard deviation"
 msgstr "ส่วนเบี่ยงเบนมาตรฐาน"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:512
+#: kcalc.cpp:518
 #, kde-format
 msgid "Sample standard deviation"
 msgstr "ส่วนเบี่ยงเบนมาตรฐานตัวอย่าง"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:520
+#: kcalc.cpp:526
 #, kde-format
 msgctxt "Enter data"
 msgid "Dat"
@@ -798,26 +841,26 @@ msgstr "Dat"
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbDat)
 #. +> trunk6 stable6
-#: kcalc.cpp:520 kcalc.ui:865
+#: kcalc.cpp:526 kcalc.ui:865
 #, kde-format
 msgid "Enter data"
 msgstr "เติมข้อมูล"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:521
+#: kcalc.cpp:527
 #, kde-format
 msgctxt "Delete last data item"
 msgid "CDat"
 msgstr "CDat"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:521
+#: kcalc.cpp:527
 #, kde-format
 msgid "Delete last data item"
 msgstr "ลบข้อมูลล่าสุด"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:582
+#: kcalc.cpp:588
 #, fuzzy, kde-format
 #| msgctxt "Modulo"
 #| msgid "Mod"
@@ -827,26 +870,26 @@ msgstr "Mod"
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbMod)
 #. +> trunk6 stable6
-#: kcalc.cpp:582 kcalc.ui:629
+#: kcalc.cpp:588 kcalc.ui:629
 #, kde-format
 msgid "Modulo"
 msgstr "เศษการหาร"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:583
+#: kcalc.cpp:589
 #, kde-format
 msgctxt "Integer division"
 msgid "IntDiv"
 msgstr "IntDiv"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:583
+#: kcalc.cpp:589
 #, kde-format
 msgid "Integer division"
 msgstr "การหารจำนวนเต็ม"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:589
+#: kcalc.cpp:595
 #, kde-format
 msgctxt "Reciprocal"
 msgid "1/x"
@@ -854,26 +897,26 @@ msgstr "1/x"
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbReci)
 #. +> trunk6 stable6
-#: kcalc.cpp:589 kcalc.ui:970
+#: kcalc.cpp:595 kcalc.ui:970
 #, kde-format
 msgid "Reciprocal"
 msgstr "เลขกลับส่วน"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:590
+#: kcalc.cpp:596
 #, kde-format
 msgctxt "n Choose m"
 msgid "nCm"
 msgstr "nCm"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:590
+#: kcalc.cpp:596
 #, kde-format
 msgid "n Choose m"
 msgstr "n เลือกมา m"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:595
+#: kcalc.cpp:601
 #, kde-format
 msgctxt "Factorial"
 msgid "x!"
@@ -881,19 +924,19 @@ msgstr "x!"
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbFactorial)
 #. +> trunk6 stable6
-#: kcalc.cpp:595 kcalc.ui:849
+#: kcalc.cpp:601 kcalc.ui:849
 #, kde-format
 msgid "Factorial"
 msgstr "แฟคทอเรียล"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:596
+#: kcalc.cpp:602
 #, kde-format
 msgid "Gamma"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcalc.cpp:602
+#: kcalc.cpp:608
 #, kde-format
 msgctxt "Square"
 msgid "x<sup>2</sup>"
@@ -901,19 +944,19 @@ msgstr "x<sup>2</sup>"
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbSquare)
 #. +> trunk6 stable6
-#: kcalc.cpp:602 kcalc.ui:492
+#: kcalc.cpp:608 kcalc.ui:492
 #, kde-format
 msgid "Square"
 msgstr "ยกกำลังสอง"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:603
+#: kcalc.cpp:609
 #, kde-format
 msgid "Third power"
 msgstr "ยกกำลังสาม"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:610
+#: kcalc.cpp:616
 #, kde-format
 msgctxt "x to the power of y"
 msgid "x<sup>y</sup>"
@@ -921,33 +964,33 @@ msgstr "x<sup>y</sup>"
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbPower)
 #. +> trunk6 stable6
-#: kcalc.cpp:610 kcalc.ui:1123
+#: kcalc.cpp:616 kcalc.ui:1123
 #, kde-format
 msgid "x to the power of y"
 msgstr "x ยกกำลัง y"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:611
+#: kcalc.cpp:617
 #, kde-format
 msgctxt "x to the power of 1/y"
 msgid "x<sup>1/y</sup>"
 msgstr "x<sup>1/y</sup>"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:611
+#: kcalc.cpp:617
 #, kde-format
 msgid "x to the power of 1/y"
 msgstr "x ยกกำลัง 1/y"
 
 #. i18n: ectx: property (toolTip), widget (KCalcButton, pbEE)
 #. +> trunk6 stable6
-#: kcalc.cpp:621 kcalc.ui:610
+#: kcalc.cpp:627 kcalc.ui:610
 #, kde-format
 msgid "Exponent"
 msgstr "เอ็กซ์โปเนนเชียล"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:937
+#: kcalc.cpp:943
 #, fuzzy, kde-format
 #| msgid "Shift"
 msgctxt "Second function mode"
@@ -955,7 +998,7 @@ msgid "Shift"
 msgstr "ยกแป้น"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1247 kcalc.cpp:1248
+#: kcalc.cpp:1250 kcalc.cpp:1251
 #, fuzzy, kde-format
 #| msgid "Memory clear"
 msgctxt "Memory cleared"
@@ -963,124 +1006,124 @@ msgid "M cleared"
 msgstr "ล้างความจำ"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1518
+#: kcalc.cpp:1521
 #, fuzzy, kde-format
 #| msgid "Number of data entered"
 msgid "Number of data entered = "
 msgstr "จำนวนข้อมูลที่ใส่เข้าไป"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1519
+#: kcalc.cpp:1522
 #, fuzzy, kde-format
 #| msgid "Number of data entered"
 msgid "Number of data entered ="
 msgstr "จำนวนข้อมูลที่ใส่เข้าไป"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1524
+#: kcalc.cpp:1527
 #, fuzzy, kde-format
 #| msgid "Sum of all data items"
 msgid "Sum of all data items ="
 msgstr "ผลรวมของข้อมูลทั้งหมด"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1543
+#: kcalc.cpp:1546
 #, fuzzy, kde-format
 #| msgid "Mean"
 msgid "Mean = "
 msgstr "ค่าเฉลี่ย"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1547
+#: kcalc.cpp:1550
 #, kde-format
 msgid "Sum of squares ="
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1590
+#: kcalc.cpp:1593
 #, fuzzy, kde-format
 #| msgid "Median"
 msgid "Median ="
 msgstr "ค่ากลาง"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1591
+#: kcalc.cpp:1594
 #, fuzzy, kde-format
 #| msgid "Mean"
 msgid "Median = "
 msgstr "ค่าเฉลี่ย"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1625 kcalc.cpp:1626
+#: kcalc.cpp:1628 kcalc.cpp:1629
 #, kde-format
 msgid "DAT ["
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1625 kcalc.cpp:1626
+#: kcalc.cpp:1628 kcalc.cpp:1629
 #, kde-format
 msgid "] = "
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1633 kcalc.cpp:1635 kcalc.cpp:1636
+#: kcalc.cpp:1636 kcalc.cpp:1638 kcalc.cpp:1639
 #, fuzzy, kde-format
 #| msgid "Last stat item erased"
 msgid "Last stat data erased"
 msgstr "ลบรายการสถิติล่าสุดแล้ว"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1648 kcalc.cpp:1651 kcalc.cpp:1652
+#: kcalc.cpp:1651 kcalc.cpp:1654 kcalc.cpp:1655
 #, kde-format
 msgid "Stat mem cleared"
 msgstr "ล้างความจำสถิติแล้ว"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1706
+#: kcalc.cpp:1709
 #, kde-format
 msgid "General Settings"
 msgstr "ตั้งค่าทั่วไป"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1710
+#: kcalc.cpp:1713
 #, fuzzy, kde-format
 #| msgid "Font"
 msgid "Fonts"
 msgstr "แบบอักษร"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1714
+#: kcalc.cpp:1717
 #, kde-format
 msgid "Colors"
 msgstr "ชุดสี"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1714
+#: kcalc.cpp:1717
 #, kde-format
 msgid "Button & Display Colors"
 msgstr "ปุ่มและสีการแสดงผล"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:1746
+#: kcalc.cpp:1749
 #, kde-format
 msgid "Define Constants"
 msgstr "นิยามค่าคงที่"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KCalculator)
 #. +> trunk6 stable6
-#: kcalc.cpp:2909 kcalc.ui:20
+#: kcalc.cpp:2954 kcalc.ui:20
 #, kde-format
 msgid "KCalc"
 msgstr "เครื่องคิดเลข-K"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2911
+#: kcalc.cpp:2956
 #, kde-format
 msgid "KDE Calculator"
 msgstr "เครื่องคิดเลขของ KDE"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2913
+#: kcalc.cpp:2958
 #, fuzzy, kde-format
 #| msgid ""
 #| "(c) 2000-2008, The KDE Team\n"
@@ -1097,142 +1140,142 @@ msgstr ""
 "สงวนลิขสิทธิ์ (c) 1996-2000, Bernd Johannes Wuebben"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2923
+#: kcalc.cpp:2968
 #, kde-format
 msgid "Gabriel Barrantes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2923
+#: kcalc.cpp:2968
 #, kde-format
 msgid "Maintainer"
 msgstr "ผู้ดูแล"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2924
+#: kcalc.cpp:2969
 #, kde-format
 msgid "Klaus Niederkrüger"
 msgstr "Klaus Niederkrüger"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2929
+#: kcalc.cpp:2974
 #, kde-format
 msgid "Bernd Johannes Wuebben"
 msgstr "Bernd Johannes Wuebben"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2930
+#: kcalc.cpp:2975
 #, kde-format
 msgid "Evan Teran"
 msgstr "Evan Teran"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2931
+#: kcalc.cpp:2976
 #, kde-format
 msgid "Espen Sand"
 msgstr "Espen Sand"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2932
+#: kcalc.cpp:2977
 #, kde-format
 msgid "Chris Howells"
 msgstr "Chris Howells"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2933
+#: kcalc.cpp:2978
 #, kde-format
 msgid "Aaron J. Seigo"
 msgstr "Aaron J. Seigo"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2934
+#: kcalc.cpp:2979
 #, kde-format
 msgid "Charles Samuels"
 msgstr "Charles Samuels"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2936
+#: kcalc.cpp:2981
 #, kde-format
 msgid "René Mérou"
 msgstr "René Mérou"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2943
+#: kcalc.cpp:2988
 #, kde-format
 msgid "Michel Marti"
 msgstr "Michel Marti"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2944
+#: kcalc.cpp:2989
 #, kde-format
 msgid "David Johnson"
 msgstr "David Johnson"
 
 #. +> trunk6 stable6
-#: kcalc.cpp:2945
+#: kcalc.cpp:2990
 #, kde-format
 msgid "Niklas Freund"
 msgstr ""
 
 #. i18n: ectx: label, entry (ForeColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:12
+#: kcalc.kcfg:15
 #, kde-format
 msgid "The foreground color of the display."
 msgstr "สีพื้นหน้าของส่วนแสดงผล"
 
 #. i18n: ectx: label, entry (BackColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:18
+#: kcalc.kcfg:21
 #, kde-format
 msgid "The background color of the display."
 msgstr "สีพื้นหลังของส่วนแสดงผล"
 
 #. i18n: ectx: label, entry (NumberButtonsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:23
+#: kcalc.kcfg:26
 #, kde-format
 msgid "The color of number buttons."
 msgstr "สีของปุ่มตัวเลข"
 
 #. i18n: ectx: label, entry (FunctionButtonsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:29
+#: kcalc.kcfg:32
 #, kde-format
 msgid "The color of function buttons."
 msgstr "สีของปุ่มฟังก์ชัน"
 
 #. i18n: ectx: label, entry (StatButtonsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:33
+#: kcalc.kcfg:36
 #, kde-format
 msgid "The color of statistical buttons."
 msgstr "สีของปุ่มสถิติ"
 
 #. i18n: ectx: label, entry (HexButtonsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:37
+#: kcalc.kcfg:40
 #, kde-format
 msgid "The color of hex buttons."
 msgstr "สีของปุ่มเลขฐานสิบหก"
 
 #. i18n: ectx: label, entry (MemoryButtonsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:41
+#: kcalc.kcfg:44
 #, kde-format
 msgid "The color of memory buttons."
 msgstr "สีของปุ่มความจำ"
 
 #. i18n: ectx: label, entry (OperationButtonsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:45
+#: kcalc.kcfg:48
 #, kde-format
 msgid "The color of operation buttons."
 msgstr "สีของปุ่มตัวกำเนินการ"
 
 #. i18n: ectx: label, entry (ConstantsButtonsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:49
+#: kcalc.kcfg:52
 #, fuzzy, kde-format
 #| msgid "The color of statistical buttons."
 msgid "The color of constants buttons."
@@ -1240,7 +1283,7 @@ msgstr "สีของปุ่มสถิติ"
 
 #. i18n: ectx: label, entry (NumberFontsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:53
+#: kcalc.kcfg:56
 #, fuzzy, kde-format
 #| msgid "The color of number buttons."
 msgid "The color of number fonts."
@@ -1248,7 +1291,7 @@ msgstr "สีของปุ่มตัวเลข"
 
 #. i18n: ectx: label, entry (FunctionFontsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:59
+#: kcalc.kcfg:62
 #, fuzzy, kde-format
 #| msgid "The color of function buttons."
 msgid "The color of function fonts."
@@ -1256,7 +1299,7 @@ msgstr "สีของปุ่มฟังก์ชัน"
 
 #. i18n: ectx: label, entry (StatFontsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:63
+#: kcalc.kcfg:66
 #, fuzzy, kde-format
 #| msgid "The color of statistical buttons."
 msgid "The color of statistical fonts."
@@ -1264,7 +1307,7 @@ msgstr "สีของปุ่มสถิติ"
 
 #. i18n: ectx: label, entry (HexFontsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:67
+#: kcalc.kcfg:70
 #, fuzzy, kde-format
 #| msgid "The color of hex buttons."
 msgid "The color of hex fonts."
@@ -1272,7 +1315,7 @@ msgstr "สีของปุ่มเลขฐานสิบหก"
 
 #. i18n: ectx: label, entry (MemoryFontsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:71
+#: kcalc.kcfg:74
 #, fuzzy, kde-format
 #| msgid "The color of memory buttons."
 msgid "The color of memory fonts."
@@ -1280,7 +1323,7 @@ msgstr "สีของปุ่มความจำ"
 
 #. i18n: ectx: label, entry (OperationFontsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:75
+#: kcalc.kcfg:78
 #, fuzzy, kde-format
 #| msgid "The color of operation buttons."
 msgid "The color of operation font."
@@ -1288,7 +1331,7 @@ msgstr "สีของปุ่มตัวกำเนินการ"
 
 #. i18n: ectx: label, entry (ConstantsFontsColor), group (Colors)
 #. +> trunk6 stable6
-#: kcalc.kcfg:79
+#: kcalc.kcfg:82
 #, fuzzy, kde-format
 #| msgid "The color of statistical buttons."
 msgid "The color of constants fonts."
@@ -1296,21 +1339,21 @@ msgstr "สีของปุ่มสถิติ"
 
 #. i18n: ectx: label, entry (ButtonFont), group (Font)
 #. +> trunk6 stable6
-#: kcalc.kcfg:85
+#: kcalc.kcfg:88
 #, kde-format
 msgid "The font to use for the buttons."
 msgstr "แบบอักษรที่จะใช้ในปุ่มต่าง ๆ"
 
 #. i18n: ectx: label, entry (DisplayFont), group (Font)
 #. +> trunk6 stable6
-#: kcalc.kcfg:89
+#: kcalc.kcfg:92
 #, kde-format
 msgid "The font to use in the display."
 msgstr "แบบอักษรที่จะใช้ในส่วนแสดงผล"
 
 #. i18n: ectx: label, entry (HistoryFont), group (Font)
 #. +> trunk6 stable6
-#: kcalc.kcfg:96
+#: kcalc.kcfg:99
 #, fuzzy, kde-format
 #| msgid "The font to use in the display."
 msgid "The font to use in the history."
@@ -1318,14 +1361,14 @@ msgstr "แบบอักษรที่จะใช้ในส่วนแส
 
 #. i18n: ectx: label, entry (Precision), group (Precision)
 #. +> trunk6 stable6
-#: kcalc.kcfg:102
+#: kcalc.kcfg:105
 #, kde-format
 msgid "Maximum number of digits displayed."
 msgstr "จำนวนสูงสุดของตัวเลขที่จะแสดงผล"
 
 #. i18n: ectx: whatsthis, entry (Precision), group (Precision)
 #. +> trunk6 stable6
-#: kcalc.kcfg:108
+#: kcalc.kcfg:111
 #, kde-format
 msgid ""
 "\n"
@@ -1344,49 +1387,49 @@ msgstr ""
 
 #. i18n: ectx: label, entry (FixedPrecision), group (Precision)
 #. +> trunk6 stable6
-#: kcalc.kcfg:114
+#: kcalc.kcfg:117
 #, kde-format
 msgid "Number of fixed decimal digits."
 msgstr "จำนวนเลขทศนิยมที่จะให้ยึดไว้"
 
 #. i18n: ectx: label, entry (Fixed), group (Precision)
 #. +> trunk6 stable6
-#: kcalc.kcfg:118
+#: kcalc.kcfg:121
 #, kde-format
 msgid "Whether to use fixed decimal places."
 msgstr "ให้ใช้การยึดตำแหน่งทศนิยม"
 
 #. i18n: ectx: label, entry (Beep), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:124
+#: kcalc.kcfg:127
 #, kde-format
 msgid "Whether to beep on error."
 msgstr "ให้มีออดเตือนเมื่อผิดพลาด"
 
 #. i18n: ectx: label, entry (CaptionResult), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:128
+#: kcalc.kcfg:131
 #, kde-format
 msgid "Whether to show the result in the window title."
 msgstr "ให้แสดงผลลัพท์ที่แถบหัวเรื่องหน้าต่าง"
 
 #. i18n: ectx: label, entry (GroupDigits), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:132
+#: kcalc.kcfg:135
 #, kde-format
 msgid "Whether to group digits."
 msgstr "ให้ใช้จุลภาคคั่นตัวเลข"
 
 #. i18n: ectx: label, entry (TwosComplement), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:136
+#: kcalc.kcfg:139
 #, kde-format
 msgid "Whether to use Two's Complement for non-decimal numbers."
 msgstr "ให้ใช้ค่าคอมพลีเมนต์ของสองกับค่าตัวเลขที่ไม่ใช่เลขฐานสิบ"
 
 #. i18n: ectx: whatsthis, entry (TwosComplement), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:141
+#: kcalc.kcfg:144
 #, kde-format
 msgid ""
 "\n"
@@ -1398,70 +1441,70 @@ msgstr ""
 
 #. i18n: ectx: label, entry (CalculatorMode), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:147
+#: kcalc.kcfg:150
 #, kde-format
 msgid "Easy Calculator Mode"
 msgstr "โหมดเครื่องคิดเลขอย่างง่าย"
 
 #. i18n: ectx: whatsthis, entry (CalculatorMode), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:148
+#: kcalc.kcfg:151
 #, kde-format
 msgid "A very simple mode where only the basic calculator buttons are shown"
 msgstr "โหมดพื้นฐานที่สุดซึ่งจะแสดงเพียงปุ่มคำนวณพื้นฐานเท่านั้น"
 
 #. i18n: ectx: label, entry (CalculatorMode), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:151
+#: kcalc.kcfg:154
 #, kde-format
 msgid "Science Calculator Mode"
 msgstr "โหมดการคำนวณทางวิทยาศาสตร์"
 
 #. i18n: ectx: whatsthis, entry (CalculatorMode), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:152
+#: kcalc.kcfg:155
 #, kde-format
 msgid "Mode with science buttons and optional constants buttons"
 msgstr "โหมดการคำนวณพร้อมปุ่มคำนวณทางวิทยาศาสตร์และปุ่มค่าคงที่ต่างๆ"
 
 #. i18n: ectx: label, entry (CalculatorMode), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:155
+#: kcalc.kcfg:158
 #, kde-format
 msgid "Statistic Calculator Mode"
 msgstr "โหมดการคำนวณทางสถิติ"
 
 #. i18n: ectx: whatsthis, entry (CalculatorMode), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:156
+#: kcalc.kcfg:159
 #, kde-format
 msgid "Mode with additional statistics buttons and optional constants buttons"
 msgstr "โหมดการคำนวณพร้อมปุ่มคำนวณทางสถิติและปุ่มค่าคงที่ต่างๆ"
 
 #. i18n: ectx: whatsthis, entry (CalculatorMode), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:160
+#: kcalc.kcfg:163
 #, kde-format
 msgid "Mode with logic buttons and selectable base. Optional bit edit available."
 msgstr "โหมดการคำนวณพร้อมปุ่มเชิงตรรกะและการเลือกเลขฐาน รวมถึงการแก้ไขปฏิบัติการระดับบิต"
 
 #. i18n: ectx: label, entry (ShowBitset), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:165
+#: kcalc.kcfg:168
 #, kde-format
 msgid "Whether to show the bit edit widget."
 msgstr "ให้แสดงวิดเจ็ตบิตแก้ไข"
 
 #. i18n: ectx: label, entry (ShowConstants), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:169
+#: kcalc.kcfg:172
 #, kde-format
 msgid "Whether to show constant buttons."
 msgstr "ให้แสดงปุ่มค่าคงที่"
 
 #. i18n: ectx: label, entry (ShowHistory), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:173
+#: kcalc.kcfg:176
 #, fuzzy, kde-format
 #| msgid "Whether to show the bit edit widget."
 msgid "Whether to show the history window."
@@ -1469,28 +1512,28 @@ msgstr "ให้แสดงวิดเจ็ตบิตแก้ไข"
 
 #. i18n: ectx: label, entry (AngleMode), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:177
+#: kcalc.kcfg:180
 #, kde-format
 msgid "Degrees, radians or grads"
 msgstr "องศา, เรเดียน หรือ เกรเดียน"
 
 #. i18n: ectx: label, entry (BaseMode), group (General)
 #. +> trunk6 stable6
-#: kcalc.kcfg:181
+#: kcalc.kcfg:184
 #, kde-format
 msgid "Numeric base"
 msgstr "เลขฐาน"
 
 #. i18n: ectx: label, entry (BinaryGrouping), group (Grouping)
 #. +> trunk6 stable6
-#: kcalc.kcfg:187
+#: kcalc.kcfg:190
 #, kde-format
 msgid "Binary figures will be separated by a whitespace after every Xth digit."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (BinaryGrouping), group (Grouping)
 #. +> trunk6 stable6
-#: kcalc.kcfg:192
+#: kcalc.kcfg:195
 #, kde-format
 msgid ""
 "\n"
@@ -1502,14 +1545,14 @@ msgstr ""
 
 #. i18n: ectx: label, entry (OctalGrouping), group (Grouping)
 #. +> trunk6 stable6
-#: kcalc.kcfg:196
+#: kcalc.kcfg:199
 #, kde-format
 msgid "Octal figures will be separated by a whitespace after every Xth digit."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (OctalGrouping), group (Grouping)
 #. +> trunk6 stable6
-#: kcalc.kcfg:201
+#: kcalc.kcfg:204
 #, kde-format
 msgid ""
 "\n"
@@ -1521,14 +1564,14 @@ msgstr ""
 
 #. i18n: ectx: label, entry (HexadecimalGrouping), group (Grouping)
 #. +> trunk6 stable6
-#: kcalc.kcfg:205
+#: kcalc.kcfg:208
 #, kde-format
 msgid "Hexadecimal figures will be separated by a whitespace after every Xth digit."
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (HexadecimalGrouping), group (Grouping)
 #. +> trunk6 stable6
-#: kcalc.kcfg:210
+#: kcalc.kcfg:213
 #, kde-format
 msgid ""
 "\n"
@@ -1540,56 +1583,14 @@ msgstr ""
 
 #. i18n: ectx: label, entry (nameConstant$(ConstIndex)), group (UserConstants)
 #. +> trunk6 stable6
-#: kcalc.kcfg:216
+#: kcalc.kcfg:219
 #, kde-format
 msgid "Name of the user programmable constants."
 msgstr "ชื่อของค่าคงที่ที่ผู้ใช้ทำการโปรแกรมได้"
 
-#. +> trunk6 stable6
-#: kcalc.kcfg:226
-#, kde-format
-msgctxt "Name of the user programmable constant"
-msgid "C1"
-msgstr "C1"
-
-#. +> trunk6 stable6
-#: kcalc.kcfg:227
-#, kde-format
-msgctxt "Name of the user programmable constant"
-msgid "C2"
-msgstr "C2"
-
-#. +> trunk6 stable6
-#: kcalc.kcfg:228
-#, kde-format
-msgctxt "Name of the user programmable constant"
-msgid "C3"
-msgstr "C3"
-
-#. +> trunk6 stable6
-#: kcalc.kcfg:229
-#, kde-format
-msgctxt "Name of the user programmable constant"
-msgid "C4"
-msgstr "C4"
-
-#. +> trunk6 stable6
-#: kcalc.kcfg:230
-#, kde-format
-msgctxt "Name of the user programmable constant"
-msgid "C5"
-msgstr "C5"
-
-#. +> trunk6 stable6
-#: kcalc.kcfg:231
-#, kde-format
-msgctxt "Name of the user programmable constant"
-msgid "C6"
-msgstr "C6"
-
 #. i18n: ectx: label, entry (valueConstant$(ConstIndex)), group (UserConstants)
 #. +> trunk6 stable6
-#: kcalc.kcfg:235
+#: kcalc.kcfg:238
 #, kde-format
 msgid "List of user programmable constants"
 msgstr "รายการของค่าคงที่ที่ผู้ใช้สามารถโปรแกรมได้"
@@ -2514,74 +2515,74 @@ msgid "Bit %1 = %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcalc_const_button.cpp:24 kcalc_const_button.cpp:37
+#: kcalc_const_button.cpp:25 kcalc_const_button.cpp:39
 #, kde-format
 msgctxt "Write display data into memory"
 msgid "Store"
 msgstr "เก็บค่า"
 
 #. +> trunk6 stable6
-#: kcalc_const_button.cpp:24 kcalc_const_button.cpp:37
+#: kcalc_const_button.cpp:25 kcalc_const_button.cpp:39
 #, kde-format
 msgid "Write display data into memory"
 msgstr "เขียนข้อมูลที่แสดงลงหน่วยความจำ"
 
 #. +> trunk6 stable6
-#: kcalc_const_button.cpp:82
+#: kcalc_const_button.cpp:84
 #, kde-format
 msgid "Set Name"
 msgstr "ตั้งชื่อ"
 
 #. +> trunk6 stable6
-#: kcalc_const_button.cpp:87
+#: kcalc_const_button.cpp:89
 #, kde-format
 msgid "Choose From List"
 msgstr "เลือกจากรายการ"
 
 #. +> trunk6 stable6
-#: kcalc_const_button.cpp:102
+#: kcalc_const_button.cpp:104
 #, kde-format
 msgid "New Name for Constant"
 msgstr "ชื่อใหม่สำหรับค่าคงที่"
 
 #. +> trunk6 stable6
-#: kcalc_const_button.cpp:102
+#: kcalc_const_button.cpp:104
 #, kde-format
 msgid "New name:"
 msgstr "ชื่อใหม่:"
 
 #. +> trunk6 stable6
-#: kcalc_const_menu.cpp:77
+#: kcalc_const_menu.cpp:76
 #, kde-format
 msgid "Mathematics"
 msgstr "คณิตศาสตร์"
 
 #. +> trunk6 stable6
-#: kcalc_const_menu.cpp:78
+#: kcalc_const_menu.cpp:77
 #, kde-format
 msgid "Electromagnetism"
 msgstr "ทฤษฎีแม่เหล็กไฟฟ้า"
 
 #. +> trunk6 stable6
-#: kcalc_const_menu.cpp:79
+#: kcalc_const_menu.cpp:78
 #, kde-format
 msgid "Atomic && Nuclear"
 msgstr "เกี่ยวกับอะตอมและนิวเคลียร์"
 
 #. +> trunk6 stable6
-#: kcalc_const_menu.cpp:80
+#: kcalc_const_menu.cpp:79
 #, kde-format
 msgid "Thermodynamics"
 msgstr "เทอร์โมไดนามิกส์"
 
 #. +> trunk6 stable6
-#: kcalc_const_menu.cpp:81
+#: kcalc_const_menu.cpp:80
 #, kde-format
 msgid "Gravitation"
 msgstr "แรงดึงดูด"
 
 #. +> trunk6 stable6
-#: kcalc_display.cpp:45
+#: kcalc_display.cpp:46
 #, fuzzy, kde-format
 #| msgid "Select Display Font"
 msgctxt "@label accessibility description of the calculation result display"
@@ -2589,7 +2590,7 @@ msgid "Result Display"
 msgstr "เลือกแบบอักษรการแสดงผล"
 
 #. +> trunk6 stable6
-#: kcalc_numeralsystem_view.cpp:38
+#: kcalc_numeralsystem_view.cpp:40
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Copy"

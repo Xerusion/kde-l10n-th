@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-19 10:55+0100\n"
+"POT-Creation-Date: 2025-12-09 09:22+0100\n"
 "PO-Revision-Date: 2010-02-11 22:22+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -16,40 +16,154 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. +> trunk6 stable6 stable5
-#: contents/config/config.qml:13
+#. +> trunk6
+#: config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr ""
+
+#. +> stable6 stable5
+#: config.qml:13
 #, kde-format
 msgid "General"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: contents/ui/ConfigGeneral.qml:28
+#. +> stable6 stable5
+#: ConfigGeneral.qml:30
 #, kde-format
 msgid "Show active application's name on Panel button"
 msgstr ""
 
+#. +> trunk6
+#: ConfigGeneral.qml:35
+#, kde-format
+msgctxt "@label:listbox"
+msgid "For active application, show:"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:40
+#, kde-format
+msgctxt "@item:inlistbox what to show for active application in horizontal panel"
+msgid "Icon and name"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:41
+#, kde-format
+msgctxt "@item:inlistbox what to show for active application in horizontal panel"
+msgid "Icon"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:42
+#, kde-format
+msgctxt "@item:inlistbox what to show for active application in horizontal panel"
+msgid "Name"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConfigGeneral.qml:48
+#: ConfigGeneral.qml:89
 #, kde-format
 msgid "Only icons can be shown when the Panel is vertical."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: contents/ui/ConfigGeneral.qml:50
+#: ConfigGeneral.qml:91
 #, kde-format
 msgid "Not applicable when the widget is on the Desktop."
 msgstr ""
 
 #. +> trunk6
-#: contents/ui/main.qml:84
+#: ConfigGeneral.qml:104
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Open on hover:"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:109
+#, kde-format
+msgctxt "@option:check open-on-hover is enabled, with the following delay:"
+msgid "Enabled, with delay:"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:122
+#, kde-format
+msgid "%1 ms"
+msgid_plural "%1 ms"
+msgstr[0] ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:131
+#, kde-format
+msgctxt "short for millisecond(s)"
+msgid "ms"
+msgid_plural "ms"
+msgstr[0] ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:134
+#, kde-format
+msgctxt "@label:spinbox accessible %1 is milliseconds"
+msgid "Hover open delay %1 ms"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:144
+#, fuzzy, kde-format
+#| msgid "No windows"
+msgctxt "@label for checkbox group, completes sentence like: … from current screen"
+msgid "Show only windows:"
+msgstr "ไม่มีหน้าต่างใด ๆ"
+
+#. +> trunk6
+#: ConfigGeneral.qml:145
+#, kde-format
+msgctxt "@option:check completes sentence: show only windows"
+msgid "From the current desktop"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:150
+#, kde-format
+msgctxt "@option:check completes sentence: show only windows"
+msgid "From the current activity"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:155
+#, kde-format
+msgctxt "@option:check completes sentence: show only windows"
+msgid "From the current screen"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:160
+#, kde-format
+msgctxt "@option:check completes sentence: show only windows"
+msgid "That are minimized"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.qml:110 main.qml:168
 #, fuzzy, kde-format
 #| msgid "No windows"
 msgctxt "@info:placeholder"
 msgid "No open windows"
 msgstr "ไม่มีหน้าต่างใด ๆ"
 
-#. +> trunk6 stable6 stable5
-#: contents/ui/main.qml:111
+#. +> trunk6
+#: main.qml:139
+#, kde-format
+msgctxt "@title:window title shown e.g. for desktop and expanded widgets"
+msgid "Plasma Desktop"
+msgstr ""
+
+#. +> stable6 stable5
+#: main.qml:119
 #, kde-format
 msgid "Plasma Desktop"
 msgstr ""

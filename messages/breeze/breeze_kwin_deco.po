@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: breeze\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-06 11:01+0200\n"
+"POT-Creation-Date: 2025-10-29 08:38+0100\n"
 "PO-Revision-Date: 2025-03-17 14:51+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -97,7 +97,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:42
+#: config/ui/breezeconfigurationui.ui:45
 #, kde-format
 msgid "Tit&le alignment:"
 msgstr ""
@@ -132,14 +132,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:92
+#: config/ui/breezeconfigurationui.ui:79
 #, kde-format
 msgid "B&utton size:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, buttonSize)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:106
+#: config/ui/breezeconfigurationui.ui:90
 #, kde-format
 msgid "Tiny"
 msgstr ""
@@ -147,8 +147,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, buttonSize)
 #. i18n: ectx: property (text), item, widget (QComboBox, shadowSize)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:111
-#: config/ui/breezeconfigurationui.ui:224
+#: config/ui/breezeconfigurationui.ui:95 config/ui/breezeconfigurationui.ui:202
 #, kde-format
 msgctxt "@item:inlistbox Button size:"
 msgid "Small"
@@ -157,28 +156,68 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, buttonSize)
 #. i18n: ectx: property (text), item, widget (QComboBox, shadowSize)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:116
-#: config/ui/breezeconfigurationui.ui:229
+#: config/ui/breezeconfigurationui.ui:100
+#: config/ui/breezeconfigurationui.ui:207
 #, kde-format
 msgctxt "@item:inlistbox Button size:"
 msgid "Medium"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, buttonSize)
-#. i18n: ectx: property (text), item, widget (QComboBox, shadowSize)
-#. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:121
-#: config/ui/breezeconfigurationui.ui:234
+#. i18n: ectx: property (text), item, widget (QComboBox, outlineIntensity)
+#. +> stable6
+#: config/ui/breezeconfigurationui.ui:279
 #, kde-format
-msgctxt "@item:inlistbox Button size:"
-msgid "Large"
+msgctxt "@item:inlistbox Outline intensity:"
+msgid "Medium"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, outlineIntensity)
+#. +> stable6
+#: config/ui/breezeconfigurationui.ui:289
+#, kde-format
+msgctxt "@item:inlistbox Outline intensity:"
+msgid "Maximum"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, buttonSize)
 #. i18n: ectx: property (text), item, widget (QComboBox, shadowSize)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:126
-#: config/ui/breezeconfigurationui.ui:239
+#: config/ui/breezeconfigurationui.ui:105
+#: config/ui/breezeconfigurationui.ui:212
+#, kde-format
+msgctxt "@item:inlistbox Button size:"
+msgid "Large"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, outlineIntensity)
+#. +> stable6
+#: config/ui/breezeconfigurationui.ui:269
+#, kde-format
+msgctxt "@item:inlistbox Outline intensity:"
+msgid "Off"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, outlineIntensity)
+#. +> stable6
+#: config/ui/breezeconfigurationui.ui:274
+#, kde-format
+msgctxt "@item:inlistbox Outline intensity:"
+msgid "Low"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, outlineIntensity)
+#. +> stable6
+#: config/ui/breezeconfigurationui.ui:284
+#, kde-format
+msgctxt "@item:inlistbox Outline intensity:"
+msgid "High"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, buttonSize)
+#. i18n: ectx: property (text), item, widget (QComboBox, shadowSize)
+#. +> trunk6 stable6 stable5
+#: config/ui/breezeconfigurationui.ui:110
+#: config/ui/breezeconfigurationui.ui:217
 #, kde-format
 msgctxt "@item:inlistbox Button size:"
 msgid "Very Large"
@@ -186,42 +225,49 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, outlineCloseButton)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:134
+#: config/ui/breezeconfigurationui.ui:118
 #, kde-format
 msgid "Draw a circle around close button"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, drawBorderOnMaximizedWindows)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:141
+#: config/ui/breezeconfigurationui.ui:125
 #, kde-format
 msgid "Draw border on maximized and tiled windows"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, drawBorderOnMaximizedWindowsHelpLabel)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:166
+#: config/ui/breezeconfigurationui.ui:150
 #, kde-format
 msgid "This setting will allow you to resize from window edges touching screen edges. Scrollbars and window close buttons will shift positions and will not touch screen edges."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, drawBackgroundGradient)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:178
+#: config/ui/breezeconfigurationui.ui:162
 #, kde-format
 msgid "Draw titlebar background gradient"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, roundedCorners)
+#. +> trunk6 stable6
+#: config/ui/breezeconfigurationui.ui:169
+#, kde-format
+msgid "Round bottom corners of windows with no borders"
+msgstr ""
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #. +> trunk6 stable6
-#: config/ui/breezeconfigurationui.ui:199
+#: config/ui/breezeconfigurationui.ui:177
 #, kde-format
 msgid "Shadows and Outline"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6
-#: config/ui/breezeconfigurationui.ui:205
+#: config/ui/breezeconfigurationui.ui:186
 #, kde-format
 msgid "Shadow size:"
 msgstr ""
@@ -242,7 +288,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shadowSize)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:219
+#: config/ui/breezeconfigurationui.ui:197
 #, kde-format
 msgctxt "@item:inlistbox Button size:"
 msgid "None"
@@ -250,7 +296,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6
-#: config/ui/breezeconfigurationui.ui:247
+#: config/ui/breezeconfigurationui.ui:225
 #, kde-format
 msgctxt "strength of the shadow (from transparent to opaque)"
 msgid "Shadow strength:"
@@ -266,14 +312,14 @@ msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, shadowStrength)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:260
+#: config/ui/breezeconfigurationui.ui:235
 #, kde-format, no-c-format
 msgid "%"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6
-#: config/ui/breezeconfigurationui.ui:286
+#: config/ui/breezeconfigurationui.ui:248
 #, kde-format
 msgid "Shadow color:"
 msgstr ""
@@ -285,57 +331,24 @@ msgstr ""
 msgid "Color:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, drawOutline)
+#. +> trunk6
+#: config/ui/breezeconfigurationui.ui:258
+#, kde-format
+msgid "Draw window outline"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#. +> trunk6 stable6
-#: config/ui/breezeconfigurationui.ui:299
+#. +> stable6
+#: config/ui/breezeconfigurationui.ui:258
 #, kde-format
 msgctxt "outline intensity"
 msgid "Outline intensity:"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, outlineIntensity)
-#. +> trunk6 stable6
-#: config/ui/breezeconfigurationui.ui:313
-#, kde-format
-msgctxt "@item:inlistbox Outline intensity:"
-msgid "Off"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, outlineIntensity)
-#. +> trunk6 stable6
-#: config/ui/breezeconfigurationui.ui:318
-#, kde-format
-msgctxt "@item:inlistbox Outline intensity:"
-msgid "Low"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, outlineIntensity)
-#. +> trunk6 stable6
-#: config/ui/breezeconfigurationui.ui:323
-#, kde-format
-msgctxt "@item:inlistbox Outline intensity:"
-msgid "Medium"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, outlineIntensity)
-#. +> trunk6 stable6
-#: config/ui/breezeconfigurationui.ui:328
-#, kde-format
-msgctxt "@item:inlistbox Outline intensity:"
-msgid "High"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, outlineIntensity)
-#. +> trunk6 stable6
-#: config/ui/breezeconfigurationui.ui:333
-#, kde-format
-msgctxt "@item:inlistbox Outline intensity:"
-msgid "Maximum"
-msgstr ""
-
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #. +> trunk6 stable6 stable5
-#: config/ui/breezeconfigurationui.ui:355
+#: config/ui/breezeconfigurationui.ui:266
 #, kde-format
 msgid "Window-Specific Overrides"
 msgstr ""

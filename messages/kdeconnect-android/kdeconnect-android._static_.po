@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-24 14:55+0100\n"
+"POT-Creation-Date: 2025-12-03 10:32+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -74,8 +74,18 @@ msgid "Report network signal strength and status"
 msgstr ""
 
 #. +> trunk5
+msgctxt "pref_plugin_digitizer"
+msgid "Drawing tablet"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_digitizer_desc"
+msgid "Use your device as a pressure sensitive drawing tablet"
+msgstr ""
+
+#. +> trunk5
 msgctxt "pref_plugin_sftp"
-msgid "Filesystem expose"
+msgid "Filesystem access"
 msgstr ""
 
 #. +> trunk5
@@ -104,8 +114,13 @@ msgid "Remote input"
 msgstr ""
 
 #. +> trunk5
-msgctxt "pref_plugin_mousepad_desc"
+msgctxt "pref_plugin_mousepad_desc_nontv"
 msgid "Use your phone or tablet as a touchpad and keyboard"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_mousepad_desc_tv"
+msgid "Use your phone or tablet as a TV remote"
 msgstr ""
 
 #. +> trunk5
@@ -274,6 +289,11 @@ msgid "Remote input"
 msgstr ""
 
 #. +> trunk5
+msgctxt "open_mousepad_tv"
+msgid "TV remote"
+msgstr ""
+
+#. +> trunk5
 msgctxt "mousepad_info"
 msgid "Move a finger on the screen to move the mouse cursor. Tap for a click, and use two/three fingers for right and middle buttons. Use 2 fingers to scroll. Use a long press to drag'n drop. Gyro mouse functionality can be enabled from plugin preferences"
 msgstr ""
@@ -336,6 +356,21 @@ msgstr ""
 #. +> trunk5
 msgctxt "gyro_mouse_sensitivity_title"
 msgid "Gyroscope sensitivity"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_hide_mouse_input"
+msgid "Hide mouse and keyboard remote input button"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_show_home_title"
+msgid "Show Home button"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_show_back_title"
+msgid "Show Back button"
 msgstr ""
 
 #. +> trunk5
@@ -720,8 +755,18 @@ msgid "Show Keyboard"
 msgstr ""
 
 #. +> trunk5
+msgctxt "show_mouse_and_keyboard"
+msgid "Show Mouse and Keyboard"
+msgstr ""
+
+#. +> trunk5
 msgctxt "device_not_paired"
 msgid "Device not paired"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pairing_duplicate_names"
+msgid "Caution: There are multiple devices with the same name."
 msgstr ""
 
 #. +> trunk5
@@ -737,6 +782,11 @@ msgstr ""
 #. +> trunk5
 msgctxt "pairing_reject"
 msgid "Reject"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pairing_explanation"
+msgid "Pairing two devices will give them access to each other. Only pair together your own devices."
 msgstr ""
 
 #. +> trunk5
@@ -846,8 +896,8 @@ msgstr ""
 
 #. +> trunk5
 #, c-format
-msgctxt "unreachable_device"
-msgid "%s (Unreachable)"
+msgctxt "unreachable_device_dynamic_shortcut"
+msgid "%s (✕)"
 msgstr ""
 
 #. +> trunk5
@@ -906,7 +956,7 @@ msgstr ""
 
 #. +> trunk5
 msgctxt "custom_device_list_help"
-msgid "If your device is not automatically detected you can add its IP address or hostname by clicking on the Floating Action Button"
+msgid "If your device is not automatically detected, you can add its IP address or hostname by clicking on the button below"
 msgstr ""
 
 #. +> trunk5
@@ -1051,6 +1101,11 @@ msgid "To allow remote access to files on this device you need to allow KDE Conn
 msgstr ""
 
 #. +> trunk5
+msgctxt "sftp_missing_permission_error"
+msgid "Permissions missing: filesystem access"
+msgstr ""
+
+#. +> trunk5
 msgctxt "no_players_connected"
 msgid "No players found"
 msgstr ""
@@ -1058,6 +1113,61 @@ msgstr ""
 #. +> trunk5
 msgctxt "send_files"
 msgid "Send files"
+msgstr ""
+
+#. +> trunk5
+msgctxt "use_digitizer"
+msgid "Use as drawing tablet"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_draw_button"
+msgid "Draw using finger"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_title_hide_draw_button"
+msgid "Hide draw button"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_summary_hide_draw_button"
+msgid "Completely hides the draw button, making finger drawing impossible. Only enable this if your device supports stylus input."
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_title_draw_button_side"
+msgid "Side of “Draw with finger” button"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_title_enable_exit_fullscreen_gesture"
+msgid "Enable fullscreen exit gesture"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_summary_enable_exit_fullscreen_gesture"
+msgid "If enabled, tapping and holding on the drawing pad with your finger will disable fullscreen mode."
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_entries_draw_button_side:0"
+msgid "Top left"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_entries_draw_button_side:1"
+msgid "Top right"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_entries_draw_button_side:2"
+msgid "Bottom left"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_entries_draw_button_side:3"
+msgid "Bottom right"
 msgstr ""
 
 #. +> trunk5
@@ -1321,6 +1431,11 @@ msgid "Incoming file transfer"
 msgstr ""
 
 #. +> trunk5
+msgctxt "notification_channel_filetransfer_complete"
+msgid "Incoming file transfer complete"
+msgstr ""
+
+#. +> trunk5
 msgctxt "notification_channel_filetransfer_upload"
 msgid "Outgoing file transfer"
 msgstr ""
@@ -1438,6 +1553,16 @@ msgstr ""
 #. +> trunk5
 msgctxt "settings_dark_mode"
 msgid "Dark theme"
+msgstr ""
+
+#. +> trunk5
+msgctxt "settings_export_logs"
+msgid "Export KDE Connect logs"
+msgstr ""
+
+#. +> trunk5
+msgctxt "settings_export_logs_text"
+msgid "Generate a file with execution information that can help troubleshoot issues."
 msgstr ""
 
 #. +> trunk5
@@ -1597,13 +1722,18 @@ msgid "Down"
 msgstr ""
 
 #. +> trunk5
+msgctxt "bigscreen_back"
+msgid "Back"
+msgstr ""
+
+#. +> trunk5
 msgctxt "bigscreen_mic"
 msgid "Mic"
 msgstr ""
 
 #. +> trunk5
 msgctxt "pref_plugin_bigscreen"
-msgid "Bigscreen remote"
+msgid "TV remote"
 msgstr ""
 
 #. +> trunk5
@@ -1950,6 +2080,16 @@ msgid "Enable UDP device discovery"
 msgstr ""
 
 #. +> trunk5
+msgctxt "enable_mdns_broadcast"
+msgid "Enable MDNS device discovery"
+msgstr ""
+
+#. +> trunk5
+msgctxt "enable_mdns_broadcast_explanation"
+msgid "MDNS discovery is being deprecated. Please report a bug if KDE Connect only works when this is enabled."
+msgstr ""
+
+#. +> trunk5
 msgctxt "enable_bluetooth"
 msgid "Enable bluetooth (beta)"
 msgstr ""
@@ -2013,4 +2153,9 @@ msgstr ""
 #. +> trunk5
 msgctxt "device_host_duplicate"
 msgid "Host already exists in the list"
+msgstr ""
+
+#. +> trunk5
+msgctxt "enable_fullscreen"
+msgid "Enable fullscreen"
 msgstr ""

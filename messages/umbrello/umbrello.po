@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-20 08:26+0100\n"
+"POT-Creation-Date: 2025-11-24 09:42+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -109,7 +109,7 @@ msgid "Dependency"
 msgstr ""
 
 #. +> trunk5 stable5
-#: basictypes.cpp:331 umlwidgets/widgetbase.cpp:1239 worktoolbar.cpp:332
+#: basictypes.cpp:331 umlwidgets/widgetbase.cpp:1252 worktoolbar.cpp:332
 #, kde-format
 msgid "Association"
 msgstr ""
@@ -188,7 +188,7 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: basictypes.cpp:357 dialogs/activitydialog.cpp:139
-#: umlwidgets/widgetbase.cpp:1230 worktoolbar.cpp:377
+#: umlwidgets/widgetbase.cpp:1243 worktoolbar.cpp:377
 #, kde-format
 msgid "Activity"
 msgstr ""
@@ -230,13 +230,13 @@ msgid "? AssociationType ?"
 msgstr ""
 
 #. +> trunk5 stable5
-#: clipboard/umlclipboard.cpp:751
+#: clipboard/umlclipboard.cpp:753
 #, kde-format
 msgid "At least one of the items in the clipboard could not be pasted because an item of the same name already exists.  Any other items have been pasted."
 msgstr ""
 
 #. +> trunk5 stable5
-#: clipboard/umlclipboard.cpp:755 uml.cpp:1627
+#: clipboard/umlclipboard.cpp:757 umlapp.cpp:1522
 #, kde-format
 msgid "Paste Error"
 msgstr ""
@@ -470,7 +470,7 @@ msgstr ""
 
 #. i18n: ectx: label, entry (accessorMethodsStartWithUpperCase), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: codegenerators/cpp/cppcodegenerationform.cpp:68 umbrello.kcfg:543
+#: codegenerators/cpp/cppcodegenerationform.cpp:68 umbrello.kcfg:553
 #, kde-format
 msgid "Accessor methods start with capital letters"
 msgstr ""
@@ -500,7 +500,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: label, entry (classMemberPrefix), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: codegenerators/cpp/cppcodegenerationformbase.ui:68 umbrello.kcfg:473
+#: codegenerators/cpp/cppcodegenerationformbase.ui:68 umbrello.kcfg:483
 #, kde-format
 msgid "Class member prefix"
 msgstr ""
@@ -779,8 +779,8 @@ msgstr ""
 #: codegenerators/d/dcodegenerationformbase.ui:261
 #: codegenerators/java/javacodegenerationformbase.ui:261
 #: codegenerators/ruby/rubycodegenerationformbase.ui:52
+#: dialogs/pages/associationrolepage.cpp:84
 #: dialogs/pages/associationrolepage.cpp:85
-#: dialogs/pages/associationrolepage.cpp:86
 #: dialogs/pages/classifierlistpage.cpp:221
 #: dialogs/pages/diagrampropertiespage.ui:322
 #: dialogs/pages/umlrolepropertiesbase.ui:140
@@ -1003,7 +1003,7 @@ msgid "Auto-Generated Methods"
 msgstr ""
 
 #. +> trunk5 stable5
-#: codegenwizard/codegenerationwizard.cpp:36
+#: codegenwizard/codegenerationwizard.cpp:35
 #, kde-format
 msgid "Code Generation Wizard"
 msgstr ""
@@ -1159,7 +1159,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxOverwritePolicy)
 #. i18n: ectx: label, entry (overwritePolicy), group (Code Generation)
 #. +> trunk5 stable5
-#: codegenwizard/codegenoptionspage.ui:136 umbrello.kcfg:455
+#: codegenwizard/codegenoptionspage.ui:136 umbrello.kcfg:465
 #, kde-format
 msgid "Overwrite Policy"
 msgstr ""
@@ -1477,7 +1477,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryClass)
 #. +> trunk5 stable5
 #: codegenwizard/codegenstatuspage.ui:40 codeimpwizard/codeimpstatuspage.ui:54
-#: dialogs/finddialog.ui:89 umllistview.cpp:1443 umlwidgets/widgetbase.cpp:1254
+#: dialogs/finddialog.ui:89 umllistview.cpp:1443 umlwidgets/widgetbase.cpp:1267
 #, kde-format
 msgid "Class"
 msgstr ""
@@ -1532,7 +1532,7 @@ msgid "Failed."
 msgstr ""
 
 #. +> trunk5 stable5
-#: codeimpwizard/codeimportingwizard.cpp:35
+#: codeimpwizard/codeimportingwizard.cpp:34
 #, kde-format
 msgid "Code Importing Wizard"
 msgstr ""
@@ -1765,7 +1765,7 @@ msgid "No code importer for file: %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: debug/debug_utils.cpp:140
+#: debug/debug_utils.cpp:141
 #, kde-format
 msgid "Class Name"
 msgstr ""
@@ -1773,9 +1773,9 @@ msgstr ""
 #. +> trunk5 stable5
 #: dialogs/activitydialog.cpp:37 dialogs/activitydialog.cpp:149
 #: dialogs/classpropertiesdialog.cpp:119 dialogs/objectnodedialog.cpp:39
-#: dialogs/pages/associationgeneralpage.cpp:78
+#: dialogs/pages/associationgeneralpage.cpp:77
 #: dialogs/parameterpropertiesdialog.cpp:61 dialogs/statedialog.cpp:44
-#: dialogs/statedialog.cpp:123 dialogs/umlviewdialog.cpp:38
+#: dialogs/statedialog.cpp:123 dialogs/umlviewdialog.cpp:37
 #: menus/listpopupmenu.cpp:241 refactoring/refactoringassistant.cpp:459
 #, kde-format
 msgid "Properties"
@@ -1880,7 +1880,7 @@ msgid "&Parameter activity node"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/associationpropertiesdialog.cpp:39
+#: dialogs/associationpropertiesdialog.cpp:38
 #, kde-format
 msgid "Association Properties"
 msgstr ""
@@ -1896,7 +1896,7 @@ msgstr ""
 #: dialogs/classpropertiesdialog.cpp:245 dialogs/classpropertiesdialog.cpp:357
 #: dialogs/multipagedialogbase.cpp:299 dialogs/multipagedialogbase.cpp:313
 #: dialogs/multipagedialogbase.cpp:323 dialogs/settingsdialog.cpp:107
-#: dialogs/umlforeignkeyconstraintdialog.cpp:205 dialogs/umlviewdialog.cpp:88
+#: dialogs/umlforeignkeyconstraintdialog.cpp:205 dialogs/umlviewdialog.cpp:87
 #, kde-format
 msgid "General Settings"
 msgstr ""
@@ -2027,7 +2027,7 @@ msgid "General"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/classwizard.cpp:39 model_utils.cpp:566
+#: dialogs/classwizard.cpp:39 model_utils.cpp:567
 #, kde-format
 msgid "new_class"
 msgstr ""
@@ -2221,37 +2221,37 @@ msgid "<p align=\"right\">Editable text:</p>"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/dialog_utils.cpp:31
+#: dialogs/dialog_utils.cpp:36
 #, kde-format
 msgid "Enable all messages"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/dialog_utils.cpp:32
+#: dialogs/dialog_utils.cpp:37
 #, kde-format
 msgid "Enable 'delete association' related messages"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/dialog_utils.cpp:33
+#: dialogs/dialog_utils.cpp:38
 #, kde-format
 msgid "Enable 'delete diagram' related messages"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/dialog_utils.cpp:210
+#: dialogs/dialog_utils.cpp:215
 #, kde-format
 msgid "You are about to delete an association. Do you really want to continue?"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/dialog_utils.cpp:211
+#: dialogs/dialog_utils.cpp:216
 #, kde-format
 msgid "Delete Association"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/dialog_utils.cpp:225
+#: dialogs/dialog_utils.cpp:230
 #, kde-format
 msgid ""
 "You are about to delete the entire diagram.\n"
@@ -2259,19 +2259,19 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/dialog_utils.cpp:226
+#: dialogs/dialog_utils.cpp:231
 #, kde-format
 msgid "Are you sure you want to delete diagram %1?"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/dialog_utils.cpp:231
+#: dialogs/dialog_utils.cpp:236
 #, kde-format
 msgid "Delete Diagram?"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/dialog_utils.cpp:232 dialogs/pages/classifierlistpage.cpp:208
+#: dialogs/dialog_utils.cpp:237 dialogs/pages/classifierlistpage.cpp:208
 #: dialogs/umlforeignkeyconstraintdialog.cpp:321
 #: dialogs/umloperationdialog.cpp:164 dialogs/umluniqueconstraintdialog.cpp:110
 #, kde-format
@@ -2279,7 +2279,7 @@ msgid "&Delete"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/dontaskagain.cpp:61
+#: dialogs/dontaskagain.cpp:59
 #, kde-format
 msgid "Notifications"
 msgstr ""
@@ -2339,7 +2339,7 @@ msgid "Use &folders"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/finddialog.cpp:11
+#: dialogs/finddialog.cpp:17
 #, kde-format
 msgid "Find"
 msgstr ""
@@ -2375,7 +2375,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk5 stable5
 #: dialogs/finddialog.ui:74 menus/listpopupmenu.cpp:154
-#: umlwidgets/widgetbase.cpp:1245 worktoolbar.cpp:389
+#: umlwidgets/widgetbase.cpp:1258 worktoolbar.cpp:389
 #, kde-format
 msgid "Category"
 msgstr ""
@@ -2390,7 +2390,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryPackage)
 #. +> trunk5 stable5
 #: dialogs/finddialog.ui:96 menus/widgetbasepopupmenu.cpp:100
-#: umlwidgets/widgetbase.cpp:1290 worktoolbar.cpp:355
+#: umlwidgets/widgetbase.cpp:1303 worktoolbar.cpp:355
 #, kde-format
 msgid "Package"
 msgstr ""
@@ -2398,7 +2398,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryInterface)
 #. +> trunk5 stable5
 #: dialogs/finddialog.ui:103 menus/listpopupmenu.cpp:204
-#: menus/listpopupmenu.cpp:205 umlwidgets/widgetbase.cpp:1272
+#: menus/listpopupmenu.cpp:205 umlwidgets/widgetbase.cpp:1285
 #: worktoolbar.cpp:359
 #, kde-format
 msgid "Interface"
@@ -2443,7 +2443,7 @@ msgstr ""
 #. i18n: ectx: label, entry (uiFont), group (UI Options)
 #. i18n: ectx: label, entry (codeViewerFont), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: dialogs/multipagedialogbase.cpp:338 umbrello.kcfg:172 umbrello.kcfg:292
+#: dialogs/multipagedialogbase.cpp:338 umbrello.kcfg:172 umbrello.kcfg:302
 #: umllistview.cpp:1447
 #, kde-format
 msgid "Font"
@@ -2652,53 +2652,53 @@ msgid "Rename"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationgeneralpage.cpp:86
+#: dialogs/pages/associationgeneralpage.cpp:85
 #, kde-format
 msgctxt "name of association widget"
 msgid "Name:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationgeneralpage.cpp:108
+#: dialogs/pages/associationgeneralpage.cpp:107
 #: menus/widgetbasepopupmenu.cpp:102 menus/widgetbasepopupmenu.cpp:729
 #, kde-format
 msgid "Stereotype"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationgeneralpage.cpp:117
+#: dialogs/pages/associationgeneralpage.cpp:116
 #, kde-format
 msgid "Type:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationrolepage.cpp:61
+#: dialogs/pages/associationrolepage.cpp:60
 #, kde-format
 msgid "Role A Properties"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationrolepage.cpp:62
+#: dialogs/pages/associationrolepage.cpp:61
 #, kde-format
 msgid "Role B Properties"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationrolepage.cpp:79
+#: dialogs/pages/associationrolepage.cpp:78
 #, kde-format
 msgid "Role A Changeability"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationrolepage.cpp:80
+#: dialogs/pages/associationrolepage.cpp:79
 #, kde-format
 msgid "Role B Changeability"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelRoleName)
 #. +> trunk5 stable5
-#: dialogs/pages/associationrolepage.cpp:108
-#: dialogs/pages/associationrolepage.cpp:157
+#: dialogs/pages/associationrolepage.cpp:107
+#: dialogs/pages/associationrolepage.cpp:156
 #: dialogs/pages/umlrolepropertiesbase.ui:36
 #, kde-format
 msgid "Rolename:"
@@ -2706,50 +2706,50 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelMultiplicity)
 #. +> trunk5 stable5
-#: dialogs/pages/associationrolepage.cpp:113
-#: dialogs/pages/associationrolepage.cpp:162
+#: dialogs/pages/associationrolepage.cpp:112
+#: dialogs/pages/associationrolepage.cpp:161
 #: dialogs/pages/umlrolepropertiesbase.ui:49
 #, kde-format
 msgid "Multiplicity:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationrolepage.cpp:133
+#: dialogs/pages/associationrolepage.cpp:132
 #, kde-format
 msgctxt "changeability for A is changeable"
 msgid "Changeable"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationrolepage.cpp:136
+#: dialogs/pages/associationrolepage.cpp:135
 #, kde-format
 msgctxt "changeability for A is frozen"
 msgid "Frozen"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationrolepage.cpp:139
+#: dialogs/pages/associationrolepage.cpp:138
 #, kde-format
 msgctxt "changeability for A is add only"
 msgid "Add only"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationrolepage.cpp:182
+#: dialogs/pages/associationrolepage.cpp:181
 #, kde-format
 msgctxt "changeability for B is changeable"
 msgid "Changeable"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationrolepage.cpp:185
+#: dialogs/pages/associationrolepage.cpp:184
 #, kde-format
 msgctxt "changeability for B is frozen"
 msgid "Frozen"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/associationrolepage.cpp:188
+#: dialogs/pages/associationrolepage.cpp:187
 #, kde-format
 msgctxt "changeability for B is add only"
 msgid "Add only"
@@ -2927,7 +2927,7 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: dialogs/pages/classifierlistpage.cpp:210 dialogs/umloperationdialog.cpp:166
-#: uml.cpp:587
+#: umlapp.cpp:546
 #, kde-format
 msgid "&Properties"
 msgstr ""
@@ -2948,7 +2948,7 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: dialogs/pages/classoptionspage.cpp:152
-#: dialogs/pages/classoptionspage.cpp:246 uml.cpp:542
+#: dialogs/pages/classoptionspage.cpp:246
 #, kde-format
 msgid "&Documentation"
 msgstr ""
@@ -3130,7 +3130,7 @@ msgid "<p align=\"center\">No Options Available.</p>"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/diagramprintpage.cpp:39 umlappprivate.h:120
+#: dialogs/pages/diagramprintpage.cpp:39 umlappprivate.h:199
 #, kde-format
 msgid "&Diagrams"
 msgstr ""
@@ -3168,10 +3168,11 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: dialogs/pages/diagrampropertiespage.cpp:73 object_factory.cpp:255
-#: umldoc.cpp:1509 umldoc.cpp:1573 umldoc.cpp:1602 umldoc.cpp:1637
-#: umlmodel/classifier.cpp:409 umlmodel/classifier.cpp:781
-#: umlmodel/entity.cpp:122 umlmodel/entity.cpp:175 umlmodel/entity.cpp:225
-#: umlmodel/entity.cpp:274 umlmodel/enum.cpp:105 umlmodel/package.cpp:178
+#: umldoc.cpp:1627 umldoc.cpp:1691 umldoc.cpp:1720 umldoc.cpp:1755
+#: umlmodel/umlclassifier.cpp:409 umlmodel/umlclassifier.cpp:782
+#: umlmodel/umlentity.cpp:122 umlmodel/umlentity.cpp:175
+#: umlmodel/umlentity.cpp:225 umlmodel/umlentity.cpp:274
+#: umlmodel/umlenum.cpp:105 umlmodel/umlpackage.cpp:180
 #, kde-format
 msgid "Invalid Name"
 msgstr ""
@@ -3183,7 +3184,7 @@ msgid "The name you have entered is not unique."
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/diagrampropertiespage.cpp:83 umldoc.cpp:1641
+#: dialogs/pages/diagrampropertiespage.cpp:83 umldoc.cpp:1759
 #, kde-format
 msgid "Name Not Unique"
 msgstr ""
@@ -3212,7 +3213,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, ui_labelZoomUnit)
 #. +> trunk5 stable5
 #: dialogs/pages/diagrampropertiespage.ui:82
-#, no-c-format, kde-format
+#, kde-format, no-c-format
 msgid "%"
 msgstr ""
 
@@ -3443,7 +3444,7 @@ msgstr ""
 
 #. i18n: ectx: label, entry (rightToLeftUI), group (UI Options)
 #. +> trunk5 stable5
-#: dialogs/pages/uioptionspage.cpp:62 umbrello.kcfg:187
+#: dialogs/pages/uioptionspage.cpp:62 umbrello.kcfg:197
 #, kde-format
 msgid "Right to left user interface"
 msgstr ""
@@ -3451,31 +3452,37 @@ msgstr ""
 #. +> trunk5 stable5
 #: dialogs/pages/uioptionspage.cpp:66
 #, kde-format
+msgid "Use alignment guides"
+msgstr ""
+
+#. +> trunk5 stable5
+#: dialogs/pages/uioptionspage.cpp:70
+#, kde-format
 msgctxt "Association options"
 msgid "Associations"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/uioptionspage.cpp:71
+#: dialogs/pages/uioptionspage.cpp:75
 #, kde-format
 msgid "Create new association lines as:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/uioptionspage.cpp:74
+#: dialogs/pages/uioptionspage.cpp:78
 #, kde-format
 msgctxt "color group box"
 msgid "Color"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/uioptionspage.cpp:82
+#: dialogs/pages/uioptionspage.cpp:86
 #, kde-format
 msgid "Custom text color"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/uioptionspage.cpp:89
+#: dialogs/pages/uioptionspage.cpp:93
 #, kde-format
 msgid "Custom line color"
 msgstr ""
@@ -3483,31 +3490,31 @@ msgstr ""
 #. i18n("D&efault Color"), m_colorGB);
 #. colorLayout->addWidget(m_lineDefaultB, 0, 2);
 #. +> trunk5 stable5
-#: dialogs/pages/uioptionspage.cpp:99
+#: dialogs/pages/uioptionspage.cpp:103
 #, kde-format
 msgid "Custom fill color"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/uioptionspage.cpp:105
+#: dialogs/pages/uioptionspage.cpp:109
 #, kde-format
 msgid "Custom grid color"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/uioptionspage.cpp:111
+#: dialogs/pages/uioptionspage.cpp:115
 #, kde-format
 msgid "Custom background color"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/uioptionspage.cpp:117
+#: dialogs/pages/uioptionspage.cpp:122
 #, kde-format
 msgid "Custom line width"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/pages/uioptionspage.cpp:127
+#: dialogs/pages/uioptionspage.cpp:132
 #, kde-format
 msgid "&Use fill color"
 msgstr ""
@@ -3738,7 +3745,7 @@ msgid "User Interface Settings"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/settingsdialog.cpp:107 dialogs/umlviewdialog.cpp:88
+#: dialogs/settingsdialog.cpp:107 dialogs/umlviewdialog.cpp:87
 #, kde-format
 msgctxt "general settings page"
 msgid "General"
@@ -3907,33 +3914,33 @@ msgid "Linked diagram:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/stereoattributedialog.cpp:39
+#: dialogs/stereoattributedialog.cpp:38
 #, kde-format
 msgid "Stereotype Properties"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/stereoattributedialog.cpp:59
+#: dialogs/stereoattributedialog.cpp:58
 #, kde-format
 msgid "Stereotype Attributes for "
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/stereoattributedialog.cpp:75 dialogs/umlattributedialog.cpp:76
+#: dialogs/stereoattributedialog.cpp:74 dialogs/umlattributedialog.cpp:76
 #, kde-format
 msgctxt "attribute name"
 msgid "&Name:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/stereoattributedialog.cpp:78
+#: dialogs/stereoattributedialog.cpp:77
 #, kde-format
 msgctxt "attribute type"
 msgid "&Type:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/stereoattributedialog.cpp:88
+#: dialogs/stereoattributedialog.cpp:87
 #, kde-format
 msgctxt "default value"
 msgid "&Default:"
@@ -4426,27 +4433,27 @@ msgid "Constraint Name Invalid"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/umlviewdialog.cpp:106
+#: dialogs/umlviewdialog.cpp:105
 #, kde-format
 msgctxt "classes display options page"
 msgid "Display"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/umlviewdialog.cpp:106
+#: dialogs/umlviewdialog.cpp:105
 #, kde-format
 msgid "Classes Display Options"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/umlviewdialog.cpp:116
+#: dialogs/umlviewdialog.cpp:115
 #, kde-format
 msgctxt "diagram style page"
 msgid "Style"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/umlviewdialog.cpp:116
+#: dialogs/umlviewdialog.cpp:115
 #, kde-format
 msgid "Diagram Style"
 msgstr ""
@@ -4464,13 +4471,13 @@ msgid "&Image type:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/widgets/resolutionwidget.cpp:24
+#: dialogs/widgets/resolutionwidget.cpp:25
 #, kde-format
 msgid "&Resolution:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/widgets/resolutionwidget.cpp:24
+#: dialogs/widgets/resolutionwidget.cpp:25
 #, kde-format
 msgid "DPI"
 msgstr ""
@@ -4524,13 +4531,27 @@ msgid "&Type:"
 msgstr ""
 
 #. +> trunk5 stable5
+#: dialogs/widgets/umlmessagebox.h:27
+#, kde-format
+msgctxt "@action:button"
+msgid "Yes"
+msgstr ""
+
+#. +> trunk5 stable5
+#: dialogs/widgets/umlmessagebox.h:32
+#, kde-format
+msgctxt "@action:button"
+msgid "No"
+msgstr ""
+
+#. +> trunk5 stable5
 #: dialogs/widgets/umlpackagewidget.cpp:29
 #, kde-format
 msgid "Package path:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: dialogs/widgets/umlstereotypewidget.cpp:24 umlmodel/umlobject.cpp:1269
+#: dialogs/widgets/umlstereotypewidget.cpp:22 umlmodel/umlobject.cpp:1269
 #, kde-format
 msgid "Stereotype &name:"
 msgstr ""
@@ -4662,13 +4683,13 @@ msgid "Generating Docbook..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: docgenerators/docbookgenerator.cpp:109
+#: docgenerators/docbookgenerator.cpp:113
 #, kde-format
 msgid "Docbook Generation Complete..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: docgenerators/docbookgenerator.cpp:112
+#: docgenerators/docbookgenerator.cpp:116
 #, kde-format
 msgid "Docbook Generation Failed..."
 msgstr ""
@@ -4722,25 +4743,25 @@ msgid "Generating XHTML..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: docgenerators/xhtmlgenerator.cpp:131
+#: docgenerators/xhtmlgenerator.cpp:135
 #, kde-format
 msgid "XHTML Generation Complete..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: docgenerators/xhtmlgenerator.cpp:137
+#: docgenerators/xhtmlgenerator.cpp:141
 #, kde-format
 msgid "Copying CSS..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: docgenerators/xhtmlgenerator.cpp:150
+#: docgenerators/xhtmlgenerator.cpp:158
 #, kde-format
 msgid "Finished Copying CSS..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: docgenerators/xhtmlgenerator.cpp:153
+#: docgenerators/xhtmlgenerator.cpp:161
 #, kde-format
 msgid "Failed Copying CSS..."
 msgstr ""
@@ -4955,7 +4976,7 @@ msgid "Orthogonal"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/dialogspopupmenu.cpp:83 menus/listpopupmenu.cpp:225
+#: menus/dialogspopupmenu.cpp:100 menus/listpopupmenu.cpp:225
 #, kde-format
 msgid "New Template..."
 msgstr ""
@@ -4985,7 +5006,7 @@ msgid "Activity Transition"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/listpopupmenu.cpp:147 umlwidgets/widgetbase.cpp:1233
+#: menus/listpopupmenu.cpp:147 umlwidgets/widgetbase.cpp:1246
 #: worktoolbar.cpp:338
 #, kde-format
 msgid "Actor"
@@ -4993,7 +5014,7 @@ msgstr ""
 
 #. i18n("Actor...")); break;
 #. +> trunk5 stable5
-#: menus/listpopupmenu.cpp:149 umlwidgets/widgetbase.cpp:1236
+#: menus/listpopupmenu.cpp:149 umlwidgets/widgetbase.cpp:1249
 #: worktoolbar.cpp:358
 #, kde-format
 msgid "Artifact"
@@ -5040,7 +5061,7 @@ msgid "Combined state..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/listpopupmenu.cpp:163 umlwidgets/widgetbase.cpp:1251
+#: menus/listpopupmenu.cpp:163 umlwidgets/widgetbase.cpp:1264
 #: worktoolbar.cpp:356
 #, kde-format
 msgid "Component"
@@ -5050,7 +5071,7 @@ msgstr ""
 #: menus/listpopupmenu.cpp:166 menus/listpopupmenu.cpp:173
 #: menus/listpopupmenu.cpp:181 menus/listpopupmenu.cpp:211
 #: menus/listpopupmenu.cpp:271 menus/listpopupmenu.cpp:367
-#: models/diagramsmodel.cpp:56 models/objectsmodel.cpp:82
+#: models/diagramsmodel.cpp:56 models/objectsmodel.cpp:80
 #, kde-format
 msgid "Folder"
 msgstr ""
@@ -5086,7 +5107,7 @@ msgid "End State"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/listpopupmenu.cpp:177 umlwidgets/widgetbase.cpp:1260
+#: menus/listpopupmenu.cpp:177 umlwidgets/widgetbase.cpp:1273
 #: worktoolbar.cpp:364
 #, kde-format
 msgid "Entity"
@@ -5184,7 +5205,7 @@ msgid "Import File(s)..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/listpopupmenu.cpp:198 uml.cpp:384
+#: menus/listpopupmenu.cpp:198 umlapp.cpp:367
 #, kde-format
 msgid "Import from Directory..."
 msgstr ""
@@ -5306,7 +5327,7 @@ msgid "New Parameter..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/listpopupmenu.cpp:226 umlwidgets/widgetbase.cpp:1278
+#: menus/listpopupmenu.cpp:226 umlwidgets/widgetbase.cpp:1291
 #: worktoolbar.cpp:357
 #, kde-format
 msgid "Node"
@@ -5345,14 +5366,14 @@ msgid "Package..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/listpopupmenu.cpp:236 umlwidgets/widgetbase.cpp:1293
+#: menus/listpopupmenu.cpp:236 umlwidgets/widgetbase.cpp:1306
 #: worktoolbar.cpp:381
 #, kde-format
 msgid "Pin"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/listpopupmenu.cpp:237 umlwidgets/widgetbase.cpp:1296
+#: menus/listpopupmenu.cpp:237 umlwidgets/widgetbase.cpp:1309
 #: worktoolbar.cpp:382
 #, kde-format
 msgid "Port"
@@ -5372,7 +5393,7 @@ msgid "Redo"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/listpopupmenu.cpp:243 umlwidgets/widgetbase.cpp:1302
+#: menus/listpopupmenu.cpp:243 umlwidgets/widgetbase.cpp:1315
 #: worktoolbar.cpp:348
 #, kde-format
 msgid "Region"
@@ -5778,969 +5799,969 @@ msgid "Align"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/widgetbasepopupmenu.cpp:594 uml.cpp:606
+#: menus/widgetbasepopupmenu.cpp:594 umlapp.cpp:565
 #, kde-format
 msgid "Align Right"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/widgetbasepopupmenu.cpp:595 uml.cpp:611
+#: menus/widgetbasepopupmenu.cpp:595 umlapp.cpp:570
 #, kde-format
 msgid "Align Left"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/widgetbasepopupmenu.cpp:596 uml.cpp:616
+#: menus/widgetbasepopupmenu.cpp:596 umlapp.cpp:575
 #, kde-format
 msgid "Align Top"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/widgetbasepopupmenu.cpp:597 uml.cpp:621
+#: menus/widgetbasepopupmenu.cpp:597 umlapp.cpp:580
 #, kde-format
 msgid "Align Bottom"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/widgetbasepopupmenu.cpp:599 uml.cpp:626
+#: menus/widgetbasepopupmenu.cpp:599 umlapp.cpp:585
 #, kde-format
 msgid "Align Vertical Middle"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/widgetbasepopupmenu.cpp:600 uml.cpp:631
+#: menus/widgetbasepopupmenu.cpp:600 umlapp.cpp:590
 #, kde-format
 msgid "Align Horizontal Middle"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/widgetbasepopupmenu.cpp:601 uml.cpp:636
+#: menus/widgetbasepopupmenu.cpp:601 umlapp.cpp:595
 #, kde-format
 msgid "Align Vertical Distribute"
 msgstr ""
 
 #. +> trunk5 stable5
-#: menus/widgetbasepopupmenu.cpp:602 uml.cpp:641
+#: menus/widgetbasepopupmenu.cpp:602 umlapp.cpp:600
 #, kde-format
 msgid "Align Horizontal Distribute"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:560
+#: model_utils.cpp:561
 #, kde-format
 msgid "new_actor"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:561
+#: model_utils.cpp:562
 #, kde-format
 msgid "new_artifact"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:562 umlmodel/umlcanvasobject.cpp:186
+#: model_utils.cpp:563 umlmodel/umlcanvasobject.cpp:188
 #, kde-format
 msgid "new_association"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:563 umlmodel/umlcanvasobject.cpp:189
+#: model_utils.cpp:564 umlmodel/umlcanvasobject.cpp:191
 #, kde-format
 msgid "new_attribute"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:564
+#: model_utils.cpp:565
 #, kde-format
 msgid "new_category"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:565 umlmodel/umlcanvasobject.cpp:210
+#: model_utils.cpp:566 umlmodel/umlcanvasobject.cpp:212
 #, kde-format
 msgid "new_check_constraint"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:567
+#: model_utils.cpp:568
 #, kde-format
 msgid "new_component"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:568
+#: model_utils.cpp:569
 #, kde-format
 msgid "new_datatype"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:569
+#: model_utils.cpp:570
 #, kde-format
 msgid "new_entity"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:570
+#: model_utils.cpp:571
 #, kde-format
 msgid "new_entity_attribute"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:571
+#: model_utils.cpp:572
 #, kde-format
 msgid "new_entity_constraint"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:572
+#: model_utils.cpp:573
 #, kde-format
 msgid "new_enum"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:573
+#: model_utils.cpp:574
 #, kde-format
 msgid "new_enum_literal"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:574
+#: model_utils.cpp:575
 #, kde-format
 msgid "new_folder"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:575
+#: model_utils.cpp:576
 #, kde-format
 msgid "new_foreign_key_constraint"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:576
+#: model_utils.cpp:577
 #, kde-format
 msgid "new_instance"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:577
+#: model_utils.cpp:578
 #, kde-format
 msgid "new_instance_attribute"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:578
+#: model_utils.cpp:579
 #, kde-format
 msgid "new_interface"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:579
+#: model_utils.cpp:580
 #, kde-format
 msgid "new_node"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:580 umlmodel/umlcanvasobject.cpp:195
+#: model_utils.cpp:581 umlmodel/umlcanvasobject.cpp:197
 #, kde-format
 msgid "new_operation"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:581
+#: model_utils.cpp:582
 #, kde-format
 msgid "new_package"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:582
+#: model_utils.cpp:583
 #, kde-format
 msgid "new_port"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:583
+#: model_utils.cpp:584
 #, kde-format
 msgid "new_role"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:584
+#: model_utils.cpp:585
 #, kde-format
 msgid "new_stereotype"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:585 umlmodel/umlcanvasobject.cpp:192
+#: model_utils.cpp:586 umlmodel/umlcanvasobject.cpp:194
 #, kde-format
 msgid "new_template"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:586 umlmodel/umlcanvasobject.cpp:204
+#: model_utils.cpp:587 umlmodel/umlcanvasobject.cpp:206
 #, kde-format
 msgid "new_unique_constraint"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:587
+#: model_utils.cpp:588
 #, kde-format
 msgid "new_use_case"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:589 umlmodel/umlcanvasobject.cpp:213
+#: model_utils.cpp:590 umlmodel/umlcanvasobject.cpp:215
 #, kde-format
 msgid "new_object"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:609 umlwidgets/widget_utils.cpp:872
+#: model_utils.cpp:610 umlwidgets/widget_utils.cpp:872
 #, kde-format
 msgid "New actor"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:610 umlwidgets/widget_utils.cpp:873
+#: model_utils.cpp:611 umlwidgets/widget_utils.cpp:873
 #, kde-format
 msgid "New artifact"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:611 umlwidgets/widget_utils.cpp:874
+#: model_utils.cpp:612 umlwidgets/widget_utils.cpp:874
 #, kde-format
 msgid "New association"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:612
+#: model_utils.cpp:613
 #, kde-format
 msgid "New attribute"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:613 umlwidgets/widget_utils.cpp:876
+#: model_utils.cpp:614 umlwidgets/widget_utils.cpp:876
 #, kde-format
 msgid "New category"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:614
+#: model_utils.cpp:615
 #, kde-format
 msgid "New check constraint"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:615 umlwidgets/widget_utils.cpp:877
+#: model_utils.cpp:616 umlwidgets/widget_utils.cpp:877
 #, kde-format
 msgid "New class"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:616 umlwidgets/widget_utils.cpp:879
+#: model_utils.cpp:617 umlwidgets/widget_utils.cpp:879
 #, kde-format
 msgid "New component"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:617 umlwidgets/widget_utils.cpp:880
+#: model_utils.cpp:618 umlwidgets/widget_utils.cpp:880
 #, kde-format
 msgid "New datatype"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:618 umlwidgets/widget_utils.cpp:881
+#: model_utils.cpp:619 umlwidgets/widget_utils.cpp:881
 #, kde-format
 msgid "New entity"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:619
+#: model_utils.cpp:620
 #, kde-format
 msgid "New entity attribute"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:620
+#: model_utils.cpp:621
 #, kde-format
 msgid "New entity constraint"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:621 umlwidgets/widget_utils.cpp:882
+#: model_utils.cpp:622 umlwidgets/widget_utils.cpp:882
 #, kde-format
 msgid "New enum"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:622
+#: model_utils.cpp:623
 #, kde-format
 msgid "New enum literal"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:623
+#: model_utils.cpp:624
 #, kde-format
 msgid "New folder"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:624
+#: model_utils.cpp:625
 #, kde-format
 msgid "New foreign key constraint"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:625 umlwidgets/widget_utils.cpp:885
+#: model_utils.cpp:626 umlwidgets/widget_utils.cpp:885
 #, kde-format
 msgid "New instance"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:626
+#: model_utils.cpp:627
 #, kde-format
 msgid "New instance attribute"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:627 umlwidgets/widget_utils.cpp:886
+#: model_utils.cpp:628 umlwidgets/widget_utils.cpp:886
 #, kde-format
 msgid "New interface"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:628 umlwidgets/widget_utils.cpp:888
+#: model_utils.cpp:629 umlwidgets/widget_utils.cpp:888
 #, kde-format
 msgid "New node"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:629
+#: model_utils.cpp:630
 #, kde-format
 msgid "New operation"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:630 umlwidgets/widget_utils.cpp:892
+#: model_utils.cpp:631 umlwidgets/widget_utils.cpp:892
 #, kde-format
 msgid "New package"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:631 umlwidgets/widget_utils.cpp:894
+#: model_utils.cpp:632 umlwidgets/widget_utils.cpp:894
 #, kde-format
 msgid "New port"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:632
+#: model_utils.cpp:633
 #, kde-format
 msgid "New role"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:633
+#: model_utils.cpp:634
 #, kde-format
 msgid "New stereotype"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:634
+#: model_utils.cpp:635
 #, kde-format
 msgid "New template"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:635
+#: model_utils.cpp:636
 #, kde-format
 msgid "New unique constraint"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:636 umlwidgets/widget_utils.cpp:901
+#: model_utils.cpp:637 umlwidgets/widget_utils.cpp:901
 #, kde-format
 msgid "New use case"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:639
+#: model_utils.cpp:640
 #, kde-format
 msgid "New UML object"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:651 umlwidgets/widget_utils.cpp:918
+#: model_utils.cpp:652 umlwidgets/widget_utils.cpp:918
 #, kde-format
 msgid "Enter the name of the new actor:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:652 umlwidgets/widget_utils.cpp:919
+#: model_utils.cpp:653 umlwidgets/widget_utils.cpp:919
 #, kde-format
 msgid "Enter the name of the new artifact:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:653 umlwidgets/widget_utils.cpp:920
+#: model_utils.cpp:654 umlwidgets/widget_utils.cpp:920
 #, kde-format
 msgid "Enter the name of the new association:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:654
+#: model_utils.cpp:655
 #, kde-format
 msgid "Enter the name of the new attribute:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:655 umlwidgets/widget_utils.cpp:922
+#: model_utils.cpp:656 umlwidgets/widget_utils.cpp:922
 #, kde-format
 msgid "Enter the name of the new category:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:656
+#: model_utils.cpp:657
 #, kde-format
 msgid "Enter the name of the new check constraint:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:657 umlwidgets/widget_utils.cpp:923
+#: model_utils.cpp:658 umlwidgets/widget_utils.cpp:923
 #, kde-format
 msgid "Enter the name of the new class:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:658 umlwidgets/widget_utils.cpp:925
+#: model_utils.cpp:659 umlwidgets/widget_utils.cpp:925
 #, kde-format
 msgid "Enter the name of the new component:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:659 umlwidgets/widget_utils.cpp:926
+#: model_utils.cpp:660 umlwidgets/widget_utils.cpp:926
 #, kde-format
 msgid "Enter the name of the new datatype:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:660 umlwidgets/widget_utils.cpp:927
+#: model_utils.cpp:661 umlwidgets/widget_utils.cpp:927
 #, kde-format
 msgid "Enter the name of the new entity:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:661
+#: model_utils.cpp:662
 #, kde-format
 msgid "Enter the name of the new entity attribute:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:662
+#: model_utils.cpp:663
 #, kde-format
 msgid "Enter the name of the new entity constraint:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:663 umlwidgets/widget_utils.cpp:928
+#: model_utils.cpp:664 umlwidgets/widget_utils.cpp:928
 #, kde-format
 msgid "Enter the name of the new enum:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:664
+#: model_utils.cpp:665
 #, kde-format
 msgid "Enter the name of the new enum literal:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:665
+#: model_utils.cpp:666
 #, kde-format
 msgid "Enter the name of the new folder:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:666
+#: model_utils.cpp:667
 #, kde-format
 msgid "Enter the name of the new foreign key constraint:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:667 umlwidgets/widget_utils.cpp:931
+#: model_utils.cpp:668 umlwidgets/widget_utils.cpp:931
 #, kde-format
 msgid "Enter the name of the new instance:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:668
+#: model_utils.cpp:669
 #, kde-format
 msgid "Enter the name of the new instance attribute:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:669 umlwidgets/widget_utils.cpp:932
+#: model_utils.cpp:670 umlwidgets/widget_utils.cpp:932
 #, kde-format
 msgid "Enter the name of the new interface:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:670 umlwidgets/widget_utils.cpp:934
+#: model_utils.cpp:671 umlwidgets/widget_utils.cpp:934
 #, kde-format
 msgid "Enter the name of the new node:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:671
+#: model_utils.cpp:672
 #, kde-format
 msgid "Enter the name of the new operation:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:672 umlwidgets/widget_utils.cpp:938
+#: model_utils.cpp:673 umlwidgets/widget_utils.cpp:938
 #, kde-format
 msgid "Enter the name of the new package:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:673 umlwidgets/widget_utils.cpp:940
+#: model_utils.cpp:674 umlwidgets/widget_utils.cpp:940
 #, kde-format
 msgid "Enter the name of the new port:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:674
+#: model_utils.cpp:675
 #, kde-format
 msgid "Enter the name of the new role:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:675
+#: model_utils.cpp:676
 #, kde-format
 msgid "Enter the name of the new stereotype:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:676
+#: model_utils.cpp:677
 #, kde-format
 msgid "Enter the name of the new template:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:677
+#: model_utils.cpp:678
 #, kde-format
 msgid "Enter the name of the new unique constraint:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:678 umlwidgets/widget_utils.cpp:947
+#: model_utils.cpp:679 umlwidgets/widget_utils.cpp:947
 #, kde-format
 msgid "Enter the name of the new use case:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:681
+#: model_utils.cpp:682
 #, kde-format
 msgid "Enter the name of the new UML object"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:693 umlwidgets/widget_utils.cpp:963
+#: model_utils.cpp:694 umlwidgets/widget_utils.cpp:963
 #, kde-format
 msgid "Rename actor"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:694 umlwidgets/widget_utils.cpp:964
+#: model_utils.cpp:695 umlwidgets/widget_utils.cpp:964
 #, kde-format
 msgid "Rename artifact"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:695 umlwidgets/widget_utils.cpp:965
+#: model_utils.cpp:696 umlwidgets/widget_utils.cpp:965
 #, kde-format
 msgid "Rename association"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:696
+#: model_utils.cpp:697
 #, kde-format
 msgid "Rename attribute"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:697 umlwidgets/widget_utils.cpp:967
+#: model_utils.cpp:698 umlwidgets/widget_utils.cpp:967
 #, kde-format
 msgid "Rename category"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:698
+#: model_utils.cpp:699
 #, kde-format
 msgid "Rename check constraint"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:699 umlwidgets/widget_utils.cpp:968
+#: model_utils.cpp:700 umlwidgets/widget_utils.cpp:968
 #, kde-format
 msgid "Rename class"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:700 umlwidgets/widget_utils.cpp:970
+#: model_utils.cpp:701 umlwidgets/widget_utils.cpp:970
 #, kde-format
 msgid "Rename component"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:701 umlwidgets/widget_utils.cpp:971
+#: model_utils.cpp:702 umlwidgets/widget_utils.cpp:971
 #, kde-format
 msgid "Rename datatype"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:702 umlwidgets/widget_utils.cpp:972
+#: model_utils.cpp:703 umlwidgets/widget_utils.cpp:972
 #, kde-format
 msgid "Rename entity"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:703
+#: model_utils.cpp:704
 #, kde-format
 msgid "Rename entity attribute"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:704
+#: model_utils.cpp:705
 #, kde-format
 msgid "Rename entity constraint"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:705 umlwidgets/widget_utils.cpp:973
+#: model_utils.cpp:706 umlwidgets/widget_utils.cpp:973
 #, kde-format
 msgid "Rename enum"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:706
+#: model_utils.cpp:707
 #, kde-format
 msgid "Rename enum literal"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:707
+#: model_utils.cpp:708
 #, kde-format
 msgid "Rename folder"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:708
+#: model_utils.cpp:709
 #, kde-format
 msgid "Rename foreign key constraint"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:709 umlwidgets/widget_utils.cpp:976
+#: model_utils.cpp:710 umlwidgets/widget_utils.cpp:976
 #, kde-format
 msgid "Rename instance"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:710
+#: model_utils.cpp:711
 #, kde-format
 msgid "Rename instance attribute"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:711 umlwidgets/widget_utils.cpp:977
+#: model_utils.cpp:712 umlwidgets/widget_utils.cpp:977
 #, kde-format
 msgid "Rename interface"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:712 umlwidgets/widget_utils.cpp:979
+#: model_utils.cpp:713 umlwidgets/widget_utils.cpp:979
 #, kde-format
 msgid "Rename node"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:713
+#: model_utils.cpp:714
 #, kde-format
 msgid "Rename operation"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:714 umlwidgets/widget_utils.cpp:983
+#: model_utils.cpp:715 umlwidgets/widget_utils.cpp:983
 #, kde-format
 msgid "Rename package"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:715 umlwidgets/widget_utils.cpp:985
+#: model_utils.cpp:716 umlwidgets/widget_utils.cpp:985
 #, kde-format
 msgid "Rename port"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:716
+#: model_utils.cpp:717
 #, kde-format
 msgid "Rename role"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:717
+#: model_utils.cpp:718
 #, kde-format
 msgid "Rename stereotype"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:718
+#: model_utils.cpp:719
 #, kde-format
 msgid "Rename template"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:719
+#: model_utils.cpp:720
 #, kde-format
 msgid "Rename unique constraint"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:720 umlwidgets/widget_utils.cpp:992
+#: model_utils.cpp:721 umlwidgets/widget_utils.cpp:992
 #, kde-format
 msgid "Rename use case"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:723
+#: model_utils.cpp:724
 #, kde-format
 msgid "Rename UML object"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:735 umlwidgets/widget_utils.cpp:1009
+#: model_utils.cpp:736 umlwidgets/widget_utils.cpp:1009
 #, kde-format
 msgid "Enter the new name of the actor:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:736 umlwidgets/widget_utils.cpp:1010
+#: model_utils.cpp:737 umlwidgets/widget_utils.cpp:1010
 #, kde-format
 msgid "Enter the new name of the artifact:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:737 umlwidgets/widget_utils.cpp:1011
+#: model_utils.cpp:738 umlwidgets/widget_utils.cpp:1011
 #, kde-format
 msgid "Enter the new name of the association:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:738
+#: model_utils.cpp:739
 #, kde-format
 msgid "Enter the new name of the attribute:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:739 umlwidgets/widget_utils.cpp:1013
+#: model_utils.cpp:740 umlwidgets/widget_utils.cpp:1013
 #, kde-format
 msgid "Enter the new name of the category:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:740
+#: model_utils.cpp:741
 #, kde-format
 msgid "Enter the new name of the check constraint:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:741 umlwidgets/widget_utils.cpp:1014
+#: model_utils.cpp:742 umlwidgets/widget_utils.cpp:1014
 #, kde-format
 msgid "Enter the new name of the class:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:742 umlwidgets/widget_utils.cpp:1016
+#: model_utils.cpp:743 umlwidgets/widget_utils.cpp:1016
 #, kde-format
 msgid "Enter the new name of the component:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:743 umlwidgets/widget_utils.cpp:1017
+#: model_utils.cpp:744 umlwidgets/widget_utils.cpp:1017
 #, kde-format
 msgid "Enter the new name of the datatype:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:744 umlwidgets/widget_utils.cpp:1018
+#: model_utils.cpp:745 umlwidgets/widget_utils.cpp:1018
 #, kde-format
 msgid "Enter the new name of the entity:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:745
+#: model_utils.cpp:746
 #, kde-format
 msgid "Enter the new name of the entity attribute:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:746
+#: model_utils.cpp:747
 #, kde-format
 msgid "Enter the new name of the entity constraint:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:747 umlwidgets/widget_utils.cpp:1019
+#: model_utils.cpp:748 umlwidgets/widget_utils.cpp:1019
 #, kde-format
 msgid "Enter the new name of the enum:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:748
+#: model_utils.cpp:749
 #, kde-format
 msgid "Enter the new name of the enum literal:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:749
+#: model_utils.cpp:750
 #, kde-format
 msgid "Enter the new name of the folder:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:750
+#: model_utils.cpp:751
 #, kde-format
 msgid "Enter the new name of the foreign key constraint:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:751 umlwidgets/widget_utils.cpp:1022
+#: model_utils.cpp:752 umlwidgets/widget_utils.cpp:1022
 #, kde-format
 msgid "Enter the new name of the instance:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:752
+#: model_utils.cpp:753
 #, kde-format
 msgid "Enter the new name of the instance attribute:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:753 umlwidgets/widget_utils.cpp:1023
+#: model_utils.cpp:754 umlwidgets/widget_utils.cpp:1023
 #, kde-format
 msgid "Enter the new name of the interface:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:754 umlwidgets/widget_utils.cpp:1025
+#: model_utils.cpp:755 umlwidgets/widget_utils.cpp:1025
 #, kde-format
 msgid "Enter the new name of the node:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:755
+#: model_utils.cpp:756
 #, kde-format
 msgid "Enter the new name of the operation:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:756 umlwidgets/widget_utils.cpp:1029
+#: model_utils.cpp:757 umlwidgets/widget_utils.cpp:1029
 #, kde-format
 msgid "Enter the new name of the package:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:757 umlwidgets/widget_utils.cpp:1031
+#: model_utils.cpp:758 umlwidgets/widget_utils.cpp:1031
 #, kde-format
 msgid "Enter the new name of the port:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:758
+#: model_utils.cpp:759
 #, kde-format
 msgid "Enter the new name of the role:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:759
+#: model_utils.cpp:760
 #, kde-format
 msgid "Enter the new name of the stereotype:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:760
+#: model_utils.cpp:761
 #, kde-format
 msgid "Enter the new name of the template:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:761
+#: model_utils.cpp:762
 #, kde-format
 msgid "Enter the new name of the unique constraint:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:762 umlwidgets/widget_utils.cpp:1038
+#: model_utils.cpp:763 umlwidgets/widget_utils.cpp:1038
 #, kde-format
 msgid "Enter the new name of the use case:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:765
+#: model_utils.cpp:766
 #, kde-format
 msgid "Enter the new name of the UML object"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:1206
+#: model_utils.cpp:1207
 #, kde-format
 msgid "OK"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:1206
+#: model_utils.cpp:1207
 #, kde-format
 msgctxt "parse status"
 msgid "Empty"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:1206
+#: model_utils.cpp:1207
 #, kde-format
 msgid "Malformed argument"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:1207
+#: model_utils.cpp:1208
 #, kde-format
 msgid "Unknown argument type"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:1207
+#: model_utils.cpp:1208
 #, kde-format
 msgid "Illegal method name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:1208
+#: model_utils.cpp:1209
 #, kde-format
 msgid "Unknown return type"
 msgstr ""
 
 #. +> trunk5 stable5
-#: model_utils.cpp:1208
+#: model_utils.cpp:1209
 #, kde-format
 msgid "Unspecified error"
 msgstr ""
 
 #. +> trunk5 stable5
-#: models/diagramsmodel.cpp:52 models/objectsmodel.cpp:78
+#: models/diagramsmodel.cpp:52 models/objectsmodel.cpp:76
 #: models/stereotypesmodel.cpp:51 refactoring/refactoringassistant.cpp:48
 #, kde-format
 msgid "Name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: models/diagramsmodel.cpp:54 models/objectsmodel.cpp:80
+#: models/diagramsmodel.cpp:54 models/objectsmodel.cpp:78
 #, kde-format
 msgid "Type"
 msgstr ""
@@ -6752,25 +6773,25 @@ msgid "Widgets/Associations"
 msgstr ""
 
 #. +> trunk5 stable5
-#: models/objectsmodel.cpp:84
+#: models/objectsmodel.cpp:82
 #, kde-format
 msgid "ID"
 msgstr ""
 
 #. +> trunk5 stable5
-#: models/objectsmodel.cpp:86
+#: models/objectsmodel.cpp:84
 #, kde-format
 msgid "Saved"
 msgstr ""
 
 #. +> trunk5 stable5
-#: models/objectsmodel.cpp:88
+#: models/objectsmodel.cpp:86
 #, kde-format
 msgid "Parent"
 msgstr ""
 
 #. +> trunk5 stable5
-#: models/objectsmodel.cpp:90
+#: models/objectsmodel.cpp:88
 #, kde-format
 msgid "Pointer"
 msgstr ""
@@ -6782,10 +6803,11 @@ msgid "Usage"
 msgstr ""
 
 #. +> trunk5 stable5
-#: object_factory.cpp:254 umldoc.cpp:1602 umldoc.cpp:1637
-#: umlmodel/classifier.cpp:409 umlmodel/classifier.cpp:781
-#: umlmodel/entity.cpp:122 umlmodel/entity.cpp:175 umlmodel/entity.cpp:225
-#: umlmodel/entity.cpp:274 umlmodel/enum.cpp:105 umlmodel/package.cpp:177
+#: object_factory.cpp:254 umldoc.cpp:1720 umldoc.cpp:1755
+#: umlmodel/umlclassifier.cpp:409 umlmodel/umlclassifier.cpp:782
+#: umlmodel/umlentity.cpp:122 umlmodel/umlentity.cpp:175
+#: umlmodel/umlentity.cpp:225 umlmodel/umlentity.cpp:274
+#: umlmodel/umlenum.cpp:105 umlmodel/umlpackage.cpp:179
 #, kde-format
 msgid "That is an invalid name."
 msgstr ""
@@ -6803,19 +6825,20 @@ msgid "Reserved Keyword"
 msgstr ""
 
 #. +> trunk5 stable5
-#: object_factory.cpp:267 umldoc.cpp:1608 umldoc.cpp:1646
-#: umlmodel/classifier.cpp:412 umlmodel/classifier.cpp:783
-#: umlmodel/entity.cpp:124 umlmodel/entity.cpp:177 umlmodel/entity.cpp:227
-#: umlmodel/entity.cpp:276
+#: object_factory.cpp:267 umldoc.cpp:1726 umldoc.cpp:1764
+#: umlmodel/umlclassifier.cpp:412 umlmodel/umlclassifier.cpp:784
+#: umlmodel/umlentity.cpp:124 umlmodel/umlentity.cpp:177
+#: umlmodel/umlentity.cpp:227 umlmodel/umlentity.cpp:276
 #, kde-format
 msgid "That name is already being used."
 msgstr ""
 
 #. +> trunk5 stable5
-#: object_factory.cpp:268 umldoc.cpp:1511 umldoc.cpp:1580 umldoc.cpp:1608
-#: umldoc.cpp:1646 umlmodel/classifier.cpp:412 umlmodel/classifier.cpp:783
-#: umlmodel/entity.cpp:124 umlmodel/entity.cpp:177 umlmodel/entity.cpp:227
-#: umlmodel/entity.cpp:276
+#: object_factory.cpp:268 umldoc.cpp:1629 umldoc.cpp:1698 umldoc.cpp:1726
+#: umldoc.cpp:1764 umlmodel/umlclassifier.cpp:412
+#: umlmodel/umlclassifier.cpp:784 umlmodel/umlentity.cpp:124
+#: umlmodel/umlentity.cpp:177 umlmodel/umlentity.cpp:227
+#: umlmodel/umlentity.cpp:276
 #, kde-format
 msgid "Not a Unique Name"
 msgstr ""
@@ -6899,7 +6922,7 @@ msgid "Association Error"
 msgstr ""
 
 #. +> trunk5 stable5
-#: toolbarstatemessages.cpp:341
+#: toolbarstatemessages.cpp:340
 #, kde-format
 msgid "destroy"
 msgstr ""
@@ -7284,51 +7307,79 @@ msgstr ""
 msgid "The Color of the diagram background"
 msgstr ""
 
-#. i18n: ectx: label, entry (gridDotColor), group (UI Options)
+#. i18n: ectx: label, entry (useBackgroundColor), group (UI Options)
 #. +> trunk5 stable5
 #: umbrello.kcfg:182
+#, kde-format
+msgid "Use background color"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (useBackgroundColor), group (UI Options)
+#. +> trunk5 stable5
+#: umbrello.kcfg:183
+#, kde-format
+msgid "Enables/Disables the usage of a custom background color"
+msgstr ""
+
+#. i18n: ectx: label, entry (gridDotColor), group (UI Options)
+#. +> trunk5 stable5
+#: umbrello.kcfg:187
 #, kde-format
 msgid "Grid Dot Color"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (gridDotColor), group (UI Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:183
+#: umbrello.kcfg:188
 #, kde-format
 msgid "The Color of the grid dots"
 msgstr ""
 
+#. i18n: ectx: label, entry (useAlignmentGuides), group (UI Options)
+#. +> trunk5 stable5
+#: umbrello.kcfg:192
+#, kde-format
+msgid "Use Alignment Guides"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (useAlignmentGuides), group (UI Options)
+#. +> trunk5 stable5
+#: umbrello.kcfg:193
+#, kde-format
+msgid "Enable/disable alignment guides when dragging or resizing widgets"
+msgstr ""
+
 #. i18n: ectx: whatsthis, entry (rightToLeftUI), group (UI Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:188
+#: umbrello.kcfg:198
 #, kde-format
 msgid "Enable/disable user interface direction from right to left"
 msgstr ""
 
 #. i18n: ectx: label, entry (showVisibility), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:194
+#: umbrello.kcfg:204
 #, kde-format
 msgid "Show Visibility"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (showVisibility), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:195
+#: umbrello.kcfg:205
 #, kde-format
 msgid "Show the Visibility of the Attributes ( eg: private, public, protected)"
 msgstr ""
 
 #. i18n: ectx: label, entry (showAtts), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:199
+#: umbrello.kcfg:209
 #, kde-format
 msgid "Show Attributes"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (showAtts), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:200
+#: umbrello.kcfg:210
 #, kde-format
 msgid "Show attributes of the class"
 msgstr ""
@@ -7336,21 +7387,21 @@ msgstr ""
 #. i18n: ectx: label, entry (showOps), group (Class Options)
 #. i18n: ectx: whatsthis, entry (showOps), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:204 umbrello.kcfg:205
+#: umbrello.kcfg:214 umbrello.kcfg:215
 #, kde-format
 msgid "Show Operations"
 msgstr ""
 
 #. i18n: ectx: label, entry (showPackage), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:209
+#: umbrello.kcfg:219
 #, kde-format
 msgid "Show Package"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (showPackage), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:210
+#: umbrello.kcfg:220
 #, kde-format
 msgid "Enables/Disables showing of packages"
 msgstr ""
@@ -7358,7 +7409,7 @@ msgstr ""
 #. i18n: ectx: label, entry (showStereoType), group (Class Options)
 #. i18n: ectx: whatsthis, entry (showStereoType), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:214 umbrello.kcfg:215
+#: umbrello.kcfg:224 umbrello.kcfg:225
 #, kde-format
 msgid "Show Stereotypes"
 msgstr ""
@@ -7366,21 +7417,21 @@ msgstr ""
 #. i18n: ectx: label, entry (showAttribAssocs), group (Class Options)
 #. i18n: ectx: whatsthis, entry (showAttribAssocs), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:224 umbrello.kcfg:225
+#: umbrello.kcfg:234 umbrello.kcfg:235
 #, kde-format
 msgid "Show Attribute Associations"
 msgstr ""
 
 #. i18n: ectx: label, entry (showPublicOnly), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:229
+#: umbrello.kcfg:239
 #, kde-format
 msgid "Show Public Only"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (showPublicOnly), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:230
+#: umbrello.kcfg:240
 #, kde-format
 msgid "Enables/Disables showing of public attributes/methods"
 msgstr ""
@@ -7388,21 +7439,21 @@ msgstr ""
 #. i18n: ectx: label, entry (showAttSig), group (Class Options)
 #. i18n: ectx: whatsthis, entry (showAttSig), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:234 umbrello.kcfg:235
+#: umbrello.kcfg:244 umbrello.kcfg:245
 #, kde-format
 msgid "Show Attribute Signature"
 msgstr ""
 
 #. i18n: ectx: label, entry (showOpSig), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:239
+#: umbrello.kcfg:249
 #, kde-format
 msgid "Show Operation Signature"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (showOpSig), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:240
+#: umbrello.kcfg:250
 #, kde-format
 msgid "Show operation signature"
 msgstr ""
@@ -7410,7 +7461,7 @@ msgstr ""
 #. i18n: ectx: label, entry (defaultAttributeScope), group (Class Options)
 #. i18n: ectx: whatsthis, entry (defaultAttributeScope), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:244 umbrello.kcfg:245
+#: umbrello.kcfg:254 umbrello.kcfg:255
 #, kde-format
 msgid "Default Attribute Scope"
 msgstr ""
@@ -7418,35 +7469,35 @@ msgstr ""
 #. i18n: ectx: label, entry (defaultOperationScope), group (Class Options)
 #. i18n: ectx: whatsthis, entry (defaultOperationScope), group (Class Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:256 umbrello.kcfg:257
+#: umbrello.kcfg:266 umbrello.kcfg:267
 #, kde-format
 msgid "Default Operation Scope"
 msgstr ""
 
 #. i18n: ectx: label, entry (height), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:270
+#: umbrello.kcfg:280
 #, kde-format
 msgid "Height"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (height), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:271
+#: umbrello.kcfg:281
 #, kde-format
 msgid "Height of the code viewer"
 msgstr ""
 
 #. i18n: ectx: label, entry (width), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:276
+#: umbrello.kcfg:286
 #, kde-format
 msgid "Width"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (width), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:277
+#: umbrello.kcfg:287
 #, kde-format
 msgid "Width of the Code Viewer"
 msgstr ""
@@ -7454,56 +7505,56 @@ msgstr ""
 #. i18n: ectx: label, entry (showHiddenBlocks), group (Code Viewer Options)
 #. i18n: ectx: whatsthis, entry (showHiddenBlocks), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:282 umbrello.kcfg:283
+#: umbrello.kcfg:292 umbrello.kcfg:293
 #, kde-format
 msgid "Show Hidden Blocks"
 msgstr ""
 
 #. i18n: ectx: label, entry (blocksAreHighlighted), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:287
+#: umbrello.kcfg:297
 #, kde-format
 msgid "Highlight Blocks"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (blocksAreHighlighted), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:288
+#: umbrello.kcfg:298
 #, kde-format
 msgid "Enables/Disables Highlighting of blocks"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (codeViewerFont), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:293
+#: umbrello.kcfg:303
 #, kde-format
 msgid "Font to be used in the Code Viewer"
 msgstr ""
 
 #. i18n: ectx: label, entry (paperColor), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:297
+#: umbrello.kcfg:307
 #, kde-format
 msgid "Paper Color"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (paperColor), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:298
+#: umbrello.kcfg:308
 #, kde-format
 msgid "Color of the Paper"
 msgstr ""
 
 #. i18n: ectx: label, entry (fontColor), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:302
+#: umbrello.kcfg:312
 #, kde-format
 msgid "Font Color"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (fontColor), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:303
+#: umbrello.kcfg:313
 #, kde-format
 msgid "Color of the Font"
 msgstr ""
@@ -7511,14 +7562,14 @@ msgstr ""
 #. i18n: ectx: label, entry (selectedColor), group (Code Viewer Options)
 #. i18n: ectx: whatsthis, entry (selectedColor), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:307 umbrello.kcfg:308
+#: umbrello.kcfg:317 umbrello.kcfg:318
 #, kde-format
 msgid "Selected Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (editBlockColor), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:312
+#: umbrello.kcfg:322
 #, kde-format
 msgctxt "Color of the Edit Block"
 msgid "Edit Block Color"
@@ -7526,7 +7577,7 @@ msgstr ""
 
 #. i18n: ectx: whatsthis, entry (editBlockColor), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:313
+#: umbrello.kcfg:323
 #, kde-format
 msgid "Color of the Edit Block"
 msgstr ""
@@ -7534,21 +7585,21 @@ msgstr ""
 #. i18n: ectx: label, entry (nonEditBlockColor), group (Code Viewer Options)
 #. i18n: ectx: whatsthis, entry (nonEditBlockColor), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:317 umbrello.kcfg:318
+#: umbrello.kcfg:327 umbrello.kcfg:328
 #, kde-format
 msgid "Non Edit Block Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (umlObjectColor), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:322
+#: umbrello.kcfg:332
 #, kde-format
 msgid "UML Object Color"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (umlObjectColor), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:323
+#: umbrello.kcfg:333
 #, kde-format
 msgid "Color of the UML Object"
 msgstr ""
@@ -7556,203 +7607,203 @@ msgstr ""
 #. i18n: ectx: label, entry (hiddenColor), group (Code Viewer Options)
 #. i18n: ectx: whatsthis, entry (hiddenColor), group (Code Viewer Options)
 #. +> trunk5 stable5
-#: umbrello.kcfg:327 umbrello.kcfg:328
+#: umbrello.kcfg:337 umbrello.kcfg:338
 #, kde-format
 msgid "Hidden Color"
 msgstr ""
 
 #. i18n: ectx: label, entry (createArtifacts), group (Code Importer)
 #. +> trunk5 stable5
-#: umbrello.kcfg:334
+#: umbrello.kcfg:344
 #, kde-format
 msgid "Create Artifacts for imported files"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (createArtifacts), group (Code Importer)
 #. +> trunk5 stable5
-#: umbrello.kcfg:335
+#: umbrello.kcfg:345
 #, kde-format
 msgid "Create an artifact in the component view for each imported file"
 msgstr ""
 
 #. i18n: ectx: label, entry (resolveDependencies), group (Code Importer)
 #. +> trunk5 stable5
-#: umbrello.kcfg:339
+#: umbrello.kcfg:349
 #, kde-format
 msgid "Resolve dependencies"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (resolveDependencies), group (Code Importer)
 #. +> trunk5 stable5
-#: umbrello.kcfg:340
+#: umbrello.kcfg:350
 #, kde-format
 msgid "Resolve dependencies when importing file"
 msgstr ""
 
 #. i18n: ectx: label, entry (supportCPP11), group (Code Importer)
 #. +> trunk5 stable5
-#: umbrello.kcfg:344
+#: umbrello.kcfg:354
 #, kde-format
 msgid "Support C++11 standard"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (supportCPP11), group (Code Importer)
 #. +> trunk5 stable5
-#: umbrello.kcfg:345
+#: umbrello.kcfg:355
 #, kde-format
 msgid "Support C++11 standard on code import"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoGenEmptyConstructors), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:351
+#: umbrello.kcfg:361
 #, kde-format
 msgid "Auto Generate Empty Constructors"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (autoGenEmptyConstructors), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:352
+#: umbrello.kcfg:362
 #, kde-format
 msgid "Enables/Disables Auto Generation of Empty Constructors"
 msgstr ""
 
 #. i18n: ectx: label, entry (commentStyle), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:356
+#: umbrello.kcfg:366
 #, kde-format
 msgid "Comment Style"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (commentStyle), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:357
+#: umbrello.kcfg:367
 #, kde-format
 msgid "Sets the Style of Comments to be used"
 msgstr ""
 
 #. i18n: ectx: label, entry (defaultAssocFieldScope), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:365
+#: umbrello.kcfg:375
 #, kde-format
 msgid "Default Association Field Scope"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (defaultAssocFieldScope), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:366
+#: umbrello.kcfg:376
 #, kde-format
 msgid "Sets the default Association field scope"
 msgstr ""
 
 #. i18n: ectx: label, entry (defaultAttributeAccessorScope), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:377
+#: umbrello.kcfg:387
 #, kde-format
 msgid "Default Attribute Accessor Scope"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (defaultAttributeAccessorScope), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:378
+#: umbrello.kcfg:388
 #, kde-format
 msgid "Sets the default attribute accessor scope"
 msgstr ""
 
 #. i18n: ectx: label, entry (forceDoc), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:389
+#: umbrello.kcfg:399
 #, kde-format
 msgid "Force Documentation"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (forceDoc), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:390
+#: umbrello.kcfg:400
 #, kde-format
 msgid "Enables/Disables Verbose Documentation"
 msgstr ""
 
 #. i18n: ectx: label, entry (writeSectionComments), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:394
+#: umbrello.kcfg:404
 #, kde-format
 msgid "Section Comment Policy"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (writeSectionComments), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:395
+#: umbrello.kcfg:405
 #, kde-format
 msgid "Whether section comments shall be written"
 msgstr ""
 
 #. i18n: ectx: label, entry (headingsDirectory), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:404
+#: umbrello.kcfg:414
 #, kde-format
 msgid "Headings Directory"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (headingsDirectory), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:405
+#: umbrello.kcfg:415
 #, kde-format
 msgid "The Path in which the headings are stored"
 msgstr ""
 
 #. i18n: ectx: label, entry (includeHeadings), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:409
+#: umbrello.kcfg:419
 #, kde-format
 msgid "Include headings"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (includeHeadings), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:410
+#: umbrello.kcfg:420
 #, kde-format
 msgid "Enables/Disables inclusion of headings"
 msgstr ""
 
 #. i18n: ectx: label, entry (indentationAmount), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:414
+#: umbrello.kcfg:424
 #, kde-format
 msgid "Indentation Amount"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (indentationAmount), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:415
+#: umbrello.kcfg:425
 #, kde-format
 msgid "The amount of indentation"
 msgstr ""
 
 #. i18n: ectx: label, entry (indentationType), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:420
+#: umbrello.kcfg:430
 #, kde-format
 msgid "Indentation Type"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (indentationType), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:421
+#: umbrello.kcfg:431
 #, kde-format
 msgid "The Type of Indentation"
 msgstr ""
 
 #. i18n: ectx: label, entry (lineEndingType), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:430
+#: umbrello.kcfg:440
 #, kde-format
 msgid "Line Ending Type"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (lineEndingType), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:431
+#: umbrello.kcfg:441
 #, kde-format
 msgid "The type of line ending ( or new line type )"
 msgstr ""
@@ -7760,406 +7811,406 @@ msgstr ""
 #. i18n: ectx: label, entry (modnamePolicy), group (Code Generation)
 #. i18n: ectx: whatsthis, entry (modnamePolicy), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:440 umbrello.kcfg:441
+#: umbrello.kcfg:450 umbrello.kcfg:451
 #, kde-format
 msgid "Modifier Name Policy"
 msgstr ""
 
 #. i18n: ectx: label, entry (outputDirectory), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:450
+#: umbrello.kcfg:460
 #, kde-format
 msgid "Output Directory"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (outputDirectory), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:451
+#: umbrello.kcfg:461
 #, kde-format
 msgid "The directory to which the code has to be outputted"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (overwritePolicy), group (Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:456
+#: umbrello.kcfg:466
 #, kde-format
 msgid "The policy to be followed when there are name conflicts"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoGenAccessors), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:468
+#: umbrello.kcfg:478
 #, kde-format
 msgid "Auto Generate Accessors"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (autoGenAccessors), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:469
+#: umbrello.kcfg:479
 #, kde-format
 msgid "Enables/Disables auto generation of accessors"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (classMemberPrefix), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:474
+#: umbrello.kcfg:484
 #, kde-format
 msgid "The prefix for class members"
 msgstr ""
 
 #. i18n: ectx: label, entry (inlineAccessors), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:478
+#: umbrello.kcfg:488
 #, kde-format
 msgid "Inline Accessors"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (inlineAccessors), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:479
+#: umbrello.kcfg:489
 #, kde-format
 msgid "Enables/Disables Inline accessors"
 msgstr ""
 
 #. i18n: ectx: label, entry (inlineOps), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:483
+#: umbrello.kcfg:493
 #, kde-format
 msgid "Inline operations"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (inlineOps), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:484
+#: umbrello.kcfg:494
 #, kde-format
 msgid "Enables/Disables Inline Operations"
 msgstr ""
 
 #. i18n: ectx: label, entry (packageIsNamespace), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:488
+#: umbrello.kcfg:498
 #, kde-format
 msgid "Package is namespace"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (packageIsNamespace), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:489
+#: umbrello.kcfg:499
 #, kde-format
 msgid "Enables/Disables treating a package as a namespace"
 msgstr ""
 
 #. i18n: ectx: label, entry (publicAccessors), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:493
+#: umbrello.kcfg:503
 #, kde-format
 msgid "Public Accessors"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (publicAccessors), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:494
+#: umbrello.kcfg:504
 #, kde-format
 msgid "Enables/Disables public accessors"
 msgstr ""
 
 #. i18n: ectx: label, entry (stringClassName), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:498
+#: umbrello.kcfg:508
 #, kde-format
 msgid "String Class Name"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (stringClassName), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:499
+#: umbrello.kcfg:509
 #, kde-format
 msgid "The name of the string class"
 msgstr ""
 
 #. i18n: ectx: label, entry (stringClassNameInclude), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:503
+#: umbrello.kcfg:513
 #, kde-format
 msgid "String Class Name Include"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (stringClassNameInclude), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:504
+#: umbrello.kcfg:514
 #, kde-format
 msgid "The name of the string class to be included"
 msgstr ""
 
 #. i18n: ectx: label, entry (stringIncludeIsGlobal), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:508
+#: umbrello.kcfg:518
 #, kde-format
 msgid "String Include is Global"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (stringIncludeIsGlobal), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:509
+#: umbrello.kcfg:519
 #, kde-format
 msgid "Enables/Disables global inclusion of string"
 msgstr ""
 
 #. i18n: ectx: label, entry (vectorClassName), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:513
+#: umbrello.kcfg:523
 #, kde-format
 msgid "Vector Class Name"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (vectorClassName), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:514
+#: umbrello.kcfg:524
 #, kde-format
 msgid "The name of the vector class"
 msgstr ""
 
 #. i18n: ectx: label, entry (vectorClassNameInclude), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:518
+#: umbrello.kcfg:528
 #, kde-format
 msgid "Vector Class Name Include"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (vectorClassNameInclude), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:519
+#: umbrello.kcfg:529
 #, kde-format
 msgid "The name of the vector class to be included"
 msgstr ""
 
 #. i18n: ectx: label, entry (vectorIncludeIsGlobal), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:523
+#: umbrello.kcfg:533
 #, kde-format
 msgid "Vector include is global"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (vectorIncludeIsGlobal), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:524
+#: umbrello.kcfg:534
 #, kde-format
 msgid "Enables/Disables global inclusion of vector class"
 msgstr ""
 
 #. i18n: ectx: label, entry (virtualDestructors), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:528
+#: umbrello.kcfg:538
 #, kde-format
 msgid "Virtual Destructors"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (virtualDestructors), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:529
+#: umbrello.kcfg:539
 #, kde-format
 msgid "Enables/Disables virtual destructors"
 msgstr ""
 
 #. i18n: ectx: label, entry (getterWithGetPrefix), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:533
+#: umbrello.kcfg:543
 #, kde-format
 msgid "Getters with 'get' prefix"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (getterWithGetPrefix), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:534
+#: umbrello.kcfg:544
 #, kde-format
 msgid "If enabled, create getters with 'get' prefix"
 msgstr ""
 
 #. i18n: ectx: label, entry (removePrefixFromAccessorMethods), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:538
+#: umbrello.kcfg:548
 #, kde-format
 msgid "Remove prefix '[a-zA-Z]_' from accessor methods"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (removePrefixFromAccessorMethods), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:539
+#: umbrello.kcfg:549
 #, kde-format
 msgid "If enabled, remove prefix '[a-zA-Z]_' from accessor methods"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (accessorMethodsStartWithUpperCase), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:544
+#: umbrello.kcfg:554
 #, kde-format
 msgid "If enabled, accessor methods start with capital letters"
 msgstr ""
 
 #. i18n: ectx: label, entry (docToolTag), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:548
+#: umbrello.kcfg:558
 #, kde-format
 msgid "Documentation tags"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (docToolTag), group (CPP Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:549
+#: umbrello.kcfg:559
 #, kde-format
 msgid "The tag used for generating doxygen documentation (\\\\, @)"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoGenerateAttributeAccessorsD), group (D Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:555
+#: umbrello.kcfg:565
 #, kde-format
 msgid "Auto Generate Attribute Accessors ( D )"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (autoGenerateAttributeAccessorsD), group (D Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:556
+#: umbrello.kcfg:566
 #, kde-format
 msgid "Enables/Disables auto generation of attribute accessors ( D )"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoGenerateAssocAccessorsD), group (D Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:560
+#: umbrello.kcfg:570
 #, kde-format
 msgid "Auto Generate Assoc Accessors ( D )"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (autoGenerateAssocAccessorsD), group (D Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:561
+#: umbrello.kcfg:571
 #, kde-format
 msgid "Enables/Disables auto generation of association accessors ( D )"
 msgstr ""
 
 #. i18n: ectx: label, entry (buildANTDocumentD), group (D Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:565
+#: umbrello.kcfg:575
 #, kde-format
 msgid "Build ANT Document (D)"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (buildANTDocumentD), group (D Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:566
+#: umbrello.kcfg:576
 #, kde-format
 msgid "Enables/Disables building of ANT Document (D)"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoGenerateAttributeAccessorsJava), group (Java Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:572
+#: umbrello.kcfg:582
 #, kde-format
 msgid "Auto Generate Attribute Accessors (Java)"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (autoGenerateAttributeAccessorsJava), group (Java Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:573
+#: umbrello.kcfg:583
 #, kde-format
 msgid "Enables/Disables auto generation of attribute accessors (Java)"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoGenerateAssocAccessorsJava), group (Java Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:577
+#: umbrello.kcfg:587
 #, kde-format
 msgid "Auto Generate Assoc Accessors (Java)"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (autoGenerateAssocAccessorsJava), group (Java Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:578
+#: umbrello.kcfg:588
 #, kde-format
 msgid "Enables/Disables auto generation of association accessors (Java)"
 msgstr ""
 
 #. i18n: ectx: label, entry (buildANTDocumentJava), group (Java Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:582
+#: umbrello.kcfg:592
 #, kde-format
 msgid "Build ANT Document (Java)"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (buildANTDocumentJava), group (Java Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:583
+#: umbrello.kcfg:593
 #, kde-format
 msgid "Enables/Disables building of ANT Document (Java)"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoGenerateAttributeAccessorsRuby), group (Ruby Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:589
+#: umbrello.kcfg:599
 #, kde-format
 msgid "Auto Generate Attribute Accessors (Ruby)"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (autoGenerateAttributeAccessorsRuby), group (Ruby Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:590
+#: umbrello.kcfg:600
 #, kde-format
 msgid "Enables/Disables auto generation of attribute accessors (Ruby)"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoGenerateAssocAccessorsRuby), group (Ruby Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:594
+#: umbrello.kcfg:604
 #, kde-format
 msgid "Auto Generate Assoc Accessors (Ruby)"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (autoGenerateAssocAccessorsRuby), group (Ruby Code Generation)
 #. +> trunk5 stable5
-#: umbrello.kcfg:595
+#: umbrello.kcfg:605
 #, kde-format
 msgid "Enables/Disables auto generation of association accessors (Ruby)"
 msgstr ""
 
 #. i18n: ectx: label, entry (autoDotPath), group (Auto Layout)
 #. +> trunk5 stable5
-#: umbrello.kcfg:601
+#: umbrello.kcfg:611
 #, kde-format
 msgid "Automatic Dot Path"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (autoDotPath), group (Auto Layout)
 #. +> trunk5 stable5
-#: umbrello.kcfg:602
+#: umbrello.kcfg:612
 #, kde-format
 msgid "determine automatically the path of dot executable"
 msgstr ""
 
 #. i18n: ectx: label, entry (dotPath), group (Auto Layout)
 #. +> trunk5 stable5
-#: umbrello.kcfg:606
+#: umbrello.kcfg:616
 #, kde-format
 msgid "Dot Path"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (dotPath), group (Auto Layout)
 #. +> trunk5 stable5
-#: umbrello.kcfg:607
+#: umbrello.kcfg:617
 #, kde-format
 msgid "set path to dot executable (optional)"
 msgstr ""
 
 #. i18n: ectx: label, entry (showExportLayout), group (Auto Layout)
 #. +> trunk5 stable5
-#: umbrello.kcfg:611
+#: umbrello.kcfg:621
 #, kde-format
 msgid "Show Export Layout"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (showExportLayout), group (Auto Layout)
 #. +> trunk5 stable5
-#: umbrello.kcfg:612
+#: umbrello.kcfg:622
 #, kde-format
 msgid "show export layout"
 msgstr ""
@@ -8178,456 +8229,412 @@ msgstr ""
 msgid "&Edit"
 msgstr ""
 
-#. i18n: ectx: Menu (views)
+#. i18n: ectx: Menu (view)
 #. +> trunk5 stable5
 #: umbrelloui.rc.cmake:14
+#, kde-format
+msgid "&View"
+msgstr ""
+
+#. i18n: ectx: Menu (view_window)
+#. +> trunk5 stable5
+#: umbrelloui.rc.cmake:15
+#, kde-format
+msgid "&Show/hide window"
+msgstr ""
+
+#. i18n: ectx: Menu (diagram)
+#. +> trunk5 stable5
+#: umbrelloui.rc.cmake:26
 #, kde-format
 msgid "&Diagram"
 msgstr ""
 
 #. i18n: ectx: Menu (new_view)
 #. +> trunk5 stable5
-#: umbrelloui.rc.cmake:15
+#: umbrelloui.rc.cmake:27
 #, kde-format
 msgid "&New"
 msgstr ""
 
 #. i18n: ectx: Menu (show_view)
 #. +> trunk5 stable5
-#: umbrelloui.rc.cmake:31
+#: umbrelloui.rc.cmake:43
 #, kde-format
 msgid "Sh&ow"
 msgstr ""
 
 #. i18n: ectx: Menu (zoom_menu)
 #. +> trunk5 stable5
-#: umbrelloui.rc.cmake:34
+#: umbrelloui.rc.cmake:46
 #, kde-format
 msgid "&Zoom"
 msgstr ""
 
 #. i18n: ectx: Menu (align_menu)
 #. +> trunk5 stable5
-#: umbrelloui.rc.cmake:36
+#: umbrelloui.rc.cmake:48
 #, kde-format
 msgid "&Align"
 msgstr ""
 
 #. i18n: ectx: Menu (code)
 #. +> trunk5 stable5
-#: umbrelloui.rc.cmake:52
+#: umbrelloui.rc.cmake:64
 #, kde-format
 msgid "&Code"
 msgstr ""
 
 #. i18n: ectx: Menu (active_lang_menu)
 #. +> trunk5 stable5
-#: umbrelloui.rc.cmake:58
+#: umbrelloui.rc.cmake:70
 #, kde-format
 msgid "Active &Language"
 msgstr ""
 
 #. i18n: ectx: Menu (settings)
 #. +> trunk5 stable5
-#: umbrelloui.rc.cmake:84
+#: umbrelloui.rc.cmake:96
 #, kde-format
 msgid "&Settings"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:360
+#: umlapp.cpp:343
 #, kde-format
 msgid "&Export model to DocBook"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:364
+#: umlapp.cpp:347
 #, kde-format
 msgid "&Export model to XHTML"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:368
+#: umlapp.cpp:351
 #, kde-format
 msgid "&New Class Wizard..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:372
+#: umlapp.cpp:355
 #, kde-format
 msgid "&Add Default Datatypes for Active Language"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:379
+#: umlapp.cpp:362
 #, kde-format
 msgid "Code &Importing Wizard..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:389
+#: umlapp.cpp:372
 #, kde-format
 msgid "&Code Generation Wizard..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:394
+#: umlapp.cpp:377
 #, kde-format
 msgid "&Generate All Code"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:441
+#: umlapp.cpp:424
 #, kde-format
 msgid "Creates a new document"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:442
+#: umlapp.cpp:425
 #, kde-format
 msgid "Opens an existing document"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:443
+#: umlapp.cpp:426
 #, kde-format
 msgid "Opens a recently used file"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:444
+#: umlapp.cpp:427
 #, kde-format
 msgid "Saves the document"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:445
+#: umlapp.cpp:428
 #, kde-format
 msgid "Saves the document as..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:446
+#: umlapp.cpp:429
 #, kde-format
 msgid "Closes the document"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:447
+#: umlapp.cpp:430
 #, kde-format
 msgid "Prints out the document"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:448
+#: umlapp.cpp:431
 #, kde-format
 msgid "Print Preview of the document"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:449
+#: umlapp.cpp:432
 #, kde-format
 msgid "Quits the application"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:450
+#: umlapp.cpp:433
 #, kde-format
 msgid "Exports the model to the docbook format"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:451
+#: umlapp.cpp:434
 #, kde-format
 msgid "Exports the model to the XHTML format"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:452
+#: umlapp.cpp:435
 #, kde-format
 msgid "Cuts the selected section and puts it to the clipboard"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:453
+#: umlapp.cpp:436
 #, kde-format
 msgid "Copies the selected section to the clipboard"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:454
+#: umlapp.cpp:437
 #, kde-format
 msgid "Pastes the contents of the clipboard"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:455
+#: umlapp.cpp:438
 #, kde-format
 msgid "Undo last action"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:456
+#: umlapp.cpp:439
 #, kde-format
 msgid "Redo last undone action"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:458
+#: umlapp.cpp:441
 #, kde-format
 msgid "Set the default program preferences"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:462
+#: umlapp.cpp:445
 #, kde-format
 msgctxt "delete selected widget"
 msgid "Delete &Selected"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:473
+#: umlapp.cpp:456
 #, kde-format
 msgid "&Class Diagram..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:480
+#: umlapp.cpp:463
 #, kde-format
 msgid "&Object Diagram..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:487
+#: umlapp.cpp:470
 #, kde-format
 msgid "&Sequence Diagram..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:493
+#: umlapp.cpp:476
 #, kde-format
 msgid "C&ommunication Diagram..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:499
+#: umlapp.cpp:482
 #, kde-format
 msgid "&Use Case Diagram..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:505
+#: umlapp.cpp:488
 #, kde-format
 msgid "S&tate Diagram..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:511
+#: umlapp.cpp:494
 #, kde-format
 msgid "&Activity Diagram..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:517
+#: umlapp.cpp:500
 #, kde-format
 msgid "Co&mponent Diagram..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:523
+#: umlapp.cpp:506
 #, kde-format
 msgid "&Deployment Diagram..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:529
+#: umlapp.cpp:512
 #, kde-format
 msgid "&Entity Relationship Diagram..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:534 uml.cpp:953
-#, kde-format
-msgid "&Tree View"
-msgstr ""
-
-#. +> trunk5 stable5
-#: uml.cpp:538
-#, kde-format
-msgid "&Debugging"
-msgstr ""
-
-#. +> trunk5 stable5
-#: uml.cpp:546
-#, kde-format
-msgid "&Logging"
-msgstr ""
-
-#. +> trunk5 stable5
-#: uml.cpp:550
-#, kde-format
-msgid "&Command history"
-msgstr ""
-
-#. i18n("&Properties"), this);
-#. m_propertyDock->setObjectName(QStringLiteral("PropertyDock"));
-#. addDockWidget(Qt::LeftDockWidgetArea, m_propertyDock);  //:TODO:
-#. create the bird's eye view
-#. +> trunk5 stable5
-#: uml.cpp:554 uml.cpp:1010
-#, kde-format
-msgid "&Bird's eye view"
-msgstr ""
-
-#. +> trunk5 stable5
-#: uml.cpp:559
+#: umlapp.cpp:518
 #, kde-format
 msgid "&Clear Diagram"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:563
+#: umlapp.cpp:522
 #, kde-format
 msgid "&Snap to Grid"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:567
+#: umlapp.cpp:526
 #, kde-format
 msgid "S&how Grid"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:572
+#: umlapp.cpp:531
 #, kde-format
 msgid "&Delete Diagram"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:577
+#: umlapp.cpp:536
 #, kde-format
 msgid "&Export as Picture..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:582
+#: umlapp.cpp:541
 #, kde-format
 msgid "Export &Diagrams as Pictures..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:602
+#: umlapp.cpp:561
 #, kde-format
 msgid "Z&oom to 100%"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:645
+#: umlapp.cpp:604
 #, kde-format
 msgid "&Move Tab Left"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:646
+#: umlapp.cpp:605
 #, kde-format
 msgid "&Move Tab Right"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:662
+#: umlapp.cpp:621
 #, kde-format
 msgid "Select Diagram on Left"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:663
+#: umlapp.cpp:622
 #, kde-format
 msgid "Select Diagram on Right"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:793
+#: umlapp.cpp:758
 #, kde-format
 msgctxt "%1 percent value from 20 to 500"
 msgid " &%1%"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:843
+#: umlapp.cpp:810
 #, kde-format
 msgctxt "init status bar"
 msgid "Ready"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:851 uml.cpp:864
+#: umlapp.cpp:818 umlapp.cpp:831
 #, kde-format
 msgid "100%"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:856
+#: umlapp.cpp:823
 #, kde-format
 msgid "Fit"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:907
+#: umlapp.cpp:874
 #, kde-format
 msgid "Diagram Toolbar"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:964
-#, kde-format
-msgid "Doc&umentation"
-msgstr ""
-
-#. +> trunk5 stable5
-#: uml.cpp:975
-#, kde-format
-msgid "Co&mmand history"
-msgstr ""
-
-#. +> trunk5 stable5
-#: uml.cpp:991
-#, kde-format
-msgid "&Debug"
-msgstr ""
-
-#. +> trunk5 stable5
-#: uml.cpp:998
-#, kde-format
-msgid "&Log"
-msgstr ""
-
-#. +> trunk5 stable5
-#: uml.cpp:1036 uml.cpp:1253 uml.cpp:1291
+#: umlapp.cpp:931 umlapp.cpp:1148 umlapp.cpp:1186
 #, kde-format
 msgid "Opening file..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1087 uml.cpp:1158 uml.cpp:1322 umldoc.cpp:349 umldoc.cpp:372
-#: umldoc.cpp:3285
+#: umlapp.cpp:982 umlapp.cpp:1053 umlapp.cpp:1217 umldoc.cpp:437
+#: umldoc.cpp:460 umldoc.cpp:3404
 #, kde-format
 msgid "Untitled"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1235
+#: umlapp.cpp:1130
 #, kde-format
 msgid "Creating new document..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1260
+#: umlapp.cpp:1155
 #, kde-format
 msgid "Open File"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1261
+#: umlapp.cpp:1156
 #, kde-format
 msgid ""
 "*.xmi *.xmi.tgz *.xmi.tar.bz2 *.uml *.mdl *.zargo|All Supported Files (*.xmi, *.xmi.tgz, *.xmi.tar.bz2, *.uml, *.mdl, *.zargo)\n"
@@ -8640,31 +8647,31 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1321
+#: umlapp.cpp:1216
 #, kde-format
 msgid "Saving file..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1338
+#: umlapp.cpp:1233
 #, kde-format
 msgid "Saving file with a new filename..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1343 umlviewimageexporter.cpp:172
+#: umlapp.cpp:1238 umlviewimageexporter.cpp:172
 #, kde-format
 msgid "Save As"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1344
+#: umlapp.cpp:1239
 #, kde-format
 msgid "*.xmi | XMI File (*.xmi);;*.xmi.tgz | Gzip Compressed XMI File (*.xmi.tgz);;*.xmi.tar.bz2 | Bzip2 Compressed XMI File (*.xmi.tar.bz2);;* | All Files (*)"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1362
+#: umlapp.cpp:1257
 #, kde-format
 msgid ""
 "The file %1 exists.\n"
@@ -8672,188 +8679,230 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1363
+#: umlapp.cpp:1258
 #, kde-format
 msgid "Warning"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1363
+#: umlapp.cpp:1258
 #, kde-format
 msgid "Overwrite"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1389
+#: umlapp.cpp:1284
 #, kde-format
 msgid "Closing file..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1400
+#: umlapp.cpp:1295
 #, kde-format
 msgid "No search term entered"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1406
+#: umlapp.cpp:1301
 #, kde-format
 msgid "'%1': %2 found"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1462
+#: umlapp.cpp:1357
 #, kde-format
 msgid "Print Preview..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1489
+#: umlapp.cpp:1384
 #, kde-format
 msgid "Printing..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1495
+#: umlapp.cpp:1390
 #, kde-format
 msgid "Print %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1514
+#: umlapp.cpp:1409
 #, kde-format
 msgid "Exiting..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1585
+#: umlapp.cpp:1480
 #, kde-format
 msgid "Cutting selection..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1608
+#: umlapp.cpp:1503
 #, kde-format
 msgid "Copying selection to clipboard..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1620
+#: umlapp.cpp:1515
 #, kde-format
 msgid "Inserting clipboard contents..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1625
+#: umlapp.cpp:1520
 #, kde-format
 msgid "Umbrello could not paste the clipboard contents.  The objects in the clipboard may be of the wrong type to be pasted here."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:1651 umlviewimageexporter.cpp:80 umlviewimageexporterall.cpp:103
+#: umlapp.cpp:1546 umlviewimageexporter.cpp:80 umlviewimageexporterall.cpp:103
 #, kde-format
 msgctxt "reset status bar"
 msgid "Ready."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:2252
+#: umlapp.cpp:2162
 #, kde-format
 msgid "Cannot view code until you generate some first."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:2252 uml.cpp:2255
+#: umlapp.cpp:2162 umlapp.cpp:2165
 #, kde-format
 msgid "Cannot View Code"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:2255
+#: umlapp.cpp:2165
 #, kde-format
 msgid "Cannot view code from simple code writer."
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:2731
+#: umlapp.cpp:2615
 #, kde-format
 msgid "Select file(s) to import:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:2760
+#: umlapp.cpp:2644
 #, kde-format
 msgid "Select directory to import:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: uml.cpp:3280
+#: umlapp.cpp:3162
 #, kde-format
 msgid "XHTML Generation failed ."
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlappprivate.h:130
+#: umlappprivate.h:102
+#, kde-format
+msgid "Show/hide window"
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlappprivate.h:170
+#, kde-format
+msgid "&Bird's eye view"
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlappprivate.h:178
+#, kde-format
+msgid "Co&mmand history"
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlappprivate.h:190
+#, kde-format
+msgid "&Debug"
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlappprivate.h:206
+#, kde-format
+msgid "Doc&umentation"
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlappprivate.h:223
+#, kde-format
+msgid "&Log"
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlappprivate.h:232
 #, kde-format
 msgid "&UML Objects"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlappprivate.h:140
+#: umlappprivate.h:246
 #, kde-format
 msgid "&Stereotypes"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlappprivate.h:156
+#: umlappprivate.h:253
+#, kde-format
+msgid "&Tree View"
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlappprivate.h:273
 #, kde-format
 msgid "Welcome"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:92 umldoc.cpp:2232 umldoc.cpp:2260 umldoc.cpp:2343
+#: umldoc.cpp:180 umldoc.cpp:2351 umldoc.cpp:2379 umldoc.cpp:2462
 #, kde-format
 msgid "UML Model"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:130
+#: umldoc.cpp:218
 #, kde-format
 msgid "Logical View"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:131
+#: umldoc.cpp:219
 #, kde-format
 msgid "Use Case View"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:132
+#: umldoc.cpp:220
 #, kde-format
 msgid "Component View"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:133
+#: umldoc.cpp:221
 #, kde-format
 msgid "Deployment View"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:134
+#: umldoc.cpp:222
 #, kde-format
 msgid "Entity Relationship Model"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:160
+#: umldoc.cpp:248
 #, kde-format
 msgid "Datatypes"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:367
+#: umldoc.cpp:455
 #, kde-format
 msgid ""
 "The current file has been modified.\n"
@@ -8861,183 +8910,183 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:368
+#: umldoc.cpp:456
 #, kde-format
 msgctxt "warning message"
 msgid "Warning"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:535
+#: umldoc.cpp:636
 #, kde-format
 msgid "The file <%1> does not exist."
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:535 umldoc.cpp:556 umldoc.cpp:595 umldoc.cpp:607 umldoc.cpp:621
-#: umldoc.cpp:634 umldoc.cpp:646 umldoc.cpp:684 umlmodel/folder.cpp:451
-#: umlmodel/folder.cpp:455
+#: umldoc.cpp:636 umldoc.cpp:657 umldoc.cpp:696 umldoc.cpp:708 umldoc.cpp:722
+#: umldoc.cpp:735 umldoc.cpp:747 umldoc.cpp:785 umlmodel/umlfolder.cpp:450
+#: umlmodel/umlfolder.cpp:454
 #, kde-format
 msgid "Load Error"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:556
+#: umldoc.cpp:657
 #, kde-format
 msgid "The file %1 seems to be corrupted."
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:594 umldoc.cpp:606 umldoc.cpp:633
+#: umldoc.cpp:695 umldoc.cpp:707 umldoc.cpp:734
 #, kde-format
 msgid "There was no XMI file found in the compressed file %1."
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:620
+#: umldoc.cpp:721
 #, kde-format
 msgid "There was a problem loading the extracted file: %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:645 umldoc.cpp:681
+#: umldoc.cpp:746 umldoc.cpp:782
 #, kde-format
 msgid "There was a problem loading file: %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:683
+#: umldoc.cpp:784
 #, kde-format
 msgid "Reason: %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:753 umldoc.cpp:764 umldoc.cpp:782 umldoc.cpp:823 umldoc.cpp:850
+#: umldoc.cpp:855 umldoc.cpp:866 umldoc.cpp:884 umldoc.cpp:929 umldoc.cpp:968
 #, kde-format
 msgid "There was a problem saving: %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:753 umldoc.cpp:764 umldoc.cpp:782 umldoc.cpp:823 umldoc.cpp:850
-#: umldoc.cpp:857 umllistview.cpp:569
+#: umldoc.cpp:855 umldoc.cpp:866 umldoc.cpp:884 umldoc.cpp:929 umldoc.cpp:968
+#: umldoc.cpp:975 umllistview.cpp:569
 #, kde-format
 msgid "Save Error"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:857
+#: umldoc.cpp:975
 #, kde-format
 msgid "There was a problem uploading: %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1408
+#: umldoc.cpp:1526
 #, kde-format
 msgid "use case diagram"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1411
+#: umldoc.cpp:1529
 #, kde-format
 msgid "class diagram"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1414
+#: umldoc.cpp:1532
 #, kde-format
 msgid "sequence diagram"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1417
+#: umldoc.cpp:1535
 #, kde-format
 msgid "communication diagram"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1420
+#: umldoc.cpp:1538
 #, kde-format
 msgid "object diagram"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1423
+#: umldoc.cpp:1541
 #, kde-format
 msgid "state diagram"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1426
+#: umldoc.cpp:1544
 #, kde-format
 msgid "activity diagram"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1429
+#: umldoc.cpp:1547
 #, kde-format
 msgid "component diagram"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1432
+#: umldoc.cpp:1550
 #, kde-format
 msgid "deployment diagram"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1435
+#: umldoc.cpp:1553
 #, kde-format
 msgid "entity relationship diagram"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1505
+#: umldoc.cpp:1623
 #, kde-format
 msgctxt "diagram name"
 msgid "Name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1505 umldoc.cpp:1567 umldoc.cpp:1596 umldoc.cpp:1631
+#: umldoc.cpp:1623 umldoc.cpp:1685 umldoc.cpp:1714 umldoc.cpp:1749
 #, kde-format
 msgid "Enter name:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1509 umldoc.cpp:1573
+#: umldoc.cpp:1627 umldoc.cpp:1691
 #, kde-format
 msgid "That is an invalid name for a diagram."
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1511 umldoc.cpp:1580
+#: umldoc.cpp:1629 umldoc.cpp:1698
 #, kde-format
 msgid "A diagram is already using that name."
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1566
+#: umldoc.cpp:1684
 #, kde-format
 msgctxt "renaming diagram"
 msgid "Name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1595
+#: umldoc.cpp:1713
 #, kde-format
 msgctxt "renaming uml object"
 msgid "Name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1630
+#: umldoc.cpp:1748
 #, kde-format
 msgctxt "renaming child uml object"
 msgid "Name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1640
+#: umldoc.cpp:1758
 #, kde-format
 msgid ""
 "The name you entered was not unique.\n"
@@ -9045,49 +9094,49 @@ msgid ""
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1641
+#: umldoc.cpp:1759
 #, kde-format
 msgid "Use Name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:1641
+#: umldoc.cpp:1759
 #, kde-format
 msgid "Enter New Name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:2190
+#: umldoc.cpp:2309
 #, kde-format
 msgid "Unsupported xmi file version: %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:2354
+#: umldoc.cpp:2473
 #, kde-format
 msgid "Setting up the document..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:2383
+#: umldoc.cpp:2502
 #, kde-format
 msgid "Resolving object references..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:2491
+#: umldoc.cpp:2610
 #, kde-format
 msgid "Loading UML elements..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:2753
+#: umldoc.cpp:2872
 #, kde-format
 msgid "Loading diagrams..."
 msgstr ""
 
 #. +> trunk5 stable5
-#: umldoc.cpp:3287
+#: umldoc.cpp:3406
 #, kde-format
 msgid "/autosave%1"
 msgstr ""
@@ -9125,7 +9174,7 @@ msgid "File Exists"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umllistview.cpp:568 umlviewimageexportermodel.cpp:268
+#: umllistview.cpp:568 umlviewimageexportermodel.cpp:272
 #, kde-format
 msgid "There was a problem saving file: %1"
 msgstr ""
@@ -9230,61 +9279,39 @@ msgid "Name Not Valid"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlmodel/classifier.cpp:281
-#, kde-format
-msgid "An operation with the same name and signature already exists. You cannot add it again."
-msgstr ""
-
-#. +> trunk5 stable5
-#: umlmodel/folder.cpp:451
-#, kde-format
-msgid "The folderfile %1 does not exist."
-msgstr ""
-
-#. +> trunk5 stable5
-#: umlmodel/folder.cpp:455
-#, kde-format
-msgid "The folderfile %1 cannot be opened."
-msgstr ""
-
-#. +> trunk5 stable5
-#: umlmodel/operation.cpp:290
-#, kde-format
-msgid "new_parameter"
-msgstr ""
-
-#. +> trunk5 stable5
-#: umlmodel/package.cpp:169
-#, kde-format
-msgctxt "object name"
-msgid "Name"
-msgstr ""
-
-#. +> trunk5 stable5
-#: umlmodel/package.cpp:170
-#, kde-format
-msgid ""
-"An object with the name %1\n"
-"already exists in the package %2.\n"
-"Please enter a new name:"
-msgstr ""
-
-#. +> trunk5 stable5
-#: umlmodel/umlcanvasobject.cpp:198
+#: umlmodel/umlcanvasobject.cpp:200
 #, kde-format
 msgid "new_literal"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlmodel/umlcanvasobject.cpp:201
+#: umlmodel/umlcanvasobject.cpp:203
 #, kde-format
 msgid "new_field"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlmodel/umlcanvasobject.cpp:207
+#: umlmodel/umlcanvasobject.cpp:209
 #, kde-format
 msgid "new_fkey_constraint"
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlmodel/umlclassifier.cpp:281
+#, kde-format
+msgid "An operation with the same name and signature already exists. You cannot add it again."
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlmodel/umlfolder.cpp:450
+#, kde-format
+msgid "The folderfile %1 does not exist."
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlmodel/umlfolder.cpp:454
+#, kde-format
+msgid "The folderfile %1 cannot be opened."
 msgstr ""
 
 #. +> trunk5 stable5
@@ -9378,79 +9405,101 @@ msgid "Instance name:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:719
+#: umlmodel/umloperation.cpp:290
+#, kde-format
+msgid "new_parameter"
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlmodel/umlpackage.cpp:171
+#, kde-format
+msgctxt "object name"
+msgid "Name"
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlmodel/umlpackage.cpp:172
+#, kde-format
+msgid ""
+"An object with the name %1\n"
+"already exists in the package %2.\n"
+"Please enter a new name:"
+msgstr ""
+
+#. +> trunk5 stable5
+#: umlscene.cpp:726
 #, kde-format
 msgid "Diagram: %2 Page %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:1520
+#: umlscene.cpp:1526
 #, kde-format
 msgid "Use fill color"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:1522
+#: umlscene.cpp:1528
 #, kde-format
 msgid "No fill color"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:1537
+#: umlscene.cpp:1543
 #, kde-format
 msgid "Change font"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:1551
+#: umlscene.cpp:1557
 #, kde-format
 msgid "Change line color"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:1569
+#: umlscene.cpp:1575
 #, kde-format
 msgid "Change line width"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:1589
+#: umlscene.cpp:1595
 #, kde-format
 msgid "Change fill color"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:1604
+#: umlscene.cpp:1610
 #, kde-format
 msgid "Change visual property"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:1655
+#: umlscene.cpp:1661
 #, kde-format
 msgid "Delete widgets"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:1701
+#: umlscene.cpp:1707
 #, kde-format
 msgid "Resize widgets"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:3354
+#: umlscene.cpp:3359
 #, kde-format
 msgid "Enter Diagram Name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:3355
+#: umlscene.cpp:3360
 #, kde-format
 msgid "Enter the new name of the diagram:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlscene.cpp:3371
+#: umlscene.cpp:3376
 #, kde-format
 msgid "Failed to import from file."
 msgstr ""
@@ -9500,43 +9549,43 @@ msgid "A problem occurred while saving diagram in %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/associationwidget.cpp:2659
+#: umlwidgets/associationwidget.cpp:2642
 #, kde-format
 msgid "Multiplicity"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/associationwidget.cpp:2660 umlwidgets/floatingtextwidget.cpp:350
+#: umlwidgets/associationwidget.cpp:2643 umlwidgets/floatingtextwidget.cpp:350
 #, kde-format
 msgid "Enter multiplicity:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/associationwidget.cpp:2678
+#: umlwidgets/associationwidget.cpp:2661
 #, kde-format
 msgid "Association Name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/associationwidget.cpp:2679 umlwidgets/floatingtextwidget.cpp:357
+#: umlwidgets/associationwidget.cpp:2662 umlwidgets/floatingtextwidget.cpp:357
 #, kde-format
 msgid "Enter association name:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/associationwidget.cpp:2699
+#: umlwidgets/associationwidget.cpp:2682
 #, kde-format
 msgid "Role Name"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/associationwidget.cpp:2700 umlwidgets/floatingtextwidget.cpp:348
+#: umlwidgets/associationwidget.cpp:2683 umlwidgets/floatingtextwidget.cpp:348
 #, kde-format
 msgid "Enter role name:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/associationwidget.cpp:3180
+#: umlwidgets/associationwidget.cpp:3163
 #, kde-format
 msgid "Press Ctrl with left mouse click to delete a point"
 msgstr ""
@@ -9648,7 +9697,7 @@ msgid "Enter operation name:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/notewidget.cpp:219 umlwidgets/widgetbase.cpp:1299
+#: umlwidgets/notewidget.cpp:219 umlwidgets/widgetbase.cpp:1312
 #: worktoolbar.cpp:331
 #, kde-format
 msgid "Precondition"
@@ -9788,31 +9837,31 @@ msgid "Hold shift or ctrl to move in X axis. Hold shift and control to move in Y
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/umlwidget.cpp:552
+#: umlwidgets/umlwidget.cpp:562
 #, kde-format
 msgid "Move widgets"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/umlwidget.cpp:795
+#: umlwidgets/umlwidget.cpp:811
 #, kde-format
 msgid "Rename Object"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/umlwidget.cpp:796
+#: umlwidgets/umlwidget.cpp:812
 #, kde-format
 msgid "Enter object name:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/umlwidget.cpp:1548
+#: umlwidgets/umlwidget.cpp:1564
 #, kde-format
 msgid "Hold shift or control to move in X axis."
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/umlwidget.cpp:1549
+#: umlwidgets/umlwidget.cpp:1565
 #, kde-format
 msgid "Hold shift and control to move in Y axis."
 msgstr ""
@@ -10394,91 +10443,91 @@ msgid "Enter the new name of the widget:"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1242 worktoolbar.cpp:337
+#: umlwidgets/widgetbase.cpp:1255 worktoolbar.cpp:337
 #, kde-format
 msgid "Box"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1248
+#: umlwidgets/widgetbase.cpp:1261
 #, kde-format
 msgid "CombinedFragment"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1257 worktoolbar.cpp:362
+#: umlwidgets/widgetbase.cpp:1270 worktoolbar.cpp:362
 #, kde-format
 msgid "Datatype"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1263 worktoolbar.cpp:363
+#: umlwidgets/widgetbase.cpp:1276 worktoolbar.cpp:363
 #, kde-format
 msgid "Enum"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1266
+#: umlwidgets/widgetbase.cpp:1279
 #, kde-format
 msgid "FloatingDashLine"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1269
+#: umlwidgets/widgetbase.cpp:1282
 #, kde-format
 msgid "ForkJoin"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1275
+#: umlwidgets/widgetbase.cpp:1288
 #, kde-format
 msgid "Message"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1281 worktoolbar.cpp:336
+#: umlwidgets/widgetbase.cpp:1294 worktoolbar.cpp:336
 #, kde-format
 msgid "Note"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1284 worktoolbar.cpp:323
+#: umlwidgets/widgetbase.cpp:1297 worktoolbar.cpp:323
 #, kde-format
 msgid "Object"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1287
+#: umlwidgets/widgetbase.cpp:1300
 #, kde-format
 msgid "ObjectNode"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1305
+#: umlwidgets/widgetbase.cpp:1318
 #, kde-format
 msgid "Signal"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1308
+#: umlwidgets/widgetbase.cpp:1321
 #, kde-format
 msgid "State"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1311
+#: umlwidgets/widgetbase.cpp:1324
 #, kde-format
 msgid "Text"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1314
+#: umlwidgets/widgetbase.cpp:1327
 #, kde-format
 msgid "UseCase"
 msgstr ""
 
 #. +> trunk5 stable5
-#: umlwidgets/widgetbase.cpp:1317 worktoolbar.cpp:392
+#: umlwidgets/widgetbase.cpp:1330 worktoolbar.cpp:392
 #, kde-format
 msgid "Instance"
 msgstr ""

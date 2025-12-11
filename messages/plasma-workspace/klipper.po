@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-26 10:55+0100\n"
+"POT-Creation-Date: 2025-11-23 11:27+0100\n"
 "PO-Revision-Date: 2010-12-17 20:06+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -19,26 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6 stable5
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "ถนอมทรัพย์ นพบูรณ์"
-
-#. +> trunk6 stable6 stable5
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "donga.nb@gmail.com"
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:83
+#: configdialog.cpp:84
 #, fuzzy, kde-format
 #| msgid "Clipboard history"
 msgid "Clipboard history:"
 msgstr "ขนาดของประวัติคลิปบอร์ด"
 
 #. +> trunk6 stable6
-#: configdialog.cpp:89
+#: configdialog.cpp:90
 #, fuzzy, kde-format
 #| msgid " entry"
 #| msgid_plural " entries"
@@ -58,14 +46,14 @@ msgid_plural " entries"
 msgstr[0] " รายการ"
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:98
+#: configdialog.cpp:99
 #, fuzzy, kde-format
 #| msgid "Selection and Clipboard"
 msgid "Selection and Clipboard:"
 msgstr "การเลือกและคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:105
+#: configdialog.cpp:106
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -76,75 +64,87 @@ msgid ""
 "When turned on this option keeps the selection and the clipboard the same, so that any selection is immediately available to paste by any means. If it is turned off, the selection may still be saved in the clipboard history (subject to the options below), but it can only be pasted using the middle mouse button."
 msgstr ""
 
+#. +> stable6 stable5
+#: configdialog.cpp:714
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"The name that needs to be entered here is the WM_CLASS name of the window to be excluded. To find the WM_CLASS name for a window, in another terminal window enter the command:<nl/>"
+"<nl/>"
+"&nbsp;&nbsp;<icode>xprop | grep WM_CLASS</icode><nl/>"
+"<nl/>"
+"and click on the window that you want to exclude. The first name that it displays after the equal sign is the one that you need to enter."
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:134 configdialog.cpp:172
+#: configdialog.cpp:135 configdialog.cpp:173
 #, fuzzy, kde-format
 #| msgid "Replay action in history"
 msgid "Always save in history"
 msgstr "ทำการกระทำในประวัติอีกครั้ง"
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:138
+#: configdialog.cpp:139
 #, fuzzy, kde-format
 #| msgid "Text selection only"
 msgid "Text selection:"
 msgstr "การเลือกข้อความเท่านั้น"
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:140 configdialog.cpp:178
+#: configdialog.cpp:141 configdialog.cpp:179
 #, kde-format
 msgid "Only when explicitly copied"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:145
+#: configdialog.cpp:146
 #, fuzzy, kde-format
 #| msgid "Really delete entire clipboard history?"
 msgid "Whether text selections are saved in the clipboard history."
 msgstr "ต้องการจะลบรายการประวัติทั้งหมดในคลิปบอร์ดจริงหรือไม่ ?"
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:176
+#: configdialog.cpp:177
 #, fuzzy, kde-format
 #| msgid "Ignore selection"
 msgid "Non-text selection:"
 msgstr "ไม่สนใจการเลือก"
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:183
+#: configdialog.cpp:184
 #, fuzzy, kde-format
 #| msgid "Replay action in history"
 msgid "Never save in history"
 msgstr "ทำการกระทำในประวัติอีกครั้ง"
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:188
+#: configdialog.cpp:189
 #, kde-format
 msgid "Whether non-text selections (such as images) are saved in the clipboard history."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:262
+#: configdialog.cpp:263
 #, fuzzy, kde-format
 #| msgid "Timeout for action popups:"
 msgid "Show action popup menu:"
 msgstr "ช่วงเวลาแสดงหน้าต่างผุดของการกระทำ:"
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:272
+#: configdialog.cpp:273
 #, kde-kuit-format
 msgctxt "@info"
 msgid "When text that matches an action pattern is selected or is chosen from the clipboard history, automatically show the popup menu with applicable actions. If the automatic menu is turned off here, or it is not shown for an excluded window, then it can be shown by using the <shortcut>%1</shortcut> key shortcut."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:281
+#. +> stable6 stable5
+#: configdialog.cpp:283
 #, kde-format
 msgid "Exclude Windows..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: configdialog.cpp:295
+#: configdialog.cpp:285
 #, fuzzy, kde-format
 #| msgid " second"
 #| msgid_plural " seconds"
@@ -164,14 +164,14 @@ msgid_plural " seconds"
 msgstr[0] " วินาที"
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:296
+#: configdialog.cpp:286
 #, kde-format
 msgctxt "No timeout"
 msgid "None"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:305
+#: configdialog.cpp:295
 #, fuzzy, kde-format
 #| msgctxt "Actions Config"
 #| msgid "Actions"
@@ -179,60 +179,60 @@ msgid "Options:"
 msgstr "การกระทำ"
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:332
-#, kde-format
-msgid "Exclude Windows"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:362
+#: configdialog.cpp:320
 #, kde-kuit-format
 msgctxt "@info"
 msgid "When a <interface>match pattern</interface> matches the clipboard contents, its <interface>commands</interface> appear in the Klipper popup menu and can be executed."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:371
+#: configdialog.cpp:329
 #, kde-format
 msgctxt "@title:column"
 msgid "Match pattern and commands"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:371
+#: configdialog.cpp:329
 #, fuzzy, kde-format
 #| msgid "Description"
 msgctxt "@title:column"
 msgid "Description"
 msgstr "คำอธิบาย"
 
+#. +> stable6 stable5
+#: configdialog.cpp:334
+#, kde-format
+msgid "Exclude Windows"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:377
+#: configdialog.cpp:335
 #, kde-format
 msgid "Add Action..."
 msgstr "เพิ่มการกระทำ..."
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:381
+#: configdialog.cpp:339
 #, kde-format
 msgid "Edit Action..."
 msgstr "แก้ไขการกระทำ..."
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:386
+#: configdialog.cpp:344
 #, kde-format
 msgid "Delete Action"
 msgstr "ลบการกระทำ"
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:393
+#: configdialog.cpp:351
 #, kde-kuit-format
 msgctxt "@info"
 msgid "These actions appear in the popup menu which can be configured on the <interface>Action Menu</interface> page."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:577
+#: configdialog.cpp:546
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -240,75 +240,8 @@ msgid ""
 "and all of its commands?"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:578
-#, fuzzy, kde-format
-#| msgid "Delete Action"
-msgid "Confirm Delete Action"
-msgstr "ลบการกระทำ"
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:607
-#, kde-format
-msgctxt "General Config"
-msgid "General"
-msgstr "ค่าทั่วไป"
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:607
-#, fuzzy, kde-format
-#| msgid "General Config"
-msgid "General Configuration"
-msgstr "ตั้งค่าทั่วไป"
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:608
-#, fuzzy, kde-format
-#| msgctxt "Actions Config"
-#| msgid "Actions"
-msgctxt "Popup Menu Config"
-msgid "Action Menu"
-msgstr "การกระทำ"
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:608
-#, fuzzy, kde-format
-#| msgctxt "Actions Config"
-#| msgid "Actions"
-msgid "Action Menu"
-msgstr "การกระทำ"
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:609
-#, fuzzy, kde-format
-#| msgid "Actions Config"
-msgctxt "Actions Config"
-msgid "Actions Configuration"
-msgstr "ตั้งค่าการกระทำ"
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:609
-#, fuzzy, kde-format
-#| msgid "Actions Config"
-msgid "Actions Configuration"
-msgstr "ตั้งค่าการกระทำ"
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:612
-#, kde-format
-msgctxt "Shortcuts Config"
-msgid "Shortcuts"
-msgstr "ปุ่มพิมพ์ลัด"
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:612
-#, fuzzy, kde-format
-#| msgid "Shortcuts Config"
-msgid "Shortcuts Configuration"
-msgstr "ตั้งค่าปุ่มพิมพ์ลัด"
-
-#. +> trunk6 stable6 stable5
-#: configdialog.cpp:693
+#. +> stable6 stable5
+#: configdialog.cpp:701
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -318,88 +251,165 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: configdialog.cpp:706
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid ""
-"The name that needs to be entered here is the WM_CLASS name of the window to be excluded. To find the WM_CLASS name for a window, in another terminal window enter the command:<nl/>"
-"<nl/>"
-"&nbsp;&nbsp;<icode>xprop | grep WM_CLASS</icode><nl/>"
-"<nl/>"
-"and click on the window that you want to exclude. The first name that it displays after the equal sign is the one that you need to enter."
-msgstr ""
+#: configdialog.cpp:547
+#, fuzzy, kde-format
+#| msgid "Delete Action"
+msgid "Confirm Delete Action"
+msgstr "ลบการกระทำ"
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:600
+#, kde-format
+msgctxt "General Config"
+msgid "General"
+msgstr "ค่าทั่วไป"
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:600
+#, fuzzy, kde-format
+#| msgid "General Config"
+msgid "General Configuration"
+msgstr "ตั้งค่าทั่วไป"
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:601
+#, fuzzy, kde-format
+#| msgctxt "Actions Config"
+#| msgid "Actions"
+msgctxt "Popup Menu Config"
+msgid "Action Menu"
+msgstr "การกระทำ"
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:601
+#, fuzzy, kde-format
+#| msgctxt "Actions Config"
+#| msgid "Actions"
+msgid "Action Menu"
+msgstr "การกระทำ"
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:602
+#, fuzzy, kde-format
+#| msgid "Actions Config"
+msgctxt "Actions Config"
+msgid "Actions Configuration"
+msgstr "ตั้งค่าการกระทำ"
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:602
+#, fuzzy, kde-format
+#| msgid "Actions Config"
+msgid "Actions Configuration"
+msgstr "ตั้งค่าการกระทำ"
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:605
+#, kde-format
+msgctxt "Shortcuts Config"
+msgid "Shortcuts"
+msgstr "ปุ่มพิมพ์ลัด"
+
+#. +> trunk6 stable6 stable5
+#: configdialog.cpp:605
+#, fuzzy, kde-format
+#| msgid "Shortcuts Config"
+msgid "Shortcuts Configuration"
+msgstr "ตั้งค่าปุ่มพิมพ์ลัด"
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:31
+#: declarative/qml/BarcodePage.qml:32
 #, kde-format
 msgid "QR Code"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:32
+#: declarative/qml/BarcodePage.qml:33
 #, kde-format
 msgid "Data Matrix"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:33
+#: declarative/qml/BarcodePage.qml:34
 #, kde-format
 msgctxt "Aztec barcode"
 msgid "Aztec"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:34
+#: declarative/qml/BarcodePage.qml:35
 #, kde-format
 msgid "Code 39"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:35
+#: declarative/qml/BarcodePage.qml:36
 #, kde-format
 msgid "Code 93"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:36
+#: declarative/qml/BarcodePage.qml:37
 #, kde-format
 msgid "Code 128"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:52
+#: declarative/qml/BarcodePage.qml:53
 #, fuzzy, kde-format
 #| msgid "Add to Clipboard"
 msgid "Return to Clipboard"
 msgstr "เพิ่มไปยังคลิปบอร์ด"
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:88
+#: declarative/qml/BarcodePage.qml:89
+#, kde-format
+msgctxt "@action:button Copy to clipboard"
+msgid "Copy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: declarative/qml/BarcodePage.qml:95
+#, kde-format
+msgctxt "@info:status"
+msgid "An image of the QR code has been copied to clipboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: declarative/qml/BarcodePage.qml:101
+#, fuzzy, kde-format
+#| msgid "Add to Clipboard"
+msgctxt "@info:tooltip"
+msgid "Copy QR code image to clipboard"
+msgstr "เพิ่มไปยังคลิปบอร์ด"
+
+#. +> trunk6 stable6
+#: declarative/qml/BarcodePage.qml:112
 #, kde-format
 msgid "Change the QR code type"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:141
+#: declarative/qml/BarcodePage.qml:197
 #, kde-format
 msgid "There is not enough space to display the QR code. Try resizing this applet."
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/BarcodePage.qml:141
+#: declarative/qml/BarcodePage.qml:197
 #, kde-format
 msgid "Creating QR code failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/ClipboardItemDelegate.qml:180
+#: declarative/qml/ClipboardItemDelegate.qml:202
 #, kde-format
 msgctxt "@action:button"
 msgid "Collapse"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/ClipboardItemDelegate.qml:180
+#: declarative/qml/ClipboardItemDelegate.qml:202
 #, kde-format
 msgctxt "@action:button"
 msgid "Expand"
@@ -427,21 +437,34 @@ msgid "Invalid regular expression, %1"
 msgstr "เงื่อนไขการค้นหา:"
 
 #. +> trunk6 stable6
-#: declarative/qml/ClipboardMenu.qml:192
+#: declarative/qml/ClipboardMenu.qml:275
 #, fuzzy, kde-format
 #| msgid "Clipboard history"
 msgid "Clear History"
 msgstr "ขนาดของประวัติคลิปบอร์ด"
 
+#. +> trunk6 stable6
+#: declarative/qml/ClipboardMenu.qml:329
+#, fuzzy, kde-format
+#| msgid "Clipboard history"
+msgid "All History"
+msgstr "ขนาดของประวัติคลิปบอร์ด"
+
+#. +> trunk6 stable6
+#: declarative/qml/ClipboardMenu.qml:334
+#, kde-format
+msgid "Starred Only"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: declarative/qml/ClipboardMenu.qml:302
+#: declarative/qml/ClipboardMenu.qml:441
 #, fuzzy, kde-format
 #| msgid "<no matches>"
 msgid "No matches"
 msgstr "<ไม่พบที่เข้าคู่>"
 
 #. +> trunk6 stable6 stable5
-#: declarative/qml/ClipboardMenu.qml:302
+#: declarative/qml/ClipboardMenu.qml:441
 #, kde-format
 msgid "Clipboard is empty"
 msgstr "คลิปบอร์ดว่าง"
@@ -453,32 +476,46 @@ msgid "Clipboard Contents"
 msgstr "เนื้อหาในคลิปบอร์ด"
 
 #. +> trunk6 stable6
-#: declarative/qml/DelegateToolButtons.qml:31
+#: declarative/qml/DelegateToolButtons.qml:37
 #, fuzzy, kde-format
 #| msgid "<new action>"
 msgid "Invoke action"
 msgstr "<การกระทำใหม่>"
 
 #. +> trunk6 stable6
-#: declarative/qml/DelegateToolButtons.qml:32
+#: declarative/qml/DelegateToolButtons.qml:42
 #, fuzzy, kde-format
 #| msgid "&Show Barcode..."
 msgid "Show QR code"
 msgstr "แ&สดงบาร์โค้ด..."
 
 #. +> trunk6 stable6
-#: declarative/qml/DelegateToolButtons.qml:33
+#: declarative/qml/DelegateToolButtons.qml:47
 #, fuzzy, kde-format
 #| msgid "Edit Contents"
 msgid "Edit contents"
 msgstr "แก้ไขเนื้อหา"
 
 #. +> trunk6 stable6
-#: declarative/qml/DelegateToolButtons.qml:34
+#: declarative/qml/DelegateToolButtons.qml:53
 #, fuzzy, kde-format
 #| msgid "Replay actions on an item selected from history"
 msgid "Remove from history"
 msgstr "ทำการกระทำบนรายการที่เลือกไว้จากประวัติอีกครั้ง"
+
+#. +> trunk6 stable6
+#: declarative/qml/DelegateToolButtons.qml:58
+#, fuzzy, kde-format
+#| msgid "Replay actions on an item selected from history"
+msgid "Remove Star"
+msgstr "ทำการกระทำบนรายการที่เลือกไว้จากประวัติอีกครั้ง"
+
+#. +> trunk6 stable6
+#: declarative/qml/DelegateToolButtons.qml:58
+#, fuzzy, kde-format
+#| msgid "Start"
+msgid "Star"
+msgstr "เริ่ม"
 
 #. +> trunk6 stable6
 #: declarative/qml/EditPage.qml:63
@@ -488,14 +525,14 @@ msgid "Text edit area"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/EditPage.qml:80
+#: declarative/qml/EditPage.qml:81
 #, kde-format
 msgctxt "@action:button"
 msgid "Save"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative/qml/EditPage.qml:88
+#: declarative/qml/EditPage.qml:89
 #, fuzzy, kde-format
 #| msgid "&Cancel"
 msgctxt "@action:button"
@@ -503,233 +540,263 @@ msgid "Cancel"
 msgstr "&ยกเลิก"
 
 #. +> trunk6 stable6
-#: declarative/qml/UrlItemDelegate.qml:97
+#: declarative/qml/UrlItemDelegate.qml:99
 #, kde-format
 msgctxt "Indicator that there are more urls in the clipboard than previews shown"
 msgid "+%1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:34 editcommanddialog.cpp:89
+#: editactiondialog.cpp:36 editcommanddialog.cpp:91
 #, kde-format
 msgid "Ignore"
 msgstr "ไม่สนใจ"
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:36
+#: editactiondialog.cpp:38
 #, kde-format
 msgid "Replace Clipboard"
 msgstr "แทนที่คลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:38
+#: editactiondialog.cpp:40
 #, kde-format
 msgid "Add to Clipboard"
 msgstr "เพิ่มไปยังคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:126
+#: editactiondialog.cpp:128
 #, kde-format
 msgid "Command"
 msgstr "คำสั่ง"
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:128
+#: editactiondialog.cpp:130
 #, kde-format
 msgid "Output"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:130
+#: editactiondialog.cpp:132
 #, kde-format
 msgid "Description"
 msgstr "คำอธิบาย"
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:183
+#: editactiondialog.cpp:185
 #, kde-format
 msgid "Action Properties"
 msgstr "คุณสมบัติของการกระทำ"
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:195
+#: editactiondialog.cpp:198
 #, kde-kuit-format
 msgctxt "@info"
 msgid "An action takes effect when its <interface>match pattern</interface> matches the clipboard contents. When this happens, the action's <interface>commands</interface> appear in the Klipper popup menu; if one of them is chosen, the command is executed."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:207
+#: editactiondialog.cpp:210
 #, kde-format
 msgid "Enter a pattern to match against the clipboard"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:209
+#: editactiondialog.cpp:212
 #, kde-format
 msgid "Match pattern:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:212
+#: editactiondialog.cpp:215
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The match pattern is a regular expression. For more information see the <link url=\"https://en.wikipedia.org/wiki/Regular_expression\">Wikipedia entry</link> for this topic."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:223
+#: editactiondialog.cpp:226
 #, kde-format
 msgid "Enter a description for the action"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:224 editcommanddialog.cpp:83
+#: editactiondialog.cpp:227 editcommanddialog.cpp:85
 #, kde-format
 msgid "Description:"
 msgstr "คำอธิบาย:"
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:227
+#: editactiondialog.cpp:230
 #, kde-format
 msgid "Include in automatic popup"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:231
+#: editactiondialog.cpp:234
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The commands for this match will be included in the automatic action popup, if it is enabled in the <interface>Action Menu</interface> page. If this option is turned off, the commands for this match will not be included in the automatic popup but they will be included if the popup is activated manually with the <shortcut>%1</shortcut> key shortcut."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:266
+#: editactiondialog.cpp:269
 #, fuzzy, kde-format
 #| msgid "Add Command"
 msgid "Add Command..."
 msgstr "เพิ่มคำสั่ง"
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:271
+#: editactiondialog.cpp:274
 #, fuzzy, kde-format
 #| msgid "Add Command"
 msgid "Edit Command..."
 msgstr "เพิ่มคำสั่ง"
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:277
+#: editactiondialog.cpp:280
 #, fuzzy, kde-format
 #| msgid "Remove Command"
 msgid "Delete Command"
 msgstr "ลบคำสั่ง"
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:392
+#: editactiondialog.cpp:397
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Delete the selected command <resource>%1</resource>?"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editactiondialog.cpp:393
+#: editactiondialog.cpp:398
 #, kde-format
 msgid "Confirm Delete Command"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editcommanddialog.cpp:46
+#: editcommanddialog.cpp:48
 #, fuzzy, kde-format
 #| msgid "Action Properties"
 msgid "Command Properties"
 msgstr "คุณสมบัติของการกระทำ"
 
 #. +> trunk6 stable6 stable5
-#: editcommanddialog.cpp:59
+#: editcommanddialog.cpp:61
 #, kde-format
 msgid "Enter the command and arguments"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editcommanddialog.cpp:62
+#: editcommanddialog.cpp:64
 #, fuzzy, kde-format
 #| msgid "Command"
 msgid "Command:"
 msgstr "คำสั่ง"
 
 #. +> trunk6 stable6 stable5
-#: editcommanddialog.cpp:71
+#: editcommanddialog.cpp:73
 #, kde-kuit-format
 msgctxt "@info"
 msgid "A <placeholder>&#37;s</placeholder> in the command will be replaced by the complete clipboard contents. <placeholder>&#37;0</placeholder> through <placeholder>&#37;9</placeholder> will be replaced by the corresponding captured texts from the match pattern."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editcommanddialog.cpp:81
+#: editcommanddialog.cpp:83
 #, kde-format
 msgid "Enter a description for the command"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editcommanddialog.cpp:91
+#: editcommanddialog.cpp:93
 #, kde-format
 msgid "Output from command:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editcommanddialog.cpp:93
+#: editcommanddialog.cpp:95
 #, fuzzy, kde-format
 #| msgid "Replace Clipboard"
 msgid "Replace current clipboard"
 msgstr "แทนที่คลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: editcommanddialog.cpp:97
+#: editcommanddialog.cpp:99
 #, fuzzy, kde-format
 #| msgid "Add to Clipboard"
 msgid "Append to clipboard"
 msgstr "เพิ่มไปยังคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: editcommanddialog.cpp:101
+#: editcommanddialog.cpp:103
 #, kde-format
 msgid "What happens to the standard output of the command executed."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editcommanddialog.cpp:115
+#: editcommanddialog.cpp:117
 #, kde-format
 msgid "Reset the icon to the default for the command"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: editcommanddialog.cpp:121
+#: editcommanddialog.cpp:123
 #, kde-format
 msgid "Icon:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: historymodel.cpp:212
-#, fuzzy, kde-format
-#| msgid "Really delete entire clipboard history?"
-msgid "Do you really want to clear and delete the entire clipboard history?"
-msgstr "ต้องการจะลบรายการประวัติทั้งหมดในคลิปบอร์ดจริงหรือไม่ ?"
+#. +> trunk6 stable6
+#: historymodel.cpp:281
+#, kde-format
+msgid "The clipboard history contains starred items. Clear them too?"
+msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: historymodel.cpp:213
+#: historymodel.cpp:282 historymodel.cpp:302
 #, fuzzy, kde-format
 #| msgid "C&lear Clipboard History"
 msgid "Clear Clipboard History"
 msgstr "&ล้างประวัติของคลิปบอร์ด"
 
 #. +> trunk6 stable6
-#: historymodel.cpp:262
+#: historymodel.cpp:283
+#, kde-format
+msgid "Clear Everything"
+msgstr ""
+
+#. +> trunk6 stable6
+#: historymodel.cpp:284
+#, kde-format
+msgid "Keep Starred Items"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: historymodel.cpp:301
+#, fuzzy, kde-format
+#| msgid "Really delete entire clipboard history?"
+msgid "Do you really want to clear and delete the entire clipboard history?"
+msgstr "ต้องการจะลบรายการประวัติทั้งหมดในคลิปบอร์ดจริงหรือไม่ ?"
+
+#. +> trunk6 stable6
+#: historymodel.cpp:385
 #, kde-format
 msgctxt "@info:tooltip width x height"
 msgid "%1x%2"
 msgstr ""
 
+#. +> trunk6 stable6
+#: historymodel.cpp:565
+#, kde-format
+msgid "This item is starred. Do you really want to remove it from history?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: historymodel.cpp:566
+#, kde-format
+msgid "Remove Starred Item"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:91
+#: klipper.cpp:78
 #, fuzzy, kde-format
 #| msgid "Timeout for action popups:"
 msgctxt "@action:inmenu Toggle automatic action"
@@ -737,7 +804,7 @@ msgid "Automatic Action Popup Menu"
 msgstr "ช่วงเวลาแสดงหน้าต่างผุดของการกระทำ:"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:110
+#: klipper.cpp:96
 #, fuzzy, kde-format
 #| msgid "C&lear Clipboard History"
 msgctxt "@action:inmenu"
@@ -745,12 +812,20 @@ msgid "C&lear Clipboard History"
 msgstr "&ล้างประวัติของคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:117
+#: klipper.cpp:101
 #, fuzzy, kde-format
-#| msgid "&Configure Klipper..."
+#| msgid "Manually Invoke Action on Current Clipboard"
 msgctxt "@action:inmenu"
-msgid "&Configure Klipper…"
-msgstr "&ปรับแต่งคลิปเปอร์..."
+msgid "Manually Invoke Action on Current Clipboard"
+msgstr "สั่งเรียกการกระทำบนคลิปบอร์ดปัจจุบันเอง"
+
+#. +> trunk6 stable6 stable5
+#: klipper.cpp:109
+#, fuzzy, kde-format
+#| msgid "Edit Contents"
+msgctxt "@action:inmenu"
+msgid "&Edit Contents…"
+msgstr "แก้ไขเนื้อหา"
 
 #. +> stable5
 #: klipper.cpp:209
@@ -760,16 +835,14 @@ msgctxt "@action:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "&ออก"
 
-#. +> trunk6 stable6 stable5
-#: klipper.cpp:121
-#, fuzzy, kde-format
-#| msgid "Manually Invoke Action on Current Clipboard"
-msgctxt "@action:inmenu"
-msgid "Manually Invoke Action on Current Clipboard"
-msgstr "สั่งเรียกการกระทำบนคลิปบอร์ดปัจจุบันเอง"
+#. +> stable5
+#: klipper.cpp:957
+#, kde-format
+msgid "Edit Contents"
+msgstr "แก้ไขเนื้อหา"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:128
+#: klipper.cpp:115
 #, fuzzy, kde-format
 #| msgid "&Show Barcode..."
 msgctxt "@action:inmenu"
@@ -777,7 +850,7 @@ msgid "&Show Barcode…"
 msgstr "แ&สดงบาร์โค้ด..."
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:137
+#: klipper.cpp:122
 #, fuzzy, kde-format
 #| msgid "Next History Item"
 msgctxt "@action:inmenu"
@@ -785,7 +858,7 @@ msgid "Next History Item"
 msgstr "ตัวถัดไปในรายการประวัติ"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:142
+#: klipper.cpp:127
 #, fuzzy, kde-format
 #| msgid "Previous History Item"
 msgctxt "@action:inmenu"
@@ -793,7 +866,7 @@ msgid "Previous History Item"
 msgstr "ตัวก่อนหน้านี้ในรายการประวัติ"
 
 #. +> trunk6 stable6
-#: klipper.cpp:149
+#: klipper.cpp:134
 #, fuzzy, kde-format
 #| msgid "Popup at mouse position"
 msgctxt "@action:inmenu"
@@ -801,12 +874,12 @@ msgid "Show Clipboard Items at Mouse Position"
 msgstr "เรียกเมนูผุดที่ตำแหน่งตัวชี้ของเมาส์"
 
 #. +> stable5
-#: klipper.cpp:222
+#: klipper.cpp:203
 #, fuzzy, kde-format
-#| msgid "Edit Contents"
+#| msgid "&Configure Klipper..."
 msgctxt "@action:inmenu"
-msgid "&Edit Contents…"
-msgstr "แก้ไขเนื้อหา"
+msgid "&Configure Klipper…"
+msgstr "&ปรับแต่งคลิปเปอร์..."
 
 #. +> stable5
 #: klipper.cpp:251
@@ -825,41 +898,41 @@ msgid "%1 - Clipboard Tool"
 msgstr "คลิปเปอร์ (Klipper) - เครื่องมือคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:310
-#, kde-kuit-format
-msgctxt "@info"
-msgid "You can enable URL actions later in the <interface>Actions</interface> page of the Clipboard applet's configuration window"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: klipper.cpp:444
-#, kde-format
-msgid "Mobile Barcode"
-msgstr "บาร์โค้ดสำหรับโทรศัพท์เคลื่อนที่"
-
-#. +> trunk6 stable6 stable5
-#: klipper.cpp:487 klipper.cpp:496
+#: klipper.cpp:402 klipper.cpp:411
 #, kde-format
 msgid "Clipboard history"
 msgstr "ขนาดของประวัติคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:513
+#: klipper.cpp:428
 #, kde-format
 msgid "up"
 msgstr "ขึ้น"
 
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:520
+#: klipper.cpp:435
 #, kde-format
 msgid "current"
 msgstr "ปัจจุบัน"
 
+#. +> stable6 stable5
+#: klipper.cpp:437
+#, kde-format
+msgid "Mobile Barcode"
+msgstr "บาร์โค้ดสำหรับโทรศัพท์เคลื่อนที่"
+
 #. +> trunk6 stable6 stable5
-#: klipper.cpp:527
+#: klipper.cpp:442
 #, kde-format
 msgid "down"
 msgstr "ลง"
+
+#. +> stable5
+#: klipper.cpp:567
+#, kde-kuit-format
+msgctxt "@info"
+msgid "You can enable URL actions later in the <interface>Actions</interface> page of the Clipboard applet's configuration window"
+msgstr ""
 
 #. +> stable5
 #: klipper.cpp:606
@@ -884,12 +957,6 @@ msgstr "เริ่ม"
 #, kde-format
 msgid "Do Not Start"
 msgstr "ไม่ให้เริ่ม"
-
-#. +> stable5
-#: klipper.cpp:957
-#, kde-format
-msgid "Edit Contents"
-msgstr "แก้ไขเนื้อหา"
 
 #. i18n: ectx: label, entry (Version), group (General)
 #. +> trunk6 stable6 stable5
@@ -1010,24 +1077,24 @@ msgstr "ไม่สนใจการเลือก"
 msgid "Show the popup menu of applicable actions as soon as a selection is made."
 msgstr ""
 
-#. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
-#. +> trunk6 stable6 stable5
-#: klipper.kcfg:57
-#, kde-format
-msgid "No actions for WM_CLASS"
-msgstr "ไม่มีการกระทำสำหรับ WM_CLASS"
-
 #. i18n: ectx: label, entry (TimeoutForActionPopups), group (General)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:60
+#: klipper.kcfg:56
 #, fuzzy, kde-format
 #| msgid "Timeout for action popups:"
 msgid "Automatic action menu time:"
 msgstr "ช่วงเวลาแสดงหน้าต่างผุดของการกระทำ:"
 
+#. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
+#. +> stable6 stable5
+#: klipper.kcfg:57
+#, kde-format
+msgid "No actions for WM_CLASS"
+msgstr "ไม่มีการกระทำสำหรับ WM_CLASS"
+
 #. i18n: ectx: tooltip, entry (TimeoutForActionPopups), group (General)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:64
+#: klipper.kcfg:60
 #, fuzzy, kde-format
 #| msgid "Timeout for action popups:"
 msgid "Display the automatic action popup menu for this time."
@@ -1035,7 +1102,7 @@ msgstr "ช่วงเวลาแสดงหน้าต่างผุดข
 
 #. i18n: ectx: label, entry (MaxClipItems), group (General)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:67
+#: klipper.kcfg:63
 #, fuzzy, kde-format
 #| msgid "Clipboard history size:"
 msgid "History size:"
@@ -1043,21 +1110,21 @@ msgstr "ขนาดของประวัติคลิปบอร์ด:"
 
 #. i18n: ectx: tooltip, entry (MaxClipItems), group (General)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:71
+#: klipper.kcfg:67
 #, kde-format
 msgid "The clipboard history will store up to this many items."
 msgstr ""
 
 #. i18n: ectx: label, entry (ActionList), group (General)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:74
+#: klipper.kcfg:70
 #, kde-format
 msgid "Dummy entry for indicating changes in an action's tree widget"
 msgstr "รายการเทียม สำหรับบ่งชี้ถึงการเปลี่ยนแปลงในวิดเจ็ตผังต้นไม้ของการกระทำ"
 
 #. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:84
+#: klipper.kcfg:80
 #, fuzzy, kde-format
 #| msgid "Strip whitespace when executing an action"
 msgid "Trim whitespace from selection"
@@ -1065,14 +1132,14 @@ msgstr "ลบช่องว่างเมื่อเรียกใช้ง
 
 #. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (Actions)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:86
+#: klipper.kcfg:82
 #, kde-format
 msgid "Remove any whitespace from the start and end of selected text, before performing an action. For example, this ensures that a URL pasted in a browser is interpreted as expected. The text saved on the clipboard is not affected."
 msgstr ""
 
 #. i18n: ectx: label, entry (ReplayActionInHistory), group (Actions)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:89
+#: klipper.kcfg:85
 #, fuzzy, kde-format
 #| msgid "Replay actions on an item selected from history"
 msgid "For an item chosen from history"
@@ -1080,7 +1147,7 @@ msgstr "ทำการกระทำบนรายการที่เลื
 
 #. i18n: ectx: tooltip, entry (ReplayActionInHistory), group (Actions)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:91
+#: klipper.kcfg:87
 #, fuzzy, kde-format
 #| msgid "Really delete entire clipboard history?"
 msgid "Show the popup menu of applicable actions if an entry is chosen from the clipboard history."
@@ -1088,7 +1155,7 @@ msgstr "ต้องการจะลบรายการประวัติ
 
 #. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:94
+#: klipper.kcfg:90
 #, fuzzy, kde-format
 #| msgid "Enable MIME-based actions"
 msgid "Include MIME actions"
@@ -1096,29 +1163,41 @@ msgstr "เปิดการใช้งานการกระทำ ที�
 
 #. i18n: ectx: whatsthis, entry (EnableMagicMimeActions), group (Actions)
 #. +> trunk6 stable6 stable5
-#: klipper.kcfg:96
+#: klipper.kcfg:92
 #, kde-format
 msgid "If a file name or URL is selected, include applications that can accept its MIME type in the popup menu."
 msgstr ""
 
 #. +> trunk6 stable6
-#: klipperpopup.cpp:33
+#: klipperpopup.cpp:37
 #, fuzzy, kde-format
 #| msgid "Clipboard history"
 msgid "Clipboard Popup"
 msgstr "ขนาดของประวัติคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
-#: urlgrabber.cpp:201
+#: urlgrabber.cpp:197
+#, kde-format
+msgid "&Cancel"
+msgstr "&ยกเลิก"
+
+#. +> stable5
+#: urlgrabber.cpp:200
 #, kde-format
 msgid "Disable This Popup"
 msgstr "ปิดการใช้งานหน้าต่างผุดนี้"
 
-#. +> trunk6 stable6 stable5
-#: urlgrabber.cpp:207
+#. +> stable6 stable5
 #, kde-format
-msgid "&Cancel"
-msgstr "&ยกเลิก"
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ถนอมทรัพย์ นพบูรณ์"
+
+#. +> stable6 stable5
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "donga.nb@gmail.com"
 
 #. +> stable5
 #: historyimageitem.cpp:36

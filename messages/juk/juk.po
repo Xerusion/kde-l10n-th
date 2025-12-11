@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: juk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-21 07:58+0200\n"
+"POT-Creation-Date: 2025-07-16 09:03+0200\n"
 "PO-Revision-Date: 2010-03-14 19:08+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -31,44 +31,58 @@ msgstr "drrider@gmail.com, donga.nb@gmail.com"
 
 #. +> trunk6 stable6
 #: advancedsearchdialog.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Create Search Playlist"
+msgctxt "@title:window"
 msgid "Create Search Playlist"
 msgstr "สร้างรายการเล่นสำหรับค้นหา"
 
 #. +> trunk6 stable6
 #: advancedsearchdialog.cpp:57
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Playlist name:"
+msgctxt "@label"
 msgid "Playlist name:"
 msgstr "ชื่อรายการเล่น:"
 
 #. +> trunk6 stable6
 #: advancedsearchdialog.cpp:61
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Search Criteria"
+msgctxt "@title:group"
 msgid "Search Criteria"
 msgstr "เกณฑ์สำหรับค้นหา"
 
 #. +> trunk6 stable6
 #: advancedsearchdialog.cpp:66
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Match any of the following"
+msgctxt "@option:radio"
 msgid "Match any of the following"
 msgstr "เข้าคู่คำใดก็ได้ต่อไปนี้"
 
 #. +> trunk6 stable6
 #: advancedsearchdialog.cpp:67
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Match all of the following"
+msgctxt "@option:radio"
 msgid "Match all of the following"
 msgstr "เข้าคู่คำทั้งหมดต่อไปนี้"
 
 #. +> trunk6 stable6
 #: advancedsearchdialog.cpp:91
-#, kde-format
-msgctxt "additional search options"
+#, fuzzy, kde-format
+#| msgctxt "additional search options"
+#| msgid "More"
+msgctxt "@action:button, additional search options"
 msgid "More"
 msgstr "มากกว่านี้"
 
 #. +> trunk6 stable6
 #: advancedsearchdialog.cpp:96
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Fewer"
+msgctxt "@action:button"
 msgid "Fewer"
 msgstr "น้อยกว่านี้"
 
@@ -86,11 +100,15 @@ msgstr "รายการชุดสะสม"
 
 #. +> trunk6 stable6
 #: collectionlist.cpp:289
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Removing an item from the collection will also remove it from all of your playlists. Are you sure you want to continue?\n"
+#| "\n"
+#| "Note, however, that if the directory that these files are in is in your \"scan on startup\" list, they will be readded on startup."
 msgid ""
 "Removing an item from the collection will also remove it from all of your playlists. Are you sure you want to continue?\n"
 "\n"
-"Note, however, that if the directory that these files are in is in your \"scan on startup\" list, they will be readded on startup."
+"Note, however, that if the directory that these files are in is in your “scan on startup” list, they will be readded on startup."
 msgstr ""
 "การลบรายการทั้งหมดออกจากชุดสะสม จะเป็นการลบออกจากรายการเล่นด้วย คุณแน่ใจหรือไม่ว่าต้องการจะทำต่อไป ?\n"
 "\n"
@@ -98,7 +116,9 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: collectionlist.cpp:343
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show Playing"
+msgctxt "@action:button"
 msgid "Show Playing"
 msgstr "แสดงรายการเล่น"
 
@@ -123,14 +143,18 @@ msgstr "<qt>รายการเหล่านี้จะถูกทิ้�
 
 #. +> trunk6 stable6
 #: deletedialog.cpp:96
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Send to Trash"
+msgctxt "@action:button"
 msgid "&Send to Trash"
 msgstr "&ทิ้งลงถังขยะ"
 
 #. +> trunk6 stable6
 #: deletedialog.cpp:100
-#, kde-format
-msgid "About to delete selected files"
+#, fuzzy, kde-format
+#| msgid "About to delete selected files"
+msgctxt "@title:window"
+msgid "Delete Selected Files"
 msgstr "เกี่ยวกับการลบแฟ้มที่เลือก"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
@@ -175,7 +199,9 @@ msgstr "&ลบแฟ้มทิ้งแทนการทิ้งไปท�
 
 #. +> trunk6 stable6
 #: directorylist.cpp:55
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Folder List"
+msgctxt "@title:window"
 msgid "Folder List"
 msgstr "รายการโฟลเดอร์"
 
@@ -225,7 +251,7 @@ msgid "Import playlists"
 msgstr "นำเข้ารายการเล่น"
 
 #. +> trunk6 stable6
-#: exampleoptions.cpp:65 main.cpp:38 playermanager.cpp:397 playlist.cpp:1295
+#: exampleoptions.cpp:65 main.cpp:38 playermanager.cpp:381 playlist.cpp:1295
 #: systemtray.cpp:502 systemtray.cpp:513
 #, kde-format
 msgid "JuK"
@@ -320,29 +346,31 @@ msgstr "ชื่อแทร็ก"
 
 #. i18n: ectx: property (text), widget (KLineEdit, m_exampleArtist)
 #. +> trunk6 stable6
-#: exampleoptionsbase.ui:221 playlist.cpp:1281 tagrenameroptions.cpp:104
+#: exampleoptionsbase.ui:221 tagrenameroptions.cpp:104
 #, kde-format
 msgid "Artist"
 msgstr "ศิลปิน"
 
 #. i18n: ectx: property (text), widget (KLineEdit, m_exampleAlbum)
 #. +> trunk6 stable6
-#: exampleoptionsbase.ui:228 playlist.cpp:1282 tagrenameroptions.cpp:108
+#: exampleoptionsbase.ui:228 tagrenameroptions.cpp:108
 #, kde-format
 msgid "Album"
 msgstr "อัลบั้ม"
 
 #. i18n: ectx: property (text), widget (KLineEdit, m_exampleGenre)
 #. +> trunk6 stable6
-#: exampleoptionsbase.ui:235 playlist.cpp:1284 tagrenameroptions.cpp:116
+#: exampleoptionsbase.ui:235 tagrenameroptions.cpp:116
 #, kde-format
 msgid "Genre"
 msgstr "หมวด"
 
 #. +> trunk6 stable6
 #: filerenamer.cpp:87
-#, kde-format
-msgctxt "warning about mass file rename"
+#, fuzzy, kde-format
+#| msgctxt "warning about mass file rename"
+#| msgid "Warning"
+msgctxt "@title:window, warning about mass file rename"
 msgid "Warning"
 msgstr "คำเตือน"
 
@@ -372,21 +400,27 @@ msgstr "ไม่เปลี่ยน"
 
 #. +> trunk6 stable6
 #: filerenamer.cpp:409
-#, kde-format
-msgctxt "remove music genre from file renamer"
+#, fuzzy, kde-format
+#| msgctxt "remove music genre from file renamer"
+#| msgid "Remove"
+msgctxt "@action:button, remove music genre from file renamer"
 msgid "Remove"
 msgstr "เอาออก"
 
 #. +> trunk6 stable6
 #: filerenamer.cpp:412
-#, kde-format
-msgctxt "file renamer genre options"
+#, fuzzy, kde-format
+#| msgctxt "file renamer genre options"
+#| msgid "Options"
+msgctxt "@action:button, file renamer genre options"
 msgid "Options"
 msgstr "ตัวเลือกต่าง ๆ"
 
 #. +> trunk6 stable6
 #: filerenamer.cpp:524
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert folder separator"
+msgctxt "@option:check"
 msgid "Insert folder separator"
 msgstr "ใส่ที่คั่นโฟลเดอร์"
 
@@ -398,20 +432,25 @@ msgstr "ยังไม่มีการเลือกแฟ้มใด ๆ �
 
 #. +> trunk6 stable6
 #: filerenamer.cpp:826
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Hide Renamer Test Dialog"
+msgctxt "@action:button"
 msgid "Hide Renamer Test Dialog"
 msgstr "ซ่อนกล่องทดสอบการเปลี่ยนชื่อ"
 
-#. i18n: ectx: property (text), widget (QPushButton, m_showExample)
 #. +> trunk6 stable6
-#: filerenamer.cpp:831 filerenamerbase.ui:257
-#, kde-format
+#: filerenamer.cpp:831
+#, fuzzy, kde-format
+#| msgid "Show Renamer Test Dialog"
+msgctxt "@action:button"
 msgid "Show Renamer Test Dialog"
 msgstr "แสดงกล่องทดสอบการเปลี่ยนชื่อ"
 
 #. +> trunk6 stable6
 #: filerenamer.cpp:911
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "%1 to %2"
+msgctxt "Rename %1 file to %2"
 msgid "%1 to %2"
 msgstr "%1 ไปเป็น %2"
 
@@ -499,40 +538,58 @@ msgstr "เพิ่มหมวด:"
 msgid "Separator:"
 msgstr "ตัวแยก:"
 
+#. i18n: ectx: property (text), widget (QPushButton, m_showExample)
+#. +> trunk6 stable6
+#: filerenamerbase.ui:257
+#, kde-format
+msgid "Show Renamer Test Dialog"
+msgstr "แสดงกล่องทดสอบการเปลี่ยนชื่อ"
+
 #. +> trunk6 stable6
 #: filerenamerconfigdlg.cpp:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "File Renamer Options"
+msgctxt "@title:window"
 msgid "File Renamer Options"
 msgstr "ตัวเลือกการเปลี่ยนชื่อแฟ้ม"
 
 #. +> trunk6 stable6
 #: filerenameroptions.cpp:38
-#, kde-format
-msgctxt "%1 will be a music tag category like Artist or Album"
+#, fuzzy, kde-format
+#| msgctxt "%1 will be a music tag category like Artist or Album"
+#| msgid "%1 Options"
+msgctxt "@title:window, %1 will be a music tag category like Artist or Album"
 msgid "%1 Options"
 msgstr "ตัวเลือกต่าง ๆ ของ %1"
 
 #. +> trunk6 stable6
 #: filerenameroptions.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "%1 Format"
+msgctxt "@title:group, %1 is a tag"
 msgid "%1 Format"
 msgstr "รูปแบบ %1"
 
 #. +> trunk6 stable6
 #: filerenameroptions.cpp:40
-#, kde-format
-msgid "When the Track's %1 is Empty"
+#, fuzzy, kde-format
+#| msgid "When the Track's %1 is Empty"
+msgctxt "@title:group"
+msgid "When the Track’s %1 is Empty"
 msgstr "เมื่อ %1 ของแทร็กว่างเปล่า"
 
 #. +> trunk6 stable6
 #: filerenameroptions.cpp:41
-#, kde-format
-msgid "When using the file renamer your files will be renamed to the values that you have in your track's %1 tag, plus any additional text that you specify below."
+#, fuzzy, kde-format
+#| msgid "When using the file renamer your files will be renamed to the values that you have in your track's %1 tag, plus any additional text that you specify below."
+msgid "When using the file renamer your files will be renamed to the values that you have in your track’s %1 tag, plus any additional text that you specify below."
 msgstr "เมื่อใช้งานตัวเปลี่ยนชื่อแฟ้ม แฟ้มของคุณจะถูกเปลี่ยนชื่อไปเป็นค่าที่คุณมีอยู่ในป้ายกำกับ %1 ของแทร็กนั้นๆ ร่วมกับข้อความเพิ่มเติมใด ๆ ที่คุณได้ระบุไว้ด้านล่างนี้"
 
 #. +> trunk6 stable6
 #: filerenameroptions.cpp:114
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "File Renamer"
+msgctxt "@title:window"
 msgid "File Renamer"
 msgstr "เปลี่ยนชื่อแฟ้ม"
 
@@ -629,188 +686,244 @@ msgid "Time"
 msgstr "เวลา"
 
 #. +> trunk6 stable6
-#: juk.cpp:240 systemtray.cpp:184
-#, kde-format
+#: juk.cpp:239 systemtray.cpp:184
+#, fuzzy, kde-format
+#| msgid "&Random Play"
+msgctxt "@action:inmenu"
 msgid "&Random Play"
 msgstr "เล่น&แบบสุ่ม"
 
 #. +> trunk6 stable6
-#: juk.cpp:247
-#, kde-format
+#: juk.cpp:246
+#, fuzzy, kde-format
+#| msgid "&Disable Random Play"
+msgctxt "@action:inmenu"
 msgid "&Disable Random Play"
 msgstr "ปิดการเล่นแ&บบสุ่ม"
 
 #. +> trunk6 stable6
-#: juk.cpp:253
-#, kde-format
+#: juk.cpp:252
+#, fuzzy, kde-format
+#| msgid "Use &Random Play"
+msgctxt "@action:inmenu"
 msgid "Use &Random Play"
 msgstr "ใช้การเล่น&แบบสุ่ม"
 
 #. +> trunk6 stable6
-#: juk.cpp:259
-#, kde-format
+#: juk.cpp:258
+#, fuzzy, kde-format
+#| msgid "Use &Album Random Play"
+msgctxt "@action:inmenu"
 msgid "Use &Album Random Play"
 msgstr "ใช้การเล่นแบบสุ่มเป็นอั&ลบั้ม"
 
 #. +> trunk6 stable6
-#: juk.cpp:267
-#, kde-format
+#: juk.cpp:266
+#, fuzzy, kde-format
+#| msgid "Remove From Playlist"
+msgctxt "@action:inmenu"
 msgid "Remove From Playlist"
 msgstr "ลบออกจากรายการเล่น"
 
 #. +> trunk6 stable6
-#: juk.cpp:271
-#, kde-format
+#: juk.cpp:270
+#, fuzzy, kde-format
+#| msgid "&Play"
+msgctxt "@action:inmenu"
 msgid "&Play"
 msgstr "เล่&น"
 
 #. +> trunk6 stable6
-#: juk.cpp:276
-#, kde-format
+#: juk.cpp:275
+#, fuzzy, kde-format
+#| msgid "P&ause"
+msgctxt "@action:inmenu"
 msgid "P&ause"
 msgstr "&หยุดชั่วคราว"
 
 #. +> trunk6 stable6
-#: juk.cpp:281
-#, kde-format
+#: juk.cpp:280
+#, fuzzy, kde-format
+#| msgid "&Stop"
+msgctxt "@action:inmenu"
 msgid "&Stop"
 msgstr "หยุ&ด"
 
 #. +> trunk6 stable6
-#: juk.cpp:284
-#, kde-format
-msgctxt "previous track"
+#: juk.cpp:283
+#, fuzzy, kde-format
+#| msgctxt "previous track"
+#| msgid "Previous"
+msgctxt "@action:inmenu, previous track"
 msgid "Previous"
 msgstr "แทร็กก่อน"
 
 #. +> trunk6 stable6
-#: juk.cpp:291
-#, kde-format
-msgctxt "next track"
+#: juk.cpp:290
+#, fuzzy, kde-format
+#| msgctxt "next track"
+#| msgid "&Next"
+msgctxt "@action:inmenu, next track"
 msgid "&Next"
 msgstr "แทร็ก&ถัดไป"
 
 #. +> trunk6 stable6
-#: juk.cpp:295
-#, kde-format
+#: juk.cpp:294
+#, fuzzy, kde-format
+#| msgid "&Loop Playlist"
+msgctxt "@action:inmenu"
 msgid "&Loop Playlist"
 msgstr "เล่น&วนรายการเล่น"
 
 #. +> trunk6 stable6
-#: juk.cpp:299
-#, kde-format
+#: juk.cpp:298
+#, fuzzy, kde-format
+#| msgid "&Resize Playlist Columns Manually"
+msgctxt "@action:inmenu"
 msgid "&Resize Playlist Columns Manually"
 msgstr "&ปรับขนาดคอลัมน์ในรายการเล่นด้วยตนเอง"
 
 #. +> trunk6 stable6
-#: juk.cpp:304
-#, kde-format
-msgctxt "silence playback"
+#: juk.cpp:303
+#, fuzzy, kde-format
+#| msgctxt "silence playback"
+#| msgid "Mute"
+msgctxt "@action:inmenu, silence playback"
 msgid "Mute"
 msgstr "ตัดเสียง"
 
 #. +> trunk6 stable6
-#: juk.cpp:308
-#, kde-format
+#: juk.cpp:307
+#, fuzzy, kde-format
+#| msgid "Volume Up"
+msgctxt "@action:inmenu"
 msgid "Volume Up"
 msgstr "เพิ่มระดับเสียง"
 
 #. +> trunk6 stable6
-#: juk.cpp:312
-#, kde-format
+#: juk.cpp:311
+#, fuzzy, kde-format
+#| msgid "Volume Down"
+msgctxt "@action:inmenu"
 msgid "Volume Down"
 msgstr "ลดระดับเสียง"
 
 #. +> trunk6 stable6
-#: juk.cpp:316
-#, kde-format
+#: juk.cpp:315
+#, fuzzy, kde-format
+#| msgid "Play / Pause"
+msgctxt "@action:inmenu"
 msgid "Play / Pause"
 msgstr "เล่น/หยุดชั่วคราว"
 
 #. +> trunk6 stable6
-#: juk.cpp:320
-#, kde-format
+#: juk.cpp:319
+#, fuzzy, kde-format
+#| msgid "Seek Forward"
+msgctxt "@action:inmenu"
 msgid "Seek Forward"
 msgstr "ค้นหาไปข้างหน้า"
 
 #. +> trunk6 stable6
-#: juk.cpp:324
-#, kde-format
+#: juk.cpp:323
+#, fuzzy, kde-format
+#| msgid "Seek Back"
+msgctxt "@action:inmenu"
 msgid "Seek Back"
 msgstr "ค้นหาย้อนหลัง"
 
 #. +> trunk6 stable6
-#: juk.cpp:328
-#, kde-format
+#: juk.cpp:327
+#, fuzzy, kde-format
+#| msgid "Show / Hide"
+msgctxt "@action:inmenu"
 msgid "Show / Hide"
 msgstr "แสดง/ซ่อน"
 
 #. +> trunk6 stable6
-#: juk.cpp:335
-#, kde-format
+#: juk.cpp:334
+#, fuzzy, kde-format
+#| msgid "&Dock in System Tray"
+msgctxt "@action:inmenu"
 msgid "&Dock in System Tray"
 msgstr "&ลงไปอยู่ในถาดระบบ"
 
 #. +> trunk6 stable6
-#: juk.cpp:339
-#, kde-format
+#: juk.cpp:338
+#, fuzzy, kde-format
+#| msgid "&Stay in System Tray on Close"
+msgctxt "@action:inmenu"
 msgid "&Stay in System Tray on Close"
 msgstr "คงการทำงานอยู่ใน&ถาดระบบเมื่อปิด"
 
 #. +> trunk6 stable6
-#: juk.cpp:342
-#, kde-format
+#: juk.cpp:341
+#, fuzzy, kde-format
+#| msgid "Popup &Track Announcement"
+msgctxt "@action:inmenu"
 msgid "Popup &Track Announcement"
 msgstr "ผุดรายละเอียดของแ&ทร็ก"
 
 #. +> trunk6 stable6
-#: juk.cpp:345
-#, kde-format
+#: juk.cpp:344
+#, fuzzy, kde-format
+#| msgid "Save &Play Queue on Exit"
+msgctxt "@action:inmenu"
 msgid "Save &Play Queue on Exit"
 msgstr "บันทึกคิวการเล่นเมื่อออกจากโปรแกรม"
 
 #. +> trunk6 stable6
-#: juk.cpp:348
-#, kde-format
-msgid "&Tag Guesser..."
+#: juk.cpp:347
+#, fuzzy, kde-format
+#| msgid "&Tag Guesser..."
+msgctxt "@action:inmenu"
+msgid "&Tag Guesser…"
 msgstr "ตัว&เดาป้ายกำกับ..."
 
 #. +> trunk6 stable6
-#: juk.cpp:351
-#, kde-format
-msgid "&File Renamer..."
-msgstr "เ&ปลี่ยนชื่อแฟ้ม..."
+#: juk.cpp:350
+#, fuzzy, kde-format
+#| msgid "File Renamer"
+msgctxt "@action:inmenu"
+msgid "&File Renamer…"
+msgstr "เปลี่ยนชื่อแฟ้ม"
 
 #. +> trunk6 stable6
-#: juk.cpp:354
+#: juk.cpp:353
 #, kde-format
-msgid "&Configure scrobbling..."
+msgctxt "@action:inmenu"
+msgid "&Configure Scrobbling…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: juk.cpp:361
-#, kde-format
+#: juk.cpp:360
+#, fuzzy, kde-format
+#| msgid "Track Position"
+msgctxt "@action:button"
 msgid "Track Position"
 msgstr "ตำแหน่งแทร็ก"
 
 #. +> trunk6 stable6
-#: juk.cpp:363 slider.cpp:127
+#: juk.cpp:362
 #, fuzzy, kde-format
 #| msgid "Volume Up"
+msgctxt "@action:button"
 msgid "Volume"
 msgstr "เพิ่มระดับเสียง"
 
 #. +> trunk6 stable6
-#: juk.cpp:529
+#: juk.cpp:512
 #, kde-format
 msgid "<qt>Closing the main window will keep JuK running in the system tray. Use Quit from the File menu to quit the application.</qt>"
 msgstr "<qt>การปิดหน้าต่างหลักนั้น ไม่ได้เป็นการปิดตัวโปรแกรม JuK เนื่องจาก JuK จะยังคงทำงานอยู่ในถาดระบบ หากต้องการปิดโปรแกรม ให้ใช้คำสั่ง ออก จากเมนู แฟ้ม แทน เพื่อทำการออกจากโปรแกรม</qt>"
 
 #. +> trunk6 stable6
-#: juk.cpp:531
-#, kde-format
-msgid "Docking in System Tray"
-msgstr "ลงไปอยู่ในถาดระบบ"
+#: juk.cpp:514
+#, fuzzy, kde-format
+#| msgid "&Dock in System Tray"
+msgctxt "@title:window"
+msgid "Dock in System Tray"
+msgstr "&ลงไปอยู่ในถาดระบบ"
 
 #. +> trunk6 stable6
 #: juktag.cpp:90
@@ -818,7 +931,7 @@ msgstr "ลงไปอยู่ในถาดระบบ"
 #| msgctxt "a playing track, %1 is artist, %2 is song title"
 #| msgid "%1 - %2"
 msgctxt "a playing track, %1 is artist, %2 is song title"
-msgid "%1 - <i>%2</i>"
+msgid "%1 — <i>%2</i>"
 msgstr "%1 - %2"
 
 #. i18n: ectx: Menu (file)
@@ -872,37 +985,49 @@ msgstr "แถบเครื่องมือสำหรับเล่น"
 
 #. +> trunk6 stable6
 #: keydialog.cpp:102
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Shortcuts"
+msgctxt "@title:window"
 msgid "Configure Shortcuts"
 msgstr "ปรับแต่งปุ่มพิมพ์ลัด"
 
 #. +> trunk6 stable6
 #: keydialog.cpp:118
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Global Shortcuts"
+msgctxt "@title:group"
 msgid "Global Shortcuts"
 msgstr "ปุ่มพิมพ์ลัดใช้งานส่วนรวม"
 
 #. +> trunk6 stable6
 #: keydialog.cpp:124
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&No keys"
+msgctxt "@option:radio"
 msgid "&No keys"
 msgstr "ไม่ใช้ปุ่&มพิมพ์ลัด"
 
 #. +> trunk6 stable6
 #: keydialog.cpp:128
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Standard keys"
+msgctxt "@option:radio"
 msgid "&Standard keys"
 msgstr "ปุ่มพิมพ์ลัดมา&ตรฐาน"
 
 #. +> trunk6 stable6
 #: keydialog.cpp:132
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Multimedia keys"
+msgctxt "@option:radio"
 msgid "&Multimedia keys"
 msgstr "ปุ่มพิมพ์ลัดมั&ลติมีเดีย"
 
 #. +> trunk6 stable6
 #: keydialog.cpp:138
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Here you can select the keys used as global shortcuts to control the player"
+msgctxt "@info:whatsthis"
 msgid "Here you can select the keys used as global shortcuts to control the player"
 msgstr "คุณสามารถทำการเลือกปุ่มพิมพ์ลัดที่จะใช้เป็นปุ่มพิมพ์ลัดกลางสำหรับควบคุมตัวเล่นได้ที่นี่"
 
@@ -963,7 +1088,8 @@ msgstr "ตู้เพลงและจัดการดนตรีสำห
 #: main.cpp:40
 #, fuzzy, kde-format
 #| msgid "© 2002 - 2010, Scott Wheeler"
-msgid "Copyright © 2002–2023, Scott Wheeler, Michael Pyne, and others"
+msgctxt "Use copyright sign, and en dash for the year range"
+msgid "© 2002–2025, Scott Wheeler, Michael Pyne, and others"
 msgstr "© 2545 - 2553, Scott Wheeler"
 
 #. +> trunk6 stable6
@@ -1266,20 +1392,23 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: mediafiles.cpp:134
-#, kde-format
-msgctxt "open audio file"
+#, fuzzy, kde-format
+#| msgctxt "open audio file"
+#| msgid "Open"
+msgctxt "@title:window, open audio file"
 msgid "Open"
 msgstr "เปิด"
 
 #. +> trunk6 stable6
-#: mediafiles.cpp:147
+#: mediafiles.cpp:146
 #, fuzzy, kde-format
 #| msgid "Search Playlist"
-msgid "Save Playlist"
+msgctxt "@title:window"
+msgid "Save Playlist %1"
 msgstr "ค้นหารายการเล่น"
 
 #. +> trunk6 stable6
-#: mediafiles.cpp:149
+#: mediafiles.cpp:148
 #, fuzzy, kde-format
 #| msgid "Playlists"
 msgctxt "For save dialog, %1 is always .m3u"
@@ -1293,16 +1422,22 @@ msgid "back to playlist"
 msgstr "กลับไปที่ีรายการเล่น"
 
 #. +> trunk6 stable6
-#: playermanager.cpp:59
+#: playermanager.cpp:56
 #, kde-format
 msgctxt "%1 is the artist and %2 is the title of the currently playing track."
 msgid "%1 - %2 :: JuK"
 msgstr ""
 
 #. +> trunk6 stable6
-#: playermanager.cpp:367
-#, kde-format
-msgctxt "%1 will be the /path/to/file, %2 will be some string from Phonon describing the error"
+#: playermanager.cpp:363
+#, fuzzy, kde-format
+#| msgctxt "%1 will be the /path/to/file, %2 will be some string from Phonon describing the error"
+#| msgid ""
+#| "JuK is unable to play the audio file<nl/>"
+#| "<filename>%1</filename><nl/>"
+#| "for the following reason:<nl/>"
+#| "<message>%2</message>"
+msgctxt "%1 will be the /path/to/file, %2 will be some string from QtMultimedia describing the error"
 msgid ""
 "JuK is unable to play the audio file<nl/>"
 "<filename>%1</filename><nl/>"
@@ -1329,8 +1464,9 @@ msgid_plural "You are about to open %1 directories. Are you sure you want to con
 msgstr[0] "คุณกำลังจะทำการเปลี่ยนชื่อแฟ้มเหล่านี้ คุณแน่ใจหรือว่าต้องการจะทำต่อไป ?"
 
 #. +> trunk6 stable6
-#: playlist.cpp:578 playlistcollection.cpp:957
+#: playlist.cpp:578
 #, kde-format
+msgctxt "@title:window"
 msgid "Open Containing Folder"
 msgstr ""
 
@@ -1348,81 +1484,131 @@ msgstr "ไม่สามารถย้ายแฟ้มเหล่านี
 
 #. +> trunk6 stable6
 #: playlist.cpp:1280
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Track Name"
+msgctxt "@title:column"
 msgid "Track Name"
 msgstr "ชื่อแทร็ก"
 
 #. +> trunk6 stable6
-#: playlist.cpp:1283 tagrenameroptions.cpp:112
-#, kde-format
-msgctxt "cd track number"
+#: playlist.cpp:1281
+#, fuzzy, kde-format
+#| msgid "Artist"
+msgctxt "@title:column"
+msgid "Artist"
+msgstr "ศิลปิน"
+
+#. +> trunk6 stable6
+#: playlist.cpp:1282
+#, fuzzy, kde-format
+#| msgid "Album"
+msgctxt "@title:column"
+msgid "Album"
+msgstr "อัลบั้ม"
+
+#. +> trunk6 stable6
+#: playlist.cpp:1283
+#, fuzzy, kde-format
+#| msgctxt "cd track number"
+#| msgid "Track"
+msgctxt "@title:column, CD track number"
 msgid "Track"
 msgstr "แทร็กที่"
 
 #. +> trunk6 stable6
-#: playlist.cpp:1285 tagrenameroptions.cpp:120
-#, kde-format
+#: playlist.cpp:1284
+#, fuzzy, kde-format
+#| msgid "Genre"
+msgctxt "@title:column"
+msgid "Genre"
+msgstr "หมวด"
+
+#. +> trunk6 stable6
+#: playlist.cpp:1285
+#, fuzzy, kde-format
+#| msgid "Year"
+msgctxt "@title:column"
 msgid "Year"
 msgstr "ปี"
 
 #. +> trunk6 stable6
 #: playlist.cpp:1286
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Length"
+msgctxt "@title:column"
 msgid "Length"
 msgstr "ความยาว"
 
 #. +> trunk6 stable6
 #: playlist.cpp:1287
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Bitrate"
+msgctxt "@title:column"
 msgid "Bitrate"
 msgstr "อัตราบิท"
 
 #. +> trunk6 stable6
 #: playlist.cpp:1288
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Comment"
+msgctxt "@title:column"
 msgid "Comment"
 msgstr "หมายเหตุ"
 
 #. +> trunk6 stable6
 #: playlist.cpp:1289
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "File Name"
+msgctxt "@title:column"
 msgid "File Name"
 msgstr "ชื่อแฟ้ม"
 
 #. +> trunk6 stable6
 #: playlist.cpp:1290
-#, kde-format
-msgid "File Name (full path)"
+#, fuzzy, kde-format
+#| msgid "File Name (full path)"
+msgctxt "@title:column"
+msgid "File Name (Full Path)"
 msgstr "ชื่อแฟ้ม (แสดงพาธเต็ม ๆ)"
 
 #. +> trunk6 stable6
 #: playlist.cpp:1471
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Show Columns"
+msgctxt "@action:inmenu"
 msgid "&Show Columns"
 msgstr "&แสดงคอลัมน์"
 
 #. +> trunk6 stable6
 #: playlist.cpp:1579
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add to Play Queue"
+msgctxt "@action:inmenu"
 msgid "Add to Play Queue"
 msgstr "เพิ่มเข้าไปในคิวรอเล่น"
 
 #. +> trunk6 stable6
-#: playlist.cpp:1593 playlist.cpp:2052
-#, kde-format
+#: playlist.cpp:1593
+#, fuzzy, kde-format
+#| msgid "Edit"
+msgctxt "@action:inmenu"
 msgid "Edit"
 msgstr "แก้ไข"
 
 #. +> trunk6 stable6
 #: playlist.cpp:1607
-#, kde-format
-msgid "Create Playlist From Selected Items..."
+#, fuzzy, kde-format
+#| msgid "Create Playlist From Selected Items..."
+msgctxt "@action:inmenu"
+msgid "Create Playlist From Selected Items…"
 msgstr "สร้างรายการเล่นจากรายการที่เลือก..."
 
 #. +> trunk6 stable6
 #: playlist.cpp:1973
-#, kde-format
-msgid "Edit '%1'"
+#, fuzzy, kde-format
+#| msgid "Edit '%1'"
+msgctxt "@action:inmenu"
+msgid "Edit “%1”"
 msgstr "แก้ไข '%1'"
 
 #. +> trunk6 stable6
@@ -1432,8 +1618,16 @@ msgid "This will edit multiple files. Are you sure?"
 msgstr "นี่จะเป็นการแก้ไขแฟ้มหลาย ๆ แฟ้ม คุณแน่ใจหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: playlist.cpp:2109 playlistcollection.h:183
+#: playlist.cpp:2052
 #, kde-format
+msgid "Edit"
+msgstr "แก้ไข"
+
+#. +> trunk6 stable6
+#: playlist.cpp:2109
+#, fuzzy, kde-format
+#| msgid "Create New Playlist"
+msgctxt "@action:inmenu"
 msgid "Create New Playlist"
 msgstr "สร้างรายการเล่นใหม่"
 
@@ -1446,26 +1640,34 @@ msgstr "การปรับความกว้างของคอลัม
 
 #. +> trunk6 stable6
 #: playlist.cpp:2121
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Manual Column Widths Enabled"
+msgctxt "@title:window"
 msgid "Manual Column Widths Enabled"
 msgstr "เปิดการปรับขนาดคอลัมน์ด้วยตนเอง"
 
 #. +> trunk6 stable6
 #: playlistbox.cpp:108
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "View Modes"
+msgctxt "@action:inmenu"
 msgid "View Modes"
 msgstr "โหมดมุมมอง"
 
 #. +> trunk6 stable6
 #: playlistbox.cpp:168
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show &History"
+msgctxt "@action:inmenu"
 msgid "Show &History"
 msgstr "แสดง&ประวัติ"
 
 #. +> trunk6 stable6
 #: playlistbox.cpp:229 playlistcollection.cpp:424
-#, kde-format
-msgctxt "verb, copy the playlist"
+#, fuzzy, kde-format
+#| msgctxt "verb, copy the playlist"
+#| msgid "Duplicate"
+msgctxt "@action:button, verb, copy the playlist"
 msgid "Duplicate"
 msgstr "สร้างรายการเล่นซ้ำ"
 
@@ -1477,7 +1679,9 @@ msgstr "คุณต้องการที่จะลบแฟ้มเหล
 
 #. +> trunk6 stable6
 #: playlistbox.cpp:425
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Keep"
+msgctxt "@action:button"
 msgid "Keep"
 msgstr "เก็บไว้"
 
@@ -1495,26 +1699,33 @@ msgstr "คุณแน่ใจหรือว่าต้องการที
 
 #. +> trunk6 stable6
 #: playlistbox.cpp:448
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Remove Items?"
+msgctxt "@title:window"
 msgid "Remove Items?"
 msgstr "เอารายการออกหรือไม่ ?"
 
-#. i18n: ectx: property (text), widget (QPushButton, bRemove)
 #. +> trunk6 stable6
-#: playlistbox.cpp:449 tagguesserconfigdlgwidget.ui:100
-#, kde-format
+#: playlistbox.cpp:449
+#, fuzzy, kde-format
+#| msgid "&Remove"
+msgctxt "@action:button"
 msgid "&Remove"
 msgstr "เ&อาออก"
 
 #. +> trunk6 stable6
 #: playlistbox.cpp:653
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Hid&e"
+msgctxt "@action:inmenu"
 msgid "Hid&e"
 msgstr "ซ่อ&น"
 
 #. +> trunk6 stable6
 #: playlistbox.cpp:657 playlistcollection.cpp:946
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "R&emove"
+msgctxt "@action:inmenu"
 msgid "R&emove"
 msgstr "เอ&าออก"
 
@@ -1538,32 +1749,42 @@ msgstr "คุณต้องการเพิ่มรายการเหล
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:349
-#, kde-format
-msgctxt "current playlist"
+#, fuzzy, kde-format
+#| msgctxt "current playlist"
+#| msgid "Current"
+msgctxt "@action:button, current playlist"
 msgid "Current"
 msgstr "ปัจจุบัน"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:350
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Collection"
+msgctxt "@action:button"
 msgid "Collection"
 msgstr "ชุดสะสม"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:412
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Rename"
+msgctxt "@action:button"
 msgid "Rename"
 msgstr "เปลี่ยนชื่อ"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:515
-#, kde-format
-msgid "Search Playlist"
-msgstr "ค้นหารายการเล่น"
+#, fuzzy, kde-format
+#| msgid "Create Search Playlist"
+msgctxt "@action:button"
+msgid "Create Search Playlist"
+msgstr "สร้างรายการเล่นสำหรับค้นหา"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:540
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Create Folder Playlist"
+msgctxt "@action:button"
 msgid "Create Folder Playlist"
 msgstr "สร้างโฟลเดอร์รายการเล่น"
 
@@ -1581,62 +1802,82 @@ msgstr "โปรดป้อนชื่อให้รายการเล่
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:890
-#, kde-format
-msgctxt "new playlist"
+#, fuzzy, kde-format
+#| msgctxt "new playlist"
+#| msgid "&New"
+msgctxt "@action:inmenu, new playlist"
 msgid "&New"
 msgstr "สร้างใ&หม่"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:893
-#, kde-format
-msgid "&Empty Playlist..."
+#, fuzzy, kde-format
+#| msgid "&Empty Playlist..."
+msgctxt "@action:inmenu"
+msgid "&Empty Playlist…"
 msgstr "&รายการเล่นว่าง ๆ..."
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:897
-#, kde-format
-msgid "&Search Playlist..."
-msgstr "ค้&นหารายการเล่น..."
+#, fuzzy, kde-format
+#| msgid "Search Playlist"
+msgctxt "@action:inmenu"
+msgid "&Search Playlist…"
+msgstr "ค้นหารายการเล่น"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:901
-#, kde-format
-msgid "Playlist From &Folder..."
+#, fuzzy, kde-format
+#| msgid "Playlist From &Folder..."
+msgctxt "@action:inmenu"
+msgid "Playlist From &Folder…"
 msgstr "สร้างรายการเล่นจากโ&ฟลเดอร์..."
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:909
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Guess Tag Information"
+msgctxt "@action:inmenu"
 msgid "&Guess Tag Information"
 msgstr "เ&ดาข้อมูลป้ายกำกับ"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:914
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "From &File Name"
+msgctxt "@action:inmenu"
 msgid "From &File Name"
 msgstr "จากชื่อ&แฟ้ม"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:918
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "From &Internet"
+msgctxt "@action:inmenu"
 msgid "From &Internet"
 msgstr "จากอินเ&ทอร์เน็ต"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:923
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Guess Tag Information From &File Name"
+msgctxt "@action:inmenu"
 msgid "Guess Tag Information From &File Name"
 msgstr "เดาข้อมูลป้ายกำกับจากชื่&อแฟ้ม"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:930
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Play First Track"
+msgctxt "@action:inmenu"
 msgid "Play First Track"
 msgstr "เล่นแทร็กแรก"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:932
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Play Next Album"
+msgctxt "@action:inmenu"
 msgid "Play Next Album"
 msgstr "เล่นอัลบั้มถัดไป"
 
@@ -1644,57 +1885,87 @@ msgstr "เล่นอัลบั้มถัดไป"
 #: playlistcollection.cpp:939
 #, fuzzy, kde-format
 #| msgid "Add &Folder..."
-msgid "Manage &Folders..."
+msgctxt "@action:inmenu"
+msgid "Manage &Folders…"
 msgstr "เพิ่มโ&ฟลเดอร์..."
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:941
-#, kde-format
-msgid "&Rename..."
-msgstr "&เปลี่ยนชื่อ..."
+#, fuzzy, kde-format
+#| msgid "Rename"
+msgctxt "@action:inmenu"
+msgid "&Rename…"
+msgstr "เปลี่ยนชื่อ"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:943
-#, kde-format
-msgctxt "verb, copy the playlist"
-msgid "D&uplicate..."
-msgstr "สร้างราย&การเล่นซ้ำ..."
+#, fuzzy, kde-format
+#| msgctxt "verb, copy the playlist"
+#| msgid "Duplicate"
+msgctxt "@action:inmenu, verb, copy the playlist"
+msgid "D&uplicate…"
+msgstr "สร้างรายการเล่นซ้ำ"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:948
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Reload"
+msgctxt "@action:inmenu"
 msgid "Reload"
 msgstr "โหลดใหม่"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:950
-#, kde-format
-msgid "Edit Search..."
+#, fuzzy, kde-format
+#| msgid "Edit Search..."
+msgctxt "@action:inmenu"
+msgid "Edit Search…"
 msgstr "แก้ไขรายการค้นหา..."
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:953
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Delete"
+msgctxt "@action:inmenu"
 msgid "&Delete"
 msgstr "&ลบ"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:955
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Refresh"
+msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "โหลดใหม่"
 
 #. +> trunk6 stable6
-#: playlistcollection.cpp:959
+#: playlistcollection.cpp:957
 #, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Containing Folder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: playlistcollection.cpp:959
+#, fuzzy, kde-format
+#| msgid "&Rename File"
+msgctxt "@action:inmenu"
 msgid "&Rename File"
 msgstr "&เปลี่ยนชื่อแฟ้ม"
 
 #. +> trunk6 stable6
 #: playlistcollection.cpp:964
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show &Play Queue"
+msgctxt "@action:inmenu"
 msgid "Show &Play Queue"
 msgstr "แสดงคิ&วรอเล่น"
+
+#. +> trunk6 stable6
+#: playlistcollection.h:183
+#, kde-format
+msgid "Create New Playlist"
+msgstr "สร้างรายการเล่นใหม่"
 
 #. +> trunk6 stable6
 #: playlistcollection.h:186
@@ -1704,26 +1975,33 @@ msgstr "รายการเล่น"
 
 #. +> trunk6 stable6
 #: playlistsplitter.cpp:158
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show &Search Bar"
+msgctxt "@action:inmenu"
 msgid "Show &Search Bar"
 msgstr "แสดงแถบค้น&หา"
 
 #. +> trunk6 stable6
 #: playlistsplitter.cpp:161
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Edit Track Search"
+msgctxt "@action:inmenu"
 msgid "Edit Track Search"
 msgstr "แก้ไขการค้นหาแทร็ก"
 
 #. +> trunk6 stable6
 #: scrobbleconfigdlg.cpp:38
-#, kde-format
-msgid "Configure scrobbling..."
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Configure Shortcuts"
+msgctxt "@title:window"
+msgid "Configure Scrobbling"
+msgstr "ปรับแต่งปุ่มพิมพ์ลัด"
 
 #. +> trunk6 stable6
 #: scrobbleconfigdlg.cpp:42
 #, kde-format
-msgid "Test login..."
+msgctxt "@action:button"
+msgid "Test Login…"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1746,56 +2024,65 @@ msgid "Password:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: scrobbleconfigdlg.cpp:83
+#: scrobbleconfigdlg.cpp:84
 #, kde-format
 msgid "KWallet is unavailable, your Last.fm credentials will be stored without encryption."
 msgstr ""
 
 #. +> trunk6 stable6
-#: scrobbleconfigdlg.cpp:83
+#: scrobbleconfigdlg.cpp:85
 #, kde-format
-msgid "KWallet is unavailable"
+msgctxt "@title:window"
+msgid "KWallet Unavailable"
 msgstr ""
 
 #. +> trunk6 stable6
-#: scrobbleconfigdlg.cpp:126
+#: scrobbleconfigdlg.cpp:128
 #, kde-format
-msgid "Validating login..."
+msgid "Validating login…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: scrobbleconfigdlg.cpp:136
+#: scrobbleconfigdlg.cpp:138
 #, kde-format
 msgid "Login invalid."
 msgstr ""
 
 #. +> trunk6 stable6
-#: scrobbleconfigdlg.cpp:144
+#: scrobbleconfigdlg.cpp:146
 #, kde-format
 msgid "Login valid."
 msgstr ""
 
 #. +> trunk6 stable6
 #: searchwidget.cpp:73
-#, kde-format
-msgid "Normal Matching"
+#, fuzzy, kde-format
+#| msgid "Normal Matching"
+msgctxt "@item:inlistbox"
+msgid "Normal matching"
 msgstr "เข้าคู่แบบปกติ"
 
 #. +> trunk6 stable6
 #: searchwidget.cpp:74
-#, kde-format
-msgid "Case Sensitive"
+#, fuzzy, kde-format
+#| msgid "Case Sensitive"
+msgctxt "@item:inlistbox"
+msgid "Case sensitive"
 msgstr "แยกแยะอักษรตัวพิมพ์ใหญ่-เล็ก"
 
 #. +> trunk6 stable6
 #: searchwidget.cpp:75
-#, kde-format
-msgid "Pattern Matching"
+#, fuzzy, kde-format
+#| msgid "Pattern Matching"
+msgctxt "@item:inlistbox"
+msgid "Pattern matching"
 msgstr "จับคู่ด้วยรูปแบบ"
 
 #. +> trunk6 stable6
 #: searchwidget.cpp:169
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "All Visible"
+msgctxt "@title:column"
 msgid "All Visible"
 msgstr "ที่เห็นทั้งหมด"
 
@@ -1803,8 +2090,15 @@ msgstr "ที่เห็นทั้งหมด"
 #: searchwidget.cpp:200
 #, fuzzy, kde-format
 #| msgid "Edit Search..."
-msgid "Search..."
+msgid "Search…"
 msgstr "แก้ไขรายการค้นหา..."
+
+#. +> trunk6 stable6
+#: slider.cpp:127
+#, fuzzy, kde-format
+#| msgid "Volume Up"
+msgid "Volume"
+msgstr "เพิ่มระดับเสียง"
 
 #. +> trunk6 stable6
 #: slider.cpp:128
@@ -1850,7 +2144,9 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: statuslabel.cpp:85
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Jump to the currently playing item"
+msgctxt "@info:tooltip"
 msgid "Jump to the currently playing item"
 msgstr "ข้ามไปยังรายการที่กำลังเล่นอยู่ตอนนี้"
 
@@ -1863,7 +2159,9 @@ msgstr[0] "%1 รายการ"
 
 #. +> trunk6 stable6
 #: systemtray.cpp:161
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Redisplay Popup"
+msgctxt "@action:inmenu"
 msgid "Redisplay Popup"
 msgstr "แสดงรายละเอียดผุดขึ้นอีกครั้ง"
 
@@ -1887,7 +2185,9 @@ msgstr "คุณต้องการจะบันทึกความเป
 
 #. +> trunk6 stable6
 #: tageditor.cpp:590
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Save Changes"
+msgctxt "@title:window"
 msgid "Save Changes"
 msgstr "บันทึกความเปลี่ยนแปลง"
 
@@ -1983,7 +2283,9 @@ msgstr "เปิด"
 
 #. +> trunk6 stable6
 #: tagguesserconfigdlg.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tag Guesser Configuration"
+msgctxt "@title:window"
 msgid "Tag Guesser Configuration"
 msgstr "การปรับแต่งตัวเดาป้ายกำกับ"
 
@@ -2137,6 +2439,13 @@ msgstr "ลบชุดรูปแบบ"
 msgid "Press this button to remove the currently selected scheme from the list."
 msgstr "กดปุ่มนี้เพื่อทำการลบชุดรูปแบบชื่อแฟ้มที่กำลังเลือกอยู่ออกจากรายการ"
 
+#. i18n: ectx: property (text), widget (QPushButton, bRemove)
+#. +> trunk6 stable6
+#: tagguesserconfigdlgwidget.ui:100
+#, kde-format
+msgid "&Remove"
+msgstr "เ&อาออก"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6
 #: tagguesserconfigdlgwidget.ui:128
@@ -2157,6 +2466,17 @@ msgid "Title"
 msgstr "ชื่อแทร็ก"
 
 #. +> trunk6 stable6
+#: tagrenameroptions.cpp:112
+msgctxt "cd track number"
+msgid "Track"
+msgstr "แทร็กที่"
+
+#. +> trunk6 stable6
+#: tagrenameroptions.cpp:120
+msgid "Year"
+msgstr "ปี"
+
+#. +> trunk6 stable6
 #: tagrenameroptions.cpp:126
 msgctxt "unknown renamer category"
 msgid "Unknown"
@@ -2174,13 +2494,17 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: tagtransactionmanager.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "File Exists"
+msgctxt "@title:window"
 msgid "File Exists"
 msgstr "มีแฟ้มอยู่ก่อนแล้ว"
 
 #. +> trunk6 stable6
 #: tagtransactionmanager.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Replace"
+msgctxt "@action:button"
 msgid "Replace"
 msgstr "แทนที่"
 
@@ -2192,7 +2516,9 @@ msgstr "ไม่สามารถเปลี่ยนแปลงแฟ้ม
 
 #. +> trunk6 stable6
 #: tagtransactionmanager.cpp:178
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Error"
+msgctxt "@title:window"
 msgid "Error"
 msgstr "ผิดพลาด"
 
@@ -2222,8 +2548,10 @@ msgstr "คุณกำลังทำการเปลี่ยนแปลง
 
 #. +> trunk6 stable6
 #: treeviewitemplaylist.cpp:58
-#, kde-format
-msgid "Changing Track Tags"
+#, fuzzy, kde-format
+#| msgid "Changing Track Tags"
+msgctxt "@title:window"
+msgid "Change Track Tags"
 msgstr "กำลังทำการเปลี่ยนป้ายกำกับของแทร็ก"
 
 #. +> trunk6 stable6
@@ -2273,6 +2601,7 @@ msgstr "หมวด"
 #. +> trunk6 stable6
 #: volumepopupbutton.cpp:76
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Mute/Unmute"
 msgstr ""
 
@@ -2286,6 +2615,7 @@ msgstr ""
 #: volumepopupbutton.cpp:123 volumepopupbutton.cpp:134
 #, fuzzy, kde-format
 #| msgid "Volume Up"
+msgctxt "@info:tooltip"
 msgid "Volume: %1% (muted)"
 msgstr "เพิ่มระดับเสียง"
 
@@ -2293,5 +2623,527 @@ msgstr "เพิ่มระดับเสียง"
 #: volumepopupbutton.cpp:123
 #, fuzzy, kde-format
 #| msgid "Volume Up"
+msgctxt "@info:tooltip"
 msgid "Volume: %1%"
 msgstr "เพิ่มระดับเสียง"
+
+#, kde-format
+#~ msgid "Create Search Playlist"
+#~ msgstr "สร้างรายการเล่นสำหรับค้นหา"
+
+#, kde-format
+#~ msgid "Playlist name:"
+#~ msgstr "ชื่อรายการเล่น:"
+
+#, kde-format
+#~ msgid "Search Criteria"
+#~ msgstr "เกณฑ์สำหรับค้นหา"
+
+#, kde-format
+#~ msgid "Match any of the following"
+#~ msgstr "เข้าคู่คำใดก็ได้ต่อไปนี้"
+
+#, kde-format
+#~ msgid "Match all of the following"
+#~ msgstr "เข้าคู่คำทั้งหมดต่อไปนี้"
+
+#, kde-format
+#~ msgctxt "additional search options"
+#~ msgid "More"
+#~ msgstr "มากกว่านี้"
+
+#, kde-format
+#~ msgid "Fewer"
+#~ msgstr "น้อยกว่านี้"
+
+#, kde-format
+#~ msgid ""
+#~ "Removing an item from the collection will also remove it from all of your playlists. Are you sure you want to continue?\n"
+#~ "\n"
+#~ "Note, however, that if the directory that these files are in is in your \"scan on startup\" list, they will be readded on startup."
+#~ msgstr ""
+#~ "การลบรายการทั้งหมดออกจากชุดสะสม จะเป็นการลบออกจากรายการเล่นด้วย คุณแน่ใจหรือไม่ว่าต้องการจะทำต่อไป ?\n"
+#~ "\n"
+#~ "อย่างไรก็ตาม โปรดสังเกตว่า หากไดเรกทอรีที่แฟ้มเหล่านี้อยู่นั้น อยู่ในรายการ \"ค้นหา เมื่อเริ่มงาน\" แล้ว แฟ้มเหล่านี้จะถูกอ่านเข้ามาอีกครั้งเมื่อเริ่มโปรแกรม"
+
+#, kde-format
+#~ msgid "Show Playing"
+#~ msgstr "แสดงรายการเล่น"
+
+#, kde-format
+#~ msgid "&Send to Trash"
+#~ msgstr "&ทิ้งลงถังขยะ"
+
+#, kde-format
+#~ msgid "About to delete selected files"
+#~ msgstr "เกี่ยวกับการลบแฟ้มที่เลือก"
+
+#, kde-format
+#~ msgid "Folder List"
+#~ msgstr "รายการโฟลเดอร์"
+
+#, kde-format
+#~ msgctxt "warning about mass file rename"
+#~ msgid "Warning"
+#~ msgstr "คำเตือน"
+
+#, kde-format
+#~ msgctxt "remove music genre from file renamer"
+#~ msgid "Remove"
+#~ msgstr "เอาออก"
+
+#, kde-format
+#~ msgctxt "file renamer genre options"
+#~ msgid "Options"
+#~ msgstr "ตัวเลือกต่าง ๆ"
+
+#, kde-format
+#~ msgid "Insert folder separator"
+#~ msgstr "ใส่ที่คั่นโฟลเดอร์"
+
+#, kde-format
+#~ msgid "Hide Renamer Test Dialog"
+#~ msgstr "ซ่อนกล่องทดสอบการเปลี่ยนชื่อ"
+
+#, kde-format
+#~ msgid "%1 to %2"
+#~ msgstr "%1 ไปเป็น %2"
+
+#, kde-format
+#~ msgid "File Renamer Options"
+#~ msgstr "ตัวเลือกการเปลี่ยนชื่อแฟ้ม"
+
+#, kde-format
+#~ msgctxt "%1 will be a music tag category like Artist or Album"
+#~ msgid "%1 Options"
+#~ msgstr "ตัวเลือกต่าง ๆ ของ %1"
+
+#, kde-format
+#~ msgid "%1 Format"
+#~ msgstr "รูปแบบ %1"
+
+#, kde-format
+#~ msgid "When the Track's %1 is Empty"
+#~ msgstr "เมื่อ %1 ของแทร็กว่างเปล่า"
+
+#, kde-format
+#~ msgid "When using the file renamer your files will be renamed to the values that you have in your track's %1 tag, plus any additional text that you specify below."
+#~ msgstr "เมื่อใช้งานตัวเปลี่ยนชื่อแฟ้ม แฟ้มของคุณจะถูกเปลี่ยนชื่อไปเป็นค่าที่คุณมีอยู่ในป้ายกำกับ %1 ของแทร็กนั้นๆ ร่วมกับข้อความเพิ่มเติมใด ๆ ที่คุณได้ระบุไว้ด้านล่างนี้"
+
+#, kde-format
+#~ msgid "File Renamer"
+#~ msgstr "เปลี่ยนชื่อแฟ้ม"
+
+#, kde-format
+#~ msgid "&Random Play"
+#~ msgstr "เล่น&แบบสุ่ม"
+
+#, kde-format
+#~ msgid "&Disable Random Play"
+#~ msgstr "ปิดการเล่นแ&บบสุ่ม"
+
+#, kde-format
+#~ msgid "Use &Random Play"
+#~ msgstr "ใช้การเล่น&แบบสุ่ม"
+
+#, kde-format
+#~ msgid "Use &Album Random Play"
+#~ msgstr "ใช้การเล่นแบบสุ่มเป็นอั&ลบั้ม"
+
+#, kde-format
+#~ msgid "Remove From Playlist"
+#~ msgstr "ลบออกจากรายการเล่น"
+
+#, kde-format
+#~ msgid "&Play"
+#~ msgstr "เล่&น"
+
+#, kde-format
+#~ msgid "P&ause"
+#~ msgstr "&หยุดชั่วคราว"
+
+#, kde-format
+#~ msgid "&Stop"
+#~ msgstr "หยุ&ด"
+
+#, kde-format
+#~ msgctxt "previous track"
+#~ msgid "Previous"
+#~ msgstr "แทร็กก่อน"
+
+#, kde-format
+#~ msgctxt "next track"
+#~ msgid "&Next"
+#~ msgstr "แทร็ก&ถัดไป"
+
+#, kde-format
+#~ msgid "&Loop Playlist"
+#~ msgstr "เล่น&วนรายการเล่น"
+
+#, kde-format
+#~ msgid "&Resize Playlist Columns Manually"
+#~ msgstr "&ปรับขนาดคอลัมน์ในรายการเล่นด้วยตนเอง"
+
+#, kde-format
+#~ msgctxt "silence playback"
+#~ msgid "Mute"
+#~ msgstr "ตัดเสียง"
+
+#, kde-format
+#~ msgid "Volume Up"
+#~ msgstr "เพิ่มระดับเสียง"
+
+#, kde-format
+#~ msgid "Volume Down"
+#~ msgstr "ลดระดับเสียง"
+
+#, kde-format
+#~ msgid "Play / Pause"
+#~ msgstr "เล่น/หยุดชั่วคราว"
+
+#, kde-format
+#~ msgid "Seek Forward"
+#~ msgstr "ค้นหาไปข้างหน้า"
+
+#, kde-format
+#~ msgid "Seek Back"
+#~ msgstr "ค้นหาย้อนหลัง"
+
+#, kde-format
+#~ msgid "Show / Hide"
+#~ msgstr "แสดง/ซ่อน"
+
+#, kde-format
+#~ msgid "&Dock in System Tray"
+#~ msgstr "&ลงไปอยู่ในถาดระบบ"
+
+#, kde-format
+#~ msgid "&Stay in System Tray on Close"
+#~ msgstr "คงการทำงานอยู่ใน&ถาดระบบเมื่อปิด"
+
+#, kde-format
+#~ msgid "Popup &Track Announcement"
+#~ msgstr "ผุดรายละเอียดของแ&ทร็ก"
+
+#, kde-format
+#~ msgid "Save &Play Queue on Exit"
+#~ msgstr "บันทึกคิวการเล่นเมื่อออกจากโปรแกรม"
+
+#, kde-format
+#~ msgid "&Tag Guesser..."
+#~ msgstr "ตัว&เดาป้ายกำกับ..."
+
+#, kde-format
+#~ msgid "&File Renamer..."
+#~ msgstr "เ&ปลี่ยนชื่อแฟ้ม..."
+
+#, kde-format
+#~ msgid "Track Position"
+#~ msgstr "ตำแหน่งแทร็ก"
+
+#, kde-format
+#~ msgid "Docking in System Tray"
+#~ msgstr "ลงไปอยู่ในถาดระบบ"
+
+#, fuzzy, kde-format
+#~| msgctxt "a playing track, %1 is artist, %2 is song title"
+#~| msgid "%1 - %2"
+#~ msgctxt "a playing track, %1 is artist, %2 is song title"
+#~ msgid "%1 - <i>%2</i>"
+#~ msgstr "%1 - %2"
+
+#, kde-format
+#~ msgid "Configure Shortcuts"
+#~ msgstr "ปรับแต่งปุ่มพิมพ์ลัด"
+
+#, kde-format
+#~ msgid "Global Shortcuts"
+#~ msgstr "ปุ่มพิมพ์ลัดใช้งานส่วนรวม"
+
+#, kde-format
+#~ msgid "&No keys"
+#~ msgstr "ไม่ใช้ปุ่&มพิมพ์ลัด"
+
+#, kde-format
+#~ msgid "&Standard keys"
+#~ msgstr "ปุ่มพิมพ์ลัดมา&ตรฐาน"
+
+#, kde-format
+#~ msgid "&Multimedia keys"
+#~ msgstr "ปุ่มพิมพ์ลัดมั&ลติมีเดีย"
+
+#, kde-format
+#~ msgid "Here you can select the keys used as global shortcuts to control the player"
+#~ msgstr "คุณสามารถทำการเลือกปุ่มพิมพ์ลัดที่จะใช้เป็นปุ่มพิมพ์ลัดกลางสำหรับควบคุมตัวเล่นได้ที่นี่"
+
+#, fuzzy, kde-format
+#~| msgid "© 2002 - 2010, Scott Wheeler"
+#~ msgid "Copyright © 2002–2023, Scott Wheeler, Michael Pyne, and others"
+#~ msgstr "© 2545 - 2553, Scott Wheeler"
+
+#, kde-format
+#~ msgctxt "open audio file"
+#~ msgid "Open"
+#~ msgstr "เปิด"
+
+#, fuzzy, kde-format
+#~| msgid "Search Playlist"
+#~ msgid "Save Playlist"
+#~ msgstr "ค้นหารายการเล่น"
+
+#, kde-format
+#~ msgctxt "%1 will be the /path/to/file, %2 will be some string from Phonon describing the error"
+#~ msgid ""
+#~ "JuK is unable to play the audio file<nl/>"
+#~ "<filename>%1</filename><nl/>"
+#~ "for the following reason:<nl/>"
+#~ "<message>%2</message>"
+#~ msgstr ""
+#~ "JuK ไม่สามารถเล่นแฟ้มเสียง <nl/>"
+#~ "<filename>%1</filename><nl/>"
+#~ " ได้ เนื่องจาก :<nl/>"
+#~ "<message>%2</message>"
+
+#, kde-format
+#~ msgid "Track Name"
+#~ msgstr "ชื่อแทร็ก"
+
+#, kde-format
+#~ msgid "Length"
+#~ msgstr "ความยาว"
+
+#, kde-format
+#~ msgid "Bitrate"
+#~ msgstr "อัตราบิท"
+
+#, kde-format
+#~ msgid "Comment"
+#~ msgstr "หมายเหตุ"
+
+#, kde-format
+#~ msgid "File Name"
+#~ msgstr "ชื่อแฟ้ม"
+
+#, kde-format
+#~ msgid "File Name (full path)"
+#~ msgstr "ชื่อแฟ้ม (แสดงพาธเต็ม ๆ)"
+
+#, kde-format
+#~ msgid "&Show Columns"
+#~ msgstr "&แสดงคอลัมน์"
+
+#, kde-format
+#~ msgid "Add to Play Queue"
+#~ msgstr "เพิ่มเข้าไปในคิวรอเล่น"
+
+#, kde-format
+#~ msgid "Create Playlist From Selected Items..."
+#~ msgstr "สร้างรายการเล่นจากรายการที่เลือก..."
+
+#, kde-format
+#~ msgid "Edit '%1'"
+#~ msgstr "แก้ไข '%1'"
+
+#, kde-format
+#~ msgid "Manual Column Widths Enabled"
+#~ msgstr "เปิดการปรับขนาดคอลัมน์ด้วยตนเอง"
+
+#, kde-format
+#~ msgid "View Modes"
+#~ msgstr "โหมดมุมมอง"
+
+#, kde-format
+#~ msgid "Show &History"
+#~ msgstr "แสดง&ประวัติ"
+
+#, kde-format
+#~ msgctxt "verb, copy the playlist"
+#~ msgid "Duplicate"
+#~ msgstr "สร้างรายการเล่นซ้ำ"
+
+#, kde-format
+#~ msgid "Keep"
+#~ msgstr "เก็บไว้"
+
+#, kde-format
+#~ msgid "Remove Items?"
+#~ msgstr "เอารายการออกหรือไม่ ?"
+
+#, kde-format
+#~ msgid "Hid&e"
+#~ msgstr "ซ่อ&น"
+
+#, kde-format
+#~ msgid "R&emove"
+#~ msgstr "เอ&าออก"
+
+#, kde-format
+#~ msgctxt "current playlist"
+#~ msgid "Current"
+#~ msgstr "ปัจจุบัน"
+
+#, kde-format
+#~ msgid "Collection"
+#~ msgstr "ชุดสะสม"
+
+#, kde-format
+#~ msgid "Rename"
+#~ msgstr "เปลี่ยนชื่อ"
+
+#, kde-format
+#~ msgid "Create Folder Playlist"
+#~ msgstr "สร้างโฟลเดอร์รายการเล่น"
+
+#, kde-format
+#~ msgctxt "new playlist"
+#~ msgid "&New"
+#~ msgstr "สร้างใ&หม่"
+
+#, kde-format
+#~ msgid "&Empty Playlist..."
+#~ msgstr "&รายการเล่นว่าง ๆ..."
+
+#, kde-format
+#~ msgid "Search Playlist"
+#~ msgstr "ค้นหารายการเล่น"
+
+#, kde-format
+#~ msgid "&Search Playlist..."
+#~ msgstr "ค้&นหารายการเล่น..."
+
+#, kde-format
+#~ msgid "Playlist From &Folder..."
+#~ msgstr "สร้างรายการเล่นจากโ&ฟลเดอร์..."
+
+#, kde-format
+#~ msgid "&Guess Tag Information"
+#~ msgstr "เ&ดาข้อมูลป้ายกำกับ"
+
+#, kde-format
+#~ msgid "From &File Name"
+#~ msgstr "จากชื่อ&แฟ้ม"
+
+#, kde-format
+#~ msgid "From &Internet"
+#~ msgstr "จากอินเ&ทอร์เน็ต"
+
+#, kde-format
+#~ msgid "Guess Tag Information From &File Name"
+#~ msgstr "เดาข้อมูลป้ายกำกับจากชื่&อแฟ้ม"
+
+#, kde-format
+#~ msgid "Play First Track"
+#~ msgstr "เล่นแทร็กแรก"
+
+#, kde-format
+#~ msgid "Play Next Album"
+#~ msgstr "เล่นอัลบั้มถัดไป"
+
+#, fuzzy, kde-format
+#~| msgid "Add &Folder..."
+#~ msgid "Manage &Folders..."
+#~ msgstr "เพิ่มโ&ฟลเดอร์..."
+
+#, kde-format
+#~ msgid "&Rename..."
+#~ msgstr "&เปลี่ยนชื่อ..."
+
+#, kde-format
+#~ msgctxt "verb, copy the playlist"
+#~ msgid "D&uplicate..."
+#~ msgstr "สร้างราย&การเล่นซ้ำ..."
+
+#, kde-format
+#~ msgid "Reload"
+#~ msgstr "โหลดใหม่"
+
+#, kde-format
+#~ msgid "Edit Search..."
+#~ msgstr "แก้ไขรายการค้นหา..."
+
+#, kde-format
+#~ msgid "&Delete"
+#~ msgstr "&ลบ"
+
+#, kde-format
+#~ msgid "Refresh"
+#~ msgstr "โหลดใหม่"
+
+#, kde-format
+#~ msgid "&Rename File"
+#~ msgstr "&เปลี่ยนชื่อแฟ้ม"
+
+#, kde-format
+#~ msgid "Show &Play Queue"
+#~ msgstr "แสดงคิ&วรอเล่น"
+
+#, kde-format
+#~ msgid "Show &Search Bar"
+#~ msgstr "แสดงแถบค้น&หา"
+
+#, kde-format
+#~ msgid "Edit Track Search"
+#~ msgstr "แก้ไขการค้นหาแทร็ก"
+
+#, kde-format
+#~ msgid "Normal Matching"
+#~ msgstr "เข้าคู่แบบปกติ"
+
+#, kde-format
+#~ msgid "Case Sensitive"
+#~ msgstr "แยกแยะอักษรตัวพิมพ์ใหญ่-เล็ก"
+
+#, kde-format
+#~ msgid "Pattern Matching"
+#~ msgstr "จับคู่ด้วยรูปแบบ"
+
+#, kde-format
+#~ msgid "All Visible"
+#~ msgstr "ที่เห็นทั้งหมด"
+
+#, fuzzy, kde-format
+#~| msgid "Edit Search..."
+#~ msgid "Search..."
+#~ msgstr "แก้ไขรายการค้นหา..."
+
+#, kde-format
+#~ msgid "Jump to the currently playing item"
+#~ msgstr "ข้ามไปยังรายการที่กำลังเล่นอยู่ตอนนี้"
+
+#, kde-format
+#~ msgid "Redisplay Popup"
+#~ msgstr "แสดงรายละเอียดผุดขึ้นอีกครั้ง"
+
+#, kde-format
+#~ msgid "Save Changes"
+#~ msgstr "บันทึกความเปลี่ยนแปลง"
+
+#, kde-format
+#~ msgid "Tag Guesser Configuration"
+#~ msgstr "การปรับแต่งตัวเดาป้ายกำกับ"
+
+#, kde-format
+#~ msgid "File Exists"
+#~ msgstr "มีแฟ้มอยู่ก่อนแล้ว"
+
+#, kde-format
+#~ msgid "Replace"
+#~ msgstr "แทนที่"
+
+#, kde-format
+#~ msgid "Error"
+#~ msgstr "ผิดพลาด"
+
+#, kde-format
+#~ msgid "Changing Track Tags"
+#~ msgstr "กำลังทำการเปลี่ยนป้ายกำกับของแทร็ก"
+
+#, fuzzy, kde-format
+#~| msgid "Volume Up"
+#~ msgid "Volume: %1% (muted)"
+#~ msgstr "เพิ่มระดับเสียง"
+
+#, fuzzy, kde-format
+#~| msgid "Volume Up"
+#~ msgid "Volume: %1%"
+#~ msgstr "เพิ่มระดับเสียง"

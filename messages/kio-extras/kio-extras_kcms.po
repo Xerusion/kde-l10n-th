@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-29 10:58+0100\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
 "PO-Revision-Date: 2010-12-17 20:57+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -19,62 +19,69 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6
-#: ksaveioconfig.cpp:81
+#: ksaveioconfig.cpp:36
 #, kde-format
 msgid "You have to restart the running applications for these changes to take effect."
 msgstr "คุณต้องเริ่มการทำงานของโปรแกรมที่กำลังทำงานอยู่ใหม่อีกครั้ง เพื่อให้การเปลี่ยนแปลงมีผล"
 
 #. +> trunk6 stable6
-#: ksaveioconfig.cpp:83
+#: ksaveioconfig.cpp:38
 #, fuzzy, kde-format
 #| msgid "Update Failed"
 msgctxt "@title:window"
 msgid "Update Failed"
 msgstr "การอัปเดตล้มเหลว"
 
-#. i18n: ectx: label, entry (DisablePassiveMode), group (DesktopIcons)
+#. i18n: ectx: label, entry (DisablePassiveMode), group (&lt;default&gt;)
 #. +> trunk6 stable6
-#: netpref/kio_ftprc.kcfg:10
+#: netpref/kio_ftprc.kcfg:9
 #, kde-format
 msgid "Disable Passive FTP"
 msgstr "ปิด FTP แบบพาสซีฟ"
 
-#. i18n: ectx: whatsthis, entry (DisablePassiveMode), group (DesktopIcons)
+#. i18n: ectx: whatsthis, entry (DisablePassiveMode), group (&lt;default&gt;)
 #. +> trunk6 stable6
-#: netpref/kio_ftprc.kcfg:11
+#: netpref/kio_ftprc.kcfg:10
 #, kde-format
 msgid "When FTP connections are passive the client connects to the server, instead of the other way round, so firewalls do not block the connection; old FTP servers may not support Passive FTP though."
 msgstr "เมื่อการเชื่อมต่อของ FTP เป็นแบบพาสซีฟโดยรอรับการติดต่อจากเครื่องลูกไปยังเซิร์ฟเวอร์ แทนการใช้วิธีอื่น จะทำให้ไฟร์วอลล์ไม่ปิดกันการเชื่อมต่อนั้น อย่างไรก็ตาม เซิร์ฟเวอร์สำหรับ FTP แบบเก่า อาจจะไม่รองรับการเชื่อมต่อแบบพาสซีฟ"
 
-#. i18n: ectx: label, entry (MarkPartial), group (DesktopIcons)
+#. i18n: ectx: label, entry (MarkPartial), group (&lt;default&gt;)
 #. +> trunk6 stable6
-#: netpref/kio_ftprc.kcfg:16
+#: netpref/kio_ftprc.kcfg:15 netpref/kioslave.kcfg:12
 #, kde-format
 msgid "Mark partially uploaded files"
 msgstr "ป้อนส่วนขยายให้แฟ้มที่อัปโหลดไปบางส่วน"
 
-#. i18n: ectx: whatsthis, entry (MarkPartial), group (DesktopIcons)
+#. i18n: ectx: whatsthis, entry (MarkPartial), group (&lt;default&gt;)
 #. +> trunk6 stable6
-#: netpref/kio_ftprc.kcfg:17
+#: netpref/kio_ftprc.kcfg:16 netpref/kioslave.kcfg:13
 #, kde-format
 msgid "While a file is being uploaded its extension is \".part\". When fully uploaded it is renamed to its real name."
 msgstr "ขณะที่มีการส่งแฟ้มขึ้นไปยังเซิร์ฟเวอร์ ส่วนขยายของแฟ้มจะเป็น \".part\" เมื่อการส่งแฟ้มขึ้นเซิร์ฟเวอร์สำเร็จ ก็จะมีการแก้ชื่อเป็นชื่อจริงของแฟ้ม"
 
+#. i18n: ectx: label, entry (MinimumKeepSize), group (&lt;default&gt;)
 #. +> trunk6 stable6
-#: netpref/netpref.cpp:30
+#: netpref/kioslave.kcfg:17
+#, kde-format
+msgid "The minimum file size for keeping aborted downloads"
+msgstr ""
+
+#. +> trunk6 stable6
+#: netpref/netpref.cpp:26
 #, fuzzy, kde-format
 #| msgid "Options"
 msgid "Global Options"
 msgstr "ตัวเลือก"
 
 #. +> trunk6 stable6
-#: netpref/netpref.cpp:35 netpref/netpref.cpp:74
+#: netpref/netpref.cpp:31 netpref/netpref.cpp:70
 #, kde-format
 msgid "Mark &partially uploaded files"
 msgstr "เติมส่วนขยายให้แฟ้มที่อัปโหลดไปบางส่วน"
 
 #. +> trunk6 stable6
-#: netpref/netpref.cpp:37
+#: netpref/netpref.cpp:33
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Marks partially uploaded FTP files.</p>"
@@ -86,15 +93,8 @@ msgstr ""
 "<p>เติมส่วนขยายให้แฟ้มที่อัปโหลดไปบางส่วน</p>"
 "<p>หากเปิดใช้ตัวเลือกนี้ แฟ้มที่อัปโหลดไปได้บางส่วน จะมีส่วนขยาย \".part\" ซึ่งจะหายไปเมื่อการอัปโหลดเสร็จสมบูรณ์แล้ว</p>"
 
-#. +> stable6
-#: netpref/netpref.cpp:55
-#, kde-format
-msgid " byte"
-msgid_plural " bytes"
-msgstr[0] ""
-
-#. +> trunk6
-#: netpref/netpref.cpp:56
+#. +> trunk6 stable6
+#: netpref/netpref.cpp:52
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "%v byte"
@@ -102,32 +102,32 @@ msgid_plural "%v bytes"
 msgstr[0] ""
 
 #. +> trunk6 stable6
-#: netpref/netpref.cpp:58
+#: netpref/netpref.cpp:54
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "If cancelled, automatically delete partially uploaded files smaller than:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: netpref/netpref.cpp:60
+#: netpref/netpref.cpp:56
 #, kde-format
 msgid "FTP Options"
 msgstr "ตัวเลือกของ FTP"
 
 #. +> trunk6 stable6
-#: netpref/netpref.cpp:66
+#: netpref/netpref.cpp:62
 #, kde-format
 msgid "Enable passive &mode (PASV)"
 msgstr "เปิดใช้งานโหมดพาสซีพ (PASV)"
 
 #. +> trunk6 stable6
-#: netpref/netpref.cpp:68
+#: netpref/netpref.cpp:64
 #, kde-format
 msgid "Enables FTP's \"passive\" mode. This is required to allow FTP to work from behind firewalls."
 msgstr "เปิดใช้งานโหมด \"passive\" สำหรับ FTP ซึ่งจะอนุญาตให้ FTP ทำงานได้จากหลังไฟร์วอลล์"
 
 #. +> trunk6 stable6
-#: netpref/netpref.cpp:76
+#: netpref/netpref.cpp:72
 #, kde-format
 msgid ""
 "<p>Marks partially uploaded FTP files.</p>"
@@ -673,14 +673,6 @@ msgctxt "@action:button ignore notification"
 msgid "Ignore Forever"
 msgstr "ต&ลอดไป"
 
-#. +> stable6
-#: trash/kcmtrash.cpp:141
-#, fuzzy, kde-format
-#| msgid "1 day %2"
-#| msgid_plural "%1 days %2"
-msgid " days"
-msgstr "%1 วัน %2"
-
 #. +> trunk6 stable6
 #: trash/kcmtrash.cpp:206
 #, kde-format
@@ -713,7 +705,7 @@ msgctxt "@info:whatsthis"
 msgid "<para>Check this box to allow <emphasis strong='true'>automatic deletion</emphasis> of files that are older than the value specified. Leave this disabled to <emphasis strong='true'>not</emphasis> automatically delete any items after a certain timespan</para>"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: trash/kcmtrash.cpp:259
 #, fuzzy, kde-format
 #| msgid "1 day %2"
@@ -721,15 +713,6 @@ msgstr ""
 msgctxt "@label:spinbox"
 msgid "%v day"
 msgid_plural "%v days"
-msgstr[0] "%1 วัน %2"
-
-#. +> stable6
-#: trash/kcmtrash.cpp:259
-#, fuzzy, kde-format
-#| msgid "1 day %2"
-#| msgid_plural "%1 days %2"
-msgid " day"
-msgid_plural " days"
 msgstr[0] "%1 วัน %2"
 
 #. +> trunk6 stable6
@@ -764,7 +747,7 @@ msgstr ""
 msgid "Size:"
 msgstr "ขนาด:"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: trash/kcmtrash.cpp:279
 #, kde-format
 msgctxt "@label:spinbox Percent value"
@@ -1015,7 +998,7 @@ msgid "Space"
 msgstr ""
 
 #. +> trunk6 stable6
-#: webshortcuts/searchproviderdlg.cpp:51
+#: webshortcuts/searchproviderdlg.cpp:48
 #, fuzzy, kde-format
 #| msgid "Default"
 msgctxt "@item:inlistbox The default character set"
@@ -1023,27 +1006,27 @@ msgid "Default"
 msgstr "ค่าปริยาย"
 
 #. +> trunk6 stable6
-#: webshortcuts/searchproviderdlg.cpp:54
+#: webshortcuts/searchproviderdlg.cpp:51
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Edit Web Search Keyword"
 msgstr "ค้นหา"
 
 #. +> trunk6 stable6
-#: webshortcuts/searchproviderdlg.cpp:62
+#: webshortcuts/searchproviderdlg.cpp:59
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "New Web Search Keyword"
 msgstr "ค้นหา"
 
 #. +> trunk6 stable6
-#: webshortcuts/searchproviderdlg.cpp:123
+#: webshortcuts/searchproviderdlg.cpp:120
 #, kde-format
 msgid "The keyword \"%1\" is already assigned to \"%2\". Please choose a different one."
 msgstr ""
 
 #. +> trunk6 stable6
-#: webshortcuts/searchproviderdlg.cpp:128
+#: webshortcuts/searchproviderdlg.cpp:125
 #, fuzzy, kde-format
 #| msgctxt "items: folders, files (size)"
 #| msgid "%1: %2"
@@ -1052,7 +1035,7 @@ msgid "- %1: \"%2\""
 msgstr "%1: %2"
 
 #. +> trunk6 stable6
-#: webshortcuts/searchproviderdlg.cpp:132
+#: webshortcuts/searchproviderdlg.cpp:129
 #, kde-format
 msgid ""
 "The following keywords are already assigned. Please choose different ones.\n"
@@ -1060,7 +1043,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: webshortcuts/searchproviderdlg.cpp:145
+#: webshortcuts/searchproviderdlg.cpp:142
 #, kde-format
 msgid ""
 "The URL does not contain a %1 placeholder for the user query.\n"
@@ -1068,7 +1051,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: webshortcuts/searchproviderdlg.cpp:150
+#: webshortcuts/searchproviderdlg.cpp:147
 #, kde-format
 msgid "Keep It"
 msgstr ""
@@ -1189,3 +1172,16 @@ msgstr ""
 #| msgid "Interlace Mode"
 msgid "Insert query placeholder"
 msgstr "โหมดอินเทอร์เลส"
+
+#, fuzzy, kde-format
+#~| msgid "1 day %2"
+#~| msgid_plural "%1 days %2"
+#~ msgid " days"
+#~ msgstr "%1 วัน %2"
+
+#, fuzzy, kde-format
+#~| msgid "1 day %2"
+#~| msgid_plural "%1 days %2"
+#~ msgid " day"
+#~ msgid_plural " days"
+#~ msgstr[0] "%1 วัน %2"

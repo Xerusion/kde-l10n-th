@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmailtransport\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-25 08:01+0100\n"
+"POT-Creation-Date: 2025-11-28 09:59+0100\n"
 "PO-Revision-Date: 2010-02-28 18:09+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -15,6 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#. +> trunk6 stable6
+#, fuzzy, kde-format
+#| msgid "&Rename"
+msgid "Unnamed"
+msgstr "เป&ลี่ยนชื่อ"
 
 #. i18n: ectx: label, entry (id), group (Transport $(transportId))
 #. +> trunk6 stable6
@@ -36,13 +42,6 @@ msgstr "ชื่อของบริการจัดส่งจดหมา
 #, kde-format
 msgid "The name that will be used when referring to this server."
 msgstr "ชื่อที่จะใช้ในการอ้างอิงถึงเซิร์ฟเวอร์นี้"
-
-#. +> trunk6 stable6
-#: mailtransport.kcfg:18
-#, fuzzy, kde-format
-#| msgid "&Rename"
-msgid "Unnamed"
-msgstr "เป&ลี่ยนชื่อ"
 
 #. i18n: ectx: label, entry (host), group (Transport $(transportId))
 #. +> trunk6 stable6
@@ -70,7 +69,7 @@ msgstr "หมายเลขพอร์ตของเซิร์ฟเวอ
 #: mailtransport.kcfg:35
 #, fuzzy, kde-format
 #| msgid "The port number that the SMTP server is listening on. The default port is 25."
-msgid "The port number that the SMTP server is listening on. The default port is 587."
+msgid "The port number that the SMTP server is listening on. The default port is 465."
 msgstr "หมายเลขพอร์ทที่เซิร์ฟเวอร์ SMTP รอรับการเชื่อมต่ออยู่ ค่าปริยายคือพอร์ตหมายเลข 25"
 
 #. i18n: ectx: label, entry (userName), group (Transport $(transportId))
@@ -304,20 +303,20 @@ msgid "You need to supply a username and a password to use this SMTP server."
 msgstr "คุณต้องป้อนชื่อผู้ใช้และรหัสผ่านเพื่อใช้งานเซิร์ฟเวอร์ SMTP นี้"
 
 #. +> trunk6 stable6
-#: plugins/smtp/smtpmailtransportplugin.cpp:27
+#: plugins/smtp/smtpmailtransportplugin.cpp:29
 #, kde-format
 msgctxt "@option SMTP transport"
 msgid "SMTP"
 msgstr "เซิร์ฟเวอร์ SMTP"
 
 #. +> trunk6 stable6
-#: plugins/smtp/smtpmailtransportplugin.cpp:28
+#: plugins/smtp/smtpmailtransportplugin.cpp:30
 #, kde-format
 msgid "An SMTP server on the Internet"
 msgstr "เซิร์ฟเวอร์ SMTP บนอินเทอร์เน็ต"
 
 #. +> trunk6 stable6
-#: plugins/smtp/smtpmailtransportplugin.cpp:38
+#: plugins/smtp/smtpmailtransportplugin.cpp:40
 #, fuzzy, kde-format
 #| msgid "Configure account"
 msgctxt "@title:window"
@@ -524,35 +523,35 @@ msgid "The precommand exited with code %1."
 msgstr "คำสั่งที่ใช้ก่อนจบการทำงานด้วยรหัส %1"
 
 #. +> trunk6 stable6
-#: transport.cpp:81
+#: transport.cpp:83
 #, kde-format
 msgctxt "%1: name; %2: number appended to it to make it unique among a list of names"
 msgid "%1 #%2"
 msgstr "%1 #%2"
 
 #. +> trunk6 stable6
-#: transport.cpp:131
+#: transport.cpp:133
 #, kde-format
 msgctxt "Authentication method"
 msgid "Clear text"
 msgstr ""
 
 #. +> trunk6 stable6
-#: transport.cpp:135
+#: transport.cpp:137
 #, kde-format
 msgctxt "Authentication method"
 msgid "Anonymous"
 msgstr ""
 
 #. +> trunk6 stable6
-#: transport.cpp:166
+#: transport.cpp:168
 #, kde-format
 msgctxt "An unknown transport type"
 msgid "Unknown"
 msgstr "ไม่ทราบ"
 
 #. +> trunk6 stable6
-#: transport.cpp:210
+#: transport.cpp:212
 #, fuzzy, kde-format
 #| msgid ""
 #| "KWallet is not available. It is strongly recommended to use KWallet for managing your passwords.\n"
@@ -568,7 +567,7 @@ msgstr ""
 "คุณแน่ใจหรือไม่ว่า ต้องการจะทำการจัดเก็บรหัสผ่านสำหรับเซิร์ฟเวอร์ '%1' ไว้ในแฟ้มค่าปรับแต่งจริง ๆ ?"
 
 #. +> trunk6 stable6
-#: transport.cpp:219
+#: transport.cpp:221
 #, fuzzy, kde-format
 #| msgid "KWallet Not Available"
 msgctxt "@title:window"
@@ -576,7 +575,7 @@ msgid "KWallet Not Available"
 msgstr "ไม่มีโปรแกรมกระเป๋าคุมข้อมูล-K (KWallet) อยู่"
 
 #. +> trunk6 stable6
-#: transport.cpp:220
+#: transport.cpp:222
 #, fuzzy, kde-format
 #| msgid "Store Password"
 msgctxt "@action:button"
@@ -584,7 +583,7 @@ msgid "Store Password"
 msgstr "จัดเก็บรหัสผ่าน"
 
 #. +> trunk6 stable6
-#: transport.cpp:221
+#: transport.cpp:223
 #, fuzzy, kde-format
 #| msgid "Do Not Store Password"
 msgctxt "@action:button"
@@ -599,13 +598,13 @@ msgid "The outgoing account \"%1\" is not correctly configured."
 msgstr "บริการจัดส่งจดหมาย \"%1\" ถูกปรับแต่งค่าไว้อย่างไม่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:224
+#: transportmanager.cpp:222
 #, kde-format
 msgid "You must create an outgoing account before sending."
 msgstr "คุณต้องสร้างบัญชีผู้ใช้สำหรับจัดส่งจดหมายก่อน จึงจะทำการส่งได้"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:225
+#: transportmanager.cpp:223
 #, fuzzy, kde-format
 #| msgid "Create Account Now?"
 msgctxt "@title:window"
@@ -613,7 +612,7 @@ msgid "Create Account Now?"
 msgstr "จะสร้างบัญชีผู้ใช้งานเดี๋ยวนี้หรือไม่ ?"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:226
+#: transportmanager.cpp:224
 #, fuzzy, kde-format
 #| msgid "Create Account Now"
 msgctxt "@action:button"
@@ -621,7 +620,7 @@ msgid "Create Account Now"
 msgstr "สร้างบัญชีผู้ใช้งานเดี๋ยวนี้"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:608
+#: transportmanager.cpp:606
 #, kde-format
 msgid ""
 "The following mail transports store their passwords in an unencrypted configuration file.\n"
@@ -635,7 +634,7 @@ msgstr ""
 "คุณต้องการจะทำการผนวกรวมรหัสผ่านของคุณเข้าไปยังระบบกระเป๋าคุมข้อมูล-K หรือไม่ ?"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:615
+#: transportmanager.cpp:613
 #, fuzzy, kde-format
 #| msgid "Question"
 msgctxt "@title:window"
@@ -643,7 +642,7 @@ msgid "Question"
 msgstr "คำถาม"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:616
+#: transportmanager.cpp:614
 #, fuzzy, kde-format
 #| msgid "Migrate"
 msgctxt "@action:button"
@@ -651,7 +650,7 @@ msgid "Migrate"
 msgstr "ผนวกรวม"
 
 #. +> trunk6 stable6
-#: transportmanager.cpp:617
+#: transportmanager.cpp:615
 #, fuzzy, kde-format
 #| msgid "Keep"
 msgctxt "@action:button"
@@ -659,7 +658,7 @@ msgid "Keep"
 msgstr "คงไว้"
 
 #. +> trunk6 stable6
-#: transportmodel.cpp:63
+#: transportmodel.cpp:65
 #, fuzzy, kde-format
 #| msgctxt "@label the default mail transport"
 #| msgid " (Default)"
@@ -668,14 +667,14 @@ msgid " (default)"
 msgstr "(ค่าปริยาย)"
 
 #. +> trunk6 stable6
-#: transportmodel.cpp:86
+#: transportmodel.cpp:88
 #, kde-format
 msgctxt "@title:column email transport name"
 msgid "Name"
 msgstr "ชื่อ"
 
 #. +> trunk6 stable6
-#: transportmodel.cpp:88
+#: transportmodel.cpp:90
 #, kde-format
 msgctxt "@title:column email transport type"
 msgid "Type"
@@ -784,20 +783,20 @@ msgid "Create and Configure"
 msgstr "สร้างและปรับแต่งค่า"
 
 #. +> trunk6 stable6
-#: widgets/transportmanagementwidgetng.cpp:155
+#: widgets/transportmanagementwidgetng.cpp:157
 #, kde-format
 msgid "Do you want to remove outgoing account '%1'?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/transportmanagementwidgetng.cpp:156
+#: widgets/transportmanagementwidgetng.cpp:158
 #, kde-format
 msgid "Do you really want to remove this %1 outgoing account?"
 msgid_plural "Do you really want to remove these %1 outgoing accounts?"
 msgstr[0] ""
 
 #. +> trunk6 stable6
-#: widgets/transportmanagementwidgetng.cpp:159
+#: widgets/transportmanagementwidgetng.cpp:161
 #, fuzzy, kde-format
 #| msgid "Create Outgoing Account"
 msgctxt "@title:window"
@@ -805,14 +804,14 @@ msgid "Remove outgoing account?"
 msgstr "สร้างบัญชีผู้ใช้สำหรับส่งจดหมาย"
 
 #. +> trunk6 stable6
-#: widgets/transportmanagementwidgetng.cpp:189
+#: widgets/transportmanagementwidgetng.cpp:191
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/transportmanagementwidgetng.cpp:194
+#: widgets/transportmanagementwidgetng.cpp:196
 #, fuzzy, kde-format
 #| msgid "&Modify..."
 msgctxt "@action:inmenu"
@@ -820,7 +819,7 @@ msgid "Modify…"
 msgstr "แก้ไข..."
 
 #. +> trunk6 stable6
-#: widgets/transportmanagementwidgetng.cpp:197
+#: widgets/transportmanagementwidgetng.cpp:199
 #, fuzzy, kde-format
 #| msgid "&Rename"
 msgctxt "@action:inmenu"
@@ -828,7 +827,7 @@ msgid "Rename"
 msgstr "เป&ลี่ยนชื่อ"
 
 #. +> trunk6 stable6
-#: widgets/transportmanagementwidgetng.cpp:201
+#: widgets/transportmanagementwidgetng.cpp:203
 #, fuzzy, kde-format
 #| msgid "Remo&ve"
 msgctxt "@action:inmenu"
@@ -836,7 +835,7 @@ msgid "Remove"
 msgstr "เ&อาออก"
 
 #. +> trunk6 stable6
-#: widgets/transportmanagementwidgetng.cpp:207
+#: widgets/transportmanagementwidgetng.cpp:209
 #, fuzzy, kde-format
 #| msgid "&Set as Default"
 msgid "Set as Default"

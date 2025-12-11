@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-21 18:02+0200\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,89 +13,85 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6
-#: executeplugin.cpp:68
+#: executeplugin.cpp:62
 #, kde-format
-msgid "There is a quoting error in the arguments for the launch configuration '%1'. Aborting start."
+msgctxt "command line arguments to an executable"
+msgid "arguments"
 msgstr ""
 
 #. +> trunk6 stable6
-#: executeplugin.cpp:72
-#, kde-format
-msgid "A shell meta character was included in the arguments for the launch configuration '%1', this is not supported currently. Aborting start."
-msgstr ""
-
-#. +> trunk6 stable6
-#: executeplugin.cpp:99
+#: executeplugin.cpp:82
 #, kde-format
 msgid "Couldn't resolve the dependency: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: executeplugin.cpp:154
+#: executeplugin.cpp:140
 #, kde-format
-msgid "No valid executable specified"
+msgctxt "path to an executable"
+msgid "executable path"
 msgstr ""
 
 #. +> trunk6 stable6
-#: executeplugin.cpp:164
+#: executeplugin.cpp:194
 #, kde-format
-msgid "There is a quoting error in the executable for the launch configuration '%1'. Aborting start."
+msgid "external terminal command"
 msgstr ""
 
 #. +> trunk6 stable6
-#: executeplugin.cpp:169
-#, kde-format
-msgid "A shell meta character was included in the executable for the launch configuration '%1', this is not supported currently. Aborting start."
-msgstr ""
-
-#. +> trunk6 stable6
-#: nativeappconfig.cpp:104
+#: nativeappconfig.cpp:125
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Ask If Running"
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappconfig.cpp:105
+#: nativeappconfig.cpp:126
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Kill All Instances"
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappconfig.cpp:106
+#: nativeappconfig.cpp:127
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Start Another"
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappconfig.cpp:156
+#: nativeappconfig.cpp:132
+#, kde-format
+msgid "<p>Note: <code>gnome-terminal</code> is only partially supported due to its limitations.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: nativeappconfig.cpp:182
 #, kde-format
 msgctxt "@title:tab"
 msgid "Configure Native Application"
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappconfig.cpp:166
+#: nativeappconfig.cpp:192
 #, kde-format
 msgid "Executes Native Applications"
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappconfig.cpp:176
+#: nativeappconfig.cpp:202
 #, kde-format
 msgid "Native Application"
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappconfig.cpp:241
+#: nativeappconfig.cpp:257
 #, kde-format
 msgid "Compiled Binary"
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappconfig.cpp:322
+#: nativeappconfig.cpp:338
 #, kde-format
 msgctxt "@title:menu"
 msgid "Project Executables"
@@ -219,29 +215,18 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, terminal)
 #. +> trunk6 stable6
-#: nativeappconfig.ui:234
-#, kde-format, no-c-format
+#: nativeappconfig.ui:228
+#, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"<p>Defines the command to execute the external terminal emulator. Use the following placeholders:</p>"
+"Define the command to execute the external terminal emulator.<br>"
 "\n"
-"<dl>\n"
-"<dt><code>%exe</code></dt>"
-"\n"
-"<dd>The path to the executable selected above.</dd>"
-"\n"
-"<dt><code>%workdir</code></dt>"
-"\n"
-"<dd>The path to the working directory selected above.</dd>"
-"\n"
-"</dl>"
-"\n"
-"<p>The arguments defined above will get appended to this command.</p>"
+"The path to the executable and its arguments will be appended to this command."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk6 stable6
-#: nativeappconfig.ui:259
+#: nativeappconfig.ui:238
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Restart"
@@ -249,7 +234,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. +> trunk6 stable6
-#: nativeappconfig.ui:272
+#: nativeappconfig.ui:251
 #, kde-format
 msgctxt "@title:group"
 msgid "Dependencies"
@@ -257,7 +242,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. +> trunk6 stable6
-#: nativeappconfig.ui:278
+#: nativeappconfig.ui:257
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Act&ion:"
@@ -265,7 +250,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, dependencyAction)
 #. +> trunk6 stable6
-#: nativeappconfig.ui:288
+#: nativeappconfig.ui:267
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Specifies the action to take for the dependencies before starting the executable."
@@ -273,7 +258,7 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, dependencyAction)
 #. +> trunk6 stable6
-#: nativeappconfig.ui:291
+#: nativeappconfig.ui:270
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The selected action will be run before the executable is started.  This allows there to be parts of a project, upon which the executable does not directly depend, to be built and/or installed before running the application."
@@ -281,7 +266,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, dependencyAction)
 #. +> trunk6 stable6
-#: nativeappconfig.ui:298
+#: nativeappconfig.ui:277
 #, kde-format
 msgctxt "@item:inlistbox dependency action"
 msgid "Do Nothing"
@@ -289,7 +274,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, dependencyAction)
 #. +> trunk6 stable6
-#: nativeappconfig.ui:303
+#: nativeappconfig.ui:282
 #, kde-format
 msgctxt "@item:inlistbox dependency action"
 msgid "Build"
@@ -297,7 +282,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, dependencyAction)
 #. +> trunk6 stable6
-#: nativeappconfig.ui:308
+#: nativeappconfig.ui:287
 #, kde-format
 msgctxt "@item:inlistbox dependency action"
 msgid "Build and Install"
@@ -305,47 +290,47 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk6 stable6
-#: nativeappconfig.ui:316
+#: nativeappconfig.ui:295
 #, kde-format
 msgctxt "@label:chooser"
 msgid "Targets:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappjob.cpp:66
+#: nativeappjob.cpp:39
 #, kde-format
 msgid "No environment profile specified, looks like a broken configuration, please check run configuration '%1'. Using default environment profile."
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappjob.cpp:142
+#: nativeappjob.cpp:153
 #, kde-format
 msgctxt "@title:window"
 msgid "Job Already Running"
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappjob.cpp:143
+#: nativeappjob.cpp:154
 #, kde-format
 msgid "'%1' is already being executed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappjob.cpp:145
+#: nativeappjob.cpp:156
 #, kde-format
 msgctxt "@action:button"
 msgid "Kill All Instances"
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappjob.cpp:146
+#: nativeappjob.cpp:157
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Another"
 msgstr ""
 
 #. +> trunk6 stable6
-#: nativeappjob.cpp:149
+#: nativeappjob.cpp:160
 #, kde-format
 msgctxt "@option:check"
 msgid "Remember choice"

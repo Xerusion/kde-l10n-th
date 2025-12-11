@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_binaryclock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-11 09:44+0100\n"
+"POT-Creation-Date: 2025-05-18 10:16+0200\n"
 "PO-Revision-Date: 2010-03-27 21:41+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/config/config.qml:17
+#: config.qml:17
 #, fuzzy, kde-format
 #| msgid "Appearance"
 msgctxt "@title"
@@ -26,51 +26,48 @@ msgid "Appearance"
 msgstr "รูปลักษณ์"
 
 #. +> trunk6 stable6
-#: package/contents/ui/configGeneral.qml:29
-#: package/contents/ui/configGeneral.qml:59
+#: configGeneral.qml:29
+#, kde-format
+msgctxt "@title:group The things being potentially shown are lights and seconds"
+msgid "Show:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configGeneral.qml:30 configGeneral.qml:60
 #, fuzzy, kde-format
 #| msgid "Inactive LEDs:"
 msgctxt "@option:check"
 msgid "Inactive lights"
 msgstr "หลอด LED ที่ไม่ติด:"
 
-#. +> stable5
-#: package/contents/ui/configGeneral.qml:41
-#: package/contents/ui/configGeneral.qml:77
-#, fuzzy, kde-format
-#| msgid "Inactive LEDs:"
-msgctxt "@option:check"
-msgid "Inactive LEDs"
-msgstr "หลอด LED ที่ไม่ติด:"
-
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configGeneral.qml:34
+#: configGeneral.qml:35
 #, fuzzy, kde-format
 #| msgid "Seconds:"
 msgctxt "@option:check"
 msgid "Seconds"
 msgstr "วินาที:"
 
-#. +> stable5
-#: package/contents/ui/configGeneral.qml:35
-#, kde-format
-msgid "Display:"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/configGeneral.qml:42
+#: configGeneral.qml:43
 #, fuzzy, kde-format
 #| msgid "Use custom color for active LEDs:"
 msgid "Use custom color for:"
 msgstr "ใช้สีกำหนดเองกับหลอด LED ที่ติด"
 
 #. +> trunk6 stable6
-#: package/contents/ui/configGeneral.qml:46
+#: configGeneral.qml:47
 #, fuzzy, kde-format
 #| msgid "Active LEDs:"
 msgctxt "@option:check"
 msgid "Active lights"
 msgstr "หลอด LED ที่ติด:"
+
+#. +> stable5
+#: package/contents/ui/configGeneral.qml:35
+#, kde-format
+msgid "Display:"
+msgstr ""
 
 #. +> stable5
 #: package/contents/ui/configGeneral.qml:36
@@ -80,6 +77,15 @@ msgstr "หลอด LED ที่ติด:"
 msgctxt "@option:check"
 msgid "Grid"
 msgstr "แนวตาราง:"
+
+#. +> stable5
+#: package/contents/ui/configGeneral.qml:41
+#: package/contents/ui/configGeneral.qml:77
+#, fuzzy, kde-format
+#| msgid "Inactive LEDs:"
+msgctxt "@option:check"
+msgid "Inactive LEDs"
+msgstr "หลอด LED ที่ไม่ติด:"
 
 #. +> stable5
 #: package/contents/ui/configGeneral.qml:51

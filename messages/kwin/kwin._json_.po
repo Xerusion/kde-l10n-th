@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-11 09:03+0100\n"
+"POT-Creation-Date: 2025-09-18 15:51+0200\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -11,6 +11,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#. +> trunk6 stable6
+#: src/kcms/animations/kcm_animations.json
+msgctxt "X-KDE-Keywords"
+msgid "animations,animation speed,transitions,effects,window open close,window open/close,window maximize,window minimize,window full screen,peek at desktop,peek desktop,virtual desktop switching,fade effect,glide effect,scale effect,stretch effect,magic lamp effect,squash effect,eye on screen effect,window aperture effect,slide effect,fading popups effect,sliding popups effect,login effect,logout effect"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/kcms/animations/kcm_animations.json
+msgctxt "Name"
+msgid "Animations"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/kcms/animations/kcm_animations.json
+msgctxt "Description"
+msgid "Configure animation speed and style"
+msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/kcms/decoration/kcm_kwindecoration.json
@@ -51,7 +69,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: src/kcms/effects/kcm_kwin_effects.json
 msgctxt "X-KDE-Keywords"
-msgid "kwin,window,manager,effect,3D effects,2D effects,graphical effects,desktop effects,animations,various animations,window management effects,window switching effect,desktop switching effect,animations,desktop animations,drivers,driver settings,rendering,render,invert effect,looking glass effect,magnifier effect,snap helper effect,track mouse effect,zoom effect,blur effect,fade effect,fade desktop effect,fall apart effect,glide effect,highlight window effect,login effect,logout effect,magic lamp effect,minimize animation effect,mouse mark effect,scale effect,screenshot effect,sheet effect,slide effect,sliding popups effect,thumbnail aside effect,translucency,translucency effect,transparency,window geometry effect,wobbly windows effect,startup feedback effect,dialog parent effect,dim inactive effect,dim screen effect,slide back effect,eye candy,candy,show FPS effect,show paint effect,cover switch effect,desktop cube effect,desktop cube animation effect,desktop grid effect,flip switch effect,background contrast effect,bling,fading,movement,motion,overview windows effect,accessibility,cursor,pointer,mouse,hide cursor,hide cursor effect,hide pointer,hide pointer effect,hide mouse,hide mouse effect"
+msgid "kwin,window,manager,effect,3D effects,2D effects,graphical effects,desktop effects,animations,various animations,window management effects,animations,desktop animations,rendering,render,snap helper effect,track mouse effect,blur effect,fall apart effect,highlight window effect,mouse mark effect,screenshot effect,sheet effect,thumbnail aside effect,translucency,translucency effect,transparency,window geometry effect,wobbly windows effect,startup feedback effect,dialog parent effect,dim inactive effect,dim screen effect,slide back effect,eye candy,candy,cover switch effect,desktop cube effect,desktop cube animation effect,desktop grid effect,background contrast effect,bling,fading,movement,motion,overview windows effect,accessibility,cursor,pointer,mouse,hide cursor,hide cursor effect,hide pointer,hide pointer effect,hide mouse,hide mouse effect"
 msgstr ""
 
 #. +> stable5
@@ -72,7 +90,13 @@ msgctxt "Description"
 msgid "Configure compositor settings for desktop effects"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
+#: src/kcms/options/kcm_kwinoptions.json
+msgctxt "X-KDE-Keywords"
+msgid "focus,placement,window behavior,window actions,animation,raise,auto raise,windows,frame,titlebar,doubleclick,desktop,snap,movement,activation,activate,pip,picture in picture,picture-in-picture"
+msgstr ""
+
+#. +> stable5
 #: src/kcms/options/kcm_kwinoptions.json
 msgctxt "X-KDE-Keywords"
 msgid "focus,placement,window behavior,window actions,animation,raise,auto raise,windows,frame,titlebar,doubleclick,desktop,snap,movement,shading,shade,unshade,unshading,activation,activate"
@@ -223,18 +247,6 @@ msgid "Select which keys will be globally available to legacy X11 apps"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/plugins/backgroundcontrast/metadata.json
-msgctxt "Name"
-msgid "Background Contrast"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/plugins/backgroundcontrast/metadata.json
-msgctxt "Description"
-msgid "Improve contrast and readability behind semi-transparent windows"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
 #: src/plugins/blendchanges/metadata.json
 msgctxt "Name"
 msgid "Blend Changes"
@@ -374,14 +386,15 @@ msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: src/plugins/fade/package/metadata.json
+#: src/plugins/fadedesktop/package/metadata.json
 msgctxt "Name"
 msgid "Fade"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/fade/package/metadata.json
 msgctxt "Description"
-msgid "Make windows smoothly fade in and out when they are shown or hidden"
+msgid "Make windows fade in and out when they are shown or hidden"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -390,16 +403,10 @@ msgctxt "Authors Name"
 msgid "Philip Falkner, Martin Gräßlin"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: src/plugins/fadedesktop/package/metadata.json
-msgctxt "Name"
-msgid "Fade Desktop"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/fadedesktop/package/metadata.json
 msgctxt "Description"
-msgid "Fade between virtual desktops when switching between them"
+msgid "Fade between virtual desktops when switching"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -408,16 +415,16 @@ msgctxt "Authors Name"
 msgid "Lucas Murray, Martin Gräßlin"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/fadingpopups/package/metadata.json
 msgctxt "Name"
-msgid "Fading Popups"
+msgid "Fading popups"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/fadingpopups/package/metadata.json
 msgctxt "Description"
-msgid "Make popups smoothly fade in and out when they are shown or hidden"
+msgid "Fade popups in and out"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -457,16 +464,17 @@ msgctxt "Authors Name"
 msgid "Kai Uwe Broulik"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/fullscreen/package/metadata.json
+#: src/plugins/maximize/package/metadata.json
 msgctxt "Name"
-msgid "Full Screen"
+msgid "Stretch"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/fullscreen/package/metadata.json
 msgctxt "Description"
-msgid "Animation for a window going to and leaving full screen mode"
+msgid "Stretch windows going to and leaving full screen mode"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -535,10 +543,10 @@ msgctxt "Name"
 msgid "Login"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/login/package/metadata.json
 msgctxt "Description"
-msgid "Smoothly fade to the desktop when logging in"
+msgid "Fade to the desktop when logging in"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -553,10 +561,10 @@ msgctxt "Name"
 msgid "Logout"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/logout/package/metadata.json
 msgctxt "Description"
-msgid "Smoothly fade to the logout screen"
+msgid "Fade to the logout screen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -589,16 +597,10 @@ msgctxt "Description"
 msgid "Magnify the section of the screen that is near the mouse cursor; activated with a keyboard shortcut"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: src/plugins/maximize/package/metadata.json
-msgctxt "Name"
-msgid "Maximize"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/maximize/package/metadata.json
 msgctxt "Description"
-msgid "Animation for a window going to maximize/restore from maximize"
+msgid "Stretch windows when they are maximized or restored"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -673,10 +675,10 @@ msgctxt "Name"
 msgid "Scale"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/scale/package/metadata.json
 msgctxt "Description"
-msgid "Make windows smoothly scale in and out when they are shown or hidden"
+msgid "Make windows scale in and out when they are shown or hidden"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -689,18 +691,6 @@ msgstr ""
 #: src/plugins/screenedge/metadata.json
 msgctxt "Description"
 msgid "Highlights screen edges and corners that trigger actions when touched as the cursor approaches them"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/plugins/screenshot/metadata.json
-msgctxt "Name"
-msgid "Screenshot"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/plugins/screenshot/metadata.json
-msgctxt "Description"
-msgid "Helper effect for screenshot tools"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -799,10 +789,10 @@ msgctxt "Name"
 msgid "Slide"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/slide/metadata.json
 msgctxt "Description"
-msgid "Slide desktops when switching virtual desktops"
+msgid "Slide between virtual desktops when switching"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -817,28 +807,16 @@ msgctxt "Description"
 msgid "Slide back windows when another window is raised"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/slidingpopups/metadata.json
 msgctxt "Name"
-msgid "Sliding Popups"
+msgid "Sliding popups"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: src/plugins/slidingpopups/metadata.json
 msgctxt "Description"
-msgid "Sliding animation for Plasma popups"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/plugins/snaphelper/metadata.json
-msgctxt "Name"
-msgid "Snap Helper"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: src/plugins/snaphelper/metadata.json
-msgctxt "Description"
-msgid "Help you locate the center of the screen when moving a window"
+msgid "Slide Plasma popups in and out"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -1039,48 +1017,6 @@ msgctxt "Authors Name"
 msgid "Chris Holland"
 msgstr ""
 
-#. +> stable6 stable5
-#: src/kcms/compositing/kwincompositing.json
-msgctxt "X-KDE-Keywords"
-msgid "kwin,window,manager,compositing,compositor,effect,3D effects,2D effects,video settings,graphical effects,desktop effects,graphics,latency,vsync,tearing,window thumbnails"
-msgstr ""
-
-#. +> stable6 stable5
-#: src/kcms/compositing/kwincompositing.json
-msgctxt "Name"
-msgid "Compositor"
-msgstr ""
-
-#. +> stable6 stable5
-#: src/kcms/compositing/kwincompositing.json
-msgctxt "Description"
-msgid "Compositor Settings for Desktop Effects"
-msgstr ""
-
-#. +> stable6
-#: src/plugins/kdecorations/aurorae/src/config/kcm_auroraeconfig.json
-msgctxt "Name"
-msgid "Aurorae"
-msgstr ""
-
-#. +> stable6
-#: src/plugins/kdecorations/aurorae/src/config/kcm_auroraeconfig.json
-msgctxt "Description"
-msgid "Window Decoration Theme Engine"
-msgstr ""
-
-#. +> stable6 stable5
-#: src/plugins/kdecorations/aurorae/themes/plastik/package/metadata.json
-msgctxt "Name"
-msgid "Plastik"
-msgstr ""
-
-#. +> stable6 stable5
-#: src/plugins/kdecorations/aurorae/themes/plastik/package/metadata.json
-msgctxt "Description"
-msgid "The classic theme known from KDE 3"
-msgstr ""
-
 #. +> stable5
 #: src/backends/x11/windowed/x11.json
 msgctxt "Name"
@@ -1091,6 +1027,18 @@ msgstr ""
 #: src/backends/x11/windowed/x11.json
 msgctxt "Description"
 msgid "Render to a nested window on X11 windowing system."
+msgstr ""
+
+#. +> stable5
+#: src/effects/backgroundcontrast/metadata.json
+msgctxt "Name"
+msgid "Background Contrast"
+msgstr ""
+
+#. +> stable5
+#: src/effects/backgroundcontrast/metadata.json
+msgctxt "Description"
+msgid "Improve contrast and readability behind semi-transparent windows"
 msgstr ""
 
 #. +> stable5
@@ -1106,15 +1054,81 @@ msgid "Zoom out so all desktops are displayed side-by-side in a grid"
 msgstr ""
 
 #. +> stable5
+#: src/effects/fade/package/metadata.json
+msgctxt "Description"
+msgid "Make windows smoothly fade in and out when they are shown or hidden"
+msgstr ""
+
+#. +> stable5
+#: src/effects/fadedesktop/package/metadata.json
+msgctxt "Name"
+msgid "Fade Desktop"
+msgstr ""
+
+#. +> stable5
+#: src/effects/fadedesktop/package/metadata.json
+msgctxt "Description"
+msgid "Fade between virtual desktops when switching between them"
+msgstr ""
+
+#. +> stable5
+#: src/effects/fadingpopups/package/metadata.json
+msgctxt "Name"
+msgid "Fading Popups"
+msgstr ""
+
+#. +> stable5
+#: src/effects/fadingpopups/package/metadata.json
+msgctxt "Description"
+msgid "Make popups smoothly fade in and out when they are shown or hidden"
+msgstr ""
+
+#. +> stable5
+#: src/effects/fullscreen/package/metadata.json
+msgctxt "Name"
+msgid "Full Screen"
+msgstr ""
+
+#. +> stable5
+#: src/effects/fullscreen/package/metadata.json
+msgctxt "Description"
+msgid "Animation for a window going to and leaving full screen mode"
+msgstr ""
+
+#. +> stable5
 #: src/effects/invert/metadata.json
 msgctxt "Description"
 msgid "Inverts the color of the desktop and windows"
 msgstr ""
 
 #. +> stable5
+#: src/effects/login/package/metadata.json
+msgctxt "Description"
+msgid "Smoothly fade to the desktop when logging in"
+msgstr ""
+
+#. +> stable5
+#: src/effects/logout/package/metadata.json
+msgctxt "Description"
+msgid "Smoothly fade to the logout screen"
+msgstr ""
+
+#. +> stable5
 #: src/effects/magnifier/metadata.json
 msgctxt "Description"
 msgid "Magnify the section of the screen that is near the mouse cursor"
+msgstr ""
+
+#. +> stable5
+#: src/effects/maximize/package/metadata.json
+msgctxt "Name"
+msgid "Maximize"
+msgstr ""
+
+#. +> stable5
+#: src/effects/maximize/package/metadata.json
+msgctxt "Description"
+msgid "Animation for a window going to maximize/restore from maximize"
 msgstr ""
 
 #. +> stable5
@@ -1156,6 +1170,12 @@ msgid "Allows you to overview virtual desktops and windows"
 msgstr ""
 
 #. +> stable5
+#: src/effects/scale/package/metadata.json
+msgctxt "Description"
+msgid "Make windows smoothly scale in and out when they are shown or hidden"
+msgstr ""
+
+#. +> stable5
 #: src/effects/screenedge/metadata.json
 msgctxt "Name"
 msgid "Screen Edge"
@@ -1168,9 +1188,51 @@ msgid "Highlights a screen edge when approaching"
 msgstr ""
 
 #. +> stable5
+#: src/effects/screenshot/metadata.json
+msgctxt "Name"
+msgid "Screenshot"
+msgstr ""
+
+#. +> stable5
+#: src/effects/screenshot/metadata.json
+msgctxt "Description"
+msgid "Helper effect for screenshot tools"
+msgstr ""
+
+#. +> stable5
 #: src/effects/showpaint/metadata.json
 msgctxt "Description"
 msgid "Highlight areas of the desktop that have been recently updated"
+msgstr ""
+
+#. +> stable5
+#: src/effects/slide/metadata.json
+msgctxt "Description"
+msgid "Slide desktops when switching virtual desktops"
+msgstr ""
+
+#. +> stable5
+#: src/effects/slidingpopups/metadata.json
+msgctxt "Name"
+msgid "Sliding Popups"
+msgstr ""
+
+#. +> stable5
+#: src/effects/slidingpopups/metadata.json
+msgctxt "Description"
+msgid "Sliding animation for Plasma popups"
+msgstr ""
+
+#. +> stable5
+#: src/effects/snaphelper/metadata.json
+msgctxt "Name"
+msgid "Snap Helper"
+msgstr ""
+
+#. +> stable5
+#: src/effects/snaphelper/metadata.json
+msgctxt "Description"
+msgid "Help you locate the center of the screen when moving a window"
 msgstr ""
 
 #. +> stable5
@@ -1189,6 +1251,36 @@ msgstr ""
 #: src/effects/zoom/metadata.json
 msgctxt "Description"
 msgid "Magnify the entire desktop"
+msgstr ""
+
+#. +> stable5
+#: src/kcms/compositing/kwincompositing.json
+msgctxt "Name"
+msgid "Compositor"
+msgstr ""
+
+#. +> stable5
+#: src/kcms/compositing/kwincompositing.json
+msgctxt "Description"
+msgid "Compositor Settings for Desktop Effects"
+msgstr ""
+
+#. +> stable5
+#: src/kcms/compositing/kwincompositing.json
+msgctxt "X-KDE-Keywords"
+msgid "kwin,window,manager,compositing,compositor,effect,3D effects,2D effects,video settings,graphical effects,desktop effects,graphics,latency,vsync,tearing,window thumbnails"
+msgstr ""
+
+#. +> stable5
+#: src/plugins/kdecorations/aurorae/themes/plastik/package/metadata.json
+msgctxt "Name"
+msgid "Plastik"
+msgstr ""
+
+#. +> stable5
+#: src/plugins/kdecorations/aurorae/themes/plastik/package/metadata.json
+msgctxt "Description"
+msgid "The classic theme known from KDE 3"
 msgstr ""
 
 #. +> stable5

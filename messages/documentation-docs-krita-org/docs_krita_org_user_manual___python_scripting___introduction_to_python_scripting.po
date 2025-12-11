@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 5.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-26 09:18+0200\n"
+"POT-Creation-Date: 2025-06-14 09:48+0200\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -11,11 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#. +> trunk5
-#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:1
-msgid "Introduction to using Krita's python plugin API."
-msgstr ""
 
 #. +> trunk5
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:13
@@ -93,7 +88,7 @@ msgid "The scripter will pop up with a text editor window on top and an output w
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:47
+#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:43
 msgid "print(\"hello world\")"
 msgstr ""
 
@@ -130,7 +125,7 @@ msgid "This allows us to talk to Krita through ``Krita.instance()``. Let's try t
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:67
+#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:62
 msgid ""
 "from krita import *\n"
 "\n"
@@ -143,7 +138,7 @@ msgid "You should see a second scripter window open. Pretty neat! Here is a slig
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:76
+#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:70
 msgid ""
 "from krita import *\n"
 "\n"
@@ -197,7 +192,7 @@ msgid "One of the more confusing things is seeing all the C++ classes that Krita
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:100
+#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:95
 msgid ""
 "from krita import *\n"
 "\n"
@@ -227,7 +222,7 @@ msgid "However, sometimes the conversion doesn't go quite as smoothly."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:119
+#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:114
 msgid ""
 "from krita import *\n"
 "\n"
@@ -253,7 +248,7 @@ msgid "It is a list of something, sure, but how to use it? If we go back to the 
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:136
+#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:129
 msgid ""
 "from krita import *\n"
 "\n"
@@ -290,7 +285,7 @@ msgid "Krita's API has many more classes, you can get to them by going to the to
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:154
+#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:151
 msgid "[print([a.objectName(), a.text()]) for a in Krita.instance().actions()]"
 msgstr ""
 
@@ -300,7 +295,7 @@ msgid "The Python module ``inspect`` was designed for this sort of task. Here's 
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:166
+#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:157
 msgid ""
 "import inspect\n"
 "def getInfo(target):\n"
@@ -347,4 +342,9 @@ msgstr ""
 #. +> trunk5
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:188
 msgid "-DENABLE_PYTHON_2=ON"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:-1
+msgid "Introduction to using Krita's python plugin API."
 msgstr ""

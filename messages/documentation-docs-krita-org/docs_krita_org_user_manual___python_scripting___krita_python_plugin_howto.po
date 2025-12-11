@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 5.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-26 09:18+0200\n"
+"POT-Creation-Date: 2025-06-14 09:48+0200\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -11,11 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:1
-msgid "Guide on all the specifics of creating Krita python plugins."
-msgstr ""
 
 #. +> trunk5
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:14
@@ -171,8 +166,8 @@ msgid "Krita python plugins need to be python modules, so make sure there's an `
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:68
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:89
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:64
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:86
 msgid "from .myplugin import *"
 msgstr ""
 
@@ -264,7 +259,7 @@ msgid "`Extensions <https://api.kde.org/krita/html/classExtension.html>`_ are re
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:125
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:107
 msgid ""
 "from krita import *\n"
 "\n"
@@ -300,7 +295,7 @@ msgid "So..."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:137
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:132
 msgid ""
 "def createActions(self, window):\n"
 "    action = window.createAction(\"myAction\", \"My Script\", \"tools/scripts\")"
@@ -337,7 +332,7 @@ msgid "So, let's make a simple export document script. Add the following to the 
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:160
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:147
 msgid ""
 "def exportDocument(self):\n"
 "    # Get the document:\n"
@@ -357,7 +352,7 @@ msgid "And add the import for QFileDialog above with the imports:"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:167
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:163
 msgid ""
 "from krita import *\n"
 "from PyQt5.QtWidgets import QFileDialog"
@@ -369,7 +364,7 @@ msgid "Then, to connect the action to the new export document:"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:176
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:170
 msgid ""
 "def createActions(self, window):\n"
 "    action = window.createAction(\"myAction\", \"My Script\")\n"
@@ -402,7 +397,7 @@ msgid "Krita, for various reasons, only adds actions to the :ref:`shortcut_setti
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:210
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:188
 msgid ""
 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
 "<ActionCollection version=\"2\" name=\"Scripts\">\n"
@@ -561,7 +556,7 @@ msgid "Creating a custom `docker <https://api.kde.org/krita/html/classDockWidget
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:258
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:243
 msgid ""
 "from PyQt5.QtWidgets import *\n"
 "from krita import *\n"
@@ -634,7 +629,7 @@ msgid "Anyway, what we need to do first is that we need to create a ``QWidget``,
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:280
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:276
 msgid ""
 "mainWidget = QWidget(self)\n"
 "self.setWidget(mainWidget)"
@@ -646,7 +641,7 @@ msgid "Then, we create a button:"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:286
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:283
 msgid "buttonExportDocument = QPushButton(\"Export Document\", mainWidget)"
 msgstr ""
 
@@ -656,7 +651,7 @@ msgid "Now, to connect the button to our function, we'll need to look at the sig
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:292
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:289
 msgid "buttonExportDocument.clicked.connect(self.exportDocument)"
 msgstr ""
 
@@ -671,7 +666,7 @@ msgid "However, the button looks aligned a bit oddly. That's because our ``mainW
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:301
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:297
 msgid ""
 "mainWidget.setLayout(QVBoxLayout())\n"
 "mainWidget.layout().addWidget(buttonExportDocument)"
@@ -723,7 +718,7 @@ msgid "Then, you need to add a PyQt slot definition before your function:"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:331
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:322
 msgid ""
 "@pyqtSlot(bool)\n"
 "def myFunction(self, enabled):\n"
@@ -744,7 +739,7 @@ msgid "Similarly, to make your own PyQt signals, you do the following:"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:345
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:336
 msgid ""
 "# signal name is added to the member variables of the class\n"
 "signal_name = pyqtSignal(bool, name='signalName')\n"
@@ -792,4 +787,9 @@ msgstr ""
 #. +> trunk5
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:363
 msgid "As always, read the code carefully and read the API docs for python, Krita and Qt carefully to see what is possible, and you'll get pretty far."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:-1
+msgid "Guide on all the specifics of creating Krita python plugins."
 msgstr ""

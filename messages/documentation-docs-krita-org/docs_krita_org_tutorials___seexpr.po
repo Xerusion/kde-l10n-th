@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 5.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-26 09:18+0200\n"
+"POT-Creation-Date: 2025-06-14 09:48+0200\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk5
-#: ../../tutorials/seexpr.rst:1 ../../tutorials/seexpr.rst:12
+#: ../../tutorials/seexpr.rst:12 ../../tutorials/seexpr.rst:-1
 msgid "Introduction to SeExpr"
 msgstr ""
 
@@ -94,7 +94,7 @@ msgstr ""
 
 #. +> trunk5
 #: ../../tutorials/seexpr.rst:64
-msgid ".. image:: images/Krita_newfile.png"
+msgid ".. image:: /images/Krita_newfile.png"
 msgstr ""
 
 #. +> trunk5
@@ -188,6 +188,11 @@ msgid "We'll start by going to the :ref:`layer_docker`, and adding a new Fill La
 msgstr ""
 
 #. +> trunk5
+#: ../../tutorials/seexpr.rst:101 ../../tutorials/seexpr.rst:206
+msgid ".. image:: /images/seexpr/SeExpr_editor.png"
+msgstr ""
+
+#. +> trunk5
 #: ../../tutorials/seexpr.rst:103
 msgid "The SeExpr generator dialog is divided into two tabs. For now, we'll stay on :guilabel:`Options`."
 msgstr ""
@@ -245,6 +250,11 @@ msgid "Click :guilabel:`OK`, and you'll render your first script!"
 msgstr ""
 
 #. +> trunk5
+#: ../../tutorials/seexpr.rst:134
+msgid ".. image:: /images/seexpr/SeExpr_first_render.png"
+msgstr ""
+
+#. +> trunk5
 #: ../../tutorials/seexpr.rst:137
 msgid "To be absolutely precise, SeExpr **has no color management**. It always renders textures as :ref:`32-bit float <bit_depth>`, :ref:`gamma corrected <linear_and_gamma>`, sRGB images. Krita transforms them into your document's color space using the sRGB-elle-V2-srgbtrc.icc profile."
 msgstr ""
@@ -266,7 +276,7 @@ msgstr ""
 
 #. +> trunk5
 #: ../../tutorials/seexpr.rst:154
-msgid ".. image:: images/seexpr/SeExpr_prop_1.png"
+msgid ".. image:: /images/seexpr/SeExpr_prop_1.png"
 msgstr ""
 
 #. +> trunk5
@@ -296,7 +306,7 @@ msgstr ""
 
 #. +> trunk5
 #: ../../tutorials/seexpr.rst:167
-msgid ".. image:: images/seexpr/SeExpr_add_variable.png"
+msgid ".. image:: /images/seexpr/SeExpr_add_variable.png"
 msgstr ""
 
 #. +> trunk5
@@ -381,7 +391,7 @@ msgstr ""
 
 #. +> trunk5
 #: ../../tutorials/seexpr.rst:197
-msgid ".. image:: images/seexpr/SeExpr_add_variable_vector.png"
+msgid ".. image:: /images/seexpr/SeExpr_add_variable_vector.png"
 msgstr ""
 
 #. +> trunk5
@@ -402,6 +412,11 @@ msgstr ""
 #. +> trunk5
 #: ../../tutorials/seexpr.rst:208
 msgid "Select :guilabel:`Save New SeExpr Preset...` and the following dialog will open:"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/seexpr.rst:211
+msgid ".. image:: /images/seexpr/SeExpr_save.png"
 msgstr ""
 
 #. +> trunk5
@@ -470,6 +485,11 @@ msgid "If you change a preset's script, you will notice two new buttons in the t
 msgstr ""
 
 #. +> trunk5
+#: ../../tutorials/seexpr.rst:239
+msgid ".. image:: /images/seexpr/SeExpr_overwrite_preset.png"
+msgstr ""
+
+#. +> trunk5
 #: ../../tutorials/seexpr.rst:241
 msgid "The reload button will restore the preset to its original properties, while clicking on :guilabel:`Overwrite Preset` will save your changes."
 msgstr ""
@@ -480,6 +500,11 @@ msgid "Additionally, you can edit the preset's name by clicking on the rename bu
 msgstr ""
 
 #. +> trunk5
+#: ../../tutorials/seexpr.rst:246
+msgid ".. image:: /images/seexpr/SeExpr_rename_preset.png"
+msgstr ""
+
+#. +> trunk5
 #: ../../tutorials/seexpr.rst:251
 msgid "Bundling your presets"
 msgstr ""
@@ -487,29 +512,4 @@ msgstr ""
 #. +> trunk5
 #: ../../tutorials/seexpr.rst:253
 msgid "Sharing your scripts is easy! SeExpr script presets are just like any other resource in Krita. Follow the instructions in :ref:`resource_management` to create your own bundles."
-msgstr ""
-
-#. +> trunk5
-#: ../../tutorials/seexpr.rst:0
-msgid ".. image:: images/seexpr/SeExpr_editor.png"
-msgstr ""
-
-#. +> trunk5
-#: ../../tutorials/seexpr.rst:0
-msgid ".. image:: images/seexpr/SeExpr_first_render.png"
-msgstr ""
-
-#. +> trunk5
-#: ../../tutorials/seexpr.rst:0
-msgid ".. image:: images/seexpr/SeExpr_save.png"
-msgstr ""
-
-#. +> trunk5
-#: ../../tutorials/seexpr.rst:0
-msgid ".. image:: images/seexpr/SeExpr_overwrite_preset.png"
-msgstr ""
-
-#. +> trunk5
-#: ../../tutorials/seexpr.rst:0
-msgid ".. image:: images/seexpr/SeExpr_rename_preset.png"
 msgstr ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 12:43+0200\n"
+"POT-Creation-Date: 2025-06-14 09:48+0200\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -11,16 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:1
-msgid "Kdenlive Tips & Tricks - Smooth Keyframe Interpolation"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:1
-msgid "KDE, Kdenlive, tips, tricks, tips & tricks, useful information, smooth, keyframe, interpolation, editing, documentation, user manual, video editor, open source, free, learn, easy"
-msgstr ""
 
 #. +> trunk5
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:22
@@ -44,6 +34,11 @@ msgstr ""
 
 #. +> trunk5
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:37
+msgid "kkdenlive2308_smooth_keyframes_1a.webp"
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:37
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:90
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:136
 msgid "Keyframes in the :doc:`/effects_and_filters/video_effects/color_image_correction/brightness_keyframable` effect"
@@ -52,6 +47,11 @@ msgstr ""
 #. +> trunk5
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:39
 msgid "Let's start with a simple ramp, as shown here. We use two keyframes\\ [1]_, one with a low value setting, and the other with a high value setting. The particular values do not matter. We set both keyframes to the interpolation mode :guilabel:`smooth`."
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:50
+msgid "kdenlive2308_smooth_keyframes_1b.webp"
 msgstr ""
 
 #. +> trunk5
@@ -69,6 +69,11 @@ msgstr ""
 #. +> trunk5
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:54
 msgid "But what exactly is going on here?"
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:67
+msgid "kdenlive2308_catmull-rom_1.webp"
 msgstr ""
 
 #. +> trunk5
@@ -109,13 +114,28 @@ msgid "Ramp-Up, and … Overshoot"
 msgstr ""
 
 #. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:90
+msgid "kdenlive2308_smooth_keyframes_2a.webp"
+msgstr ""
+
+#. +> trunk5
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:92
 msgid "Now let's add a third keyframe, so this looks like a ramp with a plateau. This is shown in the screenshots."
 msgstr ""
 
 #. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:104
+msgid "kdenlive2308_smooth_keyframes_2b.webp"
+msgstr ""
+
+#. +> trunk5
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:106
 msgid "And now, the ramp gets a clearly visible bump instead of a sharp bend. Well, this looks smooth, but not exactly what we may have intended? So why is this the way it is?"
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:116
+msgid "kdenlive2308_catmull-rom_2.webp"
 msgstr ""
 
 #. +> trunk5
@@ -144,6 +164,16 @@ msgid "Ramp Up-Flat-Down"
 msgstr ""
 
 #. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:136
+msgid "kdenlive2308_smooth_keyframes_3a.webp"
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:143
+msgid "kdenlive2308_smooth_keyframes_3b.webp"
+msgstr ""
+
+#. +> trunk5
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:145
 msgid "Let's add another, fourth keyframe, so we have: ramp-up first, then flat, then ramp-down. A fairly typical fade-in and fade-out keyframe template."
 msgstr ""
@@ -151,6 +181,11 @@ msgstr ""
 #. +> trunk5
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:151
 msgid "And look, what is happening: we have got a hump, but not a nice and flat middle section."
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:159
+msgid "kdenlive2308_catmull-rom_3.webp"
 msgstr ""
 
 #. +> trunk5
@@ -166,6 +201,11 @@ msgstr ""
 #. +> trunk5
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:168
 msgid "Make Flat Great Again"
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:176
+msgid "kdenlive2308_smooth_keyframes_4a.webp"
 msgstr ""
 
 #. +> trunk5
@@ -226,4 +266,19 @@ msgstr ""
 #. +> trunk5
 #: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:226
 msgid "You may notice that there are three keyframes: one at frame 0 of the clip, and the two we created for this screenshot. Kdenlive always sets a keyframe at frame 0 of a clip, and we chose to ignore that one for the purpose of this demonstration."
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:-1
+msgid "Kdenlive Tips & Tricks - Smooth Keyframe Interpolation"
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:-1
+msgid "KDE, Kdenlive, tips, tricks, tips & tricks, useful information, smooth, keyframe, interpolation, editing, documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/smooth_keyframe_interpolation.rst:-1
+msgid "kdenlive2308_smooth_keyframes_4b.webp"
 msgstr ""

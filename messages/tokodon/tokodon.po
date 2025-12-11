@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tokodon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-09 09:44+0100\n"
+"POT-Creation-Date: 2025-12-03 10:33+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -85,205 +85,221 @@ msgid "QuickTime video (*.mov)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/abstractaccount.cpp:45 account/abstractaccount.cpp:490
+#: account/abstractaccount.cpp:45 account/abstractaccount.cpp:517
 #, kde-format
 msgid "All files (*)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/abstractaccount.cpp:489
+#: account/abstractaccount.cpp:516
 #, kde-format
 msgid "All supported formats (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/abstractaccount.cpp:639
+#: account/abstractaccount.cpp:671
 #, kde-format
 msgid "Could not follow account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/abstractaccount.cpp:640
+#: account/abstractaccount.cpp:672
 #, kde-format
 msgid "Could not unfollow account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/abstractaccount.cpp:641
+#: account/abstractaccount.cpp:673
 #, kde-format
 msgid "Could not remove account as your follower"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/abstractaccount.cpp:642
+#: account/abstractaccount.cpp:674
 #, kde-format
 msgid "Could not block account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/abstractaccount.cpp:643
+#: account/abstractaccount.cpp:675
 #, kde-format
 msgid "Could not unblock account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/abstractaccount.cpp:644
+#: account/abstractaccount.cpp:676
 #, kde-format
 msgid "Could not mute account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/abstractaccount.cpp:645
+#: account/abstractaccount.cpp:677
 #, kde-format
 msgid "Could not unmute account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/abstractaccount.cpp:646
+#: account/abstractaccount.cpp:678
 #, kde-format
 msgid "Could not feature account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/abstractaccount.cpp:647
+#: account/abstractaccount.cpp:679
 #, kde-format
 msgid "Could not unfeature account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/abstractaccount.cpp:648
+#: account/abstractaccount.cpp:680
 #, kde-format
 msgid "Could not edit note about an account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:32 account/notificationhandler.cpp:33
+#: account/account.cpp:300
+#, kde-format
+msgctxt "@info:label Error message"
+msgid "Network request was interrupted"
+msgstr ""
+
+#. +> trunk6 stable6
+#: account/account.cpp:309 account/account.cpp:316
+#, kde-format
+msgctxt "@info:label Error message"
+msgid "Failed to parse credentials"
+msgstr ""
+
+#. +> trunk6 stable6
+#: account/notificationhandler.cpp:35 account/notificationhandler.cpp:36
 #, kde-format
 msgid "View Post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:53 account/notificationhandler.cpp:54
+#: account/notificationhandler.cpp:56 account/notificationhandler.cpp:57
 #, kde-format
 msgid "View Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:76
+#: account/notificationhandler.cpp:79
 #: content/ui/Notifications/UserInteractionLabel.qml:81
 #, kde-format
 msgid "%1 mentioned you"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:84
+#: account/notificationhandler.cpp:87
 #: content/ui/Notifications/UserInteractionLabel.qml:89
 #, kde-format
 msgid "%1 wrote a new post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:92
+#: account/notificationhandler.cpp:95
 #: content/ui/Notifications/UserInteractionLabel.qml:79
 #, kde-format
 msgid "%1 boosted your post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:100 content/ui/FollowDelegate.qml:70
+#: account/notificationhandler.cpp:103
+#: content/ui/Notifications/FollowDelegate.qml:82
 #, kde-format
 msgid "%1 followed you"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:108
+#: account/notificationhandler.cpp:111
+#: content/ui/Notifications/FollowDelegate.qml:80
 #, kde-format
 msgid "%1 requested to follow you"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:116
+#: account/notificationhandler.cpp:119
 #: content/ui/Notifications/UserInteractionLabel.qml:83
 #, kde-format
 msgid "%1 favorited your post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:124
+#: account/notificationhandler.cpp:127
 #, kde-format
 msgid "Poll by %1 has ended"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:132
+#: account/notificationhandler.cpp:135
 #, kde-format
 msgid "%1 edited a post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:143
+#: account/notificationhandler.cpp:146
 #, kde-format
 msgctxt "@title this is used for notifications, when an annual report is available. It's similar to spotify wrapped, it shows profile stats / it's a recap of the year. The variable is the current year e.g. 2024. Please don't translate the hashtag."
 msgid "Your %1 #FediWrapped awaits!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:145
+#: account/notificationhandler.cpp:148
 #, kde-format
 msgid "Unveil your year's highlights and memorable moments on Mastodon!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:149
+#: account/notificationhandler.cpp:152
 #, kde-format
 msgctxt "@title"
 msgid "New Notification"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:150
+#: account/notificationhandler.cpp:153
 #, kde-format
 msgid "You received a new notification."
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:158
+#: account/notificationhandler.cpp:161
 #, kde-kuit-format
 msgid "<b>Content Notice</b>: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:162
+#: account/notificationhandler.cpp:165
 #, kde-format
 msgid "This post has no text."
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:169
+#: account/notificationhandler.cpp:172
 #, kde-format
 msgid "The moderators of your server has limited this user, view this in Tokodon to see their profile."
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/notificationhandler.cpp:173
+#: account/notificationhandler.cpp:176
 #, kde-format
 msgid "This user doesn't have a description."
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/profileeditor.cpp:185
+#: account/profileeditor.cpp:188
 #, kde-format
 msgid "Image is too big"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/profileeditor.cpp:198
+#: account/profileeditor.cpp:201
 #, kde-format
 msgid "Unsupported image file. Only jpeg, png and gif are supported."
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/profileeditor.cpp:338
+#: account/profileeditor.cpp:345
 #, kde-format
 msgid "Account details saved"
 msgstr ""
@@ -295,14 +311,14 @@ msgid "This server provided no rules. Please see their website for more informat
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/scheduledstatusesmodel.cpp:59
+#: account/scheduledstatusesmodel.cpp:72
 #, kde-format
 msgctxt "@title:window"
 msgid "Draft Posts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: account/scheduledstatusesmodel.cpp:59
+#: account/scheduledstatusesmodel.cpp:72
 #, kde-format
 msgctxt "@title:window"
 msgid "Scheduled Posts"
@@ -446,6 +462,20 @@ msgstr ""
 #: account/socialgraphmodel.cpp:84
 #, kde-format
 msgid "Some users need to be manually approved before they can follow you, and will show up here."
+msgstr ""
+
+#. +> trunk6 stable6
+#: account/socialgraphmodel.cpp:86
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No one is following this user, or they have chosen to hide this information."
+msgstr ""
+
+#. +> trunk6 stable6
+#: account/socialgraphmodel.cpp:88
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "This user isn't following anyone, or has chosen to hide this information."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -613,248 +643,248 @@ msgid "Could not unassign report"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:48
+#: content/ui/AccountHeader.qml:54
 #, kde-format
 msgctxt "@info %1 is a display name"
 msgid "%1 has moved to a new account:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:85
+#: content/ui/AccountHeader.qml:90
 #, kde-format
 msgctxt "@action:button"
 msgid "Go to Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:153
+#: content/ui/AccountHeader.qml:158
 #, kde-format
 msgctxt "'Mutual' is the common English word used in social media platforms describe people who follow you back. This the same meaning as 'mutual friends', for example."
 msgid "Mutual"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:153
+#: content/ui/AccountHeader.qml:158
 #, kde-format
 msgid "Follows you"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:174
+#: content/ui/AccountHeader.qml:179
 #, kde-format
 msgid "Bot"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:285
+#: content/ui/AccountHeader.qml:290
 #, kde-format
 msgid "Follow Requested"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:288
+#: content/ui/AccountHeader.qml:293
 #, kde-format
 msgid "Unfollow"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:290
+#: content/ui/AccountHeader.qml:295
 #, kde-format
 msgid "Follow"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:315
+#: content/ui/AccountHeader.qml:320
 #, kde-format
 msgid "Stop notifying me when %1 posts."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:317
+#: content/ui/AccountHeader.qml:322
 #, kde-format
 msgid "Notify me when %1 posts."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:332
+#: content/ui/AccountHeader.qml:337
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show a QR code for this account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:345
+#: content/ui/AccountHeader.qml:350
 #, kde-format
 msgid "Mention…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:351
+#: content/ui/AccountHeader.qml:356
 #, kde-format
 msgid "Start a Conversation…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:360
+#: content/ui/AccountHeader.qml:365
 #, kde-format
 msgid "Hide Boosts from %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:362
+#: content/ui/AccountHeader.qml:367
 #, kde-format
 msgid "Show Boosts from %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:378
+#: content/ui/AccountHeader.qml:383
 #, kde-format
 msgid "Stop Featuring This Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:380
+#: content/ui/AccountHeader.qml:385
 #, kde-format
 msgid "Feature This Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:396
+#: content/ui/AccountHeader.qml:401
 #, kde-format
 msgid "Unmute"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:398
+#: content/ui/AccountHeader.qml:403
 #, kde-format
 msgid "Mute"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:414
+#: content/ui/AccountHeader.qml:419
 #, kde-format
 msgid "Unblock"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:416
+#: content/ui/AccountHeader.qml:421
 #, kde-format
 msgid "Block"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:430 content/ui/PostDelegate/PostMenu.qml:195
+#: content/ui/AccountHeader.qml:435 content/ui/PostDelegate/PostMenu.qml:201
 #, kde-format
 msgctxt "@action:inmenu Report this post"
 msgid "Report…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:436
+#: content/ui/AccountHeader.qml:441
 #, kde-format
 msgid "Edit Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:440
+#: content/ui/AccountHeader.qml:445
 #, kde-format
 msgid "Account editor"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:450
+#: content/ui/AccountHeader.qml:454
 #, kde-format
 msgid "Featured Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:456
+#: content/ui/AccountHeader.qml:461
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Scheduled Posts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:470
+#: content/ui/AccountHeader.qml:475
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Draft Posts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:483 content/ui/PostDelegate/LinkMenu.qml:25
-#: content/ui/PostDelegate/PostMenu.qml:52
+#: content/ui/AccountHeader.qml:488 content/ui/PostDelegate/LinkMenu.qml:25
+#: content/ui/PostDelegate/PostMenu.qml:53
 #, kde-format
 msgctxt "@action:inmenu 'Browser' being a web browser"
 msgid "Open in Browser"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:488
+#: content/ui/AccountHeader.qml:493
 #, kde-format
 msgid "Copy Link"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:491
+#: content/ui/AccountHeader.qml:496
 #, kde-format
 msgid "Profile link copied."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:561
+#: content/ui/AccountHeader.qml:566
 #, kde-format
 msgctxt "@info:label Joined at"
 msgid "Joined"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:601
+#: content/ui/AccountHeader.qml:606
 #, kde-format
 msgid "Ownership of this link was checked on %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:678
+#: content/ui/AccountHeader.qml:683
 #, kde-format
 msgctxt "@label:textfield"
 msgid "Private Note:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:686
+#: content/ui/AccountHeader.qml:691
 #, kde-format
 msgid "Saved"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:701
+#: content/ui/AccountHeader.qml:706
 #, kde-format
 msgid "Write down something about this user, this isn't visible to anyone but you."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:763
+#: content/ui/AccountHeader.qml:768
 #, kde-format
 msgid "Also followed by:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:793
+#: content/ui/AccountHeader.qml:798
 #, kde-format
 msgctxt "@action:button See all familiar followers"
 msgid "View %1 More"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:793
+#: content/ui/AccountHeader.qml:798
 #, kde-format
 msgctxt "@action:button See all familiar followers"
 msgid "View All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:833
+#: content/ui/AccountHeader.qml:838
 #, kde-format
 msgctxt "@label User's number of statuses"
 msgid "<b>%1</b> post"
@@ -863,7 +893,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:846
+#: content/ui/AccountHeader.qml:851
 #, kde-format
 msgctxt "@label User's number of followed accounts"
 msgid "<b>%1</b> follows"
@@ -872,7 +902,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:859
+#: content/ui/AccountHeader.qml:864
 #, kde-format
 msgctxt "@label User's number of followers"
 msgid "<b>%1</b> follower"
@@ -881,89 +911,109 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:884
+#: content/ui/AccountHeader.qml:889
 #, kde-format
 msgctxt "@item:inmenu Profile Post Filter"
 msgid "Posts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:888
+#: content/ui/AccountHeader.qml:893
 #, kde-format
 msgctxt "@item:inmenu Profile Post Filter"
 msgid "Posts && Replies"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:892
+#: content/ui/AccountHeader.qml:897
 #, kde-format
 msgctxt "@item:inmenu Profile Post Filter"
 msgid "Media"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:923
+#: content/ui/AccountHeader.qml:928
 #, kde-format
 msgctxt "@option:check"
 msgid "Hide boosts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountHeader.qml:943
+#: content/ui/AccountHeader.qml:948
 #, kde-format
 msgctxt "@action:button Show all of a profile's posts"
 msgid "All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountInfo.qml:36 content/ui/AccountInfo.qml:45
+#: content/ui/AccountInfo.qml:31 content/ui/AccountInfo.qml:40
 #, kde-format
 msgctxt "@title:window"
 msgid "Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountInfo.qml:57 content/ui/ExplorePage.qml:35
-#: content/ui/TimelinePage.qml:99
-#, kde-format
-msgctxt "@action:button"
-msgid "Post"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/AccountInfo.qml:132
+#: content/ui/AccountInfo.qml:130 content/ui/FollowingPage.qml:161
 #, kde-format
 msgctxt "@label"
 msgid "No Posts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountInfo.qml:133
+#: content/ui/AccountInfo.qml:131 content/ui/FollowingPage.qml:162
 #, kde-format
 msgid "This user hasn't posted anything yet."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountInfo.qml:237
+#: content/ui/AccountInfo.qml:259
 #, kde-format
 msgctxt "@label"
 msgid "No Media"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/AccountInfo.qml:238
+#: content/ui/AccountInfo.qml:260
 #, kde-format
 msgid "This user hasn't posted any media yet."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Android/ShareAction.qml:15 content/ui/ShareAction.qml:19
+#: content/ui/AccountSwitchDialog.qml:29
+#, kde-format
+msgctxt "@title: dialog to switch between logged in accounts"
+msgid "Switch Account"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/AccountSwitchDialog.qml:56
+#, kde-format
+msgctxt "@button: login to or register a new account."
+msgid "Add Account"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/AccountSwitchDialog.qml:59
+#, kde-format
+msgid "Log in or create a new account"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/AccountSwitchDialog.qml:157
+#: content/ui/Settings/AccountsPage.qml:81
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This account has an issue and can't login, switch to it for more details."
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Android/ShareAction.qml:15 content/ui/ShareAction.qml:20
 #, kde-format
 msgid "Share"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Android/ShareAction.qml:16 content/ui/ShareAction.qml:20
+#: content/ui/Android/ShareAction.qml:16 content/ui/ShareAction.qml:21
 #, kde-format
 msgid "Share the selected media"
 msgstr ""
@@ -1012,7 +1062,6 @@ msgstr ""
 #. +> trunk6 stable6
 #: content/ui/Components/ClickableIdentityInfo.qml:43
 #: content/ui/Notifications/UserInteractionLabel.qml:68
-#: content/ui/PostDelegate/PostInteractionLabel.qml:64
 #: content/ui/PostDelegate/QuotePost.qml:60
 #, kde-format
 msgid "View profile"
@@ -1025,86 +1074,107 @@ msgid "No emojis"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Components/TimelineView.qml:65
+#: content/ui/Components/ServerInformationCard.qml:28
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No Information"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Components/ServerInformationCard.qml:33
+#, kde-format
+msgctxt "@info Last updated: relative date and time (e.g. 2 years ago)"
+msgid "Last updated: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Components/TimelineView.qml:84
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Post"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Components/TimelineView.qml:92
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Return to Top"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Components/TimelineView.qml:129
+#: content/ui/Components/TimelineView.qml:176
 #, kde-format
 msgctxt "@info:status"
 msgid "Some replies are not available"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Components/TimelineView.qml:130
+#: content/ui/Components/TimelineView.qml:177
 #, kde-format
 msgid "To view all replies, open the post on the original server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Components/TimelineView.qml:133
+#: content/ui/Components/TimelineView.qml:180
 #, kde-format
 msgctxt "@action:button 'Browser' being a web browser"
 msgid "Open in Browser"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Components/TimelineView.qml:142
+#: content/ui/Components/TimelineView.qml:189
 #, kde-format
 msgctxt "@info:status"
 msgid "End of Timeline"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ConversationPage.qml:13
+#: content/ui/ConversationPage.qml:15
 #, kde-format
 msgid "Conversations"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ConversationPage.qml:18
+#: content/ui/ConversationPage.qml:20
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "New Conversation…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ConversationPage.qml:29
+#: content/ui/ConversationPage.qml:31
 #, kde-format
 msgctxt "@title"
 msgid "Search Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ConversationPage.qml:102
+#: content/ui/ConversationPage.qml:103
 #, kde-format
 msgid "Search for user…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ConversationPage.qml:139
+#: content/ui/ConversationPage.qml:142
 #, kde-format
 msgid "No Conversations"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ConversationPage.qml:140
+#: content/ui/ConversationPage.qml:143
 #, kde-format
 msgid "Direct messages to other users will show up here. Do not share any sensitive information over a conversation."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Debug/DebugPage.qml:24
+#: content/ui/Debug/DebugPage.qml:19
 #, kde-format
 msgctxt "@action:button"
 msgid "Increase follow request count"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Debug/DebugPage.qml:28
+#: content/ui/Debug/DebugPage.qml:23
 #, kde-format
 msgctxt "@action:button"
 msgid "Decrease follow request count"
@@ -1186,48 +1256,48 @@ msgid "Add Users to List…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/EditListPage.qml:173
+#: content/ui/EditListPage.qml:172
 #, kde-format
 msgctxt "@action:button Add user to this list"
 msgid "Add"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/EditListPage.qml:220
+#: content/ui/EditListPage.qml:219
 #, kde-format
 msgid "Search among users you follow…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/EditListPage.qml:254
+#: content/ui/EditListPage.qml:253
 #, kde-format
 msgctxt "@action:button Create the list"
 msgid "Create"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/EditListPage.qml:256
+#: content/ui/EditListPage.qml:255
 #, kde-format
-msgctxt "@action:button Edit the list"
-msgid "Edit"
+msgctxt "@action:button Save the edited list"
+msgid "Save"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/EditListPage.qml:269
+#: content/ui/EditListPage.qml:268
 #, kde-format
 msgctxt "@action:button Delete the list"
 msgid "Delete"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/EditListPage.qml:276
+#: content/ui/EditListPage.qml:275
 #, kde-format
 msgctxt "@title"
 msgid "Deleting List"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/EditListPage.qml:277
+#: content/ui/EditListPage.qml:276
 #, kde-format
 msgctxt "@label"
 msgid "Are you sure you want to delete this list?"
@@ -1240,45 +1310,45 @@ msgid "Explore"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ExplorePage.qml:41 search/searchmodel.cpp:155
+#: content/ui/ExplorePage.qml:34 search/searchmodel.cpp:155
 #, kde-format
 msgid "Posts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ExplorePage.qml:47 search/searchmodel.cpp:153
+#: content/ui/ExplorePage.qml:40 search/searchmodel.cpp:153
 #, kde-format
 msgid "Hashtags"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ExplorePage.qml:53
+#: content/ui/ExplorePage.qml:46
 #, kde-format
 msgid "News"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ExplorePage.qml:59 search/searchmodel.cpp:151
+#: content/ui/ExplorePage.qml:52 search/searchmodel.cpp:151
 #, kde-format
 msgid "Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ExplorePage.qml:117
+#: content/ui/ExplorePage.qml:110
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No Posts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ExplorePage.qml:144
+#: content/ui/ExplorePage.qml:137
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No Tags"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ExplorePage.qml:176
+#: content/ui/ExplorePage.qml:169
 #, kde-format
 msgid "%1 person is talking"
 msgid_plural "%1 people are talking"
@@ -1286,23 +1356,17 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: content/ui/ExplorePage.qml:268
+#: content/ui/ExplorePage.qml:262
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No News"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ExplorePage.qml:305
+#: content/ui/ExplorePage.qml:299
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No Users"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/FollowDelegate.qml:68
-#, kde-format
-msgid "%1 signed up"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1314,7 +1378,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: content/ui/FollowingPage.qml:41 content/ui/Settings/SafetyPage.qml:26
-#: content/ui/TimelinePage.qml:105
+#: content/ui/TimelinePage.qml:110
 #, kde-format
 msgctxt "@action:button"
 msgid "Filters"
@@ -1335,27 +1399,27 @@ msgid "Show Replies"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/FollowingPage.qml:65 content/ui/TimelinePage.qml:127
+#: content/ui/FollowingPage.qml:65 content/ui/TimelinePage.qml:139
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Configure Filters…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/FollowingPage.qml:66 content/ui/TimelinePage.qml:128
+#: content/ui/FollowingPage.qml:66 content/ui/TimelinePage.qml:140
 #, kde-format
 msgctxt "@title:window"
 msgid "Filters"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/FollowingPage.qml:161
+#: content/ui/FollowingPage.qml:155
 #, kde-format
 msgid "No User Selected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/FollowingPage.qml:162
+#: content/ui/FollowingPage.qml:156
 #, kde-format
 msgid "With the Following view, easily check on each user you're following and only their posts - sorted by recent activity."
 msgstr ""
@@ -1365,6 +1429,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Open Post"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/GenericServerInformationPage.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "About Server"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1400,7 +1471,6 @@ msgstr ""
 #: content/ui/InitialSetup/SetupNotifications.qml:49
 #: content/ui/InitialSetup/SetupWelcome.qml:42
 #: content/ui/LoginFlow/CodeAuthorization.qml:32
-#: content/ui/LoginFlow/LoginPage.qml:125
 #, kde-format
 msgid "Continue"
 msgstr ""
@@ -1464,33 +1534,40 @@ msgid "Close"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ListsPage.qml:22
+#: content/ui/ListsPage.qml:23
 #, kde-format
 msgctxt "@title"
 msgid "Lists"
 msgstr ""
 
-#. +> trunk6 stable6
-#: content/ui/ListsPage.qml:35
+#. +> trunk6
+#: content/ui/ListsPage.qml:36
 #, kde-format
-msgid "Create List"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/ListsPage.qml:76
-#, kde-format
-msgid "No Lists"
+msgctxt "@action:button Create new list"
+msgid "Create New…"
 msgstr ""
 
 #. +> trunk6 stable6
 #: content/ui/ListsPage.qml:77
 #, kde-format
+msgid "No Lists"
+msgstr ""
+
+#. +> stable6
+#: content/ui/ListsPage.qml:36
+#, kde-format
+msgid "Create List"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/ListsPage.qml:78
+#, kde-format
 msgid "Lists allow you to categorize who you're following."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ListTimelinePage.qml:18 content/ui/Main.qml:422
-#: content/ui/Main.qml:473 content/ui/Main.qml:493
+#: content/ui/ListTimelinePage.qml:18 content/ui/Main.qml:273
+#: content/ui/Main.qml:309 content/ui/Main.qml:324
 #, kde-format
 msgid "No Posts"
 msgstr ""
@@ -1501,7 +1578,14 @@ msgstr ""
 msgid "There are no posts from the users in your list. Only new posts will appear in a list."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: content/ui/ListTimelinePage.qml:30
+#, kde-format
+msgctxt "@action:button Edit current list"
+msgid "Edit…"
+msgstr ""
+
+#. +> stable6
 #: content/ui/ListTimelinePage.qml:30
 #, kde-format
 msgid "Edit List"
@@ -1567,12 +1651,12 @@ msgstr ""
 #: content/ui/LoginFlow/LoginIssuePage.qml:27
 #, kde-format
 msgid ""
-"There was an issue logging into the server:<br>"
-"<b>%1</b>"
+"There was an issue logging into %1:<br>"
+"<b>%2</b>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginIssuePage.qml:37
+#: content/ui/LoginFlow/LoginIssuePage.qml:38
 #, kde-format
 msgid ""
 "Please check if the password service is running. For other login issues, you can try logging into the server's website.\n"
@@ -1581,26 +1665,26 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginIssuePage.qml:47
+#: content/ui/LoginFlow/LoginIssuePage.qml:48
 #, kde-format
 msgid "View Website"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginIssuePage.qml:56
+#: content/ui/LoginFlow/LoginIssuePage.qml:57
 #, kde-format
 msgid "Re-Attempt Log In"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginIssuePage.qml:68
+#: content/ui/LoginFlow/LoginIssuePage.qml:69
 #: content/ui/Settings/AccountPage.qml:34
 #, kde-format
 msgid "Logout"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginIssuePage.qml:75
+#: content/ui/LoginFlow/LoginIssuePage.qml:76
 #: content/ui/Settings/AccountPage.qml:54
 #, kde-format
 msgctxt "@title"
@@ -1608,75 +1692,10 @@ msgid "Logout"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginIssuePage.qml:76
+#: content/ui/LoginFlow/LoginIssuePage.qml:77
 #, kde-format
 msgctxt "@label"
 msgid "Are you sure you want to log out?"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginPage.qml:17
-#, kde-format
-msgctxt "@title:window"
-msgid "Login"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginPage.qml:24
-#: content/ui/LoginFlow/RegistrationPage.qml:25
-#: content/ui/LoginFlow/RegistrationPage.qml:36
-#: content/ui/LoginFlow/RulesPage.qml:25
-#: content/ui/LoginFlow/ServersPage.qml:29
-#, kde-format
-msgctxt "@info:status Network status"
-msgid "Failed to contact server: %1. Please check your proxy settings."
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginPage.qml:38
-#: content/ui/LoginFlow/RegistrationPage.qml:85
-#: content/ui/LoginFlow/RulesPage.qml:40
-#: content/ui/LoginFlow/ServersPage.qml:93
-#: content/ui/Settings/NetworkProxyPage.qml:70
-#, kde-format
-msgid "Proxy Settings"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginPage.qml:100
-#, kde-format
-msgctxt "@title:group"
-msgid "Login"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginPage.qml:106
-#, kde-format
-msgid "Server URL:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginPage.qml:107
-#, kde-format
-msgid "mastodon.social"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginPage.qml:116
-#, kde-format
-msgid "Enable moderation tools"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginPage.qml:117
-#, kde-format
-msgid "Allow Tokodon to access moderation tools. Try disabling this if you have trouble logging in."
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/LoginFlow/LoginPage.qml:131
-#, kde-format
-msgid "Server URL must not be empty!"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1684,6 +1703,25 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Registration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/LoginFlow/RegistrationPage.qml:25
+#: content/ui/LoginFlow/RegistrationPage.qml:36
+#: content/ui/LoginFlow/RulesPage.qml:25
+#: content/ui/LoginFlow/ServersPage.qml:30
+#, kde-format
+msgctxt "@info:status Network status"
+msgid "Failed to contact server: %1. Please check your proxy settings."
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/LoginFlow/RegistrationPage.qml:85
+#: content/ui/LoginFlow/RulesPage.qml:40
+#: content/ui/LoginFlow/ServersPage.qml:170
+#: content/ui/Settings/NetworkProxyPage.qml:70
+#, kde-format
+msgid "Proxy Settings"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1715,11 +1753,17 @@ msgstr ""
 #. +> trunk6 stable6
 #: content/ui/LoginFlow/RegistrationPage.qml:128
 #, kde-format
+msgid "Date of Birth"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/LoginFlow/RegistrationPage.qml:136
+#, kde-format
 msgid "Reason"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/RegistrationPage.qml:137
+#: content/ui/LoginFlow/RegistrationPage.qml:145
 #, kde-format
 msgid "Register"
 msgstr ""
@@ -1733,7 +1777,6 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: content/ui/LoginFlow/RulesPage.qml:47
-#: content/ui/ServerInformationPage.qml:38
 #, kde-format
 msgctxt "@title:group"
 msgid "Rules"
@@ -1761,43 +1804,50 @@ msgid "Pick a Server"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/ServersPage.qml:37
+#: content/ui/LoginFlow/ServersPage.qml:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose your Existing Server"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/LoginFlow/ServersPage.qml:38
 #, kde-format
 msgid "This server is closed for registration: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/ServersPage.qml:39
+#: content/ui/LoginFlow/ServersPage.qml:40
 #, kde-format
 msgid "This server is closed for registration, and did not provide a reason."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/ServersPage.qml:101
+#: content/ui/LoginFlow/ServersPage.qml:178
 #, kde-format
 msgid "Search or enter URL…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/ServersPage.qml:141
+#: content/ui/LoginFlow/ServersPage.qml:217
 #, kde-format
 msgid "Custom Server"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/ServersPage.qml:150
+#: content/ui/LoginFlow/ServersPage.qml:226
 #, kde-format
 msgid "Public Servers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/ServersPage.qml:180
+#: content/ui/LoginFlow/ServersPage.qml:256
 #, kde-format
 msgid "No Public Servers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/LoginFlow/ServersPage.qml:181
+#: content/ui/LoginFlow/ServersPage.qml:257
 #, kde-format
 msgid "Enter a server URL manually in the search field."
 msgstr ""
@@ -1827,14 +1877,14 @@ msgstr ""
 #: content/ui/LoginFlow/WelcomePage.qml:80
 #, kde-format
 msgctxt "@action:button Pick a Mastodon server"
-msgid "Pick a Server"
+msgid "Register"
 msgstr ""
 
 #. +> trunk6 stable6
 #: content/ui/LoginFlow/WelcomePage.qml:90
 #, kde-format
 msgctxt "@action:button Use an existing Mastodon account"
-msgid "Use an Existing Account"
+msgid "Login"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1859,279 +1909,279 @@ msgid "Compatible with"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:133
+#: content/ui/Main.qml:146
 #, kde-format
 msgctxt "@title"
 msgid "Open As…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:135
+#: content/ui/Main.qml:148
 #, kde-format
 msgctxt "@title"
 msgid "Reply As…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:137
+#: content/ui/Main.qml:150
 #, kde-format
 msgctxt "@title"
 msgid "Favorite As…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:139
+#: content/ui/Main.qml:152
 #, kde-format
 msgctxt "@title"
 msgid "Boost As…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:141
+#: content/ui/Main.qml:154
 #, kde-format
 msgctxt "@title"
 msgid "Bookmark As…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:143
+#: content/ui/Main.qml:156
 #, kde-format
 msgctxt "@title"
 msgid "Unknown Action"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:255
+#: content/ui/Main.qml:274 content/ui/Main.qml:310 content/ui/Main.qml:325
+#, kde-format
+msgid "It seems pretty quiet right now, try posting something!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Main.qml:339
+#, kde-format
+msgid "No Favorites"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Main.qml:340
+#, kde-format
+msgid "Posts that you favorite will show up here. If you appreciate someone's post, favorite it!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Main.qml:354
+#, kde-format
+msgid "No Bookmarks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Main.qml:355
+#, kde-format
+msgid "Bookmark posts and they will show up here. Bookmarks are always kept private, even to the post's author."
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Main.qml:445
 #, kde-format
 msgid "Write a New Post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:282
+#: content/ui/Main.qml:472
 #, kde-format
 msgid "Write a new post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:327
+#: content/ui/Main.qml:517
 #, kde-format
 msgid "Reply to post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:410
+#: content/ui/Main.qml:599
 #, kde-format
 msgctxt "@action:button Home Timeline"
 msgid "Home"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:423 content/ui/Main.qml:474 content/ui/Main.qml:494
-#, kde-format
-msgid "It seems pretty quiet right now, try posting something!"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/Main.qml:432
+#: content/ui/Main.qml:604
 #, kde-format
 msgctxt "@action:button Account Notifications"
 msgid "Notifications"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:446
+#: content/ui/Main.qml:609
 #, kde-format
 msgctxt "@action:button Follows that require explicit allow/deny"
 msgid "Follow Requests"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:461
+#: content/ui/Main.qml:614
 #, kde-format
 msgctxt "@action:button Local timeline of posts from the account's own server"
 msgid "Local"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:481
+#: content/ui/Main.qml:618
 #, kde-format
 msgctxt "@action:button Global timeline of posts from the entire Fediverse network"
 msgid "Global"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:502
+#: content/ui/Main.qml:622
 #, kde-format
 msgctxt "@action:button Direct one-on-one messages between users"
 msgid "Conversations"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:515
+#: content/ui/Main.qml:626
 #, kde-format
 msgctxt "@action:button This account's favorited posts"
 msgid "Favorites"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:527
-#, kde-format
-msgid "No Favorites"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/Main.qml:528
-#, kde-format
-msgid "Posts that you favorite will show up here. If you appreciate someone's post, favorite it!"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/Main.qml:536
+#: content/ui/Main.qml:630
 #, kde-format
 msgctxt "@action:button This account's bookmarked posts"
 msgid "Bookmarks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:548
-#, kde-format
-msgid "No Bookmarks"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/Main.qml:549
-#, kde-format
-msgid "Bookmark posts and they will show up here. Bookmarks are always kept private, even to the post's author."
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/Main.qml:557
+#: content/ui/Main.qml:634
 #, kde-format
 msgctxt "@action:button Explore this server's trending posts, news, and more"
 msgid "Explore"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:570
+#: content/ui/Main.qml:638
 #, kde-format
 msgctxt "@action:button A list of this account's followed accounts"
 msgid "Following"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:583
+#: content/ui/Main.qml:642
 #, kde-format
 msgctxt "@action:button Search for users, posts and tags"
 msgid "Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:610
+#: content/ui/Main.qml:650
 #, kde-format
 msgctxt "@action:button This account's lists, or timelines consisting of a groups of accounts"
 msgid "Lists"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:623
+#: content/ui/Main.qml:654
 #, kde-format
 msgctxt "@action:button This account's profile"
 msgid "Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:640
+#: content/ui/Main.qml:661
 #, kde-format
 msgctxt "@action:button Open debug page"
 msgid "Debug"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:650
+#: content/ui/Main.qml:674
 #, kde-format
 msgctxt "@action:button Open moderation tools"
 msgid "Moderation Tools"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:657
+#: content/ui/Main.qml:681
 #, kde-format
 msgctxt "@action:button Open settings dialog"
 msgid "Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:796
+#: content/ui/Main.qml:844
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Unfollow"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:796
+#: content/ui/Main.qml:844
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Follow"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Main.qml:844
+#: content/ui/Main.qml:893
 #, kde-format
 msgctxt "@title"
 msgid "Embed Information"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:30
-#: content/ui/ModerationTools/AccountToolPage.qml:214
+#: content/ui/ModerationTools/AccountToolPage.qml:31
+#: content/ui/ModerationTools/AccountToolPage.qml:215
 #, kde-format
 msgid "Advanced Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:40
+#: content/ui/ModerationTools/AccountToolPage.qml:41
 #, kde-format
 msgctxt "@info:placeholder Username for searching accounts"
 msgid "Username:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:45
+#: content/ui/ModerationTools/AccountToolPage.qml:46
 #, kde-format
 msgctxt "@info:placeholder display name for searching accounts"
 msgid "Display Name:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:50
+#: content/ui/ModerationTools/AccountToolPage.qml:51
 #, kde-format
 msgctxt "@info:placeholder email for searching accounts"
 msgid "Email:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:55
+#: content/ui/ModerationTools/AccountToolPage.qml:56
 #, kde-format
 msgctxt "@info:placeholder ip for searching accounts"
 msgid "IP:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:62
+#: content/ui/ModerationTools/AccountToolPage.qml:63
 #, kde-format
 msgctxt "@info:Search button to initiate searching accounts"
 msgid "Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:73
+#: content/ui/ModerationTools/AccountToolPage.qml:74
 #, kde-format
 msgctxt "@info:Reset button to reset all the text fields"
 msgid "Reset"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:78
+#: content/ui/ModerationTools/AccountToolPage.qml:79
 #: content/ui/ModerationTools/FederationToolPage.qml:140
 #: content/ui/ModerationTools/FederationToolPage.qml:171
 #: content/ui/ModerationTools/IpRulePage.qml:121
@@ -2142,112 +2192,112 @@ msgid "Cancel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:95
+#: content/ui/ModerationTools/AccountToolPage.qml:96
 #, kde-format
 msgctxt "@info:Location combobox to choose location filters"
 msgid "Location"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:108
+#: content/ui/ModerationTools/AccountToolPage.qml:109
 #, kde-format
 msgctxt "@info:Filter out accounts from any location"
 msgid "All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:112
+#: content/ui/ModerationTools/AccountToolPage.qml:113
 #, kde-format
 msgctxt "@info:Filter out local accounts"
 msgid "Local"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:116
+#: content/ui/ModerationTools/AccountToolPage.qml:117
 #, kde-format
 msgctxt "@info:Filter out remote accounts"
 msgid "Remote"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:130
+#: content/ui/ModerationTools/AccountToolPage.qml:131
 #, kde-format
 msgctxt "@info:Moderation Status combobox to choose between different moderation status filters"
 msgid "Moderation Status"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:141
+#: content/ui/ModerationTools/AccountToolPage.qml:142
 #, kde-format
 msgctxt "@info:Filter out accounts with any moderation status"
 msgid "All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:145
+#: content/ui/ModerationTools/AccountToolPage.qml:146
 #, kde-format
 msgctxt "@info:Filter out accounts with active moderation status"
 msgid "Active"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:149
+#: content/ui/ModerationTools/AccountToolPage.qml:150
 #, kde-format
 msgctxt "@info:Filter out accounts with pending moderation status"
 msgid "Pending"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:153
+#: content/ui/ModerationTools/AccountToolPage.qml:154
 #, kde-format
 msgctxt "@info:Filter out accounts with disabled moderation status"
 msgid "Disabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:157
+#: content/ui/ModerationTools/AccountToolPage.qml:158
 #, kde-format
 msgctxt "@info:Filter out accounts with silenced moderation status"
 msgid "Silenced"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:161
+#: content/ui/ModerationTools/AccountToolPage.qml:162
 #, kde-format
 msgctxt "@info:Filter out accounts with suspended moderation status"
 msgid "Suspended"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:174
+#: content/ui/ModerationTools/AccountToolPage.qml:175
 #, kde-format
 msgctxt "@info:Role combobox to choose between different role filters"
 msgid "Role"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:188
+#: content/ui/ModerationTools/AccountToolPage.qml:189
 #, kde-format
 msgctxt "@info:Filter out accounts with any role"
 msgid "All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:192
+#: content/ui/ModerationTools/AccountToolPage.qml:193
 #, kde-format
 msgctxt "@info:Filter out accounts with moderator role"
 msgid "Moderator"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:196
+#: content/ui/ModerationTools/AccountToolPage.qml:197
 #, kde-format
 msgctxt "@info:Filter out accounts with admin role"
 msgid "Admin"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/AccountToolPage.qml:200
+#: content/ui/ModerationTools/AccountToolPage.qml:201
 #, kde-format
 msgctxt "@info:Filter out accounts with owner role"
 msgid "Owner"
@@ -2774,130 +2824,130 @@ msgid "Perform moderation action on %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:35
+#: content/ui/ModerationTools/MainAccountToolPage.qml:36
 #, kde-format
 msgctxt "@info: Use this to send a warning to the user, without triggering any other action."
 msgid "Warn"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:39
+#: content/ui/ModerationTools/MainAccountToolPage.qml:40
 #, kde-format
 msgctxt "@info: Prevent the user from using their account, but do not delete or hide their contents."
 msgid "Freeze"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:44
+#: content/ui/ModerationTools/MainAccountToolPage.qml:45
 #, kde-format
 msgctxt "@info: Force all this user's media attachments to be flagged as sensitive."
 msgid "Force-Sensitive"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:49
+#: content/ui/ModerationTools/MainAccountToolPage.qml:50
 #, kde-format
 msgctxt "@info: Prevent the user from being able to post with public visibility, hide their posts and notifications from people not following them."
 msgid "Limit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:54
+#: content/ui/ModerationTools/MainAccountToolPage.qml:55
 #, kde-format
 msgctxt "@info: Prevent any interaction from or to this account and delete its contents. Revertible within 30 days."
 msgid "Suspend"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:59
+#: content/ui/ModerationTools/MainAccountToolPage.qml:60
 #, kde-format
 msgctxt "@info: The user will receive an explanation of what happened with their account"
 msgid "Notify the user per e-mail"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:65
+#: content/ui/ModerationTools/MainAccountToolPage.qml:66
 #, kde-format
 msgctxt "@info: Send a warning note to the user."
 msgid "Custom warning"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:76
+#: content/ui/ModerationTools/MainAccountToolPage.qml:77
 #, kde-format
 msgctxt "@info:Button to submit the action aginst the user."
 msgid "Submit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:92
+#: content/ui/ModerationTools/MainAccountToolPage.qml:93
 #, kde-format
 msgid "Action taken successfully"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:97
+#: content/ui/ModerationTools/MainAccountToolPage.qml:98
 #, kde-format
 msgctxt "@info:Cancel button to close the dailog."
 msgid "Cancel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:107
+#: content/ui/ModerationTools/MainAccountToolPage.qml:108
 #, kde-format
 msgid "Are you sure?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:108
+#: content/ui/ModerationTools/MainAccountToolPage.qml:109
 #, kde-format
 msgid "Action will be taken against the account."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:116
+#: content/ui/ModerationTools/MainAccountToolPage.qml:117
 #, kde-format
 msgid "Successfully approved %1's sign-up application"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:120
+#: content/ui/ModerationTools/MainAccountToolPage.qml:121
 #, kde-format
 msgid "Successfully rejected %1's sign-up application"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:124
+#: content/ui/ModerationTools/MainAccountToolPage.qml:125
 #, kde-format
 msgid "Successfully unfreezed %1's account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:128
+#: content/ui/ModerationTools/MainAccountToolPage.qml:129
 #, kde-format
 msgid "Successfully unsilenced %1's account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:132
+#: content/ui/ModerationTools/MainAccountToolPage.qml:133
 #, kde-format
 msgid "Successfully unsuspended %1's account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:136
+#: content/ui/ModerationTools/MainAccountToolPage.qml:137
 #, kde-format
 msgid "Successfully undo force-sensitive %1's account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:140
+#: content/ui/ModerationTools/MainAccountToolPage.qml:141
 #, kde-format
 msgid "Successfully deleted %1's account data"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:225
+#: content/ui/ModerationTools/MainAccountToolPage.qml:226
 #: content/ui/ModerationTools/MainReportToolPage.qml:98
 #, kde-format
 msgctxt "@info Bio label of account."
@@ -2905,165 +2955,165 @@ msgid "Bio"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:270
+#: content/ui/ModerationTools/MainAccountToolPage.qml:271
 #, kde-format
 msgid "Reasons for joining"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:316
+#: content/ui/ModerationTools/MainAccountToolPage.qml:317
 #, kde-format
 msgctxt "@info:Number of Posts"
 msgid "Posts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:320
+#: content/ui/ModerationTools/MainAccountToolPage.qml:321
 #, kde-format
 msgctxt "@info:Number of followers."
 msgid "Followers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:324
+#: content/ui/ModerationTools/MainAccountToolPage.qml:325
 #, kde-format
 msgctxt "@info:row Number of accounts followed by the account"
 msgid "Following"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:327
+#: content/ui/ModerationTools/MainAccountToolPage.qml:328
 #, kde-format
 msgid "No role"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:328
+#: content/ui/ModerationTools/MainAccountToolPage.qml:329
 #, kde-format
 msgctxt "@info Role of the account on this server."
 msgid "Role"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:332
+#: content/ui/ModerationTools/MainAccountToolPage.qml:333
 #, kde-format
 msgctxt "@info The last time the account was active."
 msgid "Last Active"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:336
+#: content/ui/ModerationTools/MainAccountToolPage.qml:337
 #, kde-format
 msgctxt "@info The current login status of the account."
 msgid "Login Status"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:348
+#: content/ui/ModerationTools/MainAccountToolPage.qml:349
 #, kde-format
 msgctxt "@info: Role of the user."
 msgid "Role"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:356
+#: content/ui/ModerationTools/MainAccountToolPage.qml:357
 #, kde-format
 msgctxt "@info: Email of the user."
 msgid "Email"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:363
+#: content/ui/ModerationTools/MainAccountToolPage.qml:364
 #, kde-format
 msgctxt "@info: Email confirmation status of the user."
 msgid "Email Status"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:364
+#: content/ui/ModerationTools/MainAccountToolPage.qml:365
 #, kde-format
 msgid "Confirmed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:364
+#: content/ui/ModerationTools/MainAccountToolPage.qml:365
 #, kde-format
 msgid "Not Confirmed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:371
+#: content/ui/ModerationTools/MainAccountToolPage.qml:372
 #, kde-format
 msgctxt "@info: Locale of the user."
 msgid "Account Locale"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:379
+#: content/ui/ModerationTools/MainAccountToolPage.qml:380
 #, kde-format
 msgctxt "@info: Joining date of the user"
 msgid "Joined"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:387
+#: content/ui/ModerationTools/MainAccountToolPage.qml:388
 #, kde-format
 msgid "Most recent IP"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:415
+#: content/ui/ModerationTools/MainAccountToolPage.qml:416
 #, kde-format
 msgid "Invited By"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:437
+#: content/ui/ModerationTools/MainAccountToolPage.qml:438
 #, kde-format
 msgctxt "@info: Approve the user's request"
 msgid "Approve"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:449
+#: content/ui/ModerationTools/MainAccountToolPage.qml:450
 #, kde-format
 msgctxt "@info: Reject the user's request"
 msgid "Reject"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:460
+#: content/ui/ModerationTools/MainAccountToolPage.qml:461
 #, kde-format
 msgid "Delete Account Data"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:472
+#: content/ui/ModerationTools/MainAccountToolPage.qml:473
 #, kde-format
 msgctxt "@info: Unfreeze the user's account"
 msgid "Unfreeze"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:482
+#: content/ui/ModerationTools/MainAccountToolPage.qml:483
 #, kde-format
 msgid "Undo Limit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:492
+#: content/ui/ModerationTools/MainAccountToolPage.qml:493
 #, kde-format
 msgid "Undo Suspension"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:502
+#: content/ui/ModerationTools/MainAccountToolPage.qml:503
 #, kde-format
 msgid "Undo force-sensitive"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/MainAccountToolPage.qml:513
+#: content/ui/ModerationTools/MainAccountToolPage.qml:514
 #, kde-format
 msgid "Take action against this account"
 msgstr ""
@@ -3537,14 +3587,14 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: content/ui/ModerationTools/MainReportToolPage.qml:413
-#: content/ui/PostDelegate/PostDelegate.qml:393
+#: content/ui/PostDelegate/ContentNotice.qml:52
 #, kde-format
 msgid "Show Less"
 msgstr ""
 
 #. +> trunk6 stable6
 #: content/ui/ModerationTools/MainReportToolPage.qml:413
-#: content/ui/PostDelegate/PostDelegate.qml:393
+#: content/ui/PostDelegate/ContentNotice.qml:52
 #, kde-format
 msgid "Show More"
 msgstr ""
@@ -3639,144 +3689,177 @@ msgid "Remote"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/ReportToolPage.qml:155
+#: content/ui/ModerationTools/ReportToolPage.qml:157
 #, kde-format
 msgid "Reported By:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/ReportToolPage.qml:240
+#: content/ui/ModerationTools/ReportToolPage.qml:200
+#, kde-format
+msgid "Comment:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/ModerationTools/ReportToolPage.qml:223
 #, kde-format
 msgid "Assigned Account:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/ReportToolPage.qml:265
+#: content/ui/ModerationTools/ReportToolPage.qml:248
 #, kde-format
 msgctxt "@info: No account assigned to the report"
 msgid "N/A"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ModerationTools/ReportToolPage.qml:296
+#: content/ui/ModerationTools/ReportToolPage.qml:286
 #, kde-format
 msgid "No reports found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:16
+#: content/ui/NotificationPage.qml:18
 #: content/ui/Settings/TokodonConfigurationView.qml:23
 #, kde-format
 msgid "Notifications"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:28
+#: content/ui/NotificationPage.qml:30
 #, kde-format
 msgctxt "@action:intoolbar Mark all notifications as read"
 msgid "Mark All As Read"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:34
+#: content/ui/NotificationPage.qml:36
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Configure Notifications…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:35
+#: content/ui/NotificationPage.qml:37
 #, kde-format
 msgctxt "@title:window"
 msgid "Notification Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:47
+#: content/ui/NotificationPage.qml:49
 #, kde-format
 msgctxt "@action:intoolbar Show all notifications"
 msgid "All"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:60
+#: content/ui/NotificationPage.qml:62
 #, kde-format
 msgctxt "@action:intoolbar Show only mentions"
 msgid "Mentions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:73
+#: content/ui/NotificationPage.qml:75
 #, kde-format
 msgctxt "@action:intoolbar More filter categories"
 msgid "More"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:95
+#: content/ui/NotificationPage.qml:97
 #, kde-format
 msgctxt "Show only boosts"
 msgid "Boosts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:104
+#: content/ui/NotificationPage.qml:106
 #, kde-format
 msgctxt "Show only favorites"
 msgid "Favorites"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:113
+#: content/ui/NotificationPage.qml:115
 #, kde-format
 msgctxt "Show only poll results"
 msgid "Poll Results"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:122
+#: content/ui/NotificationPage.qml:124
 #, kde-format
 msgctxt "Show only followed statuses"
 msgid "Posts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:131
+#: content/ui/NotificationPage.qml:133
 #, kde-format
 msgctxt "Show only follows"
 msgid "Follows"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:295
+#: content/ui/NotificationPage.qml:188
+#, kde-format
+msgctxt "@info:label New notifications"
+msgid "New"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/NotificationPage.qml:188
+#, kde-format
+msgctxt "@info:label Previous notifications"
+msgid "Previous"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/NotificationPage.qml:324
 #, kde-format
 msgid "No Notifications"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/NotificationPage.qml:296
+#: content/ui/NotificationPage.qml:325
 #, kde-format
 msgid "You have no notifications yet. When people reply, favorite or boost your posts they will show up here."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Notifications/AccountWarningDelegate.qml:66
+#: content/ui/Notifications/AccountWarningDelegate.qml:67
 #, kde-format
 msgid "%1 has issued a warning against your account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Notifications/AnnualReportDelegate.qml:63
+#: content/ui/Notifications/AnnualReportDelegate.qml:64
 #, kde-kuit-format
 msgctxt "@info:label this is used for notifications, when an annual report is available. It's similar to spotify wrapped, it shows profile stats / it's a recap of the year. The variable is the current year e.g. 2024. Please don't translate the hashtag."
 msgid "Your %1 #FediWrapped awaits! Unveil your year's highlights and memorable moments on Mastodon!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Notifications/AnnualReportDelegate.qml:70
+#: content/ui/Notifications/AnnualReportDelegate.qml:71
 #, kde-format
 msgctxt "@action:button"
 msgid "View #FediWrapped"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Notifications/FollowDelegate.qml:78
+#, kde-format
+msgid "%1 signed up"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Notifications/FollowDelegate.qml:107
+#, kde-format
+msgctxt "@action:button"
+msgid "Manage Follow Requests"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3798,17 +3881,38 @@ msgid "%1 users boosted your post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Notifications/RelationshipSeveranceDelegate.qml:62
+#: content/ui/Notifications/MinimalPostDelegate.qml:68
+#: content/ui/PostDelegate/PostDelegate.qml:105
+#, kde-format
+msgid "Normal Status"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Notifications/MinimalPostDelegate.qml:68
+#: content/ui/PostDelegate/PostDelegate.qml:105
+#, kde-format
+msgid "Spoiler Status"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Notifications/RelationshipSeveranceDelegate.qml:63
 #, kde-kuit-format
 msgctxt "@info:label"
 msgid "Moderation has blocked <b>%1</b>, including %2 of your followers and %3 account you follow."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Notifications/ReportDelegate.qml:61
+#: content/ui/Notifications/ReportDelegate.qml:62
 #, kde-format
 msgctxt "@info:label"
 msgid "A report has been filed against a user in your server."
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Notifications/UnknownNotificationDelegate.qml:48
+#, kde-format
+msgctxt "@info"
+msgid "Unknown notification"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3923,57 +4027,89 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: content/ui/PostDelegate/AudioAttachment.qml:81
-#: content/ui/PostDelegate/VideoAttachment.qml:111
+#: content/ui/PostDelegate/VideoAttachment.qml:120
 #, kde-format
 msgctxt "@action:button Start media playback"
 msgid "Play"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/InformationBar.qml:33
+#: content/ui/PostDelegate/ContentNotice.qml:27
+#, kde-format
+msgctxt "@info"
+msgid "Content Notice"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/PostDelegate/ContentNotice.qml:45
+#, kde-format
+msgid ""
+"<b>Content Notice</b><br />"
+" %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/PostDelegate/FilterNotice.qml:29
+#, kde-format
+msgctxt "@info"
+msgid "Filter"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/PostDelegate/FilterNotice.qml:47
+#, kde-format
+msgid ""
+"<b>Filtered</b><br />"
+" %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/PostDelegate/FilterNotice.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Anyway"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/PostDelegate/InformationBar.qml:34
 #, kde-format
 msgctxt "Posted on 26 March 2024 Tuesday 20:43:18 +03"
 msgid "Posted on %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/InformationBar.qml:63
-#: content/ui/PostDelegate/InformationBar.qml:71
-#: content/ui/PostDelegate/PostInfoBar.qml:88
-#: content/ui/PostDelegate/PostInfoBar.qml:96
+#: content/ui/PostDelegate/InformationBar.qml:64
+#: content/ui/PostDelegate/InformationBar.qml:72
 #, kde-format
 msgid "Public"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/InformationBar.qml:65
-#: content/ui/PostDelegate/PostInfoBar.qml:90
+#: content/ui/PostDelegate/InformationBar.qml:66
 #, kde-format
 msgid "Unlisted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/InformationBar.qml:67
-#: content/ui/PostDelegate/PostInfoBar.qml:92
+#: content/ui/PostDelegate/InformationBar.qml:68
 #, kde-format
 msgid "Private"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/InformationBar.qml:69
-#: content/ui/PostDelegate/PostInfoBar.qml:94
+#: content/ui/PostDelegate/InformationBar.qml:70
 #, kde-format
 msgid "Direct Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/InformationBar.qml:91
+#: content/ui/PostDelegate/InformationBar.qml:92
 #, kde-format
 msgid "No favorites"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/InformationBar.qml:93
+#: content/ui/PostDelegate/InformationBar.qml:94
 #, kde-format
 msgid "%1 favorite"
 msgid_plural "%1 favorites"
@@ -3981,13 +4117,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/InformationBar.qml:114
+#: content/ui/PostDelegate/InformationBar.qml:115
 #, kde-format
 msgid "No boosts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/InformationBar.qml:116
+#: content/ui/PostDelegate/InformationBar.qml:117
 #, kde-format
 msgid "%1 boost"
 msgid_plural "%1 boosts"
@@ -3995,8 +4131,21 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. +> trunk6 stable6
+#: content/ui/PostDelegate/InformationBar.qml:139
+#, kde-format
+msgid "No quotes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/PostDelegate/InformationBar.qml:141
+#, kde-format
+msgid "%1 quotes"
+msgid_plural "%1 quotes"
+msgstr[0] ""
+
+#. +> trunk6 stable6
 #: content/ui/PostDelegate/LinkMenu.qml:33
-#: content/ui/PostDelegate/PostMenu.qml:60
+#: content/ui/PostDelegate/PostMenu.qml:61
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
@@ -4004,7 +4153,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: content/ui/PostDelegate/LinkMenu.qml:36
-#: content/ui/PostDelegate/PostMenu.qml:63
+#: content/ui/PostDelegate/PostMenu.qml:64
 #, kde-format
 msgid "Post link copied."
 msgstr ""
@@ -4069,19 +4218,7 @@ msgid "Post content"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:102
-#, kde-format
-msgid "Normal Status"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:102
-#, kde-format
-msgid "Spoiler Status"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:171
+#: content/ui/PostDelegate/PostDelegate.qml:172
 #, kde-format
 msgctxt "@label"
 msgid "Pinned Post"
@@ -4116,315 +4253,268 @@ msgid "Are you sure you want to redraft this post? This will delete the original
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:301
-#, kde-format
-msgctxt "@info"
-msgid "Filter"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:325
-#, kde-format
-msgid ""
-"<b>Filtered</b><br />"
-" %1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:332
-#, kde-format
-msgctxt "@action:button"
-msgid "Show Anyway"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:364
-#, kde-format
-msgctxt "@info"
-msgid "Content Notice"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:386
-#, kde-format
-msgid ""
-"<b>Content Notice</b><br />"
-" %1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:498
+#: content/ui/PostDelegate/PostDelegate.qml:413
 #, kde-format
 msgctxt "Reply to a post"
 msgid "Reply"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:525
+#: content/ui/PostDelegate/PostDelegate.qml:440
 #, kde-format
 msgid "Cannot boost direct messages"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:527
+#: content/ui/PostDelegate/PostDelegate.qml:442
 #, kde-format
 msgid "Cannot boost private posts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:529
+#: content/ui/PostDelegate/PostDelegate.qml:444
 #, kde-format
 msgctxt "Share a post"
 msgid "Boost"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:547
+#: content/ui/PostDelegate/PostDelegate.qml:462
 #, kde-format
 msgid "Boosted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:547
+#: content/ui/PostDelegate/PostDelegate.qml:462
 #, kde-format
 msgid "Boost"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:567
+#: content/ui/PostDelegate/PostDelegate.qml:482
 #, kde-format
 msgctxt "Favorite a post"
 msgid "Favorite"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:570
+#: content/ui/PostDelegate/PostDelegate.qml:485
 #, kde-format
 msgid "Favorited"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:570
+#: content/ui/PostDelegate/PostDelegate.qml:485
 #, kde-format
 msgid "Favorite"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:589
+#: content/ui/PostDelegate/PostDelegate.qml:504
 #, kde-format
 msgid "Remove bookmark"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:589
+#: content/ui/PostDelegate/PostDelegate.qml:504
 #, kde-format
 msgctxt "Bookmark a post"
 msgid "Bookmark"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:592
+#: content/ui/PostDelegate/PostDelegate.qml:507
 #, kde-format
 msgid "Bookmarked"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:592
+#: content/ui/PostDelegate/PostDelegate.qml:507
 #, kde-format
 msgid "Bookmark"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostDelegate.qml:625
+#: content/ui/PostDelegate/PostDelegate.qml:541
 #, kde-format
 msgid "This post has been marked private. Some posts may be missing because its replies are marked as private by default."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostInfoBar.qml:27
+#: content/ui/PostDelegate/PostInfoBar.qml:26
 #, kde-format
 msgctxt "@info"
 msgid "Post Author"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostInfoBar.qml:56
+#: content/ui/PostDelegate/PostInfoBar.qml:55
 #, kde-format
 msgctxt "Edited on <datetime>"
 msgid "Edited on %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostInfoBar.qml:109
+#: content/ui/PostDelegate/PostInfoBar.qml:65
 #, kde-format
 msgctxt "Show more options"
 msgid "More actions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostInteractionLabel.qml:68
-#, kde-format
-msgctxt "@info"
-msgid "Interaction"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/PostDelegate/PostInteractionLabel.qml:76
+#: content/ui/PostDelegate/PostInteractionLabel.qml:59
 #, kde-format
 msgctxt "@info Loading user that started this interaction"
 msgid "Loading…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostInteractionLabel.qml:80
+#: content/ui/PostDelegate/PostInteractionLabel.qml:63
 #, kde-format
 msgid "%1 boosted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostInteractionLabel.qml:82
+#: content/ui/PostDelegate/PostInteractionLabel.qml:65
 #, kde-format
 msgid "In reply to %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:44
+#: content/ui/PostDelegate/PostMenu.qml:45
 #, kde-format
 msgctxt "@action:inmenu 'Thread' is a series of posts."
 msgid "Open Thread"
 msgstr ""
 
+#. +> trunk6
+#: content/ui/PostDelegate/PostMenu.qml:70
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Text"
+msgstr ""
+
+#. +> trunk6
+#: content/ui/PostDelegate/PostMenu.qml:74
+#, kde-format
+msgid "Post text copied."
+msgstr ""
+
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:69
+#: content/ui/PostDelegate/PostMenu.qml:80
 #, kde-format
 msgctxt "@action Open embed into website dialog"
 msgid "Embed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:85
+#: content/ui/PostDelegate/PostMenu.qml:96
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open as…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:93
+#: content/ui/PostDelegate/PostMenu.qml:104
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reply as…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:101
+#: content/ui/PostDelegate/PostMenu.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Favorite as…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:109
+#: content/ui/PostDelegate/PostMenu.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Boost as…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:117
+#: content/ui/PostDelegate/PostMenu.qml:128
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark as…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:127
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Remove Bookmark"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:127
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Bookmark"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:135
+#: content/ui/PostDelegate/PostMenu.qml:141
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unpin on Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:135
+#: content/ui/PostDelegate/PostMenu.qml:141
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pin on Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:147
+#: content/ui/PostDelegate/PostMenu.qml:153
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute Conversation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:147
+#: content/ui/PostDelegate/PostMenu.qml:153
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute Conversation"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:157
+#: content/ui/PostDelegate/PostMenu.qml:163
 #, kde-format
 msgctxt "@action:inmenu Unmute account"
 msgid "Unmute @%1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:159
+#: content/ui/PostDelegate/PostMenu.qml:165
 #, kde-format
 msgctxt "@action:inmenu Mute account"
 msgid "Mute @%1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:177
+#: content/ui/PostDelegate/PostMenu.qml:183
 #, kde-format
 msgctxt "@action:inmenu Unblock account"
 msgid "Unblock @%1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:179
+#: content/ui/PostDelegate/PostMenu.qml:185
 #, kde-format
 msgctxt "@action:inmenu Block account"
 msgid "Block @%1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:207
+#: content/ui/PostDelegate/PostMenu.qml:213
 #: content/ui/StatusComposer/EditorAttachmentGrid.qml:59
 #, kde-format
 msgid "Edit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:215
-#: content/ui/Settings/ProfileEditor.qml:151
-#: content/ui/Settings/ProfileEditor.qml:213
+#: content/ui/PostDelegate/PostMenu.qml:221
 #, kde-format
-msgid "Delete"
+msgid "Delete…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostMenu.qml:223
+#: content/ui/PostDelegate/PostMenu.qml:229
 #, kde-format
-msgid "Delete & Re-draft"
+msgid "Delete & Re-draft…"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4466,10 +4556,17 @@ msgid "Poll has closed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/PostTags.qml:60
+#: content/ui/PostDelegate/PostTags.qml:50
 #, kde-format
 msgctxt "@info"
 msgid "Tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/PostDelegate/PostTags.qml:56
+#, kde-format
+msgctxt "@action:button expand the number of shown tags"
+msgid "…and %1 more"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4485,35 +4582,21 @@ msgid "Quoted post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PostDelegate/QuotePost.qml:143
+#: content/ui/PostDelegate/QuotePost.qml:154
 #, kde-format
 msgctxt "@info:label"
 msgid "Poll"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PrivacyPolicyPage.qml:19
+#: content/ui/PostDelegate/VideoAttachment.qml:201
 #, kde-format
-msgctxt "@title:window"
-msgid "Privacy Policy"
+msgctxt "@action:button"
+msgid "Volume"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/PrivacyPolicyPage.qml:26
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No Privacy Policy"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/PrivacyPolicyPage.qml:41
-#, kde-format
-msgctxt "@info Last updated: relative date and time (e.g. 2 years ago)"
-msgid "Last updated: %1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/ReadMarker.qml:15
+#: content/ui/ReadMarker.qml:13
 #, kde-format
 msgctxt "Last read on this date"
 msgid "Last read on %1"
@@ -4534,35 +4617,35 @@ msgid "Report User"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ReportDialog.qml:40
+#: content/ui/ReportDialog.qml:45
 #, kde-format
 msgctxt "@title"
 msgid "Reason for reporting this post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ReportDialog.qml:40
+#: content/ui/ReportDialog.qml:45
 #, kde-format
 msgctxt "@title"
 msgid "Reason for reporting this user"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ReportDialog.qml:55
+#: content/ui/ReportDialog.qml:65
 #, kde-format
 msgctxt "@action:button 'Report' as in 'Report this to moderators'"
 msgid "Report"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ReportDialog.qml:64
+#: content/ui/ReportDialog.qml:75
 #, kde-format
 msgctxt "@action"
 msgid "Cancel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/SearchDelegate.qml:102 content/ui/SearchView.qml:157
+#: content/ui/SearchDelegate.qml:102 content/ui/SearchView.qml:155
 #, kde-format
 msgid "Hashtag"
 msgstr ""
@@ -4575,19 +4658,19 @@ msgid "Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/SearchView.qml:38
+#: content/ui/SearchView.qml:37
 #, kde-format
 msgid "Loading..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/SearchView.qml:46
+#: content/ui/SearchView.qml:45
 #, kde-format
 msgid "No search results"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/SearchView.qml:54
+#: content/ui/SearchView.qml:53
 #, kde-format
 msgid "Search for users, tags and posts"
 msgstr ""
@@ -4595,15 +4678,50 @@ msgstr ""
 #. +> trunk6 stable6
 #: content/ui/ServerInformationPage.qml:25
 #, kde-format
+msgctxt "@title:window Server rules"
+msgid "Rules"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/ServerInformationPage.qml:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Rules"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/ServerInformationPage.qml:78
+#, kde-format
 msgctxt "@action:button"
 msgid "Announcements"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/ServerInformationPage.qml:32
+#: content/ui/ServerInformationPage.qml:90
 #, kde-format
 msgctxt "@action:button"
 msgid "Privacy Policy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/ServerInformationPage.qml:91
+#, kde-format
+msgctxt "@title:window"
+msgid "Privacy Policy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/ServerInformationPage.qml:102
+#, kde-format
+msgctxt "@action:button"
+msgid "Terms of Service"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/ServerInformationPage.qml:103
+#, kde-format
+msgctxt "@title:window"
+msgid "Terms of Service"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4639,104 +4757,111 @@ msgid "Account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:128
+#: content/ui/Settings/AccountPage.qml:129
 #, kde-format
 msgid "Require approval for new followers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:129
+#: content/ui/Settings/AccountPage.qml:130
 #, kde-format
 msgid "By default new followers are automatically accepted. Uncheck if you want to manually approve or deny new ones. You always have the option to force someone to unfollow you."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:138
+#: content/ui/Settings/AccountPage.qml:139
 #, kde-format
 msgid "Is automated"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:139
+#: content/ui/Settings/AccountPage.qml:140
 #, kde-format
 msgid "Whether to publicly mark this account as doing any kind of automated actions."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:148
+#: content/ui/Settings/AccountPage.qml:149
 #, kde-format
 msgid "Feature profile and posts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:149
+#: content/ui/Settings/AccountPage.qml:150
 #, kde-format
 msgid "Your public profile and posts may be featured to other users."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:158
+#: content/ui/Settings/AccountPage.qml:159
 #, kde-format
 msgid "Publicly list follows and followers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:159
+#: content/ui/Settings/AccountPage.qml:160
 #, kde-format
 msgid "By default everyone you follow and everyone who follows you is public."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:168
+#: content/ui/Settings/AccountPage.qml:169
 #, kde-format
 msgctxt "@label Account preferences"
 msgid "Mark uploaded media as sensitive by default"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:177
+#: content/ui/Settings/AccountPage.qml:178
+#, kde-format
+msgctxt "@label Account preferences"
+msgid "Include public posts in search results"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Settings/AccountPage.qml:187
 #, kde-format
 msgctxt "@label Account preferences"
 msgid "Default post language"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:203
+#: content/ui/Settings/AccountPage.qml:213
 #, kde-format
 msgctxt "@label Account preferences"
 msgid "Default post visibility"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:205
+#: content/ui/Settings/AccountPage.qml:215
 #, kde-format
 msgctxt "@item:inlistbox Default post visibility rule"
 msgid "Public"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:206
+#: content/ui/Settings/AccountPage.qml:216
 #, kde-format
 msgctxt "@item:inlistbox Default post visibility rule"
 msgid "Unlisted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:207
+#: content/ui/Settings/AccountPage.qml:217
 #, kde-format
 msgctxt "@item:inlistbox Default post visibility rule"
 msgid "Private"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:220
+#: content/ui/Settings/AccountPage.qml:230
 #, kde-format
 msgctxt "@abel Account preferences"
 msgid "Open Server in Browser"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/AccountPage.qml:221
+#: content/ui/Settings/AccountPage.qml:231
 #, kde-format
 msgid "Some settings can only be configured on your server's website."
 msgstr ""
@@ -4862,7 +4987,7 @@ msgid "Unblock"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/BlockedDomainsPage.qml:64
+#: content/ui/Settings/BlockedDomainsPage.qml:65
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No Blocked Domains"
@@ -4883,154 +5008,161 @@ msgid "Edit Filter"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:73
+#: content/ui/Settings/EditFilterPage.qml:84
 #, kde-format
 msgctxt "@label:textbox Filter title"
 msgid "Title"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:78
+#: content/ui/Settings/EditFilterPage.qml:89
 #, kde-format
 msgctxt "@info:header"
 msgid "Contexts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:85
+#: content/ui/Settings/EditFilterPage.qml:96
 #, kde-format
 msgctxt "@info"
 msgid "Select one or more contexts where this filter should apply:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:90
+#: content/ui/Settings/EditFilterPage.qml:101
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Home and Lists"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:95
+#: content/ui/Settings/EditFilterPage.qml:106
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Notifications"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:100
+#: content/ui/Settings/EditFilterPage.qml:111
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Public Timelines"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:105
+#: content/ui/Settings/EditFilterPage.qml:116
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Conversations"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:110
+#: content/ui/Settings/EditFilterPage.qml:121
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Profiles"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:115
+#: content/ui/Settings/EditFilterPage.qml:126
 #, kde-format
 msgctxt "@info:header"
 msgid "Action"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:123
+#: content/ui/Settings/EditFilterPage.qml:134
 #, kde-format
 msgctxt "@label:radiobutton"
 msgid "Hide with Content Notice"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:129
+#: content/ui/Settings/EditFilterPage.qml:140
+#, kde-format
+msgctxt "@label:radiobutton"
+msgid "Hide Media with Content Notice"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Settings/EditFilterPage.qml:147
 #, kde-format
 msgctxt "@label:radiobutton"
 msgid "Hide Completely"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:135
+#: content/ui/Settings/EditFilterPage.qml:153
 #, kde-format
 msgctxt "@info:header"
 msgid "Keywords"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:138
+#: content/ui/Settings/EditFilterPage.qml:156
 #, kde-format
 msgctxt "@action:button Add keyword"
 msgid "Add"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:148
+#: content/ui/Settings/EditFilterPage.qml:166
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No keywords"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:176
+#: content/ui/Settings/EditFilterPage.qml:194
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Whole word"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:182
+#: content/ui/Settings/EditFilterPage.qml:200
 #, kde-format
 msgctxt "@action:button Remove keyword"
 msgid "Remove"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:209
+#: content/ui/Settings/EditFilterPage.qml:227
 #, kde-format
 msgctxt "@action:button Create the filter"
 msgid "Create"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:211
+#: content/ui/Settings/EditFilterPage.qml:229
 #, kde-format
-msgctxt "@action:button Edit the filter"
-msgid "Edit"
+msgctxt "@action:button Save the edited filter"
+msgid "Save"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:224
+#: content/ui/Settings/EditFilterPage.qml:242
 #, kde-format
 msgctxt "@action:button Delete the filter"
 msgid "Delete"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:231
+#: content/ui/Settings/EditFilterPage.qml:249
 #, kde-format
 msgctxt "@title"
 msgid "Deleting Filter"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditFilterPage.qml:232
+#: content/ui/Settings/EditFilterPage.qml:250
 #, kde-format
 msgctxt "@label"
 msgid "Are you sure you want to delete this filter?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/EditProfilePage.qml:26
+#: content/ui/Settings/EditProfilePage.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Profile"
@@ -5136,7 +5268,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: content/ui/Settings/NetworkProxyPage.qml:141
-#: content/ui/Settings/ProfileEditor.qml:303
+#: content/ui/Settings/ProfileEditor.qml:304
 #, kde-format
 msgid "Apply"
 msgstr ""
@@ -5166,314 +5298,321 @@ msgid "Notifications will only appear when Tokodon is running."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:49
+#: content/ui/Settings/NotificationsPage.qml:50
 #, kde-format
 msgctxt "@title:group"
 msgid "Filtering Policy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:59
+#: content/ui/Settings/NotificationsPage.qml:60
 #, kde-format
 msgctxt "@info:Option Accept and show this in notifications"
 msgid "Accept"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:63
+#: content/ui/Settings/NotificationsPage.qml:64
 #, kde-format
 msgctxt "@info:Option Filter and send to the filtered inbox"
 msgid "Filter"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:67
+#: content/ui/Settings/NotificationsPage.qml:68
 #, kde-format
 msgctxt "@info:Option Ignore completely, do not show notification"
 msgid "Ignore"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:75
+#: content/ui/Settings/NotificationsPage.qml:76
 #, kde-format
 msgctxt "@label Notification preferences"
 msgid "People you don't follow"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:76
+#: content/ui/Settings/NotificationsPage.qml:77
 #, kde-format
 msgctxt "@label Notification preferences"
 msgid "Until you manually approve them."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:82
+#: content/ui/Settings/NotificationsPage.qml:83
 #, kde-format
 msgctxt "@label Notification preferences"
 msgid "People not following you"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:83
+#: content/ui/Settings/NotificationsPage.qml:84
 #, kde-format
 msgctxt "@label Notification preferences"
 msgid "Including people who have been following you fewer than 3 days."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:89
+#: content/ui/Settings/NotificationsPage.qml:90
 #, kde-format
 msgctxt "@label Notification preferences"
 msgid "New accounts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:90
+#: content/ui/Settings/NotificationsPage.qml:91
 #, kde-format
 msgctxt "@label Notification preferences"
 msgid "Created within the past 30 days."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:96
+#: content/ui/Settings/NotificationsPage.qml:97
 #, kde-format
 msgctxt "@label Notification preferences"
 msgid "Unsolicited conversations"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:97
+#: content/ui/Settings/NotificationsPage.qml:98
 #, kde-format
 msgctxt "@label Notification preferences"
 msgid "Filtered unless it's in reply to your own mention or if you follow the sender."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:103
+#: content/ui/Settings/NotificationsPage.qml:104
 #, kde-format
 msgctxt "@label Notification preferences"
 msgid "Moderated accounts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:104
+#: content/ui/Settings/NotificationsPage.qml:105
 #, kde-format
 msgctxt "@label Notification preferences"
 msgid "Limited by server moderators."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:111
+#: content/ui/Settings/NotificationsPage.qml:112
 #, kde-format
 msgctxt "@title:group"
 msgid "Events"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:119
+#: content/ui/Settings/NotificationsPage.qml:120
 #, kde-format
 msgid "Mentions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:120
+#: content/ui/Settings/NotificationsPage.qml:121
 #, kde-format
 msgid "When someone mentions you in a new post, or replies to one of your threads."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:132
+#: content/ui/Settings/NotificationsPage.qml:133
 #, kde-format
 msgid "Statuses"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:133
+#: content/ui/Settings/NotificationsPage.qml:134
 #, kde-format
 msgid "When a user you have notifications turned on for makes a new post."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:145
+#: content/ui/Settings/NotificationsPage.qml:146
 #, kde-format
 msgid "Boosts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:146
+#: content/ui/Settings/NotificationsPage.qml:147
 #, kde-format
 msgid "When someone boosted one of your posts."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:158
+#: content/ui/Settings/NotificationsPage.qml:159
 #, kde-format
 msgid "New followers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:159
+#: content/ui/Settings/NotificationsPage.qml:160
 #, kde-format
 msgid "When someone follows you."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:171
+#: content/ui/Settings/NotificationsPage.qml:172
 #, kde-format
 msgid "New follow requests"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:172
+#: content/ui/Settings/NotificationsPage.qml:173
 #, kde-format
 msgid "When an account who requires manual approval wants to follow you."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:184
+#: content/ui/Settings/NotificationsPage.qml:185
 #, kde-format
 msgid "Favorites"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:185
+#: content/ui/Settings/NotificationsPage.qml:186
 #, kde-format
 msgid "When a post you made was favorited by another user."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:197
+#: content/ui/Settings/NotificationsPage.qml:198
 #, kde-format
 msgid "Polls"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:198
+#: content/ui/Settings/NotificationsPage.qml:199
 #, kde-format
 msgid "When a poll you voted in has ended."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:210
+#: content/ui/Settings/NotificationsPage.qml:211
 #, kde-format
 msgid "Edits"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:211
+#: content/ui/Settings/NotificationsPage.qml:212
 #, kde-format
 msgid "When a post you interacted with was edited by the author."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:223
+#: content/ui/Settings/NotificationsPage.qml:224
 #, kde-format
 msgid "Server Sign-ups"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:224
+#: content/ui/Settings/NotificationsPage.qml:225
 #, kde-format
 msgid "When someone signs up to your server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:239
+#: content/ui/Settings/NotificationsPage.qml:240
 #, kde-format
 msgid "Server Reports"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:240
+#: content/ui/Settings/NotificationsPage.qml:241
 #, kde-format
 msgid "When someone files a report against a user on your server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:255
+#: content/ui/Settings/NotificationsPage.qml:256
 #, kde-format
 msgid "Severed Relationships"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:256
+#: content/ui/Settings/NotificationsPage.qml:257
 #, kde-format
 msgid "When you or your server moderates another server, which you are following users or have followers with."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:268
+#: content/ui/Settings/NotificationsPage.qml:269
 #, kde-format
 msgctxt "@option:check"
 msgid "Annual Report"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/NotificationsPage.qml:269
+#: content/ui/Settings/NotificationsPage.qml:270
 #, kde-format
 msgid "When you receive your #FediWrapped at the end of the year."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/ProfileEditor.qml:59
+#: content/ui/Settings/ProfileEditor.qml:60
 #, kde-format
 msgid "Display Name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/ProfileEditor.qml:77
+#: content/ui/Settings/ProfileEditor.qml:78
 #, kde-format
 msgid "Bio"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/ProfileEditor.qml:103
+#: content/ui/Settings/ProfileEditor.qml:104
 #, kde-format
 msgid "Header"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/ProfileEditor.qml:138
+#: content/ui/Settings/ProfileEditor.qml:139
 #, kde-format
 msgid "PNG, GIF or JPG. At most 2 MB. Will be downscaled to 1500x500px"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/ProfileEditor.qml:166
+#: content/ui/Settings/ProfileEditor.qml:152
+#: content/ui/Settings/ProfileEditor.qml:214
+#, kde-format
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/Settings/ProfileEditor.qml:167
 #, kde-format
 msgid "Avatar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/ProfileEditor.qml:199
+#: content/ui/Settings/ProfileEditor.qml:200
 #, kde-format
 msgid "PNG, GIF or JPG. At most 2 MB. Will be downscaled to 400x400px"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/ProfileEditor.qml:230
+#: content/ui/Settings/ProfileEditor.qml:231
 #, kde-format
 msgctxt "Profile fields"
 msgid "Fields"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/ProfileEditor.qml:269
+#: content/ui/Settings/ProfileEditor.qml:270
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/ProfileEditor.qml:280
+#: content/ui/Settings/ProfileEditor.qml:281
 #, kde-format
 msgctxt "@action:button"
 msgid "Add"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/Settings/ProfileEditor.qml:296
+#: content/ui/Settings/ProfileEditor.qml:297
 #, kde-format
 msgid "Reset"
 msgstr ""
@@ -5553,42 +5692,56 @@ msgid "Sharing failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/SocialGraphPage.qml:64
+#: content/ui/SocialGraphPage.qml:65
 #, kde-format
 msgctxt "@action:button Allow follow request"
 msgid "Allow"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/SocialGraphPage.qml:71
+#: content/ui/SocialGraphPage.qml:72
 #, kde-format
 msgctxt "@action:button Deny follow request"
 msgid "Deny"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/SocialGraphPage.qml:78
+#: content/ui/SocialGraphPage.qml:79
 #, kde-format
 msgctxt "@action:button Deny follow request"
 msgid "Unfollow"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/SocialGraphPage.qml:85
+#: content/ui/SocialGraphPage.qml:86
 #, kde-format
 msgctxt "@action:button Deny follow request"
 msgid "Remove Follower"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/SocialGraphPage.qml:92
+#: content/ui/SocialGraphPage.qml:93
 #, kde-format
 msgctxt "@action:button Deny follow request"
 msgid "Remove"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StandaloneComposer.qml:58
+#: content/ui/SocialGraphPage.qml:100
+#, kde-format
+msgctxt "@action:button Unblock this user"
+msgid "Unblock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/SocialGraphPage.qml:106
+#, kde-format
+msgctxt "@action:button Unmute this user"
+msgid "Unmute"
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/StandaloneComposer.qml:57
 #, kde-format
 msgid "No accounts available"
 msgstr ""
@@ -5608,56 +5761,56 @@ msgid "Focal point"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ComposerPoll.qml:43
+#: content/ui/StatusComposer/ComposerPoll.qml:44
 #, kde-format
 msgctxt "@label:textbox Poll choice"
 msgid "Choice %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ComposerPoll.qml:67
+#: content/ui/StatusComposer/ComposerPoll.qml:69
 #, kde-format
 msgctxt "@action:intoolbar Poll toolbar"
 msgid "Add Choice"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ComposerPoll.qml:68
+#: content/ui/StatusComposer/ComposerPoll.qml:70
 #, kde-format
 msgctxt "@info:tooltip Poll toolbar"
 msgid "Add a new poll choice"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ComposerPoll.qml:87
+#: content/ui/StatusComposer/ComposerPoll.qml:89
 #, kde-format
 msgctxt "@info:tooltip Poll toolbar"
 msgid "When the poll will expire"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ComposerPoll.qml:96
+#: content/ui/StatusComposer/ComposerPoll.qml:98
 #, kde-format
 msgctxt "@option:check Poll toolbar"
 msgid "Multiple choice"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ComposerPoll.qml:102
+#: content/ui/StatusComposer/ComposerPoll.qml:104
 #, kde-format
 msgctxt "@info:tooltip Poll toolbar"
 msgid "Allow multiple choices"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ComposerPoll.qml:111
+#: content/ui/StatusComposer/ComposerPoll.qml:113
 #, kde-format
 msgctxt "@option:check Poll toolbar"
 msgid "Hide totals"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ComposerPoll.qml:117
+#: content/ui/StatusComposer/ComposerPoll.qml:119
 #, kde-format
 msgctxt "@info:tooltip Poll toolbar"
 msgid "Hide vote count until the poll ends"
@@ -5669,7 +5822,14 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:85
+#, kde-format
+msgctxt "Draft, unfinished post"
+msgid "Created %1 ago"
+msgstr ""
+
+#. +> stable6
 #: content/ui/StatusComposer/ScheduledPostsPage.qml:65
 #, kde-format
 msgctxt "Draft, unfinished post"
@@ -5677,54 +5837,95 @@ msgid "Draft"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ScheduledPostsPage.qml:65
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:85
 #, kde-format
 msgctxt "Scheduled for this date"
 msgid "Scheduled for %1"
 msgstr ""
 
-#. +> trunk6 stable6
-#: content/ui/StatusComposer/ScheduledPostsPage.qml:84
+#. +> trunk6
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:93
+#, kde-format
+msgctxt "@action:button Re-schedule this post"
+msgid "Re-schedule…"
+msgstr ""
+
+#. +> trunk6
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:104
 #, kde-format
 msgctxt "@action:button Discard this post"
-msgid "Discard"
+msgid "Discard…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ScheduledPostsPage.qml:105
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:116
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No Drafts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ScheduledPostsPage.qml:105
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:116
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No Scheduled Posts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ScheduledPostsPage.qml:114
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:125
 #: content/ui/StatusComposer/StatusComposer.qml:181
 #, kde-format
 msgctxt "@title"
 msgid "Discard Draft"
 msgstr ""
 
-#. +> trunk6 stable6
-#: content/ui/StatusComposer/ScheduledPostsPage.qml:115
-#: content/ui/StatusComposer/StatusComposer.qml:182
+#. +> trunk6
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:125
+#, kde-format
+msgctxt "@title"
+msgid "Discard Scheduled Post"
+msgstr ""
+
+#. +> trunk6
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:126
 #, kde-format
 msgctxt "@label"
-msgid "Are you sure you want to discard your draft?"
+msgid "Are you sure you want to discard this draft?"
+msgstr ""
+
+#. +> trunk6
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:126
+#, kde-format
+msgctxt "@label"
+msgid "Are you sure you want to discard this scheduled post?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/ScheduledPostsPage.qml:121
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:132
 #, kde-format
 msgctxt "@action:button Discard this draft"
 msgid "Discard"
+msgstr ""
+
+#. +> stable6
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:84
+#, kde-format
+msgctxt "@action:button Discard this post"
+msgid "Discard"
+msgstr ""
+
+#. +> trunk6
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:148
+#, kde-format
+msgctxt "@title"
+msgid "Re-Schedule Post"
+msgstr ""
+
+#. +> trunk6
+#: content/ui/StatusComposer/ScheduledPostsPage.qml:155
+#, kde-format
+msgctxt "@action:button Set this post's schedule to when it should be posted"
+msgid "Set New Schedule"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -5804,6 +6005,13 @@ msgid "Save"
 msgstr ""
 
 #. +> trunk6 stable6
+#: content/ui/StatusComposer/StatusComposer.qml:182
+#, kde-format
+msgctxt "@label"
+msgid "Are you sure you want to discard your draft?"
+msgstr ""
+
+#. +> trunk6 stable6
 #: content/ui/StatusComposer/StatusComposer.qml:188
 #, kde-format
 msgctxt "@action:button Keep this draft"
@@ -5825,7 +6033,7 @@ msgid "Schedule Post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:221
+#: content/ui/StatusComposer/StatusComposer.qml:222
 #, kde-format
 msgctxt "@action:button Set this post's schedule to when it should be posted"
 msgid "Set Schedule"
@@ -5846,214 +6054,236 @@ msgid "What's new?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:489
+#: content/ui/StatusComposer/StatusComposer.qml:490
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose a File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:494
+#: content/ui/StatusComposer/StatusComposer.qml:495
 #, kde-format
 msgctxt "@action:button"
 msgid "Attach File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:497
+#: content/ui/StatusComposer/StatusComposer.qml:500
+#: content/ui/StatusComposer/StatusComposer.qml:530
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You can't have attachments and a poll in the same post."
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/StatusComposer/StatusComposer.qml:504
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You have the maximum allowed number of attachments."
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/StatusComposer/StatusComposer.qml:507
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Attach file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:508
+#: content/ui/StatusComposer/StatusComposer.qml:519
 #, kde-format
 msgctxt "@action:button"
 msgid "Attach Poll"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:513
+#: content/ui/StatusComposer/StatusComposer.qml:526
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You can't modify or add a poll to an existing post."
+msgstr ""
+
+#. +> trunk6 stable6
+#: content/ui/StatusComposer/StatusComposer.qml:533
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add poll"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:522
+#: content/ui/StatusComposer/StatusComposer.qml:543
 #, kde-format
 msgctxt "@action:button"
 msgid "Content Notice"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:534
+#: content/ui/StatusComposer/StatusComposer.qml:555
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Content notice"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:560
+#: content/ui/StatusComposer/StatusComposer.qml:581
 #, kde-format
 msgctxt "@action:button"
 msgid "Visibility"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:568
+#: content/ui/StatusComposer/StatusComposer.qml:589
 #, kde-format
 msgctxt "@title"
 msgid "Visibility"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:572
+#: content/ui/StatusComposer/StatusComposer.qml:593
 #, kde-format
 msgctxt "@item:inmenu Local to this server"
 msgid "Local"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:578
+#: content/ui/StatusComposer/StatusComposer.qml:599
 #, kde-format
 msgctxt "@item:inmenu Public to the world"
 msgid "Public"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:583
+#: content/ui/StatusComposer/StatusComposer.qml:604
 #, kde-format
 msgctxt "@item:inmenu Public but less so"
 msgid "Unlisted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:588
+#: content/ui/StatusComposer/StatusComposer.qml:609
 #, kde-format
 msgctxt "@item:inmenu Only to followers"
 msgid "Private"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:593
+#: content/ui/StatusComposer/StatusComposer.qml:614
 #, kde-format
 msgctxt "@item:inmenu Only to who is explicitly mentioned"
 msgid "Direct Message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:598
+#: content/ui/StatusComposer/StatusComposer.qml:619
 #, kde-format
 msgctxt "@info:tooltip Post visibility"
 msgid "Visibility"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:606
+#: content/ui/StatusComposer/StatusComposer.qml:627
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Post language"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:636
+#: content/ui/StatusComposer/StatusComposer.qml:660
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Emoji"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:647
+#: content/ui/StatusComposer/StatusComposer.qml:671
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add emoji"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:677
+#: content/ui/StatusComposer/StatusComposer.qml:701
 #, kde-format
 msgctxt "@label Character count in the status composer"
 msgid "<b>%1/%2</b> characters"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:687
-#: content/ui/StatusComposer/StatusComposer.qml:764
+#: content/ui/StatusComposer/StatusComposer.qml:711
+#: content/ui/StatusComposer/StatusComposer.qml:788
 #, kde-format
 msgctxt "@action:button Schedule something to be posted later"
 msgid "Schedule"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:738
+#: content/ui/StatusComposer/StatusComposer.qml:762
 #, kde-format
 msgctxt "@title"
 msgid "Alt Text Reminder"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/StatusComposer/StatusComposer.qml:742
+#: content/ui/StatusComposer/StatusComposer.qml:766
 #, kde-format
 msgctxt "@label"
 msgid "Some of your media is missing alt text. Adding descriptions help everyone, especially the visually impaired."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/TimelinePage.qml:38 timeline/accountmodel.cpp:41
+#: content/ui/TimelinePage.qml:41 timeline/accountmodel.cpp:41
 #, kde-format
 msgid "Loading"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/TimelinePage.qml:40
+#: content/ui/TimelinePage.qml:43
 #, kde-format
 msgid "Home (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/TimelinePage.qml:110
+#: content/ui/TimelinePage.qml:115
 #, kde-format
 msgid "Show Boosts"
 msgstr ""
 
+#. +> trunk6
+#: content/ui/TimelinePage.qml:122
+#, kde-format
+msgid "Show Quotes"
+msgstr ""
+
 #. +> trunk6 stable6
-#: content/ui/TimelinePage.qml:117
+#: content/ui/TimelinePage.qml:129
 #, kde-format
 msgid "Show Replies"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/TimelinePage.qml:143
+#: content/ui/TimelinePage.qml:155
 #, kde-format
 msgctxt "@info:status Network status"
 msgid "Failed to contact server: %1. Please check your settings."
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/TimelinePage.qml:180
+#: content/ui/TimelinePage.qml:196
 #, kde-format
 msgctxt "@action:button Load more posts above this"
 msgid "Load More"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/UserInfo.qml:96
+#: content/ui/UserInfo.qml:104
 #, kde-format
 msgid "Switch Account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: content/ui/UserInfo.qml:98
+#: content/ui/UserInfo.qml:107
 #, kde-format
 msgid "Switch account"
-msgstr ""
-
-#. +> trunk6 stable6
-#: content/ui/UserInfo.qml:146
-#, kde-format
-msgid "Log in or create a new account"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -6075,6 +6305,13 @@ msgid "%2 and one other"
 msgid_plural "%2 and %1 others"
 msgstr[0] ""
 msgstr[1] ""
+
+#. +> trunk6 stable6
+#: editor/languagemodel.cpp:37
+#, kde-format
+msgctxt "@info:label %1 is the native language name, and %2 is the localized name. For example, 'dansk (Danish)'"
+msgid "%1 (%2)"
+msgstr ""
 
 #. +> trunk6 stable6
 #: editor/listeditorbackend.cpp:121
@@ -6151,87 +6388,69 @@ msgid "An unknown error occurred."
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:72
-#, kde-format
-msgid "Receiving push notifications"
-msgstr ""
-
-#. +> trunk6 stable6
-#: main.cpp:120
+#: main.cpp:76
 #, kde-format
 msgid "Tokodon"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:122 main.cpp:147
+#: main.cpp:78 main.cpp:99
 #, kde-format
 msgid "Browse the Fediverse"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:124
+#: main.cpp:80
 #, kde-format
-msgid "© 2021-2024 KDE Community"
+msgid "© 2021-2025 KDE Community"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:125
+#: main.cpp:81
 #, kde-format
 msgid "Carl Schwan"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:126 main.cpp:131
+#: main.cpp:82 main.cpp:87
 #, kde-format
 msgid "Maintainer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:130
+#: main.cpp:86
 #, kde-format
 msgid "Joshua Goins"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:135
+#: main.cpp:91
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:135
+#: main.cpp:91
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:148
+#: main.cpp:100
 #, kde-format
-msgid "Supports https, tokodon and web+ap url scheme"
+msgid "Supports https, and web+ap url schemes."
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:150
+#: network/networkcontroller.cpp:307
 #, kde-format
-msgid "Share a line of text in the standalone composer."
+msgid "Receiving push notifications"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:150
-#, kde-format
-msgid "The text to share."
-msgstr ""
-
-#. +> trunk6 stable6
-#: main.cpp:154
-#, kde-format
-msgid "Internal usage only."
-msgstr ""
-
-#. +> trunk6 stable6
-#: notification/notificationmodel.cpp:98
+#: notification/notificationmodel.cpp:131
 #, kde-format
 msgid "Error occurred when fetching the latest notification."
 msgstr ""
@@ -6306,42 +6525,147 @@ msgid "Trending News"
 msgstr ""
 
 #. +> trunk6 stable6
-#: tokodonapplication.cpp:14
+#: tokodonapplication.cpp:17
 #, kde-format
 msgctxt "@title:group Title for the group of account related actions"
 msgid "Account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: tokodonapplication.cpp:59
+#: tokodonapplication.cpp:64
 #, kde-format
 msgctxt "@action:button"
 msgid "Switch to '%1'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: tokodonapplication.cpp:60 tokodonapplication.cpp:123
+#: tokodonapplication.cpp:65 tokodonapplication.cpp:224
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure '%1'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: tokodonapplication.cpp:67
+#: tokodonapplication.cpp:72
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: tokodonapplication.cpp:82
+#: tokodonapplication.cpp:91
 #, kde-format
 msgctxt "@action:button"
 msgid "Write a New Post"
 msgstr ""
 
 #. +> trunk6 stable6
-#: tokodonapplication.cpp:115
+#: tokodonapplication.cpp:98
+#, kde-format
+msgctxt "@action:button Home Timeline"
+msgid "Open Home Timeline"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:104
+#, kde-format
+msgctxt "@action:button Account Notifications"
+msgid "Open Notifications"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:110
+#, kde-format
+msgctxt "@action:button Follows that require explicit allow/deny"
+msgid "Open Follow Requests"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:116
+#, kde-format
+msgctxt "@action:button Local timeline of posts from the account's own server"
+msgid "Open Local Timeline"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:122
+#, kde-format
+msgctxt "@action:button Global timeline of posts from the entire Fediverse network"
+msgid "Open Global Timeline"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:128
+#, kde-format
+msgctxt "@action:button Direct one-on-one messages between users"
+msgid "Open Conversations"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:134
+#, kde-format
+msgctxt "@action:button This account's favorited posts"
+msgid "Open Favorites"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:140
+#, kde-format
+msgctxt "@action:button This account's bookmarked posts"
+msgid "Open Bookmarks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:146
+#, kde-format
+msgctxt "@action:button Explore this server's trending posts, news, and more"
+msgid "Open Explore"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:152
+#, kde-format
+msgctxt "@action:button A list of this account's followed accounts"
+msgid "Open Following"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:158
+#, kde-format
+msgctxt "@action:button Search for users, posts and tags"
+msgid "Open Search"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:164
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Server Information"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:170
+#, kde-format
+msgctxt "@action:button This account's lists, or timelines consisting of a groups of accounts"
+msgid "Open Lists"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:176
+#, kde-format
+msgctxt "@action:button This account's profile"
+msgid "Open Profile"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:180
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Account Switcher"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tokodonapplication.cpp:216
 #, kde-format
 msgctxt "@action:button"
 msgid "Switch '%1'"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: telly-skout\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-09 09:44+0100\n"
+"POT-Creation-Date: 2025-12-08 11:38+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -43,53 +43,87 @@ msgid "© 2020 KDE Community"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ChannelListDelegate.qml:53
+#: qml/ChannelListDelegate.qml:54
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Favorite"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/FavoritesPage.qml:19
+#: qml/FavoritesPage.qml:18
 #, kde-format
 msgctxt "@title"
 msgid "Favorites"
 msgstr ""
 
-#. +> trunk6 stable6
-#: qml/FavoritesPage.qml:34
+#. +> trunk6
+#: qml/FavoritesPage.qml:33
+#, kde-format
+msgid "Select some favorites to get started!"
+msgstr ""
+
+#. +> stable6
+#: qml/FavoritesPage.qml:33
 #, kde-format
 msgid "Please select favorites"
 msgstr ""
 
-#. +> trunk6 stable6
-#: qml/FavoritesPage.qml:39
+#. +> trunk6
+#: qml/FavoritesPage.qml:38
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Refresh"
+msgstr ""
+
+#. +> stable6
+#: qml/FavoritesPage.qml:38
 #, kde-format
 msgid "Refetch"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/FavoritesPage.qml:145
+#: qml/FavoritesPage.qml:144
 #, kde-format
 msgctxt "placeholder message"
 msgid "Information not available"
 msgstr ""
 
-#. +> trunk6 stable6
-#: qml/FavoritesPage.qml:205
+#. +> trunk6
+#: qml/FavoritesPage.qml:204
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Previous Day"
+msgstr ""
+
+#. +> stable6
+#: qml/FavoritesPage.qml:204
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "previous day"
 msgstr ""
 
-#. +> trunk6 stable6
-#: qml/FavoritesPage.qml:222
+#. +> trunk6
+#: qml/FavoritesPage.qml:221
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Next Day"
+msgstr ""
+
+#. +> stable6
+#: qml/FavoritesPage.qml:221
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "next day"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: qml/GroupListDelegate.qml:30
+#, kde-format
+msgctxt "@title, as in 'TV channels'"
+msgid "Channels"
+msgstr ""
+
+#. +> stable6
 #: qml/GroupListDelegate.qml:30
 #, kde-format
 msgid "Channels"
@@ -102,21 +136,33 @@ msgctxt "@title"
 msgid "Select Favorites"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: qml/GroupListPage.qml:24
+#, kde-format
+msgid "Loading groups…"
+msgstr ""
+
+#. +> stable6
 #: qml/GroupListPage.qml:24
 #, kde-format
 msgid "Loading groups..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/SelectFavoritesPage.qml:17
+#: qml/SelectFavoritesPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Channels"
 msgstr ""
 
-#. +> trunk6 stable6
-#: qml/SelectFavoritesPage.qml:30 qml/SortFavoritesPage.qml:35
+#. +> trunk6
+#: qml/SelectFavoritesPage.qml:29 qml/SortFavoritesPage.qml:34
+#, kde-format
+msgid "Loading channels…"
+msgstr ""
+
+#. +> stable6
+#: qml/SelectFavoritesPage.qml:29 qml/SortFavoritesPage.qml:34
 #, kde-format
 msgid "Loading channels..."
 msgstr ""
@@ -184,21 +230,27 @@ msgctxt "@title:group Programs as TV programs"
 msgid "Programs"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: qml/SettingsPage.qml:80
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Delete old programs after:"
+msgstr ""
+
+#. +> stable6
 #: qml/SettingsPage.qml:80
 #, kde-format
 msgctxt "@option:spinbox"
 msgid "Delete old programs after:"
 msgstr ""
 
-#. +> trunk6 stable6
-#: qml/SettingsPage.qml:84 qml/SettingsPage.qml:113
+#. +> trunk6
+#: qml/SettingsPage.qml:84
 #, kde-format
-msgctxt "Number in days"
+msgctxt "%1 is a number, completes the setting 'Delete old programs after:'"
 msgid "%1 day"
 msgid_plural "%1 days"
 msgstr[0] ""
-msgstr[1] ""
 
 #. +> trunk6 stable6
 #: qml/SettingsPage.qml:96
@@ -213,12 +265,36 @@ msgctxt "@option:combobox"
 msgid "The fetcher which loads the programs."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: qml/SettingsPage.qml:108
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Prefetch:"
+msgstr ""
+
+#. +> stable6
 #: qml/SettingsPage.qml:108
 #, kde-format
 msgctxt "@option:spinbox"
 msgid "Prefetch:"
 msgstr ""
+
+#. +> trunk6
+#: qml/SettingsPage.qml:113
+#, kde-format
+msgctxt "%1 is a number, completes the setting 'Prefetch:'"
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] ""
+
+#. +> stable6
+#: qml/SettingsPage.qml:84 qml/SettingsPage.qml:113
+#, kde-format
+msgctxt "Number in days"
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] ""
+msgstr[1] ""
 
 #. +> trunk6 stable6
 #: qml/SettingsPage.qml:125
@@ -247,47 +323,47 @@ msgid "All files (*)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/SortFavoritesPage.qml:16
+#: qml/SortFavoritesPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Sort Favorites"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/TellySkoutGlobalDrawer.qml:17 qml/TellySkoutGlobalDrawer.qml:21
-#: qml/TellySkoutGlobalDrawer.qml:29
+#: qml/TellySkoutGlobalDrawer.qml:16 qml/TellySkoutGlobalDrawer.qml:20
+#: qml/TellySkoutGlobalDrawer.qml:28
 #, kde-format
 msgid "Favorites"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/TellySkoutGlobalDrawer.qml:32 qml/TellySkoutGlobalDrawer.qml:36
-#: qml/TellySkoutGlobalDrawer.qml:41
+#: qml/TellySkoutGlobalDrawer.qml:31 qml/TellySkoutGlobalDrawer.qml:35
+#: qml/TellySkoutGlobalDrawer.qml:40
 #, kde-format
 msgid "Select Favorites"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/TellySkoutGlobalDrawer.qml:44 qml/TellySkoutGlobalDrawer.qml:48
-#: qml/TellySkoutGlobalDrawer.qml:53
+#: qml/TellySkoutGlobalDrawer.qml:43 qml/TellySkoutGlobalDrawer.qml:47
+#: qml/TellySkoutGlobalDrawer.qml:52
 #, kde-format
 msgid "Sort Favorites"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/TellySkoutGlobalDrawer.qml:56 qml/TellySkoutGlobalDrawer.qml:59
+#: qml/TellySkoutGlobalDrawer.qml:55 qml/TellySkoutGlobalDrawer.qml:58
 #, kde-format
 msgid "Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/TellySkoutGlobalDrawer.qml:62
+#: qml/TellySkoutGlobalDrawer.qml:61
 #, kde-format
 msgid "About"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/TellySkoutGlobalDrawer.qml:65
+#: qml/TellySkoutGlobalDrawer.qml:64
 #, kde-format
 msgid "About Telly Skout"
 msgstr ""
@@ -322,7 +398,14 @@ msgstr ""
 msgid "Duration: %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: tvspielfilmfetcher.cpp:348
+#, kde-format
+msgctxt "'FSK' is a German age rating for movies and DVDs"
+msgid "FSK: %1"
+msgstr ""
+
+#. +> stable6
 #: tvspielfilmfetcher.cpp:348
 #, kde-format
 msgid "FSK: %1"

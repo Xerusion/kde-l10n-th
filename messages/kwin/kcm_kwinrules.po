@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwinrules\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-13 10:25+0100\n"
+"POT-Creation-Date: 2025-05-24 10:38+0200\n"
 "PO-Revision-Date: 2010-07-07 14:59+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -58,13 +58,13 @@ msgid "Copy of %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcmrules.cpp:408
+#: kcmrules.cpp:414
 #, kde-format
 msgid "Application settings for %1"
 msgstr "ตั้งค่าโปรแกรม %1"
 
 #. +> trunk6 stable6 stable5
-#: kcmrules.cpp:430 rulesmodel.cpp:221
+#: kcmrules.cpp:436 rulesmodel.cpp:221 rulesmodel.cpp:224
 #, kde-format
 msgid "Window settings for %1"
 msgstr "ตั้งค่าหน้าต่าง %1"
@@ -223,20 +223,20 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:224
+#: rulesmodel.cpp:227
 #, kde-format
 msgid "Settings for %1"
 msgstr "ตั้งค่าต่าง ๆ ของ %1"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:227
+#: rulesmodel.cpp:230
 #, fuzzy, kde-format
 #| msgid "Window settings for %1"
 msgid "New window settings"
 msgstr "ตั้งค่าหน้าต่าง %1"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:243
+#: rulesmodel.cpp:246
 #, kde-format
 msgid ""
 "You have specified the window class as unimportant.\n"
@@ -246,121 +246,129 @@ msgstr ""
 "ซึ่งหมายความว่าการตั้งค่าที่จะถูกใช้และมีผลกับหน้าต่างของโปรแกรมทั้งหมด หากคุณต้องการตั้งค่าหน้าต่างโดยจำเพาะเจาะจงจริง ๆ ขอแนะนำให้คุณทำการจำกัดชนิดของหน้าต่าง และระบุสิ่งที่ใช้อ้างถึงหน้าต่างที่ต้องการให้มากที่สุด"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:250
+#: rulesmodel.cpp:253
 #, kde-format
 msgid "Some applications set their own geometry after starting, overriding your initial settings for size and position. To enforce these settings, also force the property \"%1\" to \"Yes\"."
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:257
+#: rulesmodel.cpp:260
 #, kde-format
 msgid "Readability may be impaired with extremely low opacity values. At 0%, the window becomes invisible."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:384
+#: rulesmodel.cpp:387
 #, fuzzy, kde-format
 #| msgid "De&scription:"
 msgid "Description"
 msgstr "คำ&อธิบาย:"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:384 rulesmodel.cpp:392 rulesmodel.cpp:400 rulesmodel.cpp:407
-#: rulesmodel.cpp:413 rulesmodel.cpp:421 rulesmodel.cpp:426 rulesmodel.cpp:432
+#: rulesmodel.cpp:387 rulesmodel.cpp:395 rulesmodel.cpp:403 rulesmodel.cpp:410
+#: rulesmodel.cpp:416 rulesmodel.cpp:424 rulesmodel.cpp:429 rulesmodel.cpp:435
+#: rulesmodel.cpp:440
 #, fuzzy, kde-format
 #| msgid "&Window"
 msgid "Window matching"
 msgstr "ห&น้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:392
+#: rulesmodel.cpp:395
 #, fuzzy, kde-format
 #| msgid "Window &class (application type):"
 msgid "Window class (application)"
 msgstr "&คลาสของหน้าต่าง (ประเภทของโปรแกรม):"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:400
+#: rulesmodel.cpp:403
 #, fuzzy, kde-format
 #| msgid "Match w&hole window class"
 msgid "Match whole window class"
 msgstr "ตรงกับคลาสของหน้าต่างทั้งห&มด"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:407
+#: rulesmodel.cpp:410
 #, fuzzy, kde-format
 #| msgid "Match w&hole window class"
 msgid "Whole window class"
 msgstr "ตรงกับคลาสของหน้าต่างทั้งห&มด"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:413
+#: rulesmodel.cpp:416
 #, fuzzy, kde-format
 #| msgid "Window &types:"
 msgid "Window types"
 msgstr "&ชนิดของหน้าต่าง:"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:421
+#: rulesmodel.cpp:424
 #, fuzzy, kde-format
 #| msgid "Window &role:"
 msgid "Window role"
 msgstr "กฏ&ของหน้าต่าง:"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:426
+#: rulesmodel.cpp:429
 #, fuzzy, kde-format
 #| msgid "Window t&itle:"
 msgid "Window title"
 msgstr "หัวเ&รื่องหน้าต่าง:"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:432
+#: rulesmodel.cpp:435
 #, fuzzy, kde-format
 #| msgid "&Machine (hostname):"
 msgid "Machine (hostname)"
 msgstr "&เครื่อง (ชื่อเครื่อง):"
 
+#. +> trunk6 stable6
+#: rulesmodel.cpp:440
+#, fuzzy, kde-format
+#| msgid "Window &types:"
+msgid "Window tag"
+msgstr "&ชนิดของหน้าต่าง:"
+
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:438
+#: rulesmodel.cpp:447
 #, fuzzy, kde-format
 #| msgid "&Position"
 msgid "Position"
 msgstr "ตำแห&น่ง"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:438 rulesmodel.cpp:444 rulesmodel.cpp:450 rulesmodel.cpp:455
-#: rulesmodel.cpp:463 rulesmodel.cpp:469 rulesmodel.cpp:488 rulesmodel.cpp:504
-#: rulesmodel.cpp:509 rulesmodel.cpp:514 rulesmodel.cpp:519 rulesmodel.cpp:524
-#: rulesmodel.cpp:531 rulesmodel.cpp:545 rulesmodel.cpp:550 rulesmodel.cpp:555
+#: rulesmodel.cpp:447 rulesmodel.cpp:453 rulesmodel.cpp:459 rulesmodel.cpp:464
+#: rulesmodel.cpp:472 rulesmodel.cpp:478 rulesmodel.cpp:497 rulesmodel.cpp:513
+#: rulesmodel.cpp:518 rulesmodel.cpp:523 rulesmodel.cpp:528 rulesmodel.cpp:535
+#: rulesmodel.cpp:549 rulesmodel.cpp:554 rulesmodel.cpp:559
 #, fuzzy, kde-format
 #| msgid "&Position"
 msgid "Size & Position"
 msgstr "ตำแห&น่ง"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:444
+#: rulesmodel.cpp:453
 #, fuzzy, kde-format
 #| msgid "&Size"
 msgid "Size"
 msgstr "ข&นาด"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:450
+#: rulesmodel.cpp:459
 #, fuzzy, kde-format
 #| msgid "Maximized &horizontally"
 msgid "Maximized horizontally"
 msgstr "ขยายใหญ่สุดทางแนว&นอน"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:455
+#: rulesmodel.cpp:464
 #, fuzzy, kde-format
 #| msgid "Maximized &vertically"
 msgid "Maximized vertically"
 msgstr "ขยายใหญ่สุดทางแนว&ตั้ง"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:463
+#: rulesmodel.cpp:472
 #, fuzzy, kde-format
 #| msgid "All Desktops"
 msgid "Virtual desktop"
@@ -374,7 +382,7 @@ msgid "Virtual Desktop"
 msgstr "พื้นที่ทำงานทั้งหมด"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:469
+#: rulesmodel.cpp:478
 #, fuzzy, kde-format
 #| msgid "All Desktops"
 msgid "Virtual desktops"
@@ -387,19 +395,19 @@ msgstr "พื้นที่ทำงานทั้งหมด"
 msgid "Virtual Desktops"
 msgstr "พื้นที่ทำงานทั้งหมด"
 
+#. +> stable5
+#: rulesmodel.cpp:494
+#, fuzzy, kde-format
+#| msgid "Sh&aded"
+msgid "Shaded"
+msgstr "พั&บเก็บ"
+
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:488
+#: rulesmodel.cpp:497
 #, fuzzy, kde-format
 #| msgid "A&ctive opacity in %"
 msgid "Activities"
 msgstr "ค่าความทึบแ&สงหากทำงานอยู่ (เป็น %)"
-
-#. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:504
-#, fuzzy, kde-format
-#| msgid "Splash Screen"
-msgid "Screen"
-msgstr "หน้าจอเริ่มทำงาน"
 
 #. +> stable5
 #: rulesmodel.cpp:508
@@ -412,28 +420,28 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:509 rulesmodel.cpp:924
+#: rulesmodel.cpp:513
+#, fuzzy, kde-format
+#| msgid "Splash Screen"
+msgid "Screen"
+msgstr "หน้าจอเริ่มทำงาน"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:518 rulesmodel.cpp:927
 #, fuzzy, kde-format
 #| msgid "&Fullscreen"
 msgid "Fullscreen"
 msgstr "เต็&มจอภาพ"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:514
+#: rulesmodel.cpp:523
 #, fuzzy, kde-format
 #| msgid "M&inimized"
 msgid "Minimized"
 msgstr "ย่อเ&ล็กสุด"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:519
-#, fuzzy, kde-format
-#| msgid "Sh&aded"
-msgid "Shaded"
-msgstr "พั&บเก็บ"
-
-#. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:524
+#: rulesmodel.cpp:528
 #, fuzzy, kde-format
 #| msgid "P&lacement"
 msgid "Initial placement"
@@ -451,14 +459,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:531
+#: rulesmodel.cpp:535
 #, fuzzy, kde-format
 #| msgid "Ignore requested &geometry"
 msgid "Ignore requested geometry"
 msgstr "ไม่สนใจการร้องขอปรับมิ&ติขนาดหน้าต่าง"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:534
+#: rulesmodel.cpp:538
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -470,7 +478,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:545
+#: rulesmodel.cpp:549
 #, fuzzy, kde-format
 #| msgid "M&inimum size"
 msgid "Minimum Size"
@@ -483,17 +491,11 @@ msgid "Window shall (not) appear in the taskbar."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:550
+#: rulesmodel.cpp:554
 #, fuzzy, kde-format
 #| msgid "M&aximum size"
 msgid "Maximum Size"
 msgstr "ขนาดใ&หญ่ที่สุด"
-
-#. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:555
-#, kde-format
-msgid "Obey geometry restrictions"
-msgstr ""
 
 #. +> stable5
 #: rulesmodel.cpp:555
@@ -501,8 +503,14 @@ msgstr ""
 msgid "Window shall (not) appear in the manager for virtual desktops"
 msgstr ""
 
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:559
+#, kde-format
+msgid "Obey geometry restrictions"
+msgstr ""
+
 #. +> trunk6 stable6
-#: rulesmodel.cpp:557
+#: rulesmodel.cpp:561
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -518,65 +526,58 @@ msgid "Window shall (not) appear in the Alt+Tab list"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:568
+#: rulesmodel.cpp:572
 #, kde-format
 msgid "Keep above other windows"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:568 rulesmodel.cpp:573 rulesmodel.cpp:578 rulesmodel.cpp:584
-#: rulesmodel.cpp:590 rulesmodel.cpp:596
+#: rulesmodel.cpp:572 rulesmodel.cpp:577 rulesmodel.cpp:582 rulesmodel.cpp:588
+#: rulesmodel.cpp:594 rulesmodel.cpp:600
 #, kde-format
 msgid "Arrangement & Access"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:573
+#: rulesmodel.cpp:577
 #, kde-format
 msgid "Keep below other windows"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:578
+#: rulesmodel.cpp:582
 #, fuzzy, kde-format
 #| msgid "Skip &taskbar"
 msgid "Skip taskbar"
 msgstr "ไม่ให้อยู่ในแถบ&งาน (ทาสก์บาร์)"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:580
+#: rulesmodel.cpp:584
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Controls whether or not the window appears in the Task Manager."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:584
+#: rulesmodel.cpp:588
 #, fuzzy, kde-format
 #| msgid "Skip pa&ger"
 msgid "Skip pager"
 msgstr "ไม่อยู่ในเพ&จเจอร์ (ตัวเก็บรายการหน้าต่าง)"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:586
+#: rulesmodel.cpp:590
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Controls whether or not the window appears in the Virtual Desktop manager."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:590
+#: rulesmodel.cpp:594
 #, fuzzy, kde-format
 #| msgid "Skip &switcher"
 msgid "Skip switcher"
 msgstr "ไม่อยู่ในตัวสลับ&หน้าต่าง"
-
-#. +> trunk6 stable6
-#: rulesmodel.cpp:592
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid "Controls whether or not the window appears in the <shortcut>Alt+Tab</shortcut> window list."
-msgstr ""
 
 #. +> stable5
 #: rulesmodel.cpp:594
@@ -589,26 +590,18 @@ msgid ""
 "\"Extreme\" will completely prevent it from taking the focus."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: rulesmodel.cpp:596
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Controls whether or not the window appears in the <shortcut>Alt+Tab</shortcut> window list."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:600
 #, kde-format
 msgid "Shortcut"
 msgstr "ปุ่มพิมพ์ลัด"
-
-#. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:602
-#, kde-format
-msgid "No titlebar and frame"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:602 rulesmodel.cpp:607 rulesmodel.cpp:613 rulesmodel.cpp:618
-#: rulesmodel.cpp:624 rulesmodel.cpp:651 rulesmodel.cpp:679 rulesmodel.cpp:685
-#: rulesmodel.cpp:697 rulesmodel.cpp:702 rulesmodel.cpp:707 rulesmodel.cpp:712
-#: rulesmodel.cpp:718 rulesmodel.cpp:723
-#, kde-format
-msgid "Appearance & Fixes"
-msgstr ""
 
 #. +> stable5
 #: rulesmodel.cpp:605
@@ -622,17 +615,25 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:607
+#: rulesmodel.cpp:606
 #, kde-format
-msgid "Titlebar color scheme"
+msgid "No titlebar and frame"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:613
-#, fuzzy, kde-format
-#| msgid "A&ctive opacity in %"
-msgid "Active opacity"
-msgstr "ค่าความทึบแ&สงหากทำงานอยู่ (เป็น %)"
+#: rulesmodel.cpp:606 rulesmodel.cpp:611 rulesmodel.cpp:617 rulesmodel.cpp:622
+#: rulesmodel.cpp:628 rulesmodel.cpp:655 rulesmodel.cpp:683 rulesmodel.cpp:689
+#: rulesmodel.cpp:701 rulesmodel.cpp:706 rulesmodel.cpp:711 rulesmodel.cpp:716
+#: rulesmodel.cpp:722 rulesmodel.cpp:727
+#, kde-format
+msgid "Appearance & Fixes"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:611
+#, kde-format
+msgid "Titlebar color scheme"
+msgstr ""
 
 #. +> stable5
 #: rulesmodel.cpp:616
@@ -644,18 +645,18 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:618
+#: rulesmodel.cpp:617
+#, fuzzy, kde-format
+#| msgid "A&ctive opacity in %"
+msgid "Active opacity"
+msgstr "ค่าความทึบแ&สงหากทำงานอยู่ (เป็น %)"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:622
 #, fuzzy, kde-format
 #| msgid "I&nactive opacity in %"
 msgid "Inactive opacity"
 msgstr "ค่าความทึบแส&งหากไม่ได้ทำงาน (เป็น %)"
-
-#. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:624
-#, fuzzy, kde-format
-#| msgid "&Focus stealing prevention"
-msgid "Focus stealing prevention"
-msgstr "ป้&องกันการขโมยโฟกัสการทำงาน"
 
 #. +> stable5
 #: rulesmodel.cpp:624
@@ -671,8 +672,15 @@ msgid ""
 "while it's active!"
 msgstr ""
 
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:628
+#, fuzzy, kde-format
+#| msgid "&Focus stealing prevention"
+msgid "Focus stealing prevention"
+msgstr "ป้&องกันการขโมยโฟกัสการทำงาน"
+
 #. +> trunk6 stable6
-#: rulesmodel.cpp:626
+#: rulesmodel.cpp:630
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -689,14 +697,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:651
+#: rulesmodel.cpp:655
 #, fuzzy, kde-format
 #| msgid "&Focus stealing prevention"
 msgid "Focus protection"
 msgstr "ป้&องกันการขโมยโฟกัสการทำงาน"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:653
+#: rulesmodel.cpp:657
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -713,27 +721,27 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:679
+#: rulesmodel.cpp:683
 #, fuzzy, kde-format
 #| msgid "Accept &focus"
 msgid "Accept focus"
 msgstr "ยอมรับการได้รับโ&ฟกัส"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:681
+#: rulesmodel.cpp:685
 #, kde-format
 msgid "Controls whether or not the window becomes focused when clicked."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:685
+#: rulesmodel.cpp:689
 #, fuzzy, kde-format
 #| msgid "Block global shortcuts"
 msgid "Ignore global shortcuts"
 msgstr "บล็อคการใช้ปุ่มพิมพ์ลัดส่วนรวม"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:687
+#: rulesmodel.cpp:691
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -743,51 +751,51 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:697
+#: rulesmodel.cpp:701
 #, fuzzy, kde-format
 #| msgid "&Closeable"
 msgid "Closeable"
 msgstr "สามารถปิ&ดได้"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:702
+#: rulesmodel.cpp:706
 #, kde-format
 msgid "Desktop file name"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:707
+#: rulesmodel.cpp:711
 #, kde-format
 msgid "Block compositing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:712
+#: rulesmodel.cpp:716
 #, kde-format
 msgid "Layer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:718
+#: rulesmodel.cpp:722
 #, kde-format
 msgid "Adaptive sync"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:723
+#: rulesmodel.cpp:727
 #, kde-format
 msgid "Allow tearing"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:775
+#: rulesmodel.cpp:778
 #, fuzzy, kde-format
 #| msgid "Window &class (application type):"
 msgid "Window class not available"
 msgstr "&คลาสของหน้าต่าง (ประเภทของโปรแกรม):"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:776
+#: rulesmodel.cpp:779
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -797,7 +805,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:810
+#: rulesmodel.cpp:813
 #, fuzzy, kde-format
 #| msgid "Window &types:"
 msgid "All window types"
@@ -818,7 +826,7 @@ msgid "All Window Types"
 msgstr "&ชนิดของหน้าต่าง:"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:811
+#: rulesmodel.cpp:814
 #, fuzzy, kde-format
 #| msgid "Normal Window"
 msgid "Normal window"
@@ -831,7 +839,7 @@ msgid "Normal Window"
 msgstr "หน้าต่างปกติ"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:812
+#: rulesmodel.cpp:815
 #, fuzzy, kde-format
 #| msgid "Dialog Window"
 msgid "Dialog window"
@@ -844,7 +852,7 @@ msgid "Dialog Window"
 msgstr "กล่องตอบโต้"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:813
+#: rulesmodel.cpp:816
 #, fuzzy, kde-format
 #| msgid "Utility Window"
 msgid "Utility window"
@@ -857,19 +865,19 @@ msgid "Utility Window"
 msgstr "หน้าต่างอรรถประโยชน์"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:814
+#: rulesmodel.cpp:817
 #, kde-format
 msgid "Dock (panel)"
 msgstr "แถบพาเนล"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:815
+#: rulesmodel.cpp:818
 #, kde-format
 msgid "Toolbar"
 msgstr "แถบเครื่องมือ"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:816
+#: rulesmodel.cpp:819
 #, fuzzy, kde-format
 #| msgid "Torn-Off Menu"
 msgid "Torn-off menu"
@@ -882,7 +890,7 @@ msgid "Torn-Off Menu"
 msgstr "เมนูที่แยกออกมาได้"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:817
+#: rulesmodel.cpp:820
 #, fuzzy, kde-format
 #| msgid "Splash Screen"
 msgid "Splash screen"
@@ -895,14 +903,14 @@ msgid "Splash Screen"
 msgstr "หน้าจอเริ่มทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:818 rulesmodel.cpp:919
+#: rulesmodel.cpp:821 rulesmodel.cpp:922
 #, kde-format
 msgid "Desktop"
 msgstr "พื้นที่ทำงาน"
 
 #. i18n("Unmanaged Window")},  deprecated
 #. +> trunk6 stable6
-#: rulesmodel.cpp:820
+#: rulesmodel.cpp:823
 #, fuzzy, kde-format
 #| msgid "Standalone Menubar"
 msgid "Standalone menubar"
@@ -916,7 +924,7 @@ msgid "Standalone Menubar"
 msgstr "แถบรายการเมนูเดี่ยว"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:821 rulesmodel.cpp:927
+#: rulesmodel.cpp:824 rulesmodel.cpp:930
 #, kde-format
 msgid "On-screen display"
 msgstr ""
@@ -928,7 +936,7 @@ msgid "On Screen Display"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:831
+#: rulesmodel.cpp:834
 #, fuzzy, kde-format
 #| msgid "All Desktops"
 msgid "All desktops"
@@ -941,14 +949,14 @@ msgid "All Desktops"
 msgstr "พื้นที่ทำงานทั้งหมด"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:833
+#: rulesmodel.cpp:836
 #, kde-format
 msgctxt "@info:tooltip in the virtual desktop list"
 msgid "Make the window available on all desktops"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:852
+#: rulesmodel.cpp:855
 #, fuzzy, kde-format
 #| msgid "A&ctive opacity in %"
 msgid "All activities"
@@ -961,20 +969,20 @@ msgid "All Activities"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:854
+#: rulesmodel.cpp:857
 #, kde-format
 msgctxt "@info:tooltip in the activity list"
 msgid "Make the window available on all activities"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:875
+#: rulesmodel.cpp:878
 #, kde-format
 msgid "Default"
 msgstr "ค่าปริยาย"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:876
+#: rulesmodel.cpp:879
 #, fuzzy, kde-format
 #| msgid "No Placement"
 msgid "No placement"
@@ -987,7 +995,7 @@ msgid "No Placement"
 msgstr "ไม่ต้องย้ายตำแหน่ง"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:877
+#: rulesmodel.cpp:880
 #, kde-format
 msgid "Minimal overlapping"
 msgstr ""
@@ -999,26 +1007,26 @@ msgid "Minimal Overlapping"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:878
+#: rulesmodel.cpp:881
 #, fuzzy, kde-format
 #| msgid "Maximizing"
 msgid "Maximized"
 msgstr "ขยายใหญ่สุด"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:879
+#: rulesmodel.cpp:882
 #, kde-format
 msgid "Centered"
 msgstr "จัดกึ่งกลาง"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:880
+#: rulesmodel.cpp:883
 #, kde-format
 msgid "Random"
 msgstr "สุ่ม"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:881
+#: rulesmodel.cpp:884
 #, fuzzy, kde-format
 #| msgid "Top-Left Corner"
 msgid "In top-left corner"
@@ -1032,7 +1040,7 @@ msgid "In Top-Left Corner"
 msgstr "มุมบนซ้าย"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:882
+#: rulesmodel.cpp:885
 #, fuzzy, kde-format
 #| msgid "Under Mouse"
 msgid "Under mouse"
@@ -1045,7 +1053,7 @@ msgid "Under Mouse"
 msgstr "ใต้เมาส์"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:883
+#: rulesmodel.cpp:886
 #, fuzzy, kde-format
 #| msgid "On Main Window"
 msgid "On main window"
@@ -1058,7 +1066,7 @@ msgid "On Main Window"
 msgstr "บนหน้าต่างหลัก"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:890
+#: rulesmodel.cpp:893
 #, fuzzy, kde-format
 #| msgctxt "no focus stealing prevention"
 #| msgid "None"
@@ -1066,76 +1074,76 @@ msgid "None"
 msgstr "ไม่ป้องกัน"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:891
+#: rulesmodel.cpp:894
 #, kde-format
 msgid "Low"
 msgstr "ต่ำ"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:892 rulesmodel.cpp:921
+#: rulesmodel.cpp:895 rulesmodel.cpp:924
 #, kde-format
 msgid "Normal"
 msgstr "ปกติ"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:893
+#: rulesmodel.cpp:896
 #, kde-format
 msgid "High"
 msgstr "สูง"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:894
+#: rulesmodel.cpp:897
 #, kde-format
 msgid "Extreme"
 msgstr "เข้มงวดมาก"
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:920
+#: rulesmodel.cpp:923
 #, kde-format
 msgid "Below"
 msgstr ""
 
 #. +> trunk6 stable6
-#: rulesmodel.cpp:922
-#, kde-format
-msgid "Above"
-msgstr ""
-
-#. +> trunk6 stable6
-#: rulesmodel.cpp:923
-#, fuzzy, kde-format
-#| msgid "&Position"
-msgid "Notification"
-msgstr "ตำแห&น่ง"
-
-#. +> trunk6 stable6
 #: rulesmodel.cpp:925
 #, kde-format
-msgid "Popup"
+msgid "Above"
 msgstr ""
 
 #. +> trunk6 stable6
 #: rulesmodel.cpp:926
 #, fuzzy, kde-format
 #| msgid "&Position"
-msgid "Critical notification"
+msgid "Notification"
 msgstr "ตำแห&น่ง"
 
 #. +> trunk6 stable6
 #: rulesmodel.cpp:928
 #, kde-format
+msgid "Popup"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:929
+#, fuzzy, kde-format
+#| msgid "&Position"
+msgid "Critical notification"
+msgstr "ตำแห&น่ง"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:931
+#, kde-format
 msgid "Overlay"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:953
+#: rulesmodel.cpp:956
 #, fuzzy, kde-format
 #| msgid "On Main Window"
 msgid "Unmanaged window"
 msgstr "บนหน้าต่างหลัก"
 
 #. +> trunk6 stable6 stable5
-#: rulesmodel.cpp:954
+#: rulesmodel.cpp:957
 #, kde-format
 msgid "Could not detect window properties. The window is not managed by KWin."
 msgstr ""

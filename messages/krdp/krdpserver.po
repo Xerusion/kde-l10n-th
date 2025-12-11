@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdp\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-20 11:49+0200\n"
+"POT-Creation-Date: 2025-09-18 15:51+0200\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -66,21 +66,28 @@ msgstr ""
 msgid "Users allowed to login, passwords are stored in KWallet"
 msgstr ""
 
-#. i18n: ectx: label, entry (Autostart), group (General)
+#. i18n: ectx: label, entry (SystemUserEnabled), group (General)
 #. +> trunk6 stable6
 #: krdpserversettings.kcfg:35
+#, kde-format
+msgid "Whether the current user can log in via PAM"
+msgstr ""
+
+#. i18n: ectx: label, entry (Autostart), group (General)
+#. +> trunk6 stable6
+#: krdpserversettings.kcfg:39
 #, kde-format
 msgid "Autostart the server on login"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SessionController.cpp:89
+#: SessionController.cpp:102
 #, kde-format
 msgid "RDP Server"
 msgstr ""
 
 #. +> trunk6 stable6
-#: SessionController.cpp:92
+#: SessionController.cpp:105
 #, kde-format
 msgid "Quit"
 msgstr ""

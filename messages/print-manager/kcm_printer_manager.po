@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: print-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-31 10:32+0100\n"
+"POT-Creation-Date: 2025-11-20 14:06+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,54 +13,93 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6
-#: printermanager.cpp:259
+#: printermanager.cpp:106
+#, kde-format
+msgid "Add a new printer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: printermanager.cpp:108
+#, kde-format
+msgid "Add a new printer group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: printermanager.cpp:110 printermanager.cpp:112
+#, kde-format
+msgid "Configure a printer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: printermanager.cpp:310
 #, kde-format
 msgctxt "@info"
 msgid "Failed to configure class: "
 msgstr ""
 
 #. +> trunk6 stable6
-#: printermanager.cpp:259
+#: printermanager.cpp:310
 #, kde-format
 msgctxt "@info"
 msgid "Failed to configure printer: "
 msgstr ""
 
 #. +> trunk6 stable6
-#: printermanager.cpp:425
+#: printermanager.cpp:435
+#, kde-format
+msgctxt "@list:item"
+msgid "IPP Everywhere™"
+msgstr ""
+
+#. +> trunk6 stable6
+#: printermanager.cpp:462
+#, kde-format
+msgctxt "@list:item"
+msgid "Driverless"
+msgstr ""
+
+#. +> trunk6 stable6
+#: printermanager.cpp:465
+#, kde-format
+msgctxt "@list:item"
+msgid "PPD File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: printermanager.cpp:484
 #, kde-format
 msgid "Failed to perform request: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: printermanager.cpp:477
+#: printermanager.cpp:536
 #, kde-format
 msgctxt "@info"
 msgid "Failed to get server settings: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: printermanager.cpp:514
+#: printermanager.cpp:573
 #, kde-format
 msgctxt "@info"
 msgid "Server Settings Not Saved: (%1): %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: printermanager.cpp:521
+#: printermanager.cpp:580
 #, kde-format
 msgctxt "@info"
 msgid "Fatal Save Server Settings: (%1): %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: printermanager.cpp:574
+#: printermanager.cpp:633
 #, kde-format
 msgid "Print Self-Test Page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: printermanager.cpp:580
+#: printermanager.cpp:639
 #, kde-format
 msgid "Clean Print Heads"
 msgstr ""
@@ -75,305 +114,286 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/AddressExamples.qml:28
+#: ui/components/AddressExamples.qml:30
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Example Addresses"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/BaseDevice.qml:111
+#: ui/components/BaseDevice.qml:86
+#, kde-format
+msgctxt "@label:title"
+msgid "Printing Device"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/components/BaseDevice.qml:116
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Address:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/BaseDevice.qml:121
+#: ui/components/BaseDevice.qml:126
 #, kde-format
 msgctxt "@info The printer/device address"
 msgid "Enter device address"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Direct.qml:23
+#: ui/components/Direct.qml:25
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Choose a device connection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Drivers.qml:39
-#, kde-kuit-format
-msgctxt "@info:status"
-msgid "Unable to locate recommended drivers.  Click <interface>Refresh</interface> to try again or choose a driver manually."
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/components/Drivers.qml:47
-#, kde-format
-msgctxt "@action:button"
-msgid "Choose Driverless…"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/components/Drivers.qml:52
-#, kde-format
-msgctxt "@action:button"
-msgid "Choose Driver…"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/components/Drivers.qml:87
+#: ui/components/Drivers.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Recommended Driver"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Drivers.qml:92
+#: ui/components/Drivers.qml:67
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Recommended drivers are based on printer make/model and connection type"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Drivers.qml:130
+#: ui/components/Drivers.qml:72
 #, kde-format
-msgctxt "@label:listitem"
-msgid "Driverless (%1)"
+msgctxt "@action:button"
+msgid "Manual Driver Search…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Drivers.qml:132
+#: ui/components/Drivers.qml:78
 #, kde-format
-msgctxt "@label:listitem"
-msgid "PPD File (%1)"
+msgctxt "@info:tooltip"
+msgid "Search for and select a driver based on printer make/model"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Lpd.qml:20
+#: ui/components/Lpd.qml:22
 #, kde-format
 msgctxt "@title:group"
 msgid "Line Printer Daemon (LPD) Protocol"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Lpd.qml:21
+#: ui/components/Lpd.qml:23
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Enter the address of the LPD device"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Lpd.qml:61
+#: ui/components/Lpd.qml:63
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Queue:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Lpd.qml:66
+#: ui/components/Lpd.qml:68
 #, kde-format
 msgctxt "@info:placeholder The LPD device queue name"
 msgid "LPD queue name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Lpd.qml:73 ui/components/ManualUri.qml:81
-#: ui/components/Socket.qml:47
+#: ui/components/Lpd.qml:75 ui/components/ManualUri.qml:82
+#: ui/components/Socket.qml:49
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue with Address…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Lpd.qml:90
+#: ui/components/Lpd.qml:92
 #, kde-format
 msgctxt "@info:status"
 msgid "Invalid LPD URL: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/ManualUri.qml:21
+#: ui/components/ManualUri.qml:23
 #, kde-format
 msgctxt "@title:group"
 msgid "Find remote printing devices"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/ManualUri.qml:22
+#: ui/components/ManualUri.qml:24
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Enter the address of the remote host/device"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/ManualUri.qml:56
+#: ui/components/ManualUri.qml:57
 #, kde-format
 msgctxt "@info:status"
 msgid "No Printers found at host: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/ManualUri.qml:61
+#: ui/components/ManualUri.qml:62
 #, kde-format
 msgctxt "@info:status"
 msgid "CUPS request error (%1): %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/ManualUri.qml:71
+#: ui/components/ManualUri.qml:72
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Printer…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/ManualUri.qml:92
+#: ui/components/ManualUri.qml:93
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
-msgid "If the printer address is known, enter it and choose <interface>Continue</interface>."
+msgid "If the printer address is known, enter it and choose <interface>Continue</interface>.  If the printer is on a remote host, enter that address and choose <interface>Search</interface>."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/NotAvailable.qml:19
-#, kde-format
-msgctxt "@info:status"
-msgid "This feature is not yet available (%1)"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/components/Socket.qml:17
+#: ui/components/Socket.qml:19
 #, kde-format
 msgctxt "@title:group"
 msgid "AppSocket Protocol (aka JetDirect)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Socket.qml:18
+#: ui/components/Socket.qml:20
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Enter the address of the AppSocket device"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/components/Socket.qml:63
+#: ui/components/Socket.qml:65
 #, kde-format
 msgid "Invalid Socket URL: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/FindPrinter.qml:86
+#: ui/FindPrinter.qml:128
 #, kde-format
 msgctxt "@title:window"
 msgid "Set up a Printer Connection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/FindPrinter.qml:93
+#: ui/FindPrinter.qml:132 ui/main.qml:275
+#, kde-format
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/FindPrinter.qml:142
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Detected Devices"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/FindPrinter.qml:94
+#: ui/FindPrinter.qml:143
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Manual Options"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/FindPrinter.qml:113
+#: ui/FindPrinter.qml:219
 #, kde-format
-msgid "Refresh"
+msgctxt "@info:status"
+msgid "This feature is not available (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/FindPrinter.qml:124
-#, kde-format
-msgid "CUPS Network Printers Help"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/FindPrinter.qml:183
+#: ui/FindPrinter.qml:228
 #, kde-format
 msgctxt "@info:status"
 msgid "Unable to automatically discover any printing devices"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/FindPrinter.qml:184
+#: ui/FindPrinter.qml:229
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Choose \"Refresh\" to try again or choose a manual configuration option from the list"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/FindPrinter.qml:193
+#: ui/FindPrinter.qml:238
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Choose a manual configuration option from the list"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Global.qml:16
+#: ui/Global.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "CUPS Server Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Global.qml:23
+#: ui/Global.qml:24
 #, kde-format
 msgctxt "@action:button"
 msgid "CUPS Print Server Admin"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Global.qml:30
+#: ui/Global.qml:31
 #, kde-format
 msgctxt "@action:button Reset to current settings"
 msgid "Reset"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Global.qml:36
+#: ui/Global.qml:37
 #, kde-format
 msgctxt "@action:button Apply new settings"
 msgid "Apply"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Global.qml:88
+#: ui/Global.qml:89
 #, kde-format
 msgid "Please wait while the CUPS server restarts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Global.qml:126
+#: ui/Global.qml:127
 #, kde-format
 msgctxt "@option:check"
 msgid "Share printers connected to this system"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Global.qml:138
+#: ui/Global.qml:139
 #, kde-format
 msgctxt "@option:check"
 msgid "Allow printing from the Internet"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Global.qml:144
+#: ui/Global.qml:145
 #, kde-format
 msgctxt "@option:check"
 msgid "Allow remote administration"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/Global.qml:149
+#: ui/Global.qml:150
 #, kde-format
 msgctxt "@option:check"
 msgid "Allow users to cancel any job (not just their own)"
@@ -415,19 +435,19 @@ msgid "Report this issue to %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:29
+#: ui/main.qml:35
 #, kde-format
 msgid "new_queue"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:29
+#: ui/main.qml:35
 #, kde-format
 msgid "new_group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:69
+#: ui/main.qml:84
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid ""
@@ -437,430 +457,444 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:71
+#: ui/main.qml:86
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "A printer support package that provides convenience features does not appear to be installed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:77
+#: ui/main.qml:92
 #, kde-format
 msgctxt "@action:button Install printer setup helper package"
 msgid "Install It"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:108
+#: ui/main.qml:123
 #, kde-format
 msgctxt "@action:button The thing being added is a printer"
 msgid "Add…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:109
+#: ui/main.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Printer…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:119
+#: ui/main.qml:130
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Group…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:128
+#: ui/main.qml:136
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Print Server…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:234
+#: ui/main.qml:262
 #, kde-format
 msgctxt "@info:status"
 msgid "No printers are currently set up"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:235
+#: ui/main.qml:263
 #, kde-kuit-format
 msgctxt "@info:usagetip"
 msgid "Click <interface>Add…</interface> to set up a new printer on this computer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:244
+#: ui/main.qml:272
+#, kde-format
+msgctxt "@info:status"
+msgid "Printing services not available"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:273
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid "Click <interface>Configure Print Server…</interface> to check settings, or verify that the CUPS system service is active."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:313
 #, kde-format
 msgid "Printers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:244
+#: ui/main.qml:313
 #, kde-format
 msgid "Printer Groups"
 msgstr ""
 
-#. +> trunk6 stable6
-#: ui/main.qml:305
+#. +> trunk6
+#: ui/main.qml:376
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Print Queue"
+msgstr ""
+
+#. +> stable6
+#: ui/main.qml:376
 #, kde-format
 msgctxt "@action:button Open print queue"
 msgid "Print Queue"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:321
-#, kde-format
-msgctxt "@action:button Resume printing"
-msgid "Resume"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:322
-#, kde-format
-msgctxt "@action:button Pause printing"
-msgid "Pause"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:336
+#: ui/main.qml:385
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Resume printing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/main.qml:337
+#: ui/main.qml:386
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Pause printing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/MakeModel.qml:87
+#: ui/main.qml:392
+#, kde-format
+msgctxt "@action:button Resume printing"
+msgid "Resume"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:393
+#, kde-format
+msgctxt "@action:button Pause printing"
+msgid "Pause"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/MakeModel.qml:91
 #, kde-format
 msgctxt "@title:window"
 msgid "Select a printer make/model"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/MakeModel.qml:89
+#: ui/MakeModel.qml:93
 #, kde-format
 msgctxt "@title:window"
 msgid "Printer Driver (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/MakeModel.qml:96
+#: ui/MakeModel.qml:100
 #, kde-format
 msgctxt "@title:window"
 msgid "Printer Driver"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/MakeModel.qml:143
+#: ui/MakeModel.qml:146
+#, kde-format
+msgctxt "@action:button Select ipp everywhere driver"
+msgid "Use IPP Everywhere™"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/MakeModel.qml:161
 #, kde-format
 msgid "Save"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/MakeModel.qml:148
+#: ui/MakeModel.qml:166
 #, kde-format
 msgid "Select a PostScript Printer Description (PPD) file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/MakeModel.qml:155
+#: ui/MakeModel.qml:173
 #, kde-format
 msgid "Printer model is required.  Please select a printer model."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/MakeModel.qml:212
+#: ui/MakeModel.qml:230
 #, kde-format
 msgctxt "@option:radio"
 msgid "Select Make and Model:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/MakeModel.qml:224
+#: ui/MakeModel.qml:242
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Filter Models"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/MakeModel.qml:319
+#: ui/MakeModel.qml:346
 #, kde-format
 msgctxt "@option:radio"
 msgid "PPD file:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/MakeModel.qml:338
+#: ui/MakeModel.qml:365
 #, kde-format
 msgctxt "@action:button"
 msgid "Select PPD File…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/MakeModel.qml:346
+#: ui/MakeModel.qml:373
 #, kde-format
 msgid "Select"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/MakeModel.qml:347
+#: ui/MakeModel.qml:374
 #, kde-format
 msgid "PostScript Printer Description Files (*.ppd)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:49
+#: ui/PrinterSettings.qml:46
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:50
+#: ui/PrinterSettings.qml:47
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Printer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:61
+#: ui/PrinterSettings.qml:58
 #, kde-format
 msgid "Configure…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:66
+#: ui/PrinterSettings.qml:63
 #, kde-format
 msgid "Remove"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:83
+#: ui/PrinterSettings.qml:80
 #, kde-format
 msgctxt "@action:button"
 msgid "CUPS Printers Overview Help"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:89
+#: ui/PrinterSettings.qml:86
 #, kde-format
 msgctxt "@action:button"
 msgid "Printer/Device Admin Page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:107
+#: ui/PrinterSettings.qml:104
 #, kde-format
 msgctxt "@action:button Add printer"
 msgid "Add"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:108
+#: ui/PrinterSettings.qml:105
 #, kde-format
 msgctxt "@action:button Apply changes"
 msgid "Apply"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:116
+#: ui/PrinterSettings.qml:113
 #, kde-format
 msgctxt "@info:status"
 msgid "Queue name is required. Enter a unique queue name."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:121
+#: ui/PrinterSettings.qml:118
 #, kde-format
 msgctxt "@info:status"
 msgid "Queue name must be unique. Enter a unique queue name."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:129
+#: ui/PrinterSettings.qml:126
 #, kde-format
 msgctxt "@info:status"
 msgid "Make/Model is required. Choose \"Select\" to pick Make/Model"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:139
+#: ui/PrinterSettings.qml:136
 #, kde-format
 msgctxt "@info:status"
 msgid "Configuring %1, please wait…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:181
+#: ui/PrinterSettings.qml:178
 #, kde-format
 msgid "Failed to remove the printer: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:208
+#: ui/PrinterSettings.qml:205
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove Group?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:209
+#: ui/PrinterSettings.qml:206
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove Printer?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:211
+#: ui/PrinterSettings.qml:208
 #, kde-format
 msgctxt "@info %1 is the name of a printer or printer group"
 msgid "'%1' will be removed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:218
+#: ui/PrinterSettings.qml:215
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove Group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:219
+#: ui/PrinterSettings.qml:216
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove Printer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:228
+#: ui/PrinterSettings.qml:225
 #, kde-format
 msgid "Cancel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:400
+#: ui/PrinterSettings.qml:347
 #, kde-format
 msgctxt "@action:check Set default printer"
 msgid "Default printer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:414
+#: ui/PrinterSettings.qml:362
 #, kde-format
 msgctxt "@info"
 msgid "To change the default printer, set another printer as the default."
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:423
+#: ui/PrinterSettings.qml:371
 #, kde-format
 msgctxt "@action:check"
 msgid "Share this group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:424
+#: ui/PrinterSettings.qml:372
 #, kde-format
 msgctxt "@action:check"
 msgid "Share this printer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:431
+#: ui/PrinterSettings.qml:379
 #, kde-format
 msgctxt "@action:check"
 msgid "Accepting print jobs"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:481
+#: ui/PrinterSettings.qml:432
 #, kde-format
 msgctxt "@action:button"
 msgid "Print Test Page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:487
+#: ui/PrinterSettings.qml:438
 #, kde-format
 msgctxt "@action:button"
 msgid "Print Self-Test Page"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:494
+#: ui/PrinterSettings.qml:445
 #, kde-format
 msgctxt "@action:button"
 msgid "Clean Print Heads"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:514
-#, kde-format
-msgctxt "@action:button"
-msgid "Find a Printer…"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/PrinterSettings.qml:522
+#: ui/PrinterSettings.qml:463
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Queue Name:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:539
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid "A <interface>printer group</interface> is used to pool printing resources."
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/PrinterSettings.qml:547
+#: ui/PrinterSettings.qml:488
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:559
+#: ui/PrinterSettings.qml:500
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Location:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:571
+#: ui/PrinterSettings.qml:512
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Connection:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:585
+#: ui/PrinterSettings.qml:526
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Member Printers:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:722
+#: ui/PrinterSettings.qml:667
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Make/Model:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ui/PrinterSettings.qml:737
+#: ui/PrinterSettings.qml:682
 #, kde-format
 msgctxt "@action:button Select printer make/model"
 msgid "Select…"

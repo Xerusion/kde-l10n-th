@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-09 11:25+0100\n"
+"POT-Creation-Date: 2025-11-26 10:41+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -25,21 +25,9 @@ msgid "Send file to other device using KDE Connect"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcm/kcm_kdeconnect.json plasmoid/package/metadata.json
+#: plasmoid/package/metadata.json
 msgctxt "Name"
 msgid "KDE Connect"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kcm/kcm_kdeconnect.json
-msgctxt "Description"
-msgid "Configure device synchronization"
-msgstr ""
-
-#. +> trunk6 stable6
-#: kcm/kcm_kdeconnect.json
-msgctxt "X-KDE-Keywords"
-msgid "network,kde connect,connect,phone,sync,mobile,android,ios,send files,share files,transfer files,receive files,devices,device,synchronization,calls,telephone,smartphone,contacts,sms,phone notifications,control volume,system volume,ringtone,play sound,presentation,take picture,take photo,shared clipboard,conectivity monitor,remote input,remote mouse,remote keyboard,mpris,phone integration,commands,lock device,multimedia control,sftp,browse phone,share"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -68,31 +56,25 @@ msgctxt "Name"
 msgid "Battery monitor"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/battery/kdeconnect_battery.json
+msgctxt "Description"
+msgid "Share the battery status between devices"
+msgstr ""
+
+#. +> stable6
 #: plugins/battery/kdeconnect_battery.json
 msgctxt "Description"
 msgid "Show your phone battery next to your computer battery"
 msgstr ""
 
-#. +> trunk6 stable6
-#: plugins/bigscreen/kdeconnect_bigscreen.json
+#. +> trunk6
+#: plugins/clipboard/kdeconnect_clipboard.json
 msgctxt "Name"
-msgid "Bigscreen voice control"
+msgid "Clipboard synchronization"
 msgstr ""
 
-#. +> trunk6 stable6
-#: plugins/bigscreen/kdeconnect_bigscreen.json
-msgctxt "Description"
-msgid "Send voice commands to your TV running Plasma Bigscreen"
-msgstr ""
-
-#. +> trunk6 stable6
-#: plugins/bigscreen/kdeconnect_bigscreen.json
-msgctxt "Authors Name"
-msgid "Aditya Mehra"
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> stable6
 #: plugins/clipboard/kdeconnect_clipboard.json
 msgctxt "Name"
 msgid "Clipboard"
@@ -122,13 +104,25 @@ msgctxt "Authors Name"
 msgid "David Shlemayev"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/contacts/kdeconnect_contacts.json
+msgctxt "Name"
+msgid "Sync Contacts"
+msgstr ""
+
+#. +> stable6
 #: plugins/contacts/kdeconnect_contacts.json
 msgctxt "Name"
 msgid "Contacts"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/contacts/kdeconnect_contacts.json
+msgctxt "Description"
+msgid "Synchronize contacts from the connected device"
+msgstr ""
+
+#. +> stable6
 #: plugins/contacts/kdeconnect_contacts.json
 msgctxt "Description"
 msgid "Synchronize Contacts from the Connected Device to the Desktop"
@@ -140,7 +134,31 @@ msgctxt "Authors Name"
 msgid "Simon Redman"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/digitizer/kdeconnect_digitizer.json
+msgctxt "Name"
+msgid "Drawing tablet"
+msgstr ""
+
+#. +> trunk6
+#: plugins/digitizer/kdeconnect_digitizer.json
+msgctxt "Description"
+msgid "Use your device as a pressure sensitive drawing tablet"
+msgstr ""
+
+#. +> trunk6
+#: plugins/digitizer/kdeconnect_digitizer.json
+msgctxt "Authors Name"
+msgid "Martin Sh"
+msgstr ""
+
+#. +> trunk6
+#: plugins/findmyphone/kdeconnect_findmyphone.json
+msgctxt "Name"
+msgid "Find other devices"
+msgstr ""
+
+#. +> stable6
 #: plugins/findmyphone/kdeconnect_findmyphone.json
 msgctxt "Name"
 msgid "Ring my phone"
@@ -183,13 +201,25 @@ msgctxt "Authors Name"
 msgid "Friedrich W. H. Kossebau"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/lockdevice/kdeconnect_lockdevice.json
+msgctxt "Name"
+msgid "Lock Device"
+msgstr ""
+
+#. +> stable6
 #: plugins/lockdevice/kdeconnect_lockdevice.json
 msgctxt "Name"
 msgid "LockDevice"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/lockdevice/kdeconnect_lockdevice.json
+msgctxt "Description"
+msgid "Remotely lock and unlock your screen"
+msgstr ""
+
+#. +> stable6
 #: plugins/lockdevice/kdeconnect_lockdevice.json
 msgctxt "Description"
 msgid "Locks your systems"
@@ -224,7 +254,13 @@ msgctxt "Authors Name"
 msgid "Yoram Bar-Haim"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/mousepad/kdeconnect_mousepad.json
+msgctxt "Name"
+msgid "Receive remote input"
+msgstr ""
+
+#. +> stable6
 #: plugins/mousepad/kdeconnect_mousepad.json
 msgctxt "Name"
 msgid "Virtual input"
@@ -254,13 +290,25 @@ msgctxt "Description"
 msgid "Remote control your music and videos"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/mprisremote/kdeconnect_mprisremote.json
+msgctxt "Name"
+msgid "Send multimedia control commands"
+msgstr ""
+
+#. +> stable6
 #: plugins/mprisremote/kdeconnect_mprisremote.json
 msgctxt "Name"
 msgid "MprisRemote"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/mprisremote/kdeconnect_mprisremote.json
+msgctxt "Description"
+msgid "Control multimedia players from this device"
+msgstr ""
+
+#. +> stable6
 #: plugins/mprisremote/kdeconnect_mprisremote.json
 msgctxt "Description"
 msgid "Control MPRIS services"
@@ -308,13 +356,25 @@ msgctxt "Name"
 msgid "Presenter"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/presenter/kdeconnect_presenter.json
+msgctxt "Description"
+msgid "Use your mobile device as a presentation pointer"
+msgstr ""
+
+#. +> stable6
 #: plugins/presenter/kdeconnect_presenter.json
 msgctxt "Description"
 msgid "Use your mobile device to point to things on the screen"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/remotecommands/kdeconnect_remotecommands.json
+msgctxt "Name"
+msgid "Send commands to execute"
+msgstr ""
+
+#. +> stable6
 #: plugins/remotecommands/kdeconnect_remotecommands.json
 msgctxt "Name"
 msgid "Host remote commands"
@@ -326,25 +386,49 @@ msgctxt "Description"
 msgid "Trigger commands predefined on the remote device"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/remotecontrol/kdeconnect_remotecontrol.json
+msgctxt "Name"
+msgid "Send remote mouse input"
+msgstr ""
+
+#. +> stable6
 #: plugins/remotecontrol/kdeconnect_remotecontrol.json
 msgctxt "Name"
 msgid "RemoteControl"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/remotecontrol/kdeconnect_remotecontrol.json
+msgctxt "Description"
+msgid "Use your mouse to send input to another device"
+msgstr ""
+
+#. +> stable6
 #: plugins/remotecontrol/kdeconnect_remotecontrol.json
 msgctxt "Description"
 msgid "Control Remote systems"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/remotekeyboard/kdeconnect_remotekeyboard.json
+msgctxt "Name"
+msgid "Send remote keyboard input"
+msgstr ""
+
+#. +> stable6
 #: plugins/remotekeyboard/kdeconnect_remotekeyboard.json
 msgctxt "Name"
 msgid "Remote keyboard from the desktop"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/remotekeyboard/kdeconnect_remotekeyboard.json
+msgctxt "Description"
+msgid "Use your keyboard to send input to another device"
+msgstr ""
+
+#. +> stable6
 #: plugins/remotekeyboard/kdeconnect_remotekeyboard.json
 msgctxt "Description"
 msgid "Use your keyboard to send key-events to your paired device"
@@ -357,7 +441,13 @@ msgctxt "Authors Name"
 msgid "Holger Kaelberer"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/remotesystemvolume/kdeconnect_remotesystemvolume.json
+msgctxt "Name"
+msgid "Remote volume control"
+msgstr ""
+
+#. +> stable6
 #: plugins/remotesystemvolume/kdeconnect_remotesystemvolume.json
 msgctxt "Name"
 msgid "Remote system volume"
@@ -376,13 +466,25 @@ msgctxt "Authors Name"
 msgid "Nicolas Fella"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/runcommand/kdeconnect_runcommand.json
+msgctxt "Name"
+msgid "Execute remote commands"
+msgstr ""
+
+#. +> stable6
 #: plugins/runcommand/kdeconnect_runcommand.json
 msgctxt "Name"
 msgid "Run commands"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/runcommand/kdeconnect_runcommand.json
+msgctxt "Description"
+msgid "Execute predefined commands remotely"
+msgstr ""
+
+#. +> stable6
 #: plugins/runcommand/kdeconnect_runcommand.json
 msgctxt "Description"
 msgid "Execute console commands remotely"
@@ -442,13 +544,25 @@ msgctxt "Name"
 msgid "Share and receive"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/share/kdeconnect_share.json
+msgctxt "Description"
+msgid "Receive and send files, URLs, or plain text"
+msgstr ""
+
+#. +> stable6
 #: plugins/share/kdeconnect_share.json
 msgctxt "Description"
 msgid "Receive and send files, URLs or plain text easily"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/sms/kdeconnect_sms.json
+msgctxt "Name"
+msgid "SMS integration"
+msgstr ""
+
+#. +> stable6
 #: plugins/sms/kdeconnect_sms.json
 msgctxt "Name"
 msgid "SMS"
@@ -460,13 +574,25 @@ msgctxt "Description"
 msgid "Send and receive SMS"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/systemvolume/kdeconnect_systemvolume.json
+msgctxt "Name"
+msgid "Receive volume controls"
+msgstr ""
+
+#. +> stable6
 #: plugins/systemvolume/kdeconnect_systemvolume.json
 msgctxt "Name"
 msgid "System volume"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: plugins/systemvolume/kdeconnect_systemvolume.json
+msgctxt "Description"
+msgid "Enable volume to be controlled from the connected device"
+msgstr ""
+
+#. +> stable6
 #: plugins/systemvolume/kdeconnect_systemvolume.json
 msgctxt "Description"
 msgid "Control the system volume from your phone"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwindecoration\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-09 14:54+0100\n"
+"POT-Creation-Date: 2025-09-18 15:51+0200\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -19,72 +19,79 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. +> trunk6 stable6 stable5
-#: declarative-plugin/buttonsmodel.cpp:56
+#. +> stable5
+#: declarative-plugin/buttonsmodel.cpp:53
 #, kde-format
 msgid "More actions for this window"
 msgstr ""
 
+#. +> trunk6 stable6
+#: declarative-plugin/buttonsmodel.cpp:55
+#, fuzzy, kde-format
+#| msgid "Get New Decorations..."
+msgid "Window menu"
+msgstr "หาชุดตกแต่งใหม่ ๆ ..."
+
 #. +> trunk6 stable6 stable5
-#: declarative-plugin/buttonsmodel.cpp:58
+#: declarative-plugin/buttonsmodel.cpp:57
 #, kde-format
 msgid "Application menu"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: declarative-plugin/buttonsmodel.cpp:60
+#: declarative-plugin/buttonsmodel.cpp:59
 #, fuzzy, kde-format
 #| msgid "On All Desktops"
 msgid "On all desktops"
 msgstr "บนพื้นที่ทำงานทั้งหมด"
 
 #. +> trunk6 stable6 stable5
-#: declarative-plugin/buttonsmodel.cpp:62
+#: declarative-plugin/buttonsmodel.cpp:61
 #, kde-format
 msgid "Minimize"
 msgstr "ย่อหาย"
 
 #. +> trunk6 stable6 stable5
-#: declarative-plugin/buttonsmodel.cpp:64
+#: declarative-plugin/buttonsmodel.cpp:63
 #, kde-format
 msgid "Maximize"
 msgstr "ขยายใหญ่สุด"
 
 #. +> trunk6 stable6 stable5
-#: declarative-plugin/buttonsmodel.cpp:66
+#: declarative-plugin/buttonsmodel.cpp:65
 #, kde-format
 msgid "Close"
 msgstr "ปิด"
 
 #. +> trunk6 stable6 stable5
-#: declarative-plugin/buttonsmodel.cpp:68
+#: declarative-plugin/buttonsmodel.cpp:67
 #, kde-format
 msgid "Context help"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: declarative-plugin/buttonsmodel.cpp:70
-#, kde-format
-msgid "Shade"
-msgstr "พับเก็บ"
-
-#. +> trunk6 stable6 stable5
-#: declarative-plugin/buttonsmodel.cpp:72
+#: declarative-plugin/buttonsmodel.cpp:69
 #, kde-format
 msgid "Keep below other windows"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: declarative-plugin/buttonsmodel.cpp:74
+#: declarative-plugin/buttonsmodel.cpp:71
 #, kde-format
 msgid "Keep above other windows"
 msgstr ""
 
 #. +> trunk6 stable6
-#: declarative-plugin/buttonsmodel.cpp:76
+#: declarative-plugin/buttonsmodel.cpp:73
 #, kde-format
 msgid "Spacer"
 msgstr ""
+
+#. +> stable5
+#: declarative-plugin/buttonsmodel.cpp:67
+#, kde-format
+msgid "Shade"
+msgstr "พับเก็บ"
 
 #. +> stable5
 #: kcm.cpp:49
@@ -204,18 +211,18 @@ msgstr ""
 msgid "Titlebar Buttons"
 msgstr "ปุ่มต่าง ๆ"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/ConfigureTitlebar.qml:35
 #, kde-format
 msgctxt "checkbox label"
-msgid "Close windows by double clicking the menu button"
+msgid "Close windows by double clicking the window menu button"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/ConfigureTitlebar.qml:52
 #, kde-format
 msgctxt "popup tip"
-msgid "Click and hold on the menu button to show the menu."
+msgid "Click and hold on the window menu button to show the menu."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -428,6 +435,20 @@ msgstr "ปุ่มต่าง ๆ"
 msgctxt "button text"
 msgid "Get New Window Decorations..."
 msgstr "หาชุดตกแต่งใหม่ ๆ ..."
+
+#. +> stable5
+#: package/contents/ui/main.qml:139
+#, kde-format
+msgctxt "checkbox label"
+msgid "Close windows by double clicking the menu button"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:156
+#, kde-format
+msgctxt "popup tip"
+msgid "Click and hold on the menu button to show the menu."
+msgstr ""
 
 #. +> stable5
 #: package/contents/ui/Themes.qml:90

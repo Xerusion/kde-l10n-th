@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-27 13:04+0100\n"
+"POT-Creation-Date: 2025-12-11 04:44+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -25,53 +25,67 @@ msgstr ""
 msgid "Battery at %1%"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, ClipboardConfigUi)
 #. +> trunk6 stable6
-#: clipboard/clipboard_config.ui:17
-#, kde-format
-msgid "Clipboard plugin"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
-#. +> trunk6 stable6
-#: clipboard/clipboard_config.ui:32
-#, kde-format
-msgid "Automatic synchronization"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, check_autoshare)
-#. +> trunk6 stable6
-#: clipboard/clipboard_config.ui:38
+#: clipboard/kdeconnect_clipboard_config.qml:34
 #, kde-format
 msgid "Automatically share the clipboard from this device"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, check_password)
 #. +> trunk6 stable6
-#: clipboard/clipboard_config.ui:45
+#: clipboard/kdeconnect_clipboard_config.qml:42
 #, kde-format
 msgid "Including passwords (as marked by password managers)"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk6 stable6
-#: findthisdevice/findthisdevice_config.ui:17
+#: clipboard/kdeconnect_clipboard_config.qml:55
 #, kde-format
-msgid "Discovery Utilities"
+msgid "Max Clipboard File Size (MB)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6
+#: digitizer/linuxdigitizerimpl.cpp:72 digitizer/linuxdigitizerimpl.cpp:168
+#, kde-format
+msgid "KDE Connect Error"
+msgstr ""
+
+#. +> trunk6
+#: digitizer/linuxdigitizerimpl.cpp:73
+#, kde-format
+msgid "Unable to create a virtual drawing tablet. If this error persists, file a bug report."
+msgstr ""
+
+#. +> trunk6
+#: digitizer/linuxdigitizerimpl.cpp:169
+#, kde-format
+msgid "Unable to process one or more input events for the virtual device. If this error persists, file a bug report."
+msgstr ""
+
 #. +> trunk6 stable6
-#: findthisdevice/findthisdevice_config.ui:25
+#: findthisdevice/kdeconnect_findthisdevice_config.qml:23
+#: share/kdeconnect_share_config.qml:22
+#, kde-format
+msgid "Apply"
+msgstr ""
+
+#. +> trunk6 stable6
+#: findthisdevice/kdeconnect_findthisdevice_config.qml:47
 #, kde-format
 msgid "Sound to play:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KUrlRequester, soundFileRequester)
 #. +> trunk6 stable6
-#: findthisdevice/findthisdevice_config.ui:39
+#: findthisdevice/kdeconnect_findthisdevice_config.qml:57
 #, kde-format
-msgid "Select the sound to play"
+msgctxt "@action:button"
+msgid "Choose file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: findthisdevice/kdeconnect_findthisdevice_config.qml:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Play"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -89,10 +103,18 @@ msgid "Remote lock failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mpriscontrol/mpriscontrolplugin-win.cpp:30
+#: mpriscontrol/mpriscontrolplugin-win.cpp:26
 #, kde-format
 msgctxt "@title Users select this to control the current media player when we can't detect a specific player name like VLC"
 msgid "Current Player"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mpriscontrol/mpriscontrolplugin-win.cpp:93
+#: mpriscontrol/mpriscontrolplugin-win.cpp:94
+#: mpriscontrol/mpriscontrolplugin-win.cpp:95
+#, kde-format
+msgid "N/A"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -106,7 +128,7 @@ msgstr ""
 #: notifications/notification.cpp:109
 #, kde-format
 msgctxt "@info:placeholder"
-msgid "Reply to %1..."
+msgid "Reply to %1…"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -122,60 +144,34 @@ msgstr ""
 msgid "Dialog"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, PauseMusicConfigUi)
 #. +> trunk6 stable6
-#: pausemusic/pausemusic_config.ui:17
-#, kde-format
-msgid "Pause music plugin"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. +> trunk6 stable6
-#: pausemusic/pausemusic_config.ui:32
-#, kde-format
-msgid "Condition"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, rad_ringing)
-#. +> trunk6 stable6
-#: pausemusic/pausemusic_config.ui:38
+#: pausemusic/kdeconnect_pausemusic_config.qml:32
 #, kde-format
 msgid "Pause as soon as phone rings"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, rad_talking)
 #. +> trunk6 stable6
-#: pausemusic/pausemusic_config.ui:45
+#: pausemusic/kdeconnect_pausemusic_config.qml:41
 #, kde-format
 msgid "Pause only while talking"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. +> trunk6 stable6
-#: pausemusic/pausemusic_config.ui:61
-#, kde-format
-msgid "Actions"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, check_pause)
-#. +> trunk6 stable6
-#: pausemusic/pausemusic_config.ui:67
+#: pausemusic/kdeconnect_pausemusic_config.qml:47
 #, kde-format
 msgid "Pause media players"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, check_mute)
 #. +> trunk6 stable6
-#: pausemusic/pausemusic_config.ui:74
+#: pausemusic/kdeconnect_pausemusic_config.qml:54
 #, kde-format
 msgid "Mute system sound"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, check_resume)
 #. +> trunk6 stable6
-#: pausemusic/pausemusic_config.ui:81
+#: pausemusic/kdeconnect_pausemusic_config.qml:61
 #, kde-format
-msgid "Automatically resume media when call has finished"
+msgid "Resume automatically when call ends"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -185,124 +181,110 @@ msgid "Ping!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:41
+#: runcommand/kdeconnect_runcommand_config.qml:21
 #, kde-format
-msgid "Schedule a shutdown"
+msgid "Add Command…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:42
+#: runcommand/kdeconnect_runcommand_config.qml:53
 #, kde-format
-msgid "Shutdown now"
+msgid "Delete"
 msgstr ""
 
 #. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:43
+#: runcommand/kdeconnect_runcommand_config.qml:64
 #, kde-format
-msgid "Cancel last shutdown"
+msgctxt "@info"
+msgid "No commands configured"
 msgstr ""
 
 #. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:44
+#: runcommand/kdeconnect_runcommand_config.qml:65
 #, kde-format
-msgid "Schedule a reboot"
+msgctxt "@info"
+msgid "Add commands to run them remotely from other devices"
 msgstr ""
 
 #. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:45 runcommand/runcommand_config.cpp:54
+#: runcommand/kdeconnect_runcommand_config.qml:71
 #, kde-format
+msgctxt "@title:window"
+msgid "Add Command"
+msgstr ""
+
+#. +> trunk6 stable6
+#: runcommand/kdeconnect_runcommand_config.qml:77
+#, kde-format
+msgctxt "@action:button"
+msgid "Add"
+msgstr ""
+
+#. +> trunk6 stable6
+#: runcommand/kdeconnect_runcommand_config.qml:86
+#, kde-format
+msgctxt "@action:button accessible"
+msgid "Add command"
+msgstr ""
+
+#. +> trunk6 stable6
+#: runcommand/kdeconnect_runcommand_config.qml:96
+#, kde-format
+msgid "Name:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: runcommand/kdeconnect_runcommand_config.qml:100
+#, kde-format
+msgid "Command:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: runcommand/kdeconnect_runcommand_config.qml:104
+#, kde-format
+msgid "Sample commands:"
+msgstr ""
+
+#. +> trunk6
+#: runcommand/kdeconnect_runcommand_config.qml:110
+#, kde-format
+msgctxt "Sample command"
 msgid "Suspend"
 msgstr ""
 
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:46 runcommand/runcommand_config.cpp:62
+#. +> trunk6
+#: runcommand/kdeconnect_runcommand_config.qml:114
 #, kde-format
-msgid "Lock Screen"
-msgstr ""
-
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:49
-#, kde-format
-msgid "Say Hello"
-msgstr ""
-
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:52
-#, kde-format
-msgid "Shutdown"
-msgstr ""
-
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:53
-#, kde-format
-msgid "Reboot"
-msgstr ""
-
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:57
-#, kde-format
+msgctxt "Sample command"
 msgid "Maximum Brightness"
 msgstr ""
 
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:63
+#. +> trunk6
+#: runcommand/kdeconnect_runcommand_config.qml:118
 #, kde-format
+msgctxt "Sample command"
+msgid "Lock Screen"
+msgstr ""
+
+#. +> trunk6
+#: runcommand/kdeconnect_runcommand_config.qml:122
+#, kde-format
+msgctxt "Sample command"
 msgid "Unlock Screen"
 msgstr ""
 
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:64
+#. +> trunk6
+#: runcommand/kdeconnect_runcommand_config.qml:126
 #, kde-format
+msgctxt "Sample command"
 msgid "Close All Vaults"
 msgstr ""
 
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:66
+#. +> trunk6
+#: runcommand/kdeconnect_runcommand_config.qml:130
 #, kde-format
+msgctxt "Sample command"
 msgid "Forcefully Close All Vaults"
-msgstr ""
-
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:73
-#, kde-format
-msgid "Sample commands"
-msgstr ""
-
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:77
-#, kde-format
-msgid "Export"
-msgstr ""
-
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:80
-#, kde-format
-msgid "Import"
-msgstr ""
-
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:93
-#: sendnotifications/notifyingapplicationmodel.cpp:177
-#, kde-format
-msgid "Name"
-msgstr ""
-
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:93
-#, kde-format
-msgid "Command"
-msgstr ""
-
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:98
-#, kde-format
-msgid "Export Commands"
-msgstr ""
-
-#. +> trunk6 stable6
-#: runcommand/runcommand_config.cpp:123
-#, kde-format
-msgid "Import Commands"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -312,221 +294,156 @@ msgid "Phone is connected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sendnotifications/notifyingapplicationmodel.cpp:181
+#: sendnotifications/kdeconnect_sendnotifications_config.qml:34
 #, kde-format
-msgid "Blacklisted"
+msgid "Persistent notifications only"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sendnotifications/notifyingapplicationmodel.cpp:185
+#: sendnotifications/kdeconnect_sendnotifications_config.qml:42
+#, kde-format
+msgid "Include body"
+msgstr ""
+
+#. +> trunk6 stable6
+#: sendnotifications/kdeconnect_sendnotifications_config.qml:49
+#, kde-format
+msgid "Include icon"
+msgstr ""
+
+#. +> trunk6 stable6
+#: sendnotifications/kdeconnect_sendnotifications_config.qml:56
+#, kde-format
+msgid "Minimum urgency level:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: sendnotifications/notifyingapplicationmodel.cpp:178
+#, kde-format
+msgid "Name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: sendnotifications/notifyingapplicationmodel.cpp:182
+#, kde-format
+msgid "Excluded"
+msgstr ""
+
+#. +> trunk6 stable6
+#: sendnotifications/notifyingapplicationmodel.cpp:186
 #, kde-format
 msgid "Name of a notifying application."
 msgstr ""
 
 #. +> trunk6 stable6
-#: sendnotifications/notifyingapplicationmodel.cpp:187
+#: sendnotifications/notifyingapplicationmodel.cpp:188
 #, kde-format
 msgid "Synchronize notifications of an application?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sendnotifications/notifyingapplicationmodel.cpp:190
+#: sendnotifications/notifyingapplicationmodel.cpp:191
 #, kde-format
 msgid ""
 "Regular expression defining which notifications should not be sent.\n"
 "This pattern is applied to the summary and, if selected above, the body of notifications."
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. +> trunk6 stable6
-#: sendnotifications/sendnotifications_config.ui:38
-#, kde-format
-msgid "General"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, check_persistent)
-#. +> trunk6 stable6
-#: sendnotifications/sendnotifications_config.ui:44
-#, kde-format
-msgid "Synchronize only notifications with a timeout value of 0?"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, check_persistent)
-#. +> trunk6 stable6
-#: sendnotifications/sendnotifications_config.ui:47
-#, kde-format
-msgid "Persistent notifications only"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, check_body)
-#. +> trunk6 stable6
-#: sendnotifications/sendnotifications_config.ui:60
-#, kde-format
-msgid "Append the notification body to the summary when synchronizing notifications?"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, check_body)
-#. +> trunk6 stable6
-#: sendnotifications/sendnotifications_config.ui:63
-#, kde-format
-msgid "Include body"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, check_icons)
-#. +> trunk6 stable6
-#: sendnotifications/sendnotifications_config.ui:76
-#, kde-format
-msgid "Synchronize icons of notifying applications if possible?"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, check_icons)
-#. +> trunk6 stable6
-#: sendnotifications/sendnotifications_config.ui:79
-#, kde-format
-msgid "Synchronize icons"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QSpinBox, spin_urgency)
-#. +> trunk6 stable6
-#: sendnotifications/sendnotifications_config.ui:107
-#, kde-format
-msgid ""
-"<html><head/><body>"
-"<p>Minimum urgency level of the notifications</p>"
-"</body></html>"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label)
-#. +> trunk6 stable6
-#: sendnotifications/sendnotifications_config.ui:123
-#, kde-format
-msgid "Synchronize only notifications with the given urgency level."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. +> trunk6 stable6
-#: sendnotifications/sendnotifications_config.ui:126
-#, kde-format
-msgid "Minimum urgency level"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. +> trunk6 stable6
-#: sendnotifications/sendnotifications_config.ui:148
-#, kde-format
-msgid "Applications"
-msgstr ""
-
-#. +> trunk6 stable6
-#: sftp/mounter.cpp:165
+#: sftp/mounter.cpp:141
 #, kde-format
 msgid "Failed to start sshfs"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sftp/mounter.cpp:169
+#: sftp/mounter.cpp:145
 #, kde-format
 msgid "sshfs process crashed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sftp/mounter.cpp:173
+#: sftp/mounter.cpp:149
 #, kde-format
 msgid "Unknown error in sshfs"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sftp/mounter.cpp:184
+#: sftp/mounter.cpp:160
 #, kde-format
 msgid "Error when accessing filesystem. sshfs finished with exit code %0"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sftp/mounter.cpp:193
+#: sftp/mounter.cpp:169
 #, kde-format
 msgid "Failed to mount filesystem: device not responding"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sftp/sftpplugin-win.cpp:79
+#: sftp/sftpplugin-win.cpp:93
 #, kde-format
 msgid "KDE Connect"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sftp/sftpplugin-win.cpp:80
+#: sftp/sftpplugin-win.cpp:94
 #, kde-format
 msgid "Cannot handle SFTP protocol. Apologies for the inconvenience"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sftp/sftpplugin.cpp:140
+#: sftp/sftpplugin.cpp:147
 #, kde-format
 msgid "All files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sftp/sftpplugin.cpp:141
+#: sftp/sftpplugin.cpp:148
 #, kde-format
 msgid "Camera pictures"
 msgstr ""
 
 #. +> trunk6 stable6
-#: share/share_config.cpp:22
-#, kde-format
-msgid "&percnt;1 in the path will be replaced with the specific device name."
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, ShareConfigUi)
-#. +> trunk6 stable6
-#: share/share_config.ui:17
-#, kde-format
-msgid "Share plugin settings"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. +> trunk6 stable6
-#: share/share_config.ui:23
-#, kde-format
-msgid "Receiving"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. +> trunk6 stable6
-#: share/share_config.ui:31
+#: share/kdeconnect_share_config.qml:47
 #, kde-format
 msgid "Save files in:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: share/shareplugin.cpp:160
+#: share/kdeconnect_share_config.qml:63
+#, kde-format
+msgid "%1 in the path will be replaced with the specific device name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: share/shareplugin.cpp:161
 #, kde-format
 msgctxt "@info Some piece of text was received from a connected device"
 msgid "Shared text from %1 copied to clipboard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: share/shareplugin.cpp:191
+#: share/shareplugin.cpp:201
 #, kde-format
 msgctxt "@action:button Edit text with default text editor"
 msgid "Open in Text Editor"
 msgstr ""
 
 #. +> trunk6 stable6
-#: share/shareplugin.cpp:195
+#: share/shareplugin.cpp:205
 #, kde-format
 msgctxt "@action:button Open URL with default app"
 msgid "Open Link"
 msgstr ""
 
 #. +> trunk6 stable6
-#: share/shareplugin.cpp:237
+#: share/shareplugin.cpp:247
 #, kde-format
 msgid "Could not share file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: share/shareplugin.cpp:237
+#: share/shareplugin.cpp:247
 #, kde-format
 msgid "%1 does not exist"
 msgstr ""
@@ -553,4 +470,22 @@ msgstr ""
 #: telephony/telephonyplugin.cpp:65
 #, kde-format
 msgid "Mute Call"
+msgstr ""
+
+#. +> trunk6 stable6
+#: virtualmonitor/virtualmonitorplugin.cpp:183
+#, kde-format
+msgid "Remote device does not have a VNC or RDP client (eg. krdc) installed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: virtualmonitor/virtualmonitorplugin.cpp:186
+#, kde-format
+msgid "The krdp package is required on the local device."
+msgstr ""
+
+#. +> trunk6 stable6
+#: virtualmonitor/virtualmonitorplugin.cpp:189
+#, kde-format
+msgid "Cannot start a request without a resolution"
 msgstr ""

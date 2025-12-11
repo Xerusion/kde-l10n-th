@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libksysguard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-06 08:52+0100\n"
+"POT-Creation-Date: 2025-09-19 20:20+0200\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -215,7 +215,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: facepackages/barchart/contents/ui/Config.qml:78
 #: facepackages/horizontalbars/contents/ui/Config.qml:29
-#: facepackages/piechart/contents/ui/Config.qml:69
+#: facepackages/piechart/contents/ui/Config.qml:61
 #, kde-format
 msgctxt "@option:check"
 msgid "Automatic data range"
@@ -231,7 +231,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: facepackages/barchart/contents/ui/Config.qml:82
 #: facepackages/horizontalbars/contents/ui/Config.qml:33
-#: facepackages/piechart/contents/ui/Config.qml:73
+#: facepackages/piechart/contents/ui/Config.qml:65
 #, kde-format
 msgctxt "@label:spinbox data range"
 msgid "From:"
@@ -247,7 +247,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: facepackages/barchart/contents/ui/Config.qml:89
 #: facepackages/horizontalbars/contents/ui/Config.qml:40
-#: facepackages/piechart/contents/ui/Config.qml:80
+#: facepackages/piechart/contents/ui/Config.qml:72
 #, kde-format
 msgctxt "@label:spinbox data range"
 msgid "To:"
@@ -416,26 +416,25 @@ msgid "To (Y):"
 msgstr ""
 
 #. +> trunk6 stable6
-#: facepackages/linechart/contents/ui/Config.qml:99
+#: facepackages/linechart/contents/ui/Config.qml:96
 #, kde-format
 msgctxt "@label:spinbox"
-msgid "Show last:"
+msgid "History to show:"
 msgstr ""
+
+#. +> trunk6 stable6
+#: facepackages/linechart/contents/ui/Config.qml:98
+#, kde-format
+msgctxt "@item:valuesuffix %1 is seconds of history"
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] ""
 
 #. +> stable5
 #: facepackages/linechart/contents/ui/Config.qml:99
 #, kde-format
 msgid "Amount of History to Keep:"
 msgstr ""
-
-#. +> trunk6 stable6
-#: facepackages/linechart/contents/ui/Config.qml:102
-#, kde-format
-msgctxt "@item:valuesuffix %1 is seconds of history"
-msgid "%1 second"
-msgid_plural "%1 seconds"
-msgstr[0] ""
-msgstr[1] ""
 
 #. +> stable5
 #: facepackages/linechart/contents/ui/Config.qml:102
@@ -461,9 +460,10 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: facepackages/piechart/contents/ui/Config.qml:43
+#: facepackages/piechart/contents/ui/Config.qml:52
 #, kde-format
 msgctxt "@label angle degrees"
-msgid "%1°"
+msgid "°"
 msgstr ""
 
 #. +> stable5
@@ -473,14 +473,6 @@ msgctxt "angle degrees"
 msgid "%1°"
 msgstr ""
 
-#. +> trunk6 stable6
-#: facepackages/piechart/contents/ui/Config.qml:46
-#: facepackages/piechart/contents/ui/Config.qml:59
-#, kde-format
-msgctxt "@item:intext angle degrees, used to read text from spinbox"
-msgid "°"
-msgstr ""
-
 #. +> stable5
 #: facepackages/piechart/contents/ui/Config.qml:46
 #: facepackages/piechart/contents/ui/Config.qml:59
@@ -490,7 +482,7 @@ msgid "°"
 msgstr ""
 
 #. +> trunk6 stable6
-#: facepackages/piechart/contents/ui/Config.qml:51
+#: facepackages/piechart/contents/ui/Config.qml:47
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Total pie angle:"
@@ -505,8 +497,8 @@ msgstr ""
 #. +> trunk6 stable6
 #: facepackages/piechart/contents/ui/Config.qml:56
 #, kde-format
-msgctxt "@label angle"
-msgid "%1°"
+msgctxt "@option:check"
+msgid "Rounded lines"
 msgstr ""
 
 #. +> stable5
@@ -514,13 +506,6 @@ msgstr ""
 #, kde-format
 msgctxt "angle"
 msgid "%1°"
-msgstr ""
-
-#. +> trunk6 stable6
-#: facepackages/piechart/contents/ui/Config.qml:64
-#, kde-format
-msgctxt "@option:check"
-msgid "Rounded lines"
 msgstr ""
 
 #. +> stable5
@@ -556,7 +541,7 @@ msgid "Search..."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: import/Choices.qml:385
+#: import/Choices.qml:386
 #, kde-format
 msgctxt "@action:button"
 msgid "Back"

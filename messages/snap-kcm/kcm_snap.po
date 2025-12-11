@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: snap-kcm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-23 22:42+0100\n"
+"POT-Creation-Date: 2025-04-27 13:55+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,39 +13,277 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6
-#: src/ui/main.qml:26
+#: src/snapbackend.cpp:287
+#, kde-format
+msgid "No error"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:290
+#, kde-format
+msgid "Unknown error occurred"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:293
+#, kde-format
+msgid "Not able to connect to snapd"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:296
+#, kde-format
+msgid "An error occurred while writing to snapd"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:299
+#, kde-format
+msgid "An error occurred while reading from snapd"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:302
+#, kde-format
+msgid "Snapd did not understand the request that was sent"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:305
+#, kde-format
+msgid "The response received from snapd was not understood"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:308
+#, kde-format
+msgid "The requested operation requires super user password"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:311
+#, kde-format
+msgid "The provided super user password is invalid"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:314
+#, kde-format
+msgid "Login requires a two-factor code"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:317
+#, kde-format
+msgid "The two-factor code provided at login is invalid"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:320
+#, kde-format
+msgid "This user account is not permitted to perform the requested operation"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:323
+#, kde-format
+msgid "An unspecified error occurred while communicating with snapd"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:326
+#, kde-format
+msgid "This user has not accepted the store’s terms of service"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:329
+#, kde-format
+msgid "This user has not configured a payment method"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:332
+#, kde-format
+msgid "This user has had their payment method declined by the payment provider"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:335
+#, kde-format
+msgid "The requested snap is already installed"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:338
+#, kde-format
+msgid "The requested snap is not installed"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:341
+#, kde-format
+msgid "No update is available for this snap"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:344
+#, kde-format
+msgid "Provided password is not valid"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:347
+#, kde-format
+msgid "This snap needs to be installed using devmode"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:350
+#, kde-format
+msgid "This snap needs to be installed using classic mode"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:353
+#, kde-format
+msgid "A classic system is required to install this snap"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:356
+#, kde-format
+msgid "Operation was cancelled"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:359
+#, kde-format
+msgid "A bad query was provided"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:362
+#, kde-format
+msgid "A timeout occurred during the request"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:365
+#, kde-format
+msgid "The requested snap couldn’t be found"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:368
+#, kde-format
+msgid "The requested snap is not in the store"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:371
+#, kde-format
+msgid "Authentication was cancelled by the user"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:374
+#, kde-format
+msgid "Snap not compatible with classic mode"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:377
+#, kde-format
+msgid "Requested snap revision not available"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:380
+#, kde-format
+msgid "Requested snap channel not available"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:383
+#, kde-format
+msgid "The given snap or directory does not look like a snap"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:386
+#, kde-format
+msgid "A hostname failed to resolve during the request"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:389
+#, kde-format
+msgid "A requested configuration option is not set"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:392
+#, kde-format
+msgid "The requested app couldn't be found"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:395
+#, kde-format
+msgid "No snap revision on specified architecture"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:398
+#, kde-format
+msgid "The requested operation would conflict with currently ongoing change"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:401
+#, kde-format
+msgid "The requested interface has not changed"
+msgstr ""
+
+#. +> trunk6
+#: src/snapbackend.cpp:404
+#, kde-format
+msgid "Unknown error code"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/ErrorDialog.qml:18
+#, kde-format
+msgid "Error"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/main.qml:28
 #, kde-format
 msgid "Snap Applications"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/main.qml:40
+#: src/ui/main.qml:49
 #, kde-format
 msgid "Install snaps to change the permissions"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/main.qml:79
+#: src/ui/permissions.qml:20
 #, kde-format
-msgid "Launch"
+msgid "Permissions"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/main.qml:94
+#: src/ui/permissions.qml:20
 #, kde-format
 msgid "Permissions for %1"
 msgstr ""
 
 #. +> trunk6
-#: src/ui/main.qml:157
+#: src/ui/permissions.qml:24
 #, kde-format
-msgctxt "error"
-msgid "Error"
-msgstr ""
-
-#. +> trunk6
-#: src/ui/main.qml:164
-#, kde-format
-msgctxt "snap error"
-msgid "snapd error: %1"
+msgid "Select an application from the list to view its permissions here"
 msgstr ""

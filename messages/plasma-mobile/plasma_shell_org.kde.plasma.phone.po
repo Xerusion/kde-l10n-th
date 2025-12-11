@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-mobile\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-23 22:41+0100\n"
+"POT-Creation-Date: 2025-10-06 09:50+0200\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -23,62 +23,18 @@ msgid "View Error Details…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/applet/CompactApplet.qml:77
+#: contents/applet/CompactApplet.qml:88
 msgid "Open %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: contents/configuration/ConfigurationContainmentAppearance.qml:44
-msgid "Layout changes have been restricted by the system administrator"
+#. +> trunk6
+#: contents/configuration/AppletConfiguration.qml:90
+msgctxt "The title of the applet configuration window"
+msgid "Configure %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: contents/configuration/ConfigurationContainmentAppearance.qml:59
-msgid "General"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/configuration/ConfigurationContainmentAppearance.qml:66
-msgid "Homescreen Layout"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/configuration/ConfigurationContainmentAppearance.qml:67
-msgid "The homescreen layout to use."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/configuration/ConfigurationContainmentAppearance.qml:93
-msgid "Wallpaper Plugin"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/configuration/ConfigurationContainmentAppearance.qml:94
-msgid "The wallpaper plugin to use."
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/configuration/ConfigurationContainmentAppearance.qml:129
-msgid "Wallpaper Plugins"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/configuration/ConfigurationContainmentAppearance.qml:134
-msgid "Get New Plugins…"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/configuration/ConfigurationContainmentAppearance.qml:148
-msgid "Layout changes must be applied before other changes can be made"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/configuration/ConfigurationContainmentAppearance.qml:154
-msgid "Apply now"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/configuration/ContainmentConfiguration.qml:34
+#: contents/configuration/ContainmentConfiguration.qml:30
 msgid "Wallpaper"
 msgstr ""
 
@@ -87,9 +43,54 @@ msgstr ""
 msgid "Change Wallpaper"
 msgstr ""
 
+#. +> trunk6
+#: contents/configuration/ContainmentConfiguration.qml:35
+msgid "Change Homescreen"
+msgstr ""
+
 #. +> stable5
 #: contents/configuration/ContainmentConfiguration.qml:113
 msgid "Configure"
+msgstr ""
+
+#. +> trunk6
+#: contents/configuration/private/ChangeContainmentModule.qml:26
+msgid "Select Homescreen"
+msgstr ""
+
+#. +> trunk6
+#: contents/configuration/private/ChangeContainmentModule.qml:58
+msgid "Change homescreen to %1?"
+msgstr ""
+
+#. +> trunk6
+#: contents/configuration/private/ChangeContainmentModule.qml:59
+msgid "Your current homescreen's settings are saved, and will be restored if you switch back."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: contents/configuration/private/ChangeWallpaperModule.qml:48
+msgid "Wallpaper Plugin"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: contents/configuration/private/ChangeWallpaperModule.qml:49
+msgid "The wallpaper plugin to use."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: contents/configuration/private/ChangeWallpaperModule.qml:84
+msgid "Wallpaper Plugins"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: contents/configuration/private/ChangeWallpaperModule.qml:89
+msgid "Get New Plugins…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: contents/configuration/private/ConfigListPage.qml:45
+msgid "Layout changes have been restricted by the system administrator"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -105,4 +106,29 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/views/Panel.qml:318
 msgid "Panel Focus Indicator"
+msgstr ""
+
+#. +> stable6 stable5
+#: contents/configuration/ConfigurationContainmentAppearance.qml:59
+msgid "General"
+msgstr ""
+
+#. +> stable6 stable5
+#: contents/configuration/ConfigurationContainmentAppearance.qml:66
+msgid "Homescreen Layout"
+msgstr ""
+
+#. +> stable6 stable5
+#: contents/configuration/ConfigurationContainmentAppearance.qml:67
+msgid "The homescreen layout to use."
+msgstr ""
+
+#. +> stable6 stable5
+#: contents/configuration/ConfigurationContainmentAppearance.qml:148
+msgid "Layout changes must be applied before other changes can be made"
+msgstr ""
+
+#. +> stable6 stable5
+#: contents/configuration/ConfigurationContainmentAppearance.qml:154
+msgid "Apply now"
 msgstr ""

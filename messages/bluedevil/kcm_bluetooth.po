@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluedevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-31 10:30+0100\n"
+"POT-Creation-Date: 2025-12-08 11:36+0100\n"
 "PO-Revision-Date: 2025-04-07 14:02+0700\n"
 "Last-Translator: Atirut Wattanamongkol <atirut.wattanamongkol@gmailcom>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -27,104 +27,117 @@ msgid "Your emails"
 msgstr "atirut.wattanamongkol@gmail.com"
 
 #. +> trunk6 stable6 stable5
-#: bluetooth.cpp:104
+#: bluetooth.cpp:135
 #, kde-format
 msgctxt "DeviceName Network (Service)"
 msgid "%1 Network (%2)"
 msgstr "เครือข่าย %1 (%2)"
 
+#. +> trunk6 stable6
+#: bluetoothmoduledata.cpp:20
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enable Bluetooth"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:108 ui/main.qml:212
+#: ui/Device.qml:131 ui/main.qml:212
 #, kde-format
 msgid "Disconnect"
 msgstr "ตัดการเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:108 ui/main.qml:212
+#: ui/Device.qml:131 ui/main.qml:212
 #, kde-format
 msgid "Connect"
 msgstr "เชื่อมต่อ"
 
 #. +> trunk6 stable6
-#: ui/Device.qml:111
+#: ui/Device.qml:134
 #, kde-format
 msgid "Unblock the device first to be able to connect to it"
 msgstr "เลิกบล็อกอุปกรณ์ก่อนจึงจะเชื่อมต่อได้"
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:132
+#: ui/Device.qml:155
 #, kde-format
 msgid "Type:"
 msgstr "ประเภท:"
 
 #. +> trunk6 stable6
-#: ui/Device.qml:136
+#: ui/Device.qml:159
 #, kde-format
 msgid "%1%"
 msgstr "%1%"
 
 #. +> trunk6 stable6
-#: ui/Device.qml:138
+#: ui/Device.qml:161
 #, kde-format
 msgid "Battery:"
 msgstr "แบตเตอรี่:"
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:143 ui/General.qml:49
+#: ui/Device.qml:166 ui/General.qml:49
 #, kde-format
 msgid "Address:"
 msgstr "ที่อยู่:"
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:148
+#: ui/Device.qml:171
 #, kde-format
 msgid "Adapter:"
 msgstr "อะแดปเตอร์:"
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:154 ui/General.qml:43
+#: ui/Device.qml:177 ui/General.qml:43
 #, kde-format
 msgid "Name:"
 msgstr "ชื่อ:"
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:158
+#: ui/Device.qml:181
 #, kde-format
 msgid "Trusted"
 msgstr "เชื่อถือได้"
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:167 ui/main.qml:179
+#: ui/Device.qml:190 ui/main.qml:179
 #, kde-format
 msgid "Blocked"
 msgstr "ถูกบล็อก"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: ui/Device.qml:196
+#, kde-format
+msgid "When enabled, all incoming connections from this device will be rejected."
+msgstr ""
+
+#. +> stable6
 #: ui/Device.qml:173
 #, kde-format
 msgid "Any incoming connections from a blocked device will be immediately rejected."
 msgstr "การเชื่อมต่อขาเข้าใด ๆ จากอุปกรณ์ที่ถูกบล็อคจะถูกปฏิเสธทันที"
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:179
+#: ui/Device.qml:202
 #, kde-format
 msgid "Send File"
 msgstr "ส่งไฟล์"
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:187
+#: ui/Device.qml:210
 #, kde-format
 msgid "Setup NAP Network…"
 msgstr "ตั้งค่าเครือข่าย NAP…"
 
 #. +> trunk6 stable6 stable5
-#: ui/Device.qml:195
+#: ui/Device.qml:218
 #, kde-format
 msgid "Setup DUN Network…"
 msgstr "ตั้งค่าเครือข่าย DUN…"
 
 #. +> trunk6 stable6
-#: ui/Device.qml:210
+#: ui/Device.qml:233
 #, kde-format
 msgctxt "@action:button Forget the Bluetooth device"
 msgid "Forget"
@@ -157,7 +170,7 @@ msgid "Forget Device"
 msgstr "ลืมอุปกรณ์"
 
 #. +> trunk6 stable6 stable5
-#: ui/ForgetDeviceDialog.qml:54
+#: ui/ForgetDeviceDialog.qml:55
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
@@ -248,23 +261,23 @@ msgid "Select folder"
 msgstr "เลือกโฟลเดอร์"
 
 #. +> trunk6 stable6
-#: ui/main.qml:34
-#, kde-format
-msgctxt "@action: button as in, 'enable Bluetooth'"
-msgid "Enabled"
-msgstr "เปิดใช้งานแล้ว"
-
-#. +> trunk6 stable6
-#: ui/main.qml:47
+#: ui/main.qml:33
 #, kde-format
 msgid "Pair Device…"
 msgstr "จับคู่อุปกรณ์…"
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:54
+#: ui/main.qml:40
 #, kde-format
 msgid "Configure…"
 msgstr "กำหนดค่า…"
+
+#. +> trunk6 stable6
+#: ui/main.qml:47
+#, kde-format
+msgctxt "@action: button as in, 'enable Bluetooth'"
+msgid "Enabled"
+msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: ui/main.qml:125
@@ -316,7 +329,7 @@ msgid "Available"
 msgstr "ใช้งานได้"
 
 #. +> trunk6 stable6
-#: ui/main.qml:248
+#: ui/main.qml:245
 #, kde-format
 msgid "%1% Battery"
 msgstr "แบตเตอรี่ %1%"

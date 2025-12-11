@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 5.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-26 09:18+0200\n"
+"POT-Creation-Date: 2025-10-31 08:49+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -11,11 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#. +> trunk5
-#: ../../user_manual/soft_proofing.rst:1
-msgid "How to use soft proofing in Krita."
-msgstr ""
 
 #. +> trunk5
 #: ../../user_manual/soft_proofing.rst:11
@@ -33,166 +28,176 @@ msgid "Soft Proofing"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:18
+#: ../../user_manual/soft_proofing.rst:19
+msgid "Soft Proofing works only with :ref:`Canvas Graphics Acceleration <display_settings>` enabled."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_manual/soft_proofing.rst:21
 msgid "When we make an image in Krita, and print that out with a printer, the image tends to look different. The colors are darker, or less dark than expected, maybe the reds are more aggressive, maybe contrast is lost. For simple documents, this isn’t much of a problem, but for professional prints, this can be very sad, as it can change the look and feel of an image drastically."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:20
+#: ../../user_manual/soft_proofing.rst:23
 msgid "The reason this happens is simply because the printer uses a different color model (CMYK) and it has often access to a lower range of colors (called a gamut)."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:22
+#: ../../user_manual/soft_proofing.rst:25
 msgid "A naive person would suggest the following solution: do your work within the CMYK color model! But there are three problems with that:"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:24
+#: ../../user_manual/soft_proofing.rst:27
 msgid "Painting in a CMYK space doesn’t guarantee that the colors will be the same on your printer. For each combination of Ink, Paper and Printing device, the resulting gamut of colors you can use is different, which means that each of these could have a different profile associated with them."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:25
+#: ../../user_manual/soft_proofing.rst:28
 msgid "Furthermore, even if you have the profile and are working in the exact color space that your printer can output, the CMYK color space is very irregular, meaning that the color maths isn’t as nice as in other spaces. Blending modes are different in CMYK as well."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:26
+#: ../../user_manual/soft_proofing.rst:29
 msgid "Finally, working in that specific CMYK space means that the image is stuck to that space. If you are preparing your work for different a CMYK profile, due to the paper, printer or ink being different, you might have a bigger gamut with more bright colors that you would like to take advantage of."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:28
+#: ../../user_manual/soft_proofing.rst:31
 msgid "So ideally, you would do the image in RGB, and use all your favorite RGB tools, and let the computer do a conversion to a given CMYK space on the fly, just for preview. This is possible, and is what we call ''Soft Proofing''."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:34
-msgid ".. image:: images/softproofing/Softproofing_regularsoftproof.png"
+#: ../../user_manual/soft_proofing.rst:37
+msgid ".. image:: /images/softproofing/Softproofing_regularsoftproof.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:34
+#: ../../user_manual/soft_proofing.rst:37
 msgid "On the left, the original, on the right, a view where soft proofing is turned on. The difference is subtle due to the lack of really bright colors, but the soft proofed version is slightly less blueish in the whites of the flowers and slightly less saturated in the greens of the leaves."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:36
+#: ../../user_manual/soft_proofing.rst:39
 msgid "You can toggle soft proofing on any image using the :kbd:`Ctrl + Y` shortcut. Unlike other programs, this is per-view, so that you can look at your image non-proofed and proofed, side by side. The settings are also per image, and saved into the ``.kra`` file. You can set the proofing options in :menuselection:`Image --> Image Properties --> Soft Proofing`."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:38
+#: ../../user_manual/soft_proofing.rst:41
 msgid "There you can set the following options:"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:40
+#: ../../user_manual/soft_proofing.rst:43
 msgid "Profile, Depth, Space"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:41
+#: ../../user_manual/soft_proofing.rst:44
 msgid "Of these, only the profile is really important. This will serve as the profile you are proofing to. In a professional print workflow, this profile should be determined by the printing house."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:43
+#: ../../user_manual/soft_proofing.rst:46
 msgid "Set the proofing Intent. It uses the same intents as the intents mentioned in the :ref:`color managed workflow <color_managed_workflow>`."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:48
+#: ../../user_manual/soft_proofing.rst:51
 msgid "Intent"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:49
+#: ../../user_manual/soft_proofing.rst:52
 msgid "Left: Soft proofed image with Adaptation state slider set to max. Right: Soft proofed image with Adaptation State set to minimum."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:50
+#: ../../user_manual/soft_proofing.rst:53
 msgid "Adaptation State"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:51
+#: ../../user_manual/soft_proofing.rst:54
 msgid "A feature which allows you to set whether :guilabel:`Absolute Colorimetric` will make the white in the image screen-white during proofing (the slider set to max), or whether it will use the white point of the profile (the slider set to minimum). Often CMYK profiles have a different white as the screen, or amongst one another due to the paper color being different."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:52
+#: ../../user_manual/soft_proofing.rst:55
 msgid "Black Point Compensation"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:53
+#: ../../user_manual/soft_proofing.rst:56
 msgid "Set the black point compensation. Turning this off will crunch the shadow values to the minimum the screen and the proofing profile can handle, while turning this on will scale the black to the screen-range, showing you the full range of grays in the image."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:55
+#: ../../user_manual/soft_proofing.rst:58
 msgid "Gamut Warning"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:55
+#: ../../user_manual/soft_proofing.rst:58
 msgid "Set the color of the out-of-gamut warning."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:57
+#: ../../user_manual/soft_proofing.rst:60
 msgid "You can set the defaults that Krita uses in :menuselection:`Settings --> Configure Krita... --> Color Management`."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:59
+#: ../../user_manual/soft_proofing.rst:62
 msgid "To configure this properly, it's recommended to make a test image to print (and that is printed by a properly set-up printer) and compare against, and then approximate in the proofing options how the image looks compared to the real-life copy you have made."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:62
+#: ../../user_manual/soft_proofing.rst:65
 msgid "Out of Gamut Warning"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:64
+#: ../../user_manual/soft_proofing.rst:67
 msgid "The out of gamut warning, or gamut alarm, is an extra option on top of Soft-Proofing: It allows you to see which colors are being clipped, by replacing the resulting color with the set alarm color."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:66
+#: ../../user_manual/soft_proofing.rst:69
 msgid "This can be useful to determine where certain contrasts are being lost, and to allow you to change it slowly to a less contrasted image."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:72
-msgid ".. image:: images/softproofing/Softproofing_gamutwarnings.png"
+#: ../../user_manual/soft_proofing.rst:75
+msgid ".. image:: /images/softproofing/Softproofing_gamutwarnings.png"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:72
+#: ../../user_manual/soft_proofing.rst:75
 msgid "Left: View with original image, Right: View with soft proofing and gamut warnings turned on. Krita will save the gamut warning color alongside the proofing options into the KRA file, so pick a color that you think will stand out for your current image."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:74
+#: ../../user_manual/soft_proofing.rst:77
 msgid "You can activate Gamut Warnings with the :kbd:`Ctrl + Shift + Y` shortcut, but it needs soft proofing activated to work fully."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:77
+#: ../../user_manual/soft_proofing.rst:80
 msgid "Soft Proofing doesn’t work properly in floating-point spaces, and attempting to force it will cause incorrect gamut alarms. It is therefore disabled."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_manual/soft_proofing.rst:80
+#: ../../user_manual/soft_proofing.rst:83
 msgid "Gamut Warnings sometimes give odd warnings for linear profiles in the shadows. This is a bug in LittleCMS, see `here <https://ninedegreesbelow.com/bug-reports/soft-proofing-problems.html>`_ for more info."
 msgstr ""
 
 #. +> trunk5
+#: ../../user_manual/soft_proofing.rst:-1
+msgid "How to use soft proofing in Krita."
+msgstr ""
+
+#. +> trunk5
 #: ../../user_manual/soft_proofing.rst:0
-msgid ".. image:: images/softproofing/Softproofing_adaptationstate.png"
+msgid ".. image:: /images/softproofing/Softproofing_adaptationstate.png"
 msgstr ""

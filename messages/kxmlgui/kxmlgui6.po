@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-01 10:13+0200\n"
+"POT-Creation-Date: 2025-11-10 07:00+0100\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -71,7 +71,16 @@ msgctxt "@title:window"
 msgid "About KDE"
 msgstr "เกี่ยวกับ KDE"
 
-#. +> trunk6 trunk5
+#. +> trunk6
+#: kaboutkdedialog_p.cpp:34
+#, fuzzy, kde-format
+#| msgid "<html><font size=\"5\">KDE - Be Free!</font></html>"
+msgid ""
+"<html><font size=\"5\">KDE</font><br />"
+"Be Free!</html>"
+msgstr "<html><font size=\"5\">KDE - สู่เสรี !</font></html>"
+
+#. +> trunk5
 #: kaboutkdedialog_p.cpp:34
 #, kde-format
 msgid "<html><font size=\"5\">KDE - Be Free!</font></html>"
@@ -194,14 +203,14 @@ msgid "&Support KDE"
 msgstr "&สนับสนุน KDE"
 
 #. +> trunk6 trunk5
-#: kabstractaboutdialog_p.cpp:46
+#: kabstractaboutdialog_p.cpp:47
 #, kde-format
 msgctxt "Version version-number"
 msgid "Version %1"
 msgstr "รุ่น %1"
 
 #. +> trunk6 trunk5
-#: kabstractaboutdialog_p.cpp:90
+#: kabstractaboutdialog_p.cpp:91
 #, kde-format
 msgid "License: %1"
 msgstr "สัญญาอนุญาต: %1"
@@ -213,40 +222,40 @@ msgid "The <em>%1</em> windowing system"
 msgstr ""
 
 #. +> trunk6
-#: kabstractaboutdialog_p.cpp:117
+#: kabstractaboutdialog_p.cpp:118
 #, kde-format
 msgctxt "@info Platform name"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #. +> trunk6 trunk5
-#: kabstractaboutdialog_p.cpp:122
+#: kabstractaboutdialog_p.cpp:123
 #, kde-format
 msgid "KDE Frameworks"
 msgstr "KDE Frameworks"
 
 #. +> trunk6
-#: kabstractaboutdialog_p.cpp:123
+#: kabstractaboutdialog_p.cpp:124
 #, kde-format
 msgctxt "@info"
 msgid "Collection of libraries created by the KDE Community to extend Qt."
 msgstr "การรวบรวมไลบรารีที่สร้างโดยชาว KDE เพื่อขยาย Qt"
 
 #. +> trunk6 trunk5
-#: kabstractaboutdialog_p.cpp:127
+#: kabstractaboutdialog_p.cpp:128
 #, kde-format
 msgid "Qt"
 msgstr "Qt"
 
 #. +> trunk6
-#: kabstractaboutdialog_p.cpp:128
+#: kabstractaboutdialog_p.cpp:129
 #, kde-format
 msgctxt "@info"
 msgid "Cross-platform application development framework."
 msgstr "framework การพัฒนาแอปพลิเคชั่นข้ามแพลตฟอร์ม"
 
 #. +> trunk6
-#: kabstractaboutdialog_p.cpp:129
+#: kabstractaboutdialog_p.cpp:130
 #, kde-format
 msgid "Using %1 and built against %2"
 msgstr "ใช้ %1 และสร้างเทียบกับ %2"
@@ -257,19 +266,19 @@ msgstr "ใช้ %1 และสร้างเทียบกับ %2"
 msgid "%1 (built against %2)"
 msgstr ""
 
-#. +> trunk6
-#: kabstractaboutdialog_p.cpp:132
-#, kde-format
-msgctxt "@info"
-msgid "Underlying platform."
-msgstr "แพลตฟอร์มภายใต้"
-
 #. +> trunk5
 #: kabstractaboutdialog_p.cpp:135
 #, fuzzy, kde-format
 #| msgid "Show author information"
 msgid "Show author photos"
 msgstr "แสดงข้อมูลของผู้เขียน"
+
+#. +> trunk6
+#: kabstractaboutdialog_p.cpp:136
+#, kde-format
+msgctxt "Linux packaging format"
+msgid "Flatpak"
+msgstr ""
 
 #. +> trunk5
 #: kabstractaboutdialog_p.cpp:136
@@ -278,14 +287,42 @@ msgid "Enabling this will fetch images from an online location"
 msgstr ""
 
 #. +> trunk6
-#: kabstractaboutdialog_p.cpp:160
+#: kabstractaboutdialog_p.cpp:139
+#, kde-format
+msgctxt "Linux packaging format"
+msgid "Snap"
+msgstr ""
+
+#. +> trunk6
+#: kabstractaboutdialog_p.cpp:142
+#, kde-format
+msgctxt "Linux packaging format"
+msgid "AppImage"
+msgstr ""
+
+#. +> trunk6
+#: kabstractaboutdialog_p.cpp:145
+#, kde-format
+msgctxt "@info"
+msgid "Distribution method."
+msgstr ""
+
+#. +> trunk6
+#: kabstractaboutdialog_p.cpp:148
+#, kde-format
+msgctxt "@info"
+msgid "Underlying platform."
+msgstr "แพลตฟอร์มภายใต้"
+
+#. +> trunk6
+#: kabstractaboutdialog_p.cpp:176
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit component's homepage"
 msgstr "เยี่ยมชมหน้าเว็บของส่วนประกอบ"
 
 #. +> trunk6 trunk5
-#: kabstractaboutdialog_p.cpp:161
+#: kabstractaboutdialog_p.cpp:177
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -296,21 +333,21 @@ msgstr ""
 "%1"
 
 #. +> trunk6
-#: kabstractaboutdialog_p.cpp:183
+#: kabstractaboutdialog_p.cpp:199
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy to Clipboard"
 msgstr "คัดลอกไปยังคลิบบอร์ด"
 
 #. +> trunk6
-#: kabstractaboutdialog_p.cpp:243
+#: kabstractaboutdialog_p.cpp:259
 #, kde-format
 msgctxt "@action:button"
 msgid "Visit author's homepage"
 msgstr "เยี่ยมชมหน้าเว็บของผู้เขียน"
 
 #. +> trunk6
-#: kabstractaboutdialog_p.cpp:244
+#: kabstractaboutdialog_p.cpp:260
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -321,28 +358,37 @@ msgstr ""
 "%1"
 
 #. +> trunk6
-#: kabstractaboutdialog_p.cpp:258
+#: kabstractaboutdialog_p.cpp:274
 #, kde-format
 msgctxt "@action:button Send an email to a contributor"
 msgid "Email contributor"
 msgstr "ส่งอีเมลถึงผู้มีส่วนร่วม"
 
 #. +> trunk6
-#: kabstractaboutdialog_p.cpp:259
+#: kabstractaboutdialog_p.cpp:275
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Email contributor: %1"
 msgstr "ส่งอีเมลถึงผู้มีส่วนร่วม: %1"
 
-#. +> trunk6 trunk5
-#: kabstractaboutdialog_p.cpp:298
+#. +> trunk6
+#: kabstractaboutdialog_p.cpp:314
+#, kde-format
+msgctxt "Reference to website"
+msgid ""
+"Please use %1 to report bugs.<br/>"
+"If you have questions or need help, please visit %2.<br/>"
+msgstr ""
+
+#. +> trunk5
+#: kabstractaboutdialog_p.cpp:175
 #, kde-format
 msgctxt "Reference to website"
 msgid "Please use %1 to report bugs.\n"
 msgstr "โปรดใช้ %1 เพื่อรายงานข้อผิดพลาด\n"
 
 #. +> trunk6 trunk5
-#: kabstractaboutdialog_p.cpp:306
+#: kabstractaboutdialog_p.cpp:324
 #, kde-format
 msgctxt "Reference to email address"
 msgid "Please report bugs to %1.\n"
@@ -734,52 +780,52 @@ msgid "<h2>Accelerators added (just for your info)</h2>"
 msgstr "<h2>มีการเพิ่มปุ่มพิมพ์ลัด (สำหรับข้อมูลของคุณ)</h2>"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:327
+#: kedittoolbar.cpp:332
 #, kde-format
 msgctxt "@title:window"
 msgid "Change Text"
 msgstr "เปลี่ยนข้อความ"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:337
+#: kedittoolbar.cpp:342
 #, kde-format
 msgid "Icon te&xt:"
 msgstr "&ข้อความของไอคอน:"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:342
+#: kedittoolbar.cpp:347
 #, kde-format
 msgctxt "@option:check"
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr "&ซ่อนข้อความเมื่อแถบเครื่องมือแสดงข้อความด้านข้างของไอคอน"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:591
+#: kedittoolbar.cpp:596
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Toolbars"
 msgstr "ปรับแต่งแถบเครื่องมือ"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:654
+#: kedittoolbar.cpp:659
 #, kde-format
 msgid "Do you really want to reset all toolbars of this application to their default? The changes will be applied immediately."
 msgstr "คุณต้องการปรับค่าแถบเครื่องมือของโปรแกรมนี้ให้กลับไปใช้ค่าปริยายของมันจริงหรือไม่? การเปลี่ยนแปลงจะถูกปรับใช้ในทันที"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:655
+#: kedittoolbar.cpp:660
 #, kde-format
 msgid "Reset Toolbars"
 msgstr "ปรับแถบเครื่องมือกลับค่าเดิม"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:656
+#: kedittoolbar.cpp:661
 #, kde-format
 msgid "Reset"
 msgstr "ปรับกลับค่าเดิม"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:975
+#: kedittoolbar.cpp:980
 #, kde-format
 msgid "&Toolbar:"
 msgstr "แถบเ&ครื่องมือ:"
@@ -792,25 +838,25 @@ msgstr "แถบเ&ครื่องมือ:"
 #. del_toolbar->setEnabled(false); // disabled until implemented
 #. our list of inactive actions
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:991
+#: kedittoolbar.cpp:996
 #, kde-format
 msgid "A&vailable actions:"
 msgstr "การกระทำที่มีใ&ห้เลือก:"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:1012 kedittoolbar.cpp:1037
+#: kedittoolbar.cpp:1017 kedittoolbar.cpp:1042
 #, kde-format
 msgid "Filter"
 msgstr "ตัวกรอง"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:1015
+#: kedittoolbar.cpp:1020
 #, kde-format
 msgid "Curr&ent actions:"
 msgstr "การกระทำ&ปัจจุบัน:"
 
 #. +> trunk6
-#: kedittoolbar.cpp:1040
+#: kedittoolbar.cpp:1045
 #, kde-format
 msgctxt "@action:button"
 msgid "Change &Icon…"
@@ -825,7 +871,7 @@ msgid "Change &Icon..."
 msgstr "เปลี่ยนภาพไ&อคอน..."
 
 #. +> trunk6
-#: kedittoolbar.cpp:1049
+#: kedittoolbar.cpp:1054
 #, kde-format
 msgctxt "@action:button"
 msgid "Change Te&xt…"
@@ -840,63 +886,63 @@ msgid "Change Te&xt..."
 msgstr "เปลี่ยน&ข้อความ..."
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:1191
+#: kedittoolbar.cpp:1196
 #, kde-format
 msgid "--- separator ---"
 msgstr "--- ตัวแบ่ง ---"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:1192
+#: kedittoolbar.cpp:1197
 #, kde-format
 msgid "--- expanding spacer ---"
 msgstr "--- ตัวแบ่ง ขยาย ---"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:1214
+#: kedittoolbar.cpp:1219
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:1242
+#: kedittoolbar.cpp:1247
 #, kde-format
 msgid "This element will be replaced with all the elements of an embedded component."
 msgstr "ส่วนประกอบนี้จะแทนที่ส่วนประกอบของคอมโพเนนท์ที่ถูกฝังอยู่ทั้งหมด"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:1244
+#: kedittoolbar.cpp:1249
 #, kde-format
 msgid "<Merge>"
 msgstr "<ผนวกรวม>"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:1246
+#: kedittoolbar.cpp:1251
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<ผนวกรวม %1>"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:1256
+#: kedittoolbar.cpp:1261
 #, kde-format
 msgid "This is a dynamic list of actions. You can move it, but if you remove it you will not be able to re-add it."
 msgstr "นี่เป็นรายการการกระทำที่ไม่คงที่ คุณสามารถย้ายมันได้ แต่ถ้าคุณได้เอามันออกไป จะไม่สามารถทำการเพิ่มมันได้อีก"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:1257
+#: kedittoolbar.cpp:1262
 #, kde-format
 msgid "ActionList: %1"
 msgstr "รายการการกระทำ: %1"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:1358 kedittoolbar.cpp:1383
+#: kedittoolbar.cpp:1363 kedittoolbar.cpp:1388
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1"
 
 #. +> trunk6 trunk5
-#: kedittoolbar.cpp:1611
+#: kedittoolbar.cpp:1616
 #, kde-format
 msgid "Change Icon"
 msgstr "เปลี่ยนภาพไอคอน"
@@ -1439,160 +1485,160 @@ msgid "Application Language Changed"
 msgstr "ภาษาของโปรแกรมถูกเปลี่ยน"
 
 #. +> trunk6 trunk5
-#: kswitchlanguagedialog_p.cpp:370
+#: kswitchlanguagedialog_p.cpp:368
 #, kde-format
 msgid "Primary language:"
 msgstr "ภาษาหลัก:"
 
 #. +> trunk6 trunk5
-#: kswitchlanguagedialog_p.cpp:370
+#: kswitchlanguagedialog_p.cpp:368
 #, kde-format
 msgid "Fallback language:"
 msgstr "ภาษาปริยาย:"
 
 #. +> trunk6 trunk5
-#: kswitchlanguagedialog_p.cpp:385
+#: kswitchlanguagedialog_p.cpp:383
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
 msgstr "เอาออก"
 
 #. +> trunk6 trunk5
-#: kswitchlanguagedialog_p.cpp:391
+#: kswitchlanguagedialog_p.cpp:389
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This is the main application language which will be used first, before any other languages."
 msgstr "นี่คือภาษาหลักของโปรแกรมซึ่งจะถูกใช้ก่อนภาษาอื่น ๆ"
 
 #. +> trunk6 trunk5
-#: kswitchlanguagedialog_p.cpp:392
+#: kswitchlanguagedialog_p.cpp:390
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "This is the language which will be used if any previous languages do not contain a proper translation."
 msgstr "นี่คือภาษาที่จะใช้ถ้าภาษาที่ใช้ก่อนหน้านี้ไม่มีคำแปลที่เหมาะสม"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:297 ktoolbar.cpp:304
+#: ktoolbar.cpp:308 ktoolbar.cpp:315
 #, kde-format
 msgctxt "@title:menu"
 msgid "Toolbar Settings"
 msgstr "ตั้งค่าแถบเครื่องมือ"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:299
+#: ktoolbar.cpp:310
 #, kde-format
 msgctxt "@title:menu"
 msgid "Show Text"
 msgstr "แสดงข้อความ"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:306
+#: ktoolbar.cpp:317
 #, kde-format
 msgctxt "Toolbar orientation"
 msgid "Orientation"
 msgstr "ทิศทางการวาง"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:308
+#: ktoolbar.cpp:319
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Top"
 msgstr "ด้านบน"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:312
+#: ktoolbar.cpp:323
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Left"
 msgstr "ด้านซ้าย"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:315
+#: ktoolbar.cpp:326
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Right"
 msgstr "ด้านขวา"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:318
+#: ktoolbar.cpp:329
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Bottom"
 msgstr "ด้านล่าง"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:329
+#: ktoolbar.cpp:340
 #, kde-format
 msgid "Text Position"
 msgstr "ตำแหน่งข้อความ"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:331
+#: ktoolbar.cpp:342
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Icons Only"
 msgstr "แสดงไอคอนเท่านั้น"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:334
+#: ktoolbar.cpp:345
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Text Only"
 msgstr "แสดงข้อความเท่านั้น"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:337
+#: ktoolbar.cpp:348
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Text Alongside Icons"
 msgstr "ข้อความด้านข้างไอคอน"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:340
+#: ktoolbar.cpp:351
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Text Under Icons"
 msgstr "ข้อความด้านล่างไอคอน"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:351
+#: ktoolbar.cpp:362
 #, kde-format
 msgid "Icon Size"
 msgstr "ขนาดไอคอน"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:353
+#: ktoolbar.cpp:364
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "ค่าปริยาย"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:373 ktoolbar.cpp:397
+#: ktoolbar.cpp:384 ktoolbar.cpp:408
 #, kde-format
 msgid "Small (%1x%2)"
 msgstr "เล็ก (%1x%2)"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:375 ktoolbar.cpp:399
+#: ktoolbar.cpp:386 ktoolbar.cpp:410
 #, kde-format
 msgid "Medium (%1x%2)"
 msgstr "ปานกลาง (%1x%2)"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:377 ktoolbar.cpp:401
+#: ktoolbar.cpp:388 ktoolbar.cpp:412
 #, kde-format
 msgid "Large (%1x%2)"
 msgstr "ใหญ่ (%1x%2)"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:379 ktoolbar.cpp:403
+#: ktoolbar.cpp:390 ktoolbar.cpp:414
 #, kde-format
 msgid "Huge (%1x%2)"
 msgstr "ใหญ่มาก (%1x%2)"
 
 #. +> trunk6 trunk5
-#: ktoolbar.cpp:429
+#: ktoolbar.cpp:440
 #, kde-format
 msgid "Lock Toolbar Positions"
 msgstr "ล็อคตำแหน่งแถบเครื่องมือ"
@@ -1604,35 +1650,21 @@ msgid "Toolbars Shown"
 msgstr "แสดงแถบเครื่องมือ"
 
 #. +> trunk6 trunk5
-#: ktooltiphelper.cpp:215
+#: ktooltiphelper.cpp:214
 #, kde-format
 msgctxt "@info:tooltip %1 is the tooltip of an action, %2 is its keyboard shorcut"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#. i18n: Pressing Shift will show a longer message with contextual info
-#. about the thing the tooltip was invoked for. If there is no good way to translate
-#. the message, translating "Press Shift to learn more." would also mostly fit what
-#. is supposed to be expressed here.
 #. +> trunk6 trunk5
-#: ktooltiphelper.cpp:281
+#: ktooltiphelper.cpp:282
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<small><font color=\"%1\">Press <b>Shift</b> for more Info.</font></small>"
 msgstr "<small><font color=\"%1\">กด <b>Shift</b> เพื่อข้อมูลเพิ่มเติม.</font></small>"
 
-#. i18n: The 'Press Shift for more' message is added to tooltips that have an
-#. available whatsthis help message. Pressing Shift will show this more exhaustive message.
-#. It is particularly important to keep this translation short because:
-#. 1. A longer translation will increase the size of *every* tooltip that gets this hint
-#. added e.g. a two word tooltip followed by a four word hint.
-#. 2. The purpose of this hint is so we can keep the tooltip shorter than it would have to
-#. be if we couldn't refer to the message that appears when pressing Shift.
-#.
-#. %1 can be any tooltip. <br/> produces a linebreak. The other things between < and > are
-#. styling information. The word "more" refers to "information".
 #. +> trunk6 trunk5
-#: ktooltiphelper.cpp:295
+#: ktooltiphelper.cpp:298
 #, kde-format
 msgctxt "@info:tooltip keep short"
 msgid ""
@@ -1655,7 +1687,7 @@ msgid "Undo"
 msgstr "เลิกทำ"
 
 #. +> trunk6 trunk5
-#: kxmlguibuilder.cpp:182 kxmlguibuilder.cpp:361
+#: kxmlguibuilder.cpp:171 kxmlguibuilder.cpp:350
 #, kde-format
 msgid "No text"
 msgstr "ไม่มีข้อความ"

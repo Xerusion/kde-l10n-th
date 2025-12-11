@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 12:42+0200\n"
+"POT-Creation-Date: 2025-08-18 09:44+0200\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,13 +13,28 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:1
-msgid "Kdenlive Video Effects - Alpha Gradient"
+#: ../../<rst_epilog>:310
+msgid "kdenlive-show-video"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:1
-msgid "KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, alpha gradient"
+#: ../../<rst_epilog>:624
+msgid "Linux"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:629
+msgid "appimage"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:634
+msgid "Windows"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:639
+msgid "MacOS"
 msgstr ""
 
 #. +> trunk5
@@ -96,7 +111,7 @@ msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:61
-msgid "Defines the compositing operation"
+msgid "Defines the compositing operation (see list below)"
 msgstr ""
 
 #. +> trunk5
@@ -106,16 +121,12 @@ msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:63
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:66
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:69
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:72
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:75
 msgid "Integer"
 msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:64
-msgid "Position where the gradient starts (range is 0-1000, default is 500)"
+msgid "Position where the gradient starts (default is half the project vertical resolution)"
 msgstr ""
 
 #. +> trunk5
@@ -124,8 +135,15 @@ msgid "Transition width"
 msgstr ""
 
 #. +> trunk5
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:66
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:72
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:75
+msgid "Percentage"
+msgstr ""
+
+#. +> trunk5
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:67
-msgid "Width of the gradient (range is 0-1000, default is 500)"
+msgid "Width of the gradient (default is 505)"
 msgstr ""
 
 #. +> trunk5
@@ -134,30 +152,33 @@ msgid "Tilt"
 msgstr ""
 
 #. +> trunk5
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:69
+msgid "Degrees"
+msgstr ""
+
+#. +> trunk5
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:70
-msgid "Rotation of the gradient (range is 0-1000, default is 500). Values below 500 rotate counter clockwise, values above rotate clockwise. 0 means a rotation of -180 degrees, 1000 a rotation of +180 degrees."
+msgid "Rotation of the gradient in degrees (range is 0-360, default is 0)"
 msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:71
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:91
-msgid "Min"
+msgid "Transparency top"
 msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:73
-msgid "Sets the density at the bottom / start of the gradient (range is 0-1000, default is 0)"
+msgid "Sets the transparency at the top / start of the gradient (default is 100% for full transparency)"
 msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:74
-#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:93
-msgid "Max"
+msgid "Transparency bottom"
 msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:76
-msgid "Sets the density at the top / end of the gradient (range is 0-1000, default is 1000)"
+msgid "Sets the transparency at the bottom / end of the gradient (default is 0% for no transparency)"
 msgstr ""
 
 #. +> trunk5
@@ -191,8 +212,18 @@ msgid "Add the existing pixel and the calculated gradient values"
 msgstr ""
 
 #. +> trunk5
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:91
+msgid "Min"
+msgstr ""
+
+#. +> trunk5
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:92
 msgid "Take the minimum of existing pixel and calculated gradient values"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:93
+msgid "Max"
 msgstr ""
 
 #. +> trunk5
@@ -222,7 +253,17 @@ msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:108
+msgid "kdenlive2304_effects-alpha_gradient_before"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:108
 msgid "Alpha Gradient effect - before"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:116
+msgid "kdenlive2304_effects-alpha_gradient_after"
 msgstr ""
 
 #. +> trunk5
@@ -238,6 +279,16 @@ msgstr ""
 #. +> trunk5
 #: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:133
 msgid "For more details about this topic refer to the Wikipedia entry about the |wiki_graduated_nd_filter|."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:-1
+msgid "Kdenlive Video Effects - Alpha Gradient"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/alpha_mask_keying/alpha_gradient.rst:-1
+msgid "KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, alpha gradient"
 msgstr ""
 
 #. +> trunk5

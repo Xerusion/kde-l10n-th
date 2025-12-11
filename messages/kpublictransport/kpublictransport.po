@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpublictransport\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-25 08:01+0100\n"
+"POT-Creation-Date: 2025-11-10 07:00+0100\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -11,6 +11,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#. +> trunk6 stable6
+#: lib/datatypes/classutil.cpp:29
+#, kde-format
+msgctxt "train seating class"
+msgid "First class"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/datatypes/classutil.cpp:32
+#, kde-format
+msgctxt "train seating class"
+msgid "Second class"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/datatypes/classutil.cpp:35
+#, kde-format
+msgctxt "train seating class"
+msgid "First/second class"
+msgstr ""
 
 #. +> trunk6 stable6
 #: lib/datatypes/feature.cpp:52
@@ -104,6 +125,13 @@ msgid "Power sockets"
 msgstr ""
 
 #. +> trunk6 stable6
+#: lib/datatypes/feature.cpp:78
+#, kde-format
+msgctxt "train coach feature"
+msgid "Sleeper Compartment"
+msgstr ""
+
+#. +> trunk6 stable6
 #: lib/datatypes/individualtransport.cpp:73
 #, kde-format
 msgctxt "mode of individual transport"
@@ -131,34 +159,171 @@ msgid "Wait"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/datatypes/rentalvehicle.cpp:271
+#: lib/datatypes/rentalvehicle.cpp:277
 #, kde-format
 msgctxt "rental vehicle type"
 msgid "Rented bike"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/datatypes/rentalvehicle.cpp:273
+#: lib/datatypes/rentalvehicle.cpp:279
 #, kde-format
 msgctxt "rental vehicle type"
 msgid "Rented moped"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/datatypes/rentalvehicle.cpp:275
+#: lib/datatypes/rentalvehicle.cpp:281
 #, kde-format
 msgctxt "rental vehicle type"
 msgid "Rented kick scooter"
 msgstr ""
 
 #. +> trunk6 stable6
-#: lib/datatypes/rentalvehicle.cpp:277
+#: lib/datatypes/rentalvehicle.cpp:283
 #, kde-format
 msgctxt "rental vehicle type"
 msgid "Rented car"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
+#: lib/datatypes/vehicle.cpp:77
+#, kde-format
+msgctxt "train coach type"
+msgid "Sleeping car"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/datatypes/vehicle.cpp:79
+#, kde-format
+msgctxt "train coach type"
+msgid "Couchette car"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/datatypes/vehicle.cpp:81
+#, kde-format
+msgctxt "train coach type"
+msgid "Restaurant car"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/datatypes/vehicle.cpp:83
+#, kde-format
+msgctxt "train coach type"
+msgid "Car transport car"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/BackendPage.qml:24
+#, kde-format
+msgid "Check for Updates"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/BackendPage.qml:38
+#, kde-format
+msgid "Already up to date."
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/BackendPage.qml:41
+#, kde-format
+msgid "Update successful."
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/BackendPage.qml:47
+#, kde-format
+msgid "Update failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/BackendPage.qml:53
+#, kde-format
+msgid "Public Transport Information Sources"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/BackendPage.qml:130 quick/BackendPage.qml:142
+#, kde-format
+msgid "Global"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/BackendPage.qml:132
+#, kde-format
+msgid "🇪🇺 European Union"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/BackendPage.qml:135
+#, kde-format
+msgctxt "emoji flag, country name"
+msgid "%1 %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/BackendPage.qml:144
+#, kde-format
+msgid "European Union"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/ExpectedTimeLabel.qml:36
+#, kde-format
+msgctxt "a train/bus journey canceled by its operator"
+msgid "Canceled"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/ExpectedTimeLabel.qml:38
+#, kde-format
+msgctxt "duration of the delay"
+msgid "Delayed %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/ExpectedTimeLabel.qml:40
+#, kde-format
+msgctxt "earlier arrival/departure"
+msgid "%1 earlier"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/ExpectedTimeLabel.qml:42
+#, kde-format
+msgctxt "@info"
+msgid "On time"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/FeatureDelegate.qml:39
+#, kde-format
+msgid "Availability unknown"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/FeatureDelegate.qml:41
+#, kde-format
+msgid "Not available"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/FeatureDelegate.qml:43
+#, kde-format
+msgid "Currently not available"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/FeatureDelegate.qml:45
+#, kde-format
+msgctxt "bike/wheelchair spaces on a train/bus"
+msgid "One space"
+msgid_plural "%1 spaces"
+msgstr[0] ""
+
+#. +> trunk6 stable6
 #: quick/FeatureIcon.qml:58
 #, kde-format
 msgid "%1 (availability unknown)"
@@ -173,10 +338,10 @@ msgstr ""
 #. +> trunk6 stable6
 #: quick/FeatureIcon.qml:62
 #, kde-format
+msgctxt "bike/wheelchair spaces on a train/bus"
 msgid "%2 (one space)"
 msgid_plural "%2 (%1 spaces)"
 msgstr[0] ""
-msgstr[1] ""
 
 #. +> trunk6 stable6
 #: quick/OccupancyIndicator.qml:39
@@ -204,4 +369,183 @@ msgstr ""
 #, kde-format
 msgctxt "vehicle occupancy"
 msgid "Full"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/private/CountryComboBox.qml:45
+#, kde-format
+msgid "Select country"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/private/CurrentLocationDelegate.qml:43
+#, kde-format
+msgid "Current Location"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/private/CurrentLocationDelegate.qml:100
+#, kde-format
+msgid "Determining Location…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/private/CurrentLocationDelegate.qml:102
+#, kde-format
+msgid "Waiting for more accurate location…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/private/CurrentLocationDelegate.qml:105
+#, kde-format
+msgid "Looking up address…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/private/CurrentLocationDelegate.qml:174
+#, kde-format
+msgid "Failed to determine accurate enough location."
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/private/CurrentLocationDelegate.qml:176
+#, kde-format
+msgid "Failed to determine location."
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopoverInformationView.qml:43
+#, kde-format
+msgid "Information"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopoverInformationView.qml:61
+#, kde-format
+msgid "Occupancy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopoverInformationView.qml:76
+#, kde-format
+msgid "Amenities"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopoverInformationView.qml:91
+#, kde-format
+msgctxt "operator/provider of a rail/bus service"
+msgid "Operator"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:46
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Clear History"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to remove all previously searched locations?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:51
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:66
+#, kde-format
+msgctxt "@action"
+msgid "Clear history"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:75
+#, kde-format
+msgctxt "@action"
+msgid "Sort by name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:83
+#, kde-format
+msgctxt "@action"
+msgid "Most recently used"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:90
+#, kde-format
+msgctxt "@action"
+msgid "Most often used"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:184
+#, kde-format
+msgctxt "locality, region, country"
+msgid "%1, %2, %3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:189
+#, kde-format
+msgctxt "locality, country"
+msgid "%1, %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:193
+#, kde-format
+msgctxt "region, country"
+msgid "%1, %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:216
+#, kde-format
+msgctxt "location name, locality, region, country"
+msgid "%1, %2, %3, %4"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:222
+#, kde-format
+msgctxt "location name, locality, country"
+msgid "%1, %2, %3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:227
+#, kde-format
+msgctxt "location name, region, country"
+msgid "%1, %2, %3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:232
+#, kde-format
+msgctxt "location name, country"
+msgid "%1, %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:263
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove history entry"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/StopPickerPage.qml:321
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No locations found"
 msgstr ""

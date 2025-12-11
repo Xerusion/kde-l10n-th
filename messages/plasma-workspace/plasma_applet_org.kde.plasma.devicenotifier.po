@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-13 10:25+0100\n"
+"POT-Creation-Date: 2025-10-14 12:46+0200\n"
 "PO-Revision-Date: 2010-12-17 16:09+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -19,216 +19,110 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. +> trunk6
-#: package/contents/ui/DeviceItem.qml:97
-#, fuzzy, kde-format
-#| msgctxt "Removing is a less technical word for Unmounting; translation shoud be short and mean 'Currently unmounting this device'"
-#| msgid "Removing..."
-msgctxt "Accessing is a less technical word for Mounting; translation should be short and mean 'Currently mounting this device'"
-msgid "Checking…"
-msgstr "กำลังถอดออก..."
-
-#. +> trunk6
-#: package/contents/ui/DeviceItem.qml:99
-#, fuzzy, kde-format
-#| msgctxt "Removing is a less technical word for Unmounting; translation shoud be short and mean 'Currently unmounting this device'"
-#| msgid "Removing..."
-msgctxt "Accessing is a less technical word for Mounting; translation should be short and mean 'Currently mounting this device'"
-msgid "Repairing…"
-msgstr "กำลังถอดออก..."
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:102
-#, fuzzy, kde-format
-#| msgctxt "@info:status Free disk space"
-#| msgid "%1 free"
-msgctxt "@info:status Free disk space"
-msgid "%1 free of %2"
-msgstr "เนื้อที่ว่าง %1"
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:106
-#, fuzzy, kde-format
-#| msgctxt "Accessing is a less technical word for Mounting; translation should be short and mean 'Currently mounting this device'"
-#| msgid "Accessing..."
-msgctxt "Accessing is a less technical word for Mounting; translation should be short and mean 'Currently mounting this device'"
-msgid "Accessing…"
-msgstr "กำลังเข้าใช้งาน..."
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:109
-#, fuzzy, kde-format
-#| msgctxt "Removing is a less technical word for Unmounting; translation shoud be short and mean 'Currently unmounting this device'"
-#| msgid "Removing..."
-msgctxt "Removing is a less technical word for Unmounting; translation should be short and mean 'Currently unmounting this device'"
-msgid "Removing…"
-msgstr "กำลังถอดออก..."
+#. +> trunk6 stable6
+#: actions/checkaction.cpp:72
+#, kde-format
+msgctxt "@action:button check a storageAccess (i.e disk) for error"
+msgid "Check for Errors"
+msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/DeviceItem.qml:112
+#: actions/mountaction.cpp:101
 #, kde-format
-msgid "Don't unplug yet! Files are still being transferred…"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/DeviceItem.qml:195
-#, kde-format
-msgid "Don't unplug yet! Files are still being transferred..."
+msgctxt "@action:button Mount a disk without verifying for errors"
+msgid "Mount without verifying"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/FullRepresentation.qml:45
-#: package/contents/ui/main.qml:125
-#, kde-format
-msgid "Remove All"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/FullRepresentation.qml:46
-#, fuzzy, kde-format
-#| msgid "Click to safely remove this device."
-msgid "Click to safely remove all devices"
-msgstr "คลิกเพื่อถอดอุปกรณ์นี้ออกอย่างปลอดภัย"
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/FullRepresentation.qml:159
-#, fuzzy, kde-format
-#| msgid "Non-removable devices only"
-msgid "No removable devices attached"
-msgstr "อุปกรณ์ที่ไม่สามารถถอด/เสียบได้เท่านั้น"
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/FullRepresentation.qml:159
-#, fuzzy, kde-format
-#| msgid "No devices available."
-msgid "No disks available"
-msgstr "ยังไม่มีอุปกรณ์ใด ๆ ให้เลือกใช้"
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:72
-#, fuzzy, kde-format
-#| msgid "Most recent device"
-msgid "Most Recent Device"
-msgstr "อุปกรณ์ที่เสียบเข้ามาล่าสุด"
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:72
-#, kde-format
-msgid "No Devices Available"
-msgstr "ยังไม่มีอุปกรณ์ใด ๆ ให้เลือกใช้"
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:108
-#, fuzzy, kde-format
-#| msgid "Non-removable devices only"
-msgctxt "Open auto mounter kcm"
-msgid "Configure Removable Devices…"
-msgstr "อุปกรณ์ที่ไม่สามารถถอด/เสียบได้เท่านั้น"
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:133
-#, fuzzy, kde-format
-#| msgid "Removable devices only"
-msgid "Removable Devices"
-msgstr "อุปกรณ์ที่สามารถถอด/เสียบได้เท่านั้น"
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:148
-#, fuzzy, kde-format
-#| msgid "Non-removable devices only"
-msgid "Non Removable Devices"
-msgstr "อุปกรณ์ที่ไม่สามารถถอด/เสียบได้เท่านั้น"
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:163
-#, fuzzy, kde-format
-#| msgid "All devices"
-msgid "All Devices"
-msgstr "อุปกรณ์ทั้งหมด"
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:180
-#, fuzzy, kde-format
-#| msgid "No devices plugged in"
-msgid "Show popup when new device is plugged in"
-msgstr "ยังไม่มีการเสียบอุปกรณ์ใด ๆ"
-
-#. +> trunk6 stable6 stable5
-#: plugin/actions/mountaction.cpp:93
+#: actions/mountaction.cpp:104
 #, fuzzy, kde-format
 #| msgid "Mounting..."
 msgid "Mount"
 msgstr "ทำการเมานท์..."
 
 #. +> trunk6 stable6 stable5
-#: plugin/actions/mountandopenaction.cpp:179
+#: actions/mountandopenaction.cpp:181
 #, kde-format
 msgid "Open in File Manager"
 msgstr ""
 
-#. +> trunk6
-#: plugin/actions/mountandopenaction.cpp:182
+#. +> trunk6 stable6
+#: actions/mountandopenaction.cpp:184
 #, kde-format
 msgid "Try to Fix"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugin/actions/mountandopenaction.cpp:182
+#: actions/mountandopenaction.cpp:184
 #, kde-format
 msgid "Mount and Open"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugin/actions/mountandopenaction.cpp:184
+#: actions/mountandopenaction.cpp:186
 #, kde-format
 msgid "Eject"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugin/actions/mountandopenaction.cpp:186
+#: actions/mountandopenaction.cpp:188
 #, kde-format
 msgid "Safely remove"
 msgstr ""
 
-#. +> trunk6
-#: plugin/deviceerrormonitor_p.cpp:198
+#. +> trunk6 stable6
+#: devicemessagemonitor_p.cpp:171
 #, kde-format
 msgid "This device has file system errors."
 msgstr ""
 
-#. +> trunk6
-#: plugin/deviceerrormonitor_p.cpp:201
+#. +> trunk6 stable6
+#: devicemessagemonitor_p.cpp:173
+#, kde-format
+msgctxt "@label device is a storage disk"
+msgid "This device has no errors"
+msgstr ""
+
+#. +> trunk6 stable6
+#: devicemessagemonitor_p.cpp:176
 #, kde-format
 msgid "Successfully repaired!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:204
+#: devicemessagemonitor_p.cpp:180
 #, kde-format
 msgid "Device Status"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:205
+#: devicemessagemonitor_p.cpp:181
 #, kde-format
 msgid "A device can now be safely removed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:209
+#: devicemessagemonitor_p.cpp:185
 #, kde-format
 msgid "This device can now be safely removed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:216
+#: devicemessagemonitor_p.cpp:192
 #, fuzzy, kde-format
 #| msgid "Click to unmount this device."
 msgid "You are not authorized to mount this device."
 msgstr "คลิกเพื่อยกเลิกการเมานท์อุปกรณ์นี้"
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:219
+#: devicemessagemonitor_p.cpp:196
+#, fuzzy, kde-format
+#| msgid "Click to eject this disc."
+msgid "You are not authorized to eject this disc."
+msgstr "คลิกเพื่อดันดิสก์นี้ออก"
+
+#. +> trunk6 stable6
+#: devicemessagemonitor_p.cpp:199
 #, fuzzy, kde-format
 #| msgid "It is currently safe to remove this device."
 msgctxt "Remove is less technical for unmount"
@@ -236,28 +130,27 @@ msgid "You are not authorized to remove this device."
 msgstr "คุณสามารถเอาอุปกรณ์นี้ออกได้อย่างปลอดภัยแล้ว"
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:222
-#, fuzzy, kde-format
-#| msgid "Click to eject this disc."
-msgid "You are not authorized to eject this disc."
-msgstr "คลิกเพื่อดันดิสก์นี้ออก"
-
-#. +> trunk6
-#: plugin/deviceerrormonitor_p.cpp:225
+#: devicemessagemonitor_p.cpp:202
 #, fuzzy, kde-format
 #| msgid "It is currently safe to remove this device."
 msgid "You are not authorized to repair this device."
 msgstr "คุณสามารถเอาอุปกรณ์นี้ออกได้อย่างปลอดภัยแล้ว"
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:232
+#: devicemessagemonitor_p.cpp:204 devicemessagemonitor_p.cpp:269
+#, kde-format
+msgid "Unknown error type"
+msgstr ""
+
+#. +> trunk6 stable6
+#: devicemessagemonitor_p.cpp:208
 #, fuzzy, kde-format
 #| msgid "Could not mount device %1."
 msgid "Could not mount this device as it is busy."
 msgstr "ไม่สามารถทำการเมานท์อุปกรณ์ %1 ได้"
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:260
+#: devicemessagemonitor_p.cpp:235
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot eject the disc.\n"
@@ -268,7 +161,7 @@ msgstr ""
 "เนื่องจากอาจมีบางแฟ้มบนดิสก์นี้ที่ถูกเปิดโดยโปรแกรมบางตัวอยู่"
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:262
+#: devicemessagemonitor_p.cpp:237
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not unmount device %1.\n"
@@ -280,21 +173,28 @@ msgstr[0] ""
 "เนื่องจากอาจมีบางแฟ้มบนอุปกรณ์นี้กำลังถูกเปิดโดยโปรแกรมบางตัวอยู่"
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:265
+#: devicemessagemonitor_p.cpp:240
 #, kde-format
 msgctxt "separator in list of apps blocking device unmount"
 msgid ", "
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:285
+#: devicemessagemonitor_p.cpp:258
 #, fuzzy, kde-format
 #| msgid "Could not mount device %1."
 msgid "Could not mount this device."
 msgstr "ไม่สามารถทำการเมานท์อุปกรณ์ %1 ได้"
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:288
+#: devicemessagemonitor_p.cpp:262
+#, fuzzy, kde-format
+#| msgid "Click to eject this disc."
+msgid "Could not eject this disc."
+msgstr "คลิกเพื่อดันดิสก์นี้ออก"
+
+#. +> trunk6 stable6
+#: devicemessagemonitor_p.cpp:264
 #, fuzzy, kde-format
 #| msgid "Could not mount device %1."
 msgctxt "Remove is less technical for unmount"
@@ -302,15 +202,141 @@ msgid "Could not remove this device."
 msgstr "ไม่สามารถทำการเมานท์อุปกรณ์ %1 ได้"
 
 #. +> trunk6 stable6
-#: plugin/deviceerrormonitor_p.cpp:291
-#, fuzzy, kde-format
-#| msgid "Click to eject this disc."
-msgid "Could not eject this disc."
-msgstr "คลิกเพื่อดันดิสก์นี้ออก"
-
-#. +> trunk6
-#: plugin/deviceerrormonitor_p.cpp:294
+#: devicemessagemonitor_p.cpp:267
 #, fuzzy, kde-format
 #| msgid "Could not mount device %1."
 msgid "Could not repair this device: %1"
 msgstr "ไม่สามารถทำการเมานท์อุปกรณ์ %1 ได้"
+
+#. +> trunk6 stable6
+#: qml/DeviceItem.qml:106
+#, fuzzy, kde-format
+#| msgctxt "Removing is a less technical word for Unmounting; translation shoud be short and mean 'Currently unmounting this device'"
+#| msgid "Removing..."
+msgctxt "Accessing is a less technical word for Mounting; translation should be short and mean 'Currently mounting this device'"
+msgid "Checking…"
+msgstr "กำลังถอดออก..."
+
+#. +> trunk6 stable6
+#: qml/DeviceItem.qml:108
+#, fuzzy, kde-format
+#| msgctxt "Removing is a less technical word for Unmounting; translation shoud be short and mean 'Currently unmounting this device'"
+#| msgid "Removing..."
+msgctxt "Accessing is a less technical word for Mounting; translation should be short and mean 'Currently mounting this device'"
+msgid "Repairing…"
+msgstr "กำลังถอดออก..."
+
+#. +> trunk6 stable6 stable5
+#: qml/DeviceItem.qml:111
+#, fuzzy, kde-format
+#| msgctxt "@info:status Free disk space"
+#| msgid "%1 free"
+msgctxt "@info:status Free disk space"
+msgid "%1 free of %2"
+msgstr "เนื้อที่ว่าง %1"
+
+#. +> trunk6 stable6 stable5
+#: qml/DeviceItem.qml:115
+#, fuzzy, kde-format
+#| msgctxt "Accessing is a less technical word for Mounting; translation should be short and mean 'Currently mounting this device'"
+#| msgid "Accessing..."
+msgctxt "Accessing is a less technical word for Mounting; translation should be short and mean 'Currently mounting this device'"
+msgid "Accessing…"
+msgstr "กำลังเข้าใช้งาน..."
+
+#. +> trunk6 stable6 stable5
+#: qml/DeviceItem.qml:118
+#, fuzzy, kde-format
+#| msgctxt "Removing is a less technical word for Unmounting; translation shoud be short and mean 'Currently unmounting this device'"
+#| msgid "Removing..."
+msgctxt "Removing is a less technical word for Unmounting; translation should be short and mean 'Currently unmounting this device'"
+msgid "Removing…"
+msgstr "กำลังถอดออก..."
+
+#. +> trunk6 stable6
+#: qml/DeviceItem.qml:121
+#, kde-format
+msgid "Don't unplug yet! Files are still being transferred…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/FullRepresentation.qml:45 qml/main.qml:125
+#, kde-format
+msgid "Remove All"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/FullRepresentation.qml:46
+#, fuzzy, kde-format
+#| msgid "Click to safely remove this device."
+msgid "Click to safely remove all devices"
+msgstr "คลิกเพื่อถอดอุปกรณ์นี้ออกอย่างปลอดภัย"
+
+#. +> trunk6 stable6 stable5
+#: qml/FullRepresentation.qml:153
+#, fuzzy, kde-format
+#| msgid "Non-removable devices only"
+msgid "No removable devices attached"
+msgstr "อุปกรณ์ที่ไม่สามารถถอด/เสียบได้เท่านั้น"
+
+#. +> trunk6 stable6 stable5
+#: qml/FullRepresentation.qml:153
+#, fuzzy, kde-format
+#| msgid "No devices available."
+msgid "No disks available"
+msgstr "ยังไม่มีอุปกรณ์ใด ๆ ให้เลือกใช้"
+
+#. +> trunk6 stable6 stable5
+#: qml/main.qml:72
+#, fuzzy, kde-format
+#| msgid "Most recent device"
+msgid "Most Recent Device"
+msgstr "อุปกรณ์ที่เสียบเข้ามาล่าสุด"
+
+#. +> trunk6 stable6 stable5
+#: qml/main.qml:72
+#, kde-format
+msgid "No Devices Available"
+msgstr "ยังไม่มีอุปกรณ์ใด ๆ ให้เลือกใช้"
+
+#. +> trunk6 stable6 stable5
+#: qml/main.qml:108
+#, fuzzy, kde-format
+#| msgid "Non-removable devices only"
+msgctxt "Open auto mounter kcm"
+msgid "Configure Removable Devices…"
+msgstr "อุปกรณ์ที่ไม่สามารถถอด/เสียบได้เท่านั้น"
+
+#. +> trunk6 stable6 stable5
+#: qml/main.qml:133
+#, fuzzy, kde-format
+#| msgid "Removable devices only"
+msgid "Removable Devices"
+msgstr "อุปกรณ์ที่สามารถถอด/เสียบได้เท่านั้น"
+
+#. +> trunk6 stable6 stable5
+#: qml/main.qml:148
+#, fuzzy, kde-format
+#| msgid "Non-removable devices only"
+msgid "Non Removable Devices"
+msgstr "อุปกรณ์ที่ไม่สามารถถอด/เสียบได้เท่านั้น"
+
+#. +> trunk6 stable6 stable5
+#: qml/main.qml:163
+#, fuzzy, kde-format
+#| msgid "All devices"
+msgid "All Devices"
+msgstr "อุปกรณ์ทั้งหมด"
+
+#. +> trunk6 stable6 stable5
+#: qml/main.qml:180
+#, fuzzy, kde-format
+#| msgid "No devices plugged in"
+msgid "Show popup when new device is plugged in"
+msgstr "ยังไม่มีการเสียบอุปกรณ์ใด ๆ"
+
+#. +> stable5
+#: package/contents/ui/DeviceItem.qml:195
+#, kde-format
+msgid "Don't unplug yet! Files are still being transferred..."
+msgstr ""

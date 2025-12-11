@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-03 10:41+0200\n"
+"POT-Creation-Date: 2025-12-11 04:45+0100\n"
 "PO-Revision-Date: 2025-03-01 14:53+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -31,32 +31,32 @@ msgid "Your emails"
 msgstr "donga.nb@gmail.com"
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:425
+#: backends/wayland/wayland_output.cpp:488
 #, kde-format
 msgid "Press right control to ungrab pointer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:427
+#: backends/wayland/wayland_output.cpp:490
 #, kde-format
 msgid "Press right control key to grab pointer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:431
+#: backends/wayland/wayland_output.cpp:494
 #, kde-format
 msgctxt "Title of nested KWin Wayland with Wayland socket identifier as argument"
 msgid "KDE Wayland Compositor %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:434
+#: backends/wayland/wayland_output.cpp:497
 #, kde-format
 msgid "- Output disabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:436
+#: backends/wayland/wayland_output.cpp:499
 #, kde-format
 msgid "- Output dimmed"
 msgstr ""
@@ -80,109 +80,109 @@ msgid "KDE Wayland Compositor"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: compositor.cpp:460
+#: compositor.cpp:603
 #, kde-format
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:252
+#: core/iccprofile.cpp:334
 #, kde-format
 msgid "Failed to open ICC profile \"%1\""
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:254
+#: core/iccprofile.cpp:336
 #, kde-format
 msgid "ICC profile \"%1\" doesn't exist"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:258
+#: core/iccprofile.cpp:340
 #, kde-format
 msgid "ICC profile \"%1\" is not usable for displays"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:261
+#: core/iccprofile.cpp:343
 #, kde-format
 msgid "ICC profile \"%1\" has unsupported connection space, only XYZ is supported"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:264
+#: core/iccprofile.cpp:346
 #, kde-format
 msgid "ICC profile \"%1\" is broken, input/output color space isn't RGB"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:283
+#: core/iccprofile.cpp:359
 #, kde-format
 msgid "ICC profile \"%1\" is broken, it has no whitepoint"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:286
+#: core/iccprofile.cpp:362
 #, kde-format
 msgid "ICC profile \"%1\" is broken, its whitepoint is invalid"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:299
+#: core/iccprofile.cpp:375
 #, kde-format
 msgid "ICC profile \"%1\" is broken, parsing chromatic adaptation matrix failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:304
+#: core/iccprofile.cpp:380
 #, kde-format
 msgid "ICC profile \"%1\" is broken, inverting chromatic adaptation matrix failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:317
+#: core/iccprofile.cpp:393
 #, kde-format
 msgid "ICC profile \"%1\" is broken, it has no primaries"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:332
+#: core/iccprofile.cpp:408
 #, kde-format
 msgid "ICC profile \"%1\" is broken, couldn't calculate its primaries"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:341
+#: core/iccprofile.cpp:417
 #, kde-format
 msgid "ICC profile \"%1\" is broken, its primaries are invalid"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:357
+#: core/iccprofile.cpp:433
 #, kde-format
 msgid "ICC profile \"%1\" with only BToD tags isn't supported"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/iccprofile.cpp:396
+#: core/iccprofile.cpp:472
 #, kde-format
 msgid "Color profile is missing TRC tags"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:80
+#: debug_console.cpp:86
 #, kde-format
 msgid "Timestamp"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:85
+#: debug_console.cpp:91
 #, kde-format
 msgid "Timestamp (µsec)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:92
+#: debug_console.cpp:98
 #, fuzzy, kde-format
 #| msgid "Top-Left"
 msgctxt "A mouse button"
@@ -190,7 +190,7 @@ msgid "Left"
 msgstr "บนซ้าย"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:94
+#: debug_console.cpp:100
 #, fuzzy, kde-format
 #| msgid "Top-Right"
 msgctxt "A mouse button"
@@ -198,265 +198,265 @@ msgid "Right"
 msgstr "บนขวา"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:96
+#: debug_console.cpp:102
 #, kde-format
 msgctxt "A mouse button"
 msgid "Middle"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:98
+#: debug_console.cpp:104
 #, kde-format
 msgctxt "A mouse button"
 msgid "Back"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:100
+#: debug_console.cpp:106
 #, kde-format
 msgctxt "A mouse button"
 msgid "Forward"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:102
+#: debug_console.cpp:108
 #, kde-format
 msgctxt "A mouse button"
 msgid "Task"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:104
+#: debug_console.cpp:110
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 4"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:106
+#: debug_console.cpp:112
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 5"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:108
+#: debug_console.cpp:114
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 6"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:110
+#: debug_console.cpp:116
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 7"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:112
+#: debug_console.cpp:118
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 8"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:114
+#: debug_console.cpp:120
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 9"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:116
+#: debug_console.cpp:122
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 10"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:118
+#: debug_console.cpp:124
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 11"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:120
+#: debug_console.cpp:126
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 12"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:122
+#: debug_console.cpp:128
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 13"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:124
+#: debug_console.cpp:130
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 14"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:126
+#: debug_console.cpp:132
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 15"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:128
+#: debug_console.cpp:134
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 16"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:130
+#: debug_console.cpp:136
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 17"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:132
+#: debug_console.cpp:138
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 18"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:134
+#: debug_console.cpp:140
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 19"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:136
+#: debug_console.cpp:142
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 20"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:138
+#: debug_console.cpp:144
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 21"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:140
+#: debug_console.cpp:146
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 22"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:142
+#: debug_console.cpp:148
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 23"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:144
+#: debug_console.cpp:150
 #, kde-format
 msgctxt "A mouse button"
 msgid "Extra Button 24"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:153 debug_console.cpp:155
+#: debug_console.cpp:159 debug_console.cpp:161
 #, kde-format
 msgid "Input Device"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:153
+#: debug_console.cpp:159
 #, kde-format
 msgctxt "The input device of the event is not known"
 msgid "Unknown"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:188
+#: debug_console.cpp:194
 #, kde-format
 msgctxt "A mouse pointer motion event"
 msgid "Pointer Motion"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:193
+#: debug_console.cpp:199
 #, kde-format
 msgctxt "The relative mouse movement"
 msgid "Delta"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:197
+#: debug_console.cpp:203
 #, kde-format
 msgctxt "The relative mouse movement"
 msgid "Delta (not accelerated)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:200
+#: debug_console.cpp:206
 #, kde-format
 msgctxt "The global mouse pointer position"
 msgid "Global Position"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:214
+#: debug_console.cpp:220
 #, kde-format
 msgctxt "A mouse pointer button press event"
 msgid "Pointer Button Press"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:217 debug_console.cpp:224
+#: debug_console.cpp:223 debug_console.cpp:230
 #, kde-format
 msgctxt "A button in a mouse press/release event"
 msgid "Button"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:218 debug_console.cpp:225
+#: debug_console.cpp:224 debug_console.cpp:231
 #, kde-format
 msgctxt "A button in a mouse press/release event"
 msgid "Native Button code"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:219 debug_console.cpp:226
+#: debug_console.cpp:225 debug_console.cpp:232
 #, kde-format
 msgctxt "All currently pressed buttons in a mouse press/release event"
 msgid "Pressed Buttons"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:221
+#: debug_console.cpp:227
 #, kde-format
 msgctxt "A mouse pointer button release event"
 msgid "Pointer Button Release"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:238
+#: debug_console.cpp:244
 #, kde-format
 msgctxt "A mouse pointer axis (wheel) event"
 msgid "Pointer Axis"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:241
+#: debug_console.cpp:247
 #, fuzzy, kde-format
 #| msgid "Toggle Orientation"
 msgctxt "The orientation of a pointer axis event"
@@ -464,130 +464,95 @@ msgid "Orientation"
 msgstr "สลับทิศทางการจัดวาง"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:242
+#: debug_console.cpp:248
 #, kde-format
 msgctxt "An orientation of a pointer axis event"
 msgid "Horizontal"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:243
+#: debug_console.cpp:249
 #, kde-format
 msgctxt "An orientation of a pointer axis event"
 msgid "Vertical"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:244
+#: debug_console.cpp:250
 #, kde-format
 msgctxt "The angle delta of a pointer axis event"
 msgid "Delta"
 msgstr ""
 
 #. +> trunk6 stable6
-#: debug_console.cpp:245
+#: debug_console.cpp:251
 #, kde-format
 msgctxt "The normalized V120 angle delta of a pointer axis event. V120 is a technical term and shouldn't be changed."
 msgid "Delta (V120)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:260
+#: debug_console.cpp:266
 #, kde-format
 msgctxt "A key press event"
 msgid "Key Press"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:263
+#: debug_console.cpp:269
 #, kde-format
 msgctxt "A key release event"
 msgid "Key Release"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:272
+#: debug_console.cpp:278
 #, kde-format
 msgctxt "A keyboard modifier"
 msgid "Shift"
 msgstr "Shift"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:276
+#: debug_console.cpp:282
 #, kde-format
 msgctxt "A keyboard modifier"
 msgid "Control"
 msgstr "Control"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:280
+#: debug_console.cpp:286
 #, kde-format
 msgctxt "A keyboard modifier"
 msgid "Alt"
 msgstr "Alt"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:284
+#: debug_console.cpp:290
 #, kde-format
 msgctxt "A keyboard modifier"
 msgid "Meta"
 msgstr "Meta"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:288
+#: debug_console.cpp:294
 #, kde-format
 msgctxt "A keyboard modifier"
 msgid "Keypad"
 msgstr "Keypad"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:292
+#: debug_console.cpp:298
 #, kde-format
 msgctxt "A keyboard modifier"
 msgid "Group-switch"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:298
+#: debug_console.cpp:304
 #, kde-format
 msgctxt "Whether the event is an automatic key repeat"
 msgid "Repeat"
 msgstr "ซ้ำ"
-
-#. +> trunk6 stable6
-#: debug_console.cpp:302
-#, kde-format
-msgctxt "The code reported by the kernel"
-msgid "Keycode"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: debug_console.cpp:303
-#, kde-format
-msgctxt "Key according to Qt"
-msgid "Qt::Key code"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: debug_console.cpp:304
-#, kde-format
-msgctxt "The translated code to an Xkb symbol"
-msgid "Xkb symbol"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: debug_console.cpp:305
-#, kde-format
-msgctxt "The translated code interpreted as text"
-msgid "Utf8"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: debug_console.cpp:306
-#, kde-format
-msgctxt "The currently active modifiers"
-msgid "Modifiers"
-msgstr ""
 
 #. +> stable5
 #: debug_console.cpp:307
@@ -596,247 +561,223 @@ msgctxt "The code as read from the input device"
 msgid "Scan code"
 msgstr ""
 
+#. +> trunk6 stable6
+#: debug_console.cpp:308
+#, kde-format
+msgctxt "The code reported by the kernel"
+msgid "Keycode"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:318
+#: debug_console.cpp:309
+#, kde-format
+msgctxt "Key according to Qt"
+msgid "Qt::Key code"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:310
+#, kde-format
+msgctxt "The translated code to an Xkb symbol"
+msgid "Xkb symbol"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:311
+#, kde-format
+msgctxt "The translated code interpreted as text"
+msgid "Utf8"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:312
+#, kde-format
+msgctxt "The currently active modifiers"
+msgid "Modifiers"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:324
 #, kde-format
 msgctxt "A touch down event"
 msgid "Touch down"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:320 debug_console.cpp:335 debug_console.cpp:350
+#: debug_console.cpp:326 debug_console.cpp:341 debug_console.cpp:356
 #, kde-format
 msgctxt "The id of the touch point in the touch event"
 msgid "Point identifier"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:321 debug_console.cpp:336
+#: debug_console.cpp:327 debug_console.cpp:342
 #, kde-format
 msgctxt "The global position of the touch point"
 msgid "Global position"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:333
+#: debug_console.cpp:339
 #, kde-format
 msgctxt "A touch motion event"
 msgid "Touch Motion"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:348
+#: debug_console.cpp:354
 #, kde-format
 msgctxt "A touch up event"
 msgid "Touch Up"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:361
+#: debug_console.cpp:367
 #, kde-format
 msgctxt "A pinch gesture is started"
 msgid "Pinch start"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:363
+#: debug_console.cpp:369
 #, kde-format
 msgctxt "Number of fingers in this pinch gesture"
 msgid "Finger count"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:374
+#: debug_console.cpp:380
 #, kde-format
 msgctxt "A pinch gesture is updated"
 msgid "Pinch update"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:376
+#: debug_console.cpp:382
 #, kde-format
 msgctxt "Current scale in pinch gesture"
 msgid "Scale"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:377
+#: debug_console.cpp:383
 #, kde-format
 msgctxt "Current angle in pinch gesture"
 msgid "Angle delta"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:378
+#: debug_console.cpp:384
 #, kde-format
 msgctxt "Current delta in pinch gesture"
 msgid "Delta x"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:379
+#: debug_console.cpp:385
 #, kde-format
 msgctxt "Current delta in pinch gesture"
 msgid "Delta y"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:390
+#: debug_console.cpp:396
 #, kde-format
 msgctxt "A pinch gesture ended"
 msgid "Pinch end"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:402
+#: debug_console.cpp:408
 #, kde-format
 msgctxt "A pinch gesture got cancelled"
 msgid "Pinch cancelled"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:414
+#: debug_console.cpp:420
 #, kde-format
 msgctxt "A swipe gesture is started"
 msgid "Swipe start"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:416
+#: debug_console.cpp:422
 #, kde-format
 msgctxt "Number of fingers in this swipe gesture"
 msgid "Finger count"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:427
+#: debug_console.cpp:433
 #, kde-format
 msgctxt "A swipe gesture is updated"
 msgid "Swipe update"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:429
+#: debug_console.cpp:435
 #, kde-format
 msgctxt "Current delta in swipe gesture"
 msgid "Delta x"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:430
+#: debug_console.cpp:436
 #, kde-format
 msgctxt "Current delta in swipe gesture"
 msgid "Delta y"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:441
+#: debug_console.cpp:447
 #, kde-format
 msgctxt "A swipe gesture ended"
 msgid "Swipe end"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:453
+#: debug_console.cpp:459
 #, kde-format
 msgctxt "A swipe gesture got cancelled"
 msgid "Swipe cancelled"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: debug_console.cpp:465
-#, fuzzy, kde-format
-#| msgid "Switch to Window Tab"
-msgctxt "A hardware switch (e.g. notebook lid) got toggled"
-msgid "Switch toggled"
-msgstr "สลับไปยังแท็บของหน้าต่าง"
-
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: debug_console.cpp:471
 #, kde-format
-msgctxt "Name of a hardware switch"
-msgid "Notebook lid"
+msgctxt "A hold gesture is started"
+msgid "Hold start"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: debug_console.cpp:473
 #, kde-format
-msgctxt "Name of a hardware switch"
-msgid "Tablet mode"
+msgctxt "Number of fingers in this hold gesture"
+msgid "Finger count"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: debug_console.cpp:475
-#, fuzzy, kde-format
-#| msgid "Switch to Window Tab"
-msgctxt "A hardware switch"
-msgid "Switch"
-msgstr "สลับไปยังแท็บของหน้าต่าง"
-
-#. +> trunk6 stable6 stable5
-#: debug_console.cpp:479
+#. +> trunk6 stable6
+#: debug_console.cpp:484
 #, kde-format
-msgctxt "The hardware switch got turned off"
-msgid "Off"
-msgstr "ปิด"
-
-#. +> trunk6 stable6 stable5
-#: debug_console.cpp:482
-#, kde-format
-msgctxt "The hardware switch got turned on"
-msgid "On"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: debug_console.cpp:487
-#, kde-format
-msgctxt "State of a hardware switch (on/off)"
-msgid "State"
+msgctxt "A hold gesture ended"
+msgid "Hold end"
 msgstr ""
 
 #. +> trunk6 stable6
 #: debug_console.cpp:496
 #, kde-format
-msgid "Tablet Tool Proximity"
-msgstr ""
-
-#. +> trunk6 stable6
-#: debug_console.cpp:497
-#, kde-format
-msgid "Proximity"
-msgstr ""
-
-#. +> trunk6 stable6
-#: debug_console.cpp:497
-#, kde-format
-msgid "In"
-msgstr ""
-
-#. +> trunk6 stable6
-#: debug_console.cpp:497
-#, kde-format
-msgid "Out"
+msgctxt "A hold gesture got cancelled"
+msgid "Hold cancelled"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:498 debug_console.cpp:512 debug_console.cpp:529
-#: debug_console.cpp:573 debug_console.cpp:587
-#, kde-format
-msgid "Position"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: debug_console.cpp:500 debug_console.cpp:514 debug_console.cpp:531
-#, kde-format
-msgid "Tilt"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: debug_console.cpp:502 debug_console.cpp:516 debug_console.cpp:533
+#: debug_console.cpp:508
 #, fuzzy, kde-format
-#| msgid "Toggle Orientation"
-msgid "Rotation"
-msgstr "สลับทิศทางการจัดวาง"
+#| msgid "Switch to Window Tab"
+msgctxt "A hardware switch (e.g. notebook lid) got toggled"
+msgid "Switch toggled"
+msgstr "สลับไปยังแท็บของหน้าต่าง"
 
 #. +> stable5
 #: debug_console.cpp:509
@@ -844,27 +785,113 @@ msgstr "สลับทิศทางการจัดวาง"
 msgid "EventType"
 msgstr ""
 
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:514
+#, kde-format
+msgctxt "Name of a hardware switch"
+msgid "Notebook lid"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:516
+#, kde-format
+msgctxt "Name of a hardware switch"
+msgid "Tablet mode"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:518
+#, fuzzy, kde-format
+#| msgid "Switch to Window Tab"
+msgctxt "A hardware switch"
+msgid "Switch"
+msgstr "สลับไปยังแท็บของหน้าต่าง"
+
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:522
+#, kde-format
+msgctxt "The hardware switch got turned off"
+msgid "Off"
+msgstr "ปิด"
+
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:525
+#, kde-format
+msgctxt "The hardware switch got turned on"
+msgid "On"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:530
+#, kde-format
+msgctxt "State of a hardware switch (on/off)"
+msgid "State"
+msgstr ""
+
 #. +> trunk6 stable6
-#: debug_console.cpp:511
+#: debug_console.cpp:539
+#, kde-format
+msgid "Tablet Tool Proximity"
+msgstr ""
+
+#. +> trunk6 stable6
+#: debug_console.cpp:543
+#, kde-format
+msgid "Proximity"
+msgstr ""
+
+#. +> trunk6 stable6
+#: debug_console.cpp:543
+#, kde-format
+msgid "In"
+msgstr ""
+
+#. +> trunk6 stable6
+#: debug_console.cpp:543
+#, kde-format
+msgid "Out"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:544 debug_console.cpp:562 debug_console.cpp:582
+#: debug_console.cpp:632 debug_console.cpp:649
+#, kde-format
+msgid "Position"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:546 debug_console.cpp:564 debug_console.cpp:584
+#, kde-format
+msgid "Tilt"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: debug_console.cpp:548 debug_console.cpp:566 debug_console.cpp:586
+#, fuzzy, kde-format
+#| msgid "Toggle Orientation"
+msgid "Rotation"
+msgstr "สลับทิศทางการจัดวาง"
+
+#. +> trunk6 stable6
+#: debug_console.cpp:549 debug_console.cpp:568
+#, kde-format
+msgid "Distance"
+msgstr ""
+
+#. +> trunk6 stable6
+#: debug_console.cpp:558
 #, kde-format
 msgid "Tablet Tool Axis"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:517 debug_console.cpp:534
+#: debug_console.cpp:567 debug_console.cpp:587
 #, kde-format
 msgid "Pressure"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: debug_console.cpp:518 debug_console.cpp:535
-#, fuzzy, kde-format
-#| msgid "Mouse Emulation"
-msgid "Buttons"
-msgstr "การจำลองเมาส์"
-
 #. +> trunk6 stable6
-#: debug_console.cpp:527
+#: debug_console.cpp:577
 #, kde-format
 msgid "Tablet Tool Tip"
 msgstr ""
@@ -876,105 +903,149 @@ msgid "Tablet Tool"
 msgstr ""
 
 #. +> trunk6 stable6
-#: debug_console.cpp:528
+#: debug_console.cpp:581
 #, fuzzy, kde-format
 #| msgid "Top"
 msgid "Tip"
 msgstr "บน"
 
 #. +> trunk6 stable6
-#: debug_console.cpp:528
+#: debug_console.cpp:581
 #, fuzzy, kde-format
 #| msgid "Move Down"
 msgid "Down"
 msgstr "ย้ายลง"
 
 #. +> trunk6 stable6
-#: debug_console.cpp:528
+#: debug_console.cpp:581
 #, kde-format
 msgid "Up"
 msgstr ""
 
+#. +> trunk6 stable6
+#: debug_console.cpp:588
+#, fuzzy, kde-format
+#| msgid "Window Operations Menu"
+msgid "Slider Position"
+msgstr "เมนูปฎิบัติการของหน้าต่าง"
+
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:544
+#: debug_console.cpp:597
 #, kde-format
 msgid "Tablet Tool Button"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:545 debug_console.cpp:559
+#: debug_console.cpp:599 debug_console.cpp:614
 #, fuzzy, kde-format
 #| msgid "Mouse Emulation"
 msgid "Button"
 msgstr "การจำลองเมาส์"
 
+#. +> stable6 stable5
+#: debug_console.cpp:555 debug_console.cpp:574
+#, fuzzy, kde-format
+#| msgid "Mouse Emulation"
+msgid "Buttons"
+msgstr "การจำลองเมาส์"
+
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:546 debug_console.cpp:560
+#: debug_console.cpp:600 debug_console.cpp:615
 #, fuzzy, kde-format
 #| msgid "Mouse Emulation"
 msgid "Pressed"
 msgstr "การจำลองเมาส์"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:547 debug_console.cpp:561 debug_console.cpp:575
-#: debug_console.cpp:589
+#: debug_console.cpp:601 debug_console.cpp:619 debug_console.cpp:636
+#: debug_console.cpp:653 debug_console.cpp:667
 #, kde-format
 msgid "Tablet"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:558
+#: debug_console.cpp:612
 #, kde-format
 msgid "Tablet Pad Button"
 msgstr ""
 
+#. +> trunk6 stable6
+#: debug_console.cpp:616 debug_console.cpp:634 debug_console.cpp:651
+#, kde-format
+msgid "Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: debug_console.cpp:617 debug_console.cpp:635 debug_console.cpp:652
+#, kde-format
+msgid "Mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: debug_console.cpp:618
+#, kde-format
+msgid "Is Mode Switch"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:571
+#: debug_console.cpp:629
 #, kde-format
 msgid "Tablet Pad Strip"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:572 debug_console.cpp:586
+#: debug_console.cpp:631 debug_console.cpp:648 debug_console.cpp:665
 #, kde-format
 msgid "Number"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:574 debug_console.cpp:588
+#: debug_console.cpp:633 debug_console.cpp:650
 #, kde-format
 msgid "isFinger"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:585
+#: debug_console.cpp:646
 #, kde-format
 msgid "Tablet Pad Ring"
 msgstr ""
 
 #. +> trunk6 stable6
-#: debug_console.cpp:641
+#: debug_console.cpp:663
+#, kde-format
+msgid "Tablet Pad Dial"
+msgstr ""
+
+#. +> trunk6 stable6
+#: debug_console.cpp:666
+#, kde-format
+msgid "Delta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: debug_console.cpp:719
 #, kde-format
 msgctxt "@label"
 msgid "Effects"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:814
+#: debug_console.cpp:949
 #, fuzzy, kde-format
 #| msgid "Mouse Emulation"
 msgid "No Mouse Buttons"
 msgstr "การจำลองเมาส์"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:818
+#: debug_console.cpp:953
 #, kde-format
 msgctxt "Mouse Button"
 msgid "left"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:821
+#: debug_console.cpp:956
 #, fuzzy, kde-format
 #| msgid "Top-Right"
 msgctxt "Mouse Button"
@@ -982,237 +1053,237 @@ msgid "right"
 msgstr "บนขวา"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:824
+#: debug_console.cpp:959
 #, kde-format
 msgctxt "Mouse Button"
 msgid "middle"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:827
+#: debug_console.cpp:962
 #, kde-format
 msgctxt "Mouse Button"
 msgid "back"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:830
+#: debug_console.cpp:965
 #, kde-format
 msgctxt "Mouse Button"
 msgid "forward"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:833
+#: debug_console.cpp:968
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:836
+#: debug_console.cpp:971
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 2"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:839
+#: debug_console.cpp:974
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 3"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:842
+#: debug_console.cpp:977
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 4"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:845
+#: debug_console.cpp:980
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 5"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:848
+#: debug_console.cpp:983
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 6"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:851
+#: debug_console.cpp:986
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 7"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:854
+#: debug_console.cpp:989
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 8"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:857
+#: debug_console.cpp:992
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 9"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:860
+#: debug_console.cpp:995
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 10"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:863
+#: debug_console.cpp:998
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 11"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:866
+#: debug_console.cpp:1001
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 12"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:869
+#: debug_console.cpp:1004
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 13"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:872
+#: debug_console.cpp:1007
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 14"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:875
+#: debug_console.cpp:1010
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 15"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:878
+#: debug_console.cpp:1013
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 16"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:881
+#: debug_console.cpp:1016
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 17"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:884
+#: debug_console.cpp:1019
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 18"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:887
+#: debug_console.cpp:1022
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 19"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:890
+#: debug_console.cpp:1025
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 20"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:893
+#: debug_console.cpp:1028
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 21"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:896
+#: debug_console.cpp:1031
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 22"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:899
+#: debug_console.cpp:1034
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 23"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:902
+#: debug_console.cpp:1037
 #, kde-format
 msgctxt "Mouse Button"
 msgid "extra 24"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:905
+#: debug_console.cpp:1040
 #, kde-format
 msgctxt "Mouse Button"
 msgid "task"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:1257
+#: debug_console.cpp:1419
 #, fuzzy, kde-format
 #| msgid "Windows"
 msgid "X11 Windows"
 msgstr "หน้าต่างต่าง ๆ"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:1259
+#: debug_console.cpp:1421
 #, kde-format
 msgid "X11 Unmanaged Windows"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:1261
+#: debug_console.cpp:1423
 #, fuzzy, kde-format
 #| msgid "Shade Window"
 msgid "Wayland Windows"
 msgstr "พับเก็บหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:1263
+#: debug_console.cpp:1425
 #, fuzzy, kde-format
 #| msgid "Inactive windows:"
 msgid "Internal Windows"
 msgstr "หน้าต่างที่ไม่ได้ทำงาน:"
 
 #. +> trunk6 stable6
-#: debug_console.cpp:1603 debug_console.cpp:1617
+#: debug_console.cpp:1782
 #, kde-format
 msgctxt "@action:button unload an effect"
 msgid "Unload"
 msgstr ""
 
 #. +> trunk6 stable6
-#: debug_console.cpp:1605 debug_console.cpp:1619
+#: debug_console.cpp:1786
 #, kde-format
 msgctxt "@action:button load an effect"
 msgid "Load"
@@ -1226,24 +1297,31 @@ msgid "Debug Console"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, quitButton)
-#. +> stable6 stable5
-#: debug_console.ui:38
+#. +> stable5
+#: debug_console.ui:32
 #, kde-format
 msgid "Quit Debug Console"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, windows)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:44
+#: debug_console.ui:27
 #, kde-format
 msgid "Windows"
 msgstr "หน้าต่างต่าง ๆ"
 
 #. i18n: ectx: attribute (title), widget (QWidget, input)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:58
+#: debug_console.ui:41
 #, kde-format
 msgid "Input Events"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, inputDevices)
+#. +> trunk6 stable6 stable5
+#: debug_console.ui:58
+#, kde-format
+msgid "Input Devices"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, surfaces)
@@ -1253,107 +1331,100 @@ msgstr ""
 msgid "Surfaces"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, inputDevices)
-#. +> trunk6 stable6 stable5
-#: debug_console.ui:75
-#, kde-format
-msgid "Input Devices"
-msgstr ""
-
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:85
+#: debug_console.ui:68
 #, kde-format
 msgid "OpenGL"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, noOpenGLLabel)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:91
+#: debug_console.ui:74
 #, kde-format
 msgid "No OpenGL compositor running"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, driverInfoBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:119
+#: debug_console.ui:102
 #, kde-format
 msgid "OpenGL (ES) driver information"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:125
+#: debug_console.ui:108
 #, kde-format
 msgid "Vendor:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:132
+#: debug_console.ui:115
 #, kde-format
 msgid "Renderer:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:139
+#: debug_console.ui:122
 #, kde-format
 msgid "Version:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:146
+#: debug_console.ui:129
 #, kde-format
 msgid "Shading Language Version:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:153
+#: debug_console.ui:136
 #, kde-format
 msgid "Driver:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:160
+#: debug_console.ui:143
 #, kde-format
 msgid "GPU class:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:167
+#: debug_console.ui:150
 #, kde-format
 msgid "OpenGL Version:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:174
+#: debug_console.ui:157
 #, kde-format
 msgid "GLSL Version:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, platformExtensionsBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:240
+#: debug_console.ui:223
 #, kde-format
 msgid "Platform Extensions"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, glExtensionsBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:256
+#: debug_console.ui:239
 #, kde-format
 msgid "OpenGL (ES) Extensions"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, keyboard)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:277
+#: debug_console.ui:260
 #, fuzzy, kde-format
 #| msgid "Next Layout"
 msgid "Keyboard"
@@ -1361,7 +1432,7 @@ msgstr "รูปแบบการจัดเรียงถัดไป"
 
 #. i18n: ectx: property (title), widget (QGroupBox, layoutBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:304
+#: debug_console.ui:287
 #, fuzzy, kde-format
 #| msgid "Next Layout"
 msgid "Keymap Layouts"
@@ -1369,7 +1440,7 @@ msgstr "รูปแบบการจัดเรียงถัดไป"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:326
+#: debug_console.ui:309
 #, fuzzy, kde-format
 #| msgid "Configur&e Window Behavior..."
 msgid "Current Layout:"
@@ -1377,28 +1448,28 @@ msgstr "ปรับแต่งพฤ&ติกรรมของหน้า�
 
 #. i18n: ectx: property (title), widget (QGroupBox, modifiersBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:345
+#: debug_console.ui:328
 #, kde-format
 msgid "Modifiers"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, activeModifiersBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:361
+#: debug_console.ui:344
 #, kde-format
 msgid "Active Modifiers"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, ledsBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:377
+#: debug_console.ui:360
 #, kde-format
 msgid "LEDs"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, activeLedsBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:393
+#: debug_console.ui:376
 #, kde-format
 msgid "Active LEDs"
 msgstr ""
@@ -1406,14 +1477,14 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, clipboard)
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:414 debug_console.ui:434
+#: debug_console.ui:397 debug_console.ui:417
 #, kde-format
 msgid "Clipboard"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:480
+#: debug_console.ui:463
 #, kde-format
 msgid "Primary Selection"
 msgstr ""
@@ -1431,115 +1502,103 @@ msgid "Wait Longer"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:159
+#: helpers/killer/killer.cpp:125
 #, fuzzy, kde-format
 #| msgid "KDE window manager"
 msgid "Window Manager"
 msgstr "ตัวจัดการหน้าต่างของ KDE"
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:164
+#: helpers/killer/killer.cpp:130
 #, kde-format
 msgid "PID of the application to terminate"
 msgstr "เลขโพรเซส (PID) ของโปรแกรมที่จะสั่งให้จบการทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:164
+#: helpers/killer/killer.cpp:130
 #, kde-format
 msgid "pid"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:166
+#: helpers/killer/killer.cpp:132
 #, kde-format
 msgid "Hostname on which the application is running"
 msgstr "ชื่อของเครื่องที่โปรแกรมกำลังทำงานอยู่"
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:166
+#: helpers/killer/killer.cpp:132
 #, kde-format
 msgid "hostname"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:168
+#: helpers/killer/killer.cpp:134
 #, kde-format
 msgid "Caption of the window to be terminated"
 msgstr "หัวเรื่องหน้าต่างที่จะสั่งให้จบการทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:168
+#: helpers/killer/killer.cpp:134
 #, kde-format
 msgid "caption"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:170
+#: helpers/killer/killer.cpp:136
 #, kde-format
 msgid "Name of the application to be terminated"
 msgstr "ชื่อของโปรแกรมที่จะสั่งให้จบการทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:170
+#: helpers/killer/killer.cpp:136
 #, kde-format
 msgid "name"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:172
+#: helpers/killer/killer.cpp:138
 #, kde-format
 msgid "ID of resource belonging to the application"
 msgstr "หมายเลข (ID) ของทรัพยากรที่เป็นของโปรแกรม"
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:172
+#: helpers/killer/killer.cpp:138
 #, kde-format
 msgid "id"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:174
+#: helpers/killer/killer.cpp:140
 #, kde-format
 msgid "Time of user action causing termination"
 msgstr "เวลาของการกระทำของผู้ใช้เนื่องจากการฆ่าโพรเซส"
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:174
+#: helpers/killer/killer.cpp:140
 #, kde-format
 msgid "time"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:176
+#: helpers/killer/killer.cpp:142
 #, kde-format
 msgid "KWin helper utility"
 msgstr "เครื่องมือช่วยทำงานของ KWin"
 
 #. +> trunk6 stable6 stable5
-#: helpers/killer/killer.cpp:212
+#: helpers/killer/killer.cpp:170
 #, kde-format
 msgid "This helper utility is not supposed to be called directly."
 msgstr "ไม่รองรับการเรียกใช้เครื่องมือช่วยทำงานนี้โดยตรงได้"
 
 #. +> trunk6 stable6
-#: helpers/killer/killer.cpp:234
+#: helpers/killer/killer.cpp:194
 #, kde-kuit-format
 msgctxt "@info"
-msgid "<para><application>%1</application> is not responding. Do you want to terminate this application?</para>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: helpers/killer/killer.cpp:236
-#, kde-kuit-format
-msgctxt "@info \"window title\" of application name is not responding."
-msgid "<para>\"%1\" of <application>%2</application> is not responding. Do you want to terminate this application?</para>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: helpers/killer/killer.cpp:239
-#, kde-kuit-format
-msgctxt "@info"
-msgid "<para><emphasis strong='true'>Terminating this application will close all of its windows. Any unsaved data will be lost.</emphasis></para>"
+msgid ""
+"<para><application>%1</application> is not responding. Do you want to terminate this application?</para>"
+"<para><emphasis strong='true'>Terminating this application will close all of its windows. Any unsaved data will be lost.</emphasis></para>"
 msgstr ""
 
 #. +> stable5
@@ -1552,7 +1611,16 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: helpers/killer/killer.cpp:241
+#: helpers/killer/killer.cpp:198
+#, kde-kuit-format
+msgctxt "@info \"window title\" of application name is not responding."
+msgid ""
+"<para>\"%1\" of <application>%2</application> is not responding. Do you want to terminate this application?</para>"
+"<para><emphasis strong='true'>Terminating this application will close all of its windows. Any unsaved data will be lost.</emphasis></para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: helpers/killer/killer.cpp:202
 #, fuzzy, kde-format
 #| msgid "Terminate"
 msgctxt "@action:button Terminate app"
@@ -1560,28 +1628,28 @@ msgid "&Terminate %1"
 msgstr "บังคับจบการทำงาน"
 
 #. +> trunk6 stable6
-#: helpers/killer/killer.cpp:242
+#: helpers/killer/killer.cpp:203
 #, kde-format
 msgctxt "@action:button Wait for frozen app to maybe respond again"
 msgid "&Wait Longer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: helpers/killer/killer.cpp:250
+#: helpers/killer/killer.cpp:212
 #, kde-format
 msgctxt "@title:window"
 msgid "Not Responding"
 msgstr ""
 
 #. +> trunk6 stable6
-#: helpers/killer/killer.cpp:266
+#: helpers/killer/killer.cpp:228
 #, kde-format
 msgctxt "@info"
 msgid "Process ID: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: helpers/killer/killer.cpp:268
+#: helpers/killer/killer.cpp:230
 #, kde-format
 msgctxt "@info"
 msgid "Host name: %1"
@@ -1609,7 +1677,7 @@ msgid "<para>You tried to close window \"%1\" from application \"%2\" (Process I
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: keyboard_layout.cpp:45 keyboard_layout.cpp:55 keyboard_layout.cpp:137
+#: keyboard_layout.cpp:46 keyboard_layout.cpp:56 keyboard_layout.cpp:140
 #, fuzzy, kde-format
 #| msgid "Next Layout"
 msgid "Keyboard Layout Switcher"
@@ -1624,84 +1692,80 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:175 plugins/invert/invert_config.cpp:35
-#: plugins/magnifier/magnifier_config.cpp:46
-#: plugins/mouseclick/mouseclick_config.cpp:40
+#: main.cpp:169 plugins/mouseclick/mouseclick_config.cpp:40
 #: plugins/mousemark/mousemark_config.cpp:43
 #: plugins/overview/kcm/overvieweffectkcm.cpp:35
-#: plugins/showpaint/showpaint_config.cpp:32
 #: plugins/thumbnailaside/thumbnailaside_config.cpp:45
 #: plugins/tileseditor/kcm/tileseditoreffectkcm.cpp:31
 #: plugins/trackmouse/trackmouse_config.cpp:44
 #: plugins/windowview/kcm/windowvieweffectkcm.cpp:36
-#: plugins/zoom/zoom_config.cpp:145
 #, kde-format
 msgid "KWin"
 msgstr "KWin"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:177 main.cpp:201
+#: main.cpp:171 main.cpp:195
 #, kde-format
 msgid "KDE window manager"
 msgstr "ตัวจัดการหน้าต่างของ KDE"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:179
+#: main.cpp:173
 #, fuzzy, kde-format
 #| msgid "(c) 1999-2008, The KDE Developers"
 msgid "(c) 1999-2019, The KDE Developers"
 msgstr "สงวนลิขสิทธิ์ (c) 1999-2008, กลุ่มผู้พัฒนา KDE"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:181
+#: main.cpp:175
 #, kde-format
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:182
+#: main.cpp:176
 #, kde-format
 msgid "Cristian Tibirna"
 msgstr "Cristian Tibirna"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:183
+#: main.cpp:177
 #, kde-format
 msgid "Daniel M. Duley"
 msgstr "Daniel M. Duley"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:184
+#: main.cpp:178
 #, kde-format
 msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:185
+#: main.cpp:179
 #, kde-format
 msgid "Martin Flöser"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:186
+#: main.cpp:180
 #, kde-format
 msgid "David Edmundson"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:187
+#: main.cpp:181
 #, kde-format
 msgid "Roman Gilg"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:188
+#: main.cpp:182
 #, kde-format
 msgid "Vlad Zahorodnii"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:189
+#: main.cpp:183
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Border size:"
 #| msgid "Very Huge"
@@ -1709,151 +1773,157 @@ msgid "Xaver Hugl"
 msgstr "ใหญ่มหึมามาก"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:198
+#: main.cpp:192
 #, kde-format
 msgid "Disable configuration options"
 msgstr "ปิดการใช้ตัวเลือกการปรับแต่ง"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:199
+#: main.cpp:193
 #, kde-format
 msgid "Indicate that KWin has recently crashed n times"
 msgstr "แสดงให้ทราบเมื่อ KWin ได้ทำงานขัดข้องไป n ครั้ง"
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:296
+#: main_wayland.cpp:298
 #, kde-format
 msgid "Start a rootless Xwayland server."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:299
+#: main_wayland.cpp:301
 #, kde-format
 msgid "Name of the Wayland socket to listen on. If not set \"wayland-0\" is used."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:303
+#: main_wayland.cpp:305
 #, kde-format
 msgid "The X11 Display to use in windowed mode on platform X11."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:307
+#: main_wayland.cpp:309
 #, kde-format
 msgid "The Wayland Display to use in windowed mode on platform Wayland."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:309
+#: main_wayland.cpp:311
 #, kde-format
 msgid "Render to a virtual framebuffer."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:311
+#: main_wayland.cpp:313
 #, kde-format
 msgid "The width for windowed mode. Default width is 1024."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:315
+#: main_wayland.cpp:317
 #, kde-format
 msgid "The height for windowed mode. Default height is 768."
 msgstr ""
 
+#. +> trunk6 stable6
+#: main_wayland.cpp:322
+#, kde-format
+msgid "Whether or not to make windowed mode fullscreen"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:320
+#: main_wayland.cpp:326
 #, kde-format
 msgid "The scale for windowed mode. Default value is 1."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:325
+#: main_wayland.cpp:331
 #, kde-format
 msgid "The number of windows to open as outputs in windowed mode. Default value is 1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:330
+#: main_wayland.cpp:336
 #, kde-format
 msgid "Wayland socket to use for incoming connections. This can be combined with --socket to name the socket"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:334
+#: main_wayland.cpp:340
 #, kde-format
 msgid "XWayland socket to use for Xwayland's incoming connections. This can be set multiple times"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:338
+#: main_wayland.cpp:344
 #, kde-format
 msgid "Name of the xwayland display that has been pre-set up"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:342
+#: main_wayland.cpp:348
 #, kde-format
 msgid "Name of the xauthority file "
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:346
+#: main_wayland.cpp:352
 #, kde-format
 msgid "Exits this instance so it can be restarted by kwin_wayland_wrapper."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:348
+#: main_wayland.cpp:354
 #, kde-format
 msgid "Render through drm node."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:349
+#: main_wayland.cpp:355
 #, kde-format
 msgid "Extract locale information from locale1 rather than the user's configuration"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:375
+#: main_wayland.cpp:382
 #, kde-format
 msgid "Input method that KWin starts."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:381
+#: main_wayland.cpp:388
 #, kde-format
 msgid "Starts the session in locked mode."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:385
+#: main_wayland.cpp:392
 #, kde-format
 msgid "Starts the session without lock screen support."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:390
+#: main_wayland.cpp:397
 #, kde-format
 msgid "Starts the session without global shortcuts support."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:395
+#: main_wayland.cpp:402
 #, kde-format
 msgid "Disable KActivities integration."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:400
+#: main_wayland.cpp:407
 #, kde-format
 msgid "Exit after the session application, which is started by KWin, closed."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:405
+#: main_wayland.cpp:412
 #, kde-format
 msgid "Applications to start once Wayland and Xwayland server are started"
 msgstr ""
@@ -1869,7 +1939,7 @@ msgstr "ความเ&ข้ม:"
 #. i18n: ectx: property (text), widget (QLabel, labelConstantBlurLight)
 #. i18n: ectx: property (text), widget (QLabel, labelConstantNoiseLight)
 #. +> trunk6 stable6
-#: plugins/blur/blur_config.ui:42 plugins/blur/blur_config.ui:108
+#: plugins/blur/blur_config.ui:53 plugins/blur/blur_config.ui:107
 #, fuzzy, kde-format
 #| msgid "Top-Right"
 msgid "Light"
@@ -1877,22 +1947,41 @@ msgstr "บนขวา"
 
 #. i18n: ectx: property (text), widget (QLabel, labelConstantBlurStrong)
 #. i18n: ectx: property (text), widget (QLabel, labelConstantNoiseStrong)
+#. i18n: ectx: property (text), widget (QLabel, labelSaturationNone)
 #. +> trunk6 stable6
-#: plugins/blur/blur_config.ui:74 plugins/blur/blur_config.ui:137
+#: plugins/blur/blur_config.ui:60 plugins/blur/blur_config.ui:114
+#: plugins/blur/blur_config.ui:168
 #, kde-format
 msgid "Strong"
 msgstr "แรง"
 
 #. i18n: ectx: property (text), widget (QLabel, labelConstantNoiseDescription)
 #. +> trunk6 stable6
-#: plugins/blur/blur_config.ui:83
+#: plugins/blur/blur_config.ui:74
 #, fuzzy, kde-format
 #| msgid "&Strength:"
 msgid "Noise strength:"
 msgstr "ความเ&ข้ม:"
 
+#. i18n: ectx: property (text), widget (QLabel, labelSaturation)
+#. +> trunk6
+#: plugins/blur/blur_config.ui:128
+#, fuzzy, kde-format
+#| msgid "Duration"
+msgid "Saturation:"
+msgstr "ช่วงเวลา"
+
+#. i18n: ectx: property (text), widget (QLabel, ignoreLabel)
+#. i18n: ectx: property (text), widget (QLabel, labelSaturationStrong)
 #. +> trunk6 stable6
-#: plugins/colorpicker/colorpicker.cpp:109
+#: plugins/blur/blur_config.ui:161
+#: plugins/videowall/package/contents/ui/config.ui:73
+#, kde-format
+msgid "None"
+msgstr "ไม่มี"
+
+#. +> trunk6 stable6
+#: plugins/colorpicker/colorpicker.cpp:153
 #, kde-format
 msgid ""
 "Select a position for color picking with left click or enter.\n"
@@ -1909,14 +1998,14 @@ msgstr "ความเ&ข้ม:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_Dim)
 #. +> trunk6 stable6
-#: plugins/diminactive/diminactive_config.ui:40
+#: plugins/diminactive/diminactive_config.ui:43
 #, kde-format
 msgid "Dim:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimPanels)
 #. +> trunk6 stable6
-#: plugins/diminactive/diminactive_config.ui:47
+#: plugins/diminactive/diminactive_config.ui:50
 #, fuzzy, kde-format
 #| msgid "Do not animate panels"
 msgid "Docks and panels"
@@ -1924,7 +2013,7 @@ msgstr "ไม่ต้องใช้การเคลื่อนไหวก
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimDesktop)
 #. +> trunk6 stable6
-#: plugins/diminactive/diminactive_config.ui:54
+#: plugins/diminactive/diminactive_config.ui:57
 #, fuzzy, kde-format
 #| msgid "&All Desktops"
 msgid "Desktop"
@@ -1932,7 +2021,7 @@ msgstr "ทุ&กพื้นที่ทำงาน"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimKeepAbove)
 #. +> trunk6 stable6
-#: plugins/diminactive/diminactive_config.ui:61
+#: plugins/diminactive/diminactive_config.ui:64
 #, fuzzy, kde-format
 #| msgid "Keep above others"
 msgid "Keep above windows"
@@ -1940,7 +2029,7 @@ msgstr "ให้อยู่เหนือหน้าต่างอื่น
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimByGroup)
 #. +> trunk6 stable6
-#: plugins/diminactive/diminactive_config.ui:68
+#: plugins/diminactive/diminactive_config.ui:71
 #, fuzzy, kde-format
 #| msgid "Windows"
 msgid "By window group"
@@ -1948,7 +2037,7 @@ msgstr "หน้าต่างต่าง ๆ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimFullScreen)
 #. +> trunk6 stable6
-#: plugins/diminactive/diminactive_config.ui:75
+#: plugins/diminactive/diminactive_config.ui:78
 #, fuzzy, kde-format
 #| msgid "&Fullscreen"
 msgid "Fullscreen windows"
@@ -2108,19 +2197,19 @@ msgid "Hide cursor on typing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/invert/invert.cpp:43 plugins/invert/invert_config.cpp:38
+#: plugins/invert/invert.cpp:44
 #, kde-format
 msgid "Toggle Invert Effect"
 msgstr "เปิด/ปิด ลูกเล่นกลับค่าสี"
 
 #. +> trunk6 stable6
-#: plugins/invert/invert.cpp:50 plugins/invert/invert_config.cpp:44
+#: plugins/invert/invert.cpp:52
 #, kde-format
 msgid "Toggle Invert Effect on Window"
 msgstr "เปิด/ปิด ลูกเล่นกลับค่าสีบนหน้าต่าง"
 
 #. +> trunk6 stable6
-#: plugins/invert/invert.cpp:57
+#: plugins/invert/invert.cpp:59
 #, fuzzy, kde-format
 #| msgid "Invert cursor keys"
 msgid "Invert Screen Colors"
@@ -2321,56 +2410,56 @@ msgid "desktop"
 msgstr "ทุ&กพื้นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: plugins/krunner-integration/windowsrunnerinterface.cpp:260
+#: plugins/krunner-integration/windowsrunnerinterface.cpp:259
 #, fuzzy, kde-format
 #| msgid "Switch to Desktop 1"
 msgid "Switch to desktop %1"
 msgstr "สลับไปยังพื้นที่ทำงาน 1"
 
 #. +> trunk6 stable6 stable5
-#: plugins/krunner-integration/windowsrunnerinterface.cpp:299
+#: plugins/krunner-integration/windowsrunnerinterface.cpp:298
 #, kde-format
 msgid "Close running window on %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugins/krunner-integration/windowsrunnerinterface.cpp:302
+#: plugins/krunner-integration/windowsrunnerinterface.cpp:301
 #, kde-format
 msgid "(Un)minimize running window on %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugins/krunner-integration/windowsrunnerinterface.cpp:305
+#: plugins/krunner-integration/windowsrunnerinterface.cpp:304
 #, kde-format
 msgid "Maximize/restore running window on %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugins/krunner-integration/windowsrunnerinterface.cpp:308
+#: plugins/krunner-integration/windowsrunnerinterface.cpp:307
 #, kde-format
 msgid "Toggle fullscreen for running window on %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugins/krunner-integration/windowsrunnerinterface.cpp:311
+#: plugins/krunner-integration/windowsrunnerinterface.cpp:310
 #, kde-format
 msgid "(Un)shade running window on %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugins/krunner-integration/windowsrunnerinterface.cpp:314
+#: plugins/krunner-integration/windowsrunnerinterface.cpp:313
 #, kde-format
 msgid "Toggle keep above for running window on %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugins/krunner-integration/windowsrunnerinterface.cpp:317
+#: plugins/krunner-integration/windowsrunnerinterface.cpp:316
 #, kde-format
 msgid "Toggle keep below running window on %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugins/krunner-integration/windowsrunnerinterface.cpp:321
+#: plugins/krunner-integration/windowsrunnerinterface.cpp:320
 #, fuzzy, kde-format
 #| msgid "Activate Window (%1)"
 msgid "Activate running window on %1"
@@ -2390,37 +2479,6 @@ msgstr ""
 msgctxt "Duration of rotation"
 msgid "Default"
 msgstr "ค่าปริยาย"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupSize)
-#. +> trunk6 stable6
-#: plugins/magnifier/magnifier_config.ui:17
-#, kde-format
-msgid "Size"
-msgstr "ขนาด"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. +> trunk6 stable6
-#: plugins/magnifier/magnifier_config.ui:23
-#, kde-format
-msgid "&Width:"
-msgstr "ความ&กว้าง:"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Width)
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Height)
-#. +> trunk6 stable6
-#: plugins/magnifier/magnifier_config.ui:42
-#: plugins/magnifier/magnifier_config.ui:74
-#, kde-format
-msgid " px"
-msgstr " พิกเซล"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. +> trunk6 stable6
-#: plugins/magnifier/magnifier_config.ui:55
-#, fuzzy, kde-format
-#| msgid "Top-Right"
-msgid "&Height:"
-msgstr "บนขวา"
 
 #. +> trunk6 stable6
 #: plugins/mouseclick/mouseclick.cpp:39
@@ -2691,28 +2749,28 @@ msgid "Arrow draw modifier keys:"
 msgstr "ปุ่มพิมพ์ที่ใช้ร่วม"
 
 #. +> trunk6 stable6
-#: plugins/nightlight/nightlightmanager.cpp:59
+#: plugins/nightlight/nightlightmanager.cpp:55
 #, kde-format
 msgctxt "Night Light was temporarily disabled"
 msgid "Night Light Suspended"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/nightlight/nightlightmanager.cpp:60
+#: plugins/nightlight/nightlightmanager.cpp:56
 #, kde-format
 msgctxt "Night Light was reenabled from temporary suspension"
 msgid "Night Light Resumed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/nightlight/nightlightmanager.cpp:81
+#: plugins/nightlight/nightlightmanager.cpp:77
 #, kde-format
 msgctxt "Temporarily disable/reenable Night Light"
 msgid "Suspend/Resume Night Light"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugins/nightlight/nightlightmanager.cpp:417
+#: plugins/nightlight/nightlightmanager.cpp:393
 #, kde-format
 msgid "Color Temperature Preview"
 msgstr ""
@@ -2763,7 +2821,7 @@ msgstr "เปิด/ปิด ลูกเล่นกลับค่าสี"
 msgid "Ignore minimized windows:"
 msgstr "หน้าต่างที่ถูกย้ายหรือปรับขนาด:"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_OrganizedGrid)
 #. +> trunk6 stable6
 #: plugins/overview/kcm/overvieweffectkcm.ui:36
 #, kde-format
@@ -2793,7 +2851,7 @@ msgid "Toggle Overview"
 msgstr "เปิด/ปิด ลูกเล่นกลับค่าสี"
 
 #. +> trunk6 stable6
-#: plugins/overview/overvieweffect.cpp:151
+#: plugins/overview/overvieweffect.cpp:152
 #, fuzzy, kde-format
 #| msgid "Toggle Invert Effect"
 msgctxt "@action Grid view is the name of a Kwin effect"
@@ -2815,7 +2873,7 @@ msgid "Add Virtual Desktop"
 msgstr "แสดงพื้นที่ทำงาน"
 
 #. +> trunk6 stable6
-#: plugins/overview/qml/main.qml:378
+#: plugins/overview/qml/Main.qml:378
 #, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgctxt "@info:placeholder"
@@ -2823,7 +2881,7 @@ msgid "No other Virtual Desktops to show"
 msgstr "ไปยังพื้&นที่ทำงาน"
 
 #. +> trunk6 stable6
-#: plugins/overview/qml/main.qml:384
+#: plugins/overview/qml/Main.qml:384
 #, fuzzy, kde-format
 #| msgid "Show Desktop"
 msgctxt "@action:button"
@@ -2831,7 +2889,7 @@ msgid "Add Virtual Desktop"
 msgstr "แสดงพื้นที่ทำงาน"
 
 #. +> trunk6 stable6
-#: plugins/overview/qml/main.qml:391
+#: plugins/overview/qml/Main.qml:391
 #, fuzzy, kde-format
 #| msgid "Configur&e Window Behavior..."
 msgctxt "@action:button"
@@ -2839,7 +2897,7 @@ msgid "Configure Virtual Desktops…"
 msgstr "ปรับแต่งพฤ&ติกรรมของหน้าต่าง..."
 
 #. +> trunk6 stable6
-#: plugins/overview/qml/main.qml:742
+#: plugins/overview/qml/Main.qml:742
 #, fuzzy, kde-format
 #| msgid "Moving windows:"
 msgctxt "@info:placeholder"
@@ -2895,20 +2953,30 @@ msgstr ""
 msgid "Failed to connect PipeWire context"
 msgstr ""
 
+#. +> trunk6
+#: plugins/screencast/screencastmanager.cpp:56
+#: plugins/screencast/screencastmanager.cpp:81
+#: plugins/screencast/screencastmanager.cpp:97
+#: plugins/screencast/screencastmanager.cpp:142
+#, fuzzy, kde-format
+#| msgid "Suspend Compositing"
+msgid "Unsupported compositing type"
+msgstr "ยกเลิกการใช้ Composite ชั่วคราว"
+
 #. +> trunk6 stable6
-#: plugins/screencast/screencastmanager.cpp:45
+#: plugins/screencast/screencastmanager.cpp:62
 #, kde-format
 msgid "Could not find window id %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/screencast/screencastmanager.cpp:82
+#: plugins/screencast/screencastmanager.cpp:109
 #, kde-format
 msgid "Could not find output"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/screencast/screencastmanager.cpp:115
+#: plugins/screencast/screencastmanager.cpp:147
 #, kde-format
 msgid "Invalid region"
 msgstr ""
@@ -2926,7 +2994,7 @@ msgid "Failed to create PipeWire stream"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/screenshot/screenshotdbusinterface2.cpp:525
+#: plugins/screenshot/screenshotdbusinterface2.cpp:413
 #, kde-format
 msgid ""
 "Select window to screen shot with left click or enter.\n"
@@ -2934,7 +3002,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/screenshot/screenshotdbusinterface2.cpp:543
+#: plugins/screenshot/screenshotdbusinterface2.cpp:431
 #, kde-format
 msgid ""
 "Create screen shot with left click or enter.\n"
@@ -2942,7 +3010,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/showcompositing/qml/main.qml:12
+#: plugins/showcompositing/qml/Main.qml:12
 #, fuzzy, kde-format
 #| msgid "Suspend Compositing"
 msgctxt "@label"
@@ -2950,14 +3018,14 @@ msgid "Compositing"
 msgstr "ยกเลิกการใช้ Composite ชั่วคราว"
 
 #. +> trunk6 stable6
-#: plugins/showfps/qml/main-fallback.qml:26 plugins/showfps/qml/main.qml:192
+#: plugins/showfps/qml/Fallback.qml:26 plugins/showfps/qml/Main.qml:192
 #, kde-format
 msgctxt "@label"
 msgid "This effect is not a benchmark"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/showfps/qml/main.qml:110
+#: plugins/showfps/qml/Main.qml:110
 #, fuzzy, kde-format
 #| msgid "Toggle Orientation"
 msgctxt "@label"
@@ -2965,14 +3033,14 @@ msgid "Paint Duration"
 msgstr "สลับทิศทางการจัดวาง"
 
 #. +> trunk6 stable6
-#: plugins/showfps/qml/main.qml:162
+#: plugins/showfps/qml/Main.qml:162
 #, kde-format
 msgctxt "@label"
 msgid "Paint Amount"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/showfps/qml/main.qml:175
+#: plugins/showfps/qml/Main.qml:175
 #, fuzzy, kde-format
 #| msgid "Configur&e Window Behavior..."
 msgctxt "@label"
@@ -2980,19 +3048,12 @@ msgid "Current FPS"
 msgstr "ปรับแต่งพฤ&ติกรรมของหน้าต่าง..."
 
 #. +> trunk6 stable6
-#: plugins/showfps/qml/main.qml:184
+#: plugins/showfps/qml/Main.qml:184
 #, fuzzy, kde-format
 #| msgid "Maximum &width:"
 msgctxt "@label"
 msgid "Maximum FPS"
 msgstr "ความ&กว้างสูงสุด:"
-
-#. +> trunk6 stable6
-#: plugins/showpaint/showpaint.cpp:42 plugins/showpaint/showpaint_config.cpp:37
-#, fuzzy, kde-format
-#| msgid "Toggle Floating"
-msgid "Toggle Show Paint"
-msgstr "เปิด/ปิดการลอยของหน้าต่าง"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_Gaps)
 #. +> trunk6 stable6
@@ -3026,27 +3087,27 @@ msgid "Slide desktop background"
 msgstr "เลื่อนเมื่อทำการจัดกลุ่ม"
 
 #. +> trunk6 stable6
-#: plugins/stickykeys/stickykeys.cpp:24
+#: plugins/stickykeys/stickykeys.cpp:26
 msgid "The Shift key has been locked and is now active for all of the following keypresses."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/stickykeys/stickykeys.cpp:25
+#: plugins/stickykeys/stickykeys.cpp:27
 msgid "The Control key has been locked and is now active for all of the following keypresses."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/stickykeys/stickykeys.cpp:26
+#: plugins/stickykeys/stickykeys.cpp:28
 msgid "The Alt key has been locked and is now active for all of the following keypresses."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/stickykeys/stickykeys.cpp:27
+#: plugins/stickykeys/stickykeys.cpp:29
 msgid "The Meta key has been locked and is now active for all of the following keypresses."
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/stickykeys/stickykeys.cpp:28
+#: plugins/stickykeys/stickykeys.cpp:30
 msgid "The AltGr key has been locked and is now active for all of the following keypresses."
 msgstr ""
 
@@ -3106,19 +3167,19 @@ msgid "Toggle Tiles Editor"
 msgstr "สลับการปูหน้าต่าง"
 
 #. +> trunk6 stable6
-#: plugins/tileseditor/qml/main.qml:153
+#: plugins/tileseditor/qml/Main.qml:153
 #, kde-format
 msgid "Padding:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tileseditor/qml/main.qml:163
+#: plugins/tileseditor/qml/Main.qml:163
 #, kde-format
 msgid "Load Layout…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/tileseditor/qml/main.qml:270
+#: plugins/tileseditor/qml/Main.qml:270
 #, fuzzy, kde-format
 #| msgid "&Close"
 msgid "Close"
@@ -3324,13 +3385,6 @@ msgstr ""
 msgid "Ignore"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, ignoreLabel)
-#. +> trunk6 stable6
-#: plugins/videowall/package/contents/ui/config.ui:73
-#, kde-format
-msgid "None"
-msgstr "ไม่มี"
-
 #. +> trunk6 stable6
 #: plugins/windowview/kcm/windowvieweffectkcm.cpp:42
 #: plugins/windowview/windowvieweffect.cpp:48
@@ -3370,20 +3424,20 @@ msgid "Ignore &minimized windows"
 msgstr "ย่อหน้าต่างเล็กสุด"
 
 #. +> trunk6 stable6
-#: plugins/windowview/qml/main.qml:107
+#: plugins/windowview/qml/Main.qml:107
 #, kde-format
 msgid "No Matches"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/windowview/qml/main.qml:107
+#: plugins/windowview/qml/Main.qml:107
 #, fuzzy, kde-format
 #| msgid "Windows"
 msgid "No Windows"
 msgstr "หน้าต่างต่าง ๆ"
 
 #. +> trunk6 stable6
-#: plugins/windowview/qml/main.qml:122
+#: plugins/windowview/qml/Main.qml:122
 #, fuzzy, kde-format
 #| msgid "Inactive windows:"
 msgid "Filter windows…"
@@ -3463,215 +3517,44 @@ msgid "More"
 msgstr "มาก"
 
 #. +> trunk6 stable6
-#: plugins/zoom/zoom.cpp:60
+#: plugins/zoom/zoom.cpp:88
 #, fuzzy, kde-format
 #| msgid "Window One Desktop to the Left"
 msgid "Move Zoomed Area to Left"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงานด้านซ้ายหนึ่งระดับ"
 
 #. +> trunk6 stable6
-#: plugins/zoom/zoom.cpp:67
+#: plugins/zoom/zoom.cpp:95
 #, fuzzy, kde-format
 #| msgid "Window One Desktop to the Right"
 msgid "Move Zoomed Area to Right"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงานด้านขวาหนึ่งระดับ"
 
 #. +> trunk6 stable6
-#: plugins/zoom/zoom.cpp:74
+#: plugins/zoom/zoom.cpp:102
 #, kde-format
 msgid "Move Zoomed Area Upwards"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/zoom/zoom.cpp:81
+#: plugins/zoom/zoom.cpp:109
 #, kde-format
 msgid "Move Zoomed Area Downwards"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/zoom/zoom.cpp:89 plugins/zoom/zoom_config.cpp:195
+#: plugins/zoom/zoom.cpp:117
 #, fuzzy, kde-format
 #| msgid "Mouse Emulation"
 msgid "Move Mouse to Focus"
 msgstr "การจำลองเมาส์"
 
 #. +> trunk6 stable6
-#: plugins/zoom/zoom.cpp:96 plugins/zoom/zoom_config.cpp:202
+#: plugins/zoom/zoom.cpp:124
 #, fuzzy, kde-format
 #| msgid "Move Window to Group"
 msgid "Move Mouse to Center"
 msgstr "ย้ายหน้าต่างไปยังกลุ่ม"
-
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.cpp:167
-#, kde-format
-msgid "Move Left"
-msgstr "ย้ายไปด้านซ้าย"
-
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.cpp:174
-#, kde-format
-msgid "Move Right"
-msgstr "ย้ายไปด้านขวา"
-
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.cpp:181
-#, kde-format
-msgid "Move Up"
-msgstr "ย้ายขึ้น"
-
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.cpp:188
-#, kde-format
-msgid "Move Down"
-msgstr "ย้ายลง"
-
-#. +> trunk6
-#: plugins/zoom/zoom_config.cpp:210
-#, fuzzy, kde-format
-#| msgid "Modifier keys"
-msgid "Scroll gesture modifier keys:"
-msgstr "ปุ่มพิมพ์ที่ใช้ร่วม"
-
-#. +> trunk6
-#: plugins/zoom/zoom_config.cpp:212
-#, kde-format
-msgid "Scroll while the modifier keys are pressed to zoom"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QLabel, label)
-#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, kcfg_ZoomFactor)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:22 plugins/zoom/zoom_config.ui:35
-#, kde-format
-msgid "On zoom-in and zoom-out change the zoom by the defined zoom-factor."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:25
-#, fuzzy, kde-format
-#| msgid "Zoom Factor:"
-msgid "Zoom factor:"
-msgstr "องค์ประกอบการย่อ/ขยาย:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:57
-#, kde-format
-msgid "Show pixel grid at zoom level:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:70
-#, fuzzy, kde-format
-#| msgid "Mouse Pointer:"
-msgid "Mouse pointer:"
-msgstr "ตัวชี้ของเมาส์:"
-
-#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_MousePointer)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:80
-#, kde-format
-msgid "Visibility of the mouse-pointer."
-msgstr "การมองเห็นได้ของตัวชี้ของเมาส์"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:84
-#, kde-format
-msgid "Scale"
-msgstr "ปรับขนาด"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:89
-#, kde-format
-msgid "Keep"
-msgstr "คงไว้"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:94
-#, kde-format
-msgid "Hide"
-msgstr "ซ่อน"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:102
-#, fuzzy, kde-format
-#| msgid "Mouse Tracking:"
-msgid "Mouse tracking:"
-msgstr "ติดตามตำแหน่งเมาส์:"
-
-#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_MouseTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:112
-#, kde-format
-msgid "Track moving of the mouse."
-msgstr "ติดตามการเคลื่อนที่ของเมาส์"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:116
-#, kde-format
-msgid "Proportional"
-msgstr "แนวนอน"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:121
-#, fuzzy, kde-format
-#| msgid "Center"
-msgid "Centered"
-msgstr "กึ่งกลาง"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:126
-#, kde-format
-msgid "Push"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:131
-#, fuzzy, kde-format
-#| msgid "Tiling Disabled"
-msgid "Disabled"
-msgstr "การปูหน้าต่างถูกปิดการใช้งาน"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableFocusTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:142
-#, kde-format
-msgid "Enable tracking of the focused location. This needs QAccessible to be enabled per application (\"export QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1\")."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableFocusTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:145
-#, fuzzy, kde-format
-#| msgid "Enable Focus Tracking"
-msgid "Enable focus tracking"
-msgstr "เปิดใช้งานการติดตามการได้รับโฟกัส"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableTextCaretTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:152
-#, kde-format
-msgid "Enable tracking of the text cursor. This needs QAccessible to be enabled per application (\"export QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1\")."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableTextCaretTracking)
-#. +> trunk6 stable6
-#: plugins/zoom/zoom_config.ui:155
-#, fuzzy, kde-format
-#| msgid "Enable Focus Tracking"
-msgid "Enable text cursor tracking"
-msgstr "เปิดใช้งานการติดตามการได้รับโฟกัส"
 
 #. i18n: ectx: label, entry (count), group (General)
 #. +> trunk6 stable6 stable5
@@ -3781,9 +3664,25 @@ msgstr ""
 msgid "Machine string match type"
 msgstr ""
 
+#. i18n: ectx: label, entry (tag), group ($(ruleDescriptionOrNumber))
+#. +> trunk6 stable6
+#: rulesettings.kcfg:68
+#, fuzzy, kde-format
+#| msgid "KDE window manager"
+msgid "Window tag"
+msgstr "ตัวจัดการหน้าต่างของ KDE"
+
+#. i18n: ectx: label, entry (tagmatch), group ($(ruleDescriptionOrNumber))
+#. +> trunk6 stable6
+#: rulesettings.kcfg:71
+#, fuzzy, kde-format
+#| msgid "Window to Screen 0"
+msgid "Window tag string match type"
+msgstr "ปรับหน้าต่างไปยังจอภาพ 0"
+
 #. i18n: ectx: label, entry (types), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:68
+#: rulesettings.kcfg:78
 #, kde-format
 msgid "Window types that match"
 msgstr ""
@@ -3798,14 +3697,14 @@ msgstr "ตั้งค่าปุ่มพิมพ์ลัดของหน
 
 #. i18n: ectx: label, entry (placement), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:73
+#: rulesettings.kcfg:83
 #, kde-format
 msgid "Initial placement"
 msgstr ""
 
 #. i18n: ectx: label, entry (placementrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:78
+#: rulesettings.kcfg:88
 #, fuzzy, kde-format
 #| msgid "&Fullscreen"
 msgid "Initial placement rule type"
@@ -3813,7 +3712,7 @@ msgstr "เต็ม&จอภาพ"
 
 #. i18n: ectx: label, entry (position), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:83
+#: rulesettings.kcfg:93
 #, fuzzy, kde-format
 #| msgid "Window Operations Menu"
 msgid "Window position"
@@ -3821,7 +3720,7 @@ msgstr "เมนูปฎิบัติการของหน้าต่า
 
 #. i18n: ectx: label, entry (positionrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:87
+#: rulesettings.kcfg:97
 #, fuzzy, kde-format
 #| msgid "Window to Screen 0"
 msgid "Window position rule type"
@@ -3829,7 +3728,7 @@ msgstr "ปรับหน้าต่างไปยังจอภาพ 0"
 
 #. i18n: ectx: label, entry (size), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:94
+#: rulesettings.kcfg:104
 #, fuzzy, kde-format
 #| msgid "Windows"
 msgid "Window size"
@@ -3837,7 +3736,7 @@ msgstr "หน้าต่างต่าง ๆ"
 
 #. i18n: ectx: label, entry (sizerule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:97
+#: rulesettings.kcfg:107
 #, kde-format
 msgid "Window size rule type"
 msgstr ""
@@ -3851,77 +3750,77 @@ msgstr ""
 
 #. i18n: ectx: label, entry (minsize), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:104
+#: rulesettings.kcfg:114
 #, kde-format
 msgid "Window minimum size"
 msgstr ""
 
 #. i18n: ectx: label, entry (minsizerule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:108
+#: rulesettings.kcfg:118
 #, kde-format
 msgid "Window minimum size rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (maxsize), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:113
+#: rulesettings.kcfg:123
 #, kde-format
 msgid "Window maximum size"
 msgstr ""
 
 #. i18n: ectx: label, entry (maxsizerule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:117
+#: rulesettings.kcfg:127
 #, kde-format
 msgid "Window maximum size rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (opacityactive), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:122
+#: rulesettings.kcfg:132
 #, kde-format
 msgid "Active opacity"
 msgstr ""
 
 #. i18n: ectx: label, entry (opacityactiverule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:128
+#: rulesettings.kcfg:138
 #, kde-format
 msgid "Active opacity rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (opacityinactive), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:133
+#: rulesettings.kcfg:143
 #, kde-format
 msgid "Inactive opacity"
 msgstr ""
 
 #. i18n: ectx: label, entry (opacityinactiverule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:139
+#: rulesettings.kcfg:149
 #, kde-format
 msgid "Inactive opacity rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (ignoregeometry), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:144
+#: rulesettings.kcfg:154
 #, kde-format
 msgid "Ignore requested geometry"
 msgstr ""
 
 #. i18n: ectx: label, entry (ignoregeometryrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:148
+#: rulesettings.kcfg:158
 #, kde-format
 msgid "Ignore requested geometry rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (desktops), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:155
+#: rulesettings.kcfg:165
 #, fuzzy, kde-format
 #| msgid "Switch to Desktop 2"
 msgid "List of Desktop Ids"
@@ -3929,7 +3828,7 @@ msgstr "สลับไปยังพื้นที่ทำงาน 2"
 
 #. i18n: ectx: label, entry (desktopsrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:159
+#: rulesettings.kcfg:169
 #, fuzzy, kde-format
 #| msgid "Desktop Cube"
 msgid "Desktop Ids rule type"
@@ -3937,21 +3836,21 @@ msgstr "พื้นที่ทำงานทรงลูกบาศก์"
 
 #. i18n: ectx: label, entry (screen), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:166
+#: rulesettings.kcfg:176
 #, kde-format
 msgid "Screen number"
 msgstr ""
 
 #. i18n: ectx: label, entry (screenrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:170
+#: rulesettings.kcfg:180
 #, kde-format
 msgid "Screen number rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (activity), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:177
+#: rulesettings.kcfg:187
 #, fuzzy, kde-format
 #| msgid "&All Activities"
 msgid "Activity"
@@ -3959,14 +3858,14 @@ msgstr "กิจกรรม&ทั้งหมด"
 
 #. i18n: ectx: label, entry (activityrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:180
+#: rulesettings.kcfg:190
 #, kde-format
 msgid "Activity rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (maximizevert), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:187
+#: rulesettings.kcfg:197
 #, fuzzy, kde-format
 #| msgid "Maximize Window Vertically"
 msgid "Maximized vertically"
@@ -3974,7 +3873,7 @@ msgstr "ขยายหน้าต่างใหญ่สุดทางแน
 
 #. i18n: ectx: label, entry (maximizevertrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:191
+#: rulesettings.kcfg:201
 #, fuzzy, kde-format
 #| msgid "Maximize Window Vertically"
 msgid "Maximized vertically rule type"
@@ -3982,7 +3881,7 @@ msgstr "ขยายหน้าต่างใหญ่สุดทางแน
 
 #. i18n: ectx: label, entry (maximizehoriz), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:198
+#: rulesettings.kcfg:208
 #, fuzzy, kde-format
 #| msgid "Maximize Window Horizontally"
 msgid "Maximized horizontally"
@@ -3990,7 +3889,7 @@ msgstr "ขยายหน้าต่างใหญ่สุดทางแน
 
 #. i18n: ectx: label, entry (maximizehorizrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:202
+#: rulesettings.kcfg:212
 #, fuzzy, kde-format
 #| msgid "Maximize Window Horizontally"
 msgid "Maximized horizontally rule type"
@@ -3998,7 +3897,7 @@ msgstr "ขยายหน้าต่างใหญ่สุดทางแน
 
 #. i18n: ectx: label, entry (minimize), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:209
+#: rulesettings.kcfg:219
 #, fuzzy, kde-format
 #| msgid "Minimize"
 msgid "Minimized"
@@ -4006,57 +3905,50 @@ msgstr "ย่อหาย"
 
 #. i18n: ectx: label, entry (minimizerule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:213
+#: rulesettings.kcfg:223
 #, kde-format
 msgid "Minimized rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (shade), group ($(ruleDescriptionOrNumber))
-#. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:220
+#. +> stable5
+#: rulesettings.kcfg:227
 #, fuzzy, kde-format
 #| msgid "Shade"
 msgid "Shaded"
 msgstr "พับเก็บ"
 
-#. i18n: ectx: label, entry (shaderule), group ($(ruleDescriptionOrNumber))
-#. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:224
-#, kde-format
-msgid "Shaded rule type"
-msgstr ""
-
 #. i18n: ectx: label, entry (skiptaskbar), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:231
+#: rulesettings.kcfg:230
 #, kde-format
 msgid "Skip taskbar"
 msgstr ""
 
 #. i18n: ectx: label, entry (skiptaskbarrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:235
+#: rulesettings.kcfg:234
 #, kde-format
 msgid "Skip taskbar rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (skippager), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:242
+#: rulesettings.kcfg:241
 #, kde-format
 msgid "Skip pager"
 msgstr ""
 
 #. i18n: ectx: label, entry (skippagerrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:246
+#: rulesettings.kcfg:245
 #, kde-format
 msgid "Skip pager rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (skipswitcher), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:253
+#: rulesettings.kcfg:252
 #, fuzzy, kde-format
 #| msgid "Switch to Window Tab"
 msgid "Skip switcher"
@@ -4064,14 +3956,14 @@ msgstr "สลับไปยังแท็บของหน้าต่าง
 
 #. i18n: ectx: label, entry (skipswitcherrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:257
+#: rulesettings.kcfg:256
 #, kde-format
 msgid "Skip switcher rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (above), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:264
+#: rulesettings.kcfg:263
 #, fuzzy, kde-format
 #| msgid "Keep above others"
 msgid "Keep above"
@@ -4079,7 +3971,7 @@ msgstr "ให้อยู่เหนือหน้าต่างอื่น
 
 #. i18n: ectx: label, entry (aboverule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:268
+#: rulesettings.kcfg:267
 #, fuzzy, kde-format
 #| msgid "Keep above others"
 msgid "Keep above rule type"
@@ -4087,7 +3979,7 @@ msgstr "ให้อยู่เหนือหน้าต่างอื่น
 
 #. i18n: ectx: label, entry (below), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:275
+#: rulesettings.kcfg:274
 #, fuzzy, kde-format
 #| msgid "Keep below others"
 msgid "Keep below"
@@ -4095,7 +3987,7 @@ msgstr "ให้อยู่ใต้หน้าต่างอื่น"
 
 #. i18n: ectx: label, entry (belowrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:279
+#: rulesettings.kcfg:278
 #, fuzzy, kde-format
 #| msgid "Keep below others"
 msgid "Keep below rule type"
@@ -4103,7 +3995,7 @@ msgstr "ให้อยู่ใต้หน้าต่างอื่น"
 
 #. i18n: ectx: label, entry (fullscreen), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:286
+#: rulesettings.kcfg:285
 #, fuzzy, kde-format
 #| msgid "&Fullscreen"
 msgid "Fullscreen"
@@ -4111,7 +4003,7 @@ msgstr "เต็ม&จอภาพ"
 
 #. i18n: ectx: label, entry (fullscreenrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:290
+#: rulesettings.kcfg:289
 #, fuzzy, kde-format
 #| msgid "&Fullscreen"
 msgid "Fullscreen rule type"
@@ -4119,35 +4011,35 @@ msgstr "เต็ม&จอภาพ"
 
 #. i18n: ectx: label, entry (noborder), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:297
+#: rulesettings.kcfg:296
 #, kde-format
 msgid "No titlebar and frame"
 msgstr ""
 
 #. i18n: ectx: label, entry (noborderrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:301
+#: rulesettings.kcfg:300
 #, kde-format
 msgid "No titlebar rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (decocolor), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:308
+#: rulesettings.kcfg:307
 #, kde-format
 msgid "Titlebar color and scheme"
 msgstr ""
 
 #. i18n: ectx: label, entry (decocolorrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:311
+#: rulesettings.kcfg:310
 #, kde-format
 msgid "Titlebar color rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (blockcompositing), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:316
+#: rulesettings.kcfg:315
 #, fuzzy, kde-format
 #| msgid "Suspend Compositing"
 msgid "Block Compositing"
@@ -4155,56 +4047,56 @@ msgstr "ยกเลิกการใช้ Composite ชั่วคราว"
 
 #. i18n: ectx: label, entry (blockcompositingrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:320
+#: rulesettings.kcfg:319
 #, kde-format
 msgid "Block Compositing rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (fsplevel), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:325
+#: rulesettings.kcfg:324
 #, kde-format
 msgid "Focus stealing prevention"
 msgstr ""
 
 #. i18n: ectx: label, entry (fsplevelrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:331
+#: rulesettings.kcfg:330
 #, kde-format
 msgid "Focus stealing prevention rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (fpplevel), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:336
+#: rulesettings.kcfg:335
 #, kde-format
 msgid "Focus protection"
 msgstr ""
 
 #. i18n: ectx: label, entry (fpplevelrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:342
+#: rulesettings.kcfg:341
 #, kde-format
 msgid "Focus protection rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (acceptfocus), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:347
+#: rulesettings.kcfg:346
 #, kde-format
 msgid "Accept Focus"
 msgstr ""
 
 #. i18n: ectx: label, entry (acceptfocusrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:351
+#: rulesettings.kcfg:350
 #, kde-format
 msgid "Accept Focus rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (closeable), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:356
+#: rulesettings.kcfg:355
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Closeable"
@@ -4212,84 +4104,84 @@ msgstr "ปิด"
 
 #. i18n: ectx: label, entry (closeablerule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:360
+#: rulesettings.kcfg:359
 #, kde-format
 msgid "Closeable rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (autogroup), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:365
+#: rulesettings.kcfg:364
 #, kde-format
 msgid "Autogroup with identical"
 msgstr ""
 
 #. i18n: ectx: label, entry (autogrouprule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:369
+#: rulesettings.kcfg:368
 #, kde-format
 msgid "Autogroup with identical rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (autogroupfg), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:374
+#: rulesettings.kcfg:373
 #, kde-format
 msgid "Autogroup in foreground"
 msgstr ""
 
 #. i18n: ectx: label, entry (autogroupfgrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:378
+#: rulesettings.kcfg:377
 #, kde-format
 msgid "Autogroup in foreground rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (autogroupid), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:383
+#: rulesettings.kcfg:382
 #, kde-format
 msgid "Autogroup by ID"
 msgstr ""
 
 #. i18n: ectx: label, entry (autogroupidrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:386
+#: rulesettings.kcfg:385
 #, kde-format
 msgid "Autogroup by ID rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (strictgeometry), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:391
+#: rulesettings.kcfg:390
 #, kde-format
 msgid "Obey geometry restrictions"
 msgstr ""
 
 #. i18n: ectx: label, entry (strictgeometryrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:395
+#: rulesettings.kcfg:394
 #, kde-format
 msgid "Obey geometry restrictions rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (shortcut), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:400
+#: rulesettings.kcfg:399
 #, kde-format
 msgid "Shortcut"
 msgstr "ปุ่มพิมพ์ลัด"
 
 #. i18n: ectx: label, entry (shortcutrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:403
+#: rulesettings.kcfg:402
 #, kde-format
 msgid "Shortcut rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (disableglobalshortcuts), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:410
+#: rulesettings.kcfg:409
 #, fuzzy, kde-format
 #| msgid "Block Global Shortcuts"
 msgid "Ignore global shortcuts"
@@ -4297,14 +4189,14 @@ msgstr "ป้องกันการใช้ปุ่มพิมพ์ลั
 
 #. i18n: ectx: label, entry (disableglobalshortcutsrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:414
+#: rulesettings.kcfg:413
 #, kde-format
 msgid "Ignore global shortcuts rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (desktopfile), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:419
+#: rulesettings.kcfg:418
 #, fuzzy, kde-format
 #| msgid "Desktop Cube"
 msgid "Desktop file name"
@@ -4312,36 +4204,43 @@ msgstr "พื้นที่ทำงานทรงลูกบาศก์"
 
 #. i18n: ectx: label, entry (desktopfilerule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6 stable5
-#: rulesettings.kcfg:422
+#: rulesettings.kcfg:421
 #, kde-format
 msgid "Desktop file name rule type"
 msgstr ""
 
 #. i18n: ectx: label, entry (layer), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6
-#: rulesettings.kcfg:429
+#: rulesettings.kcfg:428
 #, kde-format
 msgid "Layer"
 msgstr ""
 
 #. i18n: ectx: label, entry (layerrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6
-#: rulesettings.kcfg:445
+#: rulesettings.kcfg:444
 #, fuzzy, kde-format
 #| msgid "Keep above others"
 msgid "Layer rule type"
 msgstr "ให้อยู่เหนือหน้าต่างอื่น"
 
+#. i18n: ectx: label, entry (shaderule), group ($(ruleDescriptionOrNumber))
+#. +> stable5
+#: rulesettings.kcfg:231
+#, kde-format
+msgid "Shaded rule type"
+msgstr ""
+
 #. i18n: ectx: label, entry (adaptivesync), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6
-#: rulesettings.kcfg:450
+#: rulesettings.kcfg:449
 #, kde-format
 msgid "AdaptiveSync"
 msgstr ""
 
 #. i18n: ectx: label, entry (adaptivesyncrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6
-#: rulesettings.kcfg:454
+#: rulesettings.kcfg:453
 #, fuzzy, kde-format
 #| msgid "Keep above others"
 msgid "AdaptiveSync rule type"
@@ -4349,14 +4248,14 @@ msgstr "ให้อยู่เหนือหน้าต่างอื่น
 
 #. i18n: ectx: label, entry (tearing), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6
-#: rulesettings.kcfg:459
+#: rulesettings.kcfg:458
 #, kde-format
 msgid "Allow Tearing"
 msgstr ""
 
 #. i18n: ectx: label, entry (tearingrule), group ($(ruleDescriptionOrNumber))
 #. +> trunk6 stable6
-#: rulesettings.kcfg:463
+#: rulesettings.kcfg:462
 #, fuzzy, kde-format
 #| msgid "Keep above others"
 msgid "Tearing rule type"
@@ -4378,21 +4277,21 @@ msgid "..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: sm.cpp:479
+#: sm.cpp:421
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel Logout"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sm.cpp:480
+#: sm.cpp:422
 #, kde-format
 msgctxt "@action::button"
 msgid "Log Out Anyway"
 msgstr ""
 
 #. +> trunk6 stable6
-#: sm.cpp:526
+#: sm.cpp:468
 #, kde-format
 msgid ""
 "The following applications did not close:\n"
@@ -4400,12 +4299,13 @@ msgid ""
 "Logging out anyway in 2 minutes."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: tabbox/clientmodel.cpp:58
-#, kde-format
-msgctxt "Special entry in alt+tab list for minimizing all windows"
-msgid "Show Desktop"
-msgstr "แสดงพื้นที่ทำงาน"
+#, fuzzy, kde-format
+#| msgid "To &Desktop"
+msgctxt "Special entry in alt+tab list for temporarily hiding all windows"
+msgid "Peek at Desktop"
+msgstr "ไปยังพื้&นที่ทำงาน"
 
 #. +> trunk6 stable6
 #: tabbox/switchers/thumbnail_grid/contents/ui/main.qml:207
@@ -4416,7 +4316,7 @@ msgid "No open windows"
 msgstr "หน้าต่างต่าง ๆ"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:338
+#: tabbox/tabbox.cpp:310
 msgid "Walk Through Windows"
 msgstr "วนสลับหน้าต่าง"
 
@@ -4431,7 +4331,7 @@ msgid "Walk Through Desktop List"
 msgstr "วนสลับในรายการพื้นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:339
+#: tabbox/tabbox.cpp:311
 msgid "Walk Through Windows (Reverse)"
 msgstr "วนสลับหน้าต่าง (ย้อนกลับ)"
 
@@ -4446,45 +4346,52 @@ msgid "Walk Through Desktop List (Reverse)"
 msgstr "วนสลับในรายการพื้นที่ทำงาน (ย้อนกลับ)"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:340
+#: tabbox/tabbox.cpp:312
 msgid "Walk Through Windows Alternative"
 msgstr "ทางเลือกอื่นของการวนสลับหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:341
+#: tabbox/tabbox.cpp:313
 msgid "Walk Through Windows Alternative (Reverse)"
 msgstr "ทางเลือกอื่นของการวนสลับหน้าต่าง (ย้อนกลับ)"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:342
+#: tabbox/tabbox.cpp:314
 #, fuzzy
 #| msgid "Walk Through Windows Alternative"
 msgid "Walk Through Windows of Current Application"
 msgstr "ทางเลือกอื่นของการวนสลับหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:343
+#: tabbox/tabbox.cpp:315
 #, fuzzy
 #| msgid "Walk Through Windows Alternative (Reverse)"
 msgid "Walk Through Windows of Current Application (Reverse)"
 msgstr "ทางเลือกอื่นของการวนสลับหน้าต่าง (ย้อนกลับ)"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:344
+#: tabbox/tabbox.cpp:316
 #, fuzzy
 #| msgid "Walk Through Windows Alternative"
 msgid "Walk Through Windows of Current Application Alternative"
 msgstr "ทางเลือกอื่นของการวนสลับหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: tabbox/tabbox.cpp:345
+#: tabbox/tabbox.cpp:317
 #, fuzzy
 #| msgid "Walk Through Windows Alternative (Reverse)"
 msgid "Walk Through Windows of Current Application Alternative (Reverse)"
 msgstr "ทางเลือกอื่นของการวนสลับหน้าต่าง (ย้อนกลับ)"
 
+#. +> stable5
+#: tabbox/tabbox.cpp:381
+#, kde-format
+msgctxt "Special entry in alt+tab list for minimizing all windows"
+msgid "Show Desktop"
+msgstr "แสดงพื้นที่ทำงาน"
+
 #. +> trunk6 stable6 stable5
-#: tabbox/tabboxhandler.cpp:249
+#: tabbox/tabboxhandler.cpp:190
 #, kde-format
 msgid ""
 "The Window Switcher installation is broken, resources are missing.\n"
@@ -4492,25 +4399,44 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tablet_input.cpp:104
+#: tablet_input.cpp:114
 #, kde-format
 msgid "Move the tablet to the next output"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tablet_input.cpp:177
+#: tablet_input.cpp:194
 #, kde-format
 msgid "Tablet moved to %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tablet_input.cpp:177
+#: tablet_input.cpp:194
 #, kde-format
 msgid "Tablets switched outputs"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: useractions.cpp:163
+#. +> stable5
+#: input.cpp:3098
+#, kde-format
+msgid "Touchpad"
+msgstr ""
+
+#. +> trunk6 stable6
+#: useractions.cpp:162
+#, fuzzy, kde-format
+#| msgid ""
+#| "You have selected to show a window without its border.\n"
+#| "Without the border, you will not be able to enable the border again using the mouse: use the window operations menu instead, activated using the %1 keyboard shortcut."
+msgid ""
+"You have selected to show a window without its border.\n"
+"Without the border, you will not be able to enable the border again using the mouse: use the window menu instead, activated using the %1 keyboard shortcut."
+msgstr ""
+"คุณได้เลือกให้แสดงหน้าต่างโดยไม่แสดงกรอบของหน้าต่าง\n"
+"หากหน้าต่างไม่มีกรอบ จะทำให้คุณไม่สามารถเปิดใช้กรอบของมันผ่านเมาส์ได้อีก ดังนั้นให้ใช้เมนูปฏิบัติการของหน้าต่างแทน โดยเรียกใช้เมนูผ่านทางปุ่มพิมพ์ลัด %1"
+
+#. +> stable5
+#: useractions.cpp:161
 #, kde-format
 msgid ""
 "You have selected to show a window without its border.\n"
@@ -4519,8 +4445,21 @@ msgstr ""
 "คุณได้เลือกให้แสดงหน้าต่างโดยไม่แสดงกรอบของหน้าต่าง\n"
 "หากหน้าต่างไม่มีกรอบ จะทำให้คุณไม่สามารถเปิดใช้กรอบของมันผ่านเมาส์ได้อีก ดังนั้นให้ใช้เมนูปฏิบัติการของหน้าต่างแทน โดยเรียกใช้เมนูผ่านทางปุ่มพิมพ์ลัด %1"
 
-#. +> trunk6 stable6 stable5
-#: useractions.cpp:170
+#. +> trunk6 stable6
+#: useractions.cpp:169
+#, fuzzy, kde-format
+#| msgid ""
+#| "You have selected to show a window in fullscreen mode.\n"
+#| "If the application itself does not have an option to turn the fullscreen mode off you will not be able to disable it again using the mouse: use the window operations menu instead, activated using the %1 keyboard shortcut."
+msgid ""
+"You have selected to show a window in fullscreen mode.\n"
+"If the application itself does not have an option to turn the fullscreen mode off you will not be able to disable it again using the mouse: use the window menu instead, activated using the %1 keyboard shortcut."
+msgstr ""
+"คุณได้เลือกให้แสดงหน้าต่างในโหมดแสดงเต็มจอภาพ\n"
+"และหากโปรแกรมที่เป็นเจ้าของหน้าต่างไม่มีตัวเลือกให้สลับโหมดการแสดงผลเต็มจอ จะทำให้คุณไม่สามารถปิดการแสดงผลเต็มจอผ่านเมาส์ได้ ดังนั้นให้ใช้เมนูปฏิบัติการของหน้าต่างแทน โดยเรียกใช้เมนูผ่านทางปุ่มพิมพ์ลัด %1"
+
+#. +> stable5
+#: useractions.cpp:168
 #, kde-format
 msgid ""
 "You have selected to show a window in fullscreen mode.\n"
@@ -4562,15 +4501,14 @@ msgstr "เต็ม&จอภาพ"
 
 #. +> trunk6 stable6 stable5
 #: useractions.cpp:245
-#, fuzzy, kde-format
-#| msgid "Shade"
-msgid "&Shade"
-msgstr "พับเก็บ"
-
-#. +> trunk6 stable6 stable5
-#: useractions.cpp:251
 #, kde-format
 msgid "&No Titlebar and Frame"
+msgstr ""
+
+#. +> trunk6
+#: useractions.cpp:251
+#, kde-format
+msgid "&Hide from Screencast"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4593,6 +4531,13 @@ msgstr "ปุ่มพิมพ์ลั&ดของหน้าต่าง..
 #| msgid "&Special Window Settings..."
 msgid "Configure Special &Window Settings…"
 msgstr "ตั้งค่าให้กับหน้าต่างเป็น&พิเศษ..."
+
+#. +> stable5
+#: useractions.cpp:266
+#, fuzzy, kde-format
+#| msgid "Shade"
+msgid "&Shade"
+msgstr "พับเก็บ"
 
 #. +> stable5
 #: useractions.cpp:286
@@ -4648,55 +4593,40 @@ msgid "Configure W&indow Manager..."
 msgstr "ตัวจัดการหน้าต่างของ KDE"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:363
+#: useractions.cpp:359
 #, kde-format
 msgid "&Extensions"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:413
+#: useractions.cpp:409
 #, fuzzy, kde-format
 #| msgid "&All Desktops"
 msgid "&Desktops"
 msgstr "ทุ&กพื้นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:429
+#: useractions.cpp:425
 #, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgid "Move to &Screen"
 msgstr "ไปยังพื้&นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:445
+#: useractions.cpp:441
 #, fuzzy, kde-format
 #| msgid "Ac&tivities"
 msgid "Show in &Activities"
 msgstr "&กิจกรรมต่าง ๆ"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:462
-#, fuzzy, kde-format
-#| msgid "To &Desktop"
-msgid "Move &To Current Desktop"
-msgstr "ไปยังพื้&นที่ทำงาน"
-
-#. +> trunk6 stable6 stable5
-#: useractions.cpp:472 useractions.cpp:531
+#: useractions.cpp:457
 #, kde-format
 msgid "&All Desktops"
 msgstr "ทุ&กพื้นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:504
-#, fuzzy, kde-format
-#| msgid "Show Desktop"
-msgctxt "Create a new desktop and move the window there"
-msgid "&New Desktop"
-msgstr "แสดงพื้นที่ทำงาน"
-
-#. +> trunk6 stable6 stable5
-#: useractions.cpp:565 useractions.cpp:695
+#: useractions.cpp:492 useractions.cpp:624
 #, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgid "Move to %1"
@@ -4709,7 +4639,7 @@ msgid "Move to %1 %2"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:578
+#: useractions.cpp:506
 #, fuzzy, kde-format
 #| msgid "Show Desktop"
 msgctxt "Create a new desktop and add the window to that desktop"
@@ -4717,15 +4647,23 @@ msgid "Add to &New Desktop"
 msgstr "แสดงพื้นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:590
+#: useractions.cpp:518
 #, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgctxt "Create a new desktop and move the window to that desktop"
 msgid "Move to New Desktop"
 msgstr "ไปยังพื้&นที่ทำงาน"
 
+#. +> stable5
+#: useractions.cpp:575
+#, fuzzy, kde-format
+#| msgid "Show Desktop"
+msgctxt "Create a new desktop and move the window there"
+msgid "&New Desktop"
+msgstr "แสดงพื้นที่ทำงาน"
+
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:621
+#: useractions.cpp:549
 #, fuzzy, kde-format
 #| msgid "Window to Screen 1"
 msgctxt "@item:inmenu List of all Screens to send a window to. First argument is a number, second the output identifier. E.g. Screen 1 (HDMI1)"
@@ -4733,362 +4671,376 @@ msgid "Screen &%1 (%2)"
 msgstr "ปรับหน้าต่างไปยังจอภาพ 1"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:647
+#: useractions.cpp:576
 #, kde-format
 msgid "&All Activities"
 msgstr "กิจกรรม&ทั้งหมด"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:814
+#: useractions.cpp:743
 #, kde-format
 msgctxt "'%1' is a keyboard shortcut like 'ctrl+w'"
 msgid "<b>%1</b> is already in use"
 msgstr "<b>%1</b> ถูกใช้งานอยู่แล้ว"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:816
+#: useractions.cpp:745
 #, kde-format
 msgctxt "keyboard shortcut '%1' is used by action '%2' in application '%3'"
 msgid "<b>%1</b> is used by %2 in %3"
 msgstr "<b>%1</b> ถูกใช้งานโดย %2 ใน %3"
 
-#. +> trunk6 stable6 stable5
-#: useractions.cpp:896
+#. +> trunk6 stable6
+#: useractions.cpp:826
+#, fuzzy, kde-format
+#| msgid "Windows"
+msgid "Window Menu"
+msgstr "หน้าต่างต่าง ๆ"
+
+#. +> stable5
+#: useractions.cpp:983
 #, kde-format
 msgid "Window Operations Menu"
 msgstr "เมนูปฎิบัติการของหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:898
+#: useractions.cpp:828
 #, kde-format
 msgid "Close Window"
 msgstr "ปิดหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:900
+#: useractions.cpp:830
 #, kde-format
 msgid "Maximize Window"
 msgstr "ขยายหน้าต่างใหญ่สุด"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:902
+#: useractions.cpp:832
 #, kde-format
 msgid "Maximize Window Vertically"
 msgstr "ขยายหน้าต่างใหญ่สุดทางแนวตั้ง"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:904
+#: useractions.cpp:834
 #, kde-format
 msgid "Maximize Window Horizontally"
 msgstr "ขยายหน้าต่างใหญ่สุดทางแนวนอน"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:906
+#: useractions.cpp:836
 #, kde-format
 msgid "Minimize Window"
 msgstr "ย่อหน้าต่างเล็กสุด"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:908
-#, kde-format
-msgid "Shade Window"
-msgstr "พับเก็บหน้าต่าง"
-
-#. +> trunk6 stable6 stable5
-#: useractions.cpp:910
+#: useractions.cpp:838
 #, kde-format
 msgid "Move Window"
 msgstr "ย้ายหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:912
+#: useractions.cpp:840
 #, kde-format
 msgid "Resize Window"
 msgstr "ปรับขนาดหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:914
+#: useractions.cpp:842
 #, kde-format
 msgid "Raise Window"
 msgstr "ส่งหน้าต่างให้อยู่เหนือหน้าต่างอื่นหนึ่งชั้น"
 
+#. +> stable5
+#: useractions.cpp:995
+#, kde-format
+msgid "Shade Window"
+msgstr "พับเก็บหน้าต่าง"
+
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:916
+#: useractions.cpp:844
 #, kde-format
 msgid "Lower Window"
 msgstr "ส่งหน้าต่างให้อยู่ใต้หน้าต่างอื่นหนึ่งชั้น"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:918
+#: useractions.cpp:846
 #, kde-format
 msgid "Toggle Window Raise/Lower"
 msgstr "สลับหน้าต่างไปอยู่เหนือ/ใต้หน้าต่างอื่น"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:920
+#: useractions.cpp:848
 #, kde-format
 msgid "Make Window Fullscreen"
 msgstr "ปรับหน้าต่างให้เต็มจอ"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:922
+#: useractions.cpp:850
 #, fuzzy, kde-format
 #| msgid "Hide Window Border"
 msgid "Toggle Window Titlebar and Frame"
 msgstr "ซ่อนกรอบของหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:924
+#: useractions.cpp:852
 #, kde-format
 msgid "Keep Window Above Others"
 msgstr "ให้หน้าต่างอยู่ด้านบนหน้าต่างอื่น"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:926
+#: useractions.cpp:854
 #, kde-format
 msgid "Keep Window Below Others"
 msgstr "ให้หน้าต่างอยู่ด้านล่างหน้าต่างอื่น"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:928
+#: useractions.cpp:856
 #, kde-format
 msgid "Activate Window Demanding Attention"
 msgstr "เรียกใช้หน้าต่างที่เรียกร้องความสนใจมา"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:930
+#: useractions.cpp:858
 #, kde-format
 msgid "Setup Window Shortcut"
 msgstr "ตั้งค่าปุ่มพิมพ์ลัดของหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:932
+#: useractions.cpp:860
 #, fuzzy, kde-format
 #| msgid "Move Window to Group"
 msgid "Move Window to the Center"
 msgstr "ย้ายหน้าต่างไปยังกลุ่ม"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:934
+#: useractions.cpp:862
 #, kde-format
 msgid "Move Window Right"
 msgstr "ย้ายหน้าต่างไปด้านขวา"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:936
+#: useractions.cpp:864
 #, kde-format
 msgid "Move Window Left"
 msgstr "ย้ายหน้าต่างไปด้านซ้าย"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:938
+#: useractions.cpp:866
 #, kde-format
 msgid "Move Window Up"
 msgstr "ย้ายหน้าต่างขึ้น"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:940
+#: useractions.cpp:868
 #, kde-format
 msgid "Move Window Down"
 msgstr "ย้ายหน้าต่างลง"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:942
+#: useractions.cpp:870
 #, fuzzy, kde-format
 #| msgid "Maximize Window Horizontally"
 msgid "Expand Window Horizontally"
 msgstr "ขยายหน้าต่างใหญ่สุดทางแนวนอน"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:944
+#: useractions.cpp:872
 #, fuzzy, kde-format
 #| msgid "Maximize Window Vertically"
 msgid "Expand Window Vertically"
 msgstr "ขยายหน้าต่างใหญ่สุดทางแนวตั้ง"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:946
+#: useractions.cpp:874
 #, fuzzy, kde-format
 #| msgid "Pack Shrink Window Horizontally"
 msgid "Shrink Window Horizontally"
 msgstr "ปรับขนาดหน้าต่างให้เล็กพอเหมาะทางแนวนอน"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:948
+#: useractions.cpp:876
 #, fuzzy, kde-format
 #| msgid "Pack Shrink Window Vertically"
 msgid "Shrink Window Vertically"
 msgstr "ปรับขนาดหน้าต่างให้เล็กพอเหมาะทางแนวตั้ง"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:950
+#: useractions.cpp:878
 #, kde-format
 msgid "Quick Tile Window to the Left"
 msgstr "ปูหน้าต่างด่วนจากทางซ้าย"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:952
+#: useractions.cpp:880
 #, kde-format
 msgid "Quick Tile Window to the Right"
 msgstr "ปูหน้าต่างด่วนจากทางขวา"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:954
+#: useractions.cpp:882
 #, fuzzy, kde-format
 #| msgid "Quick Tile Window to the Left"
 msgid "Quick Tile Window to the Top"
 msgstr "ปูหน้าต่างด่วนจากทางซ้าย"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:956
+#: useractions.cpp:884
 #, fuzzy, kde-format
 #| msgid "Quick Tile Window to the Left"
 msgid "Quick Tile Window to the Bottom"
 msgstr "ปูหน้าต่างด่วนจากทางซ้าย"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:958
+#: useractions.cpp:886
 #, fuzzy, kde-format
 #| msgid "Quick Tile Window to the Left"
 msgid "Quick Tile Window to the Top Left"
 msgstr "ปูหน้าต่างด่วนจากทางซ้าย"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:960
+#: useractions.cpp:888
 #, fuzzy, kde-format
 #| msgid "Quick Tile Window to the Left"
 msgid "Quick Tile Window to the Bottom Left"
 msgstr "ปูหน้าต่างด่วนจากทางซ้าย"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:962
+#: useractions.cpp:890
 #, fuzzy, kde-format
 #| msgid "Quick Tile Window to the Right"
 msgid "Quick Tile Window to the Top Right"
 msgstr "ปูหน้าต่างด่วนจากทางขวา"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:964
+#: useractions.cpp:892
 #, fuzzy, kde-format
 #| msgid "Quick Tile Window to the Right"
 msgid "Quick Tile Window to the Bottom Right"
 msgstr "ปูหน้าต่างด่วนจากทางขวา"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:966
+#: useractions.cpp:894
 #, kde-format
 msgid "Switch to Window Above"
 msgstr "สลับไปยังหน้าต่างที่อยู่ด้านบน"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:968
+#: useractions.cpp:896
 #, kde-format
 msgid "Switch to Window Below"
 msgstr "สลับไปยังหน้าต่างที่อยู่ด้านล่าง"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:970
+#: useractions.cpp:898
 #, kde-format
 msgid "Switch to Window to the Right"
 msgstr "สลับไปยังหน้าต่างที่อยู่ด้านขวา"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:972
+#: useractions.cpp:900
 #, kde-format
 msgid "Switch to Window to the Left"
 msgstr "สลับไปยังหน้าต่างที่อยู่ด้านซ้าย"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:974
+#: useractions.cpp:902
 #, kde-format
 msgid "Increase Opacity of Active Window by 5%"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:976
+#: useractions.cpp:904
 #, kde-format
 msgid "Decrease Opacity of Active Window by 5%"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:979
+#: useractions.cpp:907
 #, kde-format
 msgid "Keep Window on All Desktops"
 msgstr "ให้หน้าต่างอยู่บนพื้นที่ทำงานทั้งหมด"
 
 #. +> trunk6 stable6
-#: useractions.cpp:982
+#: useractions.cpp:910
 #, fuzzy, kde-format
 #| msgid "Quick Tile Window to the Left"
 msgid "Custom Quick Tile Window to the Left"
 msgstr "ปูหน้าต่างด่วนจากทางซ้าย"
 
 #. +> trunk6 stable6
-#: useractions.cpp:984
+#: useractions.cpp:912
 #, fuzzy, kde-format
 #| msgid "Quick Tile Window to the Right"
 msgid "Custom Quick Tile Window to the Right"
 msgstr "ปูหน้าต่างด่วนจากทางขวา"
 
 #. +> trunk6 stable6
-#: useractions.cpp:986
+#: useractions.cpp:914
 #, fuzzy, kde-format
 #| msgid "Quick Tile Window to the Left"
 msgid "Custom Quick Tile Window to the Top"
 msgstr "ปูหน้าต่างด่วนจากทางซ้าย"
 
 #. +> trunk6 stable6
-#: useractions.cpp:988
+#: useractions.cpp:916
 #, fuzzy, kde-format
 #| msgid "Quick Tile Window to the Left"
 msgid "Custom Quick Tile Window to the Bottom"
 msgstr "ปูหน้าต่างด่วนจากทางซ้าย"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:999
+#: useractions.cpp:927
 #, fuzzy, kde-format
 #| msgid "Window to Desktop 1"
 msgid "Window to Desktop %1"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงาน 1"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1001
+#: useractions.cpp:929
 #, kde-format
 msgid "Window to Next Desktop"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงานถัดไป"
 
+#. +> stable5
+#: useractions.cpp:525
+#, fuzzy, kde-format
+#| msgid "To &Desktop"
+msgid "Move &To Current Desktop"
+msgstr "ไปยังพื้&นที่ทำงาน"
+
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1002
+#: useractions.cpp:930
 #, kde-format
 msgid "Window to Previous Desktop"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงานก่อนหน้า"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1003
+#: useractions.cpp:931
 #, kde-format
 msgid "Window One Desktop to the Right"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงานด้านขวาหนึ่งระดับ"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1005
+#: useractions.cpp:933
 #, kde-format
 msgid "Window One Desktop to the Left"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงานด้านซ้ายหนึ่งระดับ"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1007
+#: useractions.cpp:935
 #, kde-format
 msgid "Window One Desktop Up"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงานด้านบนหนึ่งระดับ"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1009
+#: useractions.cpp:937
 #, kde-format
 msgid "Window One Desktop Down"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงานด้านล่างหนึ่งระดับ"
 
 #. +> trunk6 stable6
-#: useractions.cpp:1013
+#: useractions.cpp:941
 #, fuzzy, kde-format
 #| msgid "Window to Screen 1"
 msgid "Move Window to Screen %1"
@@ -5102,7 +5054,7 @@ msgid "Window to Screen %1"
 msgstr "ปรับหน้าต่างไปยังจอภาพ 1"
 
 #. +> trunk6 stable6
-#: useractions.cpp:1020
+#: useractions.cpp:948
 #, fuzzy, kde-format
 #| msgid "Window to Next Screen"
 msgid "Move Window to Next Screen"
@@ -5115,7 +5067,7 @@ msgid "Window to Next Screen"
 msgstr "ปรับหน้าต่างไปยังจอภาพถัดไป"
 
 #. +> trunk6 stable6
-#: useractions.cpp:1022
+#: useractions.cpp:950
 #, fuzzy, kde-format
 #| msgid "Window to Previous Desktop"
 msgid "Move Window to Previous Screen"
@@ -5129,7 +5081,7 @@ msgid "Window to Previous Screen"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงานก่อนหน้า"
 
 #. +> trunk6 stable6
-#: useractions.cpp:1024
+#: useractions.cpp:952
 #, fuzzy, kde-format
 #| msgid "Window One Desktop to the Right"
 msgid "Move Window One Screen to the Right"
@@ -5143,7 +5095,7 @@ msgid "Window One Screen to the Right"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงานด้านขวาหนึ่งระดับ"
 
 #. +> trunk6 stable6
-#: useractions.cpp:1026
+#: useractions.cpp:954
 #, fuzzy, kde-format
 #| msgid "Window One Desktop to the Left"
 msgid "Move Window One Screen to the Left"
@@ -5157,7 +5109,7 @@ msgid "Window One Screen to the Left"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงานด้านซ้ายหนึ่งระดับ"
 
 #. +> trunk6 stable6
-#: useractions.cpp:1028
+#: useractions.cpp:956
 #, fuzzy, kde-format
 #| msgid "Window to Screen 2"
 msgid "Move Window One Screen Up"
@@ -5171,7 +5123,7 @@ msgid "Window One Screen Up"
 msgstr "ปรับหน้าต่างไปยังจอภาพ 2"
 
 #. +> trunk6 stable6
-#: useractions.cpp:1030
+#: useractions.cpp:958
 #, fuzzy, kde-format
 #| msgid "Window One Desktop Down"
 msgid "Move Window One Screen Down"
@@ -5185,78 +5137,84 @@ msgid "Window One Screen Down"
 msgstr "ปรับหน้าต่างไปยังพื้นที่ทำงานด้านล่างหนึ่งระดับ"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1034
+#: useractions.cpp:962
 #, fuzzy, kde-format
 #| msgid "Switch to Screen 1"
 msgid "Switch to Screen %1"
 msgstr "สลับไปยังจอภาพ 1"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1041
+#: useractions.cpp:969
 #, kde-format
 msgid "Switch to Next Screen"
 msgstr "สลับไปยังจอภาพถัดไป"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1042
+#: useractions.cpp:970
 #, fuzzy, kde-format
 #| msgid "Switch to Previous Desktop"
 msgid "Switch to Previous Screen"
 msgstr "สลับไปยังพื้นที่ทำงานก่อนหน้า"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1043
+#: useractions.cpp:971
 #, fuzzy, kde-format
 #| msgid "Switch to Window to the Right"
 msgid "Switch to Screen to the Right"
 msgstr "สลับไปยังหน้าต่างที่อยู่ด้านขวา"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1045
+#: useractions.cpp:973
 #, fuzzy, kde-format
 #| msgid "Switch to Window to the Left"
 msgid "Switch to Screen to the Left"
 msgstr "สลับไปยังหน้าต่างที่อยู่ด้านซ้าย"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1047
+#: useractions.cpp:975
 #, fuzzy, kde-format
 #| msgid "Switch to Screen 0"
 msgid "Switch to Screen Above"
 msgstr "สลับไปยังจอภาพ 10"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1049
+#: useractions.cpp:977
 #, fuzzy, kde-format
 #| msgid "Switch to Screen 0"
 msgid "Switch to Screen Below"
 msgstr "สลับไปยังจอภาพ 10"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1052
+#: useractions.cpp:980
 #, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgid "Peek at Desktop"
 msgstr "ไปยังพื้&นที่ทำงาน"
 
-#. +> stable6 stable5
-#: useractions.cpp:427
+#. +> stable5
+#: useractions.cpp:475
 #, fuzzy, kde-format
 #| msgid "To &Desktop"
 msgid "Move to &Desktop"
 msgstr "ไปยังพื้&นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1055
+#: useractions.cpp:983
 #, kde-format
 msgid "Kill Window"
 msgstr "บังคับปิดหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: useractions.cpp:1123
+#: useractions.cpp:1048
 #, kde-format
 msgid "Activate Window (%1)"
 msgstr "เรียกใช้งานหน้าต่าง (%1)"
+
+#. +> stable5
+#: useractions.cpp:1134
+#, kde-format
+msgid "Suspend Compositing"
+msgstr "ยกเลิกการใช้ Composite ชั่วคราว"
 
 #. +> stable5
 #: useractions.cpp:1332
@@ -5267,99 +5225,123 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/edid.cpp:326
+#: utils/edid.cpp:360
 #, kde-format
 msgid "unknown"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: virtualdesktops.cpp:664 virtualdesktops.cpp:739
+#: virtualdesktops.cpp:729 virtualdesktops.cpp:808
 #, kde-format
 msgid "Desktop %1"
 msgstr "พื้นที่ทำงาน %1"
 
 #. +> trunk6 stable6 stable5
-#: virtualdesktops.cpp:746
+#: virtualdesktops.cpp:815
 #, kde-format
 msgid "Switch to Next Desktop"
 msgstr "สลับไปยังพื้นที่ทำงานถัดไป"
 
 #. +> trunk6 stable6 stable5
-#: virtualdesktops.cpp:747
+#: virtualdesktops.cpp:816
 #, kde-format
 msgid "Switch to Previous Desktop"
 msgstr "สลับไปยังพื้นที่ทำงานก่อนหน้า"
 
 #. +> trunk6 stable6 stable5
-#: virtualdesktops.cpp:750
+#: virtualdesktops.cpp:819
 #, kde-format
 msgid "Switch One Desktop to the Right"
 msgstr "สลับไปด้านขวาหนึ่งพื้นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: virtualdesktops.cpp:751
+#: virtualdesktops.cpp:820
 #, kde-format
 msgid "Switch One Desktop to the Left"
 msgstr "สลับไปด้านซ้ายหนึ่งพื้นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: virtualdesktops.cpp:752
+#: virtualdesktops.cpp:821
 #, kde-format
 msgid "Switch One Desktop Up"
 msgstr "สลับไปด้านบนหนึ่งพื้นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: virtualdesktops.cpp:753
+#: virtualdesktops.cpp:822
 #, kde-format
 msgid "Switch One Desktop Down"
 msgstr "สลับไปด้านล่างหนึ่งพื้นที่ทำงาน"
 
 #. +> trunk6 stable6 stable5
-#: virtualdesktops.cpp:841
+#: virtualdesktops.cpp:910
 #, fuzzy, kde-format
 #| msgid "Switch to Desktop 1"
 msgid "Switch to Desktop %1"
 msgstr "สลับไปยังพื้นที่ทำงาน 1"
 
-#. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:433
-#, kde-format
-msgid "One of the relevant outputs is no longer available"
-msgstr ""
-
-#. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:451
-#, kde-format
-msgid "Disabling all outputs through configuration changes is not allowed"
-msgstr ""
-
-#. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:461
+#. +> stable6
+#: wayland/outputmanagement_v2.cpp:527
 #, kde-format
 msgid "The provided output order doesn't contain all outputs"
 msgstr ""
 
-#. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:479
+#. +> stable6
+#: wayland/outputmanagement_v2.cpp:545
 #, kde-format
 msgid "The provided output order is invalid"
 msgstr ""
 
 #. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:497
+#: wayland/outputmanagement_v2.cpp:590
+#, kde-format
+msgid "One of the relevant outputs is no longer available"
+msgstr ""
+
+#. +> trunk6 stable6
+#: wayland/outputmanagement_v2.cpp:608
+#, kde-format
+msgid "Disabling all outputs through configuration changes is not allowed"
+msgstr ""
+
+#. +> trunk6
+#: wayland/outputmanagement_v2.cpp:619
+#, kde-format
+msgid "Cannot add a custom mode with an empty size"
+msgstr ""
+
+#. +> trunk6
+#: wayland/outputmanagement_v2.cpp:623
+#, kde-format
+msgid "Cannot add a custom mode with a refresh rate of zero Hz"
+msgstr ""
+
+#. +> trunk6
+#: wayland/outputmanagement_v2.cpp:630
+#, kde-format
+msgid "Position of output %s is negative, that is not supported"
+msgstr ""
+
+#. +> trunk6
+#: wayland/outputmanagement_v2.cpp:634
+#, kde-format
+msgid "Position of output %s is way too large (%d, %d)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: wayland/outputmanagement_v2.cpp:650
 #, kde-format
 msgid "The driver rejected the output configuration"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: window.cpp:3261
+#: window.cpp:3129
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: workspace.cpp:1622
+#: workspace.cpp:1604
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""
@@ -5385,199 +5367,10 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: xwayland/xwaylandlauncher.cpp:270
+#: xwayland/xwaylandlauncher.cpp:295
 #, kde-format
 msgid "Xwayland has crashed"
 msgstr ""
-
-#. +> stable6 stable5
-#: compositor_x11.cpp:103
-#, kde-format
-msgid "Suspend Compositing"
-msgstr "ยกเลิกการใช้ Composite ชั่วคราว"
-
-#. +> stable6 stable5
-#: compositor_x11.cpp:566
-#, kde-format
-msgid ""
-"<b>OpenGL compositing (the default) has crashed KWin in the past.</b><br>"
-"This was most likely due to a driver bug."
-"<p>If you think that you have meanwhile upgraded to a stable driver,<br>"
-"you can reset this protection but <b>be aware that this might result in an immediate crash!</b></p>"
-msgstr ""
-
-#. +> stable6 stable5
-#: compositor_x11.cpp:573
-#, kde-format
-msgid "Required X extensions (XComposite and XDamage) are not available."
-msgstr "ส่วนขยายของ X (XComposite และ XDamage) ไม่มีอยู่"
-
-#. +> stable6 stable5
-#: compositor_x11.cpp:576
-#, fuzzy, kde-format
-#| msgid "GLX/OpenGL and XRender/XFixes are not available."
-msgid "GLX/OpenGL is not available."
-msgstr "ไม่พบส่วนขยาย GLX/OpenGL และ XRender/XFixes"
-
-#. +> stable6 stable5
-#: input.cpp:3334
-#, kde-format
-msgid "Touchpad"
-msgstr ""
-
-#. +> stable6 stable5
-#: main_x11.cpp:66
-#, kde-format
-msgid ""
-"KWin is unstable.\n"
-"It seems to have crashed several times in a row.\n"
-"You can select another window manager to run:"
-msgstr ""
-"KWin ทำงานไม่เสถียร\n"
-"ดูเหมือนมันจะทำงานข้ดข้องมาหลายครั้งแล้ว\n"
-"คุณสามารถเลือกตัวจัดการหน้าต่างตัวอื่นเพื่อใช้งานแทน:"
-
-#. +> stable6 stable5
-#: main_x11.cpp:266
-#, kde-format
-msgid "kwin: unable to claim manager selection, another wm running? (try using --replace)\n"
-msgstr "kwin: ไม่สามารถเรียกตัวจัดการการเลือกได้ มีโปรแกรมจัดการหน้าต่างอื่นทำงานอยู่หรือไม่ ? (ลองใช้ตัวเลือก --replace)\n"
-
-#. +> stable6 stable5
-#: main_x11.cpp:286
-#, fuzzy, kde-format
-#| msgid "kwin: unable to claim manager selection, another wm running? (try using --replace)\n"
-msgid "kwin: another window manager is running (try using --replace)\n"
-msgstr "kwin: ไม่สามารถเรียกตัวจัดการการเลือกได้ มีโปรแกรมจัดการหน้าต่างอื่นทำงานอยู่หรือไม่ ? (ลองใช้ตัวเลือก --replace)\n"
-
-#. +> stable6 stable5
-#: main_x11.cpp:431
-#, kde-format
-msgid "Replace already-running ICCCM2.0-compliant window manager"
-msgstr "แทนที่ตัวจัดการหน้าต่างที่เข้ากันได้กับ ICCCM2.0 ที่กำลังทำงานอยู่"
-
-#. +> stable6
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox Border size:"
-#| msgid "Tiny"
-msgctxt "@item:inlistbox Button size:"
-msgid "Tiny"
-msgstr "กะทัดรัด"
-
-#. +> stable6
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:49
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox Button size:"
-#| msgid "Normal"
-msgctxt "@item:inlistbox Button size:"
-msgid "Normal"
-msgstr "ปกติ"
-
-#. +> stable6
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:50
-#, kde-format
-msgctxt "@item:inlistbox Button size:"
-msgid "Large"
-msgstr "ใหญ่"
-
-#. +> stable6
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:51
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox Button size:"
-#| msgid "Very Large"
-msgctxt "@item:inlistbox Button size:"
-msgid "Very Large"
-msgstr "ใหญ่มาก"
-
-#. +> stable6
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:52
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox Button size:"
-#| msgid "Huge"
-msgctxt "@item:inlistbox Button size:"
-msgid "Huge"
-msgstr "ใหญ่มหึมา"
-
-#. +> stable6
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:53
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox Border size:"
-#| msgid "Very Huge"
-msgctxt "@item:inlistbox Button size:"
-msgid "Very Huge"
-msgstr "ใหญ่มหึมามาก"
-
-#. +> stable6
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:54
-#, fuzzy, kde-format
-#| msgid "Re&size"
-msgctxt "@item:inlistbox Button size:"
-msgid "Oversized"
-msgstr "ปรับ&ขนาด"
-
-#. +> stable6
-#: plugins/kdecorations/aurorae/src/config/auroraeconfig.cpp:57
-#, fuzzy, kde-format
-#| msgid "Mouse Emulation"
-msgid "Button size:"
-msgstr "การจำลองเมาส์"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, PlastikConfigDialog)
-#. +> stable6
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:14
-#, fuzzy, kde-format
-#| msgid "Dialogs:"
-msgid "Config Dialog"
-msgstr "กล่องโต้ตอบ:"
-
-#. i18n: ectx: property (title), widget (KButtonGroup, titleAlign)
-#. +> stable6
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:23
-#, kde-format
-msgid "Title &Alignment"
-msgstr "การจัดตำแหน่งหัวเ&รื่อง"
-
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignCenter)
-#. +> stable6
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:36
-#, kde-format
-msgid "Center"
-msgstr "กึ่งกลาง"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_coloredBorder)
-#. +> stable6
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:53
-#, kde-format
-msgid "Check this option if the window border should be painted in the titlebar color. Otherwise it will be painted in the background color."
-msgstr ""
-"เปิดใช้ตัวเลือกนี้ หากต้องการให้วาดกรอบหน้าต่าง\n"
-"โดยใช้สีเดียวกันกับสีของแถบหัวเรื่องหน้าต่าง"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_coloredBorder)
-#. +> stable6
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:56
-#, fuzzy, kde-format
-#| msgid "Close Window"
-msgid "Colored window border"
-msgstr "ปิดหน้าต่าง"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_animateButtons)
-#. +> stable6
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:66
-#, kde-format
-msgid "Check this option if you want the buttons to fade in when the mouse pointer hovers over them and fade out again when it moves away."
-msgstr ""
-"เปิดใช้ตัวเลือกนี้ หากต้องการให้ปุ่มมีการปรับความเลือน/ชัด\n"
-"เมื่อมีการเลื่อนตัวชี้ของเมาส์มาอยู่เหนือปุ่มเหล่านั้น"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_animateButtons)
-#. +> stable6
-#: plugins/kdecorations/aurorae/themes/plastik/package/contents/ui/config.ui:69
-#, fuzzy, kde-format
-#| msgid "Animate desktop changes"
-msgid "Animate buttons"
-msgstr "เปลี่ยนพื้นที่ทำงานแบบเคลื่อนไหว"
 
 #. +> stable5
 #: composite.cpp:875
@@ -5588,6 +5381,60 @@ msgid ""
 msgstr ""
 "ลูกเล่นต่าง ๆ ของพื้นที่ทำงานถูกพักการใช้งานชั่วคราวจากโปรแกรมอื่น<br/>"
 " คุณสามารถจะกลับมาใช้งานมันได้อีกโดยการใช้ปุ่มพิมพ์ลัด '%1'"
+
+#. +> stable5
+#: composite.cpp:1064
+#, kde-format
+msgid ""
+"<b>OpenGL compositing (the default) has crashed KWin in the past.</b><br>"
+"This was most likely due to a driver bug."
+"<p>If you think that you have meanwhile upgraded to a stable driver,<br>"
+"you can reset this protection but <b>be aware that this might result in an immediate crash!</b></p>"
+msgstr ""
+
+#. +> stable5
+#: composite.cpp:1071
+#, kde-format
+msgid "Required X extensions (XComposite and XDamage) are not available."
+msgstr "ส่วนขยายของ X (XComposite และ XDamage) ไม่มีอยู่"
+
+#. +> stable5
+#: composite.cpp:1074
+#, fuzzy, kde-format
+#| msgid "GLX/OpenGL and XRender/XFixes are not available."
+msgid "GLX/OpenGL is not available."
+msgstr "ไม่พบส่วนขยาย GLX/OpenGL และ XRender/XFixes"
+
+#. +> stable5
+#: main_x11.cpp:67
+#, kde-format
+msgid ""
+"KWin is unstable.\n"
+"It seems to have crashed several times in a row.\n"
+"You can select another window manager to run:"
+msgstr ""
+"KWin ทำงานไม่เสถียร\n"
+"ดูเหมือนมันจะทำงานข้ดข้องมาหลายครั้งแล้ว\n"
+"คุณสามารถเลือกตัวจัดการหน้าต่างตัวอื่นเพื่อใช้งานแทน:"
+
+#. +> stable5
+#: main_x11.cpp:259
+#, kde-format
+msgid "kwin: unable to claim manager selection, another wm running? (try using --replace)\n"
+msgstr "kwin: ไม่สามารถเรียกตัวจัดการการเลือกได้ มีโปรแกรมจัดการหน้าต่างอื่นทำงานอยู่หรือไม่ ? (ลองใช้ตัวเลือก --replace)\n"
+
+#. +> stable5
+#: main_x11.cpp:280
+#, fuzzy, kde-format
+#| msgid "kwin: unable to claim manager selection, another wm running? (try using --replace)\n"
+msgid "kwin: another window manager is running (try using --replace)\n"
+msgstr "kwin: ไม่สามารถเรียกตัวจัดการการเลือกได้ มีโปรแกรมจัดการหน้าต่างอื่นทำงานอยู่หรือไม่ ? (ลองใช้ตัวเลือก --replace)\n"
+
+#. +> stable5
+#: main_x11.cpp:411
+#, kde-format
+msgid "Replace already-running ICCCM2.0-compliant window manager"
+msgstr "แทนที่ตัวจัดการหน้าต่างที่เข้ากันได้กับ ICCCM2.0 ที่กำลังทำงานอยู่"
 
 #. +> stable5
 #: plugins/nightcolor/nightcolormanager.cpp:63
@@ -5632,3 +5479,191 @@ msgstr ""
 msgctxt "Required file does not exist"
 msgid "%1 does not exist"
 msgstr ""
+
+#, kde-format
+#~ msgid "Size"
+#~ msgstr "ขนาด"
+
+#, kde-format
+#~ msgid "&Width:"
+#~ msgstr "ความ&กว้าง:"
+
+#, kde-format
+#~ msgid " px"
+#~ msgstr " พิกเซล"
+
+#, fuzzy, kde-format
+#~| msgid "Top-Right"
+#~ msgid "&Height:"
+#~ msgstr "บนขวา"
+
+#, fuzzy, kde-format
+#~| msgid "Toggle Floating"
+#~ msgid "Toggle Show Paint"
+#~ msgstr "เปิด/ปิดการลอยของหน้าต่าง"
+
+#, kde-format
+#~ msgid "Move Left"
+#~ msgstr "ย้ายไปด้านซ้าย"
+
+#, kde-format
+#~ msgid "Move Right"
+#~ msgstr "ย้ายไปด้านขวา"
+
+#, kde-format
+#~ msgid "Move Up"
+#~ msgstr "ย้ายขึ้น"
+
+#, kde-format
+#~ msgid "Move Down"
+#~ msgstr "ย้ายลง"
+
+#, fuzzy, kde-format
+#~| msgid "Modifier keys"
+#~ msgid "Scroll gesture modifier keys:"
+#~ msgstr "ปุ่มพิมพ์ที่ใช้ร่วม"
+
+#, fuzzy, kde-format
+#~| msgid "Zoom Factor:"
+#~ msgid "Zoom factor:"
+#~ msgstr "องค์ประกอบการย่อ/ขยาย:"
+
+#, fuzzy, kde-format
+#~| msgid "Mouse Pointer:"
+#~ msgid "Mouse pointer:"
+#~ msgstr "ตัวชี้ของเมาส์:"
+
+#, kde-format
+#~ msgid "Visibility of the mouse-pointer."
+#~ msgstr "การมองเห็นได้ของตัวชี้ของเมาส์"
+
+#, kde-format
+#~ msgid "Scale"
+#~ msgstr "ปรับขนาด"
+
+#, kde-format
+#~ msgid "Keep"
+#~ msgstr "คงไว้"
+
+#, kde-format
+#~ msgid "Hide"
+#~ msgstr "ซ่อน"
+
+#, fuzzy, kde-format
+#~| msgid "Mouse Tracking:"
+#~ msgid "Mouse tracking:"
+#~ msgstr "ติดตามตำแหน่งเมาส์:"
+
+#, kde-format
+#~ msgid "Track moving of the mouse."
+#~ msgstr "ติดตามการเคลื่อนที่ของเมาส์"
+
+#, kde-format
+#~ msgid "Proportional"
+#~ msgstr "แนวนอน"
+
+#, fuzzy, kde-format
+#~| msgid "Center"
+#~ msgid "Centered"
+#~ msgstr "กึ่งกลาง"
+
+#, fuzzy, kde-format
+#~| msgid "Tiling Disabled"
+#~ msgid "Disabled"
+#~ msgstr "การปูหน้าต่างถูกปิดการใช้งาน"
+
+#, fuzzy, kde-format
+#~| msgid "Enable Focus Tracking"
+#~ msgid "Enable focus tracking"
+#~ msgstr "เปิดใช้งานการติดตามการได้รับโฟกัส"
+
+#, fuzzy, kde-format
+#~| msgid "Enable Focus Tracking"
+#~ msgid "Enable text cursor tracking"
+#~ msgstr "เปิดใช้งานการติดตามการได้รับโฟกัส"
+
+#, fuzzy, kde-format
+#~| msgctxt "@item:inlistbox Border size:"
+#~| msgid "Tiny"
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Tiny"
+#~ msgstr "กะทัดรัด"
+
+#, fuzzy, kde-format
+#~| msgctxt "@item:inlistbox Button size:"
+#~| msgid "Normal"
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Normal"
+#~ msgstr "ปกติ"
+
+#, kde-format
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Large"
+#~ msgstr "ใหญ่"
+
+#, fuzzy, kde-format
+#~| msgctxt "@item:inlistbox Button size:"
+#~| msgid "Very Large"
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Very Large"
+#~ msgstr "ใหญ่มาก"
+
+#, fuzzy, kde-format
+#~| msgctxt "@item:inlistbox Button size:"
+#~| msgid "Huge"
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Huge"
+#~ msgstr "ใหญ่มหึมา"
+
+#, fuzzy, kde-format
+#~| msgctxt "@item:inlistbox Border size:"
+#~| msgid "Very Huge"
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Very Huge"
+#~ msgstr "ใหญ่มหึมามาก"
+
+#, fuzzy, kde-format
+#~| msgid "Re&size"
+#~ msgctxt "@item:inlistbox Button size:"
+#~ msgid "Oversized"
+#~ msgstr "ปรับ&ขนาด"
+
+#, fuzzy, kde-format
+#~| msgid "Mouse Emulation"
+#~ msgid "Button size:"
+#~ msgstr "การจำลองเมาส์"
+
+#, fuzzy, kde-format
+#~| msgid "Dialogs:"
+#~ msgid "Config Dialog"
+#~ msgstr "กล่องโต้ตอบ:"
+
+#, kde-format
+#~ msgid "Title &Alignment"
+#~ msgstr "การจัดตำแหน่งหัวเ&รื่อง"
+
+#, kde-format
+#~ msgid "Center"
+#~ msgstr "กึ่งกลาง"
+
+#, kde-format
+#~ msgid "Check this option if the window border should be painted in the titlebar color. Otherwise it will be painted in the background color."
+#~ msgstr ""
+#~ "เปิดใช้ตัวเลือกนี้ หากต้องการให้วาดกรอบหน้าต่าง\n"
+#~ "โดยใช้สีเดียวกันกับสีของแถบหัวเรื่องหน้าต่าง"
+
+#, fuzzy, kde-format
+#~| msgid "Close Window"
+#~ msgid "Colored window border"
+#~ msgstr "ปิดหน้าต่าง"
+
+#, kde-format
+#~ msgid "Check this option if you want the buttons to fade in when the mouse pointer hovers over them and fade out again when it moves away."
+#~ msgstr ""
+#~ "เปิดใช้ตัวเลือกนี้ หากต้องการให้ปุ่มมีการปรับความเลือน/ชัด\n"
+#~ "เมื่อมีการเลื่อนตัวชี้ของเมาส์มาอยู่เหนือปุ่มเหล่านั้น"
+
+#, fuzzy, kde-format
+#~| msgid "Animate desktop changes"
+#~ msgid "Animate buttons"
+#~ msgstr "เปลี่ยนพื้นที่ทำงานแบบเคลื่อนไหว"

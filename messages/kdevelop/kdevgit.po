@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-13 10:24+0100\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,37 +13,37 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6
-#: committoolview.cpp:205 committoolview.cpp:206
+#: committoolview.cpp:197 committoolview.cpp:198
 #, kde-format
 msgid "Filter by filename/project name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: committoolview.cpp:223
+#: committoolview.cpp:215
 #, kde-format
 msgid "Refresh"
 msgstr ""
 
 #. +> trunk6 stable6
-#: committoolview.cpp:224
+#: committoolview.cpp:216
 #, kde-format
 msgid "Stage selected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: committoolview.cpp:226
+#: committoolview.cpp:218
 #, kde-format
 msgid "Unstage selected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: committoolview.cpp:228
+#: committoolview.cpp:220
 #, kde-format
 msgid "Revert unstaged edits"
 msgstr ""
 
 #. +> trunk6 stable6
-#: committoolview.cpp:481
+#: committoolview.cpp:473
 #, kde-format
 msgid "Committing failed. See Version Control tool view."
 msgstr ""
@@ -219,121 +219,115 @@ msgid "Write to global config"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:192
+#: gitplugin.cpp:190
 #, kde-format
 msgid "Unable to find git executable. Is it installed on the system?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:201
+#: gitplugin.cpp:199
 #, kde-format
 msgid "Git Commit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:258
+#: gitplugin.cpp:256
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rebase"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:259
+#: gitplugin.cpp:257
 #, kde-format
 msgctxt "@title:menu"
 msgid "Git Stashes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:260
+#: gitplugin.cpp:258
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stash Manager"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:261
+#: gitplugin.cpp:259
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Push Stash"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:262
+#: gitplugin.cpp:260
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pop Stash"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:295
-#, kde-format
-msgid "error: %1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: gitplugin.cpp:394 gitplugin.cpp:405
+#: gitplugin.cpp:385 gitplugin.cpp:396
 #, kde-format
 msgid "Did not specify the list of files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:467
+#: gitplugin.cpp:458
 #, kde-format
 msgid "Could not reset changes (empty list of paths)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:501
+#: gitplugin.cpp:492
 #, kde-format
 msgid "Could not revert changes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:512
+#: gitplugin.cpp:503
 #, kde-format
 msgid "The following files have uncommitted changes, which will be lost. Continue?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:537
+#: gitplugin.cpp:528
 #, kde-format
 msgid "No files or message specified"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:541 gitplugin.cpp:560
+#: gitplugin.cpp:532 gitplugin.cpp:551
 #, kde-format
 msgid "Email or name for Git not specified"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:557
+#: gitplugin.cpp:548
 #, kde-format
 msgid "No message specified"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:631
+#: gitplugin.cpp:622
 #, kde-format
 msgid "No files to remove"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:911
+#: gitplugin.cpp:902
 #, kde-format
 msgid "There are pending changes, do you want to stash them first?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:912
+#: gitplugin.cpp:903
 #, kde-format
 msgctxt "@action:button"
 msgid "Stash"
 msgstr ""
 
 #. +> trunk6 stable6
-#: gitplugin.cpp:913
+#: gitplugin.cpp:904
 #, kde-format
 msgctxt "@action:button"
 msgid "Keep"
@@ -395,7 +389,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: repostatusmodel.cpp:84
 #, kde-format
-msgctxt "Files in a vcs which have unresolved (merge) conflits"
+msgctxt "Files in a vcs which have unresolved (merge) conflicts"
 msgid "Conflicts"
 msgstr ""
 
@@ -435,7 +429,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: repostatusmodel.cpp:109
 #, kde-format
-msgctxt "Files in git which have unresolved (merge) conflits"
+msgctxt "Files in git which have unresolved (merge) conflicts"
 msgid "Conflicts"
 msgstr ""
 

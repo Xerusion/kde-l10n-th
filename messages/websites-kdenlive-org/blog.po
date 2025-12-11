@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kdenlive-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-13 10:25+0100\n"
+"POT-Creation-Date: 2025-09-15 09:35+0200\n"
 "PO-Revision-Date: 2025-03-17 14:56+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -69,24 +69,178 @@ msgstr ""
 
 #. +> trunk5
 #: content/news/2025/amsterdam-sprint-report/index.md:0
+#: content/news/2025/berlin-sprint/index.md:0
 #: content/news/2025/fundraising-final-report/index.md:0
 msgid "Jean-Baptiste Mardelle"
 msgstr ""
 
 #. +> trunk5
 #: content/news/2025/amsterdam-sprint-report/index.md:0
+#: content/news/2025/berlin-sprint/index.md:0
 msgid "Inside"
 msgstr ""
 
 #. +> trunk5
 #: content/news/2025/amsterdam-sprint-report/index.md:0
+#: content/news/2025/berlin-sprint/index.md:0
 #: content/news/2025/kdenlive-cafe-01/index.md:0
 msgid "Event"
 msgstr ""
 
 #. +> trunk5
 #: content/news/2025/amsterdam-sprint-report/index.md:0
+#: content/news/2025/berlin-sprint/index.md:0
 msgid "Sprint"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:13
+msgid "![](berlin-1.jpg \"Kdenlive team working\")"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:15
+msgid "From the 3rd to the 5th of September, the Kdenlive team was reunited in Berlin for a sprint and to attend [Akademy][1], KDE's annual conference. This was an occasion for us to meet in person since our team is spread across continents, and to join our forces to make Kdenlive better. And I must say this was one of the most productive sprints in Kdenlive's history!"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:17
+msgid "We were kindly hosted by [c-base][2] for our Sprint so a big thanks to the team for welcoming us there!"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:19
+msgid "Let's get into the details of what we did:"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:21
+msgid "We started by reviewing and updating our [roadmap][3], so it is easier to understand what we are working on, what we plan and when. Another important step towards improving our workflows is that we created issues for each of these goals where the details will be discussed, so everyone can follow and possibly help us on the road to success."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:23
+msgid "Dopesheet"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:24
+msgid "Very exciting, I received a grant from the [NGI Zero Commons Fund][4] through [NLnet][5] to work on a dopesheet feature in Kdenlive. This will bring a much improved keyframing interface with powerful features. We discussed what core features we want in it and some drafts on how that would work. This feature won't be ready for the December release, but I will post updates on the progress of this task in the coming months."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:26
+msgid "We then reviewed specific parts of the UI that we would like to improve. All these ideas will be discussed in specific issues so that we can refine the implementation."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:28
+msgid "Menu reorganization"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:29
+msgid "This task started two years ago but we never took time to finalize it. We progressed a lot on this and you can expect it to land in the December release. Among the changes, we decided to rename the `Project Bin` to `Media`, `Render` to `Export`, and reorganize the menus to make things more logical. We will make another blog to present these changes in detail once this is done."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:31
+msgid "Timeline toolbar"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:32
+msgid "We want to cleanup the UI, make the timeline timecode display cleaner and get rid of the large *Master* button currently taking a lot of space."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:34
+msgid "Monitor UI"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:35
+msgid "We plan to move the audio vu-meter to a collapsible vertical widget on the right side of the monitor to free some space in the toolbar, make the zone duration always visible and move the insert/overwrite actions currently in the timeline toolbar there."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:37
+msgid "Audio monitor"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:38
+msgid "When selecting an audio clip, the Clip Monitor currently displays a huge audio waveform that is not that useful. We reviewed the UI to also display an overview at the top, making it easier to zoom and see where you are in the clip."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:42
+msgid "Layout and docks"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:43
+msgid "We have several open issues regarding docking. One of the frequent request we have is to save the layout per project file, since sometimes you want very specific layouts for a project. We discussed how to make it happen and are also evaluating switching the library managing the widgets docking to [KDDockWidgets][6] that would bring us some very nice improvements like being able to detach the timeline or group several undocked widgets together"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:45
+msgid "![](team-berlin.jpg \"Kdenlive team working\")"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:46
+msgid "Titler"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:47
+msgid "Our current titler does the job for simple tasks but many users would like to be able to use some animation presets to make their titles more dynamic. We discussed the possible options to make this a reality. Among the ideas, we could use Lottie animations, since our video backend MLT already has support to play them through the Glaxnimate module. Another option would be to implement a Qml producer for MLT, allowing to play Qml files directly as a video. Any help on that topic is welcome."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:49
+msgid "Website"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:50
+msgid "We have some planned changes to make our website look better and discussed some of the options."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:52
+msgid "And all the rest"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:53
+msgid "![](team-restaurant.jpg \"Kdenlive team in a nice restaurant\") We discussed tons of other things and even managed to shoot some interviews of our team members. Less relevant maybe for users but we also reviewed some of the administrative and trademark issues, and CI/CD issues"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:56
+msgid "Akademy 2025"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:57
+msgid "Akademy was also an occasion to have interesting exchanges, notably with Glaxnimate's maintainer, Plasma developers and more. We are now back home with tons of ideas and TODO's, and the next release of Kdenlive, to be launched in December, will shine with some of the improvements we prepared during this week in Berlin !"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:59
+msgid "If you would like to help our small team, you are always welcome to contribute by giving some feedback, talk about us, create a merge request or donate."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:0
+msgid "Kdenlive in Berlin"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:0
+msgid "kdenlive"
 msgstr ""
 
 #. +> trunk5

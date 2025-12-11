@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-23 22:40+0100\n"
+"POT-Creation-Date: 2025-09-21 13:30+0200\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,44 +13,44 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6
-#: configwidget.cpp:35
+#: configwidget.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "DAV Resource Configuration"
 msgstr ""
 
 #. +> trunk6 stable6
-#: configwidget.cpp:42
+#: configwidget.cpp:40
 #, kde-format
 msgid "Protocol"
 msgstr ""
 
 #. +> trunk6 stable6
-#: configwidget.cpp:42 urlconfigurationdialog.cpp:267
+#: configwidget.cpp:40 urlconfigurationdialog.cpp:267
 #, kde-format
 msgid "URL"
 msgstr ""
 
 #. +> trunk6 stable6
-#: configwidget.cpp:55
+#: configwidget.cpp:53
 #, kde-format
 msgid "Days"
 msgstr ""
 
 #. +> trunk6 stable6
-#: configwidget.cpp:56
+#: configwidget.cpp:54
 #, kde-format
 msgid "Months"
 msgstr ""
 
 #. +> trunk6 stable6
-#: configwidget.cpp:57
+#: configwidget.cpp:55
 #, kde-format
 msgid "Years"
 msgstr ""
 
 #. +> trunk6 stable6
-#: configwidget.cpp:159
+#: configwidget.cpp:166
 #, kde-format
 msgid ""
 "Another configuration entry already uses the same URL/protocol couple.\n"
@@ -96,63 +96,70 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6
-#: configwidget.ui:108 setupwizard.cpp:220 urlconfigurationdialog.ui:136
+#: configwidget.ui:107 setupwizard.cpp:241 urlconfigurationdialog.ui:136
 #, kde-format
 msgid "Password:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_limitSyncRange)
 #. +> trunk6 stable6
-#: configwidget.ui:136
+#: configwidget.ui:134
 #, kde-format
-msgid "Select this if your calendars contain a lot of events and the server cannot fulfill the requests"
+msgid "Select this to reduce the load on the server and speed-up your syncs"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_limitSyncRange)
+#. +> trunk6 stable6
+#: configwidget.ui:137
+#, kde-format
+msgid "Limiting the time span range will lessen the load on the remote server and speed-up your initial sync."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitSyncRange)
 #. +> trunk6 stable6
-#: configwidget.ui:139
+#: configwidget.ui:140
 #, kde-format
-msgid "Limit CalDav retrieval time range"
+msgid "Limit retrieval time range"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6
-#: configwidget.ui:151
+#: configwidget.ui:152
 #, kde-format
-msgid "Only sync events more recent than"
+msgid "Only sync data more recent than"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_41)
 #. +> trunk6 stable6
-#: configwidget.ui:190
+#: configwidget.ui:191
 #, kde-format
 msgid "Server Configuration:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
 #. +> trunk6 stable6
-#: configwidget.ui:204
+#: configwidget.ui:205
 #, kde-format
 msgid "Add"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, searchButton)
 #. +> trunk6 stable6
-#: configwidget.ui:211 searchdialog.ui:151
+#: configwidget.ui:212 searchdialog.ui:151
 #, kde-format
 msgid "Search"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #. +> trunk6 stable6
-#: configwidget.ui:218
+#: configwidget.ui:219
 #, kde-format
 msgid "Remove"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, editButton)
 #. +> trunk6 stable6
-#: configwidget.ui:225
+#: configwidget.ui:226
 #, kde-format
 msgid "Edit"
 msgstr ""
@@ -164,104 +171,104 @@ msgid "No schedule-outbox found for %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davfreebusyhandler.cpp:191 davfreebusyhandler.cpp:202
+#: davfreebusyhandler.cpp:194 davfreebusyhandler.cpp:205
 #, kde-format
 msgid "Invalid response from the server"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davfreebusyhandler.cpp:213
+#: davfreebusyhandler.cpp:216
 #, kde-format
 msgid "Unable to parse free-busy data received"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:168
+#: davgroupwareresource.cpp:170
 #, kde-format
 msgid "Unable to retrieve free-busy info while offline"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:188
+#: davgroupwareresource.cpp:190
 #, kde-format
 msgid "Fetching collections"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:256
+#: davgroupwareresource.cpp:258
 #, kde-format
 msgid "Asked to retrieve items for an unknown collection: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:313
+#: davgroupwareresource.cpp:315
 #, kde-format
 msgid "Invalid collection for item %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:645
+#: davgroupwareresource.cpp:647
 #, kde-format
 msgid "Unable to modify items: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:684
+#: davgroupwareresource.cpp:686
 #, kde-format
 msgid "Unable to modify collection: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:761
+#: davgroupwareresource.cpp:809
 #, kde-format
 msgid "Unable to remove collection: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:781
+#: davgroupwareresource.cpp:829
 #, kde-format
 msgid "Unable to retrieve collections: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:914 davgroupwareresource.cpp:1013
+#: davgroupwareresource.cpp:962 davgroupwareresource.cpp:1061
 #, kde-format
 msgid "Unable to retrieve items: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:1093
+#: davgroupwareresource.cpp:1141
 #, kde-format
 msgid "Unable to retrieve item: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:1113
+#: davgroupwareresource.cpp:1161
 #, kde-format
 msgid "Unable to retrieve item: failed to parse item data. Maybe it was deleted already."
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:1150
+#: davgroupwareresource.cpp:1198
 #, kde-format
 msgid "Unable to add item: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:1194 davgroupwareresource.cpp:1307
-#: davgroupwareresource.cpp:1319
+#: davgroupwareresource.cpp:1242 davgroupwareresource.cpp:1355
+#: davgroupwareresource.cpp:1367
 #, kde-format
 msgid "Unable to change item: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:1281 davgroupwareresource.cpp:1338
+#: davgroupwareresource.cpp:1329 davgroupwareresource.cpp:1386
 #, kde-format
 msgid "Unable to remove item: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: davgroupwareresource.cpp:1425 davgroupwareresource.cpp:1426
+#: davgroupwareresource.cpp:1473 davgroupwareresource.cpp:1474
 #, kde-format
 msgid "The resource is not configured yet"
 msgstr ""
@@ -305,21 +312,21 @@ msgstr ""
 #. +> trunk6 stable6
 #: davgroupwareresource.kcfg:30
 #, kde-format
-msgid "Limit the events retrieval to the specified time range"
+msgid "Limit the data retrieval to the specified time range"
 msgstr ""
 
 #. i18n: ectx: label, entry (syncRangeStartNumber), group (General)
 #. +> trunk6 stable6
 #: davgroupwareresource.kcfg:34
 #, kde-format
-msgid "Period for which to retrieve events, quantity"
+msgid "Period for which to retrieve data, quantity"
 msgstr ""
 
 #. i18n: ectx: label, entry (syncRangeStartType), group (General)
 #. +> trunk6 stable6
 #: davgroupwareresource.kcfg:38
 #, kde-format
-msgid "Period for which to retrieve events, type"
+msgid "Period for which to retrieve data, type"
 msgstr ""
 
 #. i18n: ectx: label, entry (collectionsUrlsMappings), group (General)
@@ -435,51 +442,51 @@ msgid "a contact with email"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:137
+#: setupwizard.cpp:142
 #, kde-format
 msgctxt "@title:window"
 msgid "DAV groupware configuration wizard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:210
+#: setupwizard.cpp:231
 #, kde-format
 msgid "Login Credentials"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:211
+#: setupwizard.cpp:232
 #, kde-format
 msgid "Enter your credentials to login to the groupware server"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:215
+#: setupwizard.cpp:236
 #, kde-format
 msgid "User:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:255
+#: setupwizard.cpp:276
 #, kde-format
 msgctxt "@option:radio"
 msgid "No, choose another server"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:257
+#: setupwizard.cpp:278
 #, kde-format
 msgid "Predefined provider found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:258
+#: setupwizard.cpp:279
 #, kde-format
 msgid "Select if you want to use the auto-detected provider"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:277
+#: setupwizard.cpp:298
 #, kde-format
 msgid ""
 "Based on the email address you used as a login, this wizard\n"
@@ -488,116 +495,116 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:282
+#: setupwizard.cpp:303
 #, kde-format
 msgid "Yes, use %1 as provider"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:308
+#: setupwizard.cpp:329
 #, kde-format
 msgid "Groupware Server"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:309
+#: setupwizard.cpp:330
 #, kde-format
 msgid "Select the groupware server the resource shall be configured for"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:338
+#: setupwizard.cpp:359
 #, kde-format
 msgctxt "@option:radio"
 msgid "Use one of those servers:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:347
+#: setupwizard.cpp:368
 #, kde-format
 msgctxt "@option:radio"
 msgid "Configure the resource manually"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:381
+#: setupwizard.cpp:403
 #, kde-format
 msgid "Connection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:382
+#: setupwizard.cpp:404
 #, kde-format
 msgid "Enter the connection information for the groupware server"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:389
+#: setupwizard.cpp:411
 #, kde-format
 msgid "Host"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:392
+#: setupwizard.cpp:414
 #, kde-format
 msgid "Installation path"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:395
+#: setupwizard.cpp:417
 #, kde-format
 msgctxt "@option:check"
 msgid "Use secure connection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:423
+#: setupwizard.cpp:445
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Final URL (CalDav)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:428
+#: setupwizard.cpp:450
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Final URL (CardDav)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:433
+#: setupwizard.cpp:455
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Final URL (GroupDav)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:497
+#: setupwizard.cpp:519
 #, kde-format
 msgid "Test Connection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:498
+#: setupwizard.cpp:520
 #, kde-format
 msgid "You can test now whether the groupware server can be accessed with the current configuration"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:503
+#: setupwizard.cpp:525
 #, kde-format
 msgctxt "@action:button"
 msgid "Test Connection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:543
+#: setupwizard.cpp:565
 #, kde-format
 msgid "An error occurred: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: setupwizard.cpp:546
+#: setupwizard.cpp:568
 #, kde-format
 msgid "Connected successfully"
 msgstr ""
@@ -815,18 +822,4 @@ msgstr ""
 #: daverror-kdepim-runtime.cpp:104
 #, kde-format
 msgid "There was a problem with the request. The requested MIME types are not supported."
-msgstr ""
-
-#. +> stable6
-#: settings.cpp:477
-#, kde-format
-msgctxt "@label:textbox"
-msgid "A password is required for user %1"
-msgstr ""
-
-#. +> stable6
-#: settings.cpp:481
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Password: "
 msgstr ""

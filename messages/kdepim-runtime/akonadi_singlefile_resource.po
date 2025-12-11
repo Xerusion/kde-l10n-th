@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-18 11:47+0100\n"
+"POT-Creation-Date: 2025-07-05 12:23+0200\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -131,7 +131,7 @@ msgid "The resource not configured yet"
 msgstr ""
 
 #. +> trunk6 stable6
-#: singlefileresource.h:102 singlefileresource.h:131 singlefileresource.h:222
+#: singlefileresource.h:102 singlefileresource.h:131 singlefileresource.h:226
 #: singlefileresourcebase.cpp:281 singlefileresourcebase.cpp:299
 #, kde-format
 msgctxt "@info:status"
@@ -151,43 +151,43 @@ msgid "Could not read file '%1'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: singlefileresource.h:135
+#: singlefileresource.h:139
 #, kde-format
 msgid "Another download is still in progress."
 msgstr ""
 
 #. +> trunk6 stable6
-#: singlefileresource.h:145 singlefileresource.h:236
+#: singlefileresource.h:149 singlefileresource.h:240
 #, kde-format
 msgid "Another file upload is still in progress."
 msgstr ""
 
 #. +> trunk6 stable6
-#: singlefileresource.h:163
+#: singlefileresource.h:167
 #, kde-format
 msgid "Downloading remote file."
 msgstr ""
 
 #. +> trunk6 stable6
-#: singlefileresource.h:186
+#: singlefileresource.h:190
 #, kde-format
 msgid "Trying to write to a read-only file: '%1'."
 msgstr ""
 
 #. +> trunk6 stable6
-#: singlefileresource.h:198
+#: singlefileresource.h:202
 #, kde-format
 msgid "No file specified."
 msgstr ""
 
 #. +> trunk6 stable6
-#: singlefileresource.h:226
+#: singlefileresource.h:230
 #, kde-format
 msgid "A download is still in progress."
 msgstr ""
 
 #. +> trunk6 stable6
-#: singlefileresource.h:266
+#: singlefileresource.h:270
 #, kde-format
 msgid "Uploading cached file to remote location."
 msgstr ""
@@ -287,7 +287,23 @@ msgid "Periodically updates the file. Can be used when monitoring is not availab
 msgstr ""
 
 #. +> trunk6 stable6
-#: singlefileresourceconfigwidgetbase.cpp:131
+#: singlefileresourceconfigwidgetbase.cpp:37
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A file path or URL containing the calendar file. Once created, this location cannot be modified."
+msgstr ""
+
+#. +> trunk6 stable6
+#: singlefileresourceconfigwidgetbase.cpp:39
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the path or URL to a file containing a valid calendar file. "
+"<para><note> Unfortunately, this path cannot be changed once the resource is created. To change the location, delete this resource and then create a new one with the updated path.</note></para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: singlefileresourceconfigwidgetbase.cpp:145
 #, kde-format
 msgctxt "@info:status"
 msgid "Checking file information…"

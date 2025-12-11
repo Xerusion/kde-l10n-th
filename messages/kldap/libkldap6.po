@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkldap\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-09 09:43+0100\n"
+"POT-Creation-Date: 2025-09-23 10:36+0200\n"
 "PO-Revision-Date: 2008-03-22 15:27+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -24,19 +24,19 @@ msgid "No LDAP Support..."
 msgstr "ไม่รองรับการใช้ LDAP..."
 
 #. +> trunk6 stable6
-#: core/ldapconnection.cpp:241
+#: core/ldapconnection.cpp:243
 #, kde-format
 msgid "An error occurred during the connection initialization phase."
 msgstr "เกิดข้อผิดพลาดขึ้นระหว่างทำการเริ่มทำการเชื่อมต่อ"
 
 #. +> trunk6 stable6
-#: core/ldapconnection.cpp:248
+#: core/ldapconnection.cpp:250
 #, kde-format
 msgid "Cannot set protocol version to %1."
 msgstr "ไม่สามารถตั้งค่ารุ่นของโพรโตคอลเป็นรุ่น %1 ได้"
 
 #. +> trunk6 stable6
-#: core/ldapconnection.cpp:259
+#: core/ldapconnection.cpp:261
 #, fuzzy, kde-format
 #| msgid "Cannot set timeout to %1 seconds."
 msgid "Cannot set timeout to %1 second."
@@ -44,56 +44,56 @@ msgid_plural "Cannot set timeout to %1 seconds."
 msgstr[0] "ไม่สามารถตั้งค่าหมดเวลาเป็น %1 วินาทีได้"
 
 #. +> trunk6 stable6
-#: core/ldapconnection.cpp:271
+#: core/ldapconnection.cpp:273
 #, kde-format
 msgid "Could not set CA certificate file."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ldapconnection.cpp:296
+#: core/ldapconnection.cpp:298
 #, kde-format
 msgid "Invalid TLS require certificate mode."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ldapconnection.cpp:301
+#: core/ldapconnection.cpp:303
 #, kde-format
 msgid "Could not set TLS require certificate mode."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ldapconnection.cpp:310
+#: core/ldapconnection.cpp:312
 #, fuzzy, kde-format
 #| msgid "Cannot initialize the SASL client."
 msgid "Could not initialize new TLS context."
 msgstr "ไม่สามารถเริ่มการทำงานของไคลเอนต์ SASL ได้"
 
 #. +> trunk6 stable6
-#: core/ldapconnection.cpp:327
+#: core/ldapconnection.cpp:329
 #, kde-format
 msgid "TLS support not available in the LDAP client libraries."
 msgstr "ไลบรารีของไคลเอนต์ LDAP ไม่รองรับการทำงานกับการเข้ารหัสแบบ TLS"
 
 #. +> trunk6 stable6
-#: core/ldapconnection.cpp:337
+#: core/ldapconnection.cpp:339
 #, kde-format
 msgid "Cannot set size limit."
 msgstr "ไม่สามารถตั้งค่าขนาดจำกัดได้"
 
 #. +> trunk6 stable6
-#: core/ldapconnection.cpp:347
+#: core/ldapconnection.cpp:349
 #, kde-format
 msgid "Cannot set time limit."
 msgstr "ไม่สามารถตั้งค่าเวลาจำกัดได้"
 
 #. +> trunk6 stable6
-#: core/ldapconnection.cpp:355
+#: core/ldapconnection.cpp:357
 #, kde-format
 msgid "Cannot initialize the SASL client."
 msgstr "ไม่สามารถเริ่มการทำงานของไคลเอนต์ SASL ได้"
 
 #. +> trunk6 stable6
-#: core/ldapconnection.cpp:432
+#: core/ldapconnection.cpp:434
 #, kde-format
 msgid "LDAP support not compiled in. Please recompile libkldap with the OpenLDAP (or compatible) client libraries, or complain to your distribution packagers."
 msgstr "ไม่รองรับการทำงานกับ LDAP ตั้งแต่คอมไพล์แล้ว โปรดทำการคอมไพล์ไลบรารี libkldap ร่วมกับ OpenLDAP (หรือเทียบเท่ากัน) ก่อน หรือไม่ก็แจ้งไปยังผู้สร้างแพ็กเกจของคุณ"
@@ -105,7 +105,7 @@ msgid "Cannot access to server. Please reconfigure it."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/addhostdialog.cpp:74
+#: widgets/addhostdialog.cpp:75
 #, fuzzy, kde-format
 #| msgid "Host:"
 msgctxt "@title:window"
@@ -113,25 +113,25 @@ msgid "Add Host"
 msgstr "เครื่องโฮสต์:"
 
 #. +> trunk6 stable6
-#: widgets/addhostdialog.cpp:93
+#: widgets/addhostdialog.cpp:94
 #, kde-format
 msgid "Configure"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/addhostdialog.cpp:102
+#: widgets/addhostdialog.cpp:103
 #, kde-format
 msgid "Activities"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigurewidgetng.cpp:39
+#: widgets/ldapconfigurewidgetng.cpp:38
 #, kde-format
 msgid "Show only ldap servers on current activity"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigurewidgetng.cpp:122
+#: widgets/ldapconfigurewidgetng.cpp:121
 #, fuzzy, kde-format
 #| msgid "Host:"
 msgctxt "@title:window"
@@ -139,27 +139,27 @@ msgid "Edit Host"
 msgstr "เครื่องโฮสต์:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigurewidgetng.cpp:139
+#: widgets/ldapconfigurewidgetng.cpp:138
 #, kde-format
 msgid "Do you want to remove setting for host \"%1\"?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigurewidgetng.cpp:140
+#: widgets/ldapconfigurewidgetng.cpp:139
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove Host"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigurewidgetng.cpp:213
+#: widgets/ldapconfigurewidgetng.cpp:212
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Check all servers that should be used:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigurewidgetng.cpp:261
+#: widgets/ldapconfigurewidgetng.cpp:260
 #, fuzzy, kde-format
 #| msgid "Host:"
 msgctxt "@action:button"
@@ -167,7 +167,7 @@ msgid "&Add Host…"
 msgstr "เครื่องโฮสต์:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigurewidgetng.cpp:263
+#: widgets/ldapconfigurewidgetng.cpp:262
 #, fuzzy, kde-format
 #| msgid "Host:"
 msgctxt "@action:button"
@@ -175,7 +175,7 @@ msgid "&Edit Host…"
 msgstr "เครื่องโฮสต์:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigurewidgetng.cpp:266
+#: widgets/ldapconfigurewidgetng.cpp:265
 #, kde-format
 msgctxt "@action:button"
 msgid "&Remove Host"
@@ -200,75 +200,75 @@ msgid "Realm:"
 msgstr "ขอบเขตของ LDAP:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:120
+#: widgets/ldapconfigwidget.cpp:119
 #, kde-format
 msgid "Password:"
 msgstr "รหัสผ่าน:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:128
+#: widgets/ldapconfigwidget.cpp:127
 #, kde-format
 msgid "Host:"
 msgstr "เครื่องโฮสต์:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:137
+#: widgets/ldapconfigwidget.cpp:136
 #, kde-format
 msgid "Port:"
 msgstr "หมายเลขพอร์ต:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:145
+#: widgets/ldapconfigwidget.cpp:144
 #, kde-format
 msgid "LDAP version:"
 msgstr "รุ่นของ LDAP:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:153
+#: widgets/ldapconfigwidget.cpp:152
 #, kde-format
 msgctxt "default ldap size limit"
 msgid "Default"
 msgstr "ค่าปริยาย"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:154
+#: widgets/ldapconfigwidget.cpp:153
 #, kde-format
 msgid "Size limit:"
 msgstr "ขนาดจำกัดของ LDAP:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:162
+#: widgets/ldapconfigwidget.cpp:161
 #, kde-format
 msgid " sec"
 msgstr " วินาที"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:163
+#: widgets/ldapconfigwidget.cpp:162
 #, kde-format
 msgctxt "default ldap time limit"
 msgid "Default"
 msgstr "ค่าปริยาย"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:164
+#: widgets/ldapconfigwidget.cpp:163
 #, kde-format
 msgid "Time limit:"
 msgstr "เวลาจำกัดของ LDAP:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:172
+#: widgets/ldapconfigwidget.cpp:171
 #, kde-format
 msgid "No paging"
 msgstr "ไม่ทำเพจ"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:173
+#: widgets/ldapconfigwidget.cpp:172
 #, kde-format
 msgid "Page size:"
 msgstr "ขนาดเพจ:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:185 widgets/ldapconfigwidget.cpp:264
+#: widgets/ldapconfigwidget.cpp:184 widgets/ldapconfigwidget.cpp:263
 #, fuzzy, kde-format
 #| msgid "Query Server"
 msgctxt "@action:button"
@@ -276,89 +276,89 @@ msgid "Query Server"
 msgstr "สืบค้นเซิร์ฟเวอร์"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:195
+#: widgets/ldapconfigwidget.cpp:194
 #, kde-format
 msgctxt "Distinguished Name"
 msgid "DN:"
 msgstr "DN:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:203
+#: widgets/ldapconfigwidget.cpp:202
 #, kde-format
 msgid "Filter:"
 msgstr "ตัวกรอง:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:212
+#: widgets/ldapconfigwidget.cpp:211
 #, kde-format
 msgctxt "@option:radio set no security"
 msgid "No"
 msgstr "ไม่ใช้"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:215
+#: widgets/ldapconfigwidget.cpp:214
 #, kde-format
 msgctxt "@option:radio use TLS security"
 msgid "TLS"
 msgstr "ใช้การเข้ารหัสแบบ้ TLS"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:218
+#: widgets/ldapconfigwidget.cpp:217
 #, kde-format
 msgctxt "@option:radio use SSL security"
 msgid "SSL"
 msgstr "ใช้การเข้ารหัสแบบ SSL"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:233
+#: widgets/ldapconfigwidget.cpp:232
 #, fuzzy, kde-format
 #| msgid "Security"
 msgid "Security:"
 msgstr "ความปลอดภัย"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:243
+#: widgets/ldapconfigwidget.cpp:242
 #, kde-format
 msgctxt "@option:radio anonymous authentication"
 msgid "Anonymous"
 msgstr "ผู้ใช้นิรนาม"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:246
+#: widgets/ldapconfigwidget.cpp:245
 #, kde-format
 msgctxt "@option:radio simple authentication"
 msgid "Simple"
 msgstr "พื้นฐาน"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:249
+#: widgets/ldapconfigwidget.cpp:248
 #, kde-format
 msgctxt "@option:radio SASL authentication"
 msgid "SASL"
 msgstr "ผ่านทาง SASL"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:252
+#: widgets/ldapconfigwidget.cpp:251
 #, fuzzy, kde-format
 #| msgid "Authentication"
 msgid "Authentication:"
 msgstr "การตรวจสอบสิทธิ์"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:270
+#: widgets/ldapconfigwidget.cpp:269
 #, kde-format
 msgid "SASL mechanism:"
 msgstr "กลไกตรวจสอบสิทธิ์ของ SASL:"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:314
+#: widgets/ldapconfigwidget.cpp:313
 #, kde-format
 msgctxt "@title:window"
 msgid "Check server"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:320
+#: widgets/ldapconfigwidget.cpp:319
 #, fuzzy, kde-format
 #| msgid "LDAP Query"
 msgctxt "@title:window"
@@ -366,7 +366,7 @@ msgid "LDAP Query"
 msgstr "สืบค้น LDAP"
 
 #. +> trunk6 stable6
-#: widgets/ldapconfigwidget.cpp:334
+#: widgets/ldapconfigwidget.cpp:333
 #, kde-format
 msgctxt "%1 is a url to ldap server"
 msgid "Unknown error connecting %1"

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-04-02 08:51+0200\n"
+"POT-Creation-Date: 2025-12-11 04:44+0100\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -258,6 +258,7 @@ msgstr ""
 #: activities/colors/ActivityInfo.qml:25
 #: activities/comparator/ActivityInfo.qml:27
 #: activities/crane/ActivityInfo.qml:30
+#: activities/drawing_wheels/ActivityInfo.qml:24
 #: activities/enumerate/ActivityInfo.qml:25
 #: activities/fifteen/ActivityInfo.qml:24
 #: activities/find_the_day/ActivityInfo.qml:25
@@ -274,7 +275,7 @@ msgstr ""
 #: activities/graph-coloring/ActivityInfo.qml:25
 #: activities/gravity/ActivityInfo.qml:28
 #: activities/guess24/ActivityInfo.qml:24
-#: activities/guessnumber/ActivityInfo.qml:25
+#: activities/guessnumber/ActivityInfo.qml:24
 #: activities/instruments/ActivityInfo.qml:24
 #: activities/land_safe/ActivityInfo.qml:28
 #: activities/lang/ActivityInfo.qml:33
@@ -330,7 +331,7 @@ msgstr ""
 #: activities/redraw_symmetrical/ActivityInfo.qml:25
 #: activities/roman_numerals/ActivityInfo.qml:25
 #: activities/simplepaint/ActivityInfo.qml:24
-#: activities/sketch/ActivityInfo.qml:28
+#: activities/sketch/ActivityInfo.qml:27
 #: activities/smallnumbers/ActivityInfo.qml:25
 #: activities/smallnumbers2/ActivityInfo.qml:25
 #: activities/solar_system/ActivityInfo.qml:27
@@ -3036,13 +3037,13 @@ msgid "Press the left and right arrow keys at the same time, to make the ball go
 msgstr "กดปุ่ม Shift ทั้งสองปุ่มพร้อมกัน เพื่อทำให้ลูกบอลวิ่งเป็นเส้นตรง"
 
 #. +> trunk6 stable6
-#: activities/ballcatch/Ballcatch.qml:228
+#: activities/ballcatch/Ballcatch.qml:227
 msgctxt "Ballcatch|"
 msgid "Tap both hands at the same time, to make the ball go in a straight line."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/ballcatch/Ballcatch.qml:230
+#: activities/ballcatch/Ballcatch.qml:233
 msgctxt "Ballcatch|"
 msgid "Press left and right arrow keys at the same time, to make the ball go in a straight line."
 msgstr ""
@@ -3166,58 +3167,58 @@ msgid "Turn on the right bulbs to represent the binary of the given decimal numb
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/binary_bulb.js:20
-msgctxt "binary_bulb|"
+#: activities/binary_bulb/BinaryBulb.qml:84
+msgctxt "BinaryBulb|"
 msgid "This activity teaches how to convert decimal numbers to binary numbers."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/binary_bulb.js:24
-msgctxt "binary_bulb|"
+#: activities/binary_bulb/BinaryBulb.qml:88
+msgctxt "BinaryBulb|"
 msgid "Computers use transistors to count and transistors have only two states, 0 and 1. Mathematically, these states are represented by 0 and 1, which makes up the binary system of numeration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/binary_bulb.js:28
-msgctxt "binary_bulb|"
+#: activities/binary_bulb/BinaryBulb.qml:92
+msgctxt "BinaryBulb|"
 msgid "In the activity 0 and 1 are simulated by bulbs, switched on or off."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/binary_bulb.js:32
-msgctxt "binary_bulb|"
+#: activities/binary_bulb/BinaryBulb.qml:96
+msgctxt "BinaryBulb|"
 msgid "Binary system uses these numbers very efficiently, allowing to count from 0 to 255 with 8 bits only."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/binary_bulb.js:36
-msgctxt "binary_bulb|"
+#: activities/binary_bulb/BinaryBulb.qml:100
+msgctxt "BinaryBulb|"
 msgid "Each bit adds a progressive value, corresponding to the powers of 2, ascending from right to left: bit 1 → 2⁰=1 , bit 2 → 2¹=2 , bit 3 → 2²=4 , bit 4 → 2³=8 , bit 5 → 2⁴=16 , bit 6 → 2⁵=32 , bit 7 → 2⁶=64 , bit 8 → 2⁷=128."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/binary_bulb.js:40
-msgctxt "binary_bulb|"
+#: activities/binary_bulb/BinaryBulb.qml:104
+msgctxt "BinaryBulb|"
 msgid "To convert a decimal 5 to a binary value, 1 and 4 are added."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/binary_bulb.js:44
-msgctxt "binary_bulb|"
+#: activities/binary_bulb/BinaryBulb.qml:108
+msgctxt "BinaryBulb|"
 msgid "Their corresponding bits are set to 1, the others are set to 0. Decimal 5 is equal to binary 101."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/binary_bulb.js:48
+#: activities/binary_bulb/BinaryBulb.qml:112
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "The aim is to switch off all the lights."
-msgctxt "binary_bulb|"
+msgctxt "BinaryBulb|"
 msgid "This image will help you to compute bits' value."
 msgstr "เป้าหมายคือ ปิดไฟทุกดวง"
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/BinaryBulb.qml:126
+#: activities/binary_bulb/BinaryBulb.qml:160
 #, qt-format
 msgctxt "BinaryBulb|"
 msgid "What is the binary representation of %1?"
@@ -3974,19 +3975,19 @@ msgid "You are in charge of the canal lock. Open the gates and the locks in the 
 msgstr "คุณมีหน้าที่ดูแลประตูน้ำ ให้เปิดและปิดประตูน้ำในลำดับที่ถูกต้อง เพื่อให้ทักซ์สามารถล่องเรือผ่านประตูต่างๆ ได้ทั้งสองทิศทาง"
 
 #. +> trunk6 stable6
-#: activities/canal_lock/CanalLock.qml:73
+#: activities/canal_lock/CanalLock.qml:74
 msgctxt "CanalLock|"
 msgid "Your goal is to lead Tux across the canal lock to get the wooden logs, using the different types of water locks available."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/canal_lock/CanalLock.qml:75
+#: activities/canal_lock/CanalLock.qml:77
 msgctxt "CanalLock|"
 msgid "The vertical colored bars represent the water locks, which can be operated by clicking on them. Two locks of the same type cannot be operated simultaneously."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/canal_lock/CanalLock.qml:77
+#: activities/canal_lock/CanalLock.qml:80
 msgctxt "CanalLock|"
 msgid "The water level inside the lock will change according to the side of the canal it is connected to. Use this property to help Tux get the job done."
 msgstr ""
@@ -5831,79 +5832,79 @@ msgid "Paints and inks absorb different colors of the light falling on it, subtr
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:90
+#: activities/color_mix/ColorMix.qml:92
 msgctxt "ColorMix|"
 msgid "Match the color"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:222
+#: activities/color_mix/ColorMix.qml:230
 msgctxt "ColorMix|"
 msgid "Not enough red"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:224
+#: activities/color_mix/ColorMix.qml:232
 msgctxt "ColorMix|"
 msgid "Too much red"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:227
+#: activities/color_mix/ColorMix.qml:235
 msgctxt "ColorMix|"
 msgid "Not enough green"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:229
+#: activities/color_mix/ColorMix.qml:237
 msgctxt "ColorMix|"
 msgid "Too much green"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:232
+#: activities/color_mix/ColorMix.qml:240
 msgctxt "ColorMix|"
 msgid "Not enough blue"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:234
+#: activities/color_mix/ColorMix.qml:242
 msgctxt "ColorMix|"
 msgid "Too much blue"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:238
+#: activities/color_mix/ColorMix.qml:246
 msgctxt "ColorMix|"
 msgid "Not enough magenta"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:240
+#: activities/color_mix/ColorMix.qml:248
 msgctxt "ColorMix|"
 msgid "Too much magenta"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:243
+#: activities/color_mix/ColorMix.qml:251
 msgctxt "ColorMix|"
 msgid "Not enough yellow"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:245
+#: activities/color_mix/ColorMix.qml:253
 msgctxt "ColorMix|"
 msgid "Too much yellow"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:248
+#: activities/color_mix/ColorMix.qml:256
 msgctxt "ColorMix|"
 msgid "Not enough cyan"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/color_mix/ColorMix.qml:250
+#: activities/color_mix/ColorMix.qml:258
 msgctxt "ColorMix|"
 msgid "Too much cyan"
 msgstr ""
@@ -7184,6 +7185,301 @@ msgctxt "TutorialDataset|"
 msgid "Light the bulb using both the switches so that the bulb glows only when either the first switch is on and the second switch is off, or when the first switch is off and the second switch is on."
 msgstr ""
 
+#. +> trunk6
+#: activities/drawing_wheels/ActivityConfig.qml:29
+#: activities/sketch/ActivityConfig.qml:29
+#, fuzzy, qt-format
+#| msgctxt "ActivityInfo|"
+#| msgid "Subtraction memory game"
+msgctxt "ActivityConfig|"
+msgid "Number of undo: %1"
+msgstr "เกมความจำผสมลบเลข"
+
+#. +> trunk6
+#: activities/drawing_wheels/ActivityConfig.qml:44
+#: activities/sketch/ActivityConfig.qml:44
+msgctxt "ActivityConfig|"
+msgid "Warning: setting the number of undo too high can make the application crash if your device doesn't have enough memory."
+msgstr ""
+
+#. Activity title
+#. +> trunk6
+#: activities/drawing_wheels/ActivityInfo.qml:14
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Simple Letters"
+msgctxt "ActivityInfo|"
+msgid "Drawing wheels"
+msgstr "ตัวอักษรอย่างง่าย"
+
+# SPDX-FileCopyrightText: 2025 Pongsakorn S. <kde@xerusion.me>
+#. Help title
+#. +> trunk6
+#: activities/drawing_wheels/ActivityInfo.qml:16
+#, fuzzy
+#| msgid ""
+msgctxt "ActivityInfo|"
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-11-19 09:25+0100\n"
+"PO-Revision-Date: 2025-03-03 20:07+0700\n"
+"Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
+"Language-Team: Thai\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Help goal
+#. +> trunk6
+#: activities/drawing_wheels/ActivityInfo.qml:19
+msgctxt "ActivityInfo|"
+msgid "Make beautiful drawings by turning the gear in the cogwheel with the chosen pen."
+msgstr ""
+
+#. Help manual
+#. +> trunk6
+#: activities/drawing_wheels/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid ""
+"Select wheel, gear, pen's position and color from the foldable panels and start the gear.<br>"
+"<br>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/drawing_wheels/ActivityInfo.qml:25
+#: activities/sketch/ActivityInfo.qml:28
+msgctxt "ActivityInfo|"
+msgid "Ctrl + Z: undo last action"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/drawing_wheels/ActivityInfo.qml:26
+#: activities/sketch/ActivityInfo.qml:29
+msgctxt "ActivityInfo|"
+msgid "Ctrl + Y: redo last action"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/drawing_wheels/ActivityInfo.qml:27
+#: activities/sketch/ActivityInfo.qml:30
+#, fuzzy
+#| msgctxt "advanced_colors|"
+#| msgid "Find the coral butterfly"
+msgctxt "ActivityInfo|"
+msgid "Ctrl + S: save the image"
+msgstr "หาผีเสื้อสีแดงปะการัง"
+
+#. +> trunk6
+#: activities/drawing_wheels/ActivityInfo.qml:28
+#, fuzzy
+#| msgctxt "advanced_colors|"
+#| msgid "Find the coral butterfly"
+msgctxt "ActivityInfo|"
+msgid "Ctrl + D: save the drawing"
+msgstr "หาผีเสื้อสีแดงปะการัง"
+
+#. +> trunk6 stable6
+#: activities/drawing_wheels/ActivityInfo.qml:29
+#: activities/sketch/ActivityInfo.qml:31
+msgctxt "ActivityInfo|"
+msgid "Ctrl + O: open an image"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:353
+msgctxt "DrawingWheels|"
+msgid "Save drawing"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:367
+msgctxt "DrawingWheels|"
+msgid "Wheel and gear"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:388
+msgctxt "DrawingWheels|"
+msgid "Pencil's color and width"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:401
+msgctxt "DrawingWheels|"
+msgid "Undo"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:414
+msgctxt "DrawingWheels|"
+msgid "Redo"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:450
+msgctxt "DrawingWheels|"
+msgid "Stop drawing"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:450
+msgctxt "DrawingWheels|"
+msgid "Start drawing"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:482
+msgctxt "DrawingWheels|"
+msgid "Show wheel and gear"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:482
+msgctxt "DrawingWheels|"
+msgid "Hide wheel and gear"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:507
+#, fuzzy
+#| msgctxt "advanced_colors|"
+#| msgid "Find the coral butterfly"
+msgctxt "DrawingWheels|"
+msgid "Save your image"
+msgstr "หาผีเสื้อสีแดงปะการัง"
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:523
+msgctxt "DrawingWheels|"
+msgid "Save as a drawing"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:539
+#, fuzzy
+#| msgctxt "advanced_colors|"
+#| msgid "Find the coral butterfly"
+msgctxt "DrawingWheels|"
+msgid "Open an image"
+msgstr "หาผีเสื้อสีแดงปะการัง"
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:555
+#, fuzzy
+#| msgctxt "advanced_colors|"
+#| msgid "Find the coral butterfly"
+msgctxt "DrawingWheels|"
+msgid "Create a new image"
+msgstr "หาผีเสื้อสีแดงปะการัง"
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:598
+#: activities/drawing_wheels/DrawingWheels.qml:668
+msgctxt "DrawingWheels|"
+msgid "Wheel"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:630
+#: activities/drawing_wheels/DrawingWheels.qml:689
+msgctxt "DrawingWheels|"
+msgid "Gear"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:714
+#, qt-format
+msgctxt "DrawingWheels|"
+msgid "%1 spikes"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:722
+msgctxt "DrawingWheels|"
+msgid "Speed"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:734
+msgctxt "DrawingWheels|"
+msgid "Slow"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:749
+msgctxt "DrawingWheels|"
+msgid "Fast"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:781
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Simple Letters"
+msgctxt "DrawingWheels|"
+msgid "Palettes"
+msgstr "ตัวอักษรอย่างง่าย"
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:861
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Colors"
+msgctxt "DrawingWheels|"
+msgid "Color"
+msgstr "ฝึกแยกแยะสี"
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:888
+msgctxt "DrawingWheels|"
+msgid "Pensize"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:927
+msgctxt "DrawingWheels|"
+msgid "Opacity"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:955
+msgctxt "DrawingWheels|"
+msgid "Distance to center"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:981
+msgctxt "DrawingWheels|"
+msgid "Starting tooth"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:1068
+msgctxt "DrawingWheels|"
+msgid "You did not save this image. Do you want to close this activity?"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:1069
+msgctxt "DrawingWheels|"
+msgid "Do you want to erase this image?"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:1070
+msgctxt "DrawingWheels|"
+msgid "Yes"
+msgstr ""
+
+#. +> trunk6
+#: activities/drawing_wheels/DrawingWheels.qml:1071
+msgctxt "DrawingWheels|"
+msgid "No"
+msgstr ""
+
 #. Activity title
 #. +> trunk6 stable6
 #: activities/drawletters/ActivityInfo.qml:15
@@ -7816,7 +8112,13 @@ msgctxt "board1|"
 msgid "Chichén Itzá"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: activities/explore_monuments/resource/board/board1.qml:20
+msgctxt "board1|"
+msgid "Chichen Itza, meaning “at the mouth of the Itza well”, is a Mayan City on the Yucatan Peninsula in Mexico, between Valladolid and Merida. It was established before the period of Christopher Columbus and probably served as the religion center of Yucatan for a while."
+msgstr ""
+
+#. +> stable6
 #: activities/explore_monuments/resource/board/board1.qml:20
 msgctxt "board1|"
 msgid "Chichen Itza, meaning “at the mouth of the Itza well”, is a Mayan City on the Yucatan Peninsula in Mexico, between Valladolid and Merida. It was established before the period of Christopher Colombus and probably served as the religion center of Yucatan for a while."
@@ -8785,7 +9087,7 @@ msgstr ""
 #. +> trunk6
 #: activities/explore_monuments/resource/board/board9.qml:51
 msgctxt "board9|"
-msgid "Shuri Castle, located in Naha, Okinawa, Japan, is a UNESCO World Heritage Site and a symbol of the Ryukyu Kingdom's rich cultural history. Originally constructed in the 14th century, the castle served as the political, economic, and cultural hub of the kingdom for centuries. Renowned for its distinctive fusion of Chinese and Japanese architectural styles, Shuri Castle features vermillion lacquered structures, ornate decorations, and a commanding hilltop position. Though destroyed during World War II, it was meticulously reconstructed and became a key tourist attraction. Tragically, much of the castle was lost in a fire in 2019, but efforts to restore it are ongoing, reflecting its enduring importance to Okinawa's heritage."
+msgid "Shuri Castle, located in Naha, Okinawa, Japan, is a UNESCO World Heritage Site and a symbol of the Ryukyu Kingdom's rich cultural history. Originally constructed in the 14th century, the castle served as the political, economic, and cultural hub of the kingdom for centuries. Renowned for its distinctive fusion of Chinese and Japanese architectural styles, Shuri Castle features vermilion lacquered structures, ornate decorations, and a commanding hilltop position. Though destroyed during World War II, it was meticulously reconstructed and became a key tourist attraction. Tragically, much of the castle was lost in a fire in 2019, but efforts to restore it are ongoing, reflecting its enduring importance to Okinawa's heritage."
 msgstr ""
 
 #. +> trunk6
@@ -10575,14 +10877,7 @@ msgid "Tab: switch between editing the frieze and viewing the model"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/frieze/Frieze.qml:109
-#, qt-format
-msgctxt "Frieze|"
-msgid "What is the binary representation of %1?"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/frieze/Frieze.qml:288
+#: activities/frieze/Frieze.qml:287
 #, fuzzy
 #| msgctxt "ReadyButton|"
 #| msgid "I am Ready"
@@ -15907,7 +16202,7 @@ msgid "Space, Return or Enter: validate your answer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/graduated_line_read/graduated_line_read.js:115
+#: activities/graduated_line_read/graduated_line_read.js:125
 msgctxt "graduated_line_read|"
 msgid "(variable boundaries)"
 msgstr ""
@@ -15928,6 +16223,16 @@ msgstr "หาผีเสื้อสีน้ำตาลสนิม"
 #| msgid "Guess a number"
 msgctxt "Data|"
 msgid "Number to find between 1 and 5."
+msgstr "เดาตัวเลข"
+
+#. +> trunk6
+#: activities/graduated_line_read/resource/10/Data.qml:9
+#: activities/graduated_line_use/resource/10/Data.qml:9
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Guess a number"
+msgctxt "Data|"
+msgid "Decimal number to find between 0 and 4."
 msgstr "เดาตัวเลข"
 
 #. +> trunk6 stable6
@@ -16191,64 +16496,39 @@ msgid "Backspace: select the previous word"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/grammar_analysis/grammar_analysis.js:37
+#: activities/grammar_analysis/grammar_analysis.js:398
 msgctxt "grammar_analysis|"
+msgid "Empty"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/grammar_analysis/GrammarAnalysis.qml:26
+msgctxt "GrammarAnalysis|"
 msgid "Grammatical analysis"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/grammar_analysis/grammar_analysis.js:38
-#: activities/grammar_analysis/grammar_analysis.js:48
-msgctxt "grammar_analysis|"
+#: activities/grammar_analysis/GrammarAnalysis.qml:27
+msgctxt "GrammarAnalysis|"
 msgid "Learn to identify grammatical classes."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/grammar_analysis/grammar_analysis.js:39
-msgctxt "grammar_analysis|"
+#: activities/grammar_analysis/GrammarAnalysis.qml:28
+msgctxt "GrammarAnalysis|"
 msgid "Find all the words corresponding to the requested grammatical classes."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/grammar_analysis/grammar_analysis.js:40
-msgctxt "grammar_analysis|"
+#: activities/grammar_analysis/GrammarAnalysis.qml:29
+msgctxt "GrammarAnalysis|"
 msgid "Select a grammatical class from the list, then select the box under a word and assign it the class."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/grammar_analysis/grammar_analysis.js:41
-msgctxt "grammar_analysis|"
+#: activities/grammar_analysis/GrammarAnalysis.qml:30
+msgctxt "GrammarAnalysis|"
 msgid "Leave the box blank if no class matches."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/grammar_analysis/grammar_analysis.js:47
-msgctxt "grammar_analysis|"
-msgid "Grammatical classes"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/grammar_analysis/grammar_analysis.js:49
-msgctxt "grammar_analysis|"
-msgid "Find all the words corresponding to the requested grammatical class."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/grammar_analysis/grammar_analysis.js:50
-msgctxt "grammar_analysis|"
-msgid "Select the grammatical class from the list, then select the box under a word and assign it the class."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/grammar_analysis/grammar_analysis.js:51
-msgctxt "grammar_analysis|"
-msgid "Leave the box blank if the class doesn't match."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/grammar_analysis/grammar_analysis.js:421
-msgctxt "grammar_analysis|"
-msgid "Empty"
 msgstr ""
 
 #. Activity title
@@ -16274,6 +16554,36 @@ msgstr ""
 #. +> trunk6 stable6
 #: activities/grammar_classes/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
+msgid "Leave the box blank if the class doesn't match."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/grammar_classes/GrammarClasses.qml:15
+msgctxt "GrammarClasses|"
+msgid "Grammatical classes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/grammar_classes/GrammarClasses.qml:16
+msgctxt "GrammarClasses|"
+msgid "Learn to identify grammatical classes."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/grammar_classes/GrammarClasses.qml:17
+msgctxt "GrammarClasses|"
+msgid "Find all the words corresponding to the requested grammatical class."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/grammar_classes/GrammarClasses.qml:18
+msgctxt "GrammarClasses|"
+msgid "Select the grammatical class from the list, then select the box under a word and assign it the class."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/grammar_classes/GrammarClasses.qml:19
+msgctxt "GrammarClasses|"
 msgid "Leave the box blank if the class doesn't match."
 msgstr ""
 
@@ -16374,31 +16684,31 @@ msgid "Left and Right arrows: move the spaceship"
 msgstr "วาดรูปด้วยการคลิกที่ตัวเลขตามลำดับ"
 
 #. +> trunk6 stable6
-#: activities/gravity/Gravity.qml:219
+#: activities/gravity/Gravity.qml:222
 msgctxt "Gravity|"
 msgid "Gravity is universal and Newton's law of universal gravitation extends gravity beyond earth. This force of gravitational attraction is directly dependent upon the mass of both objects and inversely proportional to the square of the distance between their centers."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/gravity/Gravity.qml:223
+#: activities/gravity/Gravity.qml:225
 msgctxt "Gravity|"
 msgid "Since the gravitational force is directly proportional to the mass of both interacting objects, more massive objects will attract each other with a greater gravitational force."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/gravity/Gravity.qml:226
+#: activities/gravity/Gravity.qml:228
 msgctxt "Gravity|"
 msgid "But as this force is inversely proportional to the square of the distance between the two interacting objects, more distance will result in weaker gravitational force."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/gravity/Gravity.qml:229
+#: activities/gravity/Gravity.qml:231
 msgctxt "Gravity|"
 msgid "Your goal is to move the spaceship and avoid hitting the planets until you reach the space station. The arrow indicates the direction and the intensity of the gravity on your ship."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/gravity/Gravity.qml:232
+#: activities/gravity/Gravity.qml:234
 msgctxt "Gravity|"
 msgid "Try to stay near the center of the screen, and anticipate by looking at the size and direction of the arrow."
 msgstr ""
@@ -16696,7 +17006,7 @@ msgstr "แบบฝึกหัดการบวกเลข"
 
 #. Help manual
 #. +> trunk6 stable6
-#: activities/guessnumber/ActivityInfo.qml:24
+#: activities/guessnumber/ActivityInfo.qml:23
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Read the instructions that give you the range of the number to find. Enter a number in the top right blue entry box. Tux will tell you if your number is higher or lower. Then enter another number. The distance between Tux and the escape area on the right represents how far you are from the correct number. If Tux is over or under the escape area, it means your number is over or under the correct number."
@@ -16705,7 +17015,7 @@ msgid "Read the instructions that give you the range of the number to find. Ente
 msgstr "อ่านคำสั่งที่จะให้ช่วงของตัวเลขที่จะให้คุณค้นหา ให้ป้อนตัวเลขในช่องป้อนสีน้ำเงินที่มุมบนขวา ทักซ์จะบอกคุณว่าตัวเลขที่คุณทายนั้นสูงหรือต่ำเกินไป จากนั้น ป้อนตัวเลขอื่นอีก ระยะห่างระหว่างทักซ์กับช่องทางหนีทางด้านขวา จะแทนความห่างของคำตอบของคุณกับตัวเลขที่ถูกต้อง ถ้าทักซ์อยู่บนหรือล่างช่องทางหนี ก็หมายถึงว่าตัวเลขที่คุณทายนั้นสูงหรือต่ำกว่าตัวเลขที่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: activities/guessnumber/ActivityInfo.qml:26
+#: activities/guessnumber/ActivityInfo.qml:25
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Subtraction memory game"
@@ -16714,7 +17024,7 @@ msgid "Digits: enter a number"
 msgstr "เกมความจำผสมลบเลข"
 
 #. +> trunk6 stable6
-#: activities/guessnumber/ActivityInfo.qml:27
+#: activities/guessnumber/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Backspace: erase a number"
 msgstr ""
@@ -16830,20 +17140,20 @@ msgid "Attempted: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/hangman/Hangman.qml:369
+#: activities/hangman/Hangman.qml:371
 msgctxt "Hangman|"
 msgid "We are sorry, we don't have yet a translation for your language."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/hangman/Hangman.qml:370
+#: activities/hangman/Hangman.qml:372
 #, qt-format
 msgctxt "Hangman|"
 msgid "GCompris is developed by the KDE community, you can translate GCompris by joining a translation team on <a href=\"%2\">%2</a>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/hangman/Hangman.qml:372
+#: activities/hangman/Hangman.qml:374
 msgctxt "Hangman|"
 msgid "We switched to English for this activity but you can select another language in the configuration dialog."
 msgstr ""
@@ -18078,90 +18388,47 @@ msgid "A decimal number is displayed. Drag the arrow to select a part of the uni
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/learn_decimals.js:33
-msgctxt "learn_decimals|"
+#: activities/learn_decimals/Learn_decimals.qml:30
+msgctxt "Learn_decimals|"
 msgid "A decimal number is displayed. The bar with the arrow represents a full unit, and each square in it represents one tenth of this unit."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/learn_decimals.js:37
-msgctxt "learn_decimals|"
+#: activities/learn_decimals/Learn_decimals.qml:34
+msgctxt "Learn_decimals|"
 msgid "Drag the arrow to select a part of the bar, and drag the selected part of the bar to the empty area. Repeat these steps until the number of dropped bars corresponds to the displayed decimal number. Then click on the OK button to validate your answer."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/learn_decimals.js:44
-msgctxt "learn_decimals|"
-msgid "A subtraction with two decimal numbers is displayed. Below it, the first number from the subtraction is represented with bars. One bar represents a full unit, and each square in it represents one tenth of this unit."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/learn_decimals/learn_decimals.js:48
-msgctxt "learn_decimals|"
-msgid "Click on the squares to subtract them and display the result of the operation, and click on the OK button to validate your answer."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/learn_decimals/learn_decimals.js:52
-#: activities/learn_decimals/learn_decimals.js:67
-msgctxt "learn_decimals|"
-msgid "If the answer is correct, type the corresponding result, and click on the OK button to validate your answer."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/learn_decimals/learn_decimals.js:59
-msgctxt "learn_decimals|"
-msgid "An addition with two decimal numbers is displayed. The bar with the arrow represents a full unit, and each square in it represents one tenth of this unit."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/learn_decimals/learn_decimals.js:63
-msgctxt "learn_decimals|"
-msgid "Drag the arrow to select a part of the bar, and drag the selected part of the bar to the empty area. Repeat these steps until the number of dropped bars corresponds to the result of the addition, and click on the OK button to validate your answer."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/learn_decimals/learn_decimals.js:74
-msgctxt "learn_decimals|"
-msgid "A quantity is requested. The arrow allows to select up to 10 oranges."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/learn_decimals/learn_decimals.js:78
-msgctxt "learn_decimals|"
-msgid "Drag the arrow to select a number of oranges, and drag the selected oranges to the empty area. Repeat these steps until the number of oranges corresponds to the requested quantity. Then click on the OK button to validate your answer."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/learn_decimals/Learn_decimals.qml:142
+#: activities/learn_decimals/Learn_decimals.qml:150
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Display the number: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/Learn_decimals.qml:143
+#: activities/learn_decimals/Learn_decimals.qml:151
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Display the result of: %1 + %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/Learn_decimals.qml:144
+#: activities/learn_decimals/Learn_decimals.qml:152
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Display the result of: %1 - %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/Learn_decimals.qml:145
+#: activities/learn_decimals/Learn_decimals.qml:153
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Represent the quantity: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/Learn_decimals.qml:602
+#: activities/learn_decimals/Learn_decimals.qml:610
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Enter the result: %1"
@@ -18238,6 +18505,24 @@ msgid "Numbers: type the result"
 msgstr ""
 
 #. +> trunk6 stable6
+#: activities/learn_decimals_additions/Learn_decimals_additions.qml:16
+msgctxt "Learn_decimals_additions|"
+msgid "An addition with two decimal numbers is displayed. The bar with the arrow represents a full unit, and each square in it represents one tenth of this unit."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/learn_decimals_additions/Learn_decimals_additions.qml:20
+msgctxt "Learn_decimals_additions|"
+msgid "Drag the arrow to select a part of the bar, and drag the selected part of the bar to the empty area. Repeat these steps until the number of dropped bars corresponds to the result of the addition, and click on the OK button to validate your answer."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/learn_decimals_additions/Learn_decimals_additions.qml:24
+msgctxt "Learn_decimals_additions|"
+msgid "If the answer is correct, type the corresponding result, and click on the OK button to validate your answer."
+msgstr ""
+
+#. +> trunk6 stable6
 #: activities/learn_decimals_additions/resource/1/Data.qml:13
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -18299,6 +18584,24 @@ msgstr "เกมความจำผสมลบเลข"
 #: activities/learn_decimals_subtractions/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "A subtraction with two decimal numbers is displayed. The first number from the subtraction is represented with bars. Each bar represents one unit, and each square in the bar represent one tenth of this unit. Click on the squares to subtract the second number and represent the result of the operation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/learn_decimals_subtractions/Learn_decimals_subtractions.qml:16
+msgctxt "Learn_decimals_subtractions|"
+msgid "A subtraction with two decimal numbers is displayed. Below it, the first number from the subtraction is represented with bars. One bar represents a full unit, and each square in it represents one tenth of this unit."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/learn_decimals_subtractions/Learn_decimals_subtractions.qml:20
+msgctxt "Learn_decimals_subtractions|"
+msgid "Click on the squares to subtract them and display the result of the operation, and click on the OK button to validate your answer."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/learn_decimals_subtractions/Learn_decimals_subtractions.qml:24
+msgctxt "Learn_decimals_subtractions|"
+msgid "If the answer is correct, type the corresponding result, and click on the OK button to validate your answer."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -18510,6 +18813,18 @@ msgstr ""
 #: activities/learn_quantities/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "A quantity is requested. Drag the arrow to select a number of oranges, and drag the selected oranges to the empty area. Repeat these steps until the number of dropped oranges corresponds to the requested quantity. Then click on the OK button to validate your answer."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/learn_quantities/Learn_quantities.qml:16
+msgctxt "Learn_quantities|"
+msgid "A quantity is requested. The arrow allows to select up to 10 oranges."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/learn_quantities/Learn_quantities.qml:20
+msgctxt "Learn_quantities|"
+msgid "Drag the arrow to select a number of oranges, and drag the selected oranges to the empty area. Repeat these steps until the number of oranges corresponds to the requested quantity. Then click on the OK button to validate your answer."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -18815,20 +19130,20 @@ msgid "A letter is displayed on the flag attached to the plane. Select all the w
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/letter-in-word/LetterInWord.qml:333
+#: activities/letter-in-word/LetterInWord.qml:335
 msgctxt "LetterInWord|"
 msgid "We are sorry, we don't have yet a translation for your language."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/letter-in-word/LetterInWord.qml:334
+#: activities/letter-in-word/LetterInWord.qml:336
 #, qt-format
 msgctxt "LetterInWord|"
 msgid "GCompris is developed by the KDE community, you can translate GCompris by joining a translation team on <a href=\"%2\">%2</a>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/letter-in-word/LetterInWord.qml:336
+#: activities/letter-in-word/LetterInWord.qml:338
 msgctxt "LetterInWord|"
 msgid "We switched to English for this activity but you can select another language in the configuration dialog."
 msgstr ""
@@ -19018,7 +19333,13 @@ msgctxt "louis_braille_data|"
 msgid "He became a teacher after graduating and promoted his method while secretly teaching it at the Institute."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: activities/louis-braille/louis_braille_data.js:52
+msgctxt "louis_braille_data|"
+msgid "He revised and extended braille to include mathematics, symbols, punctuation and music notations."
+msgstr ""
+
+#. +> stable6
 #: activities/louis-braille/louis_braille_data.js:52
 msgctxt "louis_braille_data|"
 msgid "He revised and extended braille to include mathematics, symbols, punctuations and music notations."
@@ -19350,7 +19671,7 @@ msgid "At higher levels, run-fast-mode will be enabled automatically. If you wan
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/maze/Maze.qml:340
+#: activities/maze/Maze.qml:346
 msgctxt "Maze|"
 msgid "Look at your position, then switch back to invisible mode to continue your moves"
 msgstr "ดูตำแหน่งของคุณ แล้วกลับไปยังรูปแบบมองไม่เห็นเพื่อเล่นต่อไป"
@@ -19489,19 +19810,19 @@ msgid "Listen to the sound sequence played, and repeat it by clicking on the xyl
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/melody/Melody.qml:334
+#: activities/melody/Melody.qml:338
 msgctxt "Melody|"
 msgid "This activity requires sound, so it will play some sounds even if the audio voices or effects are disabled in the main configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/melody/Melody.qml:335
+#: activities/melody/Melody.qml:339
 msgctxt "Melody|"
 msgid "Quit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/melody/Melody.qml:336
+#: activities/melody/Melody.qml:340
 msgctxt "Melody|"
 msgid "Continue"
 msgstr ""
@@ -21018,19 +21339,19 @@ msgid "÷"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/memory/MemoryCommon.qml:356
+#: activities/memory/MemoryCommon.qml:363
 msgctxt "MemoryCommon|"
 msgid "This activity requires sound, so it will play some sounds even if the audio voices or effects are disabled in the main configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/memory/MemoryCommon.qml:357
+#: activities/memory/MemoryCommon.qml:364
 msgctxt "MemoryCommon|"
 msgid "Quit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/memory/MemoryCommon.qml:358
+#: activities/memory/MemoryCommon.qml:365
 msgctxt "MemoryCommon|"
 msgid "Continue"
 msgstr ""
@@ -21198,21 +21519,21 @@ msgid "Background music"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/menu/BackgroundMusicList.qml:136
+#: activities/menu/BackgroundMusicList.qml:140
 msgctxt "BackgroundMusicList|"
 msgid "Disable the background music if you don't want to play them."
 msgstr ""
 
 #. Current background music playing
 #. +> trunk6 stable6
-#: activities/menu/BackgroundMusicList.qml:173
+#: activities/menu/BackgroundMusicList.qml:177
 msgctxt "BackgroundMusicList|"
 msgid "Now Playing:"
 msgstr ""
 
 #. Title of the current background music playing
 #. +> trunk6 stable6
-#: activities/menu/BackgroundMusicList.qml:181
+#: activities/menu/BackgroundMusicList.qml:185
 #, qt-format
 msgctxt "BackgroundMusicList|"
 msgid "Title: %1"
@@ -21220,7 +21541,7 @@ msgstr ""
 
 #. Artist of the current background music playing
 #. +> trunk6 stable6
-#: activities/menu/BackgroundMusicList.qml:189
+#: activities/menu/BackgroundMusicList.qml:193
 #, qt-format
 msgctxt "BackgroundMusicList|"
 msgid "Artist: %1"
@@ -21228,7 +21549,7 @@ msgstr ""
 
 #. Year of the current background music playing
 #. +> trunk6 stable6
-#: activities/menu/BackgroundMusicList.qml:197
+#: activities/menu/BackgroundMusicList.qml:201
 #, qt-format
 msgctxt "BackgroundMusicList|"
 msgid "Year: %1"
@@ -21236,7 +21557,7 @@ msgstr ""
 
 #. Copyright of the current background music playing
 #. +> trunk6 stable6
-#: activities/menu/BackgroundMusicList.qml:205
+#: activities/menu/BackgroundMusicList.qml:209
 #, qt-format
 msgctxt "BackgroundMusicList|"
 msgid "Copyright: %1"
@@ -21622,49 +21943,49 @@ msgid "metalpaint.wav - remixed and used when a gold nugget is collected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/mining/Mining.qml:442
+#: activities/mining/Mining.qml:447
 msgctxt "Mining|"
 msgid "Find the sparkle and zoom in around it. If you have a mouse, point the cursor on the sparkle then use the scroll wheel. If you have a trackpad, point the cursor on the sparkle then drag one finger on the right area or two fingers on the center. On a touch area, drag two fingers away from the sparkle, one in each direction."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/mining/Mining.qml:458
+#: activities/mining/Mining.qml:463
 msgctxt "Mining|"
 msgid "Perfect you are zooming. Continue until you see the nugget."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/mining/Mining.qml:466
+#: activities/mining/Mining.qml:471
 msgctxt "Mining|"
 msgid "Hum, take care, you are zooming too far from the sparkle."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/mining/Mining.qml:474
+#: activities/mining/Mining.qml:479
 msgctxt "Mining|"
 msgid "Now you see the nugget, click on it to catch it."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/mining/Mining.qml:482
+#: activities/mining/Mining.qml:487
 msgctxt "Mining|"
 msgid "Hum, you are too far from the nugget to see it. Unzoom then zoom again as close as you can from the sparkle."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/mining/Mining.qml:490
+#: activities/mining/Mining.qml:495
 msgctxt "Mining|"
 msgid "Now unzoom and try to find another sparkle."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/mining/Mining.qml:498
+#: activities/mining/Mining.qml:503
 msgctxt "Mining|"
 msgid "Continue to unzoom until you see the sparkle."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/mining/Mining.qml:506
+#: activities/mining/Mining.qml:511
 msgctxt "Mining|"
 msgid "Now you see the sparkle, go ahead, you can zoom on it."
 msgstr ""
@@ -22214,77 +22535,77 @@ msgid "Play with Tux. First take turns to place nine pieces, and then take turns
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/nine_men_morris/nine_men_morris.js:29
-msgctxt "nine_men_morris|"
-msgid "You and Tux start with 9 pieces each, and take turns to place your pieces on the empty spots of the board (by clicking on the spots)."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/nine_men_morris/nine_men_morris.js:33
-msgctxt "nine_men_morris|"
-msgid "If you form a mill (line of 3 pieces), then select one of Tux's pieces to remove it. Pieces of formed mill can not be removed unless no other pieces are left on the board."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/nine_men_morris/nine_men_morris.js:37
-msgctxt "nine_men_morris|"
-msgid "After all the pieces are placed, you and Tux will take turns to move them. Click on one of your pieces, and then on an adjacent empty spot to move it there. Green color spots indicates where you can move."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/nine_men_morris/nine_men_morris.js:41
-msgctxt "nine_men_morris|"
-msgid "If you are left with 3 pieces, they gain the ability to 'fly' and can be moved to any vacant spot on the board."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/nine_men_morris/nine_men_morris.js:45
-msgctxt "nine_men_morris|"
-msgid "If you immobilize the computer or leave it with less than 3 pieces, then you win the game."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/nine_men_morris/nine_men_morris.js:262
-#: activities/nine_men_morris/nine_men_morris.js:1108
+#: activities/nine_men_morris/nine_men_morris.js:240
+#: activities/nine_men_morris/nine_men_morris.js:1086
 msgctxt "nine_men_morris|"
 msgid "Place a piece"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/nine_men_morris/nine_men_morris.js:388
-#: activities/nine_men_morris/nine_men_morris.js:1166
+#: activities/nine_men_morris/nine_men_morris.js:366
+#: activities/nine_men_morris/nine_men_morris.js:1144
 msgctxt "nine_men_morris|"
 msgid "Move a piece"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/nine_men_morris/nine_men_morris.js:940
+#: activities/nine_men_morris/nine_men_morris.js:918
 msgctxt "nine_men_morris|"
 msgid "Remove a piece"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/nine_men_morris/nine_men_morris.js:1143
+#: activities/nine_men_morris/nine_men_morris.js:1121
 msgctxt "nine_men_morris|"
 msgid "Congratulations"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/nine_men_morris/nine_men_morris.js:1146
+#: activities/nine_men_morris/nine_men_morris.js:1124
 msgctxt "nine_men_morris|"
 msgid "Congratulations Player 1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/nine_men_morris/nine_men_morris.js:1157
+#: activities/nine_men_morris/nine_men_morris.js:1135
 msgctxt "nine_men_morris|"
 msgid "Congratulations Player 2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/nine_men_morris/nine_men_morris.js:1160
+#: activities/nine_men_morris/nine_men_morris.js:1138
 msgctxt "nine_men_morris|"
 msgid "Try again"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/nine_men_morris/NineMenMorris.qml:348
+msgctxt "NineMenMorris|"
+msgid "You and Tux start with 9 pieces each, and take turns to place your pieces on the empty spots of the board (by clicking on the spots)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/nine_men_morris/NineMenMorris.qml:352
+msgctxt "NineMenMorris|"
+msgid "If you form a mill (line of 3 pieces), then select one of Tux's pieces to remove it. Pieces of formed mill can not be removed unless no other pieces are left on the board."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/nine_men_morris/NineMenMorris.qml:356
+msgctxt "NineMenMorris|"
+msgid "After all the pieces are placed, you and Tux will take turns to move them. Click on one of your pieces, and then on an adjacent empty spot to move it there. Green color spots indicates where you can move."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/nine_men_morris/NineMenMorris.qml:360
+msgctxt "NineMenMorris|"
+msgid "If you are left with 3 pieces, they gain the ability to 'fly' and can be moved to any vacant spot on the board."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/nine_men_morris/NineMenMorris.qml:364
+msgctxt "NineMenMorris|"
+msgid "If you immobilize the computer or leave it with less than 3 pieces, then you win the game."
 msgstr ""
 
 #. Activity title
@@ -22340,7 +22661,7 @@ msgid "Identify the notes, play them on the piano keyboard, and achieve a score 
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/note_names/NoteNames.qml:185
+#: activities/note_names/NoteNames.qml:201
 #, qt-format
 msgctxt "NoteNames|"
 msgid "New note: %1"
@@ -22348,26 +22669,26 @@ msgstr ""
 
 #. The following translation represents percentage.
 #. +> trunk6 stable6
-#: activities/note_names/NoteNames.qml:254
+#: activities/note_names/NoteNames.qml:271
 #, qt-format
 msgctxt "NoteNames|"
 msgid "%1%"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/note_names/NoteNames.qml:431
+#: activities/note_names/NoteNames.qml:449
 msgctxt "NoteNames|"
 msgid "This activity requires sound, so it will play some sounds even if the audio voices or effects are disabled in the main configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/note_names/NoteNames.qml:432
+#: activities/note_names/NoteNames.qml:450
 msgctxt "NoteNames|"
 msgid "Quit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/note_names/NoteNames.qml:433
+#: activities/note_names/NoteNames.qml:451
 msgctxt "NoteNames|"
 msgid "Continue"
 msgstr ""
@@ -22456,7 +22777,7 @@ msgid "Follow the instructions: catch the clouds with an odd or even number in t
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/numbers-odd-even/NumbersOddEven.qml:14
+#: activities/numbers-odd-even/NumbersOddEven.qml:15
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Subtraction memory game"
@@ -22465,7 +22786,7 @@ msgid "Catch the even numbers."
 msgstr "เกมความจำผสมลบเลข"
 
 #. +> trunk6 stable6
-#: activities/numbers-odd-even/NumbersOddEven.qml:15
+#: activities/numbers-odd-even/NumbersOddEven.qml:16
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Practice the addition operation"
@@ -22474,14 +22795,14 @@ msgid "Catch the odd numbers."
 msgstr "แบบฝึกหัดการบวกเลข"
 
 #. +> trunk6 stable6
-#: activities/numbers-odd-even/NumbersOddEven.qml:42
+#: activities/numbers-odd-even/NumbersOddEven.qml:43
 msgctxt "NumbersOddEven|"
 msgid "This activity teaches about even and odd numbers."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/numbers-odd-even/NumbersOddEven.qml:46
-#: activities/numbers-odd-even/NumbersOddEven.qml:56
+#: activities/numbers-odd-even/NumbersOddEven.qml:47
+#: activities/numbers-odd-even/NumbersOddEven.qml:55
 msgctxt "NumbersOddEven|"
 msgid "Even numbers are numbers which leave a remainder of 0 when divided by 2."
 msgstr ""
@@ -22493,15 +22814,15 @@ msgid "What is meant by remainder?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/numbers-odd-even/NumbersOddEven.qml:60
+#: activities/numbers-odd-even/NumbersOddEven.qml:59
 msgctxt "NumbersOddEven|"
 msgid "Odd numbers are numbers which do not leave a remainder of 0 when divided by 2."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/numbers-odd-even/NumbersOddEven.qml:64
-#: activities/numbers-odd-even/NumbersOddEven.qml:68
-#: activities/numbers-odd-even/NumbersOddEven.qml:72
+#: activities/numbers-odd-even/NumbersOddEven.qml:63
+#: activities/numbers-odd-even/NumbersOddEven.qml:67
+#: activities/numbers-odd-even/NumbersOddEven.qml:71
 msgctxt "NumbersOddEven|"
 msgid "Exercise to test your understanding."
 msgstr ""
@@ -22528,7 +22849,7 @@ msgid "For example: 15, 19, 51, 65, 103, 119, 169, 185, 505, 533, 701, 799, 845,
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/numbers-odd-even/resource/TutorialBase.qml:31
+#: activities/numbers-odd-even/resource/TutorialBase.qml:33
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Subtraction memory game"
@@ -22537,29 +22858,29 @@ msgid "Choose the even number:"
 msgstr "เกมความจำผสมลบเลข"
 
 #. +> trunk6 stable6
-#: activities/numbers-odd-even/resource/TutorialBase.qml:31
+#: activities/numbers-odd-even/resource/TutorialBase.qml:33
 msgctxt "TutorialBase|"
 msgid "Choose the odd number:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/numbers-odd-even/resource/TutorialBase.qml:56
-#: activities/numbers-odd-even/resource/TutorialBase.qml:86
+#: activities/numbers-odd-even/resource/TutorialBase.qml:57
+#: activities/numbers-odd-even/resource/TutorialBase.qml:87
 msgctxt "TutorialBase|"
 msgid "Great"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/numbers-odd-even/resource/TutorialBase.qml:60
-#: activities/numbers-odd-even/resource/TutorialBase.qml:90
+#: activities/numbers-odd-even/resource/TutorialBase.qml:61
+#: activities/numbers-odd-even/resource/TutorialBase.qml:91
 #, qt-format
 msgctxt "TutorialBase|"
 msgid "There is an error: when divided by 2, %1 leaves a remainder of 1. Therefore this is an odd number."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/numbers-odd-even/resource/TutorialBase.qml:63
-#: activities/numbers-odd-even/resource/TutorialBase.qml:93
+#: activities/numbers-odd-even/resource/TutorialBase.qml:64
+#: activities/numbers-odd-even/resource/TutorialBase.qml:94
 #, qt-format
 msgctxt "TutorialBase|"
 msgid "There is an error: when divided by 2, %1 leaves a remainder of 0. Therefore this is an even number."
@@ -23939,25 +24260,25 @@ msgid "Melody saved to your file (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/piano_composition/Piano_composition.qml:335
+#: activities/piano_composition/Piano_composition.qml:369
 msgctxt "Piano_composition|"
 msgid "You have not selected any note. Do you want to erase all the notes?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/piano_composition/Piano_composition.qml:336
+#: activities/piano_composition/Piano_composition.qml:370
 msgctxt "Piano_composition|"
 msgid "Yes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/piano_composition/Piano_composition.qml:342
+#: activities/piano_composition/Piano_composition.qml:376
 msgctxt "Piano_composition|"
 msgid "No"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/piano_composition/Piano_composition.qml:392
+#: activities/piano_composition/Piano_composition.qml:423
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -23966,31 +24287,31 @@ msgid "Select the type of melody to load."
 msgstr "กดเลือกสีที่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: activities/piano_composition/Piano_composition.qml:397
+#: activities/piano_composition/Piano_composition.qml:428
 msgctxt "Piano_composition|"
 msgid "Pre-defined melodies"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/piano_composition/Piano_composition.qml:415
+#: activities/piano_composition/Piano_composition.qml:446
 msgctxt "Piano_composition|"
 msgid "Your saved melodies"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/piano_composition/Piano_composition.qml:519
+#: activities/piano_composition/Piano_composition.qml:550
 msgctxt "Piano_composition|"
 msgid "This activity requires sound, so it will play some sounds even if the audio voices or effects are disabled in the main configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/piano_composition/Piano_composition.qml:520
+#: activities/piano_composition/Piano_composition.qml:551
 msgctxt "Piano_composition|"
 msgid "Quit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/piano_composition/Piano_composition.qml:521
+#: activities/piano_composition/Piano_composition.qml:552
 msgctxt "Piano_composition|"
 msgid "Continue"
 msgstr ""
@@ -24080,9 +24401,10 @@ msgstr ""
 #: activities/piano_composition/PianoOctaveKeyboard.qml:86
 #: activities/piano_composition/PianoOctaveKeyboard.qml:91
 #: activities/piano_composition/PianoOctaveKeyboard.qml:96
+#: activities/piano_composition/PianoOctaveKeyboard.qml:101
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
-msgid "C♯%1"
+msgid "F♯%1"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -24090,84 +24412,99 @@ msgstr ""
 #: activities/piano_composition/PianoOctaveKeyboard.qml:87
 #: activities/piano_composition/PianoOctaveKeyboard.qml:92
 #: activities/piano_composition/PianoOctaveKeyboard.qml:97
-#, qt-format
-msgctxt "PianoOctaveKeyboard|"
-msgid "D♯%1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/piano_composition/PianoOctaveKeyboard.qml:83
-#: activities/piano_composition/PianoOctaveKeyboard.qml:88
-#: activities/piano_composition/PianoOctaveKeyboard.qml:93
-#, qt-format
-msgctxt "PianoOctaveKeyboard|"
-msgid "F♯%1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/piano_composition/PianoOctaveKeyboard.qml:84
-#: activities/piano_composition/PianoOctaveKeyboard.qml:89
-#: activities/piano_composition/PianoOctaveKeyboard.qml:94
+#: activities/piano_composition/PianoOctaveKeyboard.qml:102
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "G♯%1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/piano_composition/PianoOctaveKeyboard.qml:85
-#: activities/piano_composition/PianoOctaveKeyboard.qml:90
-#: activities/piano_composition/PianoOctaveKeyboard.qml:95
+#: activities/piano_composition/PianoOctaveKeyboard.qml:83
+#: activities/piano_composition/PianoOctaveKeyboard.qml:88
+#: activities/piano_composition/PianoOctaveKeyboard.qml:93
+#: activities/piano_composition/PianoOctaveKeyboard.qml:98
+#: activities/piano_composition/PianoOctaveKeyboard.qml:103
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "A♯%1"
 msgstr ""
 
+#. +> trunk6 stable6
+#: activities/piano_composition/PianoOctaveKeyboard.qml:84
+#: activities/piano_composition/PianoOctaveKeyboard.qml:89
+#: activities/piano_composition/PianoOctaveKeyboard.qml:94
+#: activities/piano_composition/PianoOctaveKeyboard.qml:99
+#: activities/piano_composition/PianoOctaveKeyboard.qml:104
+#, qt-format
+msgctxt "PianoOctaveKeyboard|"
+msgid "C♯%1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/piano_composition/PianoOctaveKeyboard.qml:85
+#: activities/piano_composition/PianoOctaveKeyboard.qml:90
+#: activities/piano_composition/PianoOctaveKeyboard.qml:95
+#: activities/piano_composition/PianoOctaveKeyboard.qml:100
+#: activities/piano_composition/PianoOctaveKeyboard.qml:105
+#, qt-format
+msgctxt "PianoOctaveKeyboard|"
+msgid "D♯%1"
+msgstr ""
+
 #. Translators, D♭, E♭, G♭, A♭, B♭ are the note notations in English musical notation system. The numbers in the arguments represents the octave number of the note. For instance, D♭4 is a D♭ note in the 4th octave.
 #. +> trunk6 stable6
-#: activities/piano_composition/PianoOctaveKeyboard.qml:102
-#: activities/piano_composition/PianoOctaveKeyboard.qml:107
-#: activities/piano_composition/PianoOctaveKeyboard.qml:112
-#: activities/piano_composition/PianoOctaveKeyboard.qml:117
-#, qt-format
-msgctxt "PianoOctaveKeyboard|"
-msgid "D♭%1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/piano_composition/PianoOctaveKeyboard.qml:103
-#: activities/piano_composition/PianoOctaveKeyboard.qml:108
-#: activities/piano_composition/PianoOctaveKeyboard.qml:113
-#: activities/piano_composition/PianoOctaveKeyboard.qml:118
-#, qt-format
-msgctxt "PianoOctaveKeyboard|"
-msgid "E♭%1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/piano_composition/PianoOctaveKeyboard.qml:104
-#: activities/piano_composition/PianoOctaveKeyboard.qml:109
-#: activities/piano_composition/PianoOctaveKeyboard.qml:114
+#: activities/piano_composition/PianoOctaveKeyboard.qml:110
+#: activities/piano_composition/PianoOctaveKeyboard.qml:115
+#: activities/piano_composition/PianoOctaveKeyboard.qml:120
+#: activities/piano_composition/PianoOctaveKeyboard.qml:125
+#: activities/piano_composition/PianoOctaveKeyboard.qml:130
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "G♭%1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/piano_composition/PianoOctaveKeyboard.qml:105
-#: activities/piano_composition/PianoOctaveKeyboard.qml:110
-#: activities/piano_composition/PianoOctaveKeyboard.qml:115
+#: activities/piano_composition/PianoOctaveKeyboard.qml:111
+#: activities/piano_composition/PianoOctaveKeyboard.qml:116
+#: activities/piano_composition/PianoOctaveKeyboard.qml:121
+#: activities/piano_composition/PianoOctaveKeyboard.qml:126
+#: activities/piano_composition/PianoOctaveKeyboard.qml:131
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "A♭%1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/piano_composition/PianoOctaveKeyboard.qml:106
-#: activities/piano_composition/PianoOctaveKeyboard.qml:111
-#: activities/piano_composition/PianoOctaveKeyboard.qml:116
+#: activities/piano_composition/PianoOctaveKeyboard.qml:112
+#: activities/piano_composition/PianoOctaveKeyboard.qml:117
+#: activities/piano_composition/PianoOctaveKeyboard.qml:122
+#: activities/piano_composition/PianoOctaveKeyboard.qml:127
+#: activities/piano_composition/PianoOctaveKeyboard.qml:132
 #, qt-format
 msgctxt "PianoOctaveKeyboard|"
 msgid "B♭%1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/piano_composition/PianoOctaveKeyboard.qml:113
+#: activities/piano_composition/PianoOctaveKeyboard.qml:118
+#: activities/piano_composition/PianoOctaveKeyboard.qml:123
+#: activities/piano_composition/PianoOctaveKeyboard.qml:128
+#: activities/piano_composition/PianoOctaveKeyboard.qml:133
+#, qt-format
+msgctxt "PianoOctaveKeyboard|"
+msgid "D♭%1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/piano_composition/PianoOctaveKeyboard.qml:114
+#: activities/piano_composition/PianoOctaveKeyboard.qml:119
+#: activities/piano_composition/PianoOctaveKeyboard.qml:124
+#: activities/piano_composition/PianoOctaveKeyboard.qml:129
+#: activities/piano_composition/PianoOctaveKeyboard.qml:134
+#, qt-format
+msgctxt "PianoOctaveKeyboard|"
+msgid "E♭%1"
 msgstr ""
 
 #. Activity title
@@ -24288,7 +24625,7 @@ msgid "Backspace or Delete: undo"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/play_piano/PlayPiano.qml:197
+#: activities/play_piano/PlayPiano.qml:189
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Kick the ball into the goal"
@@ -24297,19 +24634,19 @@ msgid "Click on the piano keys that match the given notes."
 msgstr "เตะลูกบอลเข้าประตู"
 
 #. +> trunk6 stable6
-#: activities/play_piano/PlayPiano.qml:310
+#: activities/play_piano/PlayPiano.qml:322
 msgctxt "PlayPiano|"
 msgid "This activity requires sound, so it will play some sounds even if the audio voices or effects are disabled in the main configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/play_piano/PlayPiano.qml:311
+#: activities/play_piano/PlayPiano.qml:323
 msgctxt "PlayPiano|"
 msgid "Quit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/play_piano/PlayPiano.qml:312
+#: activities/play_piano/PlayPiano.qml:324
 msgctxt "PlayPiano|"
 msgid "Continue"
 msgstr ""
@@ -24398,31 +24735,31 @@ msgid "Tab: Start or stop the metronome if it is visible"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/play_rhythm/PlayRhythm.qml:135
+#: activities/play_rhythm/PlayRhythm.qml:121
 msgctxt "PlayRhythm|"
 msgid "Use the metronome to estimate the time intervals and play the rhythm correctly."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/play_rhythm/PlayRhythm.qml:136
+#: activities/play_rhythm/PlayRhythm.qml:122
 msgctxt "PlayRhythm|"
 msgid "Follow the vertical line and click on the drum or press space key to play the rhythm correctly."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/play_rhythm/PlayRhythm.qml:392
+#: activities/play_rhythm/PlayRhythm.qml:406
 msgctxt "PlayRhythm|"
 msgid "This activity requires sound, so it will play some sounds even if the audio voices or effects are disabled in the main configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/play_rhythm/PlayRhythm.qml:393
+#: activities/play_rhythm/PlayRhythm.qml:407
 msgctxt "PlayRhythm|"
 msgid "Quit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/play_rhythm/PlayRhythm.qml:394
+#: activities/play_rhythm/PlayRhythm.qml:408
 msgctxt "PlayRhythm|"
 msgid "Continue"
 msgstr ""
@@ -24686,7 +25023,7 @@ msgid "To modify an instruction in main/procedure/loop area, select it from main
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/programmingMaze/InstructionArea.qml:27
+#: activities/programmingMaze/InstructionArea.qml:22
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Simple subtraction"
@@ -24695,110 +25032,14 @@ msgid "Choose the instructions"
 msgstr "การลบพื้นฐาน"
 
 #. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:96
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Simple subtraction"
-msgctxt "programmingMaze|"
-msgid "Instruction Area:"
-msgstr "การลบพื้นฐาน"
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:97
-msgctxt "programmingMaze|"
-msgid "There are 3 instructions which you can use to code and lead Tux to the fish:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:98
-msgctxt "programmingMaze|"
-msgid "<b>1. Move forward:</b> Moves Tux one step forward in the direction it is facing."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:99
-msgctxt "programmingMaze|"
-msgid "<b>2. Turn left:</b> Turns Tux to the left."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:100
-msgctxt "programmingMaze|"
-msgid "<b>3. Turn right:</b> Turns Tux to the right."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:104
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Addition"
-msgctxt "programmingMaze|"
-msgid "Main Function:"
-msgstr "การบวก"
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:105
-msgctxt "programmingMaze|"
-msgid "The execution of the code starts here."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:106
-msgctxt "programmingMaze|"
-msgid "-Click on any instruction in the <b>instruction area</b> to add it to the <b>Main Function</b>."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:107
-msgctxt "programmingMaze|"
-msgid "-The instructions will execute in order until there's none left, or until a dead-end, or when Tux reaches the fish."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:114
-msgctxt "programmingMaze|"
-msgid "Procedure:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:115
-msgctxt "programmingMaze|"
-msgid "<b>Procedure</b> is a reusable set of instructions which can be <b>used in the code by calling it where needed</b>."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:116
-msgctxt "programmingMaze|"
-msgid "-To <b>switch</b> between the <b>Procedure area</b> and the <b>Main Function area</b> to add your code, click on the <b>Procedure</b> or <b>Main Function</b> label."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:123
-msgctxt "programmingMaze|"
-msgid "Loop:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:124
-msgctxt "programmingMaze|"
-msgid "<b>Loop</b> is a sequence of instructions that is <b>continually repeated the number of times defined by the number inside it</b>."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/programmingMaze.js:125
-msgctxt "programmingMaze|"
-msgid "-To <b>switch</b> between the <b>Loop area</b> and the <b>Main Function area</b> to add your code, click on the <b>Loop</b> or <b>Main Function</b> label."
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/programmingMaze/ProgrammingMaze.qml:203
+#: activities/programmingMaze/ProgrammingMaze.qml:224
 #, qt-format
 msgctxt "ProgrammingMaze|"
 msgid "Reach the fish in less than %1 instructions."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/programmingMaze/ProgrammingMaze.qml:267
+#: activities/programmingMaze/ProgrammingMaze.qml:260
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Addition"
@@ -24807,15 +25048,111 @@ msgid "Main function"
 msgstr "การบวก"
 
 #. +> trunk6 stable6
-#: activities/programmingMaze/ProgrammingMaze.qml:295
+#: activities/programmingMaze/ProgrammingMaze.qml:294
 msgctxt "ProgrammingMaze|"
 msgid "Procedure"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/programmingMaze/ProgrammingMaze.qml:295
+#: activities/programmingMaze/ProgrammingMaze.qml:294
 msgctxt "ProgrammingMaze|"
 msgid "Loop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:542
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Simple subtraction"
+msgctxt "ProgrammingMaze|"
+msgid "Instruction Area:"
+msgstr "การลบพื้นฐาน"
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:543
+msgctxt "ProgrammingMaze|"
+msgid "There are 3 instructions which you can use to code and lead Tux to the fish:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:544
+msgctxt "ProgrammingMaze|"
+msgid "<b>1. Move forward:</b> Moves Tux one step forward in the direction it is facing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:545
+msgctxt "ProgrammingMaze|"
+msgid "<b>2. Turn left:</b> Turns Tux to the left."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:546
+msgctxt "ProgrammingMaze|"
+msgid "<b>3. Turn right:</b> Turns Tux to the right."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:550
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Addition"
+msgctxt "ProgrammingMaze|"
+msgid "Main Function:"
+msgstr "การบวก"
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:551
+msgctxt "ProgrammingMaze|"
+msgid "The execution of the code starts here."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:552
+msgctxt "ProgrammingMaze|"
+msgid "-Click on any instruction in the <b>instruction area</b> to add it to the <b>Main Function</b>."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:553
+msgctxt "ProgrammingMaze|"
+msgid "-The instructions will execute in order until there's none left, or until a dead-end, or when Tux reaches the fish."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:563
+msgctxt "ProgrammingMaze|"
+msgid "Procedure:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:564
+msgctxt "ProgrammingMaze|"
+msgid "<b>Procedure</b> is a reusable set of instructions which can be <b>used in the code by calling it where needed</b>."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:565
+msgctxt "ProgrammingMaze|"
+msgid "-To <b>switch</b> between the <b>Procedure area</b> and the <b>Main Function area</b> to add your code, click on the <b>Procedure</b> or <b>Main Function</b> label."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:575
+msgctxt "ProgrammingMaze|"
+msgid "Loop:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:576
+msgctxt "ProgrammingMaze|"
+msgid "<b>Loop</b> is a sequence of instructions that is <b>continually repeated the number of times defined by the number inside it</b>."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/programmingMaze/ProgrammingMaze.qml:577
+msgctxt "ProgrammingMaze|"
+msgid "-To <b>switch</b> between the <b>Loop area</b> and the <b>Main Function area</b> to add your code, click on the <b>Loop</b> or <b>Main Function</b> label."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -24904,13 +25241,13 @@ msgid "Enter or Return: submit your answer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/railroad/Railroad.qml:125
+#: activities/railroad/Railroad.qml:126
 msgctxt "Railroad|"
 msgid "Observe and remember the train before the timer ends and then drag the items to set up a similar train."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/railroad/Railroad.qml:126
+#: activities/railroad/Railroad.qml:129
 msgctxt "Railroad|"
 msgid "If you forgot the model, you can click on the Hint button to view it again."
 msgstr ""
@@ -24958,13 +25295,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/readingh/Readingh.qml:369
+#: activities/readingh/Readingh.qml:367
 msgctxt "Readingh|"
 msgid "Yes, I saw it!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/readingh/Readingh.qml:390
+#: activities/readingh/Readingh.qml:388
 msgctxt "Readingh|"
 msgid "No, it was not there!"
 msgstr ""
@@ -25133,31 +25470,31 @@ msgid "Click on different active elements: sun, cloud, dam, solar array, wind fa
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/renewable_energy/RenewableEnergy.qml:302
+#: activities/renewable_energy/RenewableEnergy.qml:273
 msgctxt "RenewableEnergy|"
 msgid "Tux has come back from fishing on his boat. Bring the electrical system back up so he can have light in his home."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/renewable_energy/RenewableEnergy.qml:304
+#: activities/renewable_energy/RenewableEnergy.qml:276
 msgctxt "RenewableEnergy|"
 msgid "Click on different active elements: sun, cloud, dam, solar array, wind farm and transformers, in order to reactivate the entire electrical system."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/renewable_energy/RenewableEnergy.qml:306
+#: activities/renewable_energy/RenewableEnergy.qml:279
 msgctxt "RenewableEnergy|"
 msgid "When the system is back up and Tux is in his home, push the light button for him. To win you must switch on all the consumers while all the producers are up."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/renewable_energy/RenewableEnergy.qml:308
+#: activities/renewable_energy/RenewableEnergy.qml:282
 msgctxt "RenewableEnergy|"
 msgid "Learn about an electrical system based on renewable energy. Enjoy."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/renewable_energy/RenewableEnergy.qml:332
+#: activities/renewable_energy/RenewableEnergy.qml:308
 msgctxt "RenewableEnergy|"
 msgid "It is not possible to consume more electricity than what is produced. There is a key limitation in the distribution of electricity, with minor exceptions, electrical energy cannot be stored, and therefore it must be generated as it is needed. A sophisticated system of control is therefore required to ensure electric generation very closely matches the demand. If supply and demand are not in balance, generation plants and transmission equipment can shut down which, in the worst cases, can lead to a major regional blackout."
 msgstr ""
@@ -25314,8 +25651,8 @@ msgid "Letters: type roman numerals (with I, V, X, L, C, D and M)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/roman_numerals/RomanNumerals.qml:79
-#: activities/roman_numerals/RomanNumerals.qml:85
+#: activities/roman_numerals/RomanNumerals.qml:80
+#: activities/roman_numerals/RomanNumerals.qml:86
 msgctxt "RomanNumerals|"
 msgid ""
 "The roman numbers are all built out of these 7 numbers:\n"
@@ -25327,34 +25664,34 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/roman_numerals/RomanNumerals.qml:80
-#: activities/roman_numerals/RomanNumerals.qml:92
-#: activities/roman_numerals/RomanNumerals.qml:104
-#: activities/roman_numerals/RomanNumerals.qml:116
-#: activities/roman_numerals/RomanNumerals.qml:128
+#: activities/roman_numerals/RomanNumerals.qml:81
+#: activities/roman_numerals/RomanNumerals.qml:93
+#: activities/roman_numerals/RomanNumerals.qml:105
+#: activities/roman_numerals/RomanNumerals.qml:117
+#: activities/roman_numerals/RomanNumerals.qml:129
 #, qt-format
 msgctxt "RomanNumerals|"
 msgid "Convert the roman number %1 to arabic."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/roman_numerals/RomanNumerals.qml:86
-#: activities/roman_numerals/RomanNumerals.qml:98
-#: activities/roman_numerals/RomanNumerals.qml:110
-#: activities/roman_numerals/RomanNumerals.qml:122
-#: activities/roman_numerals/RomanNumerals.qml:134
-#: activities/roman_numerals/RomanNumerals.qml:140
-#: activities/roman_numerals/RomanNumerals.qml:146
-#: activities/roman_numerals/RomanNumerals.qml:152
-#: activities/roman_numerals/RomanNumerals.qml:158
+#: activities/roman_numerals/RomanNumerals.qml:87
+#: activities/roman_numerals/RomanNumerals.qml:99
+#: activities/roman_numerals/RomanNumerals.qml:111
+#: activities/roman_numerals/RomanNumerals.qml:123
+#: activities/roman_numerals/RomanNumerals.qml:135
+#: activities/roman_numerals/RomanNumerals.qml:141
+#: activities/roman_numerals/RomanNumerals.qml:147
+#: activities/roman_numerals/RomanNumerals.qml:153
+#: activities/roman_numerals/RomanNumerals.qml:159
 #, qt-format
 msgctxt "RomanNumerals|"
 msgid "Convert the arabic number %1 to roman."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/roman_numerals/RomanNumerals.qml:91
-#: activities/roman_numerals/RomanNumerals.qml:97
+#: activities/roman_numerals/RomanNumerals.qml:92
+#: activities/roman_numerals/RomanNumerals.qml:98
 msgctxt "RomanNumerals|"
 msgid ""
 "All the units except 4 and 9 are built using sums of I and V:\n"
@@ -25364,8 +25701,8 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/roman_numerals/RomanNumerals.qml:103
-#: activities/roman_numerals/RomanNumerals.qml:109
+#: activities/roman_numerals/RomanNumerals.qml:104
+#: activities/roman_numerals/RomanNumerals.qml:110
 msgctxt "RomanNumerals|"
 msgid ""
 "All the tens except 40 and 90 are built using sums of X and L:\n"
@@ -25375,8 +25712,8 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/roman_numerals/RomanNumerals.qml:115
-#: activities/roman_numerals/RomanNumerals.qml:121
+#: activities/roman_numerals/RomanNumerals.qml:116
+#: activities/roman_numerals/RomanNumerals.qml:122
 msgctxt "RomanNumerals|"
 msgid ""
 "All the hundreds except 400 and 900 are built using sums of C and D:\n"
@@ -25386,8 +25723,8 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/roman_numerals/RomanNumerals.qml:127
-#: activities/roman_numerals/RomanNumerals.qml:133
+#: activities/roman_numerals/RomanNumerals.qml:128
+#: activities/roman_numerals/RomanNumerals.qml:134
 msgctxt "RomanNumerals|"
 msgid ""
 "Sums of M are used for building thousands: M, MM, MMM.\n"
@@ -25395,20 +25732,20 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/roman_numerals/RomanNumerals.qml:139
+#: activities/roman_numerals/RomanNumerals.qml:140
 msgctxt "RomanNumerals|"
 msgid "Now you know the rules, you can read and write numbers in roman numerals."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/roman_numerals/RomanNumerals.qml:386
+#: activities/roman_numerals/RomanNumerals.qml:387
 #, qt-format
 msgctxt "RomanNumerals|"
 msgid "Roman value: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/roman_numerals/RomanNumerals.qml:387
+#: activities/roman_numerals/RomanNumerals.qml:388
 #, qt-format
 msgctxt "RomanNumerals|"
 msgid "Arabic value: %1"
@@ -26092,303 +26429,303 @@ msgid "If there is a rest, it needs to be placed inside the candy jar."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:13
+#: activities/share/resource/1/Data.qml:15
 msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, no rest."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:18
-#: activities/share/resource/2/Data.qml:18
+#: activities/share/resource/1/Data.qml:20
+#: activities/share/resource/2/Data.qml:20
 msgctxt "Data|"
 msgid "Paul wants to share 2 pieces of candy equally between 2 of his girl friends. Can you help him? First, place the children in the center, then drag the pieces of candy to each of them."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:28
+#: activities/share/resource/1/Data.qml:30
 msgctxt "Data|"
 msgid "Now he wants to share 4 pieces of candy equally among his friends."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:38
+#: activities/share/resource/1/Data.qml:40
 msgctxt "Data|"
 msgid "Can you now share 6 of Paul's pieces of candy equally among his friends?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:48
+#: activities/share/resource/1/Data.qml:50
 msgctxt "Data|"
 msgid "Some of his friends already have pieces of candy. He wants to give them 7 more pieces so that they all have the same amount."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:58
+#: activities/share/resource/1/Data.qml:60
 msgctxt "Data|"
 msgid "Paul has only 12 pieces of candy left. He eats 2 pieces of candy and he gives the rest to his friends. Can you help him split equally the 10 remaining pieces of candy?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:70
+#: activities/share/resource/1/Data.qml:72
 msgctxt "Data|"
 msgid "George wants to share 3 pieces of candy equally between 3 of his girl friends. Can he split the pieces of candy equally?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:80
+#: activities/share/resource/1/Data.qml:82
 msgctxt "Data|"
 msgid "Maria wants to share 6 pieces of candy equally between 3 of her friends: 1 girl and 2 boys. Can she split the pieces of candy equally?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:90
+#: activities/share/resource/1/Data.qml:92
 msgctxt "Data|"
 msgid "John wants to share 8 pieces of candy equally between 3 of his friends: 1 boy and 2 girls. The boy already has one. Can he make sure that they all have the same amount?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:100
+#: activities/share/resource/1/Data.qml:102
 msgctxt "Data|"
 msgid "Paul wants to share 12 pieces of candy equally between 3 of his friends: 2 boys and 1 girl. Can he split the pieces of candy equally?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:110
+#: activities/share/resource/1/Data.qml:112
 msgctxt "Data|"
 msgid "Maria wants to share 11 pieces of candy between 3 of her friends: 1 boy and 2 girls. The girls already have some pieces of candy. Can she split the pieces of candy so that they all have the same amount?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:122
-#: activities/share/resource/2/Data.qml:112
+#: activities/share/resource/1/Data.qml:124
+#: activities/share/resource/2/Data.qml:114
 msgctxt "Data|"
 msgid "Alice wants to share 4 pieces of candy equally between 4 of her girl friends. Can you help her?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:132
+#: activities/share/resource/1/Data.qml:134
 msgctxt "Data|"
 msgid "Now, Alice wants to give 8 pieces of candy to her friends."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:142
+#: activities/share/resource/1/Data.qml:144
 msgctxt "Data|"
 msgid "Alice wants to give 10 pieces of candy to her friends, 1 girl and 3 boys, so that they all have the same amount. The girls already have some pieces of candy."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:152
+#: activities/share/resource/1/Data.qml:154
 msgctxt "Data|"
 msgid "Alice wants to give 16 pieces of candy to her friends."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:162
+#: activities/share/resource/1/Data.qml:164
 msgctxt "Data|"
 msgid "Alice wants to give pieces of candy to 4 friends. Some of them already have some pieces of candy. Can you help her split 14 pieces of candy so that all her friends have the same amount?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:174
+#: activities/share/resource/1/Data.qml:176
 msgctxt "Data|"
 msgid "Michael wants to share 5 pieces of candy equally between 5 of his girl friends. Can you help him?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:184
+#: activities/share/resource/1/Data.qml:186
 msgctxt "Data|"
 msgid "Helen has 5 friends: 2 boys and 3 girls. She wants to give them 10 pieces of candy. Help her split the pieces of candy equally between her friends."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:194
+#: activities/share/resource/1/Data.qml:196
 msgctxt "Data|"
 msgid "Michelle wants to share 12 pieces of candy equally between her 4 brothers and 1 sister, so that they all have the same amount. Her sister already has some pieces of candy."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:204
+#: activities/share/resource/1/Data.qml:206
 msgctxt "Data|"
 msgid "Thomas wants to share his 20 pieces of candy with his friends: 1 boy and 4 girls. Can you help him?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:214
+#: activities/share/resource/1/Data.qml:216
 msgctxt "Data|"
 msgid "Paul wants to share 20 pieces of candy equally between 5 of his friends. They already have one piece of candy each. Can you help him?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:226
+#: activities/share/resource/1/Data.qml:228
 msgctxt "Data|"
 msgid "Charles wants to share his 6 pieces of candy equally with 2 of his girl friends. Can he split the pieces of candy equally?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:236
+#: activities/share/resource/1/Data.qml:238
 msgctxt "Data|"
 msgid "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her friends: 2 girls and 1 boy. The girls already have some pieces of candy. How should she split the pieces of candy so that they all have the same amount?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:246
+#: activities/share/resource/1/Data.qml:248
 msgctxt "Data|"
 msgid "Jason's father gave him 16 pieces of candy to share equally with his friends: 2 boys and 2 girls. Help him give the pieces of candy to his friends."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:256
+#: activities/share/resource/1/Data.qml:258
 msgctxt "Data|"
 msgid "George wants to share 14 pieces of candy between 4 of his friends: 2 girls and 2 boys. The boys already have one piece of candy each. He wants all of them to have the same amount."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/1/Data.qml:266
+#: activities/share/resource/1/Data.qml:268
 msgctxt "Data|"
 msgid "Maria wants to share 25 pieces of candy equally between 5 of her friends: 3 girls and 2 boys. Can she split the pieces of candy equally?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:13
+#: activities/share/resource/2/Data.qml:15
 msgctxt "Data|"
 msgid "Maximum 25 pieces of candy and 5 kids, possible rest."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:28
+#: activities/share/resource/2/Data.qml:30
 msgctxt "Data|"
 msgid "Now he wants to share 5 pieces of candy among his friends."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:38
+#: activities/share/resource/2/Data.qml:40
 msgctxt "Data|"
 msgid "Can you now share 7 of Paul's pieces of candy among his friends?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:48
+#: activities/share/resource/2/Data.qml:50
 msgctxt "Data|"
 msgid "Can you now share 8 of Paul's pieces of candy among his friends?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:58
+#: activities/share/resource/2/Data.qml:60
 msgctxt "Data|"
 msgid "Paul has only 11 pieces of candy left. He eats 2 pieces of candy and he gives the rest to his friends. Can you help him split equally the 9 remaining pieces of candy?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:70
+#: activities/share/resource/2/Data.qml:72
 msgctxt "Data|"
 msgid "Bob wants to share 3 pieces of candy equally between 3 of his girl friends. Can he split the pieces of candy equally?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:80
+#: activities/share/resource/2/Data.qml:82
 msgctxt "Data|"
 msgid "Harry wants to share 8 pieces of candy between 3 of his friends: 1 boy and 2 girls. The boy already has one piece of candy. Can he split the pieces of candy so that they all have the same amount?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:90
+#: activities/share/resource/2/Data.qml:92
 msgctxt "Data|"
 msgid "Maria wants to share 8 pieces of candy between 3 of her friends: 1 boy and 2 girls. The girls already have some pieces of candy. Can she split the pieces of candy so that they all have the same amount?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:100
+#: activities/share/resource/2/Data.qml:102
 msgctxt "Data|"
 msgid "Harry wants to share 12 pieces of candy between 3 of his friends: 1 boy and 2 girls. The boy already has some pieces of candy. Can he split the pieces of candy so that they all have the same amount?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:122
+#: activities/share/resource/2/Data.qml:124
 msgctxt "Data|"
 msgid "Now, Alice wants to share 8 pieces of candy equally among her friends."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:132
+#: activities/share/resource/2/Data.qml:134
 msgctxt "Data|"
 msgid "Can you help Alice share 10 pieces of candy equally among her friends: 1 girl and 3 boys? The girl already has some pieces of candy."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:142
+#: activities/share/resource/2/Data.qml:144
 msgctxt "Data|"
 msgid "Alice wants to share 16 pieces of candy equally among her friends."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:152
+#: activities/share/resource/2/Data.qml:154
 msgctxt "Data|"
 msgid "Alice has 14 pieces of candy left. She wants to share them equally among her friends. The boys already have some pieces of candy. Can you help her split the pieces of candy equally?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:164
+#: activities/share/resource/2/Data.qml:166
 msgctxt "Data|"
 msgid "Help Jon share 11 pieces of candies equally between five girls. The rest will remain to Jon."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:174
+#: activities/share/resource/2/Data.qml:176
 msgctxt "Data|"
 msgid "Jon wants to share the rest of his pieces of candies with his brothers and his sisters. Can you split them equally, knowing that his brothers already have 2 pieces of candy?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:184
+#: activities/share/resource/2/Data.qml:186
 msgctxt "Data|"
 msgid "Help Tux split 19 pieces of candies between his friends: 4 boys and 1 girl."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:194
+#: activities/share/resource/2/Data.qml:196
 msgctxt "Data|"
 msgid "Help Maria share 18 pieces of candy equally between 3 boys and 2 girls."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:206
+#: activities/share/resource/2/Data.qml:208
 msgctxt "Data|"
 msgid "Charles wants to share his 6 pieces of candy equally between 2 of his girl friends. Can he split the pieces of candy equally?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:216
+#: activities/share/resource/2/Data.qml:218
 msgctxt "Data|"
 msgid "For her birthday, Elizabeth has 8 pieces of candy to share with 3 of her friends equally: 2 girls and 1 boy. How should she split the pieces of candy between her friends?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:226
+#: activities/share/resource/2/Data.qml:228
 msgctxt "Data|"
 msgid "Jason's father gave him 17 pieces of candy to share equally between his friends: 2 boys and 2 girls. Help him give the pieces of candy to his friends."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:236
+#: activities/share/resource/2/Data.qml:238
 msgctxt "Data|"
 msgid "George wants to share 14 pieces of candy equally between 4 of his friends: 2 girls and 2 boys. Can he equally split the pieces of candy between his friends?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/2/Data.qml:246
+#: activities/share/resource/2/Data.qml:248
 msgctxt "Data|"
 msgid "Maria wants to share 23 pieces of candy equally between 5 of her friends: 3 girls and 2 boys. Can she share the pieces of candy equally between her friends?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/resource/3/Data.qml:13
+#: activities/share/resource/3/Data.qml:15
 msgctxt "Data|"
 msgid "Maximum 30 pieces of candy and 6 kids, possible rest."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/share/share.js:98
+#: activities/share/share.js:115
 #, qt-format
 msgctxt "share|First part of Place %n boy(s) and %n girl(s) in the center. Then split %n pieces of candy equally between them."
 msgid "Place %n boy(s) "
@@ -26396,7 +26733,7 @@ msgid_plural "Place %n boy(s) "
 msgstr[0] ""
 
 #. +> trunk6 stable6
-#: activities/share/share.js:102
+#: activities/share/share.js:119
 #, qt-format
 msgctxt "share|Second part of Place %n boy(s) and %n girl(s) in the center. Then split %n pieces of candy equally between them."
 msgid "and %n girl(s) in the center. "
@@ -26404,7 +26741,7 @@ msgid_plural "and %n girl(s) in the center. "
 msgstr[0] ""
 
 #. +> trunk6 stable6
-#: activities/share/share.js:106
+#: activities/share/share.js:123
 #, qt-format
 msgctxt "share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split %n pieces of candy equally between them."
 msgid "Then split %n pieces of candy equally between them."
@@ -26412,7 +26749,7 @@ msgid_plural "Then split %n pieces of candy equally between them."
 msgstr[0] ""
 
 #. +> trunk6 stable6
-#: activities/share/Share.qml:358
+#: activities/share/Share.qml:359
 #, qt-format
 msgctxt "Share|"
 msgid "You can't put more than %1 pieces of candy in the same rectangle"
@@ -26478,7 +26815,7 @@ msgstr "เรียนรู้เกี่ยวกับพหุคูณแ
 
 #. Help manual
 #. +> trunk6 stable6
-#: activities/sketch/ActivityInfo.qml:27
+#: activities/sketch/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid ""
 "Select tools and colors from the foldable panels and draw images.<br>"
@@ -26486,46 +26823,19 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/ActivityInfo.qml:29
-msgctxt "ActivityInfo|"
-msgid "Ctrl + Z: undo last action"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/sketch/ActivityInfo.qml:30
-msgctxt "ActivityInfo|"
-msgid "Ctrl + Y: redo last action"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/sketch/ActivityInfo.qml:31
-#, fuzzy
-#| msgctxt "advanced_colors|"
-#| msgid "Find the coral butterfly"
-msgctxt "ActivityInfo|"
-msgid "Ctrl + S: save the image"
-msgstr "หาผีเสื้อสีแดงปะการัง"
-
-#. +> trunk6 stable6
 #: activities/sketch/ActivityInfo.qml:32
-msgctxt "ActivityInfo|"
-msgid "Ctrl + O: open an image"
-msgstr ""
-
-#. +> trunk6 stable6
-#: activities/sketch/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
 msgid "Ctrl + N, Delete or Backspace: create a new image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/ActivityInfo.qml:34
+#: activities/sketch/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
 msgid "Brush smoothing concept from:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/ActivityInfo.qml:35
+#: activities/sketch/ActivityInfo.qml:34
 msgctxt "ActivityInfo|"
 msgid "Sketch brush concept from:"
 msgstr ""
@@ -26570,7 +26880,7 @@ msgid "Reset palette"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/ColorSelector.qml:213
+#: activities/sketch/ColorSelector.qml:214
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -26580,14 +26890,14 @@ msgstr "ตั้งนาฬิกาเป็น:"
 
 #. Color hue
 #. +> trunk6 stable6
-#: activities/sketch/ColorSelector.qml:237
+#: activities/sketch/ColorSelector.qml:238
 msgctxt "ColorSelector|color hue"
 msgid "Hue"
 msgstr ""
 
 #. Color saturation
 #. +> trunk6 stable6
-#: activities/sketch/ColorSelector.qml:264
+#: activities/sketch/ColorSelector.qml:265
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Subtraction"
@@ -26597,7 +26907,7 @@ msgstr "การลบ"
 
 #. Color lightness
 #. +> trunk6 stable6
-#: activities/sketch/ColorSelector.qml:289
+#: activities/sketch/ColorSelector.qml:290
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Lights Off"
@@ -26692,25 +27002,25 @@ msgid "Gradient Tools"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/Sketch.qml:673
+#: activities/sketch/Sketch.qml:678
 msgctxt "Sketch|"
 msgid "You did not save this image. Do you want to close this activity?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/Sketch.qml:674
+#: activities/sketch/Sketch.qml:679
 msgctxt "Sketch|"
 msgid "Do you want to erase this image?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/Sketch.qml:675
+#: activities/sketch/Sketch.qml:680
 msgctxt "Sketch|"
 msgid "Yes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/Sketch.qml:676
+#: activities/sketch/Sketch.qml:681
 msgctxt "Sketch|"
 msgid "No"
 msgstr ""
@@ -26746,43 +27056,43 @@ msgid "Reset tool settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/ToolsPanel.qml:485
+#: activities/sketch/ToolsPanel.qml:484
 msgctxt "ToolsPanel|"
 msgid "Opacity"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/ToolsPanel.qml:508
+#: activities/sketch/ToolsPanel.qml:507
 msgctxt "ToolsPanel|"
 msgid "Size"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/ToolsPanel.qml:528
+#: activities/sketch/ToolsPanel.qml:527
 msgctxt "ToolsPanel|"
 msgid "Speed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/ToolsPanel.qml:548
+#: activities/sketch/ToolsPanel.qml:547
 msgctxt "ToolsPanel|"
 msgid "Density"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/ToolsPanel.qml:568
+#: activities/sketch/ToolsPanel.qml:567
 msgctxt "ToolsPanel|"
 msgid "Dots Size"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/ToolsPanel.qml:587
+#: activities/sketch/ToolsPanel.qml:586
 msgctxt "ToolsPanel|"
 msgid "Smoothing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/ToolsPanel.qml:648
+#: activities/sketch/ToolsPanel.qml:647
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Addition"
@@ -26791,7 +27101,7 @@ msgid "Rotation"
 msgstr "การบวก"
 
 #. +> trunk6 stable6
-#: activities/sketch/ToolsPanel.qml:664
+#: activities/sketch/ToolsPanel.qml:663
 msgctxt "ToolsPanel|"
 msgid "Mirror image"
 msgstr ""
@@ -28331,21 +28641,21 @@ msgid "How large is Neptune compared to other planets in the Solar System?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/QuizScreen.qml:213
+#: activities/solar_system/QuizScreen.qml:196
 #, qt-format
 msgctxt "QuizScreen|"
 msgid "Accuracy: %1%"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/QuizScreen.qml:252
+#: activities/solar_system/QuizScreen.qml:239
 #, qt-format
 msgctxt "QuizScreen|"
 msgid "%1%"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/QuizScreen.qml:287
+#: activities/solar_system/QuizScreen.qml:274
 #, qt-format
 msgctxt "QuizScreen|"
 msgid ""
@@ -28355,7 +28665,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/QuizScreen.qml:287
+#: activities/solar_system/QuizScreen.qml:274
 msgctxt "QuizScreen|"
 msgid ""
 "You should score above 90% to become a Solar System expert!<br>"
@@ -28363,7 +28673,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/QuizScreen.qml:287
+#: activities/solar_system/QuizScreen.qml:274
 msgctxt "QuizScreen|"
 msgid "Great! You can replay the assessment to test your knowledge on more questions."
 msgstr ""
@@ -28396,25 +28706,25 @@ msgid "Learning"
 msgstr "เรียนรู้จักนาฬิกา"
 
 #. +> trunk6 stable6
-#: activities/solar_system/SolarSystem.qml:156
+#: activities/solar_system/SolarSystem.qml:157
 msgctxt "SolarSystem|"
 msgid "Click on the Sun or any planet to reveal questions. Each question has 4 options, out of which one is correct."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/SolarSystem.qml:157
+#: activities/solar_system/SolarSystem.qml:160
 msgctxt "SolarSystem|"
 msgid "After a planet is clicked, the Closeness meter at the bottom-right corner of the screen represents the degree of correctness of your selected answer. The least correct answer is represented by 1%. Try again until you reach a 100% closeness by following the closeness meter. If the hint button is visible, you can click on it to get a hint to find the answer."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/SolarSystem.qml:162
+#: activities/solar_system/SolarSystem.qml:170
 msgctxt "SolarSystem|"
 msgid "There are 20 questions initially with 4 options each. The progress bar at the bottom right of the screen shows your percentage score."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/SolarSystem.qml:163
+#: activities/solar_system/SolarSystem.qml:173
 msgctxt "SolarSystem|"
 msgid ""
 "If your answer is correct, your score increases.<br>"
@@ -28423,13 +28733,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/SolarSystem.qml:164
+#: activities/solar_system/SolarSystem.qml:176
 msgctxt "SolarSystem|"
 msgid "You should score above 90% to pass the assessment and become a Solar System expert!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/SolarSystem.qml:349
+#: activities/solar_system/SolarSystem.qml:355
 #, qt-format
 msgctxt "SolarSystem|"
 msgid ""
@@ -28438,7 +28748,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/SolarSystem.qml:350
+#: activities/solar_system/SolarSystem.qml:356
 #, qt-format
 msgctxt "SolarSystem|"
 msgid ""
@@ -28448,19 +28758,19 @@ msgstr ""
 
 #. find an equivalent rhyme in your language where the first letter of each word corresponds to the first letter of the planet in proper sequence
 #. +> trunk6 stable6
-#: activities/solar_system/SolarSystem.qml:353
+#: activities/solar_system/SolarSystem.qml:359
 msgctxt "SolarSystem|"
 msgid "3. Always remember this rhyme to learn the position of planets, examine the first letter in each word - <b>M</b>y <b>V</b>ery <b>E</b>xcellent <b>M</b>other <b>J</b>ust <b>S</b>erved <b>U</b>s <b>N</b>oodles.<br>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/SolarSystem.qml:355
+#: activities/solar_system/SolarSystem.qml:361
 msgctxt "SolarSystem|"
 msgid "Hint"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/solar_system/SolarSystem.qml:363
+#: activities/solar_system/SolarSystem.qml:369
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Discover the Braille system"
@@ -28588,13 +28898,13 @@ msgid "-: decrease diving planes angle"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/Controls.qml:166
+#: activities/submarine/Controls.qml:162
 msgctxt "Controls|"
 msgid "Left Ballast Tank"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/Controls.qml:274
+#: activities/submarine/Controls.qml:272
 msgctxt "Controls|"
 msgid "Central Ballast Tank"
 msgstr ""
@@ -28606,95 +28916,95 @@ msgid "Right Ballast Tank"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:21
+#: activities/submarine/Submarine.qml:133
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Guide the Number Muncher to all the factors of the number at the top of the screen."
-msgctxt "submarine|"
+msgctxt "Submarine|"
 msgid "Move the submarine to the other side of the screen."
 msgstr "พาตัวเขมือบตัวเลขไปกินตัวประกอบทั้งหมดของตัวเลขด้านบนสุดของจอภาพ"
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:22
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:136
+msgctxt "Submarine|"
 msgid "The leftmost item in the control panel is the engine of the submarine, indicating the current speed of the submarine."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:23
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:139
+msgctxt "Submarine|"
 msgid "Increase or decrease the velocity of the submarine using the engine."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:24
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:142
+msgctxt "Submarine|"
 msgid "Press the + button to increase the velocity, or the - button to decrease the velocity."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:27
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:149
+msgctxt "Submarine|"
 msgid "The item next to the engine is the ballast tank."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:28
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:152
+msgctxt "Submarine|"
 msgid "The ballast tanks are used to float or dive under water."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:29
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:155
+msgctxt "Submarine|"
 msgid "If the ballast tanks are empty, the submarine will float. If the ballast tanks are full of water, the submarine will dive underwater."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:30
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:158
+msgctxt "Submarine|"
 msgid "Turning the upper valve on or off will alternatively allow or stop the water from filling in the ballast tank, thus allowing it to dive underwater."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:31
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:161
+msgctxt "Submarine|"
 msgid "Turning the lower valve on or off will alternatively allow or stop the water from flushing out the ballast tank, thus allowing it to float on the surface of the water."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:34
-msgctxt "submarine|"
-msgid "The rightmost item in the control panel controls the diving planes of the submarine"
+#: activities/submarine/Submarine.qml:168
+msgctxt "Submarine|"
+msgid "The rightmost item in the control panel controls the diving planes of the submarine."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:35
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:171
+msgctxt "Submarine|"
 msgid "The diving planes in a submarine are used to control the depth of the submarine accurately once it is underwater."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:36
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:174
+msgctxt "Submarine|"
 msgid "Once the submarine is moving underwater, increasing or decreasing the angle of the planes will increase and decrease the depth of the submarine."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:37
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:177
+msgctxt "Submarine|"
 msgid "The + button will increase the depth of the submarine, while the - button will decrease the depth of the submarine."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:38
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:180
+msgctxt "Submarine|"
 msgid "Grab the crown to open the gate."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/submarine/submarine.js:39
-msgctxt "submarine|"
+#: activities/submarine/Submarine.qml:183
+msgctxt "Submarine|"
 msgid "Check out the help menu for the keyboard controls."
 msgstr ""
 
@@ -28800,13 +29110,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/superbrain/Superbrain.qml:150
+#: activities/superbrain/Superbrain.qml:167
 msgctxt "Superbrain|"
 msgid "This item is well placed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/superbrain/Superbrain.qml:152
+#: activities/superbrain/Superbrain.qml:169
 msgctxt "Superbrain|"
 msgid "This item is misplaced."
 msgstr ""
@@ -29420,7 +29730,14 @@ msgid "Subtraction tables."
 msgstr "เรียนรู้การลบ"
 
 #. Help manual
-#. +> trunk6 stable6
+#. +> trunk6
+#: activities/vertical_subtraction/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to subtract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the minuend on the next column: for example, if you add 10 units to the top number, you need to remove one unit from the top number of the next column. This is called the borrowing by regrouping method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the top number and select -1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
+msgstr ""
+
+#. Help manual
+#. +> stable6
 #: activities/vertical_subtraction/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to substract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the minuend on the next column: for example, if you add 10 units to the top number, you need to remove one unit from the top number of the next column. This is called the borrowing by regrouping method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the top number and select -1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
@@ -29561,7 +29878,7 @@ msgid "Solve: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/vertical_subtraction/VerticalSubtraction.qml:400
+#: activities/vertical_subtraction/VerticalSubtraction.qml:379
 #, fuzzy
 #| msgctxt "ReadyButton|"
 #| msgid "I am Ready"
@@ -29587,7 +29904,14 @@ msgid "Learn to solve vertical subtractions, with the borrowing by compensation 
 msgstr ""
 
 #. Help manual
-#. +> trunk6 stable6
+#. +> trunk6
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to subtract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the subtrahend on the next column: for example, if you add 10 units to the top number, you need to add one unit to the bottom number of the next column. This is called the borrowing by compensation method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the bottom number and select +1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
+msgstr ""
+
+#. Help manual
+#. +> stable6
 #: activities/vertical_subtraction_compensation/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to substract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the subtrahend on the next column: for example, if you add 10 units to the top number, you need to add one unit to the bottom number of the next column. This is called the borrowing by compensation method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the bottom number and select +1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
@@ -29667,25 +29991,25 @@ msgid "Fantastic, you have completed the water cycle. You can continue playing."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/watercycle/Watercycle.qml:139
+#: activities/watercycle/Watercycle.qml:140
 msgctxt "Watercycle|"
 msgid "The water cycle (also known as the hydrologic cycle) is the journey water takes as it circulates from the land to the sky and back again. The sun's heat provides energy to evaporate water from water bodies like oceans."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/watercycle/Watercycle.qml:142
+#: activities/watercycle/Watercycle.qml:143
 msgctxt "Watercycle|"
 msgid "Plants also lose water to the air through transpiration. The water vapor cools down forming tiny droplets in clouds. When the clouds meet cool air over the land, precipitation is triggered and falls down as rain."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/watercycle/Watercycle.qml:145
+#: activities/watercycle/Watercycle.qml:146
 msgctxt "Watercycle|"
 msgid "Some of the water is trapped between rock or clay layers, called groundwater. But most of the water flows as runoff, eventually returning to the seas via rivers."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/watercycle/Watercycle.qml:147
+#: activities/watercycle/Watercycle.qml:149
 msgctxt "Watercycle|"
 msgid "Your goal is to complete the water cycle before Tux reaches home. Click on the different components which make up the water cycle. First click on the sun, then on the cloud, the water pumping station near the river, the sewage treatment, and at last regulate the switch to provide water to Tux's shower."
 msgstr ""
@@ -29740,20 +30064,52 @@ msgctxt "ActivityInfo|"
 msgid "Type the complete word as it falls, before it reaches the ground."
 msgstr "พิมพ์คำที่กำลังหล่นก่อนที่มันจะถึงพื้น"
 
+#. +> trunk6
+#: core/ChangeLog.qml:30
+msgctxt "ChangeLog|"
+msgid "Translation added for Kannada and Tamil"
+msgstr ""
+
+#. +> trunk6
+#: core/ChangeLog.qml:31
+msgctxt "ChangeLog|"
+msgid "New command-line option to set the locale (--locale locale)"
+msgstr ""
+
+#. +> trunk6
+#: core/ChangeLog.qml:32
+msgctxt "ChangeLog|"
+msgid "New command-line option to show/hide the Home button (--hide-home-button/--show-home-button)"
+msgstr ""
+
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:30 core/ChangeLog.qml:38 core/ChangeLog.qml:47
-#: core/ChangeLog.qml:53 core/ChangeLog.qml:58 core/ChangeLog.qml:64
-#: core/ChangeLog.qml:93 core/ChangeLog.qml:128 core/ChangeLog.qml:131
-#: core/ChangeLog.qml:137
+#: core/ChangeLog.qml:33 core/ChangeLog.qml:39 core/ChangeLog.qml:45
+#: core/ChangeLog.qml:54 core/ChangeLog.qml:60 core/ChangeLog.qml:65
+#: core/ChangeLog.qml:71 core/ChangeLog.qml:100 core/ChangeLog.qml:135
+#: core/ChangeLog.qml:138 core/ChangeLog.qml:144
 msgctxt "ChangeLog|"
 msgid "Many usability improvements"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:31 core/ChangeLog.qml:39 core/ChangeLog.qml:65
-#: core/ChangeLog.qml:74 core/ChangeLog.qml:81 core/ChangeLog.qml:94
-#: core/ChangeLog.qml:112 core/ChangeLog.qml:127 core/ChangeLog.qml:132
-#: core/ChangeLog.qml:138
+#: core/ChangeLog.qml:34 core/ChangeLog.qml:40 core/ChangeLog.qml:47
+#: core/ChangeLog.qml:55 core/ChangeLog.qml:61 core/ChangeLog.qml:66
+#: core/ChangeLog.qml:73 core/ChangeLog.qml:82 core/ChangeLog.qml:89
+#: core/ChangeLog.qml:102 core/ChangeLog.qml:140 core/ChangeLog.qml:146
+msgctxt "ChangeLog|"
+msgid "Many bug fixes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/ChangeLog.qml:44
+msgctxt "ChangeLog|"
+msgid "Translation added for Sanskrit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/ChangeLog.qml:46 core/ChangeLog.qml:72 core/ChangeLog.qml:81
+#: core/ChangeLog.qml:88 core/ChangeLog.qml:101 core/ChangeLog.qml:119
+#: core/ChangeLog.qml:134 core/ChangeLog.qml:139 core/ChangeLog.qml:145
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the coral butterfly"
@@ -29762,148 +30118,133 @@ msgid "Many new images"
 msgstr "หาผีเสื้อสีแดงปะการัง"
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:32 core/ChangeLog.qml:40 core/ChangeLog.qml:48
-#: core/ChangeLog.qml:54 core/ChangeLog.qml:59 core/ChangeLog.qml:66
-#: core/ChangeLog.qml:75 core/ChangeLog.qml:82 core/ChangeLog.qml:95
-#: core/ChangeLog.qml:133 core/ChangeLog.qml:139
-msgctxt "ChangeLog|"
-msgid "Many bug fixes"
-msgstr ""
-
-#. +> trunk6 stable6
-#: core/ChangeLog.qml:37
-msgctxt "ChangeLog|"
-msgid "Translation added for Sanskrit"
-msgstr ""
-
-#. +> trunk6 stable6
-#: core/ChangeLog.qml:41
+#: core/ChangeLog.qml:48
 msgctxt "ChangeLog|"
 msgid "Automatic application of new language when changing it in the menu (no need to restart GCompris)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:42
+#: core/ChangeLog.qml:49
 msgctxt "ChangeLog|"
 msgid "Add splash screen at startup"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:43
+#: core/ChangeLog.qml:50
 msgctxt "ChangeLog|"
 msgid "New command-line option to switch the renderer (--renderer renderer)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:52
+#: core/ChangeLog.qml:59
 msgctxt "ChangeLog|"
 msgid "Translation added for Latvian"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:63
+#: core/ChangeLog.qml:70
 msgctxt "ChangeLog|"
 msgid "Translations added for Bulgarian, Galician and Swahili"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:67
+#: core/ChangeLog.qml:74
 msgctxt "ChangeLog|"
 msgid "New command-line option to directly start an activity at a specific level (--start-level level, to be used with --launch activity)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:72
+#: core/ChangeLog.qml:79
 msgctxt "ChangeLog|"
 msgid "Translations added for Arabic and Esperanto"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:73 core/ChangeLog.qml:80
+#: core/ChangeLog.qml:80 core/ChangeLog.qml:87
 msgctxt "ChangeLog|"
 msgid "Many translation updates"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:79
+#: core/ChangeLog.qml:86
 msgctxt "ChangeLog|"
 msgid "New command-line option (--difficulty {value|min-max}) to start GCompris at specific difficulty"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:86
+#: core/ChangeLog.qml:93
 msgctxt "ChangeLog|"
 msgid "Fix issue in comparator activity"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:90
+#: core/ChangeLog.qml:97
 msgctxt "ChangeLog|"
 msgid "Map of Spain added for geography activity"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:91
+#: core/ChangeLog.qml:98
 msgctxt "ChangeLog|"
 msgid "Voices added for Ukrainian"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:92
+#: core/ChangeLog.qml:99
 msgctxt "ChangeLog|"
 msgid "New command-line option to list all the activities and start on a specific one"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:99
+#: core/ChangeLog.qml:106
 msgctxt "ChangeLog|"
 msgid "Reduce the size of the packages for all platforms and of the external word images set"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:100
+#: core/ChangeLog.qml:107
 msgctxt "ChangeLog|"
 msgid "Improve images quality in several activities"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:101
+#: core/ChangeLog.qml:108
 msgctxt "ChangeLog|"
 msgid "Fix some transitions in renewable_energy/watercycle on some platforms"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:102
+#: core/ChangeLog.qml:109
 msgctxt "ChangeLog|"
 msgid "Fix dead keys ignored on Linux for typing activities"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:103
+#: core/ChangeLog.qml:110
 msgctxt "ChangeLog|"
 msgid "Fix level reset when changing level manually in Logical associations"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:107
+#: core/ChangeLog.qml:114
 msgctxt "ChangeLog|"
 msgid "Fix Alphabet sequence, Even and odd numbers and Numbers in order activities"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:111 core/ChangeLog.qml:119
+#: core/ChangeLog.qml:118 core/ChangeLog.qml:126
 msgctxt "ChangeLog|"
 msgid "Several bug fixes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:113
+#: core/ChangeLog.qml:120
 msgctxt "ChangeLog|"
 msgid "Translation updated for Russian"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:114
+#: core/ChangeLog.qml:121
 #, fuzzy
 #| msgctxt "DialogConfig|"
 #| msgid "Norwegian Nynorsk"
@@ -29912,205 +30253,205 @@ msgid "New voices for Norwegian Nynorsk"
 msgstr "นอร์เวย์ Nynorsk"
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:118
+#: core/ChangeLog.qml:125
 msgctxt "ChangeLog|"
 msgid "Translations added for Breton, Czech and Macedonian"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:123
+#: core/ChangeLog.qml:130
 msgctxt "ChangeLog|"
 msgid "Translation added for Azerbaijani"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:124
+#: core/ChangeLog.qml:131
 msgctxt "ChangeLog|"
 msgid "New maps and update of the maps for geography activities"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:125
+#: core/ChangeLog.qml:132
 msgctxt "ChangeLog|"
 msgid "New dataset containing loops operations for programming maze, and make tutorial images translated"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:126
+#: core/ChangeLog.qml:133
 msgctxt "ChangeLog|"
 msgid "Addition of a level to teach voltage source loop in analog electricity activity"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:136
+#: core/ChangeLog.qml:143
 msgctxt "ChangeLog|"
 msgid "New Activity Settings menu, with dataset selection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:142
+#: core/ChangeLog.qml:149
 msgctxt "ChangeLog|"
 msgid "New sub-categories to organize activities"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:143
+#: core/ChangeLog.qml:150
 msgctxt "ChangeLog|"
 msgid "Translation added for Macedonian."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:144
+#: core/ChangeLog.qml:151
 msgctxt "ChangeLog|"
 msgid "New activities Programming Maze and Baby Tangram"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:145
+#: core/ChangeLog.qml:152
 msgctxt "ChangeLog|"
 msgid "New background music and volume settings."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:146
+#: core/ChangeLog.qml:153
 msgctxt "ChangeLog|"
 msgid "New speed setting in several activities."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:147
+#: core/ChangeLog.qml:154
 msgctxt "ChangeLog|"
 msgid "New option in chess to display captured pieces."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:148
+#: core/ChangeLog.qml:155
 msgctxt "ChangeLog|"
 msgid "New images in Colors, Advanced colors and Target game."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:149
+#: core/ChangeLog.qml:156
 msgctxt "ChangeLog|"
 msgid "New voices for US English."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:150 core/ChangeLog.qml:158
+#: core/ChangeLog.qml:157 core/ChangeLog.qml:165
 msgctxt "ChangeLog|"
 msgid "Many little fixes and improvements."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:151
+#: core/ChangeLog.qml:158
 msgctxt "ChangeLog|"
 msgid "Translation updated for multiple languages (Breton, Brazilian Portuguese, Finnish...)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:152
+#: core/ChangeLog.qml:159
 msgctxt "ChangeLog|"
 msgid "Add Russian dataset for Click on letter activity."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:153
+#: core/ChangeLog.qml:160
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Dutch."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:154
+#: core/ChangeLog.qml:161
 msgctxt "ChangeLog|"
 msgid "Merge Norwegian counties Nord-Trøndelag and Sør-Trøndelag into Trøndelag in geo-country activity."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:155
+#: core/ChangeLog.qml:162
 msgctxt "ChangeLog|"
 msgid "Fix in braille activities where the cells start at 1, not 0."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:156
+#: core/ChangeLog.qml:163
 msgctxt "ChangeLog|"
 msgid "Translation added for Basque, Hungarian and Malayalam."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:157
+#: core/ChangeLog.qml:164
 msgctxt "ChangeLog|"
 msgid "Loading/saving of creations (Baby Wordprocessor, Balance Box and Piano Composition)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:158
+#: core/ChangeLog.qml:165
 msgctxt "ChangeLog|"
 msgid "Translations added for Scottish Gaelic."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:159
+#: core/ChangeLog.qml:166
 msgctxt "ChangeLog|"
 msgid "License page added in configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:159
+#: core/ChangeLog.qml:166
 msgctxt "ChangeLog|"
 msgid "Multiple changes on layouts to improve the ergonomy."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:160
+#: core/ChangeLog.qml:167
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Polish, Swedish and Ukrainian."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:161
+#: core/ChangeLog.qml:168
 msgctxt "ChangeLog|"
 msgid "Search feature."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:162
+#: core/ChangeLog.qml:169
 msgctxt "ChangeLog|"
 msgid "A Changelog."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:163
+#: core/ChangeLog.qml:170
 msgctxt "ChangeLog|"
 msgid "Many little fixes."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:163
+#: core/ChangeLog.qml:170
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in French."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:164
+#: core/ChangeLog.qml:171
 msgctxt "ChangeLog|"
 msgid "Adding a loading overlay to let the user know that some actions are taking place (loading an activity for example) and can take some seconds."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:164
+#: core/ChangeLog.qml:171
 msgctxt "ChangeLog|"
 msgid "Translations added for: Catalan (Valencian), Chinese Traditional, Finnish (92% translated), Russian (98% translated), Slovak (92% translated), Turkish."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:165
+#: core/ChangeLog.qml:172
 msgctxt "ChangeLog|"
 msgid "Translations added for: Slovenian, German, Galician."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/ChangeLog.qml:219
+#: core/ChangeLog.qml:226
 #, qt-format
 msgctxt "ChangeLog|"
 msgid "Version %1:"
@@ -30506,116 +30847,116 @@ msgid "Could not open target file %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DownloadManager.cpp:705
+#: core/DownloadManager.cpp:710
 msgctxt "QObject|"
 msgid "Invalid format of Contents file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DownloadManager.cpp:727
+#: core/DownloadManager.cpp:732
 #, qt-format
 msgctxt "QObject|"
 msgid "The url %1 does not exist."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DownloadManager.cpp:740
+#: core/DownloadManager.cpp:745
 #, qt-format
 msgctxt "QObject|"
 msgid "Checksum of downloaded file does not match: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DownloadManager.cpp:762
+#: core/DownloadManager.cpp:767
 #, qt-format
 msgctxt "QObject|"
 msgid "No voices found for %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DownloadManager.cpp:767
+#: core/DownloadManager.cpp:772
 #, qt-format
 msgctxt "QObject|"
 msgid "No data found for %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:175
+#: core/GCCreationHandler.qml:176
 #, qt-format
 msgctxt "GCCreationHandler|"
 msgid "%1 deleted successfully!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:176 core/GCCreationHandler.qml:181
-#: core/GCCreationHandler.qml:234
+#: core/GCCreationHandler.qml:177 core/GCCreationHandler.qml:182
+#: core/GCCreationHandler.qml:235
 msgctxt "GCCreationHandler|"
 msgid "OK"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:180
+#: core/GCCreationHandler.qml:181
 #, qt-format
 msgctxt "GCCreationHandler|"
 msgid "Unable to delete %1!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:214
+#: core/GCCreationHandler.qml:215
 msgctxt "GCCreationHandler|"
 msgid "A file with this name already exists. Do you want to replace it?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:215 core/GCCreationHandler.qml:222
+#: core/GCCreationHandler.qml:216 core/GCCreationHandler.qml:223
 msgctxt "GCCreationHandler|"
 msgid "Yes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:215 core/GCCreationHandler.qml:222
+#: core/GCCreationHandler.qml:216 core/GCCreationHandler.qml:223
 msgctxt "GCCreationHandler|"
 msgid "No"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:221
+#: core/GCCreationHandler.qml:222
 msgctxt "GCCreationHandler|"
 msgid "Do you really want to delete this file?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:233
+#: core/GCCreationHandler.qml:234
 msgctxt "GCCreationHandler|"
 msgid "Saved successfully!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:264
+#: core/GCCreationHandler.qml:265
 msgctxt "GCCreationHandler|"
 msgid "Enter file name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:264
+#: core/GCCreationHandler.qml:265
 msgctxt "GCCreationHandler|"
 msgid "Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:278
+#: core/GCCreationHandler.qml:279
 msgctxt "GCCreationHandler|"
 msgid "Save"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:384
+#: core/GCCreationHandler.qml:385
 msgctxt "GCCreationHandler|"
 msgid "Load"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:394
+#: core/GCCreationHandler.qml:395
 msgctxt "GCCreationHandler|"
 msgid "Delete"
 msgstr ""
@@ -30660,43 +31001,43 @@ msgid "GCompris' language"
 msgstr "เมนูหลักของ GCompris"
 
 #. +> trunk6 stable6
-#: core/main.cpp:76
+#: core/main.cpp:85
 msgctxt "QObject|"
 msgid "Run GCompris with the default system cursor."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:80
+#: core/main.cpp:89
 msgctxt "QObject|"
 msgid "Run GCompris without cursor (touch screen mode)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:84
+#: core/main.cpp:93
 msgctxt "QObject|"
 msgid "Run GCompris in fullscreen mode."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:88
+#: core/main.cpp:97
 msgctxt "QObject|"
 msgid "Run GCompris in window mode."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:92
+#: core/main.cpp:101
 msgctxt "QObject|"
 msgid "Run GCompris with sound enabled."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:96
+#: core/main.cpp:105
 msgctxt "QObject|"
 msgid "Run GCompris without sound."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:99
+#: core/main.cpp:108
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the sage butterfly"
@@ -30705,7 +31046,7 @@ msgid "Disable the kiosk mode (default)."
 msgstr "หาผีเสื้อสีเขียวสะระแหน่"
 
 #. +> trunk6 stable6
-#: core/main.cpp:102
+#: core/main.cpp:111
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the sage butterfly"
@@ -30714,45 +31055,63 @@ msgid "Enable the kiosk mode."
 msgstr "หาผีเสื้อสีเขียวสะระแหน่"
 
 #. +> trunk6 stable6
-#: core/main.cpp:106
+#: core/main.cpp:115
 msgctxt "QObject|"
 msgid "Use software renderer instead of openGL (slower but should run with any graphical card). Deprecated, use --renderer=software instead."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:109
+#: core/main.cpp:118
 msgctxt "QObject|"
 msgid "Use openGL renderer instead of software (faster but crash potentially depending on your graphical card). Deprecated, use --renderer=opengl instead."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:113
+#: core/main.cpp:122
 msgctxt "QObject|"
 msgid "Select renderer (opengl, software, Direct3D11, Direct3D12, Metal)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:117
+#: core/main.cpp:126
 msgctxt "QObject|"
 msgid "Specify the activity when starting GCompris."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:122
+#: core/main.cpp:131
 msgctxt "QObject|"
 msgid "Outputs all the available activities on the standard output."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:126
+#: core/main.cpp:135
 msgctxt "QObject|"
 msgid "Specify the range of activity difficulty to display for the session. Either a single value (2), or a range (3-6). Values must be between 1 and 6."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:130
+#: core/main.cpp:139
 msgctxt "QObject|"
 msgid "Specify on which level to start the activity. Only used when --launch option is used."
+msgstr ""
+
+#. +> trunk6
+#: core/main.cpp:143
+msgctxt "QObject|"
+msgid "Specify the locale when starting GCompris."
+msgstr ""
+
+#. +> trunk6
+#: core/main.cpp:147
+msgctxt "QObject|"
+msgid "Hide the Home button in the bar."
+msgstr ""
+
+#. +> trunk6
+#: core/main.cpp:151
+msgctxt "QObject|"
+msgid "Show the Home button in the bar (default)."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -30856,25 +31215,25 @@ msgid "I am Ready"
 msgstr "ฉันพร้อมแล้ว"
 
 #. +> trunk6 stable6
-#: core/Tutorial.qml:140
+#: core/Tutorial.qml:139
 msgctxt "Tutorial|"
 msgid "Previous"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/Tutorial.qml:158
+#: core/Tutorial.qml:157
 msgctxt "Tutorial|"
 msgid "Next"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/Tutorial.qml:175
+#: core/Tutorial.qml:174
 msgctxt "Tutorial|"
 msgid "Skip"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/Tutorial.qml:175
+#: core/Tutorial.qml:174
 msgctxt "Tutorial|"
 msgid "Start"
 msgstr ""

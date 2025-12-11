@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-14 10:06+0100\n"
+"POT-Creation-Date: 2025-06-14 09:48+0200\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -11,16 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#. +> trunk5
-#: ../../user_interface/menu/file_menu.rst:1
-msgid "Kdenlive Documentation - File Menu"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/menu/file_menu.rst:1
-msgid "KDE, Kdenlive, file, menu, new, open, save, revert, transcode, clips, quit, documentation, user manual, video editor, open source, free, learn, easy"
-msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/menu/file_menu.rst:31
@@ -163,51 +153,132 @@ msgid "This abandons any changes to the project you have made since last saving 
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/menu/file_menu.rst:109
+#: ../../user_interface/menu/file_menu.rst:110
 msgid "Transcode Clips"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/menu/file_menu.rst:118
+#: ../../user_interface/menu/file_menu.rst:119
 msgid "Transcode clips"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/menu/file_menu.rst:121
+#: ../../user_interface/menu/file_menu.rst:122
 msgid "Use this to convert a video or audio clip from one codec/format to another."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/menu/file_menu.rst:123
+#: ../../user_interface/menu/file_menu.rst:124
 msgid "Choose one source file or multiple source files and a profile that represents the desired destination codec/format. Optionally change the destination path and file name and hit :guilabel:`Start`. Otherwise, hit :guilabel:`Abort` to close the windows."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/menu/file_menu.rst:125
+#: ../../user_interface/menu/file_menu.rst:126
 msgid "Transcoding a clip should be faster than loading the clip into the timeline and re-encoding it into a different format."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/menu/file_menu.rst:127
+#: ../../user_interface/menu/file_menu.rst:128
 msgid ":guilabel:`Add clip to project` controls if after the conversion, the new clip is added to the :doc:`Project Bin </project_and_asset_management/project_bin>`."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/menu/file_menu.rst:129
+#: ../../user_interface/menu/file_menu.rst:130
 msgid ":guilabel:`Close after encode` Uncheck this checkbox if there is the need to convert to another format after the conversion."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/menu/file_menu.rst:135
+#: ../../user_interface/menu/file_menu.rst:139
+msgid "OpenTimelineIO Export"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:141
+msgid "Export a timeline with multiple tracks and clips"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:142
+#: ../../user_interface/menu/file_menu.rst:160
+msgid "Support for markers and guides"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:146
+msgid "Guides are converted to OTIO markers on the timeline stack."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:148
+msgid "Clip markers are converted to OTIO markers. Note that clip markers work differently between Kdenlive and OTIO; in Kdenlive they are shared between each instance of the clip, in OTIO they are unique to each instance of the clip."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:150
+msgid "The Kdenlive marker types are stored as OTIO metadata for round-tripping files. This allows the guides and clip markers to be properly recreated when importing an OTIO file that was created with Kdenlive. The metadata is stored under the key \"kdenlive\" to keep it separate from metadata of other applications."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:157
+msgid "OpenTimelineIO import"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:159
+msgid "Import a timeline with multiple tracks and clips"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:164
+msgid "OTIO files do not contain information about rendering, so we get the render resolution from the first video clip."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:166
+msgid "OTIO markers on the timeline stack are converted to Kdenlive guides."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:168
+msgid "OTIO markers on clips are converted to Kdenlive clip markers. Note that clip markers work differently between Kdenlive and OTIO; in Kdenlive they are shared between each instance of the clip, in OTIO the they are unique to each instance of the clip."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:170
+msgid "If the OTIO marker metadata does not contain the Kdenlive marker type, we pick the Kdenlive guide/marker with the closest color to the OTIO marker."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:174
 msgid "Quit"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/menu/file_menu.rst:137
+#: ../../user_interface/menu/file_menu.rst:176
 msgid "Exits **Kdenlive**."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/menu/file_menu.rst:139
+#: ../../user_interface/menu/file_menu.rst:178
 msgid "Prompts you to save any unsaved changes. The default keyboard shortcut is :kbd:`Ctrl+Q`."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:-1
+msgid "Kdenlive Documentation - File Menu"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:-1
+msgid "KDE, Kdenlive, file, menu, new, open, save, revert, transcode, clips, quit, documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:0
+msgid "kdenlive2402_clip-problems"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:0
+msgid "kdenlive2304_transcode_2"
 msgstr ""

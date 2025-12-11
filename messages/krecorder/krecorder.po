@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krecorder\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-18 10:33+0200\n"
+"POT-Creation-Date: 2025-12-04 09:39+0100\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -25,20 +25,20 @@ msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6
-#: audiorecorder.cpp:172
+#: audiorecorder.cpp:187
 #, kde-format
 msgid "Default file format"
 msgstr ""
 
 #. +> trunk6 stable6
-#: audiorecorder.cpp:181
+#: audiorecorder.cpp:201
 #, kde-format
 msgid "Default audio codec"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/DefaultPage.qml:24 contents/ui/PlayerPage.qml:31
-#: contents/ui/RecordingListPage.qml:45
+#: contents/ui/DefaultPage.qml:21 contents/ui/PlayerPage.qml:28
+#: contents/ui/RecordingListPage.qml:47
 #: contents/ui/settings/SettingsDialog.qml:14
 #: contents/ui/settings/SettingsPage.qml:14
 #: contents/ui/settings/SettingsWindow.qml:13
@@ -47,13 +47,13 @@ msgid "Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/DefaultPage.qml:36
+#: contents/ui/DefaultPage.qml:30
 #, kde-format
 msgid "Play a recording, or record a new one"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/DefaultPage.qml:36
+#: contents/ui/DefaultPage.qml:30
 #, kde-format
 msgid "Record a new recording"
 msgstr ""
@@ -71,32 +71,32 @@ msgid "Player"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/PlayerPage.qml:56
+#: contents/ui/PlayerPage.qml:51
 #, kde-format
 msgid "Recorded on %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/PlayerPage.qml:82 contents/ui/RecordPage.qml:117
+#: contents/ui/PlayerPage.qml:77 contents/ui/RecordPage.qml:124
 #, kde-format
 msgid "Pause"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/PlayerPage.qml:82
+#: contents/ui/PlayerPage.qml:77
 #, kde-format
 msgid "Play"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/PlayerPage.qml:92
+#: contents/ui/PlayerPage.qml:87
 #, kde-format
 msgid "Stop"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/ui/RecordingListDelegate.qml:75
-#: contents/ui/RecordingListPage.qml:172
+#: contents/ui/RecordingListPage.qml:163
 #, kde-format
 msgid "Export to location"
 msgstr ""
@@ -109,55 +109,62 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: contents/ui/RecordingListDelegate.qml:91
-#: contents/ui/RecordingListPage.qml:187 contents/ui/RecordPage.qml:194
+#: contents/ui/RecordingListPage.qml:178 contents/ui/RecordPage.qml:202
 #, kde-format
 msgid "Delete"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:22
+#: contents/ui/RecordingListPage.qml:24
 #, kde-format
 msgid "Recordings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:37 contents/ui/RecordingListPage.qml:178
+#: contents/ui/RecordingListPage.qml:39 contents/ui/RecordingListPage.qml:169
 #, kde-format
 msgid "Edit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:51
+#: contents/ui/RecordingListPage.qml:53
 #, kde-format
 msgid "Record"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:113
+#: contents/ui/RecordingListPage.qml:95
 #, kde-format
 msgid "No recordings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:149
+#: contents/ui/RecordingListPage.qml:131
 #, kde-format
 msgid "Select a location to save recording %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:159
+#: contents/ui/RecordingListPage.qml:141
 #, kde-format
 msgid "Saved recording to %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:212
+#: contents/ui/RecordingListPage.qml:207
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/ui/RecordingListPage.qml:211
 #, kde-format
 msgid "Delete %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:213
+#: contents/ui/RecordingListPage.qml:224
 #, kde-format
 msgid ""
 "Are you sure you want to delete the recording %1?<br/>"
@@ -165,81 +172,61 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:217
-#, kde-format
-msgctxt "@action:button"
-msgid "Delete"
-msgstr ""
-
-#. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:228
-#, kde-format
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr ""
-
-#. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:240
+#: contents/ui/RecordingListPage.qml:233
 #, kde-format
 msgid "Rename %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:255 contents/ui/RecordPage.qml:245
+#: contents/ui/RecordingListPage.qml:245 contents/ui/RecordPage.qml:241
 #, kde-format
 msgid "Name:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordingListPage.qml:261
+#: contents/ui/RecordingListPage.qml:250
 #, kde-format
 msgid "Location:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordPage.qml:21
+#: contents/ui/RecordPage.qml:22
 #, kde-format
 msgid "Record Audio"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordPage.qml:117
+#: contents/ui/RecordPage.qml:124
 #, kde-format
 msgid "Continue"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordPage.qml:176
+#: contents/ui/RecordPage.qml:148
+#, kde-format
+msgid "Paused"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/ui/RecordPage.qml:183
 #, kde-format
 msgid "Save Recording"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordPage.qml:215
+#: contents/ui/RecordPage.qml:223
 #, kde-format
 msgid "Save recording"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordPage.qml:219
-#, kde-format
-msgid "Save"
-msgstr ""
-
-#. +> trunk6 stable6
-#: contents/ui/RecordPage.qml:231
-#, kde-format
-msgid "Discard"
-msgstr ""
-
-#. +> trunk6 stable6
-#: contents/ui/RecordPage.qml:246
+#: contents/ui/RecordPage.qml:242
 #, kde-format
 msgid "Name (optional)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/RecordPage.qml:250
+#: contents/ui/RecordPage.qml:246
 #, kde-format
 msgid "Storage Folder:"
 msgstr ""
@@ -263,67 +250,67 @@ msgid "Audio Input"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/settings/SettingsComponent.qml:125
+#: contents/ui/settings/SettingsComponent.qml:126
 #, kde-format
 msgid "Advanced"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/settings/SettingsComponent.qml:132
+#: contents/ui/settings/SettingsComponent.qml:133
 #, kde-format
 msgid "Audio Codec"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/settings/SettingsComponent.qml:165
+#: contents/ui/settings/SettingsComponent.qml:168
 #, kde-format
 msgid "Container Format"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/settings/SettingsComponent.qml:198
+#: contents/ui/settings/SettingsComponent.qml:203
 #, kde-format
 msgid "Audio Quality"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/settings/SettingsComponent.qml:199
+#: contents/ui/settings/SettingsComponent.qml:204
 #, kde-format
 msgid "Lowest"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/settings/SettingsComponent.qml:199
+#: contents/ui/settings/SettingsComponent.qml:204
 #, kde-format
 msgid "Low"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/settings/SettingsComponent.qml:199
+#: contents/ui/settings/SettingsComponent.qml:204
 #, kde-format
 msgid "Medium"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/settings/SettingsComponent.qml:199
+#: contents/ui/settings/SettingsComponent.qml:204
 #, kde-format
 msgid "High"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/settings/SettingsComponent.qml:199
+#: contents/ui/settings/SettingsComponent.qml:204
 #, kde-format
 msgid "Highest"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/settings/SettingsComponent.qml:200
+#: contents/ui/settings/SettingsComponent.qml:205
 #, kde-format
 msgid "Higher audio quality also increases file size."
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/ui/settings/SettingsComponent.qml:225
+#: contents/ui/settings/SettingsComponent.qml:230
 #, kde-format
 msgid "Some combinations of codecs and container formats may not be compatible."
 msgstr ""

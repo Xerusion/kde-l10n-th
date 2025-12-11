@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-03 10:39+0200\n"
+"POT-Creation-Date: 2025-11-12 00:54+0100\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,45 +13,9 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6 stable5
-#: notifier/DiscoverNotifier.cpp:184
+#: notifier/DiscoverNotifier.cpp:218
 #, kde-format
 msgid "View Updates"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: notifier/DiscoverNotifier.cpp:310
-#, kde-format
-msgid "Security updates available"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: notifier/DiscoverNotifier.cpp:312
-#, kde-format
-msgid "Updates available"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: notifier/DiscoverNotifier.cpp:314
-#, kde-format
-msgid "System up to date"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: notifier/DiscoverNotifier.cpp:316
-#, kde-format
-msgid "Computer needs to restart"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: notifier/DiscoverNotifier.cpp:318
-#, kde-format
-msgid "Offline"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: notifier/DiscoverNotifier.cpp:320
-#, kde-format
-msgid "Applying unattended updates…"
 msgstr ""
 
 #. +> stable5
@@ -61,46 +25,82 @@ msgid "New version: %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: notifier/DiscoverNotifier.cpp:345
+#: notifier/DiscoverNotifier.cpp:365
+#, kde-format
+msgid "Security updates available"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: notifier/DiscoverNotifier.cpp:367
+#, kde-format
+msgid "Updates available"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: notifier/DiscoverNotifier.cpp:369
+#, kde-format
+msgid "System up to date"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: notifier/DiscoverNotifier.cpp:371
+#, kde-format
+msgid "Computer needs to restart"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: notifier/DiscoverNotifier.cpp:373
+#, kde-format
+msgid "Offline"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: notifier/DiscoverNotifier.cpp:375
+#, kde-format
+msgid "Applying unattended updates…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: notifier/DiscoverNotifier.cpp:400
 #, kde-format
 msgid "Restart is required"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: notifier/DiscoverNotifier.cpp:346
+#: notifier/DiscoverNotifier.cpp:401
 #, kde-format
 msgid "The system needs to be restarted for the updates to take effect."
 msgstr ""
 
 #. +> trunk6 stable6
-#: notifier/DiscoverNotifier.cpp:351
+#: notifier/DiscoverNotifier.cpp:406
 #, kde-format
 msgctxt "@action:button"
 msgid "Update and Restart"
 msgstr ""
 
 #. +> trunk6 stable6
-#: notifier/DiscoverNotifier.cpp:352
+#: notifier/DiscoverNotifier.cpp:407
 #, kde-format
 msgctxt "@action:button"
 msgid "Update and Shut Down"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: notifier/DiscoverNotifier.cpp:396
+#: notifier/DiscoverNotifier.cpp:451
 #, kde-format
 msgid "Upgrade available"
 msgstr ""
 
 #. +> trunk6 stable6
-#: notifier/DiscoverNotifier.cpp:397
+#: notifier/DiscoverNotifier.cpp:452
 #, kde-format
 msgctxt "A new distro release (name and version) is available for upgrade"
 msgid "%1 is now available."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: notifier/DiscoverNotifier.cpp:400
+#: notifier/DiscoverNotifier.cpp:455
 #, kde-format
 msgctxt "@action:button"
 msgid "Upgrade"
@@ -125,16 +125,10 @@ msgstr ""
 msgid "System update status notifier"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: notifier/main.cpp:43
 #, kde-format
 msgid "© 2010-2025 Plasma Development Team"
-msgstr ""
-
-#. +> stable6
-#: notifier/main.cpp:43
-#, kde-format
-msgid "© 2010-2024 Plasma Development Team"
 msgstr ""
 
 #. +> stable5
@@ -158,19 +152,19 @@ msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: notifier/main.cpp:52
+#: notifier/main.cpp:54
 #, kde-format
 msgid "Replace an existing instance"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: notifier/main.cpp:56
+#: notifier/main.cpp:58
 #, kde-format
 msgid "Do not show the notifier"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: notifier/main.cpp:56
+#: notifier/main.cpp:58
 #, kde-format
 msgid "hidden"
 msgstr ""
@@ -181,44 +175,58 @@ msgstr ""
 msgid "Updates"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: notifier/NotifierItem.cpp:35
-#, kde-format
-msgid "Open Discover…"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: notifier/NotifierItem.cpp:40
+#. +> stable5
+#: notifier/NotifierItem.cpp:55
 #, kde-format
 msgid "See Updates…"
 msgstr ""
 
+#. +> trunk6 stable6
+#: notifier/NotifierItem.cpp:36
+#, kde-format
+msgctxt "@action:button Opens Discover's main UI to analyze the updates"
+msgid "Open Discover…"
+msgstr ""
+
+#. +> stable5
+#: notifier/NotifierItem.cpp:50
+#, kde-format
+msgid "Open Discover…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: notifier/NotifierItem.cpp:47
+#, kde-format
+msgctxt "@action:button Starts an update in the background"
+msgid "Start Update"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: notifier/NotifierItem.cpp:45
+#: notifier/NotifierItem.cpp:50
 #, kde-format
 msgid "Refresh…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: notifier/NotifierItem.cpp:51
+#: notifier/NotifierItem.cpp:56
 #, kde-format
 msgid "Install Updates and Restart…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: notifier/NotifierItem.cpp:54
+#: notifier/NotifierItem.cpp:59
 #, kde-format
 msgid "Install Updates and Shut Down…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: notifier/NotifierItem.cpp:59
+#: notifier/NotifierItem.cpp:64
 #, kde-format
 msgid "Restart to apply installed updates"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: notifier/NotifierItem.cpp:60
+#: notifier/NotifierItem.cpp:65
 #, kde-format
 msgid "Click to restart the device"
 msgstr ""

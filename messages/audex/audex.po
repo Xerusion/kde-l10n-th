@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audex\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-22 10:07+0200\n"
+"POT-Creation-Date: 2025-07-05 12:22+0200\n"
 "PO-Revision-Date: 2025-03-17 14:51+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -60,29 +60,36 @@ msgstr ""
 #. i18n: ectx: label, entry (fullParanoiaMode), group (general)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_fullParanoiaMode)
 #. +> trunk6 stable6
-#: audex.kcfg:37 widgets/devicewidgetUI.ui:45
+#: audex.kcfg:37 widgets/devicewidgetUI.ui:32
 #, kde-format
 msgid "Full paranoia mode (secure mode)"
 msgstr ""
 
-#. i18n: ectx: label, entry (skipReadingErrors), group (general)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_skipReadingErrors)
+#. i18n: ectx: label, entry (skipReadErrors), group (general)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_skipReadErrors)
 #. +> trunk6 stable6
-#: audex.kcfg:41 widgets/devicewidgetUI.ui:89
+#: audex.kcfg:41 widgets/devicewidgetUI.ui:42
 #, kde-format
-msgid "Skip reading errors"
+msgid "Skip read errors"
 msgstr ""
 
-#. i18n: ectx: label, entry (sampleOffset), group (general)
+#. i18n: ectx: label, entry (retriesOnReadError), group (general)
 #. +> trunk6 stable6
 #: audex.kcfg:45
 #, kde-format
-msgid "Sample offset"
+msgid "Retries on read error"
+msgstr ""
+
+#. i18n: ectx: label, entry (sampleShift), group (general)
+#. +> trunk6 stable6
+#: audex.kcfg:51
+#, kde-format
+msgid "Sample shift"
 msgstr ""
 
 #. i18n: ectx: label, entry (basePath), group (general)
 #. +> trunk6 stable6
-#: audex.kcfg:51
+#: audex.kcfg:57
 #, kde-format
 msgid "Base path to store music files"
 msgstr ""
@@ -90,14 +97,14 @@ msgstr ""
 #. i18n: ectx: label, entry (upload), group (general)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_upload)
 #. +> trunk6 stable6
-#: audex.kcfg:55 widgets/remoteserversettingswidgetUI.ui:23
+#: audex.kcfg:61 widgets/remoteserversettingswidgetUI.ui:23
 #, kde-format
 msgid "Upload files to server"
 msgstr ""
 
 #. i18n: ectx: label, entry (url), group (general)
 #. +> trunk6 stable6
-#: audex.kcfg:59
+#: audex.kcfg:65
 #, kde-format
 msgid "URL of server"
 msgstr ""
@@ -140,189 +147,189 @@ msgid "&Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:100
+#: core/audex.cpp:105
 #, kde-format
 msgid "No profile selected. Operation abort."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:112
+#: core/audex.cpp:117
 #, kde-format
 msgid "Start ripping and encoding with profile \"%1\"..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:614 core/audex.cpp:674
+#: core/audex.cpp:634 core/audex.cpp:697
 #, kde-format
 msgid "Can't find path \"%1\"."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:614 core/audex.cpp:674 core/audex.cpp:683 core/audex.cpp:1118
+#: core/audex.cpp:634 core/audex.cpp:697 core/audex.cpp:706 core/audex.cpp:1155
 #, kde-format
 msgid "Please check your path (write access?)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:627
+#: core/audex.cpp:647
 #, kde-format
 msgid "Free space on \"%1\" is less than 200 MiB."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:633 core/audex.cpp:702
+#: core/audex.cpp:653 core/audex.cpp:725
 #, kde-format
 msgid "Warning! File \"%1\" already exists. Overwriting."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:635 core/audex.cpp:704 core/audex.cpp:1098
+#: core/audex.cpp:655 core/audex.cpp:727 core/audex.cpp:1135
 #, kde-format
 msgid "Warning! File \"%1\" already exists. Skipping."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:683 core/audex.cpp:1118
+#: core/audex.cpp:706 core/audex.cpp:1155
 #, kde-format
 msgid "Unable to create folder \"%1\"."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:686 core/audex.cpp:1121
+#: core/audex.cpp:709 core/audex.cpp:1158
 #, kde-format
 msgid "Folder \"%1\" successfully created."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:689
+#: core/audex.cpp:712
 #, kde-format
 msgid "Folder \"%1\" already exists."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:696
+#: core/audex.cpp:719
 #, kde-format
 msgid "Free space on \"%1\" is less than 800 MiB."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:719
+#: core/audex.cpp:742
 #, kde-format
 msgid "Temporary folder \"%1\" error (%2)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:719
+#: core/audex.cpp:742
 #, kde-format
 msgid "Please check."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:727
+#: core/audex.cpp:750
 #, kde-format
 msgid "Free space on temporary folder \"%1\" is less than 800 MiB."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:729
+#: core/audex.cpp:752
 #, kde-format
 msgid "Temporary folder \"%1\" needs at least 200 MiB of free space."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:729
+#: core/audex.cpp:752
 #, kde-format
 msgid "Please free space or set another path."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:758
+#: core/audex.cpp:781
 #, kde-format
 msgid "Eject CD tray"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:806
+#: core/audex.cpp:833
 #, kde-format
 msgid "Cover \"%1\" successfully saved."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:809
+#: core/audex.cpp:836
 #, kde-format
 msgid "Unable to save cover \"%1\"."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:809 core/audex.cpp:883 core/audex.cpp:923 core/audex.cpp:970
-#: core/audex.cpp:1011 core/audex.cpp:1039 core/audex.cpp:1086
-#: core/audex.cpp:1113
+#: core/audex.cpp:836 core/audex.cpp:914 core/audex.cpp:959
+#: core/audex.cpp:1007 core/audex.cpp:1047 core/audex.cpp:1076
+#: core/audex.cpp:1123 core/audex.cpp:1150
 #, kde-format
 msgid "Please check your path and permissions"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:879
+#: core/audex.cpp:910
 #, kde-format
 msgid "Playlist \"%1\" successfully created."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:883
+#: core/audex.cpp:914
 #, kde-format
 msgid "Unable to save playlist \"%1\"."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:920
+#: core/audex.cpp:956
 #, kde-format
 msgid "Info file \"%1\" successfully created."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:923
+#: core/audex.cpp:959
 #, kde-format
 msgid "Unable to save info file \"%1\"."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:967
+#: core/audex.cpp:1004
 #, kde-format
 msgid "Hashlist \"%1\" successfully created."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:970
+#: core/audex.cpp:1007
 #, kde-format
 msgid "Unable to save hashlist \"%1\"."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:1008
+#: core/audex.cpp:1044
 #, kde-format
 msgid "Cue sheet \"%1\" successfully created."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:1011
+#: core/audex.cpp:1047
 #, kde-format
 msgid "Unable to save cue sheet \"%1\"."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:1036
+#: core/audex.cpp:1073
 #, kde-format
 msgid "Log file \"%1\" successfully stored."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:1039
+#: core/audex.cpp:1076
 #, kde-format
 msgid "Unable to save log file \"%1\"."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/audex.cpp:1086 core/audex.cpp:1113
+#: core/audex.cpp:1123 core/audex.cpp:1150
 #, kde-format
 msgid "Unable to open folder \"%1\"."
 msgstr ""
@@ -335,7 +342,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_various)
 #. +> trunk6 stable6
-#: dialogs/cddaheaderdatawidgetUI.ui:17 models/cddamodel.cpp:1029
+#: dialogs/cddaheaderdatawidgetUI.ui:17 models/cddamodel.cpp:1027
 #, kde-format
 msgid "Various Artists"
 msgstr ""
@@ -889,7 +896,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_timestamps)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_add_mcn_and_isrc)
 #. +> trunk6 stable6
-#: dialogs/profiledatacuesheetwidgetUI.ui:53
+#: dialogs/profiledatacuesheetwidgetUI.ui:56
 #: dialogs/profiledatalogfilewidgetUI.ui:56
 #, kde-format
 msgid ""
@@ -901,7 +908,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_add_mcn_and_isrc)
 #. +> trunk6 stable6
-#: dialogs/profiledatacuesheetwidgetUI.ui:62
+#: dialogs/profiledatacuesheetwidgetUI.ui:65
 #, kde-format
 msgid "Add MCN and ISRC values (if available)"
 msgstr ""
@@ -1151,184 +1158,172 @@ msgid "Filename Scheme Wizard"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:25
+#: main.cpp:26
 #, kde-format
 msgid "Audex"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:25
+#: main.cpp:28
 #, kde-format
 msgctxt "@info"
 msgid "Audio ripping application"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:25
-#, kde-format
-msgid "Copyright © 2007-2023 Marco Nelles"
-msgstr ""
-
-#. +> trunk6 stable6
-#: main.cpp:28
-#, kde-format
-msgid "Marco Nelles"
-msgstr ""
-
-#. +> trunk6 stable6
-#: main.cpp:28
-#, kde-format
-msgid "Current maintainer, main developer"
-msgstr ""
-
-#. +> trunk6 stable6
-#: main.cpp:29
-#, kde-format
-msgid "Craig Drummond"
-msgstr ""
-
-#. +> trunk6 stable6
-#: main.cpp:29
-#, kde-format
-msgid "GUI improvements, development"
-msgstr ""
-
-#. +> trunk6 stable6
 #: main.cpp:30
 #, kde-format
-msgid "Elson"
-msgstr ""
-
-#. +> trunk6 stable6
-#: main.cpp:30
-#, kde-format
-msgid "development"
-msgstr ""
-
-#. +> trunk6 stable6
-#: main.cpp:31
-#, kde-format
-msgid "credativ GmbH"
-msgstr ""
-
-#. +> trunk6 stable6
-#: main.cpp:31
-#, kde-format
-msgid "Special thanks to former credativ GmbH (Germany) for support"
-msgstr ""
-
-#. +> trunk6 stable6
-#: main.cpp:32
-#, kde-format
-msgid "Xiph.Org Foundation"
+msgid "Copyright © 2007-2025 Marco Nelles"
 msgstr ""
 
 #. +> trunk6 stable6
 #: main.cpp:33
 #, kde-format
-msgid "Special thanks to Xiph.Org Foundation for providing compact disc ripper"
+msgid "Marco Nelles"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid "Current maintainer, main developer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, kde-format
+msgid "Craig Drummond"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, kde-format
+msgid "GUI improvements, development"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:35
+#, kde-format
+msgid "Elson"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:35
+#, kde-format
+msgid "development"
 msgstr ""
 
 #. +> trunk6 stable6
 #: main.cpp:36
+#, kde-format
+msgid "credativ GmbH"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:36
+#, kde-format
+msgid "Special thanks to credativ GmbH (Germany) for support"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:37
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:36
+#: main.cpp:37
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:39
+#: mainwindow.cpp:35
 #, kde-format
 msgid "Unable to create ProfileModel object."
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:40 mainwindow.cpp:53
+#: mainwindow.cpp:36 mainwindow.cpp:49
 #, kde-format
 msgid "Internal error. Check your hardware. If all okay please make bug report."
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:53
+#: mainwindow.cpp:49
 #, kde-format
 msgid "Unable to create CDDAModel object."
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:131
+#: mainwindow.cpp:121
 #, kde-format
 msgid "No disc information set. Do you really want to continue?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:132
+#: mainwindow.cpp:122
 #, kde-format
 msgid "Disc information not found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:143
+#: mainwindow.cpp:133
 #, kde-format
 msgid "Single file rip selected but not all audio tracks to rip selected. Do you really want to continue?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:144
+#: mainwindow.cpp:134
 #, kde-format
 msgid "Not all audio tracks selected for single file rip"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:156
+#: mainwindow.cpp:146
 #, kde-format
 msgid "No cover was set. Do you really want to continue?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:157
+#: mainwindow.cpp:147
 #, kde-format
 msgid "Cover is empty"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:181
+#: mainwindow.cpp:171
 #, kde-format
 msgid "General settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:185
+#: mainwindow.cpp:174
 #, kde-format
 msgid "Device settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:196
+#: mainwindow.cpp:177
 #, kde-format
 msgid "Profiles"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:205
+#: mainwindow.cpp:186
 #, kde-format
 msgid "CDDB settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:208
+#: mainwindow.cpp:189
 #, kde-format
 msgid "Remote Server"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:264
+#: mainwindow.cpp:228
 #, kde-format
 msgid ""
 "CDDB lookup failed, with the following error:\n"
@@ -1336,19 +1331,19 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:266
+#: mainwindow.cpp:230
 #, kde-format
 msgid "CDD Lookup Failure"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:371
+#: mainwindow.cpp:335
 #, kde-format
 msgid "Split titles"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:372
+#: mainwindow.cpp:336
 #, kde-format
 msgid ""
 "Please set a divider string. Be aware of empty spaces.\n"
@@ -1357,732 +1352,666 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:384
+#: mainwindow.cpp:348
 #, kde-format
 msgid "Do you really want to swap all artists and titles?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:385
+#: mainwindow.cpp:349
 #, kde-format
 msgid "Swap artists and titles"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:399
+#: mainwindow.cpp:363
 #, kde-format
 msgid "Do you really want to capitalize all artists and titles?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:400
+#: mainwindow.cpp:364
 #, kde-format
 msgid "Capitalize artists and titles"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:414
+#: mainwindow.cpp:378
 #, kde-format
 msgid "Do you really want to autofill track artists?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:415
+#: mainwindow.cpp:379
 #, kde-format
 msgid "Autofill artists"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:442
+#: mainwindow.cpp:406
 #, kde-format
 msgid "Eject"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:449
+#: mainwindow.cpp:413
 #, kde-format
 msgid "Profile:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:461
+#: mainwindow.cpp:425
 #, kde-format
 msgid "&Profile:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:467
+#: mainwindow.cpp:431
 #, kde-format
 msgid "Profile"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:475
+#: mainwindow.cpp:439
 #, kde-format
 msgid "Fetch"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:482
+#: mainwindow.cpp:446
 #, kde-format
 msgid "Submit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:488
+#: mainwindow.cpp:452
 #, kde-format
 msgid "Edit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:495
+#: mainwindow.cpp:459
 #, kde-format
 msgid "Rip..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:504
+#: mainwindow.cpp:468
 #, kde-format
 msgid "Split Titles..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:509
+#: mainwindow.cpp:473
 #, kde-format
 msgid "Swap Artists And Titles"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:514
+#: mainwindow.cpp:478
 #, kde-format
 msgid "Capitalize"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:519
+#: mainwindow.cpp:483
 #, kde-format
 msgid "Auto Fill Artists"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:524
+#: mainwindow.cpp:488
 #, kde-format
 msgid "Select All Tracks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:529
+#: mainwindow.cpp:493
 #, kde-format
 msgid "Deselect All Tracks"
 msgstr ""
 
 #. +> trunk6 stable6
-#: mainwindow.cpp:534
+#: mainwindow.cpp:498
 #, kde-format
 msgid "Invert Selection"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:21
+#: models/cddamodel.cpp:20
 #, kde-format
 msgid "Unable to create devices object."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:22 models/cddamodel.cpp:34 models/cddamodel.cpp:904
+#: models/cddamodel.cpp:21 models/cddamodel.cpp:33 models/cddamodel.cpp:903
 #, kde-format
 msgid "This is an internal error. Check your hardware. If all okay please make bug report."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:33
+#: models/cddamodel.cpp:32
 #, kde-format
 msgid "Unable to create KCDDB object."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:122
+#: models/cddamodel.cpp:121
 #, kde-format
 msgid "Track %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:526
+#: models/cddamodel.cpp:525
 #, kde-format
 msgid "Common image formats"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:823
+#: models/cddamodel.cpp:822
 #, kde-format
 msgid "CDDB transaction already in progress."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:824
+#: models/cddamodel.cpp:823
 #, kde-format
 msgid "A CDDB transaction is already in progress. Please wait until it has finished and try again."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:843 models/cddamodel.cpp:957
+#: models/cddamodel.cpp:842 models/cddamodel.cpp:955
 #, kde-format
 msgid "There is an error with the CDDB server. Please wait or contact the administrator of the CDDB server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:849 models/cddamodel.cpp:963
+#: models/cddamodel.cpp:848 models/cddamodel.cpp:961
 #, kde-format
 msgid "Cannot find the CDDB server. Check your network. Maybe the CDDB server is offline."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:855 models/cddamodel.cpp:969
+#: models/cddamodel.cpp:854 models/cddamodel.cpp:967
 #, kde-format
 msgid "Please wait, maybe the server is busy, or contact the CDDB server administrator."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:860
+#: models/cddamodel.cpp:859
 #, kde-format
 msgid "Please contact the CDDB server administrator."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:863 models/cddamodel.cpp:974
+#: models/cddamodel.cpp:862 models/cddamodel.cpp:972
 #, kde-format
 msgid "This should not happen. Please make a bug report."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:870 models/cddamodel.cpp:977
+#: models/cddamodel.cpp:869 models/cddamodel.cpp:975
 #, kde-format
 msgid "Please make a bug report and contact the CDDB server administrator."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:903
+#: models/cddamodel.cpp:902
 #, kde-format
 msgid "Unable to create CDIO object."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:983
+#: models/cddamodel.cpp:981
 #, kde-format
 msgid "This means no data found in the CDDB database."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:1004
+#: models/cddamodel.cpp:1002
 #, kde-format
 msgid "Select CDDB Entry"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.cpp:1004
+#: models/cddamodel.cpp:1002
 #, kde-format
 msgid "Select a CDDB entry:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.h:34
+#: models/cddamodel.h:35
 #, kde-format
 msgid "Rip"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.h:35
+#: models/cddamodel.h:36
 #, kde-format
 msgid "Track"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.h:36
+#: models/cddamodel.h:37
 #, kde-format
 msgid "Artist"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.h:37
+#: models/cddamodel.h:38
 #, kde-format
 msgid "Title"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/cddamodel.h:38
+#: models/cddamodel.h:39
 #, kde-format
 msgid "Length"
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:302
+#: models/profilemodel.cpp:305
 #, kde-format
 msgid "Unknown error. No index found in profile model."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:302
+#: models/profilemodel.cpp:305
 #, kde-format
 msgid "This is an internal error. Please report."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:378
+#: models/profilemodel.cpp:381
 #, kde-format
 msgid "Profile name must not be empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:378
+#: models/profilemodel.cpp:381
 #, kde-format
 msgid "You have given no name for the profile. Please set one."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:392
+#: models/profilemodel.cpp:395
 #, kde-format
 msgid "Profile name already exists."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:393
+#: models/profilemodel.cpp:396
 #, kde-format
 msgid "Your profile name %1 already exists in the set of profiles. Please choose a unique one."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:404
+#: models/profilemodel.cpp:407
 #, kde-format
 msgid "Profile encoder is not defined."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:404
+#: models/profilemodel.cpp:407
 #, kde-format
 msgid "You have given no encoder for the profile. Please set one."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:411
+#: models/profilemodel.cpp:414
 #, kde-format
 msgid "Profile filename scheme is not defined."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:412
+#: models/profilemodel.cpp:415
 #, kde-format
 msgid "You have given no filename scheme for the profile. Please set one."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:440
+#: models/profilemodel.cpp:443
 #, kde-format
 msgid "The image file format is unknown."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:441
+#: models/profilemodel.cpp:444
 #, kde-format
 msgid "Your given image file format is unknown. Please choose on of these formats: JPEG, PNG, TIFF or BMP."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:450
+#: models/profilemodel.cpp:453
 #, kde-format
 msgid "Cover name must not be empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:450
+#: models/profilemodel.cpp:453
 #, kde-format
 msgid "You have given no name for the cover. Please set one."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:460
+#: models/profilemodel.cpp:463
 #, kde-format
 msgid "The playlist file format is unknown."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:461
+#: models/profilemodel.cpp:464
 #, kde-format
 msgid "Your given playlist file format is unknown. Please choose on of these formats: M3U, PLS or XSPF."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:470
+#: models/profilemodel.cpp:473
 #, kde-format
 msgid "Playlist name must not be empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:470
+#: models/profilemodel.cpp:473
 #, kde-format
 msgid "You have given no name for the playlist. Please set one."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:490
+#: models/profilemodel.cpp:493
 #, kde-format
 msgid "Info text name must not be empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:490
+#: models/profilemodel.cpp:493
 #, kde-format
 msgid "You have given no name for the info text file. Please set one."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:497
+#: models/profilemodel.cpp:500
 #, kde-format
 msgid "Info text file name suffix must not be empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:498
+#: models/profilemodel.cpp:501
 #, kde-format
 msgid "You have given no suffix for the info text file. Please set one."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:509
+#: models/profilemodel.cpp:512
 #, kde-format
 msgid "The hashlist file format is unknown."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:510
+#: models/profilemodel.cpp:513
 #, kde-format
 msgid "Your given hashlist file format is unknown. Please choose one of these formats: SFV, MD5, SHA-256."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:519
+#: models/profilemodel.cpp:522
 #, kde-format
 msgid "Hashlist name must not be empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:519
+#: models/profilemodel.cpp:522
 #, kde-format
 msgid "You have given no name for the hashlist. Please set one."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:530
+#: models/profilemodel.cpp:533
 #, kde-format
 msgid "Cue filename name must not be empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:530
+#: models/profilemodel.cpp:533
 #, kde-format
 msgid "You have given no name for the cue sheet. Please set one."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:543
+#: models/profilemodel.cpp:546
 #, kde-format
 msgid "Log filename name must not be empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:543
+#: models/profilemodel.cpp:546
 #, kde-format
 msgid "You have given no name for the log file. Please set one."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:557
+#: models/profilemodel.cpp:560
 #, kde-format
 msgid "Filename name must not be empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:557
+#: models/profilemodel.cpp:560
 #, kde-format
 msgid "You have given no name for the single audio file. Please set one."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, kpushbutton_copy)
 #. +> trunk6 stable6
-#: models/profilemodel.cpp:939 widgets/profilewidgetUI.ui:42
+#: models/profilemodel.cpp:942 widgets/profilewidgetUI.ui:42
 #, kde-format
 msgid "Copy"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddacdio.cpp:45
-#, kde-format
-msgid "Device error (1)."
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:45 utils/cddacdio.cpp:52 utils/cddacdio.cpp:60
-#: utils/cddacdio.cpp:530
-#, kde-format
-msgid "Check your device. Is it really \"%1\"? Also check your permissions on \"%1\"."
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:52
-#, kde-format
-msgid "Device error (2)."
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:60
-#, kde-format
-msgid "Device error (3)."
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:446
-#, kde-format
-msgid "Track --, Start sector: 000000, Size in sectors: 000150, Type: Lead-in"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:473
-#, kde-format
-msgid "Audio"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:476
-#, kde-format
-msgid "Non-Audio: CD-i"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:479
-#, kde-format
-msgid "Non-Audio: Data mode 2"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:481
-#, kde-format
-msgid ", form 1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:483
-#, kde-format
-msgid ", form 2"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:486
-#, kde-format
-msgid "Non-Audio: Data mode 1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:489
-#, kde-format
-msgid "Non-Audio: Playstation 1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:492
-#, kde-format
-msgid "Non-Audio: Unknown format"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:496
-#, kde-format
-msgid "Lead-out"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:498
-#, kde-format
-msgid "Track %1, Start sector: %2, Size in sectors: %3, Type: %4"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddacdio.cpp:529
-#, kde-format
-msgid "Could not get device hardware information (vendor, model and firmware revision)."
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddadevices.cpp:86
+#: utils/cddadevices.cpp:84
 #, kde-format
 msgid "Audio Disc"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:27
+#: utils/cddaextractthread.cpp:70
 #, kde-format
-msgid "Internal device error."
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:27
-#, kde-format
-msgid "Check your device and make a bug report."
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:71
-#, kde-format
-msgid "Drive Vendor: %1, Drive Model: %2, Drive Revision: %3"
+msgid "Sample shift: %1"
 msgstr ""
 
 #. +> trunk6 stable6
 #: utils/cddaextractthread.cpp:72
 #, kde-format
-msgid "TOC:"
+msgid "Ripping with shift of %1 samples"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:86
+#: utils/cddaextractthread.cpp:75
 #, kde-format
-msgid "Extracting finished."
+msgid "Paranoia mode enabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:110 utils/cddaextractthread.cpp:228
+#: utils/cddaextractthread.cpp:77
 #, kde-format
-msgid "Error occured while seeking at sector %1: %2"
+msgid "Paranoia mode disabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:112 utils/cddaextractthread.cpp:230
+#: utils/cddaextractthread.cpp:110 utils/cddaextractthread.cpp:111
 #, kde-format
-msgid "An error occured while ripping track %1. See log."
+msgid "Start ripping track %1..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:114 utils/cddaextractthread.cpp:232
+#: utils/cddaextractthread.cpp:113 utils/cddaextractthread.cpp:114
 #, kde-format
-msgid "An error occured while ripping. See log."
+msgid "Start ripping whole cd..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:121
-#, kde-format
-msgid "Correction sample offset: %1"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:129
-#, kde-format
-msgid "Fetching extra information from disc..."
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:131
-#, kde-format
-msgid "Fetching subchannel infos from disc"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:135
-#, kde-format
-msgid "Ripping track %1 (%2:%3)..."
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:136
-#, kde-format
-msgid "Start reading track %1 with %2 sectors"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:138
-#, kde-format
-msgid "Ripping whole disc (%1:%2)..."
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:139
-#, kde-format
-msgid "Start reading whole disc with %1 sectors"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:140
-#, kde-format
-msgid "Track %1 with start sector %2"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:143
-#, kde-format
-msgid "First sector: %1, Last sector: %2"
-msgstr ""
-
-#. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:164
+#: utils/cddaextractthread.cpp:193
 #, kde-format
 msgid "Error occured while reading sector %1 (track time pos %2): %3"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:170 utils/cddaextractthread.cpp:179
+#: utils/cddaextractthread.cpp:200 utils/cddaextractthread.cpp:208
 #, kde-format
 msgid "An error occured while ripping track %1 at position %2. See log."
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:174 utils/cddaextractthread.cpp:184
-#: utils/cddaextractthread.cpp:191 utils/cddaextractthread.cpp:194
+#: utils/cddaextractthread.cpp:202 utils/cddaextractthread.cpp:210
+#: utils/cddaextractthread.cpp:217 utils/cddaextractthread.cpp:219
 #, kde-format
 msgid "An error occured while ripping at position %1. See log."
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:189
+#: utils/cddaextractthread.cpp:215
 #, kde-format
 msgid "Error reading sector %1 (track time pos %2)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:200
+#: utils/cddaextractthread.cpp:226
 #, kde-format
 msgid "Error reading sector %1 (%2): **Filling whole sector with silence**"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:251 utils/cddaextractthread.cpp:252
+#: utils/cddaextractthread.cpp:264
+#, kde-format
+msgid "Paranoia status report for track %1:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaextractthread.cpp:266
+#, kde-format
+msgid "Paranoia status report:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaextractthread.cpp:272 utils/cddaextractthread.cpp:273
 #, kde-format
 msgid "Ripping was canceled due to an error."
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:254
+#: utils/cddaextractthread.cpp:275
 #, kde-format
 msgid "User canceled extracting."
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:255
+#: utils/cddaextractthread.cpp:276
 #, kde-format
 msgid "Extraction interrupted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:258
+#: utils/cddaextractthread.cpp:279
 #, kde-format
 msgid "Ripping OK (Track %1)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:260
+#: utils/cddaextractthread.cpp:280
+#, kde-format
+msgid "Ripping of track %2 successfully finished"
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaextractthread.cpp:282
 #, kde-format
 msgid "Ripping OK."
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/cddaextractthread.cpp:262
+#: utils/cddaextractthread.cpp:283
 #, kde-format
-msgid "Ripping finished"
+msgid "Ripping successfully finished"
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:20
+#, kde-format
+msgid "Device error."
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:20
+#, kde-format
+msgid "Check your device on \"%1\"."
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:30 utils/cddaparanoia.cpp:34
+#: utils/cddaparanoia.cpp:40
+#, kde-format
+msgid "Disc error."
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:30
+#, kde-format
+msgid "Unable to open disc. Is there an audio disc in the drive \"%1\"."
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:34
+#, kde-format
+msgid "cdparanoia could not find a way to read audio from the drive \"%1\"."
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:40
+#, kde-format
+msgid "Unspecified drive error on \"%1\"."
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:47
+#, kde-format
+msgid "Drive/Disc error."
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:47
+#, kde-format
+msgid "Unspecified drive or disc error on \"%1\"."
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:333
+#, kde-format
+msgid "Track --, Start sector: 000000, Size in sectors: 000150, Type: Lead-in"
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:358
+#, kde-format
+msgid "Audio"
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:360
+#, kde-format
+msgid "Non-Audio"
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:364
+#, kde-format
+msgid "Lead-out"
+msgstr ""
+
+#. +> trunk6 stable6
+#: utils/cddaparanoia.cpp:366
+#, kde-format
+msgid "Track %1, Start sector: %2, Size in sectors: %3, Type: %4"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2240,31 +2169,31 @@ msgid "Unclosed quote found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/schemeparser.cpp:77
+#: utils/schemeparser.cpp:65
 #, kde-format
 msgid "Illegal character found at index %1: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/schemeparser.cpp:128
+#: utils/schemeparser.cpp:116
 #, kde-format
 msgid "replace_char_list parameter needs two more parameters replace_char_list_from and replace_char_list_to with equal size."
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/schemeparser.cpp:274
+#: utils/schemeparser.cpp:262
 #, kde-format
 msgid "Unclosed brace."
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/schemeparser.cpp:428
+#: utils/schemeparser.cpp:447
 #, kde-format
 msgid "Could not create temporary cover file: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/schemeparser.h:155
+#: utils/schemeparser.h:154
 #, kde-format
 msgid ""
 "<p>The following placeholders will be replaced with their particular meaning:</p>"
@@ -2309,7 +2238,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/schemeparser.h:172
+#: utils/schemeparser.h:171
 #, kde-format
 msgid ""
 "<p>Placeholders in Audex can have parameters in the form key=value. E.g. <tt>${title lowercase=true}</tt>. In this example the title will be lowercased. The following general parameters can be used with placeholders:</p>"
@@ -2368,7 +2297,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/schemeparser.h:193
+#: utils/schemeparser.h:192
 #, kde-format
 msgid ""
 "<table>"
@@ -2396,7 +2325,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/schemeparser.h:205
+#: utils/schemeparser.h:204
 #, kde-format
 msgid ""
 "<table>"
@@ -2424,7 +2353,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/schemeparser.h:219
+#: utils/schemeparser.h:218
 #, kde-format
 msgid ""
 "<table>"
@@ -2484,49 +2413,49 @@ msgid "Finished uploading file %1 to server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/cddaheaderwidget.cpp:133
+#: widgets/cddaheaderwidget.cpp:131
 #, kde-format
 msgid "CD Number: "
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/cddaheaderwidget.cpp:147
+#: widgets/cddaheaderwidget.cpp:150
 #, kde-format
 msgid "No audio CD detected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/cddaheaderwidget.cpp:260
+#: widgets/cddaheaderwidget.cpp:243
 #, kde-format
 msgid "Load Cover"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/cddaheaderwidget.cpp:270 widgets/profilewidget.cpp:122
+#: widgets/cddaheaderwidget.cpp:253 widgets/profilewidget.cpp:122
 #, kde-format
 msgid "Save Cover"
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/cddaheaderwidget.cpp:350
+#: widgets/cddaheaderwidget.cpp:330
 #, kde-format
 msgid "Set Custom Cover..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/cddaheaderwidget.cpp:355
+#: widgets/cddaheaderwidget.cpp:335
 #, kde-format
 msgid "Save Cover To File..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/cddaheaderwidget.cpp:360
+#: widgets/cddaheaderwidget.cpp:340
 #, kde-format
 msgid "Show Full Size Cover..."
 msgstr ""
 
 #. +> trunk6 stable6
-#: widgets/cddaheaderwidget.cpp:365
+#: widgets/cddaheaderwidget.cpp:345
 #, kde-format
 msgid "Remove Cover"
 msgstr ""
@@ -2538,27 +2467,16 @@ msgstr ""
 msgid "Command Scheme:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_Model)
-#. i18n: ectx: property (text), widget (QLabel, label_Revision)
-#. i18n: ectx: property (text), widget (QLabel, label_Vendor)
-#. +> trunk6 stable6
-#: widgets/devicewidget.cpp:52 widgets/devicewidget.cpp:53
-#: widgets/devicewidget.cpp:54 widgets/devicewidgetUI.ui:111
-#: widgets/devicewidgetUI.ui:137 widgets/devicewidgetUI.ui:166
-#, kde-format
-msgid "(No disc detected)"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. +> trunk6 stable6
-#: widgets/devicewidgetUI.ui:36
+#: widgets/devicewidgetUI.ui:23
 #, kde-format
 msgid "Device"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_fullParanoiaMode)
 #. +> trunk6 stable6
-#: widgets/devicewidgetUI.ui:42
+#: widgets/devicewidgetUI.ui:29
 #, kde-format
 msgid ""
 "<html><head/><body>"
@@ -2566,84 +2484,50 @@ msgid ""
 "</body></html>"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_skipReadErrors)
+#. +> trunk6 stable6
+#: widgets/devicewidgetUI.ui:39
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Skip reading errors for a sector (sector length: 1/75 second) after retrying to read it. Please specify the number of retry attempts under <span style=\" font-style:italic;\">Retries on read error</span>. If skipped, null samples will be written for the faulty sectors.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_sampleShift)
+#. +> trunk6 stable6
+#: widgets/devicewidgetUI.ui:51 widgets/devicewidgetUI.ui:73
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Some drives have a sample offset when reading audio CDs. To determine the correct offset for your drive model, you can check the <a href=\"https://www.accuraterip.com/driveoffsets.htm\"><span style=\" text-decoration: underline; color:#2980b9;\">Accuraterip</span></a> database.</p>"
+"</body></html>"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6
 #: widgets/devicewidgetUI.ui:54
 #, kde-format
-msgid "Sample offset:"
+msgid "Sample shift:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_skipReadingErrors)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_4)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_retriesOnReadError)
 #. +> trunk6 stable6
-#: widgets/devicewidgetUI.ui:86
+#: widgets/devicewidgetUI.ui:103 widgets/devicewidgetUI.ui:134
 #, kde-format
 msgid ""
 "<html><head/><body>"
-"<p>Skip reading errors of a sector (length of a sector: 1/75 second) after trying to read the sector again for at most 20 times. Usually broken sectors will be filled with silence.</p>"
+"<p>Specify the maximum number of retry attempts when a faulty sector is encountered.</p>"
 "</body></html>"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, gridGroupBox)
-#. +> trunk6 stable6
-#: widgets/devicewidgetUI.ui:99
-#, kde-format
-msgid "Device information"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. +> trunk6 stable6
-#: widgets/devicewidgetUI.ui:156
-#, kde-format
-msgid "Vendor:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_canReadMCN)
-#. +> trunk6 stable6
-#: widgets/devicewidgetUI.ui:179
-#, kde-format
-msgid "Your device can read the Media Catalog Number (MCN) of the disc."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_canReadMCN)
-#. +> trunk6 stable6
-#: widgets/devicewidgetUI.ui:182
-#, kde-format
-msgid "Can read Media Catalog Number (MCN)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6
-#: widgets/devicewidgetUI.ui:214
+#: widgets/devicewidgetUI.ui:106
 #, kde-format
-msgid "Revision:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_c2ErrorCorrection)
-#. +> trunk6 stable6
-#: widgets/devicewidgetUI.ui:224
-#, kde-format
-msgid "C2 error correction available"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. +> trunk6 stable6
-#: widgets/devicewidgetUI.ui:246
-#, kde-format
-msgid "Model:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_canReadISRC)
-#. +> trunk6 stable6
-#: widgets/devicewidgetUI.ui:256
-#, kde-format
-msgid "Your device can read the International Standard Recording Code of every single track."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_canReadISRC)
-#. +> trunk6 stable6
-#: widgets/devicewidgetUI.ui:259
-#, kde-format
-msgid "Can read Intern. Standard Recording Code (ISRC)"
+msgid "Max. read retries:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)

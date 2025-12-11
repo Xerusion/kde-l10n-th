@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-09 09:42+0100\n"
+"POT-Creation-Date: 2025-12-01 10:34+0100\n"
 "PO-Revision-Date: 2008-04-07 23:17+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -55,7 +55,7 @@ msgid_plural " minutes"
 msgstr[0] "นาที"
 
 #. +> trunk6 stable6
-#: configuration/akregatorconfigurepluginlistwidget.cpp:51
+#: configuration/akregatorconfigurepluginlistwidget.cpp:53
 #, fuzzy, kde-format
 #| msgid "Configure &Akregator..."
 msgid "Webengine Plugins"
@@ -1007,8 +1007,9 @@ msgstr ""
 #. +> trunk6 stable6
 #: kontactplugin/akregator_plugin.cpp:27 src/aboutdata.cpp:19
 #: src/akregator_part.cpp:126
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:142
-#: src/trayicon.cpp:40 src/trayicon.cpp:41 src/trayicon.cpp:53
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:143
+#: src/mainwidget.cpp:130 src/mainwidget.cpp:1331 src/trayicon.cpp:40
+#: src/trayicon.cpp:41 src/trayicon.cpp:53
 #, kde-format
 msgid "Akregator"
 msgstr "Akregator"
@@ -1401,7 +1402,7 @@ msgid "Ma&rk All Feeds as Read"
 msgstr "ตั้ง&สถานะว่าอ่านแล้ว"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:352 src/actions/actionmanagerimpl.cpp:635
+#: src/actions/actionmanagerimpl.cpp:352 src/actions/actionmanagerimpl.cpp:636
 #, kde-format
 msgid "Copy Link Address"
 msgstr "คัดลอกที่อยู่ตำแหน่งเชื่อมโยง"
@@ -1543,176 +1544,176 @@ msgid "What's new"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:491
+#: src/actions/actionmanagerimpl.cpp:492
 #, kde-format
 msgid "&Previous Article"
 msgstr "บทความก่&อนหน้า"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:495
+#: src/actions/actionmanagerimpl.cpp:496
 #, kde-format
 msgid "&Next Article"
 msgstr "บทความถัด&ไป"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:511
+#: src/actions/actionmanagerimpl.cpp:512
 #, kde-format
 msgid "&Previous Feed"
 msgstr "แหล่งป้อนก่&อนหน้า"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:516
+#: src/actions/actionmanagerimpl.cpp:517
 #, kde-format
 msgid "&Next Feed"
 msgstr "แหล่งป้อนถัดไ&ป"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:522
+#: src/actions/actionmanagerimpl.cpp:523
 #, kde-format
 msgid "N&ext Unread Feed"
 msgstr "แหล่งป้อนที่ยังไม่อ่านถัดไ&ป"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:528
+#: src/actions/actionmanagerimpl.cpp:529
 #, kde-format
 msgid "Prev&ious Unread Feed"
 msgstr "แหล่งป้อนที่ยังไม่อ่านก่&อนหน้า"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:533
+#: src/actions/actionmanagerimpl.cpp:534
 #, kde-format
 msgid "Go to Top of Tree"
 msgstr "ไปที่ด้านบนสุดของรายการต้นไม้"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:538
+#: src/actions/actionmanagerimpl.cpp:539
 #, kde-format
 msgid "Go to Bottom of Tree"
 msgstr "ไปที่ด้านล่างสุดของรายการต้นไม้"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:543
+#: src/actions/actionmanagerimpl.cpp:544
 #, kde-format
 msgid "Go Left in Tree"
 msgstr "ไปที่ด้านซ้ายของรายการต้นไม้"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:548
+#: src/actions/actionmanagerimpl.cpp:549
 #, kde-format
 msgid "Go Right in Tree"
 msgstr "ไปที่ด้านขวาของรายการต้นไม้"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:553
+#: src/actions/actionmanagerimpl.cpp:554
 #, kde-format
 msgid "Go Up in Tree"
 msgstr "ขึ้นไปด้านบนของรายการต้นไม้"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:558
+#: src/actions/actionmanagerimpl.cpp:559
 #, kde-format
 msgid "Go Down in Tree"
 msgstr "ลงไปด้านล่างของรายการต้นไม้"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:564
+#: src/actions/actionmanagerimpl.cpp:565
 #, fuzzy, kde-format
 #| msgid "N&ext Unread Feed"
 msgid "Hide Read Feeds"
 msgstr "แหล่งป้อนที่ยังไม่อ่านถัดไ&ป"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:570
+#: src/actions/actionmanagerimpl.cpp:571
 #, kde-format
 msgid "Lock Feeds In Place"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:576
+#: src/actions/actionmanagerimpl.cpp:577
 #, fuzzy, kde-format
 #| msgid " (no unread articles)"
 msgid "Auto-expand folders with unread articles"
 msgstr " (ไม่มีบทความที่ยังไม่ได้อ่าน)"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:592
+#: src/actions/actionmanagerimpl.cpp:593
 #, kde-format
 msgid "Select Next Tab"
 msgstr "เลือกแท็บถัดไป"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:597
+#: src/actions/actionmanagerimpl.cpp:598
 #, kde-format
 msgid "Select Previous Tab"
 msgstr "เลือกแท็บก่อนหน้า"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:603
+#: src/actions/actionmanagerimpl.cpp:604
 #, kde-format
 msgid "Detach Tab"
 msgstr "ปลดการแนบแท็บ"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:617
+#: src/actions/actionmanagerimpl.cpp:618
 #, kde-format
 msgid "Mute"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:621
+#: src/actions/actionmanagerimpl.cpp:622
 #, kde-format
 msgid "Unmute"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:624
+#: src/actions/actionmanagerimpl.cpp:625
 #, kde-format
 msgctxt "@action"
 msgid "Speak Text"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:629
+#: src/actions/actionmanagerimpl.cpp:630
 #, kde-format
 msgid "&Find in Message…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:640
+#: src/actions/actionmanagerimpl.cpp:641
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgid "Close Tab"
 msgstr "ปิด&แท็บ"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:653
+#: src/actions/actionmanagerimpl.cpp:654
 #, kde-format
 msgctxt "@action"
 msgid "Activate Tab %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:659
+#: src/actions/actionmanagerimpl.cpp:660
 #, fuzzy, kde-format
 #| msgid "&Save Link As..."
 msgid "&Save Link As…"
 msgstr "บั&นทึกตำแหน่งเชื่อมโยงเป็น..."
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:663
+#: src/actions/actionmanagerimpl.cpp:664
 #, kde-format
 msgid "Copy &Link Address"
 msgstr "คัด&ลอกที่อยู่ตำแหน่งเชื่อมโยง"
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:666
+#: src/actions/actionmanagerimpl.cpp:667
 #, kde-format
 msgctxt "@action"
 msgid "Copy Image URL"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/actions/actionmanagerimpl.cpp:672
+#: src/actions/actionmanagerimpl.cpp:673
 #, kde-format
 msgctxt "@action"
 msgid "Save Image…"
@@ -1769,6 +1770,12 @@ msgstr ""
 #, kde-format
 msgctxt "@info:shell"
 msgid "When adding feeds, place them in this group"
+msgstr ""
+
+#. +> trunk6
+#: src/akregator_options.h:25
+#, kde-format
+msgid "Group Name"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1886,19 +1893,19 @@ msgid "The feed to be listed was already removed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/articlelistview.cpp:155 src/subscription/subscriptionlistview.cpp:180
+#: src/articlelistview.cpp:162 src/subscription/subscriptionlistview.cpp:180
 #, kde-format
 msgid "Columns"
 msgstr "คอลัมน์"
 
 #. +> trunk6 stable6
-#: src/articlelistview.cpp:213
+#: src/articlelistview.cpp:220
 #, kde-format
 msgid "No result found"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/articlelistview.cpp:374
+#: src/articlelistview.cpp:381
 #, fuzzy, kde-format
 #| msgid ""
 #| "<h2>Article list</h2>"
@@ -1959,14 +1966,14 @@ msgid "Content"
 msgstr "เนื้อหา"
 
 #. +> trunk6 stable6
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:143
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:144
 #, fuzzy, kde-format
 #| msgid "A KDE Feed Reader"
 msgid "Akregator is a KDE news feed reader."
 msgstr "ตัวอ่านบทความจากแหล่งป้อนของ KDE"
 
 #. +> trunk6 stable6
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:184
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:185
 #, fuzzy, kde-format
 #| msgid "&Save Link As..."
 msgctxt "@title:window"
@@ -1974,26 +1981,26 @@ msgid "Save As"
 msgstr "บั&นทึกตำแหน่งเชื่อมโยงเป็น..."
 
 #. +> trunk6 stable6
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:373
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:374
 #, kde-format
 msgid "Disable"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:374
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:375
 #, kde-format
 msgid "Keep Enabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:376
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:377
 #, fuzzy, kde-format
 #| msgid "<qt>Are you sure you want to delete this feed?</qt>"
 msgid "Are you sure you want to disable this introduction page?"
 msgstr "<qt>คุณแน่ใจหรือว่าต้องการจะลบแหล่งป้อนนี้ ?</qt>"
 
 #. +> trunk6 stable6
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:377
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:378
 #, fuzzy, kde-format
 #| msgid "Di&sable archiving"
 msgctxt "@title:window"
@@ -2001,34 +2008,34 @@ msgid "Disable Introduction Page"
 msgstr "ปิด&การใช้งานการจัดเก็บ"
 
 #. +> trunk6 stable6
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:412
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:413
 #, kde-format
 msgid "This web site is a malware, do you want to continue to show it?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:413
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:414
 #, kde-format
 msgctxt "@title:window"
 msgid "Malware"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:425
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:426
 #, kde-format
 msgid "The network is broken."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:425
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:428
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:426
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:429
 #, kde-format
 msgctxt "@title:window"
 msgid "Check Phishing Url"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:428
+#: src/articleviewer-ng/webengine/articleviewerwebengine.cpp:429
 #, kde-format
 msgid "The url %1 is not valid."
 msgstr ""
@@ -2518,50 +2525,50 @@ msgid "Loading…"
 msgstr "กำลังทำการโหลด..."
 
 #. +> trunk6 stable6
-#: src/frame/frame.cpp:156
+#: src/frame/frame.cpp:154
 #, kde-format
 msgid "Loading canceled"
 msgstr "การโหลดถูกยกเลิก"
 
 #. +> trunk6 stable6
-#: src/frame/frame.cpp:168
+#: src/frame/frame.cpp:166
 #, kde-format
 msgid "Loading completed"
 msgstr "การโหลดเสร็จสิ้น"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:178
+#: src/mainwidget.cpp:184
 #, kde-format
 msgid "You can view multiple articles in several open tabs."
 msgstr "คุณสามารถดูบทความหลาย ๆ บทความได้ในแท็บที่เปิดได้หลายแท็บ"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:182
+#: src/mainwidget.cpp:188
 #, kde-format
 msgid "Articles list."
 msgstr "รายการบทความ"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:244 src/mainwidget.cpp:676
+#: src/mainwidget.cpp:250 src/mainwidget.cpp:682
 #, kde-format
 msgid "Articles"
 msgstr "บทความ"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:273
+#: src/mainwidget.cpp:279
 #, kde-format
 msgid "About"
 msgstr "เกี่ยวกับ"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:815
+#: src/mainwidget.cpp:821
 #, fuzzy, kde-format
 #| msgid "<qt>Are you sure you want to delete feed <b>%1</b>?</qt>"
 msgid "<qt>Are you sure you want to mark <b>all articles in the feed</b> as read?</qt>"
 msgstr "<qt>คุณแน่ใจหรือว่าต้องการจะลบแหล่งป้อน <b>%1</b> นี้ ?</qt>"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:816
+#: src/mainwidget.cpp:822
 #, fuzzy, kde-format
 #| msgid "&Mark Feed as Read"
 msgctxt "@title:window"
@@ -2569,21 +2576,21 @@ msgid "Mark Feed as Read"
 msgstr "&ตั้งสถานะว่าอ่านแล้ว"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:819
+#: src/mainwidget.cpp:825
 #, fuzzy, kde-format
 #| msgid "<qt>Are you sure you want to delete feed <b>%1</b>?</qt>"
 msgid "<qt>Are you sure you want to mark <b>all feeds</b> as read?</qt>"
 msgstr "<qt>คุณแน่ใจหรือว่าต้องการจะลบแหล่งป้อน <b>%1</b> นี้ ?</qt>"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:821
+#: src/mainwidget.cpp:827
 #, fuzzy, kde-format
 #| msgid "<qt>Are you sure you want to delete this feed?</qt>"
 msgid "<qt>Are you sure you want to mark <b>all feeds in the folder</b> as read?</qt>"
 msgstr "<qt>คุณแน่ใจหรือว่าต้องการจะลบแหล่งป้อนนี้ ?</qt>"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:823
+#: src/mainwidget.cpp:829
 #, fuzzy, kde-format
 #| msgid "&Mark Feeds as Read"
 msgctxt "@title:window"
@@ -2591,26 +2598,26 @@ msgid "Mark Feeds as Read"
 msgstr "&ตั้งสถานะว่าอ่านแล้ว"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:887 src/mainwidget.cpp:896 src/mainwidget.cpp:1298
+#: src/mainwidget.cpp:893 src/mainwidget.cpp:902 src/mainwidget.cpp:1303
 #, kde-format
 msgid "Networking is not available."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:904
+#: src/mainwidget.cpp:910
 #, fuzzy, kde-format
 #| msgid "Fetching Feeds..."
 msgid "Fetching Feeds…"
 msgstr "กำลังทำการดึงข้อมูลจากแหล่งป้อน..."
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:1103
+#: src/mainwidget.cpp:1108
 #, kde-format
 msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
 msgstr "<qt>คุณแน่ใจหรือว่าต้องการจะลบบทความ <b>%1</b> นี้ ?</qt>"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:1106
+#: src/mainwidget.cpp:1111
 #, fuzzy, kde-format
 #| msgid "<qt>Are you sure you want to delete the %1 selected articles?</qt>"
 msgid "<qt>Are you sure you want to delete the selected article?</qt>"
@@ -2618,7 +2625,7 @@ msgid_plural "<qt>Are you sure you want to delete the %1 selected articles?</qt>
 msgstr[0] "<qt>คุณแน่ใจหรือว่า ต้องการจะลบบทความที่เลือกไว้จำนวน %1 บทความนี้ ?</qt>"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:1113
+#: src/mainwidget.cpp:1118
 #, fuzzy, kde-format
 #| msgid "Delete Article"
 msgctxt "@title:window"
@@ -2626,7 +2633,7 @@ msgid "Delete Article"
 msgstr "ลบบทความ"
 
 #. +> trunk6 stable6
-#: src/mainwidget.cpp:1295
+#: src/mainwidget.cpp:1300
 #, kde-format
 msgid "Networking is available now."
 msgstr ""
@@ -2753,13 +2760,13 @@ msgid "Could not read feed (invalid feed)"
 msgstr "ไม่สามารถอ่านแหล่งป้อนได้ (แหล่งป้อนไม่ถูกต้อง)"
 
 #. +> trunk6 stable6
-#: src/subscription/subscriptionlistmodel.cpp:251
+#: src/subscription/subscriptionlistmodel.cpp:270
 #, kde-format
 msgid "Could not fetch feed: %1"
 msgstr "ไม่สามารถอ่านแหล่งป้อนได้: %1"
 
 #. +> trunk6 stable6
-#: src/subscription/subscriptionlistmodel.cpp:300
+#: src/subscription/subscriptionlistmodel.cpp:319
 #, fuzzy, kde-format
 #| msgid "Feeds"
 msgctxt "Feedlist's column header"
@@ -2767,7 +2774,7 @@ msgid "Feeds"
 msgstr "แหล่งป้อน"
 
 #. +> trunk6 stable6
-#: src/subscription/subscriptionlistmodel.cpp:302
+#: src/subscription/subscriptionlistmodel.cpp:321
 #, fuzzy, kde-format
 #| msgid "Unread"
 msgctxt "Feedlist's column header"
@@ -2775,7 +2782,7 @@ msgid "Unread"
 msgstr "ยังไม่อ่าน"
 
 #. +> trunk6 stable6
-#: src/subscription/subscriptionlistmodel.cpp:304
+#: src/subscription/subscriptionlistmodel.cpp:323
 #, fuzzy, kde-format
 #| msgid "Total"
 msgctxt "Feedlist's column header"
@@ -3055,13 +3062,13 @@ msgid "Add windows support"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/whatsnew/whatsnewtranslations.cpp:25
+#: src/whatsnew/whatsnewtranslations.cpp:24
 #, kde-format
 msgid "Implement Plasma Activity."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/whatsnew/whatsnewtranslations.cpp:25
+#: src/whatsnew/whatsnewtranslations.cpp:24
 #, kde-format
 msgid "Add new whatsnew widget."
 msgstr ""

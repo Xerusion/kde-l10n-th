@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-19 14:35+0100\n"
+"POT-Creation-Date: 2025-11-05 17:08+0100\n"
 "PO-Revision-Date: 2025-03-24 04:45+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -15,26 +15,26 @@ msgstr ""
 "X-Generator: Lokalize 24.12.3\n"
 
 #. +> trunk6 stable6 stable5
-#: openconnectauth.cpp:346
+#: openconnectauth.cpp:345
 #, kde-format
 msgid "Failed to initialize software token: %1"
 msgstr "การเริ่มซอฟต์แวร์โทเคนล้มเหลว: %1"
 
 #. +> trunk6 stable6 stable5
-#: openconnectauth.cpp:399
+#: openconnectauth.cpp:398
 #, kde-format
 msgid "Contacting host, please wait…"
 msgstr "กำลังติดต่อโฮสต์ กรุณารอ..."
 
 #. +> trunk6 stable6 stable5
-#: openconnectauth.cpp:787
+#: openconnectauth.cpp:786
 #, kde-format
 msgctxt "Verb, to proceed with login"
 msgid "Login"
 msgstr "ลงชื่อเข้าใช้"
 
 #. +> trunk6 stable6 stable5
-#: openconnectauth.cpp:849
+#: openconnectauth.cpp:848
 #, kde-format
 msgid ""
 "Check failed for certificate from VPN server \"%1\".\n"
@@ -46,7 +46,7 @@ msgstr ""
 "ยอมรับเลยไหม?"
 
 #. +> trunk6 stable6 stable5
-#: openconnectauth.cpp:944
+#: openconnectauth.cpp:943
 #, kde-format
 msgid "Connection attempt was unsuccessful."
 msgstr "การเชื่อมต่อล้มเหลว"
@@ -470,25 +470,57 @@ msgstr "เปลี่ยน PIN สำหรับกุญแจความ�
 msgid "Internal User Verification Locked"
 msgstr "การยืนยันตัวตนผู้ใช้แบบภายในถูกล็อค"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: openconnectwebauthdialog.cpp:191
+#, fuzzy, kde-format
+#| msgid "Wrong PIN. %1 attempts remaining."
+msgid "Wrong PIN. %1 attempt remaining."
+msgid_plural "Wrong PIN. %1 attempts remaining."
+msgstr[0] "PIN ผิด สามารถลองได้อีก %1 ครั้ง"
+
+#. +> stable6
 #: openconnectwebauthdialog.cpp:191
 #, kde-format
 msgid "Wrong PIN. %1 attempts remaining."
 msgstr "PIN ผิด สามารถลองได้อีก %1 ครั้ง"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: openconnectwebauthdialog.cpp:194
+#, fuzzy, kde-format
+#| msgid "Too Short. %1 attempts remaining."
+msgid "Too Short. %1 attempt remaining."
+msgid_plural "Too Short. %1 attempts remaining."
+msgstr[0] "สั้นเกินไป สามารถลองได้อีก %1 ครั้ง"
+
+#. +> stable6
 #: openconnectwebauthdialog.cpp:194
 #, kde-format
 msgid "Too Short. %1 attempts remaining."
 msgstr "สั้นเกินไป สามารถลองได้อีก %1 ครั้ง"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: openconnectwebauthdialog.cpp:197
+#, fuzzy, kde-format
+#| msgid "Invalid Characters. %1 attempts remaining."
+msgid "Invalid Characters. %1 attempt remaining."
+msgid_plural "Invalid Characters. %1 attempts remaining."
+msgstr[0] "ตัวอักษรไม่ถูกต้อง สามารถลองได้อีก %1 ครั้ง"
+
+#. +> stable6
 #: openconnectwebauthdialog.cpp:197
 #, kde-format
 msgid "Invalid Characters. %1 attempts remaining."
 msgstr "ตัวอักษรไม่ถูกต้อง สามารถลองได้อีก %1 ครั้ง"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: openconnectwebauthdialog.cpp:201
+#, fuzzy, kde-format
+#| msgid "Same as current PIN. %1 attempts remaining."
+msgid "Same as current PIN. %1 attempt remaining."
+msgid_plural "Same as current PIN. %1 attempts remaining."
+msgstr[0] "PIN เดียวกันกับปัจจุบัน สามารถลองได้อีก %1 ครั้ง"
+
+#. +> stable6
 #: openconnectwebauthdialog.cpp:201
 #, kde-format
 msgid "Same as current PIN. %1 attempts remaining."
@@ -521,30 +553,20 @@ msgstr "คุณจดทะเบียนอุปกรณ์นี้แล
 #. +> trunk6 stable6
 #: openconnectwebauthdialog.cpp:256
 #, kde-format
-msgid ""
-"The security key is locked because the wrong PIN was entered too many times.To"
-" unlock it, remove and reinsert it."
-msgstr ""
-"กุญแจความปลอดภัยนี้ได้ถูกล็อกเนื่องจากใช้ PIN ผิดพลาดมากเกินไป ถ้าหากจะปลดล็อก"
-"ให้ถอดออกและเสียบใหม่"
+msgid "The security key is locked because the wrong PIN was entered too many times.To unlock it, remove and reinsert it."
+msgstr "กุญแจความปลอดภัยนี้ได้ถูกล็อกเนื่องจากใช้ PIN ผิดพลาดมากเกินไป ถ้าหากจะปลดล็อกให้ถอดออกและเสียบใหม่"
 
 #. +> trunk6 stable6
 #: openconnectwebauthdialog.cpp:262
 #, kde-format
-msgid ""
-"The security key is locked because the wrong PIN was entered too many times. Y"
-"ou'll need to reset the security key."
-msgstr ""
-"กุญแจความปลอดภัยนี้ได้ถูกล็อกเนื่องจากใช้ PIN ผิดพลาดมากเกินไป ถ้าหากจะปลดล็อก"
-"ต้องรีเซ็ตกุญแจความปลอดภัย"
+msgid "The security key is locked because the wrong PIN was entered too many times. You'll need to reset the security key."
+msgstr "กุญแจความปลอดภัยนี้ได้ถูกล็อกเนื่องจากใช้ PIN ผิดพลาดมากเกินไป ถ้าหากจะปลดล็อกต้องรีเซ็ตกุญแจความปลอดภัย"
 
 #. +> trunk6 stable6
 #: openconnectwebauthdialog.cpp:266
 #, kde-format
-msgid ""
-"Authenticator removed during verification. Please reinsert and try again"
-msgstr ""
-"ตัวรับรองความถูกต้องได้ถูกลบระหว่างการตรวจสอบ กรุณาเสียบใส่ใหม่และลองอีกรอบ"
+msgid "Authenticator removed during verification. Please reinsert and try again"
+msgstr "ตัวรับรองความถูกต้องได้ถูกลบระหว่างการตรวจสอบ กรุณาเสียบใส่ใหม่และลองอีกรอบ"
 
 #. +> trunk6 stable6
 #: openconnectwebauthdialog.cpp:269
@@ -564,7 +586,13 @@ msgstr "ตัวรับรองความถูกต้องไม่ม
 msgid "Authenticator missing Large Blob support"
 msgstr "ตัวรับรองความถูกต้องไม่มีการรับรอง Large Blob"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: openconnectwebauthdialog.cpp:278
+#, kde-format
+msgid "The security token does not support the server’s required authentication method."
+msgstr ""
+
+#. +> stable6
 #: openconnectwebauthdialog.cpp:278
 #, kde-format
 msgid "No common algorithms"

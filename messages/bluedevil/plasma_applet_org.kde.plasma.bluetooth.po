@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluedevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-11 10:27+0200\n"
+"POT-Creation-Date: 2025-12-06 11:13+0100\n"
 "PO-Revision-Date: 2025-04-07 14:02+0700\n"
 "Last-Translator: Atirut Wattanamongkol <atirut.wattanamongkol@gmailcom>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -14,190 +14,280 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 24.12.3\n"
 
+#. +> trunk6 stable6
+#: devicesproxymodel.cpp:51
+#, kde-format
+msgctxt "@title:column Blocked Bluetooth devices"
+msgid "Blocked"
+msgstr ""
+
+#. +> trunk6 stable6
+#: devicesproxymodel.cpp:54
+#, kde-format
+msgctxt "@title:column Connected Bluetooth devices"
+msgid "Connected"
+msgstr ""
+
+#. +> trunk6 stable6
+#: devicesproxymodel.cpp:56
+#, kde-format
+msgctxt "@title:column Available but not connected Bluetooth devices"
+msgid "Available"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:39
+#: devicesstateproxymodel.cpp:273
+#, kde-format
+msgctxt "@label %1 is human-readable device name, %2 is low-level device address"
+msgid "%1 (%2)"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: devicesstateproxymodel.cpp:288
+#, kde-format
+msgctxt "Notification when the connection failed due to Failed:HostIsDown"
+msgid "The device is unreachable"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: devicesstateproxymodel.cpp:289
+#, kde-format
+msgctxt "Notification when the connection failed due to Failed"
+msgid "Connection to the device failed"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: devicesstateproxymodel.cpp:292
+#, kde-format
+msgctxt "Notification when the connection failed due to NotReady"
+msgid "The device is not ready"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/DeviceItem.qml:38
 #, kde-format
 msgid "Disconnect"
 msgstr "ตัดการเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:39
+#: qml/DeviceItem.qml:38
 #, kde-format
 msgid "Connect"
 msgstr "เชื่อมต่อ"
 
+#. +> stable5
+#: package/contents/ui/DeviceItem.qml:252
+#, kde-format
+msgid "Connected"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:50
+#: qml/DeviceItem.qml:49
 #, kde-format
 msgid "Browse Files"
 msgstr "ดูไฟล์"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:61
-#, fuzzy, kde-format
+#: qml/DeviceItem.qml:60
+#, kde-format
 msgid "Send File"
 msgstr "ส่งไฟล์"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:109
+#: qml/DeviceItem.qml:108
 #, kde-format
 msgid "Copy"
 msgstr "คัดลอก"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:205
+#: qml/DeviceItem.qml:204
 #, kde-format
 msgid "Yes"
 msgstr "ใช่"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:205
+#: qml/DeviceItem.qml:204
 #, kde-format
 msgid "No"
 msgstr "ไม่"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:211
+#: qml/DeviceItem.qml:210
 #, kde-format
 msgctxt "@label %1 is human-readable adapter name, %2 is HCI"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:219
-#, fuzzy, kde-format
+#: qml/DeviceItem.qml:218
+#, kde-format
 msgid "Remote Name"
 msgstr "ชื่อระยะไกล"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:223
+#: qml/DeviceItem.qml:222
 #, kde-format
 msgid "Address"
 msgstr "ที่อยู่"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:226
+#: qml/DeviceItem.qml:225
 #, kde-format
 msgid "Paired"
 msgstr "จับคู่แล้ว"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:229
+#: qml/DeviceItem.qml:228
 #, kde-format
 msgid "Trusted"
 msgstr "เชื่อถือได้"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:232
+#: qml/DeviceItem.qml:231
 #, kde-format
 msgid "Adapter"
 msgstr "อะแดปเตอร์"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:240
-#, kde-format
-msgid "Disconnecting"
-msgstr "กำลังตัดการเชื่อมต่อ"
-
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:240
+#: qml/DeviceItem.qml:239
 #, kde-format
 msgid "Connecting"
 msgstr "กำลังเชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:246
+#: qml/DeviceItem.qml:241
 #, kde-format
-msgid "Connected"
-msgstr "เชื่อมต่อแล้ว"
+msgid "Disconnecting"
+msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/DeviceItem.qml:248
+#: qml/DeviceItem.qml:247
 #, kde-format
 msgid "Connection failed"
 msgstr "การเชื่อมต่อล้มเหลว"
 
+#. +> trunk6 stable6
+#: qml/DeviceItem.qml:252
+#, kde-format
+msgid "Headset"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:255
+#: qml/DeviceItem.qml:258
 #, kde-format
 msgid "Audio device"
 msgstr "อุปกรณ์เสียง"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:262
-#, fuzzy, kde-format
-msgid "Input device"
-msgstr "อุปกรณ์อินพุท"
+#. +> trunk6 stable6
+#: qml/DeviceItem.qml:262
+#, kde-format
+msgid "Keyboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeviceItem.qml:265
+#, kde-format
+msgid "Mouse"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeviceItem.qml:268
+#, kde-format
+msgid "Joypad"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeviceItem.qml:271
+#, kde-format
+msgid "Drawing tablet"
+msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:266
+#: qml/DeviceItem.qml:275
 #, kde-format
 msgid "Phone"
 msgstr "โทรศัพท์"
 
+#. +> trunk6 stable6
+#: qml/DeviceItem.qml:278
+#, kde-format
+msgid "Camera"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeviceItem.qml:281
+#, kde-format
+msgid "Printer"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:273
+#: qml/DeviceItem.qml:288
 #, kde-format
 msgid "File transfer"
 msgstr "การถ่ายโอนไฟล์"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:276
-#, fuzzy, kde-format
+#: qml/DeviceItem.qml:291
+#, kde-format
 msgid "Send file"
 msgstr "ส่งไฟล์"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:279
+#: qml/DeviceItem.qml:294
 #, kde-format
 msgid "Input"
 msgstr "อินพุท"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:282
+#: qml/DeviceItem.qml:297
 #, kde-format
 msgid "Audio"
 msgstr "เสียง"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:285
-#, fuzzy, kde-format
+#: qml/DeviceItem.qml:300
+#, kde-format
 msgid "Network"
 msgstr "เครือข่าย"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:290
+#: qml/DeviceItem.qml:305
 #, kde-format
 msgid "Other device"
 msgstr "อุปกรณ์อื่น ๆ"
 
+#. +> stable5
+#: package/contents/ui/DeviceItem.qml:266
+#, kde-format
+msgid "Input device"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/DeviceItem.qml:297 package/contents/ui/main.qml:70
-#: package/contents/ui/main.qml:79
+#: qml/DeviceItem.qml:312 qml/main.qml:74 qml/main.qml:83
 #, kde-format
 msgid "%1% Battery"
 msgstr "แบตเตอรี่ %1%"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/FullRepresentation.qml:69
+#: qml/FullRepresentation.qml:71
 #, kde-format
 msgid "Enable"
 msgstr "เปิดใช้งาน"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/FullRepresentation.qml:161
+#: qml/FullRepresentation.qml:145
 #, kde-format
 msgid "No Bluetooth adapters available"
 msgstr "ไม่มีอะแดปเตอร์ Bluetooth ให้ใช้งาน"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/FullRepresentation.qml:163
+#: qml/FullRepresentation.qml:147
 #, kde-format
 msgid "Bluetooth is disabled"
 msgstr "Bluetooth ถูกปิดใช้งาน"
 
 #. +> trunk6 stable6
-#: package/contents/ui/FullRepresentation.qml:165
+#: qml/FullRepresentation.qml:149
 #, kde-format
 msgid "No devices paired"
 msgstr "ไม่มีอุปกรณ์ที่จับคู่"
@@ -209,49 +299,49 @@ msgid "No devices found"
 msgstr "ไม่พบอุปกรณ์"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:47
+#: qml/main.qml:51
 #, kde-format
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:51
-#, fuzzy, kde-format
+#: qml/main.qml:55
+#, kde-format
 msgid "Bluetooth is disabled; middle-click to enable"
 msgstr "Bluetooth ถูกปิดใช้งาน คลิกกลางเพื่อเปิดใช้งาน"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:55
+#: qml/main.qml:59
 #, kde-format
 msgid "No adapters available"
 msgstr "ไม่มีอะแดปเตอร์ให้ใช้งาน"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:57
-#, fuzzy, kde-format
+#: qml/main.qml:61
+#, kde-format
 msgid "Bluetooth is offline"
 msgstr "Bluetooth  ออฟไลน์"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:60
+#: qml/main.qml:64
 #, kde-format
 msgid "Middle-click to disable Bluetooth"
 msgstr "คลิกตรงกลางเพื่อปิด Bluetooth"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:63
+#: qml/main.qml:67
 #, kde-format
 msgid "No connected devices"
 msgstr "ไม่มีอุปกรณ์ที่เชื่อมต่อ"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:68
+#: qml/main.qml:72
 #, kde-format
 msgid "%1 connected"
 msgstr "เชื่อมต่อแล้ว %1"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:75
+#: qml/main.qml:79
 #, kde-format
 msgctxt "Number of connected devices"
 msgid "%1 connected device"
@@ -259,7 +349,7 @@ msgid_plural "%1 connected devices"
 msgstr[0] "เชื่อมต่อแล้ว %1 อุปกรณ์"
 
 #. +> trunk6 stable6
-#: package/contents/ui/main.qml:102
+#: qml/main.qml:110
 #, kde-format
 msgid "Pair Device…"
 msgstr "จับคู่อุปกรณ์"
@@ -270,42 +360,27 @@ msgstr "จับคู่อุปกรณ์"
 msgid "Add New Device…"
 msgstr "เพิ่มอุปกรณ์ใหม่…"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:109
+#. +> trunk6 stable6
+#: qml/main.qml:118
 #, kde-format
-msgid "Enable Bluetooth"
-msgstr "เปิดใช้งาน Bluetooth"
+msgid "Badge icon with number of connected devices"
+msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/main.qml:123
+#: qml/main.qml:128
 #, kde-format
 msgid "Configure &Bluetooth…"
 msgstr "กำหนดค่า &Bluetooth"
 
 #. +> trunk6 stable6 stable5
-#: plugin/devicesstateproxymodel.cpp:220
+#: qml/main.qml:134
 #, kde-format
-msgctxt "@label %1 is human-readable device name, %2 is low-level device address"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
+msgid "Enable Bluetooth"
+msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: plugin/devicesstateproxymodel.cpp:235
+#. +> trunk6 stable6
+#: qml/Toolbar.qml:73
 #, kde-format
-msgctxt "Notification when the connection failed due to Failed:HostIsDown"
-msgid "The device is unreachable"
-msgstr "ไม่สามารถเข้าถึงอุปกรณ์ได้"
-
-#. +> trunk6 stable6 stable5
-#: plugin/devicesstateproxymodel.cpp:236
-#, kde-format
-msgctxt "Notification when the connection failed due to Failed"
-msgid "Connection to the device failed"
-msgstr "การเชื่อมต่อกับอุปกรณ์ล้มเหลว"
-
-#. +> trunk6 stable6 stable5
-#: plugin/devicesstateproxymodel.cpp:239
-#, kde-format
-msgctxt "Notification when the connection failed due to NotReady"
-msgid "The device is not ready"
-msgstr "อุปกรณ์ยังไม่พร้อม"
+msgctxt "@action:button opens hamburger menu"
+msgid "More actions"
+msgstr ""
