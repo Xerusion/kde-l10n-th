@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-11 09:45+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -12,26 +12,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:31
+#, kde-format
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Position on screen:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:29
 #, kde-format
 msgid "Position on screen:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:35
+#, kde-format
+msgctxt "@option:check Position on top of screen"
+msgid "Top"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:33
 #, kde-format
 msgid "Top"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:42
+#, kde-format
+msgctxt "@option:check Position in center of screen"
+msgid "Center"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:40
 #, kde-format
 msgid "Center"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:55
+#, kde-format
+msgctxt "@label prefix for checkbutton"
+msgid "Activation:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:53
 #, kde-format
 msgid "Activation:"
 msgstr ""
@@ -41,19 +69,6 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "Activate when pressing any key on the desktop"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:71
-#, kde-format
-msgid "History:"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:74
-#, kde-format
-msgctxt "@option:check"
-msgid "Disabled"
 msgstr ""
 
 #. +> stable5
@@ -78,22 +93,43 @@ msgid "Activity-aware (last search and history)"
 msgstr ""
 
 #. +> trunk6 stable6
+#: ui/main.qml:71
+#, kde-format
+msgctxt "@title:group prefix for radiobutton group"
+msgid "History:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:69
+#, kde-format
+msgid "History:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:74
+#, kde-format
+msgctxt "@option:radio History is disabled"
+msgid "Disabled"
+msgstr ""
+
+#. +> trunk6 stable6
 #: ui/main.qml:79
 #, kde-format
-msgctxt "@option:check The thing being enabled is search history"
+msgctxt "@option:radio The thing being enabled is search history"
 msgid "Enable suggestions"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/main.qml:84
 #, kde-format
-msgctxt "@option:check The thing being enabled is search history"
-msgid "Enabled auto-complete"
+msgctxt "@option:radio The thing being enabled is search history"
+msgid "Enable auto-complete"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:92
 #, kde-format
+msgctxt "@action:button"
 msgid "Clear History…"
 msgstr ""
 
@@ -108,6 +144,12 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button %1 activity name"
 msgid "Clear History for Activity \"%1\""
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:111
+#, kde-format
+msgid "Clear History…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5

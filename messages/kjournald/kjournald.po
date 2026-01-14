@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kjournald\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-27 09:17+0100\n"
+"POT-Creation-Date: 2026-01-11 08:12+0100\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -68,123 +68,158 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
+#. +> trunk6
+#: browser/main.cpp:59
+#, kde-format
+msgid "Journald Log Viewer"
+msgstr ""
+
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:22
+#: org/kde/kjournald/filtercriteriamodel.cpp:23
 #, kde-format
 msgctxt "Radio box option, log priority value"
 msgid "Emergency"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:24
+#: org/kde/kjournald/filtercriteriamodel.cpp:25
 #, kde-format
 msgctxt "Radio box option, log priority value"
 msgid "Alert"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:26
+#: org/kde/kjournald/filtercriteriamodel.cpp:27
 #, kde-format
 msgctxt "Radio box option, log priority value"
 msgid "Critical"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:28
+#: org/kde/kjournald/filtercriteriamodel.cpp:29
 #, kde-format
 msgctxt "Radio box option, log priority value"
 msgid "Error"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:30
+#: org/kde/kjournald/filtercriteriamodel.cpp:31
 #, kde-format
 msgctxt "Radio box option, log priority value"
 msgid "Warning"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:32
+#: org/kde/kjournald/filtercriteriamodel.cpp:33
 #, kde-format
 msgctxt "Radio box option, log priority value"
 msgid "Notice"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:34
+#: org/kde/kjournald/filtercriteriamodel.cpp:35
 #, kde-format
 msgctxt "Radio box option, log priority value"
 msgid "Info"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:36
+#: org/kde/kjournald/filtercriteriamodel.cpp:37
 #, kde-format
 msgctxt "Radio box option, log priority value"
 msgid "Debug"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:38
+#: org/kde/kjournald/filtercriteriamodel.cpp:39
 #, kde-format
 msgctxt "Radio box option, log priority value"
 msgid "No Filter"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:135
+#: org/kde/kjournald/filtercriteriamodel.cpp:137
 #, kde-format
 msgctxt "Section title for log message source"
 msgid "Transport"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:142
+#: org/kde/kjournald/filtercriteriamodel.cpp:144
 #, kde-format
 msgctxt "Checkbox option for kernel log messages"
 msgid "Kernel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:149
+#: org/kde/kjournald/filtercriteriamodel.cpp:151
 #, kde-format
 msgctxt "Section title for log message priority"
 msgid "Priority"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:170
+#: org/kde/kjournald/filtercriteriamodel.cpp:172
 #, kde-format
 msgctxt "Section title for systemd unit"
 msgid "Unit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournald/filtercriteriamodel.cpp:205
+#: org/kde/kjournald/filtercriteriamodel.cpp:220
 #, kde-format
 msgctxt "Section title for process list"
 msgid "Process"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/FilterCriteriaView.qml:33
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Expanded"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/FilterCriteriaView.qml:34
 #, kde-format
 msgid "Expanded"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/FilterCriteriaView.qml:34
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Collapsed"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/FilterCriteriaView.qml:34
 #, kde-format
 msgid "Collapsed"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/FilterCriteriaView.qml:60
+#, kde-format
+msgctxt "@label"
+msgid "Clear"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/FilterCriteriaView.qml:60
 #, kde-format
 msgid "Clear"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:23
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:23
+#, kde-format
+msgctxt "@title:menu"
+msgid "File"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:16
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:21
 #, kde-format
@@ -192,101 +227,241 @@ msgctxt "@action:menu"
 msgid "File"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:26
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open system journal"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:19
 #, kde-format
 msgid "Open system journal"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:33
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open user journal"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:26
 #, kde-format
 msgid "Open user journal"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open from folder"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:33
 #, kde-format
 msgid "Open from folder"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:48
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open from file"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:41
 #, kde-format
 msgid "Open from file"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:67
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:66
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:60
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:64
 #, kde-format
 msgid "Close"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:73
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:72
+#, kde-format
+msgctxt "@title:menu"
+msgid "Current Journal"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:66
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:70
 #, kde-format
 msgid "Current Journal"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:81
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:80
+#, kde-format
+msgctxt "@title:menu"
+msgid "View"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:74
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:78
 #, kde-format
 msgid "View"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:84
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:83
+#, kde-format
+msgctxt "@title:menu"
+msgid "Timestamp Display"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:77
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:81
 #, kde-format
 msgid "Timestamp Display"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:87
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:87
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Localized Realtime"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:80
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:85
 #, kde-format
 msgid "Localized Realtime"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:95
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:97
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "UTC Realtime"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:88
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:95
 #, kde-format
 msgid "UTC Realtime"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:103
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:107
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Monotonic Time"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:96
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:105
 #, kde-format
 msgid "Monotonic Time"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:112
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:117
+#, kde-format
+msgctxt "@title:menu"
+msgid "Colorize"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:105
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:115
 #, kde-format
 msgid "Colorize"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:115
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:121
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Systemd Unit"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:108
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:119
 #, kde-format
 msgid "Systemd Unit"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:123
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:131
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Executable"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:116
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:129
 #, kde-format
 msgid "Executable"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:132
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:141
+#, kde-format
+msgctxt "@title:menu"
+msgid "Grouping"
+msgstr ""
+
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:135
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:145
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Group templated services"
+msgstr ""
+
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:143
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:155
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Do not group templated service"
+msgstr ""
+
+#. +> trunk6
+#: org/kde/kjournaldbrowser/GlobalMenu.qml:153
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:166
+#, kde-format
+msgctxt "@title:menu"
+msgid "Help"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/GlobalMenu.qml:126
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:140
 #, kde-format
@@ -294,107 +469,226 @@ msgctxt "@action:menu"
 msgid "Help"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/LogView.qml:209
+#, kde-format
+msgctxt "@label"
+msgid "Kernel"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/LogView.qml:210
 #, kde-format
 msgid "Kernel"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/Main.qml:77
+#, kde-format
+msgctxt "@label"
+msgid "Boot:"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/Main.qml:62
 #, kde-format
 msgid "Boot:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournaldbrowser/Main.qml:174
+#: org/kde/kjournaldbrowser/Main.qml:189
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Switch between case sensitive and case insensitive matching"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournaldbrowser/Main.qml:216
+#: org/kde/kjournaldbrowser/Main.qml:231
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Switch to browsing mode"
 msgstr ""
 
 #. +> trunk6 stable6
-#: org/kde/kjournaldbrowser/Main.qml:217
+#: org/kde/kjournaldbrowser/Main.qml:232
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Switch to selection mode"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/Main.qml:244
+#, kde-format
+msgctxt "@title"
+msgid "Select journal folder"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/Main.qml:229
 #, kde-format
 msgid "Select journal folder"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/Main.qml:253
+#, kde-format
+msgctxt "@title"
+msgid "Select journal file"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/Main.qml:238
 #, kde-format
 msgid "Select journal file"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/Main.qml:254
+#, kde-format
+msgctxt "@item"
+msgid "Journal files (*.journal)"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/Main.qml:239
 #, kde-format
 msgid "Journal files (*.journal)"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/Main.qml:254
+#, kde-format
+msgctxt "@item"
+msgid "All files (*)"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/Main.qml:239
 #, kde-format
 msgid "All files (*)"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: org/kde/kjournaldbrowser/Main.qml:309
 #, kde-format
 msgid "No log entries apply "
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/Main.qml:324
+#, kde-format
+msgctxt "@title"
+msgid "Unable to load journal database from selected location: "
+msgstr ""
+
+#. +> trunk6
+#: org/kde/kjournaldbrowser/Main.qml:325
+#, kde-format
+msgctxt "@info"
+msgid "Check sub-directories of selected directory to contain files ending with '.journal'."
+msgstr ""
+
+#. +> trunk6
+#: org/kde/kjournaldbrowser/Main.qml:332
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No log entries apply to selected filters."
+msgstr ""
+
+#. +> trunk6
+#: org/kde/kjournaldbrowser/RemoteJournalConfigDialog.qml:15
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Remote Journal Server"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/RemoteJournalConfigDialog.qml:16
 #, kde-format
 msgid "Configure Remote Journal Server"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/RemoteJournalConfigDialog.qml:29
+#, kde-format
+msgctxt "@label"
+msgid "URL:"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/RemoteJournalConfigDialog.qml:30
 #, kde-format
 msgid "URL:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/RemoteJournalConfigDialog.qml:38
+#, kde-format
+msgctxt "@label"
+msgid "Port:"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/RemoteJournalConfigDialog.qml:39
 #, kde-format
 msgid "Port:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open System Journal"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:23
 #, kde-format
 msgid "Open System Journal"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:32
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open User Journal"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:30
 #, kde-format
 msgid "Open User Journal"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:39
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open from Folder"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:37
 #, kde-format
 msgid "Open from Folder"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:47
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open from File"
+msgstr ""
+
+#. +> stable6
 #: org/kde/kjournaldbrowser/TopMenuBar.qml:45
 #, kde-format
 msgid "Open from File"
+msgstr ""
+
+#. +> trunk6
+#: org/kde/kjournaldbrowser/TopMenuBar.qml:74
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Current View"
 msgstr ""

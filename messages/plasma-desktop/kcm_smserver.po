@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-25 11:13+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2010-02-12 10:31+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -49,9 +49,10 @@ msgstr "เมื่อทำการล็อกอิน"
 msgid "Applications to be excluded from session"
 msgstr "โปรแกรมที่ควรไม่รวมอยู่ในวาระงาน:"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:30
 #, kde-format
+msgctxt "@info:status inlinemessage"
 msgid "Failed to request restart to firmware setup: %1"
 msgstr ""
 
@@ -61,30 +62,58 @@ msgstr ""
 msgid "The system must be restarted before manual session saving becomes active."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Failed to request restart to firmware setup: %1"
+msgstr ""
+
+#. +> trunk6 stable6
 #: ui/main.qml:31
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "Next time the computer is restarted, it will enter the UEFI setup screen."
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:58
 #, kde-format
 msgid "Next time the computer is restarted, it will enter the UEFI setup screen."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:32
 #, kde-format
+msgctxt "@info:status inlinemessage"
 msgid "Next time the computer is restarted, it will enter the firmware setup screen."
 msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:37
-#, fuzzy, kde-format
-#| msgid "&Restart computer"
-msgid "Restart Now"
-msgstr "เ&ริ่มระบบคอมพิวเตอร์ใหม่"
 
 #. +> stable5
 #: package/contents/ui/main.qml:35
 #, fuzzy, kde-format
 #| msgid "&Restart computer"
 msgid "Restart"
+msgstr "เ&ริ่มระบบคอมพิวเตอร์ใหม่"
+
+#. +> stable5
+#: package/contents/ui/main.qml:59
+#, kde-format
+msgid "Next time the computer is restarted, it will enter the firmware setup screen."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:37
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgctxt "@action:button"
+msgid "Restart Now"
+msgstr "เ&ริ่มระบบคอมพิวเตอร์ใหม่"
+
+#. +> stable5
+#: package/contents/ui/main.qml:64
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart Now"
 msgstr "เ&ริ่มระบบคอมพิวเตอร์ใหม่"
 
 #. +> trunk6 stable6
@@ -117,8 +146,15 @@ msgctxt "@title:group"
 msgid "Session Restore"
 msgstr "การจัดการวาระงาน"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:71
+#, kde-format
+msgctxt "@title:group prefix for radiobuttons"
+msgid "On login, launch apps that were open:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:104
 #, kde-format
 msgid "On login, launch apps that were open:"
 msgstr ""
@@ -166,8 +202,15 @@ msgctxt "@option:radio Here 'session' refers to the technical concept of session
 msgid "Start with an empty session"
 msgstr "เริ่มทำงานเป็น&วาระงานว่าง"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:113
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Ignored applications:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:146
 #, kde-format
 msgid "Ignored applications:"
 msgstr ""
@@ -175,6 +218,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: ui/main.qml:132
 #, kde-format
+msgctxt "@info:whatsthis contextualhelpbutton tooltip"
 msgid "Write apps' desktop file identifier or, on X11, executable names here (separated by commas or colons, for example 'xterm:org.kde.konsole.desktop' or 'xterm,org.kde.konsole.desktop') to prevent them from autostarting along with other session-restored apps."
 msgstr ""
 

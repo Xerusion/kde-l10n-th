@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-14 09:48+0200\n"
+"POT-Creation-Date: 2026-01-12 10:01+0100\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -63,232 +63,202 @@ msgid "The Histogram only shows the distribution of the luminance of the selecte
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:59
-msgid "kdenlive2308_histogram_01.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:59
+#: ../../tips_and_tricks/scopes/histogram_working.rst:58
 msgid "Histogram for a simple greyscale gradient image"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:65
-msgid "kdenlive2308_histogram_02.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:65
+#: ../../tips_and_tricks/scopes/histogram_working.rst:63
 msgid "Histogram for a simple color gradient image"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:67
+#: ../../tips_and_tricks/scopes/histogram_working.rst:65
 msgid "Exactly the same Histogram. Totally different colors. (What you can do is guessing the color tone; see below.) But what is the histogram good for now?"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:69
+#: ../../tips_and_tricks/scopes/histogram_working.rst:67
 msgid "To answer this question, it is best to refer you to this article from |cambridge_in_colour|: |tones_and_contrast| and the second part |luminance_and_color|. Although written for digital photo cameras, exactly the same applies for digital video cameras. Both articles are easy to read and understand and may also be of interest for experienced users."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:72
+#: ../../tips_and_tricks/scopes/histogram_working.rst:70
 msgid "Example 1: Candlelight"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:78
-msgid "kdenlive2308_histogram_03.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:78
+#: ../../tips_and_tricks/scopes/histogram_working.rst:75
 msgid "Histogram example with a candlelight image"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:80
+#: ../../tips_and_tricks/scopes/histogram_working.rst:77
 msgid "Two special things about this histogram."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:82
+#: ../../tips_and_tricks/scopes/histogram_working.rst:79
 msgid "Most pixels are dark, according to the Luma component (white). Though there is no total black: Notice that the Luma component shows «min: 8». Nevertheless, the blue component does reach 0. This means that the darkest pixels are still slightly orange and didn't lose all color information yet."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:84
+#: ../../tips_and_tricks/scopes/histogram_working.rst:81
 msgid "There is quite some clipping. A lot of R values are sticking at the very right, at 255. Having a peak at 255 usually means that we lost information because some regions were too bright for the camera sensor with the current sensitivity settings. This could have been solved by lowering the sensitivity, but then the book and nearly everything else would be black. In this case the candles cause the clipping. (Not too bad here, because the lost detail isn't important for the image.)"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:86
+#: ../../tips_and_tricks/scopes/histogram_working.rst:83
 msgid "The RGB components also show very well that the shadows are not neutral grey but orange, otherwise the color heaps on the left would, as in the gradient histogram above, have their center at the same position. There isn't a lot to correct here, what could be done is raising the shadows with a :doc:`/effects_and_filters/video_effects/color_image_correction/curves` effect, but this is a matter of taste and the intended mood for the final movie."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:92
-msgid "kdenlive2308_histogram_04.gif"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:92
+#: ../../tips_and_tricks/scopes/histogram_working.rst:88
 msgid "Histogram before and after applying some color correcting with the :doc:`/effects_and_filters/video_effects/color_image_correction/curves` effect"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:95
+#: ../../tips_and_tricks/scopes/histogram_working.rst:91
 msgid "Example 2: Underexposed ABC"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:101
-msgid "kdenlive2308_histogram_05.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:101
+#: ../../tips_and_tricks/scopes/histogram_working.rst:96
 msgid "Histogram example 2 with an underexposed image"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:103
+#: ../../tips_and_tricks/scopes/histogram_working.rst:98
 msgid "We immediately notice two things:"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:105
+#: ../../tips_and_tricks/scopes/histogram_working.rst:100
 msgid "The RGB peaks are at the same position, near the middle. The white wall is the brightest part, so these peaks are from the white wall. As they are not shifted, the white balance should be okay (the image confirms that). Note that the Histogram is not very accurate for white balance. Later we will introduce a much more accurate scope."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:107
+#: ../../tips_and_tricks/scopes/histogram_working.rst:102
 msgid "The image is too dark. The brightest component, red, only reaches a value of 170. The white wall is actually grey."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:109
+#: ../../tips_and_tricks/scopes/histogram_working.rst:104
 msgid "Monitoring correct exposure is the histogram's strength! The exposure can be corrected with :doc:`/effects_and_filters/video_effects/color_image_correction/curves` as well, but this time we will use the :doc:`/effects_and_filters/video_effects/color_image_correction/levels` effect."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:115
-msgid "kdenlive2308_histogram_06.gif"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:115
+#: ../../tips_and_tricks/scopes/histogram_working.rst:109
 msgid "Histogram before and after applying the :doc:`/effects_and_filters/video_effects/color_image_correction/levels` effect to correct exposure"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:117
+#: ../../tips_and_tricks/scopes/histogram_working.rst:111
 msgid "We have lowered the input white level of the luma channel until one of the RGB components reached 255. Lowering the input white level further would cause clipping on the wall and loss of image information. (Which may be desired in certain circumstances!)"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:119
+#: ../../tips_and_tricks/scopes/histogram_working.rst:113
 msgid "This process is called *Stretching* of the tonal range."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:122
+#: ../../tips_and_tricks/scopes/histogram_working.rst:116
 msgid "Histogram Options"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:124
+#: ../../tips_and_tricks/scopes/histogram_working.rst:118
 msgid "The Histogram can be adjusted as follows:"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:126
+#: ../../tips_and_tricks/scopes/histogram_working.rst:120
 msgid "Components - They can be enabled individually. For example, you might only want to see the Luma component, or you want to hide the Sum display."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:128
+#: ../../tips_and_tricks/scopes/histogram_working.rst:122
 msgid ":guilabel:`Y` or Luma is the best known histogram. Every digital camera shows it, |digikam|, |gimp|, etc. know it. See :ref:`below <scopes-luma_calc>` how it is calculated."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:130
+#: ../../tips_and_tricks/scopes/histogram_working.rst:124
 msgid ":guilabel:`Sum` is basically a quick overview over the individual :abbr:`RGB (Red Green Blue)` channels. If it shows e.g. 5 as the minimum value, you know that none of the RGB components goes lower than 5."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:132
+#: ../../tips_and_tricks/scopes/histogram_working.rst:126
 msgid ":guilabel:`R / G / B` show the histogram for the individual channels."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:134
+#: ../../tips_and_tricks/scopes/histogram_working.rst:128
 msgid "Unscaled (Context menu) - Does not scale the width of the histogram (unless the widget size is smaller). Just a goodie if you want to have it 256px wide."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:138
+#: ../../tips_and_tricks/scopes/histogram_working.rst:132
 msgid "Luma mode (Context menu) - This option defines how the Luma value of a pixel is calculated. Two options are available:"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:140
+#: ../../tips_and_tricks/scopes/histogram_working.rst:134
 msgid "Rec. 601 uses the formula ``Y' = 0.299 R' + 0.587 G' + 0.114 B'``"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:142
+#: ../../tips_and_tricks/scopes/histogram_working.rst:136
 msgid "Rec. 709 uses ``Y' = 0.2126 R' + 0.7152 G' + 0.0722 B'``"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:144
+#: ../../tips_and_tricks/scopes/histogram_working.rst:138
 msgid "Most of the time you will want to use Rec. 709 which is mostly used in digital video today."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:147
+#: ../../tips_and_tricks/scopes/histogram_working.rst:141
 msgid "Summary"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:148
+#: ../../tips_and_tricks/scopes/histogram_working.rst:142
 msgid "The Histogram is a great tool for exposure correction, together with the Curves and the Levels effects. It helps to avoid clipping (burned out areas) and crushed blacks (the opposite) when applying effects."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:153
+#: ../../tips_and_tricks/scopes/histogram_working.rst:147
 msgid "Notes"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:159
+#: ../../tips_and_tricks/scopes/histogram_working.rst:153
 msgid ":download:`Histogram-bw.png <http://granjow.net/uploads/kdenlive/samples/Histogram-bw.png>`"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:160
+#: ../../tips_and_tricks/scopes/histogram_working.rst:154
 msgid ":download:`Histogram-col.png <http://granjow.net/uploads/kdenlive/samples/Histogram-col.png>`"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:161
+#: ../../tips_and_tricks/scopes/histogram_working.rst:155
 msgid ":download:`abc-underexposed.avi <http://granjow.net/uploads/kdenlive/samples/abc-underexposed.avi>` (26 MB; 720/24p)"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:162
+#: ../../tips_and_tricks/scopes/histogram_working.rst:156
 msgid ":download:`candlelight.avi <http://granjow.net/uploads/kdenlive/samples/candlelight.avi>` (14 MB; 720/24p)"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:164
+#: ../../tips_and_tricks/scopes/histogram_working.rst:158
 msgid "The original text was submitted by *Simon A. Eugster (Granjow)* on Mon, 8/30/2010 - 23:10 to the now defunct kdenlive.org blog. For this documentation it has been lifted from |web_archive|, updated and adapted to match the overall style."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/scopes/histogram_working.rst:165
+#: ../../tips_and_tricks/scopes/histogram_working.rst:159
 msgid "**Sources**"
 msgstr ""
 

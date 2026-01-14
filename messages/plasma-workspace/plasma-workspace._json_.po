@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-10 10:23+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -132,7 +132,7 @@ msgid "Fushan Wen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/clipboard/metadata.json klipper/plasma-dataengine-clipboard.json
+#: applets/clipboard/metadata.json
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Clipboard Tool"
@@ -147,7 +147,7 @@ msgid "Provides access to the clipboard history"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: applets/clipboard/metadata.json klipper/plasma-dataengine-clipboard.json
+#: applets/clipboard/metadata.json
 msgctxt "Authors Name"
 msgid "Martin Gräßlin"
 msgstr ""
@@ -473,7 +473,7 @@ msgctxt "Name"
 msgid "System Tray"
 msgstr "ถาดระบบ"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: applets/systemtray/metadata.json
 msgctxt "Description"
 msgid "Quickly access system features and application status icons"
@@ -595,51 +595,6 @@ msgstr "สลับหน้าต่าง"
 msgctxt "Description"
 msgid "Show a list of windows to switch to"
 msgstr "แสดงรายการของหน้าต่างที่สามารถจะสลับไปใช้ได้"
-
-#. +> trunk6 stable6 stable5
-#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
-msgctxt "Name"
-msgid "Application Job Information"
-msgstr "ข้อมูลงานของโปรแกรม"
-
-#. +> trunk6 stable6 stable5
-#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Application job updates (via kuiserver)"
-msgctxt "Description"
-msgid "Application job updates (via kuiserver)"
-msgstr "ปรับปรุงงานของโปรแกรม (ผ่านทาง kuiserver)"
-
-#. +> trunk6 stable6 stable5
-#: dataengines/executable/plasma-dataengine-executable.json
-msgctxt "Name"
-msgid "Run Commands"
-msgstr "ประมวลผลคำสั่ง"
-
-#. +> trunk6 stable6 stable5
-#: dataengines/executable/plasma-dataengine-executable.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Run Executable Data Engine"
-msgctxt "Description"
-msgid "Run Executable Data Engine"
-msgstr "กลไกข้อมูลการประมวลผลคำสั่ง"
-
-#. +> trunk6 stable6 stable5
-#: dataengines/notifications/plasma-dataengine-notifications.json
-msgctxt "Name"
-msgid "Application Notifications"
-msgstr "การแจ้งให้ทราบของโปรแกรม"
-
-#. +> trunk6 stable6 stable5
-#: dataengines/notifications/plasma-dataengine-notifications.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Passive visual notifications for the user."
-msgctxt "Description"
-msgid "Passive visual notifications for the user."
-msgstr "ระบบการแจ้งให้ผู้ใช้งานทราบถึงเหตุการณ์ต่าง ๆ"
 
 #. +> trunk6 stable6 stable5
 #: devicenotifications/devicenotifications.json
@@ -1112,7 +1067,7 @@ msgstr "นำเสนอภาพนิ่ง"
 #. +> trunk6 stable6
 #: kcms/wallpaper/kcm_wallpaper.json
 msgctxt "X-KDE-Keywords"
-msgid "wallpaper,desktop"
+msgid "wallpaper,desktop,background,slideshow,haenau,hunyango,picture of the day,dynamic wallpaper,live wallpaper,animated wallpaper"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -1126,15 +1081,6 @@ msgstr ""
 msgctxt "Description"
 msgid "Monitors directories for changes"
 msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: klipper/plasma-dataengine-clipboard.json
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Clipboard Tool"
-msgctxt "Description"
-msgid "Clipboard Tool."
-msgstr "เครื่องมือคลิปบอร์ด"
 
 #. +> trunk6 stable6 stable5
 #: ktimezoned/ktimezoned.json
@@ -1583,42 +1529,6 @@ msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr ""
 
-#. +> stable6 stable5
-#: applets/systemtray/package/metadata.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Access hidden applications minimized in the system tray"
-msgctxt "Description"
-msgid "Access hidden applications minimized in the system tray"
-msgstr "เข้าใช้งานโปรแกรมที่ซ่อนตัวอยู่ในถาดระบบ"
-
-#. +> stable6 stable5
-#: dataengines/time/plasma-dataengine-time.json
-msgctxt "Name"
-msgid "Date and Time"
-msgstr "วันและเวลา"
-
-#. +> stable6 stable5
-#: dataengines/time/plasma-dataengine-time.json
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Date and time by timezone"
-msgctxt "Description"
-msgid "Date and time by timezone"
-msgstr "วันและเวลาตามเขตเวลา"
-
-#. +> stable6 stable5
-#: dataengines/time/plasma-dataengine-time.json
-msgctxt "Authors Name"
-msgid "Aaron Seigo"
-msgstr ""
-
-#. +> stable6 stable5
-#: phonon/platform_kde/phononbackend.json
-msgctxt "Name"
-msgid "KDE Multimedia Backend"
-msgstr "โปรแกรมเบื้องหลังจัดการสื่อประสมของ KDE"
-
 #. +> stable5
 #: applets/batterymonitor/package/metadata.json
 #, fuzzy
@@ -1653,6 +1563,15 @@ msgid "Media Player Controls"
 msgstr "โปรแกรมเล่นมัลติมีเดีย"
 
 #. +> stable5
+#: applets/systemtray/container/package/metadata.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Access hidden applications minimized in the system tray"
+msgctxt "Description"
+msgid "Access hidden applications minimized in the system tray"
+msgstr "เข้าใช้งานโปรแกรมที่ซ่อนตัวอยู่ในถาดระบบ"
+
+#. +> stable5
 #: dataengines/activities/plasma-dataengine-activities.json
 msgctxt "Name"
 msgid "Activities Engine"
@@ -1672,6 +1591,21 @@ msgstr "ข้อมูลเกี่ยวกับกิจกรรมต่
 msgctxt "Authors Name"
 msgid "Chani Armitage"
 msgstr ""
+
+#. +> stable5
+#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
+msgctxt "Name"
+msgid "Application Job Information"
+msgstr "ข้อมูลงานของโปรแกรม"
+
+#. +> stable5
+#: dataengines/applicationjobs/plasma-dataengine-applicationjobs.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Application job updates (via kuiserver)"
+msgctxt "Description"
+msgid "Application job updates (via kuiserver)"
+msgstr "ปรับปรุงงานของโปรแกรม (ผ่านทาง kuiserver)"
 
 #. +> stable5
 #: dataengines/apps/plasma-dataengine-apps.json
@@ -1717,6 +1651,21 @@ msgstr "พจนานุกรม"
 msgctxt "Description"
 msgid "Look up word meanings"
 msgstr "ค้นหาความหมายของคำ"
+
+#. +> stable5
+#: dataengines/executable/plasma-dataengine-executable.json
+msgctxt "Name"
+msgid "Run Commands"
+msgstr "ประมวลผลคำสั่ง"
+
+#. +> stable5
+#: dataengines/executable/plasma-dataengine-executable.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Run Executable Data Engine"
+msgctxt "Description"
+msgid "Run Executable Data Engine"
+msgstr "กลไกข้อมูลการประมวลผลคำสั่ง"
 
 #. +> stable5
 #: dataengines/favicons/plasma-dataengine-favicons.json
@@ -1830,6 +1779,13 @@ msgid "Keyboard modifier and mouse buttons states"
 msgstr "สถานะปุ่มเปลี่ยนหน้าที่ของแป้นพิมพ์และสถานะปุ่มของเมาส์"
 
 #. +> stable5
+#: dataengines/keystate/plasma-dataengine-keystate.json
+#: dataengines/time/plasma-dataengine-time.json
+msgctxt "Authors Name"
+msgid "Aaron Seigo"
+msgstr ""
+
+#. +> stable5
 #: dataengines/mouse/plasma-dataengine-mouse.json
 msgctxt "Name"
 msgid "Pointer Position"
@@ -1855,6 +1811,21 @@ msgstr ""
 msgctxt "Description"
 msgid "Provides information from and control over media players via MPRIS2"
 msgstr ""
+
+#. +> stable5
+#: dataengines/notifications/plasma-dataengine-notifications.json
+msgctxt "Name"
+msgid "Application Notifications"
+msgstr "การแจ้งให้ทราบของโปรแกรม"
+
+#. +> stable5
+#: dataengines/notifications/plasma-dataengine-notifications.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Passive visual notifications for the user."
+msgctxt "Description"
+msgid "Passive visual notifications for the user."
+msgstr "ระบบการแจ้งให้ผู้ใช้งานทราบถึงเหตุการณ์ต่าง ๆ"
 
 #. +> stable5
 #: dataengines/packagekit/plasma-dataengine-packagekit.json
@@ -1960,6 +1931,21 @@ msgstr "ติดตามการทำงานของระบบ"
 msgctxt "Description"
 msgid "System status information"
 msgstr "ข้อมูลสถานะของระบบ"
+
+#. +> stable5
+#: dataengines/time/plasma-dataengine-time.json
+msgctxt "Name"
+msgid "Date and Time"
+msgstr "วันและเวลา"
+
+#. +> stable5
+#: dataengines/time/plasma-dataengine-time.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Date and time by timezone"
+msgctxt "Description"
+msgid "Date and time by timezone"
+msgstr "วันและเวลาตามเขตเวลา"
 
 #. +> stable5
 #: dataengines/weather/ions/bbcukmet/ion-bbcukmet.json
@@ -2076,6 +2062,15 @@ msgid "Adjust color temperature based on time"
 msgstr ""
 
 #. +> stable5
+#: klipper/plasma-dataengine-clipboard.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Tool"
+msgctxt "Description"
+msgid "Clipboard Tool."
+msgstr "เครื่องมือคลิปบอร์ด"
+
+#. +> stable5
 #: libcolorcorrect/kded/colorcorrectlocationupdater.json
 msgctxt "Name"
 msgid "Automatic Location for Night Color"
@@ -2086,6 +2081,12 @@ msgstr ""
 msgctxt "Description"
 msgid "Provides location updates for Night Color"
 msgstr ""
+
+#. +> stable5
+#: phonon/platform_kde/phononbackend.json
+msgctxt "Name"
+msgid "KDE Multimedia Backend"
+msgstr "โปรแกรมเบื้องหลังจัดการสื่อประสมของ KDE"
 
 #. +> stable5
 #: runners/powerdevil/plasma-runner-powerdevil.json

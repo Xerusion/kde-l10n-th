@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-06 19:23+0100\n"
+"POT-Creation-Date: 2025-12-22 09:07+0100\n"
 "PO-Revision-Date: 2010-12-18 14:23+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -28,7 +28,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "donga.nb@gmail.com"
 
-#. +> trunk6 stable6
+#. +> stable6
 #: dviexport.cpp:123
 #, kde-format
 msgid ""
@@ -39,19 +39,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dviexport.cpp:142
-#, kde-format
-msgid "<qt>The external program 'dvipdfm', which was used to export the file, reported an error. You might wish to look at the <strong>document info dialog</strong> which you will find in the File-Menu for a precise error report.</qt>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: dviexport.cpp:168
+#: dviexport.cpp:129
 #, kde-format
 msgid "<qt>This DVI file refers to external graphic files which are not in PostScript format, and cannot be handled by the <em>dvips</em> program that Okular uses internally to print or to export to PostScript. The functionality that you require is therefore unavailable in this version of Okular.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: dviexport.cpp:176
+#: dviexport.cpp:137
 #, kde-format
 msgid ""
 "<qt>"
@@ -61,9 +55,15 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: dviexport.cpp:270
+#: dviexport.cpp:231
 #, kde-format
 msgid "<qt>The external program 'dvips', which was used to export the file, reported an error. You might wish to look at the <strong>document info dialog</strong> which you will find in the File-Menu for a precise error report.</qt>"
+msgstr ""
+
+#. +> stable6
+#: dviexport.cpp:142
+#, kde-format
+msgid "<qt>The external program 'dvipdfm', which was used to export the file, reported an error. You might wish to look at the <strong>document info dialog</strong> which you will find in the File-Menu for a precise error report.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -233,7 +233,7 @@ msgid "The papersize data '%1' could not be parsed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: fontpool.cpp:209
+#: fontpool.cpp:194
 #, kde-format
 msgid ""
 "<qt>"
@@ -244,7 +244,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: fontpool.cpp:284
+#: fontpool.cpp:269
 #, kde-format
 msgid ""
 "<qt>"
@@ -256,59 +256,29 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: fontpool.cpp:305
+#: fontpool.cpp:290
 #, kde-format
 msgid "<qt>The font generation by <em>kpsewhich</em> was aborted (exit code %1, error %2). As a result, some font files could not be located, and your document might be unreadable.</qt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: fontpool.cpp:482
+#: fontpool.cpp:467
 #, fuzzy, kde-format
 #| msgid "Currently generating %1 at %2 dpi"
 msgid "Currently generating %1 at %2 dpi…"
 msgstr "ตอนนี้กำลังทำการสร้าง %1 ที่ความละเอียด %2 จุดต่อนิ้ว (dpi)"
 
 #. +> trunk6 stable6
-#: generator_dvi.cpp:288
+#: generator_dvi.cpp:293
 #, kde-format
 msgid "Generator/Date"
 msgstr "ตัวสร้าง/วันที่"
 
 #. +> trunk6 stable6
-#: generator_dvi.cpp:377
+#: generator_dvi.cpp:382
 #, kde-format
 msgid "Font file not found"
 msgstr "ไม่พบแฟ้มแบบอักษร"
-
-#. +> trunk6 stable6
-#: pageSize.cpp:298
-#, kde-format
-msgid "%1 × %2"
-msgstr ""
-
-#. +> trunk6 stable6
-#: pageSize.cpp:311
-#, kde-format
-msgid "%1 × %2 mm"
-msgstr ""
-
-#. +> trunk6 stable6
-#: pageSize.cpp:313
-#, kde-format
-msgid "%1 × %2 in"
-msgstr ""
-
-#. +> trunk6 stable6
-#: pageSize.cpp:318
-#, kde-format
-msgid "portrait"
-msgstr "แนวตั้ง"
-
-#. +> trunk6 stable6
-#: pageSize.cpp:320
-#, kde-format
-msgid "landscape"
-msgstr "แนวนอน"
 
 #. +> trunk6 stable6
 #: psgs.cpp:286
@@ -371,37 +341,37 @@ msgid "The font file %1 is broken, or it could not be opened or read."
 msgstr ""
 
 #. +> trunk6 stable6
-#: TeXFont_PFB.cpp:170
+#: TeXFont_PFB.cpp:167
 #, kde-format
 msgid "FreeType reported an error when setting the character size for font file %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: TeXFont_PFB.cpp:188
+#: TeXFont_PFB.cpp:185
 #, kde-format
 msgid "FreeType is unable to load glyph #%1 from font file %2."
 msgstr "ไลบรารี FreeType ไม่สามารถโหลดกลิป #%1 จากแฟ้มแบบอักษร %2 ได้"
 
 #. +> trunk6 stable6
-#: TeXFont_PFB.cpp:201
+#: TeXFont_PFB.cpp:198
 #, kde-format
 msgid "FreeType is unable to render glyph #%1 from font file %2."
 msgstr ""
 
 #. +> trunk6 stable6
-#: TeXFont_PFB.cpp:215
+#: TeXFont_PFB.cpp:212
 #, kde-format
 msgid "Glyph #%1 is empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: TeXFont_PFB.cpp:217
+#: TeXFont_PFB.cpp:214
 #, kde-format
 msgid "Glyph #%1 from font file %2 is empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: TeXFont_PFB.cpp:282
+#: TeXFont_PFB.cpp:279
 #, kde-format
 msgid "FreeType is unable to load metric for glyph #%1 from font file %2."
 msgstr ""
@@ -449,19 +419,19 @@ msgid "Font has non-square aspect ratio "
 msgstr ""
 
 #. +> trunk6 stable6
-#: TeXFontDefinition.cpp:107
+#: TeXFontDefinition.cpp:106
 #, kde-format
 msgid "Cannot find font %1, file %2."
 msgstr "ไม่สามารถหาแบบอักษร %1 พบ, แฟ้ม %2"
 
 #. +> trunk6 stable6
-#: TeXFontDefinition.cpp:124
+#: TeXFontDefinition.cpp:123
 #, kde-format
 msgid "Checksum mismatch for font file %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: TeXFontDefinition.cpp:175
+#: TeXFontDefinition.cpp:174
 #, kde-format
 msgid "Cannot recognize format for font file %1"
 msgstr ""
@@ -495,3 +465,33 @@ msgstr ""
 #, kde-format
 msgid "Wrong command byte found in VF macro list: %1"
 msgstr ""
+
+#. +> stable6
+#: pageSize.cpp:298
+#, kde-format
+msgid "%1 × %2"
+msgstr ""
+
+#. +> stable6
+#: pageSize.cpp:311
+#, kde-format
+msgid "%1 × %2 mm"
+msgstr ""
+
+#. +> stable6
+#: pageSize.cpp:313
+#, kde-format
+msgid "%1 × %2 in"
+msgstr ""
+
+#. +> stable6
+#: pageSize.cpp:318
+#, kde-format
+msgid "portrait"
+msgstr "แนวตั้ง"
+
+#. +> stable6
+#: pageSize.cpp:320
+#, kde-format
+msgid "landscape"
+msgstr "แนวนอน"

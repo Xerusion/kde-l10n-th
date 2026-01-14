@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-07 11:31+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -283,18 +283,21 @@ msgstr ""
 #. +> trunk6 stable6
 #: ui/ActionDialog.qml:248
 #, kde-format
+msgctxt "@label prefix for configuring Keybind to send when dial/ring is turned upwards"
 msgid "Up:"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/ActionDialog.qml:261
 #, kde-format
+msgctxt "@label prefix for configuring Keybind to send when dial/ring is turned downwards"
 msgid "Down:"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/ActionDialog.qml:274
 #, kde-format
+msgctxt "@label:slider Speed for how often this dial/ring should emit key events"
 msgid "Speed:"
 msgstr ""
 
@@ -454,24 +457,28 @@ msgstr ""
 #. +> trunk6 stable6
 #: ui/DisplayTab.qml:46
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Map to screen:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/DisplayTab.qml:73
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Orientation:"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/DisplayTab.qml:79
 #, kde-format
+msgctxt "@label substitute for unavailable orientation change"
 msgid "Not Applicable"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/DisplayTab.qml:93
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Mapped Area:"
 msgstr ""
 
@@ -492,6 +499,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: ui/ExternalScreenMapping.qml:190
 #, kde-format
+msgctxt "@action:button"
 msgid "Resize the screen area"
 msgstr ""
 
@@ -502,21 +510,24 @@ msgctxt "tablet area position - size"
 msgid "%1%,%2% - %3%×%4%"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/ExternalScreenMapping.qml:301
 #, kde-format
+msgctxt "@action:button"
 msgid "Resize the tablet area"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/main.qml:38
 #, kde-format
+msgctxt "@info placeholdermessage text"
 msgid "No drawing tablets found"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/main.qml:39
 #, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
 msgid "Connect a drawing tablet"
 msgstr ""
 
@@ -562,21 +573,24 @@ msgctxt "@title:tab"
 msgid "Pad"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/MissingPadTab.qml:15
 #, kde-format
+msgctxt "@info placeholdermessage main text"
 msgid "No pad inputs found"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/MissingPadTab.qml:16
 #, kde-format
+msgctxt "@info:usagetip placeholdermessage explanation"
 msgid "No buttons or other inputs were detected. This could mean the driver for this device is missing."
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/PadTab.qml:37
 #, kde-format
+msgctxt "@label for graphics tablet ring config, % is number of ring"
 msgid "Pad ring %1:"
 msgstr ""
 
@@ -590,6 +604,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: ui/PadTab.qml:100
 #, kde-format
+msgctxt "@label for graphics tablet ring config, % is number of dial"
 msgid "Pad dial %1:"
 msgstr ""
 
@@ -603,6 +618,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: ui/PadTab.qml:138
 #, kde-format
+msgctxt "@label for graphics tablet button config, % is number of button"
 msgid "Pad button %1:"
 msgstr ""
 
@@ -613,16 +629,17 @@ msgctxt "@info Meant to be inserted into an existing sentence like 'configuring 
 msgid "pad button %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/StylusTab.qml:222
 #, kde-format
+msgctxt "@label prefix for checkbox"
 msgid "Left-handed mode:"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/StylusTab.qml:228
 #, kde-format
-msgctxt "Enable left-handed mode"
+msgctxt "@option:check Enable left-handed mode"
 msgid "Enable"
 msgstr ""
 
@@ -643,32 +660,35 @@ msgstr ""
 #. +> trunk6 stable6
 #: ui/StylusTab.qml:254
 #, kde-format
-msgctxt "Pen mode, where the point on the screen is always where you touch the stylus"
+msgctxt "@option:radio Pen mode, where the point on the screen is always where you touch the stylus"
 msgid "Pen"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/StylusTab.qml:259
 #, kde-format
+msgctxt "@info:whatsthis Accessible description"
 msgid "The cursor follows where you touch the pen on the surface"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/StylusTab.qml:280
 #, kde-format
-msgctxt "Mouse mode, or like using the tablet like a giant touchpad"
+msgctxt "@option:radio Mouse mode, or like using the tablet like a giant touchpad"
 msgid "Mouse"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/StylusTab.qml:285
 #, kde-format
+msgctxt "@info:whatsthis Accessible description"
 msgid "Moving the pen on the surface moves the cursor relative to where it was, like a mouse"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/StylusTab.qml:355
 #, kde-format
+msgctxt "@label prefix for pen pressure curve config"
 msgid "Pen Pressure:"
 msgstr ""
 
@@ -836,9 +856,27 @@ msgid "Target display:"
 msgstr ""
 
 #. +> stable5
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Orientation:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:108
+#, kde-format
+msgid "Left-handed mode:"
+msgstr ""
+
+#. +> stable5
 #: package/contents/ui/main.qml:118
 #, kde-format
 msgid "Area:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:206
+#, kde-format
+msgid "Resize the tablet area"
 msgstr ""
 
 #. +> stable5

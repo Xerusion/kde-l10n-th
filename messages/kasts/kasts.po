@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kasts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-22 09:50+0200\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -217,49 +217,49 @@ msgid "Playing Media"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:128
+#: main.cpp:130
 #, kde-format
 msgid "Podcast Application"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:130
+#: main.cpp:132
 #, kde-format
 msgid "Adds a new podcast to subscriptions."
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:131
+#: main.cpp:133
 #, kde-format
 msgid "Podcast URL"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:136 qml/Main.qml:25
+#: main.cpp:138 qml/Main.qml:25
 #, kde-format
 msgid "Kasts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:138
+#: main.cpp:140
 #, kde-format
 msgid "Podcast Player"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:140
+#: main.cpp:142
 #, kde-format
 msgid "© 2020–2025 KDE Community"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:141
+#: main.cpp:143
 #, kde-format
 msgid "Tobias Fella"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:142
+#: main.cpp:144
 #, kde-format
 msgid "Bart De Vries"
 msgstr ""
@@ -570,14 +570,28 @@ msgstr ""
 msgid "Chapters"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: qml/Desktop/DesktopPlayerControls.qml:408 qml/Desktop/HeaderBar.qml:123
+#: qml/Mobile/MobilePlayerControls.qml:174
+#, kde-format
+msgid "No Episode Title"
+msgstr ""
+
+#. +> stable6
 #: qml/Desktop/DesktopPlayerControls.qml:408 qml/Desktop/HeaderBar.qml:123
 #: qml/Mobile/MobilePlayerControls.qml:174
 #, kde-format
 msgid "No Track Title"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: qml/Desktop/DesktopPlayerControls.qml:413 qml/Desktop/HeaderBar.qml:124
+#: qml/Mobile/MobilePlayerControls.qml:184
+#, kde-format
+msgid "No episode loaded"
+msgstr ""
+
+#. +> stable6
 #: qml/Desktop/DesktopPlayerControls.qml:413 qml/Desktop/HeaderBar.qml:124
 #: qml/Mobile/MobilePlayerControls.qml:184
 #, kde-format
@@ -1285,7 +1299,13 @@ msgctxt "@info:status"
 msgid "Podcast downloads are currently not allowed on metered connections"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: qml/Mobile/MobilePlayerControls.qml:23
+#, kde-format
+msgid "No Episode Loaded"
+msgstr ""
+
+#. +> stable6
 #: qml/Mobile/MobilePlayerControls.qml:23
 #, kde-format
 msgid "No Track Loaded"
@@ -1570,7 +1590,14 @@ msgctxt "@label:listbox Label for setting to select audio playback backend"
 msgid "Select audio backend"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: qml/Settings/GeneralSettingsPage.qml:64
+#, kde-format
+msgctxt "@option:check Label for setting whether the total episode time is shown or a countdown of the remaining play time"
+msgid "Show time left instead of total episode time"
+msgstr ""
+
+#. +> stable6
 #: qml/Settings/GeneralSettingsPage.qml:64
 #, kde-format
 msgctxt "@option:check Label for setting whether the total track time is shown or a countdown of the remaining play time"
@@ -2656,7 +2683,7 @@ msgid "An error occurred while copying data"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/systrayicon.cpp:25
+#: utils/systrayicon.cpp:27
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -2665,42 +2692,42 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/systrayicon.cpp:51
+#: utils/systrayicon.cpp:53
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Seek Backward"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/systrayicon.cpp:63
+#: utils/systrayicon.cpp:65
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/systrayicon.cpp:71
+#: utils/systrayicon.cpp:73
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/systrayicon.cpp:90
+#: utils/systrayicon.cpp:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Seek Forward"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/systrayicon.cpp:102
+#: utils/systrayicon.cpp:104
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip Forward"
 msgstr ""
 
 #. +> trunk6 stable6
-#: utils/systrayicon.cpp:117
+#: utils/systrayicon.cpp:119
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"

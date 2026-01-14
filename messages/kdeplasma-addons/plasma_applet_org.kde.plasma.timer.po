@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_timer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-02 10:43+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2010-03-27 21:42+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -40,7 +40,7 @@ msgid "%1s"
 msgid_plural "%1s"
 msgstr[0] ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: config.qml:13
 #, kde-format
 msgctxt "@title"
@@ -54,21 +54,6 @@ msgstr ""
 msgctxt "@title"
 msgid "Predefined Timers"
 msgstr "ตัวจับเวลาที่นิยามไว้แล้ว"
-
-#. +> stable6 stable5
-#: config.qml:13
-#, fuzzy, kde-format
-#| msgid "Appearance"
-msgctxt "@title"
-msgid "Appearance"
-msgstr "รูปลักษณ์"
-
-#. +> stable6 stable5
-#: config.qml:24
-#, kde-format
-msgctxt "@title"
-msgid "Advanced"
-msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: configGeneral.qml:33
@@ -115,21 +100,21 @@ msgctxt "@option:check"
 msgid "Show progress bar"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configGeneral.qml:81
 #, kde-format
 msgctxt "@title:label"
 msgid "On timeout:"
 msgstr ""
 
-#. +> stable6 stable5
-#: configAppearance.qml:78
+#. +> stable5
+#: package/contents/ui/configAppearance.qml:81
 #, kde-format
 msgctxt "@title:label"
 msgid "Notifications:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configGeneral.qml:85
 #, fuzzy, kde-format
 #| msgid "Show title:"
@@ -137,21 +122,21 @@ msgctxt "@option:check"
 msgid "Show notification:"
 msgstr "แสดงหัวเรื่อง:"
 
-#. +> stable6 stable5
-#: configAppearance.qml:82
+#. +> stable5
+#: package/contents/ui/configAppearance.qml:85
 #, kde-format
 msgctxt "@option:check"
 msgid "Show notification text:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configGeneral.qml:97
 #, kde-format
 msgctxt "@placeholder"
 msgid "Timer finished"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configGeneral.qml:107
 #, fuzzy, kde-format
 #| msgid "Run a command:"
@@ -159,7 +144,7 @@ msgctxt "@option:check"
 msgid "Run command:"
 msgstr "ประมวลผลคำสั่ง:"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: configGeneral.qml:119
 #, kde-format
 msgctxt "@placeholder"
@@ -275,15 +260,30 @@ msgctxt "@action"
 msgid "&Reset"
 msgstr "ตั้งใหม่"
 
-#. +> stable6 stable5
-#: configAdvanced.qml:22
+#. +> stable5
+#: package/contents/config/config.qml:13
+#, fuzzy, kde-format
+#| msgid "Appearance"
+msgctxt "@title"
+msgid "Appearance"
+msgstr "รูปลักษณ์"
+
+#. +> stable5
+#: package/contents/config/config.qml:24
+#, kde-format
+msgctxt "@title"
+msgid "Advanced"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/configAdvanced.qml:22
 #, kde-format
 msgctxt "@title:label"
 msgid "After timer completes:"
 msgstr ""
 
-#. +> stable6 stable5
-#: configAdvanced.qml:26
+#. +> stable5
+#: package/contents/ui/configAdvanced.qml:26
 #, fuzzy, kde-format
 #| msgid "Run a command:"
 msgctxt "@option:check"

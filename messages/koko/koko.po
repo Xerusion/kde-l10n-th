@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koko\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-10 10:23+0100\n"
+"POT-Creation-Date: 2026-01-09 07:21+0100\n"
 "PO-Revision-Date: 2025-03-17 14:54+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -837,6 +837,7 @@ msgstr ""
 #. +> trunk6
 #: models/galleryopenmodel.cpp:141
 #, kde-format
+msgctxt "@title"
 msgid "Open"
 msgstr ""
 
@@ -1079,7 +1080,7 @@ msgstr ""
 #. +> trunk6
 #: qml/gallery/GalleryPage.qml:177
 #, kde-format
-msgctxt "@action:button Move the selected media to the trash"
+msgctxt "@action:button Restore the selected media from the trash"
 msgid "Restore"
 msgstr ""
 
@@ -1377,46 +1378,88 @@ msgid "%1:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/mediaview/InfoDrawerSidebarBase.qml:106
+#: qml/mediaview/InfoDrawerSidebarBase.qml:109
 #, kde-format
 msgctxt "@label"
 msgid "Rating:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/mediaview/InfoDrawerSidebarBase.qml:133
+#: qml/mediaview/InfoDrawerSidebarBase.qml:136
 #, kde-format
 msgid "Current rating %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/mediaview/InfoDrawerSidebarBase.qml:224
+#: qml/mediaview/InfoDrawerSidebarBase.qml:227
 #, kde-format
 msgctxt "@label"
 msgid "Description:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/mediaview/InfoDrawerSidebarBase.qml:226
+#: qml/mediaview/InfoDrawerSidebarBase.qml:229
 #, kde-format
 msgid "Image description…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/mediaview/InfoDrawerSidebarBase.qml:237
+#: qml/mediaview/InfoDrawerSidebarBase.qml:240
 #, kde-format
 msgctxt "@label"
 msgid "Tags:"
 msgstr ""
 
-#. +> trunk6 stable6
-#: qml/mediaview/InfoDrawerSidebarBase.qml:264
+#. +> stable6
+#: qml/InfoDrawerSidebarBase.qml:265
 #, kde-format
 msgid "Add Tag"
 msgstr ""
 
+#. +> trunk6
+#: qml/mediaview/InfoDrawerSidebarBase.qml:281
+#, kde-format
+msgctxt "@action open tag dialog"
+msgid "Add…"
+msgstr ""
+
+#. +> trunk6
+#: qml/mediaview/InfoDrawerSidebarBase.qml:297
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search for tags or write a new tag…"
+msgstr ""
+
+#. +> trunk6
+#: qml/mediaview/InfoDrawerSidebarBase.qml:298
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No tag found."
+msgstr ""
+
+#. +> trunk6
+#: qml/mediaview/InfoDrawerSidebarBase.qml:323
+#, kde-format
+msgctxt "@title:group"
+msgid "Create New Tag"
+msgstr ""
+
+#. +> trunk6
+#: qml/mediaview/InfoDrawerSidebarBase.qml:323
+#, kde-format
+msgctxt "@title:group"
+msgid "Existing Tags"
+msgstr ""
+
+#. +> trunk6
+#: qml/mediaview/InfoDrawerSidebarBase.qml:359
+#, kde-format
+msgctxt "@action close tag dialog"
+msgid "Close"
+msgstr ""
+
 #. +> trunk6 stable6
-#: qml/mediaview/InfoDrawerSidebarBase.qml:301
+#: qml/mediaview/InfoDrawerSidebarBase.qml:406
 #, kde-format
 msgctxt "@action:button"
 msgid "Choose What's Shown"
@@ -1618,14 +1661,14 @@ msgid "Next image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/mediaview/MediaViewPage.qml:852 qml/Settings/GeneralConfigPage.qml:125
+#: qml/mediaview/MediaViewPage.qml:852 qml/Settings/GeneralConfigPage.qml:150
 #, kde-format
 msgctxt "@label:spinbox Slideshow image changing interval"
 msgid "Slideshow interval:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/mediaview/MediaViewPage.qml:869 qml/Settings/GeneralConfigPage.qml:137
+#: qml/mediaview/MediaViewPage.qml:869 qml/Settings/GeneralConfigPage.qml:162
 #, kde-format
 msgctxt "Slideshow image changing interval"
 msgid "1 second"
@@ -1642,7 +1685,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: qml/mediaview/MediaViewPage.qml:933 qml/mediaview/MediaViewPage.qml:1034
-#: qml/Settings/GeneralConfigPage.qml:111
+#: qml/Settings/GeneralConfigPage.qml:136
 #, kde-format
 msgctxt "@option:check"
 msgid "Randomize"
@@ -1776,63 +1819,84 @@ msgctxt "@action:button Navigation entry in sidebar"
 msgid "Days"
 msgstr ""
 
-#. +> trunk6 stable6
-#: qml/Settings/GeneralConfigPage.qml:20
+#. +> trunk6
+#: qml/Settings/GeneralConfigPage.qml:23
+#, kde-format
+msgctxt "@label:slider"
+msgid "Thumbnail size:"
+msgstr ""
+
+#. +> stable6
+#: qml/Settings/GeneralConfigPage.qml:20 qml/Sidebar.qml:222
 #, kde-format
 msgid "Thumbnails size:"
 msgstr ""
 
+#. +> trunk6
+#: qml/Settings/GeneralConfigPage.qml:44
+#, kde-format
+msgctxt "@info:tooltip, %1 is a size in pixels"
+msgid "%1 px"
+msgstr ""
+
 #. +> trunk6 stable6
-#: qml/Settings/GeneralConfigPage.qml:38
+#: qml/Settings/GeneralConfigPage.qml:52
 #, kde-format
 msgctxt "@title:group"
 msgid "Image View Background"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/Settings/GeneralConfigPage.qml:43
+#: qml/Settings/GeneralConfigPage.qml:57
 #, kde-format
 msgctxt "@option:radio As in, background color"
 msgid "Black"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/Settings/GeneralConfigPage.qml:53
+#: qml/Settings/GeneralConfigPage.qml:67
 #, kde-format
 msgctxt "@option:radio As in, background color"
 msgid "White"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/Settings/GeneralConfigPage.qml:64
+#: qml/Settings/GeneralConfigPage.qml:78
 #, kde-format
 msgctxt "@option:radio As in, background color"
 msgid "Theme default"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/Settings/GeneralConfigPage.qml:65
+#: qml/Settings/GeneralConfigPage.qml:79
 #, kde-format
 msgctxt "info"
 msgid "Use the background color specified by the theme"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/Settings/GeneralConfigPage.qml:81
+#: qml/Settings/GeneralConfigPage.qml:95
 #, kde-format
 msgctxt "@option:check"
 msgid "Show a checkerboard background behind transparent images"
 msgstr ""
 
 #. +> trunk6
-#: qml/Settings/GeneralConfigPage.qml:92
+#: qml/Settings/GeneralConfigPage.qml:106
 #, kde-format
 msgctxt "@option:check"
 msgid "Enlarge images that are smaller than the viewport"
 msgstr ""
 
+#. +> trunk6
+#: qml/Settings/GeneralConfigPage.qml:117
+#, kde-format
+msgctxt "@option:check"
+msgid "Remember zoom level when switching between images"
+msgstr ""
+
 #. +> trunk6 stable6
-#: qml/Settings/GeneralConfigPage.qml:103
+#: qml/Settings/GeneralConfigPage.qml:128
 #, kde-format
 msgctxt "@title:group"
 msgid "Slideshow"

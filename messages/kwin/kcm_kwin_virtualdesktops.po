@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_kwindesktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-09 09:22+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2010-07-07 15:18+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -78,10 +78,17 @@ msgctxt "@action:button"
 msgid "Add Desktop"
 msgstr "พื้นที่ทำงาน"
 
-#. +> trunk6
-#: ui/main.qml:82
+#. +> trunk6 stable6
+#: ui/main.qml:90
 #, kde-format
 msgctxt "@action:button"
+msgid "Rename"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:91
+#, kde-format
+msgctxt "@info:tooltip"
 msgid "Rename"
 msgstr ""
 
@@ -92,49 +99,42 @@ msgctxt "@action:button"
 msgid "Add"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:123
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Rename"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:92
+#: ui/main.qml:100
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove"
 msgstr ""
 
-#. +> trunk6
-#: ui/main.qml:107
+#. +> trunk6 stable6
+#: ui/main.qml:119
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Apply new name"
 msgstr ""
 
-#. +> trunk6
-#: ui/main.qml:120
+#. +> trunk6 stable6
+#: ui/main.qml:132
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel rename"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:135
+#. +> stable5
+#: package/contents/ui/main.qml:102
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Confirm new name"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:165
+#: ui/main.qml:179
 #, kde-format
 msgid "Virtual desktops have been changed outside this settings application. Saving now will overwrite the changes."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:181
+#: ui/main.qml:195
 #, kde-format
 msgid "Row %1"
 msgstr ""
@@ -147,38 +147,38 @@ msgid_plural "%1 Rows"
 msgstr[0] ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:195
+#: ui/main.qml:209
 #, kde-format
 msgid "Options:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:197
+#: ui/main.qml:211
 #, fuzzy, kde-format
 #| msgid "Desktop navigation wraps around"
 msgid "Navigation wraps around"
 msgstr "นำร่องพื้นที่ทำงานแบบวนรอบ"
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:215
+#: ui/main.qml:229
 #, kde-format
 msgid "Show animation when switching:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:266
+#: ui/main.qml:280
 #, kde-format
 msgid "Show on-screen display when switching:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:285
+#: ui/main.qml:299
 #, kde-format
 msgid "%1 ms"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:309
+#: ui/main.qml:323
 #, kde-format
 msgid "Show desktop layout indicators"
 msgstr "แสดงตัวบ่งถึงการจัดวางพื้นที่ทำงาน"

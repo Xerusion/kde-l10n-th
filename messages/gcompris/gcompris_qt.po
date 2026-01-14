@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-12-11 04:44+0100\n"
+"POT-Creation-Date: 2026-01-07 06:47+0100\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -89,6 +89,50 @@ msgctxt "ActivityInfo|"
 msgid "Find the requested numbers and drag them to the corresponding spot."
 msgstr ""
 
+#. One or more numbers to find, all at the beginning of the list. Don't display the %n in the translation if possible (actual English strings are "Find the previous number" and "Find the previous numbers")
+#. +> trunk6 stable6
+#: activities/adjacent_numbers/Adjacent_numbers.qml:56
+#, fuzzy, qt-format
+#| msgctxt "ActivityInfo|"
+#| msgid "Subtraction memory game"
+msgctxt "Adjacent_numbers|"
+msgid "Find the %n previous number(s)."
+msgid_plural "Find the %n previous number(s)."
+msgstr[0] "เกมความจำผสมลบเลข"
+
+#. One or more numbers to find, at the end of the list. Don't display the %n in the translation if possible (actual English strings are "Find the next number" and "Find the next numbers")
+#. +> trunk6 stable6
+#: activities/adjacent_numbers/Adjacent_numbers.qml:60
+#, fuzzy, qt-format
+#| msgctxt "ActivityInfo|"
+#| msgid "Subtraction memory game"
+msgctxt "Adjacent_numbers|"
+msgid "Find the %n next number(s)."
+msgid_plural "Find the %n next number(s)."
+msgstr[0] "เกมความจำผสมลบเลข"
+
+#. One or more numbers to find, not at the beginning nor at the end of the list. Don't display the %n in the translation if possible (actual English strings are "Find the in-between number" and "Find the in-between numbers")
+#. +> trunk6 stable6
+#: activities/adjacent_numbers/Adjacent_numbers.qml:64
+#, fuzzy, qt-format
+#| msgctxt "ActivityInfo|"
+#| msgid "Subtraction memory game"
+msgctxt "Adjacent_numbers|"
+msgid "Find the %n in-between number(s)"
+msgid_plural "Find the %n in-between number(s)"
+msgstr[0] "เกมความจำผสมลบเลข"
+
+#. More than one number to find, with at least one number at the beginning or at the end of the list. Don't display the %n in the translation if possible (actual English string is "Find the missing numbers")
+#. +> trunk6 stable6
+#: activities/adjacent_numbers/Adjacent_numbers.qml:68
+#, fuzzy, qt-format
+#| msgctxt "ActivityInfo|"
+#| msgid "Subtraction memory game"
+msgctxt "Adjacent_numbers|"
+msgid "Find the %n missing numbers"
+msgid_plural "Find the %n missing numbers"
+msgstr[0] "เกมความจำผสมลบเลข"
+
 #. +> trunk6 stable6
 #: activities/adjacent_numbers/resource/1/Data.qml:9
 #, fuzzy
@@ -115,69 +159,6 @@ msgstr "เดาตัวเลข"
 msgctxt "Data|"
 msgid "Find numbers between 0 and 100."
 msgstr "เดาตัวเลข"
-
-#. +> trunk6 stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:14
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Subtraction memory game"
-msgctxt "Data|"
-msgid "Find the next number."
-msgstr "เกมความจำผสมลบเลข"
-
-#. +> trunk6 stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:27
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Subtraction memory game"
-msgctxt "Data|"
-msgid "Find the previous number."
-msgstr "เกมความจำผสมลบเลข"
-
-#. +> trunk6 stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:40
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Subtraction memory game"
-msgctxt "Data|"
-msgid "Find the in-between number."
-msgstr "เกมความจำผสมลบเลข"
-
-#. +> trunk6 stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:53
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Subtraction memory game"
-msgctxt "Data|"
-msgid "Find the missing numbers."
-msgstr "เกมความจำผสมลบเลข"
-
-#. +> trunk6 stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:66
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Subtraction memory game"
-msgctxt "Data|"
-msgid "Find the next numbers."
-msgstr "เกมความจำผสมลบเลข"
-
-#. +> trunk6 stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:79
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Subtraction memory game"
-msgctxt "Data|"
-msgid "Find the previous numbers."
-msgstr "เกมความจำผสมลบเลข"
-
-#. +> trunk6 stable6
-#: activities/adjacent_numbers/resource/3/Data.qml:105
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Subtraction memory game"
-msgctxt "Data|"
-msgid "Find the in-between numbers."
-msgstr "เกมความจำผสมลบเลข"
 
 #. +> trunk6 stable6
 #: activities/adjacent_numbers/resource/4/Data.qml:9
@@ -258,7 +239,7 @@ msgstr ""
 #: activities/colors/ActivityInfo.qml:25
 #: activities/comparator/ActivityInfo.qml:27
 #: activities/crane/ActivityInfo.qml:30
-#: activities/drawing_wheels/ActivityInfo.qml:24
+#: activities/drawing_wheels/ActivityInfo.qml:28
 #: activities/enumerate/ActivityInfo.qml:25
 #: activities/fifteen/ActivityInfo.qml:24
 #: activities/find_the_day/ActivityInfo.qml:25
@@ -320,6 +301,7 @@ msgstr ""
 #: activities/money_back_cents/ActivityInfo.qml:25
 #: activities/money_cents/ActivityInfo.qml:25
 #: activities/mosaic/ActivityInfo.qml:24
+#: activities/multiple_choice_questions/ActivityInfo.qml:25
 #: activities/numbers-odd-even/ActivityInfo.qml:24
 #: activities/piano_composition/ActivityInfo.qml:33
 #: activities/planegame/ActivityInfo.qml:24
@@ -3167,49 +3149,49 @@ msgid "Turn on the right bulbs to represent the binary of the given decimal numb
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/BinaryBulb.qml:84
+#: activities/binary_bulb/BinaryBulb.qml:95
 msgctxt "BinaryBulb|"
 msgid "This activity teaches how to convert decimal numbers to binary numbers."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/BinaryBulb.qml:88
+#: activities/binary_bulb/BinaryBulb.qml:99
 msgctxt "BinaryBulb|"
 msgid "Computers use transistors to count and transistors have only two states, 0 and 1. Mathematically, these states are represented by 0 and 1, which makes up the binary system of numeration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/BinaryBulb.qml:92
+#: activities/binary_bulb/BinaryBulb.qml:103
 msgctxt "BinaryBulb|"
 msgid "In the activity 0 and 1 are simulated by bulbs, switched on or off."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/BinaryBulb.qml:96
+#: activities/binary_bulb/BinaryBulb.qml:107
 msgctxt "BinaryBulb|"
 msgid "Binary system uses these numbers very efficiently, allowing to count from 0 to 255 with 8 bits only."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/BinaryBulb.qml:100
+#: activities/binary_bulb/BinaryBulb.qml:111
 msgctxt "BinaryBulb|"
 msgid "Each bit adds a progressive value, corresponding to the powers of 2, ascending from right to left: bit 1 → 2⁰=1 , bit 2 → 2¹=2 , bit 3 → 2²=4 , bit 4 → 2³=8 , bit 5 → 2⁴=16 , bit 6 → 2⁵=32 , bit 7 → 2⁶=64 , bit 8 → 2⁷=128."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/BinaryBulb.qml:104
+#: activities/binary_bulb/BinaryBulb.qml:115
 msgctxt "BinaryBulb|"
 msgid "To convert a decimal 5 to a binary value, 1 and 4 are added."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/BinaryBulb.qml:108
+#: activities/binary_bulb/BinaryBulb.qml:119
 msgctxt "BinaryBulb|"
 msgid "Their corresponding bits are set to 1, the others are set to 0. Decimal 5 is equal to binary 101."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/BinaryBulb.qml:112
+#: activities/binary_bulb/BinaryBulb.qml:123
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "The aim is to switch off all the lights."
@@ -3218,10 +3200,58 @@ msgid "This image will help you to compute bits' value."
 msgstr "เป้าหมายคือ ปิดไฟทุกดวง"
 
 #. +> trunk6 stable6
-#: activities/binary_bulb/BinaryBulb.qml:160
+#: activities/binary_bulb/BinaryBulb.qml:171
 #, qt-format
 msgctxt "BinaryBulb|"
 msgid "What is the binary representation of %1?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/binary_bulb/resource/1/Data.qml:13
+msgctxt "Data|"
+msgid "Count up to 3 (with counter and with values visible)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/binary_bulb/resource/2/Data.qml:13
+msgctxt "Data|"
+msgid "Count up to 3 (without counter and with values visible)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/binary_bulb/resource/3/Data.qml:13
+msgctxt "Data|"
+msgid "Count up to 15 (with counter and with values visible)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/binary_bulb/resource/4/Data.qml:13
+msgctxt "Data|"
+msgid "Count up to 15 (without counter and with values visible)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/binary_bulb/resource/5/Data.qml:13
+msgctxt "Data|"
+msgid "Count up to 255 (with counter and with values visible)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/binary_bulb/resource/6/Data.qml:13
+msgctxt "Data|"
+msgid "Count up to 255 (without counter and with values visible)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/binary_bulb/resource/7/Data.qml:13
+msgctxt "Data|"
+msgid "Count up to 15 (without counter and without values visible)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/binary_bulb/resource/8/Data.qml:13
+msgctxt "Data|"
+msgid "Count up to 255 (without counter and without values visible)."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4046,13 +4076,13 @@ msgid "Review the instructions and then drag and drop the items as specified."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/categorization/Categorization.qml:150
+#: activities/categorization/Categorization.qml:149
 msgctxt "Categorization|"
 msgid "You don't have all the images for this activity. Click on 'Update the image set' to download the full word image set. Click on the cross or on 'Never show this dialog again' to play with the demo version."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/categorization/Categorization.qml:153
+#: activities/categorization/Categorization.qml:152
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the coral butterfly"
@@ -4061,7 +4091,7 @@ msgid "Update the image set"
 msgstr "หาผีเสื้อสีแดงปะการัง"
 
 #. +> trunk6 stable6
-#: activities/categorization/Categorization.qml:154
+#: activities/categorization/Categorization.qml:153
 msgctxt "Categorization|"
 msgid "Never show this dialog again"
 msgstr ""
@@ -5726,13 +5756,13 @@ msgid "The shortest hand indicates the hours, a longer hand indicates the minute
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/clockgame/Clockgame.qml:112
+#: activities/clockgame/Clockgame.qml:124
 msgctxt "Clockgame|"
 msgid "Set the watch to:"
 msgstr "ตั้งนาฬิกาเป็น:"
 
 #. +> trunk6 stable6
-#: activities/clockgame/Clockgame.qml:115
+#: activities/clockgame/Clockgame.qml:127
 #, qt-format
 msgctxt "Clockgame|"
 msgid "%n hour(s)"
@@ -5740,7 +5770,7 @@ msgid_plural "%n hour(s)"
 msgstr[0] ""
 
 #. +> trunk6 stable6
-#: activities/clockgame/Clockgame.qml:118
+#: activities/clockgame/Clockgame.qml:130
 #, qt-format
 msgctxt "Clockgame|"
 msgid "%n minute(s)"
@@ -5748,7 +5778,7 @@ msgid_plural "%n minute(s)"
 msgstr[0] ""
 
 #. +> trunk6 stable6
-#: activities/clockgame/Clockgame.qml:121
+#: activities/clockgame/Clockgame.qml:133
 #, qt-format
 msgctxt "Clockgame|"
 msgid "%n second(s)"
@@ -6195,7 +6225,7 @@ msgid "&lt;, &gt; or =: enter the corresponding symbol"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/comparator/resource/1/Data.qml:36
+#: activities/comparator/resource/1/Data.qml:53
 #: activities/tens_complement_find/resource/3/Data.qml:9
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -6588,17 +6618,10 @@ msgid "Digital electricity"
 msgstr "หาผีเสื้อสีม่วงไลแล็ค"
 
 #. Help title
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/digital_electricity/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Create and simulate a digital logic circuit."
-msgstr ""
-
-#. Help title
-#. +> stable6
-#: activities/digital_electricity/ActivityInfo.qml:17
-msgctxt "ActivityInfo|"
-msgid "Create and simulate a digital logic circuit"
 msgstr ""
 
 #. Help goal
@@ -7185,7 +7208,7 @@ msgctxt "TutorialDataset|"
 msgid "Light the bulb using both the switches so that the bulb glows only when either the first switch is on and the second switch is off, or when the first switch is off and the second switch is on."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/ActivityConfig.qml:29
 #: activities/sketch/ActivityConfig.qml:29
 #, fuzzy, qt-format
@@ -7195,7 +7218,7 @@ msgctxt "ActivityConfig|"
 msgid "Number of undo: %1"
 msgstr "เกมความจำผสมลบเลข"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/drawing_wheels/ActivityConfig.qml:44
 #: activities/sketch/ActivityConfig.qml:44
 msgctxt "ActivityConfig|"
@@ -7203,8 +7226,8 @@ msgid "Warning: setting the number of undo too high can make the application cra
 msgstr ""
 
 #. Activity title
-#. +> trunk6
-#: activities/drawing_wheels/ActivityInfo.qml:14
+#. +> trunk6 stable6
+#: activities/drawing_wheels/ActivityInfo.qml:19
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Simple Letters"
@@ -7212,58 +7235,46 @@ msgctxt "ActivityInfo|"
 msgid "Drawing wheels"
 msgstr "ตัวอักษรอย่างง่าย"
 
-# SPDX-FileCopyrightText: 2025 Pongsakorn S. <kde@xerusion.me>
 #. Help title
-#. +> trunk6
-#: activities/drawing_wheels/ActivityInfo.qml:16
-#, fuzzy
-#| msgid ""
+#. +> trunk6 stable6
+#: activities/drawing_wheels/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
-msgid ""
+msgid "Roll the gear in the cogwheel to draw."
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: 2025-11-19 09:25+0100\n"
-"PO-Revision-Date: 2025-03-03 20:07+0700\n"
-"Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
-"Language-Team: Thai\n"
-"Language: th\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Help goal
-#. +> trunk6
-#: activities/drawing_wheels/ActivityInfo.qml:19
+#. +> trunk6 stable6
+#: activities/drawing_wheels/ActivityInfo.qml:24
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn about multiples and factors."
 msgctxt "ActivityInfo|"
-msgid "Make beautiful drawings by turning the gear in the cogwheel with the chosen pen."
-msgstr ""
+msgid "Discover hypotrochoids and use them as digital painting tools."
+msgstr "เรียนรู้เกี่ยวกับพหุคูณและตัวประกอบ"
 
 #. Help manual
-#. +> trunk6
-#: activities/drawing_wheels/ActivityInfo.qml:23
+#. +> trunk6 stable6
+#: activities/drawing_wheels/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
-msgid ""
-"Select wheel, gear, pen's position and color from the foldable panels and start the gear.<br>"
-"<br>"
+msgid "Make beautiful drawings by rolling the gear in the cogwheel with the chosen pen. Select a wheel size, a gear size, pen's settings and color from the popup panels, and press the play button to roll the gear. You can use the file menu to save your image, open a previously saved image, or create a new image with selected background color. Saving an image will save it in an SVG file (vector format), along with a PNG file (pixel format). Only the SVG file can be opened again from the activity."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/drawing_wheels/ActivityInfo.qml:25
+#: activities/drawing_wheels/ActivityInfo.qml:29
 #: activities/sketch/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Ctrl + Z: undo last action"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/drawing_wheels/ActivityInfo.qml:26
+#: activities/drawing_wheels/ActivityInfo.qml:30
 #: activities/sketch/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
 msgid "Ctrl + Y: redo last action"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/drawing_wheels/ActivityInfo.qml:27
+#: activities/drawing_wheels/ActivityInfo.qml:31
 #: activities/sketch/ActivityInfo.qml:30
 #, fuzzy
 #| msgctxt "advanced_colors|"
@@ -7272,78 +7283,78 @@ msgctxt "ActivityInfo|"
 msgid "Ctrl + S: save the image"
 msgstr "หาผีเสื้อสีแดงปะการัง"
 
-#. +> trunk6
-#: activities/drawing_wheels/ActivityInfo.qml:28
-#, fuzzy
-#| msgctxt "advanced_colors|"
-#| msgid "Find the coral butterfly"
-msgctxt "ActivityInfo|"
-msgid "Ctrl + D: save the drawing"
-msgstr "หาผีเสื้อสีแดงปะการัง"
-
 #. +> trunk6 stable6
-#: activities/drawing_wheels/ActivityInfo.qml:29
+#: activities/drawing_wheels/ActivityInfo.qml:32
 #: activities/sketch/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid "Ctrl + O: open an image"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:353
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:399
 msgctxt "DrawingWheels|"
-msgid "Save drawing"
+msgid "File menu"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:367
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:411
 msgctxt "DrawingWheels|"
 msgid "Wheel and gear"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:388
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:435
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Addition"
 msgctxt "DrawingWheels|"
-msgid "Pencil's color and width"
+msgid "Pencil size and position"
+msgstr "การบวก"
+
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:447
+msgctxt "DrawingWheels|"
+msgid "Color selector"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:401
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:474
 msgctxt "DrawingWheels|"
 msgid "Undo"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:414
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:486
 msgctxt "DrawingWheels|"
 msgid "Redo"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:450
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:520
 msgctxt "DrawingWheels|"
 msgid "Stop drawing"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:450
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:520
 msgctxt "DrawingWheels|"
 msgid "Start drawing"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:482
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:553
 msgctxt "DrawingWheels|"
 msgid "Show wheel and gear"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:482
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:553
 msgctxt "DrawingWheels|"
 msgid "Hide wheel and gear"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:507
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:712
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the coral butterfly"
@@ -7351,14 +7362,8 @@ msgctxt "DrawingWheels|"
 msgid "Save your image"
 msgstr "หาผีเสื้อสีแดงปะการัง"
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:523
-msgctxt "DrawingWheels|"
-msgid "Save as a drawing"
-msgstr ""
-
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:539
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:727
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the coral butterfly"
@@ -7366,8 +7371,8 @@ msgctxt "DrawingWheels|"
 msgid "Open an image"
 msgstr "หาผีเสื้อสีแดงปะการัง"
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:555
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:756
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the coral butterfly"
@@ -7375,107 +7380,93 @@ msgctxt "DrawingWheels|"
 msgid "Create a new image"
 msgstr "หาผีเสื้อสีแดงปะการัง"
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:598
-#: activities/drawing_wheels/DrawingWheels.qml:668
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:775
+msgctxt "DrawingWheels|"
+msgid "Background color"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:856
 msgctxt "DrawingWheels|"
 msgid "Wheel"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:630
-#: activities/drawing_wheels/DrawingWheels.qml:689
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:923
 msgctxt "DrawingWheels|"
 msgid "Gear"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:714
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:986
 #, qt-format
 msgctxt "DrawingWheels|"
 msgid "%1 spikes"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:722
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:1004
 msgctxt "DrawingWheels|"
 msgid "Speed"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:734
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:1020
 msgctxt "DrawingWheels|"
 msgid "Slow"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:749
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:1040
 msgctxt "DrawingWheels|"
 msgid "Fast"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:781
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Simple Letters"
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:1083
 msgctxt "DrawingWheels|"
-msgid "Palettes"
-msgstr "ตัวอักษรอย่างง่าย"
-
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:861
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Colors"
-msgctxt "DrawingWheels|"
-msgid "Color"
-msgstr "ฝึกแยกแยะสี"
-
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:888
-msgctxt "DrawingWheels|"
-msgid "Pensize"
+msgid "Pen size"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:927
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:1120
 msgctxt "DrawingWheels|"
 msgid "Opacity"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:955
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:1163
 msgctxt "DrawingWheels|"
-msgid "Distance to center"
+msgid "Offset"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:981
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:1201
 msgctxt "DrawingWheels|"
-msgid "Starting tooth"
+msgid "Start tooth"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1068
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:1381
 msgctxt "DrawingWheels|"
 msgid "You did not save this image. Do you want to close this activity?"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1069
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:1382
 msgctxt "DrawingWheels|"
 msgid "Do you want to erase this image?"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1070
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:1383
 msgctxt "DrawingWheels|"
 msgid "Yes"
 msgstr ""
 
-#. +> trunk6
-#: activities/drawing_wheels/DrawingWheels.qml:1071
+#. +> trunk6 stable6
+#: activities/drawing_wheels/DrawingWheels.qml:1384
 msgctxt "DrawingWheels|"
 msgid "No"
 msgstr ""
@@ -8112,16 +8103,10 @@ msgctxt "board1|"
 msgid "Chichén Itzá"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board1.qml:20
 msgctxt "board1|"
 msgid "Chichen Itza, meaning “at the mouth of the Itza well”, is a Mayan City on the Yucatan Peninsula in Mexico, between Valladolid and Merida. It was established before the period of Christopher Columbus and probably served as the religion center of Yucatan for a while."
-msgstr ""
-
-#. +> stable6
-#: activities/explore_monuments/resource/board/board1.qml:20
-msgctxt "board1|"
-msgid "Chichen Itza, meaning “at the mouth of the Itza well”, is a Mayan City on the Yucatan Peninsula in Mexico, between Valladolid and Merida. It was established before the period of Christopher Colombus and probably served as the religion center of Yucatan for a while."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -8846,85 +8831,85 @@ msgctxt "board6|"
 msgid "Click on the location of the given pyramid."
 msgstr "เตะลูกบอลเข้าประตู"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:17
 #: activities/explore_monuments/resource/board/board7.qml:20
 msgctxt "board7|"
 msgid "Forbidden City"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:18
 msgctxt "board7|"
 msgid "The Forbidden City, located in the heart of Beijing, China, is a magnificent imperial palace complex that served as the home of Chinese emperors and the political center of the nation for nearly 500 years, from the Ming dynasty (1368–1644) to the end of the Qing dynasty (1644–1912). Built between 1406 and 1420, this sprawling architectural masterpiece spans 180 acres and features over 980 preserved buildings with 8,700 rooms, showcasing traditional Chinese palatial design. Surrounded by a moat and a massive wall, the Forbidden City was once inaccessible to the general public, symbolizing imperial power and exclusivity."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:28
 #: activities/explore_monuments/resource/board/board7.qml:31
 msgctxt "board7|"
 msgid "Leshan Giant Buddha"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:29
 msgctxt "board7|"
 msgid "The Leshan Giant Buddha, located in Sichuan Province, China, is a colossal statue carved into a cliff at the confluence of the Min, Dadu, and Qingyi rivers. Standing at 71 meters (233 feet), it is the tallest pre-modern statue in the world and a UNESCO World Heritage Site. Built during the Tang Dynasty (713–803 AD), the statue represents Maitreya, the Buddha of the future, and was created to calm the turbulent waters threatening local boat traffic. Ingeniously designed, the statue includes a hidden drainage system to prevent erosion. Its serene expression and intricate craftsmanship make it a symbol of spiritual and artistic achievement."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:39
 #: activities/explore_monuments/resource/board/board7.qml:42
 msgctxt "board7|"
 msgid "Potala Palace"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:40
 msgctxt "board7|"
 msgid "The Potala Palace, perched on Red Hill in Lhasa, Tibet, is an iconic symbol of Tibetan culture and a UNESCO World Heritage Site. Originally built in the 7th century and expanded in the 17th century, it served as the winter residence of the Dalai Lamas and the center of Tibetan governance. Rising 13 stories high with over 1,000 rooms, the palace combines intricate Tibetan architecture, vibrant murals, and sacred relics. It is divided into the White Palace, housing administrative areas, and the Red Palace, dedicated to religious studies and prayer. The Potala Palace stands as a testament to Tibet's spiritual and historical legacy."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:50
 #: activities/explore_monuments/resource/board/board7.qml:53
 msgctxt "board7|"
 msgid "Terracotta Army"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:51
 msgctxt "board7|"
 msgid "The Terracotta Army is a collection of thousands of life-sized clay soldiers, horses, and chariots buried with China's first emperor, Qin Shi Huang, to accompany him in the afterlife. Discovered in 1974 near Xi'an, the figures date back to approximately 210 BCE and are celebrated for their incredible detail, with each warrior uniquely crafted to represent the diverse ranks and roles of an ancient Chinese army."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:61
 #: activities/explore_monuments/resource/board/board7.qml:64
 msgctxt "board7|"
 msgid "Sun and Moon Pagodas"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:62
 msgctxt "board7|"
 msgid "The Sun and Moon Pagodas, located in Guilin, China, are iconic twin towers that symbolize the city's cultural and spiritual heritage. Originally built during the Tang Dynasty, they were reconstructed in the 20th century as striking landmarks on Shanhu Lake. The Sun Pagoda, standing 41 meters tall, is a bronze structure—the tallest of its kind in the world—while the Moon Pagoda, at 35 meters, is built of glazed tiles. These pagodas represent the harmony of yin and yang and are connected by an underwater glass tunnel. Illuminated at night, they are popular attractions showcasing traditional Chinese architecture and modern ingenuity."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:72
 #: activities/explore_monuments/resource/board/board7.qml:75
 msgctxt "board7|"
 msgid "Diaolou Towers"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:73
 msgctxt "board7|"
 msgid "The Diaolou Towers, found in Kaiping, Guangdong Province, China, are fortified multi-story structures built from the late 19th to early 20th centuries to protect against bandits and floods. Blending Western architectural styles like Romanesque and Baroque with traditional Chinese elements, they reflect the wealth and influence of overseas Chinese emigrants. Constructed with reinforced concrete, these towers symbolize a period of cultural and economic transition in rural China. Designated a UNESCO World Heritage Site in 2007, around 1,800 of the original 3,000 towers remain, offering insight into this unique architectural heritage."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:85
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -8933,7 +8918,7 @@ msgctxt "board7|"
 msgid "Monuments of China"
 msgstr "เครื่องดนตรี"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board7.qml:88
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -8942,85 +8927,85 @@ msgctxt "board7|"
 msgid "Click on the location of the given monument."
 msgstr "เตะลูกบอลเข้าประตู"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:17
 #: activities/explore_monuments/resource/board/board8.qml:20
 msgctxt "board8|"
 msgid "The Pantheon"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:18
 msgctxt "board8|"
 msgid "The Pantheon in Rome, Italy, is an iconic ancient temple built around 126 AD during Emperor Hadrian's reign, on the site of earlier structures commissioned by Marcus Agrippa. Renowned for its architectural brilliance, it features a massive domed roof with a central oculus, symbolizing the heavens, allowing natural light to illuminate the interior. Originally dedicated to all Roman gods, it was later converted into a Christian church, known as the Basilica of St. Mary and the Martyrs (Santa Maria ad Martyres), in 609 AD. Its dome, the largest unreinforced concrete dome in the world, showcases remarkable engineering and symmetry, inspiring architects for centuries. The Pantheon’s harmonious proportions and historical significance make it a timeless masterpiece of classical architecture."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:28
 #: activities/explore_monuments/resource/board/board8.qml:31
 msgctxt "board8|"
 msgid "Duomo Di Milano"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:29
 msgctxt "board8|"
 msgid "The Duomo di Milano, also known as the Milan Cathedral, is an iconic Gothic masterpiece located in the heart of Milan, Italy. Constructed over nearly six centuries, it is one of the largest cathedrals in the world and a symbol of Milan's artistic and cultural heritage. Its intricate façade is adorned with countless statues, spires, and gargoyles, reflecting the grandeur of Gothic architecture. Visitors can explore its stunning interiors, featuring beautiful stained glass windows and intricate marble details, or ascend to the rooftop for breathtaking views of the city and the Alps. The Duomo stands as a testament to Italy's rich history and architectural brilliance."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:39
 #: activities/explore_monuments/resource/board/board8.qml:42
 msgctxt "board8|"
 msgid "Florence Cathedral"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:40
 msgctxt "board8|"
 msgid "The Florence Cathedral, officially known as the Cattedrale di Santa Maria del Fiore, is a renowned masterpiece of Gothic and Renaissance architecture located in Florence, Italy. Completed in 1436, it is famous for its massive red-tiled dome designed by Filippo Brunelleschi, which remains an engineering marvel and a symbol of the city. The cathedral's intricate marble facade, added in the 19th century, complements its richly decorated interior and artistic treasures. Together with Giotto’s Campanile and the Baptistery of St. John, it forms part of a UNESCO World Heritage Site, drawing millions of visitors annually for its historical, cultural, and architectural significance."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:50
 #: activities/explore_monuments/resource/board/board8.qml:53
 msgctxt "board8|"
 msgid "Leaning Tower of Pisa"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:51
 msgctxt "board8|"
 msgid "The Leaning Tower of Pisa, located in the Italian city of Pisa, is a globally renowned architectural marvel. Constructed as the freestanding bell tower for the city's cathedral, it is famous for its unintended tilt, caused by unstable foundation soil. Begun in 1173, the tower's construction spanned nearly 200 years, during which efforts were made to stabilize its inclination. Standing at approximately 56 meters (183 feet), the tower's Romanesque design features eight stories, including a bell chamber, adorned with intricately carved columns and arches. Recognized as a UNESCO World Heritage Site, it remains a symbol of resilience and ingenuity."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:61
 #: activities/explore_monuments/resource/board/board8.qml:64
 msgctxt "board8|"
 msgid "St Mark's Basilica"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:62
 msgctxt "board8|"
 msgid "St. Mark's Basilica, located in Venice, Italy, is an iconic masterpiece of Byzantine architecture and one of the city's most famous landmarks. Originally built in 828 to house the relics of St. Mark the Evangelist, it was rebuilt in its current form in the 11th century. Known for its opulent design, the basilica features a blend of Eastern and Western influences, evident in its five domes, intricate mosaics, and ornate facade adorned with statues and carvings. The interior is richly decorated with gold mosaics and marble floors, showcasing the wealth and power of the Venetian Republic. Adjacent to St. Mark's Square, it remains a symbol of Venice's historical, cultural, and religious heritage."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:72
 #: activities/explore_monuments/resource/board/board8.qml:75
 msgctxt "board8|"
 msgid "Pompeii"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:73
 msgctxt "board8|"
 msgid "Pompeii was an ancient Roman city located near modern-day Naples, Italy, famously preserved after being buried by the eruption of Mount Vesuvius in 79 AD. The eruption unleashed a deadly combination of ash, pumice, and pyroclastic flows, which engulfed the city and its inhabitants, preserving buildings, artifacts, and even human remains in incredible detail. Excavations of Pompeii have provided valuable insights into daily Roman life, architecture, and society, revealing a city with well-planned streets, homes, public baths, and temples. The site is now a UNESCO World Heritage Site and remains one of the most important archaeological discoveries in history."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:85
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -9029,7 +9014,7 @@ msgctxt "board8|"
 msgid "Monuments of Italy"
 msgstr "เครื่องดนตรี"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board8.qml:88
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -9038,59 +9023,59 @@ msgctxt "board8|"
 msgid "Click on the location of the given monument."
 msgstr "เตะลูกบอลเข้าประตู"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:17
 #: activities/explore_monuments/resource/board/board9.qml:20
 msgctxt "board9|"
 msgid "Himeji Castle"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:18
 msgctxt "board9|"
 msgid "Himeji-jo is the finest surviving example of early 17th-century Japanese castle architecture, comprising 83 buildings with highly developed systems of defence and ingenious protection devices dating from the beginning of the Shogun period. It is a masterpiece of construction in wood, combining function with aesthetic appeal, both in its elegant appearance unified by the white plastered earthen walls and in the subtlety of the relationships between the building masses and the multiple roof layers."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:28
 #: activities/explore_monuments/resource/board/board9.qml:31
 msgctxt "board9|"
 msgid "Hiroshima Peace Memorial Park"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:29
 msgctxt "board9|"
 msgid "Hiroshima Peace Memorial Park is a symbol of peace and a reminder of the devastating consequences of war. Located in Hiroshima, Japan, the park commemorates the victims of the atomic bombing on August 6, 1945. The park features several monuments, including the iconic Atomic Bomb Dome, which was once a government building and now stands as a UNESCO World Heritage Site. The park also houses the Hiroshima Peace Memorial Museum, which educates visitors about the events surrounding the bombing and promotes a message of peace, nonviolence, and the importance of nuclear disarmament. It serves as a solemn space for reflection, honoring the lives lost and advocating for global peace."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:39
 #: activities/explore_monuments/resource/board/board9.qml:42
 msgctxt "board9|"
 msgid "Arakura Fuji Sengen Shrine"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:40
 msgctxt "board9|"
 msgid "The shrine was founded in 705 to enshrine the deity of the site. Following the great eruption of Mt. Fuji in 807, the emperor dispatched an imperial envoy to this shrine to perform a ritual to halt the eruption. It is said that during the Warring States Period, when Takeda Nobutora, the father of a famous warlord Takeda Shingen, battled with the Hojo Family, he set up camp here, prayed for victory, and won the battle. He then dedicated his sword to this shrine. Today, locals and those from afar visit the shrine to ward off evil, to pray for family happiness, and safe childbirth. In the spring, the cherry blossom trees bloom and crowds gather to enjoy the stunning view of Mt. Fuji."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:50
 #: activities/explore_monuments/resource/board/board9.qml:53
 msgctxt "board9|"
 msgid "Okinawa Shuri Castle"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:51
 msgctxt "board9|"
 msgid "Shuri Castle, located in Naha, Okinawa, Japan, is a UNESCO World Heritage Site and a symbol of the Ryukyu Kingdom's rich cultural history. Originally constructed in the 14th century, the castle served as the political, economic, and cultural hub of the kingdom for centuries. Renowned for its distinctive fusion of Chinese and Japanese architectural styles, Shuri Castle features vermilion lacquered structures, ornate decorations, and a commanding hilltop position. Though destroyed during World War II, it was meticulously reconstructed and became a key tourist attraction. Tragically, much of the castle was lost in a fire in 2019, but efforts to restore it are ongoing, reflecting its enduring importance to Okinawa's heritage."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:63
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -9099,7 +9084,7 @@ msgctxt "board9|"
 msgid "Monuments of Japan"
 msgstr "เครื่องดนตรี"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/explore_monuments/resource/board/board9.qml:66
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -10289,7 +10274,7 @@ msgid "A shape split in equal parts is displayed. Select the appropriate number 
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/fractions_create.js:78
+#: activities/fractions_create/fractions_create.js:80
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the anise butterfly"
@@ -10304,33 +10289,33 @@ msgid "Simplified fractions with a pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/1/Data.qml:18
-#: activities/fractions_create/resource/3/Data.qml:17
-#: activities/fractions_create/resource/3/Data.qml:23
-#: activities/fractions_create/resource/3/Data.qml:29
+#: activities/fractions_create/resource/1/Data.qml:20
+#: activities/fractions_create/resource/3/Data.qml:20
+#: activities/fractions_create/resource/3/Data.qml:26
+#: activities/fractions_create/resource/3/Data.qml:32
 msgctxt "Data|"
 msgid "Select one half of the pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/1/Data.qml:24
-#: activities/fractions_create/resource/3/Data.qml:35
-#: activities/fractions_create/resource/3/Data.qml:49
+#: activities/fractions_create/resource/1/Data.qml:26
+#: activities/fractions_create/resource/3/Data.qml:38
+#: activities/fractions_create/resource/3/Data.qml:55
 msgctxt "Data|"
 msgid "Select one-third of the pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/1/Data.qml:30
-#: activities/fractions_create/resource/3/Data.qml:41
-#: activities/fractions_create/resource/3/Data.qml:55
+#: activities/fractions_create/resource/1/Data.qml:32
+#: activities/fractions_create/resource/3/Data.qml:44
+#: activities/fractions_create/resource/3/Data.qml:61
 msgctxt "Data|"
 msgid "Select two-thirds of the pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/1/Data.qml:36
-#: activities/fractions_create/resource/3/Data.qml:61
+#: activities/fractions_create/resource/1/Data.qml:38
+#: activities/fractions_create/resource/3/Data.qml:67
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10339,38 +10324,38 @@ msgid "Select one-quarter of the pie."
 msgstr "กดเลือกสีที่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/1/Data.qml:42
-#: activities/fractions_create/resource/3/Data.qml:67
+#: activities/fractions_create/resource/1/Data.qml:44
+#: activities/fractions_create/resource/3/Data.qml:73
 msgctxt "Data|"
 msgid "Select two-fifths of the pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/1/Data.qml:50
+#: activities/fractions_create/resource/1/Data.qml:55
 msgctxt "Data|"
 msgid "Select one pie and one-quarter of a pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/1/Data.qml:56
+#: activities/fractions_create/resource/1/Data.qml:61
 msgctxt "Data|"
 msgid "Select one pie and two-fifths of a pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/1/Data.qml:62
+#: activities/fractions_create/resource/1/Data.qml:67
 msgctxt "Data|"
 msgid "Select one pie and one-third of a pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/1/Data.qml:68
+#: activities/fractions_create/resource/1/Data.qml:73
 msgctxt "Data|"
 msgid "Select one pie and one half of a pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/1/Data.qml:74
+#: activities/fractions_create/resource/1/Data.qml:79
 msgctxt "Data|"
 msgid "Select one pie and three-quarters of a pie."
 msgstr ""
@@ -10382,8 +10367,8 @@ msgid "Specific questions with a square."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/10/Data.qml:18
-#: activities/fractions_create/resource/10/Data.qml:24
+#: activities/fractions_create/resource/10/Data.qml:20
+#: activities/fractions_create/resource/10/Data.qml:26
 msgctxt "Data|"
 msgid "Select as many parts as you can without taking more than half of the square."
 msgstr ""
@@ -10395,10 +10380,10 @@ msgid "Simplified fractions with a square."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/2/Data.qml:18
-#: activities/fractions_create/resource/4/Data.qml:17
-#: activities/fractions_create/resource/4/Data.qml:23
-#: activities/fractions_create/resource/4/Data.qml:29
+#: activities/fractions_create/resource/2/Data.qml:20
+#: activities/fractions_create/resource/4/Data.qml:20
+#: activities/fractions_create/resource/4/Data.qml:26
+#: activities/fractions_create/resource/4/Data.qml:32
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10407,9 +10392,9 @@ msgid "Select one half of the square."
 msgstr "กดเลือกสีที่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/2/Data.qml:24
-#: activities/fractions_create/resource/4/Data.qml:35
-#: activities/fractions_create/resource/4/Data.qml:49
+#: activities/fractions_create/resource/2/Data.qml:26
+#: activities/fractions_create/resource/4/Data.qml:38
+#: activities/fractions_create/resource/4/Data.qml:55
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10418,9 +10403,9 @@ msgid "Select one-third of the square."
 msgstr "กดเลือกสีที่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/2/Data.qml:30
-#: activities/fractions_create/resource/4/Data.qml:41
-#: activities/fractions_create/resource/4/Data.qml:55
+#: activities/fractions_create/resource/2/Data.qml:32
+#: activities/fractions_create/resource/4/Data.qml:44
+#: activities/fractions_create/resource/4/Data.qml:61
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10429,8 +10414,8 @@ msgid "Select two-thirds of the square."
 msgstr "กดเลือกสีที่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/2/Data.qml:36
-#: activities/fractions_create/resource/4/Data.qml:61
+#: activities/fractions_create/resource/2/Data.qml:38
+#: activities/fractions_create/resource/4/Data.qml:67
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10439,8 +10424,8 @@ msgid "Select one-quarter of the square."
 msgstr "กดเลือกสีที่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/2/Data.qml:42
-#: activities/fractions_create/resource/4/Data.qml:67
+#: activities/fractions_create/resource/2/Data.qml:44
+#: activities/fractions_create/resource/4/Data.qml:73
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10449,7 +10434,7 @@ msgid "Select two-fifths of the square."
 msgstr "กดเลือกสีที่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/2/Data.qml:50
+#: activities/fractions_create/resource/2/Data.qml:55
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10458,7 +10443,7 @@ msgid "Select one square and one-quarter of a square."
 msgstr "กดเลือกสีที่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/2/Data.qml:56
+#: activities/fractions_create/resource/2/Data.qml:61
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10467,7 +10452,7 @@ msgid "Select one square and two-fifths of a square."
 msgstr "กดเลือกสีที่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/2/Data.qml:62
+#: activities/fractions_create/resource/2/Data.qml:67
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10476,7 +10461,7 @@ msgid "Select one square and one-third of a square."
 msgstr "กดเลือกสีที่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/2/Data.qml:68
+#: activities/fractions_create/resource/2/Data.qml:73
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10485,7 +10470,7 @@ msgid "Select one square and one half of a square."
 msgstr "กดเลือกสีที่ถูกต้อง"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/2/Data.qml:74
+#: activities/fractions_create/resource/2/Data.qml:79
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10500,7 +10485,7 @@ msgid "Non-simplified fractions with a pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/3/Data.qml:73
+#: activities/fractions_create/resource/3/Data.qml:79
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10515,7 +10500,7 @@ msgid "Non-simplified fractions with a square."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/4/Data.qml:73
+#: activities/fractions_create/resource/4/Data.qml:79
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10533,7 +10518,7 @@ msgid "Decimal numbers with a pie."
 msgstr "เรียนรู้การบวก"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/5/Data.qml:18
+#: activities/fractions_create/resource/5/Data.qml:20
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -10542,13 +10527,13 @@ msgid "Select 0.5 pie."
 msgstr "ตั้งนาฬิกาเป็น:"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/5/Data.qml:24
+#: activities/fractions_create/resource/5/Data.qml:26
 msgctxt "Data|"
 msgid "Select 0.25 pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/5/Data.qml:30
+#: activities/fractions_create/resource/5/Data.qml:32
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -10557,13 +10542,13 @@ msgid "Select 0.4 pie."
 msgstr "ตั้งนาฬิกาเป็น:"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/5/Data.qml:36
+#: activities/fractions_create/resource/5/Data.qml:38
 msgctxt "Data|"
 msgid "Select 0.75 pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/5/Data.qml:42
+#: activities/fractions_create/resource/5/Data.qml:44
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -10572,26 +10557,26 @@ msgid "Select 0.8 pie."
 msgstr "ตั้งนาฬิกาเป็น:"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/5/Data.qml:50
+#: activities/fractions_create/resource/5/Data.qml:55
 msgctxt "Data|"
 msgid "Select 1.25 pies."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/5/Data.qml:56
+#: activities/fractions_create/resource/5/Data.qml:61
 msgctxt "Data|"
 msgid "Select 1.4 pies."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/5/Data.qml:62
-#: activities/fractions_create/resource/5/Data.qml:68
+#: activities/fractions_create/resource/5/Data.qml:67
+#: activities/fractions_create/resource/5/Data.qml:73
 msgctxt "Data|"
 msgid "Select 1.5 pies."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/5/Data.qml:74
+#: activities/fractions_create/resource/5/Data.qml:79
 msgctxt "Data|"
 msgid "Select 1.75 pies."
 msgstr ""
@@ -10606,7 +10591,7 @@ msgid "Decimal numbers with a square."
 msgstr "เรียนรู้การบวก"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/6/Data.qml:18
+#: activities/fractions_create/resource/6/Data.qml:20
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -10615,7 +10600,7 @@ msgid "Select 0.5 square."
 msgstr "ตั้งนาฬิกาเป็น:"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/6/Data.qml:24
+#: activities/fractions_create/resource/6/Data.qml:26
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -10624,7 +10609,7 @@ msgid "Select 0.25 square."
 msgstr "ตั้งนาฬิกาเป็น:"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/6/Data.qml:30
+#: activities/fractions_create/resource/6/Data.qml:32
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -10633,7 +10618,7 @@ msgid "Select 0.4 square."
 msgstr "ตั้งนาฬิกาเป็น:"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/6/Data.qml:36
+#: activities/fractions_create/resource/6/Data.qml:38
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -10642,7 +10627,7 @@ msgid "Select 0.75 square."
 msgstr "ตั้งนาฬิกาเป็น:"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/6/Data.qml:42
+#: activities/fractions_create/resource/6/Data.qml:44
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -10651,7 +10636,7 @@ msgid "Select 0.8 square."
 msgstr "ตั้งนาฬิกาเป็น:"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/6/Data.qml:50
+#: activities/fractions_create/resource/6/Data.qml:55
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -10660,7 +10645,7 @@ msgid "Select 1.25 squares."
 msgstr "ตั้งนาฬิกาเป็น:"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/6/Data.qml:56
+#: activities/fractions_create/resource/6/Data.qml:61
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -10669,8 +10654,8 @@ msgid "Select 1.4 squares."
 msgstr "ตั้งนาฬิกาเป็น:"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/6/Data.qml:62
-#: activities/fractions_create/resource/6/Data.qml:68
+#: activities/fractions_create/resource/6/Data.qml:67
+#: activities/fractions_create/resource/6/Data.qml:73
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -10679,7 +10664,7 @@ msgid "Select 1.5 squares."
 msgstr "ตั้งนาฬิกาเป็น:"
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/6/Data.qml:74
+#: activities/fractions_create/resource/6/Data.qml:79
 #, fuzzy
 #| msgctxt "Clockgame|"
 #| msgid "Set the watch to:"
@@ -10695,14 +10680,14 @@ msgstr ""
 
 #. Select %1 percent of the pie.
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/7/Data.qml:19
-#: activities/fractions_create/resource/7/Data.qml:26
-#: activities/fractions_create/resource/7/Data.qml:33
-#: activities/fractions_create/resource/7/Data.qml:40
-#: activities/fractions_create/resource/7/Data.qml:47
-#: activities/fractions_create/resource/7/Data.qml:56
-#: activities/fractions_create/resource/7/Data.qml:63
-#: activities/fractions_create/resource/7/Data.qml:70
+#: activities/fractions_create/resource/7/Data.qml:21
+#: activities/fractions_create/resource/7/Data.qml:28
+#: activities/fractions_create/resource/7/Data.qml:35
+#: activities/fractions_create/resource/7/Data.qml:42
+#: activities/fractions_create/resource/7/Data.qml:49
+#: activities/fractions_create/resource/7/Data.qml:61
+#: activities/fractions_create/resource/7/Data.qml:68
+#: activities/fractions_create/resource/7/Data.qml:75
 #, qt-format
 msgctxt "Data|"
 msgid "Select %1% of the pie."
@@ -10716,12 +10701,12 @@ msgstr ""
 
 #. Select %1 percent of the square.
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/8/Data.qml:19
-#: activities/fractions_create/resource/8/Data.qml:26
-#: activities/fractions_create/resource/8/Data.qml:33
-#: activities/fractions_create/resource/8/Data.qml:42
-#: activities/fractions_create/resource/8/Data.qml:49
-#: activities/fractions_create/resource/8/Data.qml:56
+#: activities/fractions_create/resource/8/Data.qml:21
+#: activities/fractions_create/resource/8/Data.qml:28
+#: activities/fractions_create/resource/8/Data.qml:35
+#: activities/fractions_create/resource/8/Data.qml:47
+#: activities/fractions_create/resource/8/Data.qml:54
+#: activities/fractions_create/resource/8/Data.qml:61
 #, fuzzy, qt-format
 #| msgctxt "ActivityInfo|"
 #| msgid "Click on the correct color"
@@ -10736,8 +10721,8 @@ msgid "Specific questions with a pie."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/fractions_create/resource/9/Data.qml:18
-#: activities/fractions_create/resource/9/Data.qml:24
+#: activities/fractions_create/resource/9/Data.qml:20
+#: activities/fractions_create/resource/9/Data.qml:26
 msgctxt "Data|"
 msgid "Select as many parts as you can without taking more than half of the pie."
 msgstr ""
@@ -16225,7 +16210,7 @@ msgctxt "Data|"
 msgid "Number to find between 1 and 5."
 msgstr "เดาตัวเลข"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/graduated_line_read/resource/10/Data.qml:9
 #: activities/graduated_line_use/resource/10/Data.qml:9
 #, fuzzy
@@ -16496,7 +16481,7 @@ msgid "Backspace: select the previous word"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/grammar_analysis/grammar_analysis.js:398
+#: activities/grammar_analysis/grammar_analysis.js:401
 msgctxt "grammar_analysis|"
 msgid "Empty"
 msgstr ""
@@ -16785,7 +16770,7 @@ msgid "Tabulation: switch between numbers and operators"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/guess24/Guess24.qml:123
+#: activities/guess24/Guess24.qml:135
 msgctxt "Guess24|"
 msgid "Use the four numbers with given operators to find 24."
 msgstr ""
@@ -16826,7 +16811,7 @@ msgctxt "Data|"
 msgid "Division required."
 msgstr "การหาร"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/guess24/resource/6/Data.qml:13
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -17140,20 +17125,20 @@ msgid "Attempted: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/hangman/Hangman.qml:371
+#: activities/hangman/Hangman.qml:370
 msgctxt "Hangman|"
 msgid "We are sorry, we don't have yet a translation for your language."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/hangman/Hangman.qml:372
+#: activities/hangman/Hangman.qml:371
 #, qt-format
 msgctxt "Hangman|"
 msgid "GCompris is developed by the KDE community, you can translate GCompris by joining a translation team on <a href=\"%2\">%2</a>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/hangman/Hangman.qml:374
+#: activities/hangman/Hangman.qml:373
 msgctxt "Hangman|"
 msgid "We switched to English for this activity but you can select another language in the configuration dialog."
 msgstr ""
@@ -18141,13 +18126,13 @@ msgid "We switched to English for this activity but you can select another langu
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:195 activities/lang/Lang.qml:196
+#: activities/lang/Lang.qml:194 activities/lang/Lang.qml:195
 msgctxt "Lang|"
 msgid "other"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:197
+#: activities/lang/Lang.qml:196
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Addition"
@@ -18156,13 +18141,13 @@ msgid "action"
 msgstr "การบวก"
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:197
+#: activities/lang/Lang.qml:196
 msgctxt "Lang|"
 msgid "adjective"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:198
+#: activities/lang/Lang.qml:197
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Colors"
@@ -18171,85 +18156,85 @@ msgid "color"
 msgstr "ฝึกแยกแยะสี"
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:198
+#: activities/lang/Lang.qml:197
 msgctxt "Lang|"
 msgid "number"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:199
+#: activities/lang/Lang.qml:198
 msgctxt "Lang|"
 msgid "people"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:199
+#: activities/lang/Lang.qml:198
 msgctxt "Lang|"
 msgid "bodyparts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:200
+#: activities/lang/Lang.qml:199
 msgctxt "Lang|"
 msgid "clothes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:200
+#: activities/lang/Lang.qml:199
 msgctxt "Lang|"
 msgid "emotion"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:201
+#: activities/lang/Lang.qml:200
 msgctxt "Lang|"
 msgid "job"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:201
+#: activities/lang/Lang.qml:200
 msgctxt "Lang|"
 msgid "sport"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:202
+#: activities/lang/Lang.qml:201
 msgctxt "Lang|"
 msgid "nature"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:202
+#: activities/lang/Lang.qml:201
 msgctxt "Lang|"
 msgid "animal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:203
+#: activities/lang/Lang.qml:202
 msgctxt "Lang|"
 msgid "fruit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:203
+#: activities/lang/Lang.qml:202
 msgctxt "Lang|"
 msgid "plant"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:204
+#: activities/lang/Lang.qml:203
 msgctxt "Lang|"
 msgid "vegetables"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:204
+#: activities/lang/Lang.qml:203
 msgctxt "Lang|"
 msgid "object"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:205
+#: activities/lang/Lang.qml:204
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Simple subtraction"
@@ -18258,31 +18243,31 @@ msgid "construction"
 msgstr "การลบพื้นฐาน"
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:206
+#: activities/lang/Lang.qml:205
 msgctxt "Lang|"
 msgid "furniture"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:206
+#: activities/lang/Lang.qml:205
 msgctxt "Lang|"
 msgid "houseware"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:207
+#: activities/lang/Lang.qml:206
 msgctxt "Lang|"
 msgid "tool"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:207
+#: activities/lang/Lang.qml:206
 msgctxt "Lang|"
 msgid "food"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/lang/Lang.qml:208
+#: activities/lang/Lang.qml:207
 msgctxt "Lang|"
 msgid "transport"
 msgstr ""
@@ -18400,35 +18385,35 @@ msgid "Drag the arrow to select a part of the bar, and drag the selected part of
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/Learn_decimals.qml:150
+#: activities/learn_decimals/Learn_decimals.qml:165
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Display the number: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/Learn_decimals.qml:151
+#: activities/learn_decimals/Learn_decimals.qml:166
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Display the result of: %1 + %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/Learn_decimals.qml:152
+#: activities/learn_decimals/Learn_decimals.qml:167
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Display the result of: %1 - %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/Learn_decimals.qml:153
+#: activities/learn_decimals/Learn_decimals.qml:168
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Represent the quantity: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/Learn_decimals.qml:610
+#: activities/learn_decimals/Learn_decimals.qml:185
 #, qt-format
 msgctxt "Learn_decimals|"
 msgid "Enter the result: %1"
@@ -18444,8 +18429,8 @@ msgid "Between 0.1 and 1."
 msgstr "เดาตัวเลข"
 
 #. +> trunk6 stable6
-#: activities/learn_decimals/resource/2/Data.qml:13
-#: activities/learn_quantities/resource/3/Data.qml:13
+#: activities/learn_decimals/resource/2/Data.qml:27
+#: activities/learn_quantities/resource/3/Data.qml:14
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Guess a number"
@@ -18837,7 +18822,7 @@ msgid "Between 1 and 3."
 msgstr "เดาตัวเลข"
 
 #. +> trunk6 stable6
-#: activities/learn_quantities/resource/2/Data.qml:13
+#: activities/learn_quantities/resource/2/Data.qml:25
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Guess a number"
@@ -18864,7 +18849,7 @@ msgid "Between 1 and 10."
 msgstr "เดาตัวเลข"
 
 #. +> trunk6 stable6
-#: activities/learn_quantities/resource/6/Data.qml:13
+#: activities/learn_quantities/resource/6/Data.qml:15
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Guess a number"
@@ -18873,7 +18858,7 @@ msgid "Between 10 and 20."
 msgstr "เดาตัวเลข"
 
 #. +> trunk6 stable6
-#: activities/learn_quantities/resource/7/Data.qml:13
+#: activities/learn_quantities/resource/7/Data.qml:14
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Guess a number"
@@ -19333,16 +19318,10 @@ msgctxt "louis_braille_data|"
 msgid "He became a teacher after graduating and promoted his method while secretly teaching it at the Institute."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/louis-braille/louis_braille_data.js:52
 msgctxt "louis_braille_data|"
 msgid "He revised and extended braille to include mathematics, symbols, punctuation and music notations."
-msgstr ""
-
-#. +> stable6
-#: activities/louis-braille/louis_braille_data.js:52
-msgctxt "louis_braille_data|"
-msgid "He revised and extended braille to include mathematics, symbols, punctuations and music notations."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -19364,21 +19343,13 @@ msgid "Arrange the events in the order in which they happened. Select the line t
 msgstr ""
 
 #. Activity title
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/magic-hat-minus/ActivityInfo.qml:15
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "The magician hat"
 msgctxt "ActivityInfo|"
 msgid "The magician hat (subtraction)"
-msgstr "หมวกวิเศษ"
-
-#. Activity title
-#. +> stable6
-#: activities/magic-hat-minus/ActivityInfo.qml:15
-#: activities/magic-hat-plus/ActivityInfo.qml:15
-msgctxt "ActivityInfo|"
-msgid "The magician hat"
 msgstr "หมวกวิเศษ"
 
 #. Help title
@@ -19424,7 +19395,7 @@ msgid "Click on the hat to open it. Stars go in and a few stars escape. You have
 msgstr "คลิกที่หมวกเพื่อเปิดหรือปิดหมวก ถามว่า ที่ใต้หมวกมีดาววิ่งอยู่กี่ดวงที่คุณเห็น? นับดีๆ นะ :) คลิกที่บริเวณล่างขวาเพื่อป้อนคำตอบ"
 
 #. +> trunk6 stable6
-#: activities/magic-hat-minus/MagicHat.qml:256
+#: activities/magic-hat-minus/MagicHat.qml:255
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Kick the ball into the goal"
@@ -19498,7 +19469,7 @@ msgid "%1x"
 msgstr ""
 
 #. Activity title
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/magic-hat-plus/ActivityInfo.qml:15
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -21339,19 +21310,19 @@ msgid "÷"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/memory/MemoryCommon.qml:363
+#: activities/memory/MemoryCommon.qml:362
 msgctxt "MemoryCommon|"
 msgid "This activity requires sound, so it will play some sounds even if the audio voices or effects are disabled in the main configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/memory/MemoryCommon.qml:364
+#: activities/memory/MemoryCommon.qml:363
 msgctxt "MemoryCommon|"
 msgid "Quit"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/memory/MemoryCommon.qml:365
+#: activities/memory/MemoryCommon.qml:364
 msgctxt "MemoryCommon|"
 msgid "Continue"
 msgstr ""
@@ -21743,19 +21714,25 @@ msgid "Font letter spacing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/menu/ConfigurationItem.qml:619
+#: activities/menu/ConfigurationItem.qml:445
+msgctxt "ConfigurationItem|"
+msgid "Teacher's server config"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/menu/ConfigurationItem.qml:653
 msgctxt "ConfigurationItem|"
 msgid "Mixed case (default)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/menu/ConfigurationItem.qml:623
+#: activities/menu/ConfigurationItem.qml:657
 msgctxt "ConfigurationItem|"
 msgid "All uppercase"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/menu/ConfigurationItem.qml:627
+#: activities/menu/ConfigurationItem.qml:661
 msgctxt "ConfigurationItem|"
 msgid "All lowercase"
 msgstr ""
@@ -21860,22 +21837,85 @@ msgid "Vocabulary"
 msgstr "การอ่านคำ"
 
 #. +> trunk6 stable6
-#: activities/menu/Menu.qml:662
+#: activities/menu/Menu.qml:211
+msgctxt "Menu|"
+msgid "GCompris is not connected to teacher's server."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/menu/Menu.qml:212
+msgctxt "Menu|"
+msgid "GCompris is connected to teacher's server, but the password entered for selected user is wrong."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/menu/Menu.qml:213
+msgctxt "Menu|"
+msgid "GCompris is connected to teacher's server, and the user is authenticated."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/menu/Menu.qml:214
+msgctxt "Menu|"
+msgid "GCompris has lost the connection to teacher's server."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/menu/Menu.qml:215
+msgctxt "Menu|"
+msgid "GCompris has been disconnected from teacher's server."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/menu/Menu.qml:216
+msgctxt "Menu|"
+msgid "GCompris is connected to teacher's server, but the user is not yet authenticated."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/menu/Menu.qml:677
 msgctxt "Menu|"
 msgid "Put your favorite activities here by clicking on the sun at the top right of that activity."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/menu/Menu.qml:781
+#: activities/menu/Menu.qml:824
 msgctxt "Menu|"
 msgid "Search specific activities"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/menu/Menu.qml:810
+#: activities/menu/Menu.qml:853
 msgctxt "Menu|"
 msgid "Activity Settings"
 msgstr ""
+
+#. +> trunk6 stable6
+#: activities/menu/ServerConfigPage.qml:61
+msgctxt "ServerConfigPage|"
+msgid "Teacher's server settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/menu/ServerConfigPage.qml:111
+msgctxt "ServerConfigPage|"
+msgid "Teacher's identifier"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/menu/ServerConfigPage.qml:142
+msgctxt "ServerConfigPage|"
+msgid "Server port"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/menu/ServerConfigPage.qml:177
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Guess a number"
+msgctxt "ServerConfigPage|"
+msgid "Server port must be a number between 0 and 65535."
+msgstr "เดาตัวเลข"
 
 #. Activity title
 #. +> trunk6 stable6
@@ -22038,20 +22078,20 @@ msgid "A picture is displayed in the main area, and an incomplete word is writte
 msgstr "มีรูปภาพแสดงอยู่ในพื้นที่หลัก และมีคำที่สะกดไม่ครบแสดงอยู่ใต้รูป ให้เลือกตัวอักษรที่ขาดหายไป เพื่อเติมคำให้สมบูรณ์"
 
 #. +> trunk6 stable6
-#: activities/missing-letter/MissingLetter.qml:323
+#: activities/missing-letter/MissingLetter.qml:322
 msgctxt "MissingLetter|"
 msgid "We are sorry, we don't have yet a translation for your language."
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/missing-letter/MissingLetter.qml:324
+#: activities/missing-letter/MissingLetter.qml:323
 #, qt-format
 msgctxt "MissingLetter|"
 msgid "GCompris is developed by the KDE community, you can translate GCompris by joining a translation team on <a href=\"%2\">%2</a>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/missing-letter/MissingLetter.qml:326
+#: activities/missing-letter/MissingLetter.qml:325
 msgctxt "MissingLetter|"
 msgid "We switched to English for this activity but you can select another language in the configuration dialog."
 msgstr ""
@@ -22497,6 +22537,55 @@ msgstr ""
 #: activities/mosaic/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "Up to 24 items, on multiple lines."
+msgstr ""
+
+#. Activity title
+#. +> trunk6 stable6
+#: activities/multiple_choice_questions/ActivityInfo.qml:16
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Multiplication"
+msgctxt "ActivityInfo|"
+msgid "Multiple-choice questions"
+msgstr "การคูณ"
+
+#. Help title
+#. +> trunk6 stable6
+#: activities/multiple_choice_questions/ActivityInfo.qml:18
+msgctxt "ActivityInfo|"
+msgid "A generic activity for multiple-choice questions."
+msgstr ""
+
+#. Help goal
+#. +> trunk6 stable6
+#: activities/multiple_choice_questions/ActivityInfo.qml:21
+msgctxt "ActivityInfo|"
+msgid "Answer questions sent by the teacher."
+msgstr ""
+
+#. Help manual
+#. +> trunk6 stable6
+#: activities/multiple_choice_questions/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid "Click an answer to select it, then press the OK button to validate. Some questions require a single answer, other questions require multiple answers. For some questions, after validating the answer, a feedback text panel will be displayed: click anywhere to close this panel after reading it."
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/multiple_choice_questions/ActivityInfo.qml:26
+msgctxt "ActivityInfo|"
+msgid "Up and Down arrows: navigate through the answer list"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/multiple_choice_questions/ActivityInfo.qml:27
+msgctxt "ActivityInfo|"
+msgid "Space: select or deselect the highlighted answer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: activities/multiple_choice_questions/ActivityInfo.qml:28
+msgctxt "ActivityInfo|"
+msgid "Enter: validate your answer, or close the feedback text panel"
 msgstr ""
 
 #. Activity title
@@ -25285,7 +25374,7 @@ msgid "A word is shown on the board. A list of words, displayed horizontally, wi
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/readingh/Readingh.qml:307
+#: activities/readingh/Readingh.qml:306
 #, qt-format
 msgctxt "Readingh|"
 msgid ""
@@ -25295,13 +25384,13 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/readingh/Readingh.qml:367
+#: activities/readingh/Readingh.qml:366
 msgctxt "Readingh|"
 msgid "Yes, I saw it!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/readingh/Readingh.qml:388
+#: activities/readingh/Readingh.qml:387
 msgctxt "Readingh|"
 msgid "No, it was not there!"
 msgstr ""
@@ -26890,14 +26979,14 @@ msgstr "ตั้งนาฬิกาเป็น:"
 
 #. Color hue
 #. +> trunk6 stable6
-#: activities/sketch/ColorSelector.qml:238
+#: activities/sketch/ColorSelector.qml:239
 msgctxt "ColorSelector|color hue"
 msgid "Hue"
 msgstr ""
 
 #. Color saturation
 #. +> trunk6 stable6
-#: activities/sketch/ColorSelector.qml:265
+#: activities/sketch/ColorSelector.qml:267
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Subtraction"
@@ -26907,7 +26996,7 @@ msgstr "การลบ"
 
 #. Color lightness
 #. +> trunk6 stable6
-#: activities/sketch/ColorSelector.qml:290
+#: activities/sketch/ColorSelector.qml:293
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Lights Off"
@@ -26917,22 +27006,13 @@ msgstr "ปิดไฟ"
 
 #. Reload default color for selected slot
 #. +> trunk6 stable6
-#: activities/sketch/ColorSelector.qml:326
+#: activities/sketch/ColorSelector.qml:329
 msgctxt "ColorSelector|"
 msgid "Reset Color"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/ColorsPanel.qml:159
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Simple Letters"
-msgctxt "ColorsPanel|"
-msgid "Palettes"
-msgstr "ตัวอักษรอย่างง่าย"
-
-#. +> trunk6 stable6
-#: activities/sketch/FilesPanel.qml:47
+#: activities/sketch/FilesPanel.qml:35
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the coral butterfly"
@@ -26941,7 +27021,7 @@ msgid "Save your image"
 msgstr "หาผีเสื้อสีแดงปะการัง"
 
 #. +> trunk6 stable6
-#: activities/sketch/FilesPanel.qml:86
+#: activities/sketch/FilesPanel.qml:46
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the coral butterfly"
@@ -26950,25 +27030,25 @@ msgid "Open an image"
 msgstr "หาผีเสื้อสีแดงปะการัง"
 
 #. +> trunk6 stable6
-#: activities/sketch/FilesPanel.qml:117
+#: activities/sketch/FilesPanel.qml:65
 msgctxt "FilesPanel|"
 msgid "New image settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/FilesPanel.qml:145
+#: activities/sketch/FilesPanel.qml:90
 msgctxt "FilesPanel|"
 msgid "Background color"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/FilesPanel.qml:191
+#: activities/sketch/FilesPanel.qml:115
 msgctxt "FilesPanel|"
 msgid "Background image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/FilesPanel.qml:232
+#: activities/sketch/FilesPanel.qml:148
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the coral butterfly"
@@ -27002,25 +27082,34 @@ msgid "Gradient Tools"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/Sketch.qml:678
+#: activities/sketch/PaletteSelector.qml:148
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Simple Letters"
+msgctxt "PaletteSelector|"
+msgid "Palettes"
+msgstr "ตัวอักษรอย่างง่าย"
+
+#. +> trunk6 stable6
+#: activities/sketch/Sketch.qml:684
 msgctxt "Sketch|"
 msgid "You did not save this image. Do you want to close this activity?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/Sketch.qml:679
+#: activities/sketch/Sketch.qml:685
 msgctxt "Sketch|"
 msgid "Do you want to erase this image?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/Sketch.qml:680
+#: activities/sketch/Sketch.qml:686
 msgctxt "Sketch|"
 msgid "Yes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/sketch/Sketch.qml:681
+#: activities/sketch/Sketch.qml:687
 msgctxt "Sketch|"
 msgid "No"
 msgstr ""
@@ -29730,17 +29819,10 @@ msgid "Subtraction tables."
 msgstr "เรียนรู้การลบ"
 
 #. Help manual
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/vertical_subtraction/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to subtract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the minuend on the next column: for example, if you add 10 units to the top number, you need to remove one unit from the top number of the next column. This is called the borrowing by regrouping method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the top number and select -1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
-msgstr ""
-
-#. Help manual
-#. +> stable6
-#: activities/vertical_subtraction/ActivityInfo.qml:24
-msgctxt "ActivityInfo|"
-msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to substract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the minuend on the next column: for example, if you add 10 units to the top number, you need to remove one unit from the top number of the next column. This is called the borrowing by regrouping method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the top number and select -1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -29858,33 +29940,57 @@ msgid "Solve subtraction, 4 or 5 digits, 2 lines."
 msgstr "เรียนรู้การลบ"
 
 #. +> trunk6 stable6
-#: activities/vertical_subtraction/subtraction.js:71
+#: activities/vertical_subtraction/subtraction.js:79
 msgctxt "subtraction|"
 msgid "Write:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/vertical_subtraction/subtraction.js:71
+#: activities/vertical_subtraction/subtraction.js:79
 msgctxt "subtraction|"
 msgid "Solve:"
 msgstr ""
 
 #. Solve (= Find the result of): %1 (= the operation to solve)
 #. +> trunk6 stable6
-#: activities/vertical_subtraction/subtraction.js:169
+#: activities/vertical_subtraction/subtraction.js:190
 #, qt-format
 msgctxt "subtraction|"
 msgid "Solve: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: activities/vertical_subtraction/VerticalSubtraction.qml:379
+#: activities/vertical_subtraction/VerticalSubtraction.qml:99
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn subtraction"
+msgctxt "VerticalSubtraction|"
+msgid "Write your own addition and solve it."
+msgstr "เรียนรู้การลบ"
+
+#. +> trunk6 stable6
+#: activities/vertical_subtraction/VerticalSubtraction.qml:100
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Learn subtraction"
+msgctxt "VerticalSubtraction|"
+msgid "Write your own subtraction and solve it."
+msgstr "เรียนรู้การลบ"
+
+#. +> trunk6 stable6
+#: activities/vertical_subtraction/VerticalSubtraction.qml:426
 #, fuzzy
 #| msgctxt "ReadyButton|"
 #| msgid "I am Ready"
 msgctxt "VerticalSubtraction|"
 msgid "Ready"
 msgstr "ฉันพร้อมแล้ว"
+
+#. +> trunk6 stable6
+#: activities/vertical_subtraction/VerticalSubtraction.qml:464
+msgctxt "VerticalSubtraction|"
+msgid "The result should not be a negative number."
+msgstr ""
 
 #. Activity title
 #. +> trunk6 stable6
@@ -29904,17 +30010,10 @@ msgid "Learn to solve vertical subtractions, with the borrowing by compensation 
 msgstr ""
 
 #. Help manual
-#. +> trunk6
+#. +> trunk6 stable6
 #: activities/vertical_subtraction_compensation/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to subtract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the subtrahend on the next column: for example, if you add 10 units to the top number, you need to add one unit to the bottom number of the next column. This is called the borrowing by compensation method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the bottom number and select +1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
-msgstr ""
-
-#. Help manual
-#. +> stable6
-#: activities/vertical_subtraction_compensation/ActivityInfo.qml:24
-msgctxt "ActivityInfo|"
-msgid "In a vertical subtraction, numbers are written one below the other. They need to be lined-up properly, starting from the column on the right-hand side. The top number is called the minuend: it is the amount that we are starting with, that another number is being subtracted from to get the difference. The number below is called the subtrahend: it is the amount to substract from the minuend to get the difference. The result is written on the bottom line. To solve the subtraction, start by subtracting the bottom number of the first column from the top number of the first column (on the right-hand side), and write the result on the bottom line of the same column. If the top number is smaller than the bottom number, you can borrow from the subtrahend on the next column: for example, if you add 10 units to the top number, you need to add one unit to the bottom number of the next column. This is called the borrowing by compensation method. To do that in this activity, click on the empty rectangle on the left of the top number, select 1, and on the next column click on the empty rectangle on the right of the bottom number and select +1. Then write the result of the column on the bottom line, and do the same on the next columns until the operation is finished. Once you have found the result, click on the OK button to validate your answer. In some levels, you will be need to write the given operation before solving it; in this case, click on the Ready button when the operation is written correctly and then solve it."
 msgstr ""
 
 #. Activity title
@@ -30064,19 +30163,19 @@ msgctxt "ActivityInfo|"
 msgid "Type the complete word as it falls, before it reaches the ground."
 msgstr "พิมพ์คำที่กำลังหล่นก่อนที่มันจะถึงพื้น"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/ChangeLog.qml:30
 msgctxt "ChangeLog|"
 msgid "Translation added for Kannada and Tamil"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/ChangeLog.qml:31
 msgctxt "ChangeLog|"
 msgid "New command-line option to set the locale (--locale locale)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: core/ChangeLog.qml:32
 msgctxt "ChangeLog|"
 msgid "New command-line option to show/hide the Home button (--hide-home-button/--show-home-button)"
@@ -30656,20 +30755,20 @@ msgid "Configuration"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DialogChooseLevel.qml:45
+#: core/DialogChooseLevel.qml:46
 #, qt-format
 msgctxt "DialogChooseLevel|"
 msgid "%1 settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DialogChooseLevel.qml:205
+#: core/DialogChooseLevel.qml:208
 msgctxt "DialogChooseLevel|"
 msgid "Dataset"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DialogChooseLevel.qml:218
+#: core/DialogChooseLevel.qml:221
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Addition"
@@ -30678,19 +30777,19 @@ msgid "Options"
 msgstr "การบวก"
 
 #. +> trunk6 stable6
-#: core/DialogChooseLevel.qml:348
+#: core/DialogChooseLevel.qml:353
 msgctxt "DialogChooseLevel|"
 msgid "Cancel"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DialogChooseLevel.qml:356
+#: core/DialogChooseLevel.qml:361
 msgctxt "DialogChooseLevel|"
 msgid "Save"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DialogChooseLevel.qml:370
+#: core/DialogChooseLevel.qml:378
 msgctxt "DialogChooseLevel|"
 msgid "Save and start"
 msgstr ""
@@ -30847,118 +30946,122 @@ msgid "Could not open target file %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DownloadManager.cpp:710
+#: core/DownloadManager.cpp:711
 msgctxt "QObject|"
 msgid "Invalid format of Contents file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DownloadManager.cpp:732
+#: core/DownloadManager.cpp:733
 #, qt-format
 msgctxt "QObject|"
 msgid "The url %1 does not exist."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DownloadManager.cpp:745
+#: core/DownloadManager.cpp:746
 #, qt-format
 msgctxt "QObject|"
 msgid "Checksum of downloaded file does not match: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DownloadManager.cpp:767
+#: core/DownloadManager.cpp:768
 #, qt-format
 msgctxt "QObject|"
 msgid "No voices found for %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/DownloadManager.cpp:772
+#: core/DownloadManager.cpp:773
 #, qt-format
 msgctxt "QObject|"
 msgid "No data found for %1."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:176
-#, qt-format
+#: core/GCCreationHandler.qml:185
 msgctxt "GCCreationHandler|"
-msgid "%1 deleted successfully!"
+msgid "File deleted successfully!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:177 core/GCCreationHandler.qml:182
-#: core/GCCreationHandler.qml:235
+#: core/GCCreationHandler.qml:186 core/GCCreationHandler.qml:194
+#: core/GCCreationHandler.qml:253
 msgctxt "GCCreationHandler|"
 msgid "OK"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:181
-#, qt-format
+#: core/GCCreationHandler.qml:193
 msgctxt "GCCreationHandler|"
-msgid "Unable to delete %1!"
+msgid "Unable to delete the file!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:215
+#: core/GCCreationHandler.qml:230
 msgctxt "GCCreationHandler|"
 msgid "A file with this name already exists. Do you want to replace it?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:216 core/GCCreationHandler.qml:223
+#: core/GCCreationHandler.qml:231 core/GCCreationHandler.qml:238
 msgctxt "GCCreationHandler|"
 msgid "Yes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:216 core/GCCreationHandler.qml:223
+#: core/GCCreationHandler.qml:231 core/GCCreationHandler.qml:238
 msgctxt "GCCreationHandler|"
 msgid "No"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:222
+#: core/GCCreationHandler.qml:237
 msgctxt "GCCreationHandler|"
 msgid "Do you really want to delete this file?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:234
+#: core/GCCreationHandler.qml:252
 msgctxt "GCCreationHandler|"
 msgid "Saved successfully!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:265
+#: core/GCCreationHandler.qml:283
 msgctxt "GCCreationHandler|"
 msgid "Enter file name"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:265
+#: core/GCCreationHandler.qml:283
 msgctxt "GCCreationHandler|"
 msgid "Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:279
+#: core/GCCreationHandler.qml:297
 msgctxt "GCCreationHandler|"
 msgid "Save"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:385
+#: core/GCCreationHandler.qml:409
 msgctxt "GCCreationHandler|"
 msgid "Load"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/GCCreationHandler.qml:395
+#: core/GCCreationHandler.qml:419
 msgctxt "GCCreationHandler|"
 msgid "Delete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/GCCreationHandler.qml:429
+msgctxt "GCCreationHandler|"
+msgid "Open folder"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -31001,43 +31104,43 @@ msgid "GCompris' language"
 msgstr "เมนูหลักของ GCompris"
 
 #. +> trunk6 stable6
-#: core/main.cpp:85
+#: core/main.cpp:88
 msgctxt "QObject|"
 msgid "Run GCompris with the default system cursor."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:89
+#: core/main.cpp:92
 msgctxt "QObject|"
 msgid "Run GCompris without cursor (touch screen mode)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:93
+#: core/main.cpp:96
 msgctxt "QObject|"
 msgid "Run GCompris in fullscreen mode."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:97
+#: core/main.cpp:100
 msgctxt "QObject|"
 msgid "Run GCompris in window mode."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:101
+#: core/main.cpp:104
 msgctxt "QObject|"
 msgid "Run GCompris with sound enabled."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:105
+#: core/main.cpp:108
 msgctxt "QObject|"
 msgid "Run GCompris without sound."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:108
+#: core/main.cpp:111
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the sage butterfly"
@@ -31046,7 +31149,7 @@ msgid "Disable the kiosk mode (default)."
 msgstr "หาผีเสื้อสีเขียวสะระแหน่"
 
 #. +> trunk6 stable6
-#: core/main.cpp:111
+#: core/main.cpp:114
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the sage butterfly"
@@ -31055,61 +31158,61 @@ msgid "Enable the kiosk mode."
 msgstr "หาผีเสื้อสีเขียวสะระแหน่"
 
 #. +> trunk6 stable6
-#: core/main.cpp:115
+#: core/main.cpp:118
 msgctxt "QObject|"
 msgid "Use software renderer instead of openGL (slower but should run with any graphical card). Deprecated, use --renderer=software instead."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:118
+#: core/main.cpp:121
 msgctxt "QObject|"
 msgid "Use openGL renderer instead of software (faster but crash potentially depending on your graphical card). Deprecated, use --renderer=opengl instead."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:122
+#: core/main.cpp:125
 msgctxt "QObject|"
 msgid "Select renderer (opengl, software, Direct3D11, Direct3D12, Metal)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:126
+#: core/main.cpp:129
 msgctxt "QObject|"
 msgid "Specify the activity when starting GCompris."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:131
+#: core/main.cpp:134
 msgctxt "QObject|"
 msgid "Outputs all the available activities on the standard output."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:135
+#: core/main.cpp:138
 msgctxt "QObject|"
 msgid "Specify the range of activity difficulty to display for the session. Either a single value (2), or a range (3-6). Values must be between 1 and 6."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.cpp:139
+#: core/main.cpp:142
 msgctxt "QObject|"
 msgid "Specify on which level to start the activity. Only used when --launch option is used."
 msgstr ""
 
-#. +> trunk6
-#: core/main.cpp:143
+#. +> trunk6 stable6
+#: core/main.cpp:146
 msgctxt "QObject|"
 msgid "Specify the locale when starting GCompris."
 msgstr ""
 
-#. +> trunk6
-#: core/main.cpp:147
+#. +> trunk6 stable6
+#: core/main.cpp:150
 msgctxt "QObject|"
 msgid "Hide the Home button in the bar."
 msgstr ""
 
-#. +> trunk6
-#: core/main.cpp:151
+#. +> trunk6 stable6
+#: core/main.cpp:154
 msgctxt "QObject|"
 msgid "Show the Home button in the bar (default)."
 msgstr ""
@@ -31142,13 +31245,13 @@ msgid "Background music"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.qml:248
+#: core/main.qml:248 core/main.qml:510
 msgctxt "main|"
 msgid "Yes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.qml:255
+#: core/main.qml:255 core/main.qml:516
 msgctxt "main|"
 msgid "No"
 msgstr ""
@@ -31166,7 +31269,7 @@ msgid "Apply"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/main.qml:275
+#: core/main.qml:275 core/main.qml:551 core/main.qml:626
 msgctxt "main|"
 msgid "Cancel"
 msgstr ""
@@ -31209,6 +31312,44 @@ msgid "GCompris has been updated! Here are the new changes:<br/>"
 msgstr ""
 
 #. +> trunk6 stable6
+#: core/main.qml:509
+#, qt-format
+msgctxt "main|"
+msgid "Do you want to connect to server %1?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/main.qml:530
+#, qt-format
+msgctxt "main|"
+msgid "Password rejected by server %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/main.qml:531 core/main.qml:550 core/main.qml:625
+msgctxt "main|"
+msgid "OK"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/main.qml:546
+msgctxt "main|"
+msgid "Select your username"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/main.qml:556
+msgctxt "main|"
+msgid "Please select your username in the list or cancel."
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/main.qml:623
+msgctxt "main|"
+msgid "Enter your password"
+msgstr ""
+
+#. +> trunk6 stable6
 #: core/ReadyButton.qml:69
 msgctxt "ReadyButton|"
 msgid "I am Ready"
@@ -31237,3 +31378,66 @@ msgstr ""
 msgctxt "Tutorial|"
 msgid "Start"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "ActivityInfo|"
+#~| msgid "Subtraction memory game"
+#~ msgctxt "Data|"
+#~ msgid "Find the next number."
+#~ msgstr "เกมความจำผสมลบเลข"
+
+#, fuzzy
+#~| msgctxt "ActivityInfo|"
+#~| msgid "Subtraction memory game"
+#~ msgctxt "Data|"
+#~ msgid "Find the previous number."
+#~ msgstr "เกมความจำผสมลบเลข"
+
+#, fuzzy
+#~| msgctxt "ActivityInfo|"
+#~| msgid "Subtraction memory game"
+#~ msgctxt "Data|"
+#~ msgid "Find the in-between number."
+#~ msgstr "เกมความจำผสมลบเลข"
+
+# SPDX-FileCopyrightText: 2025 Pongsakorn S. <kde@xerusion.me>
+#, fuzzy
+#~| msgid ""
+#~ msgctxt "ActivityInfo|"
+#~ msgid ""
+#~ msgstr ""
+#~ "Project-Id-Version: \n"
+#~ "POT-Creation-Date: 2025-11-19 09:25+0100\n"
+#~ "PO-Revision-Date: 2025-03-03 20:07+0700\n"
+#~ "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
+#~ "Language-Team: Thai\n"
+#~ "Language: th\n"
+#~ "MIME-Version: 1.0\n"
+#~ "Content-Type: text/plain; charset=UTF-8\n"
+#~ "Content-Transfer-Encoding: 8bit\n"
+#~ "Plural-Forms: nplurals=1; plural=0;\n"
+
+#, fuzzy
+#~| msgctxt "advanced_colors|"
+#~| msgid "Find the coral butterfly"
+#~ msgctxt "ActivityInfo|"
+#~ msgid "Ctrl + D: save the drawing"
+#~ msgstr "หาผีเสื้อสีแดงปะการัง"
+
+#, fuzzy
+#~| msgctxt "ActivityInfo|"
+#~| msgid "Colors"
+#~ msgctxt "DrawingWheels|"
+#~ msgid "Color"
+#~ msgstr "ฝึกแยกแยะสี"
+
+#~ msgctxt "ActivityInfo|"
+#~ msgid "The magician hat"
+#~ msgstr "หมวกวิเศษ"
+
+#, fuzzy
+#~| msgctxt "ActivityInfo|"
+#~| msgid "Simple Letters"
+#~ msgctxt "ColorsPanel|"
+#~ msgid "Palettes"
+#~ msgstr "ตัวอักษรอย่างง่าย"

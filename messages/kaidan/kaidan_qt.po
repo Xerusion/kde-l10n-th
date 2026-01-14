@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kaidan_qt\n"
-"POT-Creation-Date: 2025-12-08 11:36+0100\n"
+"POT-Creation-Date: 2026-01-11 08:12+0100\n"
 "PO-Revision-Date: 2025-03-17 14:53+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -12,97 +12,91 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6
-#: src/Account.cpp:493
-msgctxt "Connection|"
-msgid "Connected"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/Account.cpp:495
-msgctxt "Connection|"
-msgid "Connecting…"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/Account.cpp:497
+#: src/Account.cpp:477
 msgctxt "Connection|"
 msgid "Disconnected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:508
+#: src/Account.cpp:479
+msgctxt "Connection|"
+msgid "Connecting…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/Account.cpp:481
+msgctxt "Connection|"
+msgid "Connected"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/Account.cpp:492
 msgctxt "Connection|"
 msgid "Invalid username or password."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:510
+#: src/Account.cpp:494
 msgctxt "Connection|"
 msgid "Cannot connect to the server. Please check your internet connection."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:512
+#: src/Account.cpp:496
 msgctxt "Connection|"
 msgid "Error while trying to connect securely."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:514
+#: src/Account.cpp:498
 msgctxt "Connection|"
 msgid "The server doesn't support secure connections."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:516
+#: src/Account.cpp:500
 msgctxt "Connection|"
 msgid "Could not connect to the server. Please check your internet connection or your server name."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:518
+#: src/Account.cpp:502
 msgctxt "Connection|"
 msgid "The server is offline or blocked by a firewall."
 msgstr ""
 
-#. +> trunk6
-#: src/Account.cpp:520
+#. +> trunk6 stable6
+#: src/Account.cpp:504
 msgctxt "Connection|"
 msgid "Authentication protocol not supported by the server."
 msgstr ""
 
-#. +> stable6
-#: src/Account.cpp:467
-msgctxt "Connection|"
-msgid "Authentification protocol not supported by the server."
-msgstr ""
-
 #. +> trunk6 stable6
-#: src/Account.cpp:522
+#: src/Account.cpp:506
 msgctxt "Connection|"
 msgid "The connection could not be refreshed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:524
+#: src/Account.cpp:508
 msgctxt "Connection|"
 msgid "The internet access is not permitted. Please check your system's internet access configuration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:526
+#: src/Account.cpp:510
 msgctxt "Connection|"
 msgid "This server does not support registration."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:528
+#: src/Account.cpp:512
 msgctxt "Connection|"
 msgid "Could not log in. Confirm the email message you received first."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Account.cpp:530
+#: src/Account.cpp:514
 msgctxt "Connection|"
 msgid "Could not connect to the server."
 msgstr ""
@@ -114,187 +108,205 @@ msgid "Account could not be migrated: Could not load exported account data"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AccountMigrationController.cpp:355
+#: src/AccountMigrationController.cpp:349
 msgctxt "AccountMigrationController|"
 msgid "Account could not be migrated: You need to be connected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AccountMigrationController.cpp:405
+#: src/AccountMigrationController.cpp:387
 #, qt-format
 msgctxt "AccountMigrationController|"
 msgid "Account '%1' migrated to '%2'"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/AuthenticatedEncryptionKeyModel.cpp:77
+#: src/AuthenticatedEncryptionKeyModel.cpp:78
 msgctxt "AuthenticatedEncryptionKeyModel|"
 msgid "This device"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Blocking.cpp:375
+#: src/Blocking.cpp:357
 msgctxt "BlockingModel|"
 msgid "Devices"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Blocking.cpp:377
+#: src/Blocking.cpp:359
 msgctxt "BlockingModel|"
 msgid "Users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Blocking.cpp:379
+#: src/Blocking.cpp:361
 msgctxt "BlockingModel|"
 msgid "Servers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Blocking.cpp:381
+#: src/Blocking.cpp:363
 msgctxt "BlockingModel|"
 msgid "Devices on Servers"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:256
+#: src/ChatHintModel.cpp:249
 msgctxt "ChatHintModel|"
 msgid "Your account is not enabled - Messages are sent and received once enabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:257 src/ChatHintModel.cpp:267
-#: src/ChatHintModel.cpp:311 src/ChatHintModel.cpp:332
+#: src/ChatHintModel.cpp:250 src/ChatHintModel.cpp:260
+#: src/ChatHintModel.cpp:304 src/ChatHintModel.cpp:325
 msgctxt "ChatHintModel|"
 msgid "Dismiss"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:257
+#: src/ChatHintModel.cpp:250
 msgctxt "ChatHintModel|"
 msgid "Enable"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:259
+#: src/ChatHintModel.cpp:252
 msgctxt "ChatHintModel|"
 msgid "Enabling…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:266
+#: src/ChatHintModel.cpp:259
 msgctxt "ChatHintModel|"
 msgid "Could not connect"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:267
+#: src/ChatHintModel.cpp:260
 msgctxt "ChatHintModel|"
 msgid "Show error"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:269
+#: src/ChatHintModel.cpp:262
 msgctxt "ChatHintModel|"
 msgid "Connecting…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:282
+#: src/ChatHintModel.cpp:275
 #, qt-format
 msgctxt "ChatHintModel|"
 msgid "%1 would like to receive your personal data such as availability, devices and other personal information%2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:287
+#: src/ChatHintModel.cpp:280
 #, qt-format
 msgctxt "ChatHintModel|"
 msgid "Your contact %1 (%2) is %3 (%4) now and would like to receive your personal data such as availability, devices and other personal information again%5"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:294
+#: src/ChatHintModel.cpp:287
 msgctxt "ChatHintModel|"
 msgid "Refuse"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:294
+#: src/ChatHintModel.cpp:287
 msgctxt "ChatHintModel|"
 msgid "Allow"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:296
+#: src/ChatHintModel.cpp:289
 msgctxt "ChatHintModel|"
 msgid "Allowing…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:310
+#: src/ChatHintModel.cpp:303
 msgctxt "ChatHintModel|"
 msgid "This group has no users"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:311
+#: src/ChatHintModel.cpp:304
 msgctxt "ChatHintModel|"
 msgid "Invite contacts"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:313
+#: src/ChatHintModel.cpp:306
 msgctxt "ChatHintModel|"
 msgid "Opening invitation area"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:331
+#: src/ChatHintModel.cpp:324
 msgctxt "ChatHintModel|"
 msgid "This group is deleted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:332
+#: src/ChatHintModel.cpp:325
 msgctxt "ChatHintModel|"
 msgid "Leave"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/ChatHintModel.cpp:334
+#: src/ChatHintModel.cpp:327
 msgctxt "ChatHintModel|"
 msgid "Leaving group chat"
 msgstr ""
 
-#. +> trunk6
-#: src/FileSharingController.cpp:353 src/FileSharingController.cpp:471
+#. +> trunk6 stable6
+#: src/FileSharingController.cpp:313 src/FileSharingController.cpp:448
 msgctxt "FileSharingController|"
 msgid "Canceled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/FileSharingController.cpp:392
+#: src/FileSharingController.cpp:344
 #, qt-format
 msgctxt "FileSharingController|"
 msgid "Could not download file: %1"
 msgstr ""
 
-#. +> trunk6
-#: src/FileSharingController.cpp:554
-#, qt-format
+#. +> trunk6 stable6
+#: src/FileSharingController.cpp:391
 msgctxt "FileSharingController|"
-msgid "Upload failed: %1"
+msgid "Media sharing support is unknown"
 msgstr ""
 
-#. +> trunk6
-#: src/FileSharingController.cpp:564
+#. +> trunk6 stable6
+#: src/FileSharingController.cpp:394
+msgctxt "FileSharingController|"
+msgid "Media sharing is unsupported"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/FileSharingController.cpp:517
 #, qt-format
 msgctxt "FileSharingController|"
 msgid "Could not upload file: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
+#: src/FileSharingController.cpp:632
+msgctxt "FileSharingController|"
+msgid "Transfer canceled"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/FileSharingController.cpp:638
+#, qt-format
+msgctxt "FileSharingController|"
+msgid "Transfer failed: %1"
+msgstr ""
+
+#. +> trunk6 stable6
 #: src/Globals.h:99
 msgctxt "QObject|"
 msgid "No selection"
@@ -324,21 +336,21 @@ msgctxt "GroupChatUserModel|"
 msgid "Banned"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/ImageProvider.cpp:132
 #, qt-format
 msgctxt "ImageProvider|"
 msgid "Could not copy invalid source to clipboard: %1"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/ImageProvider.cpp:323
 #, qt-format
 msgctxt "ImageProvider|"
 msgid "Could not generate thumbnail: %1 does not exist"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/ImageProvider.cpp:353
 #, qt-format
 msgctxt "ImageProvider|"
@@ -346,204 +358,203 @@ msgid "Could not generate QR code: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:309
+#: src/MediaUtils.cpp:316
 msgctxt "MediaUtils|"
 msgid "Audio"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:311
+#: src/MediaUtils.cpp:318
 msgctxt "MediaUtils|"
 msgid "Document"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:313
+#: src/MediaUtils.cpp:320
 msgctxt "MediaUtils|"
 msgid "Location"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:315
+#: src/MediaUtils.cpp:322
 msgctxt "MediaUtils|"
 msgid "Image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:317
+#: src/MediaUtils.cpp:324
 msgctxt "MediaUtils|"
 msgid "Video"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:321
+#: src/MediaUtils.cpp:328
 msgctxt "MediaUtils|"
 msgid "File"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:330
+#: src/MediaUtils.cpp:337
 msgctxt "MediaUtils|"
 msgid "Take picture"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:332
+#: src/MediaUtils.cpp:339
 msgctxt "MediaUtils|"
 msgid "Record video"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:334
+#: src/MediaUtils.cpp:341
 msgctxt "MediaUtils|"
 msgid "Record voice"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:336
+#: src/MediaUtils.cpp:343
 msgctxt "MediaUtils|"
 msgid "Send location"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:374
+#: src/MediaUtils.cpp:381
 msgctxt "MediaUtils|"
 msgid "Choose file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:376
+#: src/MediaUtils.cpp:383
 msgctxt "MediaUtils|"
 msgid "Choose image"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:378
+#: src/MediaUtils.cpp:385
 msgctxt "MediaUtils|"
 msgid "Choose video"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:380
+#: src/MediaUtils.cpp:387
 msgctxt "MediaUtils|"
 msgid "Choose audio file"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:382
+#: src/MediaUtils.cpp:389
 msgctxt "MediaUtils|"
 msgid "Choose document"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:404
+#: src/MediaUtils.cpp:411
 msgctxt "MediaUtils|"
 msgid "All files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:406
+#: src/MediaUtils.cpp:413
 msgctxt "MediaUtils|"
 msgid "Images"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:408
+#: src/MediaUtils.cpp:415
 msgctxt "MediaUtils|"
 msgid "Videos"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:410
+#: src/MediaUtils.cpp:417
 msgctxt "MediaUtils|"
 msgid "Audio files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:412
+#: src/MediaUtils.cpp:419
 msgctxt "MediaUtils|"
 msgid "Documents"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MediaUtils.cpp:437
+#: src/MediaUtils.cpp:444
 #, qt-format
 msgctxt "MediaUtils|"
 msgid "%1 (%2)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Message.cpp:131
+#: src/Message.cpp:136
 msgctxt "QObject|"
 msgid "No information"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Message.cpp:161
+#: src/Message.cpp:166
 msgctxt "QObject|"
 msgid "dd MMM at hh:mm"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Message.cpp:374
+#: src/Message.cpp:354
 msgctxt "Message|"
 msgid "Spoiler"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Message.cpp:384
+#: src/Message.cpp:364
 msgctxt "Message|"
 msgid "Location"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/Message.cpp:472
+#: src/Message.cpp:452
 #, qt-format
 msgctxt "Message|"
 msgid "Invitation to group %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageComposition.cpp:289
+#: src/MessageComposition.cpp:276
 msgctxt "MessageComposition|"
 msgid "Message correction was not successful"
 msgstr ""
 
-#. +> stable6
-#: src/MessageComposition.cpp:255
-#, qt-format
-msgctxt "MessageComposition|"
-msgid "Upload failed: %1"
-msgstr ""
-
 #. +> trunk6 stable6
-#: src/MessageComposition.cpp:523
+#: src/MessageComposition.cpp:512
 msgctxt "FileSelectionModel|"
 msgid "Unknown size"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageComposition.cpp:567
+#: src/MessageComposition.cpp:556
 #, qt-format
 msgctxt "FileSelectionModel|"
 msgid "'%1' cannot be sent because it is larger than %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageController.cpp:273
+#: src/MessageController.cpp:279
+msgctxt "MessageController|"
+msgid "Message could not be sent"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/MessageController.cpp:283
 msgctxt "MessageController|"
 msgid "Message could not be sent."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageController.cpp:646
+#: src/MessageController.cpp:625
 #, qt-format
 msgctxt "MessageController|"
 msgid "This message is encrypted with %1 but could not be decrypted"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageController.cpp:1050
+#: src/MessageController.cpp:1029
 #, qt-format
 msgctxt "MessageController|"
 msgid "Reaction could not be sent: %1"
@@ -574,138 +585,164 @@ msgid "Error"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageModel.cpp:596 src/MessageModel.cpp:694
+#: src/MessageModel.cpp:594 src/MessageModel.cpp:690
 #, qt-format
 msgctxt "MessageModel|"
 msgid "Reaction could not be sent: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageModel.cpp:779
+#: src/MessageModel.cpp:774
 #, qt-format
 msgctxt "MessageModel|"
 msgid "Reactions could not be sent: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageModel.cpp:1287
+#: src/MessageModel.cpp:1301
 msgctxt "MessageModel|"
 msgid "Today"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MessageModel.cpp:1290
+#: src/MessageModel.cpp:1304
 msgctxt "MessageModel|"
 msgid "Yesterday"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:115
+#: src/MixController.cpp:104
 msgctxt "MixController|"
 msgid "The group already exists"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:143
+#: src/MixController.cpp:125
 #, qt-format
 msgctxt "MixController|"
 msgid "Whether %1 is public could not be determined: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:163
+#: src/MixController.cpp:139
 #, qt-format
 msgctxt "MixController|"
 msgid "Could not retrieve information of group %1: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:175 src/MixController.cpp:184
+#: src/MixController.cpp:150 src/MixController.cpp:158
 #, qt-format
 msgctxt "MixController|"
 msgid "Could not rename group %1: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:211
+#: src/MixController.cpp:178
 msgctxt "MixController|"
 msgid "The group does not exist"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:214
+#: src/MixController.cpp:181
 msgctxt "MixController|"
 msgid "You aren't allowed to join the group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:274 src/MixController.cpp:286
+#: src/MixController.cpp:236 src/MixController.cpp:243
 #, qt-format
 msgctxt "MixController|"
 msgid "%1 could not be invited to %2: %3"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:319
+#: src/MixController.cpp:269
 #, qt-format
 msgctxt "MixController|"
 msgid "Nodes of %1 could not be retrieved: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:333
+#: src/MixController.cpp:277
 #, qt-format
 msgctxt "MixController|"
 msgid "Allowed users of %1 could not be retrieved: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:353
+#: src/MixController.cpp:291
 #, qt-format
 msgctxt "MixController|"
 msgid "Banned users of %1 could not be retrieved: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:374
+#: src/MixController.cpp:306
 #, qt-format
 msgctxt "MixController|"
 msgid "Joined users of %1 could not be retrieved: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:390
+#: src/MixController.cpp:321
 #, qt-format
 msgctxt "MixController|"
 msgid "%1 could not be banned from %2: %3"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/MixController.cpp:447
+#: src/MixController.cpp:365
 msgctxt "MixController|"
 msgid "You aren't allowed to delete the group"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/NotificationController.cpp:152
+#: src/NotificationController.cpp:156
 msgctxt "NotificationController|"
 msgid "Requests to receive your personal data"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/NotificationController.cpp:166 src/NotificationController.cpp:301
+#: src/NotificationController.cpp:170 src/NotificationController.cpp:335
 msgctxt "NotificationController|"
 msgid "Open"
 msgstr ""
 
+#. +> trunk6
+#: src/NotificationController.cpp:207
+#, qt-format
+msgctxt "NotificationController|"
+msgid "Incoming call from %1"
+msgstr ""
+
+#. +> trunk6
+#: src/NotificationController.cpp:209
+#, qt-format
+msgctxt "NotificationController|"
+msgid "Incoming video call from %1"
+msgstr ""
+
+#. +> trunk6
+#: src/NotificationController.cpp:223
+msgctxt "NotificationController|"
+msgid "Accept"
+msgstr ""
+
+#. +> trunk6
+#: src/NotificationController.cpp:230
+msgctxt "NotificationController|"
+msgid "Reject"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/NotificationController.cpp:305
+#: src/NotificationController.cpp:339
 msgctxt "NotificationController|"
 msgid "Mark as read"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/OmemoController.cpp:114
+#: src/OmemoController.cpp:107
 msgctxt "OmemoController|"
 msgid "End-to-end encryption via OMEMO 2 could not be set up"
 msgstr ""
@@ -746,7 +783,7 @@ msgctxt "QObject|"
 msgid "Offline"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/ProviderModel.cpp:73
 msgctxt "ProviderModel|"
 msgid "Custom provider"
@@ -755,13 +792,13 @@ msgstr ""
 #. Unlimited file size for uploading
 #. ----------
 #. Deletion of message history stored on provider
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/ProviderModel.cpp:114 src/ProviderModel.cpp:130
 msgctxt "ProviderModel|"
 msgid "Unlimited"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/ProviderModel.cpp:132
 #, qt-format
 msgctxt "ProviderModel|"
@@ -780,58 +817,94 @@ msgctxt "AboutPage|"
 msgid "About Kaidan"
 msgstr ""
 
-#. +> trunk6 stable6
-#: src/qml/ChatPage.qml:98
+#. +> trunk6
+#: src/qml/CallPage.qml:18
+msgctxt "CallPage|"
+msgid "Call"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/ChatPage.qml:96
 msgctxt "ChatPage|"
-msgid "Details…"
+msgid "Open audio call"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/ChatPage.qml:96
+msgctxt "ChatPage|"
+msgid "Start audio call"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/ChatPage.qml:109
+msgctxt "ChatPage|"
+msgid "Open video call"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/ChatPage.qml:109
+msgctxt "ChatPage|"
+msgid "Start video call"
+msgstr ""
+
+#. +> trunk6
+#: src/qml/ChatPage.qml:122
+msgctxt "ChatPage|"
+msgid "Quit search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/ChatPage.qml:114
+#: src/qml/ChatPage.qml:122
 msgctxt "ChatPage|"
 msgid "Search"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/ChatPage.qml:474
+#: src/qml/ChatPage.qml:140
+msgctxt "ChatPage|"
+msgid "Details…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/ChatPage.qml:505
 msgctxt "ChatPage|"
 msgid "Cancel forwarding"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/ChatPage.qml:489
+#: src/qml/ChatPage.qml:520
 msgctxt "ChatPage|"
 msgid "Select a chat to forward the message"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/ChatPage.qml:540
+#: src/qml/ChatPage.qml:572
 msgctxt "ChatPage|"
 msgid "Drop files to be sent"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/ChatPage.qml:741
+#: src/qml/ChatPage.qml:777
 #, qt-format
 msgctxt "ChatPage|"
 msgid "Unblocked %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/ChatPage.qml:741
+#: src/qml/ChatPage.qml:777
 msgctxt "ChatPage|"
 msgid "Undo"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/ChatPage.qml:748
+#: src/qml/ChatPage.qml:784
 #, qt-format
 msgctxt "ChatPage|"
 msgid "Could not block %1: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/ChatPage.qml:752
+#: src/qml/ChatPage.qml:788
 #, qt-format
 msgctxt "ChatPage|"
 msgid "Could not unblock %1: %2"
@@ -1231,12 +1304,6 @@ msgctxt "AccountDetailsContent|"
 msgid "Enter different password to change it"
 msgstr ""
 
-#. +> stable6
-#: src/qml/details/AccountDetailsContent.qml:911
-msgctxt "AccountDetailsContent|"
-msgid "Enter different connection settings to change them"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/qml/details/AccountDetailsContent.qml:745
 msgctxt "AccountDetailsContent|"
@@ -1316,13 +1383,13 @@ msgctxt "AccountDetailsContent|"
 msgid "Configure the hostname and port to connect to (empty fields for default values)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/details/AccountDetailsContent.qml:897
 msgctxt "AccountDetailsContent|"
 msgid "Apply changes"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/details/AccountDetailsContent.qml:898
 msgctxt "AccountDetailsContent|"
 msgid "Applying changes…"
@@ -1339,12 +1406,6 @@ msgstr ""
 #: src/qml/details/AccountDetailsContent.qml:941
 msgctxt "AccountDetailsContent|"
 msgid "Connection settings changed"
-msgstr ""
-
-#. +> stable6
-#: src/qml/details/AccountDetailsContent.qml:902
-msgctxt "AccountDetailsContent|"
-msgid "Change connection settings"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2116,12 +2177,6 @@ msgctxt "GroupChatDetailsHeader|"
 msgid "Deleted"
 msgstr ""
 
-#. +> stable6
-#: src/qml/details/GroupChatDetailsHeader.qml:18
-msgctxt "GroupChatDetailsHeader|"
-msgid "Maximize avatar"
-msgstr ""
-
 #. +> trunk6 stable6
 #: src/qml/details/GroupChatDetailsPage.qml:10
 msgctxt "GroupChatDetailsPage|"
@@ -2277,43 +2332,43 @@ msgctxt "NotesChatDetailsPage|"
 msgid "Notes Details"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/details/ProviderChatDetailsContent.qml:26
 msgctxt "ProviderChatDetailsContent|"
 msgid "Removal"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/details/ProviderChatDetailsContent.qml:31
 msgctxt "ProviderChatDetailsContent|"
 msgid "Remove"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/details/ProviderChatDetailsContent.qml:32
 msgctxt "ProviderChatDetailsContent|"
 msgid "Remove provider chat and complete chat history"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/details/ProviderChatDetailsContent.qml:40
 msgctxt "ProviderChatDetailsContent|"
 msgid "Removing provider chat…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/details/ProviderChatDetailsDialog.qml:9
 msgctxt "ProviderChatDetailsDialog|"
 msgid "Provider Details"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/details/ProviderChatDetailsHeader.qml:9
 msgctxt "ProviderChatDetailsHeader|"
 msgid "Messages in this chat are from your service provider"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/details/ProviderChatDetailsPage.qml:9
 msgctxt "ProviderChatDetailsPage|"
 msgid "Provider Details"
@@ -2452,13 +2507,13 @@ msgid "Feature unsupported"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/Audio.qml:32
+#: src/qml/elements/Audio.qml:39
 msgctxt "Audio|"
 msgid "Pause"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/Audio.qml:32
+#: src/qml/elements/Audio.qml:39
 msgctxt "Audio|"
 msgid "Play"
 msgstr ""
@@ -2500,7 +2555,7 @@ msgctxt "ChatMessageContextMenu|"
 msgid "Open selected file's folder"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ChatMessageContextMenu.qml:73
 msgctxt "ChatMessageContextMenu|"
 msgid "Resend"
@@ -2692,7 +2747,7 @@ msgctxt "ContactAdditionContent|"
 msgid "Add"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ContactAdditionContent.qml:42
 msgctxt "ContactAdditionContent|"
 msgid "Trust decisions made for contact"
@@ -2720,18 +2775,6 @@ msgstr ""
 #: src/qml/elements/ContactAdditionContent.qml:106
 msgctxt "ContactAdditionContent|"
 msgid "Hello, I'm…"
-msgstr ""
-
-#. +> stable6
-#: src/qml/elements/ContactAdditionContent.qml:32
-msgctxt "ContactAdditionContent|"
-msgid "Contact already exists"
-msgstr ""
-
-#. +> stable6
-#: src/qml/elements/ContactAdditionContent.qml:34
-msgctxt "ContactAdditionContent|"
-msgid "Open chat"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -2776,7 +2819,7 @@ msgctxt "ContactAdditionQrCodePage|"
 msgid "Step 2: Let your contact scan <b>your</b> QR code"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ContactInvitationHintDelegate.qml:22
 msgctxt "ContactInvitationHintDelegate|"
 msgid "Invite contacts to this group…"
@@ -2824,13 +2867,13 @@ msgctxt "CustomConnectionSettings|"
 msgid "Port:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/CustomConnectionSettings.qml:107
 msgctxt "CustomConnectionSettings|"
 msgid "Plain authentication (SASL PLAIN)"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/CustomConnectionSettings.qml:108
 msgctxt "CustomConnectionSettings|"
 msgid "Required if your provider uses LDAP which is often the case in organizations where you can log in with a single account"
@@ -3147,16 +3190,10 @@ msgctxt "LoginArea|"
 msgid "Scan login QR code"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/LoginArea.qml:56
 msgctxt "LoginArea|"
 msgid "Show connection settings"
-msgstr ""
-
-#. +> stable6
-#: src/qml/elements/LoginArea.qml:57
-msgctxt "LoginArea|"
-msgid "Connection settings"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3243,103 +3280,103 @@ msgctxt "MessageReactionRetryButton|"
 msgid "Retry updating reactions"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:18
 msgctxt "ProviderFilterArea|"
 msgid "Registration via Kaidan"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:19
 msgctxt "ProviderFilterArea|"
 msgid "Show only providers that allow to create an account directly via Kaidan"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:25
 msgctxt "ProviderFilterArea|"
 msgid "Free of charge"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:26
 msgctxt "ProviderFilterArea|"
 msgid "Show only providers that are free of charge"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:32
 msgctxt "ProviderFilterArea|"
 msgid "Password reset"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:33
 msgctxt "ProviderFilterArea|"
 msgid "Show only providers that allow to reset your password"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:39
 msgctxt "ProviderFilterArea|"
 msgid "Green hosting"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:40
 msgctxt "ProviderFilterArea|"
 msgid "Show only providers whose service runs on renewable energy"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:46
 msgctxt "ProviderFilterArea|"
 msgid "Bus factor"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:54
 msgctxt "ProviderFilterArea|"
 msgid "Location"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:55
 msgctxt "ProviderFilterArea|"
 msgid "Show only providers that store and process their data in the selected country"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:62
 msgctxt "ProviderFilterArea|"
 msgid "Size of shared media"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:70
 msgctxt "ProviderFilterArea|"
 msgid "Size of all shared media in total"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:78
 msgctxt "ProviderFilterArea|"
 msgid "Media storage duration"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:86
 msgctxt "ProviderFilterArea|"
 msgid "Message storage duration"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:94
 msgctxt "ProviderFilterArea|"
 msgid "Availability"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/elements/ProviderFilterArea.qml:102
 msgctxt "ProviderFilterArea|"
 msgid "Organization"
@@ -3547,7 +3584,7 @@ msgid "Pin"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/elements/SearchBarPage.qml:28
+#: src/qml/elements/SearchBarPage.qml:29
 msgctxt "SearchBarPage|"
 msgid "Search"
 msgstr ""
@@ -3831,7 +3868,7 @@ msgctxt "ProviderPage|"
 msgid "Choose a Provider"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/registration/ProviderPage.qml:26
 #: src/qml/registration/ProviderPage.qml:270
 #: src/qml/registration/ProviderPage.qml:283
@@ -3851,19 +3888,13 @@ msgctxt "ProviderPage|"
 msgid "Provider Address"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/registration/ProviderPage.qml:128
 msgctxt "ProviderPage|"
 msgid "Show connection settings"
 msgstr ""
 
-#. +> stable6
-#: src/qml/registration/ProviderPage.qml:123
-msgctxt "ProviderPage|"
-msgid "Connection settings"
-msgstr ""
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/registration/ProviderPage.qml:175
 msgctxt "ProviderPage|"
 msgid "Data storage/processing locations"
@@ -3887,16 +3918,10 @@ msgctxt "ProviderPage|"
 msgid "Maximum size of shared media"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/qml/registration/ProviderPage.qml:195
 msgctxt "ProviderPage|"
 msgid "Message storage duration"
-msgstr ""
-
-#. +> stable6
-#: src/qml/registration/ProviderPage.qml:192
-msgctxt "ProviderPage|"
-msgid "Messages storage duration"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -3939,12 +3964,6 @@ msgstr ""
 #: src/qml/registration/ProviderPage.qml:336
 msgctxt "ProviderPage|"
 msgid "You are temporarily blocked: "
-msgstr ""
-
-#. +> stable6
-#: src/qml/registration/ProviderPage.qml:172
-msgctxt "ProviderPage|"
-msgid "Server locations"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -4038,8 +4057,8 @@ msgid "Step 2: Log in with your registered account"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/qml/RosterPage.qml:29 src/qml/RosterPage.qml:201
-#: src/qml/RosterPage.qml:214
+#: src/qml/RosterPage.qml:29 src/qml/RosterPage.qml:206
+#: src/qml/RosterPage.qml:219
 msgctxt "RosterPage|"
 msgid "Filter"
 msgstr ""
@@ -4087,79 +4106,79 @@ msgid "Create account manually"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/QmlUtils.cpp:225
+#: src/QmlUtils.cpp:223
 msgctxt "QmlUtils|"
 msgid "Unknown size"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/QmlUtils.cpp:240
+#: src/QmlUtils.cpp:238
 #, qt-format
 msgctxt "QmlUtils|"
 msgid "%1 is online"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/QmlUtils.cpp:242
+#: src/QmlUtils.cpp:240
 #, qt-format
 msgctxt "QmlUtils|"
 msgid "%1 is typing…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/QmlUtils.cpp:244
+#: src/QmlUtils.cpp:242
 #, qt-format
 msgctxt "QmlUtils|"
 msgid "%1 paused typing"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/RosterController.cpp:162
+#: src/RosterController.cpp:146
 #, qt-format
 msgctxt "RosterController|"
 msgid "%1 could not be added: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/RosterController.cpp:171
+#: src/RosterController.cpp:153
 msgctxt "RosterController|"
 msgid "Could not add contact as a result of not being connected."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/RosterController.cpp:183
+#: src/RosterController.cpp:163
 msgctxt "RosterController|"
 msgid "Could not rename contact as a result of not being connected."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/RosterController.cpp:199
+#: src/RosterController.cpp:173
 #, qt-format
 msgctxt "RosterController|"
 msgid "Requesting to see the personal data of %1 failed because of a connection problem: %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/RosterController.cpp:215
+#: src/RosterController.cpp:184
 #, qt-format
 msgctxt "RosterController|"
 msgid "Allowing %1 to see your personal data failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/RosterController.cpp:232
+#: src/RosterController.cpp:195
 #, qt-format
 msgctxt "RosterController|"
 msgid "Stopping %1 to see your personal data failed"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/RosterController.cpp:333
+#: src/RosterController.cpp:291
 msgctxt "RosterController|"
 msgid "Could not remove contact as a result of not being connected."
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: src/RosterItem.cpp:31
 msgctxt "QObject|"
 msgid "Provider"
@@ -4172,7 +4191,7 @@ msgid "Notes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/RosterModel.cpp:760
+#: src/RosterModel.cpp:755
 msgctxt "RosterModel|"
 msgid "Yesterday"
 msgstr ""
@@ -4211,45 +4230,4 @@ msgstr ""
 #: src/VCardModel.cpp:142
 msgctxt "VCardModel|"
 msgid "Website"
-msgstr ""
-
-#. +> stable6
-#: src/ProviderListModel.cpp:32
-msgctxt "ProviderListModel|"
-msgid "Custom provider"
-msgstr ""
-
-#. Unlimited file size for uploading
-#. ----------
-#. Deletion of message history stored on provider
-#. +> stable6
-#: src/ProviderListModel.cpp:101 src/ProviderListModel.cpp:111
-msgctxt "ProviderListModel|"
-msgid "Unlimited"
-msgstr ""
-
-#. +> stable6
-#: src/ProviderListModel.cpp:113
-#, qt-format
-msgctxt "ProviderListModel|"
-msgid "%1 days"
-msgstr ""
-
-#. +> stable6
-#: src/qml/details/ContactDetailsHeader.qml:17
-msgctxt "ContactDetailsHeader|"
-msgid "Maximize avatar"
-msgstr ""
-
-#. +> stable6
-#: src/qml/elements/GroupChatParticipantPicker.qml:58
-msgctxt "GroupChatParticipantPicker|"
-msgid "Invite contacts to this group…"
-msgstr ""
-
-#. +> stable6
-#: src/QrCodeGenerator.cpp:46
-#, qt-format
-msgctxt "QrCodeGenerator|"
-msgid "Generating the QR code failed: %1"
 msgstr ""

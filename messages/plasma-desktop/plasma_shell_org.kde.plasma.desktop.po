@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-10 10:23+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -12,18 +12,60 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/activitymanager/ActivityItem.qml:203
 #, kde-format
+msgctxt "@info:status currently active activity"
 msgid "Currently being used"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/activitymanager/ActivityItem.qml:212
+msgid "Currently being used"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/activitymanager/ActivityItem.qml:243
 #, kde-format
+msgctxt "@action shows when dragging file over item"
 msgid ""
 "Move to\n"
 "this activity"
+msgstr ""
+
+#. +> stable5
+#: contents/activitymanager/ActivityItem.qml:252
+msgid ""
+"Move to\n"
+"this activity"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/activitymanager/ActivityItem.qml:273
+#, kde-format
+msgctxt "@action shows when dragging file over item"
+msgid ""
+"Show also\n"
+"in this activity"
+msgstr ""
+
+#. +> stable5
+#: contents/activitymanager/ActivityItem.qml:282
+msgid ""
+"Show also\n"
+"in this activity"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/activitymanager/ActivityItem.qml:335
+#, kde-format
+msgctxt "@action:button tooltip only, opens kcm"
+msgid "Configure"
+msgstr ""
+
+#. +> stable5
+#: contents/activitymanager/ActivityItem.qml:342
+msgid "Configure"
 msgstr ""
 
 #. +> stable5
@@ -31,29 +73,27 @@ msgstr ""
 msgid "Stop activity"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: contents/activitymanager/ActivityItem.qml:273
-#, kde-format
-msgid ""
-"Show also\n"
-"in this activity"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: contents/activitymanager/ActivityItem.qml:335
-#, kde-format
-msgid "Configure"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/activitymanager/ActivityManager.qml:118
 #, kde-format
+msgctxt "@action:button opens Activity kcm"
 msgid "Create activity…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/activitymanager/ActivityManager.qml:127
+msgid "Create activity…"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/activitymanager/Heading.qml:59
 #, kde-format
+msgctxt "@title:window"
+msgid "Activities"
+msgstr ""
+
+#. +> stable5
+#: contents/activitymanager/Heading.qml:61
 msgid "Activities"
 msgstr ""
 
@@ -62,42 +102,83 @@ msgstr ""
 msgid "Sorry! There was an error loading %1."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/applet/AppletError.qml:165
 #, kde-format
+msgctxt "@action:button"
 msgid "Copy to Clipboard"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/applet/AppletError.qml:161
+msgid "Copy to Clipboard"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/applet/AppletError.qml:188
 #, kde-format
+msgctxt "@action:button opens dialog"
 msgid "View Error Details…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/applet/AppletError.qml:184
+msgid "View Error Details…"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/applet/CompactApplet.qml:91
 #, kde-format
+msgctxt "@info:whatsthis Accessible description for panel widget %1"
 msgid "Open %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/applet/CompactApplet.qml:71
+msgid "Open %1"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/AboutPlugin.qml:21
-#: contents/configuration/AppletConfiguration.qml:320
 #, kde-format
+msgctxt "@title:window About this widget"
 msgid "About"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/AboutPlugin.qml:19
+#: contents/configuration/AppletConfiguration.qml:245
+msgid "About"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/AboutPlugin.qml:51
 #, kde-format
+msgctxt "plasma_shell_org.kde.plasma.desktop"
 msgid "Send an email to %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/AboutPlugin.qml:47
+msgid "Send an email to %1"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/AboutPlugin.qml:65
 #, kde-format
+msgctxt "@action:button icononly for tooltip & accessible %1 is url"
+msgid "Open website %1"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/AboutPlugin.qml:61
 msgctxt "@info:tooltip %1 url"
 msgid "Open website %1"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/AboutPlugin.qml:145 contents/explorer/Tooltip.qml:93
+msgid "License:"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -107,90 +188,128 @@ msgctxt "@title:group"
 msgid "Website"
 msgstr ""
 
-#. +> trunk6
+#. +> stable5
+#: contents/configuration/AboutPlugin.qml:148
+msgctxt "@info:whatsthis"
+msgid "View license text"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/AboutPlugin.qml:157
 #, kde-format
 msgctxt "@title:group"
 msgid "Get Help"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: contents/configuration/AboutPlugin.qml:165
 #, kde-format
+msgctxt "@action:button urlbutton"
 msgid "Report an issue"
 msgstr ""
 
-#. +> stable6 stable5
-#: contents/configuration/AboutPlugin.qml:235
-#, kde-format
-msgid "Report a Bug…"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/AboutPlugin.qml:172
 #, kde-format
+msgctxt "@title license information"
 msgid "Copyright"
 msgstr ""
 
-#. +> stable6 stable5
-#: contents/configuration/AboutPlugin.qml:175
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid "View license text"
+#. +> stable5
+#: contents/configuration/AboutPlugin.qml:125
+msgid "Copyright"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: contents/configuration/AboutPlugin.qml:191
 #, kde-format
+msgctxt "@label %1 is the short SPDX text for the license"
 msgid "License: %1"
 msgstr ""
 
-#. +> stable6 stable5
-#: contents/configuration/AboutPlugin.qml:170
-#, kde-format
-msgid "License:"
+#. +> stable5
+#: contents/configuration/AboutPlugin.qml:195
+msgid "Report a Bug…"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: contents/configuration/AboutPlugin.qml:197
 #, kde-format
 msgctxt "@action:button"
 msgid "Read License"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/AboutPlugin.qml:211
 #, kde-format
+msgctxt "@title:group"
 msgid "Authors"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/AboutPlugin.qml:160
+msgid "Authors"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/AboutPlugin.qml:223
 #, kde-format
+msgctxt "@title:group"
 msgid "Credits"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/AboutPlugin.qml:170
+msgid "Credits"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/AboutPlugin.qml:236
 #, kde-format
+msgctxt "@title:group"
 msgid "Translators"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/AboutPlugin.qml:181
+msgid "Translators"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/AppletConfiguration.qml:90
 #, kde-format
+msgctxt "@title:group for configuration dialog page"
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: contents/configuration/AppletConfiguration.qml:368
+#. +> stable5
+#: contents/configuration/AppletConfiguration.qml:56
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/configuration/AppletConfiguration.qml:337
 #, kde-format
+msgctxt "@title:group for About dialog page"
+msgid "About"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/configuration/AppletConfiguration.qml:385
+#, kde-format
+msgctxt "@title:window dialog title"
+msgid "Apply Settings"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/AppletConfiguration.qml:294
 msgid "Apply Settings"
 msgstr ""
 
 #. +> trunk6 stable6
-#: contents/configuration/AppletConfiguration.qml:369
+#: contents/configuration/AppletConfiguration.qml:386
 #, kde-format
+msgctxt "@label dialog body"
 msgid "The current page has unsaved changes. Apply the changes or discard them?"
 msgstr ""
 
@@ -199,93 +318,184 @@ msgstr ""
 msgid "The settings of the current module have changed. Do you want to apply the changes or discard them?"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: contents/configuration/AppletConfiguration.qml:401
+#. +> trunk6 stable6
+#: contents/configuration/AppletConfiguration.qml:418
 #, kde-format
+msgctxt "@action:button"
 msgid "OK"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: contents/configuration/AppletConfiguration.qml:408
+#. +> stable5
+#: contents/configuration/AppletConfiguration.qml:325
+msgid "OK"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/configuration/AppletConfiguration.qml:425
 #, kde-format
+msgctxt "@action:button"
 msgid "Apply"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: contents/configuration/AppletConfiguration.qml:414
+#. +> stable5
+#: contents/configuration/AppletConfiguration.qml:333
+msgid "Apply"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/configuration/AppletConfiguration.qml:431
 #, kde-format
+msgctxt "@action:button"
 msgid "Cancel"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/AppletConfiguration.qml:339
+#: contents/explorer/AppletAlternatives.qml:179
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigCategoryDelegate.qml:26
 #, kde-format
+msgctxt "@info:whatsthis Accessible description for sidebar entries opening configuration page"
 msgid "Open configuration page"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigCategoryDelegate.qml:27
+msgid "Open configuration page"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentActions.qml:19
 #, kde-format
+msgctxt "@label for shortcuts"
 msgid "Left-Button"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentActions.qml:21
+msgid "Left-Button"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentActions.qml:20
 #, kde-format
+msgctxt "@label for shortcuts"
 msgid "Right-Button"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentActions.qml:22
+msgid "Right-Button"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentActions.qml:21
 #, kde-format
+msgctxt "@label for shortcuts"
 msgid "Middle-Button"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentActions.qml:23
+msgid "Middle-Button"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentActions.qml:22
 #, kde-format
+msgctxt "@label for shortcuts"
 msgid "Back-Button"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentActions.qml:24
+msgid "Back-Button"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentActions.qml:23
 #, kde-format
+msgctxt "@label for shortcuts"
 msgid "Forward-Button"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentActions.qml:25
+msgid "Forward-Button"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentActions.qml:25
 #, kde-format
+msgctxt "@label for shortcuts"
 msgid "Vertical-Scroll"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentActions.qml:27
+msgid "Vertical-Scroll"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentActions.qml:26
 #, kde-format
+msgctxt "@label for shortcuts"
 msgid "Horizontal-Scroll"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentActions.qml:28
+msgid "Horizontal-Scroll"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentActions.qml:28
 #, kde-format
+msgctxt "@label for shortcuts"
 msgid "Shift"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentActions.qml:30
+msgid "Shift"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentActions.qml:29
 #, kde-format
+msgctxt "@label for shortcuts"
 msgid "Ctrl"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentActions.qml:31
+msgid "Ctrl"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentActions.qml:30
 #, kde-format
+msgctxt "@label for shortcuts"
 msgid "Alt"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentActions.qml:32
+msgid "Alt"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentActions.qml:31
 #, kde-format
+msgctxt "@label for shortcuts"
+msgid "Meta"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentActions.qml:33
 msgid "Meta"
 msgstr ""
 
@@ -296,10 +506,10 @@ msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
 msgid "+"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentActions.qml:139
-#: contents/configuration/MouseEventInputButton.qml:13
 #, kde-format
+msgctxt "@action:button"
 msgid "Add Action"
 msgstr ""
 
@@ -309,45 +519,93 @@ msgctxt "@title"
 msgid "About"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentActions.qml:182
+#: contents/configuration/MouseEventInputButton.qml:13
+msgid "Add Action"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentAppearance.qml:76
 #, kde-format
+msgctxt "@info:status inlinemessage"
 msgid "Layout changes have been restricted by the system administrator"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentAppearance.qml:78
+msgid "Layout changes have been restricted by the system administrator"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentAppearance.qml:91
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Layout:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentAppearance.qml:93
+msgid "Layout:"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentAppearance.qml:114
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Wallpaper type:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentAppearance.qml:107
+msgid "Wallpaper type:"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentAppearance.qml:153
 #, kde-format
+msgctxt "@action:button"
 msgid "Get New Plugins…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentAppearance.qml:127
+msgid "Get New Plugins…"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentAppearance.qml:243
 #, kde-format
+msgctxt "@info"
 msgid "Layout changes must be applied before other changes can be made"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentAppearance.qml:195
+msgid "Layout changes must be applied before other changes can be made"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationContainmentAppearance.qml:247
 #, kde-format
+msgctxt "@action:button"
 msgid "Apply Now"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ConfigurationContainmentAppearance.qml:199
+msgid "Apply Now"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ConfigurationShortcuts.qml:16
 #, kde-format
+msgctxt "@title:window for configuration page"
+msgid "Shortcuts"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/ConfigurationShortcuts.qml:16
 msgid "Shortcuts"
 msgstr ""
 
@@ -363,27 +621,53 @@ msgctxt "@action:button set keyboard shortcut for"
 msgid "Activate widget as if clicked:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/ContainmentConfiguration.qml:26
 #, kde-format
+msgctxt "@title:group for configuration dialog page"
 msgid "Wallpaper"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ContainmentConfiguration.qml:29
+msgid "Wallpaper"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ContainmentConfiguration.qml:31
 #, kde-format
+msgctxt "@title:group for configuration dialog page"
 msgid "Mouse Actions"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ContainmentConfiguration.qml:34
+msgid "Mouse Actions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/configuration/MouseEventInputButton.qml:13
+#, kde-format
+msgctxt "@action:button inactive state for button recording mouse input"
+msgid "Add Action"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/MouseEventInputButton.qml:20
 #, kde-format
+msgctxt "@action:button active state for button recording mouse input"
+msgid "Input Here"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/MouseEventInputButton.qml:20
 msgid "Input Here"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:99
 #, kde-format
+msgctxt "@title:window"
 msgid "Panel Settings"
 msgstr ""
 
@@ -411,177 +695,189 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:162
 #, kde-format
+msgctxt "@title:group"
 msgid "Position"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:167
-#: contents/configuration/PanelConfiguration.qml:282
 #, kde-format
+msgctxt "@label panel screen edge"
 msgid "Top"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:168
-#: contents/configuration/PanelConfiguration.qml:284
 #, kde-format
+msgctxt "@label panel screen edge"
 msgid "Right"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:169
-#: contents/configuration/PanelConfiguration.qml:282
 #, kde-format
+msgctxt "@label panel screen edge"
 msgid "Left"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:170
-#: contents/configuration/PanelConfiguration.qml:284
 #, kde-format
+msgctxt "@label panel screen edge"
 msgid "Bottom"
-msgstr ""
-
-#. +> stable5
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:176
-msgid "Maximize Panel"
-msgstr ""
-
-#. +> stable5
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:184
-msgid "Floating Panel"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:190
 #, kde-format
+msgctxt "action:button"
 msgid "Set Position…"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:217
 #, kde-format
+msgctxt "@title:group"
 msgid "Alignment"
 msgstr ""
 
-#. +> stable5
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:47
-msgid "Panel Alignment"
+#. +> trunk6 stable6
+#: contents/configuration/PanelConfiguration.qml:282
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Top"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
+#: contents/configuration/PanelConfiguration.qml:282
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Left"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:283
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Center"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/configuration/PanelConfiguration.qml:284
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Bottom"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/configuration/PanelConfiguration.qml:284
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Right"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:314
 #, kde-format
+msgctxt "@title:group panel height"
 msgid "Height"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:315
 #, kde-format
+msgctxt "@title:group panel width"
 msgid "Width"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:334
 #, kde-format
+msgctxt "@item:inlistbox panel fills the full height of the display"
 msgid "Fill height"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:334
 #, kde-format
+msgctxt "@item:inlistbox panel fills the full width of the display"
 msgid "Fill width"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:335
 #, kde-format
+msgctxt "@item:inlistbox panel is just big enough to fit its content"
 msgid "Fit content"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:336
 #, kde-format
+msgctxt "@item:inlistbox panel size"
 msgid "Custom"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:369
 #, kde-format
+msgctxt "@title:group"
 msgid "Visibility"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:387
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Always visible"
-msgstr ""
-
-#. +> stable5
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:107
-msgid "Always Visible"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:388
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Auto hide"
-msgstr ""
-
-#. +> stable5
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:114
-msgid "Auto Hide"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:389
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Dodge windows"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:390
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Windows go below"
 msgstr ""
 
-#. +> stable5
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:121
-msgid "Windows Can Cover"
-msgstr ""
-
-#. +> stable5
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:128
-msgid "Windows Go Below"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:450
 #, kde-format
+msgctxt "@title:group"
 msgid "Opacity"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:466
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Adaptive"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:467
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Opaque"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:468
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Translucent"
 msgstr ""
 
@@ -623,30 +919,43 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:647
 #, kde-format
+msgctxt "@label:spinbox"
 msgid "Panel Width:"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:648
 #, kde-format
+msgctxt "@label:spinbox"
 msgid "Panel Height:"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:671
 #, kde-format
+msgctxt "@title:group shortcut that moves focus to the panel"
 msgid "Focus shortcut:"
 msgstr ""
 
-#. +> stable5
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:200
-msgid "Shortcut"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:682
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Press this keyboard shortcut to move focus to the Panel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/configuration/PanelConfiguration.qml:689
+#, kde-format
+msgctxt "@action:button accessible name"
+msgid "Focus Shortcut Setter"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/configuration/PanelConfiguration.qml:690
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for button"
+msgid "Button to set the shortcut for the panel to gain focus"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -659,7 +968,8 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:719
 #, kde-format
-msgid "Remove this panel; this action is undo-able"
+msgctxt "@info:tooltip for button"
+msgid "Remove this panel; this action can be undone"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -672,7 +982,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:732
 #, kde-format
-msgctxt "@info:tooltip"
+msgctxt "@info:tooltip for button"
 msgid "Create a new panel with the same settings and applets"
 msgstr ""
 
@@ -693,6 +1003,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/configuration/PanelConfiguration.qml:744
 #, kde-format
+msgctxt "@info:tooltip for button"
 msgid "Close Panel Settings window and exit Edit Mode"
 msgstr ""
 
@@ -777,6 +1088,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/configuration/ShellContainmentConfiguration.qml:19
 #, kde-format
+msgctxt "@title:window"
 msgid "Manage Panels and Desktops"
 msgstr ""
 
@@ -785,51 +1097,89 @@ msgstr ""
 msgid "Panels and Desktops Management"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/ShellContainmentConfiguration.qml:34
 #, kde-format
+msgctxt "@info:usagetip"
 msgid "You can drag Panels and Desktops around to move them to different screens."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/ShellContainmentConfiguration.qml:34
+msgid "You can drag Panels and Desktops around to move them to different screens."
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/ShellContainmentConfiguration.qml:44
 #, kde-format
+msgctxt "@action:button Close window"
 msgid "Close"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/shellcontainmentconfiguration/Delegate.qml:187
 #, kde-format
+msgctxt "@action:inmenu"
 msgid "Swap with Desktop on Screen %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:178
+msgid "Swap with Desktop on Screen %1"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/shellcontainmentconfiguration/Delegate.qml:188
 #, kde-format
+msgctxt "@action:inmenu"
 msgid "Move to Screen %1"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:179
+msgid "Move to Screen %1"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/shellcontainmentconfiguration/Delegate.qml:202
 #, kde-format
+msgctxt "@action:inmenu"
 msgid "Remove Desktop"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:193
+msgid "Remove Desktop"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/configuration/shellcontainmentconfiguration/Delegate.qml:203
 #, kde-format
+msgctxt "@action:inmenu"
 msgid "Remove Panel"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/configuration/shellcontainmentconfiguration/Delegate.qml:279
 #, kde-format
+msgctxt "@info % is screen name"
 msgid "%1 (primary)"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:267
+msgid "%1 (primary)"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/explorer/AppletAlternatives.qml:70
 #, kde-format
+msgctxt "@title:window for widget alternatives explorer"
+msgid "Alternative Widgets"
+msgstr ""
+
+#. +> stable5
+#: contents/explorer/AppletAlternatives.qml:63
 msgid "Alternative Widgets"
 msgstr ""
 
@@ -848,6 +1198,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/explorer/AppletDelegate.qml:47
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Unsupported Widget"
 msgstr ""
 
@@ -887,13 +1238,14 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/explorer/AppletDelegate.qml:217
 #, kde-format
+msgctxt "@action:button tooltip and accessible cancel uninstall widget"
 msgid "Cancel Uninstallation"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/explorer/AppletDelegate.qml:218
 #, kde-format
-msgctxt "@info:tooltip uninstall a widget"
+msgctxt "@action:button tooltip and accessible uninstall widget"
 msgid "Mark for Uninstallation"
 msgstr ""
 
@@ -914,6 +1266,7 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/explorer/AppletDelegate.qml:265
 #, kde-format
+msgctxt "@action:button"
 msgid "Remove all instances"
 msgstr ""
 
@@ -926,16 +1279,29 @@ msgid_plural "Remove all %1 running instances of widget %2"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/explorer/WidgetExplorer.qml:140
 #: contents/explorer/WidgetExplorer.qml:223
 #, kde-format
+msgctxt "@action:button like listbox, switches category to all widgets"
 msgid "All Widgets"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/explorer/WidgetExplorer.qml:134
+#: contents/explorer/WidgetExplorer.qml:245
+msgid "All Widgets"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/explorer/WidgetExplorer.qml:169
 #, kde-format
+msgctxt "@title:group for widget grid"
+msgid "Widgets"
+msgstr ""
+
+#. +> stable5
+#: contents/explorer/WidgetExplorer.qml:199
 msgid "Widgets"
 msgstr ""
 
@@ -972,9 +1338,15 @@ msgctxt "@label:textbox accessible"
 msgid "Search through widgets"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/explorer/WidgetExplorer.qml:237
 #, kde-format
+msgctxt "@action:button tooltip only"
+msgid "Categories"
+msgstr ""
+
+#. +> stable5
+#: contents/explorer/WidgetExplorer.qml:256
 msgid "Categories"
 msgstr ""
 
@@ -987,15 +1359,27 @@ msgid_plural "Uninstall (%1 Widgets)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: contents/explorer/WidgetExplorer.qml:389
 #, kde-format
+msgctxt "@info placeholdermessage"
 msgid "No widgets matched the search terms"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> stable5
+#: contents/explorer/WidgetExplorer.qml:339
+msgid "No widgets matched the search terms"
+msgstr ""
+
+#. +> trunk6 stable6
 #: contents/explorer/WidgetExplorer.qml:389
 #, kde-format
+msgctxt "@info placeholdermessage"
+msgid "No widgets available"
+msgstr ""
+
+#. +> stable5
+#: contents/explorer/WidgetExplorer.qml:339
 msgid "No widgets available"
 msgstr ""
 
@@ -1065,30 +1449,35 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/lockscreen/LockScreenUi.qml:48
 #, kde-format
+msgctxt "@info:status"
 msgid "Unlocking failed"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/lockscreen/LockScreenUi.qml:281
 #, kde-format
+msgctxt "@info:status"
 msgid "Caps Lock is on"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/lockscreen/LockScreenUi.qml:295
 #, kde-format
+msgctxt "@action:button"
 msgid "Slee&p"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/lockscreen/LockScreenUi.qml:301
 #, kde-format
+msgctxt "@action:button"
 msgid "&Hibernate"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/lockscreen/LockScreenUi.qml:307
 #, kde-format
+msgctxt "@action:button"
 msgid "Switch &User"
 msgstr ""
 
@@ -1109,56 +1498,71 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/lockscreen/MainBlock.qml:65
 #, kde-format
+msgctxt "@info:placeholder in text field"
 msgid "Password"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/lockscreen/MainBlock.qml:114
-#: contents/lockscreen/NoPasswordUnlock.qml:17
 #, kde-format
+msgctxt "@action:button accessible only"
 msgid "Unlock"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/lockscreen/MainBlock.qml:163
 #, kde-format
+msgctxt "@info:usagetip"
 msgid "(or scan your fingerprint on the reader)"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/lockscreen/MainBlock.qml:167
 #, kde-format
+msgctxt "@info:usagetip"
 msgid "(or scan your smartcard)"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/lockscreen/MediaControls.qml:59
 #, kde-format
+msgctxt "@info:status"
 msgid "No title"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/lockscreen/MediaControls.qml:60
 #, kde-format
+msgctxt "@info:status"
 msgid "No media playing"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/lockscreen/MediaControls.qml:88
 #, kde-format
+msgctxt "@action:button Accessible only"
 msgid "Previous track"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/lockscreen/MediaControls.qml:100
 #, kde-format
+msgctxt "@action:button Accessible only"
 msgid "Play or Pause media"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/lockscreen/MediaControls.qml:110
 #, kde-format
+msgctxt "@action:button Accessible only"
 msgid "Next track"
+msgstr ""
+
+#. +> trunk6 stable6
+#: contents/lockscreen/NoPasswordUnlock.qml:17
+#, kde-format
+msgctxt "@action:button no-password unlock"
+msgid "Unlock"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -1171,30 +1575,132 @@ msgstr ""
 #. +> trunk6 stable6
 #: contents/views/DesktopEditMode.qml:131
 #, kde-format
+msgctxt "@action:button"
 msgid "Exit Edit Mode"
 msgstr ""
 
 #. +> trunk6 stable6
 #: contents/views/Panel.qml:326
 #, kde-format
+msgctxt "@info:whatsthis Accessible name"
 msgid "Panel Focus Indicator"
-msgstr ""
-
-#. +> stable6 stable5
-#: contents/activitymanager/StoppedActivityItem.qml:138
-#, kde-format
-msgid "Configure activity"
-msgstr ""
-
-#. +> stable6 stable5
-#: contents/activitymanager/StoppedActivityItem.qml:155
-#, kde-format
-msgid "Delete"
 msgstr ""
 
 #. +> stable5
 #: contents/activitymanager/ActivityList.qml:143
 msgid "Stopped activities:"
+msgstr ""
+
+#. +> stable5
+#: contents/activitymanager/StoppedActivityItem.qml:133
+msgid "Configure activity"
+msgstr ""
+
+#. +> stable5
+#: contents/activitymanager/StoppedActivityItem.qml:148
+msgid "Delete"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:39
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:194
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:194
+msgid "Remove Panel"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:47
+msgid "Panel Alignment"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:63
+msgid "Top"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:63
+msgid "Left"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:73
+msgid "Center"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:83
+msgid "Bottom"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:83
+msgid "Right"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:93
+msgid "Visibility"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:107
+msgid "Always Visible"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:114
+msgid "Auto Hide"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:121
+msgid "Windows Can Cover"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:128
+msgid "Windows Go Below"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:137
+msgid "Opacity"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:154
+msgid "Adaptive"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:161
+msgid "Opaque"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:168
+msgid "Translucent"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:176
+msgid "Maximize Panel"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:184
+msgid "Floating Panel"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:200
+msgid "Shortcut"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:213
+msgid "Press this keyboard shortcut to move focus to the Panel"
 msgstr ""
 
 #. +> stable5
@@ -1232,6 +1738,12 @@ msgstr ""
 #. +> stable5
 #: contents/configuration/panelconfiguration/ToolBar.qml:282
 msgid "Panel height:"
+msgstr ""
+
+#. +> stable5
+#: contents/configuration/panelconfiguration/ToolBar.qml:402
+#: contents/configuration/ShellContainmentConfiguration.qml:43
+msgid "Close"
 msgstr ""
 
 #. +> stable5

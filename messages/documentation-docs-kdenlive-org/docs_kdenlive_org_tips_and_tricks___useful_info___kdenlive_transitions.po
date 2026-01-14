@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-14 09:48+0200\n"
+"POT-Creation-Date: 2026-01-12 10:01+0100\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -64,8 +64,8 @@ msgstr ""
 
 #. +> trunk5
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:48
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:165
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:170
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:159
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:164
 msgid "Layer Compositing"
 msgstr ""
 
@@ -95,267 +95,267 @@ msgid "Let's start with those **standard transitions** most users would probably
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:70
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:69
 msgid "**Dissolve**: gradually transitions from one clip to another. So it is kind of fading between the two clips. (See also the Wikipedia article on `Dissolve. <https://en.wikipedia.org/wiki/Dissolve_%28filmmaking%29>`_)"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:79
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:77
 msgid "**Slide**: gradually replaces one clip by another clip, by traveling from one side of the frame to another (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:88
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:85
 msgid "**Wipe**: one clip gradually replaces another clip, often in form of some shape. (See also the Wikipedia article on `Wipe <https://en.wikipedia.org/wiki/Wipe_%28transition%29>`_.)"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:92
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:89
 msgid "These three transitions do not offer any (user-) keyframes. Instead, their *start* and *end* keyframes are *implicit* and fixed to the *start* and *end* of the transition respectively."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:94
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:91
 msgid "When using two separate tracks for transitions, as time moves forward in the timeline, these transitions change (or kind of fade) from the clip on the upper track to the clip on the lower track. The somewhat strangely named transition parameter :guilabel:`Reverse` allows you to switch the track roles: if :guilabel:`Reverse` is checked, then these transitions change from the lower track to the upper track, as time progresses. Simply put: ▼ :guilabel:`Reverse` **off**: transition from upper track to ▼ lower track; ▲ :guilabel:`Reverse` **on**: transition from lower track to ▲ upper track instead."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:100
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:97
 msgid "Dynamic Compositing Transitions"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:105
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:101
 msgid "To some degree, Kdenlive supports (simple) compositing in its timeline. Actually, even this simple compositing can get you a long way in many projects (as the above screenshot may hint at). Kdenlive currently offers the following (keyframable) compositing transitions:"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:109
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:105
 msgid "Allows to size, rotate, skew, and position. Together with keyframes, this transition is really versatile. Its only drawbacks are that it is slower than other complex transitions (due to the affine transformation), and it does not support wipes (which only **Composite** and **Region** support in this class of transitions)."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:112
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:108
 msgid "A simple compositing transition, supporting several compositing modes. In addition, the opacity of the upper frames can be controlled. This transition also supports keyframes."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:115
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:111
 msgid "This has the functionality of both **Affine** and **Composite**: position, rotate (you can even control the center of rotation!), and finally skew. And all this is keyframable."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:118
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:114
 msgid "Allows keyframed dissolves, wipes, and swipes; and all this in the same transition. In contrast to **Affine**, it does not support rotation or skewing. The downsides of Composite are: :term:`luma` bleed, and less precise position control. When compared to **Affine**, the **Composite** transition is much faster, albeit at the cost of luma bleed."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:121
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:117
 msgid "This is a rather new transition that made its debut with Kdenlive 16.04. It allows to easily composite clips onto each other (supported several compositing modes), as well as to move the upper track clips. However, there is neither support for scaling nor for rotation, but for dynamic opacity. And keyframes are supported. In those situations, use **Affine** or **Cairo Affine Blend** instead."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:124
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:120
 msgid "Like **Composite**, but restricted to a region in form of a matte. In the **Region** transition properties, this matte is called the **Transparency clip**."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:127
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:123
 msgid "Admittedly, MLT and Kdenlive offer a lot of choice here; probably too much choice. A non-representative poll in our official Kdenlive G+ community showed that **Composite** is used the most, followed by **Composite & Transform** and **Affine**."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:133
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:129
 msgid "Compositing with Transparency"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:135
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:131
 msgid "**Composite & Transform** is Kdenlive's new darling, as it will make life much easier for many, if not most Kdenlive users. When compared to **Affine**, this new transition is also faster in the standard compositing cases. Moreover, **Composite & Transform** defaults to the alpha (transparency) compositing mode (paint) *over* - which is what probably most users need when compositing. In contrast, **Affine** uses the atop alpha compositing strategy that can drive unexpected users mad."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:144
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:139
 msgid "**Composite & Transform** - whatever semi or non-transparent is in the frame from the upper track, it will be painted over the frame from the lower track. Hence the name of this compositing mode: over. Please note: in the transition properties, this mode is to be found as **Compositing**: **Alpha Blend** instead."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:146
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:141
 msgid "In addition, **Composite**, **Cairo Blend**, and **Cairo Affine Blend** also use the same over compositing strategy, as Composite & Transform does. For **Cairo Blend** and **Cairo Affine Blend** this **Blend mode** is called **Normal** instead."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:155
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:149
 msgid "**Affine** - as the simple rule of thumb, transparency is solely controlled by the *lower* track. Any transparency information from the upper track simply gets completely ignored. In consequence, if your lower frame has regions of full transparency, whatever falls within them on the upper frame will be invisible! You can see this result also in the screenshot."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:157
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:151
 msgid "At least at this time, **Composite & Transform** does not support this alpha handling as **Affine** does."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:167
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:161
 msgid "This third kind of Kdenlive/MLT transitions mostly work similar to layer modes in image editors, such as |gimp|, for example. These static layer compositing transitions do not have any parameters at all. This category actually has the most Kdenlive transitions to offer:"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:175
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:169
 msgid "Addition"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:176
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:170
 msgid "Addition Alpha"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:177
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:171
 msgid "Burn"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:178
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:172
 msgid "Color Only"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:179
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:173
 msgid "Darken"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:180
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:174
 msgid "Difference"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:181
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:175
 msgid "Divide"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:182
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:176
 msgid "Dodge"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:183
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:177
 msgid "Grain Handling: Extract / Merge"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:184
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:178
 msgid "Hardlight / Overlay"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:185
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:179
 msgid "Hue"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:186
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:180
 msgid "Lighten"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:187
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:181
 msgid "Multiply"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:188
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:182
 msgid "Overlay / Hardlight"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:189
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:183
 msgid "Saturation"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:190
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:184
 msgid "Screen"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:191
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:185
 msgid "Softlight"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:192
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:186
 msgid "Substract"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:193
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:187
 msgid "UV Map"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:194
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:188
 msgid "Value"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:195
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:189
 msgid "Video Quality Management"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:198
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:192
 msgid "Alpha Compositing"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:203
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:197
 msgid "Alpha atop"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:204
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:198
 msgid "Alpha in"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:205
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:199
 msgid "Alpha out"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:206
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:200
 msgid "Alpha over"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:207
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:201
 msgid "Alpha XOR"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:208
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:202
 msgid "Matte"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:212
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:206
 msgid "Kdenlive's (or, :abbr:`MLT (Media Lovin' Toolkit - An open source software multimedia framework designed and developed for tv broadcasting)`'s) fixed compositing transitions do not have a transparency parameter. To some extent, you may substitute the **Cairo Blend** transition, which has an opacity parameter."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:217
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:211
 msgid "Notes"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:223
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:217
 msgid "The original text was submitted by user *TheDiveO* to the now defunct kdenlive.org blog. For this documentation it has been lifted from |kdenlive_org|, updated and adapted to match the overall style."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:224
+#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:218
 msgid "**Sources**"
 msgstr ""
 
@@ -367,36 +367,6 @@ msgstr ""
 #. +> trunk5
 #: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:-1
 msgid "KDE, Kdenlive, tips, tricks, tips & tricks, useful information, transitions, timeline, editing, documentation, user manual, video editor, open source, free, learn, easy"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:-1
-msgid "transition-compositing-galore"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:-1
-msgid "composite-transition-over"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:-1
-msgid "affine-transition-atop"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:0
-msgid "kdenlive2308_clip_to_clip_dissolve.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:0
-msgid "kdenlive2308_clip_to_clip_slide.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/kdenlive_transitions.rst:0
-msgid "kdenlive2308_clip_to_clip_wipe.webp"
 msgstr ""
 
 #. +> trunk5

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_wallpaper_image\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-29 10:14+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2010-12-17 21:19+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -30,7 +30,7 @@ msgid "Your emails"
 msgstr "donga.nb@gmail.com"
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/AddFileDialog.qml:58
+#: imagepackage/contents/ui/AddFileDialog.qml:59
 #, fuzzy, kde-format
 #| msgid "Open Wallpaper Image"
 msgctxt "@title:window"
@@ -38,14 +38,20 @@ msgid "Open Image"
 msgstr "เปิดภาพพื้นหลัง"
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/AddFileDialog.qml:70
+#: imagepackage/contents/ui/AddFileDialog.qml:71
 #, kde-format
 msgctxt "@title:window"
 msgid "Directory with the wallpaper to show slides from"
 msgstr ""
 
+#. +> stable5
+#: imagepackage/contents/ui/config.qml:113
+#, kde-format
+msgid "Tiled"
+msgstr "ปูภาพ"
+
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/config.qml:156
+#: imagepackage/contents/ui/config.qml:159
 #, fuzzy, kde-format
 #| msgid "&Positioning:"
 msgctxt "@label:listbox"
@@ -60,7 +66,7 @@ msgid "Positioning:"
 msgstr "ตำแ&หน่งภาพ:"
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/config.qml:159
+#: imagepackage/contents/ui/config.qml:162
 #, fuzzy, kde-format
 #| msgid "Scaled & Cropped"
 msgctxt "@item:inlistbox"
@@ -75,7 +81,7 @@ msgid "Scaled and Cropped"
 msgstr "ปรับขนาดให้เต็มจอและตัดส่วนล้น"
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/config.qml:163
+#: imagepackage/contents/ui/config.qml:166
 #, fuzzy, kde-format
 #| msgid "Scaled"
 msgctxt "@item:inlistbox"
@@ -89,7 +95,7 @@ msgid "Scaled"
 msgstr "ปรับขนาดให้เต็มจอ"
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/config.qml:167
+#: imagepackage/contents/ui/config.qml:170
 #, fuzzy, kde-format
 #| msgid "Scaled, keep proportions"
 msgctxt "@item:inlistbox"
@@ -104,7 +110,7 @@ msgid "Scaled, Keep Proportions"
 msgstr "ปรับขนาดให้เต็มจอ โดยรักษาสัดส่วนภาพด้วย"
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/config.qml:171
+#: imagepackage/contents/ui/config.qml:174
 #, fuzzy, kde-format
 #| msgid "Centered"
 msgctxt "@item:inlistbox"
@@ -118,19 +124,12 @@ msgid "Centered"
 msgstr "จัดกึ่งกลาง"
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/config.qml:199
+#: imagepackage/contents/ui/config.qml:202
 #, fuzzy, kde-format
 #| msgid "Get New Wallpapers..."
 msgctxt "@label:listbox part of a sentence: 'Switch dynamic wallpapers [based on]'"
 msgid "Switch dynamic wallpapers:"
 msgstr "หาภาพพื้นหลังใหม่ ๆ ..."
-
-#. +> trunk6 stable6
-#: imagepackage/contents/ui/config.qml:207
-#, kde-format
-msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
-msgid "Based on whether the Plasma style is light or dark "
-msgstr ""
 
 #. +> stable5
 #: imagepackage/contents/ui/config.qml:207
@@ -139,17 +138,17 @@ msgid "Add Image…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/config.qml:209
+#: imagepackage/contents/ui/config.qml:210
 #, kde-format
 msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
-msgid "Based on the day-night cycle"
+msgid "Based on whether the Plasma style is light or dark "
 msgstr ""
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/config.qml:213
+#: imagepackage/contents/ui/config.qml:212
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Always use light variant"
+msgctxt "@item:inlistbox part of a sentence: 'Switch dynamic wallpapers'"
+msgid "Based on the day-night cycle"
 msgstr ""
 
 #. +> stable5
@@ -161,53 +160,46 @@ msgid "Get New Wallpapers…"
 msgstr "หาภาพพื้นหลังใหม่ ๆ ..."
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/config.qml:217
+#: imagepackage/contents/ui/config.qml:216
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always use light variant"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imagepackage/contents/ui/config.qml:220
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Always use dark variant"
 msgstr ""
 
-#. +> stable6
-#: imagepackage/contents/ui/config.qml:175
-#, fuzzy, kde-format
-#| msgid "Tiled"
-msgctxt "@item:inlistbox"
-msgid "Tiled"
-msgstr "ปูภาพ"
-
-#. +> stable5
-#: imagepackage/contents/ui/config.qml:113
-#, kde-format
-msgid "Tiled"
-msgstr "ปูภาพ"
-
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/config.qml:227
+#: imagepackage/contents/ui/config.qml:234
 #, kde-format
 msgctxt "@action:button Configure day-night cycle times"
 msgid "Configure…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: imagepackage/contents/ui/config.qml:238
+#: imagepackage/contents/ui/config.qml:245
 #, kde-format
 msgid "Background:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: imagepackage/contents/ui/config.qml:239
+#: imagepackage/contents/ui/config.qml:246
 #, kde-format
 msgid "Blur"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: imagepackage/contents/ui/config.qml:248
+#: imagepackage/contents/ui/config.qml:255
 #, kde-format
 msgid "Solid color"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: imagepackage/contents/ui/config.qml:259
+#: imagepackage/contents/ui/config.qml:266
 #, kde-format
 msgid "Select Background Color"
 msgstr ""
@@ -219,21 +211,21 @@ msgid "Open Wallpaper Image"
 msgstr "เปิดภาพพื้นหลัง"
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/ThumbnailsComponent.qml:89
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:88
 #, fuzzy, kde-format
 #| msgid "Images"
 msgid "Images"
 msgstr "ภาพ"
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/ThumbnailsComponent.qml:93
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:92
 #, kde-format
 msgctxt "@action:button the thing being added is an image file"
 msgid "Add…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/ThumbnailsComponent.qml:94
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:93
 #, fuzzy, kde-format
 #| msgid "Open Wallpaper Image"
 msgctxt "@action:button"
@@ -241,7 +233,7 @@ msgid "Add Wallpaper Image…"
 msgstr "เปิดภาพพื้นหลัง"
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/ThumbnailsComponent.qml:100
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:99
 #, fuzzy, kde-format
 #| msgid "Get New Wallpapers..."
 msgctxt "@action:button the new things being gotten are wallpapers"
@@ -249,56 +241,56 @@ msgid "Get New…"
 msgstr "หาภาพพื้นหลังใหม่ ๆ ..."
 
 #. +> trunk6 stable6
-#: imagepackage/contents/ui/ThumbnailsComponent.qml:101
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:100
 #, fuzzy, kde-format
 #| msgid "Next Wallpaper Image"
 msgctxt "@action:button"
 msgid "Get New Wallpaper Images…"
 msgstr "ภาพพื้นหลังภาพถัดไป"
 
-#. +> trunk6
-#: imagepackage/contents/ui/ThumbnailsComponent.qml:108
+#. +> trunk6 stable6
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:107
 #, kde-format
 msgctxt "@action:button the things being selected are wallpapers"
 msgid "Select All"
 msgstr ""
 
-#. +> trunk6
-#: imagepackage/contents/ui/ThumbnailsComponent.qml:109
+#. +> trunk6 stable6
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:108
 #, kde-format
 msgctxt "@action:button"
 msgid "Select All Slides"
 msgstr ""
 
-#. +> trunk6
-#: imagepackage/contents/ui/ThumbnailsComponent.qml:117
+#. +> trunk6 stable6
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:116
 #, kde-format
 msgctxt "@action:button the things being unselected are wallpapers"
 msgid "Select None"
 msgstr ""
 
-#. +> trunk6
-#: imagepackage/contents/ui/ThumbnailsComponent.qml:118
+#. +> trunk6 stable6
+#: imagepackage/contents/ui/ThumbnailsComponent.qml:117
 #, kde-format
 msgctxt "@action:button"
 msgid "Unselect All Slides"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: imagepackage/contents/ui/WallpaperDelegate.qml:34
+#: imagepackage/contents/ui/WallpaperDelegate.qml:33
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: imagepackage/contents/ui/WallpaperDelegate.qml:40
+#: imagepackage/contents/ui/WallpaperDelegate.qml:39
 #, fuzzy, kde-format
 #| msgid "&System wallpapers:"
 msgid "Restore wallpaper"
 msgstr "ภาพพื้นหลังของ&ระบบ:"
 
 #. +> trunk6 stable6 stable5
-#: imagepackage/contents/ui/WallpaperDelegate.qml:45
+#: imagepackage/contents/ui/WallpaperDelegate.qml:44
 #, fuzzy, kde-format
 #| msgid "&System wallpapers:"
 msgid "Remove Wallpaper"
@@ -393,91 +385,91 @@ msgid "Image Files"
 msgstr "ภาพ"
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:52
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:53
 #, kde-format
 msgid "Order:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:59
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:60
 #, kde-format
 msgid "Random"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:63
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:64
 #, kde-format
 msgid "A to Z"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:67
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:68
 #, kde-format
 msgid "Z to A"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:71
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:72
 #, kde-format
 msgid "Date modified (newest first)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:75
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:76
 #, kde-format
 msgid "Date modified (oldest first)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:100
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:101
 #, kde-format
 msgid "Group by folders"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:112
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:113
 #, fuzzy, kde-format
 #| msgid "C&hange images every:"
 msgid "Change every:"
 msgstr "เป&ลี่ยนภาพทุก ๆ :"
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:122
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:123
 #, kde-format
 msgid "%1 hour"
 msgid_plural "%1 hours"
 msgstr[0] ""
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:142
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:143
 #, kde-format
 msgid "%1 minute"
 msgid_plural "%1 minutes"
 msgstr[0] ""
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:162
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:163
 #, kde-format
 msgid "%1 second"
 msgid_plural "%1 seconds"
 msgstr[0] ""
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:206
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:203
 #, fuzzy, kde-format
 #| msgid "&Remove Folder"
 msgid "Folders"
 msgstr "&ลบโฟลเดอร์"
 
 #. +> trunk6 stable6
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:210
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:207
 #, kde-format
 msgctxt "@action button the thing being added is a folder"
 msgid "Add…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:211
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:208
 #, fuzzy, kde-format
 #| msgid "&Add Folder..."
 msgctxt "@action:button"
@@ -492,14 +484,14 @@ msgid "Add Folder…"
 msgstr "เ&พิ่มโฟลเดอร์..."
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:249
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:246
 #, fuzzy, kde-format
 #| msgid "&Remove Folder"
 msgid "Remove Folder"
 msgstr "&ลบโฟลเดอร์"
 
 #. +> trunk6 stable6
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:260
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:257
 #, fuzzy, kde-format
 #| msgid "&Remove Folder"
 msgid "Open Folder…"
@@ -513,7 +505,7 @@ msgid "Open Folder"
 msgstr "&ลบโฟลเดอร์"
 
 #. +> trunk6 stable6 stable5
-#: slideshowpackage/contents/ui/SlideshowComponent.qml:275
+#: slideshowpackage/contents/ui/SlideshowComponent.qml:272
 #, kde-format
 msgid "There are no wallpaper locations configured"
 msgstr ""
@@ -567,3 +559,9 @@ msgstr ""
 #, kde-format
 msgid "Recommended wallpaper file"
 msgstr ""
+
+#, fuzzy, kde-format
+#~| msgid "Tiled"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Tiled"
+#~ msgstr "ปูภาพ"

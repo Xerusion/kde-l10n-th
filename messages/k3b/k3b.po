@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-12 00:55+0100\n"
+"POT-Creation-Date: 2026-01-14 12:37+0100\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -376,7 +376,7 @@ msgstr "ส่วนขยายของแฟ้ม:"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6
 #: ../plugins/encoder/external/base_k3bexternalencodereditdialog.ui:80
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "Please insert the command used to encode the audio data. The command has to read raw little endian (see <em>Swap Byte Order</em>) 16-bit stereo audio frames from stdin.\n"
 "<p>The following strings will be replaced by K3b:<br>"
@@ -543,7 +543,7 @@ msgstr "ยังไม่มีการระบุบรรทัดคำส
 
 #. +> trunk6 stable6
 #: ../plugins/encoder/external/k3bexternalencoderconfigwidget.cpp:80
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Please add the output filename (%f) to the command line."
 msgstr "โปรดเพิ่มชื่อแฟ้มผลส่งออก (%f) ให้กับบรรทัดคำสั่ง"
 
@@ -2732,14 +2732,22 @@ msgstr ""
 msgid "Overall progress:"
 msgstr "ความคืบหน้าโดยรวม:"
 
+#. +> trunk6
+#: k3bjobprogressdialog.cpp:229
+#, fuzzy, kde-format
+#| msgid "Stop"
+msgctxt "@action:button to stop the operation"
+msgid "Stop"
+msgstr "หยุด"
+
 #. +> trunk6 stable6
-#: k3bjobprogressdialog.cpp:230
+#: k3bjobprogressdialog.cpp:231
 #, kde-format
 msgid "Show Debugging Output"
 msgstr "แสดงผลลัพธ์ของการดีบั๊ก"
 
 #. +> trunk6 stable6
-#: k3bjobprogressdialog.cpp:296 k3bjobprogressdialog.cpp:318
+#: k3bjobprogressdialog.cpp:297 k3bjobprogressdialog.cpp:319
 #, fuzzy, kde-format
 #| msgctxt "%1 and %2 are byte sizes formatted via KLocale::formatByteSize"
 #| msgid "%1 of %2"
@@ -2748,7 +2756,7 @@ msgid "%1 of %2"
 msgstr "%1 จาก %2"
 
 #. +> trunk6 stable6
-#: k3bjobprogressdialog.cpp:374 k3bjobprogressdialog.cpp:554
+#: k3bjobprogressdialog.cpp:375 k3bjobprogressdialog.cpp:557
 #, fuzzy, kde-format
 #| msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
 #| msgid "Elapsed time: %1"
@@ -2757,49 +2765,77 @@ msgid "Elapsed time: %1"
 msgstr "เวลาที่ใช้ไป: %1"
 
 #. +> trunk6 stable6
-#: k3bjobprogressdialog.cpp:383
+#: k3bjobprogressdialog.cpp:384
 #, kde-format
 msgid "Success."
 msgstr "สำเร็จ"
 
 #. +> trunk6 stable6
-#: k3bjobprogressdialog.cpp:390
+#: k3bjobprogressdialog.cpp:391
 #, kde-format
 msgid "Successfully finished."
 msgstr "กระบวนการสำเร็จเสร็จสิ้น"
 
 #. +> trunk6 stable6
-#: k3bjobprogressdialog.cpp:399
+#: k3bjobprogressdialog.cpp:400
 #, kde-format
 msgid "Canceled."
 msgstr "กระบวนการถูกยกเลิก"
 
 #. +> trunk6 stable6
-#: k3bjobprogressdialog.cpp:402
+#: k3bjobprogressdialog.cpp:403
 #, kde-format
 msgid "Error."
 msgstr "กระบวนการเกิดข้อผิดพลาด"
 
 #. +> trunk6 stable6
-#: k3bjobprogressdialog.cpp:404
+#: k3bjobprogressdialog.cpp:405
 #, kde-format
 msgid "Finished with errors"
 msgstr "กระบวนการเสร็จสิ้นโดยมีข้อผิดพลาด"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: k3bjobprogressdialog.cpp:486
+#, fuzzy, kde-format
+#| msgid "Do you really want to clear the current project?"
+msgid "Do you really want to stop the current operation in progress?"
+msgstr "คุณต้องการจะล้างโครงงานปัจจุบันนี้จริงหรือไม่ ?"
+
+#. +> stable6
 #: k3bjobprogressdialog.cpp:485
 #, kde-format
 msgid "Do you really want to cancel?"
 msgstr "คุณต้องการจะทำการยกเลิกจริงหรือไม่ ?"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: k3bjobprogressdialog.cpp:487
+#, kde-format
+msgid "Confirm Stop Operation"
+msgstr ""
+
+#. +> stable6
 #: k3bjobprogressdialog.cpp:486
 #, kde-format
 msgid "Cancel Confirmation"
 msgstr "ยืนยันการยกเลิกกระบวนการ"
 
+#. +> trunk6
+#: k3bjobprogressdialog.cpp:488
+#, kde-format
+msgctxt "@action:button to stop the operation"
+msgid "Stop operation"
+msgstr ""
+
+#. +> trunk6
+#: k3bjobprogressdialog.cpp:490
+#, fuzzy, kde-format
+#| msgid "Continue Multisession "
+msgctxt "@action:button to continue the operation"
+msgid "Continue operation"
+msgstr "ทำหลายเซสชันต่อ"
+
 #. +> trunk6 stable6
-#: k3bjobprogressdialog.cpp:558
+#: k3bjobprogressdialog.cpp:561
 #, fuzzy, kde-format
 #| msgid "Remaining:"
 msgctxt "@info %1 is a duration formatted"
@@ -11274,7 +11310,7 @@ msgstr "ขนาดของวิดีโอ"
 
 #. +> trunk6 stable6
 #: rip/videodvd/k3bvideodvdrippingdialog.cpp:272
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgctxt "Ch is short for Channels"
 msgid "%1Ch"
 msgid_plural "%1Ch"

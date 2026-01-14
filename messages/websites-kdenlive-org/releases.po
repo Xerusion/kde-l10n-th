@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kdenlive-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-01 10:36+0100\n"
+"POT-Creation-Date: 2025-12-19 09:01+0100\n"
 "PO-Revision-Date: 2025-03-17 14:56+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -147,6 +147,7 @@ msgstr ""
 #: content/news/releases/25.04.1/index.md:0
 #: content/news/releases/25.04.2/index.md:0
 #: content/news/releases/25.11.90/index.md:0
+#: content/news/releases/25.12.0/index.md:0
 msgid "Jean-Baptiste Mardelle"
 msgstr ""
 
@@ -159,6 +160,7 @@ msgstr ""
 #: content/news/releases/25.08.1/index.md:0
 #: content/news/releases/25.08.2/index.md:0
 #: content/news/releases/25.08.3/index.md:0
+#: content/news/releases/25.12.0/index.md:0
 msgid "kdenlive"
 msgstr ""
 
@@ -359,6 +361,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/news/releases/25.08.0/index.md:22
+#: content/news/releases/25.12.0/index.md:9
 msgid "Interface and Usability"
 msgstr ""
 
@@ -885,4 +888,232 @@ msgstr ""
 #. +> trunk5
 #: content/news/releases/25.11.90/index.md:0
 msgid "Event"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:7
+msgid "The Kdenlive team is happy to announce the release of version 25.12.0, just in time for the holiday season. For this release, we concentrated on improving the user experience. Many of these changes were discussed during our very productive [Berlin sprint][1] last September, where the team met for three days of brainstorming."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:10
+msgid "Docking System"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:12
+msgid "We introduced a new, more flexible docking system, allowing you to group the widgets you want together or easily show/hide them on demand. Each layout is now saved in its own file, opening the possibility for sharing. It is also now saved inside the project file, so when reopening a project the layout used when saving it is loaded and you are immediately ready to continue where you left off editing! The downside is that existing layouts are not compatible, so that you will need to recreate your custom layouts. {{< video src=\"docking.mp4\" muted=\"true\" controls=\"true\" loop=\"true\">}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:16
+msgid "Welcome Screen"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:18
+msgid "We introduced a Welcome Screen to improve the experience for new users, and add some handy shortcuts for everyone. With your feedback this will evolve in the future. ![image](./welcome-1.webp)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:21
+msgid "Along with the Welcome Screen, we introduced a vertical layout and optional safe areas to improve editing of 9:16 videos."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:23
+msgid "Menu Restructuring"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:25
+msgid "Part of a long running discussion in the team, the menus were re-organized to make them more intuitive. Our long-time users may be confused initially (hopefully not for long, though), but we tried to follow some of the conventions in the professional editing world. For example, we regrouped all file related actions like `Render` and the `Project Settings` in the `File` menu. There might be a few adjustments in the upcoming releases, but the most important changes are in."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:27
+msgid "![image](./menus.webp)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:29
+msgid "Thanks to users and translators feedback, we were able to fix several parts of the user interface that were not picked up properly for translation, making Kdenlive easier to use in your native language."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:31
+msgid "Monitor"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:33
+msgid "We revamped the monitor view of audio, with a minimap on top allowing to intuitively zoom parts of the audio. (audio monitor) {{< video src=\"monitor.webm\" muted=\"true\" controls=\"true\" loop=\"true\">}}"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:36
+msgid "Markers"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:38
+msgid "For consistency and to avoid confusion, we renamed timeline `guides` to `markers`, since the term `guide` was used interchangeably and therefore confusing, and they were in fact markers for a sequence clip. Markers can now have a duration that is shown in the timeline, and can be dragged in the timeline from the Markers list."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:42
+msgid "Other Highlights"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:44
+msgid "Major Bug Fixes"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:46
+msgid "We fixed more than 15 crash reports"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:47
+msgid "Windows: Fix render failure when user name contains special characters"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:48
+msgid "Fix project corruption when copy-pasting a sequence or project file between projects"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:50
+msgid "Packaging"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:52
+msgid "We fixed the VAAPI support in AppImage, allowing for faster decoding and render time"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:53
+msgid "Several updates made it into our binaries, like Qt 6.10.1 and FFmpeg 8.0"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:55
+msgid "Last Minute Fixes"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:57
+msgid "Several fixes that will be in the next release have already been included in the 25.12.0 binaries available on kdenlive.org. If you installed Kdenlive from your Linux distro, you will get those fixes with version 25.12.1 (release scheduled for January 2026)."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:58
+msgid ""
+"<details>\n"
+"<summary>Click to see the list of last minute changes.</summary>\n"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:61
+msgid "Fix xmlgui related crash starting an older Kdenlive version (< 25.08.3). [Commit][3]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:62
+msgid "Keep duration info when moving ranged markers. [Commit][4]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:63
+msgid "Don't load Kdenlive in the background if welcome screen is displayed to avoid busy cursor / greyed out screen on Wayland. [Commit][5]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:64
+msgid "Fix window does not appear after crash and no welcome screen. [Commit][6]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:65
+msgid "Ensure we cannot call a Welcome Screen action before it is connected. [Commit][7]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:66
+msgid "FIx possible crash in Welcome Screen trying to open profile or file when mainwindow was not ready yet. [Commit][8]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:67
+msgid "Fix changing keyframe type for multiple keyframes not working. [Commit][10]. Fixes issue [#2104][9]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:68
+msgid "Add AMF encoding profile for Windows. [Commit][12]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:69
+msgid "Don't allow saving a custom effect with the name of an existing effect. [Commit][13]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:70
+msgid "Fix horizontal editing layout not loaded. [Commit][14]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:71
+msgid "Hsvhold similarity must be > 0. [Commit][15]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:72
+msgid "Fix copy paste resets keyframe type. [Commit][17]. Fixes bug [#513053][16]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:73
+msgid "Fix editing transform on monitor discards opacity. [Commit][19]. Fixes issue [#2108][18]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:74
+msgid "Don't check for readOnly in QStorageInfo on Mac. [Commit][20]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:75
+msgid "Fix app not opening after crash and opening project from command line. [Commit][21]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:76
+msgid "Don't incorrectly show warning about hidden monitor. [Commit][22]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:77
+msgid "Fix project layout not correctly restored if opened from Welcome Screen. [Commit][23]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:78
+msgid "</details>\n"
+msgstr ""
+
+#. +> trunk5
+#: content/news/releases/25.12.0/index.md:80
+msgid ""
+"<br/>"
+"\n"
+"The <a href=\"#full-changelog\">full changelog</a> for 25.12.0 is available below.\n"
+"<br/>"
+"<br/>"
+"\n"
 msgstr ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 09:58+0100\n"
+"POT-Creation-Date: 2026-01-01 10:14+0100\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -58,6 +58,11 @@ msgid "application-menu"
 msgstr ""
 
 #. +> trunk5
+#: ../../<rst_epilog>:42
+msgid "bookmark-new"
+msgstr ""
+
+#. +> trunk5
 #: ../../<rst_epilog>:54
 msgid "composite-track-preview"
 msgstr ""
@@ -65,6 +70,11 @@ msgstr ""
 #. +> trunk5
 #: ../../<rst_epilog>:58
 msgid "configure"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:66
+msgid "discrete"
 msgstr ""
 
 #. +> trunk5
@@ -193,16 +203,6 @@ msgid "linear"
 msgstr ""
 
 #. +> trunk5
-#: ../../<rst_epilog>:370
-msgid "list-add"
-msgstr ""
-
-#. +> trunk5
-#: ../../<rst_epilog>:374
-msgid "list-remove"
-msgstr ""
-
-#. +> trunk5
 #: ../../<rst_epilog>:394
 msgid "object-order-lower"
 msgstr ""
@@ -225,6 +225,11 @@ msgstr ""
 #. +> trunk5
 #: ../../<rst_epilog>:426
 msgid "rewind"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:434
+msgid "select-rectangular"
 msgstr ""
 
 #. +> trunk5
@@ -319,31 +324,36 @@ msgstr ""
 
 #. +> trunk5
 #: ../../<rst_epilog>:598
-msgid "zoom-fit-best"
+msgid "zoom"
 msgstr ""
 
 #. +> trunk5
 #: ../../<rst_epilog>:602
-msgid "zoom-fit-height"
+msgid "zoom-fit-best"
 msgstr ""
 
 #. +> trunk5
 #: ../../<rst_epilog>:606
-msgid "zoom-fit-width"
+msgid "zoom-fit-height"
 msgstr ""
 
 #. +> trunk5
 #: ../../<rst_epilog>:610
-msgid "zoom-in"
+msgid "zoom-fit-width"
 msgstr ""
 
 #. +> trunk5
 #: ../../<rst_epilog>:614
-msgid "zoom-out"
+msgid "zoom-in"
 msgstr ""
 
 #. +> trunk5
 #: ../../<rst_epilog>:618
+msgid "zoom-out"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:622
 msgid "zoom-original"
 msgstr ""
 
@@ -1191,56 +1201,37 @@ msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/ui_elements.rst:299
-msgid "|view-grid|"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/ui_elements.rst:300
-msgid "Change overlay. Click through the different available patterns."
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/ui_elements.rst:301
-#: ../../user_interface/ui_elements.rst:409
-msgid "|zoom-in|"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/ui_elements.rst:302
-#: ../../user_interface/ui_elements.rst:412
-msgid "Zoom in"
+msgid "|select-rectangular|"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/ui_elements.rst:303
-#: ../../user_interface/ui_elements.rst:411
-msgid "|zoom-out|"
+msgid "|view-grid|"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/ui_elements.rst:304
-#: ../../user_interface/ui_elements.rst:410
-msgid "Zoom out"
+msgid "Change overlay. Click through the different available patterns."
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/ui_elements.rst:305
-msgid "|list-add|"
+msgid "|zoom|"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/ui_elements.rst:306
-msgid "Add :term:`guide`"
+msgid "Fly-out contains: |zoom-in| Zoom in, |zoom-out| Zoom out, |zoom-original| Zoom reset"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/ui_elements.rst:307
-msgid "|list-remove|"
+msgid "|bookmark-new|"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/ui_elements.rst:308
-msgid "Remove guide"
+msgid "Add/remove :term:`Markers`"
 msgstr ""
 
 #. +> trunk5
@@ -1535,6 +1526,26 @@ msgid "Zoom to fit project"
 msgstr ""
 
 #. +> trunk5
+#: ../../user_interface/ui_elements.rst:409
+msgid "|zoom-in|"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/ui_elements.rst:410
+msgid "Zoom out"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/ui_elements.rst:411
+msgid "|zoom-out|"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/ui_elements.rst:412
+msgid "Zoom in"
+msgstr ""
+
+#. +> trunk5
 #: ../../user_interface/ui_elements.rst:417
 msgid "A keyframe is set for **all** keyframable parameters. If you want to change only a subset of the parameters you must create three keyframes: one at the frame where you want the parameters to change, one at the previous frame and one at the next frame. Then change the parameters at the middle keyframe and potentially at the next keyframe."
 msgstr ""
@@ -1547,4 +1558,19 @@ msgstr ""
 #. +> trunk5
 #: ../../user_interface/ui_elements.rst:-1
 msgid "KDE, Kdenlive, user interface, documentation, user manual, video editor, open source, free, learn, easy, user interface, ui elements, controls, icons, buttons"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/ui_elements.rst:0
+msgid "Show Safe Areas. Where essentials (text, logos, main action) must stay to avoid being cut off by different screens or platform interfaces. Important for social media and older TVs."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/ui_elements.rst:0
+msgid "Title Safe (inner 80%) for text/graphics"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/ui_elements.rst:0
+msgid "Action Safe (inner 90%) for important visuals"
 msgstr ""

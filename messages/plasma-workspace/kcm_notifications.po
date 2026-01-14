@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-24 11:19+0200\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -121,14 +121,14 @@ msgstr ""
 #: ui/main.qml:47
 #, kde-format
 msgctxt "@action:button Plasma-specific notifications"
-msgid "System Notifications"
+msgid "Configure for System…"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/main.qml:53
 #, kde-format
 msgctxt "@action:button Application-specific notifications"
-msgid "Application Settings"
+msgid "Configure for Applications…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -294,7 +294,7 @@ msgstr ""
 #: ui/main.qml:269
 #, kde-format
 msgctxt "@action:button choose custom notification position"
-msgid "Custom…"
+msgid "Choose…"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -312,8 +312,21 @@ msgctxt "Part of a sentence like, 'Hide popup after n seconds'"
 msgid "Hide after:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:306
+#, kde-format
+msgctxt "@option:check Show progress bar on notifications indicating when it will hide"
+msgid "Show timeout indicator"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:308
+#, kde-format
+msgid "Configure…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:318
 #, kde-format
 msgctxt "@title:group"
 msgid "Additional feedback"
@@ -326,40 +339,34 @@ msgctxt "@title:group"
 msgid "Application-specific settings"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/main.qml:308
-#, kde-format
-msgid "Configure…"
-msgstr ""
-
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:312
+#: ui/main.qml:324
 #, kde-format
 msgctxt "Show application jobs in notification widget"
 msgid "Show in notifications"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:313
+#: ui/main.qml:325
 #, kde-format
 msgid "Application progress:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:327
+#: ui/main.qml:339
 #, kde-format
 msgctxt "Keep application job popup open for entire duration of job"
 msgid "Keep popup open during progress"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:340
+#: ui/main.qml:352
 #, kde-format
 msgid "Notification badges:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ui/main.qml:341
+#: ui/main.qml:353
 #, kde-format
 msgid "Show in task manager"
 msgstr ""
@@ -370,10 +377,11 @@ msgstr ""
 msgid "Popup Position"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/SourcesPage.qml:20
 #, kde-format
-msgid "Application Settings"
+msgctxt "@title:window kcm page title, configure app-specific notification settings"
+msgid "Application Notifications"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -394,16 +402,22 @@ msgstr ""
 msgid "No application or event matches your search term"
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/SourcesPage.qml:132
-#, kde-format
-msgid "No application or event matches your search term."
-msgstr ""
-
 #. +> trunk6 stable6
 #: ui/SourcesPage.qml:177
 #, kde-format
 msgid "Select an application from the list to configure its notification settings and behavior"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/SourcesPage.qml:19
+#, kde-format
+msgid "Application Settings"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/SourcesPage.qml:132
+#, kde-format
+msgid "No application or event matches your search term."
 msgstr ""
 
 #. +> stable5

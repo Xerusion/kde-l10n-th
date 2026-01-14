@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-pa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-04 13:55+0200\n"
+"POT-Creation-Date: 2026-01-14 12:38+0100\n"
 "PO-Revision-Date: 2025-03-27 08:36+0700\n"
 "Last-Translator: Diskette Guy <diskette@dailitation.xyz>\n"
 "Language-Team: Thai <kde-i18n-doc@kde.org>\n"
@@ -93,7 +93,7 @@ msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
 #. +> trunk6 stable6
-#: kcm/ui/DeviceListItem.qml:57 kded/audioshortcutsservice.cpp:224
+#: kcm/ui/DeviceListItem.qml:57 kded/audioshortcutsservice.cpp:233
 #, kde-format
 msgid "Device name not found"
 msgstr "ไม่พบชื่ออุปกรณ์"
@@ -439,8 +439,15 @@ msgstr "ระดับการตรวจจับไมโครโฟน"
 msgid "Mute state"
 msgstr "สถานะปิดเสียง"
 
+#. +> trunk6
+#: kcm/ui/VolumeControlsConfig.qml:98
+#, kde-format
+msgctxt "Show OSD when"
+msgid "Push to talk"
+msgstr ""
+
 #. +> trunk6 stable6
-#: kcm/ui/VolumeControlsConfig.qml:97
+#: kcm/ui/VolumeControlsConfig.qml:104
 #, fuzzy, kde-format
 #| msgctxt "List of apps is using mic"
 #| msgid "%1 are using the microphone"
@@ -449,7 +456,7 @@ msgid "Application starts using muted microphone"
 msgstr "%1 กำลังใช้ไมโครโฟนอยู่"
 
 #. +> trunk6 stable6 stable5
-#: kcm/ui/VolumeControlsConfig.qml:104
+#: kcm/ui/VolumeControlsConfig.qml:111
 #, kde-format
 msgid "Default output device"
 msgstr "อุปกรณ์เอาต์พุตค่าเริ่มต้น"
@@ -516,30 +523,44 @@ msgstr "ปิดเสียง"
 msgid "Mute Microphone"
 msgstr "ปิดเสียงไมโครโฟน"
 
+#. +> trunk6
+#: kded/audioshortcutsservice.cpp:196
+#, kde-format
+msgctxt "Microphone unmuted only while holding the key"
+msgid "Push to talk"
+msgstr ""
+
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:195
+#: kded/audioshortcutsservice.cpp:204
 #, kde-format
 msgid "Audio Volume"
 msgstr "ระดับเสียง"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:213
+#: kded/audioshortcutsservice.cpp:222
 #, kde-format
 msgid "No such device"
 msgstr "ไม่มีอุปกรณ์ดังกล่าว"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:259
+#: kded/audioshortcutsservice.cpp:268
 #, kde-format
 msgid "No output device"
 msgstr "ไม่มีอุปกรณ์เอาต์พุต"
 
 #. +> trunk6 stable6
-#: kded/audioshortcutsservice.cpp:280 kded/audioshortcutsservice.cpp:300
+#: kded/audioshortcutsservice.cpp:289 kded/audioshortcutsservice.cpp:309
 #, kde-format
 msgctxt "Device name (Battery percent)"
 msgid "%1 (%2% Battery)"
 msgstr "%1 (%2% แบตเตอรี)"
+
+#. +> trunk6
+#: kded/audioshortcutsservice.cpp:395
+#, kde-format
+msgctxt "Push to talk button depressed, microphone unmuted"
+msgid "Speak…"
+msgstr ""
 
 #. +> trunk6 stable6
 #: kded/mutedmicrophonereminder.cpp:131

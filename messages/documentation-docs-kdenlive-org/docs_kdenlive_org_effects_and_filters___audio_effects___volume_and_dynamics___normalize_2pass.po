@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-18 09:44+0200\n"
+"POT-Creation-Date: 2026-01-12 10:00+0100\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -18,23 +18,23 @@ msgid "kdenlive-audio"
 msgstr ""
 
 #. +> trunk5
-#: ../../<rst_epilog>:624
-msgid "Linux"
+#: ../../<rst_epilog>:628
+msgid "linux"
 msgstr ""
 
 #. +> trunk5
-#: ../../<rst_epilog>:629
+#: ../../<rst_epilog>:632
 msgid "appimage"
 msgstr ""
 
 #. +> trunk5
-#: ../../<rst_epilog>:634
-msgid "Windows"
+#: ../../<rst_epilog>:636
+msgid "windows"
 msgstr ""
 
 #. +> trunk5
-#: ../../<rst_epilog>:639
-msgid "MacOS"
+#: ../../<rst_epilog>:640
+msgid "apple"
 msgstr ""
 
 #. +> trunk5
@@ -66,52 +66,57 @@ msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:41
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:55
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:56
 msgid "Description"
 msgstr ""
 
 #. +> trunk5
 #: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:42
-msgid "This filter requires two passes. Click :guilabel:`Analyse to Apply Effect` to start the first pass which performs the analysis and stores the result in the \"results\" property. The second pass applies the results to the audio in order to achieve the desired loudness over the range of the filter."
+msgid "This filter requires two passes. It is designed to analyze and apply the normalization based on an entire audio file or an entire track. Click :guilabel:`Analyse to Apply Effect` to start the first pass which performs the analysis and stores the result in the \"results\" property. The second pass applies the results to the audio in order to achieve the desired loudness over the range of the filter."
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:46
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:44
+msgid "If you like to normalize a live stream then use :doc:`Normalize <normalize>`"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:47
 msgid "Parameters"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:53
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:54
 msgid "Parameter"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:54
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:55
 msgid "Value"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:57
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:58
 msgid "**Target Program Loudness**"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:58
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:59
 msgid "Float"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:59
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:60
 msgid "The target program loudness in :abbr:`LUFS (Loudness Units Full Scale)`"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:63
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:64
 msgid "Notes"
 msgstr ""
 
 #. +> trunk5
-#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:64
+#: ../../effects_and_filters/audio_effects/volume_and_dynamics/normalize_2pass.rst:65
 msgid "The objective of a normalization is to raise the audio level to its set maximum while the loudest part of the audio must not be exceeded. Normally, normalization is useful if the audio signal was low already during recording due to wrong or faulty settings in the recording device or too big of a distance between microphone and audio source."
 msgstr ""
 

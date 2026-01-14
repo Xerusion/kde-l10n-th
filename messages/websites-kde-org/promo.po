@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-07 11:31+0100\n"
+"POT-Creation-Date: 2026-01-09 07:22+0100\n"
 "PO-Revision-Date: 2025-03-17 14:56+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -336,6 +336,19 @@ msgstr ""
 
 #. +> trunk5
 #: content/distributions.md:0
+msgid "openSUSE"
+msgstr ""
+
+#. +> trunk5
+#: content/distributions.md:0
+msgid ""
+"openSUSE comes in two versions. **Leap**, a stable distribution with regular releases, comes with LTS versions of Linux, Qt and Plasma. **Tumbleweed**, a rolling distribution with the latest versions of all packages\n"
+"\n"
+"SUSE is a KDE Patron.\n"
+msgstr ""
+
+#. +> trunk5
+#: content/distributions.md:0
 msgid "Fedora KDE"
 msgstr ""
 
@@ -356,19 +369,6 @@ msgid ""
 "beginners. The default installation includes many popular programs and a utility for managing drivers.\n"
 "\n"
 "Canonical, the developer of Ubuntu and Kubuntu, is a KDE Patron.\n"
-msgstr ""
-
-#. +> trunk5
-#: content/distributions.md:0
-msgid "openSUSE"
-msgstr ""
-
-#. +> trunk5
-#: content/distributions.md:0
-msgid ""
-"openSUSE comes in two versions. **Leap**, a stable distribution with regular releases, comes with LTS versions of Linux, Qt and Plasma. **Tumbleweed**, a rolling distribution with the latest versions of all packages\n"
-"\n"
-"SUSE is a KDE Patron.\n"
 msgstr ""
 
 #. +> trunk5
@@ -2503,7 +2503,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/for/travelers.md:59
-msgid "Store all the information about your reservations in Itinerary. This includes QR-codes, check-in times, arrivial times, real-time delays, seat reservations, coach layout, and more."
+msgid "Store all the information about your reservations in Itinerary. This includes QR-codes, check-in times, arrival times, real-time delays, seat reservations, coach layout, and more."
 msgstr ""
 
 #. +> trunk5
@@ -2543,7 +2543,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/for/travelers.md:89
-msgid "Powered by [OpenStreetMap](https://www.openstreetmap.org), the indoor map at train stations or airports can be a life saver. Use Itinerary to locate your platform is, and, if you have seat reservation and the train layout is available, it can even show you exactly which platform section is best for you."
+msgid "Powered by [OpenStreetMap](https://www.openstreetmap.org), the indoor map at train stations or airports can be a life saver. Use Itinerary to locate your platform, and, if you have seat reservation and the train layout is available, it can even show you exactly which platform section is best for you."
 msgstr ""
 
 #. +> trunk5
@@ -2553,7 +2553,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/for/travelers.md:93
-msgid "The indoor map also shows you which shops and resturantes are currently open, which elevator is broken (yet again!), where the toilets are and where the correct exit is."
+msgid "The indoor map also shows you which shops and restaurants are currently open, which elevators are broken (yet again!), where the toilets are and where the correct exit is."
 msgstr ""
 
 #. +> trunk5
@@ -2623,7 +2623,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/for/travelers.md:150
-msgid "![Screenshot of KGeoTag showing a track on a map with some image preview allong the track](https://cdn.kde.org/screenshots/kgeotag/kgeotag_shadow.png)"
+msgid "![Screenshot of KGeoTag showing a track on a map with some image preview along the track](https://cdn.kde.org/screenshots/kgeotag/kgeotag_shadow.png)"
 msgstr ""
 
 #. +> trunk5
@@ -2643,7 +2643,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/for/travelers.md:164
-msgid "![Screenshot of Kasts](https://cdn.kde.org/screenshots/marble/marble-world.png)"
+msgid "![Screenshot of Marble](https://cdn.kde.org/screenshots/marble/marble-world.png)"
 msgstr ""
 
 #. +> trunk5
@@ -3584,7 +3584,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/hardware.md:0
-msgid "1200 x 800 7” IPS LCD or 1200 x 800 7.4” HDR OLED"
+msgid "1200 × 800 7” IPS LCD or 1200 × 800 7.4” HDR OLED"
 msgstr ""
 
 #. +> trunk5
@@ -3646,7 +3646,7 @@ msgstr ""
 
 #. +> trunk5
 #: content/hardware.md:0
-msgid "16-inch IPS LED display with 2560 by 1600 resolution at 165Hz and sRGB 100%"
+msgid "16-inch IPS LED display with 2560 × 1600 resolution at 165Hz and sRGB 100%"
 msgstr ""
 
 #. +> trunk5
@@ -4148,131 +4148,136 @@ msgstr ""
 
 #. +> trunk5
 #: content/linux/install.md:33
-msgid "Ultimately the best way to determine compatibility is to create a live USB drive of KDE Linux and preview it on your own computer, with no risk to what’s already on it. Let’s do that now!"
+msgid "Ultimately the best way to determine compatibility is to create a live USB drive of KDE Linux and preview it on your own computer, with no risk to what’s already on it."
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:36
-msgid "1. Create a live USB drive"
+#: content/linux/install.md:35
+msgid "To instead install KDE Linux in a virtual machine, [follow the advanced instructions here](https://community.kde.org/KDE_Linux/installing_on_a_virtual_machine). Otherwise, read on:"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/install.md:37
-msgid "Download the latest `.raw` image from [here](https://files.kde.org/kde-linux/?C=M;O=D)."
+msgid "1. Create a live USB drive"
 msgstr ""
 
 #. +> trunk5
 #: content/linux/install.md:38
-msgid "Verify that the `.raw` file is genuine by following the [instructions here](https://community.kde.org/KDE_Linux#Getting_it)."
+msgid "Download the latest `.raw` image from [here](https://files.kde.org/kde-linux/?C=M;O=D)."
 msgstr ""
 
 #. +> trunk5
 #: content/linux/install.md:39
-msgid "Install [ISO Image Writer](https://apps.kde.org/isoimagewriter/) and launch it."
+msgid "Verify that the `.raw` file is genuine by following the [instructions here](https://community.kde.org/KDE_Linux#Getting_it)."
 msgstr ""
 
 #. +> trunk5
 #: content/linux/install.md:40
-msgid "Click “Path to ISO Image…” and locate the `.raw` file you downloaded."
+msgid "Install [ISO Image Writer](https://apps.kde.org/isoimagewriter/) and launch it."
 msgstr ""
 
 #. +> trunk5
 #: content/linux/install.md:41
-msgid "Plug in the USB flash drive and ensure it appears in the “To this USB Drive” area."
+msgid "Click “Path to ISO Image…” and locate the `.raw` file you downloaded."
 msgstr ""
 
 #. +> trunk5
 #: content/linux/install.md:42
+msgid "Plug in the USB flash drive and ensure it appears in the “To this USB Drive” area."
+msgstr ""
+
+#. +> trunk5
+#: content/linux/install.md:43
 msgid "Click “Create”."
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:45
+#: content/linux/install.md:46
 msgid "2. Prepare the target computer"
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:46
+#: content/linux/install.md:47
 msgid "Ensure that Secure Boot is disabled. If it isn’t, or you don’t know whether it is or not, enter the computer’s UEFI interface and disable it. Here’s how:"
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:48
+#: content/linux/install.md:49
 msgid "First, consult [the table here](https://forums.malwarebytes.com/topic/319165-pc-common-boot-menu-and-bios-setting-hotkeys/) and find the correct keyboard key under the “BIOS/UEFI Key” column for your brand of computer."
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:49
+#: content/linux/install.md:50
 msgid "To enter the UEFI interface, reboot the computer and repeatedly press that key while it starts up."
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:50
+#: content/linux/install.md:51
 msgid "Once you’re in the UEFI interface (you’ll know because it looks very ugly), find where it lets you turn off Secure Boot and turn it off. This is different for every UEFI implementation, so you may need to dig around a bit."
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:51
+#: content/linux/install.md:52
 msgid "Once you’ve turned off Secure Boot, find the “Exit and save changes” option, and use it."
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:53
+#: content/linux/install.md:54
 msgid "This requirement will go away in the future once [KDE Linux supports Secure Boot](https://invent.kde.org/kde-linux/kde-linux/-/issues/3)."
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:56
+#: content/linux/install.md:57
 msgid "3. Boot into the live USB drive"
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:57
+#: content/linux/install.md:58
 msgid "Plug in the USB drive."
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:58
+#: content/linux/install.md:59
 msgid "Consult [the table here](https://forums.malwarebytes.com/topic/319165-pc-common-boot-menu-and-bios-setting-hotkeys/) and note down the keyboard key under the “Boot Menu Key” column for your brand of computer."
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:59
+#: content/linux/install.md:60
 msgid "Reboot the computer and repeatedly press that key while it starts up."
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:60
+#: content/linux/install.md:61
 msgid "When the boot menu appears, use the Up or Down arrow keys to select the entry that looks like it describes your USB flash drive, and then press Enter."
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:63
+#: content/linux/install.md:64
 msgid "4. Explore the live session and install KDE Linux"
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:64
+#: content/linux/install.md:65
 msgid "Now you’re in the “Live Session” of KDE Linux! This lets you see what it will be like if you choose to install it. Go through the welcome wizard and then poke around to make sure everything you care about works. Plug in your typically-used devices and make sure they function properly."
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:66
+#: content/linux/install.md:67
 msgid "Once you’re ready to install, double-click on the “Install KDE Linux” icon on the desktop and go through the installer. **Don’t do manual partitioning, as it’s [broken right now](https://invent.kde.org/kde-linux/kde-linux/-/issues/299).**"
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:68
+#: content/linux/install.md:69
 msgid "WARNING: if you choose to erase the computer’s hard disk, all of the files and data on it will be erased too. Make sure anything you care about is backed up somewhere!"
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:71
+#: content/linux/install.md:72
 msgid "5. Enjoy KDE Linux"
 msgstr ""
 
 #. +> trunk5
-#: content/linux/install.md:72
+#: content/linux/install.md:73
 msgid "We hope you love it!"
 msgstr ""
 

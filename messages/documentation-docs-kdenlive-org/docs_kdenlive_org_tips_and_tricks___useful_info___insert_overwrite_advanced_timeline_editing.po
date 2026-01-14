@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-18 09:44+0200\n"
+"POT-Creation-Date: 2026-01-12 10:01+0100\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -48,150 +48,170 @@ msgid "zone-out"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:15
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:16
 msgid "Insert and Overwrite: Advanced Timeline Editing"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:19
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:20
 msgid "Kdenlive offers advanced timeline editing functions. In this chapter we are looking at the **Insert** |timeline-insert| and **Overwrite** |timeline-overwrite| advanced editing functions."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:21
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:22
 msgid "When inserting or overwriting some part in the timeline with some part from a clip, we now face two zones, so how does this work out at all? We only want to deal with three points, that is, with one zone and a point (for that reason this is also sometimes called **3-Point Editing**). In consequence, there are two different insert/overwrite operations:"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:23
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:24
 msgid "Insert/overwrite a clip zone into the timeline at some point (cursor/playhead), or"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:24
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:25
 msgid "Insert/overwrite a clip starting at some point into a timeline zone"
 msgstr ""
 
 #. +> trunk5
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:27
+msgid "Kdenlive’s timeline IN/OUT system has one basic difference to other video editors: **Kdenlive doesn't have**:"
+msgstr ""
+
+#. +> trunk5
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:29
+msgid "IN/OUT points for 3-point editing and"
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:30
+msgid "IN/OUT points to set the rendering area."
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:32
+msgid "In Kdenlive we use the same timeline IN/OUT points for both functions. For this reason, we have a button to enable |timeline-use-zone-on| / disable |timeline-use-zone-off| the timeline zone for the task. Instead of removing the reference points you just disable |timeline-use-zone-on| the timeline zone. This has the advantage to preserve a set area (IN/OUT zone) and be able to work on the playhead/cursor reference only, without having to cancel the zone."
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:38
 msgid "Insert Clip Zone into Timeline at Timeline Cursor"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:40
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:185
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:247
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:48
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:184
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:242
 msgid "Toggle the use of the timeline zone"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:42
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:50
 msgid "As we are going to insert a clip zone into the timeline, first make sure that the switch for Using Timeline Zone |timeline-use-zone-off| is crossed out (it is *off*)."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:44
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:189
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:52
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:188
 msgid "The **timeline zone bar** is now *dimmed* and does not show the zone duration."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:55
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:62
 msgid "Setting the clip region for insertion"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:57
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:64
 msgid "Next, mark the **clip region** of the source clip you want to insert into the timeline. You do this as usual, using either the :kbd:`I` and :kbd:`O` shortcuts, or the set Zone In |zone-in| / Zone Out |zone-out| buttons of the clip monitor."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:68
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:74
 msgid "Setting the insertion point in the timeline"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:70
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:76
 msgid "Now **place the timeline cursor** to where you want to start with the insert."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:72
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:78
 msgid "Also make sure to select the **correct track** using the :kbd:`Up` and :kbd:`Down` keys to navigate up and down the track list and then :kbd:`Shift+T` to mark the track as the target for the operation. The currently selected track is marked with a semi-transparent selection color (depending on your particular color theme); the **active** track is marked with a green box (see **(1)** in the screenshot)"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:83
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:94
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:88
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:98
 msgid "Clip region inserted in the timeline"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:85
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:90
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:162
-msgid "Finally press the :kbd:`V` shortcut, or click the Insert Clip Zone toolbar button |timeline-insert|, or use :menuselection:`Menu --> Timeline --> Insertion --> Insert Clip Zone in Timeline`."
+msgid "Finally press the :kbd:`V` shortcut, or click the Insert Clip Zone toolbar button |timeline-insert|, or use :menuselection:`Menu --> Sequence --> Insertion --> Insert Clip Zone in Timeline`."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:96
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:100
 msgid "Note that the insert shifted also not-active tracks to make room for the inserted clip. In order to avoid that, lock the other tracks by clicking on the |track-unlocked| icon in the track header (see **(2)** in the screenshots)."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:102
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:106
 msgid "Insertion starts at the timeline cursor, and not at the timeline zone start (because we chose to ignore it in our very first step)."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:103
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:233
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:107
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:229
 msgid "Locked tracks are unaffected, such as the topmost track in our example."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:104
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:108
 msgid "Unlocked tracks get affected in that whatever is at the insertion point and later in the timeline gets shifted away to make room for the insertion."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:107
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:111
 msgid "Insert Clip (from In Point) into Timeline Zone"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:118
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:121
 msgid "This time, we are going to insert some part of a clip to *exactly fit* into the timeline zone. So we now need to switch on Using the Timeline Zone |timeline-use-zone-on|."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:120
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:251
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:123
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:246
 msgid "The **timeline zone bar** is now *bright* and shows the duration of the timeline zone."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:131
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:133
 msgid "Setting the in-point in the clip for insertion"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:133
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:262
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:135
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:256
 msgid "We only need to set the **in point** for our source clip. The out point does not matter, as it will be determined automatically by the length of the timeline zone."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:144
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:145
 msgid "Defining the timeline zone to be overwritten"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:146
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:147
 msgid "Now, mark (using :kbd:`I` and :kbd:`O` or |zone-in| or |zone-out| ) or place (drag the zone left or right) the **timeline zone** into which you want to insert a part of your source clip. The timeline cursor position now does not matter."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:148
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:149
 msgid "Make sure to select the **correct track** using the :kbd:`Up` and :kbd:`Down` keys and pressing :kbd:`Shift+T` to mark the track as the target for the operation (see **(1)** in the screenshot)."
 msgstr ""
 
@@ -221,123 +241,128 @@ msgid "Overwrite Timeline with Clip Zone"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:187
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:186
 msgid "As we are going to overwrite a clip zone into the timeline, first make sure that the switch for Using Timeline Zone |timeline-use-zone-off| is crossed out (it is *off*). This is also shown in the screenshot."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:198
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:196
 msgid "Setting the clip region for the operation"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:200
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:198
 msgid "Next, mark the **clip region** of the source clip you want to insert and overwrite what is in the timeline. You do this as usual, using either the :kbd:`I` and :kbd:`O` shortcuts, or the set Zone In |zone-in| / Zone Out |zone-out| buttons of the clip monitor."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:209
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:206
 msgid "Setting the overwrite start point in the timeline"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:211
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:208
 msgid "Now **place the timeline cursor** to where you want to start the overwrite."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:213
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:210
 msgid "Also make sure to select the **correct track** using the :kbd:`Up` and :kbd:`Down` keys to navigate up and down the track list and pressing :kbd:`Shift+T` to mark the track as the target for the operation. The currently selected track is marked with a semi-transparent selection color (depending on your particular color theme); the **active** track is marked with a green box (see **(1)** in the screenshot)"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:222
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:218
 msgid "Clip region overwrote parts of the timeline"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:224
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:291
-msgid "Finally press the :kbd:`B` shortcut, or click the Overwrite Clip Zone toolbar button |timeline-overwrite|, or use :menuselection:`Menu --> Timeline --> Insertion --> Overwrite Clip Zone in Timeline`."
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:220
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:283
+msgid "Finally press the :kbd:`B` shortcut, or click the Overwrite Clip Zone toolbar button |timeline-overwrite|, or use :menuselection:`Menu --> Sequence --> Insertion --> Overwrite Clip Zone in Timeline`."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:228
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:224
 msgid "Note that the overwrite removed the same portion also in not-active tracks. In order to avoid that, lock the other tracks by clicking on the |track-unlocked| icon in the track header (see **(2)** in the screenshots)."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:232
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:228
 msgid "Overwrite starts at the timeline cursor, and not at the timeline zone start (because we chose to ignore it in our very first step)."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:234
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:230
 msgid "Unlocked tracks get affected in that whatever is at the insertion point and later in the timeline gets removed for the duration of the clip region."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:238
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:234
 msgid "Overwrite Timeline Zone with Clip"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:249
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:244
 msgid "This time, we are going to insert some part of a clip to *exactly fit* into the timeline zone and *overwrite* what is in it. So we now need to switch on Using the Timeline Zone |timeline-use-zone-on|."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:260
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:254
 msgid "Setting the in-point in the clip for the operation"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:273
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:266
 msgid "Defining the timeline zone for overwriting"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:275
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:268
 msgid "Now, mark (using :kbd:`I` and :kbd:`O` or |zone-in| or |zone-out| ) or place (drag the zone left or right) the **timeline zone** that you want to overwrite with part of your source clip. The timeline cursor position now does not matter."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:277
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:270
 msgid "Make sure to select the **correct track** using the :kbd:`Up` and :kbd:`Down` keys and pressing :kbd:`Shift+T` to mark the track as the target for the operation. The currently selected track is marked with a semi-transparent selection color (depending on your particular color theme); the **active** track is marked with a green box (see **(1)** in the screenshot)."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:289
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:281
 msgid "Timeline with clip having overwritten the timeline zone"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:297
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:289
 msgid "Overwrite starts at the beginning of the timeline zone, and not from the timeline cursor position (because we chose to enable the timeline zone in our very first step)"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:298
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:290
 msgid "Locked tracks are unaffected, such as the top-most track in our example (see **(2)** in the screenshot above)"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:299
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:291
 msgid "Unlocked tracks get affected in that whatever is at the insertion point and later in the timeline gets shifted for the duration set by the timeline zone."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:303
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:292
+msgid "For more details about how to set the tracks as source and target check :ref:`three_point_editing`"
+msgstr ""
+
+#. +> trunk5
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:295
 msgid "Notes"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:309
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:301
 msgid "The original text was submitted by user *TheDiveO* to the now defunct kdenlive.org blog. For this documentation it has been lifted from |kdenlive_org|, updated, extended and adapted to match the overall style."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:310
+#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:302
 msgid "**Sources**"
 msgstr ""
 
@@ -349,49 +374,4 @@ msgstr ""
 #. +> trunk5
 #: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:-1
 msgid "KDE, Kdenlive, tips, tricks, tips & tricks, useful information, insert, overwrite, advanced, timeline, editing, documentation, user manual, video editor, open source, free, learn, easy"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:0
-msgid "kdenlive2308_editing_01.gif"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:0
-msgid "kdenlive2308_editing_insert_02.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:0
-msgid "kdenlive2308_editing_insert_01.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:0
-msgid "kdenlive2308_editing_insert_03a.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:0
-msgid "kdenlive2308_editing_insert_04.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:0
-msgid "kdenlive2308_editing_insert_05.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:0
-msgid "kdenlive2308_editing_insert_06.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:0
-msgid "kdenlive2308_editing_overwrite_05.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/useful_info/insert_overwrite_advanced_timeline_editing.rst:0
-msgid "kdenlive2308_editing_overwrite_06.webp"
 msgstr ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-20 14:05+0100\n"
+"POT-Creation-Date: 2026-01-12 10:01+0100\n"
 "PO-Revision-Date: 2025-03-02 00:31+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -106,7 +106,16 @@ msgctxt "@info"
 msgid "A Simple Music Player made with love by the KDE community"
 msgstr "เครื่องเล่นเพลงเรียบง่ายที่สร้างด้วยความรักจากชาว KDE"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: main.cpp:117
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "(c) 2015-2020, Elisa contributors"
+msgctxt "@info"
+msgid "© 2015–2026, Elisa contributors"
+msgstr "(c) 2015-2020, Elisa contributors"
+
+#. +> stable6
 #: main.cpp:117
 #, fuzzy, kde-format
 #| msgctxt "@info"
@@ -440,28 +449,28 @@ msgid "%1:%2:%3"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/AbstractBrowserDelegate.qml:41
+#: qml/AbstractBrowserDelegate.qml:42
 #, kde-format
 msgctxt "@action:button"
 msgid "Play now, replacing current playlist"
 msgstr "เล่นเดี๋ยวนี้แทนที่เพลย์ลิสต์ปัจจุบัน"
 
 #. +> trunk6 stable6
-#: qml/AbstractBrowserDelegate.qml:47 qml/TrackBrowserDelegate.qml:86
+#: qml/AbstractBrowserDelegate.qml:48 qml/TrackBrowserDelegate.qml:86
 #, kde-format
 msgctxt "@action:button"
 msgid "Play next"
 msgstr "เล่นถัดไป"
 
 #. +> trunk6 stable6
-#: qml/AbstractBrowserDelegate.qml:52 qml/TrackBrowserDelegate.qml:81
+#: qml/AbstractBrowserDelegate.qml:53 qml/TrackBrowserDelegate.qml:81
 #, kde-format
 msgctxt "@action:button"
 msgid "Add to playlist"
 msgstr "เพิ่มลงในเพลย์ลิสต์"
 
 #. +> trunk6 stable6
-#: qml/AbstractBrowserDelegate.qml:61
+#: qml/AbstractBrowserDelegate.qml:62
 #: qml/mobile/MobilePlayListDelegate.qml:168 qml/PlayListEntry.qml:88
 #: qml/TrackBrowserDelegate.qml:69
 #, kde-format
@@ -470,7 +479,7 @@ msgid "Show in folder"
 msgstr "แสดงในโฟลเดอร์"
 
 #. +> trunk6 stable6
-#: qml/AbstractBrowserDelegate.qml:83
+#: qml/AbstractBrowserDelegate.qml:84
 #, kde-format
 msgctxt "@action:button"
 msgid "Options"
@@ -555,21 +564,21 @@ msgid "Open sidebar"
 msgstr "เปิดแถบข้าง"
 
 #. +> trunk6 stable6
-#: qml/ContextView.qml:112
+#: qml/ContextView.qml:113
 #, kde-format
 msgctxt "@option:radio One of the 'now playing' views"
 msgid "Metadata"
 msgstr "Metadata"
 
 #. +> trunk6 stable6
-#: qml/ContextView.qml:123
+#: qml/ContextView.qml:124
 #, kde-format
 msgctxt "@option:radio One of the 'now playing' views"
 msgid "Lyrics"
 msgstr "เนื้อเพลง"
 
 #. +> trunk6 stable6
-#: qml/ContextView.qml:130 qml/MediaPlayerControl.qml:295
+#: qml/ContextView.qml:131 qml/MediaPlayerControl.qml:299
 #: qml/mobile/MobileTrackPlayer.qml:395 qml/NavigationActionBar.qml:175
 #, kde-format
 msgctxt "@action:button"
@@ -577,21 +586,14 @@ msgid "Show Playlist"
 msgstr "แสดงเพลย์ลิสต์"
 
 #. +> trunk6 stable6
-#: qml/ContextView.qml:430
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No lyrics found"
-msgstr "ไม่พบเนื้อเพลง"
-
-#. +> trunk6 stable6
-#: qml/ContextView.qml:446
+#: qml/ContextView.qml:361
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Nothing playing"
 msgstr "ไม่มีอะไรเล่นอยู่"
 
 #. +> trunk6 stable6
-#: qml/ContextView.qml:480
+#: qml/ContextView.qml:395
 #, kde-format
 msgctxt "@action:button"
 msgid "Show In Folder"
@@ -634,7 +636,7 @@ msgid "Loading failed"
 msgstr "โหลดล้มเหลว"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:30 qml/ElisaMainWindow.qml:310
+#: qml/ElisaMainWindow.qml:30 qml/ElisaMainWindow.qml:309
 #, kde-format
 msgctxt "@action:button"
 msgid "Retry"
@@ -669,28 +671,28 @@ msgid "Hide playlist drawer"
 msgstr "ซ่อนแถบเพลย์ลิสต์"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:179 qml/ElisaMainWindow.qml:625
+#: qml/ElisaMainWindow.qml:178 qml/ElisaMainWindow.qml:622
 #, kde-format
 msgctxt "@info:status"
 msgid "Could not load some files. Elisa can only open audio and playlist files."
 msgstr "ไม่สามารถโหลดบางไฟล์ Elisa สามารถเปิดไฟล์เสียงและเพลย์ลิสต์เท่านั้น"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:238 qml/mobile/MobileSidebar.qml:22
+#: qml/ElisaMainWindow.qml:237 qml/mobile/MobileSidebar.qml:20
 #, kde-format
 msgctxt "@title:window"
 msgid "Elisa"
 msgstr "Elisa"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:238
+#: qml/ElisaMainWindow.qml:237
 #, kde-format
 msgctxt "@title:window"
 msgid "%1 — Elisa"
 msgstr "%1 — Elisa"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:290
+#: qml/ElisaMainWindow.qml:289
 #, kde-format
 msgctxt "@option file type (mime type) for m3u, m3u8 playlist file formats; do not translate *.m3u*"
 msgid "m3u8, m3u Playlist File (*.m3u*)"
@@ -704,21 +706,21 @@ msgid "m3u8, m3u, pls Playlist File (*.m3u8 *.m3u *.pls)"
 msgstr "m3u8, m3u, pls Playlist File (*.m3u8 *.m3u *.pls)"
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:290
+#: qml/ElisaMainWindow.qml:289
 #, kde-format
 msgctxt "@option file type (mime type) for pls playlist file formats; do not translate *.pls"
 msgid "pls Playlist File (*.pls)"
 msgstr "pls Playlist File (*.pls)"
 
 #. +> trunk6
-#: qml/ElisaMainWindow.qml:297
+#: qml/ElisaMainWindow.qml:296
 #, kde-format
 msgctxt "@option Allow opening music and playlist files. %1 and %2 are lists of untranslated file extensions"
 msgid "Playlist files and music files (%1 %2) (%1 %2)"
 msgstr ""
 
 #. +> trunk6
-#: qml/ElisaMainWindow.qml:298
+#: qml/ElisaMainWindow.qml:297
 #, fuzzy, kde-format
 #| msgctxt "@option file type (mime type) for pls playlist file formats; do not translate *.pls"
 #| msgid "pls Playlist File (*.pls)"
@@ -727,25 +729,49 @@ msgid "Playlist files (%1) (%1)"
 msgstr "pls Playlist File (*.pls)"
 
 #. +> trunk6
-#: qml/ElisaMainWindow.qml:299
+#: qml/ElisaMainWindow.qml:298
 #, kde-format
 msgctxt "@option Allow opening music files. %1 is an untranslated list of file extensions"
 msgid "Music files (%1) (%1)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: qml/ElisaMainWindow.qml:310
+#: qml/ElisaMainWindow.qml:309
 #, kde-format
 msgctxt "@label"
 msgid "Saving failed"
 msgstr "การบันทึกล้มเหลว"
 
 #. +> trunk6 stable6
-#: qml/HeaderBar.qml:186
+#: qml/HeaderBar.qml:242 qml/MediaPlayerControl.qml:259
+#: qml/mobile/MobileTrackPlayer.qml:297
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Playlist"
+msgstr "เพลย์ลิสต์"
+
+#. +> trunk6
+#: qml/HeaderBar.qml:259
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox Lyrics label for track metadata view"
+#| msgid "Lyrics"
+msgctxt "@action:button"
+msgid "Lyrics"
+msgstr "เนื้อเพลง"
+
+#. +> trunk6 stable6
+#: qml/HeaderBar.qml:273
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen"
 msgstr "Screen"
+
+#. +> trunk6 stable6
+#: qml/LyricsView.qml:161
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No lyrics found"
+msgstr "ไม่พบเนื้อเพลง"
 
 #. +> trunk6 stable6
 #: qml/MediaPlayerControl.qml:91
@@ -804,42 +830,42 @@ msgid "Mute"
 msgstr "ปิดเสียง"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:167 qml/mobile/MobileTrackPlayer.qml:213
+#: qml/MediaPlayerControl.qml:171 qml/mobile/MobileTrackPlayer.qml:213
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current: No shuffle"
 msgstr "ปัจจุบัน: ไม่มีการสับเปลี่ยน"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:168 qml/mobile/MobileTrackPlayer.qml:214
+#: qml/MediaPlayerControl.qml:172 qml/mobile/MobileTrackPlayer.qml:214
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current: Shuffle tracks"
 msgstr "ปัจจุบัน: สุ่มเพลง"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:169 qml/mobile/MobileTrackPlayer.qml:215
+#: qml/MediaPlayerControl.qml:173 qml/mobile/MobileTrackPlayer.qml:215
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current: Shuffle albums"
 msgstr "ปัจจุบัน: สุ่มอัลบั้ม"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:197 qml/mobile/MobileTrackPlayer.qml:244
+#: qml/MediaPlayerControl.qml:201 qml/mobile/MobileTrackPlayer.qml:244
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Track"
 msgstr "เพลง"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:201 qml/mobile/MobileTrackPlayer.qml:248
+#: qml/MediaPlayerControl.qml:205 qml/mobile/MobileTrackPlayer.qml:248
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Album"
 msgstr "อัลบั้ม"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:205 qml/MediaPlayerControl.qml:263
+#: qml/MediaPlayerControl.qml:209 qml/MediaPlayerControl.qml:267
 #: qml/mobile/MobileTrackPlayer.qml:252 qml/mobile/MobileTrackPlayer.qml:305
 #, kde-format
 msgctxt "@action:inmenu"
@@ -847,35 +873,28 @@ msgid "None"
 msgstr "ไม่มี"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:226 qml/mobile/MobileTrackPlayer.qml:266
+#: qml/MediaPlayerControl.qml:230 qml/mobile/MobileTrackPlayer.qml:266
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current: Don't repeat tracks"
 msgstr "ปัจจุบัน: อย่าเล่นเพลงซ้ํา"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:227 qml/mobile/MobileTrackPlayer.qml:267
+#: qml/MediaPlayerControl.qml:231 qml/mobile/MobileTrackPlayer.qml:267
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current: Repeat current track"
 msgstr "ปัจจุบัน: เล่นเพลงปัจจุบันซ้ํา"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:228 qml/mobile/MobileTrackPlayer.qml:268
+#: qml/MediaPlayerControl.qml:232 qml/mobile/MobileTrackPlayer.qml:268
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Current: Repeat all tracks in playlist"
 msgstr "ปัจจุบัน: เล่นทุกเพลงในเพลย์ลิสต์ซ้ํา"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:255 qml/mobile/MobileTrackPlayer.qml:297
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Playlist"
-msgstr "เพลย์ลิสต์"
-
-#. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:259 qml/mobile/MobileTrackPlayer.qml:301
+#: qml/MediaPlayerControl.qml:263 qml/mobile/MobileTrackPlayer.qml:301
 #, fuzzy, kde-format
 #| msgctxt "@item:intable number of tracks/songs in all albums"
 #| msgid "%1 track"
@@ -885,7 +904,7 @@ msgid "One track"
 msgstr "%1 เพลง"
 
 #. +> trunk6 stable6
-#: qml/MediaPlayerControl.qml:312
+#: qml/MediaPlayerControl.qml:316
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip"
 msgid "Application menu"
@@ -1086,21 +1105,21 @@ msgid "Add tag"
 msgstr "เพิ่มแท็ก"
 
 #. +> trunk6 stable6
-#: qml/MediaTrackMetadataForm.qml:65 qml/SettingsForm.qml:44
+#: qml/MediaTrackMetadataForm.qml:65 qml/SettingsForm.qml:46
 #, kde-format
 msgctxt "@title:window"
 msgid "Warning"
 msgstr "คำเตือน"
 
 #. +> trunk6 stable6
-#: qml/MediaTrackMetadataForm.qml:94
+#: qml/MediaTrackMetadataForm.qml:95
 #, kde-format
 msgctxt "@label"
 msgid "Data is not valid. %1"
 msgstr "ข้อมูลไม่ถูกต้อง %1"
 
 #. +> trunk6 stable6
-#: qml/MediaTrackMetadataForm.qml:146
+#: qml/MediaTrackMetadataForm.qml:147
 #, kde-format
 msgctxt "Track metadata form label, e.g. 'Artist:'"
 msgid "%1:"
@@ -1108,7 +1127,7 @@ msgstr "%1:"
 
 #. +> trunk6 stable6
 #: qml/MediaTrackMetadataView.qml:36
-#: qml/mobile/MobileMediaTrackMetadataView.qml:49
+#: qml/mobile/MobileMediaTrackMetadataView.qml:47
 #, kde-format
 msgctxt "@title:window"
 msgid "Create a Radio"
@@ -1116,7 +1135,7 @@ msgstr "สร้างวิทยุ"
 
 #. +> trunk6 stable6
 #: qml/MediaTrackMetadataView.qml:37
-#: qml/mobile/MobileMediaTrackMetadataView.qml:50
+#: qml/mobile/MobileMediaTrackMetadataView.qml:48
 #, kde-format
 msgctxt "@title:window"
 msgid "View details"
@@ -1124,7 +1143,7 @@ msgstr "ดูรายละเอียด"
 
 #. +> trunk6 stable6
 #: qml/MediaTrackMetadataView.qml:128
-#: qml/mobile/MobileMediaTrackMetadataView.qml:73
+#: qml/mobile/MobileMediaTrackMetadataView.qml:71
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete"
@@ -1132,23 +1151,23 @@ msgstr "ลบ"
 
 #. +> trunk6 stable6
 #: qml/MediaTrackMetadataView.qml:146
-#: qml/mobile/MobileMediaTrackMetadataView.qml:55
+#: qml/mobile/MobileMediaTrackMetadataView.qml:53
 #, kde-format
 msgctxt "@action:button"
 msgid "Modify"
 msgstr "แก้ไข"
 
 #. +> trunk6 stable6
-#: qml/mobile/MobileMediaTrackMetadataView.qml:61
-#: qml/mobile/MobileSettingsPage.qml:40
+#: qml/mobile/MobileMediaTrackMetadataView.qml:59
+#: qml/mobile/MobileSettingsPage.qml:38
 #, kde-format
 msgctxt "@action:button"
 msgid "Save"
 msgstr "บันทึก"
 
 #. +> trunk6 stable6
-#: qml/mobile/MobileMediaTrackMetadataView.qml:67
-#: qml/mobile/MobileSettingsPage.qml:46
+#: qml/mobile/MobileMediaTrackMetadataView.qml:65
+#: qml/mobile/MobileSettingsPage.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
@@ -1216,7 +1235,7 @@ msgid "Remove from queue"
 msgstr "ลบออกจากคิว"
 
 #. +> trunk6 stable6
-#: qml/mobile/MobileSettingsPage.qml:26 qml/mobile/MobileSidebar.qml:38
+#: qml/mobile/MobileSettingsPage.qml:24 qml/mobile/MobileSidebar.qml:36
 #, kde-format
 msgctxt "@title:window"
 msgid "Settings"
@@ -1528,42 +1547,49 @@ msgid "Back"
 msgstr "กลับ"
 
 #. +> trunk6 stable6
-#: qml/NavigationActionBar.qml:333
+#: qml/NavigationActionBar.qml:332
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip Show filters in the navigation bar"
 msgid "Show search and filter toolbar"
 msgstr "แสดงแถบเครื่องมือการค้นหาและตัวกรอง"
 
 #. +> trunk6 stable6
-#: qml/NavigationActionBar.qml:334
+#: qml/NavigationActionBar.qml:333
 #, kde-format
 msgctxt "@action:button displayed as @info:tooltip Hide filters in the navigation bar"
 msgid "Hide search and filter toolbar"
 msgstr "ซ่อนแถบเครื่องมือการค้นหาและตัวกรอง"
 
+#. +> trunk6
+#: qml/NavigationActionBar.qml:426
+#, kde-format
+msgctxt "@info:placeholder radio view filter"
+msgid "Search for radio station"
+msgstr ""
+
 #. +> trunk6 stable6
-#: qml/NavigationActionBar.qml:427
+#: qml/NavigationActionBar.qml:428
 #, kde-format
 msgctxt "@info:placeholder track view filter single album"
 msgid "Search for track name, artist, etc."
 msgstr "ค้นหาชื่อเพลง ศิลปิน ฯลฯ"
 
 #. +> trunk6 stable6
-#: qml/NavigationActionBar.qml:428
+#: qml/NavigationActionBar.qml:429
 #, kde-format
 msgctxt "@info:placeholder track view filter general"
 msgid "Search for album name, artist, etc."
 msgstr "ค้นหาชื่ออัลบั้ม ศิลปิน ฯลฯ"
 
 #. +> trunk6 stable6
-#: qml/NavigationActionBar.qml:437
+#: qml/NavigationActionBar.qml:438
 #, kde-format
 msgctxt "@label:chooser"
 msgid "Filter by rating: "
 msgstr "กรองตามคะแนน:"
 
 #. +> trunk6 stable6
-#: qml/NavigationActionBar.qml:455
+#: qml/NavigationActionBar.qml:456
 #, kde-format
 msgctxt "@action:button"
 msgid "Only Show Favorites"
@@ -1605,279 +1631,279 @@ msgid "Cancel rating this track"
 msgstr "ยกเลิกเรตติ้งบนเพลงนี้"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:67
+#: qml/SettingsForm.qml:69
 #, kde-format
 msgctxt "@title:group"
 msgid "General:"
 msgstr "ทั่วไป:"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:71
+#: qml/SettingsForm.qml:73
 #, kde-format
 msgctxt "@option:check"
 msgid "Show background on Now Playing page"
 msgstr "แสดงพื้นหลังบนหน้ากําลังเล่นอยู่"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:84
+#: qml/SettingsForm.qml:86
 #, kde-format
 msgctxt "@option:check"
 msgid "Show progress on task manager entries"
 msgstr "แสดงความคืบหน้าในรายการตัวจัดการงาน"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:95
+#: qml/SettingsForm.qml:97
 #, kde-format
 msgctxt "@option:check"
 msgid "Keep running in system tray when main window is closed"
 msgstr "ทํางานต่อไปในซิสเต็มเทรย์เมื่อปิดหน้าต่างหลัก"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:106
+#: qml/SettingsForm.qml:108
 #, kde-format
 msgctxt "@option:check"
 msgid "Start playing on startup"
 msgstr "เริ่มเล่นเมื่อเริ่มโปรแกรม"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:117
+#: qml/SettingsForm.qml:119
 #, kde-format
 msgctxt "@option:check"
 msgid "Scan for new music on startup"
 msgstr "สแกนหาเพลงใหม่เมื่อเริ่มโปรแกรม"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:136
+#: qml/SettingsForm.qml:138
 #, kde-kuit-format
 msgctxt "@info"
 msgid "When using this setting, you will need to manually refresh the music collection whenever new files are added to configured music folders. You can do this with the <interface>Scan for new music</interface> item in Elisa's hamburger menu."
 msgstr "เมื่อใช้การตั้งค่านี้ คุณจะต้องรีเฟรชเพลงด้วยตนเอง คอลเลกชันเมื่อใดก็ตามที่มีการเพิ่มไฟล์ใหม่ลงในโฟลเดอร์เพลงที่กําหนดค่าไว้ คุณสามารถ ทําเช่นนี้ด้วยรายการ <interface>สแกนหาเพลงใหม่</interface> ใน Elisa's เมนูแฮมเบอร์เกอร์"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:147
+#: qml/SettingsForm.qml:149
 #, kde-format
 msgctxt "@title:group"
 msgid "Song rating style:"
 msgstr "สไตล์การให้คะแนนเพลง:"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:151
+#: qml/SettingsForm.qml:153
 #, kde-format
 msgctxt "@option:radio"
 msgid "0-5 stars"
 msgstr "0-5 ดาว"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:163
+#: qml/SettingsForm.qml:165
 #, kde-format
 msgctxt "@option:radio"
 msgid "Favorite/not favorite"
 msgstr "รายการโปรด/ไม่เป็นรายการโปรด"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:181
+#: qml/SettingsForm.qml:183
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Color scheme:"
 msgstr "ชุดสี:"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:217
+#: qml/SettingsForm.qml:219
 #, kde-format
 msgctxt "@action:button"
 msgid "Scan for New Music"
 msgstr "Music"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:221 qml/SettingsForm.qml:232
+#: qml/SettingsForm.qml:223 qml/SettingsForm.qml:234
 #, kde-format
 msgctxt "@info"
 msgid "Started scanning for music"
 msgstr "เริ่มสแกนหาเพลง"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:227
+#: qml/SettingsForm.qml:229
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset Database and Re-Scan Everything"
 msgstr "Re"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:231
+#: qml/SettingsForm.qml:233
 #, kde-format
 msgctxt "@info"
 msgid "Database has been reset"
 msgstr "ฐานข้อมูลถูกรีเซ็ต"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:246
+#: qml/SettingsForm.qml:248
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Embed category in sidebar:"
 msgstr "ฝังหมวดหมู่ในแถบด้านข้าง:"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:248
+#: qml/SettingsForm.qml:250
 #, kde-format
 msgctxt "@item:inlistbox Configure dialog, embed no category in views navigation list"
 msgid "Nothing"
 msgstr "ไม่มีอะไร"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:249
+#: qml/SettingsForm.qml:251
 #, kde-format
 msgctxt "@item:inlistbox Configure dialog, embed all albums in views navigation list"
 msgid "Albums"
 msgstr "อัลบั้ม"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:250
+#: qml/SettingsForm.qml:252
 #, kde-format
 msgctxt "@item:inlistbox Configure dialog, embed all artists in views navigation list"
 msgid "Artists"
 msgstr "ศิลปิน"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:251
+#: qml/SettingsForm.qml:253
 #, kde-format
 msgctxt "@item:inlistbox Configure dialog, embed all genres in views navigation list"
 msgid "Genres"
 msgstr "ประเภท"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:284
+#: qml/SettingsForm.qml:286
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Initial view on startup:"
 msgstr "มุมมองเริ่มต้นเมื่อเริ่มต้น:"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:286
+#: qml/SettingsForm.qml:288
 #, kde-format
 msgctxt "@item:inlistbox Title of the view of the playlist"
 msgid "Now Playing"
 msgstr "Playing"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:287
+#: qml/SettingsForm.qml:289
 #, kde-format
 msgctxt "@item:inlistbox Title of the view of recently played tracks"
 msgid "Recently Played"
 msgstr "เล่นล่าสุด"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:288
+#: qml/SettingsForm.qml:290
 #, kde-format
 msgctxt "@item:inlistbox Title of the view of frequently played tracks"
 msgid "Frequently Played"
 msgstr "เล่นบ่อย"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:289 viewmanager.cpp:216
+#: qml/SettingsForm.qml:291 viewmanager.cpp:216
 #, kde-format
 msgctxt "@item:inlistbox Title of the view of all albums"
 msgid "Albums"
 msgstr "อัลบั้ม"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:290 viewmanager.cpp:220
+#: qml/SettingsForm.qml:292 viewmanager.cpp:220
 #, kde-format
 msgctxt "@item:inlistbox Title of the view of all artists"
 msgid "Artists"
 msgstr "ศิลปิน"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:291 viewmanager.cpp:218
+#: qml/SettingsForm.qml:293 viewmanager.cpp:218
 #, kde-format
 msgctxt "@item:inlistbox Title of the view of all tracks"
 msgid "Tracks"
 msgstr "เพลง"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:292
+#: qml/SettingsForm.qml:294
 #, kde-format
 msgctxt "@item:inlistbox Title of the view of all genres"
 msgid "Genres"
 msgstr "ประเภท"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:293
+#: qml/SettingsForm.qml:295
 #, kde-format
 msgctxt "@item:inlistbox Title of the file browser view"
 msgid "Files"
 msgstr "ไฟล์"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:294
+#: qml/SettingsForm.qml:296
 #, kde-format
 msgctxt "@item:inlistbox Title of the file radios browser view"
 msgid "Radio Stations"
 msgstr "สถานีวิทยุ"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:314
+#: qml/SettingsForm.qml:316
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Initial location for Files view:"
 msgstr "ตําแหน่งเริ่มต้นสําหรับมุมมองไฟล์:"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:328
+#: qml/SettingsForm.qml:330
 #, kde-format
 msgctxt "@action:button as in, choose a file path on disk"
 msgid "Choose…"
 msgstr "เลือก..."
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:336 qml/SettingsForm.qml:466
+#: qml/SettingsForm.qml:338 qml/SettingsForm.qml:463
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Folder"
 msgstr "เลือกโฟลเดอร์..."
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:359
+#: qml/SettingsForm.qml:361
 #, kde-format
 msgid "When saving playlist files:"
 msgstr "เมื่อบันทึกไฟล์เพลย์ลิสต์:"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:368
+#: qml/SettingsForm.qml:370
 #, kde-format
 msgctxt "@item:inlistbox Configure dialog, playlist save type"
 msgid "Prefer relative paths"
 msgstr "Prefer relative paths"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:369
+#: qml/SettingsForm.qml:371
 #, kde-format
 msgctxt "@item:inlistbox Configure dialog, playlist save type"
 msgid "Always use absolute paths"
 msgstr "Always use absolute paths"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:380
+#: qml/SettingsForm.qml:382
 #, kde-kuit-format
 msgctxt "@info:tooltip Playlist Relative Paths"
 msgid "When <interface>Prefer relative paths</interface> is selected, files in the same folder as the playlist will be referred with only the filename. Absolute paths are used in other cases."
 msgstr "เมื่อเลือก <interface>Prefer relative paths</interface> ไฟล์ใน โฟลเดอร์เดียวกับเพลย์ลิสต์จะถูกอ้างถึงด้วยชื่อไฟล์เท่านั้น เส้นทางสัมบูรณ์จะใช้ในกรณีอื่นๆ"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:395
+#: qml/SettingsForm.qml:397
 #, kde-format
 msgctxt "@title The configured folders where the user's music collection can be found"
 msgid "Music folders:"
 msgstr "โฟลเดอร์เพลง:"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:443
+#: qml/SettingsForm.qml:440
 #, kde-format
 msgctxt "@action:button"
 msgid "Stop looking for music here"
 msgstr "หยุดมองหาเพลงที่นี่"
 
 #. +> trunk6 stable6
-#: qml/SettingsForm.qml:456
+#: qml/SettingsForm.qml:453
 #, kde-format
 msgctxt "@action:button"
 msgid "Add New Location"
@@ -1950,7 +1976,7 @@ msgid "Scanning music"
 msgstr "การสแกนเพลง"
 
 #. +> trunk6 stable6
-#: qml/TracksDiscHeader.qml:21
+#: qml/TracksDiscHeader.qml:22
 #, kde-format
 msgctxt "@title:row disc header text when showing an album"
 msgid "Disc %1"

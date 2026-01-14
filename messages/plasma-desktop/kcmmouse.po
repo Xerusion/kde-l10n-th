@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-04 09:40+0100\n"
+"POT-Creation-Date: 2026-01-14 12:38+0100\n"
 "PO-Revision-Date: 2010-12-17 20:54+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -61,49 +61,49 @@ msgid "Developer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: kcm.cpp:86
+#: kcm.cpp:87
 #, kde-format
 msgid "Not able to select appropriate backend"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcm.cpp:142
+#: kcm.cpp:143
 #, kde-format
 msgid "Error while loading values. See logs for more information. Please restart this configuration module."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcm.cpp:145
+#: kcm.cpp:146
 #, kde-format
 msgid "No pointer device found. Connect now."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcm.cpp:154
+#: kcm.cpp:155
 #, kde-format
 msgid "Not able to save all changes. See logs for more information. Please restart this configuration module and try again."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcm.cpp:172
+#: kcm.cpp:173
 #, kde-format
 msgid "Error while loading default values. Failed to set some options to their default values."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcm.cpp:187
+#: kcm.cpp:188
 #, kde-format
 msgid "Error while adding newly connected device. Please reconnect it and restart this configuration module."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcm.cpp:200
+#: kcm.cpp:201
 #, kde-format
 msgid "Pointer device disconnected. Closed its setting dialog."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: kcm.cpp:202
+#: kcm.cpp:203
 #, kde-format
 msgid "Pointer device disconnected. No other devices found."
 msgstr ""
@@ -166,64 +166,48 @@ msgctxt "@action:button"
 msgid "Configure Extra Buttons…"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:64
 #, kde-format
+msgctxt "@title:listbox select device"
 msgid "Device:"
 msgstr ""
 
-#. +> stable6 stable5
-#: ui/main.qml:88
-#, kde-format
-msgid "Device enabled"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:87
 #, fuzzy, kde-format
 #| msgid "&General"
+msgctxt "@title:group"
 msgid "General:"
 msgstr "ทั่วไป"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:88
 #, kde-format
+msgctxt "@option:check enable this mouse device"
 msgid "Enable device"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:105
 #, kde-format
 msgctxt "@title:group"
 msgid "Left and right buttons:"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:106
 #, fuzzy, kde-format
 #| msgid "Le&ft handed"
+msgctxt "@option:check Left and right buttons"
 msgid "Swap (left-handed mode)"
 msgstr "ใช้มือซ้าย"
 
-#. +> stable6
-#: ui/main.qml:103
-#, fuzzy, kde-format
-#| msgid "Le&ft handed"
-msgid "Left-handed mode"
-msgstr "ใช้มือซ้าย"
-
-#. +> trunk6
+#. +> trunk6 stable6
 #: ui/main.qml:121
 #, kde-format
 msgctxt "@option:check 'both' refers to the left and right buttons'"
 msgid "Press both simultaneously to middle-click"
-msgstr ""
-
-#. +> stable6
-#: ui/main.qml:118
-#, kde-format
-msgctxt "@option:check"
-msgid "Press left and right buttons for middle-click"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -233,10 +217,11 @@ msgctxt "@info:tooltip from ContextualHelpButton"
 msgid "Activating this setting increases click latency by 50ms. The extra delay is needed to correctly detect simultaneous left and right button presses."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:148
 #, fuzzy, kde-format
 #| msgid "Pointer threshold:"
+msgctxt "@label:slider and @label:spinbox"
 msgid "Pointer speed:"
 msgstr "ขีดเริ่มของตัวชี้:"
 
@@ -244,20 +229,22 @@ msgstr "ขีดเริ่มของตัวชี้:"
 #: ui/main.qml:227
 #, fuzzy, kde-format
 #| msgid "Pointer acceleration:"
+msgctxt "@option:check"
 msgid "Enable pointer acceleration"
 msgstr "การเร่งความเร็วตัวชี้:"
 
 #. +> trunk6 stable6
 #: ui/main.qml:241
 #, kde-format
-msgctxt "@info:tooltip from ContextualHelpButton"
+msgctxt "@info:whatsthis ContextualHelpButton tooltip"
 msgid "When enabled, pointer travel distance increases with faster movement speed."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:254
 #, fuzzy, kde-format
 #| msgid "Pointer threshold:"
+msgctxt "@label:slider and @label:spinbox"
 msgid "Scrolling speed:"
 msgstr "ขีดเริ่มของตัวชี้:"
 
@@ -275,29 +262,33 @@ msgctxt "Faster Scroll Speed"
 msgid "Faster"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:321
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Pointer threshold:"
+msgctxt "@title:group"
 msgid "Scrolling:"
-msgstr ""
+msgstr "ขีดเริ่มของตัวชี้:"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ui/main.qml:322
 #, fuzzy, kde-format
 #| msgid "Re&verse scroll direction"
+msgctxt "@option:check"
 msgid "Invert scroll direction"
 msgstr "กลับทิศทางการเลื่อนบรรทัด"
 
 #. +> trunk6 stable6
 #: ui/main.qml:339
 #, kde-format
+msgctxt "@option:check"
 msgid "Hold down middle button and move mouse to scroll"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ui/main.qml:351
 #, kde-format
-msgctxt "@info:tooltip from ContextualHelpButton"
+msgctxt "@info:whatsthis ContextualHelpButton tooltip"
 msgid "This will interfere with applications that use middle-button drag, such as some image editors, document viewers, or video games. It may be used on any device, but is intended primarily as a substitute for scroll wheels on devices that do not have any."
 msgstr ""
 
@@ -312,6 +303,25 @@ msgstr "ถนอมทรัพย์ นพบูรณ์, สหชาติ
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "donga.nb@gmail.com, drrider@gmail.com"
+
+#. +> stable5
+#: kcm/libinput/main.qml:79
+#, kde-format
+msgid "Device:"
+msgstr ""
+
+#. +> stable5
+#: kcm/libinput/main.qml:103 kcm/libinput/main_deviceless.qml:54
+#, fuzzy, kde-format
+#| msgid "&General"
+msgid "General:"
+msgstr "ทั่วไป"
+
+#. +> stable5
+#: kcm/libinput/main.qml:105
+#, kde-format
+msgid "Device enabled"
+msgstr ""
 
 #. +> stable5
 #: kcm/libinput/main.qml:124
@@ -345,6 +355,13 @@ msgid "Clicking left and right button simultaneously sends middle button click."
 msgstr ""
 
 #. +> stable5
+#: kcm/libinput/main.qml:184 kcm/libinput/main_deviceless.qml:110
+#, fuzzy, kde-format
+#| msgid "Pointer threshold:"
+msgid "Pointer speed:"
+msgstr "ขีดเริ่มของตัวชี้:"
+
+#. +> stable5
 #: kcm/libinput/main.qml:216 kcm/libinput/main_deviceless.qml:142
 #, fuzzy, kde-format
 #| msgid "Acceleration &profile:"
@@ -376,10 +393,30 @@ msgid "Cursor travel distance depends on the mouse movement speed."
 msgstr ""
 
 #. +> stable5
+#: kcm/libinput/main.qml:272 kcm/libinput/main_deviceless.qml:198
+#, kde-format
+msgid "Scrolling:"
+msgstr ""
+
+#. +> stable5
+#: kcm/libinput/main.qml:274 kcm/libinput/main_deviceless.qml:200
+#, fuzzy, kde-format
+#| msgid "Re&verse scroll direction"
+msgid "Invert scroll direction"
+msgstr "กลับทิศทางการเลื่อนบรรทัด"
+
+#. +> stable5
 #: kcm/libinput/main.qml:289 kcm/libinput/main_deviceless.qml:215
 #, kde-format
 msgid "Touchscreen like scrolling."
 msgstr ""
+
+#. +> stable5
+#: kcm/libinput/main.qml:295
+#, fuzzy, kde-format
+#| msgid "Pointer threshold:"
+msgid "Scrolling speed:"
+msgstr "ขีดเริ่มของตัวชี้:"
 
 #. +> stable5
 #: kcm/libinput/main.qml:360
@@ -708,3 +745,8 @@ msgstr[0] " พิกเซล"
 msgid " line"
 msgid_plural " lines"
 msgstr[0] " บรรทัด"
+
+#, fuzzy, kde-format
+#~| msgid "Le&ft handed"
+#~ msgid "Left-handed mode"
+#~ msgstr "ใช้มือซ้าย"

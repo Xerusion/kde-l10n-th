@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smb4k\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-11 04:45+0100\n"
+"POT-Creation-Date: 2026-01-02 07:33+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -1599,12 +1599,6 @@ msgstr ""
 msgid "An unknown error with Zeroconf occurred."
 msgstr ""
 
-#. +> trunk6 stable6
-#: smb4kmounter.cpp:433
-#, kde-format
-msgid "The mountpoint %1 is illegal."
-msgstr ""
-
 #. i18n: ectx: label, entry (UseIds), group (Mounting)
 #. +> trunk6 stable6
 #: smb4kmountsettings_bsd.kcfg:13 smb4kmountsettings_linux.kcfg:18
@@ -2124,30 +2118,44 @@ msgstr ""
 msgid "Set the time that elapses between attempts to remount shares."
 msgstr ""
 
+#. i18n: ectx: label, entry (CheckServerOnlineState), group (Mounting)
+#. +> trunk6
+#: smb4kmountsettings_bsd.kcfg:247 smb4kmountsettings_linux.kcfg:290
+#, kde-format
+msgid "Check the online state of the server before remounting a share"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (CheckServerOnlineState), group (Mounting)
+#. +> trunk6
+#: smb4kmountsettings_bsd.kcfg:248 smb4kmountsettings_linux.kcfg:291
+#, kde-format
+msgid "Check the online state of the server on which the share to be mounted is located. Smb4K attempts to connect to port 445 of the server. If that fails, no remounting will be done, because the server is most likely down. Switch this option off, if e.g. the server uses non-default ports."
+msgstr ""
+
 #. i18n: ectx: label, entry (ForceUnmountInaccessible), group (Mounting)
 #. +> trunk6 stable6
-#: smb4kmountsettings_bsd.kcfg:247 smb4kmountsettings_linux.kcfg:290
+#: smb4kmountsettings_bsd.kcfg:252 smb4kmountsettings_linux.kcfg:295
 #, kde-format
 msgid "Force the unmounting of inaccessible shares"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ForceUnmountInaccessible), group (Mounting)
 #. +> trunk6 stable6
-#: smb4kmountsettings_bsd.kcfg:248 smb4kmountsettings_linux.kcfg:291
+#: smb4kmountsettings_bsd.kcfg:253 smb4kmountsettings_linux.kcfg:296
 #, kde-format
 msgid "Force the unmounting of inaccessible shares (Linux only). In case a share is inaccessible, a lazy unmount is performed. Before the actual unmount is performed, a warning dialog is shown asking to approve the unmount."
 msgstr ""
 
 #. i18n: ectx: label, entry (DetectAllShares), group (Mounting)
 #. +> trunk6 stable6
-#: smb4kmountsettings_bsd.kcfg:252 smb4kmountsettings_linux.kcfg:295
+#: smb4kmountsettings_bsd.kcfg:257 smb4kmountsettings_linux.kcfg:300
 #, kde-format
 msgid "Detect all shares that are mounted on the system"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (DetectAllShares), group (Mounting)
 #. +> trunk6 stable6
-#: smb4kmountsettings_bsd.kcfg:253 smb4kmountsettings_linux.kcfg:296
+#: smb4kmountsettings_bsd.kcfg:258 smb4kmountsettings_linux.kcfg:301
 #, kde-format
 msgid "You will not only see the shares that were mounted and are owned by you, but also all other mounts using the SMBFS and CIFS file system that are present on the system."
 msgstr ""
@@ -2590,133 +2598,127 @@ msgid "Unmounting the share <b>%1</b> from <b>%2</b> failed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:276
-#, kde-format
-msgid "You are not allowed to unmount the share <b>%1</b> from <b>%2</b>. It is owned by the user <b>%3</b>."
-msgstr ""
-
-#. +> trunk6 stable6
-#: smb4knotification.cpp:290
+#: smb4knotification.cpp:270
 #, kde-format
 msgid "Synchronizing <b>%1</b> with <b>%2</b> failed: <tt>%3</tt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:292
+#: smb4knotification.cpp:272
 #, kde-format
 msgid "Synchronizing <b>%1</b> with <b>%2</b> failed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:314
+#: smb4knotification.cpp:294
 #, kde-format
 msgid "The command <b>%1</b> could not be found. Please check your installation."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:330
+#: smb4knotification.cpp:310
 #, kde-format
 msgid "The share <b>%1</b> is a printer and cannot be bookmarked."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:344
+#: smb4knotification.cpp:324
 #, kde-format
 msgid "The file <b>%1</b> could not be found."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:354
+#: smb4knotification.cpp:334
 #, kde-format
 msgid "Opening the file <b>%1</b> failed: <tt>%2</tt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:356
+#: smb4knotification.cpp:336
 #, kde-format
 msgid "Opening the file <b>%1</b> failed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:375 smb4knotification.cpp:378
+#: smb4knotification.cpp:355 smb4knotification.cpp:358
 #, kde-format
 msgid "Reading from file <b>%1</b> failed: <tt>%2</tt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:380
+#: smb4knotification.cpp:360
 #, kde-format
 msgid "Reading from file <b>%1</b> failed."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:403
+#: smb4knotification.cpp:383
 #, kde-format
 msgid "The following directory could not be created: <tt>%1</tt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:414
+#: smb4knotification.cpp:394
 #, kde-format
 msgid "The process failed to start (error code: <tt>%1</tt>)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:418
+#: smb4knotification.cpp:398
 #, kde-format
 msgid "The process crashed (error code: <tt>%1</tt>)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:422
+#: smb4knotification.cpp:402
 #, kde-format
 msgid "The process timed out (error code: <tt>%1</tt>)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:426
+#: smb4knotification.cpp:406
 #, kde-format
 msgid "Could not write to the process (error code: <tt>%1</tt>)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:430
+#: smb4knotification.cpp:410
 #, kde-format
 msgid "Could not read from the process (error code: <tt>%1</tt>)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:435
+#: smb4knotification.cpp:415
 #, kde-format
 msgid "The process reported an unknown error."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:497
+#: smb4knotification.cpp:477
 #, kde-format
 msgid "Executing an action with root privileges failed%1%2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:520
+#: smb4knotification.cpp:500
 #, kde-format
 msgid "The URL that was passed is invalid."
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:533
+#: smb4knotification.cpp:513
 #, kde-format
 msgid "The network communication failed with the following error message: <tt>%1</tt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:546
+#: smb4knotification.cpp:526
 #, kde-format
 msgid "An error with the Zeroconf service occurred: <tt>%1</tt>"
 msgstr ""
 
 #. +> trunk6 stable6
-#: smb4knotification.cpp:559
+#: smb4knotification.cpp:539
 #, kde-format
 msgid "An error occurred while reading the login credentials from the secure storage: <tt>%1</tt>"
 msgstr ""
@@ -2755,4 +2757,10 @@ msgstr ""
 #: smb4ksynchronizer_p.cpp:395 smb4ksynchronizer_p.cpp:476
 #, kde-format
 msgid "Destination"
+msgstr ""
+
+#. +> stable6
+#: smb4kmounter.cpp:422
+#, kde-format
+msgid "The mountpoint %1 is illegal."
 msgstr ""

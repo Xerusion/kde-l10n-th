@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-23 11:27+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2010-12-17 20:06+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -64,8 +64,8 @@ msgid ""
 "When turned on this option keeps the selection and the clipboard the same, so that any selection is immediately available to paste by any means. If it is turned off, the selection may still be saved in the clipboard history (subject to the options below), but it can only be pasted using the middle mouse button."
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:714
+#. +> stable5
+#: configdialog.cpp:703
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -137,8 +137,8 @@ msgctxt "@info"
 msgid "When text that matches an action pattern is selected or is chosen from the clipboard history, automatically show the popup menu with applicable actions. If the automatic menu is turned off here, or it is not shown for an excluded window, then it can be shown by using the <shortcut>%1</shortcut> key shortcut."
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:283
+#. +> stable5
+#: configdialog.cpp:278
 #, kde-format
 msgid "Exclude Windows..."
 msgstr ""
@@ -200,8 +200,8 @@ msgctxt "@title:column"
 msgid "Description"
 msgstr "คำอธิบาย"
 
-#. +> stable6 stable5
-#: configdialog.cpp:334
+#. +> stable5
+#: configdialog.cpp:329
 #, kde-format
 msgid "Exclude Windows"
 msgstr ""
@@ -240,8 +240,8 @@ msgid ""
 "and all of its commands?"
 msgstr ""
 
-#. +> stable6 stable5
-#: configdialog.cpp:701
+#. +> stable5
+#: configdialog.cpp:690
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -915,12 +915,6 @@ msgstr "ขึ้น"
 msgid "current"
 msgstr "ปัจจุบัน"
 
-#. +> stable6 stable5
-#: klipper.cpp:437
-#, kde-format
-msgid "Mobile Barcode"
-msgstr "บาร์โค้ดสำหรับโทรศัพท์เคลื่อนที่"
-
 #. +> trunk6 stable6 stable5
 #: klipper.cpp:442
 #, kde-format
@@ -957,6 +951,12 @@ msgstr "เริ่ม"
 #, kde-format
 msgid "Do Not Start"
 msgstr "ไม่ให้เริ่ม"
+
+#. +> stable5
+#: klipper.cpp:1024
+#, kde-format
+msgid "Mobile Barcode"
+msgstr "บาร์โค้ดสำหรับโทรศัพท์เคลื่อนที่"
 
 #. i18n: ectx: label, entry (Version), group (General)
 #. +> trunk6 stable6 stable5
@@ -1086,7 +1086,7 @@ msgid "Automatic action menu time:"
 msgstr "ช่วงเวลาแสดงหน้าต่างผุดของการกระทำ:"
 
 #. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
-#. +> stable6 stable5
+#. +> stable5
 #: klipper.kcfg:57
 #, kde-format
 msgid "No actions for WM_CLASS"
@@ -1186,18 +1186,6 @@ msgstr "&ยกเลิก"
 #, kde-format
 msgid "Disable This Popup"
 msgstr "ปิดการใช้งานหน้าต่างผุดนี้"
-
-#. +> stable6 stable5
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "ถนอมทรัพย์ นพบูรณ์"
-
-#. +> stable6 stable5
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "donga.nb@gmail.com"
 
 #. +> stable5
 #: historyimageitem.cpp:36
@@ -1302,6 +1290,20 @@ msgstr ""
 #, kde-format
 msgid "Maintainer"
 msgstr "ผู้ดูแล"
+
+#. +> stable5
+#: main.cpp:46
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ถนอมทรัพย์ นพบูรณ์"
+
+#. +> stable5
+#: main.cpp:46
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "donga.nb@gmail.com"
 
 #. +> stable5
 #: popupproxy.cpp:145

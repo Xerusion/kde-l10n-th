@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-11 04:45+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2025-03-01 14:53+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -31,32 +31,32 @@ msgid "Your emails"
 msgstr "donga.nb@gmail.com"
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:488
+#: backends/wayland/wayland_output.cpp:481
 #, kde-format
 msgid "Press right control to ungrab pointer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:490
+#: backends/wayland/wayland_output.cpp:483
 #, kde-format
 msgid "Press right control key to grab pointer"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:494
+#: backends/wayland/wayland_output.cpp:487
 #, kde-format
 msgctxt "Title of nested KWin Wayland with Wayland socket identifier as argument"
 msgid "KDE Wayland Compositor %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:497
+#: backends/wayland/wayland_output.cpp:490
 #, kde-format
 msgid "- Output disabled"
 msgstr ""
 
 #. +> trunk6 stable6
-#: backends/wayland/wayland_output.cpp:499
+#: backends/wayland/wayland_output.cpp:492
 #, kde-format
 msgid "- Output dimmed"
 msgstr ""
@@ -80,7 +80,7 @@ msgid "KDE Wayland Compositor"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: compositor.cpp:603
+#: compositor.cpp:610
 #, kde-format
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""
@@ -942,8 +942,8 @@ msgstr ""
 msgid "Button"
 msgstr "การจำลองเมาส์"
 
-#. +> stable6 stable5
-#: debug_console.cpp:555 debug_console.cpp:574
+#. +> stable5
+#: debug_console.cpp:516
 #, fuzzy, kde-format
 #| msgid "Mouse Emulation"
 msgid "Buttons"
@@ -1249,41 +1249,41 @@ msgid "task"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:1419
+#: debug_console.cpp:1427
 #, fuzzy, kde-format
 #| msgid "Windows"
 msgid "X11 Windows"
 msgstr "หน้าต่างต่าง ๆ"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:1421
+#: debug_console.cpp:1429
 #, kde-format
 msgid "X11 Unmanaged Windows"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:1423
+#: debug_console.cpp:1431
 #, fuzzy, kde-format
 #| msgid "Shade Window"
 msgid "Wayland Windows"
 msgstr "พับเก็บหน้าต่าง"
 
 #. +> trunk6 stable6 stable5
-#: debug_console.cpp:1425
+#: debug_console.cpp:1433
 #, fuzzy, kde-format
 #| msgid "Inactive windows:"
 msgid "Internal Windows"
 msgstr "หน้าต่างที่ไม่ได้ทำงาน:"
 
 #. +> trunk6 stable6
-#: debug_console.cpp:1782
+#: debug_console.cpp:1790
 #, kde-format
 msgctxt "@action:button unload an effect"
 msgid "Unload"
 msgstr ""
 
 #. +> trunk6 stable6
-#: debug_console.cpp:1786
+#: debug_console.cpp:1794
 #, kde-format
 msgctxt "@action:button load an effect"
 msgid "Load"
@@ -1305,23 +1305,16 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, windows)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:27
+#: debug_console.ui:30
 #, kde-format
 msgid "Windows"
 msgstr "หน้าต่างต่าง ๆ"
 
 #. i18n: ectx: attribute (title), widget (QWidget, input)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:41
+#: debug_console.ui:44
 #, kde-format
 msgid "Input Events"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, inputDevices)
-#. +> trunk6 stable6 stable5
-#: debug_console.ui:58
-#, kde-format
-msgid "Input Devices"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, surfaces)
@@ -1331,100 +1324,107 @@ msgstr ""
 msgid "Surfaces"
 msgstr ""
 
+#. i18n: ectx: attribute (title), widget (QWidget, inputDevices)
+#. +> trunk6 stable6 stable5
+#: debug_console.ui:61
+#, kde-format
+msgid "Input Devices"
+msgstr ""
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:68
+#: debug_console.ui:71
 #, kde-format
 msgid "OpenGL"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, noOpenGLLabel)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:74
+#: debug_console.ui:77
 #, kde-format
 msgid "No OpenGL compositor running"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, driverInfoBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:102
+#: debug_console.ui:105
 #, kde-format
 msgid "OpenGL (ES) driver information"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:108
+#: debug_console.ui:111
 #, kde-format
 msgid "Vendor:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:115
+#: debug_console.ui:118
 #, kde-format
 msgid "Renderer:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:122
+#: debug_console.ui:125
 #, kde-format
 msgid "Version:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:129
+#: debug_console.ui:132
 #, kde-format
 msgid "Shading Language Version:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:136
+#: debug_console.ui:139
 #, kde-format
 msgid "Driver:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:143
+#: debug_console.ui:146
 #, kde-format
 msgid "GPU class:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:150
+#: debug_console.ui:153
 #, kde-format
 msgid "OpenGL Version:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:157
+#: debug_console.ui:160
 #, kde-format
 msgid "GLSL Version:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, platformExtensionsBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:223
+#: debug_console.ui:226
 #, kde-format
 msgid "Platform Extensions"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, glExtensionsBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:239
+#: debug_console.ui:242
 #, kde-format
 msgid "OpenGL (ES) Extensions"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, keyboard)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:260
+#: debug_console.ui:263
 #, fuzzy, kde-format
 #| msgid "Next Layout"
 msgid "Keyboard"
@@ -1432,7 +1432,7 @@ msgstr "รูปแบบการจัดเรียงถัดไป"
 
 #. i18n: ectx: property (title), widget (QGroupBox, layoutBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:287
+#: debug_console.ui:290
 #, fuzzy, kde-format
 #| msgid "Next Layout"
 msgid "Keymap Layouts"
@@ -1440,7 +1440,7 @@ msgstr "รูปแบบการจัดเรียงถัดไป"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:309
+#: debug_console.ui:312
 #, fuzzy, kde-format
 #| msgid "Configur&e Window Behavior..."
 msgid "Current Layout:"
@@ -1448,28 +1448,28 @@ msgstr "ปรับแต่งพฤ&ติกรรมของหน้า�
 
 #. i18n: ectx: property (title), widget (QGroupBox, modifiersBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:328
+#: debug_console.ui:331
 #, kde-format
 msgid "Modifiers"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, activeModifiersBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:344
+#: debug_console.ui:347
 #, kde-format
 msgid "Active Modifiers"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, ledsBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:360
+#: debug_console.ui:363
 #, kde-format
 msgid "LEDs"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, activeLedsBox)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:376
+#: debug_console.ui:379
 #, kde-format
 msgid "Active LEDs"
 msgstr ""
@@ -1477,14 +1477,14 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, clipboard)
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:397 debug_console.ui:417
+#: debug_console.ui:400 debug_console.ui:420
 #, kde-format
 msgid "Clipboard"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #. +> trunk6 stable6 stable5
-#: debug_console.ui:463
+#: debug_console.ui:466
 #, kde-format
 msgid "Primary Selection"
 msgstr ""
@@ -1692,7 +1692,7 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:169 plugins/mouseclick/mouseclick_config.cpp:40
+#: main.cpp:168 plugins/mouseclick/mouseclick_config.cpp:40
 #: plugins/mousemark/mousemark_config.cpp:43
 #: plugins/overview/kcm/overvieweffectkcm.cpp:35
 #: plugins/thumbnailaside/thumbnailaside_config.cpp:45
@@ -1704,68 +1704,68 @@ msgid "KWin"
 msgstr "KWin"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:171 main.cpp:195
+#: main.cpp:170 main.cpp:194
 #, kde-format
 msgid "KDE window manager"
 msgstr "ตัวจัดการหน้าต่างของ KDE"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:173
+#: main.cpp:172
 #, fuzzy, kde-format
 #| msgid "(c) 1999-2008, The KDE Developers"
 msgid "(c) 1999-2019, The KDE Developers"
 msgstr "สงวนลิขสิทธิ์ (c) 1999-2008, กลุ่มผู้พัฒนา KDE"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:175
+#: main.cpp:174
 #, kde-format
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:176
+#: main.cpp:175
 #, kde-format
 msgid "Cristian Tibirna"
 msgstr "Cristian Tibirna"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:177
+#: main.cpp:176
 #, kde-format
 msgid "Daniel M. Duley"
 msgstr "Daniel M. Duley"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:178
+#: main.cpp:177
 #, kde-format
 msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:179
+#: main.cpp:178
 #, kde-format
 msgid "Martin Flöser"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:180
+#: main.cpp:179
 #, kde-format
 msgid "David Edmundson"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:181
+#: main.cpp:180
 #, kde-format
 msgid "Roman Gilg"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:182
+#: main.cpp:181
 #, kde-format
 msgid "Vlad Zahorodnii"
 msgstr ""
 
 #. +> trunk6 stable6
-#: main.cpp:183
+#: main.cpp:182
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Border size:"
 #| msgid "Very Huge"
@@ -1773,157 +1773,157 @@ msgid "Xaver Hugl"
 msgstr "ใหญ่มหึมามาก"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:192
+#: main.cpp:191
 #, kde-format
 msgid "Disable configuration options"
 msgstr "ปิดการใช้ตัวเลือกการปรับแต่ง"
 
 #. +> trunk6 stable6 stable5
-#: main.cpp:193
+#: main.cpp:192
 #, kde-format
 msgid "Indicate that KWin has recently crashed n times"
 msgstr "แสดงให้ทราบเมื่อ KWin ได้ทำงานขัดข้องไป n ครั้ง"
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:298
+#: main_wayland.cpp:296
 #, kde-format
 msgid "Start a rootless Xwayland server."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:301
+#: main_wayland.cpp:299
 #, kde-format
 msgid "Name of the Wayland socket to listen on. If not set \"wayland-0\" is used."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:305
+#: main_wayland.cpp:303
 #, kde-format
 msgid "The X11 Display to use in windowed mode on platform X11."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:309
+#: main_wayland.cpp:307
 #, kde-format
 msgid "The Wayland Display to use in windowed mode on platform Wayland."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:311
+#: main_wayland.cpp:309
 #, kde-format
 msgid "Render to a virtual framebuffer."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:313
+#: main_wayland.cpp:311
 #, kde-format
 msgid "The width for windowed mode. Default width is 1024."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:317
+#: main_wayland.cpp:315
 #, kde-format
 msgid "The height for windowed mode. Default height is 768."
 msgstr ""
 
 #. +> trunk6 stable6
-#: main_wayland.cpp:322
+#: main_wayland.cpp:320
 #, kde-format
 msgid "Whether or not to make windowed mode fullscreen"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:326
+#: main_wayland.cpp:324
 #, kde-format
 msgid "The scale for windowed mode. Default value is 1."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:331
+#: main_wayland.cpp:329
 #, kde-format
 msgid "The number of windows to open as outputs in windowed mode. Default value is 1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:336
+#: main_wayland.cpp:334
 #, kde-format
 msgid "Wayland socket to use for incoming connections. This can be combined with --socket to name the socket"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:340
+#: main_wayland.cpp:338
 #, kde-format
 msgid "XWayland socket to use for Xwayland's incoming connections. This can be set multiple times"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:344
+#: main_wayland.cpp:342
 #, kde-format
 msgid "Name of the xwayland display that has been pre-set up"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:348
+#: main_wayland.cpp:346
 #, kde-format
 msgid "Name of the xauthority file "
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:352
+#: main_wayland.cpp:350
 #, kde-format
 msgid "Exits this instance so it can be restarted by kwin_wayland_wrapper."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:354
+#: main_wayland.cpp:352
 #, kde-format
 msgid "Render through drm node."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:355
+#: main_wayland.cpp:353
 #, kde-format
 msgid "Extract locale information from locale1 rather than the user's configuration"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:382
+#: main_wayland.cpp:380
 #, kde-format
 msgid "Input method that KWin starts."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:388
+#: main_wayland.cpp:386
 #, kde-format
 msgid "Starts the session in locked mode."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:392
+#: main_wayland.cpp:390
 #, kde-format
 msgid "Starts the session without lock screen support."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:397
+#: main_wayland.cpp:395
 #, kde-format
 msgid "Starts the session without global shortcuts support."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:402
+#: main_wayland.cpp:400
 #, kde-format
 msgid "Disable KActivities integration."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:407
+#: main_wayland.cpp:405
 #, kde-format
 msgid "Exit after the session application, which is started by KWin, closed."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: main_wayland.cpp:412
+#: main_wayland.cpp:410
 #, kde-format
 msgid "Applications to start once Wayland and Xwayland server are started"
 msgstr ""
@@ -1964,7 +1964,7 @@ msgid "Noise strength:"
 msgstr "ความเ&ข้ม:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSaturation)
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/blur/blur_config.ui:128
 #, fuzzy, kde-format
 #| msgid "Duration"
@@ -2953,7 +2953,7 @@ msgstr ""
 msgid "Failed to connect PipeWire context"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: plugins/screencast/screencastmanager.cpp:56
 #: plugins/screencast/screencastmanager.cpp:81
 #: plugins/screencast/screencastmanager.cpp:97
@@ -3154,7 +3154,7 @@ msgstr "ความทึบแสง"
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Opacity)
 #. +> trunk6 stable6
 #: plugins/thumbnailaside/thumbnailaside_config.ui:87
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid " %"
 msgstr " %"
 
@@ -4399,19 +4399,19 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tablet_input.cpp:114
+#: tablet_input.cpp:119
 #, kde-format
 msgid "Move the tablet to the next output"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tablet_input.cpp:194
+#: tablet_input.cpp:199
 #, kde-format
 msgid "Tablet moved to %1"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: tablet_input.cpp:194
+#: tablet_input.cpp:199
 #, kde-format
 msgid "Tablets switched outputs"
 msgstr ""
@@ -4505,7 +4505,7 @@ msgstr "เต็ม&จอภาพ"
 msgid "&No Titlebar and Frame"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: useractions.cpp:251
 #, kde-format
 msgid "&Hide from Screencast"
@@ -5279,69 +5279,57 @@ msgstr "สลับไปด้านล่างหนึ่งพื้นท
 msgid "Switch to Desktop %1"
 msgstr "สลับไปยังพื้นที่ทำงาน 1"
 
-#. +> stable6
-#: wayland/outputmanagement_v2.cpp:527
-#, kde-format
-msgid "The provided output order doesn't contain all outputs"
-msgstr ""
-
-#. +> stable6
-#: wayland/outputmanagement_v2.cpp:545
-#, kde-format
-msgid "The provided output order is invalid"
-msgstr ""
-
 #. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:590
+#: wayland/outputmanagement_v2.cpp:602
 #, kde-format
 msgid "One of the relevant outputs is no longer available"
 msgstr ""
 
 #. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:608
+#: wayland/outputmanagement_v2.cpp:620
 #, kde-format
 msgid "Disabling all outputs through configuration changes is not allowed"
 msgstr ""
 
-#. +> trunk6
-#: wayland/outputmanagement_v2.cpp:619
+#. +> trunk6 stable6
+#: wayland/outputmanagement_v2.cpp:631
 #, kde-format
 msgid "Cannot add a custom mode with an empty size"
 msgstr ""
 
-#. +> trunk6
-#: wayland/outputmanagement_v2.cpp:623
+#. +> trunk6 stable6
+#: wayland/outputmanagement_v2.cpp:635
 #, kde-format
 msgid "Cannot add a custom mode with a refresh rate of zero Hz"
 msgstr ""
 
-#. +> trunk6
-#: wayland/outputmanagement_v2.cpp:630
+#. +> trunk6 stable6
+#: wayland/outputmanagement_v2.cpp:642
 #, kde-format
 msgid "Position of output %s is negative, that is not supported"
 msgstr ""
 
-#. +> trunk6
-#: wayland/outputmanagement_v2.cpp:634
+#. +> trunk6 stable6
+#: wayland/outputmanagement_v2.cpp:646
 #, kde-format
 msgid "Position of output %s is way too large (%d, %d)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: wayland/outputmanagement_v2.cpp:650
+#: wayland/outputmanagement_v2.cpp:663
 #, kde-format
 msgid "The driver rejected the output configuration"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: window.cpp:3129
+#: window.cpp:3128
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
 msgstr ""
 
 #. +> trunk6 stable6
-#: workspace.cpp:1604
+#: workspace.cpp:1710
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""

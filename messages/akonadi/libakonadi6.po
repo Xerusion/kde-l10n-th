@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libakonadi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-09 09:21+0100\n"
+"POT-Creation-Date: 2025-12-30 07:46+0100\n"
 "PO-Revision-Date: 2010-02-26 23:20+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -30,32 +30,20 @@ msgid "Your emails"
 msgstr "donga.nb@gmail.com"
 
 #. +> trunk6 stable6
-#: agentbase/accountsintegration.cpp:86
-#, kde-format
-msgid "There is currently no account configured."
-msgstr ""
-
-#. +> trunk6 stable6
-#: agentbase/accountsintegration.cpp:103
-#, kde-format
-msgid "Accounts integration is not supported"
-msgstr ""
-
-#. +> trunk6 stable6
 #: agentbase/agentbase.cpp:307 agentbase/preprocessorbase_p.cpp:26
 #, kde-format
 msgid "Unable to register object at dbus: %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/agentbase.cpp:398
+#: agentbase/agentbase.cpp:400
 #, kde-format
 msgctxt "Name and type of Akonadi resource"
 msgid "%1 of type %2"
 msgstr ""
 
 #. +> trunk6 stable6
-#: agentbase/agentbase.cpp:816
+#: agentbase/agentbase.cpp:818
 #, fuzzy, kde-format
 #| msgid "Folder creation failed"
 msgctxt "@info:shell"
@@ -63,7 +51,7 @@ msgid "Agent identifier"
 msgstr "ล้มเหลวในการสร้างโฟลเดอร์"
 
 #. +> trunk6 stable6
-#: agentbase/agentbase.cpp:822
+#: agentbase/agentbase.cpp:824
 #, kde-format
 msgid "Akonadi Agent"
 msgstr ""
@@ -194,7 +182,7 @@ msgid "Job canceled."
 msgstr ""
 
 #. +> trunk6 stable6
-#: akonadicontrol/main.cpp:54 akonadicontrol/main.cpp:56
+#: akonadicontrol/main.cpp:53 akonadicontrol/main.cpp:55
 #, fuzzy, kde-format
 #| msgctxt "@title application name"
 #| msgid "Akonadi Resource"
@@ -267,6 +255,15 @@ msgstr ""
 #, kde-format
 msgid "No such agent found \"%1\""
 msgstr ""
+
+#. +> trunk6
+#: core/collection.cpp:221
+#, fuzzy, kde-format
+#| msgctxt "@info/plain Displayed grayed-out inside the textbox, verb to search"
+#| msgid "Search"
+msgctxt "Name for the folder containing searches"
+msgid "Search"
+msgstr "ค้นหา"
 
 #. +> trunk6 stable6
 #: core/collectionpathresolver.cpp:98 core/collectionpathresolver.cpp:117
@@ -509,6 +506,22 @@ msgid "Name"
 msgstr "ชื่อ"
 
 #. +> trunk6 stable6
+#: core/models/colorproxymodel.cpp:85
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Offline"
+msgctxt "@item this is the default calendar"
+msgid "%1 (Offline)"
+msgstr "ออฟไลน์"
+
+#. +> trunk6 stable6
+#: core/models/colorproxymodel.cpp:88
+#, kde-format
+msgctxt "@item this is the default calendar"
+msgid "%1 (Default)"
+msgstr ""
+
+#. +> trunk6 stable6
 #: core/models/entitytreemodel.cpp:206
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
@@ -677,7 +690,7 @@ msgid "No description available"
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/servermanager.cpp:265
+#: core/servermanager.cpp:271
 #, kde-format
 msgid ""
 "The Akonadi server protocol version differs from the protocol version used by this application.\n"
@@ -685,62 +698,46 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/servermanager.cpp:282
+#: core/servermanager.cpp:288
 #, kde-format
 msgid "There are no Akonadi Agents available. Please verify your KDE PIM installation."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/session.cpp:185
+#: core/session.cpp:184
 #, kde-format
 msgid "Protocol version mismatch. Server version is older (%1) than ours (%2). If you updated your system recently please restart the Akonadi server."
 msgstr ""
 
 #. +> trunk6 stable6
-#: core/session.cpp:194
+#: core/session.cpp:193
 #, kde-format
 msgid "Protocol version mismatch. Server version is newer (%1) than ours (%2). If you updated your system recently please restart all KDE PIM applications."
 msgstr ""
 
 #. +> trunk6 stable6
-#: quick/colorproxymodel.cpp:83
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "Offline"
-msgctxt "@item this is the default calendar"
-msgid "%1 (Offline)"
-msgstr "ออฟไลน์"
-
-#. +> trunk6 stable6
-#: quick/colorproxymodel.cpp:86
-#, kde-format
-msgctxt "@item this is the default calendar"
-msgid "%1 (Default)"
-msgstr ""
-
-#. +> trunk6 stable6
-#: quick/qml/AgentConfigurationForm.qml:32
+#: quick/qml/AgentConfigurationForm.qml:35
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Configure %1"
 msgstr ""
 
 #. +> trunk6 stable6
-#: quick/qml/AgentConfigurationForm.qml:38
+#: quick/qml/AgentConfigurationForm.qml:41
 #, kde-format
 msgctxt "@info"
 msgid "Modify or delete this account agent."
 msgstr ""
 
 #. +> trunk6 stable6
-#: quick/qml/AgentConfigurationForm.qml:54
+#: quick/qml/AgentConfigurationForm.qml:57
 #, kde-format
 msgctxt "@action:button"
 msgid "Modify"
 msgstr ""
 
 #. +> trunk6 stable6
-#: quick/qml/AgentConfigurationForm.qml:63
+#: quick/qml/AgentConfigurationForm.qml:66
 #, fuzzy, kde-format
 #| msgid "Delete?"
 msgctxt "@action:button"
@@ -748,7 +745,7 @@ msgid "Delete"
 msgstr "ลบหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: quick/qml/AgentConfigurationForm.qml:107
+#: quick/qml/AgentConfigurationForm.qml:115
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Account"
@@ -782,15 +779,22 @@ msgstr "คุณต้องการจะลบรายการทั้ง
 msgid "You won't be able to revert this action."
 msgstr ""
 
+#. +> trunk6
+#: quick/qml/TagManagerPage.qml:53
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "There are no tags"
+msgstr ""
+
 #. +> trunk6 stable6
-#: quick/qml/TagManagerPage.qml:132
+#: quick/qml/TagManagerPage.qml:141
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Create a New Tag…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: quick/qml/TagManagerPage.qml:143
+#: quick/qml/TagManagerPage.qml:152
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Tag"
@@ -878,7 +882,7 @@ msgid "Do you really want to delete the selected agent instance?"
 msgstr "คุณต้องการจะลบรายการทั้งหมดที่เลือกไว้จริงหรือไม่ ?"
 
 #. +> trunk6 stable6
-#: widgets/agentconfigurationdialog.cpp:54
+#: widgets/agentconfigurationdialog.cpp:46
 #, kde-format
 msgctxt "@title:window, %1 = agent name"
 msgid "%1 Configuration"
@@ -2859,13 +2863,13 @@ msgid "Go Online"
 msgstr "ออฟไลน์"
 
 #. +> trunk6 stable6
-#: widgets/standardactionmanager.cpp:1685
+#: widgets/standardactionmanager.cpp:1684
 #, kde-format
 msgid "Move to This Folder"
 msgstr "ย้ายมายังโฟลเดอร์นี้"
 
 #. +> trunk6 stable6
-#: widgets/standardactionmanager.cpp:1685
+#: widgets/standardactionmanager.cpp:1684
 #, kde-format
 msgid "Copy to This Folder"
 msgstr "คัดลอกมายังโฟลเดอร์นี้"
@@ -3099,6 +3103,18 @@ msgstr "ไม่สามารถวางข้อมูลต่อไปน
 #: xml/xmldocument.cpp:302
 #, kde-format
 msgid "Unable to find collection %1"
+msgstr ""
+
+#. +> stable6
+#: agentbase/accountsintegration.cpp:86
+#, kde-format
+msgid "There is currently no account configured."
+msgstr ""
+
+#. +> stable6
+#: agentbase/accountsintegration.cpp:103
+#, kde-format
+msgid "Accounts integration is not supported"
 msgstr ""
 
 #, fuzzy, kde-format

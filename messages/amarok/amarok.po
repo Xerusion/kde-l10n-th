@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-08 11:36+0100\n"
+"POT-Creation-Date: 2026-01-02 07:32+0100\n"
 "PO-Revision-Date: 2025-03-03 23:31+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -39,7 +39,7 @@ msgstr "แบบปริยาย"
 #. i18n: tag layout attribute name
 #. +> trunk6
 #: ../data/DefaultPlaylistLayouts.xml:36
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:512
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:518
 #, kde-format
 msgid "No Grouping"
 msgstr "ไม่มีการจัดกลุ่ม"
@@ -271,8 +271,8 @@ msgstr "ยังไม่มีการเล่นแทร็กเสีย
 #. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
 #. +> trunk6
 #: ActionClasses.cpp:433
-#: core-impl/collections/audiocd/FormatSelectionDialog.ui:14 main.cpp:47
-#: main.cpp:56 MainWindow.cpp:154 MainWindow.cpp:1213 MainWindow.cpp:1219
+#: core-impl/collections/audiocd/FormatSelectionDialog.ui:14 main.cpp:46
+#: main.cpp:55 MainWindow.cpp:154 MainWindow.cpp:1213 MainWindow.cpp:1219
 #: MainWindow.cpp:1232
 #, kde-format
 msgid "Amarok"
@@ -3982,7 +3982,7 @@ msgstr "แบบอักษร:"
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_OsdFontScaling)
 #. +> trunk6
 #: configdialog/dialogs/NotificationsConfig.ui:233
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 #| msgid "0%"
 msgid "%"
 msgstr "0%"
@@ -4411,7 +4411,7 @@ msgstr "โหลดใหม่อีกครั้ง"
 #: context/applets/tabs/TabsApplet.cpp:108
 #: core-impl/collections/ipodcollection/support/IpodConfiguration.ui:20
 #: core-impl/podcasts/sql/PodcastFilenameLayoutConfigDialog.cpp:45
-#: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:48
+#: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:50
 #: statsyncing/ui/ConfigureProviderDialog.cpp:39
 #, kde-format
 msgid "Settings"
@@ -6424,7 +6424,7 @@ msgstr "ตั้งค่าเอง"
 #. i18n: ectx: property (toolTip), widget (QLineEdit, m_filenameLayoutText)
 #. +> trunk6
 #: core-impl/podcasts/sql/PodcastFilenameLayoutConfigWidget.ui:92
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Available fields : %artist%,%title%,%genre%,%year%,%composer%,%pubdate%,%number%,%album%"
 msgstr ""
 
@@ -6561,18 +6561,19 @@ msgid "Episode Filename Configuration"
 msgstr "เดาโดยใช้รูปแบบชื่อแฟ้ม"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:39
+#: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:41
 #, kde-format
 msgctxt "change options"
 msgid "Configure %1"
 msgstr "ปรับแต่ง %1"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:77
+#: core-impl/podcasts/sql/PodcastSettingsDialog.cpp:79
 #, kde-format
-msgid " Item"
-msgid_plural " Items"
-msgstr[0] " รายการ"
+msgctxt "Spinbox label"
+msgid "%v item"
+msgid_plural "%v items"
+msgstr[0] ""
 
 #. +> trunk6
 #: core-impl/podcasts/sql/SqlPodcastMeta.cpp:429
@@ -6582,77 +6583,77 @@ msgid "Podcast"
 msgstr "พ็อดแคสท์"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:291
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:292
 #, fuzzy, kde-format
 #| msgid "&Update All"
 msgid "&Update All Channels"
 msgstr "&ปรับปรุงทั้งหมด"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:297
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:298
 #, fuzzy, kde-format
 #| msgid "Configure General Options"
 msgid "&Configure General Settings"
 msgstr "ปรับแต่งตัวเลือกทั่วไป"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:303
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:304
 #, kde-format
 msgid "&Export subscriptions to OPML file"
 msgstr ""
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:329
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:330
 #, kde-format
 msgid "&Configure"
 msgstr "ปรับแ&ต่ง"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:342
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:343
 #, kde-format
 msgid "&Remove Subscription"
 msgstr "&ลบการบอกรับเป็นสมาชิก"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:351
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:352
 #, fuzzy, kde-format
 #| msgid "&Update All"
 msgid "&Update Channel"
 msgstr "&ปรับปรุงทั้งหมด"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:387
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:388
 #, kde-format
 msgid "&Download Episode"
 msgstr "ดาวน์โหลดตอน"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:395
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:396
 #, kde-format
 msgid "&Delete Downloaded Episode"
 msgstr "ล&บตอน ที่ได้ดาวน์โหลดมาแล้ว"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:404
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:405
 #, kde-format
 msgid "&Write Feed Information to File"
 msgstr ""
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:412
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:413
 #, fuzzy, kde-format
 #| msgid "&Delete Downloaded Episode"
 msgid "&Keep downloaded file"
 msgstr "ล&บตอน ที่ได้ดาวน์โหลดมาแล้ว"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:413
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:414
 #, kde-format
 msgid "Toggle the \"keep\" downloaded file status of this podcast episode. Downloaded files with this status wouldn't be deleted even if we apply a purge."
 msgstr ""
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:479
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:480
 #, kde-format
 msgid "Already subscribed to %1."
 msgstr "แจ้งบอกรับกับ %1 อยู่แล้ว"
@@ -6660,87 +6661,81 @@ msgstr "แจ้งบอกรับกับ %1 อยู่แล้ว"
 #. +> trunk6
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:604
 #, fuzzy, kde-format
-#| msgctxt "prefix to update interval in minutes"
-#| msgid "every "
-msgctxt "prefix to 'x minutes'"
-msgid "every "
-msgstr "ทุก ๆ "
-
-#. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:605
-#, kde-format
-msgid " minute"
-msgid_plural " minutes"
+#| msgid " minute"
+#| msgid_plural " minutes"
+msgctxt "Spinbox label"
+msgid "every %v minute"
+msgid_plural "every %v minutes"
 msgstr[0] " นาที"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:620
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:619
 #, kde-format
 msgid "Configure Local Podcasts"
 msgstr "ปรับแต่งพ็อดแคสท์ภายในระบบ"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:641
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:640
 #, fuzzy, kde-format
 #| msgid "Podcasts"
 msgid "Move Podcasts"
 msgstr "พ็อดแคสท์"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:642
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:641
 #, kde-format
 msgid "Do you want to move all downloaded episodes to the new location?"
 msgstr ""
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:709
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:708
 #, fuzzy, kde-format
 #| msgid "Select OPML file to import"
 msgid "Select file for OPML export"
 msgstr "เลือกแฟ้ม OPML ที่จะนำเข้า"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:856
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:855
 #, fuzzy, kde-format
 #| msgid "Do you really want to remove this %1?"
 msgid "Do you really want to unsubscribe from \"%1\"?"
 msgstr "คุณแน่ใจหรือว่าต้องการลบ %1 นี้ออกไป ?"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:859
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:858
 #, fuzzy, kde-format
 #| msgid "&Delete Downloaded Episode"
 msgid "Delete downloaded episodes"
 msgstr "ล&บตอน ที่ได้ดาวน์โหลดมาแล้ว"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:982
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:981
 #, kde-format
 msgid "There is still a podcast download in progress"
 msgid_plural "There are still %1 podcast downloads in progress"
 msgstr[0] ""
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:985
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:984
 #, kde-format
 msgid "Cancel Download and Quit."
 msgstr ""
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1161
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1409
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1160
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1408
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "ไม่สามารถบันทึกแฟ้มตอนของพ็อดแคสท์ไปยัง %1 ได้"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1171
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1170
 #, kde-format
 msgid "Downloading Podcast Media"
 msgstr "กำลังดาวน์โหลดสื่อของพ็อดแคสท์"
 
 #. +> trunk6
-#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1172
+#: core-impl/podcasts/sql/SqlPodcastProvider.cpp:1171
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "กำลังดาวน์โหลดพ็อดแคสท์ \"%1\""
@@ -7707,7 +7702,7 @@ msgstr "พรุ่งนี้"
 
 #. +> trunk6
 #: core/support/Amarok.cpp:121
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgctxt "d for days"
 msgid "%1d"
 msgstr "%1 วันก่อน"
@@ -9794,7 +9789,7 @@ msgstr "บันทึ&กแล้วปิด"
 
 #. +> trunk6
 #: dialogs/TagGuesserDialog.cpp:181
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 #| msgctxt "Please do not translate the %foo words as they define a syntax used internally by a parser to describe a filename."
 #| msgid ""
 #| "The following tokens can be used to define a filename scheme:<br>"
@@ -10798,14 +10793,14 @@ msgid "No information available for this track"
 msgstr "ไม่มีข้อมูลของแทร็กเสียงนี้"
 
 #. +> trunk6
-#: main.cpp:58
+#: main.cpp:57
 #, fuzzy, kde-format
 #| msgid "The audio player for KDE"
 msgid "The audio player by KDE"
 msgstr "โปรแกรมเล่นสื่อเสียงสำหรับ KDE"
 
 #. +> trunk6
-#: main.cpp:60
+#: main.cpp:59
 #, fuzzy, kde-format
 #| msgid ""
 #| "(C) 2002-2003, Mark Kretschmann\n"
@@ -10818,7 +10813,7 @@ msgstr ""
 "(C) 2003-2010, The Amarok Development Squad"
 
 #. +> trunk6
-#: main.cpp:61
+#: main.cpp:60
 #, fuzzy, kde-format
 #| msgid ""
 #| "IRC:\n"
@@ -10846,1019 +10841,1019 @@ msgstr ""
 "(วันที่คอมไพล์: %1)"
 
 #. +> trunk6
-#: main.cpp:71
+#: main.cpp:70
 #, kde-format
 msgid "<i>Inactive authors</i>"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:72
+#: main.cpp:71
 #, kde-format
 msgid "Amarok authorship is not a hobby, it's a lifestyle. But when people move on we want to keep respecting them by mentioning them here:"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:78
+#: main.cpp:77
 #, kde-format
 msgid "Bart 'Where are my toothpicks' Cerneels"
 msgstr "Bart 'ไม้จิ้มฟันของฉันอยู่ไหนเนี่ย' Cerneels"
 
 #. +> trunk6
-#: main.cpp:79
+#: main.cpp:78
 #, kde-format
 msgid "Developer (Stecchino)"
 msgstr "ผู้พัฒนา (Stecchino)"
 
 #. +> trunk6
-#: main.cpp:82
+#: main.cpp:81
 #, kde-format
 msgid "Edward \"Hades\" Toroshchin"
 msgstr "Edward \"Hades\" Toroshchin"
 
 #. +> trunk6
-#: main.cpp:83
+#: main.cpp:82
 #, fuzzy, kde-format
 #| msgid "Developer (eean)"
 msgid "Developer (dr_lepper)"
 msgstr "ผู้พัฒนา (eean)"
 
 #. +> trunk6
-#: main.cpp:86
+#: main.cpp:85
 #, kde-format
 msgid "Mark Kretschmann"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:87
+#: main.cpp:86
 #, kde-format
 msgid "Project founder (markey)"
 msgstr "ผู้ริเริ่มโครงการ (markey)"
 
 #. +> trunk6
-#: main.cpp:90
+#: main.cpp:89
 #, kde-format
 msgid "Matěj Laitl"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:91
+#: main.cpp:90
 #, kde-format
 msgid "iPod collection rewrite & more (strohel)"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:94
+#: main.cpp:93
 #, kde-format
 msgid "Myriam Schweingruber"
 msgstr "Myriam Schweingruber"
 
 #. +> trunk6
-#: main.cpp:94
+#: main.cpp:93
 #, kde-format
 msgid "Rokymoter, Bug triaging (Mamarok)"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:97
+#: main.cpp:96
 #, kde-format
 msgid "Ralf 'SalsaMaster' Engels"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:98
+#: main.cpp:97
 #, fuzzy, kde-format
 #| msgid "Developer (nhn)"
 msgid "Developer (rengels)"
 msgstr "ผู้พัฒนา (nhn)"
 
 #. +> trunk6
-#: main.cpp:101
+#: main.cpp:100
 #, kde-format
 msgid "Patrick von Reth"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:101
+#: main.cpp:100
 #, kde-format
 msgid "Windows build (TheOneRing)"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:105
+#: main.cpp:104
 #, kde-format
 msgid "Rick W. Chen"
 msgstr "Rick W. Chen"
 
 #. +> trunk6
-#: main.cpp:106
+#: main.cpp:105
 #, fuzzy, kde-format
 #| msgid "Developer (sebr)"
 msgid "Developer (stuffcorpse)"
 msgstr "ผู้พัฒนา (sebr)"
 
 #. +> trunk6
-#: main.cpp:109
+#: main.cpp:108
 #, fuzzy, kde-format
 #| msgid "Sample Rate"
 msgid "Sam Lade"
 msgstr "อัตราสุ่มตัวอย่าง (Hz)"
 
 #. +> trunk6
-#: main.cpp:109
+#: main.cpp:108
 #, fuzzy, kde-format
 #| msgid "Developer (nhn)"
 msgid "Developer (Sentynel)"
 msgstr "ผู้พัฒนา (nhn)"
 
 #. +> trunk6
-#: main.cpp:113
+#: main.cpp:112
 #, kde-format
 msgid "Sven Krohlas"
 msgstr "Sven Krohlas"
 
 #. +> trunk6
-#: main.cpp:113
+#: main.cpp:112
 #, fuzzy, kde-format
 #| msgid "Developer (jefferai)"
 msgid "Rokymoter, Developer (sven423)"
 msgstr "ผู้พัฒนา (jefferai)"
 
 #. +> trunk6
-#: main.cpp:116
+#: main.cpp:115
 #, kde-format
 msgid "Téo Mrnjavac"
 msgstr "Téo Mrnjavac"
 
 #. +> trunk6
-#: main.cpp:117
+#: main.cpp:116
 #, kde-format
 msgid "Developer (Teo`)"
 msgstr "ผู้พัฒนา (Teo`)"
 
 #. +> trunk6
-#: main.cpp:120
+#: main.cpp:119
 #, kde-format
 msgid "Valorie Zimmerman"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:121
+#: main.cpp:120
 #, fuzzy, kde-format
 #| msgid "Rokymoter (ljubomir)"
 msgid "Rokymoter, Handbook (valorie)"
 msgstr "Rokymoter (ljubomir)"
 
 #. +> trunk6
-#: main.cpp:124
+#: main.cpp:123
 #, kde-format
 msgid "Ian 'The Beard' Monroe"
 msgstr "Ian 'พี่เครา' Monroe"
 
 #. +> trunk6
-#: main.cpp:124
+#: main.cpp:123
 #, kde-format
 msgid "Developer (eean)"
 msgstr "ผู้พัฒนา (eean)"
 
 #. +> trunk6
-#: main.cpp:127
+#: main.cpp:126
 #, kde-format
 msgid "Jeff 'IROKSOHARD' Mitchell"
 msgstr "Jeff 'IROKSOHARD' Mitchell"
 
 #. +> trunk6
-#: main.cpp:127
+#: main.cpp:126
 #, kde-format
 msgid "Developer (jefferai)"
 msgstr "ผู้พัฒนา (jefferai)"
 
 #. +> trunk6
-#: main.cpp:130
+#: main.cpp:129
 #, kde-format
 msgid "Leo Franchi"
 msgstr "Leo Franchi"
 
 #. +> trunk6
-#: main.cpp:130
+#: main.cpp:129
 #, kde-format
 msgid "Developer (lfranchi)"
 msgstr "ผู้พัฒนา (lfranchi)"
 
 #. +> trunk6
-#: main.cpp:133
+#: main.cpp:132
 #, kde-format
 msgid "Lydia 'is wrong(TM)' Pintscher"
 msgstr "Lydia 'is wrong(TM)' Pintscher"
 
 #. +> trunk6
-#: main.cpp:133
+#: main.cpp:132
 #, kde-format
 msgid "Release Vixen (Nightrose)"
 msgstr "Release Vixen (Nightrose)"
 
 #. +> trunk6
-#: main.cpp:136
+#: main.cpp:135
 #, kde-format
 msgid "Max Howell"
 msgstr "Max Howell"
 
 #. +> trunk6
-#: main.cpp:136
+#: main.cpp:135
 #, fuzzy, kde-format
 #| msgid "Developer (jefferai)"
 msgid "Developer, Vision"
 msgstr "ผู้พัฒนา (jefferai)"
 
 #. +> trunk6
-#: main.cpp:139
+#: main.cpp:138
 #, kde-format
 msgid "Maximilian Kossick"
 msgstr "Maximilian Kossick"
 
 #. +> trunk6
-#: main.cpp:139
+#: main.cpp:138
 #, kde-format
 msgid "Developer (maxx_k)"
 msgstr "ผู้พัฒนา (maxx_k)"
 
 #. +> trunk6
-#: main.cpp:142
+#: main.cpp:141
 #, kde-format
 msgid "Nikolaj Hald 'Also very hot' Nielsen"
 msgstr "Nikolaj Hald 'ผู้เร่าร้อน' Nielsen"
 
 #. +> trunk6
-#: main.cpp:142
+#: main.cpp:141
 #, kde-format
 msgid "Developer (nhn)"
 msgstr "ผู้พัฒนา (nhn)"
 
 #. +> trunk6
-#: main.cpp:145
+#: main.cpp:144
 #, kde-format
 msgid "Seb 'Surfin' down under' Ruiz"
 msgstr "Seb 'Surfin' down under' Ruiz"
 
 #. +> trunk6
-#: main.cpp:145
+#: main.cpp:144
 #, kde-format
 msgid "Developer (sebr)"
 msgstr "ผู้พัฒนา (sebr)"
 
 #. +> trunk6
-#: main.cpp:150
+#: main.cpp:149
 #, kde-format
 msgid "Alejandro Wainzinger"
 msgstr "Alejandro Wainzinger"
 
 #. +> trunk6
-#: main.cpp:150
+#: main.cpp:149
 #, kde-format
 msgid "Developer (xevix)"
 msgstr "ผู้พัฒนา (xevix)"
 
 #. +> trunk6
-#: main.cpp:152
+#: main.cpp:151
 #, kde-format
 msgid "Alex Merry"
 msgstr "Alex Merry"
 
 #. +> trunk6
-#: main.cpp:152
+#: main.cpp:151
 #, kde-format
 msgid "Developer, Replay Gain support"
 msgstr "ผู้พัฒนา รองรับส่วนการวนเล่น"
 
 #. +> trunk6
-#: main.cpp:154
+#: main.cpp:153
 #, kde-format
 msgid "Casey Link"
 msgstr "Casey Link"
 
 #. +> trunk6
-#: main.cpp:154
+#: main.cpp:153
 #, fuzzy, kde-format
 #| msgid "Mp3tunes Login"
 msgid "MP3tunes integration"
 msgstr "ล็อกอิน Mp3tunes"
 
 #. +> trunk6
-#: main.cpp:156
+#: main.cpp:155
 #, kde-format
 msgid "Casper van Donderen"
 msgstr "Casper van Donderen"
 
 #. +> trunk6
-#: main.cpp:156
+#: main.cpp:155
 #, kde-format
 msgid "Windows porting"
 msgstr "พอร์ตไปยังระบบวินโดวส์"
 
 #. +> trunk6
-#: main.cpp:158
+#: main.cpp:157
 #, kde-format
 msgid "Christie Harris"
 msgstr "Christie Harris"
 
 #. +> trunk6
-#: main.cpp:158
+#: main.cpp:157
 #, kde-format
 msgid "Rokymoter (dangle)"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:160
+#: main.cpp:159
 #, kde-format
 msgid "Dan Leinir Turthra Jensen"
 msgstr "Dan Leinir Turthra Jensen"
 
 #. +> trunk6
-#: main.cpp:160
+#: main.cpp:159
 #, kde-format
 msgid "Usability"
 msgstr "ปรับให้ใช้งานง่าย"
 
 #. +> trunk6
-#: main.cpp:162
+#: main.cpp:161
 #, kde-format
 msgid "Dan 'Hey, it compiled...' Meltzer"
 msgstr "Dan 'เฮ้ มันถูกคอมไพล์แล้ว...' Meltzer"
 
 #. +> trunk6
-#: main.cpp:162
+#: main.cpp:161
 #, kde-format
 msgid "Developer (hydrogen)"
 msgstr "ผู้พัฒนา (hydrogen)"
 
 #. +> trunk6
-#: main.cpp:164
+#: main.cpp:163
 #, kde-format
 msgid "Daniel Caleb Jones"
 msgstr "Daniel Caleb Jones"
 
 #. +> trunk6
-#: main.cpp:164
+#: main.cpp:163
 #, fuzzy, kde-format
 #| msgid "&Save Playlist"
 msgid "Biased playlists"
 msgstr "&บันทึกรายการเล่น"
 
 #. +> trunk6
-#: main.cpp:166
+#: main.cpp:165
 #, kde-format
 msgid "Daniel Dewald"
 msgstr "Daniel Dewald"
 
 #. +> trunk6
-#: main.cpp:166
+#: main.cpp:165
 #, kde-format
 msgid "Tag Guesser, Labels, Spectrum Analyzer"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:168
+#: main.cpp:167
 #, kde-format
 msgid "Daniel Winter"
 msgstr "Daniel Winter"
 
 #. +> trunk6
-#: main.cpp:168
+#: main.cpp:167
 #, fuzzy, kde-format
 #| msgid "Nepomuk Collection"
 msgid "Nepomuk integration"
 msgstr "คลังสื่อของ Nepomuk"
 
 #. +> trunk6
-#: main.cpp:170
+#: main.cpp:169
 #, kde-format
 msgid "Frank Meerkötter"
 msgstr "Frank Meerkötter"
 
 #. +> trunk6
-#: main.cpp:170 main.cpp:190
+#: main.cpp:169 main.cpp:189
 #, fuzzy, kde-format
 #| msgid "Directory"
 msgid "Podcast improvements"
 msgstr "ไดเรกทอรี"
 
 #. +> trunk6
-#: main.cpp:172
+#: main.cpp:171
 #, kde-format
 msgid "Greg Meyer"
 msgstr "Greg Meyer"
 
 #. +> trunk6
-#: main.cpp:172
+#: main.cpp:171
 #, kde-format
 msgid "Live CD, Bug squashing (oggb4mp3)"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:174
+#: main.cpp:173
 #, kde-format
 msgid "Harald Sitter"
 msgstr "Harald Sitter"
 
 #. +> trunk6
-#: main.cpp:174
+#: main.cpp:173
 #, kde-format
 msgid "Phonon, Lord-President of KDE Multimedia (apachelogger)"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:176
+#: main.cpp:175
 #, kde-format
 msgid "John Atkinson"
 msgstr "John Atkinson"
 
 #. +> trunk6
-#: main.cpp:176
+#: main.cpp:175
 #, kde-format
 msgid "Assorted patches"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:178
+#: main.cpp:177
 #, kde-format
 msgid "Kenneth Wesley Wimer II"
 msgstr "Kenneth Wesley Wimer II"
 
 #. +> trunk6
-#: main.cpp:178
+#: main.cpp:177
 #, kde-format
 msgid "Icons"
 msgstr "ภาพไอคอน"
 
 #. +> trunk6
-#: main.cpp:180
+#: main.cpp:179
 #, kde-format
 msgid "Kevin Funk"
 msgstr "Kevin Funk"
 
 #. +> trunk6
-#: main.cpp:180
+#: main.cpp:179
 #, kde-format
 msgid "Developer, Website theme (KRF)"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:182
+#: main.cpp:181
 #, kde-format
 msgid "Kuba Serafinowski"
 msgstr "Kuba Serafinowski"
 
 #. +> trunk6
-#: main.cpp:182
+#: main.cpp:181
 #, kde-format
 msgid "Rokymoter"
 msgstr "Rokymoter"
 
 #. +> trunk6
-#: main.cpp:184
+#: main.cpp:183
 #, kde-format
 msgid "Lee Olson"
 msgstr "Lee Olson"
 
 #. +> trunk6
-#: main.cpp:184 main.cpp:196
+#: main.cpp:183 main.cpp:195
 #, kde-format
 msgid "Artwork"
 msgstr "งานอาร์ตเวิร์ก"
 
 #. +> trunk6
-#: main.cpp:186
+#: main.cpp:185
 #, kde-format
 msgid "Ljubomir Simin"
 msgstr "Ljubomir Simin"
 
 #. +> trunk6
-#: main.cpp:186
+#: main.cpp:185
 #, kde-format
 msgid "Rokymoter (ljubomir)"
 msgstr "Rokymoter (ljubomir)"
 
 #. +> trunk6
-#: main.cpp:188
+#: main.cpp:187
 #, kde-format
 msgid "Lucas Gomes"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:188
+#: main.cpp:187
 #, fuzzy, kde-format
 #| msgid "Developer (sebr)"
 msgid "Developer (MaskMaster)"
 msgstr "ผู้พัฒนา (sebr)"
 
 #. +> trunk6
-#: main.cpp:190
+#: main.cpp:189
 #, kde-format
 msgid "Mathias Panzenböck"
 msgstr "Mathias Panzenböck"
 
 #. +> trunk6
-#: main.cpp:192
+#: main.cpp:191
 #, kde-format
 msgid "Mikko Caldara"
 msgstr "Mikko Caldara"
 
 #. +> trunk6
-#: main.cpp:192
+#: main.cpp:191
 #, kde-format
 msgid "Bug triaging and sanitizing"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:194
+#: main.cpp:193
 #, kde-format
 msgid "Nikhil Marathe"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:194
+#: main.cpp:193
 #, kde-format
 msgid "UPnP support and patches (nsm)"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:196
+#: main.cpp:195
 #, kde-format
 msgid "Nuno Pinheiro"
 msgstr "Nuno Pinheiro"
 
 #. +> trunk6
-#: main.cpp:198
+#: main.cpp:197
 #, kde-format
 msgid "Olivier Bédard"
 msgstr "Olivier Bédard"
 
 #. +> trunk6
-#: main.cpp:198
+#: main.cpp:197
 #, kde-format
 msgid "Website hosting"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:200
+#: main.cpp:199
 #, kde-format
 msgid "Pasi Lalinaho"
 msgstr "Pasi Lalinaho"
 
 #. +> trunk6
-#: main.cpp:200
+#: main.cpp:199
 #, kde-format
 msgid "Rokymoter (emunkki)"
 msgstr "Rokymoter (emunkki)"
 
 #. +> trunk6
-#: main.cpp:202
+#: main.cpp:201
 #, kde-format
 msgid "Peter Zhou Lei"
 msgstr "Peter Zhou Lei"
 
 #. +> trunk6
-#: main.cpp:202
+#: main.cpp:201
 #, fuzzy, kde-format
 #| msgid "Scripted Services"
 msgid "Scripting interface"
 msgstr "บริการสคริปต์"
 
 #. +> trunk6
-#: main.cpp:204
+#: main.cpp:203
 #, kde-format
 msgid "Phalgun Guduthur"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:204
+#: main.cpp:203
 #, fuzzy, kde-format
 #| msgid "Nepomuk Collection"
 msgid "Nepomuk Collection (phalgun)"
 msgstr "คลังสื่อของ Nepomuk"
 
 #. +> trunk6
-#: main.cpp:206
+#: main.cpp:205
 #, kde-format
 msgid "Scott Wheeler"
 msgstr "Scott Wheeler"
 
 #. +> trunk6
-#: main.cpp:206
+#: main.cpp:205
 #, kde-format
 msgid "TagLib & ktrm code"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:208
+#: main.cpp:207
 #, kde-format
 msgid "Shane King"
 msgstr "Shane King"
 
 #. +> trunk6
-#: main.cpp:208
+#: main.cpp:207
 #, kde-format
 msgid "Patches & Windows porting (shakes)"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:210
+#: main.cpp:209
 #, kde-format
 msgid "Simon Esneault"
 msgstr "Simon Esneault"
 
 #. +> trunk6
-#: main.cpp:210
+#: main.cpp:209
 #, kde-format
 msgid "Photos & Videos applets, Context View"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:212
+#: main.cpp:211
 #, kde-format
 msgid "Soren Harward"
 msgstr "Soren Harward"
 
 #. +> trunk6
-#: main.cpp:212
+#: main.cpp:211
 #, kde-format
 msgid "Developer, Automated Playlist Generator"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:214
+#: main.cpp:213
 #, kde-format
 msgid "Thomas Lübking"
 msgstr "Thomas Lübking"
 
 #. +> trunk6
-#: main.cpp:214 main.cpp:216 main.cpp:230 main.cpp:240 main.cpp:246
-#: main.cpp:248 main.cpp:260 main.cpp:266 main.cpp:268 main.cpp:272
-#: main.cpp:280
+#: main.cpp:213 main.cpp:215 main.cpp:229 main.cpp:239 main.cpp:245
+#: main.cpp:247 main.cpp:259 main.cpp:265 main.cpp:267 main.cpp:271
+#: main.cpp:279
 #, kde-format
 msgid "Developer"
 msgstr "ผู้พัฒนา"
 
 #. +> trunk6
-#: main.cpp:216
+#: main.cpp:215
 #, kde-format
 msgid "Valentin Rouet"
 msgstr "Valentin Rouet"
 
 #. +> trunk6
-#: main.cpp:218
+#: main.cpp:217
 #, kde-format
 msgid "Wade Olson"
 msgstr "Wade Olson"
 
 #. +> trunk6
-#: main.cpp:218
+#: main.cpp:217
 #, fuzzy, kde-format
 #| msgid "Sho&w splash-screen on startup"
 msgid "Splash screen artist"
 msgstr "แส&ดงหน้าจอโลโกตอนเริ่มใช้งาน"
 
 #. +> trunk6
-#: main.cpp:220
+#: main.cpp:219
 #, kde-format
 msgid "William Viana Soares"
 msgstr "William Viana Soares"
 
 #. +> trunk6
-#: main.cpp:220
+#: main.cpp:219
 #, kde-format
 msgid "Context view"
 msgstr "มุมมองส่วนเกี่ยวพันกับสื่อ"
 
 #. +> trunk6
-#: main.cpp:224
+#: main.cpp:223
 #, kde-format
 msgid "Former contributors"
 msgstr "ผู้มีส่วนร่วมก่อนหน้านี้"
 
 #. +> trunk6
-#: main.cpp:224
+#: main.cpp:223
 #, kde-format
 msgid "People listed below have contributed to Amarok in the past. Thank you!"
 msgstr "รายชื่อด้านล่างนี้คือผู้ที่ช่วยกันสร้างช่วยกันทำแอมอะร็อกในอดีตที่ผ่านมา ขอขอบคุณอย่างแท้จริง"
 
 #. +> trunk6
-#: main.cpp:226
+#: main.cpp:225
 #, kde-format
 msgid "Adam Pigg"
 msgstr "Adam Pigg"
 
 #. +> trunk6
-#: main.cpp:226
+#: main.cpp:225
 #, kde-format
 msgid "Analyzers, patches, shoutcast"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:228
+#: main.cpp:227
 #, kde-format
 msgid "Adeodato Simó"
 msgstr "Adeodato Simó"
 
 #. +> trunk6
-#: main.cpp:228 main.cpp:236
+#: main.cpp:227 main.cpp:235
 #, kde-format
 msgid "Patches"
 msgstr "แพตช์ต่าง ๆ"
 
 #. +> trunk6
-#: main.cpp:230
+#: main.cpp:229
 #, kde-format
 msgid "Alexandre Oliveira"
 msgstr "Alexandre Oliveira"
 
 #. +> trunk6
-#: main.cpp:232
+#: main.cpp:231
 #, kde-format
 msgid "Andreas Mair"
 msgstr "Andreas Mair"
 
 #. +> trunk6
-#: main.cpp:232
+#: main.cpp:231
 #, kde-format
 msgid "MySQL support"
 msgstr "รองรับฐานข้อมูล MySQL"
 
 #. +> trunk6
-#: main.cpp:234
+#: main.cpp:233
 #, kde-format
 msgid "Andrew de Quincey"
 msgstr "Andrew de Quincey"
 
 #. +> trunk6
-#: main.cpp:234
+#: main.cpp:233
 #, kde-format
 msgid "Postgresql support"
 msgstr "รองรับฐานข้อมูล Postgresql"
 
 #. +> trunk6
-#: main.cpp:236
+#: main.cpp:235
 #, kde-format
 msgid "Andrew Turner"
 msgstr "Andrew Turner"
 
 #. +> trunk6
-#: main.cpp:238
+#: main.cpp:237
 #, kde-format
 msgid "Andy Kelk"
 msgstr "Andy Kelk"
 
 #. +> trunk6
-#: main.cpp:238
+#: main.cpp:237
 #, kde-format
 msgid "MTP and Rio Karma media devices, patches"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:240
+#: main.cpp:239
 #, kde-format
 msgid "Christian Muehlhaeuser"
 msgstr "Christian Muehlhaeuser"
 
 #. +> trunk6
-#: main.cpp:242
+#: main.cpp:241
 #, kde-format
 msgid "Derek Nelson"
 msgstr "Derek Nelson"
 
 #. +> trunk6
-#: main.cpp:242
+#: main.cpp:241
 #, kde-format
 msgid "Graphics, splash-screen"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:244
+#: main.cpp:243
 #, kde-format
 msgid "Enrico Ros"
 msgstr "Enrico Ros"
 
 #. +> trunk6
-#: main.cpp:244
+#: main.cpp:243
 #, kde-format
 msgid "Analyzers, Context Browser and systray eye-candy"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:246
+#: main.cpp:245
 #, kde-format
 msgid "Frederik Holljen"
 msgstr "Frederik Holljen"
 
 #. +> trunk6
-#: main.cpp:248
+#: main.cpp:247
 #, kde-format
 msgid "Gábor Lehel"
 msgstr "Gábor Lehel"
 
 #. +> trunk6
-#: main.cpp:250
+#: main.cpp:249
 #, kde-format
 msgid "Gérard Dürrmeyer"
 msgstr "Gérard Dürrmeyer"
 
 #. +> trunk6
-#: main.cpp:250
+#: main.cpp:249
 #, kde-format
 msgid "Icons and image work"
 msgstr "ภาพไอคอนต่าง ๆ และงานอาร์ตเวิร์ก"
 
 #. +> trunk6
-#: main.cpp:252
+#: main.cpp:251
 #, kde-format
 msgid "Giovanni Venturi"
 msgstr "Giovanni Venturi"
 
 #. +> trunk6
-#: main.cpp:252
+#: main.cpp:251
 #, fuzzy, kde-format
 #| msgid "List of folders in the Collection"
 msgid "Dialog to filter the collection titles"
 msgstr "รายการของโฟลเดอร์ต่าง ๆ ในคลังสื่อ"
 
 #. +> trunk6
-#: main.cpp:254
+#: main.cpp:253
 #, kde-format
 msgid "Jarkko Lehti"
 msgstr "Jarkko Lehti"
 
 #. +> trunk6
-#: main.cpp:254
+#: main.cpp:253
 #, kde-format
 msgid "Tester, IRC channel operator, whipping"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:256
+#: main.cpp:255
 #, kde-format
 msgid "Jocke Andersson"
 msgstr "Jocke Andersson"
 
 #. +> trunk6
-#: main.cpp:256
+#: main.cpp:255
 #, kde-format
 msgid "Rokymoter, bug fixer (Firetech)"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:258
+#: main.cpp:257
 #, kde-format
 msgid "Marco Gulino"
 msgstr "Marco Gulino"
 
 #. +> trunk6
-#: main.cpp:258
+#: main.cpp:257
 #, kde-format
 msgid "Konqueror Sidebar, some DCOP methods"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:260
+#: main.cpp:259
 #, kde-format
 msgid "Martin Aumueller"
 msgstr "Martin Aumueller"
 
 #. +> trunk6
-#: main.cpp:262
+#: main.cpp:261
 #, kde-format
 msgid "Melchior Franz"
 msgstr "Melchior Franz"
 
 #. +> trunk6
-#: main.cpp:262
+#: main.cpp:261
 #, kde-format
 msgid "FHT routine, bugfixes"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:264
+#: main.cpp:263
 #, kde-format
 msgid "Michael Pyne"
 msgstr "Michael Pyne"
 
 #. +> trunk6
-#: main.cpp:264
+#: main.cpp:263
 #, kde-format
 msgid "K3b export code"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:266
+#: main.cpp:265
 #, kde-format
 msgid "Mike Diehl"
 msgstr "Mike Diehl"
 
 #. +> trunk6
-#: main.cpp:268
+#: main.cpp:267
 #, kde-format
 msgid "Paul Cifarelli"
 msgstr "Paul Cifarelli"
 
 #. +> trunk6
-#: main.cpp:270
+#: main.cpp:269
 #, kde-format
 msgid "Peter C. Ndikuwera"
 msgstr "Peter C. Ndikuwera"
 
 #. +> trunk6
-#: main.cpp:270
+#: main.cpp:269
 #, kde-format
 msgid "Bugfixes, PostgreSQL support"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:272
+#: main.cpp:271
 #, kde-format
 msgid "Pierpaolo Panfilo"
 msgstr "Pierpaolo Panfilo"
 
 #. +> trunk6
-#: main.cpp:274
+#: main.cpp:273
 #, kde-format
 msgid "Reigo Reinmets"
 msgstr "Reigo Reinmets"
 
 #. +> trunk6
-#: main.cpp:274
+#: main.cpp:273
 #, kde-format
 msgid "Wikipedia support, patches"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:276
+#: main.cpp:275
 #, kde-format
 msgid "Roman Becker"
 msgstr "Roman Becker"
 
 #. +> trunk6
-#: main.cpp:276
+#: main.cpp:275
 #, kde-format
 msgid "Former Amarok logo, former splash screen, former icons"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:278
+#: main.cpp:277
 #, kde-format
 msgid "Sami Nieminen"
 msgstr "Sami Nieminen"
 
 #. +> trunk6
-#: main.cpp:278
+#: main.cpp:277
 #, kde-format
 msgid "Audioscrobbler support"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:280
+#: main.cpp:279
 #, kde-format
 msgid "Stanislav Karchebny"
 msgstr "Stanislav Karchebny"
 
 #. +> trunk6
-#: main.cpp:282
+#: main.cpp:281
 #, kde-format
 msgid "Stefan Bogner"
 msgstr "Stefan Bogner"
 
 #. +> trunk6
-#: main.cpp:282
+#: main.cpp:281
 #, kde-format
 msgid "Loads of stuff"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:284
+#: main.cpp:283
 #, kde-format
 msgid "Tomasz Dudzik"
 msgstr ""
 
 #. +> trunk6
-#: main.cpp:284
+#: main.cpp:283
 #, fuzzy, kde-format
 #| msgid "Sho&w splash-screen on startup"
 msgid "Splash screen"
 msgstr "แส&ดงหน้าจอโลโกตอนเริ่มใช้งาน"
 
 #. +> trunk6
-#: main.cpp:289
+#: main.cpp:288
 #, fuzzy, kde-format
 #| msgid "Andrew Turner"
 msgid "Andrew Browning"
 msgstr "Andrew Turner"
 
 #. +> trunk6
-#: main.cpp:290
+#: main.cpp:289
 #, fuzzy, kde-format
 #| msgid "Christie Harris"
 msgid "Chris Wales"
 msgstr "Christie Harris"
 
 #. +> trunk6
-#: main.cpp:291
+#: main.cpp:290
 #, kde-format
 msgid "ZImin Stanislav"
 msgstr ""
@@ -12554,14 +12549,14 @@ msgstr ""
 
 #. +> trunk6
 #: playlist/layouts/LayoutManager.cpp:107
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:395
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:401
 #, kde-format
 msgid "copy of %1"
 msgstr ""
 
 #. +> trunk6
 #: playlist/layouts/LayoutManager.cpp:115
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:403
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:409
 #, fuzzy, kde-format
 #| msgctxt "monthname year"
 #| msgid "%1 %2"
@@ -12642,22 +12637,22 @@ msgid "Rename playlist layout"
 msgstr "ชื่อรายการเล่น:"
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:157
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:207
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:163
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:213
 #, fuzzy, kde-format
 #| msgid "Enter a name for the playlist:"
 msgid "Choose a name for the new playlist layout"
 msgstr "ป้อนชื่อของรายการเล่น:"
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:158
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:164
 #, kde-format
 msgid "Please enter a name for the playlist layout you are about to define:"
 msgstr ""
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:164
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:215
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:170
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:221
 #, fuzzy, kde-format
 #| msgid ""
 #| "Sorry, you cannot define two devices\n"
@@ -12668,21 +12663,21 @@ msgstr ""
 "ใช้ชื่อและจุดเมานท์เดียวกันได้!"
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:164
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:169
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:174
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:215
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:220
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:275
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:277
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:170
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:175
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:180
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:221
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:226
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:281
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:283
 #, fuzzy, kde-format
 #| msgid "playcount"
 msgid "Layout name error"
 msgstr "จำนวนครั้งที่เล่น"
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:169
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:220
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:175
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:226
 #, fuzzy, kde-format
 #| msgid ""
 #| "Sorry, you cannot define two devices\n"
@@ -12693,7 +12688,7 @@ msgstr ""
 "ใช้ชื่อและจุดเมานท์เดียวกันได้!"
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:174
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:180
 #, fuzzy, kde-format
 #| msgid ""
 #| "Sorry, you cannot define two devices\n"
@@ -12704,26 +12699,26 @@ msgstr ""
 "ใช้ชื่อและจุดเมานท์เดียวกันได้!"
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:208
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:214
 #, kde-format
 msgid "Please enter a name for the playlist layout you are about to define as copy of the layout '%1':"
 msgstr ""
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:266
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:272
 #, fuzzy, kde-format
 #| msgid "Enter a name for the playlist:"
 msgid "Choose a new name for the playlist layout"
 msgstr "ป้อนชื่อของรายการเล่น:"
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:267
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:273
 #, kde-format
 msgid "Please enter a new name for the playlist layout you are about to rename:"
 msgstr ""
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:275
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:281
 #, fuzzy, kde-format
 #| msgid ""
 #| "Sorry, you cannot define two devices\n"
@@ -12734,7 +12729,7 @@ msgstr ""
 "ใช้ชื่อและจุดเมานท์เดียวกันได้!"
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:277
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:283
 #, fuzzy, kde-format
 #| msgid ""
 #| "Sorry, you cannot define two devices\n"
@@ -12745,13 +12740,13 @@ msgstr ""
 "ใช้ชื่อและจุดเมานท์เดียวกันได้!"
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:406
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:412
 #, kde-format
 msgid "The layout '%1' you modified is one of the default layouts and cannot be overwritten. Saved as new layout '%2'"
 msgstr ""
 
 #. +> trunk6
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:408
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:414
 #, kde-format
 msgid "Default Layout"
 msgstr "การแสดงแบบปริยาย"
@@ -16379,7 +16374,7 @@ msgstr "ดาวน์โหลดอัลบั้ม Magnatune.com"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6
 #: services/magnatune/MagnatuneSignupDialogBase.ui:32
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -16420,7 +16415,7 @@ msgstr ""
 
 #. +> trunk6
 #: services/magnatune/MagnatuneStore.cpp:109
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Magnatune.com is a different kind of record company with the motto \"We are not evil!\" 50% of every purchase goes directly to the artist and if you purchase an album through Amarok, the Amarok project receives a 10% commission. Magnatune.com also offers \"all you can eat\" memberships that lets you download as much of their music as you like."
 msgstr ""
 
@@ -18087,6 +18082,23 @@ msgstr "ศิลปิน: %1"
 #| msgid "<empty>"
 msgid "empty"
 msgstr "<empty"
+
+#, kde-format
+#~ msgid " Item"
+#~ msgid_plural " Items"
+#~ msgstr[0] " รายการ"
+
+#, fuzzy, kde-format
+#~| msgctxt "prefix to update interval in minutes"
+#~| msgid "every "
+#~ msgctxt "prefix to 'x minutes'"
+#~ msgid "every "
+#~ msgstr "ทุก ๆ "
+
+#, kde-format
+#~ msgid " minute"
+#~ msgid_plural " minutes"
+#~ msgstr[0] " นาที"
 
 #, fuzzy, kde-format
 #~| msgid "Music share at %1"

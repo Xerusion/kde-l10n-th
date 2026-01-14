@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-18 09:44+0200\n"
+"POT-Creation-Date: 2026-01-04 05:29+0100\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -33,667 +33,713 @@ msgid "Clip Monitor"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:26
-msgid "kdenlive2402_ui-monitors_cm_elements"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:26
+#: ../../user_interface/monitors/clip_monitor.rst:25
 msgid "Clip Monitor elements"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:28
+#: ../../user_interface/monitors/clip_monitor.rst:27
 msgid "The Clip Monitor displays the unedited\\ [#f1]_ clip that is currently selected in the :doc:`Project Bin </project_and_asset_management/project_bin>`. It has the same functions and options as the :ref:`ui-monitors_project_monitor` except for the |kdenlive-add-clip| icon which adds the clip zone to the Project Bin where it will appear as child clip underneath the clip. See :ref:`ui-monitors_cm_clip_zone` for more details."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:30
-msgid "**1** Video Stream indicator"
+#: ../../user_interface/monitors/clip_monitor.rst:35
+msgid "Video Stream indicator. Grab the icon to only put the video part of the video into the timeline."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:31
-msgid "**2** Audio Stream indicator"
+#: ../../user_interface/monitors/clip_monitor.rst:37
+msgid "Audio Stream indicator. Grab the icon to only put the audio part of the video into the timeline."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:32
-msgid "**3** Clip Zone indicator"
+#: ../../user_interface/monitors/clip_monitor.rst:39
+msgid "Clip Zone indicator. See :ref:`ui-monitors_cm_clip_zone` for more details."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:33
-msgid "**4** List of last opened clips"
+#: ../../user_interface/monitors/clip_monitor.rst:41
+msgid "List of last opened clips. Hover with the mouse to the top and a list of last opened clips appears. You can select a clip which then show up in the clip monitor."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:40
-msgid "Number **4**: Hover with the mouse to the top and a list of last opened clips appears. You can select a clip which then show up in the clip monitor."
+#: ../../user_interface/monitors/clip_monitor.rst:43
+msgid "Minimap for zooming the audio stream"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:42
-msgid "For more details about the icons in the monitor toolbar refer to :ref:`this section <ui_elements-monitor_icons>` of the manual."
+#: ../../user_interface/monitors/clip_monitor.rst:45
+msgid "The action differs if the mouse is on the main view (upper part with the video) or on the audio/minimap view."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:48
-msgid "Hamburger Menu"
+#: ../../user_interface/monitors/clip_monitor.rst:53
+msgid "Action"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:54
+msgid "Audio / Minimap"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:55
+msgid "Main view"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:56
-msgid "Clip Monitor options"
+msgid ":kbd:`Single click`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:57
+#: ../../user_interface/monitors/clip_monitor.rst:63
+#: ../../user_interface/monitors/clip_monitor.rst:66
+msgid "Scroll"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:58
-msgid "**Volume** - Set the Clip Monitor playback volume. This does not affect the master volume setting."
+#: ../../user_interface/monitors/clip_monitor.rst:64
+#: ../../user_interface/monitors/clip_monitor.rst:67
+msgid "Seek"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:59
+msgid ":kbd:`Double click`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:60
-msgid "**Go to Marker** - If :term:`markers` are defined for the clip the list of markers is displayed and selecting one positions the :term:`playhead` at the marker's timecode."
+#: ../../user_interface/monitors/clip_monitor.rst:61
+msgid "Switch to full screen"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:62
-msgid "**Force Monitor Size** - You can force the Clip Monitor to display the video at 100% (original size), 50% or adjust it to the Clip Monitor widget's size (Free Resize)."
+msgid ":kbd:`Drag`"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:64
-msgid "**Background Color** - Set the background color for the Clip Monitor"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:66
-msgid "**Extract Zone** - Saves the current :term:`zone` as a :file:`.mlt` file and adds it to the :term:`project bin` if :guilabel:`Add clip to project` is selected. See also *Extract Zone* in the :ref:`ui-monitors_cm_rightclick` section below."
+#: ../../user_interface/monitors/clip_monitor.rst:65
+msgid ":kbd:`Wheel`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:68
-msgid "**Set Current Image as Thumbnail** - Takes the a snapshot of the current frame and uses that as the thumbnail for the clip."
+msgid ":kbd:`Ctrl + Wheel`"
 msgstr ""
 
 #. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:69
 #: ../../user_interface/monitors/clip_monitor.rst:70
-msgid "**Always show audio thumbnails** -"
+msgid "Zoom"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:72
-msgid "**Audio Scrubbing** - If enabled plays the audio track while scrubbing through the timeline. You may want to turn this off to improve scrubbing performance or if the noise is distracting."
+#: ../../user_interface/monitors/clip_monitor.rst:73
+msgid "For more details about the icons in the monitor toolbar refer to :ref:`this section <ui_elements-monitor_icons>` of the manual."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:74
-msgid "**Show Audio Levels** - If enabled shows the frequency curve of the master audio in the Project Monitor."
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:76
-msgid "**Show Source Timecode** -"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:84
-msgid "Creating Zones"
+#: ../../user_interface/monitors/clip_monitor.rst:79
+msgid "Hamburger Menu"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:86
-msgid "Zones are defined regions of clips that are indicated by a colored section in the clip monitor's timeline - see item 3 above. The beginning of a zone is set by clicking |zone-in| or pressing :kbd:`I`. The end of a zone is set by clicking |zone-out| or pressing :kbd:`O`."
+msgid "Clip Monitor options"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:88
+msgid "**Volume** - Set the Clip Monitor playback volume. This does not affect the master volume setting."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:90
+msgid "**Go to Marker** - If :term:`markers` are defined for the clip the list of markers is displayed and selecting one positions the :term:`playhead` at the marker's timecode."
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:92
-msgid "Right-Click Menu"
+msgid "**Force Monitor Size** - You can force the Clip Monitor to display the video at 100% (original size), 50% or adjust it to the Clip Monitor widget's size (Free Resize)."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:94
+msgid "**Background Color** - Set the background color for the Clip Monitor"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:96
+msgid "**Extract Zone** - Saves the current :term:`zone` as a :file:`.mlt` file and adds it to the :term:`project bin` if :guilabel:`Add clip to project` is selected. See also *Extract Zone* in the :ref:`ui-monitors_cm_rightclick` section below."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:98
+msgid "**Set Current Image as Thumbnail** - Takes the a snapshot of the current frame and uses that as the thumbnail for the clip."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:100
+msgid "**Always show audio thumbnails** -"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:102
-msgid "kdenlive2304_ui-monitor_cm_right-click"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:102
-msgid "Clip Monitor right-click menu options"
+msgid "**Audio Scrubbing** - If enabled plays the audio track while scrubbing through the timeline. You may want to turn this off to improve scrubbing performance or if the noise is distracting."
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:104
-msgid "These are the menu items that are available when you right-click in the Clip Monitor. These actions affect the clip that is currently selected in the :doc:`project bin</project_and_asset_management/project_bin>`. Similar menu items are available from a right-click menu in the :ref:`ui-monitors_project_monitor`. However, the project monitor menu items affect the currently selected clip on the :ref:`timeline`."
+msgid "**Show Audio Levels** - If enabled shows the frequency curve of the master audio in the Project Monitor."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:106
+msgid "**Show Source Timecode** -"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:114
+msgid "Creating Zones"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:116
-msgid "Item"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:117
-msgid "Shortcut"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:118
-msgid "Description"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:119
-msgid "Play"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:120
-msgid ":kbd:`Space` or click into the monitor"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:121
-msgid "Plays the :term:`clip` currently selected in the :term:`project bin`. (:doc:`Disable play on click in the settings</getting_started/configure_kdenlive/configuration_playback>`)"
+msgid "Zones are defined regions of clips that are indicated by a colored section in the clip monitor's timeline - see item 3 above. The beginning of a zone is set by clicking |zone-in| or pressing :kbd:`I`. The end of a zone is set by clicking |zone-out| or pressing :kbd:`O`."
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:122
-msgid "Play Zone"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:123
-msgid ":kbd:`Ctrl+Space`"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:124
-msgid "Plays the current :term:`zone` and stops"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:125
-msgid "Play Zone From Cursor"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:127
-msgid "Plays the current :term:`zone` from cursor to the end of the :term:`zone`"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:128
-msgid "Loop Zone"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:129
-msgid ":kbd:`Ctrl+Shift+Space`"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:130
-msgid "Plays the current :term:`zone` in a continuous loop"
+msgid "Right-Click Menu"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:131
-msgid "Go to Project Start"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:132
-msgid ":kbd:`Ctrl+Home`"
+msgid "Clip Monitor right-click menu options"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:133
-msgid "Goes to the beginning of the clip"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:134
-msgid "Go to Previous Guide"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:135
-msgid ":kbd:`Ctrl+Left`"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:136
-msgid "Goes to the previous :term:`marker<markers>` or :term:`guide`"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:137
-msgid "Go to Previous Snap Point"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:138
-msgid ":kbd:`Alt+Left`"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:139
-msgid "Moves the :term:`playhead` to the previous :term:`snap point`"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:140
-msgid "Go to Zone Start"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:141
-msgid ":kbd:`Shift+I`"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:142
-msgid "Goes to the start of the :term:`zone`"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:143
-msgid "Go to Clip Start"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:144
-msgid ":kbd:`Home`"
+msgid "These are the menu items that are available when you right-click in the Clip Monitor. These actions affect the clip that is currently selected in the :doc:`project bin</project_and_asset_management/project_bin>`. Similar menu items are available from a right-click menu in the :ref:`ui-monitors_project_monitor`. However, the project monitor menu items affect the currently selected clip on the :ref:`timeline`."
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:145
-msgid "Moves the clip playhead to the beginning of the clip"
+msgid "Item"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:146
-msgid "Go to Clip End"
+msgid "Shortcut"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:147
-msgid ":kbd:`End`"
+msgid "Description"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:148
-msgid "Moves the clip playhead to the end of the clip"
+msgid "Play"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:149
-msgid "Go to Zone End"
+msgid ":kbd:`Space` or click into the monitor"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:150
-msgid ":kbd:`Shift+O`"
+msgid "Plays the :term:`clip` currently selected in the :term:`project bin`. (:doc:`Disable play on click in the settings</getting_started/configure_kdenlive/configuration_playback>`)"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:151
-msgid "Goes to the end of the :term:`zone`"
+msgid "Play Zone"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:152
-msgid "Go to Next Snap Point"
+msgid ":kbd:`Ctrl+Space`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:153
-msgid ":kbd:`Alt+Right`"
+msgid "Plays the current :term:`zone` and stops"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:154
-msgid "Moves the :term:`playhead` to the next :term:`snap point`"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:155
-msgid "Go to Next Guide"
+msgid "Play Zone From Cursor"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:156
-msgid ":kbd:`Ctrl+Right`"
+msgid "Plays the current :term:`zone` from cursor to the end of the :term:`zone`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:157
-msgid "Goes to the next :term:`marker<markers>` or :term:`guide`"
+msgid "Loop Zone"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:158
-msgid "Go to Project End"
+msgid ":kbd:`Ctrl+Shift+Space`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:159
-msgid ":kbd:`Ctrl+End`"
+msgid "Plays the current :term:`zone` in a continuous loop"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:160
-msgid "Goes the end of the clip"
+msgid "Go to Project Start"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:161
-msgid "Add Marker"
+msgid ":kbd:`Ctrl+Home`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:162
+msgid "Goes to the beginning of the clip"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:163
-msgid "Opens the Edit Marker dialog window for adding a new :term:`marker<markers>` into the clip at the current time point."
+msgid "Go to Previous Guide"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:164
+msgid ":kbd:`Ctrl+Left`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:165
+msgid "Goes to the previous :term:`marker<markers>` or :term:`Timeline Marker (former Guide)`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:166
+msgid "Go to Previous Snap Point"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:167
+msgid ":kbd:`Alt+Left`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:168
+msgid "Moves the :term:`playhead` to the previous :term:`snap point`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:169
+msgid "Go to Zone Start"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:170
-msgid "kdenlive2308_ui-monitors_edit_marker"
+msgid ":kbd:`Shift+I`"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:170
-msgid "Edit Marker dialog window to add or edit a marker"
+#: ../../user_interface/monitors/clip_monitor.rst:171
+msgid "Goes to the start of the :term:`zone`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:172
+msgid "Go to Clip Start"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:173
+msgid ":kbd:`Home`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:174
+msgid "Moves the clip playhead to the beginning of the clip"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:175
+msgid "Go to Clip End"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:176
+msgid ":kbd:`End`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:177
-msgid "Add Marker/Guide quickly"
+msgid "Moves the clip playhead to the end of the clip"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:178
-msgid ":kbd:`Num+*`"
+msgid "Go to Zone End"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:179
-msgid "Adds a new marker at the current time point"
+msgid ":kbd:`Shift+O`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:180
-msgid "Edit Marker"
+msgid "Goes to the end of the :term:`zone`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:181
+msgid "Go to Next Snap Point"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:182
-msgid "Brings up a dialog where you can edit the :term:`marker<markers>` that is at the current time point. Use *Go to marker* to put the monitor at the marker you want to edit."
+msgid ":kbd:`Alt+Right`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:183
-msgid "Delete Marker"
+msgid "Moves the :term:`playhead` to the next :term:`snap point`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:184
+msgid "Go to Next Guide"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:185
-msgid "Deletes the :term:`marker<markers>` that is at the current time point. Use *Go to marker* to put the monitor at the marker you want to delete."
+msgid ":kbd:`Ctrl+Right`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:186
-msgid "Delete All Markers"
+msgid "Goes to the next :term:`marker<markers>` or :term:`Timeline Marker (former Guide)`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:187
+msgid "Go to Project End"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:188
-msgid "Deletes all the :term:`markers` from the current clip."
+msgid ":kbd:`Ctrl+End`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:189
-msgid "Go to Marker..."
+msgid "Goes the end of the clip"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:191
-msgid "The menu item pops out a list of existing :term:`marker<markers>` to select from. When one is selected the playhead moves to that marker."
+#: ../../user_interface/monitors/clip_monitor.rst:190
+msgid "Add Marker"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:192
-msgid "Extract Zone"
+msgid "Opens the Edit Marker dialog window for adding a new :term:`marker<markers>` into the clip at the current time point."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:194
-msgid "This brings up the **Cut Clip** dialog."
+#: ../../user_interface/monitors/clip_monitor.rst:198
+msgid "Edit Marker dialog window to add or edit a marker"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:201
-msgid "kdenlive2308_ui-monitors_cut_clip"
+#: ../../user_interface/monitors/clip_monitor.rst:205
+msgid "Add Marker quickly"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:201
-msgid "Cut Clip dialog to extract zone"
+#: ../../user_interface/monitors/clip_monitor.rst:206
+msgid ":kbd:`Num+*`"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:203
-msgid "The current :term:`zone` can be saved as a :file:`.mov` file in your file system. If the :guilabel:`Add clip to project` is checked the zone will be added as a separate clip to the project bin."
+#: ../../user_interface/monitors/clip_monitor.rst:207
+msgid "Adds a new marker at the current time point"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:208
+msgid "Edit Marker"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:210
-msgid "Insert Zone in Project bin"
+msgid "Brings up a dialog where you can edit the :term:`marker<markers>` that is at the current time point. Use *Go to marker* to put the monitor at the marker you want to edit."
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:211
-msgid ":kbd:`Ctrl+I`"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:212
-msgid "Inserts the current :term:`zone` into the project bin as a sub-clip of the original clip"
+msgid "Delete Marker"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:213
-msgid "Extract Frame"
+msgid "Deletes the :term:`marker<markers>` that is at the current time point. Use *Go to marker* to put the monitor at the marker you want to delete."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:215
-msgid "Opens the **Save Image** dialog window to save the current frame as an image file (default is :file:`.png`) to your file system"
+#: ../../user_interface/monitors/clip_monitor.rst:214
+msgid "Delete All Markers"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:216
-msgid "Extract Frame to Project"
+msgid "Deletes all the :term:`markers` from the current clip."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:218
-msgid "Same as :guilabel:`Extract Frame` but in addition the image file is brought into the project bin"
+#: ../../user_interface/monitors/clip_monitor.rst:217
+msgid "Go to Marker..."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:225
-msgid "kdenlive2308_ui-monitors_save_image"
+#: ../../user_interface/monitors/clip_monitor.rst:219
+msgid "The menu item pops out a list of existing :term:`marker<markers>` to select from. When one is selected the playhead moves to that marker."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:225
-msgid "Save Image dialog for extracting frames"
+#: ../../user_interface/monitors/clip_monitor.rst:220
+msgid "Extract Zone"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:233
-msgid "Add Project Note"
+#: ../../user_interface/monitors/clip_monitor.rst:222
+msgid "This brings up the **Cut Clip** dialog."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:235
-msgid "Opens the :doc:`Project Notes</project_and_asset_management/project_notes>` widget and adds a hyperlink to the current frame in the clip. You can enter more text to describe the scene."
+#: ../../user_interface/monitors/clip_monitor.rst:228
+msgid "Cut Clip dialog to extract zone"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:236
-msgid "Set Zone In"
+#: ../../user_interface/monitors/clip_monitor.rst:230
+msgid "The current :term:`zone` can be saved as a :file:`.mov` file in your file system. If the :guilabel:`Add clip to project` is checked the zone will be added as a separate clip to the project bin."
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:237
-msgid ":kbd:`I`"
+msgid "Insert Zone in Project bin"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:238
-msgid "Sets the :term:`in-point` for the :term:`zone`"
+msgid ":kbd:`Ctrl+I`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:239
-msgid "Set Zone Out"
+msgid "Inserts the current :term:`zone` into the project bin as a sub-clip of the original clip"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:240
-msgid ":kbd:`O`"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:241
-msgid "Sets the :term:`out-point` for the :term:`zone`"
+msgid "Extract Frame"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:242
-msgid "Set current image as thumbnail"
+msgid "Opens the **Save Image** dialog window to save the current frame as an image file (default is :file:`.png`) to your file system"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:244
-msgid "Uses the current frame as the thumbnail for the clip in the project bin"
+#: ../../user_interface/monitors/clip_monitor.rst:243
+msgid "Extract Frame to Project"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:245
-msgid "Always show audio thumbnails"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:247
-msgid "Switches the permanent display of the audio waveform on or off. If unchecked (i.e. off) the audio graph is only displayed when the mouse is near the bottom of the monitor area and the Monitor Overlay Audio Waveform option is selected."
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:248
-msgid "Current Monitor Overlay"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:250
-msgid "Opens a fly-out for the various available monitor overlays"
+msgid "Same as :guilabel:`Extract Frame` but in addition the image file is brought into the project bin"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:251
-msgid "Monitor Info Overlay"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:253
-msgid "Switches all monitor overlays on or off"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:254
-msgid "Monitor Overlay Timecode"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:256
-msgid "Switches the display of the timecode on or off"
-msgstr ""
-
-#. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:257
-msgid "Monitor Overlay Playback FPS"
+msgid "Save Image dialog for extracting frames"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:259
-msgid "Switches the display of the frame-per-seconds (:term:`fps`) on or off"
+msgid "Add Project Note"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:260
-msgid "Monitor Overlay Markers"
+#: ../../user_interface/monitors/clip_monitor.rst:261
+msgid "Opens the :doc:`Project Notes</project_and_asset_management/project_notes>` widget and adds a hyperlink to the current frame in the clip. You can enter more text to describe the scene."
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:262
-msgid "Switches the display of the marker lines and thumbnails on or off"
+msgid "Set Zone In"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:263
-msgid "Monitor Overlay Audio Waveform"
+msgid ":kbd:`I`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:264
+msgid "Sets the :term:`in-point` for the :term:`zone`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:265
-msgid "Switches the display of the audio waveform on or off"
+msgid "Set Zone Out"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:266
-msgid "Monitor Overlay Clip Jobs"
+msgid ":kbd:`O`"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:267
+msgid "Sets the :term:`out-point` for the :term:`zone`"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:268
-msgid "Switches the display of running clip jobs on or off"
+msgid "Set current image as thumbnail"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:275
-msgid "Seeking"
+#: ../../user_interface/monitors/clip_monitor.rst:270
+msgid "Uses the current frame as the thumbnail for the clip in the project bin"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:271
+msgid "Always show audio thumbnails"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:273
+msgid "Switches the permanent display of the audio waveform on or off. If unchecked (i.e. off) the audio graph is only displayed when the mouse is near the bottom of the monitor area and the Monitor Overlay Audio Waveform option is selected."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:274
+msgid "Current Monitor Overlay"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:276
+msgid "Opens a fly-out for the various available monitor overlays"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:277
+msgid "Monitor Info Overlay"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:279
-msgid "Inside the clip monitor: hold down :kbd:`Shift` and move the mouse left/right."
+msgid "Switches all monitor overlays on or off"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:280
+msgid "Monitor Overlay Timecode"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:282
+msgid "Switches the display of the timecode on or off"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:283
+msgid "Monitor Overlay Playback FPS"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:285
-msgid "Drag Audio or Video Only to Timeline"
+msgid "Switches the display of the frame-per-seconds (:term:`fps`) on or off"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:286
+msgid "Monitor Overlay Markers"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:288
+msgid "Switches the display of the marker lines and thumbnails on or off"
 msgstr ""
 
 #. +> trunk5
 #: ../../user_interface/monitors/clip_monitor.rst:289
+msgid "Monitor Overlay Audio Waveform"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:291
+msgid "Switches the display of the audio waveform on or off"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:292
+msgid "Monitor Overlay Clip Jobs"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:294
+msgid "Switches the display of running clip jobs on or off"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:301
+msgid "Seeking"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:305
+msgid "Inside the clip monitor: hold down :kbd:`Shift` and move the mouse left/right."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:311
+msgid "Drag Audio or Video Only to Timeline"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:315
 msgid "It is possible to drag only the video or audio stream of a clip from the project bin or clip monitor to the timeline"
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:299
+#: ../../user_interface/monitors/clip_monitor.rst:324
 msgid "Move with the mouse to the lower left-hand corner of the clip monitor to access the video (1) and audio (2) icons. Left click on the respective icon to drag either the video or audio stream into the timeline."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:303
+#: ../../user_interface/monitors/clip_monitor.rst:328
 msgid "This is very useful if you only need one of the streams as it avoids the un-grouping and subsequent deletion of one of the streams of the clip in the timeline."
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:308
+#: ../../user_interface/monitors/clip_monitor.rst:333
 msgid "\"Unedited\" means without any cuts. Please note that clips in the Project Bin can have effects and hence people may consider them \"edited\"."
 msgstr ""
 
@@ -708,6 +754,26 @@ msgid "KDE, Kdenlive, clip, project, monitor, clip monitor, overlay, resizing, z
 msgstr ""
 
 #. +> trunk5
-#: ../../user_interface/monitors/clip_monitor.rst:-1
-msgid "kdenlive2304_ui-monitors_cm_av_only"
+#: ../../user_interface/monitors/clip_monitor.rst:0
+msgid "1"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:0
+msgid "2"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:0
+msgid "3"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:0
+msgid "4"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/monitors/clip_monitor.rst:0
+msgid "5"
 msgstr ""

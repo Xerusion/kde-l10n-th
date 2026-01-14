@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-30 12:08+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2010-12-17 16:12+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -22,43 +22,8 @@ msgstr ""
 msgid "General"
 msgstr "ทั่วไป"
 
-#. +> stable6 stable5
-#: ConfigGeneral.qml:36
-#, fuzzy, kde-format
-#| msgid "Show lock button"
-msgctxt "Heading for a list of actions (leave, lock, switch user, hibernate, suspend)"
-msgid "Show actions:"
-msgstr "แสดงปุ่มล็อค"
-
-#. +> stable6
-#: ConfigGeneral.qml:37
-#, kde-format
-msgid "Log Out"
-msgstr ""
-
-#. +> stable6
-#: ConfigGeneral.qml:44
-#, fuzzy, kde-format
-#| msgid "Show logout button"
-msgctxt "@option:check"
-msgid "Show logout screen"
-msgstr "แสดงปุ่มออกจากระบ"
-
-#. +> stable6
-#: ConfigGeneral.qml:50
-#, kde-format
-msgid "Shut Down"
-msgstr ""
-
-#. +> stable6 stable5
-#: ConfigGeneral.qml:68
-#, fuzzy, kde-format
-#| msgid "Switch user"
-msgid "Switch User"
-msgstr "สลับผู้ใช้งาน"
-
-#. +> trunk6
-#: ConfigGeneral.qml:111
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:118
 #, kde-format
 msgid "Unavailable"
 msgstr ""
@@ -75,17 +40,24 @@ msgstr "ล็อค"
 msgid "Lock the screen"
 msgstr "ล็อคหน้าจอ"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: data.js:12
 #, fuzzy, kde-format
 #| msgid "Switch user"
 msgid "Switch user…"
 msgstr "สลับผู้ใช้งาน"
 
-#. +> stable6 stable5
-#: data.js:12
+#. +> stable5
+#: contents/ui/data.js:12
 #, kde-format
 msgid "Switch user"
+msgstr "สลับผู้ใช้งาน"
+
+#. +> stable5
+#: contents/ui/ConfigGeneral.qml:58
+#, fuzzy, kde-format
+#| msgid "Switch user"
+msgid "Switch User"
 msgstr "สลับผู้ใช้งาน"
 
 #. +> trunk6 stable6 stable5
@@ -94,16 +66,22 @@ msgstr "สลับผู้ใช้งาน"
 msgid "Start a parallel session as a different user"
 msgstr "เริ่มวาระงานคู่ขนานโดยเข้าใช้เป็นผู้ใช้งานอื่น"
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: data.js:19
 #, kde-format
 msgid "Shut down"
 msgstr ""
 
-#. +> stable6 stable5
-#: data.js:19
+#. +> stable5
+#: contents/ui/data.js:18
 #, kde-format
 msgid "Shutdown…"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/ConfigGeneral.qml:43
+#, kde-format
+msgid "Shutdown"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -119,8 +97,8 @@ msgstr "ออกจากระบบ, ปิดเครื่อง หรื
 msgid "Restart"
 msgstr ""
 
-#. +> stable6 stable5
-#: data.js:26
+#. +> stable5
+#: contents/ui/data.js:25
 #, kde-format
 msgid "Restart…"
 msgstr ""
@@ -131,16 +109,22 @@ msgstr ""
 msgid "Reboot the computer"
 msgstr ""
 
-#. +> trunk6
+#. +> trunk6 stable6
 #: data.js:33
 #, kde-format
 msgid "Log out"
 msgstr ""
 
-#. +> stable6 stable5
-#: data.js:33
+#. +> stable5
+#: contents/ui/data.js:32
 #, kde-format
 msgid "Logout…"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/ConfigGeneral.qml:37
+#, kde-format
+msgid "Logout"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -148,6 +132,14 @@ msgstr ""
 #, kde-format
 msgid "End the session"
 msgstr ""
+
+#. +> stable5
+#: contents/ui/ConfigGeneral.qml:36
+#, fuzzy, kde-format
+#| msgid "Show lock button"
+msgctxt "Heading for a list of actions (leave, lock, switch user, hibernate, suspend)"
+msgid "Show actions:"
+msgstr "แสดงปุ่มล็อค"
 
 #. +> trunk6 stable6
 #: data.js:40
@@ -178,6 +170,12 @@ msgstr "พักเครื่อง"
 msgid "Sleep (suspend to RAM)"
 msgstr "พักเครื่อง (เก็บสถานะไว้ในหน่วยความจำ)"
 
+#. +> stable5
+#: contents/ui/ConfigGeneral.qml:48
+#, kde-format
+msgid "Reboot"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
 #: data.js:54
 #, kde-format
@@ -190,20 +188,8 @@ msgstr "จำศีล"
 msgid "Hibernate (suspend to disk)"
 msgstr "จำศีล (เก็บสถานะไว้ในดิสก์)"
 
-#. +> stable5
-#: contents/ui/ConfigGeneral.qml:37
-#, kde-format
-msgid "Logout"
-msgstr ""
-
-#. +> stable5
-#: contents/ui/ConfigGeneral.qml:43
-#, kde-format
-msgid "Shutdown"
-msgstr ""
-
-#. +> stable5
-#: contents/ui/ConfigGeneral.qml:48
-#, kde-format
-msgid "Reboot"
-msgstr ""
+#, fuzzy, kde-format
+#~| msgid "Show logout button"
+#~ msgctxt "@option:check"
+#~ msgid "Show logout screen"
+#~ msgstr "แสดงปุ่มออกจากระบ"

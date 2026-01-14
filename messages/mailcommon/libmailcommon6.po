@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mailcommon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-12 08:16+0100\n"
+"POT-Creation-Date: 2026-01-11 08:13+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -451,20 +451,20 @@ msgid "Add Header"
 msgstr ""
 
 #. +> trunk6 stable6
-#: filter/filteractions/filteractionaddheader.cpp:77
+#: filter/filteractions/filteractionaddheader.cpp:74
 #, kde-format
 msgctxt "@label:textbox"
 msgid "With value:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: filter/filteractions/filteractionaddheader.cpp:203
+#: filter/filteractions/filteractionaddheader.cpp:200
 #, kde-format
 msgid "The header name was missing."
 msgstr ""
 
 #. +> trunk6 stable6
-#: filter/filteractions/filteractionaddheader.cpp:209
+#: filter/filteractions/filteractionaddheader.cpp:206
 #, kde-format
 msgid "The header value was missing."
 msgstr ""
@@ -605,25 +605,25 @@ msgid "Encrypt"
 msgstr ""
 
 #. +> trunk6 stable6
-#: filter/filteractions/filteractionencrypt.cpp:213
+#: filter/filteractions/filteractionencrypt.cpp:211
 #, kde-format
 msgid "No encryption key has been selected"
 msgstr ""
 
 #. +> trunk6 stable6
-#: filter/filteractions/filteractionencrypt.cpp:249
+#: filter/filteractions/filteractionencrypt.cpp:247
 #, kde-format
 msgid "Re-encrypt encrypted emails with this key"
 msgstr ""
 
 #. +> trunk6 stable6
-#: filter/filteractions/filteractionencrypt.cpp:259
+#: filter/filteractions/filteractionencrypt.cpp:257
 #, kde-format
 msgid "<b>Warning:</b> Seckey necessary to read emails."
 msgstr ""
 
 #. +> trunk6 stable6
-#: filter/filteractions/filteractionencrypt.cpp:261
+#: filter/filteractions/filteractionencrypt.cpp:259
 #, kde-format
 msgid ""
 "<p>Once an email has been encrypted you will need a crypto setup with your secret key to access the contents again.</p>"
@@ -696,7 +696,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: filter/filteractions/filteractionforward.cpp:237
-#: filter/filteractions/filteractionreplyto.cpp:51
+#: filter/filteractions/filteractionreplyto.cpp:47
 #, kde-format
 msgid "Email address was not defined."
 msgstr ""
@@ -781,14 +781,14 @@ msgid "Search string is empty."
 msgstr ""
 
 #. +> trunk6 stable6
-#: filter/filteractions/filteractionrewriteheader.cpp:111
+#: filter/filteractions/filteractionrewriteheader.cpp:108
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Replace:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: filter/filteractions/filteractionrewriteheader.cpp:122
+#: filter/filteractions/filteractionrewriteheader.cpp:119
 #, kde-format
 msgctxt "@label:textbox"
 msgid "With:"
@@ -2042,7 +2042,14 @@ msgstr ""
 msgid "%1 (Offline)"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: folder/foldertreewidgetproxymodel.cpp:247
+#, kde-format
+msgctxt "%1 is the name of a mailbox, %2 is a percentage. Keep this string short!"
+msgid "%1 (Reached %2% quota)"
+msgstr ""
+
+#. +> stable6
 #: folder/foldertreewidgetproxymodel.cpp:246
 #, kde-format
 msgid "%1 (Reached %2% quota)"

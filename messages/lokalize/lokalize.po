@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-28 09:59+0100\n"
+"POT-Creation-Date: 2026-01-11 08:13+0100\n"
 "PO-Revision-Date: 2025-03-03 20:07+0700\n"
 "Last-Translator: Pongsakorn S. <kde@xerusion.me>\n"
 "Language-Team: Thai\n"
@@ -661,18 +661,25 @@ msgid "Insert text with markup"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/catalog/gettext/gettextstorage.cpp:98
+#: src/catalog/gettext/gettextstorage.cpp:100
 #, kde-format
 msgid "separator for different-length string alternatives"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/catalog/gettext/gettextstorage.cpp:284
+#: src/catalog/gettext/gettextstorage.cpp:286
 #, kde-format
 msgid "Previous source value, saved by Gettext during transition to a newer POT template"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/catalog/gettextheader.cpp:457
+#, kde-format
+msgctxt "@window:title"
+msgid "Author Name Missing"
+msgstr ""
+
+#. +> stable6
 #: src/catalog/gettextheader.cpp:457
 #, kde-format
 msgctxt "@window:title"
@@ -685,7 +692,14 @@ msgstr ""
 msgid "Your name:"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/catalog/gettextheader.cpp:469
+#, kde-format
+msgctxt "@window:title"
+msgid "Author Email Missing"
+msgstr ""
+
+#. +> stable6
 #: src/catalog/gettextheader.cpp:469
 #, kde-format
 msgctxt "@window:title"
@@ -700,7 +714,7 @@ msgid "Your email:"
 msgstr "พิมพ์อีเมลของคุณ"
 
 #. +> trunk6 stable6
-#: src/catalog/ts/tsstorage.cpp:437
+#: src/catalog/ts/tsstorage.cpp:439
 #, kde-format
 msgid "Previous source value, saved by lupdate tool"
 msgstr ""
@@ -712,7 +726,15 @@ msgctxt "@title:window aka Message Tree"
 msgid "Translation Units"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/cataloglistview/cataloglistview.cpp:80 src/glossary/glossarytab.cpp:124
+#: src/project/projecttab.cpp:59
+#, fuzzy, kde-format
+#| msgid "&Search"
+msgid "Search"
+msgstr "ค้น&หา"
+
+#. +> stable6
 #: src/cataloglistview/cataloglistview.cpp:80
 #: src/glossary/glossarywindow.cpp:99 src/project/projecttab.cpp:59
 #, kde-format
@@ -720,8 +742,8 @@ msgid "Quick search..."
 msgstr "ค้นหาแบบเร็ว..."
 
 #. +> trunk6 stable6
-#: src/cataloglistview/cataloglistview.cpp:81
-#: src/glossary/glossarywindow.cpp:101 src/project/projecttab.cpp:60
+#: src/cataloglistview/cataloglistview.cpp:81 src/glossary/glossarytab.cpp:126
+#: src/project/projecttab.cpp:60
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Activated by Ctrl+L. Accepts regular expressions"
@@ -748,7 +770,7 @@ msgstr "ไม่แยกแยะตัวพิมพ์ใหญ่-เล�
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_ignoreAccelMarks)
 #. +> trunk6 stable6
-#: src/cataloglistview/cataloglistview.cpp:204 src/kaider_findextension.ui:40
+#: src/cataloglistview/cataloglistview.cpp:204 src/findextension.ui:40
 #, kde-format
 msgid "Ignore accelerator marks"
 msgstr ""
@@ -834,14 +856,30 @@ msgctxt "@title:inmenu"
 msgid "States"
 msgstr "สถานะ"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/cataloglistview/cataloglistview.cpp:223
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Lokalize"
+msgctxt "@title:inmenu user selects a column to search within from a menu"
+msgid "Search Column"
+msgstr "Lokalize"
+
+#. +> trunk6
+#: src/cataloglistview/cataloglistview.cpp:227
+#, kde-format
+msgctxt "@title:inmenu"
+msgid "Re-sort and refilter on content change"
+msgstr ""
+
+#. +> stable6
 #: src/cataloglistview/cataloglistview.cpp:223
 #, kde-format
 msgctxt "@title:inmenu"
 msgid "Searchable column"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/cataloglistview/cataloglistview.cpp:227
 #, kde-format
 msgctxt "@title:inmenu"
@@ -865,7 +903,7 @@ msgstr "รายการ"
 #. +> trunk6 stable6
 #: src/cataloglistview/catalogmodel.cpp:92
 #: src/filesearch/filesearchtab.cpp:351 src/glossary/glossary.cpp:189
-#: src/tm/qamodel.cpp:94 src/tm/tmtab.cpp:66
+#: src/tm/qamodel.cpp:95 src/tm/tmtab.cpp:66
 #, kde-format
 msgctxt "@title:column Original text"
 msgid "Source"
@@ -917,7 +955,16 @@ msgctxt "@title:column"
 msgid "Modified"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/cataloglistview/catalogmodel.cpp:106
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Source language"
+msgctxt "@title:column Length of the original text"
+msgid "Source Length"
+msgstr "ภาษาต้นฉบับ"
+
+#. +> stable6
 #: src/cataloglistview/catalogmodel.cpp:106
 #, fuzzy, kde-format
 #| msgctxt "@title:column"
@@ -926,7 +973,16 @@ msgctxt "@title:column Length of the original text"
 msgid "Source length"
 msgstr "ภาษาต้นฉบับ"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/cataloglistview/catalogmodel.cpp:108
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Target language"
+msgctxt "@title:column Length of the text in target language"
+msgid "Target Length"
+msgstr "ภาษาเป้าหมาย"
+
+#. +> stable6
 #: src/cataloglistview/catalogmodel.cpp:108
 #, fuzzy, kde-format
 #| msgctxt "@title:column"
@@ -943,12 +999,11 @@ msgctxt "@info:status 'non-fuzzy' in gettext terminology"
 msgid "Ready"
 msgstr "พร้อม"
 
-#. +> trunk6 stable6
-#: src/cataloglistview/catalogmodel.cpp:146 src/editortab.cpp:1011
-#: src/editortab.cpp:1198 src/tm/tmtab.cpp:234
+#. +> trunk6
+#: src/cataloglistview/catalogmodel.cpp:146
 #, kde-format
 msgctxt "@info:status 'fuzzy' in gettext terminology"
-msgid "Needs review"
+msgid "Needs Review"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -992,14 +1047,14 @@ msgid "Target language:"
 msgstr "ภาษาเป้าหมาย:"
 
 #. +> trunk6 stable6
-#: src/common/termlabel.cpp:57
+#: src/common/termlabel.cpp:58
 #, kde-format
 msgctxt "@action:inmenu Edit term"
 msgid "Edit"
 msgstr "แก้ไข"
 
 #. +> trunk6 stable6
-#: src/editortab.cpp:150 src/lokalizemainwindow.cpp:568
+#: src/editortab.cpp:150 src/lokalizemainwindow.cpp:603
 #, kde-format
 msgctxt "@title actions category"
 msgid "File"
@@ -1038,7 +1093,7 @@ msgid "Translation Memory"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/editortab.cpp:156 src/lokalizemainwindow.cpp:569
+#: src/editortab.cpp:156 src/lokalizemainwindow.cpp:604
 #, kde-format
 msgctxt "@title actions category"
 msgid "Glossary"
@@ -1053,21 +1108,46 @@ msgctxt "@action:inmenu"
 msgid "Insert alternate translation #%1"
 msgstr "ยอมรับงานแปลใหม่ทั้งหมด"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:237
+#, fuzzy, kde-format
+#| msgctxt "link to add a note"
+#| msgid "Add a note..."
+msgctxt "@action:inmenu"
+msgid "Add Note"
+msgstr "เพิ่มบันทึก..."
+
+#. +> stable6
 #: src/editortab.cpp:237
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add a note"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:246
+#, fuzzy, kde-format
+#| msgid "If checked, get translation memory suggestions "
+msgctxt "@action:inmenu"
+msgid "Insert translation memory suggestion #%1"
+msgstr "เป็นการเปิดใช้การแนะนำความจำการแปล "
+
+#. +> stable6
 #: src/editortab.cpp:246
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Insert TM suggestion #%1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:251
+#, fuzzy, kde-format
+#| msgid "If checked, get translation memory suggestions "
+msgctxt "@action:inmenu"
+msgid "Remove translation memory suggestion #%1"
+msgstr "เป็นการเปิดใช้การแนะนำความจำการแปล "
+
+#. +> stable6
 #: src/editortab.cpp:251
 #, kde-format
 msgctxt "@action:inmenu"
@@ -1082,28 +1162,60 @@ msgctxt "@action:inmenu"
 msgid "Insert term translation #%1"
 msgstr "ต้องการการแปล"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:316
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Define New Term"
+msgstr ""
+
+#. +> stable6
 #: src/editortab.cpp:316
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Define new term"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:350
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Phases…"
+msgstr ""
+
+#. +> stable6
 #: src/editortab.cpp:350
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Phases..."
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:353
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Word Count"
+msgctxt "@action:inmenu"
+msgid "Word Count"
+msgstr "นับจำนวนคำ"
+
+#. +> stable6
 #: src/editortab.cpp:353
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Word count"
 msgstr "นับจำนวนคำ"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:356
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Copy all new translations"
+msgctxt "@action:inmenu"
+msgid "Clear Translated Entries"
+msgstr "คัดลอกการแปลใหม่ทั้งหมด"
+
+#. +> stable6
 #: src/editortab.cpp:356
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
@@ -1127,7 +1239,16 @@ msgctxt "@action:inmenu"
 msgid "Merge translation into OpenDocument"
 msgstr "แปลเอกสาร"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:383
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Change searching direction"
+msgctxt "@action:inmenu"
+msgid "Change Searching Direction"
+msgstr "เปลี่ยนทิศทางการค้นหา"
+
+#. +> stable6
 #: src/editortab.cpp:383
 #, kde-format
 msgctxt "@action:inmenu"
@@ -1141,28 +1262,62 @@ msgctxt "@option:check whether message is marked as translated/reviewed/approved
 msgid "Approved"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:411
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Approve and Go Next"
+msgstr ""
+
+#. +> stable6
 #: src/editortab.cpp:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Approve and go to next"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:418
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Last Translation"
+msgctxt "@action:inmenu"
+msgid "Equivalent Translation"
+msgstr "การแปลล่าสุด"
+
+#. +> stable6
 #: src/editortab.cpp:418
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Equivalent translation"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:429
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Copy source to target"
+msgctxt "@action:inmenu"
+msgid "Copy Source to Target"
+msgstr "คัดลอกต้นฉบับไปยังเป้าหมาย"
+
+#. +> stable6
 #: src/editortab.cpp:429
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy source to target"
 msgstr "คัดลอกต้นฉบับไปยังเป้าหมาย"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:432
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Target"
+msgctxt "@action:inmenu"
+msgid "Unwrap Target"
+msgstr "เป้าหมาย"
+
+#. +> stable6
 #: src/editortab.cpp:432
 #, kde-format
 msgctxt "@action:inmenu"
@@ -1246,7 +1401,16 @@ msgctxt "@action:inmenu"
 msgid "&Last Entry"
 msgstr "รายการสุ&ดท้าย"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:491
+#, fuzzy, kde-format
+#| msgctxt "@label:spinbox"
+#| msgid "Enter entry number:"
+msgctxt "@action:inmenu"
+msgid "Entry by Number"
+msgstr "ป้อนหมายเลขรายการ:"
+
+#. +> stable6
 #: src/editortab.cpp:491
 #, kde-format
 msgctxt "@action:inmenu"
@@ -1271,21 +1435,49 @@ msgctxt ""
 msgid "Next non-empty but not ready"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:509 src/project/projecttab.cpp:112
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Previous translation only"
+msgctxt "@action:inmenu"
+msgid "Previous Untranslated"
+msgstr "การแปลก่อนหน้าเท่านั้น"
+
+#. +> stable6
 #: src/editortab.cpp:509 src/project/projecttab.cpp:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Previous untranslated"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:514 src/project/projecttab.cpp:118
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Untranslated"
+msgctxt "@action:inmenu"
+msgid "Next Untranslated"
+msgstr "ยังไม่ได้แปล"
+
+#. +> stable6
 #: src/editortab.cpp:514 src/project/projecttab.cpp:118
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Next untranslated"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:520 src/project/projecttab.cpp:88
+#, fuzzy, kde-format
+#| msgid "Previous tab"
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Previous Not Ready"
+msgstr "แท็บก่อนหน้า"
+
+#. +> stable6
 #: src/editortab.cpp:520 src/project/projecttab.cpp:88
 #, kde-format
 msgctxt ""
@@ -1294,7 +1486,18 @@ msgctxt ""
 msgid "Previous not ready"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:528 src/project/projecttab.cpp:94
+#, fuzzy, kde-format
+#| msgctxt "@title:column Number of entries"
+#| msgid "Not ready"
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Next Not Ready"
+msgstr "ไม่พร้อม"
+
+#. +> stable6
 #: src/editortab.cpp:528 src/project/projecttab.cpp:94
 #, kde-format
 msgctxt ""
@@ -1310,21 +1513,45 @@ msgctxt "@action:inmenu"
 msgid "Focus the search line of Translation Units view"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:541
+#, fuzzy, kde-format
+#| msgid "&Bookmarks"
+msgctxt "@option:check"
+msgid "Bookmark Message"
+msgstr "ที่คั่น&หน้า"
+
+#. +> stable6
 #: src/editortab.cpp:541
 #, kde-format
 msgctxt "@option:check"
 msgid "Bookmark message"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:546
+#, fuzzy, kde-format
+#| msgid "Previous tab"
+msgctxt "@action:inmenu"
+msgid "Previous Bookmark"
+msgstr "แท็บก่อนหน้า"
+
+#. +> stable6
 #: src/editortab.cpp:546
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Previous bookmark"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:550
+#, fuzzy, kde-format
+#| msgid "&Bookmarks"
+msgctxt "@action:inmenu"
+msgid "Next Bookmark"
+msgstr "ที่คั่น&หน้า"
+
+#. +> stable6
 #: src/editortab.cpp:550
 #, kde-format
 msgctxt "@action:inmenu"
@@ -1333,7 +1560,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/editortab.cpp:558
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgctxt "@action:inmenu"
 msgid "Fill in all exact suggestions"
 msgstr ""
@@ -1359,7 +1586,16 @@ msgctxt "@info:status"
 msgid "Open catalog to be merged into the current one / replicate base file changes to"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:578 src/editortab.cpp:637
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Previous different"
+msgctxt "@action:inmenu"
+msgid "Previous Different"
+msgstr "ความแตกต่างก่อนหน้า"
+
+#. +> stable6
 #: src/editortab.cpp:578 src/editortab.cpp:637
 #, kde-format
 msgctxt "@action:inmenu"
@@ -1373,7 +1609,16 @@ msgctxt "@info:status"
 msgid "Previous entry which is translated differently in the file being merged, including empty translations in merge source"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:589 src/editortab.cpp:646
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Next different"
+msgctxt "@action:inmenu"
+msgid "Next Different"
+msgstr "ความแตกต่างถัดไป"
+
+#. +> stable6
 #: src/editortab.cpp:589 src/editortab.cpp:646
 #, kde-format
 msgctxt "@action:inmenu"
@@ -1387,7 +1632,16 @@ msgctxt "@info:status"
 msgid "Next entry which is translated differently in the file being merged, including empty translations in merge source"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/editortab.cpp:599
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Next different"
+msgctxt "@action:inmenu"
+msgid "Next Different Approved"
+msgstr "ความแตกต่างถัดไป"
+
+#. +> stable6
 #: src/editortab.cpp:599
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
@@ -1448,7 +1702,7 @@ msgid " (recovered)"
 msgstr "(กู้คืน)"
 
 #. +> trunk6 stable6
-#: src/editortab.cpp:719 src/lokalizemainwindow.cpp:1015
+#: src/editortab.cpp:719 src/lokalizemainwindow.cpp:1086
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1458,7 +1712,7 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: src/editortab.cpp:721 src/editortab.cpp:1308
-#: src/glossary/glossarywindow.cpp:345 src/lokalizemainwindow.cpp:1017
+#: src/lokalizemainwindow.cpp:1066 src/lokalizemainwindow.cpp:1088
 #, kde-format
 msgctxt "@title:window"
 msgid "Warning"
@@ -1536,6 +1790,13 @@ msgstr "ข้ามไปรายการ"
 msgctxt "@label:spinbox"
 msgid "Enter entry number:"
 msgstr "ป้อนหมายเลขรายการ:"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1011 src/editortab.cpp:1198 src/tm/tmtab.cpp:234
+#, kde-format
+msgctxt "@info:status 'fuzzy' in gettext terminology"
+msgid "Needs review"
+msgstr ""
 
 #. +> trunk6 stable6
 #: src/editortab.cpp:1179
@@ -1718,8 +1979,8 @@ msgid "Cannot open the target source file: The target source file is not relativ
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/editortab.cpp:1537 src/project/project.cpp:415
-#: src/project/project.cpp:420
+#: src/editortab.cpp:1537 src/project/project.cpp:399
+#: src/project/project.cpp:404
 #, kde-format
 msgid "Install translate-toolkit package and retry"
 msgstr ""
@@ -1737,7 +1998,7 @@ msgid "Select original OpenDocument on which current XLIFF file is based"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/editortab.cpp:1552 src/project/project.cpp:425
+#: src/editortab.cpp:1552 src/project/project.cpp:409
 #, kde-format
 msgid "OpenDocument files (*.odt *.ods)"
 msgstr ""
@@ -1862,35 +2123,35 @@ msgid "Main Toolbar"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/editorview.cpp:42
+#: src/editorview.cpp:43
 #, kde-format
 msgctxt "@label whether entry is fuzzy"
 msgid "Not ready:"
 msgstr "ไม่พร้อม:"
 
 #. +> trunk6 stable6
-#: src/editorview.cpp:44
+#: src/editorview.cpp:45
 #, kde-format
 msgctxt "@label whether entry is untranslated"
 msgid "Untranslated:"
 msgstr "ยังไม่ได้แปล:"
 
 #. +> trunk6 stable6
-#: src/editorview.cpp:55
+#: src/editorview.cpp:56
 #, kde-format
 msgctxt "@action"
 msgid "Hide"
 msgstr "ซ่อน"
 
 #. +> trunk6 stable6
-#: src/editorview.cpp:65
+#: src/editorview.cpp:66
 #, kde-format
 msgctxt "@info:label cursor position"
 msgid "Column: %1"
 msgstr "คอลัมน์: %1"
 
 #. +> trunk6 stable6
-#: src/editorview.cpp:77
+#: src/editorview.cpp:78
 #, kde-format
 msgid ""
 "<qt>"
@@ -1902,14 +2163,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/editorview.cpp:168
+#: src/editorview.cpp:169
 #, kde-format
 msgctxt "@title:tab"
 msgid "Plural Form %1"
 msgstr "รูปพหูพจน์ %1"
 
 #. +> trunk6 stable6
-#: src/editorview.cpp:232
+#: src/editorview.cpp:233
 #, kde-format
 msgctxt "@item Undo action item"
 msgid "Unwrap"
@@ -1991,7 +2252,14 @@ msgctxt "@title:window"
 msgid "File List"
 msgstr "แฟ้ม"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/filesearch/filesearchtab.cpp:122
+#, fuzzy, kde-format
+#| msgid "Do not scan files of the project."
+msgid "Drop translation files here…"
+msgstr "ไม่ต้องสำรวจแฟ้มของโครงการ"
+
+#. +> stable6
 #: src/filesearch/filesearchtab.cpp:122
 #, fuzzy, kde-format
 #| msgid "Do not scan files of the project."
@@ -2005,7 +2273,16 @@ msgctxt "@title:column"
 msgid "File"
 msgstr "แฟ้ม"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/filesearch/filesearchtab.cpp:449
+#, fuzzy, kde-format
+#| msgctxt "@item Undo action item"
+#| msgid "Replace"
+msgctxt "@title:tab"
+msgid "Search && Replace"
+msgstr "แทนที่"
+
+#. +> stable6
 #: src/filesearch/filesearchtab.cpp:449
 #, kde-format
 msgctxt "@title:tab"
@@ -2030,14 +2307,32 @@ msgstr "คัดลอกเป้าหมายไปยังคลิปบ
 msgid "Open file"
 msgstr "เปิดแฟ้ม"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/filesearch/filesearchtab.cpp:518
+#, fuzzy, kde-format
+#| msgctxt "@item Undo action item"
+#| msgid "Replace"
+msgctxt "@title actions category"
+msgid "Search && Replace"
+msgstr "แทนที่"
+
+#. +> stable6
 #: src/filesearch/filesearchtab.cpp:518
 #, kde-format
 msgctxt "@title actions category"
 msgid "Search and replace in files"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/filesearch/filesearchtab.cpp:723
+#, fuzzy, kde-format
+#| msgctxt "@item Undo action item"
+#| msgid "Replace"
+msgctxt "@title:window"
+msgid "Mass Replace"
+msgstr "แทนที่"
+
+#. +> stable6
 #: src/filesearch/filesearchtab.cpp:723
 #, fuzzy, kde-format
 #| msgctxt "@item Undo action item"
@@ -2080,6 +2375,36 @@ msgstr "ก่อน&หน้า"
 msgid "Mass Replace"
 msgstr "แทนที่"
 
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_skipTags)
+#. +> trunk6 stable6
+#: src/findextension.ui:30
+#, kde-format
+msgid "Skip tags"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_skipTags)
+#. +> trunk6 stable6
+#: src/findextension.ui:33
+#, kde-format
+msgctxt "@option:check"
+msgid "Skip markup"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_ignoreAccelMarks)
+#. +> trunk6 stable6
+#: src/findextension.ui:43
+#, kde-format
+msgctxt "@option:check"
+msgid "Ignore accelerator marks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_notes)
+#. +> trunk6 stable6
+#: src/findextension.ui:54
+#, kde-format
+msgid "Include notes"
+msgstr "รวมบันทึกด้วย"
+
 #. +> trunk6 stable6
 #: src/glossary/glossary.cpp:194
 #, kde-format
@@ -2087,16 +2412,53 @@ msgctxt "@title:column"
 msgid "Subject Field"
 msgstr ""
 
+#. +> trunk6
+#: src/glossary/glossarytab.cpp:84
+#, fuzzy, kde-format
+#| msgctxt "@title actions category"
+#| msgid "Glossary"
+msgctxt "@title"
+msgid "Glossary"
+msgstr "อภิธานศัพท์"
+
+#. +> trunk6
+#: src/glossary/glossarytab.cpp:109
+#, kde-format
+msgid "Save"
+msgstr ""
+
 #. +> trunk6 stable6
-#: src/glossary/glossaryview.cpp:31 src/glossary/glossaryview.cpp:38
-#: src/glossary/glossarywindow.cpp:260 src/glossary/glossarywindow.cpp:286
-#: src/glossary/glossarywindow.cpp:301 src/glossary/glossarywindow.cpp:318
+#: src/glossary/glossarytab.cpp:142
+#, kde-format
+msgctxt "@action:button reloads glossary from disk"
+msgid "Restore from disk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/glossary/glossarytab.cpp:143
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reload glossary from disk, discarding any changes"
+msgstr "เรียกอภิธานศัพท์จากดิสก์ใหม่ โดยไม่สนใจการเปลี่ยนแปลงใด ๆ"
+
+#. +> trunk6 stable6
+#: src/glossary/glossaryview.cpp:32 src/glossary/glossaryview.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Glossary"
 msgstr "อภิธานศัพท์"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/glossary/glossaryview.cpp:51
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Glossary entries will be shown here.</p>"
+"<p>Press the shortcut displayed near a term to insert its translation.</p>"
+"<p>Use the context menu to add a new entry to the glossary (tip:&nbsp;select terms in the source and target fields in the translation unit before calling <interface>Define&nbsp;New&nbsp;Term</interface>). You can specify the location of the glossary file in the project settings.</p>"
+msgstr ""
+
+#. +> stable6
 #: src/glossary/glossaryview.cpp:50
 #, kde-format
 msgctxt "@info:tooltip"
@@ -2105,31 +2467,6 @@ msgid ""
 "<p>Press shortcut displayed near the term to insert its translation.</p>"
 "<p>Use context menu to add new entry (tip:&nbsp;select words in original and translation fields before calling <interface>Define&nbsp;new&nbsp;term</interface>).</p>"
 msgstr ""
-
-#. +> trunk6 stable6
-#: src/glossary/glossarywindow.cpp:116
-#, kde-format
-msgctxt "@action:button reloads glossary from disk"
-msgid "Restore from disk"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/glossary/glossarywindow.cpp:117
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Reload glossary from disk, discarding any changes"
-msgstr "เรียกอภิธานศัพท์จากดิสก์ใหม่ โดยไม่สนใจการเปลี่ยนแปลงใด ๆ"
-
-#. +> trunk6 stable6
-#: src/glossary/glossarywindow.cpp:343
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The glossary contains unsaved changes.\n"
-"Do you want to save your changes or discard them?"
-msgstr ""
-"ยังไม่ได้บันทึกการเปลี่ยนแปลงของอภิธานศัพท์\n"
-"คุณต้องการที่จะบันทึกหรือละทิ้งมัน?"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk6 stable6
@@ -2194,50 +2531,20 @@ msgid ""
 "That is, there may be several entries with the same word/word sequence expressing different meanings."
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_skipTags)
 #. +> trunk6 stable6
-#: src/kaider_findextension.ui:30
-#, kde-format
-msgid "Skip tags"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_skipTags)
-#. +> trunk6 stable6
-#: src/kaider_findextension.ui:33
-#, kde-format
-msgctxt "@option:check"
-msgid "Skip markup"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_ignoreAccelMarks)
-#. +> trunk6 stable6
-#: src/kaider_findextension.ui:43
-#, kde-format
-msgctxt "@option:check"
-msgid "Ignore accelerator marks"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_notes)
-#. +> trunk6 stable6
-#: src/kaider_findextension.ui:54
-#, kde-format
-msgid "Include notes"
-msgstr "รวมบันทึกด้วย"
-
-#. +> trunk6 stable6
-#: src/languagetool/languagetoolgrammarerror.cpp:24
+#: src/languagetool/languagetoolgrammarerror.cpp:26
 #, kde-format
 msgid "Suggestions:"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/languagetool/languagetoolparser.cpp:27
+#: src/languagetool/languagetoolparser.cpp:29
 #, kde-format
 msgid "No errors"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:95
+#: src/lokalizemainwindow.cpp:98
 #, kde-format
 msgid ""
 "<html>You do not have to be a software developer to be a member of the KDE team. You can join the language teams that translate program interfaces. You can provide graphics, themes, sounds, and improved documentation. You decide!<br />"
@@ -2248,147 +2555,30 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:117
+#: src/lokalizemainwindow.cpp:120
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Configure project"
 msgid "&Configure Lokalize"
 msgstr "ปรับแต่งโครงการ"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:121 src/project/projecttab.cpp:155
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open project"
+msgctxt "@action:inmenu"
+msgid "Open Project"
+msgstr "เปิดโครงการ"
+
+#. +> stable6
 #: src/lokalizemainwindow.cpp:118 src/project/projecttab.cpp:155
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open project"
 msgstr "เปิดโครงการ"
 
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:119
-#, fuzzy, kde-format
-#| msgid "Translator"
-msgctxt "@action:inmenu"
-msgid "Translate software"
-msgstr "ผู้แปล"
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:120
-#, fuzzy, kde-format
-#| msgid "Translate a document"
-msgctxt "@action:inmenu"
-msgid "Translate OpenDocument"
-msgstr "แปลเอกสาร"
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:175
-#, kde-format
-msgctxt "@info"
-msgid "No Qt Sql modules were found. Translation memory will not work."
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:492 src/project/project.cpp:243
-#, kde-format
-msgid "TM facility requires SQLite Qt module."
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:492 src/project/project.cpp:243
-#, kde-format
-msgid "No SQLite module available"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:570 src/tm/tmtab.cpp:479
-#, kde-format
-msgctxt "@title actions category"
-msgid "Translation Memory"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:571 src/project/projecttab.cpp:152
-#, kde-format
-msgctxt "@title actions category"
-msgid "Project"
-msgstr "โครงการ"
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:594
-#, kde-format
-msgid "Next tab"
-msgstr "แท็บต่อไป"
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:597
-#, kde-format
-msgid "Previous tab"
-msgstr "แท็บก่อนหน้า"
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:600
-#, fuzzy, kde-format
-#| msgid "Previous tab"
-msgid "Previously active tab"
-msgstr "แท็บก่อนหน้า"
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:603
-#, kde-format
-msgid "Close current tab"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:608
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Glossary"
-msgstr "อภิธานศัพท์"
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:612
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Translation memory"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:616 src/tm/tmtab.cpp:482
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Manage translation memories"
-msgstr ""
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:620
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Project overview"
-msgstr "ภาพรวมโครงการ"
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:624
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Configure project"
-msgctxt "@action:inmenu"
-msgid "Configure project..."
-msgstr "ปรับแต่งโครงการ"
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:627
-#, fuzzy, kde-format
-#| msgid "Choose location of your software translation project"
-msgctxt "@action:inmenu"
-msgid "Create software translation project..."
-msgstr "เลือกตำแหน่งของโครงการแปลซอฟต์แวร์ของคุณ"
-
-#. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:630
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Create OpenDocument translation project..."
-msgstr ""
-
-#. +> trunk6 stable6
+#. +> stable6
 #: src/lokalizemainwindow.cpp:633
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
@@ -2397,7 +2587,243 @@ msgctxt "@action:inmenu"
 msgid "Open project..."
 msgstr "เปิดโครงการ"
 
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:122
+#, fuzzy, kde-format
+#| msgid "Translator"
+msgctxt "@action:inmenu"
+msgid "Translate Software"
+msgstr "ผู้แปล"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:119
+#, fuzzy, kde-format
+#| msgid "Translator"
+msgctxt "@action:inmenu"
+msgid "Translate software"
+msgstr "ผู้แปล"
+
 #. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:123
+#, fuzzy, kde-format
+#| msgid "Translate a document"
+msgctxt "@action:inmenu"
+msgid "Translate OpenDocument"
+msgstr "แปลเอกสาร"
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:185
+#, kde-format
+msgctxt "@info"
+msgid "No Qt Sql modules were found. Translation memory will not work."
+msgstr ""
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:513 src/project/project.cpp:227
+#, kde-format
+msgid "Translation memory facility requires SQLite Qt module."
+msgstr ""
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:492 src/project/project.cpp:243
+#, kde-format
+msgid "TM facility requires SQLite Qt module."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:513 src/project/project.cpp:227
+#, kde-format
+msgid "No SQLite module available"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:605 src/tm/tmtab.cpp:479
+#, kde-format
+msgctxt "@title actions category"
+msgid "Translation Memory"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:606 src/project/projecttab.cpp:152
+#, kde-format
+msgctxt "@title actions category"
+msgid "Project"
+msgstr "โครงการ"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:629
+#, fuzzy, kde-format
+#| msgid "Next tab"
+msgid "Next Tab"
+msgstr "แท็บต่อไป"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:594
+#, kde-format
+msgid "Next tab"
+msgstr "แท็บต่อไป"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:632
+#, fuzzy, kde-format
+#| msgid "Previous tab"
+msgid "Previous Tab"
+msgstr "แท็บก่อนหน้า"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:597
+#, kde-format
+msgid "Previous tab"
+msgstr "แท็บก่อนหน้า"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:635
+#, fuzzy, kde-format
+#| msgid "Previous tab"
+msgid "Previously Active Tab"
+msgstr "แท็บก่อนหน้า"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:600
+#, fuzzy, kde-format
+#| msgid "Previous tab"
+msgid "Previously active tab"
+msgstr "แท็บก่อนหน้า"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:638
+#, kde-format
+msgid "Close Current Tab"
+msgstr ""
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:603
+#, kde-format
+msgid "Close current tab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:644
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Glossary"
+msgstr "อภิธานศัพท์"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:650
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgctxt "@action:inmenu"
+msgid "Translation Memory"
+msgstr "การแปล"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:612
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Translation memory"
+msgstr ""
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:654 src/tm/tmtab.cpp:482
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Next translation only"
+msgctxt "@action:inmenu"
+msgid "Manage Translation Memories"
+msgstr "การแปลถัดไปเท่านั้น"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:616 src/tm/tmtab.cpp:482
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Manage translation memories"
+msgstr ""
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:658
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Project Overview"
+msgctxt "@action:inmenu"
+msgid "Project Overview"
+msgstr "ภาพรวมโครงการ"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:620
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Project overview"
+msgstr "ภาพรวมโครงการ"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:662
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Configure project"
+msgctxt "@action:inmenu"
+msgid "Configure Project…"
+msgstr "ปรับแต่งโครงการ"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:624
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Configure project"
+msgctxt "@action:inmenu"
+msgid "Configure project..."
+msgstr "ปรับแต่งโครงการ"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:665
+#, fuzzy, kde-format
+#| msgid "Choose location of your software translation project"
+msgctxt "@action:inmenu"
+msgid "Create Software Translation Project…"
+msgstr "เลือกตำแหน่งของโครงการแปลซอฟต์แวร์ของคุณ"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:627
+#, fuzzy, kde-format
+#| msgid "Choose location of your software translation project"
+msgctxt "@action:inmenu"
+msgid "Create software translation project..."
+msgstr "เลือกตำแหน่งของโครงการแปลซอฟต์แวร์ของคุณ"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:668
+#, fuzzy, kde-format
+#| msgid "Choose location of your software translation project"
+msgctxt "@action:inmenu"
+msgid "Create OpenDocument Translation Project…"
+msgstr "เลือกตำแหน่งของโครงการแปลซอฟต์แวร์ของคุณ"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:630
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Create OpenDocument translation project..."
+msgstr ""
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:671
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open project"
+msgctxt "@action:inmenu"
+msgid "Open Project…"
+msgstr "เปิดโครงการ"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:675
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open project"
+msgctxt "@action:inmenu"
+msgid "Close Project"
+msgstr "เปิดโครงการ"
+
+#. +> stable6
 #: src/lokalizemainwindow.cpp:637
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
@@ -2406,28 +2832,60 @@ msgctxt "@action:inmenu"
 msgid "Close project"
 msgstr "เปิดโครงการ"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:678
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open recent project"
+msgctxt "@action:inmenu"
+msgid "Open Recent Project"
+msgstr "เปิดโครงการล่าสุด"
+
+#. +> stable6
 #: src/lokalizemainwindow.cpp:640
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open recent project"
 msgstr "เปิดโครงการล่าสุด"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:688
+#, fuzzy, kde-format
+#| msgctxt "@item Undo action item"
+#| msgid "Replace"
+msgctxt "@action:inmenu"
+msgid "Search && Replace"
+msgstr "แทนที่"
+
+#. +> stable6
 #: src/lokalizemainwindow.cpp:650
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search and replace in files"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:691
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go To Next Search && Replace Entry"
+msgstr ""
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:695
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Widget Text Capture"
+msgstr ""
+
+#. +> stable6
 #: src/lokalizemainwindow.cpp:653
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find next in files"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/lokalizemainwindow.cpp:657
 #, kde-format
 msgctxt "@action:inmenu"
@@ -2435,13 +2893,13 @@ msgid "Widget text capture"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:670
+#: src/lokalizemainwindow.cpp:708
 #, kde-format
 msgid "&Window Color Scheme"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/lokalizemainwindow.cpp:835
+#: src/lokalizemainwindow.cpp:882
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Error opening the following files:"
@@ -2450,6 +2908,17 @@ msgid ""
 "Error opening the following files:\n"
 "\n"
 msgstr "มีข้อผิดพลาดขณะเปิดแฟ้มเหล่านี้:"
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:1064
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The glossary contains unsaved changes.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"ยังไม่ได้บันทึกการเปลี่ยนแปลงของอภิธานศัพท์\n"
+"คุณต้องการที่จะบันทึกหรือละทิ้งมัน?"
 
 #. i18n: ectx: Menu (project)
 #. +> trunk6 stable6
@@ -2828,21 +3297,44 @@ msgctxt "@info XLIFF notes representation"
 msgid "<b>Notes:</b>"
 msgstr "<b>บันทึก:</b>"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/noteeditor.cpp:125
+#, kde-format
+msgctxt "link to edit note"
+msgid "edit…"
+msgstr ""
+
+#. +> stable6
 #: src/noteeditor.cpp:125
 #, kde-format
 msgctxt "link to edit note"
 msgid "edit..."
 msgstr "แก้ไข..."
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/noteeditor.cpp:130
+#, kde-format
+msgctxt "link to add a note"
+msgid "Add…"
+msgstr ""
+
+#. +> trunk6
+#: src/noteeditor.cpp:132
+#, fuzzy, kde-format
+#| msgctxt "link to add a note"
+#| msgid "Add a note..."
+msgctxt "link to add a note"
+msgid "Add a note…"
+msgstr "เพิ่มบันทึก..."
+
+#. +> stable6
 #: src/noteeditor.cpp:130
 #, kde-format
 msgctxt "link to add a note"
 msgid "Add..."
 msgstr "เพิ่ม..."
 
-#. +> trunk6 stable6
+#. +> stable6
 #: src/noteeditor.cpp:132
 #, kde-format
 msgctxt "link to add a note"
@@ -3505,7 +3997,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_0)
 #. +> trunk6 stable6
 #: src/prefs/prefs_pology.ui:28
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgctxt "@label:textbox"
 msgid "The Pology command to run in order to check a single entry. Use the following placeholders in order to set-up the commands: %u is the entry number, %f is the file name. For instance: posieve -u %u check-rules %f"
 msgstr ""
@@ -3527,7 +4019,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel4_0)
 #. +> trunk6 stable6
 #: src/prefs/prefs_pology.ui:54
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgctxt "@label:textbox"
 msgid "The Pology command to run in order to check a whole file. This command should include \"-s lokalize\", placeholder %f is the file name. For instance: posieve -s lokalize check-rules %f"
 msgstr ""
@@ -3927,13 +4419,13 @@ msgid "Language-Team:"
 msgstr "ภาษาต้นฉบับ"
 
 #. +> trunk6 stable6
-#: src/project/project.cpp:392
+#: src/project/project.cpp:376
 #, kde-format
 msgid "Scanning folders with source files"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/project.cpp:392
+#: src/project/project.cpp:376
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Edit term"
 #| msgid "Edit"
@@ -3941,7 +4433,7 @@ msgid "Editor"
 msgstr "แก้ไข"
 
 #. +> trunk6 stable6
-#: src/project/project.cpp:432
+#: src/project/project.cpp:416
 #, fuzzy, kde-format
 #| msgid "Translation"
 msgctxt "project folder name. %2 is targetLangCode"
@@ -4002,34 +4494,43 @@ msgid "Project's glossary"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/projectmodel.cpp:468
+#: src/project/projectmodel.cpp:467
 #, kde-format
 msgctxt "@title:column File name"
 msgid "Name"
 msgstr "ชื่อ"
 
 #. +> trunk6 stable6
-#: src/project/projectmodel.cpp:470
+#: src/project/projectmodel.cpp:469
 #, kde-format
 msgctxt "@title:column Graphical representation of Translated/Fuzzy/Untranslated counts"
 msgid "Graph"
 msgstr "กราฟ"
 
 #. +> trunk6 stable6
-#: src/project/projectmodel.cpp:472
+#: src/project/projectmodel.cpp:471
 #, kde-format
 msgctxt "@title:column Number of entries"
 msgid "Total"
 msgstr "ทั้งหมด"
 
 #. +> trunk6 stable6
-#: src/project/projectmodel.cpp:474
+#: src/project/projectmodel.cpp:473
 #, kde-format
 msgctxt "@title:column Number of entries"
 msgid "Translated"
 msgstr "แปลแล้ว"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/project/projectmodel.cpp:475
+#, fuzzy, kde-format
+#| msgctxt "@title:column Number of entries"
+#| msgid "Not ready"
+msgctxt "@title:column Number of entries"
+msgid "Not Ready"
+msgstr "ไม่พร้อม"
+
+#. +> stable6
 #: src/project/projectmodel.cpp:476
 #, kde-format
 msgctxt "@title:column Number of entries"
@@ -4037,42 +4538,42 @@ msgid "Not ready"
 msgstr "ไม่พร้อม"
 
 #. +> trunk6 stable6
-#: src/project/projectmodel.cpp:478
+#: src/project/projectmodel.cpp:477
 #, kde-format
 msgctxt "@title:column Number of entries"
 msgid "Untranslated"
 msgstr "ยังไม่ได้แปล"
 
 #. +> trunk6 stable6
-#: src/project/projectmodel.cpp:480
+#: src/project/projectmodel.cpp:479
 #, kde-format
 msgctxt "@title:column Number of fuzzy or untranslated entries"
 msgid "Incomplete"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/projectmodel.cpp:482
+#: src/project/projectmodel.cpp:481
 #, kde-format
 msgctxt "@title:column"
 msgid "Last Translation"
 msgstr "การแปลล่าสุด"
 
 #. +> trunk6 stable6
-#: src/project/projectmodel.cpp:484
+#: src/project/projectmodel.cpp:483
 #, kde-format
 msgctxt "@title:column"
 msgid "Comment"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/projectmodel.cpp:486
+#: src/project/projectmodel.cpp:485
 #, kde-format
 msgctxt "@title:column"
 msgid "Template Revision"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/project/projectmodel.cpp:488
+#: src/project/projectmodel.cpp:487
 #, kde-format
 msgctxt "@title:column"
 msgid "Last Translator"
@@ -4087,35 +4588,78 @@ msgctxt "@title:tab"
 msgid "Project Overview"
 msgstr "ภาพรวมโครงการ"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/project/projecttab.cpp:124
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Previous template only"
+msgctxt "@action:inmenu"
+msgid "Previous Template Only"
+msgstr "แม่แบบก่อนหน้าเท่านั้น"
+
+#. +> stable6
 #: src/project/projecttab.cpp:124
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Previous template only"
 msgstr "แม่แบบก่อนหน้าเท่านั้น"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/project/projecttab.cpp:130
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Next template only"
+msgctxt "@action:inmenu"
+msgid "Next Template Only"
+msgstr "แม่แบบถัดไปเท่านั้น"
+
+#. +> stable6
 #: src/project/projecttab.cpp:130
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Next template only"
 msgstr "แม่แบบถัดไปเท่านั้น"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/project/projecttab.cpp:135
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Previous translation only"
+msgctxt "@action:inmenu"
+msgid "Previous Translation Only"
+msgstr "การแปลก่อนหน้าเท่านั้น"
+
+#. +> stable6
 #: src/project/projecttab.cpp:135
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Previous translation only"
 msgstr "การแปลก่อนหน้าเท่านั้น"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/project/projecttab.cpp:138
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Next translation only"
+msgctxt "@action:inmenu"
+msgid "Next Translation Only"
+msgstr "การแปลถัดไปเท่านั้น"
+
+#. +> stable6
 #: src/project/projecttab.cpp:138
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Next translation only"
 msgstr "การแปลถัดไปเท่านั้น"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/project/projecttab.cpp:142
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Completed Items"
+msgstr ""
+
+#. +> stable6
 #: src/project/projecttab.cpp:142
 #, kde-format
 msgctxt "@action:inmenu"
@@ -4227,21 +4771,21 @@ msgid_plural "&Open %1 Files"
 msgstr[0] "เปิดแฟ้ม"
 
 #. +> trunk6 stable6
-#: src/statusbar.cpp:50
+#: src/statusbar.cpp:53
 #, kde-format
 msgctxt "@info:status"
 msgid "Current: %1"
 msgstr "ปัจจุบัน: %1"
 
 #. +> trunk6 stable6
-#: src/statusbar.cpp:64
+#: src/statusbar.cpp:67
 #, kde-format
 msgctxt "@info:status message entries"
 msgid "Total: %1"
 msgstr "ทั้งหมด: %1"
 
 #. +> trunk6 stable6
-#: src/statusbar.cpp:76
+#: src/statusbar.cpp:79
 #, kde-format
 msgctxt ""
 "@info:status message entries\n"
@@ -4250,14 +4794,14 @@ msgid "Not ready: %1"
 msgstr "ไม่พร้อม: %1"
 
 #. +> trunk6 stable6
-#: src/statusbar.cpp:78 src/statusbar.cpp:93
+#: src/statusbar.cpp:81 src/statusbar.cpp:96
 #, kde-format
 msgctxt "percentages in statusbar"
 msgid " (%1%)"
 msgstr " (%1%)"
 
 #. +> trunk6 stable6
-#: src/statusbar.cpp:91
+#: src/statusbar.cpp:94
 #, kde-format
 msgctxt "@info:status message entries"
 msgid "Untranslated: %1"
@@ -4429,7 +4973,7 @@ msgid "Remove"
 msgstr "เอาออก"
 
 #. +> trunk6 stable6
-#: src/tm/qamodel.cpp:97
+#: src/tm/qamodel.cpp:98
 #, kde-format
 msgctxt "@title:column Translator's false friend"
 msgid "False Friend"
@@ -4460,7 +5004,15 @@ msgid "Remove"
 msgstr "เอาออก"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/tm/queryoptions.ui:32
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgid "Translation Memory:"
+msgstr "การแปล"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> stable6
 #: src/tm/queryoptions.ui:32
 #, fuzzy, kde-format
 #| msgid "TM"
@@ -4486,7 +5038,15 @@ msgid "Show results that do not match search expression"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/tm/queryoptions.ui:139
+#, fuzzy, kde-format
+#| msgid "File"
+msgid "File Mask:"
+msgstr "แฟ้ม"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> stable6
 #: src/tm/queryoptions.ui:139
 #, kde-format
 msgid "File mask:"
@@ -4500,7 +5060,14 @@ msgid "Show only results from files with path matching specified mask"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_s)
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/tm/queryoptions.ui:162
+#, kde-format
+msgid "Query Syntax:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_s)
+#. +> stable6
 #: src/tm/queryoptions.ui:162
 #, kde-format
 msgid "Query syntax:"
@@ -4514,7 +5081,15 @@ msgid "Reads all project files into translation memory, updating old entries. Th
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, doUpdateTM)
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/tm/queryoptions.ui:200
+#, fuzzy, kde-format
+#| msgid "&Rescan Project Files"
+msgid "&Rescan Project"
+msgstr "สำรวจแฟ้มโครงการอีก&ครั้ง"
+
+#. i18n: ectx: property (text), widget (QPushButton, doUpdateTM)
+#. +> stable6
 #: src/tm/queryoptions.ui:200
 #, fuzzy, kde-format
 #| msgid "&Rescan Project Files"
@@ -4570,13 +5145,13 @@ msgid "Select TMX file to export selected database to"
 msgstr "เลือกแฟ้ม TMX ที่จะส่งออกฐานข้อมูลที่เลือกไว้ไป"
 
 #. +> trunk6 stable6
-#: src/tm/tmscanapi.cpp:78
+#: src/tm/tmscanapi.cpp:79
 #, kde-format
 msgid "Adding files to Lokalize translation memory"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/tm/tmscanapi.cpp:78
+#: src/tm/tmscanapi.cpp:79
 #, kde-format
 msgid "TM"
 msgstr "TM"
@@ -4641,7 +5216,7 @@ msgid "Rescan not possible"
 msgstr "สำรวจแฟ้มโครงการอีก&ครั้ง"
 
 #. +> trunk6 stable6
-#: src/tm/tmtab.cpp:612 src/tm/tmview.cpp:621
+#: src/tm/tmtab.cpp:612 src/tm/tmview.cpp:622
 #, kde-format
 msgctxt "@info"
 msgid "The file %1 does not exist, it has been removed from the translation memory."
@@ -4749,7 +5324,16 @@ msgstr ""
 "แฟ้ม: %1<br />"
 "วันที่: %2"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/tm/tmview.cpp:581
+#, kde-format
+msgctxt "@info:tooltip on translation memory entry continues"
+msgid ""
+"<br />"
+"Last change date: %1"
+msgstr ""
+
+#. +> stable6
 #: src/tm/tmview.cpp:580
 #, kde-format
 msgctxt "@info:tooltip on TM entry continues"
@@ -4758,7 +5342,16 @@ msgid ""
 "Last change date: %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/tm/tmview.cpp:583
+#, kde-format
+msgctxt "@info:tooltip on translation memory entry continues"
+msgid ""
+"<br />"
+"Last change author: %1"
+msgstr ""
+
+#. +> stable6
 #: src/tm/tmview.cpp:582
 #, kde-format
 msgctxt "@info:tooltip on TM entry continues"
@@ -4767,7 +5360,16 @@ msgid ""
 "Last change author: %1"
 msgstr ""
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/tm/tmview.cpp:584
+#, kde-format
+msgctxt "@info:tooltip on translation memory entry continues"
+msgid ""
+"<br />"
+"Translation memory: %1"
+msgstr ""
+
+#. +> stable6
 #: src/tm/tmview.cpp:583
 #, kde-format
 msgctxt "@info:tooltip on TM entry continues"
@@ -4778,7 +5380,22 @@ msgstr ""
 "<br />"
 "TM: %1"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/tm/tmview.cpp:586
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip on TM entry continues"
+#| msgid ""
+#| "<br />"
+#| "Is not present in the file anymore"
+msgctxt "@info:tooltip on translation memory entry continues"
+msgid ""
+"<br />"
+"Is not present in the file anymore"
+msgstr ""
+"<br />"
+"ไม่ปรากฎในแฟ้มอีกต่อไป"
+
+#. +> stable6
 #: src/tm/tmview.cpp:585
 #, kde-format
 msgctxt "@info:tooltip on TM entry continues"
@@ -4790,7 +5407,7 @@ msgstr ""
 "ไม่ปรากฎในแฟ้มอีกต่อไป"
 
 #. +> trunk6 stable6
-#: src/tm/tmview.cpp:600
+#: src/tm/tmview.cpp:601
 #, kde-format
 msgid ""
 "<html>Do you really want to remove this entry:<br/>"
@@ -4799,27 +5416,34 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/tm/tmview.cpp:603
+#: src/tm/tmview.cpp:604
 #, kde-format
 msgctxt "@title:window"
 msgid "Translation Memory Entry Removal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/tm/tmview.cpp:648
+#: src/tm/tmview.cpp:649
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove this entry"
 msgstr "ลบรายการนี้"
 
 #. +> trunk6 stable6
-#: src/tm/tmview.cpp:651
+#: src/tm/tmview.cpp:652
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open file containing this entry"
 msgstr "เปิดแฟ้มที่มีรายการนี้"
 
-#. +> trunk6 stable6
+#. +> trunk6
+#: src/tm/tmview.cpp:662
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove this missing file from the translation memory"
+msgstr ""
+
+#. +> stable6
 #: src/tm/tmview.cpp:661
 #, kde-format
 msgctxt "@action:inmenu"
@@ -4827,7 +5451,7 @@ msgid "Remove this missing file from TM"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/tm/tmview.cpp:675
+#: src/tm/tmview.cpp:676
 #, kde-format
 msgid ""
 "<html>Do you really want to remove this missing file:<br/>"
@@ -4836,14 +5460,14 @@ msgid ""
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/tm/tmview.cpp:679
+#: src/tm/tmview.cpp:680
 #, kde-format
 msgctxt "@title:window"
 msgid "Translation Memory Missing File Removal"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/tm/tmview.cpp:962
+#: src/tm/tmview.cpp:963
 #, kde-format
 msgctxt "@item Undo action"
 msgid "Use translation memory suggestion"

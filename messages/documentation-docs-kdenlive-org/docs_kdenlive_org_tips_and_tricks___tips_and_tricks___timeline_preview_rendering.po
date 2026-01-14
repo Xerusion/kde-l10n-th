@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-18 09:44+0200\n"
+"POT-Creation-Date: 2026-01-13 14:37+0100\n"
 "PO-Revision-Date: 2025-03-17 14:52+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -63,207 +63,202 @@ msgid "Full-FPS Preview of Effect-Heavy Timeline Clips"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:34
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:33
 msgid "Raw source footage"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:36
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:35
 msgid "**Raw source footage**: a good example for Kdenlive's timeline preview rendering is this: say, you have some FullHD source footage. Raw, your system easily plays this clip back at its original frame rate of 25\\ :abbr:`fps (frames per second)`. This is not even a job for proxy clips on a decent system."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:38
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:37
 msgid "But this raw footage needs some serious processing before it can be shown to any audience."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:47
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:45
 msgid "Effects applied"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:49
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:47
 msgid "**Cue effects**. For production, we need to :doc:`de-fish </effects_and_filters/video_effects/transform_distort_perspective/defish>` this footage (action cams have this tendency). After defishing, we need some :doc:`sharpening </effects_and_filters/video_effects/blur_and_sharpen>`. And then, we also have to do some color grading (e.g. decompress the tonal :doc:`curve </effects_and_filters/video_effects/color_image_correction/curves>`, correct :doc:`saturation </effects_and_filters/video_effects/color_image_correction/saturation>`)."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:51
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:49
 msgid "With these innocent four effects applied, look at the playback rate that is shown in the bottom right corner of the monitor: a dismal six frames per second!"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:55
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:53
 msgid "Unfortunately, proxy clips do not help in this situation: proxy clips are low-res and low-quality variants of the source clips, without any effects applied. So our effects will also slow down proxy clips considerably."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:59
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:57
 msgid "Using Timeline Preview Rendering"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:61
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:59
 msgid "Timeline preview rendering does **not** speed up timeline *editing*. It speeds up the timeline *playback*."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:63
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:61
 msgid "Preview rendering only deals with the video part of the timeline. Kdenlive renders audio always independent of the preview rendering. In particular, you can make audio changes at any time without affecting preview rendering. Any change to the video portion covered by the preview render zone triggers a new render pass."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:70
-msgid "Timeline preview rendering is best controlled using the dedicated :guilabel:`Timeline Preview` menu in the timeline toolbar. In addition, you can find most of the menu items also in :menuselection:`Menu --> Timeline --> Timeline Preview` which opens a fly-out menu with all the options."
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:67
+msgid "Timeline preview rendering is best controlled using the dedicated :guilabel:`Timeline Preview` menu in the timeline toolbar. In addition, you can find most of the menu items also in :menuselection:`Menu --> Sequence --> Timeline Preview` which opens a fly-out menu with all the options."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:76
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:73
 msgid "Step 1: Set Preview Zone"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:83
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:79
 msgid "Set the timeline zone in (:kbd:`I`) and out (:kbd:`O`) points for the zone you want to render for preview."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:87
-msgid "Next, select :guilabel:`Add Preview Zone` |preview-add-zone| (alternatively via :menuselection:`Menu --> Timeline --> Timeline Preview --> Add Preview Zone`)."
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:83
+msgid "Next, select :guilabel:`Add Preview Zone` |preview-add-zone| (alternatively via :menuselection:`Menu --> Sequence --> Timeline Preview --> Add Preview Zone`)."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:89
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:85
 msgid "For the first time, you will not see any change yet."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:93
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:89
 msgid "Step 2: Render Preview Zone in Background"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:100
-msgid "Select Start Preview Render (:menuselection:`Menu --> Timeline --> Timeline Preview --> Start Preview Render`). Or press :kbd:`Shift+Return`, or click on |preview-render-on|."
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:95
+msgid "Select Start Preview Render (:menuselection:`Menu --> Sequence --> Timeline Preview --> Start Preview Render`). Or press :kbd:`Shift+Return`, or click on |preview-render-on|."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:102
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:97
 msgid "You can even add multiple, non-contiguous preview rendering zones."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:104
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:99
 msgid "A red bar appears between the timeline ruler and the topmost track. As background rendering progresses, this bar will slowly turn yellow then green, chunk by chunk."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:106
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:101
 msgid "You can continue to work at any part of your timeline while preview rendering is active. However, as soon as you edit clips or transitions that touch your preview zones, rendering will stop and the affected preview zones turn back to red. Simply restart rendering if needed."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:108
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:103
 msgid "The preview is divided into chunks of 25 frames each in size - this corresponds with one second of playback length for 25fps projects."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:114
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:109
 msgid "Step 3: Enjoy Smooth Timeline Preview"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:123
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:117
 msgid "All green chunks of your timeline will now play back at full speed. You should immediately notice that scrubbing such timeline zones will be much faster, too."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:132
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:125
 msgid "Preview Rendering enables smooth playback"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:134
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:127
 msgid "Timeline playback is now full 25fps, even as the corresponding timeline clip makes heave use of effects (especially de-fish is computational intensive)."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:140
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:133
 msgid "Good to Know"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:143
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:136
 msgid "Smart Preview Undo/Redo"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:145
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:138
 msgid "Kdenlive is smart enough to support some levels of undo and redo. So you can check out the results of two different effect settings by quickly undoing and redoing the effect change without having to render the preview once again."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:149
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:142
 msgid "Preview Cache Storage"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:158
-msgid "You can easily find out how much storage you are currently using for the timeline preview. Use :menuselection:`Menu --> Project --> Project Settings`, then select the tab :guilabel:`Cache Data`."
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:150
+msgid "You can easily find out how much storage you are currently using for the timeline preview. Use :menuselection:`Menu --> File --> Project Settings`, then select the tab :guilabel:`Cache Data`."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:160
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:152
 msgid "Kdenlive displays a pie chart showing the cache data disc space consumption. You can purge the cache used for the timeline preview by clicking on the |edit-delete| button next to :guilabel:`Timeline Preview`."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:166
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:158
 msgid "Preview Profiles"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:173
-msgid "kdenlive2308_project_preview_settings.webp"
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:164
+msgid ":menuselection:`Menu --> File --> Project Settings`"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:173
-msgid ":menuselection:`Menu --> Project --> Project Settings`"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:175
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:166
 msgid "Most of the time it should suffice to leave the preview profile set to :guilabel:`Auto`. Kdenlive then will select a suitable preview profile based on your project profile."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:177
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:168
 msgid "In some rare cases, as with unusual frame rates, or when you want to control the preview rendering encoding quality, you can change the preview profile or create your own preview profile. Use the :guilabel:`Show Profile Parameters` |configure| button next to the :guilabel:`Timeline Preview` profile selection."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:183
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:174
 msgid "De-synchronized Preview"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:185
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:176
 msgid "If, for some reason, the rendered preview should get out of sync with your timeline editing, simply remove the corresponding preview zone (|preview-remove-zone|) or all preview zones (|preview-remove-all|\\ ). This gets you back to a sane preview state. Then add the zone(s) back again (using :kbd:`I` and :kbd:`O` and |preview-add-zone|), and rerender (|preview-render-on|)."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:190
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:181
 msgid "Notes"
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:196
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:187
 msgid "The original text was submitted by user *TheDiveO* to the now defunct kdenlive.org blog. For this documentation it has been lifted from |kdenlive_org|, updated and adapted to match the overall style."
 msgstr ""
 
 #. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:197
+#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:188
 msgid "**Sources**"
 msgstr ""
 
@@ -275,44 +270,4 @@ msgstr ""
 #. +> trunk5
 #: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:-1
 msgid "KDE, Kdenlive, tips, tricks, tips & tricks, timeline, preview, rendering, render, documentation, user manual, video editor, open source, free, learn, easy"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:-1
-msgid "preview-menu"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:-1
-msgid "preview-timeline-step-set-zone"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:-1
-msgid "preview-timeline-step-render"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:-1
-msgid "preview-timeline-cache-data"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:0
-msgid "kdenlive2308_timeline_preview_rendering_01.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:0
-msgid "kdenlive2308_timeline_preview_rendering_02.webp"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:0
-msgid "preview-timeline-step-done"
-msgstr ""
-
-#. +> trunk5
-#: ../../tips_and_tricks/tips_and_tricks/timeline_preview_rendering.rst:0
-msgid "kdenlive2308_timeline_preview_rendering_07.webp"
 msgstr ""

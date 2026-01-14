@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-18 15:51+0200\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2010-12-17 16:07+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -116,7 +116,7 @@ msgid "Battery is configured to charge up to approximately %1%."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: CompactRepresentation.qml:101 CompactRepresentation.qml:150
+#: CompactRepresentation.qml:103 CompactRepresentation.qml:152
 #, fuzzy, kde-format
 #| msgctxt "overlay on the battery, needs to be really tiny"
 #| msgid "%1%"
@@ -125,14 +125,14 @@ msgid "%1%"
 msgstr "%1%"
 
 #. +> trunk6 stable6
-#: InhibitionItem.qml:51
+#: InhibitionItem.qml:53
 #, kde-format
 msgctxt "@title:group"
 msgid "Sleep and Screen Locking after Inactivity"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: InhibitionItem.qml:58 main.qml:97 PowerProfileItem.qml:76
+#: InhibitionItem.qml:60 main.qml:97 PowerProfileItem.qml:76
 #, fuzzy, kde-format
 #| msgctxt "tooltip on the config button in the popup"
 #| msgid "Configure Power Management..."
@@ -140,151 +140,155 @@ msgid "Power Management"
 msgstr "ปรับแต่งการจัดการพลังงาน..."
 
 #. +> trunk6 stable6
-#: InhibitionItem.qml:95
+#: InhibitionItem.qml:65
 #, kde-format
-msgctxt "Sleep and Screen Locking after Inactivity"
-msgid "Blocked"
+msgctxt "accessible-only status text"
+msgid "Automatic sleep and screen locking are currently blocked."
 msgstr ""
 
 #. +> trunk6 stable6
-#: InhibitionItem.qml:95
+#: InhibitionItem.qml:67
 #, kde-format
-msgctxt "Sleep and Screen Locking after Inactivity"
-msgid "Automatic"
+msgctxt "accessible-only status text"
+msgid "Screen locking is currently blocked. Sleep is automatic after inactivity."
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:69
+#, kde-format
+msgctxt "accessible-only status text"
+msgid "Sleep is currently blocked. Screen locking is automatic after inactivity."
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:71
+#, kde-format
+msgctxt "accessible-only status text"
+msgid "Sleep and screen locking are automatic after inactivity."
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:94
+#, kde-format
+msgctxt "@action:button Block sleep and screen locking after inactivity"
+msgid "Manually Block Sleep and Screen Locking"
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:112
+#, kde-format
+msgid "Failed to unblock automatic sleep and screen locking"
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:115
+#, kde-format
+msgid "Failed to block automatic sleep and screen locking"
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:129
+#, kde-format
+msgctxt "@label corresponding to Manually Block Sleep and Screen Locking toggle"
+msgid "This will result in higher energy consumption."
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:130
+#, kde-format
+msgctxt "@label accessible - the sentence about higher energy consumption must be included (EU regulations)"
+msgid "You have manually blocked automatic sleep and screen locking. This will result in higher energy consumption."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: InhibitionItem.qml:112
+#: InhibitionItem.qml:137
 #, kde-format
 msgctxt "Minimize the length of this string as much as possible"
 msgid "Your laptop is configured not to sleep when closing the lid while an external monitor is connected."
 msgstr ""
 
-#. +> stable5
-#: package/contents/ui/PowerManagementItem.qml:42
-#, kde-format
-msgctxt "Minimize the length of this string as much as possible"
-msgid "Manually block sleep and screen locking"
-msgstr ""
-
 #. +> trunk6 stable6
-#: InhibitionItem.qml:124
+#: InhibitionItem.qml:156
 #, kde-format
-msgid "%1 application currently wants to block sleep and screen locking:"
-msgid_plural "%1 applications currently want to block sleep and screen locking:"
-msgstr[0] ""
-
-#. +> trunk6 stable6
-#: InhibitionItem.qml:146
-#, kde-format
-msgctxt "Application name; reason"
-msgid "%1 has been prevented from blocking sleep and screen locking for %2"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: InhibitionItem.qml:149
-#, kde-format
-msgid "%1 is currently blocking sleep and screen locking (%2)"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: InhibitionItem.qml:151
-#, kde-format
-msgid "%1 is currently blocking sleep and screen locking (unknown reason)"
-msgstr ""
-
-#. +> trunk6 stable6
-#: InhibitionItem.qml:153
-#, kde-format
-msgid "An application is currently blocking sleep and screen locking (%1)"
-msgstr ""
-
-#. +> stable5
-#: package/contents/ui/PowerManagementItem.qml:88
-#, kde-format
-msgid "%1 application is currently blocking sleep and screen locking:"
-msgid_plural "%1 applications are currently blocking sleep and screen locking:"
-msgstr[0] ""
-
-#. +> trunk6 stable6
-#: InhibitionItem.qml:155
-#, kde-format
-msgid "An application is currently blocking sleep and screen locking (unknown reason)"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: InhibitionItem.qml:159
-#, kde-format
-msgctxt "Application name: reason for preventing sleep and screen locking"
-msgid "%1: %2"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: InhibitionItem.qml:161
-#, kde-format
-msgctxt "Application name: reason for preventing sleep and screen locking"
-msgid "%1: unknown reason"
+msgctxt "An application's reason for inhibiting sleep and/or screen locking"
+msgid "Unknown reason."
 msgstr ""
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:163
 #, kde-format
-msgctxt "Application name: reason for preventing sleep and screen locking"
-msgid "Unknown application: %1"
+msgctxt "Application (1) with reason (2) has been prevented from blocking this inactivity behavior. The user can choose to allow it again."
+msgid "%1 wants to block sleep and screen locking. (%2)"
 msgstr ""
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:165
 #, kde-format
-msgctxt "Application name: reason for preventing sleep and screen locking"
-msgid "Unknown application: unknown reason"
+msgctxt "Application (1) with reason (2) has been prevented from blocking this inactivity behavior. The user can choose to allow it again."
+msgid "%1 wants to block screen locking. (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:167
+#, kde-format
+msgctxt "Application (1) with reason (2) has been prevented from blocking this inactivity behavior. The user can choose to allow it again."
+msgid "%1 wants to block sleep. (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:171
+#, kde-format
+msgctxt "Application (1) with reason (2) is currently blocking this inactivity behavior, in addition to the user's manual block switch."
+msgid "%1 is also blocking sleep and screen locking. (%2)"
 msgstr ""
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:173
+#, kde-format
+msgctxt "Application (1) with reason (2) is currently blocking this inactivity behavior, in addition to the user's manual block switch."
+msgid "%1 is also blocking screen locking. (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:175
+#, kde-format
+msgctxt "Application (1) with reason (2) is currently blocking this inactivity behavior, in addition to the user's manual block switch."
+msgid "%1 is also blocking sleep. (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:179
+#, kde-format
+msgctxt "Application (1) with reason (2) is currently blocking this inactivity behavior, the user can choose to unblock it."
+msgid "%1 is blocking sleep and screen locking. (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:181
+#, kde-format
+msgctxt "Application (1) with reason (2) is currently blocking this inactivity behavior, the user can choose to unblock it."
+msgid "%1 is blocking screen locking. (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:183
+#, kde-format
+msgctxt "Application (1) with reason (2) is currently blocking this inactivity behavior, the user can choose to unblock it."
+msgid "%1 is blocking sleep. (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: InhibitionItem.qml:191
 #, kde-format
 msgctxt "@action:button Prevent an app from blocking automatic sleep and screen locking after inactivity"
 msgid "Unblock"
 msgstr ""
 
 #. +> trunk6 stable6
-#: InhibitionItem.qml:181
-#, kde-format
-msgctxt "@action:button Undo preventing an app from blocking automatic sleep and screen locking after inactivity"
-msgid "Block Again"
-msgstr ""
-
-#. +> trunk6 stable6
-#: InhibitionItem.qml:194
-#, kde-format
-msgctxt "Minimize the length of this string as much as possible but the sentence about higher energy consumption must be included (EU regulations)"
-msgid "You have manually blocked sleep and screen locking. This will result in higher energy consumption."
-msgstr ""
-
-#. +> trunk6 stable6
 #: InhibitionItem.qml:199
 #, kde-format
-msgctxt "@action:button Undo blocking sleep and screen locking after inactivity"
-msgid "Unblock"
-msgstr ""
-
-#. +> trunk6 stable6
-#: InhibitionItem.qml:218 InhibitionItem.qml:256
-#, kde-format
-msgid "Failed to unblock automatic sleep and screen locking"
-msgstr ""
-
-#. +> trunk6 stable6
-#: InhibitionItem.qml:221 InhibitionItem.qml:259
-#, kde-format
-msgid "Failed to block automatic sleep and screen locking"
-msgstr ""
-
-#. +> trunk6 stable6
-#: InhibitionItem.qml:237
-#, kde-format
-msgctxt "@action:button Block sleep and screen locking after inactivity"
-msgid "Manually Block"
+msgctxt "@action:button Undo preventing an app from blocking automatic sleep and screen locking after inactivity"
+msgid "Allow"
 msgstr ""
 
 #. +> trunk6 stable6
@@ -638,3 +642,43 @@ msgstr "ความสว่างของจอภาพ"
 #| msgid "Screen Brightness"
 msgid "Keyboard Brightness"
 msgstr "ความสว่างของจอภาพ"
+
+#. +> stable5
+#: package/contents/ui/PowerManagementItem.qml:42
+#, kde-format
+msgctxt "Minimize the length of this string as much as possible"
+msgid "Manually block sleep and screen locking"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/PowerManagementItem.qml:88
+#, kde-format
+msgid "%1 application is currently blocking sleep and screen locking:"
+msgid_plural "%1 applications are currently blocking sleep and screen locking:"
+msgstr[0] ""
+
+#. +> stable5
+#: package/contents/ui/PowerManagementItem.qml:109
+#, kde-format
+msgid "%1 is currently blocking sleep and screen locking (%2)"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/PowerManagementItem.qml:110
+#, kde-format
+msgid "%1 is currently blocking sleep and screen locking (unknown reason)"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/PowerManagementItem.qml:112
+#, kde-format
+msgctxt "Application name: reason for preventing sleep and screen locking"
+msgid "%1: %2"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/PowerManagementItem.qml:113
+#, kde-format
+msgctxt "Application name: reason for preventing sleep and screen locking"
+msgid "%1: unknown reason"
+msgstr ""

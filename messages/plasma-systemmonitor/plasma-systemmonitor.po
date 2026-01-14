@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-systemmonitor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-30 10:03+0200\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -474,7 +474,7 @@ msgid "Saved settings as preset %1."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/page/FaceConfigurationPage.qml:66 src/page/PageContents.qml:350
+#: src/page/FaceConfigurationPage.qml:66 src/page/PageContents.qml:357
 #, kde-format
 msgctxt "@action"
 msgid "Add Chart as Desktop Widget"
@@ -592,39 +592,39 @@ msgid "Move"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/page/PageContents.qml:108 src/page/PageEditor.qml:141
+#: src/page/PageContents.qml:107 src/page/PageEditor.qml:141
 #, kde-format
 msgid "This page is missing some sensors and will not display correctly."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/page/PageContents.qml:113 src/page/PageEditor.qml:145
+#: src/page/PageContents.qml:112 src/page/PageEditor.qml:145
 #, kde-format
 msgctxt "@action:button"
 msgid "Fix…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/page/PageContents.qml:125
+#: src/page/PageContents.qml:124
 #, kde-format
 msgid "A new version of this page was installed, but you made changes to this page. The changes have been copied to %1 (Old Version)."
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/page/PageContents.qml:126
+#: src/page/PageContents.qml:125
 #, kde-format
 msgid "A new version of this page was installed, but you made changes to this page. Would you like to keep your changes or discard your changes and use the new version of the page?"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/page/PageContents.qml:134
+#: src/page/PageContents.qml:133
 #, kde-format
 msgctxt "@action:button"
 msgid "Keep Changes"
 msgstr ""
 
 #. +> trunk6 stable6
-#: src/page/PageContents.qml:140
+#: src/page/PageContents.qml:139
 #, kde-format
 msgctxt "@action:button"
 msgid "Discard Changes"
@@ -867,45 +867,66 @@ msgid "Use half the height of the page."
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/table/ColumnConfigurationDialog.qml:27
+#: src/table/ColumnConfigurationDialog.qml:29
 #, kde-format
 msgctxt "@window:title"
 msgid "Configure Columns"
 msgstr ""
 
+#. +> trunk6 stable6
+#: src/table/ColumnConfigurationDialog.qml:106
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Enabled Columns"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ColumnConfigurationDialog.qml:106
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Disabled Columns"
+msgstr ""
+
 #. +> trunk6 stable6 stable5
-#: src/table/ColumnConfigurationDialog.qml:147
+#: src/table/ColumnConfigurationDialog.qml:240
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Hidden"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/table/ColumnConfigurationDialog.qml:148
+#: src/table/ColumnConfigurationDialog.qml:241
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Text Only"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/table/ColumnConfigurationDialog.qml:154
+#: src/table/ColumnConfigurationDialog.qml:245
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Line Chart"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/table/ColumnConfigurationDialog.qml:158
+#: src/table/ColumnConfigurationDialog.qml:249
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Text Only (Scaled to 100%)"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: src/table/ColumnConfigurationDialog.qml:159
+#: src/table/ColumnConfigurationDialog.qml:250
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Line Chart (Scaled to 100%)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ColumnConfigurationDialog.qml:287
+#, kde-format
+msgctxt "@info"
+msgid "No columns matched the search"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
@@ -913,6 +934,167 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not ask again"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Set Priority"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:56
+#, kde-format
+msgctxt "@title:group"
+msgid "CPU Scheduler"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:82
+#, kde-format
+msgctxt "@option:radio for process scheduler mode"
+msgid "Normal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:83
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid "The standard time-sharing scheduler for processes without special requirements."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:88
+#, kde-format
+msgctxt "@option:radio for process scheduler mode"
+msgid "Batch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:89
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid "Process is mildly disfavored in scheduling decisions, for CPU-intensive non-interactive processes."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:94
+#, kde-format
+msgctxt "@option:radio for process scheduler mode"
+msgid "Round robin"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:95
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid "Process will run whenever runnable, with timeslicing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:100
+#, kde-format
+msgctxt "@option:radio for process scheduler mode"
+msgid "FIFO"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:101
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid "Process will run whenever runnable, with no timeslicing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:119
+#, kde-format
+msgctxt "@title:group"
+msgid "I/O Scheduler"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:145
+#, kde-format
+msgctxt "@option:radio for I/O scheduler mode"
+msgid "Normal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:146
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid "Process' priority is based on the CPU priority."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:151
+#, kde-format
+msgctxt "@option:radio for I/O scheduler mode"
+msgid "Idle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:152
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid "Process can only use the hard disk when no other process has used it very recently."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:157
+#, kde-format
+msgctxt "@option:radio for I/O scheduler mode"
+msgid "Best Effort"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:158
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid "Process is given higher priority to access the hard disk than normal."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:163
+#, kde-format
+msgctxt "@option:radio for I/O scheduler mode"
+msgid "Real Time"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:164
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid "Process gets immediate access to the hard disk whenever needed, regardless of what else is going on."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:210
+#, kde-format
+msgctxt "Lower process priority"
+msgid "Low priority"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:217
+#, kde-format
+msgctxt "Higher process priority"
+msgid "High priority"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:267
+#, kde-format
+msgctxt "Lower I/O priority"
+msgid "Low priority"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/table/ReniceDialog.qml:274
+#, kde-format
+msgctxt "Higher I/O priority"
+msgid "High priority"
 msgstr ""
 
 #. +> trunk6 stable6 stable5

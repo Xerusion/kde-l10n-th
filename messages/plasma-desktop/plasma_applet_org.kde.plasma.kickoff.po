@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-28 10:00+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -42,14 +42,22 @@ msgstr ""
 msgid "Show in Favorites"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: config.qml:13
 #, kde-format
+msgctxt "@title:group for configuration dialog page"
 msgid "General"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:47
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:37
 #, kde-format
 msgid "Icon:"
 msgstr ""
@@ -106,30 +114,35 @@ msgstr ""
 #. +> trunk6 stable6
 #: ConfigGeneral.qml:120
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Show applications as:"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ConfigGeneral.qml:122
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Name only"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ConfigGeneral.qml:122
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Description only"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ConfigGeneral.qml:122
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Name (Description)"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ConfigGeneral.qml:122
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "Description (Name)"
 msgstr ""
 
@@ -195,8 +208,15 @@ msgctxt "@info:whatsthis"
 msgid "This doesn't affect how applications are sorted in either search results or the favorites page."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:185
+#, kde-format
+msgctxt "@option:check"
+msgid "Use compact list item style"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:152
 #, kde-format
 msgid "Use compact list item style"
 msgstr ""
@@ -211,12 +231,14 @@ msgstr ""
 #. +> trunk6 stable6
 #: ConfigGeneral.qml:199
 #, kde-format
+msgctxt "@option:check"
 msgid "Highlight newly installed applications"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ConfigGeneral.qml:204
 #, kde-format
+msgctxt "@option:check"
 msgid "Switch sidebar categories when hovering over them"
 msgstr ""
 
@@ -230,100 +252,190 @@ msgstr ""
 #. +> trunk6 stable6
 #: ConfigGeneral.qml:220
 #, kde-format
+msgctxt "@label:group prefix for radio button group"
 msgid "Sidebar position:"
 msgstr ""
 
 #. +> trunk6 stable6
 #: ConfigGeneral.qml:221 ConfigGeneral.qml:229
 #, kde-format
+msgctxt "@option:radio sidebar position"
 msgid "Right"
 msgstr ""
 
 #. +> trunk6 stable6
-#: ConfigGeneral.qml:221 ConfigGeneral.qml:229
+#: ConfigGeneral.qml:221
 #, kde-format
+msgctxt "option:radio sidebar position"
 msgid "Left"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:229
+#, kde-format
+msgctxt "@option:radio sidebar position"
+msgid "Left"
+msgstr ""
+
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:237
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show favorites:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:177
 #, kde-format
 msgid "Show favorites:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:238
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:178
 #, kde-format
 msgctxt "Part of a sentence: 'Show favorites in a grid'"
 msgid "In a grid"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:246
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:186
 #, kde-format
 msgctxt "Part of a sentence: 'Show favorites in a list'"
 msgid "In a list"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:254
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show other applications:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:194
 #, kde-format
 msgid "Show other applications:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:255
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:195
 #, kde-format
 msgctxt "Part of a sentence: 'Show other applications in a grid'"
 msgid "In a grid"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:263
+#, kde-format
+msgctxt "@option:radio Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:203
 #, kde-format
 msgctxt "Part of a sentence: 'Show other applications in a list'"
 msgid "In a list"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:275
+#, kde-format
+msgctxt "@title:group prefix for radio button group"
+msgid "Show buttons for:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:215
 #, kde-format
 msgid "Show buttons for:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:276 LeaveButtons.qml:171
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:276
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Power"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:216
+#: package/contents/ui/LeaveButtons.qml:115
 #, kde-format
 msgid "Power"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:285 LeaveButtons.qml:171
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:285
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Session"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:225
 #, kde-format
 msgid "Session"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:294
+#, kde-format
+msgctxt "@option:radio Show buttons for"
+msgid "Power and session"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:234
 #, kde-format
 msgid "Power and session"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:303
+#, kde-format
+msgctxt "@option:check"
+msgid "Show action button captions"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:243
 #, kde-format
 msgid "Show action button captions"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: Footer.qml:101
 #, kde-format
+msgctxt "@title:tab kickoff sidebar tab"
 msgid "Applications"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: Footer.qml:117
 #, kde-format
+msgctxt "@title:tab kickoff sidebar tab"
 msgid "Places"
 msgstr ""
 
@@ -334,58 +446,94 @@ msgctxt "@info:status"
 msgid "No matches"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: Header.qml:84
 #, kde-format
+msgctxt "@action:button icon-only, for tooltip/Accessible"
 msgid "Open user settings"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: Header.qml:264
 #, kde-format
+msgctxt "@action:button Pin widget open if it loses focus, icon-only button, for tooltip/Accessible"
 msgid "Keep Open"
 msgstr ""
 
 #. +> trunk6 stable6
-#: KickoffGridDelegate.qml:59 KickoffListDelegate.qml:110
+#: KickoffGridDelegate.qml:59
+#, kde-format
+msgctxt "@label Newly installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: KickoffGridDelegate.qml:60
+#, kde-format
+msgctxt "@label Accessible name for badge"
+msgid "Newly installed application"
+msgstr ""
+
+#. +> trunk6 stable6
+#: KickoffGridView.qml:101
+#, kde-format
+msgctxt "@info:whatsthis Accessible description"
+msgid "Grid with %1 rows, %2 columns"
+msgstr ""
+
+#. +> trunk6 stable6
+#: KickoffListDelegate.qml:117
 #, kde-format
 msgctxt "Newly installed app, badge, keep short"
 msgid "New!"
 msgstr ""
 
 #. +> trunk6 stable6
-#: KickoffGridDelegate.qml:60 KickoffListDelegate.qml:112
+#: KickoffListDelegate.qml:118
 #, kde-format
-msgid "Newly installed application"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: KickoffGridView.qml:101
-#, kde-format
-msgid "Grid with %1 rows, %2 columns"
-msgstr ""
-
-#. +> trunk6 stable6
-#: KickoffListDelegate.qml:111
-#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
 msgid "There is a newly installed application in this category"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
+#: KickoffListDelegate.qml:119
+#, kde-format
+msgctxt "@info:whatsthis Accessible description for badge"
+msgid "Newly installed application"
+msgstr ""
+
+#. +> trunk6 stable6
 #: LeaveButtons.qml:171
 #, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Session"
+msgstr ""
+
+#. +> trunk6 stable6
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
+msgid "Power"
+msgstr ""
+
+#. +> trunk6 stable6
+#: LeaveButtons.qml:171
+#, kde-format
+msgctxt "@title:menu menubutton"
 msgid "More"
 msgstr ""
 
 #. +> trunk6 stable6
 #: LeaveButtons.qml:171
 #, kde-format
+msgctxt "@title:menu menubutton"
 msgid "Session and Power"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: main.qml:356
 #, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
 msgid "Edit Applications…"
 msgstr ""
 
@@ -411,7 +559,55 @@ msgid "Frequently Used"
 msgstr ""
 
 #. +> stable5
+#: package/contents/config/config.qml:13
+#, kde-format
+msgid "General"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Footer.qml:97
+#, kde-format
+msgid "Applications"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Footer.qml:110
+#, kde-format
+msgid "Places"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Header.qml:64
+#, kde-format
+msgid "Open user settings"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Header.qml:240
+#, kde-format
+msgid "Keep Open"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/Kickoff.qml:302
+#, kde-format
+msgid "Edit Applications…"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/KickoffGridView.qml:88
+#, kde-format
+msgid "Grid with %1 rows, %2 columns"
+msgstr ""
+
+#. +> stable5
 #: package/contents/ui/LeaveButtons.qml:115
 #, kde-format
 msgid "Leave"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/LeaveButtons.qml:115
+#, kde-format
+msgid "More"
 msgstr ""

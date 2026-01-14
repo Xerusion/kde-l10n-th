@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-09 09:22+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2010-07-07 15:16+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -16,7 +16,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
+#: package/contents/config/config.qml:17
+#, fuzzy, kde-format
+#| msgctxt "Title of the page that lets the user choose which location should the folderview show"
+#| msgid "Location"
+msgctxt "@title:group for configuration dialog page"
+msgid "Location"
+msgstr "ตำแหน่ง"
+
+#. +> stable5
 #: package/contents/config/config.qml:16
 #, fuzzy, kde-format
 #| msgctxt "Title of the page that lets the user choose which location should the folderview show"
@@ -24,14 +33,31 @@ msgstr ""
 msgid "Location"
 msgstr "ตำแหน่ง"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
+#: package/contents/config/config.qml:24
+#, fuzzy, kde-format
+#| msgid "Icons"
+msgctxt "@title:group for configuration dialog page"
+msgid "Icons"
+msgstr "ไอคอน"
+
+#. +> stable5
 #: package/contents/config/config.qml:23
-#: package/contents/ui/FolderViewLayer.qml:358
+#: package/contents/ui/FolderViewLayer.qml:435
 #, kde-format
 msgid "Icons"
 msgstr "ไอคอน"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
+#: package/contents/config/config.qml:31
+#, fuzzy, kde-format
+#| msgctxt "Title of the page that lets the user choose how to filter the folderview contents"
+#| msgid "Filter"
+msgctxt "@title:group for configuration dialog page"
+msgid "Filter"
+msgstr "กรอง"
+
+#. +> stable5
 #: package/contents/config/config.qml:30
 #, fuzzy, kde-format
 #| msgctxt "Title of the page that lets the user choose how to filter the folderview contents"
@@ -39,61 +65,117 @@ msgstr "ไอคอน"
 msgid "Filter"
 msgstr "กรอง"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/BackButtonItem.qml:104
+#. +> trunk6 stable6
+#: package/contents/ui/BackButtonItem.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Back"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/BackButtonItem.qml:103
 #, kde-format
 msgid "Back"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:63
+#, fuzzy, kde-format
+#| msgid "File types:"
+msgctxt "@label:listbox filter mode"
+msgid "Files:"
+msgstr "ชนิดของแฟ้ม:"
+
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:64
 #, fuzzy, kde-format
 #| msgid "File types:"
 msgid "Files:"
 msgstr "ชนิดของแฟ้ม:"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Show a place:"
+msgctxt "@item:inlistbox filter mode"
+msgid "Show all"
+msgstr "แสดงสถานที่:"
+
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:65
 #, fuzzy, kde-format
 #| msgid "Show a place:"
 msgid "Show all"
 msgstr "แสดงสถานที่:"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Show Files Matching"
+msgctxt "@item:inlistbox filter mode"
+msgid "Show matching"
+msgstr "แสดงแฟ้มที่เข้าเงื่อนไข"
+
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:65
 #, fuzzy, kde-format
 #| msgid "Show Files Matching"
 msgid "Show matching"
 msgstr "แสดงแฟ้มที่เข้าเงื่อนไข"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:64
+#, fuzzy, kde-format
+#| msgid "Hide Files Matching"
+msgctxt "@item:inlistbox filter mode"
+msgid "Hide matching"
+msgstr "ซ่อนแฟ้มที่เข้าเงื่อนไข"
+
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:65
 #, fuzzy, kde-format
 #| msgid "Hide Files Matching"
 msgid "Hide matching"
 msgstr "ซ่อนแฟ้มที่เข้าเงื่อนไข"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:69
+#, fuzzy, kde-format
+#| msgid "File name pattern:"
+msgctxt "@label:textbox"
+msgid "File name pattern:"
+msgstr "รูปแบบชื่อแฟ้ม:"
+
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:70
 #, kde-format
 msgid "File name pattern:"
 msgstr "รูปแบบชื่อแฟ้ม:"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:76
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "File types:"
+msgctxt "@label:textbox filter list by"
 msgid "File types:"
 msgstr "ชนิดของแฟ้ม:"
 
 #. +> stable5
-#: package/contents/ui/ConfigFilter.qml:179
-#, fuzzy, kde-format
-#| msgid "File types:"
-msgid "File type"
+#: package/contents/ui/ConfigFilter.qml:77
+#, kde-format
+msgid "File types:"
 msgstr "ชนิดของแฟ้ม:"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:82
+#, fuzzy, kde-format
+#| msgid "Show All Files"
+msgctxt "@option:check prefix"
+msgid "Show hidden files:"
+msgstr "แสดงแฟ้มทั้งหมด"
+
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:83
 #, fuzzy, kde-format
 #| msgid "Show All Files"
 msgid "Show hidden files:"
@@ -103,23 +185,54 @@ msgstr "แสดงแฟ้มทั้งหมด"
 #: package/contents/ui/ConfigFilter.qml:111
 #, fuzzy, kde-format
 #| msgid "File types:"
+msgctxt "@title:column"
 msgid "File Type"
 msgstr "ชนิดของแฟ้ม:"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:112
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:179
+#, fuzzy, kde-format
+#| msgid "File types:"
+msgid "File type"
+msgstr "ชนิดของแฟ้ม:"
+
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:188
 #, kde-format
 msgid "Description"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:182
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@action:button tooltip only Select all filetypes"
+msgid "Select All"
+msgstr "เลือกทั้งหมด"
+
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:201
 #, kde-format
 msgid "Select All"
 msgstr "เลือกทั้งหมด"
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:192
+#, fuzzy, kde-format
+#| msgid "Deselect All"
+msgctxt "@action:button tooltip only Deselect all filetypes"
+msgid "Deselect All"
+msgstr "ยกเลิกเลือกทั้งหมด"
+
+#. +> stable5
+#: package/contents/ui/ConfigFilter.qml:211
 #, kde-format
 msgid "Deselect All"
 msgstr "ยกเลิกเลือกทั้งหมด"
@@ -127,24 +240,40 @@ msgstr "ยกเลิกเลือกทั้งหมด"
 #. +> trunk6 stable6
 #: package/contents/ui/ConfigFilter.qml:201
 #, kde-format
+msgctxt "@action:button tooltip only, ascending/descending"
 msgid "Switch Sort Order"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:59
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:57
+#, kde-format
+msgctxt "@title:group prefix for checkbox + button"
+msgid "Panel button:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:63
 #, kde-format
 msgid "Panel button:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:65
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:63
+#, fuzzy, kde-format
+#| msgid "Custom title:"
+msgctxt "@option:check"
+msgid "Use a custom icon"
+msgstr "หัวเรื่องกำหนดเอง:"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:69
 #, fuzzy, kde-format
 #| msgid "Custom title:"
 msgid "Use a custom icon"
 msgstr "หัวเรื่องกำหนดเอง:"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:98
+#: package/contents/ui/ConfigIcons.qml:96
 #, fuzzy, kde-format
 #| msgctxt "@title:menu in Copy To or Move To submenu"
 #| msgid "Browse..."
@@ -153,29 +282,37 @@ msgid "Choose…"
 msgstr "เลือก..."
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:104
+#: package/contents/ui/ConfigIcons.qml:102
 #, fuzzy, kde-format
 #| msgid "Sort Icons"
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "เรียงไอคอน"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:124
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:122
+#, fuzzy, kde-format
+#| msgid "Arrangement:"
+msgctxt "@label:listbox columns/rows"
+msgid "Arrangement:"
+msgstr "การจัดเรียง:"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:128
 #, fuzzy, kde-format
 #| msgid "Arrangement:"
 msgid "Arrangement:"
 msgstr "การจัดเรียง:"
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigIcons.qml:127
+#: package/contents/ui/ConfigIcons.qml:125
 #, kde-format
 msgctxt "@item:inlistbox arrangement of icons"
 msgid "In Columns"
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigIcons.qml:128
+#: package/contents/ui/ConfigIcons.qml:126
 #, kde-format
 msgctxt "@item:inlistbox arrangement of icons"
 msgid "In Rows"
@@ -206,14 +343,15 @@ msgid "Top to Bottom"
 msgstr "จากบนลงล่าง, จากซ้ายไปขวา"
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigIcons.qml:137
+#: package/contents/ui/ConfigIcons.qml:135
 #, fuzzy, kde-format
 #| msgid "Sorting:"
+msgctxt "@label:listbox, LtR/RtL"
 msgid "Sort Alignment:"
 msgstr "การเรียงลำดับ:"
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigIcons.qml:140
+#: package/contents/ui/ConfigIcons.qml:138
 #, fuzzy, kde-format
 #| msgid "Top to Bottom, Left to Right"
 msgctxt "@item:inlistbox alignment of icons"
@@ -221,7 +359,7 @@ msgid "Left-to-Right"
 msgstr "จากบนลงล่าง, จากซ้ายไปขวา"
 
 #. +> trunk6 stable6
-#: package/contents/ui/ConfigIcons.qml:141
+#: package/contents/ui/ConfigIcons.qml:139
 #, fuzzy, kde-format
 #| msgid "Top to Bottom, Right to Left"
 msgctxt "@item:inlistbox alignment of icons"
@@ -244,19 +382,20 @@ msgctxt "@item:inlistbox alignment of icons"
 msgid "Align right"
 msgstr "เรียงเข้ากับแนวตาราง:"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:163
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:161
+#, fuzzy, kde-format
+#| msgid "Lock in place:"
+msgctxt "@option:check lock icon positions"
+msgid "Lock in place"
+msgstr "ล็อคให้อยู่กับที่:"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:159
 #, fuzzy, kde-format
 #| msgid "Lock in place:"
 msgid "Lock in place"
 msgstr "ล็อคให้อยู่กับที่:"
-
-#. +> trunk6 stable6
-#: package/contents/ui/ConfigIcons.qml:177
-#, fuzzy, kde-format
-#| msgid "Sorting:"
-msgid "Sort by:"
-msgstr "การเรียงลำดับ:"
 
 #. +> stable5
 #: package/contents/ui/ConfigIcons.qml:173
@@ -265,15 +404,23 @@ msgstr "การเรียงลำดับ:"
 msgid "Sorting:"
 msgstr "การเรียงลำดับ:"
 
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:175
+#, fuzzy, kde-format
+#| msgid "Sorting:"
+msgctxt "@label:listbox sort items by field"
+msgid "Sort by:"
+msgstr "การเรียงลำดับ:"
+
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:185
+#: package/contents/ui/ConfigIcons.qml:183
 #, kde-format
 msgctxt "@item:inlistbox sort icons manually"
 msgid "Manual"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:186
+#: package/contents/ui/ConfigIcons.qml:184
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Name"
@@ -282,7 +429,7 @@ msgid "Name"
 msgstr "ตามชื่อ"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:187
+#: package/contents/ui/ConfigIcons.qml:185
 #, fuzzy, kde-format
 #| msgid "Size:"
 msgctxt "@item:inlistbox sort icons by size"
@@ -290,7 +437,7 @@ msgid "Size"
 msgstr "ขนาด:"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:188
+#: package/contents/ui/ConfigIcons.qml:186
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Type"
@@ -299,7 +446,7 @@ msgid "Type"
 msgstr "ตามชนิด"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:189
+#: package/contents/ui/ConfigIcons.qml:187
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Date"
@@ -308,14 +455,14 @@ msgid "Date"
 msgstr "ตามวันที่"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:200
+#: package/contents/ui/ConfigIcons.qml:198
 #, kde-format
 msgctxt "@option:check sort icons in descending order"
 msgid "Descending"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:208
+#: package/contents/ui/ConfigIcons.qml:206
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "Folders First"
@@ -324,139 +471,248 @@ msgid "Folders first"
 msgstr "เรียงโฟลเดอร์ก่อน"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:222
+#: package/contents/ui/ConfigIcons.qml:220
 #, kde-format
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:224
+#: package/contents/ui/ConfigIcons.qml:222
 #, kde-format
 msgctxt "@item:inlistbox show icons in a list"
 msgid "List"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:225
+#: package/contents/ui/ConfigIcons.qml:223
 #, kde-format
 msgctxt "@item:inlistbox show icons in a grid"
 msgid "Grid"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:236
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:234
+#, fuzzy, kde-format
+#| msgid "Icon size:"
+msgctxt "@label:slider"
+msgid "Icon size:"
+msgstr "ขนาดไอคอน:"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:232
 #, fuzzy, kde-format
 #| msgid "Icon size:"
 msgid "Icon size:"
 msgstr "ขนาดไอคอน:"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:251
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:249
+#, fuzzy, kde-format
+#| msgid "Small"
+msgctxt "@item:inrange smallest icon size"
+msgid "Small"
+msgstr "เล็ก"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:247
 #, fuzzy, kde-format
 #| msgid "Small"
 msgctxt "@label:slider smallest icon size"
 msgid "Small"
 msgstr "เล็ก"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:260
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:258
+#, fuzzy, kde-format
+#| msgid "Large"
+msgctxt "@item:inrange largest icon size"
+msgid "Large"
+msgstr "ใหญ่"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:256
 #, fuzzy, kde-format
 #| msgid "Large"
 msgctxt "@label:slider largest icon size"
 msgid "Large"
 msgstr "ใหญ่"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:269
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:267
+#, fuzzy, kde-format
+#| msgid "Label:"
+msgctxt "@label:listbox"
+msgid "Label width:"
+msgstr "ป้ายข้อความ:"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:265
 #, fuzzy, kde-format
 #| msgid "Label:"
 msgid "Label width:"
 msgstr "ป้ายข้อความ:"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:272
+#: package/contents/ui/ConfigIcons.qml:270
 #, kde-format
 msgctxt "@item:inlistbox how long a text label should be"
 msgid "Narrow"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:273
+#: package/contents/ui/ConfigIcons.qml:271
 #, kde-format
 msgctxt "@item:inlistbox how long a text label should be"
 msgid "Medium"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:274
+#: package/contents/ui/ConfigIcons.qml:272
 #, kde-format
 msgctxt "@item:inlistbox how long a text label should be"
 msgid "Wide"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:282
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:280
+#, fuzzy, kde-format
+#| msgid " lines"
+msgctxt "@label:spinbox"
+msgid "Text lines:"
+msgstr " บรรทัด"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:278
 #, fuzzy, kde-format
 #| msgid " lines"
 msgid "Text lines:"
 msgstr " บรรทัด"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:298
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:296
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "When hovering over icons:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:294
 #, kde-format
 msgid "When hovering over icons:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:300
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:298
+#, kde-format
+msgctxt "@option:check When hovering over icons…"
+msgid "Show tooltips"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:296
 #, kde-format
 msgid "Show tooltips"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:307
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:305
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@option:check When hovering over icons…"
+msgid "Show selection markers"
+msgstr "เลือกทั้งหมด"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:303
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "Show selection markers"
 msgstr "เลือกทั้งหมด"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:314
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:312
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgctxt "@option:check When hovering over icons…"
+msgid "Show folder preview popups"
+msgstr "แสดงตัวอย่าง:"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:310
 #, fuzzy, kde-format
 #| msgid "Previews:"
 msgid "Show folder preview popups"
 msgstr "แสดงตัวอย่าง:"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:324
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:322
+#, fuzzy, kde-format
+#| msgid "&Rename"
+msgctxt "@label prefix for checkbox"
+msgid "Rename:"
+msgstr "เ&ปลี่ยนชื่อ"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:320
 #, fuzzy, kde-format
 #| msgid "&Rename"
 msgid "Rename:"
 msgstr "เ&ปลี่ยนชื่อ"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:328
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:326
+#, kde-format
+msgctxt "@option:check"
+msgid "Rename inline by clicking selected item's text"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:324
 #, kde-format
 msgid "Rename inline by clicking selected item's text"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:339
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:337
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgctxt "@title:group prefix for checkbox and button"
+msgid "Previews:"
+msgstr "แสดงตัวอย่าง:"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:335
 #, fuzzy, kde-format
 #| msgid "Previews:"
 msgid "Previews:"
 msgstr "แสดงตัวอย่าง:"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:341
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:339
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgctxt "@option:check"
+msgid "Show preview thumbnails"
+msgstr "แสดงตัวอย่าง:"
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:337
 #, fuzzy, kde-format
 #| msgid "Previews:"
 msgid "Show preview thumbnails"
 msgstr "แสดงตัวอย่าง:"
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigIcons.qml:349
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigIcons.qml:347
+#, fuzzy, kde-format
+#| msgid "More Preview Options..."
+msgctxt "@action:button opens dialog"
+msgid "Configure Preview Plugins…"
+msgstr "ตัวเลือกเพิ่มเติมของการแสดงตัวอย่าง..."
+
+#. +> stable5
+#: package/contents/ui/ConfigIcons.qml:345
 #, fuzzy, kde-format
 #| msgid "More Preview Options..."
 msgid "Configure Preview Plugins…"
@@ -633,9 +889,16 @@ msgctxt "@info:placeholder custom window title"
 msgid "Enter title…"
 msgstr "ป้อนชื่อที่จะกำหนดเอง"
 
-#. +> trunk6 stable6
-#: package/contents/ui/ConfigOverlay.qml:98
+#. +> stable5
+#: package/contents/ui/ConfigOverlay.qml:91
 #, kde-format
+msgid "Rotate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigOverlay.qml:97
+#, kde-format
+msgctxt "@action:button tooltip rotate widget"
 msgid "Click and drag to rotate"
 msgstr ""
 
@@ -645,31 +908,54 @@ msgstr ""
 msgid "Open Externally"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigOverlay.qml:184
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip hide widget background"
+msgid "Hide Background"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigOverlay.qml:193
 #, kde-format
 msgid "Hide Background"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigOverlay.qml:184
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigOverlay.qml:183
+#, kde-format
+msgctxt "@action:button tooltip"
+msgid "Show Background"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigOverlay.qml:193
 #, kde-format
 msgid "Show Background"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: package/contents/ui/ConfigOverlay.qml:232
+#. +> trunk6 stable6
+#: package/contents/ui/ConfigOverlay.qml:231
 #, kde-format
+msgctxt "@action:button tooltip remove widget"
 msgid "Remove"
 msgstr ""
 
 #. +> stable5
-#: package/contents/ui/ConfigOverlay.qml:91
+#: package/contents/ui/ConfigOverlay.qml:241
 #, kde-format
-msgid "Rotate"
+msgid "Remove"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:18
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgctxt "@title:window"
+msgid "Preview Plugins"
+msgstr "แสดงตัวอย่าง:"
+
+#. +> stable5
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:19
 #, fuzzy, kde-format
 #| msgid "Previews:"
@@ -677,14 +963,14 @@ msgid "Preview Plugins"
 msgstr "แสดงตัวอย่าง:"
 
 #. +> trunk6 stable6 stable5
-#: package/contents/ui/FolderView.qml:1243
+#: package/contents/ui/FolderView.qml:1237
 #, kde-format
 msgctxt "@info"
 msgid "There are a lot of files and folders on the desktop. This can cause bugs and performance issues. Please consider moving some of them elsewhere."
 msgstr ""
 
 #. +> trunk6 stable6
-#: package/contents/ui/FolderViewDialog.qml:90
+#: package/contents/ui/FolderViewDialog.qml:91
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "Folders First"
@@ -693,17 +979,26 @@ msgid "Folder is empty"
 msgstr "เรียงโฟลเดอร์ก่อน"
 
 #. +> trunk6 stable6
-#: package/contents/ui/main.qml:425
+#: package/contents/ui/FolderViewLayer.qml:357
 #, fuzzy, kde-format
-#| msgid "&Refresh Desktop"
-msgid "Desktop and Wallpaper"
-msgstr "&ปรับปรุงพื้นที่ทำงานอีกครั้ง"
+#| msgid "Icons"
+msgctxt "@item:inmenu opens submenu with view options like sorting"
+msgid "Icons"
+msgstr "ไอคอน"
 
 #. +> stable5
 #: package/contents/ui/main.qml:356
 #, fuzzy, kde-format
 #| msgid "&Refresh Desktop"
 msgid "Configure Desktop and Wallpaper…"
+msgstr "&ปรับปรุงพื้นที่ทำงานอีกครั้ง"
+
+#. +> trunk6 stable6
+#: package/contents/ui/main.qml:439
+#, fuzzy, kde-format
+#| msgid "&Refresh Desktop"
+msgctxt "@action:inmenu opens config dialog"
+msgid "Desktop and Wallpaper"
 msgstr "&ปรับปรุงพื้นที่ทำงานอีกครั้ง"
 
 #. +> trunk6 stable6 stable5
@@ -720,7 +1015,7 @@ msgid "&Refresh Desktop"
 msgstr "&ปรับปรุงพื้นที่ทำงานอีกครั้ง"
 
 #. +> trunk6 stable6 stable5
-#: plugins/folder/foldermodel.cpp:505 plugins/folder/foldermodel.cpp:1740
+#: plugins/folder/foldermodel.cpp:505 plugins/folder/foldermodel.cpp:1742
 #, kde-format
 msgid "&Refresh View"
 msgstr "&ปรับปรุงมุมมองอีกครั้ง"
@@ -740,14 +1035,14 @@ msgid "<filename>%1</filename> points to <filename>%2</filename>, but that could
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: plugins/folder/foldermodel.cpp:1749
+#: plugins/folder/foldermodel.cpp:1751
 #, fuzzy, kde-format
 #| msgid "&Empty Trash Bin"
 msgid "&Empty Trash"
 msgstr "&เทถังขยะทิ้ง"
 
 #. +> trunk6 stable6
-#: plugins/folder/foldermodel.cpp:1752
+#: plugins/folder/foldermodel.cpp:1754
 #, kde-format
 msgctxt "Restore from trash"
 msgid "Restore to Former Location"
@@ -762,13 +1057,13 @@ msgid "Restore"
 msgstr "เ&รียกคืน"
 
 #. +> trunk6 stable6 stable5
-#: plugins/folder/foldermodel.cpp:1755
+#: plugins/folder/foldermodel.cpp:1757
 #, kde-format
 msgid "&Open"
 msgstr "เ&ปิด"
 
 #. +> trunk6 stable6
-#: plugins/folder/foldermodel.cpp:1759
+#: plugins/folder/foldermodel.cpp:1761
 #, fuzzy, kde-format
 #| msgid "Show a place:"
 msgctxt "@action:inmenu open file manager showing the target file or folder that this link points to"
@@ -776,26 +1071,26 @@ msgid "Show Target"
 msgstr "แสดงสถานที่:"
 
 #. +> trunk6 stable6
-#: plugins/folder/foldermodel.cpp:1860
+#: plugins/folder/foldermodel.cpp:1862
 #, kde-format
 msgctxt "@action:inmenu Removes the trash icon on the desktop"
 msgid "Remove Trash Icon"
 msgstr ""
 
 #. +> trunk6 stable6
-#: plugins/folder/foldermodel.cpp:1863
+#: plugins/folder/foldermodel.cpp:1865
 #, kde-format
 msgid "&Move to Trash"
 msgstr "&ทิ้งลงถังขยะ"
 
 #. +> trunk6 stable6 stable5
-#: plugins/folder/foldermodel.cpp:1896
+#: plugins/folder/foldermodel.cpp:1898
 #, kde-format
 msgid "&Paste"
 msgstr "&วาง"
 
 #. +> trunk6 stable6 stable5
-#: plugins/folder/foldermodel.cpp:2047
+#: plugins/folder/foldermodel.cpp:2049
 #, kde-format
 msgid "&Properties"
 msgstr "คุณ&สมบัติ"

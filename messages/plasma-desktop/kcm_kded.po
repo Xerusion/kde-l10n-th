@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkded\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-20 11:50+0200\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2008-07-19 17:06+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -84,6 +84,155 @@ msgstr ""
 msgid "Failed to notify KDE Service Manager (kded5) of saved changed: %1"
 msgstr ""
 
+#. +> trunk6 stable6
+#: ui/main.qml:48
+#, kde-kuit-format
+msgctxt "@info"
+msgid "If you're disabling something here to work around an issue, please <link url='%1'>submit a bug report about it as well.</link>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:55
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "The background services manager (kded6) is currently not running. Make sure it is installed correctly."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:65
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "Some services disable themselves again when manually started if they are not useful in the current environment."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:75
+#, kde-format
+msgctxt "@info:status inlinemessage"
+msgid "Some services were automatically started/stopped when the background services manager (kded6) was restarted to apply your changes."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:123
+#, fuzzy, kde-format
+#| msgid "Service"
+msgctxt "@item:inlistbox"
+msgid "All Services"
+msgstr "บริการ"
+
+#. +> trunk6 stable6
+#: ui/main.qml:124
+#, fuzzy, kde-format
+#| msgid "Running"
+msgctxt "@item:inlistbox List running services"
+msgid "Running"
+msgstr "ทำงานอยู่"
+
+#. +> trunk6 stable6
+#: ui/main.qml:125
+#, fuzzy, kde-format
+#| msgid "Not running"
+msgctxt "@item:inlistbox List not running services"
+msgid "Not Running"
+msgstr "ยังไม่ทำงาน"
+
+#. +> trunk6 stable6
+#: ui/main.qml:162
+#, fuzzy, kde-format
+#| msgid "Startup Services"
+msgctxt "@title:group list section"
+msgid "Startup Services"
+msgstr "บริการที่เริ่มทำงาน"
+
+#. +> trunk6 stable6
+#: ui/main.qml:163
+#, fuzzy, kde-format
+#| msgid "Load-on-Demand Services"
+msgctxt "@title:group list section"
+msgid "Load-on-Demand Services"
+msgstr "บริการที่จะโหลดเมื่อต้องการ"
+
+#. +> trunk6 stable6
+#: ui/main.qml:182
+#, kde-format
+msgctxt "@action:button %1 service name"
+msgid "Disable automatically loading %1 on startup"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:182
+#, kde-format
+msgctxt "@action:button %1 service name"
+msgid "Enable automatically loading %1 on startup"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:183
+#, kde-format
+msgctxt "@info:whatsthis Accessible description"
+msgid "Toggle automatically loading this service on startup"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:227
+#, fuzzy, kde-format
+#| msgid "Not running"
+msgctxt "@info:status"
+msgid "Not running"
+msgstr "ยังไม่ทำงาน"
+
+#. +> trunk6 stable6
+#: ui/main.qml:228
+#, fuzzy, kde-format
+#| msgid "Running"
+msgctxt "@info:status"
+msgid "Running"
+msgstr "ทำงานอยู่"
+
+#. +> trunk6 stable6
+#: ui/main.qml:248
+#, fuzzy, kde-format
+#| msgid "Stop"
+msgctxt "@action:button %1 service name"
+msgid "Stop %1"
+msgstr "หยุด"
+
+#. +> trunk6 stable6
+#: ui/main.qml:248
+#, fuzzy, kde-format
+#| msgid "Start"
+msgctxt "@action:button %1 service name"
+msgid "Start %1"
+msgstr "เริ่ม"
+
+#. +> trunk6 stable6
+#: ui/main.qml:251
+#, fuzzy, kde-format
+#| msgid "Service"
+msgctxt "@action:button"
+msgid "Stop Service"
+msgstr "บริการ"
+
+#. +> trunk6 stable6
+#: ui/main.qml:251
+#, fuzzy, kde-format
+#| msgid "Service"
+msgctxt "@action:button"
+msgid "Start Service"
+msgstr "บริการ"
+
+#. +> stable5
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ถนอมทรัพย์ นพบูรณ์"
+
+#. +> stable5
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "donga.nb@gmail.com"
+
 #. +> stable5
 #: package/contents/ui/main.qml:19
 #, fuzzy, kde-format
@@ -117,35 +266,16 @@ msgstr ""
 "<p>ซึ่งตัวหลังนั้นจะแสดงเป็นรายการเพื่อความสะดวก ส่วนของบริการที่ใช้งานตอนเริ่มระบบนั้นสามารถเปิดหรือปิดก็ได้ โดยในโหมดผู้ดูแลระบบคุณสามารถกำหนดได้ว่า จะให้บริการใดเริ่มทำงานเมื่อ KDE เริ่มการทำงานได้อีกด้วย</p>"
 "<p><b> โปรดปรับแต่งตัวเลือกนี้อย่างระมัดระวัง เนื่องจากบางบริการอาจจะจำเป็นสำหรับการทำงานของ KDE ดังนั้น อย่าสั่งยกเลิกการทำงานของบริการที่คุณไม่แน่ใจหรือไม่รู้จัก !</b></p>"
 
-#. +> trunk6 stable6
-#: ui/main.qml:48
-#, kde-kuit-format
-msgctxt "@info"
-msgid "If you're disabling something here to work around an issue, please <link url='%1'>submit a bug report about it as well.</link>"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:55
-#, kde-format
-msgid "The background services manager (kded6) is currently not running. Make sure it is installed correctly."
-msgstr ""
-
 #. +> stable5
 #: package/contents/ui/main.qml:38
 #, kde-format
 msgid "The background services manager (kded5) is currently not running. Make sure it is installed correctly."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:65
+#. +> stable5
+#: package/contents/ui/main.qml:47
 #, kde-format
 msgid "Some services disable themselves again when manually started if they are not useful in the current environment."
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:75
-#, kde-format
-msgid "Some services were automatically started/stopped when the background services manager (kded6) was restarted to apply your changes."
 msgstr ""
 
 #. +> stable5
@@ -154,112 +284,70 @@ msgstr ""
 msgid "Some services were automatically started/stopped when the background services manager (kded5) was restarted to apply your changes."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:123
+#. +> stable5
+#: package/contents/ui/main.qml:98
 #, fuzzy, kde-format
 #| msgid "Service"
 msgid "All Services"
 msgstr "บริการ"
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:124
+#. +> stable5
+#: package/contents/ui/main.qml:99
 #, fuzzy, kde-format
 #| msgid "Running"
 msgctxt "List running services"
 msgid "Running"
 msgstr "ทำงานอยู่"
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:125
+#. +> stable5
+#: package/contents/ui/main.qml:100
 #, fuzzy, kde-format
 #| msgid "Not running"
 msgctxt "List not running services"
 msgid "Not Running"
 msgstr "ยังไม่ทำงาน"
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:162
+#. +> stable5
+#: package/contents/ui/main.qml:136
 #, fuzzy, kde-format
 #| msgid "Startup Services"
 msgid "Startup Services"
 msgstr "บริการที่เริ่มทำงาน"
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:163
+#. +> stable5
+#: package/contents/ui/main.qml:137
 #, kde-format
 msgid "Load-on-Demand Services"
 msgstr "บริการที่จะโหลดเมื่อต้องการ"
 
-#. +> trunk6 stable6
-#: ui/main.qml:182
-#, kde-format
-msgctxt "@action:button %1 service name"
-msgid "Disable automatically loading %1 on startup"
-msgstr ""
-
-#. +> trunk6 stable6
-#: ui/main.qml:182
-#, kde-format
-msgctxt "@action:button %1 service name"
-msgid "Enable automatically loading %1 on startup"
-msgstr ""
-
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:183
+#. +> stable5
+#: package/contents/ui/main.qml:154
 #, kde-format
 msgid "Toggle automatically loading this service on startup"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:227
+#. +> stable5
+#: package/contents/ui/main.qml:221
 #, kde-format
 msgid "Not running"
 msgstr "ยังไม่ทำงาน"
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:228
+#. +> stable5
+#: package/contents/ui/main.qml:222
 #, kde-format
 msgid "Running"
 msgstr "ทำงานอยู่"
 
-#. +> trunk6 stable6
-#: ui/main.qml:248
-#, fuzzy, kde-format
-#| msgid "Stop"
-msgctxt "@action:button %1 service name"
-msgid "Stop %1"
-msgstr "หยุด"
-
-#. +> trunk6 stable6
-#: ui/main.qml:248
-#, fuzzy, kde-format
-#| msgid "Start"
-msgctxt "@action:button %1 service name"
-msgid "Start %1"
-msgstr "เริ่ม"
-
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:251
+#. +> stable5
+#: package/contents/ui/main.qml:240
 #, fuzzy, kde-format
 #| msgid "Service"
 msgid "Stop Service"
 msgstr "บริการ"
 
-#. +> trunk6 stable6 stable5
-#: ui/main.qml:251
+#. +> stable5
+#: package/contents/ui/main.qml:240
 #, fuzzy, kde-format
 #| msgid "Service"
 msgid "Start Service"
 msgstr "บริการ"
-
-#. +> stable5
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "ถนอมทรัพย์ นพบูรณ์"
-
-#. +> stable5
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "donga.nb@gmail.com"

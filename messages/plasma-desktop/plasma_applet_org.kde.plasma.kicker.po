@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-08 11:37+0100\n"
+"POT-Creation-Date: 2026-01-13 14:38+0100\n"
 "PO-Revision-Date: 2025-03-17 14:55+0700\n"
 "Last-Translator: Thai Translator <none>\n"
 "Language-Team: Thai <kde-i18n-docs@kde.org>\n"
@@ -13,43 +13,51 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. +> trunk6 stable6 stable5
-#: code/tools.js:43
+#: code/tools.js:53
 #, kde-format
 msgid "Remove from Favorites"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: code/tools.js:47
+#: code/tools.js:57
 #, kde-format
 msgid "Add to Favorites"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: code/tools.js:73
+#: code/tools.js:83
 #, kde-format
 msgid "On All Activities"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: code/tools.js:123
+#: code/tools.js:133
 #, kde-format
 msgid "On the Current Activity"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: code/tools.js:137
+#: code/tools.js:147
 #, kde-format
 msgid "Show in Favorites"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: config.qml:13
 #, kde-format
+msgctxt "@title:group for configuration dialog page"
 msgid "General"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:48
+#, kde-format
+msgctxt "@label prefix for icon-only button"
+msgid "Icon:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:46
 #, kde-format
 msgid "Icon:"
 msgstr ""
@@ -68,70 +76,160 @@ msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:159
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Show applications as:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:149
 #, kde-format
 msgid "Show applications as:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:161
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name only"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:151
 #, kde-format
 msgid "Name only"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
+#. +> trunk6 stable6
 #: ConfigGeneral.qml:161
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description only"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:151
 #, kde-format
 msgid "Description only"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:161
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:162
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Name (Description)"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:151
 #, kde-format
 msgid "Name (Description)"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:161
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:162
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Description (Name)"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:151
 #, kde-format
 msgid "Description (Name)"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:171
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:172
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Behavior:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:161
 #, kde-format
 msgid "Behavior:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:173
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:174
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:163
 #, kde-format
 msgid "Sort applications alphabetically"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:181
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:182
+#, kde-format
+msgctxt "@option:check"
+msgid "Flatten sub-menus to a single level"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:171
 #, kde-format
 msgid "Flatten sub-menus to a single level"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:189
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:190
+#, kde-format
+msgctxt "@option:check"
+msgid "Show icons on the root level of the menu"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:179
 #, kde-format
 msgid "Show icons on the root level of the menu"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:199
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:200
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Show categories:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:189
 #, kde-format
 msgid "Show categories:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:202
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:203
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent applications"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:192
 #, kde-format
 msgid "Recent applications"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:204
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used applications"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:193
+#, kde-format
+msgid "Often used applications"
 msgstr ""
 
 #. +> stable5
@@ -140,105 +238,178 @@ msgstr ""
 msgid "Recent contacts"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:203
-#, kde-format
-msgid "Often used applications"
-msgstr ""
-
 #. +> stable5
 #: package/contents/ui/ConfigGeneral.qml:209
 #, kde-format
 msgid "Often used contacts"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:210
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@option:check"
+msgid "Recent files"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:200
 #, kde-format
 msgid "Recent files"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:211
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:212
+#, kde-format
+msgctxt "@option:check"
+msgid "Often used files"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:201
 #, kde-format
 msgid "Often used files"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:217
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:218
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Sort items in categories by:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:215
 #, kde-format
 msgid "Sort items in categories by:"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:218
+#: ConfigGeneral.qml:219
 #, kde-format
 msgctxt "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:218
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:219
+#, kde-format
+msgctxt "@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Often used"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:216
 #, kde-format
 msgctxt "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
 msgid "Often used"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:228
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:229
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "Search:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:226
 #, kde-format
 msgid "Search:"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:230
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:231
+#, kde-format
+msgctxt "@option:check"
+msgid "Expand search to bookmarks, files and emails"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:228
 #, kde-format
 msgid "Expand search to bookmarks, files and emails"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: ConfigGeneral.qml:238
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:239
+#, kde-format
+msgctxt "@option:check"
+msgid "Align search results to bottom"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:236
 #, kde-format
 msgid "Align search results to bottom"
 msgstr ""
 
-#. +> trunk6
-#: ConfigGeneral.qml:243
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:244
 #, kde-format
-msgctxt "@label:textbox for a checkbox toggling Dark Mode"
+msgctxt "@label prefix for a checkbox toggling Dark Mode"
 msgid "Appearance:"
 msgstr ""
 
-#. +> trunk6
-#: ConfigGeneral.qml:248
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:249
 #, kde-format
+msgctxt "@option:check"
 msgid "Prefer Dark Mode when available"
 msgstr ""
 
-#. +> trunk6
-#: ConfigGeneral.qml:252
+#. +> trunk6 stable6
+#: ConfigGeneral.qml:253
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "This feature uses the complementary colors from your colorscheme, which usually feature a dark background."
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: DashboardRepresentation.qml:295
+#. +> trunk6 stable6
+#: DashboardRepresentation.qml:309
 #, kde-format
+msgctxt "@title:group for column with app and system action grids"
 msgid "Favorites"
 msgstr ""
 
-#. +> trunk6 stable6 stable5
-#: main.qml:227
+#. +> trunk6 stable6
+#: ItemListDelegate.qml:31
 #, kde-format
+msgctxt "@action:inmenu accessible description for opening submenu"
+msgid "Open category"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ItemListDelegate.qml:32
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening app or file"
+msgid "Launch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.qml:211
+#, kde-format
+msgctxt "@action:inmenu launches kmenuedit"
 msgid "Edit Applications…"
 msgstr ""
 
 #. +> trunk6 stable6
-#: MenuRepresentation.qml:300
+#: MenuRepresentation.qml:170
+#, kde-format
+msgctxt "@title:group accessible name for favorite group in sidebar"
+msgid "Favorites"
+msgstr ""
+
+#. +> trunk6 stable6
+#: MenuRepresentation.qml:348
 #, kde-format
 msgctxt "@info:status"
 msgid "No matches"
+msgstr ""
+
+#. +> stable5
+#: package/contents/config/config.qml:13
+#, kde-format
+msgid "General"
 msgstr ""
 
 #. +> stable5
@@ -254,6 +425,12 @@ msgid "Type to search…"
 msgstr ""
 
 #. +> stable5
+#: package/contents/ui/DashboardRepresentation.qml:392
+#, kde-format
+msgid "Favorites"
+msgstr ""
+
+#. +> stable5
 #: package/contents/ui/DashboardRepresentation.qml:610
 #: package/contents/ui/DashboardTabBar.qml:42
 #, kde-format
@@ -264,4 +441,10 @@ msgstr ""
 #: package/contents/ui/DashboardTabBar.qml:31
 #, kde-format
 msgid "Apps & Docs"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:259
+#, kde-format
+msgid "Edit Applications…"
 msgstr ""
