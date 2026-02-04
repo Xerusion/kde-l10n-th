@@ -5,54 +5,56 @@
 # Thanomsub Noppaburana <donga.nb@gmail.com>, 2008, 2010.
 # Phuwanat Sakornsakolpat <narachai@gmail.com>, 2010.
 #
+# SPDX-FileCopyrightText: 2026 Atirut Wattanamongkol <atirut.wattanamongkol@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-13 14:38+0100\n"
-"PO-Revision-Date: 2010-12-17 16:07+0700\n"
-"Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
-"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"PO-Revision-Date: 2026-02-04 13:52+0700\n"
+"Last-Translator: Atirut Wattanamongkol <atirut.wattanamongkol@gmail.com>\n"
+"Language-Team: Thai\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 25.12.1\n"
 
 #. +> trunk6 stable6 stable5
 #: BatteryItem.qml:99
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "Charging"
-msgstr "<b>แบตเตอรี:</b> %1% (กำลังใช้แบตเตอรี)<br />"
+msgstr "กำลังชาร์จ"
 
 #. +> trunk6 stable6 stable5
 #: BatteryItem.qml:101
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "%1% (discharging)"
 msgid "Discharging"
-msgstr "%1% (กำลังใช้แบตเตอรี)"
+msgstr "กำลังคายประจุ"
 
 #. +> trunk6 stable6 stable5
 #: BatteryItem.qml:103 main.qml:122
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "Fully Charged"
-msgstr "<b>แบตเตอรี:</b> %1% (ชาร์จไฟเต็มแล้ว)<br />"
+msgstr "ชาร์จเต็มแล้ว"
 
 #. +> trunk6 stable6 stable5
 #: BatteryItem.qml:105
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "Not Charging"
-msgstr "<b>แบตเตอรี:</b> %1% (กำลังใช้แบตเตอรี)<br />"
+msgstr "ไม่ได้ชาร์จอยู่"
 
 #. +> trunk6 stable6 stable5
 #: BatteryItem.qml:108
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Battery is not plugged in"
 #| msgid "Not present"
 msgctxt "Battery is currently not present in the bay"
@@ -72,33 +74,33 @@ msgstr "%1%"
 #: BatteryItem.qml:184
 #, kde-format
 msgid "This battery's health is at only %1% and it should be replaced. Contact the manufacturer."
-msgstr ""
+msgstr "สุขภาพของแบตเตอรี่นี้เหลือเพียง %1% เท่านั้น และควรเปลี่ยนใหม่ โปรดติดต่อผู้ผลิต"
 
 #. +> trunk6 stable6 stable5
 #: BatteryItem.qml:203
-#, kde-format
+#, fuzzy, kde-format
 msgid "Time To Full:"
-msgstr ""
+msgstr "เวลาที่ใช้ในการชาร์จเต็ม:"
 
 #. +> trunk6 stable6 stable5
 #: BatteryItem.qml:204
 #, kde-format
 msgid "Remaining Time:"
-msgstr ""
+msgstr "เวลาที่เหลือ"
 
 #. +> trunk6 stable6 stable5
 #: BatteryItem.qml:210
 #, kde-format
 msgctxt "@info"
 msgid "Estimating…"
-msgstr ""
+msgstr "กำลังประเมิน…"
 
 #. +> trunk6 stable6 stable5
 #: BatteryItem.qml:220
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Battery:"
 msgid "Battery Health:"
-msgstr "แบตเตอรี่:"
+msgstr "สุขภาพแบตเตอรี่:"
 
 #. +> trunk6 stable6 stable5
 #: BatteryItem.qml:226
@@ -113,7 +115,7 @@ msgstr "%1%"
 #: BatteryItem.qml:238
 #, kde-format
 msgid "Battery is configured to charge up to approximately %1%."
-msgstr ""
+msgstr "แบตเตอรี่ถูกตั้งค่าให้ชาร์จได้สูงสุดประมาณ %1%"
 
 #. +> trunk6 stable6 stable5
 #: CompactRepresentation.qml:103 CompactRepresentation.qml:152
@@ -129,167 +131,167 @@ msgstr "%1%"
 #, kde-format
 msgctxt "@title:group"
 msgid "Sleep and Screen Locking after Inactivity"
-msgstr ""
+msgstr "การพักเครื่องและล็อกหน้าจอหลังจากไม่มีการใช้งาน"
 
 #. +> trunk6 stable6 stable5
 #: InhibitionItem.qml:60 main.qml:97 PowerProfileItem.qml:76
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "tooltip on the config button in the popup"
 #| msgid "Configure Power Management..."
 msgid "Power Management"
-msgstr "ปรับแต่งการจัดการพลังงาน..."
+msgstr "การจัดการพลังงาน"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:65
 #, kde-format
 msgctxt "accessible-only status text"
 msgid "Automatic sleep and screen locking are currently blocked."
-msgstr ""
+msgstr "การพักเครื่องและการล็อกหน้าจออัตโนมัติถูกบล็อกอยู่"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:67
 #, kde-format
 msgctxt "accessible-only status text"
 msgid "Screen locking is currently blocked. Sleep is automatic after inactivity."
-msgstr ""
+msgstr "การล็อกหน้าจอถูกบล็อกอยู่ เครื่องจะพักโดยอัตโนมัติเมื่อไม่ได้ใช้งาน"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:69
 #, kde-format
 msgctxt "accessible-only status text"
 msgid "Sleep is currently blocked. Screen locking is automatic after inactivity."
-msgstr ""
+msgstr "การพักเครื่องถูกบล็อกอยู่ เครื่องจะพักหน้าจอโดยอัตโนมัติเมื่อไม่ได้ใช้งาน"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:71
 #, kde-format
 msgctxt "accessible-only status text"
 msgid "Sleep and screen locking are automatic after inactivity."
-msgstr ""
+msgstr "เครื่องจะพักและล็อกหน้าจอโดยอัตโนมัติเมื่อไม่ได้ใช้งาน"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:94
 #, kde-format
 msgctxt "@action:button Block sleep and screen locking after inactivity"
 msgid "Manually Block Sleep and Screen Locking"
-msgstr ""
+msgstr "บล็อกการพักเครื่องและการล็อกหน้าจอเอง"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:112
 #, kde-format
 msgid "Failed to unblock automatic sleep and screen locking"
-msgstr ""
+msgstr "ไม่สามารถเลิกบล็อกการพักเครื่องอัตโนมัติและการล็อกหน้าจอได้"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:115
 #, kde-format
 msgid "Failed to block automatic sleep and screen locking"
-msgstr ""
+msgstr "ไม่สามารถบล็อกการพักเครื่องอัตโนมัติและการล็อกหน้าจอได้"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:129
 #, kde-format
 msgctxt "@label corresponding to Manually Block Sleep and Screen Locking toggle"
 msgid "This will result in higher energy consumption."
-msgstr ""
+msgstr "สิ่งนี้จะส่งผลให้ใช้พลังงานมากขึ้น"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:130
 #, kde-format
 msgctxt "@label accessible - the sentence about higher energy consumption must be included (EU regulations)"
 msgid "You have manually blocked automatic sleep and screen locking. This will result in higher energy consumption."
-msgstr ""
+msgstr "คุณได้บล็อกการพักเครื่องและการล็อกหน้าจออัตโนมัติไว้ สิ่งนี้จะส่งผลให้ใช้พลังงานมากขึ้น"
 
 #. +> trunk6 stable6 stable5
 #: InhibitionItem.qml:137
 #, kde-format
 msgctxt "Minimize the length of this string as much as possible"
 msgid "Your laptop is configured not to sleep when closing the lid while an external monitor is connected."
-msgstr ""
+msgstr "แล็ปท็อปของคุณถูกตั้งค่าไม่ให้พักเครื่องเมื่อปิดฝาขณะที่เชื่อมต่อกับจอภายนอกอยู่"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:156
 #, kde-format
 msgctxt "An application's reason for inhibiting sleep and/or screen locking"
 msgid "Unknown reason."
-msgstr ""
+msgstr "ไม่ทราบสาเหตุ"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:163
 #, kde-format
 msgctxt "Application (1) with reason (2) has been prevented from blocking this inactivity behavior. The user can choose to allow it again."
 msgid "%1 wants to block sleep and screen locking. (%2)"
-msgstr ""
+msgstr "%1 ต้องการบล็อกการพักเครื่องและการล็อกหน้าจอ (%2)"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:165
 #, kde-format
 msgctxt "Application (1) with reason (2) has been prevented from blocking this inactivity behavior. The user can choose to allow it again."
 msgid "%1 wants to block screen locking. (%2)"
-msgstr ""
+msgstr "%1 ต้องการบล็อกการล็อกหน้าจอ (%2)"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:167
 #, kde-format
 msgctxt "Application (1) with reason (2) has been prevented from blocking this inactivity behavior. The user can choose to allow it again."
 msgid "%1 wants to block sleep. (%2)"
-msgstr ""
+msgstr "%1 ต้องการบล็อกการพักเครื่อง (%2)"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:171
 #, kde-format
 msgctxt "Application (1) with reason (2) is currently blocking this inactivity behavior, in addition to the user's manual block switch."
 msgid "%1 is also blocking sleep and screen locking. (%2)"
-msgstr ""
+msgstr "%1 ยังบล็อกการพักเครื่องและการล็อกหน้าจออยู่ด้วย (%2)"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:173
 #, kde-format
 msgctxt "Application (1) with reason (2) is currently blocking this inactivity behavior, in addition to the user's manual block switch."
 msgid "%1 is also blocking screen locking. (%2)"
-msgstr ""
+msgstr "%1 ยังบล็อกการล็อกหน้าจออยู่ด้วย (%2)"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:175
 #, kde-format
 msgctxt "Application (1) with reason (2) is currently blocking this inactivity behavior, in addition to the user's manual block switch."
 msgid "%1 is also blocking sleep. (%2)"
-msgstr ""
+msgstr "%1 ยังบล็อกการพักเครื่องอยู่ด้วย (%2)"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:179
 #, kde-format
 msgctxt "Application (1) with reason (2) is currently blocking this inactivity behavior, the user can choose to unblock it."
 msgid "%1 is blocking sleep and screen locking. (%2)"
-msgstr ""
+msgstr "%1 บล็อกการพักเครื่องและการล็อกหน้าจออยู่ (%2)"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:181
 #, kde-format
 msgctxt "Application (1) with reason (2) is currently blocking this inactivity behavior, the user can choose to unblock it."
 msgid "%1 is blocking screen locking. (%2)"
-msgstr ""
+msgstr "%1 บล็อกการล็อกหน้าจออยู่ (%2)"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:183
 #, kde-format
 msgctxt "Application (1) with reason (2) is currently blocking this inactivity behavior, the user can choose to unblock it."
 msgid "%1 is blocking sleep. (%2)"
-msgstr ""
+msgstr "%1 บล็อกการพักเครื่องอยู่ (%2)"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:191
 #, kde-format
 msgctxt "@action:button Prevent an app from blocking automatic sleep and screen locking after inactivity"
 msgid "Unblock"
-msgstr ""
+msgstr "เลิกบล็อก"
 
 #. +> trunk6 stable6
 #: InhibitionItem.qml:199
 #, kde-format
 msgctxt "@action:button Undo preventing an app from blocking automatic sleep and screen locking after inactivity"
 msgid "Allow"
-msgstr ""
+msgstr "อนุญาต"
 
 #. +> trunk6 stable6
 #: main.qml:76
@@ -305,131 +307,131 @@ msgstr ""
 
 #. +> trunk6 stable6
 #: main.qml:97
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "tooltip on the config button in the popup"
 #| msgid "Configure Power Management..."
 msgid "Power and Battery"
-msgstr "ปรับแต่งการจัดการพลังงาน..."
+msgstr "พลังงานและแบตเตอรี่"
 
 #. +> trunk6 stable6
 #: main.qml:116
 #, kde-format
 msgid "Battery is not present in the bay"
-msgstr ""
+msgstr "ไม่มีแบตเตอรี่อยู่ในช่อง"
 
 #. +> stable5
 #: package/contents/ui/main.qml:118 package/contents/ui/main.qml:361
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Screen Brightness"
 msgid "Battery and Brightness"
-msgstr "ความสว่างของจอภาพ"
+msgstr "แบตเตอรี่และความสว่าง"
 
 #. +> stable5
 #: package/contents/ui/main.qml:119
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Screen Brightness"
 msgid "Brightness"
-msgstr "ความสว่างของจอภาพ"
+msgstr "ความสว่าง"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:129
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "Battery at %1%, not Charging"
-msgstr "<b>แบตเตอรี:</b> %1% (กำลังใช้แบตเตอรี)<br />"
+msgstr "แบตเตอรี่เหลือ %1% ไม่ได้ชาร์จอยู่"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:131
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "Battery at %1%, plugged in but still discharging"
-msgstr "<b>แบตเตอรี:</b> %1% (กำลังใช้แบตเตอรี)<br />"
+msgstr "แบตเตอรี่เหลือ %1% เสียบปลั๊กแล้วแต่ยังคงคายประจุอยู่"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:133
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "Battery at %1%, Charging"
-msgstr "<b>แบตเตอรี:</b> %1% (กำลังใช้แบตเตอรี)<br />"
+msgstr "แบตเตอรี่เหลือ %1% กำลังชาร์จอยู่"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:136
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Placeholder is the battery ID"
 #| msgid "Battery %1:"
 msgid "Battery at %1%"
-msgstr "แบตเตอรี่ %1:"
+msgstr "แบตเตอรี่เหลือ %1%"
 
 #. +> stable5
 #: package/contents/ui/main.qml:120
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Placeholder is the battery ID"
 #| msgid "Battery %1:"
 msgid "Battery"
-msgstr "แบตเตอรี่ %1:"
+msgstr "แบตเตอรี่"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:144
 #, kde-format
 msgid "The power supply is not powerful enough to charge the battery"
-msgstr ""
+msgstr "แหล่งจ่ายไฟมีกำลังไฟไม่เพียงพอที่จะชาร์จแบตเตอรี่"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:148
-#, kde-format
+#, fuzzy, kde-format
 msgid "No Batteries Available"
-msgstr ""
+msgstr "ไม่มีแบตเตอรี่"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:155
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgctxt "time until fully charged - HH:MM"
 msgid "%1 until fully charged"
-msgstr "<b>แบตเตอรี:</b> %1% (ชาร์จไฟเต็มแล้ว)<br />"
+msgstr "1% จนกว่าจะชาร์จเต็ม"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:157
 #, kde-format
 msgctxt "remaining time left of battery usage - HH:MM"
 msgid "%1 remaining"
-msgstr ""
+msgstr "เหลืออีก %1"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:160
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
 msgid "Not charging"
-msgstr "<b>แบตเตอรี:</b> %1% (กำลังใช้แบตเตอรี)<br />"
+msgstr "ไม่ได้ชาร์จอยู่"
 
 #. +> trunk6 stable6
 #: main.qml:165
 #, kde-format
 msgid "Automatic sleep and screen locking are disabled; middle-click to re-enable"
-msgstr ""
+msgstr "การพักเครื่องและการพักหน้าจออัตโนมัติถูกปิดอยู่; คลิกกลางเพื่อเปิดใหม่"
 
 #. +> stable5
 #: package/contents/ui/main.qml:186
 #, kde-format
 msgid "Automatic sleep and screen locking are disabled"
-msgstr ""
+msgstr "การพักเครื่องและการพักหน้าจออัตโนมัติถูกปิดอยู่"
 
 #. +> trunk6 stable6
 #: main.qml:167
 #, kde-format
 msgid "Middle-click to disable automatic sleep and screen locking"
-msgstr ""
+msgstr "คลิกกลางเพื่อปิดการพักเครื่องและการล็อกหน้าจออัตโนมัติ"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:172
 #, kde-format
 msgid "An application has requested activating Performance mode"
 msgid_plural "%1 applications have requested activating Performance mode"
-msgstr[0] ""
+msgstr[0] "%1 แอปพลิเคชันขอเปิดใช้งานโหมดประสิทธิภาพ"
 
 #. +> trunk6 stable6
 #: main.qml:176
@@ -441,14 +443,14 @@ msgstr ""
 #: package/contents/ui/main.qml:195
 #, kde-format
 msgid "System is in Performance mode"
-msgstr ""
+msgstr "ระบบอยู่ในโหมดประสิทธิภาพ"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:180
 #, kde-format
 msgid "An application has requested activating Power Save mode"
 msgid_plural "%1 applications have requested activating Power Save mode"
-msgstr[0] ""
+msgstr[0] "%1 แอปพลิเคชันขอเปิดใช้งานโหมดประหยัดพลังงาน"
 
 #. +> trunk6 stable6
 #: main.qml:184
@@ -460,7 +462,7 @@ msgstr ""
 #: package/contents/ui/main.qml:203
 #, kde-format
 msgid "System is in Power Save mode"
-msgstr ""
+msgstr "ระบบอยู่ในโหมดประหยัดพลังงาน"
 
 #. +> trunk6 stable6
 #: main.qml:187
@@ -477,128 +479,128 @@ msgstr "ความสว่างของจอภาพ:"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:301
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show charge &information"
 msgid "&Show Energy Information…"
-msgstr "แสดง&ข้อมูลการประจุไฟเข้าแบตเตอรี่"
+msgstr "แ&สดงข้อมูลพลังงาน"
 
 #. +> trunk6 stable6 stable5
 #: main.qml:307
 #, kde-format
 msgid "Show Battery Percentage on Icon When Not Fully Charged"
-msgstr ""
+msgstr "แสดงเปอร์เซ็นต์แบตเตอรี่บนไอคอนเมื่อแบตเตอรี่ชาร์จไม่เต็ม"
 
 #. +> trunk6 stable6
 #: main.qml:320
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "More..."
 msgid "&Configure Power Management…"
-msgstr "เพิ่มเติม..."
+msgstr "&ตั้งค่ากาารจัดการพลังงาน"
 
 #. +> stable5
 #: package/contents/ui/main.qml:384
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "More..."
 msgid "&Configure Energy Saving…"
-msgstr "เพิ่มเติม..."
+msgstr "&ตั้งค่ากาารประหยัดพลังงาน"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:41
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Power save settings"
 msgid "Power Save"
-msgstr "ตั้งค่าการประหยัดพลังงาน"
+msgstr "ประหยัดพลังงาน"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:45
 #, kde-format
 msgid "Balanced"
-msgstr ""
+msgstr "สมดุล"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:49
 #, kde-format
 msgid "Performance"
-msgstr ""
+msgstr "ประสิทธิภาพ"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:66
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Power Profile:"
 msgid "Power Profile"
-msgstr "โพรไฟล์พลังงาน:"
+msgstr "โปรไฟล์พลังงาน"
 
 #. +> trunk6 stable6
 #: PowerProfileItem.qml:110
 #, kde-format
 msgctxt "Power profile"
 msgid "Automatic"
-msgstr ""
+msgstr "อัตโนมัติ"
 
 #. +> trunk6 stable6
 #: PowerProfileItem.qml:111
 #, kde-format
 msgctxt "Power profile"
 msgid "Not available"
-msgstr ""
+msgstr "ไม่สามารถใช้งานได้"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:151
 #, kde-format
 msgid "Failed to activate %1 mode"
-msgstr ""
+msgstr "ไม่สามารถเปิดใช้งานโหมด%1ได้"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:228
 #, kde-format
 msgid "Performance mode has been disabled to reduce heat generation because the computer has detected that it may be sitting on your lap."
-msgstr ""
+msgstr "โหมดประสิทธิภาพถูกปิดใช้งานเพื่อลดความร้อน เนื่องจากคอมพิวเตอร์ตรวจพบว่าอาจวางอยู่บนตักของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:230
 #, kde-format
 msgid "Performance mode is unavailable because the computer is running too hot."
-msgstr ""
+msgstr "โหมดประสิทธิภาพไม่สามารถใช้งานได้เนื่องจากคอมพิวเตอร์ร้อนเกินไป"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:232
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Power Management"
 msgid "Performance mode is unavailable."
-msgstr "การจัดการพลังงาน"
+msgstr "โหมดประสิทธิภาพไม่สามารถใช้งานได้"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:248
 #, kde-format
 msgid "Performance may be lowered to reduce heat generation because the computer has detected that it may be sitting on your lap."
-msgstr ""
+msgstr "ประสิทธิภาพการทำงานอาจลดลงเพื่อลดความร้อน เนื่องจากคอมพิวเตอร์ตรวจพบว่าอาจวางอยู่บนตักของคุณ"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:250
 #, kde-format
 msgid "Performance may be reduced because the computer is running too hot."
-msgstr ""
+msgstr "ประสิทธิภาพการทำงานอาจลดลงเนื่องจากคอมพิวเตอร์ร้อนเกินไป"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:252
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Power Management"
 msgid "Performance may be reduced."
-msgstr "การจัดการพลังงาน"
+msgstr "ประสิทธิภาพการทำงานอาจลดลง"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:265
-#, kde-format
+#, fuzzy, kde-format
 msgid "One application has requested activating %2:"
 msgid_plural "%1 applications have requested activating %2:"
-msgstr[0] ""
+msgstr[0] "%1 แอปพลิเคชันขอเปิดใช้งานโหมด%2"
 
 #. +> trunk6 stable6 stable5
 #: PowerProfileItem.qml:284
 #, kde-format
 msgctxt "%1 is the name of the application, %2 is the reason provided by it for activating performance mode"
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #. +> trunk6 stable6
 #: PowerProfileItem.qml:302
@@ -631,17 +633,17 @@ msgstr "%1%"
 
 #. +> stable5
 #: package/contents/ui/PopupDialog.qml:117
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Screen Brightness"
 msgid "Display Brightness"
 msgstr "ความสว่างของจอภาพ"
 
 #. +> stable5
 #: package/contents/ui/PopupDialog.qml:146
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Screen Brightness"
 msgid "Keyboard Brightness"
-msgstr "ความสว่างของจอภาพ"
+msgstr "ความสว่างของแป้นพิมพ์"
 
 #. +> stable5
 #: package/contents/ui/PowerManagementItem.qml:42
@@ -655,30 +657,30 @@ msgstr ""
 #, kde-format
 msgid "%1 application is currently blocking sleep and screen locking:"
 msgid_plural "%1 applications are currently blocking sleep and screen locking:"
-msgstr[0] ""
+msgstr[0] "%1 แอปพลิเคชันกำลังบล็อกการพักเครื่องและการล็อกหน้าจออยู่"
 
 #. +> stable5
 #: package/contents/ui/PowerManagementItem.qml:109
 #, kde-format
 msgid "%1 is currently blocking sleep and screen locking (%2)"
-msgstr ""
+msgstr "%1 กำลังบล็อกการพักเครื่องและการล็อกหน้าจออยู่ (%2)"
 
 #. +> stable5
 #: package/contents/ui/PowerManagementItem.qml:110
 #, kde-format
 msgid "%1 is currently blocking sleep and screen locking (unknown reason)"
-msgstr ""
+msgstr "%1 กำลังบล็อกการพักเครื่องและการล็อกหน้าจออยู่ (ไม่ทราบสาเหตุ)"
 
 #. +> stable5
 #: package/contents/ui/PowerManagementItem.qml:112
 #, kde-format
 msgctxt "Application name: reason for preventing sleep and screen locking"
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #. +> stable5
 #: package/contents/ui/PowerManagementItem.qml:113
 #, kde-format
 msgctxt "Application name: reason for preventing sleep and screen locking"
 msgid "%1: unknown reason"
-msgstr ""
+msgstr "%1: ไม่ทราบสาเหตุ"
