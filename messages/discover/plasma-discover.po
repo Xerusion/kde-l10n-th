@@ -1,350 +1,335 @@
+# SPDX-FileCopyrightText: 2026 Wararat Choyrum <real@iw2tryhard.dev>
 msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-19 10:17+0100\n"
-"PO-Revision-Date: 2025-03-17 14:52+0700\n"
-"Last-Translator: Thai Translator <none>\n"
-"Language-Team: Thai <kde-i18n-docs@kde.org>\n"
+"PO-Revision-Date: 2026-08-13 22:38+0700\n"
+"Last-Translator: Wararat Choyrum <real@iw2tryhard.dev>\n"
+"Language-Team: Thai <kde-i18n-doc@kde.org>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #. +> stable5
 #: discover/DiscoverObject.cpp:159
 #, kde-format
 msgid "Discover currently cannot be used to install any apps or perform system updates because none of its app backends are available."
-msgstr ""
+msgstr "Discover ยังไม่สามารถติดตั้งแอพหรือทำการอัพเดตระบบใดๆ เพราะไม่มี Backend ใดๆที่ใช้ได้"
 
 #. +> stable5
 #: discover/DiscoverObject.cpp:163
 #, kde-kuit-format
 msgctxt "@info"
-msgid ""
-"You can install some on the Settings page, under the <interface>Missing Backends</interface> section.<nl/>"
-"<nl/>"
-"Also please consider reporting this as a packaging issue to your distribution."
-msgstr ""
+msgid "You can install some on the Settings page, under the <interface>Missing Backends</interface> section.<nl/><nl/>Also please consider reporting this as a packaging issue to your distribution."
+msgstr "คุณสามารถติดตั้ง Backend ต่างๆในหน้าตั้งค่า ภายใต้ส่วน <interface>Backend ที่ขาดอยู่</interface><nl/><nl/>นอกจากนี้ โปรดรายงานปัญหานี้เป็นปัญหาด้านการแพ็คเกจไปยัง Distribution ของคุณ"
 
 #. +> stable5
 #: discover/DiscoverObject.cpp:168 discover/DiscoverObject.cpp:380
 #: discover/qml/UpdatesPage.qml:107
 #, kde-format
 msgid "Report This Issue"
-msgstr ""
+msgstr "รายงานปัญหานี้"
 
 #. +> stable5
 #: discover/DiscoverObject.cpp:173
 #, kde-kuit-format
 msgctxt "@info"
-msgid ""
-"You can use <command>pacman</command> to install the optional dependencies that are needed to enable the application backends.<nl/>"
-"<nl/>"
-"Please note that Arch Linux developers recommend using <command>pacman</command> for managing software because the PackageKit backend is not well-integrated on Arch Linux."
-msgstr ""
+msgid "You can use <command>pacman</command> to install the optional dependencies that are needed to enable the application backends.<nl/><nl/>Please note that Arch Linux developers recommend using <command>pacman</command> for managing software because the PackageKit backend is not well-integrated on Arch Linux."
+msgstr "คุณสามารถใช้ <command>pacman</command> เพื่อติดตั้งแพ็คเกจที่ Backend ต่างๆ แนะนำ แต่ไม่จำเป็นได้<nl/><nl/>โปรดรู้ว่าทีมผู้พัฒนาของ Arch Linux แนะนำให้ใช้ <command>pacman</command> เพื่อจัดการซอฟต์แวร์เนื่องจาก PackageKit ยังไม่บูรณาการดีบน Arch Linux"
 
 #. +> stable5
 #: discover/DiscoverObject.cpp:181
 #, kde-format
 msgid "Learn More"
-msgstr ""
+msgstr "เรียนรู้เพิ่มเติม"
 
 #. +> trunk6 stable6
 #: discover/DiscoverObject.cpp:197
 #, kde-format
 msgctxt "@title %1 is the name"
 msgid "%1 is not configured for installing apps through Discover—only app add-ons"
-msgstr ""
+msgstr "%1 ไม่ได้ถูกตั้งค่าเพื่อให้ติดตั้งแอพผ่านส่วนขยายแอพที่อยู่ใน Discover"
 
 #. +> trunk6 stable6
 #: discover/DiscoverObject.cpp:199
 #, kde-kuit-format
 msgctxt "@info:usagetip %2 is the name of the operating system"
-msgid ""
-"To use Discover for apps, install your preferred module on the <interface>Settings</interface> page, under <interface>Missing Backends</interface>.<nl/>"
-"<nl/>"
-"Please <link url='%1'>report this issue to %2.</link>"
-msgstr ""
+msgid "To use Discover for apps, install your preferred module on the <interface>Settings</interface> page, under <interface>Missing Backends</interface>.<nl/><nl/>Please <link url='%1'>report this issue to %2.</link>"
+msgstr "เพื่อใช้ Discover สำหรับการติดตั้งแอพ โปรดติดตั้งโมดูลที่เลือกในหน้า<interface>ตั้งค่า</interface> ภายใต้ส่วน <interface>Backend ที่ขาดอยู่</interface>"
 
 #. +> trunk6 stable6
 #: discover/DiscoverObject.cpp:206
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the distro name; in this case it always contains 'Arch Linux'"
-msgid ""
-"To use Discover for apps, install <link url='https://wiki.archlinux.org/title/Flatpak#Installation'>Flatpak</link> using the <command>pacman</command> package manager.<nl/>"
-"<nl/>"
-" Review <link url='https://archlinux.org/packages/extra/x86_64/discover/'>%1's packaging for Discover</link>"
-msgstr ""
+msgid "To use Discover for apps, install <link url='https://wiki.archlinux.org/title/Flatpak#Installation'>Flatpak</link> using the <command>pacman</command> package manager.<nl/><nl/> Review <link url='https://archlinux.org/packages/extra/x86_64/discover/'>%1's packaging for Discover</link>"
+msgstr "เพื่อใช้ Discover สำหรับแอพ ให้ติดตั้ง <link url='https://wiki.archlinux.org/title/Flatpak#Installation'>Flatpak</link> โดยใช้ <command>pacman</command> เพื่อติดตั้ง<nl/><nl/> โปรดดู<link url='https://archlinux.org/packages/extra/x86_64/discover/'>การแพ็คเกจ Discover ใน %1</link>"
 
 #. +> trunk6 stable6
 #: discover/DiscoverObject.cpp:216
 #, kde-kuit-format
 msgctxt "@info:usagetip %1 is the distro name"
-msgid ""
-"Support for managing packages from %1 is incomplete; you may experience any number of problems. Do not report bugs to KDE. It is highly recommended to uninstall the <resource>packagekit-qt6</resource> package and use Discover only to manage Flatpaks, Snaps, and Add-Ons."
-"<para>%1 maintainers recommended instead using the <command>pacman</command> command-line tool to manage packages.</para>"
-msgstr ""
+msgid "Support for managing packages from %1 is incomplete; you may experience any number of problems. Do not report bugs to KDE. It is highly recommended to uninstall the <resource>packagekit-qt6</resource> package and use Discover only to manage Flatpaks, Snaps, and Add-Ons.<para>%1 maintainers recommended instead using the <command>pacman</command> command-line tool to manage packages.</para>"
+msgstr "การรับรองจัดการแพ็คเกจจาก %1 ยังไม่เต็มรูปแบบ คุณอาจพบปัญหาต่างๆ ได้ โปรดอย่ารายงานปัญหาพวกนี้ไปยัง KDE แนะทำให้ลบแพ็คเกจ <resource>packagekit-qt6</resource> และใช้ Discover สำหรับจัดการเพ็คเกจจาก Flatpak, Snap และแพ็คเกจส่วนขยายเท่านั้น<para>ผู้จัดทำ %1 แนะนำให้ใช้เครื่องมือ Command-line <command>pacman</command> เพื่อจัดการแพ็คเกจอื่นแทน</para>"
 
 #. +> trunk6 stable6 stable5
 #: discover/DiscoverObject.cpp:305
 #, kde-format
 msgid "Could not find category '%1'"
-msgstr ""
+msgstr "ไม่สามารถหาหมวดหมู่ '%1' ได้"
 
 #. +> trunk6 stable6 stable5
 #: discover/DiscoverObject.cpp:327
 #, kde-format
 msgid "Trying to open inexisting file '%1'"
-msgstr ""
+msgstr "พยายามเปิดไฟล์ที่ยังไม่มีอยู่ '%1'"
 
 #. +> trunk6 stable6 stable5
 #: discover/DiscoverObject.cpp:349
 #, kde-format
 msgid "Cannot interact with flatpak resources without the flatpak backend %1. Please install it first."
-msgstr ""
+msgstr "ไม่สามารถติดต่อกับทรัพยากรของ Flatpak โดยที่ไม่มี Backend %1 ของ Flatpak โปรดติดตั้งก่อน"
 
 #. +> trunk6 stable6 stable5
 #: discover/DiscoverObject.cpp:353
 #, kde-format
 msgid "Could not open %1"
-msgstr ""
+msgstr "ไม่สามารถเปิด %1"
 
 #. +> stable5
 #: discover/DiscoverObject.cpp:377
 #, kde-format
 msgid "Please report this issue to the packagers of your distribution."
-msgstr ""
+msgstr "โปรดรายงานปรญหานี้ไปยังผู้จัดทำแพ็คเกจของ Distribution คุณ"
 
 #. +> trunk6 stable6 stable5
 #: discover/DiscoverObject.cpp:418
 #, kde-format
 msgid "Please make sure Snap support is installed"
-msgstr ""
+msgstr "โปรดตรวจสอบว่าการรับรอง Snap ได้ถูกติดตั้งแล้ว"
 
 #. +> trunk6 stable6
 #: discover/DiscoverObject.cpp:421
 #, kde-format
 msgid "The requested application could not be found in any available software repositories"
-msgstr ""
+msgstr "ไม่สามารถหาแอพที่ขอได้ในแหล่งที่มาซอฟต์แวร์ที่มีใดๆ"
 
 #. +> stable5
 #: discover/DiscoverObject.cpp:374
 #, kde-format
 msgid "Could not open %1 because it was not found in any available software repositories."
-msgstr ""
+msgstr "ไม่สามารถเปิด %1 ได้ พราะมันไม่อยู่ในแหล่งที่มาซอฟต์แวร์ที่มีใดๆ"
 
 #. +> trunk6 stable6
 #: discover/DiscoverObject.cpp:424
 #, kde-kuit-format
 msgctxt "@info %1 is an additional error reference and %3 is the name of the operating system"
-msgid ""
-"(No entry for %1)<nl/>"
-"<nl/>"
-"Please <link url='%2'>report this issue to %3.</link>"
-msgstr ""
+msgid "(No entry for %1)<nl/><nl/>Please <link url='%2'>report this issue to %3.</link>"
+msgstr "(ไม่มีข้อมูลสำหรับ %1)<nl/><nl/>โปรด<link url='%2'>รายงานปัญหานี้ไปยัง %3</link>"
 
 #. +> trunk6 stable6 stable5
 #: discover/DiscoverObject.cpp:508 discover/DiscoverObject.cpp:510
 #: discover/main.cpp:120
 #, kde-format
 msgid "Discover"
-msgstr ""
+msgstr "Discover"
 
 #. +> trunk6 stable6 stable5
 #: discover/DiscoverObject.cpp:511
 #, kde-format
 msgid "Discover was closed before certain tasks were done, waiting for it to finish."
-msgstr ""
+msgstr "Discover ถูกปิดไปก่อนที่งานบางอย่างจะเสร็จสิ้น จะรอให้ดำเนินการเสร็จก่อน"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:34
 #, kde-format
 msgid "Directly open the specified application by its appstream:// URI."
-msgstr ""
+msgstr "เปิดแอพที่ต้องการโดยตรงโดยใช้ URI appstream://"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:35
 #, kde-format
 msgid "Open with a search for programs that can deal with the given mimetype."
-msgstr ""
+msgstr "เปิดมาค้นหาโปรแกรมที่สามารถเปิด Mimetype ที่ให้มาได้"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:36
 #, kde-format
 msgid "Display a list of entries with a category."
-msgstr ""
+msgstr "แสดงเป็นรายการที่มีหมวดหมู่ด้วย"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:37
 #, kde-format
 msgid "Open Discover in a said mode. Modes correspond to the toolbar buttons."
-msgstr ""
+msgstr "เปิด Discover ในโหมดที่กำหนดมา โหมดมาจากปุ่มต่างๆ ในทูลบาร์"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:38
 #, kde-format
 msgid "List all the available modes."
-msgstr ""
+msgstr "แสดงโหมดทั้งหมด"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:39
 #, kde-format
 msgid "Local package file to install"
-msgstr ""
+msgstr "ไฟล์แพ็คเกจบนเครื่องที่จะติดตั้ง"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:40
 #, kde-format
 msgid "List all the available backends."
-msgstr ""
+msgstr "แสดง Backend ทั้งหมด"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:41
 #, kde-format
 msgid "Search string."
-msgstr ""
+msgstr "ค้นหาข้อความ"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:42
 #, kde-format
 msgid "Lists the available options for user feedback"
-msgstr ""
+msgstr "แสดงทางเลือกทั้งหมดสำหรับความคิดเห็นผู้ใช้"
 
 #. +> trunk6 stable6
 #: discover/main.cpp:43
 #, kde-format
 msgid "Starts an update automatically, headless"
-msgstr ""
+msgstr "เรื่มอัพเดตอัตโนมัติ โดยไม่ขึ้นหน้าจอ"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:45
 #, kde-format
 msgid "Supports appstream: url scheme"
-msgstr ""
+msgstr "รองรับ Appstream: url scheme"
 
 #. +> stable5
 #: discover/main.cpp:47
 #, kde-format
 msgid "Compact Mode (auto/compact/full)."
-msgstr ""
+msgstr "โหมดกะทัดรัด (อัตโนมัติ/กะทัดรัด/แบบเต็ม)"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:122
 #, kde-format
 msgid "An application explorer"
-msgstr ""
+msgstr "มีค้นหาแอพ"
 
 #. +> trunk6
 #: discover/main.cpp:124
 #, kde-format
 msgid "© 2010-2026 Plasma Development Team"
-msgstr ""
+msgstr "© 2010-2026 ทีมผู้พัฒนา Plasma"
 
 #. +> stable6
 #: discover/main.cpp:124
 #, kde-format
 msgid "© 2010-2025 Plasma Development Team"
-msgstr ""
+msgstr "© 2010-202ถ ทีมผู้พัฒนา Plasma"
 
 #. +> stable5
 #: discover/main.cpp:124
 #, kde-format
 msgid "© 2010-2022 Plasma Development Team"
-msgstr ""
+msgstr "© 2010-2022 ทีมผู้พัฒนา Plasma"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:125
 #, kde-format
 msgid "Aleix Pol Gonzalez"
-msgstr ""
+msgstr "Aleix Pol Gonzalez"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:126
 #, kde-format
 msgid "Nate Graham"
-msgstr ""
+msgstr "Nate Graham"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:127
 #, kde-format
 msgid "Quality Assurance, Design and Usability"
-msgstr ""
+msgstr "การรับประกันคุณภาพ การออกแบบ และความสามารถในการใช้งาน"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:131
 #, kde-format
 msgid "Dan Leinir Turthra Jensen"
-msgstr ""
+msgstr "Dan Leinir Turthra Jensen"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:132
 #, kde-format
 msgid "KNewStuff"
-msgstr ""
+msgstr "KNewStuff"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:139
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "วรารัตน์ โชยรัมย์"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:139
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "real@iw2tryhard.dev"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:159
 #, kde-format
 msgid "Available backends:\n"
-msgstr ""
+msgstr "Backend ที่มีอยู่:\n"
 
 #. +> trunk6 stable6 stable5
 #: discover/main.cpp:212
 #, kde-format
 msgid "Available modes:\n"
-msgstr ""
+msgstr "โหมดที่มีอยู่:\n"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/AddonsView.qml:28 discover/qml/Navigation.qml:60
 #, kde-format
 msgid "Addons for %1"
-msgstr ""
+msgstr "ส่วนขยายสำหรับ %1"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/AddonsView.qml:80
 #, kde-format
 msgid "More…"
-msgstr ""
+msgstr "เพื่มเติม…"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/AddonsView.qml:89
 #, kde-format
 msgid "Apply Changes"
-msgstr ""
+msgstr "ใช้การเปลี่ยนแปลง"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/AddonsView.qml:97
 #, kde-format
 msgid "Reset"
-msgstr ""
+msgstr "รีเซ็ต"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/AddSourceDialog.qml:21
 #, kde-format
 msgid "Add New %1 Repository"
-msgstr ""
+msgstr "เพื่มแหล่งที่มาใหม่ %1"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/AddSourceDialog.qml:45
 #, kde-format
 msgid "Add"
-msgstr ""
+msgstr "เพื่ม"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/AddSourceDialog.qml:50 discover/qml/DiscoverWindow.qml:281
@@ -353,7 +338,7 @@ msgstr ""
 #: discover/qml/UpdatesPage.qml:303 discover/qml/WebflowDialog.qml:41
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "ยกเลิก"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/ApplicationDelegate.qml:177
@@ -361,108 +346,75 @@ msgstr ""
 #, kde-format
 msgid "%1 rating"
 msgid_plural "%1 ratings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 เรตติ้ง"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/ApplicationDelegate.qml:177
 #: discover/qml/ApplicationPage.qml:373
 #, kde-format
 msgid "No ratings yet"
-msgstr ""
+msgstr "ยังไม่มีเรตติ้ง"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:62
 #, kde-format
 msgid "Sources"
-msgstr ""
+msgstr "แหล่งที่มา"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:69
 #, kde-kuit-format
 msgctxt "@info"
-msgid ""
-"Only install %1 if you fully trust its authors because it is <emphasis strong='true'>proprietary</emphasis>: Your freedom to use, modify, and redistribute this application is restricted, and its source code is partially or entirely closed to public inspection and improvement. This means third parties and users like you cannot verify its operation, security, and trustworthiness.<nl/>"
-"<nl/>"
-"The application may be perfectly safe to use, or it may be acting against you in various ways — such as harvesting your personal information, tracking your location, or transmitting the contents of your data to someone else. Only use it if you fully trust its authors. More information may be available on <link url='%2'>the application's website</link>.<nl/>"
-"<nl/>"
-"Learn more at <link url='%3'>%3</link>."
-msgstr ""
+msgid "Only install %1 if you fully trust its authors because it is <emphasis strong='true'>proprietary</emphasis>: Your freedom to use, modify, and redistribute this application is restricted, and its source code is partially or entirely closed to public inspection and improvement. This means third parties and users like you cannot verify its operation, security, and trustworthiness.<nl/><nl/>The application may be perfectly safe to use, or it may be acting against you in various ways — such as harvesting your personal information, tracking your location, or transmitting the contents of your data to someone else. Only use it if you fully trust its authors. More information may be available on <link url='%2'>the application's website</link>.<nl/><nl/>Learn more at <link url='%3'>%3</link>."
+msgstr "ติดตั้ง %1 ถ้าคุณเชื่อถือผู้จัดทำของมันเพราะแอพนี้<emphasis strong='true'>ติดกรรมสิทธิ์</emphasis>: ความอิสระของคุณที่จะใช้ แก้ไข และแพร่กระจายแอพนี้ถูกจำกัด และซอรซ์โค้ดของมันไม่เปิดรับการตรวจสอบและปรับปรุงจากภายนอกในบางส่วนหรือทั้งหมด หมายความว่าบุคคลที่สามหรือผู้ใช้อย่างคุณไม่สามารถยืนยันการทำงาน ความปลอดภัย แบะความน่าเชื่อภือของมันได้<nl/><nl/>แอพนี้อาจจะปลอดภัย ใช้งานได้ตามปกติ หรือมันอาจจะทำหลายๆ อย่างที่คุณไม่ต้องการ เช่นการดูดข้อมูลส่วนตัว ติดตามตำแหน่ง หรือส่งข้อมูลของคุณไปหาผู้อื่น ใช้มันเฉพาะเวลาที่เชื่อถือผู้จัดทำของมันเท่านั้น อาจมีข้อมูลเพื่มเติมอยู่บน<link url='%2'>เว็บไซต์ของแอพ</link><nl/><nl/>เรียนรู้เพื่มเติมที่ <link url='%3'>%3</link>"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:74
 #, kde-kuit-format
 msgctxt "@info"
-msgid ""
-"Only install %1 if you fully trust its authors because it is <emphasis strong='true'>proprietary</emphasis>: Your freedom to use, modify, and redistribute this application is restricted, and its source code is partially or entirely closed to public inspection and improvement. This means third parties and users like you cannot verify its operation, security, and trustworthiness.<nl/>"
-"<nl/>"
-"The application may be perfectly safe to use, or it may be acting against you in various ways — such as harvesting your personal information, tracking your location, or transmitting the contents of your data to someone else. Only use it if you fully trust its authors. Learn more at <link url='%2'>%2</link>."
-msgstr ""
+msgid "Only install %1 if you fully trust its authors because it is <emphasis strong='true'>proprietary</emphasis>: Your freedom to use, modify, and redistribute this application is restricted, and its source code is partially or entirely closed to public inspection and improvement. This means third parties and users like you cannot verify its operation, security, and trustworthiness.<nl/><nl/>The application may be perfectly safe to use, or it may be acting against you in various ways — such as harvesting your personal information, tracking your location, or transmitting the contents of your data to someone else. Only use it if you fully trust its authors. Learn more at <link url='%2'>%2</link>."
+msgstr "ติดตั้ง %1 ถ้าคุณเชื่อถือผู้จัดทำของมันเพราะแอพนี้<emphasis strong='true'>ติดกรรมสิทธิ์</emphasis>: ความอิสระของคุณที่จะใช้ แก้ไข และแพร่กระจายแอพนี้ถูกจำกัด และซอรซ์โค้ดของมันไม่เปิดรับการตรวจสอบและปรับปรุงจากภายนอกในบางส่วนหรือทั้งหมด หมายความว่าบุคคลที่สามหรือผู้ใช้อย่างคุณไม่สามารถยืนยันการทำงาน ความปลอดภัย แบะความน่าเชื่อภือของมันได้<nl/><nl/>แอพนี้อาจจะปลอดภัย ใช้งานได้ตามปกติ หรือมันอาจจะทำหลายๆ อย่างที่คุณไม่ต้องการ เช่นการดูดข้อมูลส่วนตัว ติดตามตำแหน่ง หรือส่งข้อมูลของคุณไปหาผู้อื่น ใช้มันเฉพาะเวลาที่เชื่อถือผู้จัดทำของมันเท่านั้น อาจมีข้อมูลเพื่มเติมอยู่บน<link url='%2'>เว็บไซต์ของแอพ</link>"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:81
 #, kde-kuit-format
 msgctxt "@info"
-msgid ""
-"%1 uses one or more licenses not certified as “Free Software” by either the <link url='%2'>Free Software Foundation</link> or the <link url='%3'>Open Source Initiative</link>. This means your freedom to use, study, modify, and share it may be restricted in some ways.<nl/>"
-"<nl/>"
-"Make sure to read the license text and understand any restrictions before using the software.<nl/>"
-"<nl/>"
-"If the license does not even grant access to read the source code, make sure you fully trust the authors, as no one else can verify the trustworthiness and security of its code to ensure that it is not acting against you in hidden ways. More information may be available on <link url='%4'>the application's website</link>.<nl/>"
-"<nl/>"
-"Learn more at <link url='%5'>%5</link>."
-msgstr ""
+msgid "%1 uses one or more licenses not certified as “Free Software” by either the <link url='%2'>Free Software Foundation</link> or the <link url='%3'>Open Source Initiative</link>. This means your freedom to use, study, modify, and share it may be restricted in some ways.<nl/><nl/>Make sure to read the license text and understand any restrictions before using the software.<nl/><nl/>If the license does not even grant access to read the source code, make sure you fully trust the authors, as no one else can verify the trustworthiness and security of its code to ensure that it is not acting against you in hidden ways. More information may be available on <link url='%4'>the application's website</link>.<nl/><nl/>Learn more at <link url='%5'>%5</link>."
+msgstr "%1 มีลิขสิทธ์ที่ไม่ได้ถูกตีตราว่าเป็น \"ซอฟต์แวร์เสรี\" โดยองค์กร <link url='%2'>Free Software Foundation</link> หรือโครงการ <link url='%3'>Open Source Initiative</link> หมายความว่าความอิสระของคุณที่จะใช้ เรียนรู้ แก้ไข และแพร่กระจายมันถูกจำกัดในบางวิธี<nl/><nl/>โปรดตรวจสอบลิขสิทธ์และทำความเข้าใจความจำกัดใดๆ ก่อนที่จะใช้<nl/>ถ้าลิขสิทธ์ไม่แม้กระทั้งให้คุณอ่านซอรซ์โค้ด ตรวจสอบว่าคุณเชื่อถือผู้จัดทำอย่างมั่นใจ เพราะจะไม่มีคนอื่นใดสามารถตรวจสอบความน่าเชื่อถือและความปลอดภัยของโค้ดเพื่อตรวจว่ามันจะไม่ทำร้ายคุณในวิธีต่างๆ ได้  อาจมีข้อมูลเพื่มเติมอยู่บน<link url='%4'>เว็บไซต์ของแอพ</link><nl/><nl/>เรียนรู้เพื่มเติมที่ <link url='%5'>%5</link>"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:88
 #, kde-kuit-format
 msgctxt "@info"
-msgid ""
-"%1 uses one or more licenses not certified as “Free Software” by either the <link url='%2'>Free Software Foundation</link> or the <link url='%3'>Open Source Initiative</link>. This means your freedom to use, study, modify, and share it may be restricted in some ways.<nl/>"
-"<nl/>"
-"Make sure to read the license text and understand any restrictions before using the software.<nl/>"
-"<nl/>"
-"If the license does not even grant access to read the source code, make sure you fully trust the authors, as no one else can verify the trustworthiness and security of its code to ensure that it is not acting against you in hidden ways.<nl/>"
-"<nl/>"
-"Learn more at <link url='%4'>%4</link>."
-msgstr ""
+msgid "%1 uses one or more licenses not certified as “Free Software” by either the <link url='%2'>Free Software Foundation</link> or the <link url='%3'>Open Source Initiative</link>. This means your freedom to use, study, modify, and share it may be restricted in some ways.<nl/><nl/>Make sure to read the license text and understand any restrictions before using the software.<nl/><nl/>If the license does not even grant access to read the source code, make sure you fully trust the authors, as no one else can verify the trustworthiness and security of its code to ensure that it is not acting against you in hidden ways.<nl/><nl/>Learn more at <link url='%4'>%4</link>."
+msgstr "%1 มีลิขสิทธ์ที่ไม่ได้ถูกตีตราว่าเป็น \"ซอฟต์แวร์เสรี\" โดยองค์กร <link url='%2'>Free Software Foundation</link> หรือโครงการ <link url='%3'>Open Source Initiative</link> หมายความว่าความอิสระของคุณที่จะใช้ เรียนรู้ แก้ไข และแพร่กระจายมันถูกจำกัดในบางวิธี<nl/><nl/>โปรดตรวจสอบลิขสิทธ์และทำความเข้าใจความจำกัดใดๆ ก่อนที่จะใช้<nl/>ถ้าลิขสิทธ์ไม่แม้กระทั้งให้คุณอ่านซอรซ์โค้ด ตรวจสอบว่าคุณเชื่อถือผู้จัดทำอย่างมั่นใจ เพราะจะไม่มีคนอื่นใดสามารถตรวจสอบความน่าเชื่อถือและความปลอดภัยของโค้ดเพื่อตรวจว่ามันจะไม่ทำร้ายคุณในวิธีต่างๆ ได้<nl/><nl/>เรียนรู้เพื่มเติมที่ <link url='%5'>%5</link>"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:97
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1 does not indicate under which license it is distributed. You may be able to determine this on <link url='%2'>the application's website</link>. Find it there or contact the author if you want to use this application for anything other than private personal use."
-msgstr ""
+msgstr "%1 ไม่บอกว่ามันถูกจัดจำหน่ายภายใต้ลิขสิทธ์ใดๆ คุณอาจจะหามันได้บน<link url='%2'>เว็บไซต์ของแอพ</link>หรือติดต่อผู้จัดทำถ้าคุณต้องการใช้แอพนี้นอกเหนือจากการใช้ส่วนตัว"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:101
 #, kde-format
 msgctxt "@info"
 msgid "%1 does not indicate under which license it is distributed. Contact the application's author if you want to use it for anything other than private personal use."
-msgstr ""
+msgstr "%1 ไม่บอกว่ามันถูกจัดจำหน่ายภายใต้ลิขสิทธ์ใดๆ คุณต้องติดต่อผู้จัดทำถ้าคุณต้องการใช้แอพนี้นอกเหนือจากการใช้ส่วนตัว"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:929
 #, kde-kuit-format
 msgctxt "@info"
-msgid ""
-"This application's source code is partially or entirely closed to public inspection and improvement. That means third parties and users like you cannot verify its operation, security, and trustworthiness, or modify and redistribute it without the authors' express permission.<nl/>"
-"<nl/>"
-"The application may be perfectly safe to use, or it may be acting against you in various ways—such as harvesting your personal information, tracking your location, or transmitting the contents of your files to someone else. There is no easy way to be sure, so you should only install this application if you fully trust its authors (<link url='%1'>%2</link>).<nl/>"
-"<nl/>"
-"You can learn more at <link url='%3'>%3</link>."
+msgid "This application's source code is partially or entirely closed to public inspection and improvement. That means third parties and users like you cannot verify its operation, security, and trustworthiness, or modify and redistribute it without the authors' express permission.<nl/><nl/>The application may be perfectly safe to use, or it may be acting against you in various ways—such as harvesting your personal information, tracking your location, or transmitting the contents of your files to someone else. There is no easy way to be sure, so you should only install this application if you fully trust its authors (<link url='%1'>%2</link>).<nl/><nl/>You can learn more at <link url='%3'>%3</link>."
 msgstr ""
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:930
 #, kde-kuit-format
 msgctxt "@info"
-msgid ""
-"This application's source code is partially or entirely closed to public inspection and improvement. That means third parties and users like you cannot verify its operation, security, and trustworthiness, or modify and redistribute it without the authors' express permission.<nl/>"
-"<nl/>"
-"The application may be perfectly safe to use, or it may be acting against you in various ways—such as harvesting your personal information, tracking your location, or transmitting the contents of your files to someone else. There is no easy way to be sure, so you should only install this application if you fully trust its authors (%1).<nl/>"
-"<nl/>"
-"You can learn more at <link url='%2'>%2</link>."
+msgid "This application's source code is partially or entirely closed to public inspection and improvement. That means third parties and users like you cannot verify its operation, security, and trustworthiness, or modify and redistribute it without the authors' express permission.<nl/><nl/>The application may be perfectly safe to use, or it may be acting against you in various ways—such as harvesting your personal information, tracking your location, or transmitting the contents of your files to someone else. There is no easy way to be sure, so you should only install this application if you fully trust its authors (%1).<nl/><nl/>You can learn more at <link url='%2'>%2</link>."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -470,213 +422,210 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button share a link to this app"
 msgid "Share"
-msgstr ""
+msgstr "แชร์"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:640
 #, kde-format
 msgctxt "Exports the application's URL to an external service"
 msgid "Share"
-msgstr ""
+msgstr "แชร์"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:150
 #, kde-format
 msgctxt "@action:button"
 msgid "Add-ons"
-msgstr ""
+msgstr "ส่วนขยาย"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:166
 #, kde-format
 msgctxt "@item:inlistbox %1 is the name of an app source e.g. \"Flathub\" or \"Ubuntu\""
 msgid "From %1"
-msgstr ""
+msgstr "จาก %1"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/ApplicationPage.qml:182
 #, kde-format
 msgid "%1 - %2"
-msgstr ""
+msgstr "%1 - %2"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:220
 #, kde-format
 msgid "Could not access the screenshots"
-msgstr ""
+msgstr "ไม่สามารถเข้าถึงรูปถ่ายหน้าจอได้"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:221
 #, kde-format
 msgctxt "@title:window"
 msgid "Share Link to Application"
-msgstr ""
+msgstr "แชร์ลิ้งค์ไปยังแอป"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/ApplicationPage.qml:230
 #, kde-format
 msgctxt "The subject line for an email. %1 is the name of an application"
 msgid "Check out the %1 app!"
-msgstr ""
+msgstr "ลองดูแอพ %1!"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:333
 #, kde-format
 msgid "Distributed by"
-msgstr ""
+msgstr "จัดจำหน่ายโดย"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/ApplicationPage.qml:337
 #, kde-format
 msgid "Unknown author"
-msgstr ""
+msgstr "ไม่ทราบผู้จัดทำ"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:397
 #, kde-format
 msgid "Version:"
-msgstr ""
+msgstr "เวอร์ชัน:"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:279
 #, kde-format
 msgid "Version"
-msgstr ""
+msgstr "เวอร์ชัน"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:409
 #, kde-format
 msgid "Size:"
-msgstr ""
+msgstr "ขนาด:"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:421
 #, kde-format
 msgid "License:"
 msgid_plural "Licenses:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ลิขสิทธ์:"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:360
 #, kde-format
 msgid "License"
 msgid_plural "Licenses"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ลิขสิทธ์"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:428
 #, kde-format
 msgctxt "@info:tooltip for button opening license type description"
 msgid "What does this mean?"
-msgstr ""
+msgstr "หมายความว่าอะไร?"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:407
 #, kde-format
 msgid "What does this mean?"
-msgstr ""
+msgstr "หมายความว่าอะไร?"
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/ApplicationPage.qml:432
 #, kde-format
 msgctxt "The app does not provide any licenses"
 msgid "Unknown"
-msgstr ""
+msgstr "ไม่ทราบ"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:445
 #, kde-format
 msgid "Age: %1+"
-msgstr ""
+msgstr "อายู %1+"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:484
 #, kde-format
 msgctxt "Separator between license labels e.g. 'GPL-3.0, Proprietary'"
 msgid ","
-msgstr ""
+msgstr ","
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:509
 #, kde-format
 msgctxt "Show all licenses of the package"
 msgid "See more…"
-msgstr ""
+msgstr "ดูเพื่ม…"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:417
 #, kde-format
 msgid "See more…"
 msgid_plural "See more…"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ดูเพื่ม…"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:521
 #, kde-format
 msgctxt "@label The app is suitable for people of the following ages or older"
 msgid "Ages:"
-msgstr ""
+msgstr "ช่วงอายุ:"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:529
 #, kde-format
 msgctxt "@item As in, the app is suitable for everyone"
 msgid "Everyone"
-msgstr ""
+msgstr "ทุกคน"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:531
 #, kde-format
 msgctxt "@item %1 is a person's age in number of years"
 msgid "%1+"
-msgstr ""
+msgstr "%1+"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:545
 #, kde-format
 msgid "See details"
-msgstr ""
+msgstr "ดูรายละเอียดเพื่มเติม…"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:469
 #, kde-format
 msgctxt "@action"
 msgid "See details…"
-msgstr ""
+msgstr "ดูรายละเอียด…"
 
 #. +> trunk6 stable6
 #: discover/qml/ApplicationPage.qml:569
 #, kde-format
 msgctxt "@info placeholder message"
 msgid "Screenshots not available for %1"
-msgstr ""
+msgstr "ไม่มีรูปถ่ายหน้าจอสำหรับ %1"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:587
 #, kde-format
 msgid "Read the project's official documentation"
-msgstr ""
+msgstr "อ่านคู่มือทางการของโปรเจกต์"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:603
 #, kde-format
 msgid "Website"
-msgstr ""
+msgstr "เว็บไซต์"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:620
 #, kde-format
 msgid "Addons"
-msgstr ""
+msgstr "ส่วนขยาย"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:621
 #, kde-format
 msgid "Install or remove additional functionality"
-msgstr ""
+msgstr "ติดตั้งหรือลบส่วนขยาย"
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:641
@@ -754,7 +703,6 @@ msgstr ""
 msgid "Show all %1 Reviews"
 msgid_plural "Show all %1 Reviews"
 msgstr[0] ""
-msgstr[1] ""
 
 #. +> stable5
 #: discover/qml/ApplicationPage.qml:818
@@ -877,7 +825,6 @@ msgstr ""
 msgid "Search: %2 - %3 item"
 msgid_plural "Search: %2 - %3 items"
 msgstr[0] ""
-msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/ApplicationsListPage.qml:56
@@ -891,7 +838,6 @@ msgstr ""
 msgid "%2 - %1 item"
 msgid_plural "%2 - %1 items"
 msgstr[0] ""
-msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/ApplicationsListPage.qml:66
@@ -899,7 +845,6 @@ msgstr[1] ""
 msgid "Search - %1 item"
 msgid_plural "Search - %1 items"
 msgstr[0] ""
-msgstr[1] ""
 
 #. +> trunk6 stable6 stable5
 #: discover/qml/ApplicationsListPage.qml:68
