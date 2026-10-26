@@ -1,7 +1,12 @@
+## No longer in use, go to https://invent.kde.org/localization/l10n-th Instead
+
 This is the git repo for Thai KDE translations, we are using the summit workflow.
+
 For a guide on how to, and translation standards please go to:
 https://community.kde.org/KDE_Localization/th/translation-guide
+
 To see our progress go to:
 https://l10n.kde.org/team-infos.php?teamcode=th
+
 If anything is mistranslated or in the wrong context, create a issue here or report at:
 https://bugs.kde.org/buglist.cgi?component=th&list_id=3083124&product=i18n&resolution=---
